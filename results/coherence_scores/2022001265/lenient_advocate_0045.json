@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham v. John Deere/KSR §103 factors (scope and content, differences, PHOSITA level, secondary considerations) for obviousness analysis across all claims, and §102 element-by-element anticipation reasoning in the novelty stage—correct statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'single second APS index for chroma,' 'only luma filters'), specific prior art disclosures (Kim's CTB-level switching, Chen's luma-to-chroma sharing), and cited references (US-2020296365-A1, US-2013101018-A1) with passage-level citations."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage found claims 1, 2, 3, 5, 7, 9 not novel (anticipated by prior art), but the obviousness stage then found claim 1 not obvious (is_obvious: false) without adequately explaining why anticipation failed while still supporting a non-obviousness finding—creating an internal contradiction where two references that supposedly anticipate every element suddenly cannot motivate combination."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.292 (lenient) and combination_threshold 0.722 (high bar for combining), which is reflected in the reasoning: claim 1 is found non-obvious because motivation to combine is insufficient, consistent with a high combination threshold, and the overall lean toward 'amend_suggested' and grants on marginal claims reflects the lenient profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with grants on claims 4, 6, 12, 14 flows directly from the accumulated stage analyses, which found those claims novel and non-obvious due to the 'only luma/chroma filters' limitation, while rejecting broader claims under §103—consistent with prior stage conclusions."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13621,
+      "output_tokens": 483,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "case_id": "2020001686",
+  "proceeding_number": "2020001686",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1이 청구항의 주요 특징을 암시적으로 포함하고 있으나, 특정 재료(인크, 톤) 및 구성 요소의 명시적 언급 여부에 따라 해석의 여지가 있음. 결합 동기 또한 예측 가능한 기술적 선택에 기반함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2018113244-A1이 청구항의 모든 요소를 개시하거나 자명한 변형으로 포함하고 있으며, 결합 동기가 명확히 제시되어 있습니다. 광학 표면 기술 분야에서 빛 산란 입자를 다양한 마킹 재료 형태로 사용하는 것은 공지된 설계 선택입니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 사용된 'white marking material', 'non-white colored marking material', 'non-smooth' 등의 용어가 명세서에서 명확히 정의되지 않았다는 점에서 모호성이 존재합니다. 그러나 이는 명확한 발명 내용을 파악할 수 없을 정도의 심각한 문제로 보이지 않으며, 명확히 보정 가능한 사항입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 9 and 17 are clearly anticipated by US-2018113244-A1, which explicitly discloses all the elements of these claims. The prior art describes an optical waveguide with the required surfaces, marking materials, and light scattering properties, making the rejection of these claims on the basis of 102_novelty strong."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1이 청구항의 핵심 요소를 개시하고, 관련 분야에서 토너나 잉크 사용이 관행적이라는 점에서 결합 동기가 충분합니다. 그러나 청구항의 구체적인 구성 요소와 선행기술 간의 차이가 존재하며, 이 차이가 기술적 진보인지에 대한 추가 검토가 필요합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The US-2018113244-A1 explicitly discloses all elements of the claims, including the optical waveguide with concave/convex surfaces, forward-scattering light extraction elements (first material), and a reflector (second material) on the first material. The high confidence (0.89) and verification status confirm this is a strong anticipation rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The reference teaches all essential elements, and the differences (e.g., specific materials like ink/toner) are design choices. The motivation to combine is clearly articulated as improving light distribution, aligning with the reference's own suggestions. High confidence (0.85) supports this as a strong obviousness rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks clear definitions for critical terms like 'portion' and 'light scattering properties,' and the examples (ink/toner) do not support the broader claims. While the issue is valid, the strictness threshold (0.89) ensures it is treated as a rejection rather than a request for clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The reference US-2018113244-A1 explicitly discloses all the elements of the claims, including the white marking material, non-white colored marking materials, and the layered structure. The confidence level for most claims is above 0.6, and the prior art clearly anticipates the claimed invention."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The claims are considered obvious over US-2018113244-A1 due to the common use of white and non-white materials for light scattering purposes. However, the confidence levels vary from 0.6 to 0.8, and the motivation to combine is based on general knowledge rather than explicit teaching."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 9, 11, 17, and 19 are clearly anticipated by the reference US-2018113244-A1 as they disclose all the elements of the claimed invention, including the white marking material as light scattering particles and the optical waveguide components with light scattering properties."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejections for claims 3, 9, 11, 17, and 19 are considered weak because they contradict the 102 rejections for the same claims. Since a claim cannot be both anticipated under 102 and obvious under 103, the 103 rejections are removed, leaving only the 102 rejections as valid."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1이 청구항의 본질적인 요소를 개시하고 있으나, 특정 색상 재료(예: 흰색, 특정 색상)에 대한 구체적 개시는 없음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "색상 재료 선택은 해당 분야 기술자에게 동기화된 수정으로 판단되나, 흰색/비흰색 재료의 구체적 적용에 대한 선행기술의 가이드라인이 명확하지 않음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'third material'에 대한 명세서의 구체적 정의가 없어 청구항의 구현 가능성에 모호성이 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3, 9, 17 are rejected under 35 U.S.C. 102(a)(1) as being anticipated by US-2018113244-A1. The prior art explicitly discloses the claimed features, indicating a clear and direct anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 5, 6, 7, 8, 11, 12, 13, 14, 15, 16, 19, 20 are rejected under 35 U.S.C. 103 as being unpatentable over US-2018113244-A1. The prior art suggests the use of different materials (ink, toner, non-white colored marking materials) as obvious variants of the disclosed light scattering particles. The motivation to substitute one known element for another with predictable results is present, but the confidence varies from 0.5 to 0.75, indicating some level of interpretation is required."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claims 3, 6, 9, 11, 14, 17, 19 are rejected under 35 U.S.C. 112(a) for failing to comply with the written description requirement. The reasoning provided is too general and does not clearly explain how the terms are not supported by the specification. This rejection is weak as it lacks specific references to the specification and clear explanations."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejection is based on a strong reference (US-2018113244-A1) that discloses the core elements of the claimed invention. The combination threshold is low (0.33), and the motivation to combine is based on common sense and design choice in the field of illumination devices. The confidence levels for the obviousness determination are generally high (0.71-0.78), indicating strong support for the rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The 112 rejection lacks specific evidence from the provided specification to support the claim that the terms are not clearly defined. The reasoning is too general and does not provide sufficient basis for the written description rejection. Given the weak evidence and the neutral strictness level (0.50), this rejection is not strong enough to maintain."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2018113244-A1이 청구항의 모든 요소를 명확히 개시하며, light scattering particles가 marking material(잉크, 토너)의 자명한 변형으로 판단됨. 신규성 판단에서 0.8 이상의 confidence를 가진 청구항이 다수 포함됨"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1이 기재된 마킹 재료가 청구항에 명시된 특정 색상(예: 흰색) 또는 특정 물질(예: 잉크, 톤)을 명시하지는 않지만, 이들이 동일하거나 자명한 변형으로 간주될 수 있는 점은 충분히 논리적이며, 결합 동기도 명확합니다. 다만, 청구항과의 구체적인 차이점이 존재하고, 이 차이가 자명하다고 단정짓기에는 다소 해석의 여지가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1 explicitly discloses the essential elements of the claims, including the optical waveguide with light extraction elements and reflectors. The confidence levels are generally above 0.6, indicating strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claims involving substitution of materials (e.g., ink or toner for light scattering particles), the confidence is lower (0.5) and the reasoning is based on the functional equivalence of materials. While not strong, the motivation to combine is reasonable."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    }
+  ]
+}

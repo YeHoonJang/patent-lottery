@@ -1,0 +1,24 @@
+archetype_name: easy_combiner
+archetype_type: orthogonal
+orthogonal_dimension: combination_threshold
+description: >
+  Orthogonal archetype isolating combination threshold. Readily finds motivation to
+  combine prior art references, lowering the bar for §103 obviousness. Tests the
+  pure effect of KSR application stringency. [KSR v. Teleflex 2007, Mandel 2008]
+base_profile:
+  strictness: 0.50
+  claim_breadth: 0.50
+  combination_threshold: 0.25
+  seniority: 0.50
+  tech_specialization: 0.50
+  policy_stance: 0.50
+  legal_style: pragmatist
+  tech_domains:
+    - general
+noise_config:
+  strictness: 0.05
+  claim_breadth: 0.05
+  combination_threshold: 0.05
+  seniority: 0.05
+  tech_specialization: 0.05
+  policy_stance: 0.02

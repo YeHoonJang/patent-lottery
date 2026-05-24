@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis with specific reference to US-2012244905-A1, uses Graham factors for §103 obviousness, and invokes §112(a)/(b) written description and enablement framework for specification-support issues — each statute is addressed under its proper legal test."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the trace, conclusions are tied to specific prior art references (e.g., US-2012244905-A1 paragraphs [0037], [0045]), specific claim language ('lateNonCriticalExtension,' 'maxMultiBands,' 'reportCGI'), and specific specification deficiencies, satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claims 1, 7, 8, 12, 13, and 24 were found not novel at §102 with high confidence (0.80–0.90), yet the §103 analysis then independently found those same claims non-obvious (is_obvious=false) without explaining why the §103 analysis diverges from the strong §102 anticipation findings — this is an internal contradiction across stages without stated justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.422 (below 0.5, mildly lenient), the examiner's final decision of 'amend_suggested' rather than outright rejection, the granting of multiple claims (4, 6, 10, 15, 17, 20, 22, 23), and expressed willingness to give applicant amendment opportunities all reflect a lenient-to-moderate stance consistent with the profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'amend_suggested' decision flows logically from the accumulated analysis: §102 rejections on claims 1/2/7/8/12/13/18/24, §112 rejections on claims 3/5/9/11/14/16/19/21, and allowance of claims 4/6/10/15/17/20/22/23 — with the summary explicitly tying the decision to the ambiguity in the prior art and the specification deficiencies identified in prior stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017006947",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17400,
+      "output_tokens": 542,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

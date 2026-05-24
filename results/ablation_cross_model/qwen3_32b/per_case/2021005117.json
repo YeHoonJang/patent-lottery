@@ -1,0 +1,350 @@
+{
+  "case_id": "2021005117",
+  "proceeding_number": "2021005117",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejections are based on well-established prior art (US-2017305402-A1) and routine design choices in the art. The combination of known elements (resistors, switches, microcontroller) for load current simulation is considered obvious to a person having ordinary skill in the art. The motivation to combine is clear, and the specific configurations (e.g., number of resistors, use of relays, temperature monitoring) are deemed routine."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 1 and 14 are directly anticipated by US-2017305402-A1, which discloses all the essential elements of the claims. The prior art teaches a data processor (microcontroller), brake simulation circuitry with parallel resistors, and switches controlled by the data processor to apply the resistors to the brake control signal. This is a clear case of anticipation under 35 U.S.C. § 102(a)(1)."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항 1의 모든 핵심 요소(전류 모니터링 회로, 병렬 저항기, 트랜지스터 스위치, 마이크로컨트롤러)를 이미 개시하고 있으며, 청구항의 표현 차이는 단순한 디자인 선택으로 판단됩니다. 결합 동기 기준(0.34)에 따라 이와 같은 미미한 차이는 진보성을 회복하지 못합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1이 청구항 1, 3, 7, 8, 14, 17, 18의 모든 요소를 명시적 또는 암시적으로 개시하고 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 모든 주요 요소를 포함하고 있으며, 추가적인 결합 동기가 필요하지 않음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015219706-A1을 기반으로 한 청구항 4, 5, 6, 9, 10, 11, 12, 13, 15, 16, 19, 20의 경우 추가 기능이 선행기술의 가르침과는 별도이지만, 자동차 제어 시스템 분야의 일반적 지식과 요구사항을 고려할 때 결합 동기가 합리적임"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 7, 8, 14, 17, 18 are directly anticipated by US-2017305402-A1 with high confidence (0.843–0.95). The prior art explicitly discloses all elements, including specific components like transistors and trailer brake controllers."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 16 are rejected based on equivalence (transistors implying relays). While the prior art suggests functional equivalence, the confidence (0.7) is moderate, leaving room for applicant arguments about non-equivalence."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항 1의 핵심 구성요소를 모두 개시하고 있으며, 차이점이 구현 세부사항에 불과함. 당업자가 선행기술을 바탕으로 청구항에 기재된 기술을 자명하게 도출할 수 있는 결합 동기가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The Graham's 4-factor analysis shows that the invention is obvious over US-2017305402-A1. The prior art teaches a similar system with a data processor (microcontroller circuitry), parallel resistors, and transistors (switches) controlled by the data processor. The differences are minimal and would be obvious to a person of ordinary skill in the art for testing brake controllers. The motivation to combine exists because both references are solving similar problems in the same technical field. The confidence level is high at 0.85, indicating strong support for the obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1이 청구항 1, 3, 7, 8, 14, 17, 18의 구성요소를 모두 개시하고 있음. 신규성 거절은 명확한 증거가 존재하므로 강한 근거입니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015219706-A1이 청구항 11의 구성요소를 개시하고 있음. 신규성 거절은 명확한 증거가 존재하므로 강한 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2017305402-A1이 핵심 요소를 개시하고 있으며, 추가적인 특징(온도 센서, 로우 사이드 드라이버 등)은 해당 분야의 공지 기술로 판단됨. 그러나 이 추가 특징들이 자명하다는 주장은 해석의 여지가 있으므로 중간 수준의 근거로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항 1, 3, 7, 8, 11, 12, 14, 17, 18의 모든 요소를 명확히 개시하고 있어, 신규성 거절 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항의 모든 요소를 개시하고 있어, 진보성 판단에서도 자명한 것으로 평가됨. 결합 동기가 필요하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1이 청구항 1, 3, 7, 8, 14, 17, 18의 모든 구성요소를 명확히 개시합니다. 이는 신규성을 부정하는 강력한 증거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4, 5, 6, 9, 10, 11, 12, 13, 15, 19, 20에 대한 진보성 거절 근거는 선행기술과의 차이가 통상의 기술자에게 예측 가능한 개량으로 보입니다. 그러나 일부 청구항(예: 청구항 2, 16)은 선행기술에서 명시적으로 개시되지 않았으며, 이는 거절 근거가 약한 것으로 보입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4, 5, 15에 대한 진보성 거절 근거는 선행기술에서 온도 센서 회로 및 온도 기반 제어에 대한 개시가 없지만, 온도 모니터링을 추가하는 것은 일반적이고 예측 가능한 개량으로 간주됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1 및 US-2015219706-A1이 각 청구항의 구성요소를 개시하며, 구조적 차이가 명확히 드러나지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1이 청구항 1, 3, 7, 8, 12, 14, 17, 18의 모든 요소를 명확히 개시하고 있으므로, 이 청구항들에 대한 102(a)(1) 거절은 강한 근거를 바탕으로 한다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 4, 5, 6, 9, 10, 11, 13, 15, 16, 19, 20에 대한 103 거절은 선행기술의 결합 및 공지기술에 기반하지만, 일부 청구항의 경우 결합 동기나 공지기술의 명확성에 따라 강도가 다를 수 있다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.87,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The US-2017305402-A1 reference already teaches all the essential elements of the claimed invention. The reasoning provides a clear motivation to combine and explains how the prior art reference teaches the claimed elements or suggests them through inherent functionality. The current monitoring is an inherent part of load simulation in this reference, and a person skilled in the art would have been motivated to use current monitoring as part of the existing load simulation system since current measurement is fundamental to understanding and controlling electrical loads in vehicle systems."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항 1의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, 신규성이 부정된 청구항에 대해 별도의 진보성 판단은 필요하지 않다. 따라서 103 거절 근거는 신규성 거절과 동일한 선행기술에 기반하므로 강력하다."
+        }
+      ]
+    }
+  ]
+}

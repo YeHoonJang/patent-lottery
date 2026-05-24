@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 analysis uses element-by-element anticipation and the §103 analysis invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine), correctly applying statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (e.g., US-2014213070-A1, US-2015303056-A1) and links particular claim elements (e.g., Si_xH_y precursor, UV cure, specific temperature ranges) to specific disclosures in those references."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For claims 6, 7, 8, 16, and 20, the §102 novelty stage found them novel (no anticipating reference), yet the office action and final decision list them in the 'allowable_claims' field while simultaneously rejecting them under §103 — this is internally consistent; however, the §103 office action for claims 7 and 8 contradicts the obviousness-stage findings (is_obvious: false for both claims 7 and 8) without providing additional rationale for reversing those findings, constituting an unexplained stage inconsistency."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.603 (moderate), the examiner rejects most claims but leaves open amendment pathways for borderline claims (6, 7, 8, 16, 20), which is consistent with a mid-range strict examiner resolving ambiguity toward rejection while not categorically denying all claims."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with rejections on claims 1–5, 9–15, 17–19 under §102 and claims 6, 7, 8, 16, 20 under §103 follows logically from the accumulated novelty and obviousness stage analyses, with the summary and examiner notes providing stated rationale connecting the stage findings to the outcome."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001845",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 20121,
+      "output_tokens": 495,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

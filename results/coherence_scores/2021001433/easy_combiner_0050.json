@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly applies Graham factors (scope and content, differences, PHOSITA level, secondary considerations) and KSR-style motivation-to-combine analysis for each claim, consistent with the proper obviousness framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim analysis references specific prior art (US-2012299509-A1) disclosures (ZigBee address assignment, gateway relay functions) and compares them against specific claim language (software installation to enable second protocol, MAC-level, physical-level protocols)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "All claims found novel at §102 are consistently found non-obvious at §103 for the same distinguishing reason (software installation for protocol enablement), and the office action and final decision align with these findings without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.461 and combination_threshold=0.222 (easy combiner), the examiner nonetheless finds no motivation to combine given the single prior art reference and absence of any second reference, which is consistent with a moderate-lenient stance that still requires some evidentiary basis; granting all claims on clear non-obviousness grounds aligns with the neutral-to-lenient profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The grant decision directly follows from the accumulated stage analyses showing novelty across all claims, non-obviousness supported by Graham factors for each claim, and §112 compliance noted in the office action, with no reversal of direction."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001433",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 6106,
+      "output_tokens": 366,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

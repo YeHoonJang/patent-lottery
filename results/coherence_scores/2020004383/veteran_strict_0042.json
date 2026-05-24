@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 and Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) under §103 for all claims, invoking the proper statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection is tied to specific prior art references (US-2016364341-A1 and US-2012254995-A1) with explicit mapping of claim elements to reference disclosures, such as EPT-based GPA→HPA mapping, guest page tables, and hypercall mechanisms."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis consistently builds upon the §102 findings — where §102 found strong anticipation, §103 characterizes the same as obvious, and where §102 relied on implicit disclosure or combination of references, §103 provides additional motivation-to-combine rationale without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.793 and low combination threshold of 0.335 are reflected throughout: ambiguous elements (e.g., hypercalls not explicitly mentioned in US-2016364341-A1) are resolved toward rejection, and weak motivations to combine (common security purpose) are accepted, consistent with a strict examiner with easy-combiner tendencies."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims follows directly and consistently from the accumulated §102 and §103 stage analyses, with the final decision explicitly citing the same references, same Graham factors, and same reasoning developed in the novelty and obviousness stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004383",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16374,
+      "output_tokens": 398,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

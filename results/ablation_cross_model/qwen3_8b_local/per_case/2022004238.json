@@ -1,0 +1,351 @@
+{
+  "case_id": "2022004238",
+  "proceeding_number": "2022004238",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are directly anticipated by US-2012212074-A1 with high similarity scores (0.6-0.9) and explicit coverage of key elements. The Graham factors confirm functional equivalence under BRI and PHOSITA-level obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks definitions for critical terms like 'modulation property' and 'predefined time interval', which are essential for enablement. Verification confirms this deficiency as explicit in the record."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2012212074-A1:claim6 & claim57) directly teaches functional equivalents of all claimed elements. The combination is obvious for improving energy transfer efficiency, with clear motivation and Graham factors supporting obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Indefinite terms like 'modulation property' and 'work against change' lack technical definitions in the specification, rendering the claims indistinguishable from abstract ideas and failing enablement requirements."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2012212074-A1) explicitly discloses all claimed elements (frequency adjustment, load resistance modifications, coupling state changes, reverse coupling signals) and provides clear motivation to combine them for optimizing energy transfer efficiency. Confidence levels across claims are consistently high (0.65–0.95), exceeding the combination_threshold=0.68. Graham factors confirm technical knowledge and practical application in the field."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'modulation property,' 'alternating rising/falling progression,' and 'temporally changed resistivity' lack sufficient technical definition in the specification. While the prior art (US-2012212074-A1) provides context, the specification's ambiguity creates a moderate risk of indefiniteness. Confidence in this basis is lower (0.6–0.9) compared to 103, but the absence of clear implementation details remains a valid concern."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 38, 40, and 57 have definitional ambiguities (e.g., 'modulation property', 'work against', 'analyser') that create uncertainty for a PHOSITA, but these issues may be remedied through clarification rather than outright rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 38-57 are explicitly or implicitly disclosed in the prior art with clear logical combinations (e.g., claim 6 and 56 for energy-based resonance adjustment, claim 57 for demodulation). The Graham factors show obviousness through functional equivalence, secondary considerations (medical implants), and PHOSITA-level understanding. Confidence scores range from 0.55 to 0.85, with multiple claims having >0.7 confidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Objections focus on terms like 'modulation property' and 'oscillation period' lacking sufficient disclosure. While the prior art (US-2012212074-A1) provides some context, the claims introduce specific implementations (e.g., energy thresholds, predefined intervals) that may not be adequately supported by the specification."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art combinations (claims 6/56) directly support obviousness with clear motivation and Graham factors, meeting strictness threshold."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Explicit anticipation in prior art claims (e.g., claim6) matches claimed features with high confidence (>0.82)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguities in claims 40/44/45 require clarification, but not definitive rejection under strictness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all claimed features (e.g., load resistance adjustments, electromagnetic induction coupling, medical implant applications) and provides clear motivation to combine elements (e.g., optimizing energy transfer efficiency). Graham factors confirm obviousness with high confidence (0.7-0.9)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks detailed implementation of modulation analysis, series circuits, and bridge branch configurations. While prior art references are cited, the deficiency in written description is not explicitly addressed in the application's disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses core elements (claim6, claim57, background) and provides clear motivation for combination (energy efficiency, medical applications). Confidence levels (0.7-0.9) indicate strong evidence of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art explicitly teaches load resistance adjustment (claim 6) and reverse coupling signals (detailed description). The combination of these elements to adjust resonance frequency based on energy feedback is a straightforward design choice for PHOSITA, with high confidence (0.85+) and clear motivation to optimize energy transfer. The Graham factors confirm the obviousness of linking resonance adjustment to energy levels and coupling compensation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art elements (claims 2, 6, 57 of US-2012212074-A1) are clearly combinable under Graham factors with explicit motivation for energy optimization. Confidence scores exceed 0.75 for most claims."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly teaches multiple elements (claims 6, 3, 56, 57) directly overlapping with claims 38-57. The combination motivation (energy efficiency improvement) is clearly established, and Graham factors confirm PHOSITA would find the combination obvious. Confidence scores (0.7-0.95) indicate strong technical overlap."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2012212074-A1) explicitly discloses overlapping features (resonance frequency adjustment, load resistance coupling control, reverse coupling signal analysis) and provides clear motivation to combine (improve coupling efficiency). Graham factors confirm obviousness with high confidence (0.6-0.95)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all claimed elements (load resistance adjustment, reverse coupling signals, medical implants) and provides clear motivation for combination. Graham factors confirm obviousness with high confidence (0.85-0.9)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specific term 'modulation property analysis method' lacks antecedent basis, but broader claims may still meet description requirements. Confidence in written description weakness is lower (0.6-0.7)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims are rejected based on clear prior art combinations with high confidence (0.7-0.9). The Graham factors show obviousness through direct teachings or obvious variants of prior art elements."
+        }
+      ]
+    }
+  ]
+}

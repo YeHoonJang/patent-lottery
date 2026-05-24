@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for obviousness, and §102 uses element-by-element anticipation analysis, with no cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific references (US-2012159647-A1, US-2013144785-A1) with explicit mapping to claim elements such as social graph information, risk level calculation, transaction approval/denial, and specific social interaction data points."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The office action raises both §102 and §103 rejections on the same claims (1–7, 9–17, 19–20), but the §102 rejection incorrectly states claims are anticipated by a 'combination' of two references rather than a single reference, which directly contradicts the legal standard for anticipation established in the novelty stage; this internal inconsistency is not reconciled or justified."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.875, the examiner consistently resolves ambiguities toward rejection (e.g., inferring implicit disclosures, applying BRI broadly, treating functional equivalents as anticipating), and the low combination_threshold (0.344) supports accepting relatively thin motivation-to-combine rationales throughout the §103 analysis."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated §102/§103 analyses, with claims 8 and 18 consistently identified as allowable subject matter across novelty, obviousness, office action, and final decision stages, and the overall reject outcome is supported by the strong §103 findings throughout."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001350",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16403,
+      "output_tokens": 419,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

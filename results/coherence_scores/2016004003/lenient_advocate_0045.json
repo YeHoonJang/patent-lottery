@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage applies element-by-element anticipation analysis against US-2013160036-A1, the §103 stage applies all four Graham/KSR factors (scope/content, differences, PHOSITA level, secondary considerations), and no wrong-statute reasoning is used."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the trace, conclusions consistently cite specific claim elements (e.g., 'attention estimation features,' 'companion device interaction measurement,' 'weighted fusion') and reference specific disclosures in US-2013160036-A1, satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 stage finds all 21 claims lack novelty (not novel), but the §103 stage then finds all 21 claims non-obvious without adequately reconciling why elements that were explicitly anticipated at §102 suddenly have insufficient prior art disclosure to support obviousness — the flip from 'fully anticipated' to 'non-obvious' contradicts the earlier findings without a coherent bridge."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.292 (lenient) and a high combination_threshold 0.722 (hard combiner), and the trace consistently resolves ambiguity in the applicant's favor — finding non-obviousness on weak distinctions and recommending amendments rather than rejections — consistent with a lenient, innovation-supportive profile."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision recommends 'amend_suggested' (effectively pro-applicant) after the office action issued a §102 rejection of all 21 claims, reversing the direction of the novelty stage without squarely addressing why anticipation was wrong, creating an unjustified contradiction between the office action and the final decision."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2016004003",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14552,
+      "output_tokens": 440,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

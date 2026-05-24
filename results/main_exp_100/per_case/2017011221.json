@@ -1,0 +1,294 @@
+{
+  "case_id": "PILOT-2017011221",
+  "proceeding_number": "2017011221",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2014143129-A1 explicitly discloses an automated system for mortgage processing involving party identification, task scheduling, dynamic workflow generation, transmission, and updating based on transaction data. The claimed invention applies the same automated workflow techniques to real estate closing—a closely related phase within the same domain. The reference already accounts for geographic location and transaction type in processing rules, which directly supports the motivation to combine. All claim elements are either explicitly or inherently disclosed, and no technical improvement or unexpected result is demonstrated. Given the high confidence scores (0.78–0.90) across claims and the explicit teaching of variable-based workflow adaptation, the obviousness rejection is strong under broadest reasonable interpretation and textualist reading."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143129-A1은 모기지 처리를 위한 포괄적인 자동화 시스템을 개시하며, 당해 출원의 실물 자산 거래 마감 워크플로 관리와 기술적 맥락 및 기능 측면에서 밀접하게 관련됨. 청구항의 구성요소들(예: 당사자 식별, 조치 스케줄링, 다이내믹 워크플로 생성, 상태 업데이트 등)은 선행기술의 모듈(예: 신청자 목표 수집, 운영 커널, 옵션 제시 모듈 등)에 의해 명시적 또는 암시적으로 개시됨. 결합 동기(motivation to combine)는 규제 부담, 비용, 지연 문제 해결이라는 공통의 과제에서 도출되며, PHOSITA가 해당 기술을 유사한 금융 거래 환경(부동산 마감)에 적용하는 것은 자명함. 진보성 판단의 그레이엄 요소들(범위 및 내용, 차이점, 기술수준, 이차적 고려사항) 모두 obviousness를 지지함. confidence 수치(0.8~0.92)도 전반적으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112(b) rejections in the Office Action focus on indefiniteness of terms like 'predetermined duration,' 'preliminary escrow actions,' 'type of real estate transaction,' and 'geographic location.' While these terms lack explicit definitions in the claims, the specification likely provides sufficient context for a PHOSITA to understand their meaning. For example, 'predetermined duration' is a common term in workflow systems and could be interpreted as a set time interval (e.g., 24h, 48h) based on business rules. Similarly, 'geographic location' and 'transaction type' are standard variables in real estate systems. The indefiniteness is not severe enough to render the claims insolubly ambiguous, especially given the practical context of real estate closing workflows."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014143129-A1은 모기지 신청 처리 시스템을 개시하고 있으나, 실시간 동적 워크플로우 업데이트, 거래 유형 및 지리적 위치 기반 일정 조정, 제3자 에스크로 에이전트를 작업 참여자로 통합하는 점에서 차이가 있음. 이러한 특징들은 단순한 자동화가 아니라 부동산 거래 마감 프로세스의 효율성과 정확성을 향상시키는 기술적 기여로 평가될 수 있음. 그러나 선행기술이 유사한 목적(프로세스 자동화)을 가지고 있어 결합 동기가 존재하므로, obviousness 주장은 일정한 타당성을 가짐. 하지만 그 강도는 높지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014143129-A1은 모기지 처리를 위한 자동화된 통합 시스템을 개시하며, 출원 발명의 핵심 구성요소인 당사자 식별, 자동 일정 스케줄링, 동적 워크플로우 생성, 외부 통신, 조건 기반 후속 조치 등을 포함한다. 부동산 거래 마감 프로세스로의 적용은 기술적 확장의 자연스러운 결과로, 통상의 기술자에게 명백하며, 결합 동기가 선행기술 내에 존재함. Graham 요소들(기술 수준, 차이점, 2차적 고려사항) 모두 obviousness를 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143129-A1은 모기지 처리를 위한 통합 자동화 시스템을 명시적으로 개시하며, 당사자 식별, 동적 워크플로우 생성, 조건부 진행, 제3자 연동, 위치 및 유형 기반 규칙 적용 등을 포함함. 청구항의 핵심 구성요소 대부분이 선행기술에 명시되거나 암시되며, 부동산 클로징이라는 유사 도메인으로의 확장은 통상의 기술자에게 자명함. 특히 지리적 위치 및 거래 유형 기반 스케줄링은 동일한 원리 적용. combination_threshold=0.51 기준으로도 결합 동기 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으며, 선행기술과의 차이점이 명확히 기술되고, 결합 동기 부족 및 2차 고려사항(예: 상업적 성공 가능성, 문제 해결 기여)이 강조됨. combination_threshold=0.46인 점을 고려하더라도, 해당 기술 조합이 통상의 기술자에게 자명하지 않다는 판단은 일관되게 유지됨. 그러나 심사관의 strictness=0.47으로 중립적 성향이므로, 약한 obviousness 근거는 거절로 보기 어렵다고 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014143129-A1은 청구항 1, 9, 17의 모든 구성요소를 명시적으로 개시하고 있으며, 실시간 워크플로우 생성, 당사자 식별, 작업 자동 예약, 인터넷을 통한 정보 전송, 처리 상태 업데이트 등의 기능을 포함하므로 신규성 결여 판단은 강한 근거를 가짐."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 진보성 결여 판단이 이루어졌으며, 특히 유사한 부동산 거래 자동화 맥락에서 모기지 처리 시스템을 마감 프로세스로 확장하는 것은 당업자에게 명백한 변화로, 결합 동기가 명확하고 기술적 차별성이 없음. 특히 지리적 위치 및 거래 유형 기반의 조정은 선행기술에 직접적으로 개시됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 내 'predetermined duration', 'signed documentation', 'preliminary escrow actions' 등의 용어는 명세서에서 정의되지 않아 불명확하나, 본 기술 분야의 통상적인 기술수준자(PHOSITA)가 맥락상 해석 가능할 수 있음. strictness=0.46인 중립적 성향 하에서는 완전한 거절보다는 수정 제안이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014143129-A1은 모기지 처리를 위한 통합 자동화 시스템을 개시하고 있으며, 청구항의 구성요소들(당사자 식별, 조치 스케줄링, 동적 워크플로우 생성, 업데이트 등)이 해당 시스템의 명확한 확장 또는 일상적 설계 선택으로 간주될 수 있음. 특히 거래 유형 및 지리적 위치 기반 스케줄링은 선행기술의 배경기술 및 제3자 정보 통합 기능에서 직접적으로 암시되거나 명시됨. 결합 동기는 자동화된 재무 거래 처리의 공통 목적(비용 절감, 지연 최소화, 규제 준수)에서 자연스럽게 도출되며, 통상의 기술자에게 자명함. 모든 청구항에 대해 일관된 판단이 가능하며, confidence 수치도 전반적으로 높음(0.7–0.9)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143129-A1은 대출 처리 시 연방, 주, 지역 규정에 따라 프로세스를 조정하는 것을 명시적으로 개시하고 있으며, 이는 지리적 위치에 기반한 조치 스케줄링과 직접적으로 대응한다. 해당 기능은 부동산 거래 클로징 시스템에서 규제 준수를 보장하기 위한 자명한 적용이며, 결합 동기가 명확하고 예측 가능한 결과를 도출한다. 출원인의 주장에도 불구하고, 이는 기술적 통합 차원에서 비자명한 변화를 요구하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143129-A1은 모기지 처리를 위한 포괄적인 자동화 시스템을 개시하며, 당사자 식별, 작업 예약, 워크플로우 생성, 네트워크 통신, 상태 업데이트 등을 포함한다. 청구항의 발명은 유사한 목적(효율성, 규제 준수, 다자간 조정)을 가진 부동산 클로징 전반에 동일한 원리를 적용한 것으로, 특허출원 당시 일반 숙련자(PHOSITA)가 쉽게 도달할 수 있는 확장이다. 결합 동기(motivation to combine)는 명확하며, 거래 유형 및 지리적 위치 기반 일정 예약 등 개별 특징들도 선행기술에서 명시적 또는 암시적으로 개시됨. 진보성 결여에 대한 증거의 강도는 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143129-A1은 모기지 처리를 위한 자동화된 워크플로우 시스템을 상세히 개시하고 있으며, 본 출원의 핵심 구성요소들(당사자 식별, 액션 스케줄링, 동적 워크플로우 생성 및 업데이트 등)을 실질적으로 포함하고 있음. 모기지 처리와 부동산 거래 마감은 모두 다자간 조정, 문서 중심성, 규제 준수라는 공통된 과제를 가지며, PHOSITA가 하나의 도메인에서 다른 도메인으로 기술을 확장하는 것을 명백하다고 판단할 수 있음. 결합 동기가 명확하고, 선행기술의 모듈식 설계와 목적이 이러한 확장을 지지함. confidence 점수(0.75~0.82)와 그레이엄 요소 분석 모두 강한 명백성 판단을 지지함."
+        }
+      ]
+    }
+  ]
+}

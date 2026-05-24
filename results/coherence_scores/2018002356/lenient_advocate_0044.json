@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis for claims 1/3, Graham/KSR factors for §103 obviousness on claims 4/6/8, and §112 written description/possession analysis for claims 13/22/37/42/44 — each statute receives its proper legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the trace, conclusions are tied to specific claim language ('machine-readable pay code,' 'full transaction details,' 'QR code') and specific disclosures in US-2012296725-A1 (e.g., 'machine-readable tag,' 'preferred payment options,' 'PCD'), with element-by-element mapping provided."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "At the §102 stage, claim 1 is found not novel (anticipated), yet the §103 and final decision stages treat claim 1 as having a meaningful inventive distinction ('full transaction details encoded in a pay code') without adequately explaining why the same elements that supported anticipation now support a non-obvious arrangement — creating an inconsistency between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.248 (lenient) and combination_threshold=0.676 (high barrier to combine), the examiner resolves most ambiguous claims in favor of the applicant (granting claims 2, 5, 7, 9, 10 and suggesting amendments rather than outright rejections), consistent with a lenient profile that requires strong motivation to combine before rejecting on §103 grounds."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'amend_suggested' decision with a decision_score of 0.55 follows logically from the mixed stage findings — rejections on claims 1, 3, 4, 6, 8 under §102/§103 and §112 issues on several claims, offset by allowable findings on claims 2, 5, 7, 9, 10 — making the outcome a coherent synthesis of prior analyses."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018002356",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10375,
+      "output_tokens": 501,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

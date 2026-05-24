@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences from claims, PHOSITA level, secondary considerations) across all claim evaluations, and §102 novelty uses element-by-element anticipation analysis with coverage scores."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim elements (send/receive buffers, assembler, path table parameters, feedback loop), specific prior art disclosure passages (MPTCP/RFC 6824, bandwidth/latency/loss monitoring in US-2015245409-A1), and coverage scores anchored to claim language."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 findings — claims found novel at §102 (claims 7, 14 re UDP) are also found non-obvious at §103, while claims found to lack complete §102 anticipation (e.g., claim 1 with missing buffers) are then rejected under §103 with added rationale about common knowledge, without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's combination_threshold of 0.222 (very low) is explicitly invoked multiple times as justification for accepting weak motivation to combine (e.g., 'combination_threshold=0.22로 낮아 공지상식 기반 결합도 용인됨'), and the moderate strictness (0.461) is reflected in allowing claims 7 and 14 on UDP while rejecting the majority, consistent with a pragmatist easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision (amend_suggested, reject most claims, grant claims 7 and 14) directly follows from the accumulated stage analyses: §103 rejections for all claims except 7 and 14, which were consistently found novel and non-obvious in both prior stages due to the absent UDP disclosure."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15345,
+      "output_tokens": 472,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

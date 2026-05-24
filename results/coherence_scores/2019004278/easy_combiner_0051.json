@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 analyses and uses element-by-element anticipation logic for §102 novelty, correctly invoking the appropriate legal framework for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the trace, conclusions are anchored to specific claim language (e.g., 'delivery module,' 'count of occurrences,' 'instead of via the first application') and to specific disclosures in US-2013203433-A1 (e.g., 'sessions of mobile usage,' ¶0020, claim 8), satisfying the evidence-linked requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings—claims found novel at §102 are then evaluated for non-obviousness using additional motivation-to-combine analysis, and the three claims rejected (4, 5, 9) were already flagged as obvious in the §103 stage, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a combination_threshold of 0.329 (easy combiner) and moderate strictness (0.502), the examiner readily finds motivation to combine for claims 4, 5, and 9 based on relatively thin parallels (e.g., 'sessions of mobile usage' → time-based circumstances), while granting most other claims, which is consistent with the easy-combiner, moderate-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to partially reject (claims 4, 5, 9) and grant the remainder directly follows from the stage-level analyses, where those three claims were marked obvious with 'strong' weighing and all others were found non-obvious, with no unexplained reversals."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019004278",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15119,
+      "output_tokens": 455,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

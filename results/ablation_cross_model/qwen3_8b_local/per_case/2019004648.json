@@ -1,0 +1,354 @@
+{
+  "case_id": "2019004648",
+  "proceeding_number": "2019004648",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are directly anticipated by prior art with clear mechanical equivalents and no non-obviousness. Other claims show moderate evidence of obviousness via prior art combinations but lack sufficient distinction."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims are rejected under 103 due to clear combination of prior arts (US-2014126158-A1 and US-2015123751-A1) meeting the combination threshold. The PHOSITA would readily combine modular interconnectivity and trip mechanisms for customizable circuit protection, with high confidence (0.7-0.85)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action identifies indefiniteness, but the claims' technical specificity (e.g., 'individually selectable interruption portion') may not clearly lack enablement. However, the strictness threshold (0.88) favors rejection over ambiguity."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Multiple claims are supported by prior art with high confidence (0.6-0.8), but some elements (e.g., actuator positioning, variable size) show minor variations. The combination threshold (0.68) is met, but the technical contribution appears incremental."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합 동기와 기술적 동기 제공이 충분하지만, 결합의 자명성에 대한 해석 여지가 존재. 심사 성향(0.29)에 따라 기술적 기여가 인정될 수 있도록 보정 제안."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are obvious under the combination threshold with clear prior art references (US-2015123751-A1, US-2014126158-A1) and well-documented Graham factors. The modular design and actuator mechanisms are standard in the field, with high confidence (0.75-0.9)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail on 'field-configurable' structure and 'immovable' state's physical connections, as noted in the Office Action. While not explicitly disclosed in prior art, the deficiency is significant under strictness=0.89."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are obvious under 103 due to clear combination of prior art references (US-2015123751-A1, US-2014126158-A1) with explicit motivation to combine. Graham factors show standard design choices and PHOSITA knowledge."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Objections for claims 1,2,5,6,10,13,14 indicate insufficient detail, but the analysis lacks specific examples of enablement deficiencies. Confidence in this basis is lower than 103."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'field-configurable' 및 'different specifications' 용어의 구현 방식이 명확히 설명되지 않아, 청구항의 범위가 불분명하다는 증거가 명확히 제시됨. 이는 112(b) 요건을 충족하지 못하는 것으로 판단되며, confidence 0.8로 강한 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references explicitly disclose modular detachable components (US-2014126158-A1) and fault detection/trip unit functionality (US-2015123751-A1). The combination is obvious to a PHOSITA with clear motivation to create field-configurable apparatus, and Graham factors confirm technical feasibility."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Objections highlight insufficient disclosure of 'field-configurable' and 'connection element' functionality, but the analysis lacks specific evidence of enablement gaps. The functional limitations ('trip unit', 'detection system') are not adequately described in the specification."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'connection element' in claim 1 is explicitly identified as inadequately described in the specification, with clear 35 USC 112(b) deficiencies. The 'detached configuration' lacks sufficient structural details, meeting the strictness threshold for written description rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly teaches modular latching (Ref 2) and trip unit/detection system functionality (Ref 1) in related fields. The combination is obvious for customizable systems, but the confidence level (0.75) suggests some ambiguity in the exact technical synergy between elements."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Specification lacks adequate detail on 'field-configurable' functionality and movable connection mechanism, directly violating 112(d). The Office Action's verification confirms this as a clear deficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 fully covers claim 1 with coverage score 0.78, exceeding strictness threshold"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Multiple claims (3-13) have coverage scores >0.55 but require interpretation of 'obvious variant'"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Ambiguous terms like 'physically and electrically disconnected' lack quantitative definitions"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Combination motivation is implied but not explicitly taught in prior art"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art references explicitly teach individual components (trip unit in US-2015123751-A1 and modular detection in US-2014126158-A1), but the combination's novelty lies in integrating them into a single field-configurable unit. While the motivation to combine exists, the integration requires non-obvious engineering judgment."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objection hinges on vague terms ('individual application', 'different specifications') lacking specific definitions in the specification. However, the enablement is not entirely absent, as the core functionality is supported by the cited references."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1와 US-2015123751-A1의 결합은 기술자에게 결합 동기와 기술적 효과가 명확히 제시되어, 결합이 자명함을 보여준다. 이는 103_obviousness의 강한 근거로 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are rejected under 103_obviousness with confidence scores of 0.7 and 0.75, respectively, which exceed the strictness threshold of 0.60. The combination of US-2015123751-A1 and US-2014126158-A1 is clearly motivated by the need for modular, field-configurable circuit breakers, with explicit technical details in the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Definiteness issues for terms like 'individually selectable' and 'TEST input device' are noted, but the specification lacks sufficient detail to support these claims. Confidence scores for these objections are moderate (0.65-0.7), aligning with the strictness threshold."
+        }
+      ]
+    }
+  ]
+}

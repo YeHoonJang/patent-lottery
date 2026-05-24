@@ -1,0 +1,310 @@
+{
+  "case_id": "2019001304",
+  "proceeding_number": "2019001304",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claim 1 is rejected under 102(a)(1), but the prior art does not explicitly disclose the specific method of sampling two batches, detecting both surface and powder colors, and controlling roasting based on both. The similarity scores are below 0.5, suggesting insufficient anticipation. This weakens the 102 rejection due to lack of direct disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejections for claims 2-14 and 15 are supported by the combination_threshold (0.34) and the general knowledge that color monitoring and process control are well-known in the field. The added features (e.g., target roast levels, prediction models, adaptive sampling) are identified as routine optimizations or standard design choices, aligning with the strictness of 0.79 to maintain these rejections."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 15 is rejected under 112(b) for being incomplete and omitting essential structural details (e.g., which apparatus is incorporated). This is a clear and well-supported issue under 112, requiring clarification for enablement and definiteness."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014106038-A1이 청구항의 핵심 기술적 특징을 암시적으로 가르치며, 결합 동기가 명확하게 제시됨. 신규성 판단에서도 대부분의 청구항이 선행기술에 의해 앤티시페이트되는 것으로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014106038-A1이 대부분의 청구항의 구성요소를 개시하고 있으며, 해당 분야 기술자가 이를 결합하여 발명을 도출할 동기가 명확하게 제시됨. 결합의 자명성에 대한 근거가 충분함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서 미흡 사항이 존재하지만, 이는 명확한 신규성/진보성 문제보다는 개선 가능한 서면 설명 문제임. 출원인이 명세서를 보완하면 해결 가능한 수준"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014106038-A1이 청구항의 본질적 요소를 암시적으로 개시하고 있으며, 커피 로스팅 산업에서 색상 기반 제어가 공지된 기술이라는 점에서 결합 동기가 명확합니다. 따라서 103 거절 근거는 강력합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2014106038-A1 teaching a coffee roasting process with color monitoring and control. While the reference implicitly teaches the core method elements, the confidence levels for individual claims range from 0.5 to 0.75, indicating varying strength of the obviousness determination. The reasoning properly applies the Graham factors but relies on the interpretation that the claimed features are routine modifications. Given the strictness parameter of 0.47, which is slightly below the midpoint, the moderate strength of the 103 rejection is not sufficient to warrant a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art US-2014106038-A1 clearly discloses the core elements of the claimed methods and apparatus for controlling coffee roasting. The similarity scores and combination threshold indicate that the claimed features are straightforward variations of the prior art, and the motivation to combine is well-supported. The PHOSITA would have been motivated to combine the known elements to achieve the claimed invention."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The 112 rejections are based on the claim language not being sufficiently described in the specification, but the verification note states that the specification was provided but lacks specific supporting evidence. Given the lack of clear evidence of insufficiency, this basis is considered weak and does not strongly support rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections are based on the prior art reference US-2014106038-A1, which implicitly discloses the core concepts of the claimed methods and apparatus. While the prior art does not explicitly disclose all features, the claimed methods represent straightforward applications of known techniques to achieve predictable results in the field of coffee roasting. The confidence scores for these rejections range from 0.5 to 0.65, indicating moderate strength."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art reference US-2014106038-A1 does not disclose the specific combination of features claimed. The motivation to combine the features is not clearly evident from the prior art, and the combination represents a non-trivial improvement in coffee roasting control. Given the lack of clear motivation and the specific nature of the claimed features, the obviousness rejection is considered weak."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2014106038-A1 is acknowledged to not explicitly disclose the specific combination of sampling during roasting for surface color detection, detecting powder color after grinding, and controlling roasting based on these measurements. However, the analysis suggests that the reference may be interpreted to cover similar concepts through reasonable inference. The confidence level of 0.75 indicates a moderate strength of the novelty rejection, as it is not a definitive anticipation but rather a potential overlap that requires further clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 15 is rejected under 35 U.S.C. § 103 as being unpatentable over US-2014106038-A1. The cited reference discloses a coffee roasting, grinding, and brewing system, and it is argued that one of ordinary skill in the art would have been motivated to incorporate the apparatus into a coffee machine as a natural progression. While the motivation to combine is reasonably stated, the confidence level (0.6) is relatively low, suggesting that the evidence is not overwhelming. Given the strictness level of 0.42, this may be considered a borderline case."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014106038-A1이 청구항의 대부분을 암시적으로 개시하고 있으며, 결합 동기가 명확히 제시되어 있어 103 거절 근거가 명확함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았으므로 112 거절 근거의 구체적 내용을 검토할 수 없어, 근거가 약함"
+        }
+      ]
+    }
+  ]
+}

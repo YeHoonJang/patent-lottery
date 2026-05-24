@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 for most claims and invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness analysis, using the appropriate legal frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'accessing policies,' 'generating signed answers using key data'), specific prior art disclosures (US-2012117621-A1's zone signing and key creation, US-2012303808-A1's policy-based filtering), and particular claim numbers from those references."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "A significant contradiction exists: the §102 novelty stage finds claims 1, 3–5, 7–11, 13–20 not novel with confidence up to 0.90, yet the obviousness stage finds claims 1, 5, and 11 non-obvious and the final decision grants all claims—reversing the §102 anticipation findings without adequately explaining why the same prior art that anticipated the claims at §102 somehow fails to anticipate them at the final decision stage."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.248 (lenient), the examiner appropriately resolves ambiguities in favor of the applicant—granting all claims despite §102 rejections in the office action and characterizing the §103 rejections as 'weak'—consistent with a lenient, purposivist profile."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision grants all claims despite the office action issuing §102 rejections against claims 1, 3–5, 7–11, 13–20 and a §103 rejection against claims 2 and 12, without providing adequate rationale for why those §102 rejections are overcome—the final decision effectively reverses the direction of the prior-stage §102 findings without sufficient explanation."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2017004556",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11132,
+      "output_tokens": 479,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

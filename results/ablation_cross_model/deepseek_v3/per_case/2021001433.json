@@ -1,0 +1,276 @@
+{
+  "case_id": "2021001433",
+  "proceeding_number": "2021001433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art US-2012299509-A1 clearly teaches gateway communication and protocol configuration in building automation systems using standard wireless protocols like ZigBee, making the claimed subject matter obvious to a person of ordinary skill in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1 clearly anticipates the claimed elements with high confidence (0.85-0.88)"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Combination with known practices is logical but requires some technical motivation"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art US-2012299509-A1 clearly discloses protocol handling in building automation systems, making the claimed method obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art US-2012299509-A1 discloses gateway communication with devices over protocols, and the method of installing executable software instructions to provide capability for a second communication protocol is a common practice in network device management. However, the specific combinations and steps may require further analysis."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012299509-A1 discloses gateway communication management but does not explicitly teach installing software for a second protocol. The combination motivation is plausible but not conclusively strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The use of standard protocols like ZigBee is well-established in the field, making their obviousness clear."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012299509-A1이 청구항 1과 6의 주요 요소를 개시하지만, 완전한 동일성은 확인되지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과 공지 기술의 결합이 논리적이지만, PHOSITA의 인식 수준에 대한 추가 근거가 필요함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1이 청구항 1, 2, 4의 모든 요소를 명확히 개시하고 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "MAC level protocols 및 ZigBee 사용은 해당 분야 공지 기술이지만, 동적 프로토콜 전환에 대한 명시적 동기 부여는 부족"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012299509-A1이 청구항 2, 3, 4의 모든 구성요소를 명확히 개시하고 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "MAC level 및 physical level 프로토콜 사용은 해당 분야에서 공지된 기술이지만, 특정 프로토콜 조합에 대한 명확한 동기 부여는 다소 약함"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": []
+    }
+  ]
+}

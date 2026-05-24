@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The novelty stage applies element-by-element anticipation under §102, the office action explicitly invokes 35 U.S.C. §102(a)(1), and the final decision separately weighs §102 and §103 grounds with appropriate legal framing throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., outlet temperature T2, inlet temperature T1, 350°C threshold, methane concentration thresholds) and specific prior art references (US-2012189523-A1, US-2012263635-A1) with citation to disclosed elements."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds most claims (2–6, 8–19) lack novelty with high confidence (0.81–0.96), but the §103 obviousness stage defaults all claims to non-obvious due to LLM unavailability; yet the final decision then asserts 'strong' §103 obviousness reasoning for claims 4–19 without bridging this contradiction, creating an unexplained reversal from the §103 stage findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.889, the examiner consistently resolves ambiguities toward rejection (e.g., treating 'preferably' language as non-limiting, inferring anticipation from broad prior art ranges, and maintaining rejections even on borderline elements), consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the accumulated §102 novelty findings in the novelty stage and the office action, with allowance of only claims 7 and 13 consistent with the novelty stage finding those claims novel, and the overall reject decision supported by the prior-stage analyses."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005916",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9148,
+      "output_tokens": 440,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

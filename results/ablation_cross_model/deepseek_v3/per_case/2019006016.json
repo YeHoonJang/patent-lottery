@@ -1,0 +1,237 @@
+{
+  "case_id": "2019006016",
+  "proceeding_number": "2019006016",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.7142857142857143,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The method elements of moving the dosing unit linearly and aspirating fluid through the cannula are clearly anticipated by US-2014150923-A1, with a high confidence level of 0.85."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과의 결합 동기가 논리적이지만, 특정 광학 센서의 적용에 대한 명확한 동기는 부족"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "공지된 기술 요소의 추가가 해당 분야에서 일반적이며, 광학 센서의 배치가 명확히 제시됨"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014150923-A1의 구체적 내용과 명확히 매칭되며, 광학 센서 추가가 해당 분야 공지 기술임"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과 구조적 유사성 있으나 광학 센서 배열에 대한 구체적 동기 부여 필요"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "No strong motivation to combine optical sensing with needle insertion in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014150923-A1이 청구항 10과 17의 모든 요소를 명확히 개시하고 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "광학 파라미터 측정 및 위치 계산의 추가는 해당 분야 공지 기술과의 결합이 타당하나, 구체적인 결합 동기에 대한 추가 설명이 필요할 수 있음"
+        }
+      ]
+    }
+  ]
+}

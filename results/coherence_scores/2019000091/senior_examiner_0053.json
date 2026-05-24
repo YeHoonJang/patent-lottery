@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis for §102 claims (e.g., claims 8, 10, 17, 19) and invokes Graham/KSR factors including scope and content, differences, PHOSITA level, secondary considerations, and motivation to combine for all §103 rejections."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific prior art references (US-2014278090-A1, US-2014121932-A1, US-2012281091-A1) and specific claim elements (e.g., POI-based geo-fence, speed-limit-based speed profiles, heading-based boundary determination), satisfying evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage is consistent with the §102 novelty stage—claims found novel (5, 11, 12, 14, 18) are also found non-obvious, while claims lacking novelty or found obvious proceed to rejection in the office action and final decision without unexplained contradictions; the dual rejection of claims 10, 17, 19 under both §102 and §103 is internally consistent."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.422 (moderate-lenient), and the trace reflects this by allowing claims 5, 11, 12, 14, and 18 as containing non-obvious innovations while rejecting the majority under §102/§103—a balanced outcome appropriate for a near-neutral strictness profile rather than blanket rejection or grant."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage analyses: §102 anticipation for claims 8, 10, 17, 19; §103 obviousness for most remaining claims; and the dependency problem for claims 5, 11, 12, 14, 18 that would otherwise be allowable—all explicitly stated in the summary and examiner notes."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019000091",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17626,
+      "output_tokens": 490,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

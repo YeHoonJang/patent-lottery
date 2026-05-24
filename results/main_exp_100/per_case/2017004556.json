@@ -1,0 +1,332 @@
+{
+  "case_id": "PILOT-2017004556",
+  "proceeding_number": "2017004556",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1은 정책 기반 DNSSEC 서명 및 응답 생성을 개시하고 있으며, US-2012303808-A1은 리졸버 IP 기반 필터링 정책을 적용하여 응답을 조작하는 기술을 개시함. 두 참조는 동일한 기술 분야(DNS 보안 및 정책 적용)에 속하며, IP 기반 정책 적용을 DNSSEC 사전 서명 시스템에 통합하는 것은 통상의 기술자에게 예측 가능한 개선으로, KSR v. Teleflex의 결합 기준을 충족함. 동기(motivation to combine)는 명확하고, 기술적 결합 가능성도 높음. strictness=0.79인 심사관 입장에서 이는 충분히 강한 obviousness 근거임."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1과 US-2012303808-A1의 결합은 DNSSEC 기반 존 서명과 정책 기반 필터링이라는 공통의 기술적 목적을 가지며, 통상의 기술자가 자연스럽게 결합할 수 있음. 결합 동기(motivation to combine)가 명확하고, 두 기술 모두 네트워크 보안 및 DNS 관리 분야에서 널리 알려진 기술. 특히 정책 기반 응답 생성과 서명된 응답 전송은 각각의 선행기술에서 직접 개시되거나 자명한 확장임. confidence 0.85 이상의 진보성 판단이 다수 포함되어 강한 거절 근거로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 2 and 12 are rejected under 103 for reciting user-specified policies. While US-2012117621-A1 discloses mode and DNSSEC enablement selections, and US-2012303808-A1 mentions user-associated block lists, the explicit combination to receive DNS policies from a user associated with a domain is not strongly supported. The motivation to combine is based on general system manageability, which is a common rationale but not specific to the technical context of pre-signed DNSSEC answers. Given the low strictness (0.25), this weak obviousness rejection should not prevent allowance, especially since the core innovation lies in pre-signing based on policies, not the source of those policies."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012117621-A1은 DNSSEC 기반 정책 적용, 서명 생성, 키 사용 등을 개시하고 있으나, 본 발명의 핵심인 '사전 서명(pre-signing)' 및 '정책 기반 변형 답변의 사전 저장'은 명시적으로 개시하지 않음. 진보성 판단에서 결합 동기 부족, 기술적 효과(응답성 향상, 부하 분산) 및 이차적 고려사항(상업적 성공 가능성)이 인정됨. 그러나 Office Action은 선행기술의 개시 범위를 넓게 해석하여 obviousness 판단. 이는 일정한 근거가 있으나, '사전 서명'이라는 구조적 차이와 그에 따른 기술적 이점을 충분히 고려하지 않은 측면 있음. 따라서 근거는 존재하나, 해석의 여지가 있어 moderate 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1은 정책 기반 DNSSEC 적용, 서명된 응답 생성, 저장, 검색 및 전송의 전체 흐름을 명시적으로 개시함. 청구항 1, 3-5, 8-11, 13-20의 구성요소는 동일하거나 통상의 기술자에게 자명한 변형임. 결합 동기 불필요. confidence 0.9 이상."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2 및 12의 '사용자와 연관된 정책 수신'은 US-2012117621-A1의 관리자 입력 기능을 기반으로 함. 명시적 언급은 없으나, 도메인 관리자가 정책을 설정하는 것은 네트워크 관리의 일반적 실천으로서 동기 부여 가능. 해석의 여지 있으나 strictness 기준에서 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2012117621-A1 and US-2012303808-A1 provides clear and explicit disclosures covering all major aspects of the claimed invention: DNSSEC signing and caching (first reference) and policy-based DNS response control including source IP, geolocation, time, and dynamic updates (second reference). The motivation to combine—reducing latency while maintaining security and policy compliance—is technologically sound and well-supported. The claimed 'pre-signing' is a direct extension of caching already disclosed, and policy-driven variation in responses is standard in network security. No unexpected results or synergistic effects are demonstrated to overcome the obviousness presumption."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1은 DNSSEC 기반 영역 서명, 정책 기반 동작 모드 설정, 서명된 응답 생성 및 저장, 동적 정책 업데이트를 개시하고 있으며, US-2012303808-A1은 리졸버 IP 기반 정책 필터링(지오로케이션, 로드 밸런싱 등)을 개시함. 두 선행기술은 동일한 기술분야(DNS 보안 및 정책 기반 응답)에 속하며, 통상의 기술자가 사전 서명(pre-signing)을 통해 응답 지연을 줄이는 성능 최적화를 결합할 동기가 있음. 사전 서명은 DNSSEC 운영에서 공지된 관행이며, 정책 기반 변형 응답의 사전 생성도 예측 가능한 설계 선택으로 간주됨. 결합 동기와 기술적 일관성 모두 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1이 DNSSEC 기반 정책 적용, 서명 생성, 응답 전달을 포함한 전체 시스템을 개시하고 있으며, US-2012303808-A1이 IP 기반 정책 필터링을 추가로 제공함. 두 참조는 동일한 기술 분야(DNS 보안)에서 동일한 목적(정책 기반 응답 제어)을 추구하며, 결합 동기(motivation to combine)가 명확함. 특히 리졸버 IP 기반 응답 생성은 네트워크 보안에서 통상적인 기술로, PHOSITA가 쉽게 결합할 수 있음. 신규성 판단에서도 모든 구성요소가 단일 참조에 의해 개시되어 anticipation에 가까운 수준의 disclosure 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1과 US-2012303808-A1의 결합은 동일한 DNS 보안 및 정책 기반 필터링 분야에 속하며, 통상의 기술자가 정책 기반 응답 생성과 DNSSEC 기반 사전 서명을 결합할 명확한 동기를 가짐. 두 선행기술 모두 보안성과 응답 속도 향상을 목적으로 하며, 기능 조합이 예측 가능하고 결과도 예측 가능함. combination_threshold=0.22로 낮아 결합이 용이하며, Graham 요소들(기술 수준, 차이점, 2차적 고려사항)도 obviousness를 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1이 DNSSEC 기반 정책 적용, 서명 생성 및 저장, 클라이언트 요청에 따른 서명된 응답 전송을 명시적으로 개시하고 있으며, US-2012303808-A1이 리졸버 IP 기반 정책 필터링을 개시함. 두 선행기술은 동일한 기술분야(DNS 정책 기반 보안 관리)에 속하며, 결합 동기(응답성 및 보안성 향상을 위한 사전 서명)가 명확하고 예측 가능함. 통상의 기술자가 이러한 기술을 결합하는 것은 자명하며, 2차적 고려사항의 반박 증거도 없음. confidence 수치 대부분 0.7 이상, 일부 0.95에 달해 강한 거절 근거로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1이 DNSSEC 기반 정책 적용, 서명된 응답 생성 및 저장, 리졸버 요청에 따른 서명 응답 전송을 모두 명시 또는 암시적으로 개시하고 있으며, 청구항 1, 2, 3, 4, 5, 9, 10, 11, 12, 13, 14, 15, 16, 19, 20의 구성요소들이 통상의 기술자에게 자명한 설계 선택 또는 DNSSEC의 본질적 특성으로 간주될 수 있음. 특히 공개/비공개 키 사용, 정책 업데이트, 기본 정책 설치 등은 기술적 맥락상 자명하며, 결합 동기도 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1은 청구항 1, 3, 5, 11, 13, 15의 모든 구성요소를 명확히 개시하고 있으며, 특히 정책 기반 응답 생성, 서명, 저장, 검색 및 키 쌍 사용이 직접적으로 대응됨. 선행기술이 단일 문헌에서 모든 요소를 포함하므로 신규성 결격 근거는 강함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012303808-A1은 기본 정책 설치(예: 기업 블랙리스트)를 개시하고 있으며, 이는 청구항 4 및 14의 'installing default policies'와 직접 대응함. 개시 내용이 명확하고 기능적으로 동일하므로 신규성 결격 근거는 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "IP 기반 응답 생성(청구항 7, 17), DNS 레코드 필드 서명(8, 18), 정책 유형 조합(16)은 네트워크 및 DNSSEC 분야에서 공지된 기술. US-2012117621-A1과 US-2012303808-A1의 결합은 트래픽 최적화, 보안, 지리적 라우팅 목적에서 명확한 결합 동기 존재. 통상의 기술자도 쉽게 도달 가능하므로 진보성 결격 근거는 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "사용자로부터 정책 수신(청구항 2, 12)은 US-2012117621-A1의 관리자 인터페이스 기능을 확장한 것으로, 자명한 설계 선택으로 볼 수 있으나, pre-signing 아키텍처와의 통합에 대한 직접적인 동기는 약함. 그러나 사용자 정책 입력은 네트워크 시스템에서 일반적이므로 진보성 결격 근거는 중간 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012117621-A1과 US-2012303808-A1은 모두 DNSSEC 및 정책 기반 DNS 필터링을 개시하고 있으며, 두 기술은 동일한 네트워크 보안 분야에 속함. 통상의 기술자는 DNSSEC 서명과 정책 기반 응답 생성을 결합하여 사전 서명된 응답을 저장하고 제공하는 것이 예측 가능하다고 판단할 것임. 결합 동기(motivation to combine)가 명확하며, 기술적 과제(가짜 DNS 응답 방지 및 정책 기반 제어) 해결을 위한 합리적 근거 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "'기본 정책 설치'는 선행기술에서 직접적으로 개시되지 않았으나, 네트워크 시스템에서 기본 설정은 공지된 관행으로 간주될 수 있음. 그러나 이 기능이 DNSSEC 기반 사전 서명 시스템에서 새로운 기술적 효과를 유도하는지는 명확하지 않음. strictness=0.60 수준에서 이 정도의 일반적 설계 선택은 obvious로 판단 가능하나, 약간의 해석의 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "다양한 메타데이터(소유권, 클래스, 시작, 만료) 포함은 SOA 및 RRSIG 레코드에서 일반적이지만, 출원 발명이 이 정보를 정책 기반 응답 생성에 통합하여 새로운 기능을 제공할 가능성 있음. 그러나 DNSSEC 운영의 자연스러운 확장으로 간주될 수 있어 obvious 판단이 타당하나, 조합의 비자명성에 대해 약간의 논의 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "정책 업데이트 후 서명된 응답 세트 재생성은 보안 무결성 유지 측면에서 중요하나, 선행기술이 이 절차를 명시적으로 개시하지는 않음. 그러나 보안 시스템 설계의 일반 원칙으로서, 정책 변경 시 서명 갱신은 예측 가능한 조치로 간주될 수 있음. strictness 기준에서 obvious로 판단 가능하나, 완전히 자명하다고 단정하기는 다소 미약함."
+        }
+      ]
+    }
+  ]
+}

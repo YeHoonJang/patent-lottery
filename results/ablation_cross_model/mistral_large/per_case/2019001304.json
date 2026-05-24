@@ -1,0 +1,670 @@
+{
+  "case_id": "2019001304",
+  "proceeding_number": "2019001304",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.9285714285714286,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306_A1과 US-2014106038-A1의 결합은 로스팅 정확도 향상을 위한 자연스러운 설계 선택으로, 통상의 기술자에게 자명함. 결합 동기가 명확하고 combination_threshold=0.34를 충족함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306_A1은 미리 설정된 로스팅 정도 도달 시 자동 종료를 명시적으로 공개하고 있어, 청구항 3의 모든 요소를 직접적으로 예상함. strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306_A1의 로스팅 제어 기술을 확장하여 로스팅 정도를 결정하고 비교하는 것은 통상의 기술자에게 자명할 수 있으나, 명시적 교시가 부족하여 moderate로 평가. strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306_A1과 US-2014106038-A1의 결합은 샘플링 장치를 포함하는 것이 설계 선택으로 자명할 수 있으나, 샘플링 장치의 구체적 구성에 대한 명시적 교시가 부족함. strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "weak",
+          "reasoning": "DE19645306_A1과 US-2014106038-A1의 결합은 샘플링 장치를 명시적으로 공개하지 않아 novelty 거절 근거로는 약함. strictness=0.79에 따라 103 근거로 전환하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306_A1의 로스팅 제어 기술을 확장하여 분석 장치를 포함하는 것은 통상의 기술자에게 자명할 수 있으나, 분석 장치의 구체적 기능에 대한 명시적 교시가 부족함. strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "weak",
+          "reasoning": "DE19645306_A1은 평가 장치를 공개하나, 분석 장치의 구체적 기능을 명시하지 않아 novelty 거절 근거로는 약함. strictness=0.79에 따라 103 근거로 전환하여 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306_A1과 US-2014106038-A1의 결합 동기는 논리적이지만, 청구항 1의 핵심 차이점인 '표면 색상과 분말 색상 동시 사용'이 선행기술에서 명시적으로 제시되지 않음. 그러나 PHOSITA의 관점에서 예측 가능한 변형으로 볼 여지가 있어 moderate 강도."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306_A1과 US-2014106038-A1의 결합으로 표면 및 분말 색상을 기반으로 로스팅 정도를 결정하고 제어하는 것은 PHOSITA에게 명백한 최적화. 결합 동기가 명확하고 예측 가능함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306_A1이 사전 선택된 로스팅 정도에 도달하면 로스팅을 종료하는 것을 명시적으로 개시함. 청구항 3의 모든 요소를 직접적으로 충족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306_A1의 자동화된 로스팅 제어와 반복 프로세스 제어는 공지기술. 샘플링 빈도 변동은 로스팅 단계별 모니터링 요구에 따른 명백한 최적화임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "첫 번째 크랙킹은 커피 로스팅의 알려진 중요 단계. 이 단계에서 샘플링 빈도를 조정하는 것은 PHOSITA에게 명백한 최적화임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306_A1과 US-2014106038-A1의 결합으로 표면 및 분말 색상 감지 장치와 제어 장치를 갖춘 장치를 구성하는 것은 PHOSITA에게 명백함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "로스팅 단계별 샘플링 빈도 변동은 프로세스 제어의 표준 최적화 기법으로, PHOSITA에게 명백함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "첫 번째 크랙킹은 알려진 중요 단계. 이 단계에서 샘플링 빈도를 조정하는 것은 PHOSITA에게 명백한 최적화임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306_A1의 제어 장치에 분말 색상 감지를 추가하는 것은 PHOSITA에게 명백한 개선임. 분말 색상이 내부 로스팅 상태에 대한 추가 정보를 제공함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "DE19645306 A1과 US-2014106038-A1의 결합 동기는 논리적이지만, 청구항 1의 핵심 요소인 '분말 색상 감지' 및 이를 로스팅 제어에 통합하는 구체적 방법이 선행기술에 명시적으로 개시되지 않았음. 결합 동기(combination_threshold=0.68)는 충족되지만, 출원인의 기술적 기여(분말 색상 감지를 통한 정밀 제어)를 고려할 때 근거 강도는 moderate로 평가됨. strictness=0.25 성향에 따라 허여 또는 보정 제안으로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 1의 핵심 구성요소인 '표면 색상 감지 및 이를 기반으로 로스팅 프로세스 제어'는 DE19645306 A1에 개시되어 있으나, 청구항 1은 '첫 번째 배치와 두 번째 배치 샘플링'을 언급하지만 분말 색상 감지나 예측 모델 등 차별화된 기술적 기여를 명시적으로 포함하지 않음. 선행기술과의 차이점이 모호하여 신규성 판단에 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "DE19645306 A1과 US-2014106038-A1의 결합은 표면 색상 감지와 분쇄 후 분말 색상 분석의 논리적 연장선으로 보일 수 있으나, 분말 색상을 로스팅 프로세스 제어에 활용하는 동기가 명시적이지 않음. combination_threshold=0.72에 비해 결합 동기 점수는 0.6 정도로 추정되며, 통상의 기술자가 쉽게 결합할 수 있는지는 불분명함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            10,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306_A1 explicitly discloses core elements of claims 2, 3, 10, and 13 (e.g., surface colour detection, roasting control, and termination at a preselected degree). The absence of powder colour detection in DE19645306_A1 is insufficient to establish novelty given strictness=0.89. Anticipation is clear."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of DE19645306_A1 and US-2014106038-A1 provides a clear motivation to combine for a PHOSITA. Features like powder colour detection (claim 2), batch overlap (claim 7), and modular design (claim 13) are routine optimizations or predictable extensions of known techniques. Confidence scores (0.8–0.9) support strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail for 'predefined prediction model' and 'calibration algorithm.' While this raises enablement concerns, the rejection could be overcome with additional disclosure. Given strictness=0.89, the rejection is maintained but classified as moderate due to potential for amendment."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Integrating the roasting control apparatus of claim 10 into a coffee machine is not explicitly disclosed in prior art, but the combination is plausible for a PHOSITA. The lack of explicit motivation to combine weakens the rejection, but strictness=0.89 favors maintaining it as moderate."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "moderate",
+          "reasoning": "DE19645306-A1과 US-2014106038-A1의 결합 동기는 합리적이지만, 분말 색상 감지가 표면 색상 감지와 명확히 결합될 동기가 있는지 여부는 다소 해석의 여지가 있음. 그러나 combination_threshold=0.51과 strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "DE19645306-A1은 미리 설정된 로스팅 정도에 따른 자동 종료를 명시적으로 공개하며, 청구항 3의 차이점은 통상의 기술자가 쉽게 도달할 수 있는 설계 선택임. 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 9,
+          "strength": "moderate",
+          "reasoning": "원두 또는 부분 로스팅된 콩의 사용은 커피 로스팅 분야의 공지상식이지만, 명시적 선행기술이 없으므로 근거가 다소 약함. 그러나 strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "moderate",
+          "reasoning": "DE19645306-A1과 US-2014106038-A1의 결합은 합리적이지만, 두 배치를 샘플링하고 표면 및 분말 색상을 감지하는 구체적 구현은 다소 해석의 여지가 있음. 그러나 strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 13,
+          "strength": "strong",
+          "reasoning": "DE19645306-A1의 평가 장치와 분석 장치의 차이는 통상의 기술자가 쉽게 구현할 수 있는 수준임. 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            10,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306 A1과 US-2014106038-A1이 핵심 기능을 공개하고 있으나, 청구항의 세부 요소(예: 분말 색상 감지, 분석 장치 등)와의 완전한 일치는 불분명함. BRI(0.79)와 strictness(0.47)를 고려할 때, 일부 요소는 유사하지만 동일하지 않음. 그러나 103_obviousness 근거가 더 강해 102 근거는 상대적으로 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            9,
+            10,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 결합 동기가 명확하고, combination_threshold(0.46)가 낮아 obviousness 판단이 용이함. 특히 청구항 2, 3, 10, 13은 공지 기술의 결합으로 쉽게 도출되며, 2차적 고려사항 부재에도 불구하고 거절 근거가 강함. 청구항 9는 routine design choice로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않아 112 근거 판단 불가. 다만, 청구항 자체의 모호성은 발견되지 않음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항이 기술적 발명을 다루며, abstract idea에 해당할 가능성은 낮음. 추가 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            5,
+            6,
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of DE19645306 A1 and US-2014106038-A1 provides clear motivation to combine for multi-factor roasting control. Adjusting sampling frequencies during roasting phases or based on the first cracking phase is a routine optimization in the field. The confidence scores for these claims (0.7-0.85) indicate strong evidence for obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            5,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "While DE19645306 A1 and US-2014106038-A1 disclose core elements (e.g., surface color detection, grinding), the claims introduce additional features (e.g., powder color detection, iterative sampling). The novelty rejection is borderline, as the prior art does not explicitly disclose all elements. However, the overlap is substantial enough to warrant a 103 obviousness rejection instead."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            7,
+            8,
+            9,
+            14,
+            15
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 4, 7, 8, 9, 14, and 15 introduce features not disclosed or suggested by the prior art (e.g., prediction models, overlapping batches, simultaneous sampling, raw/partially roasted beans). The lack of motivation to combine and low confidence in obviousness (0.75-0.9) supports allowability."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of DE19645306_A1 and US-2014106038-A1 provides a logical motivation to combine for a PHOSITA, particularly for Claims 2, 3, 10, and 13. However, the differences in Claims 7, 8, 9, and 14 (e.g., sampling optimizations) are minor and may not rise to the level of non-obviousness under a strictness level of 0.46. The evidence is sufficient to raise an obviousness concern but not overwhelmingly strong."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            10,
+            13
+          ],
+          "strength": "weak",
+          "reasoning": "While DE19645306_A1 discloses core elements of Claims 2, 3, 10, and 13, the claims include additional features (e.g., powder colour detection, explicit comparison steps) that are not fully disclosed. The novelty rejection is based on partial overlap, which is not strong enough to sustain a rejection under a strictness level of 0.46."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            6,
+            11,
+            12,
+            15
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 4, 5, 6, 11, 12, and 15 include novel and non-obvious features (e.g., predefined prediction models, dynamic sampling frequencies, integration into a coffee machine) that are not suggested by the prior art. The obviousness rejection is not supported by sufficient evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            9,
+            10,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306 A1과 US-2014106038-A1의 결합은 통상의 기술자에게 자명하다는 근거가 제시되었으나, 표면 색상과 분말 색상을 결합한 구체적인 제어 방법이 선행기술에서 명확히 개시되지 않았습니다. 결합 동기는 타당하지만, 청구항의 구체적인 구현 방식이 선행기술에서 직접적으로 도출되지 않으므로 moderate 강도로 평가됩니다. strictness=0.50에 따라, 근거의 강도가 moderate인 경우 출원인에게 benefit of the doubt를 부여하여 보정 가능성으로 판단합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306 A1은 미리 설정된 로스팅 정도에 도달하면 자동 종료하는 기술을 명시적으로 개시하고 있어, 청구항 3의 기술과 실질적으로 동일합니다. 이는 103 obviousness뿐만 아니라 102 novelty에도 해당하는 강한 근거입니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306 A1은 청구항 3의 'predetermined final roasting degree'에 따른 로스팅 종료를 명시적으로 개시하고 있어, 신규성 결여가 명확합니다. 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306 A1과 US-2014106038-A1의 결합 동기는 논리적이지만, 표면 색상과 분말 색상의 결합이 통상의 기술자에게 자명하다고 단정하기에는 다소 해석의 여지가 있음. 그러나 combination_threshold=0.44에 따라 결합 동기가 인정되며, strictness=0.52 성향상 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "DE19645306 A1은 미리 설정된 로스팅 정도에 기반한 제어를 공개하며, 결정된 로스팅 정도와의 비교는 통상의 기술자에게 자명한 설계 선택임. 근거 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306 A1과 US-2014106038-A1의 결합은 로스팅 정확도 향상을 위한 자연스러운 확장으로 보이나, 두 배치를 샘플링하고 표면/분말 색상을 감지하는 구체적 구성이 선행기술에 명시되지 않음. 그러나 combination_threshold=0.44에 따라 결합 동기가 인정되며, strictness=0.52 성향상 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306 A1은 색상 기반 제어를 공개하며, 분석 장치를 통한 로스팅 정도 결정은 통상의 기술자에게 예측 가능한 확장임. 그러나 분석 장치의 구체적 역할이 선행기술에 명시되지 않아 해석의 여지가 있으나, strictness=0.52 성향상 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 3, 10, and 13 were initially flagged for novelty rejections under 102 based on DE19645306 A1. However, the reasoning shows that while some elements are disclosed, the claims include additional features (e.g., powder color detection) not explicitly anticipated by a single reference. Given strictness=0.42, the novelty rejection is borderline but leans toward moderate due to the BRI interpretation and the lack of explicit disclosure of all elements in a single reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 9, 10, 13, and 15 are rejected under 103 based on the combination of DE19645306 A1 and US-2014106038-A1. The motivation to combine these references is clear (improving roasting accuracy by detecting both surface and powder color), and the combination threshold (0.52) supports this. The Graham factors also align with this conclusion, making the obviousness rejection strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 4, 5, 6, 7, 8, 11, 12, and 14 are deemed allowable due to lack of motivation to combine or explicit disclosure in the prior art. The reasoning for these claims is robust, and the combination threshold is not met. Thus, the obviousness rejection for these claims is weak."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The objection regarding the 'predefined prediction model' and 'calibration algorithm' in Claim 4 is valid but not a basis for rejection. It is a clarity and enablement issue that can be addressed through amendment. Given strictness=0.42, this is classified as moderate and does not warrant rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            10,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "DE19645306 A1과 US-2014106038-A1의 결합은 표면 색상 및 분말 색상 측정을 통한 로스팅 제어라는 청구항의 핵심 요소를 개시하고 있으나, 두 기술을 결합하는 구체적인 동기는 해당 분야의 공지기술에 기반한 논리적 추론에 의존하고 있습니다. combination_threshold=0.48에 따라 결합 동기가 인정되지만, 청구항의 전체 구성요소가 단일 문헌에 명시적으로 개시되지 않았으므로 근거의 강도는 moderate로 평가됩니다. strictness=0.52에 따라, 근거의 강도가 moderate인 경우 출원인에게 보정 기회를 부여하는 방향으로 판단합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "US-2014106038-A1은 로스팅 전 또는 로스팅 중인 원두를 다루지만, 이를 명시적으로 'raw or partially roasted beans'로 정의하지는 않았습니다. 해당 정의는 통상의 기술자가 쉽게 도출할 수 있는 수준이지만, 명시적 개시가 없으므로 근거의 강도는 weak로 평가됩니다. strictness=0.52에 따라, 근거의 강도가 weak인 경우 출원인에게 유리하게 판단합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, and 10 are supported by a clear combination of DE19645306_A1 and US-2014106038-A1, with a well-articulated motivation to combine. The differences are minimal and represent predictable optimizations for a PHOSITA. The confidence scores (0.80-0.85) and detailed Graham factors analysis reinforce the strength of this rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 13's rejection is based on modularizing a control unit into analysis and controller components, which is a common design choice. While this is plausible, the lack of explicit disclosure in the prior art introduces some interpretive flexibility. Given the strictness level (0.60), this rejection is maintained but with less confidence than the others."
+        }
+      ]
+    }
+  ]
+}

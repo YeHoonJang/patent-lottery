@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner applies Graham/KSR §103 factors (scope and content, differences, PHOSITA level, secondary considerations) for each obviousness analysis, and explicitly rejects under §103 while allowing claims based on novelty and non-obviousness — the correct statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim analysis references specific prior art references (US-2016183379-A1 and US-2015241686-A1), identifies particular disclosed features (e.g., 'overlay dynamically positioned based on location of area of interest,' 'image stitching through alignment and restoration processing'), and maps them to specific claim language."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims 8, 40, 42, and 43 found novel at §102 stage are also found non-obvious at §103 and allowed in the office action and final decision; claims found not novel at §102 are rejected as obvious at §103 — no contradictions between stages without justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient examiner (strictness=0.292) consistently resolves ambiguity in the applicant's favor, noting that 'weak obviousness grounds are interpreted favorably for the applicant,' suggesting amendment rather than outright rejection for borderline claims, and granting four claims — behavior consistent with a low-strictness, lenient-advocate profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision (amend_suggested for rejected claims, grant for claims 8/40/42/43) directly follows from the accumulated §102 novelty findings, §103 obviousness analyses, and office action conclusions, with the examiner explicitly citing the same reasoning and allowed claims throughout all stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001436",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17166,
+      "output_tokens": 422,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

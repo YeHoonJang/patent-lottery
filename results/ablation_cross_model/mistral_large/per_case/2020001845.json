@@ -1,0 +1,736 @@
+{
+  "case_id": "2020001845",
+  "proceeding_number": "2020001845",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014213070-A1이 청구항 1의 모든 구성요소를 명시적으로 또는 고유하게 개시하고 있음. curing 단계는 선행기술에서 암시적으로 다루어지며, seam-free gapfill은 명시적임. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1과 US-2015303056-A1의 결합은 통상의 기술자가 당연히 고려할 수 있는 후처리 과정(curing)을 포함함. 결합 동기가 명확하고, 새로운 기술적 효과가 없음. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            15,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술들이 PECVD, polysilicon precursor, plasma gas, doped silicon carbide film, co-reactant, metal precursor 등을 명시적으로 개시하고 있음. 해당 분야의 통상의 기술자가 당연히 선택할 수 있는 공지된 기술임. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            18,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "aspect ratio 25:1은 선행기술에서 명시적으로 개시되지 않았지만, PECVD 및 curing 과정은 공지된 기술임. aspect ratio 최적화는 통상의 기술자가 실험을 통해 달성할 수 있는 수준임. 그러나 strictness=0.79에 따라, 근거가 다소 약함에도 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            6,
+            8,
+            10,
+            16,
+            18,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "'about'이라는 용어의 모호성으로 인해 청구항의 범위가 불명확함. 그러나 명세서에서 해당 용어의 범위를 명확히 정의할 수 있다면 보정이 가능함. strictness=0.79에 따라, 근거가 약하지는 않지만 보정 가능성 인정."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, 4, 5, 12, 13, 15, 19, and 20 are directly anticipated by the cited prior art (US-2014213070-A1, US-2014356549-A1, US-2018347035-A1, US-2018358220-A1). The prior art explicitly discloses all elements of these claims, leaving no room for interpretation. The confidence levels in the novelty analysis are high (0.82-0.9), and the verification status confirms the strength of the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1-20 are rejected under 103_obviousness based on combinations of prior art and general knowledge. The motivation to combine is well-supported by the Graham factors, and the differences between the claims and the prior art are minimal, representing routine optimizations or well-known alternatives. The combination_threshold of 0.34 is met, and the confidence levels in the obviousness analysis are high (0.78-0.9). The verification status confirms the strength of the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 신규성 측면에서 선행기술과 차별화되며, 출원인의 기술적 기여가 인정됨. 선행기술과의 유사성은 있으나 '동일하거나 자명한 변형'으로 볼 근거가 부족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술의 결합 동기가 명시되지 않으며, 출원인의 기술적 기여(예: 고차 silane 사용, UV cure, 저전력 조건 등)가 진보성을 뒷받침함. combination_threshold=0.68을 충족하지 않음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 청구항을 충분히 뒷받침하며, 모호한 용어나 미흡한 설명이 발견되지 않음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "발명이 abstract idea에 해당하지 않으며, 구체적인 기술적 개선(예: seam-free gapfill, 고품질 film 형성)을 제공함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5,
+            12,
+            13,
+            15,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌에서 청구항의 구성요소가 명시적으로 개시되었으며, confidence가 0.85 이상으로 높음. 신규성 부족 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            12,
+            13,
+            15,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합 동기가 논리적이지만, 출원인의 기술적 기여(예: seam-free 갭필)를 고려할 때 진보성 판단에 해석의 여지가 있음. 그러나 선행기술이 구체적으로 개시된 사항에 대해서는 결합 동기가 명확하여 moderate 강도로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            18,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌 (US-2014213070-A1, US-2015303056-A1, US-2014356549-A1, US-2018347035-A1)에서 청구항의 핵심 요소들이 명시적으로 또는 암시적으로 개시되어 있으며, 통상의 기술자가 쉽게 선택할 수 있는 설계 변형이나 최적화에 해당함. 결합 동기도 명확하여 103 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술에서 구체적인 조건 (예: plasma power ≤ 300W, 온도 ≤ 100°C, UV cure 온도 범위 등)이나 기술적 선택 (예: direct plasma, metal silicide, tungsten precursor 등)이 명시적으로 언급되지 않았지만, 통상의 기술자가 실험을 통해 최적화하거나 선택할 수 있는 변수로 해석될 수 있음. 그러나 결합 동기의 명확성이 다소 부족하여 moderate 강도로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            13,
+            18,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌들이 청구항의 핵심 요소를 직접적으로 공개하고 있으며, 특히 US-2014213070-A1은 유사한 기술적 목적을 가진 방법과 구성을 구체적으로 설명하고 있음. 청구항 1, 2, 3, 5, 12, 13, 18, 19는 선행기술과의 중첩이 명확하여 novelty 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            18,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌들의 조합과 PHOSITA의 통상적인 지식으로 청구항의 구성이 자명하게 도출됨. 특히 청구항 1, 2, 3, 5, 12, 13, 18, 19는 선행기술과의 차이점이 사소하거나 통상의 설계 선택으로 판단되며, motivation to combine이 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            6,
+            8,
+            10,
+            11,
+            14,
+            16,
+            18,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "명세서에서 'about'와 같은 모호한 용어의 사용이나 특정 범위의 미지원 등으로 인해 112 요건 미충족 가능성이 있으나, 보정을 통해 해결 가능한 수준임. 청구항 6, 8, 10, 11, 14, 16, 20의 경우 모호성이 있으나, 명세서의 보완으로 극복 가능함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술 문헌들이 해당 청구항의 구성 요소를 직접적으로 공개하지 않으며, novelty 근거가 부족함. 특히 청구항 7, 9, 15, 17은 선행기술과의 중첩이 미미하거나 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술 문헌들이 해당 청구항의 구성 요소를 직접적으로 공개하지 않으며, motivation to combine이 불명확하거나 없음. 특히 청구항 6, 7, 8, 9, 10, 11, 14, 15, 16, 17, 20은 선행기술과의 차이점이 실질적이며, 자명하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5,
+            12,
+            14,
+            15,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌(US-2014213070-A1, US-2015303056-A1, US-2018358220-A1)이 청구항의 구성요소를 구체적으로 개시하고 있으며, confidence 수준이 0.9 이상으로 높음. 신규성 부족 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            12,
+            14,
+            15,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 문헌들이 개별 구성요소를 개시하고 있으나, 결합 동기(motivation to combine)가 일부 청구항(예: 12, 14, 15)에 대해서는 논리적이지만, 다른 청구항(예: 4, 5, 19)에 대해서는 공지기술의 단순한 조합으로 보일 수 있음. confidence 수준은 0.85~0.9로 높지만, 결합 동기의 명확성이 다소 부족함. strictness=0.47을 고려할 때, moderate 강도로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5,
+            12,
+            13,
+            15,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌이 제공되었으며, 각 청구항의 구성요소가 단일 문헌에 명시적으로 개시되어 있음. 특히 청구항 5, 12, 13, 15, 19은 선행기술과 직접적으로 일치하거나 자명한 변형으로 판단됨. 근거의 confidence가 높음 (0.8~0.9)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            12,
+            13,
+            15,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌에서 결합 동기가 명확하며, 해당 분야의 공지된 기술에 기반한 판단임. 통상의 기술자가 선행기술로부터 쉽게 도출할 수 있는 조합으로 판단됨. 근거의 confidence가 높음 (0.8~0.9)."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            16,
+            17,
+            18,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술과 유사성이 있으나, 청구항의 구체적 구성요소나 조합이 명시적으로 개시되지 않음. 근거의 confidence가 낮거나 중간 수준 (0.7~0.85)이며, 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            16,
+            17,
+            18,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 결합 동기가 명확하지 않거나, 청구항의 구체적 조합이 공지되지 않음. 통상의 기술자가 쉽게 도출하기 어려운 방법으로 판단됨. 근거의 confidence가 낮거나 중간 수준 (0.7~0.85)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5,
+            12,
+            13,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌 (US-2014213070-A1, US-2014356549-A1, US-2015303056-A1, US-2018347035-A1, US-2018358220-A1)에서 청구항 5, 12, 13, 15의 구성요소가 구체적으로 개시되어 있으며, novelty 판단의 confidence가 0.9 이상으로 높음. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            12,
+            13,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술에서 개별 구성요소는 공개되었으나, 결합 동기의 명확성 여부에 따라 판단이 달라질 수 있음. combination_threshold=0.22이므로 공지상식 수준의 결합 동기도 인정되지만, 청구항 5, 12, 13, 15의 경우 설계 선택이나 최적화의 범주로 해석될 수 있어 근거 강도가 moderate임. strictness=0.46에 따라 근거가 다소 약하다고 판단되지만, novelty 거절이 이미 적용되어 103 거절은 보조적 근거로 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, and 18 are directly anticipated by US-2014213070-A1, which discloses all elements of these claims with high confidence (0.85-0.9). The evidence is clear and specific, leaving little room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 3, 12, and 18 are rejected under 103 based on the combination of US-2014213070-A1, US-2014356549-A1, and US-2015303056-A1. While the references disclose relevant elements, the motivation to combine is not explicitly strong. However, the combination is plausible for a PHOSITA, and the confidence scores (0.75-0.85) support a moderate strength rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            12,
+            13,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 4, 5, 12, 13, and 19 are supported by clear and direct disclosures in the cited prior art. The combinations of elements (e.g., polysilicon precursors, plasma gases, film compositions, and co-reactants) are explicitly taught or would have been obvious design choices for a person of ordinary skill in the art. The motivation to combine these elements is logical and well-supported by the prior art, leaving little room for interpretation."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5,
+            12,
+            13,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "While the prior art discloses elements of claims 4, 5, 12, 13, and 19, the specific combinations or contexts (e.g., seam-free gapfill) are not explicitly anticipated. However, the differences are minor and do not rise to the level of novelty under a strict interpretation. Given the overlap with 103 obviousness, this basis is secondary."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 1, 2, 3, 6, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, and 20 recite specific methods, conditions, or results (e.g., seam-free gapfill, low plasma power, direct plasma, UV cure, low hydrogen content, high aspect ratio) that are not disclosed or suggested by the prior art. The motivation to combine these elements is not evident, and the differences are significant enough to overcome obviousness rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌(US-2014213070-A1, US-2015303056-A1, US-2018347035-A1)이 각 청구항의 모든 구성요소를 명시적으로 개시하고 있어 근거가 명확함. 신규성 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 문헌들이 해당 분야의 공지기술을 개시하고 있으나, 결합 동기가 명확하지 않거나 예상치 못한 결과가 제시되지 않은 청구항(예: Claim 19)은 진보성 판단에 해석의 여지가 있음. 그러나 strictness=0.42에 따라, 근거가 명확한 청구항(2, 4, 5, 12, 13)은 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "명세서에 'metal silicide'에 대한 구체적 예시나 형성 방법이 부족하여 112 요건 미충족 가능성 있음. 그러나 strictness=0.42에 따라 보정 가능성 고려."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            4,
+            5,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "REF1 (US-2014213070-A1)은 청구항 1, 2, 4, 5, 18, 19, 20의 핵심 요소(flowable film 형성, 고차 실레인 전구체, 플라즈마 가스, 갭필 방법)를 명시적으로 개시하고 있음. 증거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "REF2 (US-2015303056-A1)와 REF3 (US-2014356549-A1)은 청구항 3과 12의 구성 요소(실리콘 전구체, 플라즈마 가스, SiN/SiO/SiC 등 재료)를 명시적으로 개시하고 있음. 증거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "REF4 (US-2018347035-A1)은 청구항 13의 공동 반응제(propylene, acetylene, ammonia, oxygen)를 명시적으로 개시하고 있음. 증거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            14,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "REF5 (US-2018358220-A1)은 청구항 14와 15의 금속 실리사이드 및 전구체(텅스텐, 탄탈럼)를 명시적으로 개시하고 있음. 증거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술들의 결합 동기는 인정되지만, 청구항의 구체적인 조건(예: 플라즈마 출력, 온도, 종횡비)은 통상의 기술자가 쉽게 도달할 수 있는 수준인지에 대한 해석의 여지가 있음. strictness=0.52에 따라, 일부 청구항은 보정 가능성을 고려하여 moderate로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, 4, 5, 12, 13, 15, 18, 19, and 20 are directly or implicitly disclosed in the cited prior art references (e.g., US-2014213070-A1, US-2015303056-A1). The evidence is clear and specific, leaving little room for interpretation. Given the strictness level of 0.60, these rejections are maintained."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the combination of prior art references and common knowledge provides a motivation to combine for most claims, some limitations (e.g., plasma power < 300W, direct plasma, UV curing temperature ranges) are argued as routine optimizations. However, the lack of secondary considerations (e.g., commercial success, long-felt need) weakens the case for obviousness. Given the strictness level of 0.60, these rejections are maintained but with a moderate strength due to the potential for argument or amendment."
+        }
+      ]
+    }
+  ]
+}

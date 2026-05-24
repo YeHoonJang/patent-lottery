@@ -1,0 +1,288 @@
+{
+  "case_id": "PILOT-2018007664",
+  "proceeding_number": "2018007664",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.35714285714285715,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 포함된 핵심 용어들('deps', 'view identifier box', '3VC Depth Resolution box', '3VC decoder configuration record')이 명세서에 구조적·기술적으로 정의되지 않음. 청구항의 범위를 지원할 수 있는 알고리즘, 구문, 필드 구성, 상호작용 메커니즘 등이 명세서에 기재되어 있지 않아, 본질적으로 written description 및 enablement 요건을 충족하지 못함. USPTO는 비표준 용어의 사용 시 명세서 내 명확한 정의를 요구하며, 이는 112(a) 위반에 해당함. 해당 근거는 명확하고 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013235152-A1은 다중 뷰 비디오 코딩에서 뷰 간 의존성 신호화, 인터뷰 예측, 랜덤 액세스 관리 등을 명시적으로 개시하고 있으며, 'deps' 트랙 참조 유형을 통한 깊이 및 텍스처 뷰 간 의존성 표시는 해당 기술의 예측 가능한 변형이다. 결합 동기(motivation to combine)는 명확하며, US-2011243233-A1과의 결합은 해상도 신호화라는 일반적인 기술을 다중 뷰 맥락에 적용한 것으로, PHOSITA가 쉽게 수행 가능하다. 모든 청구항에 대해 일관된 거절 근거가 제시되었으며, 신규성 및 진보성 판단의 confidence 점수가 전반적으로 높음(0.71~0.88)."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 결합 동기 부족, 선행기술에 'deps'' 참조 유형, view identifier box, 3VC Depth Resolution box, 3VC 디코더 구성 레코드 등의 구체적 구조가 개시되어 있지 않으며, 통상의 기술자가 쉽게 도달할 수 없다고 판단됨. combination_threshold=0.68 기준에 비해 동기 부족으로 인해 obviousness 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제시된 선행기술(US-2013235152-A1 등)은 다중 뷰 코딩에서의 예측 의존성 및 참조 관계를 개시하고 있으나, 'deps'' 트랙 참조 유형을 사용하여 깊이 뷰와 텍스처 뷰 간의 종속성을 명시적으로 표시하는 기술은 포함하지 않음. 결합 동기(motivation to combine)도 명확하지 않으며, 통상의 기술자가 해당 기술을 결합하여 청구항의 구성에 도달할 합리적인 근거가 부족함. combination_threshold=0.72 기준보다 높은 비자명성(confidence 0.85 이상)이 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013235152-A1은 다중 뷰 비디오 비트스트림 내에서 뷰 간 의존성 정보를 인코딩 및 디코딩하는 기술을 명확히 개시하며, inter-view prediction dependency order의 변화를 통해 랜덤 액세스를 가능하게 함. 청구항 1, 8 등은 'deps' 타입의 트랙 참조를 통해 깊이 뷰와 텍스처 뷰 간 의존성을 표시하는 것으로, 이는 선행기술의 핵심 기술적 사상인 의존성 신호화를 트랙 기반 컨테이너 형식(MP4 등)에 적용한 설계 선택에 불과함. 동일한 문제(뷰 간 의존성 관리)를 해결하기 위한 동일한 기술적 원리를 적용한 것으로, 통상의 기술자에 의해 용이하게 도출 가능. 결합 동기(motivation to combine)는 명확하며, 공지상식 및 기술적 관행 범위 내에 있음. confidence 0.85 이상으로, 강한 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013235152-A1은 다중 뷰 비디오 코딩에서 뷰 간 의존성 정보를 비트스트림에 포함시키는 방법을 명시적으로 개시하고 있으며, 특히 inter-view prediction dependency order 및 access unit 기반 처리를 통해 뷰 참조 구조를 정의한다. 'deps'라는 특정 참조 유형은 기능적 실질을 초월한 단순한 레이블링에 불과하며, 통상의 기술자가 선행기술의 목적(디코딩 효율성 향상)을 고려할 때 이를 도입하는 것은 자명하다. 결합 동기(motivation to combine)가 명확하고, 선행기술과의 차이가 설계 선택 수준에 머무르므로, 103 거절 근거는 강력하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "뷰 유형(texture/depth)을 view identifier box를 통해 구분하는 것은 3D 비디오 코딩에서 일반적인 요구이지만, US-2013235152-A1이 'view identifier box'라는 구체적인 구조를 사용하여 이를 구현하는지를 명시적으로 개시하지는 않는다. 다만, 뷰 식별 자체는 공지된 기술이고, 이를 메타데이터 박스로 구현하는 것은 ISOBMFF 기반 시스템에서 자연스러운 설계 선택으로 간주될 수 있다. strictness=0.55인 본 심사관의 기준에서, 이 정도의 동기와 공지기술 기반 결합은 obviousness 판단을 유지하기에 충분하다고 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013235152-A1은 다중 뷰 비디오에서 뷰 간 의존성 정보를 비트스트림에 포함시키는 것을 명시적으로 개시하며, 'track reference type deps'의 사용은 파일 포맷 수준에서 이를 구현한 것으로, 통상의 기술자가 ISO BMFF 기반 시스템 설계 시 자연스럽게 도출할 수 있는 기술적 전환으로 판단된다. 결합 동기와 기술적 맥락이 명확하므로 근거가 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "'view identifier box'를 sample entry 또는 multi-view group entry에 포함시키는 것은 메타데이터 관리의 일반적 방법이지만, 선행기술이 이를 명시적으로 개시하지는 않음. 다만, 뷰 식별의 필요성을 암시하므로 통상의 기술자가 이를 박스 구조로 구현할 가능성은 높음. strictness=0.46인 본 심사관 기준에서 해석의 여지가 있으나, 공지 관행 범위 내로 간주."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "SEI 메시지를 통한 3D scalability 정보 전달은 H.264/MVC 및 HEVC에서 공지된 수단이나, '3D scalability information SEI message'의 구체적 사용은 선행기술에 직접 개시되지 않음. 그러나 기술적 맥락상 확장 가능성이 높아 obvious 판단이 가능하나, 엄밀한 증거보다는 설계 동기에 기반함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013235152-A1은 inter-view prediction order 및 뷰 간 의존성 신호화를 명시적으로 개시하고 있으며, 'deps' 타입 트랙 참조는 ISOBMFF 기반 파일 포맷에서의 구체적 구현 방식으로, 통상의 기술자에 의해 자명하게 도출될 수 있음. 결합 동기와 기술적 맥락이 명확하므로 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "뷰 식별 박스 및 SEI 메시지를 통한 3D scalability 정보 전달은 선행기술에 암시되며, ISOBMFF 관행과 H.264/MVC 표준에 기반하지만, 'sample entry 내 뷰 타입 명시'나 '3D-specific SEI'의 직접적 개시는 없음. 그러나 통상의 기술자 수준에서 설계 선택으로 간주될 수 있어, 중간 정도의 강도."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013235152-A1은 다중 뷰 비디오 코딩에서 뷰 간 의존성 정보를 비트스트림에 포함시키는 핵심 개념을 명확히 개시하고 있으며, 'deps' 타입을 사용한 트랙 참조는 이러한 의존성 정보를 파일 포맷 구조에 적용한 예측 가능한 변형으로 판단된다. 트랙 기반 컨테이너 포맷에서 참조 유형을 정의하는 것은 멀티미디어 시스템에서 통상적인 설계 선택이며, US-2011243233-A1과의 결합을 통해 장치 및 저장 매체 구현 또한 자명하다. combination_threshold=0.44인 점을 고려하더라도, 결합 동기와 기술적 예측 가능성은 충분하며, 선행기술 간의 기술 격차가 크지 않다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013235152-A1 clearly discloses inter-view dependency signaling in multiview video coding, including the use of track references and metadata for view identification. The claimed features such as 'deps' track reference type, view identifier boxes, and SEI messages are either explicitly disclosed or represent obvious adaptations of known MVC techniques. Motivation to combine is well-supported by the need for efficient decoding and resource management, and the PHOSITA would readily implement these in a file format context. Confidence in obviousness is high across most claims, especially for claims 1, 2, 8, 9, 14, and 15."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 4 and 11 recite 'required for decoding' without sufficient algorithmic or structural support in the specification. Paragraphs 0217 and 0238 mention the concept generally but fail to describe how the determination is made, under what conditions, or with what logic. This lack of detail undermines written description and enablement, constituting a strong 112(a) issue."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    }
+  ]
+}

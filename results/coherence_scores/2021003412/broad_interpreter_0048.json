@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences from claimed invention, PHOSITA level, secondary considerations, and motivation to combine), which is the correct legal framework for obviousness rejections throughout all stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the novelty, obviousness, and office action stages, conclusions are tied to specific claim elements (e.g., mean subtraction, covariance matrix, SVM classifier) and specific prior art references (US-2016352767-A1, US-2014179270-A1) with identified disclosures in each reference."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage repeatedly marks claims as 'not novel' using obviousness reasoning (e.g., claims 2, 4, 5, 7, 8 are found not novel based on 'obvious' combinations or inferences rather than element-by-element anticipation), conflating §102 and §103 standards, but the §103 stage then proceeds on the same bases without noting the inconsistency — this §102/§103 confusion is carried forward without correction or justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.475 (moderate) and combination_threshold 0.459 (moderate), and the trace reflects a balanced approach — rejecting all claims on §103 grounds but acknowledging gaps in prior art disclosure (e.g., PCA not explicitly taught) while still finding obviousness, consistent with a moderate-strictness pragmatist profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims under §103 follows directly from the accumulated obviousness findings across all claims in the §103 stage and the office action, with no reversal of prior conclusions."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003412",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11721,
+      "output_tokens": 438,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

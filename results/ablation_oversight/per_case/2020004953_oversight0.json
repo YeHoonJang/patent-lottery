@@ -1,0 +1,281 @@
+{
+  "case_id": "ABL-2020004953",
+  "proceeding_number": "2020004953",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "reject_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 서비스 전문가와 고객 간의 예약 관리 시스템을 포함하며, GUI를 통한 구조화된 입력, 알림 전송, 약속 선택, 가상 상담 지원 등을 개시하고 있음. 청구항 2~14의 구성요소는 이 선행기술에서 명시되거나 당업자에게 자명한 설계 선택으로 간주될 수 있음. 특히 'available appointments' 표시, 'notification' 전송, 'selectable options' 제공은 구조화된 정보 처리 및 사용자 인터페이스 설계의 일반적 요소로, 결합 동기가 명확하고 KSR 기준에 따라 obvious 판단이 타당함. confidence 점수 대부분 0.75 이상으로, 일관된 거절 근거를 형성함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1이 개시한 가상 상담 시스템은 청구항의 핵심 구성요소들(예약 요청, 전문가 목록 제공, 시간 선택, 알림 전송 등)을 명시적으로 포함하고 있으며, GUI를 통한 구조화된 입력, 이메일/문자 알림, 날짜/시간 정보 처리, 응답 업데이트, 전화 통화 기반 미팅 등은 모두 해당 분야에서 통상의 기술자가 자명하게 구현 가능한 기술적 요소들임. 결합 동기(motivation to combine)가 명확하고, 차이점은 형식적일 뿐 실질적인 기술적 진보 없음. combination_threshold가 낮아 obvious 판단 기준이 낮음에도 불구하고, 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2014180715-A1 discloses scheduling, structured inputs, and notifications, the claimed invention integrates these elements in a specific sequence emphasizing customer-side GUI-based updates and structured interaction flows for pre-service meetings. The reference teaches similar functionality but does not explicitly disclose the coordinated, bidirectional workflow as claimed. Motivation to combine exists but is not compellingly strong given the emphasis on structured graphical input and user experience improvements highlighted in the claims. At strictness=0.25, such incremental integration with user-centric enhancements is viewed as non-obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "미팅 활동 유형으로 전화 통화 또는 대면 미팅을 포함하는 것은 공지된 선택지이나, 본 출원의 핵심은 이러한 미팅 유형을 지원하는 데 있는 것이 아니라, 견적 기반 조율, 고객 주도 수정, 상호 확인이라는 전체 프로세스에 있음. 선행기술 US-2014180715-A1이 가상 상담(전화/화상)을 개시하더라도, 대면 미팅 추가가 전체 시스템 흐름에서 기술적 기여를 발생시키지 않는다고 단정하기는 어렵고, 이는 통상의 기술자에게 자명하다고 보기 어려움. 특히 다른 청구항들과의 일관성에서 본 발명의 목적을 고려했을 때, 단순한 기능 선택으로 보는 것은 발명의 기술적 기여를 과소평가하는 것임."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1 directly discloses all claimed elements or their functional equivalents, including structured input via GUI, transmission of meeting details, customer response with updated information, electronic notifications (email/text), and remote meeting types (phone/video calls). The reference teaches a comprehensive system for virtual consultation scheduling, rendering the claimed subject matter obvious. Motivation to combine is inherent due to direct disclosure, and no secondary considerations are presented to rebut obviousness. Confidence levels across claims range from 0.82 to 0.92, indicating strong support for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2014180715-A1이 명확하고 직접적으로 각 구성요소를 개시하고 있으며, abstract 및 명세서 인용을 통해 구체적 대응 관계가 확인됨. 신규성 결여 판단에 충분한 증거가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 청구항 2-14의 모든 구성요소를 실질적으로 개시하며, 그래픽 인터페이스를 통한 구조화된 정보 입력, 알림 전송, 약속 정보의 날짜/시간/장소 포함, 고객 응답 수신, 회의 유형 정의 등이 명시됨. 결합 동기 없이 단일 문헌로 obviousness가 성립되며, 통상의 기술자 수준에서 자명한 시스템 구성임. confidence 점수 전반 0.8 이상으로 일관됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1 discloses a comprehensive system for scheduling virtual consultations with structured data entry, appointment selection, and electronic notifications. The claimed elements—structured GUI input, date/time/location inclusion, email/text messaging, updated customer input, rescheduling via GUI, and support for multiple meeting types—are either explicitly disclosed or represent routine and predictable variations within the level of ordinary skill in the art. The motivation to combine is well-supported by common objectives in scheduling systems: improving data integrity, user experience, and communication reliability. Confidence in obviousness is high (0.8–0.9), and the reference covers both method and medium claims. Given the broadest reasonable interpretation and the lack of technical improvement or secondary considerations, the 103 rejection is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 청구항 2-14의 모든 구성요소를 명시적으로 개시하거나 명백한 변형으로 포함하고 있으며, 결합 동기가 명확함. 진보성 판단에 대한 confidence 점수가 전반적으로 높음(0.8 이상), 동일 기술분야의 통상의 기술자가 쉽게 실시할 수 있는 수준. 선행기술이 전체 시스템 프로세스를 포괄하고 있어, GUI를 통한 입력, 알림 전송, 예약 정보 업데이트, 미팅 유형 포함 등 모든 요소가 공지된 기술로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art US-2014180715-A1 discloses substantially all claimed features, including structured graphical interfaces, transmission of meeting details via email/text, customer input of updated information, and support for various meeting types. The system architecture and user interaction flow are highly similar. Confidence in obviousness is high (0.8–0.9) across claims, with clear motivation to combine based on routine optimization in online scheduling systems. No secondary considerations support non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1이 청구항 8-14의 모든 구성요소를 단일 선행기술로 개시하고 있으며, 기술적 차이가 없고 통상의 기술자가 쉽게 수행 가능하다고 판단됨. 결합 동기 명확하며, 2차적 고려사항 부재. confidence 수치도 0.75 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 서비스 전문가와 고객 간의 상담 예약을 위한 전체 시스템 흐름을 개시하고 있으며, 그래픽 인터페이스를 통한 구조화된 입력, 알림 전송, 약속 선택, 수정 기능 등을 포함함. 청구항 2~14의 구성요소는 대부분 선행기술에 명시되거나, 온라인 예약 시스템에서 통상적인 설계 선택이나 일반적인 비즈니스 관행(예: 견적 제출)으로 간주될 수 있음. 결합 동기 및 통상의 기술자 수준에서의 예측 가능성도 타당하게 설명됨. 2차적 고려사항에 대한 반박 증거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1이 청구항의 모든 주요 구성요소를 개시하고 있으며, 결합 동기(motivation to combine)가 명확함. 그래픽 인터페이스를 통한 구조화된 정보 입력, 알림 전송, 고객 응답 처리, 미팅 유형 지원 등은 동일한 기술적 맥락에서 동일한 방식으로 구현됨. 통상의 기술자도 쉽게 도달할 수 있는 수준이며, confidence 점수도 0.8 이상으로 일관됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 서비스 전문가와 고객 간의 미팅 예약을 위한 구조화된 정보 입력, 그래픽 인터페이스, 알림 전송, 가상 상담 지원 등 청구항의 모든 핵심 기능을 명시적으로 개시하고 있음. 차이는 '미팅 활동'과 같은 용어 차이 또는 이메일/텍스트 메시지와 같은 일반적 통신 수단의 사용에 국한되며, 이는 통상의 기술자가 쉽게 도달할 수 있는 수준. 결합 동기와 기술적 맥락이 명확하고, 2차적 고려사항에 대한 반증도 없음."
+        }
+      ]
+    }
+  ]
+}

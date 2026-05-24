@@ -1,0 +1,857 @@
+{
+  "case_id": "2020001845",
+  "proceeding_number": "2020001845",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1은 청구항 1의 핵심 구성요소(flowable silicon-based dielectric layer, seam-free gapfill objective, solidification)를 명시적으로 개시합니다. Coverage scores(0.82-0.92)가 높고, 선행기술의 claim 1 및 background/summary sections가 직접적으로 대응합니다. 청구항 2-5는 PECVD, 특정 precursor/gas를 한정하나 모두 US-2014213070-A1에 명시적으로 개시되어 있습니다(SixHy where x≥2는 disilane/trisilane 등을 anticipate; ammonia, nitrogen, H2, Ar, He는 명시적 개시). 청구항 12는 US-2014356549-A1과 US-2015303056-A1이 SiOC, SiCN, SiOCN을 명시적으로 개시. 청구항 13은 US-2018347035-A1이 propylene, acetylene을 명시적으로 개시. 청구항 19는 청구항 4와 5의 결합이나, 단일 선행기술(US-2014213070-A1)이 모든 요소를 개시하므로 anticipation 성립. 102 거절 근거는 명확하고 강력합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            5,
+            12,
+            13,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "102로 거절되지 않더라도, 이들 청구항은 103으로 명백히 obvious합니다. PECVD 사용(청구항 2)은 silicon film 증착의 공지 표준 기술입니다. 특정 silane 선택(청구항 3, 4, 19)은 선행기술의 일반식(SixHy, x≥2)으로부터의 routine optimization입니다. 추가 plasma gas(Kr, O2, O3 in 청구항 5, 19)는 유사 기능의 공지 대체물입니다. SiOC, SiN 등 조성물 형성(청구항 12)과 propylene, acetylene 등 additives 사용(청구항 13)은 해당 분야의 conventional practice입니다. Combination_threshold=0.34 기준으로도, 이들 조합의 동기는 명확하고(공지 기술의 예측 가능한 조합), 결과는 predictable합니다. 103 거절 근거도 강력합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "strength": "none",
+          "reasoning": "이들 청구항에 대한 102 근거는 없습니다. 선행기술은 다음을 개시하지 않습니다: plasma power <300W (청구항 6), direct plasma (청구항 7은 오히려 선행기술이 remote plasma 교시), temperature <100°C (청구항 8), UV cure (청구항 9, 10), separate plasma/electron beam curing (청구항 11), metal silicide (청구항 14, 15), hydrogen content <10 at% (청구항 16), aspect ratio ≥25:1 (청구항 17, 18, 20의 특정 수치). Coverage scores가 0.0-0.68로 낮거나 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "이들 청구항의 한정들은 선행기술에 명시적으로 교시되지 않았으며, 공지상식만으로 자명하다고 보기 어렵습니다. (1) Plasma power <300W, temperature <100°C (청구항 6, 8, 20): 이는 통상적 PECVD 조건(200-400°C, 수백 W)보다 현저히 낮으며, 실험적 최적화가 필요합니다. (2) Direct plasma (청구항 7): 선행기술은 오히려 remote plasma를 교시하여, direct plasma는 반대 접근입니다. (3) UV cure (청구항 9, 10, 20): 선행기술에 전혀 교시되지 않았으며, flowable silicon film에 UV cure 적용은 예측 불가능합니다. (4) Separate plasma/electron beam curing (청구항 11): 특수 기술로서 선행기술에 교시 없습니다. (5) Metal silicide (청구항 14, 15): 선행기술은 silicon carbide/oxide를 다루며, metal silicide는 다른 조성입니다. (6) Hydrogen content <10 at% (청구항 16): 특정 film 품질 파라미터로서 공정 최적화 필요. (7) Aspect ratio ≥25:1 (청구항 17, 18, 20): 선행기술이 'high aspect ratio'를 일반적으로 언급하나, 25:1 이상이라는 특정 수치는 명시되지 않았고, 이는 매우 높은 aspect ratio로서 기술적 난이도가 높습니다. Combination_threshold=0.34 기준으로도, 이러한 특정 파라미터들의 조합은 선행기술로부터 예측 불가능하며, 실험적 검증이 필요합니다. Graham factors 분석에서도 이들 한정은 통상의 기술자가 예측할 수 없는 범위입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014213070-A1 explicitly discloses elements (a) substrate with features and (b) flowable silicon-based dielectric film filling gaps avoiding seams. However, element (c) 'curing the flowable film to solidify' is characterized as 'implicit in the flowable-to-solid transition.' While functional solidification is necessary, the reference does not explicitly disclose a separate curing step. The anticipation depends on finding curing inherent, which is a reasonable but not certain interpretation. Under BRI (breadth=0.73), 'curing' could be construed broadly to include any solidification process, making this a moderate-strength rejection. Given strictness=0.88, the implicit teaching combined with functional necessity supports maintaining the rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 Claim 1 explicitly discloses 'silicon-containing precursor' and 'plasma effluents' generated from source gas. The office action correctly notes that 'plasma effluents from source gas' and 'plasma comprising plasma gas' are substantially equivalent descriptions of the same process elements. Sims Claim 3 further lists specific plasma gases (ammonia, nitrogen, H2, Ar, He), directly disclosing 'plasma comprising a plasma gas.' This is clear anticipation with strong textual support."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 Claim 7 explicitly discloses generic formula SixHy where x≥2, which mathematically encompasses disilane (Si2H6, x=2), trisilane (Si3H8, x=3), tetrasilane (Si4H10, x=4). Genus-species anticipation is well-established (In re Petering). Neopentasilane and cyclohexasilane, while cyclic or branched, also fall within higher silanes (x≥2). This is strong anticipation based on explicit generic disclosure encompassing claimed species."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 Claim 3 explicitly lists 'ammonia, nitrogen, H2, Ar, and He,' directly disclosing 5 of 8 plasma gases in claim 5 (He, Ar, H2, N2/nitrogen, NH3/ammonia). The substantial explicit overlap (62.5%) combined with the generic teaching of using inert and reactive plasma gases supports anticipation. Under combination_threshold=0.34 and strictness=0.88, explicit disclosure of the majority of claimed species is sufficient for anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014356549-A1 and US-2015303056-A1 explicitly disclose SiOC, SiCN, SiOCN. The office action argues these 'substantially overlap with and encompass' SiN, SiO, SiC, SiOC, SiON, SiCON. SiOC is explicitly disclosed. However, SiN, SiO, SiC are binary compounds while the references teach ternary/quaternary compounds. The argument that SiCN 'encompasses the Si-C-N system recited as SiCON when oxygen is present' is reasonable but requires interpretation—SiCN (silicon carbon nitride) is not identical to SiCON (silicon carbonitride with oxygen). This is moderate strength: substantial overlap exists but not complete identity. Given strictness=0.88 and policy=0.51 (neutral), the overlap combined with broad interpretation under BRI (breadth=0.73) supports maintaining rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "Same analysis as claim 1 regarding implicit curing (element c). Additionally, claim 18 specifies aspect ratio ≥25:1, which US-2014213070-A1 does not explicitly disclose. The office action acknowledges this: 'the specific numerical limitation does not patentably distinguish the claimed method from Sims' teaching.' However, anticipation requires disclosure of all elements, and the specific AR≥25:1 is not present. The rejection relies on finding the AR limitation non-essential or inherent in 'high aspect ratio,' which is interpretation-dependent. This is moderate strength. Under strictness=0.88 and textualist approach, the missing numerical limitation weakens anticipation, but the substantial teaching of the method for high AR features combined with implicit curing supports maintaining rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Even if anticipation fails due to lack of explicit curing step, obviousness is strongly supported. US-2014213070-A1 teaches flowable silicon films for gapfill. The motivation to cure/solidify flowable films is inherent—flowable materials must be converted to solid state for functional use. KSR supports this as predictable completion of known process. PHOSITA (semiconductor process engineer) would understand curing as routine and necessary. This is strong obviousness: clear teaching-suggestion-motivation, no unexpected results shown."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 4 and 5 involve species selection from disclosed genus (SixHy, x≥2) and explicit list extension (adding Kr, O2, O3 to disclosed He, Ar, H2, N2, NH3). In re Petering establishes species selection from genus is obvious absent unexpected results. No unexpected results shown. Adding Kr (another noble gas like He/Ar) and O2/O3 (standard oxidants) is routine variation. This is strong obviousness based on well-established doctrine and lack of unexpected results."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014356549-A1 and US-2015303056-A1 explicitly teach SiOC, SiCN, SiOCN. Extending to related compositions SiN, SiO, SiC, SiON, SiCON is routine optimization of silicon-based dielectric composition. PHOSITA would vary O, N, C content to optimize dielectric constant, etch selectivity—conventional considerations. SiN, SiO are well-known simpler versions of ternary systems taught. This is strong obviousness: clear motivation (property optimization), predictable results (varying composition in known material class), no unexpected results."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly teaches both polysilicon precursors (SixHy, x≥2, encompassing disilane/trisilane/tetrasilane) and plasma gases (He, Ar, H2, N2, NH3). Claim 19 combines these explicitly taught elements with PECVD limitation (claim 2). This is straightforward combination of elements from single reference—strong obviousness. Even if PECVD (claim 2) is not explicitly taught, combining known precursors and gases in PECVD process would be obvious variation of disclosed remote plasma CVD."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "US-2018347035-A1 explicitly teaches propylene and acetylene. US-2014213070-A1 explicitly teaches ammonia. O2, O3, H2O are well-known oxidants in silicon CVD (conventional knowledge). Motivation to combine: tailor film composition (add carbon via propylene/acetylene, nitrogen via ammonia, oxygen via O2/O3/H2O) to achieve desired SiOC/SiCN compositions. This is routine optimization—KSR predictable combination of known elements for known purpose. Strong obviousness: explicit teachings combined with routine additives, clear motivation, predictable results."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on US-2014213070-A1 for the flowable film base process, with the main gap being the explicit curing step. The Office Action argues curing is inherent/obvious because the film is 'initially flowable' and must solidify. While this inference has some logic, it represents an implicit leap rather than explicit teaching. The combination with US-2014356549-A1, US-2015303056-A1, and US-2018347035-A1 for claims 12-13 adds composition variations (SiOC, SiCN) and reactants (propylene, acetylene), which are routine optimization in the field. However, the core innovation—using a flowable deposition technique specifically designed for seam-free gapfill at the claimed parameters—may represent genuine technical contribution. The motivation to combine is articulated but relies on hindsight reasoning (applying flowable technique to known compositions). Given strictness=0.25 (lenient), this moderate-strength rejection warrants closer scrutiny of whether applicant's specific process improvements are truly obvious or represent patentable advancement."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1-5, 12-13, 19에 대한 103 거절은 US-2014213070-A1이 flowable silicon film의 핵심 개념을 교시하고 있으나, claim 1의 'curing' 단계가 명시적으로 개시되지 않았습니다. 'initially flowable'이라는 표현에서 암묵적으로 solidification을 유추할 수 있지만, 이는 해석의 여지가 있습니다. 그러나 strictness=0.29(관대)인 심사관으로서, 이러한 암묵적 교시만으로 거절하는 것은 과도합니다. Claims 3-5는 선행기술에서 명시적으로 교시되어 strong 근거가 있으나, claim 1의 curing 요소 부족으로 전체적으로 moderate로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 6의 provisional rejection은 plasma power <300W의 criticality에 대한 증거 부족을 인정하고 있습니다. 선행기술이 500-10000W를 교시하는 상황에서 <300W는 상당한 차이이며, routine optimization으로 보기 어렵습니다. 출원인에게 입증 기회를 주는 것은 합리적이나, 현 단계에서 거절할 만큼 strong한 근거는 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty_claim_1",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses all three elements of claim 1: (a) substrate with features/gaps, (b) flowable silicon-based dielectric film filling features, and (c) the flowable nature inherently requires subsequent solidification. The reference specifically addresses gapfill applications with the goal of avoiding voids and seams. This is a clear case of single-reference anticipation with high confidence (0.85)."
+        },
+        {
+          "basis": "103_obviousness_claim_2",
+          "strength": "moderate",
+          "reasoning": "While US-2014213070-A1 teaches plasma CVD (remote plasma), claim 2 specifies PECVD (direct plasma). The choice between remote and direct plasma is arguably a design choice, but the prior art actually teaches remote plasma specifically to achieve low-energy radicals for flowable films. Switching to direct PECVD might introduce high-energy species that could hinder flowability. However, PECVD is a well-known variant. Given my strictness (0.89), even this moderate evidence supports rejection, as the burden is on the applicant to show unexpected results from using PECVD specifically."
+        },
+        {
+          "basis": "102_novelty_claim_3",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses PECVD with silicon-containing precursor (with Si-Si bonds, constituting polysilicon precursor) and plasma gases. The coverage score is 0.78 and confidence is 0.82. All elements are explicitly disclosed in the single reference."
+        },
+        {
+          "basis": "103_obviousness_claim_4",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses SixHy formula where x≥2, which generically covers disilane, trisilane, tetrasilane. While neopentasilane and cyclohexasilane may not be explicitly named, they are obvious species within this genus. The coverage score is 0.88 with confidence 0.88. Selecting specific higher-order silanes from a disclosed genus is obvious."
+        },
+        {
+          "basis": "103_obviousness_claim_5",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses 5 out of 7 claimed plasma gases (He, Ar, H2, N2, NH3). Adding O2 and O3 to this list would be obvious for forming oxide-containing films, as oxygen-containing gases are standard in the field. Coverage score is 0.92 with confidence 0.92. The addition of well-known plasma gases to an already extensive list is obvious."
+        },
+        {
+          "basis": "103_obviousness_claim_12",
+          "strength": "strong",
+          "reasoning": "US-2014356549-A1 and US-2015303056-A1 explicitly disclose silicon carbide class films including SiOC, SiCN, and SiOCN. While standalone SiN, SiO, SiC may not be explicitly listed as flowable films, they are fundamental members of the silicon carbide material class and would be obvious variants. Coverage score is 0.90 with confidence 0.90."
+        },
+        {
+          "basis": "103_obviousness_claim_13",
+          "strength": "moderate",
+          "reasoning": "US-2018347035-A1 discloses propylene and acetylene, and US-2014213070-A1 discloses ammonia, nitrogen, H2. Combining these known additives would be obvious for controlling film composition. However, this requires combining two references and making routine selections. Coverage score is 0.85 with confidence 0.85. Given my strictness (0.89), this moderate evidence supports rejection as the combination is straightforward and well-motivated."
+        },
+        {
+          "basis": "103_obviousness_claim_19",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses the core combination of polysilicon precursors (SixHy) and plasma gases. While not all five specific precursors and all seven gases are explicitly listed, the selections would be obvious. Coverage score is 0.90 with confidence 0.88. This is essentially selecting from disclosed genera."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses flowable silicon-based dielectric films using PECVD with silicon-containing precursors (SixHy, x≥2) and plasma gases (He, Ar, H2, N2, NH3). The reference directly teaches seam-free gapfill in high aspect ratio features. For claim 1, element (a) substrate with features is implicit in gapfill context, element (b) flowable film filling with no seam is explicitly disclosed with similarity 0.75, and element (c) curing is implicit (flowable film must solidify for permanent structure). For claims 3-5, the reference explicitly teaches polysilicon precursor with Si-Si bonds, specific silanes (disilane, trisilane, tetrasilane) via formula SixHy (x≥2), and plasma gases. The evidence is direct and unambiguous."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 teaches all elements except explicit curing step. However, curing is inherent common general knowledge - flowable films for permanent structures must be solidified. The reference itself implies conversion from flowable to solid state. Combination_threshold=0.51 is easily met as single reference teaches core invention and curing is routine post-deposition processing. For claim 18, applying disclosed method to 25:1 aspect ratio is obvious optimization as reference addresses same high aspect ratio problem."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            4,
+            5,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses all claimed elements: polysilicon precursor (Si-Si bonds), specific silanes via formula SixHy (x≥2), and plasma gases (He, Ar, H2, N2, NH3). These are not mere combinations but direct disclosures in single reference. Claim 19 combines already-obvious elements from claims 2, 4, 5. The evidence is explicit and requires no inventive combination."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014356549-A1 and US-2015303056-A1 teach silicon carbide class films (SiOC, SiCN, SiOCN) which overlap with claimed compositions (SiN, SiO, SiC, SiOC, SiON, SiCON). However, these references teach CVD processes generally, not specifically flowable PECVD for gapfill. The combination requires motivation to apply flowable deposition (US-2014213070-A1) to these specific film types. While materials are known and flowable methods are known, the specific combination has moderate support. Given strictness=0.82 and combination_threshold=0.51, the combination is reasonable but not as strong as direct disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018347035-A1 teaches propylene and acetylene as co-reactants. US-2014213070-A1 teaches ammonia. Remaining gases (oxygen, ozone, water) are conventional oxygen sources. The combination requires merging teachings from multiple references for adding various co-reactants. While each gas type is known, the specific list as claimed requires combining knowledge from multiple sources. Combination_threshold=0.51 suggests this is achievable, but evidence is less direct than single-reference anticipation. Given strictness=0.82, this moderate-strength combination supports obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claims 1-5, 12, 13, 18, and 19 rests on several combinations. For claim 1, the core issue is whether adding a 'curing' step to US-2014213070-A1's flowable film is obvious. US-2014213070-A1 explicitly teaches flowable silicon-based dielectric films for high aspect ratio gapfill but does not explicitly disclose a separate curing step. The Office Action relies on the applicant's own background statement that 'post curing methods are known in the art' and argues that curing is inherent for flowable films to function structurally. This is a reasonable inference but not a strong explicit teaching. The strength is moderate because: (1) The prior art does not explicitly teach curing, requiring an inference that it would be obvious; (2) The applicant's background acknowledgment provides some support but is not prior art per se; (3) The combination threshold of 0.46 suggests moderate evidence is needed. For claims 2-5, the elements are more explicitly disclosed in US-2014213070-A1 (PECVD, silicon precursors, plasma gases), making these stronger. For claim 12, combining flowable film formation (US-2014213070-A1) with SiC compositions (US-2014356549-A1) requires motivation across references - this is moderate strength as both references relate to CVD silicon films but different compositions. For claim 13, adding co-reactants (US-2018347035-A1) is a reasonable combination but requires cross-reference motivation - moderate. For claim 18, extending 'high aspect ratio' to specifically '≥25:1' is an inference based on industry trends mentioned in applicant's background, not explicitly taught - this is weaker. For claim 19, the combination is explicitly in US-2014213070-A1 - stronger."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014213070-A1 discloses substrate with high aspect ratio features (coverage 0.85), flowable silicon-based dielectric filling features with substantially no seam (coverage 0.9), and initially flowable film that subsequently solidifies (coverage 0.65). However, the critical distinction is that US-2014213070-A1 does not explicitly disclose a 'curing' step as a separate process operation. The reference teaches 'initially flowable' films that become solid, but the transition mechanism is not specified. Claim 1 explicitly recites 'curing the flowable film to solidify the film.' The Examiner argues this is inherent, but inherency requires that the missing element must necessarily be present, not merely possibly or probably present. The evidence shows solidification occurs, but not that a separate curing step (thermal, UV, plasma, etc.) is disclosed or inherent. This is a moderate-strength rejection because while the structural elements are present, the explicit process step of curing is not clearly taught."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses plasma gases comprising He, Ar, H2, N2 (nitrogen), and NH3 (ammonia) at claim 3. Claim 5 uses open-ended language 'one or more of He, Ar, Kr, H2, N2, O2, O3 or NH3.' Since the prior art explicitly teaches five of the eight listed gases, and the claim requires only 'one or more,' a plasma gas composition using any of the disclosed gases (He, Ar, H2, N2, NH3) anticipates claim 5. The fact that Kr, O2, O3 are additionally listed in claim 5 but not in the prior art is irrelevant given the open-ended claim language. This is a strong anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014356549-A1 and US-2015303056-A1 explicitly disclose silicon carbide class films including SiOC (silicon oxycarbide), SiCN (silicon carbon nitride), and SiOCN (silicon oxycarbonitride). Claim 12 recites 'one or more of SiN, SiO, SiC, SiOC, SiON, SiCON.' The prior art explicitly discloses SiOC. Additionally, SiCN disclosed in the references is chemically equivalent to SiON or SiCON (all representing silicon-carbon-nitrogen compounds). The references also disclose undoped SiC. Since claim 12 uses 'one or more of' and multiple species from this list are disclosed, this is a strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 teaches remote plasma CVD for flowable silicon-based dielectric deposition. Claim 2 specifies PECVD. Both are plasma-assisted CVD techniques widely known in semiconductor fabrication. Switching from remote plasma CVD to direct PECVD is a routine equipment selection based on tool availability and process requirements. PECVD is a conventional, well-established technique. The motivation is straightforward: achieve similar flowable gapfill using standard PECVD equipment. This is a strong obviousness case based on routine design choice."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly teaches silicon-containing precursors with Si-Si bonds (polysilicon precursors) and plasma generation from source gas. Claim 3 merely labels these elements as 'polysilicon precursor' and 'plasma comprising plasma gas,' which are descriptive terms for elements already taught. In the context of PECVD (claim 2, found obvious), this represents no additional inventive contribution. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 teaches SixHy where x≥2, which encompasses disilane (Si2H6), trisilane (Si3H8), and tetrasilane (Si4H10). These are standard, commercially available higher silanes. Selecting specific silanes from a disclosed generic genus is routine precursor selection based on availability, vapor pressure, and process compatibility. While neopentasilane and cyclohexasilane are not explicitly covered by the linear formula, they are known polysilicon precursors. A PHOSITA would routinely consider all commercially available polysilicon precursors. Strong obviousness based on routine species selection from disclosed genus."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "No prior art discloses plasma power <300W. However, plasma power is a fundamental process parameter that PHOSITAs routinely optimize. Lower power can improve conformality and reduce damage—objectives consistent with gapfill applications. The specific value <300W is not explicitly taught, but optimization of plasma power is routine engineering. This is moderate-strength obviousness: the parameter is routine, but the specific threshold is not disclosed. Given strictness=0.55, this could go either way, but routine parameter optimization leans toward obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "No prior art discloses temperature <100°C. However, low-temperature deposition is well-known for minimizing thermal budget in advanced semiconductor processing. Plasma-enhanced processes can operate at <100°C. The motivation is clear: reduce thermal stress and damage. The specific temperature threshold <100°C is not disclosed, but low-temperature processing is routine practice. This is moderate-strength obviousness: the goal is well-known, but the specific value is not taught. Given strictness=0.55, this leans toward obvious based on routine optimization."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            10,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "No prior art discloses UV cure, UV cure temperature range, or separate plasma/e-beam cure. However, UV curing, plasma treatment, and e-beam exposure are all well-known post-deposition techniques in semiconductor processing for densifying and curing films. US-2014213070-A1 teaches flowable films that become solid but does not specify curing method. Applying known curing techniques to achieve solidification is routine post-deposition treatment selection. The specific methods (UV, plasma, e-beam) and parameters (10-550°C) are not disclosed, but the techniques are standard. This is moderate-strength obviousness: the techniques are known, but their application to this specific flowable film is not explicitly suggested. However, given the common knowledge of these curing methods and the need to solidify flowable films, this leans toward obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018347035-A1 teaches co-reactants propylene and acetylene in silicon carbide deposition. US-2014356549-A1 and US-2015303056-A1 teach oxygen/nitrogen doping of SiC. Ammonia, oxygen, ozone, water are conventional CVD reactants. Combining these known co-reactants with flowable PECVD to tailor film composition is routine CVD chemistry. However, the specific combination with the claimed PECVD process is not explicitly taught—it requires combining multiple references. This is moderate-strength obviousness: the individual elements are known, but the combination is not explicitly suggested. Given combination_threshold=0.55, this represents permissible routine combination."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "No prior art discloses hydrogen content <10 atomic percent after curing. However, controlling hydrogen content in cured silicon films is routine practice. Films deposited from SixHy precursors contain hydrogen, and curing processes drive out hydrogen. Low hydrogen content (<10 at%) is a standard target for dense, stable films. The specific compositional specification is not disclosed, but achieving low hydrogen through curing is routine. This is moderate-strength obviousness: the goal and mechanism are known, but the specific value is not taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014213070-A1 discusses high aspect ratio gapfill but does not explicitly disclose aspect ratio ≥25:1. The semiconductor industry trend toward higher aspect ratios is well-known (Moore's Law scaling). Extending flowable gapfill techniques to higher aspect ratios is a predictable extrapolation. However, the specific value 25:1 is not taught. This is moderate-strength obviousness: the trend is clear, but the specific threshold is not disclosed. No evidence suggests 25:1 presents unexpected challenges."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 18 combines multiple individually obvious elements: aspect ratio ≥25:1 (obvious scaling per claim 17), PECVD (obvious equipment choice per claim 2), flowable silicon film filling features with no seam (taught in US-2014213070-A1), and curing to solidify (routine post-deposition step per claims 9-11). While each element is individually obvious or taught, the combination is not explicitly disclosed. However, combining these elements represents predictable use of prior art according to established functions. No synergistic effect is claimed. This is moderate-strength obviousness: the combination is logical but not explicitly suggested."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 19 combines PECVD (obvious per claim 2), polysilicon precursors (taught in US-2014213070-A1), specific higher silanes (obvious selection per claim 4), and plasma gases (largely disclosed in US-2014213070-A1). This is a straightforward combination of known elements with predictable results. Each element is either explicitly taught or represents routine variation. Strong obviousness based on routine combination."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.32,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly teaches all elements: flowable silicon-based dielectric films formed by PECVD using SixHy precursors (x≥2) including disilane/trisilane/tetrasilane, plasma gases (He, Ar, H2, N2, NH3), and addresses seam-free gapfill. The reference directly discloses the core invention. Curing/solidification is a natural step. All claim elements are explicitly or inherently disclosed in a single reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014356549-A1 teaches SiOC, SiCN, SiOCN compositions. Combined with US-2014213070-A1's flowable deposition method, the combination is logical but requires combining two references. The motivation exists (both in semiconductor CVD field) but requires a reasoning step. Given strictness=0.46 (moderate), this combination is reasonable."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018347035-A1 teaches propylene/acetylene as co-reactants. US-2014213070-A1 teaches ammonia/oxygen. Combining known precursors from different references requires motivation. Both are in CVD field for silicon carbide films, so combination is predictable. Given strictness=0.46, this is acceptable but not as strong as single-reference rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            2,
+            18
+          ],
+          "strength": "weak",
+          "reasoning": "US-2014213070-A1이 flowable film 형성을 개시하나, 'curing' 단계를 명시적으로 교시하지 않음. Office Action은 'initially flowable'에서 solid state로의 전환이 inherently curing을 포함한다고 주장하나, 이는 BRI의 과도한 확장. Inherent anticipation은 필연적(inevitable) 결과여야 하는데, flowable film의 solidification 방법은 다양할 수 있으며(자연 경화, thermal cure, plasma cure 등), 특정 curing 방법의 선택은 필연적이지 않음. Curing step의 부재는 anticipation을 부정하는 중요한 차이점. Coverage 0.7은 incomplete anticipation을 시사. Strictness=0.50(중립)에서 weak evidence는 출원인에게 benefit of doubt 부여가 적절."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            4,
+            5,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1이 Si_xH_y(x≥2) precursor 및 다수의 plasma gases(NH3, N2, H2, Ar, He)를 명시적으로 개시. Claim 3-5의 specific precursors(disilane, trisilane 등) 및 plasma gases는 '070 reference의 명시적 개시 범위 내. US-2015303056-A1이 추가 뒷받침 제공. 이는 genus에서 species 선택으로, routine optimization에 해당. Combination_threshold=0.33이 낮아 이러한 결합은 쉽게 obvious로 인정. Evidence가 명확하여 strong rejection 유지 타당."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014356549-A1 및 US-2015303056-A1이 SiOC, SiCN(≈SiON), SiOCN 조성을 명시적으로 개시. US-2018347035-A1이 propylene, acetylene 등 hydrocarbon co-reactants를 명시적으로 개시. 네 문헌의 조합이 claim 12-13의 모든 구성요소를 커버. Film composition 제어를 위한 precursor 조합은 해당 분야의 routine practice이며, US-2014356549-A1이 명시적으로 이를 교시('composition can be controlled by choice of combination of precursors'). Motivation to combine이 명확하고 결합이 예측 가능. Strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014213070-A1이 aspect ratio >10:1을 개시하고 semiconductor scaling에 따른 AR 증가 추세를 인식. 25:1로의 확장이 predictable progression인지는 해석의 여지 있음. 10:1에서 25:1로의 2.5배 증가가 단순한 점진적 발전인지, 아니면 기술적 도약인지 불분명. 그러나 선행기술이 'increasing aspect ratios' 추세를 명시적으로 언급하고 있고, 반도체 산업의 공지된 scaling 추세를 고려하면 25:1은 예측 가능한 범위 내. Strictness=0.50(중립)에서 moderate evidence는 양방향 판단 가능하나, 산업 추세의 명확성을 고려하여 obvious 판단이 합리적."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 5: US-2014213070-A1 explicitly discloses He, Ar, H2, N2, NH3 (similarity 0.85). O2, O3, Kr are well-known equivalents in plasma CVD. Claim 12: Multiple references (US-2014356549-A1, US-2015303056-A1, US-2018347035-A1) explicitly disclose SiOC, SiCN, SiOCN compositions (similarity 0.85). These are standard materials. Claim 13: US-2018347035-A1 explicitly discloses propylene, acetylene (similarity 0.75); US-2014213070-A1 discloses ammonia. O2, O3, H2O are standard oxidants. All three claims involve routine selection/substitution of well-known materials with predictable results. The prior art provides explicit support for the majority of recited elements, and the remaining elements are obvious variations. Motivation to combine is clear: routine optimization of film composition using known additives."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses all claim elements including flowable silicon-based dielectric layer formation, PECVD process with plasma effluents, silicon-containing precursors with Si-Si bonds (higher order silanes), plasma gases (NH3, N2, H2, Ar, He), and curing for seam-free gapfill. The reference directly teaches avoiding voids and seams in high aspect ratio gapfill applications. This is clear anticipation with strong textual support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 anticipation is questioned due to terminology differences (remote plasma vs. PECVD), the obviousness is clear. The functional equivalence of plasma-enhanced CVD techniques for flowable film formation would have been recognized by PHOSITA. The motivation to use PECVD for gapfill is explicit in the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2014213070-A1 (flowable film technique) with US-2014356549-A1 and US-2015303056-A1 (silicon carbide compositions) and US-2018347035-A1 (hydrocarbon co-reactants) is logical and motivated. However, this requires combining four references. The motivation exists (extending flowable film to various dielectric compositions), but the combination is not as straightforward as single-reference anticipation. Given my strictness=0.42 (moderate), I evaluate this as moderate strength - there is clear motivation but requires multi-reference combination."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014213070-A1 discloses aspect ratios >10:1 and discusses scaling trends. Extending to ≥25:1 is presented as predictable optimization. However, the specific 25:1 threshold represents a more than 2x increase from the disclosed 10:1. While the trend is discussed, whether this specific extension is 'obvious' depends on whether it represents routine optimization or requires additional inventive effort. Given my strictness=0.42, I view this as moderate - there is some support for the extension but it is not explicitly disclosed."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014213070-A1 teaches flowable film formation with silicon precursors and plasma effluents for seam-free gapfill. The 'curing' step is not explicitly disclosed but is argued to be inherent. While flowable films typically require solidification, the reference does not explicitly teach a separate curing step. The element analysis shows element 1f (curing) has similarity_score 0.5 and match_type 'implicit', indicating the concept is present but not explicit. Given strictness=0.52 (moderate), this implicit teaching combined with the inherent nature of solidification supports obviousness, but the argument relies on interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014213070-A1 teaches remote plasma CVD, not PECVD. While PECVD is a known variant, the references consistently teach remote plasma. The argument that PECVD is an obvious alternative relies on general knowledge that both are 'standard CVD techniques.' Element 2a shows similarity_score 0.4 and match_type 'implicit'. Given strictness=0.52, the substitution of PECVD for remote plasma can be considered obvious design choice, but it is not explicitly taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses silicon-containing precursor with Si-Si bonds (similarity_score 0.75, explicit) and plasma gas (similarity_score 0.8, explicit). The only difference is PECVD specification, which is addressed in claim 2. The core combination of polysilicon precursor and plasma gas is directly taught. Coverage_score 0.75 indicates strong overlap."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014213070-A1 teaches SixHy where x≥2, which covers disilane, trisilane, tetrasilane. Neopentasilane and cyclohexasilane are not explicitly listed but are argued to be obvious selections from the known class. Element 4a shows similarity_score 0.7 and match_type 'implicit'. Given strictness=0.52, selecting specific compounds from a disclosed general class (SixHy, x≥2) can be considered obvious, but the specific compounds are not explicitly identified."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly lists He, Ar, H2, N2, NH3 (similarity_score 0.85, explicit). Kr, O2, O3 are additions not explicitly disclosed but are well-known plasma gases. Coverage_score 0.85 indicates most gases are taught. The addition of Kr, O2, O3 is routine selection from known gases. Given strictness=0.52, this is a strong obviousness case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014356549-A1 and US-2015303056-A1 explicitly teach SiOC, SiCN, SiOCN compositions (similarity_score 0.8 and 0.75, explicit). These compositions are well-known and directly cover the claim. Applying known compositions to flowable gapfill (US-2014213070-A1) is a straightforward combination. Coverage_score 0.8 indicates strong anticipation of the composition aspect."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "US-2018347035-A1 explicitly teaches hydrocarbon co-reactants including propylene and acetylene (similarity_score 0.7, explicit). Combining co-reactants with flowable gapfill CVD is a known technique for adjusting film properties. Coverage_score 0.7 indicates substantial teaching. Given strictness=0.52, this is a strong obviousness case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 19 combines elements from claims 4 and 5. As analyzed above, claim 4 has moderate strength (implicit selection from SixHy class) and claim 5 has strong strength (explicit teaching of most gases). The combination does not introduce unexpected results. Overall coverage_score 0.75. Given strictness=0.52, the combination is obvious, though it relies on the moderate-strength arguments for claims 2 and 4."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses all three elements of claim 1: (a) substrate with high aspect ratio features having sidewalls and bottom surfaces, (b) forming flowable silicon-based dielectric layer filling gaps with substantially no seam, and (c) solidifying the film to avoid voids and weak seams. The reference addresses the identical problem and solution. Coverage score 0.87 indicates strong anticipation. Single reference anticipation is well-established."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 claim 7 discloses silicon-containing precursor with formula SixHy where x≥2. This mathematically encompasses disilane (Si2H6, x=2), trisilane (Si3H8, x=3), and tetrasilane (Si4H10, x=4). A PHOSITA would immediately recognize the formula includes these specific compounds. No meaningful distinction exists between disclosing by formula versus by name when the formula mathematically includes the named species."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly lists plasma gases including ammonia, nitrogen, H2, Ar, and He. Claim 5 uses 'comprises one or more of' language and lists He, Ar, Kr, H2, N2, O2, O3, NH3. The reference explicitly teaches five of eight listed gases for the identical purpose. The open-ended claim language combined with explicit teaching of the majority of listed gases constitutes anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 teaches both elements required by claim 19: (1) polysilicon precursors via SixHy formula (x≥2) encompassing disilane, trisilane, tetrasilane, and (2) plasma gases He, Ar, H2, N2, NH3. The single reference discloses using these precursors and plasma gases together in a PECVD process for flowable silicon film deposition. All claim elements are expressly disclosed in combination in one reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 teaches flowable silicon film gapfill with plasma-based processes. US-2015303056-A1 explicitly teaches PECVD for silicon carbide films. PECVD is a well-known, conventional technique for depositing silicon-containing films with good conformality—a critical requirement for gapfill. The motivation to combine is clear: applying a known technique (PECVD) to a known process (flowable gapfill) yields predictable results. No unexpected results are shown."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015303056-A1 and US-2014356549-A1 both teach silicon-containing precursors with Si-Si bonds reacting with plasma-generated radicals. This represents standard PECVD chemistry for silicon-based films. Combining silicon precursors with plasma gases to form the flowable film of US-2014213070-A1 would be obvious to a PHOSITA as conventional precursor/plasma chemistry with predictable results of controlled silicon film deposition."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014356549-A1 and US-2015303056-A1 explicitly teach silicon carbide class films including SiOC, SiCN, SiOCN, SiNC, and undoped SiC. These are well-known, widely used silicon-based dielectrics with well-characterized properties. Selecting among these conventional materials for gapfill applications represents ordinary design choice based on desired dielectric constant, etch resistance, etc. No unexpected results are shown for using these compositions in flowable form."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "US-2018347035-A1 explicitly teaches hydrocarbon co-reactants including propylene and acetylene for silicon carbide deposition. US-2014213070-A1 teaches ammonia and oxygen as plasma gases. Using these additives to control film composition (carbon, nitrogen, oxygen content) is standard CVD practice. A PHOSITA would be motivated to add these known co-reactants to tune stoichiometry. Water and ozone as oxygen sources are obvious variations—conventional oxidizing agents in silicon oxide/oxycarbide deposition."
+        }
+      ]
+    }
+  ]
+}

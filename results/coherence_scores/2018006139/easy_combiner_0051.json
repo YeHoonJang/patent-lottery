@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace applies element-by-element anticipation analysis for §102 claims and uses Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) for all §103 obviousness determinations, correctly invoking the recognized legal frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection references specific prior art (US-2013321456-A1 and US-2016247051-A1) with explicit mapping of claim elements to disclosed features, such as 'hybrid map data comprising vector and raster graphics data' corresponding to 'data associated with a visual presentation' and geometric primitives count corresponding to threshold-based rendering decisions."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Later-stage obviousness and final decision conclusions are consistent with earlier novelty findings — claims found novel at §102 (e.g., claims 4, 5, 6) are then subjected to §103 analysis with additional rationale about known optimization techniques, without contradicting the earlier novelty determinations."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a combination_threshold of 0.329 (easy combiner) and consistently accepts relatively thin motivations to combine — e.g., 'mobile optimization is well-known' and 'resolution-based optimization is common knowledge' — reflecting the low combination threshold profile without demanding strong explicit teachings in the prior art."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from accumulated stage analyses: claims found anticipated at §102 are rejected on novelty grounds, claims found obvious at §103 are rejected on obviousness grounds, and the two claims (21, 22) found non-obvious throughout all prior stages are granted, with consistent stated rationale at each step."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018006139",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16745,
+      "output_tokens": 425,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

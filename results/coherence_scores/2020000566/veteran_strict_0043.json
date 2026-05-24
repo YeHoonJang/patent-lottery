@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently invokes Graham v. John Deere factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) and KSR-compatible motivation-to-combine reasoning for every claim, which is the recognized legal framework for obviousness."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim-specific obviousness finding references specific elements of US-2015142940-A1 (information concentrator, virtualized components, performance indicators) and maps them to specific claim language (e.g., 'aggregation entity,' 'population metric,' 'special metric'), satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 stage finds all claims novel (no anticipating references), and the §103 stage then builds on those partial overlaps by articulating additional rationale (common sense, routine engineering, known combinations) to reach obviousness, which is a coherent and non-contradictory progression between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.875 and combination_threshold=0.344, the examiner consistently resolves ambiguity toward rejection—explicitly citing the low combination_threshold to justify weak motivation-to-combine and rejecting all 19 claims despite no full anticipation—consistent with a veteran strict profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the §103 stage findings, which individually concluded obviousness for each claim with stated Graham-factor analyses; no reversal or unexplained departure from prior-stage conclusions occurs."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000566",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14986,
+      "output_tokens": 387,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

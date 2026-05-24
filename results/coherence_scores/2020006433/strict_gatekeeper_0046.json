@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 framework across all claim groups, explicitly identifying scope and content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation to combine — the correct statutory framework for obviousness."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection references specific prior art references (e.g., US-2016164299-A1, US-2012228933-A1, US-2013297084-A1, US-2015229268-A1) with element-level comparisons to specific claim limitations such as energy flow measurement, priority allocation rules, and visualization features."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The obviousness stage consistently builds on the novelty findings — claims found to lack novelty (2, 3, 8–10, 15–17) are also found obvious, and claims found novel (4–7, 11–14, 18–20) are then subject to §103 combination rejections with additional motivation-to-combine reasoning, without contradicting earlier findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner resolves ambiguous cases (e.g., weak motivation to combine for visualization and priority rule claims) toward rejection, explicitly acknowledging the evidence is weak but invoking strict gatekeeper philosophy — consistent with a high-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §103 analyses across all three rejection groups, with the summary explicitly tying the outcome to the strictness parameter and the weighing of moderate-to-weak rejection strength, providing stated rationale rather than reversing prior findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006433",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15350,
+      "output_tokens": 416,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

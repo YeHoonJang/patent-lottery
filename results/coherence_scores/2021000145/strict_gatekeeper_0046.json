@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly invokes Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for each claim, and the §102 analysis uses element-by-element anticipation reasoning, reflecting statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'send/receive buffers,' 'throughput, latency, loss rate, congestion window,' 'assembler-to-scheduler feedback') and specific prior art disclosures (US-2015245409-A1's MPTCP, LTE/WiFi interfaces, 'bandwidth, congestion, or other factors')."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claims 7 and 14 were found novel at the §102 stage, yet the office action rejects them under §102 anticipation using an 'implicit/inherent' argument while simultaneously the obviousness stage already found them obvious under §103 — the office action inconsistently applies §102 to claims found novel at novelty stage, and the final decision ultimately rejects them under §103 without clearly reconciling this contradictory handling."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner consistently resolves ambiguity toward rejection throughout — treating implicit/inherent disclosures as anticipating, finding UDP obvious despite no explicit prior art disclosure, and explicitly noting in the final decision that 'weak grounds are still judged as rejection' under the high-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102/§103 rejections established across prior stages, with the weighing section summarizing the strong §103 basis and the claim-by-claim decisions mapping directly to earlier stage findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11072,
+      "output_tokens": 439,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

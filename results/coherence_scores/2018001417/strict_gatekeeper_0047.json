@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis applies Graham factors (scope and content, differences, PHOSITA level, secondary considerations) consistently across all claims, which is the correct legal framework for obviousness under KSR/Graham."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific claim language (e.g., 'encrypting a file storage system,' 'network transport layer,' 'enterprise application APIs') and ties them to specific disclosures in US-2015235212-A1."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds claims 2–8 lack novelty under §102 reasoning that is partly based on 'implied' or 'obvious' disclosures rather than strict element-by-element anticipation, but then the §103 stage also rejects the same claims as obvious — the §102 findings are borderline conflated with §103 obviousness (e.g., 'self-evident variation'), yet the office action only issues §103 rejections without acknowledging or reconciling the prior §102 findings, creating an unexplained shift from anticipation to obviousness without stated justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.818 is reflected in rejecting all claims 1–8 with confident §103 rejections (confidence scores 0.79–0.88) and resolving every ambiguity toward rejection, consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the §103 analysis accumulated across prior stages, with the weighing section explicitly summarizing the strength of the obviousness grounds and referencing the Graham factor analysis."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018001417",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 8651,
+      "output_tokens": 415,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

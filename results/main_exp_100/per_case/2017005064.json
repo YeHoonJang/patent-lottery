@@ -1,0 +1,289 @@
+{
+  "case_id": "PILOT-2017005064",
+  "proceeding_number": "2017005064",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.2857142857142857,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2013242770-A1과 공지기술의 결합으로 obvious 판단. 비록 정확한 수식은 명시되지 않았으나, 개별 구성요소(eCCE 인덱스, 디바이스 오프셋, 서브프레임 인덱스)는 모두 선행기술 또는 일반 지식으로 알려져 있으며, 이를 선형 수식으로 조합하는 것은 PHOSITA의 예측 가능한 설계 선택임. 결합 동기(motivation to combine)는 자원 충돌 방지 및 HARQ-ACK 피드백의 신뢰성 확보라는 명확한 기술적 목적에서 도출됨. combination_threshold=0.34 기준에 비해 충분히 낮은 수준에서 obvious 판단이 정당화됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 19–24 use 'received DCI' in the context of a network node, which is factually incorrect as the network node transmits DCI, not receives it. This creates indefiniteness under 112(b) and lacks written description support under 112(a). The specification does not redefine or clarify this term, nor describe any feedback loop where the node receives its own DCI. Additionally, the parameter 'N_UE-PUCCH(q)' is used in multiple claims but is not defined or explained in the specification—no disclosure of how it is signaled, derived, or configured per UE or set q. These are clear failures of written description and enablement, constituting strong 112 grounds."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'sequential allocation' is used functionally in claims 13, 16, 19, 22 without definition in the specification. It is unclear whether this refers to frequency, time, index order, or another dimension. Similarly, 'plurality of sets of ePDCCH resources' lacks structural or operational definition—no explanation of how sets are formed, distinguished, or managed. These omissions prevent a PHOSITA from making and using the invention without undue experimentation, supporting strong 112(a) and (b) rejections."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Apparatus claims 16–18 and 22–24 recite 'processing circuits' configured to perform complex mathematical functions. If interpreted under 112(f), the specification fails to provide corresponding structure, algorithm, or hardware details for these functions. No flowcharts, circuit diagrams, or pseudocode are provided to support the claimed functionality, leading to insufficient written description. This is a strong basis for rejection given the lack of structural linkage."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although US-2013242770-A1 discloses ePDCCH transmission and DCI scheduling, it does not teach or suggest the specific formula-based PUCCH resource determination involving the lowest eCCE index, device-specific offset, and subframe index i. The combination references do not provide motivation to arrive at the claimed invention, and the claimed technical solution for sequential allocation across multiple ePDCCH sets represents a non-obvious improvement. Given the low strictness (0.25), this weak obviousness challenge does not outweigh the recognized technical contribution."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013242770-A1이 청구항의 구성요소들을 개시하고 있으나, 진보성 판단에서 명시된 바와 같이, 다수의 ePDCCH 리소스 세트에 걸쳐 순차적 PUCCH 리소스 할당을 가능하게 하는 공식의 구체적 통합 및 기술적 효과(예: 충돌 방지, 예측 가능한 자원 사용)는 단순한 요소 나열을 넘어서는 기술적 진보로 평가됨. 선행기술이 유사한 요소를 개시하더라도, 그 조합의 목적성과 기술적 기여가 인정되며, strictness가 낮은(0.29) 심사관 입장에서 합리적인 의심의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2013242770-A1 with general LTE design principles (eCCE-based control, UE-specific offsets, TDD HARQ timing, modular arithmetic for resource mapping) provides a strong basis for obviousness. The claimed formulaic approach is a predictable extension of legacy PDCCH resource indexing to ePDCCH, with clear motivation to avoid collisions and ensure deterministic feedback. PHOSITA would readily implement such a scheme, and no secondary considerations rebut obviousness. Given combination_threshold=0.45 and strictness=0.89, this rejection is robust."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 19, 21, 23, and 24 recite 'received DCI' for a network node, while the specification (¶0088–¶0089) consistently describes the network node as transmitting DCI. This inconsistency creates a clear lack of written description support under 35 U.S.C. § 112(a). The presence of correctly worded claims (20, 22) using 'transmitted DCI' further confirms the error. Under strict examination (strictness=0.89), this is not a mere drafting issue but a failure to demonstrate possession of the claimed subject matter."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'pre-determined set', 'sequential allocation', 'N_UE-PUCCH(q)', 'derived from n_PUCCH,i^(1)', 'processing circuits' 등 핵심 용어 및 파라미터에 대한 정의, 알고리즘, 구조적 구현이 부족하며, 네트워크 노드의 'received DCI' 표현은 기술적 오류에 가깝고, 'HARD'는 명백한 오타이다. 이러한 결함들은 전체 청구항의 범위에 대해 발명자가 소유권을 가졌음을 합리적으로 전달하지 못하므로, written description 요구사항을 충족하지 못한다. 제공된 명세서 기반으로 판단 가능하며, 근거가 명확하고 구체적이다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claims 19, 21, 23, and 24 recite 'received DCI' in the context of a network node, which contradicts the network node's role of transmitting DCI. The specification supports the use of 'transmitted DCI', and this inconsistency raises a moderate written description issue. While the underlying concept is supported, the terminology creates ambiguity. Given the examiner's moderate strictness (0.55), this does not constitute a fatal flaw but warrants correction."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art reference US-2013242770-A1 discloses ePDCCH transmission and DCI reception but does not teach or suggest the specific formulaic determination of PUCCH resources based on the lowest eCCE index, device-specific offset, and subframe index i across multiple ePDCCH sets. The combination references are limited to a single document, and there is no clear motivation to combine elements to arrive at the claimed invention. The Graham factors, including secondary considerations such as improved scalability and reduced collisions, support non-obviousness. Given the high level of specificity in the formula and its structural dependencies, the obviousness challenge lacks strong evidentiary support, making this a weak basis for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서는 PUCCH 리소스 인덱스 결정 과정을 오직 UE 측면에서 기재하고 있으며, 네트워크 노드가 동일한 공식을 사용하여 리소스를 결정한다는 명시적 또는 암시적 기재가 부족함. 청구항 19-24는 네트워크 노드가 'received DCI'를 기반으로 계산한다고 기재하나, 이는 네트워크 노드의 역할과 모순되며, 'transmitted DCI'로 수정하더라도 명세서상 근거가 없음. USPTO의 서면설명 요건에 따라, 출원 시점에서 발명자가 해당 범위의 발명을 소유하고 있었다는 합리적 근거가 없으므로, 이 거절 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항에 대해 'LLM unavailable — default to non-obvious'로 기재되어 있으며, 결합된 선행기술, 결합 동기, 그레이엄 요소 등 어떠한 실질적 근거도 제시되지 않음. 이는 진보성 거절 근거가 없음을 의미하며, confidence 값도 0.0으로, 판단 근거가 전혀 없음. 따라서 이는 weak 수준의 거절 시도로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 23 and 24 recite 'received DCI' in the context of a network node determining PUCCH resources. This is technically inconsistent, as a network node transmits, rather than receives, its own DCI via ePDCCH. The specification does not clarify or support this terminology, raising written description and definiteness concerns. However, the error appears to be linguistic rather than substantive, and the intended meaning—based on consistent usage in claims 19–22 and the overall disclosure—is reasonably ascertainable. Given the moderate strength of this 112 issue and the applicant's likely ability to correct it via amendment, the rejection is not insurmountable."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art, specifically US-2013242770-A1, discloses ePDCCH transmission and DCI scheduling but does not teach or suggest the specific formula-based PUCCH resource determination involving the lowest eCCE index, device-specific offset, and subframe index i scaled by the number of eCCEs in the set. There is no motivation to combine the cited reference with any other art to arrive at the claimed invention. The technical benefits of sequential allocation, reduced collision, and improved HARQ feedback reliability further support non-obviousness. Thus, the lack of a valid 103 rejection is consistent with the analysis, and any potential obviousness argument is weak."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 19, 21, 23, and 24 recite 'received DCI' in the context of a network node, which contradicts the specification where the network node transmits DCI and uses the transmitted DCI to determine PUCCH resources. This inconsistency creates indefiniteness under 35 U.S.C. 112(b). The specification consistently describes the network node's operation based on transmitted DCI, not received, and the use of 'received' introduces ambiguity that a PHOSITA cannot resolve without speculation. The notation discrepancy in claim 21 (uppercase 'N' vs. lowercase 'n') further aggravates indefiniteness. These are clear written description and clarity issues, not mere drafting choices."
+        }
+      ]
+    }
+  ]
+}

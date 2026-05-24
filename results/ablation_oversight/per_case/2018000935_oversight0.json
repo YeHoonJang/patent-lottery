@@ -1,0 +1,239 @@
+{
+  "case_id": "ABL-2018000935",
+  "proceeding_number": "2018000935",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.21428571428571427,
+  "reject_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013216989-A1은 사용자 행동 감지, 의도-행동 격차 식별, 점수 기반 프로파일 생성, 권장사항 제공을 개시하며, 'quantified profile을 사용자 수용/거부에 따라 변형'하는 요소는 명시적으로 개시되지 않으나, 피드백 기반 개인화는 공지된 기술. 통상의 기술자는 사용자 반응을 기반으로 프로파일을 조정하는 것이 시스템 효과성을 높이기 위한 자명한 선택임을 인식할 수 있음. combination_threshold=0.34 기준에서 결합 동기 존재. strictness=0.79인 본 심사관 성향 하에서, 이 정도의 공지성과 동기 부여는 obviousness 판단을 유지하기에 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013216989-A1은 사용자 행동 감지, 의도-행동 격차 식별, 정량적 프로파일 생성, 행동 제안, 피드백 기반 갱신의 모든 핵심 요소를 개시하고 있으며, 이는 청구항 1의 구성과 실질적으로 동일함. 시간 기반 처리, 사용자 인터페이스, 스마트폰 구현 등은 본 기술 분야에서 예측 가능한 설계 선택으로, obviousness 판단에 강한 근거 제공."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "유전 알고리즘의 적용은 선행기술에 명시적으로 개시되지 않으나, 최적화 기법으로서 유전 알고리즘은 적응형 시스템 및 추천 엔진 분야에서 공지된 기술임. 그러나 이를 '의도-행동 격차'라는 행동 심리학적 개념에 적용하고, 시간대 및 행동 속성을 유전자로 매핑하는 것은 기술적 통찰을 요구하며, 통상의 기술자가 자명하게 도달하기 어려울 수 있음. 다만, 본 출원에서의 구현이 알고리즘의 일반적 적용 범위를 벗어났는지에 대한 명확한 증거 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013216989-A1은 사용자 행동 감지, 분석, 개인화된 추천 제공 및 사용자 인터페이스를 통한 피드백 전달이라는 전체 흐름을 명확히 개시하고 있음. 청구항 1의 'intention-behavior gap' 및 'quantified profile'은 선행기술의 목적과 기능적 맥락에서 자연스러운 연장으로, 통상의 기술자가 용이하게 도달 가능하다고 판단. combination_threshold=0.45 기준에 비추어 결합 동기 존재. 명확한 기술적 대응 관계로 인해 강한 obviousness 근거로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 4, 5, 6, 8, 9, 23, 24, 25, 27, 28 및 이에 종속된 청구항들은 명세서에 의해 충분히 뒷받침되지 않음. 'higher likelihood'의 예측 방법, 'rejected'의 정의, 'analyzing'의 알고리즘, 'genes'의 인코딩 방식, 'size of gap'의 정량화 방법 등 핵심 용어들이 명세서에 구체적으로 기재되지 않아 서술 요건 미충족. 증거 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Office Action은 US-2013216989-A1이 행동 감지, 수용성 평가, 추천 제공 등을 개시한다고 주장하며, 사용자 피드백에 기반한 정량적 프로파일 조정이 자명한 변형이라고 판단함. 그러나 진보성 판단에서는 이 피드백 메커니즘이 선행기술에 명시적으로 개시되지 않았으며, 특히 '의도-행동 간격' 프로파일을 사용자 수용/거부에 따라 동적으로 조정하는 것은 선행기술의 정적 스코어링과 구별된다고 평가함. 결합 동기(motivation to combine)에 대한 설명이 존재하나, 진보성 판단에서 제시된 '사용자 반응에 기반한 폐쇄적 피드백 루프'와 '개인화된 적응형 모델링'은 단순한 개인화 향상보다 더 깊은 기술적 발전을 나타냄. 심사관의 strictness가 0.47으로 중립적이고, 증거가 충분히 강하지 않으므로 이는 moderate 수준의 거절 근거로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2013216989-A1) discloses behavior sensing, recommendations, and personalization but does not teach or suggest the specific identification and dynamic quantification of an 'intention-behavior gap' or its iterative refinement using user feedback. The use of a genetic algorithm with behavior-related genes, a fitness function based on gap size, and convergence-based stopping criteria is not disclosed. While some individual elements (e.g., reminders, user input) are known, the combination and technical implementation are not rendered obvious. The motivation to combine is lacking, and the claimed method represents a non-routine optimization in behavioral intervention. Given the examiner's moderate strictness (0.55), this weak obviousness position does not justify rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action raises indefiniteness under 35 U.S.C. § 112(b) for claims 4, 8, 11, 23, 27, and 30. The objections focus on subjective terms like 'a time of higher likelihood', 'equivalent to genes', and 'pre-determined value' without clear structural or algorithmic support in the specification. While these terms could be interpreted as functional language common in software patents, the lack of explicit definition or implementation details in the claims or assumed specification introduces ambiguity. Given the examiner's strictness level of 0.52, which leans slightly toward allowing marginal cases, these issues are not fatal but warrant clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art US-2013216989-A1 discloses behavior sensing, scoring, and personalized recommendations, but does not explicitly teach the 'intention-behavior gap' or dynamic profile adjustment based on user acceptance. While many claimed features (e.g., time-stamped sensing, smartphone sensors) are predictable variants, the core innovation in claims involving user inspection of the profile and genetic algorithm-based optimization is not fully addressed. The combination motivation is reasonable but relies on functional equivalence rather than explicit disclosure, making the 103 rejections moderate in strength under BRI and moderate strictness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으며, US-2013216989-A1과의 비교에서 핵심 구성요소인 '의도-행동 간격(intention-behavior gap)'의 식별, 유전자 알고리즘 기반 최적화, 사용자 반응에 따른 프로파일 동적 조정 등이 선행기술에 없고 결합 동기가 부족하다고 평가됨. 결합 동기 판단 기준(combination_threshold=0.48)에 비해 증거가 부족하며, 기술적 사양(tech_specialization=0.89)과 중립적 정책 성향(policy=0.49)을 고려하더라도 명확한 obvious 판단 근거는 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013216989-A1은 사용자 행동 센싱, 의도-행동 갭 식별, 정량적 프로파일 생성, 제안 제공, 사용자 반응에 따른 조정을 포함하여 청구항 1의 모든 구성요소를 명시하거나 암시하고 있으며, 결합 동기가 명확함. 특히, 캘린더 플랫폼, 점수 제공, 개인화된 리마인더, 사용자 피드백 처리 등은 동일한 기술분야에서 통상적 기술자에게 자명한 구성임. 선행기술의 기재 범위가 광범위하여, 스마트폰 인터페이스, 웨어러블 센서, 시스템 아키텍처 등도 예측 가능하게 개시됨."
+        }
+      ]
+    }
+  ]
+}

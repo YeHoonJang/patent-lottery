@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation under §102 for novelty findings, applies §112(a)/(b) written description/indefiniteness for claim dependency defects, and references Graham factors framework by name for §103 (even if the §103 analysis was unavailable due to LLM error), using statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Novelty rejections consistently cite specific claim language (e.g., 'evaluation device,' 'frequency changer,' 'load resistance') mapped against specific disclosures in US-2012212074-A1, and §112 rejections reference specific claim numbers and structural deficiencies with textual grounding."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage defaulted to non-obvious due to LLM unavailability with zero confidence, and the final decision explicitly acknowledges this gap and treats §103 as 'moderate/auxiliary' without contradicting the §102 findings — the overall rejection is driven by §102 and §112, consistent with earlier-stage conclusions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner resolves ambiguous elements (e.g., claims 41, 42 characterized as 'obvious variants' and 'logical extensions') toward rejection rather than allowance, and maintains rejection even where §103 analysis was unavailable, consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated stage findings: §102 anticipation for claims 38–43 and 52–56, §112 defects for claims 52–55, and conditional allowance for claims 44–51 and 57 based on the novelty findings, with no unexplained reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022004238",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9543,
+      "output_tokens": 444,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

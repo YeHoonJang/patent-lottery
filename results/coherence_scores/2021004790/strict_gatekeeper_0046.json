@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR framework for §103, explicitly identifying scope and content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation to combine across all claim analyses."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection references specific prior art documents (US-2018167979-A1, US-2018359653-A1) with specific claim elements compared, such as RACH chunk information mapped to beam IDs, CSI-RS measurement-based resource selection, and RAR reception channels."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings — claims found novel (74, 80) under §102 receive additional but ultimately still adverse §103 treatment with explicit reasoning about design choices and ordinary skill, and claims found not novel under §102 are maintained as obvious with consistent rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner resolves all ambiguous cases (claims 74 and 80, which were found novel under §102 and non-obvious in initial §103 analysis) toward rejection in the final decision, explicitly citing the strict examination standard and public interest protection principles, consistent with a high-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated stage analyses — the majority of claims were rejected at both §102 and §103 stages, and the two claims (74, 80) given more favorable treatment in earlier sub-stages are ultimately rejected with stated rationale about design choices and obviousness, making the all-reject decision non-arbitrary."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004790",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14434,
+      "output_tokens": 407,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

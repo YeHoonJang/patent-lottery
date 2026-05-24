@@ -1,0 +1,324 @@
+{
+  "case_id": "2020006433",
+  "proceeding_number": "2020006433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses the core functionality of the claims. The differences in specific phrasing are trivial and would not require an inventive step for a PHOSITA to adapt. The reference's control module inherently teaches the claimed priority-based computation and visualization. A PHOSITA would have motivation to implement the same logic explicitly as claimed, given the reference's focus on optimizing energy flow management through rule-based control."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2016164299-A1 and US-2012228933-A1 provides clear and specific motivation for visualizing energy flows based on measured values and priority allocation rules. The analysis shows that the claimed visualization aspects are obvious to a person of ordinary skill in the art given the teachings of the prior art. The motivation to combine is well-supported by the optimization approach in US-2016164299-A1, making this a strong basis for rejection under 103."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the combination of three prior art references. While the combination is logically motivated and the claims are considered to be an obvious combination of known elements, the confidence levels for several claims are relatively low (e.g., 0.5–0.6). This suggests some uncertainty in the strength of the rejection. Given the strictness level of 0.25, which favors the applicant in cases of moderate or weak rejection, the rejection may not be strong enough to warrant a final rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The provided prior art document US-2016164299-A1 explicitly discloses all elements of the claims, including obtaining measured energy flow values, computing energy flow values based on priority allocation rules, and generating a display image representing these flows. The confidence levels for the novelty rejections are generally high (0.7 to 0.8), indicating strong support for the anticipation argument."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2016164299-A1 and US-2012228933-A1 provides a clear basis for obviousness. The motivation to combine is well-established as a known design need in energy management systems. The references teach all essential elements, with only minor differences that would be obvious to a person of ordinary skill in the art."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly anticipates claims 2, 9, and 16. The reference discloses all elements of these claims, including measurements of energy production by a photovoltaic generator, total consumption from the grid, and charge/discharge of a battery."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1이 모든 청구항의 핵심 구성요소를 명시적으로 공개하고 있으며, coverage score 0.78-0.85로 청구항을 충분히 개시함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1이 모든 핵심 구성요소를 공개하고 있으며, 시각화 기능 추가는 공지된 기술로 결합 동기가 명확함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서 부재로 구체적 근거를 검토할 수 없음. 단, 청구항에 포함된 'priority allocation rules'과 'visual representation format' 등은 일반적인 기술 용어로 해석 가능"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1이 청구항의 모든 요소를 개시하거나 자명한 변형으로 포함하고 있습니다. 결합 동기 또한 에너지 관리 효율성 향상이라는 명확한 목적에 기반합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술들이 에너지 흐름의 측정, 계산, 시각화 기술을 개시하고 있으며, 통상의 기술자는 이러한 기술들을 결합하여 청구항 기술을 도출할 수 있다는 점에서 결합 동기가 명확함"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection is based on a combination of prior art references (US-2016164299-A1 and US-2015229268-A1) with clear motivation to combine. The confidence level of 0.7 indicates strong support for the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1이 청구항의 모든 요소를 명확히 개시하고 있으며, 신규성 판단에서 각 청구항의 요소들이 모두 해당 선행기술에서 개시되거나 암시적으로 포함되어 있다고 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016164299-A1이 진보성 판단에서 청구항과의 차이점이 기술 분야에서 공지된 일반적인 변형 또는 구체화된 표현에 불과하며, 결합 동기가 명확히 제시됨. 그러나 일부 청구항의 경우 암시적 개시에 기반한 판단이므로 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art references disclose the individual elements of the claimed invention, and the motivation to combine them is reasonably presented. However, the confidence levels for some claims are relatively low (e.g., 0.6 for claims 6, 7, 13, 14, 19, 20), indicating some uncertainty in the obviousness determination. The combination of references is logical, but the strength of the rejection varies across claims."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The cited references US-2016164299-A1 and US-2015229268-A1 explicitly disclose the claimed methods and apparatus for energy flow visualization, including obtaining measured energy flow values, computing energy flow values based on priority allocation rules, and generating display images representing these values. The similarity scores and match types indicate that the elements of the claims are covered by the cited references, with confidence levels ranging from 0.6 to 0.85."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 에너지 흐름 시각화의 핵심 구성요소를 개시하고 있지만, 청구항의 구체적인 시각화 방법이 선행기술에서 암시적으로 포함된 개념인지에 대한 해석의 여지가 있습니다. 통상의 기술자가 선행기술을 결합하여 청구항을 구현할 수 있다는 점은 명확하지만, 결합 동기의 명확성과 선행기술의 구체성에 따라 판단이 달라질 수 있습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1이 청구항 2, 9, 16의 구성요소를 명시적으로 개시하고 있어, 신규성 부정의 근거가 명확합니다. 이는 선행기술의 구체적 내용과 청구항의 구성요소가 일치하기 때문입니다."
+        }
+      ]
+    }
+  ]
+}

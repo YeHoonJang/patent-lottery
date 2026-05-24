@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) across all claim rejections, with no misapplication of a different statute's framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection references specific prior art documents (US-2014121932-A1, US-2012281091-A1, US-2014278090-A1) and maps their disclosed elements to specific claim limitations throughout the novelty, obviousness, office action, and final decision stages."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on or mirrors the §102 novelty findings (most claims were found not novel, and the same references are used for obviousness), with no contradictions between stages and obviousness conclusions logically follow the anticipation analysis."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has combination_threshold=0.329 (easy combiner) and strictness=0.502 (moderate), and the trace accepts weak motivations to combine such as 'design choice,' 'common goal,' and 'straightforward extension' throughout, consistently reflecting the easy-combiner profile without requiring strong explicit motivation."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and logically from the uniform §103 obviousness findings at every prior stage, with the weighing section explicitly summarizing the accumulated evidence and noting the absence of secondary considerations."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019000091",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15727,
+      "output_tokens": 370,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

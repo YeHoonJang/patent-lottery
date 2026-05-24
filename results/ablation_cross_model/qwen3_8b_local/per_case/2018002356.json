@@ -1,0 +1,373 @@
+{
+  "case_id": "2018002356",
+  "proceeding_number": "2018002356",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims have coverage scores below 0.79, with explicit prior art disclosure of each element. The prior art (US-2012296725-A1) directly anticipates claims 1-50 through overlapping elements like machine-readable tags, transaction details, and payment processing."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art elements are combinable with obvious motivation (e.g., integrating mobile scanning with payment systems). Graham factors confirm minor differences and no non-obviousness evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 1, 10, and 27 lack definition for 'transaction details' and 'additional transaction details', creating ambiguity under 35 USC 112(a)."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all elements of claims 1, 3, and others through direct anticipation or obvious combination. The PHOSITA would readily combine features as routine optimizations in mobile payment technologies, with high confidence (0.75-0.88)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1 and 3 lack sufficient definition for 'payer selected transaction options' and 'machine-readable pay code,' extending beyond described embodiments. The specification does not adequately support broad claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses all elements of the claims, and the combination is obvious to a person of ordinary skill in the art. The high confidence levels (0.7+), explicit disclosure of overlapping features, and lack of secondary considerations confirm strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2012296725-A1-claim3) explicitly discloses network-based product scan data retrieval, which is functionally equivalent to the claimed system. The combination threshold (0.7) is met with high confidence (0.85), and the motivation to combine is clearly established."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술(US-2012296725-A1)은 청구항의 모든 요소를 명시적으로 포함하고 있으며, 결합 동기(예: 결제 프로세스 최적화, 사용자 상호작용 확장)가 명확하게 제시됨. Graham 요소에 따르면 기술적 통합이 당업자에게 당연한 선택이었음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 모든 구성 요소를 명시적으로 포함하고 있어 신규성 부재. 예를 들어, 청구항 1의 'payer selected transaction options'는 선행기술의 'preferred payment options'와 동일한 범주에 속함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 10, 27 등은 'payer selected transaction options'와 같은 추상적 용어 사용으로 구체적 구현이 부족하나, 명세서가 제공되지 않아 판단이 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly anticipated or obvious over US-2012296725-A1 with coverage scores <0.82. The prior art discloses all claimed elements (machine-readable tags, transaction details, payment options, network connectivity) and their combination is routine for a PHOSITA. The combination_threshold=0.51 is easily met with multiple overlapping references."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail for NFC/QR code integration and user-selected shipping details. While the abstract idea of barcodes is described, specific implementations (e.g., QR code processing, shipping detail selection) are not adequately enabled."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1 discloses core functionalities with minimal differences, but combination motivation is clear. Confidence score 0.75 meets threshold but lacks strong inventive step evidence."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly covers claims 1 and 3 with coverage scores exceeding 0.78, meeting strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claim 1's 'transaction details' and 'user-selected options' lack specific examples in the specification, but this is a minor deficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1,3,4,6,8,10) are explicitly or implicitly covered by prior art with clear combination motivation. Confidence levels (0.6-0.85) and Graham factors indicate routine technical knowledge and obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly or implicitly anticipated by US-2012296725-A1 with coverage scores >0.65 and confidence >0.6. The prior art directly overlaps with claim elements (e.g., machine-readable tags, product scan data, payment options)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 explicitly discloses all elements of claims 1, 3, and 9 with high confidence (0.8-0.95), meeting the strictness threshold of 0.50."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Clear motivation to combine elements from US-2012296725-A1 exists for claims 4,5,6,7,10, with Graham factors supporting obviousness (confidence 0.55-0.95)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguity in 'payer-selected transaction options' and 'machine-readable pay code' lacks sufficient specification support (confidence 0.4-0.7)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 청구항의 모든 요소를 명확히 예측하며, 결합 동기와 기술적 당연성(merchant identifier 처리, 제품 스캔 데이터 비교, 결제 옵션 표시 등)이 명확히 제시됨. 유사도 점수(0.65)와 기술적 당연성은 강력한 근거로 작용."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 청구항의 모든 구성요소를 명확히 포함하고 있으며, 결합 동기와 기술적 유사성이 뚜렷해 102_novelty로 강력한 거절 근거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 'payer device'와 'QR bar code' 등의 용어가 명세서에서 충분히 정의되지 않아, 해석의 여지가 있음. 그러나 이는 단순한 모호성 수준으로, 강한 거절 근거로 보기 어렵음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly anticipates all elements of claim 1 with high coverage scores (0.7+) and specific citations, meeting strictness threshold."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art elements are combinable with clear motivation (merchant identifier comparisons) and Graham factors support obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Term 'machine-readable' is ambiguously broad despite specification limitations to barcodes, but evidence of enablement is present."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 청구항의 기능적 요소를 명시적으로 포함하며, 결합 동기와 기술적 당연성에 대한 명확한 근거가 제공됨. 103 기준의 combination_threshold(0.57)를 초과하는 0.7 이상의 confidence 값이 다수 존재."
+        }
+      ]
+    }
+  ]
+}

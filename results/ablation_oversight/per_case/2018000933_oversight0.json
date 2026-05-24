@@ -1,0 +1,322 @@
+{
+  "case_id": "ABL-2018000933",
+  "proceeding_number": "2018000933",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.5,
+  "reject_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2013140521-A1 with common general knowledge provides a clear and logical motivation to substitute a metal foam substrate for improved thermal and electrical performance. The use of nickel, copper, or stainless steel foams is well-documented in the art for such purposes. The substitution of known elements with predictable results supports a strong obviousness rejection. Additionally, the inclusion of a GaN seed layer, VLS growth, down-converting materials, and continuous pn junctions are all supported by routine practices in the field, with no evidence of unexpected results."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013140521-A1 공개한 나노와이어 기반 LED는 금속 폼 기판을 제외한 대부분의 구성요소를 포함하며, 금속 폼은 열 관리 및 기계적 안정성을 향상시키기 위한 일반적인 설계 선택으로 간주될 수 있음. 결합 동기(motivation to combine)는 낮은 combination_threshold(0.34)에 비추어 충분히 성립되며, 공지기술 기반의 대체는 예측 가능한 결과를 도출함. strictness=0.88인 심사관 성향 하에서 이는 강한 obvious 판단 근거가 됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "VLS 성장법, GaN 시드층, 에너지 다운변환 물질 등은 개별적으로 공지기술이나, 본 출원에서의 특정 조합이나 효과에 대한 비자명성 입증이 부족함. 그러나 명세서에 예외적 효과나 상업적 성공 등의 보조적 고려사항이 없으므로, 이러한 추가적 특징들에 대한 obvious 판단은 유지될 수 있음. 다만 VLS는 MOCVD/MBE와 다른 제조 조건을 요구할 수 있어 해석의 여지 존재."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'junction', 'contact', 'energy down-converting material', 'continuous pn junction' 등의 용어는 명세서에서 명확히 정의되지 않아 청구항 범위가 불확실함. 특히 'CuO2'는 존재하지 않는 화학식으로서 명백한 오류이며, 112(b) 불확실성 거절은 명확함. 문언주의 해석 원칙 하에서도 용어의 불명확성은 그대로 유지됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 'is_obvious = false'로 평가되었으며, 선행기술 간의 결합 동기(motivation to combine)가 존재하지 않는다고 명시함. 금속 폼 기판과 나노와이어 기반 발광 소자의 조합은 구조적, 기능적으로 차별화되며, 기술적 이점(열 관리, 기계적 유연성, 대면적 가공)이 비자명하다고 판단됨. combination_threshold=0.68임에도 불구하고, 모든 진보성 관련 confidence 값이 0.6 이상이지만 'obvious'로 판단된 사례가 없어, 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7 및 18의 재료 목록(GaN, InGaN 등)은 선행기술에서 개시되었으며, AlGaN 등의 추가 재료는 공지된 대체재로 간주될 수 있음. 그러나 본 출원의 핵심 기여는 금속 폼 기판과의 통합적 설계에 있으며, 재료 선택 자체가 단독으로 자명하다고 단정하기에는 기술적 맥락에서의 기여를 간과할 위험이 있음. 통상의 기술자 입장에서의 동기(motivation)는 존재하나, 전체 시스템적 기여와의 관계에서는 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 8, 12, 15, and 19 are directly anticipated by US-2013140521-A1 with explicit disclosure of III-nitride nanowires, quantum wells, GaN/InGaN/GaN structure, and corresponding method steps. The reference provides clear, enabling disclosure matching all elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7, 9, 18, and 20 are obvious over US-2013140521-A1. The reference teaches core/shell radial structures with p-type shells and quantum wells. Selecting known semiconductor materials (GaN, InGaN, GaAs) is routine for PHOSITA. Motivation to combine is inherent in the reference’s goal of improving efficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013140521-A1은 나노와이어 기반 발광 소자를 개시하며, 금속 폼 기판의 사용만이 명시적으로 누락되어 있다. 그러나 금속 폼은 고전도성 및 고효율 열분산 특성으로 인해 고출력 LED에서 공지된 기판 재료로 널리 알려져 있었다. 나노와이어 LED는 열관리 문제가 심각한 기술적 과제로 인식되고 있었으며, 본질적으로 열분산을 개선하기 위한 기판 대체는 당업자에게 명백한 해결책이었다. 니켈, 구리, 스테인리스강 등의 재료 선택, VLS 성장법, GaN 시드층, 에너지 다운변환 재료(예: 형광체)의 추가 등은 모두 해당 분야에서 통상적 기술의 범위 내에 있는 요소들이다. 이러한 구성요소들의 결합은 예측 가능한 결과를 산출하며, 결합 동기(motivation to combine)는 명확하고 타당하다. 출원인 측에서 예상 밖의 효과, 상업적 성공, 장기간 미충족된 수요 등의 2차적 고려사항을 제출하지 않았다. 따라서 103 거절 근거는 강력하다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7 and 18 recite the use of wide-bandgap semiconductors such as GaN or InGaN, which are explicitly disclosed in US-2013140521-A1 for light-emitting nanowires. The reference provides clear motivation to use these materials, and their application in LEDs is conventional. The selection of known materials based on their established properties constitutes a strong obviousness rejection under 103."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is directly anticipated by US-2013140521-A1, which explicitly discloses III-nitride (InGaN/GaN) nanowires. The reference describes the same material composition in a structurally similar device, satisfying the anticipation standard under 102. Evidence is clear and unambiguous."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 7 and 18 recite 'CuO2' and 'CdTc', which are not recognized semiconductor materials and are not disclosed or enabled in the specification. This constitutes a clear failure to meet the written description requirement under 112(a). The issue is factual and well-supported by the record."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 10, 11, and 21 are rejected under 112 for lack of written description and enablement regarding 'continuous pn junction' and 'energy down-converting material'. While the terms are mentioned in the specification, details on structure, formation, or integration are sparse. However, the disclosure may support a narrow interpretation. Given the broadest reasonable interpretation (BRI) standard and breadth=0.86, these claims push the boundary but do not fully satisfy 112(a). The strength is moderate due to partial support."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 7, 8, 9, 12, 15, 18, 19, 20, and 21 are directly anticipated by US-2013140521-A1, which explicitly discloses III-nitride nanowires (InGaN/GaN), quantum wells, p-type shells, and core/shell structures. The disclosure in the reference matches the claimed features with specificity and clarity, satisfying the anticipation standard under 35 U.S.C. 102. These rejections are well-supported by explicit paragraphs and the abstract."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The rejection of claims 10 and 21 under 35 U.S.C. 112(a) for lack of written description regarding 'continuous pn junction' is based on the absence of a clear definition or illustration in the specification. While the term 'continuous' is not explicitly defined, a PHOSITA might reasonably interpret it in the context of a functioning diode with a complete junction across the active region. However, the lack of explicit support introduces ambiguity, making this a moderate-strength issue. Given the examiner's moderate strictness (0.46), this does not automatically justify rejection without opportunity to amend."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 7 and 18 recite 'CuO2', which is not a known stable semiconductor compound. The specification lacks any description or example supporting its use, failing written description requirement. This is a clear 112(a) issue."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 10 and 21 use the term 'continuous pn junction' without clear definition or structural correlation in the specification. While the concept may be understood in context, the lack of precise disclosure introduces indefiniteness and written description concerns."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 7, 8, 9, 12, 15, 18, 19, and 20 are directly anticipated by US-2013140521-A1, which explicitly discloses III-nitride nanowires, quantum wells, p-doped shells, and specific material combinations. The disclosure is clear and unambiguous, satisfying the 'single reference' requirement for anticipation under 35 U.S.C. § 102. Confidence scores range from 0.82 to 0.95, indicating high reliability."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'continuous pn junction' in claims 10 and 21 lacks explicit definition in the specification. While the concept may be inherent in standard LED operation, the absence of a clear description or drawing support introduces ambiguity. However, given common usage in semiconductor contexts, a PHOSITA might reasonably interpret it as a fully formed junction across the active region. Strictness level 0.52 allows some benefit of the doubt, but clarification is warranted."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 10 및 21에 사용된 'continuous pn junction'이라는 용어는 명세사에 명확히 정의되어 있지 않으며, 이를 달성하기 위한 성장 조건, 도핑 프로파일, 또는 전기적 연결 방식에 대한 기술도 부족하다. SEM 이미지 하나만으로는 서술적 지지 및 실현 가능성을 입증하기에 부족하며, 당업자가 재현하기 어렵다고 판단된다. USPTO의 112(a) 기준에 비추어 strong한 written description 및 enablement 위반이다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'continuous pn junction'의 의미가 모호하여, 나노와이어의 물리적 융합인지, 전기적 퍼콜레이션(percolation)인지, 혹은 동기화된 접합 형성을 의미하는지 불분명하다. 이는 112(b)의 명확성 요건 위반으로, 청구항의 범위를 결정할 수 없다는 점에서 strong한 결함이다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "금속 폼 기판의 사용은 US-2013140521-A1에 직접 개시되어 있지 않으며, 통상의 기술자가 이를 결합할 동기가 명확하지 않음. 금속 폼은 다공성 및 비정질 구조를 가지므로 나노와이어 에피택셜 성장에 부적합할 수 있음. 열전도성 향상 등의 이점이 제시되었으나, 선행기술에서 이러한 문제를 해결하기 위해 금속 폼을 사용하라고 동기부여하지 않음. 결합 동기에 대한 주장은 일반적인 지식에 기반하지만, 나노와이어 기반 LED에 적용하는 것은 예측 가능하지 않음. strictness=0.52인 심사관 입장에서 증거가 충분히 강하지 않아 obvious 판단은 보류됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 8, 9, 10, 12, 15, 19, 20, and 21 are directly anticipated by US-2013140521-A1 with explicit disclosure of III-nitride nanowires, quantum wells, p-type shells, continuous pn junctions, and specific material stacks. The prior art provides enabling disclosure in paragraphs [0004], [0007], and claims, satisfying 102 standards. These rejections are based on clear, literal disclosures."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 7 and 18 are rejected under 103 for reciting GaN/InGaN as wide-bandgap semiconductors. While the prior art explicitly discloses these materials, the rejection under 103 is secondary to 102. The 'or' clause means anticipation of one branch invalidates novelty, but the 103 rejection stands as an alternative. Given the conventional nature of these materials in LED devices and no evidence of unexpected results, the obviousness rejection is reasonably supported, though slightly redundant given the 102 basis."
+        }
+      ]
+    }
+  ]
+}

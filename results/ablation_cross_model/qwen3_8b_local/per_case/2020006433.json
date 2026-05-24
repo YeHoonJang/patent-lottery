@@ -1,0 +1,381 @@
+{
+  "case_id": "2020006433",
+  "proceeding_number": "2020006433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art suggests some elements (US-2016164299-A1 and US-2012228933-A1), but explicit prioritization and visualization are not disclosed. Combination requires non-obvious creativity, but motivation is not clearly established in the prior art."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 9, 10, 16, and 17 are explicitly anticipated by US-2016164299-A1 with high confidence (0.85-0.9). No inventive step is present."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Objection based on insufficient detail in the specification, but no specific evidence is provided to support this claim."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1은 청구항의 모든 구성요소를 명시적으로 개시하며, 결합 동기(에너지 효율 최적화)와 기술적 명확성이 충족됨. 선행기술의 기능적 동일성과 결합 가능성에 대한 확고한 증거 존재."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 'amounts of energy flow'와 'energy priority allocation rules' 등 추상적 용어 사용 시, 명세서에서 구체적 예시나 기술적 세부사항이 부족한 점은 해석의 여지가 있으나, 공지된 기술 범주 내에서의 모호성으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에 '에너지 우선순위 할당 규칙'에 대한 구체적 예시나 알고리즘적 세부사항이 부재하나, 청구항 1의 독립청구항 특성상 기술적 기여가 인정될 수 있어 보정 제안으로 판단"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "다수의 청구항이 선행기술과의 결합 동기 부족으로 진보성 부재로 판단되나, 기술적 기여가 인정되어 강하게 거절하지 않음"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "다수의 청구항이 선행기술과의 유사성으로 신규성 부재로 판단되나, 기술적 차이가 인정되어 강하게 거절하지 않음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1은 청구항 1 및 3의 모든 구성요소를 명시적으로 개시하며, 결합 동기(시스템 관리 목적)와 Graham 요소(기존 기술의 범위, 차이점, PHOSITA 수준)가 명확히 충족됨. 이에 따라 결합의 당연성은 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly or implicitly anticipated by prior art with high confidence (0.78-0.85), meeting strictness threshold for non-novelty"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Combination of prior art elements with clear motivation to combine (Graham factors) and high confidence (0.7-0.85) demonstrates obviousness"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks detailed definitions for key terms like 'energy priority allocation rules' with confidence of 0.7, requiring amendment under strictness"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The claims contain indefinite terms like 'substantially' and 'at least one load' without quantitative definitions, and lack specific algorithms/technical details to enable a PHOSITA. This meets the strictness threshold (0.82) for 112(a) rejection."
+        },
+        {
+          "basis": "112_definiteness",
+          "strength": "strong",
+          "reasoning": "Terms like 'substantially' and 'at least one load' create ambiguity in claim scope, violating 112(b). The Office Action explicitly identifies this as a defect, aligning with strictness criteria."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1-20) are directly anticipated or rendered obvious by prior art references (US-2016164299-A1, US-2012228933-A1) with high confidence scores (>0.7). The combination of known elements (power metering, priority rules, visualization) is clearly taught, and motivation to combine is explicitly stated."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 5, and 12 lack sufficient detail on priority allocation rules and display specifications. While the written description is insufficient, the deficiencies are not severe enough to invalidate the claims entirely."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1,3,4,5,6,7,10,11,12,13,14,15,17,18,19,20) are directly anticipated or obvious through explicit/implicit disclosure in US-2016164299-A1 and US-2012228933-A1. The combination threshold (0.55) is met with clear motivation to combine and minimal differences between prior art and claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims lack specific details on visualization methods and priority rules, which are critical for enabling the invention. While the specification may provide some support, the breadth of claims (0.86) and lack of explicit definitions create ambiguity under BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses core elements (power flow measurement, priority-based control, visualization) and their combination is supported by standard energy management practices. Confidence levels (0.65-0.75) and clear motivation to combine (optimization, user-friendly design) justify strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Lack of specific definitions for 'energy priority allocation rules' in the specification creates ambiguity. While not definitively unenable, the moderate confidence (0.6-0.7) and strictness threshold (0.46) suggest potential rejection under 112(a)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 기술적 요소가 청구항의 모든 구성요소를 명확히 포함하며, 결합 동기(에너지 효율 최적화)가 명확히 제시되어 결합이 자명함을 강력히 시사."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1이 청구항의 핵심 기능(에너지 흐름 측정, 우선순위 할당, 시각화)을 구체적으로 담아내고 있어, 청구항의 구성요소가 선행기술에 의해 예측 가능함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 '에너지 우선순위 할당 규칙'과 '디스플레이 이미지'의 구체적 정의가 부족해, PHOSITA가 실시하기 위해 과도한 실험을 요구할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 and US-2015229268-A1 explicitly disclose energy flow measurement and visualization components. The combination is supported by clear motivation (energy management systems) and Graham factors (PHOSITA would recognize integration for optimization). Confidence level (0.7) and explicit technical overlap justify strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references (US-2016164299-A1 and US-2012228933-A1) disclose overlapping functionalities, and the combination threshold (0.52) is met with high confidence (0.75-0.85). The Graham factors confirm obviousness for energy flow visualization."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 6,7,13,14,19,20 lack explicit disclosure of visualization aspects, while other claims have ambiguous terms. The prior art focuses on metering, not visualization, creating interpretive ambiguity."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술(US-2016164299-A1)과의 결합 가능성에 대한 명확한 증거가 존재하며, PHOSITA의 결합 동기와 Graham 요소가 충분히 제시됨"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "에너지 우선순위 할당 규칙에 대한 명세서의 구체성 부족은 해석 여지가 있으나, 기술적 수정 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are explicitly rejected under 103 with high confidence (0.6-0.8) citing prior art that directly overlaps or inherently includes claimed elements. The combination of prior art references (US-2016164299-A1 and US-2012228933-A1) and clear motivation to combine (e.g., optimizing energy distribution) meet the strictness threshold."
+        }
+      ]
+    }
+  ]
+}

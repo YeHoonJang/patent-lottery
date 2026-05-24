@@ -1,0 +1,269 @@
+{
+  "case_id": "PILOT-2017009720",
+  "proceeding_number": "2017009720",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2의 'usage model'은 선행기술에서 명시적으로 사용되지 않으나, '332 출원의 러닝 모듈이 운영 솔루션을 학습 기반으로 선택하는 방식은 사용 모델 선택의 실질적 대응물로 간주될 수 있음. 항공기 건전성 모니터링 분야에서 센서 데이터와 하중 간의 관계를 모델링하는 것은 공지된 기술이며, 통상의 기술자에게 명백한 설계 선택임. Claim 4 및 12의 '시간 데이터 또는 사이클 데이터'는 비록 선행기술에서 명시적이지 않으나, 항공기 사용 기반 수명 평가에서 표준적인 측정 유형으로 간주될 수 있으며, 이를 포함하는 것이 명백하다고 판단됨. 결합 동기와 예측 가능성 모두 존재하므로, 103 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Prior art US-2013138332-A1 is directed to airline operations control and decision support, not component-level prognostics using sensor-based load measurements. The claimed features—such as determining change in failure probability based on actual load sensor data, selecting usage models to interpret sensor data, and calculating RUL—are not suggested in the reference. While the combination_threshold is low (0.34), there is no teaching, suggestion, or motivation to combine the operational cost-based system of the prior art with physical load monitoring for component health assessment. The differences in purpose, technical domain, and system architecture are substantial. However, given the broad interpretation of BRI (0.73) and the strictness level (0.88), even weak potential overlap is scrutinized. Yet, no clear evidence of obviousness exists, and the PHOSITA would not be led to combine without hindsight."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although US-2013138332-A1 discloses a prognostic health data system for airline operations, it operates at a fleet-level decision-making level, not at the component-level health monitoring as claimed. The reference does not teach or suggest using real-time sensor data to determine and redetermine failure probability based on applied loads, nor does it disclose dynamic model selection or direct load measurements. The differences in scope, function, and technical implementation are significant. Given the combination_threshold=0.68 and the lack of motivation to combine or modify the prior art to achieve the claimed functionality without hindsight, the obviousness challenge is weak. The integration of sensor-based inputs, adaptive modeling, and component-level feedback represents a non-trivial technical advance."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art US-2013138332-A1 is directed to high-level airline operations and fleet management, not component-level prognostics using real-time sensor data. The claimed invention introduces dynamic reassessment of failure probability and remaining useful life based on direct load measurements, usage model selection, environmental inputs, and time/cycle data—none of which are disclosed or suggested in the prior art. The motivation to combine is lacking, and the technical differences represent a meaningful advancement in aircraft health monitoring. Given the low strictness (0.29), even moderate doubts favor the applicant, and the evidence for obviousness is insufficient."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013138332-A1은 청구항의 모든 핵심 기능 — 센서 기반 하중 측정, 고장 확률 변화 결정, 입력 변화 수신, 예측 재판단, 사용 모델 선택, 시간/사이클 데이터 처리, 환경 측정, 잔여 수명 업데이트 — 를 명시하거나 암시적으로 개시하고 있음. 예측 모듈과 쿼리 모듈의 상호작용은 동적 재평가 기능을 자연스럽게 수행하며, 학습 모듈은 모델 선택의 동적 조정을 포함함. 결합 동기는 선행기술 내에 명확히 존재하며, 항공기 건전성 관리 분야의 통상의 기술자가 시스템 정확도 향상을 위해 쉽게 도달할 수 있는 기술적 수준임. 2차적 고려사항 제출 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2013138332-A1) discloses a prognostic system for airline operations management using health data and variable inputs, but does not explicitly teach component-level failure probability reassessment based on real-time sensor measurements of applied loads, usage model selection, or dynamic RUL recalculation. While the differences are noted, the combination of load sensing, probabilistic assessment, and iterative update is a known approach in prognostics. A PHOSITA in aerospace health monitoring would recognize that integrating direct load, environmental, and time-based inputs into a failure model with recalibration upon new data is a logical extension of existing methods, especially given the industry's move toward data-driven maintenance. The motivation to combine may not be explicit, but the functional similarity in iterative decision updating creates a moderate case for obviousness, particularly under a broad interpretation of analogous art. However, the specific focus on component-level load interpretation via selectable usage models introduces technical nuance that prevents a strong obviousness finding."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013138332-A1은 항공기 예측 시스템의 핵심 기능(데이터 수신, 고장 확률 산정, 입력 변화 시 재평가)을 개시하고 있으며, 시간/사이클 데이터, 직접 하중 측정, 환경 요인, 하중-시간 조합 등의 추가 요소는 항공기 프로그노스틱스 분야에서 통상적인 데이터 입력으로 간주됨. 이러한 요소들의 결합은 통상의 기술자가 충분히 예측 가능하며, 선행기술과의 기술적 격차가 작음. 결합 동기(motivation to combine)도 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013138332-A1은 항공기 데이터 기반의 동적 운영 조정 시스템을 개시하며, 센서 데이터 수신, 고장 가능성 평가, 입력 변화에 따른 재평가 기능을 포함함. 청구항의 모든 구성요소가 동일 문헌에 은폐적으로 개시되었고, 기능적 동등성 및 결합 동기가 명확함. 선행기술과의 차이는 구체화된 적용 분야에 국한되며, 항공기 프로지노스틱스 분야의 통상의 기술자에게는 구성요소를 조합하거나 적용하는 것이 자명함. confidence 점수도 0.7 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013138332-A1은 프로그노스틱 모듈과 쿼리 모듈을 통해 입력 변화에 따라 고장 관련 데이터를 반복적으로 재평가하는 시스템을 명시적으로 개시하고 있으며, 이는 청구항 1 및 9의 핵심 기능과 실질적으로 동일하다. 항공기 데이터 및 예지 정보를 기반으로 운영 안정성을 확보하는 기능은 본 출원의 '고장 확률 변화 산정 및 재산정'과 기능적으로 대응한다. 선행기술이 '항공기 부품에 가해지는 하중'을 직접적으로 강조하지는 않으나, 'prognostic aircraft health data'는 하중 관련 데이터를 포함하는 포괄적 개념으로 해석될 수 있으며, 통상의 기술자가 부품 수준의 하중-고장 확률 분석으로의 적용을 명백하게 인식할 수 있는 수준이다. combination_threshold가 낮은(0.22) 점과, 실시간 재평가 및 상태 기반 모니터링이 항공 분야의 일반적 기술 과제라는 점에서 결합 동기가 충분하다고 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013138332-A1은 항공기 센서 데이터를 기반으로 고장 확률을 평가하고, 입력 변화에 따라 이를 재산정하는 시스템을 명시적으로 개시하고 있으며, 청구항의 핵심 구성요소들(측정값 수신, 부하 기반 고장 확률 변화 산정, 입력 변경 수신, 재산정)이 동일한 맥락에서 개시됨. 통상의 기술자가 해당 기술을 항공기 부품 수명 평가에 적용하는 것은 명백하며, 동기(motivation to combine)가 명확함. Graham 요소들 중 기술적 차이가 미미하고, 숙련자 수준에서 자명한 확장으로 판단됨. confidence 수치도 0.6 이상으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013138332-A1이 청구항의 핵심 구성요소들(센서 데이터 기반 하중 측정, 고장 확률 변화 결정, 입력 변화에 따른 재판단, 잔여 수명 예측 등)을 명시적으로 개시하고 있으며, 전체 시스템 동작 흐름이 동일한 목적과 맥락에서 동작함. 결합 동기 없이 단일 선행기술에 의해 충분히 개시되며, 공지기술 기반의 일반적 적용이라는 점에서 진보성 결여의 근거가 강함. Graham 요소들(범위 및 차이점, 통상의 기술수준, 2차적 고려사항 부재)도 일관되게 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    }
+  ]
+}

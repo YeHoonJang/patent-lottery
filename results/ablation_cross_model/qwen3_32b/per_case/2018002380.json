@@ -1,0 +1,357 @@
+{
+  "case_id": "2018002380",
+  "proceeding_number": "2018002380",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술은 branch target buffer 및 branch behavior tracking을 제시하지만, history data 기반의 prediction suppression은 명시적으로 언급되지 않음. 결합 동기가 energy efficiency improvement라는 명확한 동기로 제시되지만, 구체적인 implementation gap이 존재."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "history data 및 prediction suppression circuitry의 구체적 구현 방법이 명세서에 기재되어 있지 않음. 이는 112 조항 위반으로 명확한 거절 근거가 됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The US-2013339693-A1 patent clearly and completely discloses all the elements of the claims, including the use of history data to suppress branch prediction circuits, branch target buffers, and prediction suppression mechanisms. The anticipation is strong and well-supported, with high confidence ratings across all claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2013339693-A1) does not provide a clear motivation to combine the teachings of tracking branch target buffer misses with the specific suppression of branch predictions based on historical data of following blocks. The claimed invention introduces a non-obvious improvement in energy efficiency by using this historical data for suppression, which is not suggested in the prior art. Given the low strictness (0.25), the weak obviousness argument is not sufficient to reject the claim."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013339693-A1이 제공되어 있으며, 청구항의 구성요소가 해당 문헌에 의해 개시됨"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art US-2013339693-A1 explicitly discloses all essential elements of the claims, with high similarity scores and clear coverage of the claimed invention. The confidence level of 0.82 indicates strong evidence of anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 15 uses means-plus-function language which requires specific structure to be described in the specification. While the specification describes the general concept of branch prediction and suppression, it does not provide sufficient detail on the specific structure implementing these functions, which is necessary for means-plus-function claims under 35 USC 112(f)."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2013339693-A1 discloses a system using historical information to control buffer operations, but does not explicitly mention suppression of branch prediction based on history data of following blocks. The motivation to combine is based on improving energy efficiency, which is a known design consideration in the field. The PHOSITA would recognize the benefit of suppressing predictions in blocks predicted to lack branches based on historical data, but the confidence level is moderate (0.7) and the reasoning relies on an interpretation of the prior art reference."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013339693-A1 explicitly discloses all claim elements including hierarchical BTBs, search trackers with branch behavior history, and prediction suppression based on history data. Confidence scores for most claims exceed 0.7, indicating strong anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 15 uses 'means' language without sufficient structural linkage to the disclosed hardware components. The confidence (0.82) and verification status (PASS) confirm this as a valid 112(f) issue."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The basis for the 103 rejection is that the claims are considered routine design choices based on US-2013339693-A1. While there is some evidence in the reference, the determination of what constitutes a routine design choice involves some interpretation. Given the strictness of 0.46, I would lean towards maintaining the rejection for claims with moderate confidence but consider the possibility of allowance for claims with lower confidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections are based on the reference US-2013339693-A1, which is provided in the input. The confidence scores for these rejections range from 0.6 to 0.9, indicating varying levels of strength. Many of the rejections rely on the interpretation that the reference implicitly suggests or makes obvious the claimed features, which introduces some ambiguity. However, the motivation to combine is generally clear (e.g., energy efficiency, prediction accuracy), and the prior art is relevant. Therefore, the strength is moderate."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 rejection for claim 1 is based on the reference US-2013339693-A1. The confidence is 0.75, and the reasoning states that the reference 'can be interpreted as prediction suppression based on history data.' This suggests some interpretive ambiguity rather than direct anticipation. The strength is therefore moderate."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013339693-A1이 대부분의 청구항에 대해 명확한 교시를 제공하고, 결합 동기가 명확하며, 기술적 이유가 명확히 설명됨"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2013339693-A1) explicitly discloses all elements of the claims, including branch target buffers (BTBs), search trackers for branch behavior history, and suppression logic using historical branch patterns. The hierarchical micro/full BTB structure and bulk transfer filtering mechanism are directly mapped to the claimed invention's elements. The prior art's recording of branch target buffer miss indicators inherently anticipates monitoring post-branch blocks for history generation."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 1 is rejected under 35 USC 102 as the prior art explicitly discloses branch prediction circuits and implicitly suggests prediction suppression via search trackers. The confidence (0.75) exceeds the strictness threshold (0.60), supporting a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2,5-14,16 are rejected under 35 USC 103 with confidence scores ≥0.625, meeting or exceeding the combination_threshold (0.57). The PHOSITA would find these optimizations routine, justifying strong obviousness rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 3 and 4 have confidence scores (0.55 and 0.5) below the combination_threshold (0.57), indicating insufficient motivation for obviousness. These rejections are weak and may warrant reconsideration."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 15 is rejected under 35 USC 112(f) for means-plus-function language without corresponding structural details in the specification. The reasoning aligns with strictness (0.60), making this a strong 112 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2,6-14,16 have confidence scores between 0.57 and 0.666, meeting the combination_threshold but not exceeding the strictness threshold (0.60). These rejections are moderate, requiring further evaluation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7 has a confidence of 0.666, slightly above the combination_threshold (0.57) but below strictness (0.60). The hierarchical buffer design is a routine optimization, supporting a moderate obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 8 (0.625) and Claim 9 (0.6) meet the combination_threshold (0.57) but fall short of strictness (0.60). The hierarchical control and distributed history data are standard in the field, justifying moderate rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 10 (0.6) and Claim 11 (0.65) are above the combination_threshold (0.57) but below strictness (0.60). Feedback mechanisms and global history buffer suppression are routine adaptations, supporting moderate rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 12 (0.7) and Claim 13 (0.8) exceed the combination_threshold (0.57) and strictness (0.60). The multi-instruction blocks and branch-containing block predictions are well-established, leading to strong obviousness rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 14 (0.6) meets the combination_threshold (0.57) but is marginally below strictness (0.60). Automating history data generation is a standard practice, supporting a moderate rejection."
+        }
+      ]
+    }
+  ]
+}

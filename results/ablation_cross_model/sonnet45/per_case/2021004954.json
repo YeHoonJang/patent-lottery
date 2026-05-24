@@ -1,0 +1,365 @@
+{
+  "case_id": "2021004954",
+  "proceeding_number": "2021004954",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.6428571428571429,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on 'common knowledge in the power tool control art' without providing specific prior art references that teach the claimed adaptive control methods. US-2013284480-A1 is purely structural (housing, battery, trigger switch) and contains no teaching of impact mode parameter detection, driving time specification based on detected parameters, or any of the sophisticated control algorithms claimed. The rejection attempts to bridge the gap by invoking 'known techniques' and 'obvious design choices' but fails to cite specific references teaching: (1) detecting current/speed during impact mode, (2) specifying driving time as function of detected parameter, (3) statistical analysis using standard deviation for impact mode control, (4) multi-phase unscrewing control with current-based transitions, (5) seating torque estimation from unscrewing current, or (6) gradient-based screw disengagement detection. The motivation to combine is generic ('improving tool performance') without explaining why a PHOSITA would specifically implement these complex control sequences. The claimed inventions address specific technical problems (optimizing impact operation based on real-time feedback, preventing over-torquing, detecting screw disengagement) with detailed algorithmic solutions not suggested by structural power tool disclosures. While some basic concepts like battery voltage monitoring may be known generally, their specific application to impact mode parameter weighting or multi-phase unscrewing control is not taught. The rejection conflates 'could be done' with 'would have been obvious to do' without establishing sufficient motivation or teaching."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies entirely on 'common knowledge in the art' without citing any specific secondary references. US-2013284480-A1 only discloses physical tool structure with basic trigger switch control. The examiner claims that impact operating mode control, current-based torque sensing, parameter-based adaptive timing, standard deviation calculation, multi-phase algorithms, seating torque estimation, and battery voltage compensation are all 'well-known' and 'conventional,' but provides no documentary evidence. No specific references are cited to show that (1) these techniques were known in the power tool art at the time of invention, (2) there was motivation to combine them in this specific manner, or (3) the combination would yield predictable results. The gap between the structural disclosure in US-2013284480-A1 and the complex control algorithms claimed is substantial. While individual elements like current sensing or torque monitoring may be generally known in motor control, their specific application to impact mode control with parameter-based driving time specification, statistical analysis (standard deviation), seating torque-adaptive thresholds, and multi-phase unscrewing algorithms represents a non-obvious combination. The examiner's assertion that 'a skilled practitioner would pursue' these features is conclusory without evidence of motivation. Under KSR, common sense can support obviousness, but the examiner must explain why the claimed combination would have been obvious, not merely assert it. Here, the reasoning is circular: the features are obvious because they are conventional, but no evidence shows they are conventional in this context. The combination_threshold is 0.34 (low), which normally means I should accept easier combinations, but even with that threshold, a pure 'common knowledge' rejection without supporting references is questionable, especially given the complexity and specificity of the claimed control algorithms."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013284480-A1은 물리적 배치(모터, 배터리, 스위치의 공간적 배열)에 관한 것으로, 청구항 23-44의 핵심 구성요소인 임팩트 작동 모드, 파라미터 검출, 구동 시간 지정, 적응형 제어 방법 등을 전혀 개시하지 않음. 선행기술 매핑에서 청구항의 핵심 요소들이 커버되지 않았으며, 이는 신규성 판단에서 명확히 확인됨. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Graham 4요소 분석 결과, 선행기술과 청구항 간의 기술 분야가 근본적으로 다름(구조적 배치 vs 제어 방법론). 선행기술은 제어 알고리즘, 파라미터 기반 적응형 제어, 나사 작업 특화 로직 등을 교시하지 않음. combination_threshold=0.68로 명시적 결합 동기가 필요하나, 단일 선행기술만 제공되었고 그 선행기술은 물리적 최적화에만 초점을 둠. PHOSITA가 물리적 배치로부터 청구된 제어 방법을 도출할 명시적 교시나 동기가 없음. 청구항들은 적응형 제어, 사용자 맞춤 제어, 나사 손상 방지 등의 기술적 진보를 제공. 103 거절 근거 없음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았으나, office action 분석에서 '명세서는 모든 청구 대상에 대한 적절한 서면 기재 및 실시가능성을 제공'하며, '발명의 핵심 특징이 명세서 요약 및 상세한 설명에 명시적으로 기재'되어 있고, '임팩트 작동 모드, ~의 함수로서, 제어 파라미터와 같은 용어는 명시적으로 정의되거나 당업계에서 잘 이해됨'이라고 확인됨. 계산 방법, 룩업 테이블, 특성 곡선과 같은 구현 방법은 제어 분야의 통상적 수단으로 통상의 기술자가 과도한 실험 없이 구현 가능. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항 23-44는 파워 툴의 전기 모터를 제어하는 방법 및 제어 장치로, 물리적 장치(모터)의 구체적 작동을 제어하는 기술적 응용. Alice/Mayo 테스트 하에서 abstract idea가 아니라 특정 기술적 환경(파워 툴)에서의 구체적 제어 방법. 물리적 변환(모터 작동, 토크 제어)을 수반하며, 기술 분야의 개선(정밀 제어, 안전성, 효율성)을 제공. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "none",
+          "reasoning": "No 102 rejections were identified in the previous analysis. All claims were found novel with high confidence (0.75-0.9). US-2013284480-A1 does not anticipate any claim elements related to parameter detection, adaptive control, or sophisticated control algorithms."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While US-2013284480-A1 is cited as prior art, the obviousness analysis shows no motivation to combine mechanical design teachings with the claimed adaptive control methods. The prior art focuses on physical component arrangement while the claims address operational control optimization—these are different technical problems. The combination threshold (0.72) is not met as there is no teaching, suggestion, or motivation to develop parameter-based control from structural design disclosure. All claims show confidence 0.75-0.9 for non-obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "No 112 issues were identified. The Office Action states 'The specification provides adequate written description and enablement for all claimed subject matter.' No claim terms lack support or clarity."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "No 101 rejections were made. The claims recite specific technical implementations for controlling physical hardware (electric motor of power tool) and do not fall into abstract idea category. The claims are directed to practical applications with technical improvements."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 23-44 show strong novelty. The prior art US-2013284480-A1 only discloses physical structure (motor, battery, housing, trigger switch) without any teaching of the claimed control methods. Coverage scores range from 0.0 to 0.33, indicating substantial missing elements. The prior art addresses structural compactness while claims address adaptive motor control algorithms - fundamentally different subject matter."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 23-44 show strong non-obviousness. The prior art teaches structural design for compactness, while the claimed invention provides sophisticated motor control algorithms including: (1) impact mode parameter detection and adaptive control, (2) statistical analysis (standard deviation), (3) multi-phase control with conditional transitions, (4) battery voltage compensation, (5) torque-based and revolution-based unscrewing termination, (6) seating torque detection and adaptive method selection. No combination of prior art suggests these control strategies. The combination_threshold=0.45 requires explicit teaching or strong motivation, which is entirely absent. The prior art and claimed invention solve different technical problems (physical arrangement vs. dynamic control optimization)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013284480-A1은 전동공구의 구조적 배치에 관한 것으로, 청구항 23-44의 핵심 구성요소인 충격 작동 모드 중 파라미터 검출, 파라미터 기반 구동 시간 지정, 나사 풀기의 토크/회전수 기반 제어, 착좌 토크 검출 및 적응적 제어 방법 선택 등을 전혀 개시하지 않음. 모든 청구항이 선행기술에 대해 신규함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술은 구조적 설계 최적화에 초점을 두고 있으며, 청구항들이 청구하는 적응적 제어 방법론(파라미터 기반 동적 제어, 다단계 제어 전환, 조건 기반 제어 방법 선택 등)과는 기술 분야가 상이함. 구조 특허로부터 이러한 제어 알고리즘을 도출할 명확한 교시, 시사, 또는 동기가 전혀 없음. 제2 선행기술도 제공되지 않았으며, 공지상식만으로는 청구항의 구체적 제어 로직을 자명하게 도출하기 어려움. combination_threshold=0.51(중간 수준)을 고려할 때, 명시적 교시 없이는 결합 동기가 불충분함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서는 충격 작동 모드 중 파라미터(전류/회전속도) 검출, 파라미터 기반 구동 시간 지정, 나사 풀기 제어 방법(토크 기반, 회전수 기반, 착좌 토크 기반) 등을 명시적으로 개시함. 표준편차, 계산 방법/테이블/특성 곡선, 배터리 전압 확인, 다단계 제어 전환 등 모든 청구항 요소가 명세서에 뒷받침됨. 용어들은 명세서에 명시적으로 정의되었거나 해당 분야에서 잘 알려진 용어임. 통상의 기술자가 과도한 실험 없이 발명을 실시 가능함."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "청구항들은 전동공구의 전기 모터를 제어하는 방법으로, 물리적 파라미터(전류, 회전속도) 검출 및 물리적 모터 제어 동작(지정 시간 작동, 토크/회전속도 감소, 모터 정지)을 포함함. 모터 제어 시스템의 기술적 개선에 해당하며, 추상적 아이디어, 자연 법칙, 자연 현상을 청구하지 않음. 특정 기술적 응용에 관한 것으로 특허 적격 주제임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on 'general knowledge in the power tool control art' without citing specific prior art references that teach the claimed combinations. While US-2013284480-A1 discloses basic power tool structure, the Office Action acknowledges it does not teach: (1) impact mode parameter detection, (2) parameter-based driving time control, (3) adaptive control algorithms, (4) unscrewing operations with torque/revolution stopping, or (5) seating torque detection. The rejection attempts to bridge these gaps by asserting that 'motor current monitoring,' 'rotation speed sensing,' and 'adaptive control algorithms' are 'well-known techniques,' but provides no specific references demonstrating their application to impact mode control in power tools. The motivation to combine is stated as 'optimize tool performance' and 'prevent damage,' which are generic goals that could apply to any control improvement. The Office Action's assertion that the specification characterizes features as 'improved control' rather than 'unexpected results' is a mischaracterization - the specification explicitly teaches technical problems solved (e.g., impact mode variability quantification via standard deviation, battery voltage compensation, screw disengagement detection) that are not shown to be conventional. Under Graham factors: (1) scope of prior art is narrow (only basic structure), (2) differences are substantial (entire adaptive control logic), (3) PHOSITA level does not make these specific combinations obvious without explicit teaching, (4) secondary considerations (simplified operability, damage prevention) suggest non-obviousness. Given combination_threshold=0.46 (requiring moderate motivation), the generic motivation provided is insufficient. The rejection conflates the obviousness of individual known techniques with the non-obviousness of their specific combination and application to impact mode control."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013284480-A1 discloses only mechanical structure and basic power supply control. It does not disclose any parameter detection during impact mode, adaptive driving time specification, statistical analysis, or sophisticated control algorithms. No anticipation of any claim elements beyond basic power tool structure."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art provides no teaching or motivation to combine mechanical design with parameter-based adaptive motor control during specific operating modes. The gap between physical component arrangement and claimed control methods (parameter detection, statistical analysis, multi-phase algorithms, user-configurable control) is substantial. No reasonable combination pathway exists to bridge this gap."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Specification adequately describes all claimed features. Implementation details for conventional elements (current sensing, counters, thresholds) are within ordinary skill level and do not require explicit disclosure."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "Claims are directed to technological motor control methods and devices, not abstract ideas. Physical motor control with sensor-based adaptive adjustments represents patent-eligible subject matter."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim": 31,
+          "strength": "strong",
+          "reasoning": "Battery voltage monitoring and low-battery notification are well-established, widely implemented features in battery-powered devices. The motivation to combine (preventing unexpected shutdown, informing users) is clear and predictable. This represents straightforward application of known techniques to a known device. The combination requires no inventive insight beyond ordinary skill in the art. Under KSR, this is a textbook example of obvious combination based on common sense and predictable results."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on combining US-2013284480-A1 (structural power tool design) with general knowledge of motor control techniques. While individual elements (current sensing, torque detection, revolution counting) are indeed known in the art, the specific combinations for impact mode control with parameter-based driving time specification represent more than routine optimization. The prior art reference focuses on physical configuration without any teaching of adaptive control methodologies. The motivation to combine is based on general objectives (optimize performance, prevent damage) rather than explicit suggestion in the art. The Graham factors analysis shows substantial differences between structural design and claimed control algorithms. However, the examiner's reasoning that monitoring parameters and implementing adaptive control are conventional techniques has merit. This is a borderline case where the evidence supports obviousness but requires some degree of inference about what PHOSITA would find obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013284480-A1은 power tool의 구조적 배치에 관한 것으로, claims 23-44에서 청구하는 impact operating mode 중 전류/회전속도 감지 및 이를 기반으로 한 구동 시간 지정, 토크 제어, 나사 풀기 제어 등의 방법적 특징을 전혀 개시하지 않음. 선행기술은 motor, battery, trigger switch의 물리적 배치만 다루며, 제어 알고리즘은 개시하지 않음. 모든 청구항은 선행기술에 대해 명백히 신규함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술은 구조 설계 최적화(miniaturization, weight reduction)에 관한 것이며, 청구항들은 적응형 모터 제어 방법론에 관한 것으로 기술 분야가 상이함. 구조 설계 문헌에서 파라미터 기반 적응형 제어, 통계적 분석(표준편차), 전류 기반 토크 추정, 다단계 제어 알고리즘 등을 도출할 명시적 교시, 시사, 동기가 전혀 없음. 통상의 기술자가 구조 설계만으로 고급 제어 이론을 결합할 이유가 없으며, 이는 서로 다른 문제(구조 최적화 vs. 제어 최적화)를 해결함. Graham factors 분석 결과 모든 청구항은 비자명함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "not_applicable",
+          "reasoning": "명세서가 모든 청구항 특징(impact mode 파라미터 감지, 구동 시간 지정, 토크/속도 감소, 통계적 파라미터, 배터리 전압 고려, 나사 풀기 제어, 제어 장치)에 대해 충분한 written description 및 enablement를 제공함. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "not_applicable",
+          "reasoning": "모든 청구항은 물리적 장치(전기 모터, power tool)를 제어하는 방법 또는 제어 장치에 관한 것으로, 구체적인 기술적 개선을 제공함. Abstract idea에 해당하지 않음. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 31의 103 거절은 US-2013284480-A1이 배터리 구동 전동공구를 개시하고, 배터리 전압 모니터링 및 저전압 경고가 배터리 구동 장치에서 공지상식이라는 논리에 기반함. 선행기술이 배터리 사용을 명시하고, 전압 모니터링/경고가 이 분야에서 일반적 기능이라는 점에서 결합 동기는 합리적임. 그러나 US-2013284480-A1 자체는 전압 모니터링을 개시하지 않으며, '공지상식'에 의존한 103 판단은 구체적 선행기술 인용 없이 이루어짐. combination_threshold=0.52는 중간 수준으로, 공지상식 기반 결합을 수용할 수 있는 범위이나, 명시적 교시가 없다는 점에서 moderate 강도로 평가. strictness=0.42(중립~출원인 유리 성향)를 고려하면, moderate 강도의 103은 거절 유지 가능하나, 출원인에게 반박 기회를 줄 여지도 있음. 그러나 배터리 관리는 매우 일반적이므로 거절 유지가 합리적."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013284480-A1 clearly fails to disclose key elements across all claims: (1) detecting current/rotation speed during impact operating mode, (2) specifying driving time as function of detected parameter, (3) adaptive control based on real-time monitoring, (4) multi-phase control strategies, (5) current-based torque detection, (6) screw disengagement recognition, (7) statistical parameter analysis. Coverage scores range from 0.0 to 0.35, indicating substantial uncovered claim elements. Prior art is limited to structural arrangement disclosure with no teaching on operational control methodologies."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Only single reference US-2013284480-A1 available. No second reference to combine. Prior art teaches only basic power tool structure (motor, battery, housing, trigger switch) without any control methodology. The leap from static structural design to dynamic parameter-based adaptive control represents significant inventive gap. No teaching or suggestion in prior art for: impact mode detection, parameter-based driving time specification, statistical analysis (standard deviation), multi-phase control, current-based torque detection, gradient analysis, seating torque detection, or screw disengagement recognition. At combination_threshold=0.48 (moderate), clear motivation required for obviousness finding - no such motivation exists. PHOSITA would not find these sophisticated control features obvious without explicit teaching."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The Office Action relies on 'well-known' adaptive motor control techniques and 'common knowledge in the art' without providing specific prior art references that actually disclose these features. US-2013284480-A1 only discloses physical structure of a power tool, not the claimed control methods. The rejection attempts to bridge the gap by asserting that parameter-based adaptive control during impact mode was 'well-known,' but provides no documentary evidence (no additional references cited). The combination motivation is based on general objectives (optimize performance, prevent over-tightening, extend battery life) without showing that these objectives would lead a PHOSITA to the specific claimed solution of detecting parameters during impact mode and specifying driving time as a function of those parameters. The gap between the structural disclosure of US-2013284480-A1 and the claimed control methods is substantial. For claims involving sophisticated features (standard deviation detection in claim 26, two-phase control sequences in claims 40-41, gradient-based detection in claims 36, 42), the assertion that these are 'obvious combinations of known elements' lacks supporting evidence. The rejection conflates 'known in isolation' with 'obvious to combine in the claimed manner.'"
+        }
+      ]
+    }
+  ]
+}

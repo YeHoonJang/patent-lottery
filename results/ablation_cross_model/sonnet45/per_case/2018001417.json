@@ -1,0 +1,485 @@
+{
+  "case_id": "2018001417",
+  "proceeding_number": "2018001417",
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015235212-A1은 secure storage를 교시하지만, 'file storage system encryption for virtual container'라는 특정 구현은 명시하지 않습니다. 거절은 well-known practice(파일 시스템 암호화)에 의존하고 있으며, 출원인의 명세서가 문제점으로 제기한 사실을 근거로 사용합니다. 이는 합리적인 103 논리이나, virtual container라는 특정 맥락에서의 file system encryption은 선행기술에 명확히 개시되지 않았습니다. Coverage_score 0.5-0.7로 implicit match 수준입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "두 선행기술 모두 네트워크 통신을 교시하지만, 'network transport layer encryption'이라는 특정 계층의 암호화는 명시하지 않습니다. 거절은 TLS/SSL이 2015년 당시 표준 관행이었다는 common knowledge에 의존합니다. PCI DSS 언급은 적절하나, 선행기술 자체에서 transport layer encryption을 명시적으로 교시하지 않았습니다. Coverage_score 0.45로 낮은 편입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015235212-A1은 secure token processing과 routing을 교시하지만, 'virtual container 외부 참조 시 암호화'라는 조건부 암호화는 명시하지 않습니다. 거절은 context-dependent encryption이 well-known security principle이라는 주장에 의존합니다. Container boundary crossing 시 암호화는 합리적 보안 조치이나, 선행기술에서 이 특정 패턴을 명시적으로 교시하지 않았습니다. Coverage_score 0.5입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 4가 moderate strength이므로 종속항인 청구항 5도 moderate입니다. Gift card가 credit/debit card와 유사한 전자 결제 수단이라는 논리는 합리적이나, 선행기술에서 gift card를 명시하지 않았습니다. 출원인 명세서가 Starbucks gift card를 예시로 든 사실을 근거로 사용하는 것은 적절하나, 이는 선행기술 교시가 아닙니다. Coverage_score 0.55입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 4, 5가 moderate이므로 청구항 6도 moderate입니다. Barcode가 gift card data의 일부라는 논리는 타당하나, barcode encryption이라는 특정 구현은 선행기술에 개시되지 않았습니다. Barcode encryption이 2015년 당시 standard practice였다는 주장은 common knowledge에 의존하며, 선행기술 자체에서 교시하지 않았습니다. Coverage_score 0.45로 낮습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 2에 대한 102 거절은 US-2015235212-A1의 'secure storage of payment tokens in persistent memory'를 'encrypting a file storage system'으로 BRI 해석한 것에 기반합니다. 'secure storage'와 'encrypting a file storage system'은 개념적으로 중첩되나, 선행기술이 명시적으로 file system encryption을 개시하지는 않습니다. BRI 하에서 'secure storage'가 encryption을 포함할 수 있다는 해석은 가능하나, 이는 해석의 여지가 있는 moderate 수준의 근거입니다. strictness=0.88 하에서 이러한 중첩이 있으면 거절을 유지하는 것이 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2-8에 대한 103 거절은 선행기술 조합과 well-known practices에 기반하여 강력합니다. Claim 2: 선행기술이 secure storage를 개시하고, file encryption은 mobile payment security의 표준 관행입니다. Claim 3: transport layer encryption (TLS/SSL)은 payment data 전송의 업계 표준이었습니다. Claim 4: boundary encryption은 fundamental security principle입니다. Claim 5: gift cards는 debit cards의 well-known variant입니다. Claim 6: barcode encryption은 payment credential protection의 predictable application입니다. Claim 7: enterprise APIs는 business application integration의 conventional mechanism입니다. Claim 8: device APIs는 mobile OS architecture의 fundamental element입니다. 모든 조합이 명확한 motivation과 predictability를 가지며, combination_threshold=0.34 하에서 common sense와 industry practice가 충분한 결합 동기를 제공합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항(2-8)에 대해 anticipating_refs가 비어있으며, 신규성 분석에서 각 청구항의 특정 구성요소들이 선행기술에 명시적으로 개시되지 않았음을 확인했습니다. US-2015235212-A1과 US-2015302374-A1은 일부 유사한 요소를 개시하지만, virtual container의 file storage system 암호화, transport layer 암호화, container 외부 참조 시 조건부 암호화, gift card barcode 암호화, enterprise APIs, device APIs 등 청구항의 핵심 구성은 명시적으로 개시되지 않았습니다. 102 거절 근거는 존재하지 않습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항(2-8)이 is_obvious: false로 판단되었습니다. 선행기술들은 일반적인 모바일 결제와 보안 저장을 개시하지만, (1) virtual container라는 격리 구조와 OS-level file system 암호화의 결합, (2) transport layer에서의 암호화, (3) container 경계 기반 조건부 암호화, (4) gift card와 barcode 암호화의 조합, (5) enterprise application APIs, (6) device APIs와 virtual container의 통합 등은 선행기술에서 명시적으로 교시되거나 시사되지 않았습니다. 결합 동기(motivation to combine)가 명확하지 않으며, Graham factors 분석 결과 통상의 기술자에게 자명하지 않습니다. confidence 점수도 0.7-0.9로 높아 103 거절 근거는 약합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action에 112 거절이 없으며, 청구항들은 명확한 용어(virtual container, file storage system, transport layer, encryption, APIs 등)를 사용하고 있습니다. 명세서 뒷받침 문제나 청구항 명확성 문제가 식별되지 않았습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들은 구체적인 기술적 구현(file storage system 암호화, transport layer 암호화, container 기반 조건부 암호화, API 구조 등)을 포함하고 있어 abstract idea로 보기 어렵습니다. 101 거절 근거가 식별되지 않았습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 5,
+          "strength": "weak",
+          "reasoning": "US-2015302374-A1이 'electronic money with limited spending ceiling'을 개시하지만, 이것이 'gift card'를 명시적으로 anticipate한다고 보기는 어렵습니다. 'Limited spending ceiling'은 gift card의 한 특성이지만, gift card는 선물용도, 재충전 가능성, 특정 merchant 제한 등 추가적인 특성을 가집니다. 'Electronic money with limited spending ceiling'은 더 넓은 개념으로, prepaid card, voucher, promotional credit 등을 포함할 수 있습니다. Anticipation은 single reference가 모든 구성요소를 명시적 또는 inherently 개시해야 하는데, 'gift card'라는 특정 형태가 inherently disclosed되었다고 보기에는 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "moderate",
+          "reasoning": "US-2015302374-A1의 'electronic money with limited spending ceiling'과 'gift card'를 결합하는 것이 obvious한지는 논란의 여지가 있습니다. 출원 명세서가 gift card를 예시로 든 것은 사실이나, 이것이 선행기술과의 결합 동기를 자동으로 제공하는 것은 아닙니다. Gift card는 해당 분야에서 well-known하지만, US-2015302374-A1이 개시한 'electronic money with limited spending ceiling'을 구체적으로 gift card로 구현할 명시적 동기가 선행기술에 제시되어 있지 않습니다. 다만, gift card가 conventional한 형태의 mobile payment라는 점에서 결합의 동기가 어느 정도 인정될 수 있습니다. 그러나 청구항 5는 청구항 4에 종속되어 있으며, 청구항 4의 'virtual container 외부 참조 시 암호화'라는 context에서 gift card를 사용하는 것은 추가적인 기술적 의미를 가질 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015235212-A1과 US-2015302374-A1이 보안 결제 토큰의 모바일 장치 메모리 저장을 명확히 개시하고 있으며, 파일 시스템 암호화는 2015년 당시 업계 표준 보안 관행이었음. 결합 동기가 명확하고 예측 가능한 결과임. 진보성 분석의 confidence(0.78)도 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "선행기술들이 네트워크를 통한 결제 데이터 전송을 명시적으로 개시하고 있으며, SSL/TLS 등 전송 계층 암호화는 금융 거래 분야의 공지 기술임. 결합 동기가 업계 전반의 요구사항으로서 명백함. 진보성 분석의 confidence(0.82)가 가장 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "선행기술이 보안 토큰 전송을 개시하고 있으며, 보안 경계 간 데이터 암호화는 defense-in-depth 전략으로 공지되어 있음. 그러나 '가상 컨테이너 외부 참조'라는 특정 조건의 암호화는 선행기술에 명시적이지 않음. 진보성 분석의 confidence(0.75)는 높으나, 해석의 여지가 있음. 나의 엄격한 성향(strictness=0.89)에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015302374-A1이 credit cards와 debit cards를 명시적으로 예시하고 있으며, gift cards는 동일한 기술 인프라를 사용하는 공지된 결제 카드 변형임. 출원 명세서도 gift card를 단순 예시로만 언급함. 진보성 분석의 confidence(0.85)가 매우 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015235212-A1이 'secure storage'를 개시하나 'encrypting a file storage system'의 명시적 개시는 없음. 그러나 2015년 당시 파일 시스템 암호화(iOS Data Protection, Android FDE)는 모바일 결제 보안의 표준 관행이었으며, PCI-DSS 등 보안 표준이 이를 요구함. KSR 기준으로 공지기술의 예측 가능한 사용(predictable use)에 해당하나, 선행기술이 명시적으로 파일 시스템 레벨 암호화를 교시하지 않아 moderate 강도로 평가. Strictness=0.82 기준으로 보안 저장에서 파일 시스템 암호화로의 전환은 당업자에게 자명하므로 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015302374-A1과 US-2015235212-A1이 네트워크를 통한 결제 데이터 전송을 개시. 'Encrypting communications at a network transport layer'의 명시적 개시는 없으나, 2015년 당시 SSL/TLS는 결제 시스템의 산업 표준이었으며, PCI-DSS Section 4.1이 전송 중 암호화를 명시적으로 요구. 결제 데이터 전송에 전송 계층 암호화를 적용하는 것은 공지상식이며 필수적 보안 조치. Strong 강도로 평가하며 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015235212-A1이 secure token과 authorization data를 개시하나, 'when referenced outside of said virtual container'라는 조건부 암호화의 명시적 개시는 없음. 보안 경계(security boundary) 개념과 경계를 넘는 데이터 암호화는 2015년 당시 공지된 보안 원칙(defense-in-depth, least privilege)이나, 선행기술이 이를 명시적으로 교시하지 않음. Moderate 강도로 평가. Strictness=0.82 기준으로 보안 컨테이너 외부 참조 시 암호화는 공지 보안 원칙의 자명한 적용이므로 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015235212-A1이 wireless communication, geographic location, device identifier 기능을 개시. 'Device API'의 명시적 언급은 없으나, 모바일 디바이스 기능에 접근하려면 플랫폼 제공 device API(iOS Core Location, Android LocationManager 등) 사용이 필수. 2015년 당시 device API 사용은 모든 모바일 앱 개발의 표준 관행이었으며, 디바이스 기능 접근은 API 없이 불가능. Inherency 또는 자명성이 명확하므로 strong 강도로 평가하며 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 5에 대한 103 거절은 강력한 근거를 가집니다. US-2015302374-A1이 'limited spending ceiling'을 가진 전자 화폐를 명시적으로 개시하며, 이는 gift card의 핵심 특성입니다. 모바일 결제 분야에서 gift card는 널리 알려진 구현 형태이고, 출원 명세서 자체도 배경기술에서 gift card를 언급하고 있어 이는 통상의 기술자에게 자명한 설계 선택입니다. 결합 동기가 명확하고(상업적으로 널리 사용되는 구현 제공), 예측 가능한 결과를 가져오므로 KSR 기준을 충족합니다. combination_threshold=0.46을 고려하더라도, 이 경우 결합 동기가 충분히 강력합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 모든 청구항(2-8)이 신규한 것으로 분석되었습니다. 선행기술 US-2015235212-A1과 US-2015302374-A1이 제공되었으나, 어떤 청구항도 anticipating_refs가 비어있습니다. 특히 청구항 2-4는 가상 컨테이너와 관련된 특정 암호화 구성을, 청구항 5-6은 기프트 카드 바코드의 조건부 암호화를, 청구항 7-8은 API 기반 통합을 요구하는데, 이들 모두 선행기술에서 명시적으로 개시되지 않았다고 분석되었습니다. 102 거절 근거가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항(2-8)이 비자명한 것으로 분석되었습니다. 청구항 2는 combination_refs로 US-2015235212-A1과 US-2015302374-A1을 제시하지만, motivation_to_combine이 불충분하고 coverage score가 0.55로 combination_threshold 0.55에 근접하여 결합 동기가 약합니다. 청구항 3-8도 유사하게 결합 동기 부족으로 비자명하다고 판단되었습니다. 특히 청구항 7-8의 경우 coverage score가 0.2-0.4로 매우 낮아 선행기술과의 유사성이 낮습니다. Graham factors 분석도 각 청구항의 differences가 명확하고 secondary considerations가 존재한다고 평가했습니다. 103 거절 근거가 약합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "112 위반 이슈가 제기되지 않았습니다. 청구항들이 가상 컨테이너, 파일 저장 시스템 암호화, 네트워크 전송 계층 암호화, API 등의 용어를 사용하지만, 이들이 모호하거나 명세서 뒷받침이 불분명하다는 지적이 없습니다. 112 거절 근거가 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "101 특허적격성 이슈가 제기되지 않았습니다. 청구항들이 모바일 결제 시스템의 구체적 기술 구현(암호화, API, 가상 컨테이너)을 다루고 있어 abstract idea로 보기 어렵습니다. 101 거절 근거가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 5의 gift card는 US-2015302374-A1의 credit/debit cards와 기술적으로 동일한 electronic money의 명백한 변형입니다. 선행기술은 electronic money를 명시적으로 개시하고, 출원 명세서 자체도 gift card가 공지된 mobile payment 형태임을 인정합니다. 기술적 구조(금액 저장, 인증, 거래 처리)가 완전히 동일하며, 차이는 상업적 모델(prepaid vs. credit)일 뿐 기술적 차이가 아닙니다. 결합 동기가 명확하고 구체적이며, 예측 가능한 결과를 위한 공지 요소의 단순 대체에 해당합니다. Combination_threshold=0.22를 충분히 상회하는 자명한 설계 선택입니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "strength": "strong_for_allowance",
+          "reasoning": "청구항 2-4, 6-8은 선행기술에 명시적으로 개시되지 않은 구체적 기술 특징을 포함합니다. 파일 시스템 암호화(claim 2), 전송 계층 암호화(claim 3), 컨테이너 외부 참조 시 암호화(claim 4), 바코드의 조건부 암호화(claim 6), enterprise API(claim 7), device API(claim 8)는 모두 선행기술의 일반적 개시(메모리 저장, 네트워크 전송, secure token, 디바이스 구성요소)와 구별되는 특정 구현입니다. Coverage_score가 모두 0.5 이하이며, similarity_score도 대부분 implicit match 수준입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 2-4, 6-8에 대한 103 분석에서 결합 동기는 제시되었으나 명시적 교시나 시사가 선행기술에 없습니다. 파일 시스템 암호화는 OS 레벨의 고급 보안으로 단순 메모리 보안과 다르고, 전송 계층 암호화는 네트워크 스택의 특정 계층 선택이며, 컨테이너 경계 기반 조건부 암호화는 컨텍스트 인식 동적 정책으로 선행기술의 일반적 보안과 구별됩니다. Enterprise/device API는 machine instructions나 하드웨어 구성 요소와 아키텍처적으로 다른 인터페이스 계층입니다. Combination_threshold=0.22이나, 이들 결합은 단순 설계 선택을 넘어서는 비자명한 기술적 도약을 요구합니다. 증거가 충분하지 않아 거절 근거로는 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 2: The combination of secure storage from US-2015235212-A1 and US-2015302374-A1 with file system encryption represents a reasonable obviousness argument. However, the references disclose encrypted data within storage, not encryption of the file storage system itself. The distinction between encrypting data and encrypting the storage system is subtle but may be meaningful. The motivation to combine is based on general knowledge (file system encryption was known), which is acceptable but not as strong as explicit teaching in the references. Strength: moderate.\n\nClaim 3: Transport layer encryption (TLS/SSL) was indeed well-known for securing financial data. The references disclose network transmission of payment data, and applying TLS/SSL would be an obvious security measure. However, the references do not explicitly teach transport layer encryption. The obviousness relies on what a PHOSITA would know from general practice rather than specific teachings. This is a legitimate 103 rationale but relies heavily on common knowledge. Strength: moderate.\n\nClaim 8: The argument that device APIs are necessarily present in the disclosed mobile device is reasonable. Any mobile application accessing hardware functions uses device APIs. However, the references do not explicitly disclose device APIs as part of the claimed system architecture. The rejection relies on the inherent nature of mobile devices rather than explicit teaching. This is a weaker 103 argument as it approaches reading a limitation into the prior art based on inherent functionality. Strength: moderate to weak."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "Encrypting file storage systems was well-known security practice, and US-2015235212-A1 + US-2015302374-A1 disclose storing payment tokens in persistent/non-volatile memory. However, the prior art does not explicitly teach encrypting the file storage system itself for a virtual container. The combination relies on 'common knowledge' and applicant's own admission of security problems. While the motivation to combine is clear (security), the specific implementation of encrypting the file system for a virtual container represents a moderate step beyond the explicit teachings."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015302374-A1 explicitly discloses transmitting payment messages via telecommunications networks. Transport layer encryption (SSL/TLS) was unquestionably well-known and standard practice for securing payment data transmissions at the priority date. The combination is straightforward: applying known encryption techniques to known payment message transmission. This is textbook obviousness - predictable use of prior art elements according to established functions."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015302374-A1 explicitly teaches electronic money including credit cards and debit cards. Gift cards are clearly a species within the genus of prepaid electronic payment instruments. The applicant's own specification admits gift cards are common forms of mobile payment (Starbucks example). This is classic genus-species obviousness with no evidence of unexpected results. The rejection is well-supported."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015235212-A1 mentions payment processing systems and administration of payment data, which suggests enterprise contexts. Providing APIs for enterprise application integration is common practice in software development. However, the prior art does not explicitly disclose 'APIs for enterprise applications' as claimed. The rejection relies on the obviousness of extending payment processing systems to include enterprise APIs, which is reasonable but requires some inferential step beyond explicit teachings."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015235212-A1 and US-2015302374-A1 disclose mobile devices with processors and communication systems. Providing device-level APIs to access device hardware is fundamental to mobile OS architecture and was well-known. However, the prior art does not explicitly teach 'device application programming interfaces' as a distinct category for interfacing with virtual containers. The rejection relies on the obviousness of standard mobile OS API practices, which is reasonable but not explicitly taught in the cited references."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015302374-A1 explicitly teaches electronic money with limited spending ceiling (claim 4 of the reference), which is functionally equivalent to a gift card. The applicant's own specification acknowledges gift cards are known payment forms. The combination of electronic money with spending limits directly suggests gift cards as an obvious variant. The similarity score of 0.7 and explicit teaching in the prior art provide strong evidence. The motivation to combine is inherent - gift cards are well-known implementations of limited-balance electronic payment instruments."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5의 103 거절은 gift card를 단순히 알려진 payment type으로 적용한 것에 기반합니다. US-2015235212-A1은 payment token을 가르치고, US-2015302374-A1은 electronic payment를 가르치며, 출원인 자신의 명세서도 gift card가 알려진 mobile payment form이라고 인정합니다. 그러나 이는 claim 4의 encryption feature(encrypting pass data when referenced outside virtual container)와의 결합입니다. Claim 4 자체가 allowable로 판단되었다는 것은 그 encryption scheme이 non-obvious하다는 의미입니다. 따라서 non-obvious한 base claim에 known element(gift card)를 추가한 것이 자동으로 obvious가 되는지는 논쟁의 여지가 있습니다. 선행기술은 gift card에 대한 container-boundary-triggered encryption을 가르치지 않습니다. 단순히 payment type을 특정한 것이 obvious design choice라는 주장은 있지만, claim 4의 inventive concept이 gift card에 적용될 때 predictable result인지는 명확하지 않습니다. Motivation to combine은 reasonable하나, unexpected result나 teaching away는 없지만, base claim의 non-obviousness가 dependent claim으로 이어질 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5의 103 거절은 gift card를 credit/debit card의 공지된 등가물로 보는 것에 기반합니다. US-2015302374-A1과 US-2015235212-A1이 electronic money와 payment token을 개시하고 있으며, 명세서 자체가 gift card를 conventional example로 언급한 점은 obviousness를 뒷받침합니다. 그러나 선행기술이 gift card를 명시적으로 개시하지 않았고, gift card가 단순한 design choice인지 아니면 distinct subcategory인지에 대해 해석의 여지가 있습니다. 결합 동기는 논리적이나(사용자에게 추가 결제 옵션 제공), 이것이 PHOSITA에게 자명했을지는 증거의 강도가 중간 수준입니다. Coverage score 0.55와 similarity 0.75는 완전한 anticipation은 아니지만 obviousness 주장을 지지합니다."
+        }
+      ]
+    }
+  ]
+}

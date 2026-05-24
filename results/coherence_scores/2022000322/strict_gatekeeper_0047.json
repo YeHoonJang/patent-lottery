@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors for §103 (scope and content, differences, PHOSITA level, secondary considerations) and element-by-element anticipation for §102, with no cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim-level conclusion references specific prior art citations (e.g., US-2019261132-A1 claim 4, US-2018279110-A1 claim 1) and specific claim language (PC5_tech parameter, ProSe application code/mask/TTL), satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage conclusions are consistent: claims found novel at §102 are either allowed or found obvious at §103 with additional rationale (combination), and allowed claims at the office action stage (2,3,6,14,15) align with both §102 novelty and §103 non-obviousness findings throughout the trace."
+  },
+  "item4": {
+    "score": 0,
+    "justification": "The examiner has strictness=0.82 yet explicitly rejects claim 12 on PC7 while acknowledging it is 'speculative,' 'not disclosed,' and the motivation is 'weak,' which contradicts strict-gatekeeper behavior that should resolve ambiguity toward rejection only with plausible evidence — the trace simultaneously calls this 'weak' and 'lenient interpretation,' internally inconsistent with the strict profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject the majority of claims and allow claims 2,3,6,14,15 follows directly from the accumulated §102 and §103 stage analyses, with the summary explicitly tying the overall reject decision to the strong and moderate rejection grounds identified in prior stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11895,
+      "output_tokens": 426,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace properly invokes §102 element-by-element anticipation analysis and Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103, with no cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific prior art references (e.g., US-2014121932-A1, US-2014278090-A1, US-2012281091-A1) and maps identified claim elements to specific disclosures in those references throughout both novelty and obviousness stages."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Several claims (e.g., 4, 5) are found not novel under §102 based on combinations of two references ('두 요소가 단일 문헌 내에서 통합적으로 개시되지는 않았으나'), yet the office action labels them as anticipated under §102—a legal error that contradicts the §102 standard requiring a single reference, creating an internal inconsistency between the novelty reasoning and the rejection basis without justification for relying on §102 for multi-reference disclosures."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.793 and combination_threshold 0.335 (easy combiner), and the trace consistently rejects all claims with moderate-to-high confidence using straightforward motivation-to-combine rationales, consistent with a strict examiner who readily accepts combinations."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102 and §103 findings across the novelty and obviousness stages, with the weighing section explicitly summarizing the Graham factors and prior art basis for each rejection."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019000091",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16988,
+      "output_tokens": 429,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

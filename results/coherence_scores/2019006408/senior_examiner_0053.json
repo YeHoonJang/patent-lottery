@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR framework for §103 obviousness, explicitly addressing scope and content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation to combine across all claim analyses."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (e.g., US-2017145561-A1, US-2016159651-A1, US-2017232725-A1) and maps specific claim elements to specific disclosures, such as citing Claim 6 of US-2017145561-A1 for carbon nanotube growth and Claim 8 for 3D-printed bonding materials."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage incorrectly finds multiple claims (3, 4, 6, 10) to lack novelty under §102 by combining two references or reasoning about 'obvious substitution'—which is a §103 analysis—yet the obviousness stage then also finds these same claims obvious under §103, creating an inconsistency where §102 findings were improperly conducted using combinatorial/obviousness reasoning rather than element-by-element anticipation from a single reference."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a strictness of 0.422 (slightly below moderate) and combination_threshold of 0.521 (moderate), the examiner rejects all claims but explicitly acknowledges the moderate strictness level in the final decision summary and calibrates the rejection strength to 'strong' evidence rather than ambiguous inference, which is consistent with a pragmatist examiner at this profile level."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and consistently from the §103 obviousness findings across all stages, with the summary explicitly referencing the high confidence scores (0.82–0.91) and the strong prior art coverage established throughout the analysis."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019006408",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11745,
+      "output_tokens": 467,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "case_id": "PILOT-2019006850",
+  "proceeding_number": "2019006850",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016311040-A1은 회전 가능하고 잠금 가능한 작업물 지지대를 명시적으로 개시하며, 다중 각도 위치 설정, 각도 범위 제한, 측면 배치 구조를 포함함. 청구항 2, 3, 4, 5, 6, 18, 19의 구성은 모두 선행기술에 직접 개시되거나 통상의 기술자가 용이하게 도달 가능한 설계 선택으로, 결합 동기와 기술적 중첩이 명확함. confidence 값도 0.8 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2's limitation regarding engagement to limit pivotability is functionally inherent in the locking mechanism of US-2016311040-A1. The reference discloses rotatable coupling and locking at angular positions, which necessarily restricts movement. Under BRI and strict interpretation, this constitutes obviousness with strong technical rationale and high confidence (0.8)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3's parallel axis limitation is geometrically inherent in miter saw design. The prior art discloses rotational adjustment relative to the longitudinal (miter) direction, implying alignment about a parallel axis. This is a fundamental mechanical expectation, making the obviousness determination strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5's 'third range' is interpreted as a discrete locked position. While the prior art explicitly discloses a third angular position, equating a single angle to a 'range' involves some interpretive stretch under BRI. However, given common usage in mechanical contexts, the obviousness holds as moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 9's recess-and-latch structure is functionally equivalent to the mechanical coding system in the prior art. Although terminology differs, the locking function is identical. This is a common mechanical solution, supporting moderate obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 12's arcuate wall and sliding motion are implied by rotational adjustment with multiple locking points. While not explicitly disclosed, such features are typical in rotational joints. The obviousness is supported by design convention, but lacks explicit structural mapping, making it moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 16's configuration of moving locking mechanism is a logical design choice within the prior art’s teaching of removable coupling. The reference allows coding on either part, so placing the latch on the movable support is predictable. Obviousness is reasonable but not compelled, hence moderate."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 18 and 19 are directly and explicitly disclosed in FIGS. 12–13 of US-2016311040-A1, showing side extensions on one or both sides. Visual and textual support is clear and unambiguous, satisfying anticipation under 102 with strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거의 모든 거절된 청구항은 US-2016311040-A1에 기초하여 obviousness로 판단되었으며, 동일한 기계적 원리의 확장으로서의 동기는 존재하지만, 일부 구성요소(예: 피벗 래치, 탄성 부재)는 공지상식으로 간주하기에 설계적 통합성이 요구됨. 특히 claim 10, 11, 17 등은 사용자 편의성 향상이라는 기술적 이점을 제공하나, 심사관은 이를 routine design으로 평가. 그러나 strictness가 낮아 출원인에게 유리하게 판단할 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 9의 거절은 선행기술인 US-2016311040-A1의 기계적 코딩 방식과 청구항의 'recess and latch' 구조 간 기능적 등가성에 기반하고 있으나, 구조적 차이와 작동 방식의 차이(정적 코딩 vs. 이동식 래치)가 존재함. 심사관의 관점에서는 기계적 등가성이 인정되나, 청구항의 기술적 기여(예: 래치의 피봇 동작)가 일부 반영되지 않음. strictness=0.29인 관대한 심사관 입장에서 이 정도의 차이는 obvious 판단을 완화할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016311040-A1 명확히 회전 가능하고 잠금 가능한 워크피스 지지대, 기계적 코딩 연결부, 양측 설치, 독립 조정 가능성을 개시함. 이러한 특징들은 미터 테이블 설계에 직접 적용 가능하며, 정밀도 및 사용성 향상 목적에서 결합 동기가 명확함. 신규성 판단에서도 다수의 청구항이 비신규로 판정되어 진보성 거절의 근거가 견고함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Although the specific mechanical details (e.g., cavity, biasing member, link mechanism) are not explicitly disclosed in US-2016311040-A1, they represent predictable applications of well-known mechanical principles in power tool design. Spring-biased latches, motion-converting linkages, ergonomic actuator placement, and independently pivotable supports are common in the art. The combination of these features with the base structure of the '040 application would be obvious to a POSITA seeking improved usability, safety, and precision. The absence of unexpected results or secondary considerations strengthens the obviousness conclusion."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Office Action은 US-2016311040-A1을 기반으로 청구항 7, 8, 11, 13, 14, 15, 17에 대해 진보성 결여를 주장하나, 신규성 판단에서는 이러한 구성요소들이 동일 선행기술에 '개시되지 않음'으로 평가됨. 특히 탄성 부재에 의한 자동 잠금(청구항 11, 13), 링크를 통한 운동 변환(14, 15), 한 손 조작(17)은 기능적 혁신으로 보이며, 단순한 설계 선택이라기보다는 추가적 기술적 사고를 요구함. 결합 동기의 명확성은 있으나, 예측 가능한 결과만을 초래한다고 단정하기에는 약함. 심사관 성향(strictness=0.47)상, 이 정도의 혁신성은 benefit of the doubt을 줄 만큼의 약한 obviousness 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016311040-A1은 기본적인 회전 및 고정 구조를 개시하지만, 청구항 7-20의 정지부 인접 공동, 액추에이터 비돌출, 래치 및 리세스 조합, 탄성 부재, 호상 벽, 연결 링크, 운동 변환, 이동식 락킹, 단일 손 조작, 독립적 피벗 등은 구체적이고 정밀한 기계적 통합을 요구하며, 단순한 공지기술의 결합으로 보기 어려움. 특히 탄성 부재에 의한 자동 정렬, 호상 벽을 따른 슬라이딩, 직선 운동을 피벗 운동으로 변환하는 링크 메커니즘 등은 창의적 설계 요소가 강함. 그러나 심사관은 이러한 요소들이 사용자 편의성 및 안전성 향상이라는 일반적 목표 하에 통상의 기술자가 결합 가능하다고 판단. strictness=0.55인 중립적 성향 하에서, 일부 근거는 강하나 전반적으로는 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거의 모든 청구항에 대해 US-2016311040-A1을 기초로 한 진보성 거절이 제기되었으나, 일부 판단은 과도한 해석을 포함함. 특히 청구항 4, 6, 7, 8, 14, 15, 17, 20에 대한 obviousness는 선행기술의 명시적 기재 부족 속에서 공지기술 및 설계 선택을 기반으로 한 추론에 크게 의존. combination_threshold=0.22로 낮아 obvious 판단이 쉬워졌으나, 심사관 성향(strictness=0.46)은 중립적이라 해석의 여지가 있는 경우 출원인에게 유리하게 판단할 가능성이 있음. 특히 기능적 관계(예: 지지대 위치가 테이블 피벗 범위를 제어) 및 사용자 중심 설계(예: 한 손 조작, 독립 회전)는 명확한 결합 동기 없이 obvious로 보기 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016311040-A1은 회전 가능하고 다중 위치에서 고정 가능한 지지대 구조를 명확히 개시하고 있으며, 미터 축 주위의 피벗 범위 제한, 양측 작업물 지지대 배치 등 청구항 2, 3, 4, 5, 18, 19의 주요 구성요소를 실질적으로 개시하고 있음. 통상의 기술자가 이 기술을 미터톱에 적용하는 것은 공통의 엔지니어링 목적(작업물 지지 범위 조절)을 달성하기 위한 설계 선택으로 자명하며, 결합 동기가 명확하고 예측 가능한 결과를 도출함. confidence 점수(0.75~0.95)도 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술(US-2016311040-A1)은 작업물 지지부의 회전 및 고정 기능을 개시하고 있으나, 지지부의 위치에 따라 테이블의 미터 각도 조절 범위를 제한하거나, 잠금 장치의 작동기가 지지부와 함께 이동한다는 기능적·구조적 연결에 대한 명시적 또는 암시적 동기를 제공하지 않음. 결합 동기 부족으로 인해 obvious 판단의 근거가 약함. 통상의 기술자도 이러한 조합을 자명하게 도출하기 어려우며, secondary considerations(정밀도, 반복성, 안전성 향상)이 존재함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016311040-A1이 핵심 구조를 개시하고 있으나, 청구항 6, 7, 8, 10, 11, 13, 14, 15, 17, 20의 한정은 단순한 설계 선택이라기보다는 특정한 기계적 배열과 기능적 이점을 수반함. 특히 액추에이터의 내장 구조, 비돌출 설계, 자동 잠금 동작, 운동 변환 링크, 단일 손 조작, 독립적 회전 등은 안전성, 사용자 편의성, 기계적 신뢰성 향상에 기여하며, 선행기술에서 명확히 시사되지 않음. 결합 동기(motivation to combine)는 존재하나, 모든 구성요소가 자명하게 결합된다고 보기 어려움. 심사관 성향(strictness=0.42)상, 이 정도의 약한 obvious 근거는 거절 유지보다는 보정 기회를 부여하는 것이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016311040-A1은 미터톱의 작업물 지지대를 회전 가능하고 복수의 각도로 고정할 수 있는 구조를 명확히 개시하며, 측면 배치, 독립 조정, 오목부 및 래치 잠금 메커니즘 등 청구항 2, 3, 4, 5, 9, 10, 12, 16, 18, 19, 20의 주요 구성요소를 실질적으로 포함한다. 결합 동기는 기계적 기능의 직접적 적용이며, 통상의 기술자에게 예측 가능하고 자명한 설계 선택으로 판단된다. 도면(Fig. 12, 13)과 청구항 기재가 구체적이며, confidence 값 대부분 0.75 이상으로 일관성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2016311040-A1은 청구항 2, 3, 5, 9, 12, 16, 18, 19, 20의 모든 구성요소를 명시하거나 명백히 암시하고 있으며, 도면 및 명세서에서 직접 대응 가능하므로, 신규성 결여 판단은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 10, 11, 13, 14, 15, 17에 대해 피봇 래치, 탄성 부재, 링크, 운동 변환, 단일 손 조작은 공지기술이나, 본 출원의 특정 배치 및 통합이 예상 외 효과를 나타낼 수 있으나, 해당 분야의 통상적 기술 수준에서 설계 선택으로 간주될 수 있음. strictness=0.60 기준으로는 거절 유지함."
+        }
+      ]
+    }
+  ]
+}

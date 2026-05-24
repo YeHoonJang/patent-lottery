@@ -1,0 +1,655 @@
+{
+  "case_id": "2019004648",
+  "proceeding_number": "2019004648",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.22,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 4, 5, 6, 7에 대한 103 거절은 강력한 근거를 가지고 있습니다. US-2014126158-A1은 모듈형 전기 장치의 결합 시스템을 명시적으로 개시하며, 재고 감소 및 유연성이라는 명확한 결합 동기를 제공합니다. US-2015123751-A1은 회로 차단기의 표준 구성요소를 개시합니다. 두 선행기술의 결합은 예측 가능한 결과를 초래하며, KSR 기준을 충족합니다. 특히 청구항 1의 모듈형 구조는 US-2014126158-A1에서 직접적으로 교시되고, 청구항 5의 결함 검출→트립 시퀀스는 두 선행기술 모두에서 명시적으로 개시됩니다. 청구항 4의 thermal/magnetic trip은 출원인 자신의 명세서에서 공지 기술로 인정하고 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly teaches modular electrical devices with mechanical and electrical coupling via latch mechanisms, and US-2015123751-A1 provides the circuit breaker structure with trip unit and separable contacts. The motivation to combine is explicit in US-2014126158-A1's teaching about solving inventory problems through modularity. The combination is straightforward and predictable. All claim elements are disclosed across the two references with clear functional equivalence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly discloses latch plate with biasing member and connector carrier with cam that engage together (col. 3 lines 20-30). This is functionally identical to the claimed connection lugs and retainers. The terminology difference (latch/cam vs. lugs/retainers) does not create a patentable distinction. The mechanical engagement function is explicitly taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Applicant's own specification acknowledges thermal and magnetic trips as 'very basic' and 'well-understood' technology. This is conventional, well-known in the art. No inventive contribution exists in specifying conventional trip mechanisms. This is routine implementation requiring only common sense."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1 explicitly discloses over-current relay that detects fault current and outputs trip signal (col. 4 lines 15-25). The detection system functionality is clearly taught. Incorporating this into the second portion of the modular structure is a straightforward combination motivated by the field-configurability benefits taught in US-2014126158-A1."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1 explicitly discloses Thomson drive with repulsive plate that moves in response to electromagnetic force and transmits signal to trip unit (col. 4 lines 30-45). Under BRI (breadth=0.73), 'actuator' broadly encompasses the Thomson drive mechanism. The functional equivalence is clear and explicit."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "While applicant's specification discusses various interruption features and US-2014126158-A1 teaches modularity for multiple specifications, no single reference explicitly shows a plurality of second portions with varying detection capabilities. However, the combination of modular selection concept (US-2014126158-A1) with varying detection features (acknowledged in specification) is straightforward. Given strictness=0.88 and combination_threshold=0.34, this combination requires only common sense. The evidence is sufficient though not explicit."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            12,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Applicant's specification explicitly discloses circuit breakers with various interruption ratings (15A, 30A examples) as known in the art. US-2014126158-A1 explicitly teaches using modularity to offer multiple specifications and reduce inventory (col. 1 lines 45-50). The combination of these teachings to provide interchangeable first portions with different ratings is straightforward and explicitly motivated."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "TEST buttons are acknowledged as well-known conventional features in GFCIs and AFCIs, and safety standards often require test functionality. However, no specific prior art reference explicitly discloses a TEST button in the provided references. This relies on common knowledge in the art. Given strictness=0.88, common knowledge is sufficient basis for obviousness, but the evidence is less explicit than other rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "While microprocessor-based fault detection is acknowledged as well-known in circuit breaker art, US-2015123751-A1 shows hardware-based detection (over-current relay, Thomson drive) rather than processor-based implementation. The substitution of processor-based for hardware-based detection is characterized as obvious design choice, but this relies on common knowledge rather than explicit teaching. Given strictness=0.88, this is sufficient, but the evidence is less direct than other rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 2, 4-8에 대한 103 거절은 US-2014126158-A1과 US-2015123751-A1의 결합에 기반합니다. 두 선행기술 모두 전기 보호 장치 분야에 속하며, 모듈식 설계와 차단기 기능의 결합은 예측 가능한 결과를 제공합니다. 그러나 '현장 구성 가능(field-configurable)'이라는 본 발명의 핵심 개념—즉, 제1 부분(차단 기능)과 제2 부분(검출 기능)을 독립적으로 선택하여 현장에서 조합할 수 있다는 개념—은 선행기술에서 명시적으로 개시되지 않았습니다. US-2014126158-A1은 모듈식 전자 장치를 개시하지만, 차단기 특유의 현장 구성 가능성은 개시하지 않습니다. US-2015123751-A1은 단일 구성의 차단기만을 개시합니다. 두 기술의 결합은 '모듈식 차단기'를 만들 수 있지만, 이것이 곧 '현장에서 사용자가 차단 모듈과 검출 모듈을 독립적으로 선택하여 조합할 수 있는' 시스템을 의미하지는 않습니다. 결합 동기는 존재하지만, 본 발명의 핵심 기여—모듈 수준의 독립적 선택과 조합—는 선행기술로부터 자명하지 않을 수 있습니다. 따라서 moderate 강도로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4-6에 대한 103 거절은 일정한 근거를 가지고 있습니다. 청구항 4(thermal/magnetic trip)는 명세서 자체가 공지기술로 인정하고 있어 strong에 가깝습니다. 청구항 5(detection system with fault detection and trip output)는 US-2015123751-A1이 명시적으로 개시하고 있어 moderate-strong입니다. 청구항 6(actuator with retracted/extended positions)은 Thomson drive의 repulsive plate를 'actuator'로 해석하는 것인데, 기능적 동등성은 인정되나 용어상 차이가 있어 moderate입니다. 그러나 청구항 1의 현장 구성 가능성(field-configurability) 개념이 선행기술에 명확히 개시되지 않았고, 이는 종속항들의 맥락을 변경합니다. 청구항 5-6은 청구항 1의 모듈형 구조를 전제로 하므로, 단순히 US-2015123751-A1의 통합 구조에 공지기술을 추가하는 것과는 다릅니다. 결합 동기는 있으나, 현장 구성 가능한 모듈형 구조로의 전환이 자명한지는 의문입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Office Action은 청구항 1, 2, 4, 5, 6, 7에 대해 102 거절을 제시하지만, 이는 두 개의 선행기술(US-2014126158-A1과 US-2015123751-A1)의 '조합'에 기반합니다. 35 U.S.C. § 102는 단일 선행기술에 의한 anticipation을 요구하므로, 두 선행기술의 조합은 102의 법적 기준을 충족하지 않습니다. 이는 103 obviousness의 영역입니다. 102 거절은 법적 근거가 부족합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 1, 2, 4, 5, 6, 7에 대한 103 거절은 강력한 근거를 가집니다. US-2014126158-A1은 모듈형 전기 장치의 기계적/전기적 결합 시스템을 명시적으로 개시하고, US-2015123751-A1은 차단기의 모든 핵심 구성요소(trip unit, separable contacts, over-current relay, Thomson drive)를 개시합니다. 결합 동기는 명백합니다: (1) US-2014126158-A1은 모듈형 설계의 이점(유연성, 다양한 구성, 재고 감소)을 명시적으로 교시하며, (2) US-2015123751-A1의 배경기술은 다양한 ratings과 features를 가진 circuit breakers의 필요성을 언급합니다. 통상의 기술자는 알려진 모듈형 커넥터 기술을 차단기에 적용하는 것이 자명합니다. 청구항 4의 경우, 출원 자체의 배경기술이 thermal/magnetic trip이 'well understood in the relevant art'라고 인정하여 자명성을 뒷받침합니다. 청구항 2, 6, 7의 차이점은 단순한 용어의 차이이거나 자명한 기계적 배치입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            2
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 1: US-2014126158-A1과 US-2015123751-A1의 결합으로 anticipation을 주장하나, 두 개의 선행기술을 결합하는 것은 본질적으로 103 분석입니다. 102는 단일 선행기술이 모든 구성요소를 명시적으로 개시해야 합니다. US-2014126158-A1은 modular coupling을 가르치지만 interruption apparatus의 구체적 구조(trip unit, separable contacts)는 가르치지 않습니다. US-2015123751-A1은 circuit breaker 구조를 가르치지만 modular detachable configuration은 가르치지 않습니다. 따라서 102 anticipation 근거는 약합니다. Claim 2: US-2014126158-A1의 latch plate/cam 구조가 'connection lugs with engagement surfaces'와 'retainers with retention surfaces'에 대응한다고 주장하나, 용어의 직접적 대응이 아닌 기능적 유사성에 기반한 해석입니다. Latch plate는 retainer와 다른 구조이며, cam은 lug와 다릅니다. 이는 103 obviousness 분석에 더 적합합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Thermal trip과 magnetic trip은 명세서 자체가 'very basic circuit interrupter may employ'라고 명시한 well-known conventional technology입니다. US-2015123751-A1이 trip unit을 개시하고, 이를 thermal/magnetic trip으로 구현하는 것은 당업자에게 자명한 설계 선택입니다. 결합 동기는 명확하고(conventional trip mechanisms의 well-known advantages), 결과는 예측 가능합니다. 강한 103 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1이 over-current relay가 fault를 감지하고 trip signal을 출력하여 trip unit을 작동시키는 것을 명시적으로 개시합니다. US-2014126158-A1이 modular architecture를 가르칩니다. Detection system을 second portion에 배치하고 trip unit과 통신하도록 하는 것은 이 두 가르침의 예측 가능한 결합입니다. 결합 동기는 명확합니다: US-2014126158-A1이 명시적으로 variety/inventory 문제를 해결하기 위한 modular approach를 제안하고, 명세서가 'various interruption features selected based upon needs'를 언급합니다. 강한 103 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1이 Thomson drive의 repulsive plate가 electromagnetic force에 의해 이동하여 trip unit에 trip signal을 전달한다고 명시적으로 개시합니다. 이는 retracted position에서 extended position으로 이동하여 trip unit을 engage하는 actuator의 직접적 개시입니다. 결합 동기는 명확합니다: 'promptly break fault current'를 위한 mechanical trip actuation의 known advantage. 강한 103 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014126158-A1이 overload relay의 variety 문제와 modular solution을 명시적으로 논의하고, 명세서가 various interruption ratings(15A, 30A 예시)의 필요성을 설명합니다. 그러나 US-2014126158-A1은 interruption apparatus가 아닌 overload relay에 관한 것이고, interruption rating의 modularization을 직접적으로 가르치지는 않습니다. 결합 동기는 있으나(inventory reduction, field-configurability), 이는 known principle의 새로운 적용입니다. Moderate 강도이나, strictness=0.82를 고려하면 거절 유지 경향입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 5가 strong obviousness이고, claim 11과 동일한 rating variety limitation을 추가합니다. Claim 11과 동일한 moderate 강도 분석이 적용됩니다. Strictness=0.82를 고려하면 거절 유지 경향입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 1의 102 anticipation이 weak하므로 claim 1은 허여 가능성이 있으나, rating variety limitation 자체는 claim 11/12와 동일한 moderate obviousness 분석이 적용됩니다. 그러나 claim 1이 허여되면 claim 15도 허여될 가능성이 높습니다. Strictness=0.82를 고려하면 claim 1의 102 거절이 약하므로 전체적으로 재평가 필요합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1 explicitly discloses circuit breaker with vacuum interrupter, separable contacts, trip unit, and connection to line/load. US-2014126158-A1 explicitly discloses modular electronic devices with separate housings that mechanically and electrically couple together, with explicit teaching that this modularity reduces catalog numbers and allows application-specific selection - the exact problem stated in the present application's background. The motivation to combine is clear and well-supported: applying known modular design technique to known circuit breaker structure to achieve predictable result of field-configurability. This is textbook obviousness under KSR - predictable use of prior art elements according to established functions."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly discloses latch plate with biasing member and cam that engage during coupling, which directly corresponds to claimed connection lugs with engagement surfaces and retainers with retention surfaces. This is not a functional equivalent requiring inference - it is an explicit disclosure of mechanical engagement mechanism. The combination simply applies the disclosed latching mechanism from US-2014126158-A1 to the modular structure already established as obvious in claim 1."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "The application's own specification admits that 'a very basic circuit interrupter may employ a thermal trip or a magnetic trip or a combination thermal/magnetic trip' - this is an admission that thermal/magnetic trips were well-known conventional options. US-2015123751-A1 discloses a trip unit. Selecting thermal/magnetic implementation is obvious selection from known alternatives, supported by applicant's own admission of common knowledge in the art. This is strong evidence under MPEP 2144.03 (admissions in specification)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1 explicitly discloses over-current relay that detects fault current and outputs trip signal, and trip unit that responds to trip signal to operate contacts - this is exactly what claim 5 recites. The only difference is physical separation into modular portions, which follows directly from the obvious modular structure of claim 1. Distributing detection and trip functions across modular portions while maintaining electrical communication is a straightforward application of the modular principle - no unexpected difficulty or unpredictable result. Coverage score 0.78 indicates strong anticipation of functional elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 discloses Thomson drive with repulsive plate that moves and transmits trip signal to trip unit. This functionally corresponds to claimed actuator moving between positions and engaging trip unit. However, the reference describes electromagnetic movement of repulsive plate, while claim 6 recites mechanical movement between 'retracted' and 'extended' positions. There is functional equivalence, but some interpretation is required to map repulsive plate movement to actuator retraction/extension. Coverage score 0.65 indicates substantial but not complete correspondence. Given strictness=0.47 (slightly lenient), this moderate-strength evidence supports obviousness, but is closer to the threshold than claims 1-5."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly teaches modular coupling with detachable/connectable configuration, electrical connectors that mate when coupled, and latch mechanisms. US-2015123751-A1 explicitly teaches circuit breaker components including separable contacts, trip unit, and fault detection relay. The combination is logical and well-motivated: US-2014126158-A1 explicitly identifies the problem of requiring large catalog numbers for devices with different specifications and teaches modularity as the solution. The specification acknowledges the same problem exists in circuit breakers. A PHOSITA would be motivated to apply modular design to circuit breakers to achieve field configurability. This is a predictable combination of prior art elements according to their established functions. The evidence is strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly discloses cam and biasing member engagement mechanism for securing modular devices together. The claimed connection lugs with engagement surfaces and retainers with retention surfaces represent a predictable mechanical variation of the disclosed engagement mechanism. Both are conventional mechanical fastening means. A PHOSITA would find it obvious to use lugs and retainers as alternative implementations of the engagement mechanism. The evidence is strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 discloses a trip unit but does not explicitly specify thermal or magnetic trip mechanisms. However, the applicant's own specification acknowledges that thermal and magnetic trips are 'well understood' and 'known in the relevant art' for circuit breakers. This admission by the applicant undermines any argument of non-obviousness. While the prior art does not explicitly disclose the specific trip mechanism type, the use of common knowledge in the field is permissible for 103 rejections. Given my strictness of 0.55 (moderate), I find this evidence moderately strong. The applicant's own admission combined with common knowledge supports the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1 explicitly discloses an over-current relay that detects fault current and outputs a trip signal to the trip unit, which switches contacts from closed to open. This teaches all functional elements of the claimed detection system. The only difference is the modular arrangement from claim 1, which has been found obvious. Combining the detection system functionality with the modular structure is a predictable arrangement motivated by field configurability. The evidence is strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 discloses a Thomson drive with a repulsive plate that moves when energized to transmit the trip signal. This teaches a movable element that responds to an electrical signal and transmits the trip signal to the trip unit. The claimed actuator moving between retracted and extended positions is a reasonable interpretation of the repulsive plate movement. However, the specific characterization as 'retracted' and 'extended' positions and 'engageable with the trip unit' requires some interpretation. Given my strictness of 0.55, I find this evidence moderately strong. The functional equivalence is clear, though the structural correspondence requires interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 4, 5, 6, 7에 대한 103 거절은 두 개의 구체적 선행기술(US-2014126158-A1, US-2015123751-A1)을 기반으로 합니다. US-126158은 모듈형 전기 장치의 결합 구조를 개시하고, US-751은 회로 차단기의 접점 및 트립 유닛을 개시합니다. 결합 동기는 US-126158의 모듈성을 통한 카탈로그 번호 감소와 출원 명세서의 배경 기술에서 언급된 현장 구성 가능성의 이점에 기반합니다. 그러나 두 문헌은 서로 다른 기술 분야(모듈형 전자 장치 vs. 진공 차단기)에 속하며, 결합이 자명하다고 단정하기 어려운 측면이 있습니다. US-126158은 오버로드 릴레이 시스템에 관한 것이고, US-751은 진공 차단기에 관한 것으로, 두 기술을 결합하여 현장 구성 가능한 차단 장치를 만드는 것이 당업자에게 자명한지는 해석의 여지가 있습니다. 특히 claim 1의 경우, 두 문헌의 단순 결합만으로는 청구항의 모든 요소가 명확히 개시되지 않을 수 있습니다. Claims 2, 4는 비교적 강한 근거를 가지지만, claims 5, 6, 7은 검출 시스템을 제2 부분에 배치하는 것과 액추에이터의 구체적 구조가 명시적으로 개시되지 않아 moderate 수준입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly teaches modular electronic devices with detachable/connectable housings and latch mechanisms. US-2015123751-A1 explicitly teaches circuit breaker components including trip unit, separable contacts, and line/load connections. The motivation to combine is clear and well-articulated: US-2014126158-A1 explicitly addresses reducing catalog numbers through modularity. The combination is straightforward application of known modular design principles to circuit breaker technology. This is a predictable use of prior art elements according to their established functions."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 directly teaches latch plate with biasing member and connector carrier with cam that engage together in latched position. This is functionally equivalent to the claimed connection lugs and retainers. The terminology difference represents design choice of equivalent mechanical fastening elements. A PHOSITA would recognize these as equivalent engagement mechanisms."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 teaches trip unit but does not explicitly specify thermal or magnetic trip mechanisms. However, applicant's own specification acknowledges thermal/magnetic trips are conventional in circuit breakers. This is common knowledge in the art. The obviousness argument relies partly on common knowledge rather than explicit prior art teaching, but the applicant's admission strengthens the case. Given my moderate strictness (0.50), this is sufficient for rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1 explicitly teaches over-current relay detecting fault current and outputting trip signal to trip unit. US-2014126158-A1 teaches modular arrangement with electrical communication between portions. The combination is straightforward: place detection system in second portion and have it communicate with trip unit in first portion. Motivation is clear (inventory reduction benefits) and result is predictable."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 teaches Thomson drive with repulsive plate that moves and transmits trip signal to trip unit. This is functionally similar to claimed actuator moving between retracted and extended positions. However, the correspondence requires some interpretation - the repulsive plate's movement is described differently than retracted/extended positions. The functional equivalence is reasonable but not explicit. Given my moderate strictness (0.50), this is sufficient for rejection, but it's a closer call than claims 1, 2, or 5."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 teaches detection system. Test buttons are acknowledged as conventional in circuit protection devices, particularly those with ground fault detection. However, no prior art reference explicitly teaches TEST input device in the detection module. The obviousness argument relies on common knowledge that test functionality is standard practice. Given my moderate strictness (0.50) and the fact that test buttons are indeed conventional in the art, this is sufficient for rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 teaches detection system. Processor-based fault detection is argued as common knowledge by the priority date. However, no prior art reference explicitly teaches processor apparatus with executable routines in the detection module. The obviousness argument relies on the assertion that processor-based detection was well-known, which is reasonable but not explicitly proven by the cited references. Given my moderate strictness (0.50), this is sufficient for rejection, but it's a closer call."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 1 and 2 were identified as anticipated, but the 102 rejection relies on combining two separate references (US-2014126158-A1 and US-2015123751-A1) to show all elements. Under 102, a single reference must disclose all claim elements arranged as claimed. US-2014126158-A1 teaches modular connection but not the interruption apparatus elements (trip unit, separable contacts). US-2015123751-A1 teaches circuit breaker components but not the specific two-portion modular configuration with field-configurability. The 102 rejection improperly combines references, which is a 103 analysis. The evidence for anticipation is weak."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 4, 5, and 6 are properly analyzed under 103. US-2014126158-A1 explicitly teaches modular electrical devices with detachable/connectable configuration, mechanical coupling, and electrical connection. US-2015123751-A1 teaches all circuit breaker functional components including trip unit, contacts, fault detection (over-current relay), and actuator mechanism (Thomson drive). The motivation to combine is clearly articulated: both references address modular electrical protection equipment, and US-2014126158-A1 explicitly states its purpose includes overload relays used with contactors. The combination would yield predictable results - a field-configurable circuit breaker. The Graham factors are properly analyzed. The combination threshold (0.44) is met as this involves applying known modular design principles to known circuit breaker components for predictable results. The evidence is strong for 103 rejection of these claims."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "102 거절은 단일 선행기술이 모든 청구항 구성요소를 개시해야 하나, 여기서는 US-2014126158-A1과 US-2015123751-A1의 조합을 사용했습니다. 이는 102가 아닌 103 분석입니다. US-2014126158-A1은 모듈러 전자기기를 개시하지만 회로차단기의 trip unit이나 separable contacts는 개시하지 않습니다. US-2015123751-A1은 회로차단기를 개시하지만 분리 가능한 2부분 모듈러 구조는 명시적으로 개시하지 않습니다. 따라서 102 anticipation은 성립하지 않습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 1, 2, 4, 5, 6에 대한 103 거절은 강력한 근거를 가집니다. US-2014126158-A1은 모듈러 하우징 구조와 기계적/전기적 연결을 명확히 개시하고, US-2015123751-A1은 회로차단기의 trip unit, separable contacts, 고장 검출 시스템을 명확히 개시합니다. 결합 동기는 출원 명세서 자체의 배경기술에서 명시적으로 언급된 '다양한 정격과 기능을 가진 현장 구성 가능한 회로차단기의 필요성'에서 찾을 수 있습니다. 두 선행기술 모두 재고 관리와 맞춤화를 위한 모듈화를 다루고 있어, 이들의 결합은 예측 가능합니다. 열/자기 트립(청구항 4)은 출원 명세서가 종래 기술로 인정하고 있으며, 액추에이터(청구항 6)는 Thomson drive의 repulsive plate와 기능적으로 동등합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly teaches modular coupling architecture with mechanical and electrical connections between separable housings. US-2015123751-A1 explicitly teaches circuit breaker components including separable contacts, trip unit, and line/load connections. The motivation to combine is explicitly stated in US-2014126158-A1: reducing inventory by providing modular components with different specifications. This same problem is acknowledged in the application's background for circuit breakers. The combination is straightforward application of known modular design to circuit breaker components with predictable results. All claim elements are accounted for with clear mapping to prior art disclosures."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly discloses latch plate with cam and biasing member that engage to secure housings in connected configuration. This directly teaches engagement surfaces and retention surfaces. The terminology difference (connection lugs vs latch plate, engagement surfaces vs cam) represents semantic variation rather than structural distinction. A PHOSITA would recognize functional equivalence of these mechanical fastening mechanisms."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "The application's own background admits thermal and magnetic trips are conventional, well-known features in circuit breakers, stating 'a very basic circuit interrupter may employ a thermal trip or a magnetic trip or a combination thermal/magnetic trip.' This establishes common general knowledge. US-2015123751-A1 discloses trip unit structure. Implementing the trip unit with conventional thermal or magnetic mechanisms is straightforward application of known techniques requiring no inventive step."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1 explicitly discloses over-current relay that detects fault currents and outputs trip signal to trip unit, which then operates contacts. This directly teaches detection system detecting faults and generating output to trip unit. The only difference is modular arrangement with detection system in separate portion, but modularity was established as obvious in claim 1 rejection. Applying modular division to fault detection system follows same inventory reduction motivation from US-2014126158-A1."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 discloses Thomson drive with repulsive plate that moves electromagnetically to transmit trip signal to trip unit. The repulsive plate functions as movable actuator that engages trip unit. However, the claim's specific terminology of 'retracted' and 'extended' positions requires interpretation. The reference describes movement of repulsive plate but does not explicitly use retracted/extended terminology. The functional equivalence argument is reasonable but involves some interpretation. Given strictness=0.52 (slightly above neutral), this moderate-strength evidence supports obviousness conclusion."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 states Thomson drive can be 'provided at the trip unit' and transmits signal by movement of repulsive plate. The rejection argues this inherently means actuator extends into region where trip unit is located. This is logical inherency argument - for actuator to engage trip unit, it must extend into trip unit's space. However, the reference does not explicitly describe the spatial relationship of actuator being 'at least partially received in the first interior region.' The inherency argument is reasonable but requires inference. With strictness=0.52, this moderate evidence supports obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014126158-A1 explicitly teaches modularity to provide different functional options and reduce inventory. US-2015123751-A1 teaches fault detection. Application background acknowledges different detection features (e.g., ground fault) are selected based on application needs. The motivation to provide selectable detection modules with different fault type capabilities is logical extension of modularity principle. However, the prior art does not explicitly disclose multiple detection modules with different fault type capabilities - this requires combining the modularity concept with knowledge of different fault types. The combination is reasonable but involves design choice. With strictness=0.52, this moderate evidence supports obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            12,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1 explicitly teaches overload relays designed for different current ranges and discusses need for multiple catalog numbers with different specifications. Modularity is taught as solution to this inventory problem. Application background explicitly acknowledges circuit breakers have various interruption ratings (15A for lights, 30A for dryers) as conventional feature. Providing multiple first portions with different current ratings that couple with same second portion directly applies the modularity solution to the acknowledged conventional variable of interruption ratings. This is straightforward combination with explicit motivation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "Test buttons for circuit protection devices are well-known, particularly TEST buttons on GFCIs that simulate fault to verify operation. This is common general knowledge in the field. However, the prior art references do not explicitly disclose TEST input device. The rejection relies on common general knowledge that test functions are conventional practice for verifying detection system operation. This is reasonable argument but involves applying general knowledge rather than explicit prior art teaching. With strictness=0.52, this moderate evidence supports obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015123751-A1 discloses control unit with electronic control circuitry. The rejection argues microprocessor-based control in circuit breakers was well-known by 2017 priority date, and processor implementation of fault detection is known alternative to hardware-based detection. However, US-2015123751-A1 shows hardware-based detection (over-current relay, Thomson drive) not processor-based detection. The rejection relies on common general knowledge that processor implementation was conventional by 2017. This is reasonable but involves substituting known equivalent (processor for hardware) without explicit teaching in prior art. The argument that processor implementation facilitates field-configurable options is logical but speculative. With strictness=0.52, this moderate evidence supports obviousness, though it is weaker than other rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 5, 6: The combination of US-2014126158-A1 (modular electrical devices) and US-2015123751-A1 (circuit breaker with trip unit and detection) is well-supported. US '158 explicitly teaches modularity benefits (reducing catalog numbers), providing clear motivation to combine. Both references are in the same field (electrical protection equipment). The element mapping is detailed with specific column/line citations. The combination is straightforward - applying modular housing structure to circuit breaker components. This represents strong evidence of obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 4 (thermal/magnetic trip): The application's own background acknowledges thermal and magnetic trips as 'very basic' and well-known conventional mechanisms. This admission, combined with US '751's disclosure of a trip unit, provides strong basis for obviousness. The claim does not recite any specific novel implementation of thermal/magnetic trips, merely their inclusion. Common knowledge in the art suffices for obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 13 (TEST input device): Test buttons are indeed conventional in GFCIs/AFCIs. However, the cited references do not explicitly disclose test functionality. The rejection relies on common knowledge and standard practice. While this is permissible under 103, the lack of explicit prior art disclosure makes this moderate strength. Given my strictness=0.60 (moderate), I find this sufficient to maintain rejection, as test buttons are truly ubiquitous in fault-detecting circuit breakers."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 14 (processor with executable routines): Microprocessor-based trip units are well-known, but US '751 specifically discloses hardware-based detection (over-current relay). The rejection argues this is a conventional design choice (hardware vs. software implementation). While processor-based circuit breakers are common, the claim-to-prior-art gap is larger than for other claims. However, the claim is generic (no specific algorithm), and hardware/software equivalence is recognized. Given my strictness=0.60, I find this sufficient for rejection, though it's closer to the borderline."
+        }
+      ]
+    }
+  ]
+}

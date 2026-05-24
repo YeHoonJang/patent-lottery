@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham factors (scope/content of prior art, differences from claims, PHOSITA level, secondary considerations) and explicitly evaluates motivation to combine, which is the correct KSR/Graham framework for obviousness; §102 uses element-by-element comparison against the single prior art reference."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout both novelty and obviousness stages, the examiner consistently cites specific claim elements (e.g., 'element 1b and 1d,' NLP keyword extraction, intermediary risk rating, fallback logic) and maps them against specific disclosures of US-2016140466-A1."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis builds consistently on the §102 findings — claims found novel due to absent elements (unstructured text processing, NLP, fallback logic) are then found non-obvious for the same reasons with added motivation-to-combine analysis, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a strictness of 0.422 (below 0.5, moderate-lenient) and resolves ambiguous cases (e.g., claim 3's GUI formatting, which could be considered routine) in favor of the applicant, consistent with a less-strict examiner granting on borderline evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision directly follows from the accumulated stage findings: all 20 claims were found novel at §102 and non-obvious at §103, with the office action allowing all claims, making the grant decision a natural and stated conclusion of the prior analysis."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006000",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13734,
+      "output_tokens": 402,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

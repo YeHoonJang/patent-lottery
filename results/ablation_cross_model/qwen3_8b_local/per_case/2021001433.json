@@ -1,0 +1,338 @@
+{
+  "case_id": "2021001433",
+  "proceeding_number": "2021001433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses protocol-specific identifier handling and gateway-mediated communication, which directly overlap with claim 1 under BRI. The combination motivation is clear (software-based protocol switching as a standard solution), and the Graham factors confirm the prior art's technical foundation aligns with the claimed method."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks detailed explanations of 'executable software instructions' and protocol transition mechanisms, making implementation unduly speculative. This violates 35 U.S.C. §112(b) with clear evidence of insufficient disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'executable software instructions'의 구체적 기능 또는 구현 방식이 명시되지 않아 Enablement 문제가 명확히 확인됨. 심사관의 strictness=0.88에 따라 강한 근거로 판단"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과의 결합 동기 부족이 명시되었으나, PHOSITA가 프로토콜 전환을 위한 소프트웨어 설치를 명확히 동기화할 이유가 없음. 증거가 있으나 해석 여지 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses gateway protocol translation and network configuration (US-2012299509-A1), making the combination of protocol switching and software installation obvious to PHOSITA. Graham factors confirm protocol flexibility is a known need, and the motivation to combine is clearly stated."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'executable software instructions' and 'capability to communicate over a second protocol' lack specificity in the specification, but the issue is not entirely indefensible as the claims relate to protocol implementation which could be defined."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art explicitly combines gateway data relaying (claim 2) and ZigBee device roles (claim 4) to suggest protocol updates via gateway commands. The combination threshold (0.72) is met, and the motivation to combine (protocol compatibility in building automation) is clearly stated. Confidence in the prior art's explicit disclosure and logical extension to the claimed method is high."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012299509-A1의 게이트웨이 기능(claim2)과 다중 프로토콜 지원(claim4)이 명확히 공지되어 있으며, 결합 동기(motivation to combine)가 명확하고 기술적 당연성(technical obviousness)이 높습니다. 103_obviousness 기준에 부합하며, 선행기술의 구체적 내용과 매칭됨을 확인했습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all elements of claim 1, including protocol switching via software installation (address assignment) and ZigBee network interaction. The motivation to combine is evident in the need for protocol flexibility in ZigBee networks, which is a well-known design consideration. Confidence score of 0.82 meets strictness threshold."
+        },
+        {
+          "basis": "112(b)",
+          "strength": "moderate",
+          "reasoning": "Claim 1 lacks sufficient enablement for the 'later revision' concept implied by REF1's address assignment process. While explicit protocol references exist, the enablement for dynamic protocol evolution is ambiguous."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2012299509-A1) explicitly discloses protocol transitions (claim4) and software configuration (claim6) that directly align with the claimed method. The combination motivation is clear: PHOSITA would apply standard ZigBee configuration practices to enable protocol switching. Graham factors confirm the prior art's scope, differences, and secondary considerations all support obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art elements (claims 4 and 6) are explicitly disclosed and combinable with clear motivation for protocol flexibility, but the distinction between static protocol assignments in prior art and dynamic switching in claims is somewhat ambiguous."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks detailed technical description of 'executable software instructions' required to enable practice of the invention, as explicitly stated in the Office Action. This is a clear 112(a)/(b) deficiency with no ambiguity in the record."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 구체적 기능(데이터 중계, 주소 할당)이 청구항 1의 '소프트웨어 설치' 기능과 기능적 동등성을 명확히 보여주며, 결합 동기(호환성 개선)도 명확함. Graham 요소에서 기술자 수준과 이론적 가능성도 충족됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 '실행 가능한 소프트웨어 지시사항' 등 핵심 용어에 구체적 정의가 부재하나, 이는 기술적 실현 불가능성보다는 명세서 완비성 문제로, 수정 가능성이 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art lacks explicit teaching of software-based protocol switching, but no clear motivation to combine exists. Graham factors indicate no secondary considerations, making the non-obviousness claim moderate in strength."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses gateway functionality and protocol-level operations that align with the claimed method. The combination of gateway functionality and protocol upgrades is obvious to a PHOSITA, with confidence scores above 0.6, meeting the strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'executable software instructions' lacks sufficient description in the specification, but the issue is specific to certain claims (5,13,14,16) and not universally applicable, leaving room for interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses gateway relaying (claim2), ZigBee protocol (claim4), and software-based address assignment (claim6). These elements are combinable with clear motivation for protocol flexibility, meeting Graham factors with high confidence (0.85)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1 explicitly discloses all elements of claim 1 (ZigBee network, protocol transition, address assignment), and the motivation to combine is clear (protocol upgrades in ZigBee-based systems). Confidence (0.8) exceeds strictness threshold (0.6)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'executable software instructions' and 'later revision' lack technical specificity. Confidence (0.7) meets strictness threshold but requires clarification to meet written description requirements."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations, motivation to combine) for every claim, using the correct statutory framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions are anchored to specific claim language (e.g., 'lowest eCCE index, device-specific offset, and subframe index i'), specific prior art disclosures in US-2013242770-A1 (ePDCCH, distributed/localized CCEs, DCI for scheduling), and the exact formula n_PUCCH,i^(1) = i·N_q^eCCE + n_eCCE,i + N_UE-PUCCH(q)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 stage found claims novel (no anticipation established) due to missing formula and sequential allocation elements, and the §103 stage consistently builds on this by arguing those same missing elements would have been obvious to combine—no contradiction exists between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.793 and combination_threshold=0.335, the examiner correctly resolves ambiguity toward rejection and accepts a relatively weak single-reference combination, consistent with a veteran strict profile, as explicitly noted in the final decision."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims 13–24 flows directly and consistently from the §103 obviousness findings accumulated across all prior stages, with no reversal of direction and stated rationale referencing motivation to combine and PHOSITA analysis."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017005064",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10001,
+      "output_tokens": 405,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

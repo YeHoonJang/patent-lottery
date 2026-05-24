@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations, and motivation to combine) for every claim, and §102 uses element-by-element comparison against the cited reference."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout reference specific claim limitations (e.g., 'inference store,' 'consent data tied to specific inferences,' 'bidirectional inference sharing') and specific prior art disclosures from US-2018288616-A1 (e.g., permission prediction, installation-time prompts, ML for task-based permissions)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The obviousness stage consistently builds on the novelty findings—where §102 found key elements (inference store, consent-verified access, module-generated inferences) absent, §103 treats those same gaps as the basis for lack of motivation to combine, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.603 and combination_threshold at 0.566 (moderate), the examiner appropriately requires meaningful motivation to combine and articulates why it is lacking, while still granting on well-supported grounds rather than rejecting on thin evidence—consistent with a moderately strict, pragmatist profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The grant decision flows directly from the accumulated §102 (all claims novel) and §103 (all claims non-obvious, weak challenge) findings, with the final decision summary explicitly weighing the absence of rejection grounds and the examiner's moderate strictness to justify allowance."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001767",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10107,
+      "output_tokens": 398,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

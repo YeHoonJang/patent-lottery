@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 for claims 1/5/9, Graham/KSR factors (scope, differences, PHOSITA level, secondary considerations) for §103 claims 3/7/11, and definiteness under §112(b) for 'lateral distance' — each statute is matched to its proper legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout both the novelty and obviousness stages, as well as the office action, conclusions are consistently tied to specific claim language (e.g., 'high-beam edge displacement,' 'lateral distance,' 'transition period variability') and specific passages of US-2015151669-A1 (e.g., mirror illumination avoidance, vehicle type identification signal)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained: claims found not novel at §102 (1, 5, 9) are also found obvious at §103; claims found novel at §102 (2, 4, 6, 8, 10, 12) are split at §103 — some (transition period) found obvious but still flagged allowable, others (intensity) found non-obvious — and the office action and final decision align with these findings without unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner resolves ambiguity consistently toward rejection — for example, claims 3/7/11 are rejected on both §103 and §112 simultaneously, and the final decision explicitly notes 'strictness=0.89에 따라 약한 근거도 거절로 판단함,' reflecting the strict-gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1, 3, 5, 7, 9, 11 and grant claims 2, 4, 6, 8, 10, 12 follows directly and coherently from the accumulated §102/§103/§112 stage analyses, with no reversals of prior-stage conclusions and with explicit rationale tying each claim decision to its earlier-stage finding."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018006721",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11967,
+      "output_tokens": 527,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

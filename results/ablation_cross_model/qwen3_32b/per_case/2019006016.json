@@ -1,0 +1,292 @@
+{
+  "case_id": "2019006016",
+  "proceeding_number": "2019006016",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art US-2014150923-A1 discloses a fluid injection arrangement with a manipulating device, seal, and control unit parameters similar to the claimed invention. While it does not explicitly mention all elements, the combination and obvious variants suggest anticipation. The confidence level (0.65) indicates moderate strength, as the explicit disclosure of all claim elements is not confirmed."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에 핵심 용어 및 기능이 충분히 기재되지 않아 통상의 기술자가 이를 실시할 수 없음. 특히 'first phase boundary', 'second phase boundary', 'volume calculation algorithm' 등의 용어가 명세서에 구체적으로 설명되지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014150923-A1과 결합하여 청구항의 기능을 실현할 수 있음. 통상의 기술자가 선행기술과 공지된 기술을 결합하여 청구항의 기능을 예측할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The prior art reference US-2014150923-A1 is said to anticipate claim 10, but the analysis shows that it does not disclose several essential elements of the claimed invention, including aspirating fluid through a cannula at a predetermined volumetric flow, measuring optical parameters of the aspirated fluid with an optical sensor between the cannula and sampling container, storing a first position when an optical parameter changes and interrupting movement, or calculating a second position based on the first position, speed, volume, and flow rate. These missing elements are critical to the claimed invention and are not disclosed in the prior art reference. Given the low strictness (0.29), the weak novelty basis is not sufficient to reject the claim."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection under 103 is supported by clear evidence from US-2014150923-A1, which discloses all core elements of the claims. The differences (e.g., specific optical parameters, multi-step position detection) are characterized as routine design choices or logical extensions. The confidence scores (0.7–0.8) and explicit motivation-to-combine statements further strengthen the obviousness rationale. Given the strictness=0.89, even moderate-strength rejections would be upheld."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the lack of clear definitions for specific terms in the specification. While the claims are novel and non-obvious, the ambiguity in terms like 'phase boundary', 'vessel parameters', and 'predetermined wavelength' could lead to enablement concerns. Given the moderate strength of the rejection and the examiner's strictness of 0.47, the rejection is considered valid but could be overcome with clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과 공지기술의 결합이 논리적으로 설명되었으나, 결합 동기가 명확하지 않아 103 거절 근거의 강도는 중간 수준으로 판단됨"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항 29의 모든 필수 요소를 개시하고 있으며, 광학 센서 누락도 신규성 판단에 영향 미치지 않음"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The Office Action cites US-2014150923-A1 and argues that the claimed method is obvious by combining known elements (manipulating device, injection needle, seal) with an optical sensor and position calculation logic. While the motivation to improve accuracy is plausible, the prior art does not explicitly teach the optical sensor integration or the specific multi-parameter position calculation. The confidence (0.75) suggests a reasonable but not definitive overlap, aligning with a 'moderate' strength assessment under the combination threshold (0.22)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination rationale is reasonable, but the confidence scores for some claims are below 0.5, indicating some uncertainty in the obviousness determination."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2014150923-A1 teaches a fluid injection system with a manipulating device and seal, but does not explicitly disclose the optical sensor integration, position calculation logic, or control unit automation features central to claim 10. The Office Action relies on routine optimization of parameters as motivation, but this lacks direct support in the prior art for the specific method steps involving optical boundary detection and dynamic position adjustment. While the combination threshold is low (0.44), the absence of explicit teaching or suggestion for the key innovation weakens the obviousness argument, resulting in a moderate strength assessment."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art reference does not provide any teaching or suggestion to incorporate the specific optical measurement and position calculation features into the injection arrangement. The combination of these features is not obvious to a person of ordinary skill in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술은 청구항 10의 일부 요소만 개시하며, 결합 동기는 명확하지 않다. 선행기술의 공지 기술 적용 가능성은 있으나, 청구항의 구체적 조합이 선행기술에서 직접적으로 도출될 수 없다는 점에서 근거의 강도는 중간 수준이다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action cites 35 U.S.C. § 112(a) regarding insufficient written description for terms like 'phase boundary', 'predetermined wavelength', and others. While the claims are novel, the lack of clear definitions and implementation details in the specification raises enablement concerns. With a strictness of 0.60, this is a moderate issue that could be addressed with clarification but currently prevents allowance."
+        },
+        {
+          "basis": "121_multiple_dependent_claims",
+          "strength": "weak",
+          "reasoning": "The Office Action raises an objection under 35 U.S.C. § 121 about multiple independent claims being duplicates or variations. This is a procedural issue rather than a substantive rejection, and with a strictness of 0.60, this weak objection would typically be addressed through amendment rather than outright rejection."
+        }
+      ]
+    }
+  ]
+}

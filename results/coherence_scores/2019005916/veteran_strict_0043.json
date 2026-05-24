@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis for §102, Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103, and written description/definiteness analysis for §112, each under the appropriate statutory framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout consistently reference specific claim language (e.g., 'T2 측정 및 T1 조절', '1몰% 미만', '약 0.1몰% 미만'), specific prior art disclosures (US-2012189523-A1 disclosing 0.1–1% methane, 490°C inlet temperature, Ir/Pt catalysts, ZrO2/TiO2 supports), and specific specification passages."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For several claims (e.g., claim 8), the §102 stage found anticipation despite acknowledging 'specific temperature values are not disclosed' in the prior art, yet the §103 stage built on the same element without addressing the gap introduced at §102 — creating an internal inconsistency where the §102 finding is questionable but no additional rationale bridges it."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.875 and combination_threshold of 0.344, the examiner uniformly rejects all claims, resolves every ambiguity toward rejection, accepts weaker motivation-to-combine (e.g., functional equivalence of honeycomb), and provides no allowable claims — fully consistent with a veteran strict profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102, §103, and §112 findings across all stages, with the summary explicitly linking the rejection to the prior art analysis and confidence scores (mostly ≥0.8) established earlier."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005916",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17168,
+      "output_tokens": 462,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

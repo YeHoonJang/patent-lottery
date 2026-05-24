@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 anticipation via element-by-element mapping to US-2015151669-A1 and uses Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness, demonstrating statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout reference specific claim language ('high-beam edge,' 'scenario,' 'lateral distance'), specific prior art disclosures (US-2015151669-A1's 'ascertaining the type of the other vehicle,' 'control signal output'), and specification passages (e.g., paragraphs [¶0008], [¶0014], [¶0028])."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds all claims lacking novelty (confidence 0.7–0.85), yet the §103 obviousness stage then reverses course and finds all claims non-obvious ('is_obvious: false') without explanation, creating a direct contradiction; the office action then rejects claims 1/3/5/7/9/11 under §102 and 2/4/6/8/10/12 under §103, inconsistent with the obviousness stage's 'not obvious' findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a mid-range strictness of 0.523, the examiner appropriately reflects moderate strictness by rejecting all claims but acknowledging uncertainty (decision_score 0.4, noting 'confidence가 중간 수준,' 'some weak grounds may be amendable'), which is consistent with a balanced, neither highly strict nor lenient profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the office action stage, with the §102 rejections for claims 1/3/5/7/9/11 and §103 rejections for claims 2/4/6/8/10/12 carried directly into the final claim decisions with matching rationale, and no unexplained reversal occurs."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018006721",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9991,
+      "output_tokens": 503,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "case_id": "2017006232",
+  "proceeding_number": "2017006232",
+  "gt_issues": [
+    "102",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of elements in claims 17-33 represents routine design choices and obvious variants of the disclosed collectors and sensor systems in the references. The references provide clear motivation to combine the elements for effective leakage detection in dialysis machines."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements of claims 17, 18, and 20 with high confidence (0.8-0.9)"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 19-33 show routine modifications to known dialysis machine designs, though some variations may require additional motivation analysis"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011315237-A1이 모든 요소를 명확히 개시하고 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011315237-A1이 유체 라인 연결을 통한 투석 시스템 구성요소를 개시하고 있으나 결합 동기는 보통 수준"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements of claim 17."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 18's hydraulic system components are standard in the field, but explicit disclosure is not as clear."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 20's external storage tanks are known, but specific configuration may not be obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements of claim 17 with high confidence."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 implicitly discloses hydraulic system components as claimed in claim 18."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Making receptacle resources visible/accessible in claim 19 is an obvious design choice with clear motivation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Positioning storage tanks outside casing in claim 20 is an obvious space-saving measure."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Sensor placement in extended portion (claim 25) and at deepest point (claim 26) are obvious implementations."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Automatic sealing verification in claim 32 is predictable automation of known safety checks."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Visible/accessible receptacle resources in claim 33 are obvious for serviceability."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 17 is anticipated by US-2011315237-A1 which discloses all elements including a casing, blood circulation components, base socket with collection trough, receptacle resources for external leaks, and a sensor for liquid detection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 18 is anticipated by US-2011315237-A1 which discloses hydraulic system components for dialysis liquid conveyance."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 19 is obvious in view of US-2011315237-A1 as making receptacle resources visible/accessible would have been an obvious design choice for maintenance purposes."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 20 is anticipated by US-2011315237-A1 which explicitly discloses external storage tanks for dialysate preparation media."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 21 is obvious in view of US-2011315237-A1 as extending base socket beyond front panel would have been an obvious spatial arrangement choice."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 22 is obvious in view of US-2011315237-A1 as the conduit arrangement for liquid transfer would have been an obvious implementation of basic fluid dynamics principles."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 24 is obvious in view of US-2011315237-A1 as routing external leaks would have been an obvious extension of the collection system."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 25 is obvious in view of US-2011315237-A1 as sensor placement optimization would have been an obvious design choice."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 26 is obvious in view of US-2011315237-A1 as placing sensor at lowest point would have been an obvious implementation for liquid detection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 33 is obvious in view of US-2011315237-A1 as external visibility/accessibility would have been an obvious maintenance feature."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements of claims 17-27 and 32-33 with high confidence (0.7-0.85)"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Combination of elements in claims 17-27 and 32-33 would be obvious to PHOSITA, though some claims (23, 27) have lower confidence (0.5-0.6)"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements of claim 17."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2011315611-A1 implicitly discloses external storage tank for dialysate medium."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses casing with front panel and base socket portion."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses base socket with receptacle resources."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses sensor in collection trough."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Standard components disclosed, control verification is routine implementation for dialysis systems."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements of claim 17"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 17 elements are standard practice in dialysis machines"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 18 modification is logical but requires combination of references"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 19 design choice is common but not explicitly taught"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 20 external tank is known but exact configuration not shown"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements of claim 17"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Hydraulic system components modification is conventional but requires some interpretation"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "External storage tanks are conventional but prior art linkage requires interpretation"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Leak routing features are standard practice but specific implementation varies"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Sensor placement is clearly conventional optimization"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Automatic sealing verification is standard system integration"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements except the routing feature, which would be obvious to a PHOSITA"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Hydraulic system placement is conventional but not explicitly shown in reference"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "External storage tanks are common but specific configuration not shown"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Sensor placement in collection trough is explicitly taught"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1이 청구항 17의 모든 요소를 명확히 개시함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 18의 유압 시스템 추가는 공지된 기술이지만 명시적 개시는 아님"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 20의 외부 저장 탱크는 공지된 기술이지만 특정 구성은 아님"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 22의 오버플로 메커니즘은 공지된 기술이지만 특정 구현은 아님"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 24의 누출 라우팅은 공지된 기술이지만 특정 경로는 아님"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 26의 센서 배치는 액체 감지 분야에서 공지된 기술"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 32의 자동 검증은 공지된 기술이지만 특정 구현은 아님"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 clearly discloses all elements of claim 17."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2011315611-A1 implicitly discloses external storage tank, but combination motivation requires some interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011315237-A1이 청구항 17, 18, 20의 모든 요소를 명확히 개시함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011315237-A1 기반으로 결합 동기가 논리적이지만, 일부 요소는 예측 가능한 변형에 해당할 수 있음"
+        }
+      ]
+    }
+  ]
+}

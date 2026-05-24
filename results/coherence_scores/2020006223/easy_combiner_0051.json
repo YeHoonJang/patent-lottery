@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR framework for §103, explicitly identifying scope and content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation to combine across all claim rejections."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection cites specific prior art references (US-2013227111-A1 and US-2013272121-A1) and maps specific claim elements to specific disclosures in those references (e.g., queue occupancy to buffer depth, read/write metrics to client metrics)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds most claims non-novel by treating combinations of two references as anticipating (e.g., claim 1 lists two anticipating refs), conflating anticipation with obviousness, but the §103 stage then re-rejects the same claims under §103 without reconciling this inconsistency or explaining why the §102 rejection was dropped."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With combination_threshold of 0.329 (easy combiner) and strictness of 0.502 (moderate), the examiner accepts weak motivations to combine (e.g., 'design choice,' 'standard configurable resources') and rejects all claims including borderline claim 12, consistent with an easy-combiner profile at moderate strictness."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims under §103 flows directly from the obviousness analyses conducted at each stage, with the final decision weighing section explicitly referencing each claim group's strength and acknowledging claim 12 as the weakest but still within rejection threshold."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 23443,
+      "output_tokens": 407,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

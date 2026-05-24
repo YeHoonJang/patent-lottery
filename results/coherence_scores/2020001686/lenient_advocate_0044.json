@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently invokes Graham factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) and KSR-style motivation-to-combine reasoning throughout the novelty, obviousness, office action, and final decision stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection specifically cites US-2018113244-A1 and references particular disclosed elements (e.g., 'forward-deflecting or forward-scattering light extraction elements,' 'light scattering particles disposed within a medium') mapped against specific claim limitations."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds most claims not novel under §102 (citing the same single reference US-2018113244-A1), yet the office action issues only §103 rejections without explaining the transition from anticipation findings to obviousness rejections, creating an unexplained contradiction between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient_advocate profile (strictness=0.248) is clearly reflected in the final decision, which softens the strong rejections from earlier stages into 'amend_suggested' outcomes and explicitly notes in the summary that strictness=0.25 warrants giving the applicant an amendment opportunity rather than a flat rejection."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' follows logically from the accumulated analysis: the examiner found moderate §103 strength, acknowledged some technical contribution in multi-layer structures, and consistently concluded that amendments clarifying functional advantages could overcome the rejections—consistent with the prior-stage findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001686",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15554,
+      "output_tokens": 392,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

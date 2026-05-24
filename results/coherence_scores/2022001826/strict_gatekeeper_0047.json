@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation analysis under §102 for claims 1, 8, 14, 18, 19, applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 across all obviousness analyses, and raises §112(b) indefiniteness for the grammatical error in claims 6 and 16 — each statute is matched to the appropriate legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the trace, conclusions are tied to specific claim language (e.g., 'identifying fields pre-tagged as private,' 'dynamically redacting private data,' 'delivering the redacted user session for display') and to specific passages in US-2013167249-A1, with explicit element-by-element mapping at both §102 and §103 stages."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis for claims found novel at §102 (e.g., claims 2–7, 9–13, 15–17, 20) builds on the §102 findings by acknowledging the prior art gap and then providing additional motivation-to-combine rationale (e.g., GUI layer design, ad monetization), without contradicting the novelty determinations; claims found lacking novelty at §102 are also rejected under §103 in the alternative, which is consistent practice."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.818 is directly acknowledged in the final decision summary ('심사관의 엄격한 성향(strictness=0.82) 하에 보정 없이도 거절 유지가 타당함'), and the analysis consistently resolves ambiguous features (context-based identification, cloud SaaS, business models) toward rejection with only minimal countervailing evidence tolerated, consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final reject decision flows directly from the accumulated stage findings: claims with §102 anticipation are carried through to §103 in the alternative, the §112 indefiniteness for claims 6/16 is flagged and maintained, only claim 2 (and dependents sharing its novel layer feature) are suggested for allowance after amendment, and no stage conclusion is reversed without explanation."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001826",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17779,
+      "output_tokens": 560,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

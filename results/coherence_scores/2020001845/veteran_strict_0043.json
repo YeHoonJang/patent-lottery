@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies the correct legal frameworks: §102 element-by-element anticipation analysis for novelty, Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) explicitly invoked for every §103 obviousness determination, and specification-support/possession analysis for §112 written description rejections of claims 12 and 14."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (e.g., US-2014213070-A1, US-2014356549-A1, US-2015303056-A1, US-2018358220-A1) with element-by-element comparisons to specific claim language (e.g., plasma power ranges 50W–1000W vs. <300W, temperature ranges 0–400°C vs. <100°C, specific precursor formulas SiₓHᵧ x≥2), and §112 rejections reference specific claim compositions and specification deficiencies."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage is fully consistent with the §102 novelty findings — claims found not novel under §102 are also rejected under §103 with additional Graham factor analysis, while claims 7 and 16 found novel under §102 are also found non-obvious under §103 and allowed, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's high strictness (0.875) and low combination threshold (0.344) are consistently reflected throughout: ambiguous overlapping ranges (e.g., sub-ranges of temperature, power) are resolved toward rejection, weak motivation to combine is accepted readily (e.g., claim 2's remote vs. direct plasma treated as obvious variant), and only two claims with genuinely novel features (claims 7 and 16) are allowed."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject the application (with grants only for claims 7 and 16) directly follows from the accumulated stage analyses, which consistently found anticipation or obviousness for all other claims while finding genuine novelty for claims 7 and 16, with the final decision explicitly summarizing these grounds without reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001845",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17004,
+      "output_tokens": 538,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

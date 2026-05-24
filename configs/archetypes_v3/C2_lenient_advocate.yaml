@@ -1,0 +1,24 @@
+archetype_name: lenient_advocate
+archetype_type: composite
+description: >
+  Composite archetype representing a lenient, innovation-supporting examiner. Low
+  strictness with narrow BRI (favoring applicant), high combination threshold
+  (requiring explicit teaching for §103), moderate seniority, moderate specialization.
+  Represents the documented lenient end. [Farre-Mensa 2020]
+base_profile:
+  strictness: 0.30
+  claim_breadth: 0.35
+  combination_threshold: 0.70
+  seniority: 0.40
+  tech_specialization: 0.60
+  policy_stance: 0.50
+  legal_style: purposivist
+  tech_domains:
+    - general
+noise_config:
+  strictness: 0.05
+  claim_breadth: 0.05
+  combination_threshold: 0.05
+  seniority: 0.05
+  tech_specialization: 0.05
+  policy_stance: 0.02

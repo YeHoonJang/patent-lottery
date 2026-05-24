@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis correctly applies Graham factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) and KSR-style motivation-to-combine analysis for each claim, and §102 uses element-by-element comparison against the cited reference."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim's novelty and obviousness analysis references specific claim language (e.g., 'history data representing previous branch behaviour of a following block'), specific prior art disclosures (US-2013339693-A1's search trackers, miss correlation mechanism, two-level BTB), and contrasts them with the claimed limitations."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis builds consistently on the §102 findings—where §102 found no anticipation due to the miss-correlation vs. history-data distinction, the §103 analysis maintains that same distinction as the basis for no motivation to combine, without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.502 (moderate) and combination_threshold=0.329 (easy combiner), yet finds no motivation to combine across all 16 claims and grants all of them; this is somewhat generous but consistent with a moderate-strictness examiner where the single prior art reference genuinely lacks the key teaching, and the final decision notes that weak obviousness evidence favors the applicant under a 0.50 strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision follows directly and consistently from the stage-level analyses, which uniformly found no anticipation and no obviousness across all 16 claims, with the office action and final decision both citing the same core distinction regarding history-data-based prediction suppression."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018002380",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9932,
+      "output_tokens": 422,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

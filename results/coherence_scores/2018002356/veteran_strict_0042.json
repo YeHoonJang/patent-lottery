@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §103 Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for obviousness rejections and invokes §112 written description/enablement framework for claims 13, 22, 36, 42, 44, 45—each statute is used appropriately for its respective rejection type."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently cite specific claim language (e.g., 'transaction identification,' 'basic transaction information,' 'user selected shipping details') and reference specific disclosures in US-2012296725-A1 (e.g., 'preferred payment options,' 'product scan data,' 'machine-readable tag on physical objects or projected images') across all stages."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings—claims found novel (4, 6, 8) at §102 are then analyzed under §103 with some found obvious (claim 4) and others non-obvious (claims 6, 8), without contradicting earlier weak-overlap findings without rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.793 and combination_threshold=0.335, the examiner resolves ambiguities toward rejection (e.g., QR code treated as obvious substitution despite no explicit disclosure, confidence 0.85), maintains rejections on borderline claims, and only allows claims 6 and 8 where prior art clearly lacks the feature—consistent with a strict examiner who accepts weaker motivation to combine."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated stage analyses: claims with strong §103 overlap are rejected, claims 6 and 8 are identified as allowable subject matter (consistent with obviousness stage findings of non-obvious), and §112 rejections mirror the office action's identification of technical contradictions and indefinite terminology."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018002356",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15056,
+      "output_tokens": 476,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

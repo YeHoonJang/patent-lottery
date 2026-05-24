@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR framework for §103, explicitly identifying scope and content of prior art, differences, PHOSITA level, and secondary considerations for each claim, without conflating it with §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each obviousness rejection cites US-2018113244-A1 by name, identifies specific claim elements (e.g., white marking material, ink/toner, multi-layer structure, non-smooth surface for TIR frustration), and explains how those elements relate to the prior art disclosure."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The novelty stage finds all claims novel over US-2018113244-A1, and the obviousness stage then consistently rejects those same claims under §103 with additional rationale (common general knowledge, routine material substitution, design choices), which is a legally coherent progression without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a combination_threshold of 0.329 (easy combiner), the examiner freely relies on 'common general knowledge' and 'routine design choices' as motivation to combine even without a second explicit reference, and with strictness of 0.502 the moderate weighing in the final decision (decision_score 0.4, noting rejections are 'plausible but not compellingly strong') is consistent with a mid-range strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision directly follows from the accumulated §103 analyses across all stages, with the summary and claim-level decisions explicitly referencing the same reasoning established in the obviousness and office action stages without reversal or unexplained departure."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001686",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10600,
+      "output_tokens": 409,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

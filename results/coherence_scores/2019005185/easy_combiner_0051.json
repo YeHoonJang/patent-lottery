@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102, Graham/KSR factors (scope, differences, PHOSITA level, secondary considerations) under §103, and claim-specification support under §112, each invoked at the appropriate stage."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific claim language (e.g., poloxamer 407 concentration ranges, specific API names), references specific prior art claims and paragraphs of US-2013116210-A1, and the §112 rejection identifies the specific problematic phrase 'Other antiviral agents include' in claim 13."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found novel at the §102 stage (8, 10, 12, 15) are then subjected to §103 obviousness analysis rather than being dropped or contradictorily re-anticipated, and claims found anticipated at §102 are not separately subjected to redundant §103 analysis, maintaining consistent progression across stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a low combination_threshold (0.329) and moderate strictness (0.502), consistent with readily finding motivation to combine and accepting weak rationale for obviousness (e.g., 'routine optimization,' 'clinical necessity') throughout the §103 analyses, while still allowing novelty for concentration-specific claims before finding them obvious."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated stage analyses: §102 rejections map to claims found not novel, §103 rejections map to claims found novel but obvious, and the §112 rejection for claim 13 was raised in the office action, with no reversal of prior-stage findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005185",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16596,
+      "output_tokens": 418,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "case_id": "2015004233",
+  "proceeding_number": "2015004233",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1이 청구항 2-16의 모든 구성요소를 개시하며, 청구항의 신규성이 명백히 결여됨"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1이 청구항 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16의 모든 구성요소를 명확하게 개시하며, 유사도 점수가 0.68 이상으로 신규성을 부정하는 강한 증거가 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1이 청구항 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16의 구성요소를 개시하고, 해당 분야에서 공지된 기술로 뼈 이동 장치의 적용 분야 변경은 자명한 변형으로 결합 동기가 명확함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 10의 회전 범위에 대한 명세서 기재가 모호하지만, 뼈 표면 형상에 따라 이동하는 일반적인 설명은 제공됨. 명확성 기준을 충족하지 못하나, 개정을 통해 명확히 할 수 있는 가능성 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1이 대부분의 청구항의 구성요소를 포함하고 있으며, 유사한 기술적 원리가 다른 해부학적 부위(두경부 대 하악)에 적용되었다는 점에서 결합 동기가 명확하다. 다만, 청구항의 구체적 구성 요소들이 선행기술과 완전히 동일하지 않으며, 일부 청구항의 confidence 점수가 낮아 해석의 여지가 있다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1이 청구항의 핵심 요소들을 대부분 공개하고 있으나, 신규성 판단에서 일부 청구항(예: 6,7,13,14)의 confidence가 0.625-0.65 수준으로 약간 낮은 편입니다. 진보성 판단에서도 결합 동기의 명확성에 따라 강도가 달라집니다. 출원인의 기술적 기여가 인정된다면 보정을 제안할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2012239035-A1 discloses a mandibular distractor with linear distraction and multi-directional bone mounts. The adaptation of this mechanism for cranial use is deemed obvious because the anatomical need for multi-directional movement in cranial applications is analogous to mandibular distraction. The prior art's teaching of multi-directional movement in bone distractors provides a clear motivation to modify the device for cranial applications, satisfying the combination rationale under KSR. This constitutes a predictable application of known elements to solve a similar problem."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection is based on a single prior art reference (US-2012239035-A1) that discloses the core elements of the cranial distractor. The reasoning provides a clear motivation to combine the teachings for cranial applications, and the differences are characterized as simple design choices. The high confidence level (0.85) across all claims further supports the strength of this rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art US-2012239035-A1 explicitly teaches or suggests all essential elements of the claims, including bone mounts, threaded drive mechanisms, sleeve configurations, and ball/socket connectors. The combination threshold (0.55) is exceeded by the confidence scores (0.67-0.75), and the reasoning emphasizes conventional design choices with clear motivation for PHOSITA to combine. No secondary considerations challenge obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2012239035-A1) provides a clear teaching of a mandibular distractor with linear movement and multi-directional connectors. The adaptation to cranial use with ball and socket connectors is supported by the problem statement in the application and the PHOSITA's knowledge of routine design choices for curved bone surfaces. The confidence scores for 103 rejections (0.7375-0.875) exceed the combination_threshold (0.22) and align with the strictness (0.46), indicating strong evidence of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection is based on US-2012239035-A1 which explicitly discloses many of the claimed features or their obvious variants. The motivation to combine is clear - applying known mandibular distractor principles to cranial applications. The similarity scores (0.6-0.85) indicate substantial overlap between the prior art and the claims. The confidence levels (0.6-0.78) for most claims are above the threshold for a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1이 청구항의 대부분을 개시하거나 자명하게 만드는 것으로 판단되나, 적용 부위(턱 vs 두개골)의 차이가 단순 설계 선택으로 간주되는 점에서 일부 해석의 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2012239035-A1 discloses a mandibular distractor with a linear distraction mechanism, bone mounts with hinged attachments, and a screw drive mechanism. The differences between the prior art and the claimed invention are that the prior art is for a mandibular distractor while the claims are for a cranial distractor. A person having ordinary skill in the art would have been motivated to combine the elements from the '35 patent application with the cranial distractor to achieve the predictable result of providing a cranial distractor with multi-directional movement capabilities. The confidence levels for the rejections range from 0.6 to 0.75, indicating strong evidence for the obviousness rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The cited prior art reference US-2012239035-A1 is provided and appears to disclose the relevant features of the cranial distractor. The reasoning explains how the differences in application and connector types are considered design choices within the scope of the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    }
+  ]
+}

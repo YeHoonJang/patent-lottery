@@ -1,0 +1,413 @@
+{
+  "case_id": "2020000426",
+  "proceeding_number": "2020000426",
+  "gt_issues": [
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            13,
+            14,
+            16,
+            17,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012250378-A1과 US-2015311795-A1의 결합이 청구항의 핵심 기능을 공개하거나 시사함. 결합 동기는 효율성 최적화라는 공지된 목적에 기반하며, 차이점은 통상의 기술자가 쉽게 도출할 수 있는 설계 선택임. confidence 점수(0.75-0.85)와 strictness(0.79)를 고려할 때, 근거 강도는 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            12,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 threshold 비율에 대한 구체적 수치를 공개하지 않지만, 50%와 75%와 같은 비율은 burst mode 제어에서 효율성을 최적화하기 위한 통상의 설계 선택임. 그러나 특정 비율의 선택이 자명하다고 단정하기에는 해석의 여지가 있음. confidence 점수(0.7)는 moderate 강도를 지지함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1이 'off-time'을 명시적으로 정의하며, 청구항의 모든 요소를 공개함. confidence 점수(0.95)는 근거 강도가 매우 강함을 나타냄."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012250378-A1과 US-2015311795-A1의 결합은 청구항 1-19의 주요 특징을 포괄적으로 개시하고 있습니다. 특히, burst mode 제어, 전류 임계값 기반 off-time 조정, 반복적인 off-time 증가/감소, 조건부 로직, 구체적인 임계값 설정, 구성 요소 조합 등 모든 요소가 선행기술에서 예측 가능하게 결합될 수 있습니다. 결합 동기(motivation to combine)도 명확하며, 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 설계 선택으로 판단됩니다. confidence 값도 대부분 0.7 이상으로 높습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서 및 도면에서 'peak detector', 'up/down counter', 'control logic' 등의 구성 요소에 대한 충분한 설명이 부족합니다. 그러나 이는 보정을 통해 해결 가능한 문제로, 거절의 직접적인 근거로는 약합니다. 다만, 청구항 8과 19의 경우, 명세서의 뒷받침이 불충분하여 112 거절의 가능성이 있습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "청구항 3, 4, 8, 11, 12, 17, 18, 19는 신규성 측면에서 일부 인정되지만, 진보성 판단에서 비자명성이 부정되었습니다. 신규성만으로는 특허성을 인정하기 어렵습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 신규성 인정(confidence ≥ 0.75). 선행기술과의 차별성이 명확하며, 혁신 지원형 심사 철학에 따라 신규성 근거는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 진보성 인정(confidence ≥ 0.7). 선행기술의 결합 동기가 불분명하며, 통상의 기술자가 쉽게 도출할 수 없는 기술적 진보가 존재. combination_threshold(0.68) 초과하지만, 혁신 지원형 심사 철학에 따라 진보성 근거는 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서와 도면의 설명이 충분하나, 도면의 세부 주석 부족으로 형식적 보완 필요. 단, 청구항의 명확성과 실현 가능성은 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1이 'burst-off period'를 명시적으로 개시하며, 이는 청구항 7과 15의 'off-time' 정의와 동일함. 선행기술과의 일치성이 명확하여 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 'burst-off period'와 청구항의 'off-time' 정의가 기능적으로 동일하지만, 결합 동기가 설계 선택 수준인지 여부에 대한 해석의 여지가 있음. 그러나 통상의 기술자가 쉽게 도출할 수 있는 수준으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2012250378-A1 and US-2015311795-A1 provides clear and convincing evidence that the claimed invention is obvious. Both references disclose burst mode control and threshold-based adjustments, and their combination is a routine design choice for a person of ordinary skill in the art. The motivation to combine is well-supported, and the differences are minimal, involving standard optimizations. Confidence levels for the rejections are high (0.78-0.86), and the strictness threshold (0.89) supports maintaining the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 5, 6, 7, 9, 13, 14, 15, and 16 are supported by clear evidence from US-2012250378-A1 and US-2015311795-A1. The combination of these references provides a logical motivation to combine for improving burst mode control efficiency. The iterative adjustment of off-time and the definition of off-time are explicitly disclosed or would have been obvious to a PHOSITA. Primary-side monitoring is considered a design choice and does not rise to the level of an inventive step."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012250378-A1이 청구항 7과 15의 'off-time' 정의를 명시적으로 개시하고 있어, 신규성 부정 근거가 명확함. 증거의 강도가 높으며, strictness=0.47에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012250378-A1과 US-2015311795-A1의 결합을 통해 청구항의 차이점이 통상의 기술자가 쉽게 도출할 수 있는 설계 선택으로 판단되었으나, 구체적인 임계값 설정(50%, 75%) 및 조건부 제어 로직의 결합 동기가 명확하지 않을 수 있음. combination_threshold=0.55에 따라 결합 동기가 인정되지만, 청구항의 기술적 세부사항이 통상의 기술자에게 자명하지 않을 가능성 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1 (REF1)이 버스트-오프 기간을 스위칭이 발생하지 않는 기간으로 명시적으로 정의하고 있어, 청구항 7과 15의 '오프타임' 정의와 직접적으로 대응됨. 단일 문헌이 모든 구성요소를 개시하고 있어 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "REF1의 버스트-오프 기간 개념을 LLC 컨버터의 '오프타임'으로 적용하는 것은 설계 선택의 범주에 속할 수 있으나, combination_threshold=0.22 하에서 결합 동기가 인정됨. 그러나 청구항의 나머지 특징(1차 측 전류 모니터링 등)과의 연관성이 없으므로, 103 거절은 부분적으로만 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7 and 15 are explicitly anticipated by US-2012250378-A1, which discloses the 'off-time' feature in a burst mode controller for an LLC converter. The reasoning provided is clear, and the evidence aligns with the claims' recitations. No novel or non-obvious distinction exists for these claims."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1이 'off-time'을 burst mode 동안 스위칭이 발생하지 않는 기간으로 명시적으로 개시하고 있으며, 이는 청구항 7과 15의 정의와 실질적으로 동일함. 증거가 명확하여 거절 근거로 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012250378-A1이 burst mode에서의 'off-time' 개념을 개시하고 있으나, LLC 컨버터의 구체적 맥락으로의 적용은 명시되지 않음. 결합 동기는 논리적이지만, 통상의 기술자가 자연스럽게 도출할 수 있는지는 해석의 여지가 있음. strictness=0.52에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012250378-A1과 US-2015311795-A1의 결합은 LLC 컨버터의 1차 측 전류 모니터링 및 임계값 기반 오프타임 조절에 대한 동기를 제공하지만, 구체적인 조합(예: 반복적인 오프타임 조절, 조건부 임계값 설정)은 명시되지 않았음. 그러나 통상의 기술자가 쉽게 도출할 수 있는 설계 선택으로 판단되며, combination_threshold=0.52를 충족함. strictness=0.42에 따라 근거의 강도는 moderate로 평가되지만, 진보성 부정에 대한 증거는 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012250378-A1이 burst-off 기간 동안 스위칭이 발생하지 않는 off-time을 명시적으로 개시하여 청구항 7과 15의 'off-time' 정의를 직접적으로 공개함. 증거가 명확하여 거절 근거로 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012250378-A1이 burst mode 운영 시 off-time의 개념을 공개하고 있으나, LLC 컨버터에 구체적으로 적용하는 동기가 명확하지 않음. 그러나 해당 분야의 공지 기술에 기반한 결합 가능성은 존재하며, combination_threshold=0.48을 고려할 때 근거로 유지할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2012250378-A1 and US-2015311795-A1 provides clear motivation and teaching for the claimed features in Claims 1, 5, 6, 8, 9, 13, 14, 16, and 19. The differences are minor and would have been predictable design choices for a PHOSITA. The confidence levels (0.7-0.75) and detailed Graham factors analysis support a strong rejection basis."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner applies Graham/KSR §103 factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) consistently throughout the novelty, obviousness, office action, and final decision stages, using the correct legal framework for each statute invoked."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection references specific prior art (US-2012244905-A1, US-2011281615-A1), cites specific claim language and elements (e.g., lateNonCriticalExtension, MeasResultEUTRA/UTRA, FGI, maxMultiBands), and maps those elements to specific disclosures in the cited references."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found novel at §102 (e.g., claims 3, 4, 9, 10, 14–17) are then subjected to §103 analysis with additional rationale (e.g., 3GPP standard practices, known design patterns), without contradicting earlier novelty findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner consistently resolves ambiguity toward rejection—even for claims with arguable non-obviousness (e.g., lateNonCriticalExtension, FGI usage) the examiner rejects them by invoking 3GPP standard practices, and the final decision explicitly references the strictness parameter as justification for overriding weak non-obviousness arguments."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all 24 claims follows directly from the accumulated §103 findings across both the obviousness stage and office action, with the summary explicitly tying the decision to the stage-level analyses and the examiner's strict posture."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017006947",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17524,
+      "output_tokens": 434,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

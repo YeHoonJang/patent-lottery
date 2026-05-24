@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently invokes Graham factors (scope/content, differences, PHOSITA level, secondary considerations) across all claim analyses, and the office action explicitly quotes pre-AIA §103(a), using the correct legal framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection references specific prior art (US-2014180802-A1, US-2013179495-A1) with citations to specific disclosed features (e.g., 'target definition data,' 'transaction receipts,' 'security keyword-based metadata'), and claim-specific language is mapped to prior art disclosures."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims 4, 7, 16, and 18 were found novel at §102 but are then found obvious at §103 with added rationale (e.g., SKU codes are standard in retail; APIs are standard communication mechanisms), providing justification for the escalation rather than contradicting the earlier findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has combination_threshold=0.222 (very low), consistent with the 'easy_combiner' archetype, and the trace explicitly notes this in the motivation to combine for claim 1 ('combination_threshold=0.22이므로, 명확한 동기 없이도 결합 가능'), accepting weak motivations to combine throughout; strictness=0.461 (moderate) is reflected in the nuanced treatment of SKU/API claims before ultimately rejecting them."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102/§103 stage analyses showing strong obviousness findings for most claims and moderate findings for SKU/API claims, with the summary explicitly tying the decision to the prior stage conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005829",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 21191,
+      "output_tokens": 438,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

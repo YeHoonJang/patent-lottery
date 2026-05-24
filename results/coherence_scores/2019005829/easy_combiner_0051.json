@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis (mapping claim elements to prior art disclosures) and §112 written description/enablement framework, with no misapplication of statutes (e.g., no Alice/Mayo reasoning injected into §103 or §102)."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the novelty, office action, and final decision stages consistently reference specific claim language (e.g., 'SKU or merchant codes,' 'real time,' 'API calls') and specific prior art disclosures (US-2014180802-A1 'target definition data,' 'logic modules'; US-2013179495-A1 metadata fields)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §103 obviousness stage produced no substantive analysis (all defaulted to 'LLM unavailable — default to non-obvious'), yet the office action and final decision still reject all claims without acknowledging this gap or using §103 as a fallback for claims found novel at §102, creating an internal inconsistency where claims 4, 7, 12, 16, 18, 23 found novel at §102 are rejected only under §112 with no §103 treatment despite the easy_combiner profile."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.502) and easy-combiner profile (combination_threshold 0.329) is reflected in the §102 stage accepting weaker analogies (e.g., file location metadata mapped to geographic location) and in the final decision rejecting broadly with moderate-to-strong confidence, consistent with a pragmatist who leans toward rejection on ambiguous overlaps."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated stage analyses: §102 rejections are grounded in the novelty findings, §112 rejections address gaps identified in the novelty stage for claims found novel (SKU processing, API details), and the §103 weakness is explicitly acknowledged rather than used to flip the outcome."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005829",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13469,
+      "output_tokens": 499,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

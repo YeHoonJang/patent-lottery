@@ -1,0 +1,25 @@
+archetype_name: persona_strict
+archetype_type: persona_baseline
+orthogonal_dimension: none
+description: >
+  Naive persona baseline: strict examiner. One-line persona only,
+  all skill parameters at 0.50 neutral. Tests whether persona label
+  alone produces structured diversity.
+persona_label: "You are a very strict patent examiner who tends to reject applications."
+base_profile:
+  strictness: 0.50
+  claim_breadth: 0.50
+  combination_threshold: 0.50
+  seniority: 0.50
+  tech_specialization: 0.50
+  policy_stance: 0.50
+  legal_style: pragmatist
+  tech_domains:
+    - general
+noise_config:
+  strictness: 0.05
+  claim_breadth: 0.05
+  combination_threshold: 0.05
+  seniority: 0.05
+  tech_specialization: 0.05
+  policy_stance: 0.02

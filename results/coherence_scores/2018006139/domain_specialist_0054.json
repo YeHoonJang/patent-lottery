@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation under §102 (novelty stage), Graham/KSR factors explicitly for §103 (obviousness stage with scope_and_content, differences, PHOSITA level, secondary considerations), and written description/enablement requirements for §112, all under the correct statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'visual presentation,' 'first type/second type,' '1D/2D'), specific prior art disclosures (US-2013321456-A1's geometric primitive threshold, hybrid map rendering; US-2016247051-A1's text/graphics/image object classification), and specific specification passages (HTML vs. HTML5 engine distinction)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a notable inconsistency: the novelty stage finds claims 1, 3, 6, 7, 8, 10 not novel (anticipated), yet the obviousness stage finds these same claims not obvious, and the office action then rejects them under §102—but the final decision rejects all claims under §103 obviousness (including claims 1, 3, 6, 7 which were found anticipated), creating a contradiction between the §102 novelty findings and the final decision's primary basis of §103 for those claims without adequate reconciliation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.523) and moderate combination threshold (0.48) are reflected in the nuanced approach—some claims (1, 3, 7, 8, 10) are found non-obvious while others (2, 4, 5, 6, 9) are found obvious, consistent with a balanced examiner who does not reflexively reject or allow everything, and the §112 rejection is maintained strongly where specification support is genuinely weak."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision rejects all claims primarily on §103 obviousness grounds, even for claims 1, 3, 6, 7, 8, 10 that the obviousness stage explicitly found NOT obvious (confidence 0.65–0.75), reversing those stage-level non-obviousness conclusions without providing new or sufficient justification for the reversal."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2018006139",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11390,
+      "output_tokens": 553,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

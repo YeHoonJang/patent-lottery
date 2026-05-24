@@ -1,0 +1,316 @@
+{
+  "case_id": "2021001436",
+  "proceeding_number": "2021001436",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016183779-A1 및 US-2015241686-A1에서 이미지 수집, 정렬, 중첩 기술이 명확히 개시되어 있으며, 조합 동기가 명확히 제시됨"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016183779-A1 및 US-2015241686-A1에서 대부분의 청구항 기술이 직접적으로 개시되어 있으며, 신규성이 명백히 결여됨"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016183779-A1과 US-2015241686-A1이 청구항의 주요 기능을 개별적으로 또는 결합하여 개시하고 있으나, 일부 청구항(예: 8, 42 등)에 대한 결합 동기의 명확성과 기술적 구현의 차이가 존재하여 근거 강도가 중간 수준"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejection is based on multiple claims with high confidence scores (0.85 to 0.9) and clear motivation to combine references. The cited references US-2016183779-A1 and US-2015241686-A1 together disclose the essential elements of the claimed invention, and the additional features are considered minor variations or straightforward applications of known techniques."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016183779-A1 및 US-2015241686-A1이 제공되었으며, 청구항의 기능적 특징들이 선행기술에 개시된 기술의 변형 또는 조합으로서 진보성이 부정될 수 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejections are based on well-documented prior art combinations with clear motivation to combine. The references US-2016183779-A1 and US-2015241686-A1 explicitly disclose the core image processing techniques claimed, and the combination would have been obvious to a person having ordinary skill in the art with predictable results."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections for claims 8, 41, 42, and 43 are based on well-known techniques in image processing and microscopy, but the confidence levels are relatively low (0.5 to 0.6). While the motivation to combine is reasonable, the novelty of these features could be debated, especially given the confidence scores below 0.7."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejections are based on the lack of specific definitions for terms like 'positioned according to the region' and 'automated fashion.' While this is a valid concern, the confidence in these rejections is not absolute, and the specification may provide sufficient context for a PHOSITA to understand the claimed inventions."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The cited prior art references US-2016183779-A1 and US-2015241686-A1 explicitly disclose all the claimed features including overlaying high magnification images on low magnification images based on regions of interest, collecting additional magnified images, aligning images to form contiguous images, and enabling user selection of magnified images. These features are directly disclosed in the prior art, demonstrating a clear lack of novelty in the claimed subject matter."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 and US-2015241686-A1 together disclose all the claimed elements with clear motivation to combine. The combination would have been obvious to a person having ordinary skill in the art for the reasons detailed in the analysis."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 16 and 17 are directly invalid due to dependency on canceled claim 11, which violates the written description requirement."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016183779-A1과 US-2015241686-A1이 청구항의 핵심 기능(이미지 오버레이, 정렬, 시스템 구성)을 명확히 개시하고 있으며, 결합 동기가 명확히 제시됨. confidence 점수도 0.7 이상으로 높은 수준"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims are clearly anticipated by the cited prior art references, with high confidence scores (0.85-0.9) indicating strong evidence of anticipation. The prior art explicitly teaches the claimed methods and systems for image capture, alignment, and overlay."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 16, 17, and 18 reference canceled claim 11, creating a dependency issue. While the claims themselves are definite, the reference to a canceled claim is problematic and requires amendment to correct the dependency."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claim 1 is based on a combination of references, but the confidence (0.65) is moderate. The Graham factors indicate the specific overlay method is not suggested by prior art, aligning with strictness=0.52 to maintain the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016183779-A1의 고배율 오버레이 기술과 US-2015241686-A1의 이미지 정합 기술이 결합 시 청구항 1의 구성요소를 충분히 예측 가능하게 하지만, 결합 동기와 구현 방식에 대한 구체적인 설명이 부족합니다. 청구항의 특정한 '원래 영역 기반 오버레이' 기술은 선행기술에서 명시적으로 제시되지 않았으며, 해당 분야의 통상 기술자에게 자명한 변형으로 보기 어렵습니다."
+        }
+      ]
+    }
+  ]
+}

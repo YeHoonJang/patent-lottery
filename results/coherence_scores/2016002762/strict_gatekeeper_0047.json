@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis correctly invokes Graham factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) and KSR-style motivation-to-combine reasoning under §103, and the §102 stage correctly performs element-by-element anticipation analysis."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim elements (e.g., 'identifying insignificant circuit element,' 'removing that element,' 'manufacturing step'), specific prior art (US-2014137069-A1, Claims 21 and 24), and specific disclosures (cutoff frequency, Q-factor adjustments)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 stage finds novelty due to missing elements in the prior art, and the §103 stage then builds on that finding by articulating why those same missing elements (insignificant element removal, manufacturing step) would nonetheless be obvious—there is no contradiction and the transition is explicitly justified."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.818, and consistently resolves ambiguity toward rejection throughout—acknowledging the prior art does not explicitly disclose key elements but still rejecting under §103, and noting absence of secondary considerations, which is consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision directly follows from the moderate-strength §103 finding accumulated across the obviousness, office action, and weighing stages, with the summary explicitly restating the rationale rather than reversing any prior-stage conclusion."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2016002762",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 3803,
+      "output_tokens": 383,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "case_id": "2019006408",
+  "proceeding_number": "2019006408",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 6-10 show clear overlap with prior art (Ref1/Ref3) and combination motivations are explicitly supported by Graham factors. Confidence scores (0.75-0.85) exceed strictness threshold, and single prior art references suffice for obviousness under high strictness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3,4,5 are directly anticipated by prior art with coverage scores >0.79. Confident overlap of all claim elements with Ref1/Ref2/Ref3 meets strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Objections involve vague terms (e.g., 'substantially along same direction') but lack explicit specification deficiencies. Moderate evidence of insufficiency, but not as strong as 102/103 rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Three prior art references explicitly disclose overlapping components (porous metal foam with carbon nanotubes, wrinkled structures via layer shrinking, carbon nanotube array transfer methods) and provide clear motivation for combination (improving mechanical properties). The combination threshold of 0.34 is met with explicit technical rationale."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All rejected claims (3-10) have coverage scores below 0.88 and are explicitly anticipated by prior art references. The confidence levels (0.7-0.78) indicate reliable anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims lack specific implementation details (e.g., 'substantially along a same direction', 'bonding material') not disclosed in the specification. However, the specification absence is not explicitly confirmed in the input."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 청구항 1의 모든 구성요소를 명확히 포함하고 있으며, 결합 동기와 기술적 수정이 명시적으로 제시됨. Graham 요인에 따르면 PHOSITA가 기술적 수정을 당연히 인식할 수 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'shrinking process'와 'interconnected wrinkled parts'에 대한 명세서의 설명이 부족하여 구체성 문제가 있음. 그러나 발명의 목적과 기술적 기여를 고려할 때 보정이 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims (3,4,5,7) are explicitly anticipated by prior art with high coverage scores (0.75-0.85), meeting the strict 102 standard."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 6,8,9,10 show combination thresholds met (0.72-0.80), but involve material substitutions/alignment techniques that may require more nuanced analysis under purposivist interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3-4 overlap with prior art's layer separation/compression methods, but the 'continuous structure' and 'wrinkled parts' phrasing may allow for narrower interpretation under BRI guidelines."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple prior art references explicitly disclose all claimed elements and their combination is straightforward for PHOSITA, with high confidence scores (0.75-0.9) and clear Graham factors analysis."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 구체적 기술이 청구항의 구성요소를 명확히 포함하며, 결합 동기(전도성 향상)가 명확하여 고도의 당업자에게 자명한 변형으로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서가 특정 방법론(예: 금속 재료 선택, 접착제 사용)을 명시하지 않아 기재요건 미충족 가능성 있음. 다만, 청구항 자체의 모호성은 제한적임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "High confidence scores (0.65-0.85) and clear combination rationale with prior art references demonstrate strong obviousness. Graham factors confirm PHOSITA would combine teachings for claimed features."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'substantially along the same direction' and 'ligaments' lack specific definitions in the specification, but the ambiguity is explicitly confirmed by verification notes."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art references (US-2017145561-A1 and US-2016159651-A1) disclose relevant teachings, and the combination is supported by Graham factors. However, the confidence score (0.7) and moderate overlap suggest the combination is plausible but not definitively obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2017145561-A1, US-2016159651-A1) directly overlaps with claims 3-10 via similarity scores (0.7-0.9). While combination motivation is clear, the claims' specific features (e.g., 'substantially along a same direction') are not sufficiently distinct from prior art, leading to moderate confidence in obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Indefinite terms like 'substantially along a same direction' lack specific support in the specification. However, the verification note indicates this requires specification review, not definitive rejection without additional evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references (US-2017232725-A1, US-2016159651-A1) explicitly disclose relevant techniques for wrinkled metal layers and carbon nanotube arrays. The combination is supported by clear motivation (enhancing mechanical conductivity) and Graham factors confirm a PHOSITA would logically integrate these teachings. Confidence score of 0.85 indicates strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Clear combination of US-2017145561-A1 and US-2016159651-A1 with explicit motivation for directional alignment and structural connectivity"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references provide direct technical foundation for combining layer separation and compression techniques"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguous terms ('envelop', 'configured to fix') lack quantitative definitions but specification deficiencies are evident"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Generic 'arranged along same direction' lacks implementation details, but specification limitations are clear"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Bonding material specifics are missing, but enablement issues are substantiated by specification gaps"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3's same-direction alignment is deemed an obvious variant of prior art (US-2016159651-A1) with similarity score 0.65. While the prior art explicitly describes end-to-end joining, the claimed feature is a predictable modification within the same technical field, but the evidence is not definitive."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "다수의 청구항에 대해 선행기술의 결합 동기와 기술적 동기가 명확히 제시되어 있으며, confidence 값이 0.7 이상으로 강력한 근거가 있음"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 10에 대한 US-2016159651-A1의 명시적 포함 증거와 confidence 0.93으로 강력한 근거 있음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "기술적 용어의 지원 부족이 명확하지만, 명세서 부족으로 완전한 거절 근거가 아님"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all claimed elements and their combination is directly supported by Graham factors (scope, motivation, PHOSITA knowledge). Confidence scores (0.65-0.85) exceed strictness threshold, indicating clear anticipation and obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks specific details for 'substantially along a same direction' and 'connected to form continuous structure', creating ambiguity. However, the deficiency is not severe enough to meet strictness threshold for full rejection."
+        }
+      ]
+    }
+  ]
+}

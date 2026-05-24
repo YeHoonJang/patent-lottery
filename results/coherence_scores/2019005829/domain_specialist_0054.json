@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) across all claims, and the office action explicitly invokes 35 U.S.C. § 103(a) with the correct legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection is tied to specific prior art references (US-2014180802-A1 and/or US-2013179495-A1) with element-by-element comparisons to specific claim language such as 'target definition data,' 'POIP,' 'SKU data,' and 'packet-based network.'"
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage builds consistently on the §102 novelty findings — claims found non-novel under §102 are then confirmed obvious under §103 with the same prior art, and no stage contradicts another without explanation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.523 (moderate) and combination_threshold=0.48 (moderate), the examiner appropriately rejects all claims on reasonably strong evidence without overreaching, and explicitly acknowledges the combination threshold in the §103 reasoning for claim 1, reflecting dimension-consistent behavior."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated §102 and §103 stage findings, with the final decision summary explicitly referencing the strength of the prior art combination and the Graham factors analyzed throughout."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005829",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18783,
+      "output_tokens": 373,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

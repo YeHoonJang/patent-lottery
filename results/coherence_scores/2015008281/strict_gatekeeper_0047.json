@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for §103 and uses element-by-element anticipation logic for §102 novelty findings, with the correct statutes invoked throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance conclusion references specific claim language (e.g., 'deny a second user access to annotation while allowing access to item'), specific prior art disclosures (US-2013239021-A1 on presence, buddy lists, IM exchange), and similarity scores or explicit match types."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The office action and final decision designate claims 40, 44, 50, and 54 as 'allowable' based on direct anticipation, yet the final decision rejects all claims including 40, 44, 50, and 54 under §103 without adequate explanation of why anticipated claims are now being rejected rather than allowed—a direct contradiction of the earlier allowance designation without stated justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.818, the examiner consistently resolves ambiguous distinctions (e.g., annotation-level access control not explicitly in the reference) toward rejection, and accepts moderate motivation-to-combine arguments consistent with the combination_threshold of 0.513, reflecting the strict gatekeeper profile throughout."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision rejects claims 40, 44, 50, and 54 under §103 despite the office action explicitly listing them as 'allowable' and the novelty/obviousness stages finding them directly anticipated (hence not separately obvious), constituting an unexplained reversal of prior-stage conclusions for those claims."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2015008281",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13860,
+      "output_tokens": 435,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

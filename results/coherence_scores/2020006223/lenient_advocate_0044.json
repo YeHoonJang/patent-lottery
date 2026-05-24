@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 obviousness analyses across both the obviousness stage and office action, with no improper importation of §101 or other statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'buffer depth,' 'choking level,' 'metadata requests'), specific prior art disclosures (US-2013227111-A1's read/write metrics, US-2013272121-A1's scheduling queue occupancy), and element-by-element comparisons at each stage."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There are notable inconsistencies between stages: for claims 8, 9, 10, 11, 14, 16 the novelty stage found them not novel (anticipating refs cited), but the obviousness stage nevertheless concluded 'is_obvious: false' with reasoning that essentially restated the anticipation, creating a contradictory finding without additional rationale explaining why obviousness was not found despite anticipation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient examiner (strictness=0.248) appropriately leans toward 'amend_suggested' rather than outright rejection for most claims, acknowledges patentable distinctions in claims 5, 13, 19, and explicitly notes in the final decision that the office action's obviousness judgments are 'somewhat broad,' all consistent with a low-strictness, high-combination-threshold profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with a mixed outcome (some outright rejections, many amendment suggestions) flows logically from the accumulated stage analyses that identified some claims as clearly anticipated/obvious while others retained patentable potential, and the examiner's notes explicitly tie the decision to the stage-level findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18023,
+      "output_tokens": 466,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

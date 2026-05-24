@@ -1,0 +1,323 @@
+{
+  "case_id": "ABL-2021001650",
+  "proceeding_number": "2021001650",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.42857142857142855,
+  "reject_rate": 0.5,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "103 거절 근거는 US-2014188999-A1을 기반으로 하며, 청구항 2, 4, 5, 6, 7, 8, 10, 12, 13, 15, 18, 19, 20, 21, 23에 대해 결합 동기와 공지기술 기반의 자명성 판단이 일관되게 제시됨. 특히 카메라 통합, 수리/교체 선택, 소유자 권한 정의, 사전 업데이트 선택 등은 통상의 기술자에게 예측 가능한 개량으로, Graham 요소에서 차별점이 미약하며 secondary 고려사항도 없음. 진보성 판단의 confidence가 전반적으로 0.7 이상으로 높고, 결합 동기 설명이 구체적임. 따라서 강한 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "다수의 청구항(3,4,6-9,11-16,22)에 대해 US-2014188999-A1이 관련 기능을 개시하고 있으며, 통상의 기술자 관점에서 결합 동기가 명확히 존재함. 특히 통신, 상태 업데이트, 소유자 권한, 위치 정보 포함 등은 선행기술과 실질적으로 동일하거나 명백한 변형임."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 9 및 16의 경우, 선행기술에 디지털 미디어 파일의 직접적 개시는 없으나, 자동차 정비 분야에서 사진/영상 기반 피해 평가가 공지된 기술이므로 결합 동기가 인정됨. 다만 카메라 통합은 암시적이지 않아 일부 해석의 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 22는 선행기술의 단방향 정보 전달과 비교해 양방향 브로커링 구조를 도입하나, 전체 시스템 흐름상 응답을 기술자에게 전달하는 것은 서비스 할당의 자연스러운 확장으로 간주될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거의 모든 거절은 US-2014188999-A1에 기반하지만, 디지털 미디어 파일 전송 및 권한 설정 등은 기능적 유사성을 바탕으로 obvious 판단됨. 그러나 통합 카메라 작동, 손상 부위 시각화, 기술자 동적 선택 등은 선행기술에 명확히 개시되지 않아 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2014188999-A1과의 비교가 이루어졌으며, 개별 구성요소는 부분적으로 유사하나, 디지털 미디어 파일을 통한 객관적 손상 평가, 기술자 시스템을 통한 요청 수신, 사전 형성된 상태 업데이트, 실시간 도착 예정 시간 기반 기술자 선택 및 폴링, 입찰형 기술자 파견 흐름 등 전체 시스템의 통합적 구성은 선행기술에 없음. 결합 동기(motivation to combine)도 명확하지 않으며, combination_threshold=0.72 기준을 충족하지 못함. 특히 시각 데이터 기반 의사결정 프로세스는 공지상식 범위를 벗어난 진보적 기여로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2014188999-A1 with common knowledge in vehicle telematics and digital imaging provides clear motivation to combine. Features such as camera integration, communication to owner, repair/replace decision logic, and use of location data are all predictable improvements over the prior art. The Graham factors consistently support obviousness with high confidence (0.7–0.85), and the prior art discloses core functionality that overlaps significantly with claimed elements."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 11, and 14 are clearly anticipated by US-2014188999-A1, which explicitly discloses communication of status to a user account-linked mobile device, inclusion of vehicle location in service scheduling, and identification of the vehicle owner as the recipient. The disclosure is direct and unambiguous, satisfying the 102 standard."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'pre-formed status update' lacks explicit structural or functional definition in the specification. While examples exist (e.g., FIG. 9), the scope and implementation are not sufficiently detailed. Under strict interpretation (strictness=0.82), this ambiguity justifies rejection, though a skilled artisan might infer meaning from context."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims found novel are deemed obvious. The combination of US-2014188999-A1 with common technical practices (e.g., mobile camera use, technician selection based on ETA, polling for availability) involves only routine optimization and predictable integration of known elements. Motivation to combine is strong, and no secondary considerations rebut obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "예견성 거절은 명확한 항구적 대응을 보여주나, 디지털 미디어 파일의 사용 및 통합은 선행기술과의 유사성 외에는 직접적인 개시가 부족함. 결합 동기는 합리적이지만, 디지털 미디어를 기반으로 한 의사결정 루프의 통합은 자명하지 않을 수 있음. 당사자의 성향(strictness=0.47)에 따라, 이러한 해석의 여지가 있는 경우 출원인에게 유리하게 판단함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대부분의 거절된 청구항은 US-2014188999-A1과 공지기술의 결합에 기반하며, 결합 동기는 존재하지만 일부 구성요소(예: 통합 카메라 작동, 디지털 미디어 파일 기반 의사결정)는 선행기술에 명시되지 않음. 다만, 모바일 기기에서의 카메라 활용 및 시각 자료 기반 서비스 결정은 자동차 서비스 분야에서 일반적인 기술로 간주될 수 있음. strictness=0.55인 심사관 입장에서 이러한 결합이 자명하다고 판단할 수 있으나, 완전히 명확한 차별점은 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1 명확히 예견하거나 공지된 기술과 결합 시 자명한 변형임. 카메라 통합, 수리/교체 선택, 기술자 선택 로직 등은 모두 해당 분야에서 일반적인 관행으로, 결합 동기와 PHOSITA 수준에서 예측 가능함. 진보성 판단의 confidence 값 대부분 0.7 이상으로 일관됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "카메라 사용, repair/replace 선택, 기술자 선택, ETA 기반 결정 등은 공지기술로 간주되었으며, 결합 동기가 존재하나 일부 청구항(예: 2, 10)은 선행기술에 직접 개시되지 않아 해석의 여지 있음. combination_threshold가 낮아 obviousness 판단이 용이하나, strictness=0.50인 중립적 입장에서 모든 결합이 자명하다고 단정하기는 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1과 공지상식의 결합에 기반한 진보성 거절은 명확한 동기와 기술적 맥락을 가지며, 특히 카메라 통합, 수리/교체 선택, 소유자 권한 식별 등은 자동차 서비스 분야에서 통상적인 설계 선택으로 간주됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "기술자 선택 및 도착 예정 시간(ETA) 기반 파견은 US-2014188999-A1에 직접 개시되지 않으나, 현장 서비스 관리 분야에서 공지된 실시간 최적화 기법으로 간주될 수 있음. 결합 동기의 명확성은 있으나, 특정한 기술적 통합 방식에 대한 차별성은 일부 존재함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 8, 15 등 사전 정의된 상태 업데이트의 선택 및 통신은 US-2014188999-A1에 명확히 개시되어 직접적인 예시(anticipation)가 성립함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 11: 선행기술이 상태 정보를 차량 소유자 연관 시스템에 전달하나, 디지털 미디어 파일의 전송은 명시하지 않음. 그러나 통신 채널을 통한 데이터 전달은 일반적 기술 수준으로 간주됨. 증거는 있으나, '디지털 미디어 파일'의 구체성으로 인해 자명성 판단은 다소 주관적. 심사관 성향(strictness=0.42)에 따라 보정 허용 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 6, 13: 차량 소유자를 권한으로 지정하는 것은 산업 관행이나, 선행기술이 명확히 개시하지는 않음. 암시적 해석에 기반한 obviousness 판단으로, 해석의 여지 존재. 중립적 정황 고려 시, 보정 가능성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7, 14: 선행기술이 차량 위치를 상태 결정에 사용하며, 서비스 요청에 위치 포함은 효율적 파견을 위한 필수 요소로 명확함. 위치 정보 통합은 통상적 기술 수준에서 자명하므로, 강한 obviousness 근거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 8, 15: 'pre-formed status update' 및 'user input'의 정의와 구현 방식이 명세서에 부족. 서면 설명 및 실현 가능성 요구 미충족으로, 명확한 112(a) 위반. 수정 없이는 실현 불가능하므로 강한 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014188999-A1은 서비스 추천 및 상태 정보 전달을 개시하지만, 'repair 또는 replace' 선택, ETA 기반 기술자 선정, polling 등은 구체적 맥락에서 통합된 시스템으로서의 명확한 동기 부족. 다만 이러한 기능들은 개별적으로 공지된 기술 요소로 간주될 수 있어 obviousness 판단에 중간 수준의 강도를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "다수의 청구항에 대해 US-2014188999-A1과 공지기술의 결합이 명확한 동기를 가지며, 카메라 통합, 수리/교체 선택, 기술자 선택 및 폴링 등은 모두 일반 숙련자의 관점에서 예측 가능한 발전으로, 선행기술의 목적(실시간 상태 통신, 서비스 최적화)과 일치함. 결합 동기와 기술적 맥락이 명확하여 강한 obviousness 근거로 판단됨."
+        }
+      ]
+    }
+  ]
+}

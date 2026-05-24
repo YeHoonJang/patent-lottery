@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly invokes the Graham factors (scope and content, differences from prior art, PHOSITA level, secondary considerations) for every claim, and the §102 analysis performs element-by-element comparison against the cited reference, reflecting correct statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout both novelty and obviousness stages, the examiner consistently references specific claim language (e.g., 'personalized website theme distinct from a standard theme,' 'indicium,' 'cookie,' 'foreground imagery') and the specific prior art disclosure (US-2012216297-A1 on medical data access control) to ground each conclusion."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis builds consistently on the §102 findings—where no anticipation was found due to the prior art's focus on medical data access rather than visual pre-authentication theming—and the obviousness stage does not contradict but extends that reasoning by also finding no motivation to combine."
+  },
+  "item4": {
+    "score": 0,
+    "justification": "With a strictness of 0.818, the examiner should resolve ambiguity toward rejection, yet grants all 31 claims including broad dependent claims (e.g., claim 21 specifying only that the client is 'a computing device') without meaningfully weighing the admitted commonplace nature of sub-elements like cookies, code transmission, and image storage against patentability thresholds, which is inconsistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to grant flows directly from the accumulated §102 (no anticipation) and §103 (no motivation to combine, secondary considerations recognized) stage analyses, with the summary explicitly citing those prior-stage conclusions and the weakness of the prior art overlap."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2015003894",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16613,
+      "output_tokens": 428,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 1547
+    }
+  }
+}

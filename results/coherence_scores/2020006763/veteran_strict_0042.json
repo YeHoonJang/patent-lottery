@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 framework throughout, including explicit identification of scope-and-content of prior art, differences between prior art and claims, PHOSITA level, and secondary considerations for each claim."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection references specific claim language (e.g., 'blade root having a first platform region,' 'electron beam melting/SLM,' 'HIP') and specific prior art disclosures from US-2016279708-A1, with element-by-element comparisons."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage found claims 5, 7, 8, 9, 11–18 novel with high confidence (0.85–0.95), but the obviousness and final decision stages reject all of these under §103 relying heavily on 'general knowledge in the art' without citing any additional references or providing specific prior art evidence for the combination — a significant escalation in rejection strength that is inadequately justified given the sparse secondary references available."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.793 and low combination threshold of 0.335 are reflected in the reasoning: ambiguous elements like 'blade root' are resolved toward rejection, general knowledge is freely invoked to combine features, and all 20 claims are rejected despite some having high novelty confidence, consistent with a veteran strict examiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows logically from the stage-level analyses, with the weighing section explicitly addressing both strong §103 grounds for claims 1–4/6/10/19/20 and moderate grounds for claims 5/7–18, and the decision score of 0.18 (strongly toward rejection) is consistent with accumulated reasoning."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006763",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17465,
+      "output_tokens": 448,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

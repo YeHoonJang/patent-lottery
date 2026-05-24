@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage uses element-by-element anticipation analysis comparing each claim feature against US-2014150923-A1, and the §103 stage applies the Graham factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) with KSR-style motivation-to-combine analysis, correctly invoking the recognized legal frameworks for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the novelty and obviousness analyses, conclusions are consistently tied to specific claim language (e.g., 'aspirating fluid at a constant volumetric flow,' 'optical sensor mounted directly adjoining the cannula') and specific disclosures—or the absence thereof—in US-2014150923-A1."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis builds consistently on the §102 findings: because no anticipating disclosure was found for any claim, the obviousness analysis correctly shifts to whether a PHOSITA would be motivated to combine or modify the prior art to reach the claimed features, without contradicting the novelty determinations."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.461 and combination_threshold 0.222 (easy combiner), yet still finds no motivation to combine—this is consistent because even with a low combination threshold, combination_refs are empty, reflecting that only a single prior art reference was identified with no secondary references to combine, and the moderate strictness supports allowance where clear rejection grounds are absent."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The grant decision follows directly and logically from the accumulated stage analyses: both §102 (all claims novel) and §103 (all claims non-obvious, no motivation to combine) stages uniformly supported allowance, and the office action and final decision consistently reflect and summarize those prior-stage conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019006016",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11266,
+      "output_tokens": 440,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

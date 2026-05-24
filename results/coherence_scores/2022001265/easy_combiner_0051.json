@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102, Graham/KSR four-factor framework for §103 (scope and content, differences, PHOSITA level, secondary considerations), and written description/§112(f) analysis for the means-plus-function claims, each under the appropriate statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language (e.g., 'only' limitation, count syntax element, luma/chroma index separation) and specific prior art disclosures (US-2013101018-A1 teaching shared luma/chroma filtering, US-2020296365-A1 on temporal APS indices), with paragraph references cited for the §112 rejection."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage consistently builds on the §102 findings—claims found novel due to absence of specific luma APS count signaling are then found non-obvious for the same reasons with added motivation-to-combine analysis, and the office action and final decision maintain these same conclusions without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With combination_threshold of 0.329 (easy combiner), the examiner accepts relatively low motivation to combine for the §103 rejections on claims 8, 16, 26, and 34 (e.g., 'inherently assume display' and 'standard practice'), consistent with a low combination threshold, while moderate strictness (0.502) is reflected in granting the bulk of claims and issuing only targeted rejections."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision ('amend_suggested') directly follows from the accumulated stage findings: granting the core novel/non-obvious claims, rejecting the routine-step claims (8, 16, 26, 34) under §103, and recommending amendment for the §112 means-plus-function claims (17, 35), with no reversal of prior-stage conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18113,
+      "output_tokens": 479,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

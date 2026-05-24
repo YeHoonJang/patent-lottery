@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for every claim, and the §102 stage uses element-by-element anticipation analysis referencing specific prior art disclosures."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'accessing policies,' 'generating signed answers,' 'storing in a zone file'), specific prior art references (US-2012117621-A1, US-2012303808-A1), and specific disclosed features (SOA/NS record generation, key creation, proxy mode) to support each rejection or allowance finding."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings—claims found non-novel under §102 are confirmed obvious under §103, and claims 7 and 17 found novel under §102 are also found non-obvious under §103, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner resolves all ambiguous elements (e.g., implicit policy updates, user-associated policies, DNS-generated policies) toward rejection rather than grant, consistent with a strict gatekeeper profile, while allowing only claims 7 and 17 where prior art genuinely fails to disclose the key limitation."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims except 7 and 17 follows directly and consistently from the accumulated stage-level analyses, with the decision score of 0.25 reflecting the strong rejection posture established throughout the novelty and obviousness stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017004556",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13448,
+      "output_tokens": 421,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

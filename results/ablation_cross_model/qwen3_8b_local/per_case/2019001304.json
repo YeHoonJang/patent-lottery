@@ -1,0 +1,355 @@
+{
+  "case_id": "2019001304",
+  "proceeding_number": "2019001304",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 샘플링 주파수, 예측 모델, 교정 알고리즘 등 핵심 기술적 요소에 대한 구체적 설명이 부재하며, 이는 기술자가 발명을 실행하기 위해 과도한 실험을 요구함을 명백히 나타냄. 이는 112(a) 및 (b)의 거절 기준에 부합."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "DE19645306A1 explicitly discloses color-based roasting control and termination at preselected degrees. The combination of surface/powder color measurements is an obvious refinement to enhance accuracy, meeting the combination threshold. Strong evidence from prior art and clear motivation to combine."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims lack sufficient detail on color-to-control translation, roasting degree quantification, and calibration algorithms. Ambiguity in enablement raises concerns, but specification absence limits certainty."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2014106038-A1) discloses similar concepts but lacks specific dual-batch sampling and combined color control mechanisms. While the combination is non-obvious per novelty analysis, the Office Action cites 103 with verification status PASS, creating moderate conflict between novelty and obviousness findings."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (REF1/REF2) explicitly discloses core elements (color detection, roasting control, grinding, calibration) and provides clear motivation to combine. Graham factors confirm the combination is logical for improving accuracy, with high confidence (0.78-0.88). Coverage scores (0.5-0.75) exceed combination_threshold (0.72), making the obviousness strong."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Prior art (REF1) anticipates most claims through explicit disclosure (e.g., surface color detection, preselected degree termination). However, the system's strictness (0.29) and BRI (moderate) suggest some elements may be interpreted as non-obvious variations rather than direct anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Objections focus on unsupported terms like 'predefined prediction model' and 'sampling frequencies.' These are minor compared to the strong 103/102 rejections, and the system's leniency (strictness=0.29) favors granting with amendments."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "DE19645306 A1 directly anticipates core control mechanisms (claims 1,3) and combination with US2014106038 lacks clear motivation (claims 4,7,8,9,14,15). Confidence levels (0.85-0.88) and explicit prior art teachings meet strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks sufficient detail on color measurement methods, calibration algorithms, and batch overlap techniques. While not definitively disabling, the ambiguity raises significant enablement concerns under strict interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 REF1은 분말 색도 검출 및 샘플링 주기 기술을 포함하지만, 본 발명의 '표면 색도와 분말 색도의 병렬 검출 + 예정된 최종 구워진 정도 캘리브레이션' 결합은 기술적 해결책이 부족하며, 결합 동기의 명확성도 부족함. 선행기술의 일반적 기술 수준에서 자명한 결합으로 보기 어렵다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "분말 색도 검출 방법, '구워진 정도' 캘리브레이션 구체적 방법 등은 명세서에 명확히 기재되지 않아 해석의 여지가 있음. 다만, 청구항 자체의 모호성은 제한적임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "DE19645306 A1 explicitly discloses terminating roasting based on preselected degree (claim 3), matching claim language directly."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Combination of color measurement (DE19645306 A1) and grinding (US-2014106038-A1) is plausible but requires non-obvious integration of dual-sampling approach."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims lack sufficient detail on powder color measurement methods, roasting degree definitions, and control parameter implementation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected as obvious under 103 with high confidence (0.55-0.75), showing clear motivation to combine prior art elements for roasting control improvements."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks critical technical details for enablement, but some claims may still meet enablement requirements under BRI"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly or implicitly anticipated by REF1 with confidence scores ≥0.65, meeting the strictness threshold. The coverage scores (0.55–0.8) indicate substantial overlap with prior art teachings."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'simultaneously', 'first cracking', 'at least part' 등의 핵심 용어가 구체적 정의가 없어 기술자에게 구현 가능성을 제시하지 못함. 이는 35 U.S.C. § 112(b)의 명확성 요건을 명백히 위반하며, 증거가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'predetermined frequencies', 'different roasting phases', 'predetermined final roasting degree' 등의 용어에 대한 구체적 정의와 구현 세부사항이 누락된 점은 35 U.S.C. §112(b)의 불명확성 기준을 명백히 위반하며, 증거가 명확함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "calibration algorithm 및 first cracking과 같은 용어에 대한 명세서 뒷받침 부족은 enablement 기준을 위반할 가능성이 있으나, 구체적 증거가 부족함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "103 판단에서 결합 동기 부족 및 선행기술의 명확한 가이드 부재로 인해 동기 부여가 약함"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims lack specific enablement for color detection methods and control algorithms, as explicitly stated in the Office Action. The specification's failure to describe sampling scope, predetermined roasting degree, and control unit functionality renders the claims indefinite under 35 U.S.C. §112(b)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While prior art (US-2014106038-A1) lacks color-based roasting control, the combination of features in claims is not suggested. However, the absence of secondary considerations (e.g., commercial success) weakens the obviousness argument."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2014106038-A1) discloses color measurement and calibration algorithms, which are similar to the invention. However, the combination of surface color detection (first batch) and powder color detection (second batch) during roasting for real-time control is not explicitly taught or suggested. The motivation to combine these elements is not clearly established in the prior art, making the obviousness argument weaker despite the technical similarity."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks sufficient detail to enable the 'powder color measurement methodology' and 'calibration algorithm' in claim 1, and the 'predetermined final roasting degree' in claim 3 is not defined with measurable technical parameters. This deficiency renders the claims indistinct and unenable under 35 U.S.C. § 112."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The Office Action explicitly identifies insufficient implementation details for control mechanisms, calibration algorithms, and sampling frequencies in the specification. This directly violates 35 U.S.C. §112, second paragraph, as the claims lack sufficient detail to enable a PHOSITA to practice the invention."
+        }
+      ]
+    }
+  ]
+}

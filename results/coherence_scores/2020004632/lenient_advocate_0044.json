@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace properly invokes §102 anticipation (element-by-element analysis against US-2012248924-A1), §103 Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for obviousness, and does not misapply statutes from other sections."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'A° = 180°/N'), specific prior art disclosures (US-2012248924-A1's π/6 phase shift, Δ-Y connection, concentrated winding), and specific figures (FIG. 6, 8, 10 of US-2015311758-A1)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a significant inconsistency: claims 3, 8, and 16 (A°=180°/N) are found non-obvious in the §103 stage with confidence 0.8, yet the office action rejects them under §103 as obvious ('predictable engineering principle'), and then the final decision grants them — the office action contradicts the obviousness stage findings without reconciling why the examiner pivoted to rejection mid-trace before reverting to allowance."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.248 (lenient advocate), the examiner appropriately resolves ambiguous elements (double-layer configuration, A°=180°/N generalization) in favor of the applicant — granting several claims and suggesting amendments rather than outright rejection — consistent with a lenient profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to suggest amendments and grant several claims (3, 5, 8, 10, 12, 16, 18) flows logically from the stage-level analyses that identified those claims as novel and non-obvious, while rejecting claims found lacking novelty (1, 6, 11, 19) and suggesting amendments for borderline claims."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004632",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17769,
+      "output_tokens": 485,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

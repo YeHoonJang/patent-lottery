@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies Graham/KSR factors for §103 (scope/content, differences, PHOSITA level, secondary considerations) and invokes §112(a) written description for specification support issues, using the appropriate statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout cite specific prior art references (US-2013144785-A1, US-2012159647-A1) with element-by-element comparisons to specific claim limitations such as 'cancellation on risk threshold,' 'realness score,' and 'challenge.'"
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds claims 1 not novel (is_novel=false) yet the obviousness stage finds claim 1 not obvious (is_obvious=false), and then the office action rejects claim 1 under §103 — this creates an internal inconsistency where novelty rejection is maintained but obviousness is simultaneously denied yet still used as the rejection basis, without adequate reconciliation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's combination_threshold=0.329 (easy combiner) is explicitly referenced in the obviousness reasoning to justify accepting weaker motivation to combine, and the moderate strictness (0.50) is reflected in the balanced 'amend_suggested' final decision rather than outright rejection or allowance."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with moderate strength flows logically from the accumulated analysis showing some §103 rejections on key independent claims and widespread §112 written description issues across dependent claims, consistently recommending amendment rather than outright rejection or allowance."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001350",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18410,
+      "output_tokens": 403,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

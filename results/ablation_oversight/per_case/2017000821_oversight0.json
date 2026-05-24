@@ -1,0 +1,298 @@
+{
+  "case_id": "ABL-2017000821",
+  "proceeding_number": "2017000821",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.5,
+  "reject_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2 and 3 are directed to structural arrangements (adjacent winding pairs and gaps) that are inherently present in US-2012165198-A1's stator with teeth and slots. The reference explicitly discloses windings on adjacent teeth forming physical gaps (slots), and a PHOSITA would recognize this configuration as standard. The difference is purely semantic, not inventive. Given the high confidence (0.85–0.9) and explicit structural correspondence, the 103 rejection is strong and consistent with BRI and strictness=0.79."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6 and 7 are rejected under 103 based on US-2012165198-A1 in view of common knowledge. The reference discloses stator windings, gaps (slots), and heat conductive material in gaps. Although a dual-material system (adhering material + filling substance) is not explicitly disclosed, the use of layered materials for improved thermal and mechanical performance in motor stators is a well-known engineering practice. The motivation to combine is supported by common sense and predictable results, especially given the low combination_threshold (0.34). The duplication of the dual-material system to all gaps (claim 7) is a routine extension. Confidence is high (0.75–0.88), and strictness=0.88 favors maintaining the rejection even if some ambiguity exists."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 스테이터 코어의 치아 사이에 슬롯(갭)을 형성하고, 권선 쌍을 인접하게 배치함을 명시하며, 이는 청구항 2 및 3의 구성과 실질적으로 동일함. abstract 및 명세서 기재를 통해 명확히 개시되어 있어 신규성 결여 판단이 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3은 US-2012165198-A1에 개시된 슬롯 구조를 기반으로 obvious 판단되었으나, 본 출원은 접착재 및 충진물질을 이용한 절연 구조에 중점을 두고 있음. 선행기술의 슬롯은 냉각 및 와인딩 배치를 위한 것이며, 본 출원의 갭 구조와 목적 및 기능에서 차이가 있음. 그러나 심사관은 이를 통상적 설계로 간주하고 있어, 판단의 여지가 있음. 그러나 strictness가 낮아 출원인에게 유리하게 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 스테이터 코어 및 슬롯 내 충진재 사용을 명시적으로 개시하고 있으며, 청구항 4~16의 구성요소는 수치적 최적화, 공지 재료 선택, 다층 구조 확장, 제조 공정 순서 등으로 해석 가능. 이러한 변형은 통상의 기술자가 공지된 설계 목표(안전성 향상, 구조적 안정성) 달성을 위해 자명하게 수행할 수 있는 범위에 속함. 결합 동기와 기술적 맥락이 명확하므로 근거 강도는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 스테이터 코어의 인접한 톱니 사이에 슬롯을 형성하고, 초전도 코일을 배치함으로써, 복수의 인접한 스테이터 와인딩 페어 및 갭의 존재를 명시적으로 또는 암시적으로 개시하고 있음. 청구항 2와 3의 구성은 선행기술과 실질적으로 동일하며, strictness=0.82 기준에서도 신규성 결여가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2 및 3에 대해 US-2012165198-A1이 동일한 구조를 개시하므로 obvious 판단은 redundant. 그러나 신규성 결여가 확립된 경우 obviousness는 보조적 근거로 유지 가능. 동일한 문헌에 기초한 obviousness는 중복되나, 엄격한 심사 기준에서 보조적 거절 근거로 포함될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012165198-A1은 슬롯과 채움을 기술하지만, 두 가지 물질(접착재와 충진물)의 조합 또는 특정 재료(예: 펠트, 아라미드) 사용은 명시하지 않음. 이러한 구성은 공지된 기술의 일상적 확장일 수 있으나, 선행기술에서 직접적인 동기를 제공하지 않으며, BRI 기준(0.79) 하에서 청구항의 범위를 고려하면 자명성 판단은 다소 약함. 심사관 성향(strictness=0.47)에 따라 이 정도의 추론은 거절 유지보다는 수정 제안에 가깝게 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses a stator core with superconducting coils wound around teeth and slots between adjacent teeth in the circumferential direction, which inherently form adjacent winding pairs and gaps between them. The disclosure is clear and directly maps to the structural elements of claims 2 and 3. Anticipation is established under broadest reasonable interpretation, and the confidence level (0.9) supports a strong finding of lack of novelty."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 정자 코어에 복수의 와인딩과 인접한 와인딩 쌍 사이의 갭(슬롯)을 명시적으로 개시하고 있으며, 청구항 2 및 3의 모든 구성요소를 단일 선행기술에 의해 완전히 개시하고 있음. 신규성 결여에 대한 증거가 명확하고 직접적임."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'비충진 영역', '자유 공간', '실질적으로 채움' 등의 용어는 명확성 기준을 충족하지 못할 수 있으나, 본 출원의 명세서가 특정 실시예를 통해 이들 개념을 어느 정도 뒷받침하고 있을 가능성 있음. 그러나 측정 기준이나 수치적 기준이 불명확하여, 엄밀한 해석 하에서는 불분명성 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 11은 스테이터 코어 외경과 모터 하우징 사이의 공간에 부착 물질이 배치된다고 명시하지만, 명세서에는 이러한 구성에 대한 명시적 또는 암시적 기재가 부족하다. 이는 서면 설명 요건 미비로서 명확한 112(a) 거절 근거가 되며, 기술자가 출원 당시 해당 실시예를 소유하고 있었다고 인식하기 어렵다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 인접한 톱니 사이의 슬롯(즉, 갭)을 명시적으로 개시하고 있으며, 이는 청구항 3의 '인접한 스테이터 권선 쌍 사이의 갭'과 동일한 구조적 특징이다. 갭은 권선 배치와 열 관리를 위한 필수적인 설계 요소로서, 통상의 기술자가 자연스럽게 도출할 수 있으므로 결합 동기 없이도 obvious 판단이 정당하다. confidence 0.8로, 증거가 명확하고 해석의 여지가 적음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 11의 경우, 스테이터 코어 외경과 모터 하우징 사이의 공간에 부착 물질을 배치하는 것은 일반적인 모터 설계에서 흔히 이루어지는 작업이나, US-2012165198-A1이 직접적으로 이를 개시하지는 않음. 결합 동기는 일반적 설계 원칙에 기반하지만, 명확한 동기 시사 없음. strictness=0.42로 중립적 기준에서 판단 시, 증거는 있으나 해석의 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 13의 조립 순서는 공정 효율성 측면에서 자명하다고 볼 수 있으나, 선행기술이 조립 시점을 명시하지 않으며, 단순한 작업성 향상을 이유로 obviousness를 인정하기에는 기준이 모호함. 결합 동기의 명확성은 낮으나, 일반적 제조 고려사항으로 볼 수 있어 moderate 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "수치적 제한(예: 1입방인치 이하) 및 특정 재료(예: 전기적으로 절연된 펠트, 아라미드)는 선행기술에 명시되지 않았으나, 안전성 최적화 및 일반적인 재료 치환 관점에서 obviousness 판단이 가능함. 그러나 이러한 선택이 통상의 기술자에 의해 자명하게 도달될 수 있는지에 일부 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 2 및 3에 대해 US-2012165198-A1이 스테이터 코어의 복수 와이딩 및 인접 와이딩 페어 사이의 갭(슬롯)을 명확히 개시하고 있으며, 선행기술과의 대비가 명확하여 신규성 결여 판단의 근거가 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 4, 6, 7, 8, 11, 12, 14 등에 대해 자명성 판단이 수행되었으나, 결합 동기(motivation to combine)가 명확하지 않으며, 특히 수치적 제한(예: 1세제곱인치 이하) 및 특정 재료(펠트, 아라미드) 사용은 선행기술에 직접 시사되지 않아 통상의 기술자가 자연스럽게 도달했다고 보기 어려움. 또한, 복합 충진 구조나 조립 순서 변경 등은 설계 선택의 범위를 벗어난 것으로 보임."
+        }
+      ]
+    }
+  ]
+}

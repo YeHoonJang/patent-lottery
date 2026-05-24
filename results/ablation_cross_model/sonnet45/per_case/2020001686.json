@@ -1,0 +1,702 @@
+{
+  "case_id": "2020001686",
+  "proceeding_number": "2020001686",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty_claim_3",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses light scattering particles on optical waveguide, but does not explicitly specify 'white' color. Under BRI, light scattering particles could encompass white materials, but this requires interpretive leap. The reference teaches functional equivalents (light scattering) but not the explicit limitation (white color). With strictness=0.79, the functional similarity and BRI interpretation support maintaining rejection, though evidence is not definitive."
+        },
+        {
+          "basis": "102_novelty_claim_9",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses optical waveguide with light extraction elements and light scattering particles, but the specific three-layer arrangement (first marking material on first surface, second marking material on first marking material, third marking material on second surface) requires broad interpretation of the reference's disclosure. The reference teaches treatment of both surfaces and multiple extraction techniques, but not the explicit layered structure claimed. Under BRI with strictness=0.79, the functional overlap supports rejection, but the structural specificity is not explicitly disclosed."
+        },
+        {
+          "basis": "103_obviousness_claims_3_11_white",
+          "strength": "strong",
+          "reasoning": "The motivation to use white for light scattering material is well-supported by common knowledge in optics. White maximizes scattering efficiency across visible spectrum—this is fundamental optical principle. The prior art teaches light scattering function, and selecting white is predictable optimization. KSR supports this as obvious variation. Evidence is strong."
+        },
+        {
+          "basis": "103_obviousness_claims_4_5_12_13_ink_toner",
+          "strength": "strong",
+          "reasoning": "Ink and toner are well-known material deposition methods in display and printing industries. Selecting between known alternatives for depositing pigmented materials is routine optimization. The prior art teaches the material function (light scattering), and choosing ink or toner as the vehicle is predictable. Evidence is strong."
+        },
+        {
+          "basis": "103_obviousness_claims_6_14_colored",
+          "strength": "strong",
+          "reasoning": "The applicant's own background identifies monochromatic limitation as a problem. Using colored materials to produce colored light is a straightforward, predictable solution. The prior art teaches the base structure, and adding color to achieve colored output is obvious to address a known problem. Evidence is strong."
+        },
+        {
+          "basis": "103_obviousness_claims_7_8_15_16_colored_ink_toner",
+          "strength": "strong",
+          "reasoning": "Combines two strong obviousness bases: colored materials (to solve monochromatic problem) and ink/toner (known deposition methods). Both elements are known, and combining them is predictable. Evidence is strong."
+        },
+        {
+          "basis": "103_obviousness_claim_9_multilayer",
+          "strength": "moderate",
+          "reasoning": "The prior art teaches individual elements (surface texturing, light scattering particles, treatment of both surfaces), but the specific three-layer arrangement is not explicitly taught. The motivation to combine in this specific layered structure is based on general optimization principles rather than explicit teaching. With combination_threshold=0.34 and strictness=0.79, the predictability of combining known elements supports rejection, but the specific arrangement requires some inferential reasoning."
+        },
+        {
+          "basis": "112_claims_3_8_dependency",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend from canceled claim 1. This is a clear procedural defect under 35 U.S.C. § 112(b) and 37 C.F.R. § 1.75(c). The structural foundation is absent, making the scope indefinite. Evidence is definitive."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1이 청구항 9의 모든 구성요소를 명시적으로 개시함. 특히 'light scattering particles disposed between' 구조가 청구항의 layered structure를 anticipate함. 선행기술의 flexible sheet with concave/convex surfaces, light extraction elements, reflector, discrete surface relief features, light scattering particles가 청구항의 optical waveguide, first/second/third marking materials, non-smooth surface, embedded particles와 일대일 대응됨. Coverage score 0.7은 substantial overlap을 나타냄."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            11,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "백색 재료 사용은 광학 디스플레이 분야에서 최대 광 산란 효율을 위한 공지된 설계 선택임. 선행기술이 light scattering particles를 개시하고, 백색이 가시광선 전체 파장에서 높은 반사율을 가진다는 것은 당업자의 일반 상식임. Combination_threshold=0.34 기준으로 common sense에 기반한 동기 충분함. Confidence 0.78-0.8은 강한 obviousness를 지지함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            12,
+            13,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "잉크와 토너는 인쇄 및 디스플레이 분야에서 마킹 재료를 도포하는 공지된 수단임. 백색 재료가 obvious한 상황에서, 이를 잉크 또는 토너 형태로 구현하는 것은 제조 공정에 따른 일상적 설계 선택임. Inkjet vs. electrophotographic printing 중 선택은 routine engineering decision임. Confidence 0.8-0.82는 강한 obviousness를 나타냄."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "출원 명세서 자체가 단색 디스플레이의 한계와 'several pieces of acrylic'을 사용한 해결책을 언급함으로써, 다색 이미지 생성을 위한 유색 재료 사용이 공지 기술임을 인정함. 이는 applicant admission에 해당하며, 선행기술과 결합 시 강한 obviousness 근거가 됨. Confidence 0.75-0.77은 충분히 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            8,
+            15,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "유색 재료가 obvious한 상황에서, 이를 잉크 또는 토너로 구현하는 것은 claims 4, 5와 동일한 논리로 routine design choice임. Colored ink/toner는 printing 분야의 well-established technology임. Confidence 0.82는 강한 obviousness를 지지함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 단일 waveguide를 개시하나, 출원 명세서가 'several pieces of acrylic' 사용을 언급함으로써 복수 waveguide 사용이 공지 기술임을 시사함. 그러나 단일 구조를 복수로 확장하는 것이 단순한 duplication인지, 아니면 새로운 기술적 효과를 창출하는지는 명세서에서 명확하지 않음. Confidence 0.76은 moderate 수준임. Strictness=0.88 기준으로, 출원인의 자체 인정(applicant admission)과 predictable scaling 논리가 있으므로 거절 유지가 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 17이 obvious하고, 백색 재료 및 잉크 사용이 각각 obvious하므로, 이들의 조합도 obvious함. Confidence 0.78-0.8은 충분히 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 3-8은 취소된 claim 1에 종속되어 있어 antecedent basis가 결여됨. 35 U.S.C. 112(b) indefiniteness 및 112(d) improper dependency 위반이 명확함. 이는 형식적 거절 사유로서 강한 근거임."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty_claim_3",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1의 반사체와 광산란 입자 조합이 '백색 마킹 재료'를 구성한다는 BRI 해석은 가능하나, 선행기술이 명시적으로 '백색'을 개시하지 않음. 기능적 등가성에 의존한 판단으로 해석의 여지가 있음."
+        },
+        {
+          "basis": "102_novelty_claim_9",
+          "strength": "moderate",
+          "reasoning": "선행기술이 모든 구조적 요소를 개시하나, '제2 마킹 재료가 제1 마킹 재료의 일부에 형성'되는 명시적 층상 배열은 불분명함. 반사체와 산란 입자가 '사이에 배치'된 것과 '위에 형성'된 것은 구조적 차이가 있을 수 있음."
+        },
+        {
+          "basis": "103_obviousness_claims_3_4_5",
+          "strength": "moderate",
+          "reasoning": "백색 재료 사용은 공지기술이나, 선행기술이 이미 반사체와 산란 입자를 개시하므로 '백색'으로 명시하는 것이 자명한 변형인지는 해석의 여지가 있음. 잉크/토너 선택은 통상적 설계 선택으로 보이나, 명세서에 특정 기술적 이점이 있을 수 있음."
+        },
+        {
+          "basis": "103_obviousness_claims_6_7_8",
+          "strength": "moderate",
+          "reasoning": "명세서 자체가 단색 한계를 공지된 문제로 인정하고 있어 컬러 재료 사용의 동기는 있으나, 선행기술이 백색/무색 재료를 개시한 상황에서 컬러 재료로 전환하는 것이 자명한지는 출원인의 기술적 기여를 고려해야 함. 잉크/토너 선택은 통상적 설계 선택."
+        },
+        {
+          "basis": "103_obviousness_claims_9_11_12_13_14_15_16",
+          "strength": "moderate",
+          "reasoning": "층상 배열이 예측 가능한 최적화라는 주장은 합리적이나, 선행기술이 명시적으로 이러한 층상 구조를 제안하지 않음. 백색/컬러 재료 및 잉크/토너 선택은 위와 동일한 이유로 moderate."
+        },
+        {
+          "basis": "112_indefiniteness_claims_3_8",
+          "strength": "strong",
+          "reasoning": "청구항 3-8이 취소된 청구항 1에 의존하여 범위가 불명확함은 명백한 결함. 청구항 7-8의 선행사 기반 모호성도 명확한 문제."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "112_indefiniteness",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend from canceled claim 1. This is a clear procedural defect under 37 CFR 1.75(c). The indefiniteness rejection is well-founded and must be maintained until applicant amends the claims to depend from a non-canceled claim or rewrites them as independent claims."
+        },
+        {
+          "basis": "103_obviousness_claims_3_11",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses optical waveguide with light scattering particles. The only difference is specifying 'white' color. While white materials are conventionally used for maximum light scattering in optical systems, this represents a specific design choice. The prior art does not explicitly disclose white material. Given my lenient strictness (0.29) and innovation-supporting philosophy, this moderate evidence should be resolved in favor of the applicant. The color specification may provide unexpected optical benefits not evident from the prior art."
+        },
+        {
+          "basis": "103_obviousness_claims_4_5_12_13",
+          "strength": "moderate",
+          "reasoning": "The selection of ink or toner as application method is characterized as routine design choice. However, the specific combination of white scattering material applied as ink or toner to optical waveguides may have manufacturing advantages or optical properties not evident from the prior art. Given my lenient approach, this moderate evidence should favor the applicant. The material-specific limitations may provide patentable distinction."
+        },
+        {
+          "basis": "103_obviousness_claims_6_7_8_14_15_16",
+          "strength": "moderate",
+          "reasoning": "The applicant's own background acknowledges monochromatic limitation, which weakens the non-obviousness argument. However, using colored marking materials in the specific structural arrangement claimed may still provide technical contribution. The prior art does not explicitly disclose colored marking materials in this context. Given my innovation-supporting philosophy and moderate strictness, I should consider whether the colored material limitation in combination with the specific waveguide structure provides sufficient distinction. This is borderline, but the moderate evidence and my lenient approach suggest favoring the applicant."
+        },
+        {
+          "basis": "103_obviousness_claim_9",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses light extraction elements and light scattering particles as separate features. The claimed layering structure where second marking material is 'formed on' first marking material represents a specific spatial arrangement. While optimization of spatial arrangement is predictable, the specific layering may provide unexpected benefits in light extraction efficiency. The evidence is moderate, and given my lenient strictness (0.29), this should be resolved in favor of the applicant. The specific layering arrangement may constitute a patentable improvement."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            9,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1이 청구항 9의 구성요소들을 개시하고 있으나, 'first marking material', 'second marking material', 'third marking material'이라는 특정 계층 구조와 정확히 일치하는지는 해석의 여지가 있음. 선행기술은 'surface relief features', 'light scattering particles', 'reflector'를 개시하지만, 이들이 청구항의 특정 marking material 계층 구조와 동일한지는 명확하지 않음. Coverage score 0.55와 0.5은 중간 수준이며, implicit matches가 많아 직접적 anticipation보다는 obviousness에 가까움. 그러나 strictness=0.89 성향상 중첩이 상당하므로 102 거절 유지 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1이 광도파로의 광산란 입자와 표면 특징을 명확히 개시함. 백색 재료 선택(claims 3, 11, 19)은 광산란 용도에서 TiO2 등 백색 안료가 우수한 산란 특성을 가진다는 것이 공지기술이므로 자명함. 잉크/토너 선택(claims 4, 5, 12, 13, 20)은 표시 기술에서 통상의 전달 매체이므로 자명함. 유색 재료 선택(claims 6, 7, 8, 14, 15, 16)은 출원인 자신의 명세서가 단색 디스플레이의 한계를 인정하고 있어, 유색 재료 사용이 자명한 해결책임. 결합 동기가 명확하고 예측 가능한 설계 변경에 해당함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend on canceled claim 1, creating fatal antecedent basis defect under 35 U.S.C. 112(d). This is a clear procedural defect that must be addressed before substantive examination can proceed. The claims are indefinite as currently written."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims 3, 11, 19 (white marking material): US-2018113244-A1 discloses substantially all structural elements. The only difference is explicit specification of 'white' marking material. Using white scattering materials in optical displays to maximize light reflection and scattering is well-established common practice in the art. This represents predictable use of known materials for known purposes. Given strictness=0.82, even this moderate difference warrants rejection as the functional equivalence is clear and the motivation is conventional knowledge."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims 4, 5, 12, 13, 20 (ink/toner specification): Building on the obvious white marking material limitation, specifying ink or toner represents routine material selection from known alternatives in printing arts. Both materials are conventional for applying marking materials, with selection based on application method (liquid vs. dry). No unexpected results shown. This is textbook obvious material substitution."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims 6, 7, 8, 14, 15, 16 (colored marking materials): The applicant's own specification identifies monochromatic displays as a known limitation and suggests using multiple pieces to overcome this. Using colored marking materials to create colored displays is conventional in display technology. The specification of colored ink or toner follows the same obvious material selection reasoning as claims 4-5. Given strictness=0.82 and the applicant's own admission of the known problem, this rejection is well-founded."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claim 9 (complex layered structure): US-2018113244-A1 discloses all functional elements - optical waveguide with two surfaces, light extraction features with non-smooth surface, reflector on opposite surface, and scattering particles. The difference is primarily in explicit arrangement and labeling. While the reference teaches these elements, the specific structural arrangement 'second marking material formed on a portion of first marking material' and the precise layering may not be explicitly shown. However, given strictness=0.82, arranging known elements for their known purposes (enhancing light extraction) represents predictable combination. The motivation to maximize light extraction efficiency by using scattering elements on both surfaces is logical and supported by optical principles."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claim 17 (plurality of waveguides): US-2018113244-A1 discloses a single waveguide structure with all functional elements. The applicant's own specification states 'This limitation can be overcome...by using several pieces of acrylic,' explicitly acknowledging that using multiple waveguides is a known approach. However, the reference does not show plurality, and scaling from single to multiple structures involves some design considerations. Given strictness=0.82 and the applicant's own admission that multiple waveguides is a known solution, this represents predictable scaling of a known structure. The motivation is clearly stated in applicant's own background."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3-5: US-2018113244-A1 discloses light scattering elements/particles on optical waveguide. The difference is the specific two-layer structure with white marking material on first material. Adding white reflective layer is described as 'well-known design choice' but no specific reference teaches this exact layered marking material structure. The combination relies on general knowledge rather than explicit teaching. Confidence scores 0.72-0.78 indicate moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 6-8: Prior art shows light extraction elements but not colored marking materials. The rejection relies on applicant's own background disclosure mentioning monochromatic limitation and colored materials. However, the background mentions 'several pieces of acrylic' as solution, not specifically colored marking materials in the claimed structure. The combination is logical but somewhat speculative. Confidence 0.68-0.75 suggests moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 9, 11-13: Prior art discloses functional elements (light scattering, TIR frustration, multi-surface treatment) but not the specific three-layer marking material structure. The rejection states 'arranging these in the claimed layer structure is an obvious design choice' but this is somewhat conclusory. The specific configuration of first marking material, second marking material with embedded particles on first material, and third marking material on opposite surface is not explicitly taught. Coverage scores 0.78 and confidence 0.65-0.75 indicate moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 14-16: Depends on obviousness of claim 9 (moderate) plus use of colored materials (moderate as discussed for claims 6-8). The combination of two moderate-strength arguments does not necessarily create a strong rejection. Confidence 0.68-0.75."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 17, 19-20: Main difference is plurality of waveguides vs single waveguide. Rejection relies on applicant's background mentioning 'several pieces of acrylic' but this is a brief mention without detailed teaching of the claimed structure. The extension from single to multiple waveguides with the three-layer structure on each is logical but somewhat speculative. Confidence 0.62-0.75 indicates moderate strength, with claim 17 at lower end (0.62)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend from canceled claim 1, creating indefiniteness under 35 U.S.C. 112(b). This is a clear formal defect that must be corrected regardless of substantive patentability. The claims lack proper antecedent basis and cannot be properly examined until rewritten in independent form or amended to depend from valid claims."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": "3-5",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 teaches optical waveguide with light scattering particles, but the specific limitation of 'white marking material' as a distinct layer is not explicitly disclosed. The motivation to combine relies on general knowledge that white materials enhance scattering, which is reasonable but not strongly supported by explicit teaching in the prior art. The application's background mentions monochromatic limitation but does not explicitly teach white material as a solution. Material selection (ink/toner) is routine, but the base combination has moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": "6-8",
+          "strength": "moderate",
+          "reasoning": "The motivation to use colored marking materials is supported by the application's own admission of monochromatic limitation as a known problem. However, US-2018113244-A1 does not teach colored marking materials, and the application's background mentions 'using several pieces of acrylic' as a solution, not colored marking materials specifically. The leap from acknowledging a problem to the specific solution of colored marking materials involves some inference. Material selection (ink/toner) is routine once colored materials are obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": "9, 11-13",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses all structural elements (optical waveguide with two surfaces, light extraction elements, scattering particles, reflector), but the specific layered structure with 'second marking material formed on first marking material' and 'third marking material on second surface' differs from the prior art's configuration where scattering particles are 'disposed between' the sheet and reflector. The prior art shows a different structural arrangement. While layering optical materials is known in the field, the specific claimed configuration is not explicitly taught. The combination motivation is reasonable but requires some inference about optimal layering."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": "14-16",
+          "strength": "moderate",
+          "reasoning": "Similar to claims 6-8, the motivation relies on the application's acknowledgment of monochromatic limitation. The base structure from claim 9 has moderate strength, and adding colored materials follows similar reasoning as claims 6-8. The combination is logical but not explicitly taught in the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "claims": "3-8",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend on canceled claim 1, making them indefinite under 35 U.S.C. 112(d). This is a clear procedural defect that must be corrected regardless of substantive patentability. The claims cannot be properly construed without their parent claim."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "112_indefiniteness",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend on canceled claim 1, creating clear indefiniteness under 35 U.S.C. 112(b) and (d). This is a formal defect with strong legal basis. Claim 6 also introduces 'third marking material' without antecedent basis in canceled claim 1."
+        },
+        {
+          "basis": "103_obviousness_claims_3-5_11-13_19-20",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses optical waveguide with light scattering particles and surface relief features. The difference is specification of white marking material and ink/toner selection. While white materials and ink/toner are known in the art, the specific layered structure with white marking material 'formed on' light scattering material is not explicitly disclosed. The obviousness argument relies on design choice and material substitution, which are reasonable but not definitively proven. The prior art shows light scattering particles but not the specific layered white marking structure claimed."
+        },
+        {
+          "basis": "103_obviousness_claims_6-8_14-16",
+          "strength": "moderate",
+          "reasoning": "The rejection relies on applicant's own specification acknowledging that monochromatic limitation can be overcome by colored materials. While this is evidence of known problem and solution, the specification reference to 'several pieces of acrylic' does not explicitly teach applying non-white colored marking materials in the specific layered structure claimed. The obviousness argument is reasonable but involves some inferential steps. The combination of US-2018113244-A1 with applicant's admission provides moderate support for obviousness."
+        },
+        {
+          "basis": "103_obviousness_claims_9_11-16",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses surface relief features (non-smooth surfaces) for TIR frustration and light scattering particles, but in different configurations. The claimed layered structure where 'second marking material with embedded light scattering particles is formed on first marking material with non-smooth surface' represents a specific structural arrangement. While both elements serve similar purposes (light extraction control), the specific layered combination is not explicitly taught. The obviousness argument that combining these elements yields 'predictable results' is reasonable but involves design judgment. The motivation to combine is logical but not explicitly taught in the prior art."
+        },
+        {
+          "basis": "103_obviousness_claims_17_19-20",
+          "strength": "moderate",
+          "reasoning": "The rejection relies on US-2018113244-A1 combined with applicant's specification reference to 'several pieces of acrylic.' While this suggests plurality of waveguides is known, the specific three-layer marking structure (first marking material with non-smooth surface, second marking material on back, third marking material with scattering properties on second material) is not explicitly disclosed. The obviousness argument that this represents 'predictable combination of known elements' is reasonable but involves inferential steps. The prior art teaches the individual elements but not their specific layered arrangement on multiple waveguides."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty (claim 9)",
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 teaches optical waveguide with light extraction elements, light scattering particles, and surface relief features. However, the specific layered arrangement where 'second marking material is formed ON first marking material' is not explicitly disclosed. The reference teaches light scattering particles 'disposed between' components, but this does not clearly read on a distinct layer formed on another marking material. The coverage score of 0.71 indicates substantial but incomplete overlap. The anticipation requires all elements arranged as claimed, and the specific layered structure is questionable."
+        },
+        {
+          "basis": "102_novelty (claim 17)",
+          "strength": "moderate",
+          "reasoning": "Similar to claim 9, US-2018113244-A1 teaches the functional elements but the specific three-layer arrangement where 'third marking material is formed ON second marking material' is not explicitly disclosed. The reference teaches light scattering particles between reflector and sheet, but this does not necessarily read on the claimed layered structure. The coverage score of 0.71 indicates substantial but incomplete overlap. The anticipation is questionable due to the specific structural arrangement not being clearly taught."
+        },
+        {
+          "basis": "103_obviousness (claims 3-8, 11-16, 19-20)",
+          "strength": "strong",
+          "reasoning": "The obviousness rejections are well-supported. (1) White color for light scattering is conventional knowledge in optics - this is basic technical knowledge that white materials provide optimal scattering. (2) The application's own background identifies monochromatic limitation as a problem, making colored marking materials an obvious solution. (3) Ink vs. toner selection is a routine design choice in printing technology. The combination of known elements (optical waveguide structure from US-2018113244-A1 + color selection from common knowledge) according to known methods (printing) would yield predictable results. The Graham factors support obviousness: the differences are minor design choices, and a PHOSITA would be motivated to make these selections."
+        },
+        {
+          "basis": "112(d) objection (claims 3-8)",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend from canceled claim 1, which creates a clear 35 U.S.C. 112(d) issue. These claims lack proper antecedent basis and must be corrected by reinstating claim 1, rewriting in independent form, or depending on a valid base claim. This is a formal defect that must be addressed."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend on canceled claim 1, creating a fundamental structural defect. This is not a matter of interpretation but a clear violation of 37 CFR 1.75(c). The claims lack proper antecedent basis and cannot be examined on the merits until this defect is cured. This is a strong, non-discretionary rejection ground."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The 102 rejections of claims 9 and 17 are based on US-2018113244-A1, but critical elements are not explicitly disclosed. For claim 9, element 9c ('second marking material formed on a portion of said first marking material') has 0.0 similarity and is inferred from 'disposed between' language. For claim 17, element 17f ('third marking material formed on said second marking material') is similarly inferred. The novelty analysis itself acknowledges these are 'minor variations' and relies on inference rather than explicit disclosure. Under 102, anticipation requires each element to be disclosed, not merely suggested. The evidence for 102 is weak; these should be evaluated under 103 instead."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections have merit but involve some interpretive leaps. For claims 3, 11, 19 (white marking material): the reasoning that white materials are 'common sense' for light scattering is logical, but US-2018113244-A1 does not explicitly teach white color, and the specification does not provide evidence that white is conventional in this specific context. This is a reasonable inference but not conclusive. For claims 4, 5, 7, 8, 12, 13, 15, 16, 20 (ink/toner): the reasoning that ink and toner are 'routine design choices' is sound, but there is no evidence in the record that these specific forms were known or obvious in the context of optical waveguide marking materials. For claims 6, 14 (colored marking materials): the applicant's own specification acknowledges the monochromatic limitation as a known problem, which strengthens the obviousness case. For claims 9, 17 (layering): the reasoning that layering is a 'well-known technique' is plausible, but US-2018113244-A1 does not explicitly teach the specific layering arrangement claimed. The combination_threshold=0.44 suggests a lower bar for obviousness, but the evidence is not overwhelming. Overall, the 103 rejections are moderate in strength—they have logical support but involve some inferential steps and lack direct evidence of the specific combinations being obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend on canceled claim 1, creating a clear indefiniteness issue under 35 U.S.C. 112(b). This is a formal defect that must be addressed. Additionally, claim 6 introduces 'third marking material' without proper antecedent basis, and claims 7-8 have ambiguous antecedents ('said non-white colored marking material' when claim 6 recites two different non-white materials). These are clear 112 issues with strong basis."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections rely heavily on the argument that using white or colored materials, and choosing between ink/toner, are 'routine design choices' or 'predictable variations.' While US-2018113244-A1 does disclose optical waveguides with light extraction elements and light scattering particles, the specific layered structures claimed (e.g., 'second marking material formed ON first marking material' in claims 3-8, or the three-layer structure in claims 9-17) are not explicitly disclosed. The obviousness analysis depends on: (1) whether white/colored material selection is truly obvious (moderate strength - white materials for reflectivity are known, but the specific application may not be obvious), (2) whether ink/toner selection is obvious (moderate-to-weak strength - this is a very routine substitution), and (3) whether the specific layered arrangements are obvious combinations (moderate strength - the prior art teaches the individual elements but not the specific layering). The combination motivation is present but not overwhelming. Given my strictness of 0.42 (slightly lenient), I would view these as moderate-strength rejections that could go either way depending on applicant's response."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses light scattering particles but does not explicitly disclose 'white marking material'. The obviousness relies on common knowledge that white materials maximize scattering efficiency. While this is technically sound reasoning, the prior art does not explicitly teach or suggest white material. The combination motivation is based on general principles rather than explicit teaching. Given strictness=0.52 (neutral), this moderate-strength rejection should be maintained but could be overcome with evidence of unexpected results or technical advantages specific to white material."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            7,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Applicant's own specification acknowledges that colored materials were known to overcome monochromatic limitations. This admission significantly strengthens the obviousness rejection. The prior art teaches the optical structure, and the applicant admits the solution was known. The selection of ink/toner is routine. This is a strong rejection with clear motivation to combine."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            11,
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 teaches surface relief features and scattering particles separately, and teaches layered structures. The specific three-layer arrangement (first marking material, second on first with scattering particles, third on opposite surface) requires combining these teachings. The coverage_score=0.71 indicates substantial but not complete overlap. Element 9c (second material formed on first material) is not explicitly covered. The combination motivation is logical (complementary light extraction mechanisms) but requires a step of reasoning. Given strictness=0.52, this moderate-strength rejection should be maintained, but the applicant could argue the specific configuration is not taught or suggested."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            14,
+            15,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "This combines the moderate-strength rejection of claim 9 with the strong rejection basis for colored materials (claims 6-8). The combination is logical and well-motivated. The applicant's admission regarding colored materials strengthens this rejection significantly."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "The use of multiple waveguides is characterized as 'straightforward scaling' but US-2018113244-A1 does not explicitly teach multiple waveguides. Element 17f (third material formed on second material) is not covered. The motivation relies on general knowledge that stacking increases brightness, which is reasonable but not explicitly taught. The combination requires multiple inferential steps. Given strictness=0.52, this moderate-strength rejection should be maintained but could be challenged."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "claims": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend on canceled claim 1, creating a clear 112(d) violation. This is a procedural defect with no ambiguity. However, this is easily correctable by amendment (rewriting in independent form or redirecting dependency). This should be maintained as a formal objection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses optical waveguide with light extraction elements, surface relief features, and light scattering particles. The primary differences are: (1) specific three-layer structure with second material formed ON first material, and (2) light scattering particles embedded IN second material specifically. While layering materials and embedding particles are known techniques in optical display art, the specific claimed arrangement (second material with embedded particles formed on first material, both on same surface, plus third material on opposite surface) represents a particular structural configuration. The combination motivation is logical (optimizing light extraction), but the prior art shows particles 'disposed between' surfaces, not embedded in a layer formed on another layer. The obviousness determination depends on whether PHOSITA would predictably arrange these elements in the specific claimed structure. Given my moderate strictness (0.60) and the moderate evidence strength, this is a borderline case. The combination is plausible but not explicitly taught. Material selections (white, colored, ink, toner) in dependent claims are routine choices, making those claims more obviously obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses single optical waveguide structure. Claim 17 requires plurality of waveguides and three-layer structure on back surface (second material on back, third on second with light scattering). The application's own background mentions 'several pieces of acrylic' for multi-color displays, indicating multi-waveguide systems are known. However, this is applicant's own disclosure, not prior art. Using applicant's background as evidence of common knowledge is acceptable but weaker than independent prior art reference. The combination of multiple waveguides with specific back-surface layering (second and third materials) is logical for multi-color capability and optical control, but the specific structural arrangement is not explicitly taught in US-2018113244-A1. The obviousness depends on whether the combination would have been predictable. Given moderate evidence and my strictness level, this is borderline."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "claims": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 3-8 depend from canceled claim 1. Under 35 U.S.C. 112(d), dependent claims must incorporate limitations of the claim to which they refer. Since claim 1 is canceled, these claims lack proper antecedent basis and their scope cannot be determined. This is a clear-cut 112(b) indefiniteness issue. However, this is a formal defect that can be easily corrected by rewriting claims in independent form or changing dependency. This is not a substantive rejection of the invention itself, but a claim drafting issue."
+        }
+      ]
+    }
+  ]
+}

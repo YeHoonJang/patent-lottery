@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for all §103 rejections, and the novelty stage uses element-by-element anticipation analysis for §102 findings."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "All rejections and allowances cite specific prior art (US-2013235152-A1), reference specific claim elements (e.g., 'track reference type deps,' 'view identifier box,' '3VC Depth Resolution box'), and link conclusions to disclosed features of the prior art."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings — claims found non-novel at §102 are confirmed obvious at §103, while claims found novel at §102 (claims 5, 6, 7, 12, 13) are found non-obvious at §103 and allowed, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.461 and combination_threshold of 0.222 (easy combiner), the examiner appropriately rejects claims based on relatively weak or implicit prior art disclosures (e.g., 'implies the need for view identification metadata') without requiring explicit disclosure, consistent with a low combination threshold and moderate strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1–4, 8–11, 14–15 and allow claims 5, 6, 7, 12, 13 directly follows from the cumulative §102/§103 analysis, with the summary explicitly tying the rejection strength to the prior art evidence and acknowledging the moderate strictness level."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018007664",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17335,
+      "output_tokens": 433,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

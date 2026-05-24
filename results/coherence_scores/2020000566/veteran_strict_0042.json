@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently invokes Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations, motivation to combine) for every claim, and the office action explicitly grounds rejection in 35 U.S.C. § 103 obviousness rather than misapplying another statute's framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout each claim's obviousness analysis, the examiner cites specific disclosures from US-2015142940-A1 (e.g., 'information concentrator,' 'dynamic resource allocation,' 'plugin modules,' 'CPU usage and network traffic') and maps them to specific claim elements, satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claim 3 was found non-novel at §102 (anticipating ref US-2015142940-A1), and then also rejected as obvious at §103—consistent because a finding of anticipation logically supports obviousness; all other claims found novel at §102 are then subjected to §103 analysis using the same reference, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.793 and combination_threshold at 0.335, the examiner's sweeping rejection of all claims (2–20) under §103 using a single reference plus common general knowledge, and reliance on weak motivation-to-combine rationale ('common sense,' 'standard practice') consistent with a low combination threshold, reflects the profile's tendency toward rejection on ambiguous evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims under §103 follows directly and without contradiction from the obviousness stage findings, which uniformly determined all claims obvious, and the office action rejecting all claims 2–20 on the same basis, with explicit weighing of the §103 strength as 'strong' in the final decision."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000566",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13047,
+      "output_tokens": 468,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

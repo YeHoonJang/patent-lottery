@@ -1,0 +1,388 @@
+{
+  "case_id": "2020001492",
+  "proceeding_number": "2020001492",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected under 103 with high confidence (0.76-0.85) based on clear prior art combinations and explicit/implicit disclosures. The combination threshold is met with specific motivations and Graham factors."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1,3,5,7,10,12,15 are explicitly anticipated by prior art references with high confidence (0.72-0.85). The prior art fully covers all claim elements."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1's objection is based on vague terms like 'property' and 'playback parameter' which lack sufficient description in the specification, though the issue is specific and not purely speculative."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015243325-A1의 운동 분석 기술과 프레임 레이트 조정 기술의 결합은 기술적 통상성에 부합하며, 결합 동기(최적화된 플레이백)가 명확함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2015243325-A1의 위치 정보 기반 유사도 측정이 이미지 유사도 분석에 대한 변형으로 간주되나, 기술적 통상성의 확정성은 다소 부족함"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015243325-A1 및 US-2011217019-A1가 청구항의 핵심 요소를 명시적으로 포함하며, 커버리지 점수 0.7 이상으로 명확한 중복 확인됨"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항의 'property' 및 'playback parameter' 용어에 대한 명세서 뒷받침이 제한적이지만, 이는 단일 청구항에 국한된 문제"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are explicitly or implicitly covered by the combination of US-2011217019-A1 and US-2015243325-A1, with clear motivation to combine for improved video curation. Confidence levels (0.75-0.95) and combination threshold (0.68) strongly support obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art US-2015243325-A1 and US-2011217019-A1 explicitly disclose all elements of the claims, including frame rate adjustment, content analysis, and audio synchronization. The combination is supported by clear motivation to optimize video curation, meeting the combination_threshold=0.72."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguity in terms like 'property' and 'image quality metric' exists, but the specification provides some foundational analysis. Under moderate BRI, these terms may be interpreted broadly, reducing the severity of the issue."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3 is directly supported by US-2015243325-A1's frame rate adjustment for compilation videos. The prior art explicitly discloses the core mechanism (frame timing adjustments), and the motivation to combine is logical (aligning content relevance with playback parameters). The combination threshold (0.45) is well below the confidence score (0.8), making the obviousness strong."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 1's terms 'property' and 'playback parameter' lack sufficient definition in the specification. The disclosure focuses on specific implementations without concrete examples or boundaries, creating indefiniteness under 35 U.S.C. §112(b). This is a clear written description issue."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011217019-A1과 US-2015243325-A1은 청구항의 핵심 기능(분석, 플레이리스트 생성, 관련성 점수 기반 선택)을 명시적으로 포함하며, 결합 동기(동일한 기술적 목적)와 구체적 기능 대응도가 높아 명확한 당업자 통상적 결합 가능성이 인정됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 '이미지 속성 분석', '플레이백 매개변수 결정' 등 추상적 용어가 명세서에 충분히 뒷받침되지 않아 해석의 여지가 있으나, 기술적 통상자에게는 당연한 이해가 가능할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015243325-A1 and US-2011217019-A1 directly anticipate core elements of claims 1, 3, 5, 7, 8, 11, 13, 15, 16, 20. Coverage scores (0.76-0.9) and combination threshold (0.46) confirm obviousness. Motion-based relevance scoring and playlist creation are explicitly taught in prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'property', 'playback parameter', 'image similarity', 'photo story', and 'audio property' lack explicit definition in the specification. While the claims are indefinite, the specification's abstract and figures may provide some support under broad BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses combining metadata analysis with playback parameter adjustments (US-2015243325-A1), with clear motivation for optimization. Confidence score of 0.8 indicates strong support for obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Multiple claims are anticipated by prior art with coverage scores ≥0.7, but some elements (e.g., 'property' definition) show ambiguity. Confidence varies between 0.7-0.9."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'property' lacks sufficient definition, leading to indefinite claims under 35 USC 112(b). This is a clear deficiency requiring rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 결합 동기와 기술적 통합이 명확히 제시되어, 결합 동기 기준(0.22)을 충족하며 실질적인 공지기술의 적용 가능성이 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 용어의 명확성 부족은 기술자에게 구현 가능성을 제한하지만, 명세서 부재가 아닌 청구항 자체의 모호성에 기반하여 판단해야 함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected under 103 with clear prior art combinations (e.g., US-2015243325-A1 + US-2011217019-A1) and explicit motivations to combine (e.g., improving video organization). Confidence levels (0.7-0.9) and Graham factors support strong obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'property' in claim 1 lacks clear definition in the specification, but the issue is not explicitly addressed in the provided data. This creates ambiguity under 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1과 US-2011217019-A1의 결합 가능성은 명확히 제시되었으며, 결합 동기(메타데이터 기반 동영상 편집 기술 통합)도 구체적으로 설명됨. 모든 청구항에 대한 103 근거가 강력한 증거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 5-20) are rejected based on clear combination of US-2015243325-A1 and US-2011217019-A1, with confidence scores ≥0.7. The combination threshold (0.52) is exceeded, and motivations to combine are explicitly stated in Graham factors."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1's 'property' term lacks sufficient definition in the specification, but the Office Action's verification note indicates partial alignment with prior art. This creates ambiguity in the written description requirement."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015243325-A1) explicitly discloses metadata-driven video compilation with subset selection and playback optimization, including frame rate adjustment as an inherent optimization. The combination of these elements is obvious to a PHOSITA with high confidence (0.85)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015243325-A1 explicitly discloses all elements of claims 1 and 3, with a combination confidence of 0.85. The Graham factors confirm the combination is obvious to a PHOSITA, meeting the strictness threshold of 0.57."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are anticipated by US-2015243325-A1 with coverage scores ≥0.65, exceeding the strictness threshold. The prior art explicitly discloses each claimed element."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The term 'property' in claim 1 lacks sufficient definition, but this is a minor ambiguity without clear evidence of indefiniteness."
+        }
+      ]
+    }
+  ]
+}

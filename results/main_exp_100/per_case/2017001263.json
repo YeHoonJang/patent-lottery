@@ -1,0 +1,543 @@
+{
+  "case_id": "PILOT-2017001263",
+  "proceeding_number": "2017001263",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 4, and 8 are directly anticipated by US-2013275320-A1. The reference explicitly discloses measurement profiles via skills and experience (Claim 3), human resource replacement context (Claims 1, 4), social graph connections as mapping (Claim 1), and ranked list generation (Claim 6). These disclosures satisfy the legal standard for anticipation under 102 with high confidence (0.85–0.96)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 5, 6, 7, and 9 are obvious over US-2013275320-A1. The inclusion of roles/activities, lookup tables, structured/unstructured data, and psychometric profiles represents predictable extensions of the prior art. These elements are either inherent in professional profiles or standard practices in HR analytics and database design. Motivation to combine is well-supported by the reference’s goal of improving candidate matching. Confidence levels range from 0.80 to 0.85, supporting a strong obviousness case."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2의 measurement profile은 US-2013275320-A1의 기술적 내용과 명확히 중첩되며, PHOSITA 기준에서 자명한 조합. 동기와 그레이엄 요소 모두 강함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3, 4, 8은 선행기술에 명시적으로 개시되어 있어 신규성 결여가 명확함. anticipation의 요건을 충족."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 5의 roles and activities는 professional experience와 skills의 자연스러운 확장으로, 사회적 관계 맥락에서 자명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6의 lookup table은 공지된 데이터 구조이나, 명세서에서 특수한 구현 방식이나 성능 향상이 강조되지 않아 자명성 판단은 보통 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7의 structured/unstructured data 조합은 HR 시스템에서 일반적이지만, 그래프 내 통합 표현에 대한 직접적 개시 부족. 그러나 공지기술 결합으로서 자명성은 유지됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 9의 psychometric profile은 skills와 experience의 확장으로 해석 가능하나, attitude, sentiment 분석은 추가적 해석 필요. 그러나 HR 분야에서의 공지 활용으로 자명성 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 2의 measurement profile은 선행기술에서 기술된 기술, 경력, 연결 강도 등을 포함하나, 이를 기존 채용 시스템에서 벗어나 '최적화된 자원 대체'라는 새로운 맥락에서 사용하는 점에 기술적 기여 가능성이 있음. 그러나 선행기술이 동일한 구성요소를 사용하고 있어 자명성 판단에 약간의 여지 있음. 심사관 성향(strictness=0.25)에 따라 출원인에게 유리한 해석 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5의 역할 및 활동 포함은 선행기술의 직무 경험 및 기술 정보와 유사하나, 이를 그래프 기반 관계 분석에 통합한 점에서 약간의 추가적 기여 가능. 그러나 PHOSITA가 통상적으로 고려할 수 있는 확장으로 보는 것이 일반적. 강도는 보통."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 6의 lookup table은 데이터 검색을 위한 일반적인 기술로, 선행기술의 '정보 소스 쿼리' 기능이 이를 암시한다고 보는 것은 과도한 해석 가능. 구조적 차이 없고, 단순한 구현 수단에 불과하므로 자명성 근거로 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7의 구조화/비구조화 데이터 포함은 현대 HR 시스템의 일반적 경향이지만, 선행기술이 비구조화 데이터를 직접 개시하지 않음. NLP 및 분석 도구 사용은 공지된 기술이나, 명시적 통합은 아님. 자명성 판단은 보통 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 9의 심리측정 프로파일 중 태도, 성격, 감정 분석은 선행기술에 명시되지 않으며, 기술 및 경력 정보만으로는 충분히 예측되지 않음. 현장의 추세라고는 하나, 통합의 동기와 기술적 효과 입증 부족. 자명성 근거로 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 2's measurement profile is closely aligned with US-2013275320-A1's disclosure of skills, experience, and connection strength. While the prior art supports the use of such metrics, the specific framing as a 'measurement profile' could be viewed as a minor abstraction rather than a technical advance. Given the low strictness and purposivist approach, this is not a strong obviousness case."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5's 'roles and activities' is implicitly supported by professional experience and skills in the prior art. However, the explicit modeling of roles and activities as graph elements adds a layer of structure not clearly emphasized in the reference. The motivation to combine is plausible but not compelling, making this a moderate obviousness finding."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 7's inclusion of structured or unstructured data is a generic characteristic of modern data systems. While the prior art uses structured profiles, the claim does not introduce a novel data-handling technique. This limitation is routine and conventional, and rejecting it under 103 is weak given the broad interpretation and low technical specificity."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 9's 'psychometric profile' terminology is broader than the prior art's use of skills and connection strength. While psychometric assessment is known in HR, the prior art does not explicitly teach or suggest measuring personality traits or attitudes. The overlap in knowledge and abilities is present, but the extension to full psychometric profiling is not strongly supported, making this a moderate obviousness conclusion."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2's 'measurement profile' is functionally equivalent to the skills, experience, and connection strength metrics in US-2013275320-A1. The reference explicitly uses quantifiable attributes for candidate evaluation, and a PHOSITA would recognize this as a measurement profile. The similarity score of 0.85 and high confidence in obviousness (0.85) support a strong conclusion."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3's limitation to human resources is directly disclosed in US-2013275320-A1, which specifies employees and prospective candidates. The explicit match with high confidence (0.95) constitutes strong anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 4's 'mapping between entities via social links' is explicitly taught as 'social graph connection information' in the reference. The disclosure is direct and unambiguous, supporting a strong novelty rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5's inclusion of roles and activities is implied through professional experience and skills in the reference. While not explicitly stated, these are standard components of professional profiles. Given the PHOSITA's knowledge, this is a moderate obviousness rejection, but with some interpretive leeway."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6's 'lookup table' is not explicitly disclosed, but querying information sources implies database structures. Lookup tables are common in data retrieval systems, making this an obvious implementation choice. However, the leap from querying to a specific data structure introduces moderate uncertainty."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7's structured/unstructured data distinction is not explicitly addressed in the reference, but user profiles inherently involve such data. Modern systems routinely handle both types, so this is an obvious extension. However, the lack of explicit disclosure makes this a moderate rather than strong rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 8's ranked list is directly disclosed in the reference's ranking of candidates and generation of summaries. The correspondence is explicit and complete, supporting a strong novelty rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 9's psychometric profile extends beyond the reference’s skills and experience to include personality and sentiment. While psychometric analysis is known in HR, its combination with social graph data is not explicitly motivated in the prior art. The combination threshold of 0.45 allows for this obviousness finding, but it relies on inference, making it moderate in strength."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, and 8 are directly and explicitly anticipated by US-2013275320-A1. The reference discloses human resource identification, graph-based social link mapping, and ranked candidate summaries—all functionally identical to the claimed features. Anticipation is clear under broadest reasonable interpretation (BRI), with no meaningful distinction in scope or function."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 5, 6, 7, and 9 are based on combinations that would have been obvious to a PHOSITA. The prior art already uses skills, experience, and connections for candidate evaluation. Extending this to measurement profiles, role-based graphs, lookup tables, mixed data types, and psychometric data represents predictable improvements using well-known techniques in HR analytics. Motivation to combine is clearly articulated in the prior art's goal of improving candidate suitability."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2's measurement profile is clearly rendered obvious by US-2013275320-A1's use of skills, experience, and connection strength as ranking criteria. These are measurable attributes used for candidate evaluation, which constitutes a measurement profile. The motivation to combine is strong and within the scope of routine HR analytics practices."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3's limitation that entities are human resources is explicitly disclosed in the prior art, which focuses on employees and prospective candidates. The reference directly anticipates this feature with no ambiguity."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 4's social link mapping is explicitly taught via 'social graph connection information' between users. The disclosure matches the claimed structure and function precisely, supporting a strong anticipation finding."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5's inclusion of roles and activities is implied through professional experience and skills in the prior art. While logical, the explicit representation of roles and activities as graph elements involves some interpretation. Given the examiner's moderate strictness (0.47), this remains an obviousness rejection but with slight interpretive stretch."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6's lookup table is a generic implementation of database querying, which is inherent in the prior art's profile retrieval. However, the term 'lookup table' adds a layer of abstraction not explicitly detailed. This is a routine technical implementation, so obviousness holds under broadest reasonable interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7's structured/unstructured data is supported by typical user profile content (job titles, bios). The prior art does not explicitly categorize data types, but their presence is implicit. This constitutes a predictable use of known data formats, justifying obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 8's ranked list is explicitly disclosed in the prior art's ranking and summary generation of candidates. The functional equivalence is direct and unambiguous, supporting a strong anticipation conclusion."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 9's psychometric profile extends known attributes (skills, experience) to include personality and sentiment. While not explicitly named, such factors are common in HR analytics. The extension is predictable, though slightly broader than the reference. At strictness=0.47, this supports obviousness without requiring benefit of the doubt."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 2, 5, 7, 9에 대한 obviousness 거절은 선행기술과의 기능적 유사성 및 PHOSITA 관점에서의 결합 동기가 명확하며, HR 분석 분야의 일반적 관행을 반영하고 있어 증거 강도가 높음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 4는 선행기술 US-2013275320-A1에서 'social graph connection information'을 통해 모든 구성요소가 명시적으로 개시되어 신규성 결여가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 6의 'lookup table' 구현은 공지된 데이터 구조 사용으로 간주되나, 특수한 기술적 효과나 문제 해결 기여도가 명시되지 않아 obviousness 판단은 합리적이나 약간의 해석 여지 존재. 심사관 성향(strictness=0.55) 상 거절 유지 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 2, 5, 7, 9에 대한 103 거절은 선행기술이 측정 프로파일, 역할 및 활동 정보, 구조화된 데이터 사용, 심리측정 프로파일의 핵심 요소를 개시하며, 통상의 기술자에게 이러한 확장이 자명하다는 동기가 명확하므로 강한 근거 있음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 3, 4, 8은 선행기술 US-2013275320-A1에 명확하고 직접적으로 개시되어 있어, 신규성 결여에 대한 증거가 명확하고 해석의 여지가 적음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 4 is directly anticipated by US-2013275320-A1, which explicitly discloses a social graph connection between an employee and a prospective candidate, constituting a mapping between entities. The disclosure is clear and specific, satisfying the anticipation standard under 35 U.S.C. § 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 5, 6, 7, and 9 are supported by strong obviousness reasoning. The prior art discloses professional experience and skills (roles/activities), querying mechanisms (lookup table), and structured professional data. The claimed features are either directly implied or represent routine implementation choices in HR analytics systems, with clear motivation to combine for improved accuracy."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 9’s inclusion of personality traits and sentiment analysis extends beyond the prior art’s focus on skills and experience. While the reference supports knowledge and abilities, the full psychometric profile is not fully disclosed. However, given the trend in HR analytics, expanding to such metrics is a predictable evolution, making the claim likely obvious but with some interpretive stretch."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 4, and 8 are clearly anticipated by US-2013275320-A1, which explicitly discloses measurement profiles, human resource entities, social link mappings via social graphs, and ranked candidate lists. The disclosure in the reference is direct and unambiguous, satisfying the requirements for anticipation under §102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 5, 6, and 7 involve limitations that are either inherent in or obvious variants of the prior art. Professional experience and skills inherently reflect roles and activities (claim 5); lookup tables are standard in database queries (claim 6); structured data in profiles satisfies the data format limitation (claim 7). The motivation to combine is within ordinary skill in HR analytics and data systems."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 9 introduces 'sentiment analysis of the entity' without adequate written description support in the specification. There is no detail on implementation, data sources, or integration methods. A PHOSITA would not recognize possession of this specific feature, making the written description rejection valid under §112(a)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The expansion of the measurement profile to include psychometric elements like personality and sentiment in claim 9 is a logical extension of HR analytics trends. While psychometric profiling is known, the specific integration of sentiment analysis is less directly supported in the reference. However, given the direction of the field and the motivation to improve team fit, the obviousness conclusion holds under a moderate standard."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2's measurement profile based on skills, experience, and connection strength is explicitly used in US-2013275320-A1 for candidate evaluation. The motivation to combine is inherent in the reference’s purpose of improving candidate matching, and the implementation is within routine skill. Confidence is high (0.85), and the feature is common in HR analytics."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3's limitation to human resources is directly disclosed in US-2013275320-A1, which focuses entirely on employee and candidate identification. The reference explicitly defines both entities as human resources, leaving no ambiguity. Anticipation is clear and unambiguous (confidence 0.9)."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 4's graph-based representation of social links and mapping is explicitly disclosed as 'social graph connection information' in the reference. The structure and function are identical, with no meaningful difference. The anticipation is direct and strong (confidence 0.9)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5's inclusion of roles and activities is implied through skills and experience in the prior art. While a PHOSITA would understand these as related to roles, the explicit use in a graph is not directly disclosed. However, integrating such common professional attributes into a social graph is a logical extension, making the obviousness determination reasonable but not ironclad (confidence 0.8)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6's lookup table mapping is a functional equivalent of querying user profiles by employer data. While lookup tables are conventional, the claim adds specificity. The reference supports the function, but the structural mapping as a 'table' introduces slight abstraction. This is an obvious implementation but relies on interpretation (confidence 0.75)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7's inclusion of unstructured data is not disclosed, but structured data is. The disjunctive 'or' means structured data alone satisfies the claim. However, asserting obviousness of unstructured data inclusion leans on general knowledge. This is a reasonable extension but less compelling than direct disclosure (confidence 0.7)."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 8's ranked list is directly anticipated by the reference’s explicit ranking of candidates and generation of summaries reflecting that ranking. The functionality and output are identical. This is a clear case of anticipation (confidence 0.95)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 clearly discloses ranking employees based on skills, experience, and connections, which constitutes a measurement profile. The motivation to apply this in a resource replacement context is well-supported, with high confidence (0.85) and functional overlap. This is a strong obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 5's inclusion of roles and activities is inherently supported by the prior art's use of professional experience and skills. The difference is merely one of explicitness, and a PHOSITA would readily associate these attributes with roles and activities. Confidence is 0.8, and the Graham factors support obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While querying user profiles implies a lookup table, the explicit recitation of a 'lookup table' as a data structure is a specific implementation. Although common in database systems, the reference does not explicitly disclose this structure. Confidence is 0.75; given strictness=0.52, this is moderately strong but allows for some doubt."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The use of structured data is clearly implied in US-2013275320-A1 via queryable user profiles. However, the extension to unstructured data, while predictable, is not directly disclosed. The argument relies on general knowledge in the art. Confidence is 0.7; this is a moderate obviousness rejection under the examiner’s neutral bias."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Psychometric profiling and sentiment analysis are not disclosed in the reference, though skills and experience are. The motivation to combine relies on the general use of such tools in HR. While plausible, it involves some extrapolation. Confidence is 0.7; under strictness=0.52, this is moderately strong but not conclusive."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 4, and 8 are directly anticipated by US-2013275320-A1 with explicit disclosures in the prior art, including measurement profiles, HR replacement context, social graph mappings, and ranked candidate lists. The correspondence is clear and supported by specific paragraphs and claims, resulting in high-confidence anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 5, 6, 7, and 9 are based on implicit extensions of the prior art. While the use of roles/activities, lookup tables, structured data in graphs, and psychometric profiles are reasonable inferences, they rely on BRI and design choices rather than explicit disclosure. However, under PHOSITA knowledge and common practices in HR analytics and database systems, these are predictable variations. Given strictness=0.60, these are deemed sufficiently supported."
+        }
+      ]
+    }
+  ]
+}

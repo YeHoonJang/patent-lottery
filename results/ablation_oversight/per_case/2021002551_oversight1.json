@@ -1,0 +1,411 @@
+{
+  "case_id": "ABL-2021002551",
+  "proceeding_number": "2021002551",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "reject_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1이 claim 10의 구조적 및 기능적 구성요소를 실질적으로 개시하며, 미세구조에 의한 마찰 계수 차이는 표면 공학 분야의 통상적 지식으로 자명함. finger-guiding haptics도 동일한 목적의 촉각 피드백으로 간주 가능. 결합 동기 없이 단일 선행기술로도 obvious 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "UV 경화 코팅 재료는 공지기술로 널리 사용되며, 선행기술의 공정과 호환됨. 다만, 명세서에서 특별한 효과를 주장하지 않아 창의성 결여로 보는 것이 타당하나, 재료 치환에 대한 2차적 고려사항 부족은 해석의 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "UV 경화 페인트는 자동차 코팅 분야에서 일반적이나, 피부층의 미세구조 형성에 특별히 적용된 사례는 명확하지 않음. 그러나 통상의 기술자 수준에서 예측 가능한 선택으로 간주 가능하나, 직접적 증거는 제한적."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "잉크젯 잉크 사용은 공지기술이지만, US-2013101804-A1과의 결합 동기 부족. 잉크젯 프린팅 기반의 직접 형성은 새로운 제조 패러다임으로, obvious 판단에는 과도한 추측 필요. 다만, 공정 발전 방향상 자명하다는 주장은 일부 타당."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "엠보싱 공정은 선행기술에 명확히 개시됨. UV 경화 페인트 사용은 공정과 재료의 일반적 조합으로, 산업적 관행상 자명하다고 보는 것이 합리적이나, 명세서상 추가 효과 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "사용 방법은 제품의 기능적 특성에서 자연스럽게 유도됨. 동일한 구조에 대해 동일한 사용은 자명하며, intended use에 불과함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대시보드 등 응용은 US-2012268412-A1에서 vehicle user interface로 일반화하여 개시. 특정화는 예측 가능한 응용이나, 명확한 시사 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "자동차는 vehicle의 일반적 하위 유형이나, 본 출원이 자동차에 특화된 기술적 개선을 주장하지 않아, 특허성 부여는 어려움. 그러나 단순 선택으로서의 obvious 판단은 다소 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대한 103 거절 근거가 선행기술과 명확한 결합 동기, 기술적 맥락, 그리고 공지기술 기반의 예측 가능성으로 뒷받침됨. 특히 claim 10은 두 선행기술의 결합이 명확하며, 나머지 종속 청구항들은 재료 및 제조 방법의 선택이 모두 산업 표준 관행 내에 있음. UV-curing 재료, 잉크젯 프린팅, 엠보싱 공정 등은 모두 해당 분야에서 통상의 기술자에게 자명한 변형으로 간주될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2013101804-A1 and US-2012268412-A1 provides a logical basis for combining microstructured surfaces with variable friction characteristics. However, the references rely on different mechanisms—passive physical structures versus active electrostatic control—and do not suggest a durable, passive surface with spatially differentiated friction via microstructures alone. The motivation to combine is supported by a common goal of enhancing tactile guidance, but the technical implementation differs significantly. Given the examiner's lenient stance (strictness=0.25) and purposivist interpretation favoring innovation, this obviousness rejection is not strong enough to deny patentability outright, especially where material and process innovations in dependent claims show non-obvious advantages."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 10에 대한 진보성 거절은 선행기술 조합에 기반하며, 동일 분야에서 공통 목적을 가지므로 결합 동기가 존재하나, 서로 다른 슬라이딩 마찰 계수를 갖는 마이크로구조 영역의 실질적 통합이 자명한지에 해석의 여지 있음. 특히 UV 경화 재료와의 조합은 고려되지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 14에 대한 거절은 엠보싱 공정의 일반성에 기반하나, UV 경화 코팅 물질 사용은 단순한 재료 대체로 보기 어려우며, 경화 특성과 마이크로구조 형성 간 상호작용이 예측 불가능할 수 있음. 따라서 자명성 판단은 보수적 해석 필요."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 17, 18, 19에 대한 거절은 선행기술의 일반적 적용에 기반하나, '제어 요소의 캐리어 또는 클래딩'으로서의 사용, 특정 차량 부품으로의 적용은 청구항의 범위를 과도하게 확장한 일반화로 볼 수 있음. 명시적 개시가 있더라도 신규한 기술적 기여가 배제된 것은 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "UV 경화 코팅 및 페인트는 자동차 및 산업 코팅 분야에서 널리 사용되는 공지된 재료이며, US-2013101804-A1의 코팅 공정에 적용하는 것은 통상의 기술자에게 명백한 설계 선택임. 결합 동기와 기술적 이점이 명확하므로 근거 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 14 및 15에 대해 US-2013101804-A1과 공지된 일반 지식의 결합은 명확한 동기 존재. UV 경화 코팅 및 페인트는 산업적으로 널리 사용되며, 엠보싱 공정과의 호환성은 통상의 기술자에게 자명함. 공정 효율성 및 패턴 유지성 향상은 결합 동기를 강화함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 17–19 are directed to uses and applications that are explicitly disclosed or obvious over US-2013101804-A1, either alone or in combination with US-2012268412-A1. The motivation to combine is clear and supported by the purpose of enhancing haptic feedback in control interfaces. The application to vehicles, dashboards, and automobiles is directly suggested in the prior art, making these claims unpatentable under §103 with high confidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 11, 14, 16, and 17 suffer from indefiniteness and/or enablement issues. The phrase 'made of' in claim 11 creates ambiguity about compositional exclusivity not resolved by the specification. Claim 14 broadly claims 'applying microstructures' without limiting method or conditions, while the specification only supports embossing and inkjet printing, leading to undue experimentation. Claim 16 lacks clarity on whether inkjet printing directly forms microstructures or requires post-processing, raising indefiniteness and reproducibility concerns. These are clear §112 deficiencies."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 10 is rejected under §102 as anticipated by a combination of references. However, anticipation requires a single reference or an inherently disclosed combination. While the combination discloses all elements under broadest reasonable interpretation, the integration of friction variation (from US-2012268412-A1) into the structured surface of US-2013101804-A1 may require a combining step, making this more appropriate as an obviousness rejection. Thus, the §102 basis is weaker than §103."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 11–16에 대한 obviousness 판단은 공지기술과 일반 지식의 결합에 기반하나, UV 경화 재료의 특정 사용(페인트, 잉크젯 잉크) 및 그에 따른 제조 방법은 단순한 설계 선택인지 여부에 해석의 여지 존재. 특히 잉크젯 프린팅을 통한 미세구조 형성은 정밀도와 유연성 측면에서 기술적 이점이 있을 수 있으나, 출원인이 unexpected result를 주장하지 않아 강한 거절 근거로 보기 어려움. strictness=0.55 수준에서 moderate로 평가."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 18–19의 자동차 내 적용에 대한 obviousness는 일반적인 사용자 인터페이스 기술을 특정 산업 환경에 적용한 것으로, 자동차의 안전성, 내구성, 환경적 제약을 고려하면 당업자의 통상적 기술 수준에서 자명하다고 단정하기에 다소 약한 근거. 그러나 automotive 인테리어에서의 촉각 피드백 중요성은 널리 인지된 사실이므로, 전반적으로 moderate 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 10은 두 선행기술의 결합으로부터 명백하게 도출되며, 공통된 기술적 과제와 결합 동기가 명확함. US-2013101804-A1의 미세구조와 US-2012268412-A1의 마찰 계수 시뮬레이션이 촉각 피드백 향상이라는 동일한 목적을 공유하므로, 결합은 자명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 14, 15는 US-2013101804-A1의 성형/엠보싱 공정과 UV 경화 재료의 공지된 호환성을 기반으로 하며, 통상의 기술자에게 자명한 선택으로 평가됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 16의 잉크젯 인쇄는 디지털 제조에서 공지된 기술이나, 선행기술이 동적 표면 조절에 초점이 맞춰져 있어 미세구조 형성 방법으로서의 잉크젯 인쇄를 직접 시사하지는 않음. 그러나 생산성 및 정밀성 측면에서 자명한 대안으로 간주될 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 17, 18, 19는 용도 및 적용 분야의 명백한 변형으로서 자명성 판단이 가능하나, 'carrier or cladding'의 광범위한 해석이나 자동차의 일반화는 약간의 해석 차이 가능. 그러나 차량 내 인터페이스로서의 적용은 명확히 시사됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 10 combines known haptic microstructures (US-2013101804-A1) with variable friction surfaces (US-2012268412-A1), both in the same field of tactile user interfaces. The motivation to combine is clear—enhancing haptic feedback without mechanical actuation. The result is predictable, and the confidence level (0.8) supports a strong obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 14, 15, and 16 involve applying known structuring methods (embossing, inkjet) to UV-curing materials. While UV-curing coatings are conventional, their specific use in haptic microstructured surfaces is not fully established in the prior art. The motivation to combine is reasonable but not compelling, especially for inkjet-based fabrication (confidence 0.65–0.75), making these moderate-strength rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 17's method of use is based on combining two references where one teaches the device and the other the friction control. The application as a control element is disclosed, but the specific integration for finger-guiding haptics with both structural and frictional variation has some ambiguity. Confidence is 0.7, indicating moderate strength."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 10에 대해 US-2013101804-A1과 US-2012268412-A1의 결합은 공통된 목적(촉각 피드백 향상) 하에 보완적인 기술을 결합하며, 통상의 기술자가 자명하게 도달할 수 있는 결합으로 판단됨. 동기(motivation to combine)가 명확하고, 기술적 격차가 없음. confidence 0.82로 강한 근거."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 14 및 15에 대해 UV 경화 코팅 재료 및 UV 페인트 사용은 공지된 재료이지만, 미세구조 촉각 표면에 적용된 구체적 맥락은 직접적으로 개시되지 않음. 다만 자동차 산업에서의 일반적 사용으로 인해 통상의 기술자에게는 자명한 선택으로 간주될 수 있음. strictness=0.52 기준에서 거절 유지 가능하나, 해석의 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 17, 18, 19는 적용 분야의 확장에 불과하며, 선행기술이 차량 내 인터페이스 장치를 암시하므로 자명한 적용으로 간주됨. 그러나 특정 구성 요소(대시보드 등)로의 제한은 기술적 기여 없음. 결합 동기 존재하나, 기술적 차별성 부족. moderate 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 10 combines known haptic microstructures (US-2013101804-A1) with variable friction regions (US-2012268412-A1). Both references address tactile guidance in user interfaces. The combination is supported by clear motivation to enhance finger-guiding haptics in static surfaces. The parallel microstructures are inherent in repeating patterns. Confidence is high (0.76), and the references are directly relevant to the same field. This constitutes a strong obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 14 involves applying microstructuring to UV-curing coatings. While US-2013101804-A1 discloses microstructuring methods, it does not disclose UV-curing materials. However, UV-curing coatings are well-known in the art for durability and precision. The rejection relies on routine material substitution, which is plausible but not explicitly taught. Confidence is moderate (0.65). Under strictness=0.42, this is sufficient to maintain rejection, but would be borderline if strictness were lower."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 18 and 19 rely on US-2012268412-A1's disclosure of vehicle applications. The reference explicitly mentions dashboards and control panels in vehicles, making the application context obvious. Claim 19’s limitation to 'automobile' is a subset of 'vehicle' and lacks patentable distinction. Motivation is clear, though the claim adds minimal innovation. Strength is moderate due to broad but direct disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 10 combines microstructured regions with different sliding friction coefficients and parallel features for directional guidance. US-2013101804-A1 discloses microstructured elevations/recesses for tactile feedback, and US-2012268412-A1 teaches variable friction to guide user interaction. The combination is in the same field (haptic interfaces), with a clear motivation to combine for improved passive haptic control. The result is predictable, and confidence is high (0.8), supporting a strong obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 14 involves applying microstructures to UV-curing coating. While US-2013101804-A1 teaches microstructuring coatings, it does not specify UV-curing materials. However, UV-curing coatings are known for dimensional stability and microstructure fidelity. The combination is a predictable use of known materials in known methods. Confidence is 0.7, placing it in moderate range due to lack of explicit disclosure but strong technical rationale."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 15 adds embossing with a negative matrix and UV-curing paint. Embossing is implied in US-2013101804-A1, and negative matrix is common general knowledge. UV-curing paint is a known material. The combination is routine in microreplication. Confidence is 0.65—moderate due to reliance on common knowledge rather than explicit teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 17 uses the coated substrate as a control element. US-2012268412-A1 explicitly teaches haptic surfaces for device control. The application is logical and in the same field. Confidence is 0.7, but the claim is broad—moderate strength due to general applicability rather than specific structural novelty."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 18 applies the coating to dashboards, switch consoles, or operating panels. US-2012268412-A1 mentions vehicle controls generally. Automotive interiors are a common application for haptic interfaces. Confidence is 0.65—moderate, as it extends a general teaching to a predictable context without unexpected results."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 19 specifies use in an automobile. While vehicles are mentioned, 'automobile' is a subset not explicitly disclosed. The motivation is societal (driver distraction), but the limitation is narrow and routine. Confidence is 0.6—weak, as it may not rise to non-obviousness but lacks strong technical differentiation."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1과 US-2012268412-A1의 결합은 청구항 10의 모든 구성요소를 명확히 개시하며, 동일한 기술적 과제(촉각 피드백을 통한 사용자 인터페이스 개선)를 해결하기 위한 동기가 명확함. 두 문서 모두 자동차 계기판 및 제어 패널에서의 적용을 언급하고 있어, 결합 동기의 존재와 예측 가능성 측면에서 강한 근거를 제공함. 특히, Braun의 미세 구조와 Rosenberg의 마찰 계수 조절 기술은 보완적 기능으로 결합 시 예측 가능한 결과를 도출함."
+        }
+      ]
+    }
+  ]
+}

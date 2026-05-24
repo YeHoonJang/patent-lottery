@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly invokes Graham factors (scope and content, differences, PHOSITA level, secondary considerations) and KSR-style motivation-to-combine reasoning, and §102 analysis performs element-by-element anticipation mapping against specific prior art references, reflecting correct statute-appropriate frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are linked to specific claim elements and specific prior art disclosures (e.g., US-2016352767-A1's covariance matrix computation, US-2014179270-A1's SVM-based classification) rather than relying on conclusory assertions."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 stage uses two references in combination to find anticipation (claims 2, 7, 8, etc.), which is legally improper — anticipation requires a single reference to disclose every element — and the §103 stage then repeats the same combination without acknowledging or correcting the §102 error, creating an internal inconsistency that is never explained."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has moderate strictness (0.523) and a middle-range combination threshold (0.48), and the trace reflects this by maintaining rejections with solid but not overwhelming confidence scores (0.68–0.85) and articulating motivation to combine without requiring unusually strong evidence, consistent with a mid-range profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated §102 and §103 stage analyses, with the final decision explicitly summarizing the high average obviousness confidence (avg 0.77) and Graham factor analysis from prior stages, and no reversal of direction occurs."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003412",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10576,
+      "output_tokens": 416,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

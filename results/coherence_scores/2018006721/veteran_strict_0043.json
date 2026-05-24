@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation analysis under §102 for claims 1/5/9, Graham/KSR factors (scope, differences, PHOSITA level, secondary considerations) under §103 for claims 2/6/10, and definiteness/written description under §112(b) for claims 3/4/7/8/11/12 — each statute applied to the appropriate claims."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'high-beam edge,' 'lateral distance,' 'light intensity of the light distribution'), specific prior art disclosures from US-2015151669-A1 (e.g., upper headlight beam boundary, vehicle type identification, color analysis), and specific specification paragraphs (¶[0014], ¶[0015], ¶[0032], ¶[0033]) for the §112 rejections."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds all 12 claims anticipated by US-2015151669-A1 with high confidence (0.82–0.92), yet the office action then rejects claims 3/4/7/8/11/12 solely under §112 rather than also under §102, and the obviousness stage separately treats claims 3/4 as obvious — creating an inconsistency where claims found fully anticipated at §102 are later handled only under §112 without explanation for dropping the stronger §102 ground."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.875 (high) and combination_threshold=0.344 (low easy combiner), the examiner rejects all 12 claims, treats even weak §112 indefiniteness as sufficient for rejection, and accepts single-reference motivation-to-combine readily — behavior fully consistent with a strict, easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage analyses: strong §102 findings for claims 1/5/9, §103 for 2/6/10, and §112 for 3/4/7/8/11/12, with the summary explicitly referencing each basis and noting that even if §112 issues were resolved the §102/§103 grounds would remain."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018006721",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11265,
+      "output_tokens": 567,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

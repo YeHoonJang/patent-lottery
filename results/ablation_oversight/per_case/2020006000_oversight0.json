@@ -1,0 +1,279 @@
+{
+  "case_id": "ABL-2020006000",
+  "proceeding_number": "2020006000",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.6428571428571429,
+  "amend_rate": 0.14285714285714285,
+  "reject_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.68,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of using unstructured text to filter region-specific data for risk adjustment, while not explicitly disclosed in US-2016140466-A1, involves elements that are individually known in the art: risk assessment, data filtering, and NLP-based keyword extraction. Although the integration appears novel, a PHOSITA could reasonably combine these techniques with motivation from improving contextual accuracy in risk modeling. However, the specific workflow involving operational intent text and geographic data sourcing is not fully anticipated. Given the moderate strength and the absence of explicit prior art teaching the complete chain, the obviousness rejection is not overwhelmingly strong, but non-trivial."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016140466-A1은 청구항 2, 9, 16의 핵심 기능인 중간 리스크 평가를 도출하고 이를 모니터링 구성에 적용하는 것을 개시하고 있으며, 결합 동기가 아닌 단일 문헌에 의한 명확한 동질성. PHOSITA 관점에서 'intermediary risk rating'이라는 용어는 기능적 라벨링에 불과하므로 창의성 결여가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "GUI 표시를 위한 포맷 변환은 US-2016140466-A1의 알림 생성 및 모니터링 기능과 직접 연결 가능하며, 사용자 인터페이스 설계의 일반적·관례적 관행으로 간주됨. 청구항 3, 10, 17의 차이는 구현 수준의 사소한 차이에 불과하므로 obviousness 판단이 타당함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "운영 활동의 수와 기간을 포함하는 것은 리스크 정보 수집의 일반적 범위 내이나, 구체적 수치 기반 입력이 반드시 '자명한 확장'인지에 약간의 해석 여지 존재. 그러나 선행기술의 광범위한 정보 수신 개시를 고려하면 obviousness 유지 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although US-2016140466-A1 discloses risk categorization and monitoring for third-party providers, it does not teach or suggest using unstructured text of operational activities to filter region-specific data records for risk adjustment. The combination references do not provide a clear motivation to combine with NLP-based query construction or conditional risk adjustment logic. The differences in technical approach and purpose are significant, and the integration of unstructured text analysis with geographic data filtering represents a non-trivial improvement. Given the low combination_threshold and the lack of explicit teaching or motivation, this is a weak obviousness concern."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.32,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "GUI 표시 형식 변환은 소프트웨어 시스템에서 통상적이고 일상적인 관행이며, US-2016140466-A1의 통신 인터페이스 기재는 클라이언트 장치에 데이터를 제공함을 암시하므로, GUI 표시를 위한 형식 변환은 통상의 기술자에게 명백함. 증거가 명확하고, 기술적 진보 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "계획된 운영 활동의 수량 및 기간 정보 포함은 비즈니스 계획서에서 자연스럽게 발생하는 데이터 입력 형태로, 리스크 분석에 통상적으로 고려될 수 있음. 그러나 이를 'unstructured text'로 명시한 점에서 기술적 맥락이 추가될 수 있으나, 전체적으로는 통상적인 데이터 활용 범위 내로 간주 가능."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "문법적 오류('to extracting') 및 용어 불일치('program_instructions')는 명확성과 명세서 뒷받침 측면에서 문제를 야기할 수 있으나, 전체 청구항의 의미는 일반 기술자가 이해 가능할 정도로 명확함. 그러나 strictness=0.89인 심사관 입장에서는 이러한 형식적 오류도 거절 요인으로 간주할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "GUI 출력 형식 변환 및 계획된 활동의 수량/시간 정보 포함은 일반적인 소프트웨어 관행과 비즈니스 문서의 자연스러운 내용으로, 선행기술인 US-2016140466-A1이 위험 모니터링 및 사용자 통보 기능을 개시함에 따라 이러한 기능을 추가하는 것은 명백하다. 검증 단계에서도 근거가 충분히 입증되었으며, 공지기술과의 결합 동기가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art US-2016140466-A1 discloses risk rating and monitoring adjustment based on risk source information, but does not teach or suggest using unstructured text of operational activities to filter region-originating data records via NLP for risk adjustment. The combination references are limited to a single prior art document, and no additional teachings are provided to suggest the use of NLP-based keyword extraction and query construction from unstructured operational text in the context of geographic risk analytics. The motivation to combine is absent, and the claimed invention introduces conditional logic (fallback or abortion) not disclosed in the art. Given the lack of multiple references and clear motivation, the obviousness rejection is weak."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While US-2016140466-A1 discloses risk categorization and monitoring, it does not teach or suggest using unstructured text of operational activities to filter region-specific data records for risk adjustment. The integration of NLP-based text analysis with geographic data sourcing for dynamic risk rating adjustment is not routine or predictable. The motivation to combine is lacking, and the claimed invention introduces non-trivial technical features such as keyword extraction, query construction, and conditional logic for data scarcity. Given the absence of explicit teaching or suggestion in the prior art, the obviousness rejection lacks strong evidentiary support."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2016140466-A1) does not disclose or suggest the use of unstructured text describing operational activities to filter region-originating data for risk adjustment. The integration of NLP-based keyword extraction and query construction to determine a subset of regional data records is not taught, and there is no motivation to combine the prior art with such features. The confidence scores for non-obviousness range from 0.65 to 0.72, indicating moderate but not strong evidence of non-obviousness. However, given the lack of any explicit teaching or suggestion in the prior art, and considering the specific technical integration claimed, the obviousness challenge is weak."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "GUI 표시 형식 변환은 공지된 사용자 인터페이스 설계 관행이며, 선행기술이 출력 기능을 암시함. 결합 동기 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "운영 활동 수 및 기간 포함은 리스크 평가에서 자연스러운 정보이나, 청구항에 특정 기술적 맥락 부여 가능성 있음. strictness=0.50 기준으로 약간 보정 가능성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "데이터 부족 시 조정 중단 및 기본값 유지도 일반적인 시스템 안정성 설계지만, 리스크 평가 시스템에서의 특정 적용에 대해 창의성 여지 있음. 중립적 성향 하에 약간 유리하게 해석 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제시된 선행기술(US-2016140466-A1)은 리스크 소스 식별 및 모니터링 설정에 초점을 두고 있으나, 비정형 텍스트 기반 하위 집합 결정, 지리적 지역 출처의 제2 데이터 소스 선택, NLP를 이용한 키워드 추출 및 쿼리 구성, 운영 활동 수 포함, 데이터 부재 시 조정 로직 등 청구항의 핵심 구성요소를 개시하지 않음. 결합 동기(motivation to combine)에 대한 명확한 근거가 부족하며, 통상의 기술자가 이러한 기술적 요소들을 결합하여 출원 발명에 도달했다고 보기 어려움. combination_threshold=0.44 기준보다 높은 진보성 판단 confidence(최소 0.65 이상)를 고려하면, obviousness 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "GUI 표시를 위한 포맷 변환은 소프트웨어 시스템에서 일반적인 관행이나, 청구항 3, 10, 17의 구성이 단순한 표시 방식에 국한되지 않고 조정된 리스크 등급의 특정 포맷 변환을 포함할 가능성 있음. 그러나 선행기술 US-2016140466-A1이 알림 메시지 생성 및 통신 인터페이스를 개시하고 있어, GUI 표시로의 확장은 통상의 기술자에게 자명할 수 있음. strictness=0.42인 중립적 성향 하에서, 이는 약간의 창의성을 요구하나 공지상식 범위 내로 간주될 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "운영 활동의 수량 및 시간 범위 포함은 리스크 평가에서 일반적인 정보이나, 이를 비구조화된 텍스트 설명에 명시적으로 포함하는 것이 청구항의 핵심 기능과 밀접하게 연관되어 있을 수 있음. 그러나 US-2016140466-A1이 리스크 소스 정보 수신을 개시하고 있어, 이러한 구체적 입력 정보의 포함은 설계 선택으로 간주될 여지 있음. strictness 수준을 고려할 때, 이는 거절 가능성이 있으나 명확한 기술적 효과 입증 시 보정 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although US-2016140466-A1 discloses risk rating based on risk source information, it does not explicitly teach using unstructured text to filter region-originating data records or applying NLP to extract keywords for query construction. The combination references are limited to a single prior art document, and the motivation to combine is weak, as the reference lacks technical context for unstructured text processing in geographic risk analytics. The claimed fallback mechanisms and GUI formatting are also not suggested. Given the absence of clear evidence for combination and the novelty of NLP integration, the obviousness rejection is weak."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으며, 결합 동기 부족과 선행기술 간의 명확한 차이점이 강조됨. US-2016140466-A1은 위험 평가 및 모니터링을 개시하지만, 비구조화된 텍스트 기반 데이터 필터링, NLP를 통한 키워드 추출 및 쿼리 생성, 조건부 조정 로직 등은 전혀 개시되지 않음. 결합 동기에 대한 근거가 미약하며, 통상의 기술자가 이러한 구성요소들을 결합하여 출원 발명을 도출하기는 어렵다고 판단됨. strictness=0.60 수준에서 이러한 약한 obviousness 근거는 거절로 보기 부족함."
+        }
+      ]
+    }
+  ]
+}

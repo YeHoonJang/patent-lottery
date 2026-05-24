@@ -1,0 +1,352 @@
+{
+  "case_id": "PILOT-2019004594",
+  "proceeding_number": "2019004594",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1은 외부 시스템과의 인터페이스, 자금 이동, 사전 설정 일정 등을 개시하고 있으며, API 기반 통합, 다수의 공과금 서버에서의 청구 금액 수집, 우선순위 기반 지불, 거래 정보 피드백 등은 전자금융 시스템에서 공지된 기술이다. 통상의 기술자가 이러한 기능들을 결합하는 것은 자명하며, 결합 동기(motivation to combine)가 명확함. 특히, 사용자 인터페이스 개선, 다자간 접근, 데이터 표준화 등은 시스템 설계에서 일반적인 관행으로 간주됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1은 지갑 계좌 생성, lien을 통한 자금 할당, 사전 설정 일정에 따른 결제 수행 등 핵심 기능을 모두 개시하고 있으며, 출원 발명은 이를 공공 유틸리티 결제라는 예측 가능한 분야에 적용한 것에 불과함. API를 통한 외부 서버 통신, 거래 내역 전달, 주기적 결제 설정 등은 전자 결제 시스템에서 통상적인 기술로, 통상의 기술자가 쉽게 결합 가능. 결합 동기(motivation to combine)가 명확하며, 선행기술의 교시가 출원 발명으로 자연스럽게 이어짐."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013159180-A1이 청구항 1, 10, 21의 주요 구성요소를 개시하고 있으나, '임시 리엔을 통한 자금 할당'과 '예정된 일정에 따른 자금 방출'이 동일한 맥락에서 '유틸리티 지불 보증'을 위한 시스템으로 명확히 개시되었는지에 약간의 해석의 여지 있음. 특히 'UPMS' 및 '컴퓨팅 플랫폼'의 구체적 역할과 목적은 선행기술과 다를 수 있음. strictness가 낮은(0.25) 심사관 입장에서 출원인에게 유리하게 판단할 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "API 기반 자금 풀링, 거래 정보 전달, 다자간 접근 플랫폼 등은 선행기술의 기능을 현대적 수단으로 구현한 것으로 보이며, 기술적 동등성은 인정되나, 본 발명의 유틸리티 결제 보장이라는 목적과 맥락을 고려할 때 이러한 설계 선택이 '명백하다'고 단정하기에는 해석의 여지가 있음. 특히 전체 시스템의 기술적 기여를 무시한 채 구성요소 수준에서의 obviousness를 주장하는 데 한계 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "API 기반 외부 서버 통합 및 청구서 표시 기능은 2017년 기준 금융 및 유틸리티 분야에서 공지된 기술로, 사용자 편의성 향상이라는 명확한 결합 동기 존재. 선행기술인 US-2013159180-A1의 핵심 기능을 확장한 것으로, 통상의 기술자에게 명백함. confidence=0.82 이상의 진보성 판단도 이를 뒷받침."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1은 외부 시스템과의 인터페이스, 자금 이동 자동화, 예약 지불 기능을 개시하고 있으며, API 기반 통합, 정보 표시, 우선순위 기반 지불은 통상의 기술자가 설계 선택 차원에서 쉽게 도달할 수 있는 기술이다. 특히 다수의 서버에서 청구 정보를 수집하거나 사용자에게 정보를 표시하는 것은 금융 시스템에서 표준적인 기능으로, 결합 동기가 명확하다. 진보성 판단의 confidence가 전반적으로 높으며, 출원 발명의 차별점이 기술적 혁신이라기보다는 적용 분야 또는 정책 선택에 국한됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 8 및 17의 '우선순위 리스트에 따라 다수의 제공자에게 자금을 지불'하는 기능은 선행기술에 직접 개시되지 않았으나, 결합 동기 부족을 주장하기에는 다소 약함. 우선순위 기반 지불은 자금 관리 시스템에서 일반적인 비즈니스 룰로서, 자동화된 지불 시스템에 적용하는 것은 설계 선택의 범위 내에 있을 수 있음. 그러나 특정 기술적 통합 방식이나 새로운 처리 흐름이 명확하지 않아 강한 거절 근거로 보기에는 한계 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 19 및 20의 특정 청구 유형(전기, 수도, 보험료 등)은 선행기술에 명시되지 않았으나, 이러한 지불 유형은 일반적인 재curring 지불로서, 기술적 차별성 없이 단순한 적용 분야의 특정화에 불과하다. 그러나 이러한 특정화가 기술적 효과를 유도하지 않는 이상 진보성 부여는 어렵다고 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1은 lien을 통한 자금 확보 및 사전 설정된 일정에 따른 자금 이체를 명시적으로 개시하고 있으며, 이를 유틸리티 지불 보증 시스템에 적용하는 것은 동일한 기술적 원리를 다른 분야에 적용한 것으로, 통상의 기술자에게 명백함. 특히 거래 정보 송신, 하드웨어 구현, 우선순위 기반 지급은 모두 공지된 기술적 관행으로, 결합 동기가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013159180-A1은 다중 포털 및 외부 시스템 통합을 개시하고 있으나, '사설 호스팅 유틸리티 서버'에 대한 API 기반 청구 통합, 다자간 접근 가능한 통합 플랫폼, 우선순위 기반 지급 로직은 명시되지 않음. 이러한 기능들은 사용자 편의성 향상이라는 일반적 동기에 기반하여 자명하다고 보는 것이 가능하나, 기술적 차별점이 존재하며, 특히 우선순위 기반 지급은 정책적 판단이 개입된 혁신적 요소로 평가될 수 있음. 결합 동기의 존재는 인정되나, 그 강도는 중간 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1은 자금의 리엔 기반 할당 및 사전 설정된 일정에 따른 자금 해제를 명확히 개시하고 있으며, 청구항 1, 4, 5, 9, 10, 13, 14, 18, 21은 이에 기초하여 명백하게 도출 가능함. 결합 동기(motivation to combine)도 명확하여 obvious 판단의 증거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "다수의 유틸리티 서버로부터 API를 통해 청구 금액을 통합하고 표시하는 기능(청구항 2, 3, 11, 12)은 시스템 통합 및 UI 설계의 일반적인 확장으로 간주될 수 있으나, 복수의 사설 호스팅 서버와의 자동 연동은 다소 높은 기술적 통합 수준을 요구할 수 있음. 그러나 API 기반 통합은 공지된 기술이므로 전반적으로는 자명하다고 보는 것이 타당함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "주간, 격주, 월간 지불 일정(청구항 7, 16)은 '사전 설정된 시간'의 구체적 예시로, 설계 선택의 문제로 간주될 수 있으나, 이들 주기가 명시적으로 개시되지 않았다는 점에서 약간의 기술적 차별성이 있을 수 있음. 그러나 통상의 기술자 입장에서 자명한 변형으로 보는 것이 일반적임."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "고객, UPMS, 공급자가 모두 접근 가능한 통합 플랫폼(청구항 6, 15)은 다자간 실시간 접근을 요구하며, US-2013159180-A1은 단방향 또는 쌍방향 통신에 국한됨. 기술적 아키텍처 측면에서 비자명한 진보가 있을 수 있으며, 선행기술 간 결합 동기가 충분히 명확하지 않음. strictness=0.46인 중립적 성향 하에서는 거절보다는 보정 또는 허여 가능성을 열어둘 필요 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "우선순위 목록에 따라 자금을 해제하는 기능(청구항 8, 17)은 자원 제약 하에서의 의사결정 로직을 포함하며, 단순한 자동화를 넘는 전략적 기능임. 선행기술에서 명확히 개시되지 않았고, 결합 동기의 명확성도 낮음. 이는 비자명한 발명적 진보로 간주될 가능성이 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "특정 유틸리티(전기, 가스, 수도) 및 비유틸리티(이웃 조합비, 학교비, 보험료)에의 적용(청구항 19, 20)은 기술적 적용 분야의 제한으로 볼 수 있으나, 기존 시스템을 특정 환경에 적용하는 것은 일반적으로 자명한 확장으로 간주됨. 그러나 이러한 서비스 유형에 대한 자동 지불 보장은 사회적 필요성과 연결되어 비자명성 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1은 lien 기반 자금 할당, 사전 설정 일정에 따른 송금, 다중 채널 통신, 거래 이력 관리 등 핵심 기술을 명시적으로 개시하고 있으며, 본 출원의 대부분의 청구항은 이러한 기술을 유틸리티 지불 관리라는 특정 적용 분야에 적용한 것에 불과함. 통상의 기술자 입장에서 이러한 적용은 명백하며, 결합 동기(motivation to combine)도 명확함. 특히 정기 지불 자동화, API 기반 시스템 통합, 사용자 인터페이스를 통한 정보 표시 등은 금융 IT 분야에서 공지된 기술. 따라서 103 거절 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1은 리엔을 통한 자금 할당, 예정된 일정에 따른 송금, 다중 거래 처리 등 핵심 기술을 개시하고 있으며, 출원 발명은 이를 유틸리티 지불 보장이라는 특정 사용 사례에 적용한 것에 불과함. API 기반 통합, 우선순위 지불, 반복 일정, 거래 정보 송신 등 추가 구성요소들은 전자 지불 시스템에서 통상적인 기술로 간주되며, 결합 동기와 실시 가능성이 명확함. 선행기술의 범위와 통상의 기술자 수준을 고려할 때, 전체 청구항 군에 대한 obviousness 판단은 강한 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013159180-A1은 전자적 자금 할당, 리엔 설정, 사전 설정 일정에 따른 자금 릴리스를 개시하고 있으나, '공공요금 지불 보증'이라는 특정 기술적 목적과 그에 따른 시스템 동작의 통합은 명확히 개시되지 않음. API를 통한 외부 서버 통신, 정보 표시, 정기 일정 설정 등 개별 구성요소는 공지기술이나, 전체 시스템의 목적과 맥락에서의 결합은 창의적 진보 가능성 있음. 그러나 통상의 기술자가 선행기술을 기반으로 출원 발명을 구현할 수 있다고 판단할 여지 있음. strictness=0.42인 중립적 성향 하에서, 증거는 있으나 해석의 여지가 있는 'moderate' 수준으로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1이 제1항의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, 특히 리엔 기능을 통한 자금 할당, 사전 결정된 일정에 따른 지급, 통신 네트워크 및 프로세서 기반 동작 등을 포함하므로 신규성 결여 판단에 충분한 증거가 있음. verification_status도 PASS로 확인됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "API 기반 청구 금액 조회, 주기적 지급 일정 조정, 우선순위 기반 분배, 특정 청구 유형 적용 등은 공지기술 또는 설계 선택의 범위 내로 판단되나, 일부 기능(예: 복수 전용 호스팅 서버 통합, 우선순위 목록 기반 분배)은 기술적 통합의 복잡성이나 산업별 특수성을 고려할 때 명백한 결합 동기의 존재 여부에 해석의 여지 있음. combination_threshold=0.48 기준으로는 obvious 판단이 가능하나, strictness=0.52인 심사관 입장에서 보정 기회를 부여할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013159180-A1은 청구항 1, 4, 7, 9, 10, 13, 16, 18, 21의 핵심 기능(지불 정보 수신, 금액 지정, 임시 근저당, 사전 설정 일정에 따른 자금 송금)을 실질적으로 개시하고 있으며, API 사용, 거래 정보 필드 명시, 다자간 플랫폼 구조 등은 금융 IT 분야의 통상적 기술자에게 명백한 설계 선택으로 간주될 수 있음. 결합 동기는 내재되어 있으며, 선행기술과의 차이는 기술적 효과보다는 구현 수단의 변화에 불과함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 3, 11, 12에서의 API 기반 유틸리티 서버 통합 및 청구 금액 표시는 US-2013159180-A1의 포털 기반 거래 요청 수신 기능에 공지된 웹 기술을 결합한 것으로, 동기는 존재하지만, 'privately hosted utility servers'와의 통합 및 다수 서버 정보의 통합 표시는 선행기술보다 진일보한 사용자 경험 설계일 수 있음. 그러나 2010년대 중반 이후 API 기반 통합은 금융 분야에서 표준화되어 있어, 비자명성 입증이 어려움."
+        }
+      ]
+    }
+  ]
+}

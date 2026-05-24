@@ -1,0 +1,368 @@
+{
+  "case_id": "PILOT-2021004939",
+  "proceeding_number": "2021004939",
+  "gt_issues": [
+    "102",
+    "112"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 15, 16, 17, 19, 20, 21, 22, and 24 are rejected under 103 based on clear combination of US-2018295556-A1 and US-2018324652-A1. The motivations to combine—standard 3GPP procedures for identity handling, routing via reference IDs, and policy enforcement—are well-established in the art. POSITA would readily combine these for scalable IoT data routing. Confidence in obviousness is high (0.7–0.75)."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018324652-A1과 US-2018295556-A1의 결합은 IoT 네트워크에서 SCS/AS 요청 처리 및 가입자 식별을 위한 공지된 기술적 관행을 반영하며, 결합 동기와 예측 가능성이 명확함. 청구항 15, 16, 17, 20, 21, 22의 구성요소는 각각의 선행기술에서 개시된 기능의 직접적 결합으로 실현 가능하므로, 진보성 결여는 강한 근거 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2018324652-A1은 SCS/AS reference ID 기반 전송을 명시적으로 개시하지 않으나, 3GPP 네트워크에서의 서비스 식별 및 라우팅 메커니즘은 공지되어 있음. 그러나 reference ID를 통한 과금, 인증, QoS 제어와의 통합은 단순한 예측 가능한 변형을 넘는 기술적 진보일 수 있음. 심사관 성향(strictness=0.25)에 따라, 이 정도의 차이는 비자명하다고 판단할 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Although US-2018324652-A1 discloses routing non-IP data via IWK-SCEF during roaming, the claims involve specific technical implementations such as reference ID-based routing and integrated authorization with HSS. These elements are not explicitly taught or obviously combinable, introducing ambiguity in obviousness. Given the examiner's lenient stance (strictness=0.29), such moderate-strength rejections should be weighed in favor of the applicant."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Generating accounting information for charging is a standard practice in mobile networks, especially in CIoT systems governed by 3GPP specifications (e.g., TS 32.240). The prior art (US-2018324652-A1) discloses the core data transmission mechanism, and adding charging functionality is a routine implementation for service providers. A PHOSITA would naturally incorporate usage tracking for billing purposes. The motivation to combine is strong and grounded in industry norms, making the claimed feature obvious despite not being explicitly disclosed."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018324652-A1은 로밍 시 IWK-SCEF를 통한 비-IP 데이터 전송, SCS/AS와의 상호작용, HSS 연동, 데이터 라우팅 등 청구항 대부분의 핵심 기능을 명시하거나 암시적으로 개시함. 3GPP 아키텍처 내에서의 통상적 기술자의 수준을 고려할 때, 인가, 속도 제한, 참조 ID 기반 라우팅 등의 기능은 공지된 보안 및 QoS 설계 원칙으로 쉽게 결합 가능. 결합 동기(motivation to combine)가 명확하고, 선행기술과의 기술적 흐름이 일치하므로 강한 obviousness 근거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Specification does not adequately describe 'accounting information for charging'—no definition, format, or generation method provided. Reference to 'CIoT data quota' (¶0213) is insufficient to convey possession or enablement. This constitutes a clear written description failure under 112(a)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 14 repeats the same accounting limitation as claim 7. Lack of support in specification is identical. No additional detail provided to justify generation of accounting information. Rejection under 112(a) is warranted."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 19 and 24 are rejected under 112(b) for indefiniteness due to ambiguous conditional language ('that the SCS/AS exceeds a rate'). However, the specification (e.g., ¶0214) implies rate checking is for enforcement, suggesting the condition is negative (i.e., does *not* exceed). While ambiguous, correction via amendment is likely possible."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims were found non-obvious in prior analysis. Closest art (US-2018324652-A1) does not disclose IWK-SCEF for data routing in roaming, in-band indicators (claim 8), or SCS/AS reference ID-based routing and policy control. Motivation to combine is absent. Obviousness rejection not supported."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "No anticipating reference identified. Prior art discloses related functions (e.g., relocation, NAS delivery) but not claimed features in combination. Anticipation not established."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2018324652-A1이 청구항 2, 5, 6, 8, 9, 12, 13의 모든 구성요소를 단일 문헌에서 명시적 또는 본질적으로 개시함. 특히 MME의 non-IP 데이터 처리 및 로밍 시 IWK-SCEF 연동은 3GPP 표준 맥락에서 자명하므로, 신규성 상실 판단은 강한 근거 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 7, 14, 19, 24의 '과금', '인가', '전송률 제어' 기능은 명세서에 구체적 기재 부족. 그러나 IoT/통신 시스템에서 이들 기능은 일반적 정책 요소로 간주될 수 있어, enablement 부족이 'undue experimentation' 수준까지는 아닐 수 있음. 해석의 여지 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018324652-A1이 청구항 2, 5, 6, 8, 9, 12, 13, 18, 23의 핵심 구성요소를 명확히 개시하며, roaming 시 IWK-SCEF 사용은 네트워크 설계상 명백한 변형으로 통상의 기술자가 쉽게 도달 가능하므로 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 7, 14, 15, 16, 19, 20, 21, 22, 24의 과금, 인가, 참조 ID 기반 라우팅 기능은 단일 문헌에 개시되지 않았으나, 통신 시스템에서의 보안, 과금, 라우팅은 공지된 기능의 조합으로 보는 것이 타당하나, MME 또는 SCEF에서의 직접적 구현은 명백하지 않아 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018324652-A1이 CIoT 시스템에서 roaming 중인 UE의 비-IP 데이터 전송을 위해 IWK-SCEF를 사용하는 것을 명시적으로 개시하고 있으며, 이는 청구항 2, 6, 9, 13, 18, 23의 핵심 구성요소와 동일하다. 결합 동기(motivation to combine)도 명확함. 3GPP 표준 아키텍처 내에서의 통상적 설계 선택으로서 obvious 판단은 강한 근거 있음. confidence 0.9 이상의 대부분의 청구항에서 동일한 판단 반복."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018324652-A1은 MME가 SCEF로부터 비-IP 데이터를 수신하고 이를 UE로 전달하는 과정(Claim 6, NAS PDU 기반 전송)을 개시하고 있어, 청구항 5, 12, 17의 데이터 흐름을 충분히 반영. 해당 기능은 IoT 네트워크에서 일반적 동작으로, POSITA 수준에서 자명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "MME의 구성요소(송수신기, 제어기, 비-IP 데이터 판단 및 전송)는 US-2018324652-A1에 명시적으로 개시됨(Claim 7 기반). 청구항 8은 동일한 기능의 재기술에 불과하므로 obvious 판단은 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 15, 16, 20, 21은 US-2018324652-A1과 US-2018295556-A1의 결합으로 판단됨. HSS와의 상호작용 및 인증 절차는 각각 부분적으로 개시되었으며, identifier 기반 라우팅과 인증의 결합 동기는 존재하지만, SCS/AS 참조 ID를 통한 직접적인 인증 및 HSS 쿼리에 대한 명시적 개시는 약함. 그러나 IoT 시스템에서의 공지된 설계 관행을 고려하면, moderate 수준의 obvious 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 17, 19, 22, 24의 SCS/AS 참조 ID 기반 라우팅, 인증, 속도 제한은 US-2018295556-A1에서 identifier 사용을 암시하고 있으나, 명시적 개시는 아님. 그러나 IoT 플랫폼에서의 서비스 인증 및 QoS 정책은 통상적 기술이므로, 결합 동기와 함께 moderate 수준의 obvious 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 17 and 22 are rejected as obvious over US-2018324652-A1 in view of US-2018295556-A1. The combination is supported by clear technical motivation: routing non-IP data using SCS/AS reference ID is a predictable integration of known functions (data reception from MME and reference-based routing) to achieve reliable service delivery in CIoT systems. The references individually disclose all key elements, and the combination addresses a common network design need without requiring inventive insight. The confidence level (0.8) and logical coherence of motivation support a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018324652-A1 명확히 비-IP 데이터 전송, NAS PDU를 통한 UE 전달, 서빙 노드 변경 시 SCEF 업데이트 등을 공개함. CIoT 환경에서의 이동성 관리 및 데이터 라우팅은 공지 기술이며, IWK-SCEF를 통한 로밍 지원은 통상의 기술자에게 자명함. 결합 동기와 선행기술 간의 기술적 일관성 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'accounting information for charging'에 대한 명세서 기재는 제한적임. [0213]에 데이터 할당량 정보는 언급되나, 청구항의 '생성' 메커니즘, 형식, 청구 연계성 등 구체적 구현 부족. 그러나 통상의 기술자가 이동통신 요금 청구 시스템을 고려할 때 일정 수준 추론 가능하나, 서면 설명 부족 주장은 타당성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018324652-A1은 roaming 시 IWK-SCEF를 통한 메시지 전송, non-IP 데이터 처리, UE 컨텍스트 기반 판단 등을 명확히 개시하고 있으며, 청구항 2, 5, 6, 8, 9, 12, 13, 18, 23의 구성요소들이 동일하거나 기능적으로 유사한 맥락에서 구현 가능하다. 결합 동기(motivation to combine)는 네트워크 일관성, 서비스 연속성, 효율적 데이터 처리 등 공지된 설계 목적으로서 명확하며, PHOSITA 수준에서도 자명하게 도달 가능함. confidence 점수도 0.8 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "회계 정보 생성 및 속도 기반 인가 제어는 선행기술에 직접 개시되지 않았으나, 통신 시스템에서의 과금 및 QoS 제어는 공지된 개념으로, 통상의 기술자가 이를 결합할 동기가 있다고 판단될 수 있음. 그러나 그 통합이 자명한지 여부는 해석의 여지가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 8의 '지시자(indicator)'에 대해 명세서가 구현 방식(형식, 위치, 인식 방법)을 충분히 기재하지 않아, 112(a) 위반이 명확함. enablement 및 written description 요구사항 미충족."
+        }
+      ]
+    }
+  ]
+}

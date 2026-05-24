@@ -1,0 +1,324 @@
+{
+  "case_id": "2018001311",
+  "proceeding_number": "2018001311",
+  "gt_issues": [
+    "102",
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed-in-Part with New Ground of Rejection",
+  "grant_rate": 0.0,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013195665-A1이 댐퍼의 기본 구조(플랫폼 간 갭 내 위치, 내측 표면 접촉, 슬라이딩 동작)를 명확히 개시하고 있으나, 'offset position'이라는 핵심 한정은 명시적으로 개시되지 않았습니다. 심사관은 (1) 명세서 배경기술이 '전통적으로 중심선에 위치'했다고 언급한 점, (2) 댐퍼 위치 최적화가 공지된 설계 목표라는 점, (3) offset 배치가 예측 가능한 설계 변경이라는 점을 근거로 자명성을 주장합니다. 그러나 선행기술은 'consistent contact with each side'를 개시하여 오히려 대칭적 배치(균등 부하 분배)를 시사하므로, offset(불균등 분배)과는 방향이 다릅니다. 결합 동기는 논리적이나, 선행기술이 명시적으로 반대 방향(대칭 배치)을 교시하는 점에서 자명성 근거가 완전히 강하지는 않습니다. Combination_threshold=0.34로 낮은 기준이지만, 명시적 교시의 부재와 반대 방향 암시로 인해 moderate 강도로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness_claim_20",
+          "strength": "weak",
+          "reasoning": "청구항 20의 'geared architecture'는 선행기술 US-2013195665-A1에 전혀 개시되지 않았습니다. 심사관은 '일반 지식(general knowledge)'을 근거로 하지만, 구체적인 제2 선행기술을 제시하지 않았습니다. Geared turbofan이 공지된 기술이라는 점은 사실이나, 이를 댐퍼 시스템과 결합할 명시적 동기가 제공된 선행기술에는 없습니다. '댐퍼 위치가 엔진 아키텍처와 독립적'이라는 주장은 합리적이나, 이는 추론에 가깝고 명시적 교시가 부족합니다. 단일 선행기술만으로는 geared architecture 요소를 커버할 수 없으며, 일반 지식만으로는 103 근거가 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.22,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013195665-A1 discloses the base turbine blade assembly structure with damper between platforms. The critical issue is whether 'offset position' represents obvious design optimization or inventive contribution. The prior art describes damper 'located under platforms' and 'slides on underside' but does not explicitly teach offset positioning or the resulting unequal load distribution. While the Office Action argues offset positioning is routine optimization motivated by industry goals (cited in applicant's Background), this reasoning relies heavily on hindsight reconstruction. The prior art shows symmetric damper arrangements, and the motivation to move to asymmetric offset positioning is inferred rather than explicitly taught. However, under strictness=0.88 and combination_threshold=0.34, even moderate evidence of obviousness based on common engineering knowledge and acknowledged industry goals supports rejection. The functional benefits (unequal load split, optimized damping) flow predictably from positional adjustment, which weighs toward obviousness. The lack of unexpected results or criticality of specific parameters (60/40 ratio) further supports obviousness finding."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty (claims 1, 6)",
+          "strength": "weak",
+          "reasoning": "US-2013195665-A1이 대부분의 구조적 요소를 개시하나, 'offset position'에 대한 명시적 개시가 없습니다. Office Action은 'inherent disclosure' 논리를 사용하나, 이는 추측에 가깝습니다. 선행기술은 'consistent contact with each side'라고 하여 오히려 중심 위치를 시사합니다. Offset position은 본 발명의 핵심 특징이며, 이를 inherent로 보기는 무리가 있습니다. Strictness=0.25의 관대한 기준에서, 명시적 개시가 없는 핵심 특징에 대해 102를 적용하는 것은 과도합니다."
+        },
+        {
+          "basis": "102_novelty (claims 7, 14)",
+          "strength": "weak",
+          "reasoning": "Claim 7의 'unequal load split'과 claim 14의 'offset position'에 대해 inherent disclosure를 주장하나, 선행기술은 'consistent contact'을 명시하여 균등 접촉을 시사합니다. Unequal load split을 inherent result로 보는 것은 논리적 비약입니다. Claim 14의 compressor/turbine section은 공지상식일 수 있으나, 'offset position'이 inherent하다는 주장은 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness (claims 1-3, 5-7, 9-10, 12-15, 17-18)",
+          "strength": "moderate",
+          "reasoning": "US-2013195665-A1이 댐퍼 성능 개선 필요성을 언급하여 결합 동기가 존재합니다. Damper 위치 조정이 통상의 설계 파라미터라는 주장은 타당합니다. 그러나 선행기술이 'consistent contact'을 지향하는 상황에서, offset position으로의 변경이 자명한지는 해석의 여지가 있습니다. Centerline, center of mass 등의 개념은 기본적이나, 이를 사용한 offset 설계가 자명하다고 단정하기는 어렵습니다. 본 발명은 offset을 통한 성능 향상을 주장하며, 이것이 예측 가능한 결과인지는 불분명합니다. Strictness=0.25의 관대한 기준에서, moderate 강도의 103 거절은 출원인에게 유리하게 해석될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on the proposition that offsetting a damper from its traditional centered position is an obvious design variation to improve damping performance. The reasoning is: (1) US-2013195665-A1 discloses the base damper system between turbine blade platforms; (2) the application's own background acknowledges that centered dampers are traditional and that improved damping is sought; (3) therefore, offsetting the damper is a predictable variation. However, this reasoning has weaknesses: (a) US-2013195665-A1 does not explicitly disclose or suggest offset positioning—it describes dampers that 'provide consistent contact with each side of the platform,' which implies symmetric/centered positioning, not offset; (b) the motivation to offset is inferred from the general goal of improving damping, but there is no teaching in the prior art that offset positioning (as opposed to other damper design changes such as material, shape, mass, etc.) would achieve this goal; (c) the application's background states manufacturers seek improvements, but does not teach that offsetting is an obvious solution; (d) the specific functional result—unequal load split optimized for different blade vibration modes—is not disclosed or suggested in the prior art. The examiner's reasoning involves hindsight reconstruction: knowing the claimed invention's approach (offset positioning), the examiner works backward to argue it would have been obvious. But a PHOSITA, reading US-2013195665-A1 alone, would not be taught or motivated to offset the damper from the centerline. The combination_threshold=0.72 requires strong motivation to combine or modify; here, the motivation is general (improve damping) but the specific modification (offset positioning) is not taught. Given strictness=0.29 (lenient—benefit of doubt to applicant), this 103 rejection is 'moderate' strength at best, and the weighing should favor the applicant where evidence is not strong."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013195665-A1이 터빈 블레이드 플랫폼 사이 갭에 댐퍼를 배치하는 구조를 명확히 개시하고 있으나, 핵심 차이인 'offset positioning'에 대한 명시적 개시는 없음. 선행기술은 'consistent contact with each side of the platform'과 'rigid features'를 언급하여 오히려 중앙 배치를 시사함. 그러나 출원인 명세서가 '전통적으로 중앙 배치'를 인정하고 있고, 댐핑 성능 최적화를 위해 위치를 조정하는 것은 통상의 설계 변경으로 볼 수 있는 여지가 있음. 결합 동기(성능 개선)는 일반적이고, offset 배치가 불균등 하중 분배를 초래한다는 점도 예측 가능함. Combination_threshold=0.45(낮음)를 고려하면 obviousness 판단의 문턱이 낮아, moderate 수준의 근거로도 거절 가능. 다만 선행기술이 offset을 명시적으로 시사하지 않고 centered positioning을 더 강하게 암시하는 점에서 strong까지는 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013195665-A1 explicitly discloses all structural elements of the claimed damper system (rotor disk, turbine blades with platforms, gaps between platforms, damper positioned between platforms for vibration control). The only distinguishing feature is 'offset positioning' of the damper. The prior art teaches the problem (blade vibration), the solution (dampers between platforms), and the functional mechanism (frictional damping through contact with platforms). The applicant's own specification acknowledges that 'Traditionally, the dampers are centered on the centerline' and that manufacturers 'continue to seek further improvements,' indicating this is incremental optimization rather than breakthrough innovation. Adjusting damper position to optimize load distribution and vibration damping performance is routine mechanical engineering practice. The combination motivation is strong: asymmetric mass distribution's effect on vibration modes is well-known in dynamics. The specific 60/40 load split ratios in dependent claims represent routine optimization parameters determinable through standard testing. No unexpected results are shown. With my strictness=0.82 and combination_threshold=0.51, this represents a clear case of obvious design optimization of a known system. The Graham factors strongly support obviousness: scope and content of prior art covers the damper system, differences are mere positional adjustment, PHOSITA would routinely optimize damper placement, and no secondary considerations overcome obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013195665-A1 teaches all structural elements (blades, platforms, gaps, dampers) and explicitly acknowledges industry's search for improved damper performance. However, the prior art does not explicitly teach offset positioning - it only mentions traditional centered positioning. The obviousness argument relies on: (1) motivation from background statement about seeking improvements, and (2) assertion that offset positioning is 'routine design optimization.' The specification shows offset positioning coverage at only 0.4 similarity (implicit match). While the motivation exists and the modification appears predictable, the prior art does not suggest the specific direction of improvement (offset vs. other modifications like damper shape, material, or surface treatment). The 60/40 load split is presented as routine optimization but with no supporting evidence that this specific ratio would be obvious to try. Given combination_threshold=0.46 and strictness=0.47 (both near neutral), this is a borderline case where the evidence is sufficient to raise obviousness as an issue, but not overwhelmingly strong."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.48,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2013195665-A1 disclosing the basic damper structure and the argument that offsetting the damper position is an obvious design optimization. The prior art explicitly teaches dampers positioned under platforms for vibration damping. However, the critical limitation of 'offset position' is not explicitly disclosed in the prior art. The obviousness argument relies on the reasoning that offsetting a damper to optimize load distribution is 'routine engineering optimization' and 'predictable design variation.' While this reasoning has merit, it requires inferential steps: (1) recognizing that damper position affects performance, (2) being motivated to move from the traditional centered position, and (3) arriving at the specific offset configuration. The specification acknowledges dampers are 'traditionally centered on the centerline,' which suggests the offset approach may not have been conventional practice. The motivation to combine is articulated (improving damper performance), but the specific teaching or suggestion to offset the damper position is not explicit in US-2013195665-A1. The strength is moderate because while the modification seems logical in hindsight, the prior art does not explicitly teach or suggest moving away from the traditional centered configuration. Given my strictness of 0.55 (essentially neutral), I need to weigh whether this reasoning crosses the threshold for obviousness or whether it represents hindsight reconstruction."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013195665-A1 teaches dampers positioned between adjacent turbine blade platforms to provide frictional damping. The key limitation 'offset position' is not explicitly disclosed in the prior art. The prior art teaches 'rigid features to provide consistent contact with each side of the platform,' which suggests symmetric/centered positioning rather than offset positioning. The obviousness rejection relies on the argument that varying damper position to optimize performance is a predictable design modification. While optimizing component positioning is within ordinary engineering skill, the prior art's teaching of 'consistent contact with each side' arguably points away from asymmetric/offset positioning. The motivation to combine is based on general desire to improve damping performance, but the specific teaching in the prior art suggests equal/symmetric contact. The evidence for obviousness is present but not overwhelming—it requires a step of reasoning that offset positioning would be an obvious optimization despite the prior art's symmetric teaching. Given strictness=0.46 (moderate, slightly lenient), this moderate-strength obviousness rejection warrants careful evaluation. The combination_threshold=0.22 suggests relatively easy obviousness findings, but the actual technical teaching in the prior art creates some tension with the offset concept."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2013195665-A1 disclosing centered dampers and arguing that offsetting the damper is obvious optimization. The prior art explicitly states dampers are 'traditionally centered' and provides 'consistent contact with each side,' suggesting equal load distribution. The claimed offset positioning represents a departure from this traditional approach. The motivation to combine relies heavily on the applicant's own specification stating manufacturers 'continue to seek further improvements,' which is a general statement of ongoing optimization efforts rather than specific teaching that offset positioning would be an obvious solution. The examiner argues offset positioning is 'predictable design optimization' and 'routine experimentation,' but the prior art does not explicitly suggest moving away from centered positioning or teach that offset would improve performance. The Graham factors analysis shows differences exist (offset position, unequal load split, specific ratios) and while the examiner argues these are predictable, there is no explicit teaching in the prior art of offsetting dampers or the benefits thereof. The reasoning relies on hindsight reconstruction—knowing the claimed solution works, the examiner argues it would have been obvious to try. However, the prior art teaches centered positioning as the standard, and there is no clear motivation why a PHOSITA would deviate from this without the benefit of applicant's disclosure. The combination_threshold=0.33 lowers the bar for finding obviousness, but even with this lower threshold, the motivation to combine is not strongly established by explicit teaching in the prior art. The rejection has merit but is not conclusive—it presents a moderate case for obviousness that requires careful weighing of whether offset positioning is truly a predictable variation or a non-obvious insight."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013195665-A1 discloses all structural elements except the 'offset position' of the damper. The application's own Background acknowledges that traditional dampers were centered on the blade-to-blade centerline and that improved damper performance was sought. While offsetting the damper position to optimize load distribution is a reasonable engineering approach, the prior art reference specifically teaches 'consistent contact with each side of the platform,' which suggests centered positioning rather than offset. The motivation to combine relies on general optimization goals rather than explicit teaching or suggestion in the prior art. The 60/40 load split and center of mass offset are presented as routine optimization, but no evidence is provided that a PHOSITA would specifically select offset positioning over other potential improvements (e.g., damper material, shape, surface treatment). The rejection assumes that positional adjustment is the obvious path to improvement, but this is not clearly established by the cited reference alone. Given combination_threshold=0.44, the threshold for obviousness is relatively low, but the evidence remains somewhat speculative."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on the obviousness of offsetting a damper position within a gap to optimize damping performance. US-2013195665-A1 explicitly discloses dampers with 'consistent contact with each side of the platform,' which suggests centered, not offset positioning. The rejection argues that adjusting damper position is a predictable design optimization. However, this conclusion requires several inferential steps: (1) recognizing that position affects load distribution, (2) determining that unequal load distribution might improve damping, and (3) selecting an offset configuration over the disclosed centered configuration. While the motivation (improving vibration damping) exists in the prior art, the specific teaching points away from offset positioning by emphasizing 'consistent contact.' The combination threshold of 0.52 suggests that common sense suffices, but the prior art's explicit teaching of centered positioning creates some tension. The specification's acknowledgment of seeking incremental improvements supports obviousness, but the lack of explicit teaching or suggestion of offset positioning in US '665 creates interpretive room. Given strictness=0.42 (slightly favorable to applicant on borderline cases), this moderate-strength rejection warrants careful scrutiny but can be maintained if the optimization rationale is deemed sufficiently strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013195665-A1 teaches all structural elements (blades, platforms, gap, damper) but does not explicitly disclose 'offset positioning.' The obviousness argument relies on: (1) the prior art's statement that manufacturers seek improvements, (2) the assumption that offset positioning is a predictable design optimization, and (3) the claim that load distribution is a result-effective variable. However, the application's background acknowledges that 'traditionally, dampers are centered' which suggests that offset positioning was not the conventional approach. The motivation to combine depends on whether a PHOSITA would have been motivated to try offset positioning specifically, or whether this represents hindsight reconstruction using the applicant's disclosure. The specific 60/40 load split and its effects on damping performance are not taught or suggested by the prior art. While positional adjustment is within ordinary skill, the question is whether offset positioning (as opposed to other improvements like material changes, geometry changes, etc.) would have been obvious without the benefit of hindsight. The evidence is moderate rather than strong because the prior art does not suggest offset positioning as a solution path, and the applicant may argue unexpected results or that offset positioning solves a problem not recognized in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejection is based on US-2013195665-A1 disclosing the basic damper structure, but lacking explicit teaching of 'offset position.' The analysis relies heavily on (1) applicant's own specification stating traditional dampers are centered and manufacturers seek improvements, and (2) characterizing offset positioning as 'predictable design modification' and 'routine optimization.' However, the prior art reference does not teach or suggest WHY or HOW to offset the damper from the centered position. The motivation is derived primarily from applicant's admission of known objectives rather than from the prior art itself. The 'offset position' is the core inventive concept, and the reference shows dampers in a different configuration (centered, providing 'consistent contact with each side'). While the reasoning invokes routine optimization and result-effective variables for specific ratios, the foundational step—moving from centered to offset positioning—lacks explicit suggestion in the prior art. The combination threshold of 0.57 suggests moderate scrutiny is appropriate. Given that the reference teaches away from offset positioning by describing 'consistent contact' (implying balanced/centered arrangement), and the motivation comes largely from hindsight reconstruction using applicant's own problem statement, this rejection has moderate strength but notable weaknesses."
+        }
+      ]
+    }
+  ]
+}

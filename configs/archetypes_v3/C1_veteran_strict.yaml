@@ -1,0 +1,24 @@
+archetype_name: veteran_strict
+archetype_type: composite
+description: >
+  Composite archetype representing an experienced, strict examiner. High strictness
+  with broad BRI, low combination threshold (experience-based pattern recognition),
+  high seniority, and strong specialization. Represents the documented strict end
+  of the examiner distribution. [Frakes & Wasserman 2017]
+base_profile:
+  strictness: 0.80
+  claim_breadth: 0.70
+  combination_threshold: 0.30
+  seniority: 0.85
+  tech_specialization: 0.70
+  policy_stance: 0.50
+  legal_style: textualist
+  tech_domains:
+    - general
+noise_config:
+  strictness: 0.05
+  claim_breadth: 0.05
+  combination_threshold: 0.05
+  seniority: 0.05
+  tech_specialization: 0.05
+  policy_stance: 0.02

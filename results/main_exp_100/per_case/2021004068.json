@@ -1,0 +1,205 @@
+{
+  "case_id": "PILOT-2021004068",
+  "proceeding_number": "2021004068",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 1.0,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제출된 진보성 판단에 따르면, 선행기술 US-2015269244-A1은 인력 유지율 예측에 집중하며, 청구항에 포함된 권고사항의 다중 사용자 분배, 역할 기반 할당, 비용/시간 기반 계획 선택, 사용자 인터페이스 통한 대화형 수정 등의 기능을 개시하지 않는다. 결합 동기에 대한 명확한 근거가 제시되지 않았으며, 기술적 맥락과 목적의 차이가 존재함. 그러나 심사관의 엄격성 기준(strictness=0.79)을 고려하더라도, 이러한 차이점들이 공지기술의 단순한 조합 또는 통상의 기술자에 의해 자명한 변형에 해당한다는 명확한 증거는 부족함. 따라서 103 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-20152699244-A1은 직원 유지 분석에 초점을 두고 있으며, 다양성 목표 달성을 위한 추천 생성, 실현 가능성 기반 선택, 다수 사용자에게 작업 분배하는 기능과는 기술적 목적과 동기가 다르다. 결합 동기가 부족하며, 통상의 기술자가 이러한 기능을 결합하여 도달하기는 자명하지 않다. 다만, 청구항의 일부 구성요소(예: 머신러닝, 캘린더 통합)는 개별적으로는 공지기술일 수 있으나, 전체적인 조합과 적용 목적은 새로운 기술적 효과를 제공하므로 obviousness 판단의 근거 강도는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2015269244-A1은 인재 유지 예측에 초점을 두고 있으며, 고용 다양성 계획의 생성, 실행 가능성 기준 선택, 다수 사용자에게 작업 분할 및 할당 기능은 개시하지 않는다. 두 시스템의 기술적 목적과 구현 방식이 근본적으로 다르며, 결합 동기가 명확하지 않다. 통상의 기술자가 유지 예측 기술을 고용 다양성 실행 계획 수립 및 분배 시스템에 적용하도록 결합할 동기가 부족하다. combination_threshold=0.33인 점을 고려하면, 이 정도의 유사성은 obviousness 판단에 충분하지 않으며, 특히 목적과 맥락의 차이가 크다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.91,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으며, 선행기술과의 차이점 및 결합 동기 부족이 명시됨. 특히 US-2015269244-A1이 유지율 예측에 집중하고 있는 반면, 본 출원은 고용 다양성 목표 달성을 위한 실행 지향적 분배, 비용/시간 기반 선택, 사용자 인터페이스 통합 등 새로운 기술적 목적과 맥락에서 차별화됨. 통상의 기술자도 이러한 기능들을 용이하게 결합하기 어렵다고 판단되며, 2차적 고려사항(실용성, 사회적 필요 등)도 긍정적으로 작용. combination_threshold=0.44 기준보다 높은 비자명성 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    }
+  ]
+}

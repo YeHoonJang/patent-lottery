@@ -1,0 +1,344 @@
+{
+  "case_id": "2021002551",
+  "proceeding_number": "2021002551",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses structural variations (elevations/recesses) functionally equivalent to claimed microstructured regions with differing friction coefficients. PHOSITA would combine these features for tactile feedback with clear motivation."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected based on explicit prior art disclosure (US-2013101804-A1) and clear combination with other techniques (US-2012268412-A1). The combination is deemed obvious under strict 103 criteria with high confidence (0.6-0.85)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks sufficient detail on technical terms like 'running elevation/depression' and 'sliding friction coefficient variation', but this is a common issue in the field and not a complete absence of disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks detailed descriptions of critical elements (e.g., 'running elevation/depression parallelism', material-specific enablement for UV-curing paint/ink, and functional implementation of directional haptic guidance). These deficiencies are explicitly supported by cited prior art and verified as significant gaps in the disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks sufficient detail on key terms (e.g., 'running elevation/depression') and specific material/fabrication parameters (UV-curing paint/ink, embossing resolution), raising enablement concerns under 35 U.S.C. § 112(a). This is a clear, unambiguous deficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대한 선행기술 결합 동기와 Graham 요소가 명확히 제시되어, 결합의 당업자 지식과 명확한 동기가 있음. confidence 값은 0.6~0.85로 높은 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected based on clear combinations of prior art references (US-2013101804-A1 and US-2012268412-A1) with explicit motivations to combine, supported by high confidence (0.8-0.88). The Graham factors show the prior art suggests the claimed features as obvious extensions."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 10 and 14 lack sufficient enablement and clarity, as the specification does not explicitly describe 'running elevation/depression' parallelism or how microstructures achieve distinct friction coefficients. Verification confirms this deficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected based on explicit prior art combinations (US-2012268412-A1 and US-2013101804-A1) with clear motivation to combine. Confidence scores range from 0.55 to 0.75, and Graham factors confirm obviousness to PHOSITA."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Specification lacks sufficient detail on critical terms ('running elevation/depression', 'negative matrix') and fabrication methods, directly impacting enablement and written description under 35 U.S.C. § 112."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (10,14-19) are rejected based on clear combination of prior art references with explicit motivations. Verification notes confirm strong technical overlap and logical combination."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2013101804-A1, US-2012268412-A1) does not suggest or motivate the specific combination of microstructured regions with varying friction coefficients and parallel directional features. The Graham factors indicate no clear motivation to combine these elements, and the combination requires non-obvious design choices."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'running elevation/depression' lacks clear definition in the specification, creating ambiguity under 35 U.S.C. § 112(b). While the issue is not as severe as a complete indefiniteness, the lack of definition weakens the claim's clarity."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 구체적 내용과 청구항의 구성요소가 명확히 매칭됨 (confidence 0.8 이상)"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "두 개 이상의 선행기술 간 결합 동기 명시 및 공지기술 기반 결합 가능성 확보 (confidence 0.65 이상)"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서의 'running elevation/depression' 및 'finger-guiding haptics' 정의 부족은 해석 여지 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (10-19) are rejected under 103 with clear prior art combinations (US-2012268412-A1 and US-2013101804-A1) and explicit motivations to combine. Confidence scores (0.6-0.78) exceed combination_threshold=0.44, and Graham factors are thoroughly addressed."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 10's terms 'parallel' and 'running elevation/depression' lack clarity under BRI, but this is mitigated by the prior art's explicit teachings of microstructured surfaces and friction simulation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1 explicitly discloses all claimed elements (microstructured surfaces, UV-curing materials, embossing/inkjet methods) and provides clear motivation for their combination. High similarity scores (0.6-0.85) and Graham factors confirm obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims contain vague terms like 'finger-guiding haptics' and 'running elevation/depression' without definition. Specification lacks specific methods for achieving microstructured surfaces with varying friction coefficients."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (10, 14-19) are rejected based on explicit prior art disclosures (US-2013101804-A1, US-2012268412-A1) with clear motivation to combine. Confidence levels (0.75-0.95) and Graham factors confirm strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected based on clear combination of US-2012268412-A1 and US-2013101804-A1 with explicit motivation to combine. Graham factors confirm PHOSITA would recognize utility of combining friction variation and directional features. Confidence scores (0.7-0.85) indicate strong evidence."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "case_id": "2019005946",
+  "proceeding_number": "2019005946",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012318946-A1은 청구항 1의 구성요소를 개시하거나 명백하게 개시하며, 이는 청구항 1이 선행기술에 의해 자명하다는 것을 의미합니다. 청구항 1의 base plate와 top plate는 US-2012318946-A1의 first member와 second member로 매핑되며, minimum three pairs of crossed legs는 plurality of fourth members로, connecting hardware는 third member로, tabletop은 table assembly로 개시됩니다. 결합 동기 기준(0.34)에 비추어, 통상의 기술자가 선행기술을 조합하여 청구항을 도출할 동기가 명확합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 'crossed legs'가 명세서에서 명확하게 정의되지 않았으며, 청구항 범위가 명세서의 실시예를 초과하는 것으로 보입니다. 그러나, 청구항의 범위가 명세서와 명백히 분리된 경우가 아니면, 기재요건을 충족하지 못한다고 단정하기는 어렵습니다. 명세서에서 'crossed legs'에 대한 구체적인 설명이 부재하나, 청구항 자체의 문언이 모호하여 112 거절의 근거가 될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012318946-A1은 청구항의 기능적 및 구조적 동등성을 충분히 보여주며, 결합 동기가 명확히 제시됨. PHOSITA가 선행기술의 truss-like fourth members를 'crossed legs'로 해석할 수 있으며, 이는 35 USC 103의 자명성 판단 기준을 충족함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'minimum three pairs of crossed legs' 및 'connecting hardware'에 대한 구체적 설명이 부재하며, 이는 실천을 위한 실질적인 설명이 부족함. 그러나 청구항의 다른 요소는 명세서에서 충분히 지지됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서가 제공되었으나 청구항의 'crossed legs' 구성요소에 대한 구체적인 설명과 도면이 부재하여, 통상의 기술자가 충분히 재현할 수 없다는 우려가 있음. 그러나 혁신 지원형 성향과 관대한 strictness(0.25)를 고려하면, 보정을 제안하는 쪽으로 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art clearly teaches a support assembly with a base plate, top plate, crossed legs, and connecting hardware for a table assembly. The differences between the prior art and the claimed invention are minimal, primarily relating to the specific configuration of the crossed legs. Given the combination threshold of 0.45, the motivation to modify the prior art to achieve the claimed invention would be obvious to a person of ordinary skill in the art as a matter of design choice to improve stability and ease of assembly, which are well-known objectives in furniture design."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claim lacks sufficient written description for the term 'crossed legs' and the phrase 'minimum three pairs of crossed legs'. The specification does not clearly define these terms or provide specific examples of their structural implementation. Additionally, the specification does not clearly explain how the number of crossed leg pairs contributes to the invention's core functionality. The term 'tabletop' is described as optional, but the specification does not clearly explain how its presence or absence affects the invention's core functionality. This lack of detail may require undue experimentation by a person of ordinary skill in the art to practice the invention as claimed."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012318946-A1 already teaches the core structural elements of the claimed invention. The PHOSITA would have a clear motivation to modify the reference to include three pairs of crossed legs for enhanced stability, as the reference teaches crossed members providing stability and suggests adaptability to different configurations. The combination threshold of 0.51 supports the obviousness determination."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification does not clearly describe the specific structure and arrangement of 'crossed legs' or how the minimum of three pairs of crossed legs combine to provide stability. The claimed terms 'crossed legs' and 'minimum three pairs of crossed legs' are not adequately supported in the written description, requiring undue experimentation to reproduce the invention."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2012318946-A1 teaches a support assembly with a base plate, top plate, and connecting hardware, which are analogous to the components of the claimed invention. While the prior art does not explicitly disclose 'minimum three pairs of crossed legs,' the teaching of a third member fixedly secured between the first and second members suggests a structural framework that could be modified to include crossed legs for enhanced stability. The motivation to combine would stem from the desire to improve lateral stability and ease of assembly, which are explicitly mentioned in the present invention's summary. The differences between the prior art and the claimed invention are primarily in the specific arrangement of the crossed legs, which would be within the skill of a person of ordinary skill in the art (PHOSITA) to modify based on known benefits of crossed leg designs in furniture. However, the confidence level of 0.7 indicates that the reasoning is somewhat persuasive but not overwhelming, and the specific arrangement of three pairs of crossed legs for lateral support in all directions is not clearly taught in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2012318946-A1 discloses a support assembly with crossed legs for stability. The claimed invention specifies three pairs of crossed legs and emphasizes ease of assembly, which are not explicitly stated in the prior art. However, the prior art suggests that the number of crossed legs can be adjusted based on design needs, and a person of ordinary skill in the art would understand the principles of structural stability and assembly. The motivation to combine is present, but the confidence level is 0.7, indicating a moderate strength."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The claim's key terms 'crossed legs' and 'minimum three pairs' are not sufficiently defined in the specification. The specification lacks specific descriptions of the structural characteristics of these terms, and the expression 'minimum three pairs' is not clearly defined as a numerical criterion. Additionally, the optional inclusion of a 'tabletop' is not clearly described in terms of necessity. The verification status is 'PASS', indicating that the specification does not adequately describe the invention claimed in the claims, which is a strong basis for a 112 rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2012318946-A1 discloses a structurally similar support system with crossed legs and connecting hardware. While the reference is for a suspension system rather than a pedestal table, the structural elements and functional relationships are sufficiently similar that applying them to a pedestal table would be a straightforward design choice. The motivation to combine is reasonable, but the threshold for obviousness is not extremely high, and the confidence level is at 0.7."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'crossed legs' and 'minimum three pairs of crossed legs' is not clearly defined or adequately described in the specification. This could lead to ambiguity in the scope of the claim and may require undue experimentation. However, this is a moderate issue that could potentially be addressed with amendments."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2012318946-A1 discloses a similar support assembly with multiple members between a base and top plate. While the specific configuration of 'crossed legs' is not explicitly taught, the concept of using multiple members for stabilization is present. The configuration of crossed legs is considered a design choice to achieve the same function, which supports an obviousness rejection. However, the confidence level is 0.7, indicating some uncertainty in the strength of the rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification does not clearly describe the 'minimum three pairs of crossed legs' limitation, and the phrase 'used as a table with a tabletop' is ambiguous. This raises concerns about written description and claim clarity. However, the issue may be resolved with clarification or amendment rather than outright rejection. The confidence level is not explicitly provided, but the reasoning is based on specific specification omissions."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The US-2012318946-A1 is cited as anticipating all elements of claim 1, with a high confidence level (0.8). The reasoning is detailed and matches the claimed structure, making this a strong anticipation rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the same prior art reference and relies on the differences being minor and obvious to a person skilled in the art. While the motivation to combine is provided, the distinction between the prior art and the invention is minimal, leading to a moderate strength."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The written description rejection focuses on the lack of clarity for 'crossed legs' and redundancy in the claim language. While the issue is valid, the strength is moderate as it may be resolved through clarification or amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 사용된 'crossed legs' 및 'connecting hardware'에 대한 명세서 기재가 불충분하며, 이로 인해 통상의 기술자가 발명을 재현하는 데 어려움이 있을 수 있습니다. 그러나 명세서가 완전히 부재하지는 않으며, 일부 구조적 설명이 포함되어 있어 해석의 여지가 있습니다."
+        }
+      ]
+    }
+  ]
+}

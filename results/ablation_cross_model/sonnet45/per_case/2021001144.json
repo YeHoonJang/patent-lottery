@@ -1,0 +1,353 @@
+{
+  "case_id": "2021001144",
+  "proceeding_number": "2021001144",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.35714285714285715,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3에 대한 103 거절은 US-2014265550-A1이 구조적 요소(interface unit with ports, sensor units with power/data connectivity, daisy-chain topology)를 개시하고 있으며, 유일한 차이점은 'disconnecting in the event of a fault' 단계라는 점에 기초함. 거절 근거는 PoE 표준(IEEE 802.3af/at)이 fault protection을 inherently 포함하므로 disconnection이 obvious하다는 논리임. 그러나 이는 다소 약한 근거임: (1) US-2014265550-A1은 fault disconnection을 명시적으로 개시하지 않음, (2) PoE 표준의 fault protection이 청구항의 specific disconnection method와 동일하다는 명확한 증거 없음, (3) 'it would have been obvious'는 추론에 의존. 그럼에도 불구하고 structural similarity(coverage_score 0.65)가 상당하고, fault protection이 업계 상식(common sense)에 해당한다는 점에서 moderate 강도로 평가. Strictness=0.79 성향상, moderate 근거도 거절을 유지할 가능성이 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies heavily on 'well-known' current monitoring and fail-safe disconnection techniques, but the Office Action does not cite specific prior art references for these techniques beyond US-2014265550-A1. While current monitoring in power systems is indeed common knowledge, the specific combination of (1) summation current measurement of partial currents from multiple expansion interfaces, (2) load diagnosis device architecture, and (3) specific fault detection methods (claims 5-7) represents a more particular configuration than generic current monitoring. US-2014265550-A1 discloses sensor network daisy-chaining but does not explicitly teach current measurement or fault-triggered disconnection. The motivation to combine is articulated based on safety-relevant context mentioned in the specification, which is circular reasoning (using applicant's own disclosure to establish obviousness). However, given the general knowledge that current monitoring is standard in power distribution and the specification itself acknowledges fail-safe behavior as known, the combination has technical plausibility. The strength is moderate rather than strong because: (a) no specific secondary reference is cited for current monitoring methods, (b) the specific diagnostic techniques in claims 5-7 are more particular than generic current sensing, (c) the motivation relies partly on hindsight from the specification's stated purpose."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항(2-7)에 대해 103 obviousness 거절 근거가 제시되었으나, 각 분석에서 선행기술 US-2014265550-A1이 핵심 구성요소들을 개시하지 않는다고 명시되어 있습니다. 특히 (1) 디지털 데이터 출력과 연관된 부하 진단 장치, (2) 합산 전류 측정 기능, (3) fail-safe 차단 메커니즘, (4) 스위칭 시 전류 변화 모니터링 등의 핵심 구성이 선행기술에 없습니다. Combination_threshold=0.68을 적용할 때, 명시적 결합 동기가 필요하나 선행기술은 단순히 PoE 전력 공급에 초점을 맞추고 있어 이러한 특정 진단 아키텍처로 결합할 교시나 시사가 부족합니다. Coverage_score가 0.1-0.3으로 매우 낮고, Graham factors 분석에서도 통상의 기술자가 이러한 특정 구성을 자명하게 도출하기 어렵다고 평가되었습니다. 따라서 103 거절 근거는 weak합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항(2-7)이 novel하다고 판단되었으며, US-2014265550-A1이 핵심 구성요소들을 anticipate하지 않습니다. Confidence scores가 0.7-0.8로 높으며, 선행기술과의 차이가 명확합니다. 102 거절 근거는 없습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 6과 7의 dependency 표현이 불명확합니다('claimed wherein'이라는 비표준 표현 사용). 이는 형식적 objection으로 간단히 보정 가능하며, 명세서 뒷받침이나 enablement 문제는 아닙니다. 기술적 내용 자체는 문제없으나 형식적 명확성 개선이 필요합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "All claims 2-7 were found to be novel. US-2014265550-A1 does not disclose the key features: load diagnosis device, summation current measurement, fail-safe module disconnection, or fault detection mechanisms. Coverage scores range from 0.1 to 0.6, with critical elements consistently not covered (is_covered: false). No anticipating references identified for any claim."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims 2-7 were found to be non-obvious. The prior art US-2014265550-A1 only teaches PoE-based power distribution but lacks any teaching or suggestion of: (1) load diagnosis functionality, (2) summation current measurement for diagnostic purposes, (3) fail-safe module disconnection mechanism, (4) current change monitoring during switching, or (5) expected current comparison for fault detection. No explicit motivation to combine exists. The claimed features represent non-obvious technical solutions addressing safety-relevant network requirements not suggested by the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Only a formal objection was raised for Claim 6 regarding unclear antecedent basis ('The method of claimed...' should read 'The method of claim 4'). This is not a rejection under 35 U.S.C. 112 but merely a formal clarity issue that can be corrected by amendment. No substantive enablement or written description deficiencies were identified."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 6 contains a clear formal defect with 'claimed wherein' instead of proper dependency format 'claim [X], wherein'. This creates definite indefiniteness under 35 U.S.C. § 112(b). Claims 2, 3, 4, 5, 7 reference missing claim 1, creating formal dependency defects. These are objective, verifiable formal errors requiring correction."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Analysis shows all claims 2-7 are novel over US-2014265550-A1. The prior art does not disclose load diagnosis devices, current measurement functionality, fault-based disconnection, or comparison-based fault detection. Coverage scores are very low (0.1-0.4). Confidence levels are high (0.82-0.88). No anticipation basis exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Graham factors analysis shows clear differences between prior art and claimed invention. US-2014265550-A1 teaches PoE distribution with redundancy, while claims require active load diagnosis and fault-based disconnection - fundamentally different technical approaches. No teaching, suggestion, or motivation to combine exists. The prior art addresses power delivery reliability through redundant paths, while claimed invention uses diagnostic monitoring and isolation - distinct solutions to different problems. Confidence levels are high (0.80-0.86) for non-obviousness findings."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on 'common knowledge' arguments without specific prior art disclosure of the key claimed features: (1) fault-responsive disconnection, (2) summation current measurement via load diagnosis device, (3) fault detection based on current change absence during switching, and (4) comparison of measured vs. expected summation current. While the Office Action argues these are 'well-known' or 'standard' techniques, no secondary references are cited. The sole reference US-2014265550-A1 addresses a different technical problem (redundant power delivery in sensor networks) and provides no teaching or suggestion of the claimed diagnostic approach. The motivation to combine is stated but not substantiated with evidence from the prior art or the knowledge of a PHOSITA. The specification's acknowledgment that 'fail-safe behavior is known' does not establish that the specific claimed method steps would have been obvious. Under KSR, 'common sense' must be supported by evidence, not attorney argument. The examiner has not met the initial burden of establishing a prima facie case of obviousness with sufficient evidence or technical reasoning. The combination appears to be based on hindsight reconstruction using the applicant's disclosure rather than what would have been obvious before the invention."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The Office Action itself WITHDREW the 103 rejection after thorough analysis. The prior art US-2014265550-A1 teaches power distribution topology but does not teach or suggest: (1) load diagnosis devices measuring summation current, (2) fault-based disconnection through interconnection of supply voltage input with digital data output, (3) fault detection based on current monitoring, or (4) comparison-based fault detection methodologies. The claims address different technical problems (diagnostic functionality and fail-safe behavior) than the prior art (efficient power distribution). No clear motivation to combine exists, and the Graham factors analysis shows substantial differences between the claimed inventions and the prior art. The examiner's own analysis concludes the claimed features would not have been obvious to a PHOSITA based on US-2014265550-A1 alone."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on broad assertions that it would have been 'obvious' to add load diagnosis and current measurement to US-2014265550-A1, but lacks specific technical teaching or motivation. US-2014265550-A1 focuses on redundant power distribution in sensor networks, not on load diagnosis or current monitoring. The combination rationale is generic ('improve reliability') without explaining why a PHOSITA would specifically add summation current measurement. The rejection does not address that adding diagnostic disconnection (claim 3) contradicts the redundancy approach of the prior art. The specific fault detection methods in claims 5-7 (detecting lack of current change during switching, comparing measured vs. expected current) are asserted to be 'obvious' without citation to any teaching of these specific techniques. The rejection essentially argues that any current monitoring technique would be obvious to add, which is conclusory. The novelty analysis found all claims novel with 0.70-0.80 confidence, and the obviousness analysis found all claims non-obvious with similar confidence, noting absence of motivation to combine and conflicting design philosophies."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 6 contains a clear indefiniteness defect with 'claimed wherein' phrase that fails to properly identify the base claim dependency. This is a straightforward formatting error that creates genuine uncertainty about claim scope and prevents proper examination. The defect is objectively verifiable and requires correction regardless of examiner strictness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All analyzed claims (2-7) show strong novelty. US-2014265550-A1 lacks the core inventive elements: load diagnosis device measuring summation current (claims 2,4,6,7), fault-based disconnection method via digital data output (claim 3), and specific fault detection mechanisms (claims 5,6,7). Mapping shows 0.0 coverage for most claims with critical elements not covered. The prior art focuses on power distribution topology without any diagnostic measurement or fault detection through current monitoring."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the prior art US-2014265550-A1 shows structural similarities in power distribution through networked interfaces, it does not teach or suggest the combination of features claimed. The key differences are: (1) load diagnosis through summation current measurement, (2) fault-based disconnection via digital data output interconnection, (3) specific fault detection methods comparing measured vs expected current or detecting absence of current change during switching. However, some argue that current measurement and fault detection are known techniques in the art. Given combination_threshold=0.22 (low threshold favoring obviousness), a strict examiner might argue these are obvious combinations of known elements. But the prior art provides no motivation to combine power distribution with diagnostic current measurement, and no teaching of the specific architecture routing supply voltage through digital data output for unified fault control. The synergistic combination solving fail-safe behavior in safety-relevant networks suggests non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014265550-A1은 load diagnosis device, summation current measurement, failsafe disconnection mechanism 등 청구항의 핵심 구성요소들을 전혀 개시하지 않습니다. 선행기술 매핑 분석에서 coverage scores가 0.0-0.3으로 매우 낮게 나타났으며, 핵심 요소들(load diagnosis, summation current, fault disconnection)은 matched_refs가 없습니다. 단일 선행기술이 청구항의 모든 구성요소를 개시하지 못하므로 102 거절 근거가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2014265550-A1은 redundant power distribution을 개시하지만, 청구항들이 요구하는 load diagnosis 기능, summation current monitoring, failsafe disconnection은 서로 다른 기술적 접근(fault tolerance vs. failsafe shutdown)을 나타냅니다. 결합 동기가 명확하지 않으며, 선행기술은 current-based diagnostics나 expected value comparison을 교시하거나 시사하지 않습니다. 통상의 기술자가 redundant power system으로부터 diagnostic monitoring system을 도출할 명시적 동기가 부족합니다. Graham factors 분석도 발명적 기여를 지지합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서는 모든 청구항 구성요소들을 적절히 뒷받침합니다. Supply voltage input과 digital data output의 interconnection, load diagnosis device의 summation current measurement, fault detection mechanisms 등이 명세서에 명확히 기재되어 있습니다. 용어들도 해당 기술분야에서 이해 가능한 수준입니다. 112 거절 근거가 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "not applicable",
+          "reasoning": "청구항들은 구체적인 기술적 장치(interface expansion device, load diagnosis device) 및 방법(fault detection through current monitoring)을 청구하며, abstract idea에 해당하지 않습니다. Physical hardware와 specific technical implementation을 포함하므로 101 이슈가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 6의 dependency clause 'of claimed'는 35 U.S.C. 112(d)의 명확한 위반입니다. 종속항은 특정 청구항 번호를 명시해야 하는데, 'of claimed'는 어떤 청구항에 종속하는지 식별할 수 없게 만듭니다. 이는 명세서 내용과 무관하게 청구항 자체의 형식적 결함으로, 청구항의 범위를 불명확하게 만듭니다. 이는 기술적 내용의 해석 문제가 아니라 청구항 작성 요건의 명백한 위반이므로 strong rejection에 해당합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Office Action의 103 거절은 US '550이 PoE 네트워크에서 전력 및 데이터 제공을 개시하고, 여기에 공지의 전류 측정, 고장 격리, 비교 기반 진단 기술을 결합하면 자명하다고 주장합니다. 그러나 이는 hindsight bias의 전형적 사례입니다. (1) US '550은 단순 센서 네트워크 전력 분배를 다루며, 안전-중요 시스템의 failsafe 요구사항이나 부하 진단 문제를 전혀 제기하지 않습니다. (2) 청구항 2-7의 핵심은 '합산 전류 측정을 통한 부하 진단' 및 '스위칭 이벤트와 전류 변화 상관관계 기반 결함 검출'이라는 특정 시스템 아키텍처인데, 이는 단순히 '전류 측정은 공지기술'이라는 일반론으로 자명성을 입증할 수 없습니다. KSR은 predictable variation을 요구하는데, 전력 분배 네트워크에 진단 시스템을 통합하는 것은 단순 변형이 아닌 특정 기술적 문제(안전-중요 네트워크의 결함 검출) 해결입니다. (3) Motivation to combine이 약합니다. Office Action은 '신뢰성 향상, 안전 확보'를 동기로 제시하나, 이는 사후적 일반론이며, US '550 자체는 이러한 문제를 다루지 않습니다. (4) 선행기술 매핑 결과 coverage score가 0.0-0.45로 매우 낮고, 핵심 요소들(부하 진단 디바이스, 합산 전류 측정, 스위칭-전류 상관 결함 검출)이 전혀 매칭되지 않았습니다(is_covered: false). (5) Combination threshold 0.52를 고려할 때, 명시적 교시나 암시 없이 여러 공지기술을 결합하여 특정 진단 아키텍처에 도달하는 것은 자명하지 않습니다. 따라서 103 거절 근거는 weak합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 6은 'The method of claimed wherein...'이라고 기재되어 있어 어느 청구항에 종속되는지 불명확합니다. 이는 명백한 drafting error로 37 CFR 1.75(c) 위반이며, Nautilus 기준(reasonable certainty)에 따라 청구항 범위를 확정할 수 없습니다. 이는 청구항 자체의 내부 결함으로, 명세서 검토 불필요하며 명확한 112(b) 위반입니다. 다만 이는 간단한 보정으로 치유 가능한 형식적 결함입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Prior analysis found all claims 2-7 not obvious. US-2014265550-A1 teaches distributed PoE sensor networks but lacks: (1) load diagnosis devices measuring summation current at network device outputs, (2) architectural interconnection of supply voltage input with digital data output for failsafe disconnection, (3) fault detection based on current change analysis during interface switching, (4) comparison-based fault detection using expected vs. measured current values. The prior art's focus on redundant power distribution for continuous operation fundamentally differs from the claimed failsafe approach. No teaching or suggestion exists to combine distributed PoE concepts with the claimed current-based load diagnosis methodology. The combination would require non-obvious insight specific to safety-critical duplex controller networks not suggested by the prior art. Graham factors analysis supports non-obviousness with high confidence (0.75-0.88)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014265550-A1은 load diagnosis device, summation current 측정, fault detection 메커니즘 등 청구항 2-7의 핵심 구성요소를 전혀 개시하지 않습니다. Coverage scores가 0.0-0.3 범위로 매우 낮으며, 매핑 결과에서도 핵심 요소들이 matched_refs 없음으로 표시되었습니다. 선행기술은 단순히 PoE 기반 전력 전달 구조만 개시하며, 청구항의 진단 및 안전 기능과는 명확히 구분됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술은 전력 전달 구조만 개시하며, load diagnosis, summation current 측정, fault detection 알고리즘 등을 추가할 교시, 시사, 또는 동기가 전혀 없습니다. Graham 요소 분석 결과, 통상의 기술자가 단순 전력 전달 시스템을 safety-relevant failsafe 시스템으로 변형하는 것은 자명하지 않으며, 특히 전류 변화 모니터링 기반 fault detection(청구항 5-7)은 특정한 진단 알고리즘으로 추가적인 기술적 통찰이 필요합니다. combination_threshold=0.57을 충족하는 명시적 결합 동기가 선행기술에 존재하지 않습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 2-7은 명세서의 Abstract와 Background에서 명시적으로 지지됩니다. Abstract는 'measuring the sum current'와 'switching off in event of an error'를 명확히 기재하고 있습니다. 청구항 5-7의 구체적 fault detection 시나리오가 상세히 기재되지 않았으나, 이는 개시된 load diagnosis 기능의 논리적 응용으로 통상의 기술자가 이해할 수 있는 수준입니다. 전류 비교 기반 진단은 전기 진단 시스템의 표준 기법입니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항 2는 물리적 장치(load diagnosis device를 포함한 interface expansion device)를 청구하며, 청구항 3-7은 물리적 단계(전류 측정, 모듈 차단)를 포함한 방법을 청구합니다. 이들은 추상적 아이디어, 자연법칙, 또는 자연 현상이 아닌 구체적인 기술적 구현에 관한 것으로, 101 거절 근거가 없습니다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for every claim, and the §112 rejection properly invokes the indefiniteness standard under §112(b), with no misapplication of statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific prior art references (US-2012189523-A1 and/or US-2012263635-A1) with element-by-element comparisons to specific claim language (e.g., T1 ≥ 350°C, T2 ≤ 650°C, <1 mol% methane, Pd/Pt on oxide support, honeycomb structure)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For claim 4, the novelty stage reasons it lacks novelty because Pd is an 'obvious variant' of the Pt catalyst disclosed in the prior art—an obviousness argument improperly inserted into the §102 analysis—yet the §103 stage then treats it as obvious on the same basis, creating a conflation that undermines the logical boundary between stages; additionally, claims 17 and 19 are found novel at §102 but the §103 analysis relies on a range-overlap argument (0.0–1.5% encompasses <0.1%) that was already available at the §102 stage, with no additional rationale for why this difference supports obviousness rather than anticipation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.818 is consistently reflected throughout: all claims are rejected, no claims are allowed even where novelty was found (claims 6, 12, 17, 19), ambiguity is resolved toward rejection in every instance, and the final decision notes public-interest grounds for full rejection, consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and coherently from the accumulated §103 obviousness findings and §112 indefiniteness rejections across all claims, with no reversal of prior-stage conclusions and an explicit summary tying each claim decision to the stage-level analyses."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005916",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16121,
+      "output_tokens": 532,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

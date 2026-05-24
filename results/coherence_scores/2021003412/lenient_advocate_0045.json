@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis consistently invokes Graham factors (scope and content, differences, PHOSITA level, secondary considerations) and applies KSR/Graham framework throughout, with §103 as the sole rejection basis and no category errors."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim elements (e.g., mean-centering, covariance matrix, SVM classifier) and specific prior art disclosures (US-2016352767-A1 teaching μ and Σ, US-2014179270-A1 teaching SVM and outlier labeling)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds multiple claims not novel based largely on implicit or combined disclosures (claims 2, 5, 7, 8, etc. found anticipated by combinations), but the §103 stage and final decision then treat the same references as only yielding a moderate obviousness rejection—the final decision partially walks back the strong rejections without a clear stated justification for the change in position, creating an inconsistency between the high-confidence §102 findings and the moderate final weighing."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient examiner (strictness 0.292) appropriately resolves the moderate obviousness finding in favor of the applicant by suggesting amendment rather than outright rejection, consistent with the lenient profile and purposivist legal style; however, the high combination_threshold (0.722) is somewhat in tension with freely combining two references, though the trace does provide motivation-to-combine reasoning that partially addresses this."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'amend_suggested' decision follows logically from the accumulated stage analyses, which found all claims obvious at moderate confidence levels while acknowledging the non-trivial integration of PCA and SVM, making amendment rather than outright rejection a reasoned conclusion."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003412",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11614,
+      "output_tokens": 455,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

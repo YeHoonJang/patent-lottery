@@ -1,0 +1,208 @@
+{
+  "case_id": "ABL-2021004068",
+  "proceeding_number": "2021004068",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.8571428571428571,
+  "amend_rate": 0.0,
+  "reject_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015269244-A1은 케이플란-마이어 곡선과 클러스터링을 이용한 유지율 분석을 통해 데이터 기반 인사 분석의 기반을 제공하며, 청구항의 핵심 구성요소인 예측 모델링, 그룹 분석, 의사결정 지원 기능을 개시한다. 청구된 발명은 이에 다수 사용자 할당, 캘린더 연동, 비용/시간 기반 선택 등을 추가하지만, 이러한 요소들은 워크플로 자동화, 프로젝트 관리, 자원 최적화 분야에서 통상의 기술자가 쉽게 결합 가능한 공지 기술이다. 특히 combination_threshold=0.34로 낮은 기준을 적용하므로, 결합 동기(motivation to combine)가 존재하면 obvious 판단이 용이하다. 모든 청구항에 대해 일관된 obviousness 근거가 제시되었으며, Graham 요소들(기술 수준, 차이점, 보조적 고려사항)도 충족되었다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제출된 진보성 판단에 따르면, 선행기술 US-2015269244-A1은 고용 유지 예측에 집중하며, 본 출원의 핵심 구성요소인 '추천 선택', '다수 사용자에게 작업 할당', '비용/시간 기반 계획 선택', '캘린더 기반 마일스톤 통합' 등을 개시하지 않는다. 결합 동기(motivation to combine)에 대한 근거가 제시되지 않았으며, 동일한 기술적 과제(고용 다양성 관리)를 해결하는 다른 선행기술의 존재도 확인되지 않았다. 따라서 103 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2015269244-A1과의 비교가 이루어졌으며, 각각의 차별점이 지적되었으나, 결합 동기(motivation to combine)에 대한 명확한 근거가 부족함. 특히, 고용 다양성 계획 생성, 사용자 할당, 비용/시간 기반 선택 등은 HR 분석 분야에서 통상의 기술자가 자명하게 결합할 수 있는지에 대한 명확한 증거 없음. 다만, 본 출원의 전체적인 흐름이 데이터 분석 → 계획 생성 → 실행 할당 → 피드백 루프로 이어지는 자동화 시스템이라는 점에서, 각 구성요소의 단순 결합 가능성은 있으나, 그 결합 동기가 선행기술로부터 직접적으로 도출되지는 않음. 따라서 obviousness 판단 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 'is_obvious': false로 평가되었으며, 결합 동기(motivation to combine) 부족, 기술적 목적의 명확한 차이, 그리고 차별적 특징이 명시됨. US-2015269244-A1은 퇴직 예측에 집중하고 있으며, 고용 다양성 계획의 생성, 선택, 다수 사용자에게 작업 할당, 비용/시간 기반 평가, 피드백 루프, 외부 벤치마킹 등은 모두 개시되지 않음. 진보성 거절 근거는 존재하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으나, 해당 판단은 단일 선행기술(US-2015269244-A1)과의 비교에 기반하며, 추가적인 선행기술이나 공지상식을 고려하지 않은 채 결합 동기의 부재를 주장함. combination_threshold=0.22로 낮은 기준임에도 불구하고, 기술적 목적의 상이성(유지율 예측 vs. 고용 다양성 계획)을 근거로 결합 동기 부족을 주장하는 것은 다소 보수적인 해석. 통상의 기술자(phosita)가 데이터 분석 시스템에 실행 계획 자동화, 비용/시간 기반 최적화, UI 기반 협업 지원 기능을 통합할 가능성은 존재하나, 명세서 및 청구항의 기술적 효과 기술 방식으로 인해 obviousness 판단이 보류됨. 그러나 근거로서의 강도는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 결합 동기 부족과 선행기술과의 목적 및 기술적 차이를 근거로 obviousness를 부정하였으며, confidence 수치가 0.65~0.75 범위로 일관되게 낮음. US-2015269244-A1이 보유율 분석에 국한되어 있고, 고용 다양성 목표 달성을 위한 계획 생성, 다수 사용자에게의 할당, 부분별 정보 제공 등은 기술적 맥락과 목적에서 본질적으로 다름. 통상의 기술자가 이러한 기능들을 결합할 명확한 동기를 발견하기 어려우며, 결합 동기의 부재가 Graham 요소에서 반복적으로 강조됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015269244-A1은 직원 유지율 분석 및 예측 기반 개입 계획 생성에 대해 포괄적으로 개시하고 있으며, 출원 발명의 핵심 흐름(데이터 수신 → 분석 → 추천 생성 → 선택 → 정보 제공)과 실질적으로 동일함. 복수 사용자에게 역할 할당하는 구성은 협업 시스템에서 통상적 기능으로, 통상의 기술자가 용이하게 결합 가능. 결합 동기(motivation to combine)가 명확하며, combination_threshold=0.52 기준을 충족함. 특히 claim 1, 8, 12, 15는 선행기술의 분석 프레임워크를 다양성 목표나 시간 기반 계획으로 자연스럽게 확장한 것으로, 진보성 결여가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 선행기술과의 차이점이 명확히 지적되었으며, 결합 동기(motivation to combine) 부족이 반복적으로 강조됨. US-2015269244-A1은 유지율 예측에 집중하고 있으며, 고용 다양성 계획 생성, 다중 사용자에게 작업 분배, 비용/시간 기반 최적화, 외부 벤치마킹, 대화형 재생성 등 청구항의 핵심 구성요소를 개시하지 않음. 진보성 판단에서 confidence가 0.65~0.85 수준으로 평가되었고, 통상의 기술자도 쉽게 도달할 수 없다는 결론이 반복됨. combination_threshold=0.48인 점을 고려하더라도, 결합 동기에 대한 명확한 근거가 제시되지 않아 obviousness 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": []
+    }
+  ]
+}

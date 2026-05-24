@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR framework for §103 (scope and content, differences, PHOSITA level, secondary considerations) across all claim analyses, with no misapplication of §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection is tied to specific prior art disclosures (e.g., US-2013124263-A1 Claim 2 for postal codes, US-2011320345-A1 for mobile device location) with element-by-element comparisons referencing specific claim language and prior art features."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently follows the §102 novelty findings—claims found novel (3, 12, 15, 24) are found non-obvious, and claims found non-novel are found obvious—without contradiction or unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's high strictness (0.875) and low combination threshold (0.344) are reflected throughout: ambiguous elements like 'purchase centroid' and implicit coordinate data are resolved toward rejection, weaker motivations to combine (e.g., normalization implying weighting) are readily accepted, and only clearly novel limitations (lat/lon areas, privacy-based centroids) are allowed."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1, 2, 4–11, 13–14, 16–23 and grant claims 3, 12, 15, 24 directly follows from the accumulated §103 stage analyses and office action without reversal or unexplained deviation."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017000776",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14982,
+      "output_tokens": 406,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

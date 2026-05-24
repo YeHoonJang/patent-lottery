@@ -1,0 +1,337 @@
+{
+  "case_id": "PILOT-2019000963",
+  "proceeding_number": "2019000963",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2013292791-A1이 동일한 구성요소, 공정 순서, 재료, 기하학적 관계를 명시적으로 개시하고 있으며, 동일한 기술적 문제를 동일한 수단으로 해결함. Graham 요소 전반에서 차이점 없음이 확인되었고, 통상의 기술자 수준에서 재현 가능함. 결합 동기 불필요할 정도로 고도로 일치하며, confidence 점수 전반 0.96 이상으로 높음. 2차적 고려사항 제출 없어 비자명성 입증 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항의 구성요소가 단일 선행기술인 US-2013292791-A1에 명시적으로 개시되어 있으며, 동일한 기술적 문제를 해결하기 위한 동일한 수단을 사용함. 결합 동기 필요 없이 전체 발명이 포괄적으로 공개됨. 재료, 공정, 치수 모두 통상의 기술자에 의해 자명하게 수행 가능한 설계 선택으로, 비예상 효과나 2차적 고려사항 부재. 진보성 결여 판단의 근거가 명확하고 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항의 구성요소가 선행기술 US-2013292791-A1에 명시적으로 개시되어 있으며, 동일한 출원인에 의해 공개된 문헌임. anticipation 판단에 있어 단일 문헌이 모든 요소를 포함하고 있어 신규성 결여가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술 US-2013292791-A1에 의해 명확히 예견됨. 동일한 공정 순서, 재료, 구조적 특징이 모두 개시되어 있음. 신규성 결여에 대한 증거가 명확하고 완전함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'high density', 'SiH4-based', 'TEOS-based', 'center' 등의 용어는 명세서에 예시는 있으나 정의나 기준이 명확히 제시되지 않아 모호성 존재. 그러나 반도체 분야 통상의 기술자는 이러한 용어를 일반적인 기술 상식으로 해석 가능하므로, 112 위반이 완전히 강력하지는 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 '791 공개문헌이 각 청구항의 구성요소를 명시적으로 개시하고 있으며, 동일한 기술적 목적과 수단을 사용하고 있음. 신규성 판단의 기준인 '명백한 개시' 요건을 충족하며, confidence가 0.98로 매우 높음. strictness=0.89인 심사관 성향 하에서도 명확한 102 거절 근거로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 내 'high density oxide material', 'center', 'SiH4-based', 'TEOS-based', 'at least half' 등의 용어가 명세서에서 정량적 기준이나 기술적 정의 없이 사용되어 범위가 불명확함. 명확성 및 서면 설명 요건 위반 여부가 명확하며, 명세서가 제공된 상태에서의 판단이므로 근거가 견고함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "해당 없음. 102에서 이미 단일 선행기술에 의해 완전히 예견됨. 진보성 판단은 불필요하나, 모든 구성요소가 동일한 목적과 방법으로 개시되어 있어 obviousness도 명확히 성립."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2013292791-A1이 각 구성요소를 명시적으로 개시하고 있으며, 신규성 결여 판단의 confidence가 0.95 이상으로 일관되게 높음. 특히 청구항 1~4, 6, 7, 8, 10~12, 14~19는 선행기술의 청구항 또는 명세서에 동일하게 기재되어 있어 anticipating reference로서의 강도가 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 내 용어들('high density', 'center', 'undesired portion', 'sequentially filling' 등)이 명세서에 정량적 기준이나 명확한 정의 없이 사용되어 서술적 지지 및 명확성 문제가 있음. 그러나 통상의 기술자가 반도체 공정 맥락에서 이러한 용어를 일반적으로 이해할 수 있는 여지도 존재하므로, strictness=0.47인 중립적 성향 하에서는 전면 거절보다는 보정 유도가 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2013292791-A1의 청구항과 명세사가 동일한 구성요소, 순서, 기술적 특징을 명시적으로 개시하고 있으며, confidence가 0.99로 매우 높음. 선행기술이 직접적이고 완전한 예시(anticipation)를 제공하므로 신규성 결여 판단은 강력함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항에서 사용된 'high density cap', 'center', 'undesired portion' 등의 용어가 명세서에 정량적·기하학적으로 정의되지 않아 서면설명 요건 미충족. 특히 'at least half of Wt'는 명세서의 'about half'만을 지원하므로 서면설명 초과로 간주되며, 이는 USPTO 기준에서 명확한 112(a) 위반임."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "strength": "strong",
+          "reasoning": "재료 정의('PECVD USG', 'TEOS-based')에 공정 조건이나 물성 기준이 명시되지 않아 재현성 문제 발생. 'sequentially filling' 등의 표현도 모호하여 청구항 범위가 불명확하므로 112(b) 위반 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2013292791-A1이 명시적으로 동일한 구성요소를 개시하고 있으며, confidence가 0.97 이상으로 일관됨. 특히 청구항 1의 핵심 공정 및 구조가 동일하게 기재되어 있어 신규성 결여가 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'center', 'sequentially filling', 'at least half' 등의 용어는 명세서에서 명확히 정의되지 않아 불명확성이 존재하나, 반도체 제조 분야의 통상 기술자가 일반적인 해석으로 범위를 추론할 수 있는 여지 있음. strictness=0.46인 본 심사관 기준에서 완전한 거절보다는 보정 권고가 적절함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2013292791-A1이 명시적으로 동일한 구성요소, 공정 순서, 재료, 치수 관계를 개시하고 있으며, anticipation에 필요한 'all elements'와 'same invention' 요건을 충족함. 신규성 결여 판단의 증거가 명확하고 포괄적임."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2013292791-A1이 동일하거나 실질적으로 유사한 기술적 특징을 명시적으로 개시하고 있으며, confidence 수준이 전반적으로 0.95 이상임. 특히 구조, 공정 순서, 재료, 치수 조건 등이 동일하게 개시되어 있어 통상의 기술자가 용이하게 도출 가능하다고 판단됨. 신규성 판단에서도 전 항목이 novelty 결여로 판정되어 obviousness 근거의 강도가 매우 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2013292791-A1의 해당 청구항이 동일한 구성요소를 명시적으로 개시하고 있으며, 신규성 결여 판단에 대한 증거가 명확하고 완전함. 신청인도 동일하며, 동일한 기술적 과제와 효과를 달성하고 있음. 선행기술이 제공되었고, 대응 관계가 청구항 단위로 상세히 제시되어 있어 BRI 하에서도 피치 못할 정도로 동일함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2013292791-A1이 명시적으로 동일한 구성요소를 개시하고 있으며, 명세서 및 도면을 통해 각 단계와 구조가 구체적으로 뒷받침됨. 신규성 판단에서 '동일성'이 충족되어 적절한 anticipation이 성립함. confidence 점수 0.98 이상으로 일관되며, verification 단계에서도 증거가 확인됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술 US-2013292791-A1의 청구항 및 명세서에 명시적으로 개시되어 있으며, 구성요소와 공정 흐름이 동일함. 신규성 결여에 대한 증거가 명확하고, confidence 수치도 0.94 이상으로 높음. 선행기술이 본 출원의 모든 요소를 단일 문서에서 공지하고 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 내 주요 용어들('undesired portion', 'center', 'high density', 'embedded', 'SiH4-based oxide')이 명세서에서 정량적 또는 구조적으로 정의되지 않아 청구항의 범위가 불명확함. 특히 'at least half of Wt'가 도면에 비추어 비현실적인 해석(예: cap 폭이 trench보다 큼)을 허용할 수 있으며, claim 9는 명세서에 기재된 핵심 공정(측벽 산화막 형성, 에칭백)을 생략하여 서술적 지지 부족. 명세서가 제공되었고, 모호성에 대한 구체적 근거가 있음."
+        }
+      ]
+    }
+  ]
+}

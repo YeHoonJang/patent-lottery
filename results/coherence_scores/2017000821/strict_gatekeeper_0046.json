@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 claims, and the §102 stage uses element-by-element anticipation analysis referencing specific prior art disclosures."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance conclusion is tied to specific claim language (e.g., 'adjacent stator winding pairs,' '1 cubic inch free space,' 'felt material,' 'fibrous aramid') and specific disclosures in US-2012165198-A1, satisfying the evidence-linked requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims 2 and 3 were found non-novel at §102 and then confirmed obvious at §103, which is consistent; claims found novel at §102 (e.g., 4, 5, 6) are carried through as non-obvious at §103 without contradiction; no reversals without explanation occur across stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner resolves borderline cases (e.g., claim 11 at confidence 0.78) toward rejection and explicitly notes 'strictness=0.89에 따라 약한 근거도 거절로 처리,' consistently reflecting the strict-gatekeeper profile throughout the analysis."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 2, 3, and 11 and grant claims 4–16 directly follows the accumulated §102/§103 stage findings, with the summary reiterating the specific reasoning from each prior stage without unexplained reversals."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017000821",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12910,
+      "output_tokens": 415,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "case_id": "ABL-2021004068",
+  "proceeding_number": "2021004068",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.7857142857142857,
+  "amend_rate": 0.07142857142857142,
+  "reject_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 전반에 걸쳐 'recommendation 생성', '계획 선택 기준', '사용자 할당' 등 핵심 기능에 대한 구체적 알고리즘, 모델, 구현 절차가 명세서에 누락됨. 'feasibility', 'costs', 'likelihoods' 등의 추상적 용어는 구조적 설명 없이 기능적 언어만으로 기재되어 있어, 당업자가 본 발명을 제작하고 사용하기 위해 과도한 실험을 요하게 하며, 이는 35 U.S.C. § 112(a)의 written description 및 enablement 요건을 위반함. 명세서 내 'may generate', 'can be used' 등의 일반화 표현은 충분한 뒷받침을 제공하지 못함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단은 LLM 미제공으로 인해 비어 있음. 선행기술 US-2015269244-A1은 데이터 처리 및 예측 변수 식별 기능을 포함하지만, 청구항의 핵심인 '다양성 목표 달성을 위한 계획 생성', '다수 사용자에 대한 작업 분배', '비용/시간 기반 계획 선택' 등은 결합 동기 없이 단순 참고로 불충분. 그러나 결합 가능성 자체가 배제된 것은 아니나, 현 단계에서는 근거 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2015269244-A1은 직원 유지 예측에 국한되어 있으며, 본 출원의 고용 다양성 목표 달성을 위한 추천 생성, 실행 부분 분배, 비용/시간 기반 계획 선택 등 전체적인 시스템 구성과의 유사성은 낮음. 결합 동기(motivation to combine)가 명확하지 않으며, 통상의 기술자가 단순한 조합으로 도달하기 어려운 수준. combination_threshold 기준(0.68)에 미달하는 결합 동기로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-20152699244-A1은 데이터 수신, 자동 평가, 추천 선택의 핵심 기능을 개시하며, 다수의 사용자에게 실행 책임을 할당하는 것은 인사 관리 시스템에서 통상적인 관행임. task delegation 및 role-based 정보 제공은 공지상식으로, 결합 동기(motivation to combine)가 명확하고 예측 가능한 기술 발전으로 간주됨. strictness=0.82 기준으로도 충분히 강한 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "캘린더 자동 등록 기능은 프로젝트 관리 시스템에서 일반적이지만, HR 다양성 계획 실행에 적용된 맥락에서의 통합은 단순한 설계 선택인지, 기술적 진보인지에 해석의 여지 있음. 선행기술과의 결합 동기는 존재하나, 그 동기의 강도는 중간 수준. 심사관의 strictness=0.55를 고려하면, 이 정도의 결합 동기는 obviousness 판단에 다소 애매함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "UI를 통한 정보 제공은 소프트웨어 시스템에서 극도로 일반적인 출력 수단이며, 특별한 기술적 혁신 없이 UI 사용을 명시한 것은 patentable한 차별점으로 보기 어려움. 그러나 이는 거의 모든 소프트웨어 시스템에 공통된 특징으로, 개별 청구항으로서의 독립적 거절 근거로 삼기에는 약함. strictness=0.55 기준으로는 출원인에게 유리하게 판단될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2015269244-A1은 인력 유지 예측에 초점을 맞추고 있으나, 청구항의 핵심인 실행 가능성 기반 추천 선택, 복수 사용자에게 역할 할당, 비용/시간/유지 전략 기반 계획 선택 등은 개시하지 않음. 결합 동기에 대한 명확한 근거가 부족하며, 동일한 기술적 목적이나 효과를 공유하지 않음. combination_threshold=0.22 기준보다 높은 수준의 동기 부재로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    }
+  ]
+}

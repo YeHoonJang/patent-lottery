@@ -1,0 +1,577 @@
+{
+  "case_id": "2017007521",
+  "proceeding_number": "2017007521",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.9285714285714286,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1 (REF1)은 클러스터링 및 스트리밍 데이터 처리와 관련된 핵심 기술을 개시하고 있으며, 청구항 1, 3, 5, 7, 8, 11, 12, 14, 15, 17, 18, 20의 추가 요소(우선순위 기반 수용 종료, 로컬 집계기 등)는 해당 분야의 통상의 기술자(PHOSITA)가 쉽게 도입할 수 있는 설계 선택으로 판단됩니다. 결합 동기 기준(combination_threshold=0.34)이 충족되며, confidence 수준도 높습니다 (0.8-0.95)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 4, 6, 9, 10, 13, 16, 19는 선행기술에서 명시적으로 개시되지 않은 구체적 구현 방식을 포함하고 있으나, 해당 기술들은 공지기술 또는 설계 선택 수준의 차이로 볼 수 있습니다. 예를 들어, 입력 필터링(청구항 2)이나 순차적 스트리밍(청구항 4)은 데이터 처리 시스템에서 공지된 기술입니다. 그러나 일부 청구항(6, 9, 10, 13, 16, 19)은 선행기술과의 중첩이 적어 진보성 판단에서 허용 가능하다고 평가되었습니다. strictness=0.79에 따라, moderate 근거 중 일부는 거절 유지, 일부는 허용으로 판단됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            7,
+            11,
+            14,
+            15,
+            17,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1 ('915 reference')은 청구항 1, 7, 11, 14, 15, 17, 20의 핵심 구성요소를 명시적으로 개시합니다. 특히, 픽셀/복셀 데이터 획득, 확률 평가, 중심 결정 등 청구항의 핵심 기술이 선행기술에 의해 직접적으로 충족됩니다. strictness=0.88에 따라, 유사성만으로도 충분한 근거가 됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            18,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 '915 reference'는 핵심 기술(데이터 평가, 중심 결정)을 개시하며, 나머지 구성요소(스트리밍, 우선순위 처리, 임계값 필터링 등)는 해당 분야에서 공지된 기술로 간주됩니다. combination_threshold=0.34에 따라 결합 동기가 인정되지만, 일부 청구항(예: 2, 3, 12, 18)의 차이점은 해당 분야의 통상의 기술자가 자명하게 구현할 수 있는 수준인지에 대한 해석의 여지가 있습니다. 그러나 strictness=0.88에 따라, moderate 근거라도 거절로 유지합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            16,
+            19
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 8, 16, 19의 구체적인 기술(기하학적 좌표 평균, single-pass streaming, k-means 근사)은 선행기술에 명시적으로 개시되지 않았으며, 해당 분야에서 공지된 기술로 보기 어렵습니다. 결합 동기가 불분명하여 103 근거로 부족합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11, 15, and 20 are clearly anticipated by US-2011210915-A1, as the prior art explicitly discloses all limitations of these claims. The evidence is direct and unambiguous, leaving no room for interpretation under strictness=0.25."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            11,
+            12,
+            15,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1이 청구항 11, 12, 15, 20의 모든 구성요소를 명시적으로 개시하고 있어 신규성 거절 근거가 명확함. 증거가 충분하고 해석의 여지가 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            12,
+            15,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011210915-A1이 확률 맵 및 후보 중심점 결정과 같은 구성요소를 개시하고 있으나, 스트리밍 k-means 계산 맥락에서의 평가 함수 배열 및 우선순위 기반 처리 메커니즘과의 결합 동기는 명확하지 않음. 그러나 통상의 기술자가 확률 맵과 클러스터링 기법을 결합하는 것은 논리적임. 근거는 있으나 해석의 여지가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4,
+            14
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 4의 'sequential streaming... in parallel' 및 청구항 14의 'configuring a system' 용어가 다소 모호할 수 있으나, 명세서의 설명을 통해 충분히 해석 가능함. 근거가 약하고 보정을 통해 쉽게 해결 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1이 청구항 1, 2, 3, 7, 8, 11, 12, 14, 15, 17, 18, 20의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, 증거가 명확함. strictness=0.89에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2011210915-A1과 공지기술(k-means 클러스터링, 스트리밍 최적화)의 결합으로 자명성이 입증됨. Graham 요소가 명확히 충족되며, 결합 동기가 타당함. strictness=0.89에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            7,
+            8,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1과의 결합 동기가 명확하며, 해당 분야의 통상의 기술자가 설계 선택으로 쉽게 도출할 수 있는 요소들('priority ordering', 'local aggregator', 'current number of accepted entities')로 구성되어 있음. combination_threshold=0.51을 충족하며, confidence 수준도 높음(0.7~0.95). strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "'sequential streaming... in parallel'의 모호성이 지적되었으나, 명세서의 보완을 통해 해결 가능할 여지가 있음. 단, 현재 상태로서는 청구항의 명확성이 부족하여 거절 근거로 유지하되, 보정이 가능하다고 판단."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            3,
+            7,
+            8,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술과의 유사성이 높으나, '동일성'보다는 '유사성'에 가까움. 103 거절이 더 적합하다고 판단되어 102 거절은 유지하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 6, 7, 9, 10, 11, 12, 13, 15, and 20 are rejected under 103_obviousness based on US-2011210915-A1 and common knowledge. While the cited prior art explicitly discloses some features (e.g., centroid determination, probability maps), other features (e.g., input filtering, parallel streaming) are considered routine design choices. The motivation to combine is plausible but not overwhelmingly strong, aligning with a moderate strength rejection. Given strictness=0.47, borderline cases may lean toward amendment or further clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 7, 8, 14, 17, and 18 are rejected under 103_obviousness with strong evidence. US-2011210915-A1 discloses core elements of streaming data to evaluation functions, centroid determination, and clustering algorithms. The additional features (e.g., priority-based termination, local aggregation, distance-based acceptance criteria) are considered routine optimizations or design choices for efficiency in data processing systems. The motivation to combine is well-supported by the reference and common knowledge in the art, with confidence levels ranging from 0.7 to 0.85."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 5, 6, 9, 10, 13, 16, and 19 are rejected under 103_obviousness with moderate strength. While the features (e.g., input filtering, parallel processing, scan line ordering, single-pass streaming) are recognized as optimizations, their combination with the reference may involve some interpretive flexibility. Confidence levels range from 0.7 to 0.75, and the combination threshold (0.55) supports rejection, but the strictness level (0.55) allows for some leniency if amendments are proposed."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11, 12, and 20 are rejected under 102_novelty with strong evidence. US-2011210915-A1 explicitly discloses pixel and body part association probabilities, centroid determination for body parts, and probability maps. Confidence levels are high (0.9 to 0.95), leaving little room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 11, 12, 15, and 20 are also evaluated under 103_obviousness but with weak strength. The reasoning lacks clear motivation to combine or explicit disclosure in the reference, with confidence levels around 0.6. Given strictness=0.55, these rejections are less likely to be maintained without additional evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            11,
+            15,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1의 Abstract 및 Claims 1, 8에서 'pixels and respective probabilities associated with predefined body parts'를 명시적으로 개시하고 있어, 청구항 11, 15, 20의 데이터 표현을 직접적으로 커버함. streaming framework의 부재가 신규성 요소를 제공하지 않음. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술(US-2011210915-A1, k-means clustering, streaming data processing)의 결합은 논리적이지만, 청구항의 구체적인 구성('streaming computational engine', 'priority-based acceptance termination' 등)은 설계 선택 수준의 변형으로 볼 수 있음. combination_threshold=0.22에 따라 결합 동기가 인정되나, strictness=0.46에 따라 일부 청구항은 보정 또는 추가 설명을 통해 진보성을 입증할 여지가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "'sequential streaming... in parallel'의 모호성은 명세서의 설명 부족으로 인해 발생했으나, 청구항의 기술적 맥락을 고려할 때 완전한 indefiniteness로 보기는 어려움. 보정을 통해 명확화할 수 있는 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            8,
+            11,
+            12,
+            15,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1이 청구항 7, 8, 11, 12, 15, 20의 모든 제한사항을 명시적으로 개시하고 있으며, 선행기술과의 대비에서 신규성이 인정되지 않음. 근거의 confidence가 0.9 이상으로 높으며, 선행기술의 구체적인 부분과 직접적으로 대응됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 1, 2, 3, 4, 5, 6, 9, 10, 13, 14, 16, 17, 18, 19는 US-2011210915-A1과 일반적인 기술 지식의 결합으로 진보성이 부정됨. 그러나 결합 동기의 명확성이나 설계 선택의 자명성에 대한 해석의 여지가 존재함. confidence는 0.7~0.85로 보통 수준이며, 통상의 기술자의 관점에서 자명하다고 판단되지만, 출원인의 반박 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11, 15, and 20 are clearly anticipated by US-2011210915-A1. The prior art explicitly discloses all elements of these claims, including image data associated with a single frame, pixels, and respective probabilities associated with predefined body parts. The evidence is direct and unambiguous."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While the obviousness rejections for the remaining claims were initially considered, the provided analysis demonstrates that the differences over the prior art are non-trivial. The combination of features such as 'streaming computational engine', 'priority ordering of evaluation functions', and 'local aggregators' are not suggested by the prior art, and the motivation to combine is insufficient under the combination_threshold=0.44. The Graham factors further support non-obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The objections raised regarding the abstract and specification are valid but do not rise to the level of a rejection. The abstract and specification could benefit from clearer distinctions and additional examples, but these issues are addressable through amendments and do not undermine the enablement or written description requirements."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11, 12, 15, and 20 are directly anticipated by US-2011210915-A1 (Gordon). The cited reference explicitly discloses all limitations of these claims with high confidence (0.92-0.95). No interpretation or combination is required, making this a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1-10, 13-14, and 16-19 are rejected under 103 based on the combination of US-2011210915-A1 and common knowledge. While the motivation to combine is logical (e.g., streaming, parallel processing, and priority-based termination are well-known optimizations), the confidence scores (0.7-0.85) suggest some interpretive flexibility. The differences (e.g., streaming evaluation function arrays, local aggregators) are arguable as routine optimizations, but the strictness level (0.42) leans slightly toward granting the benefit of the doubt for borderline cases."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            11,
+            12,
+            15,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1이 청구항 7, 11, 12, 15, 20의 핵심 요소를 명시적으로 개시하고 있음. 특히, centroid 결정, 이미지 데이터 및 픽셀 확률 표현, probability maps 등은 선행기술에 의해 직접적으로 선행됨. 증거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            11,
+            12,
+            15,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011210915-A1과 해당 분야의 공지 기술에 기반한 결합 동기가 존재하나, 청구항의 구체적인 구현 방식(예: 스트리밍 메커니즘)과의 차이는 일부 해석의 여지가 있음. 그러나 centroid 결정, 데이터 표현 방식 등은 통상의 기술자가 쉽게 도출할 수 있는 수준으로 판단됨. strictness=0.52에 따라 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 4의 'sequential streaming'과 'in parallel'은 모순된 용어로, 명세서가 이를 뒷받침하지 않음. 모호성이 명확하여 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2011210915-A1 with conventional k-means and streaming techniques provides a plausible motivation for obviousness, but the integration of priority-based acceptance termination and local aggregators introduces some complexity. The confidence scores (0.75-0.8) suggest moderate strength, but the lack of secondary considerations (e.g., commercial success) weakens the rejection. Given strictness=0.60, this leans toward rejection but with room for amendment."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            11,
+            12,
+            15,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1 explicitly discloses centroid determination for body segments, image data with pixels/probabilities, and probability maps. The anticipation is direct and well-supported (confidence 0.7-0.9), making this a strong rejection under 102."
+        }
+      ]
+    }
+  ]
+}

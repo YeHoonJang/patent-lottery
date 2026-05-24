@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis against US-2017305402-A1 and invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 rejections, using the correct statutory framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection references specific claim language (e.g., 'brake integration circuitry,' 'transistors,' 'tow-vehicle brake controller'), specific prior art passages (US-2017305402-A1 claims 1, 6), and element-by-element comparisons, satisfying evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage consistently builds on §102 findings — claims found novel at §102 (e.g., claims 2, 16 for relay; claim 12 for resistor count) are then addressed under §103 with additional motivation-to-combine rationale, and claims found anticipated at §102 are not redundantly rejected under §103."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.547) and moderate combination threshold (0.553) are reflected in the reasoning — obvious rejections for relay/transistor substitution and resistor count are accepted with stated design-choice rationale, while borderline cases like heat sink and low-side driver are resolved toward grant, consistent with a non-strict profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from stage-level analyses: independent claims 1, 14 rejected under §102, dependent relay/resistor claims rejected under §103 with stated motivation, and claims featuring temperature sensing and user interface allowed — all consistent with prior-stage conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021005117",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15247,
+      "output_tokens": 429,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

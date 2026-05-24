@@ -1,0 +1,238 @@
+"""
+Single examiner pipeline: runs one patent case through one examiner.
+
+Executes roles sequentially, saves intermediate outputs, returns trace.
+"""
+
+import json
+import logging
+import time
+from pathlib import Path
+from typing import Optional
+
+from src.models.schema import ExaminerProfile, ExaminerRunTrace, PatentCase, PriorArtReference
+from src.roles.claim_interpretation import ClaimInterpreterRole
+from src.roles.prior_art_mapping import PriorArtMappingRole
+from src.roles.novelty_assessment import NoveltyAssessorRole
+from src.roles.obviousness_analysis import ObviousnessAnalyzerRole
+from src.roles.written_desc_check import WrittenDescCheckRole
+from src.roles.oa_drafter import OADrafterRole
+from src.roles.rejection_verifier import RejectionVerifierRole
+from src.roles.final_decision import FinalDecisionRole
+from src.utils.llm_adapter import LLMAdapter
+from src.utils.prior_art_retriever import PriorArtRetriever
+from src.utils.specification_retriever import SpecificationRetriever
+from src.utils.mock_responses import register_all_mocks
+
+logger = logging.getLogger("vpatent.pipeline")
+
+
+def run_single_examiner(
+    case: PatentCase,
+    examiner: ExaminerProfile,
+    llm: LLMAdapter,
+    output_dir: Optional[str] = None,
+    verbose: bool = False,
+) -> ExaminerRunTrace:
+    """
+    Run a patent case through a single examiner's pipeline.
+
+    Pipeline:
+      1. ClaimInterpreter → claim_interpretations
+      2. PriorArtMapping → prior_art_mappings
+      3. NoveltyAssessor → novelty_assessments
+      4. ObviousnessAnalyzer → obviousness_assessments
+      5. OADrafter → office_action
+      6. FinalDecision → final_decision
+    """
+    start = time.time()
+    trace = ExaminerRunTrace(case_id=case.case_id, examiner=examiner)
+
+    # If mock mode, register mocks for this examiner
+    if llm.mode == "mock":
+        register_all_mocks(examiner, case)
+
+    # Prepare output directory
+    examiner_dir = None
+    if output_dir:
+        examiner_dir = Path(output_dir) / trace.run_id
+        examiner_dir.mkdir(parents=True, exist_ok=True)
+        # Save examiner profile
+        _save(examiner_dir / "00_examiner_profile.json", examiner.model_dump())
+
+    accumulated = {}
+
+    # ─── Step 1: Claim Interpretation ─────────────────
+    logger.info("[%s] Step 1/8: Claim Interpretation", examiner.display_name)
+    role = ClaimInterpreterRole(llm, examiner)
+    try:
+        result = role.run(case)
+        accumulated["claim_interpretations"] = result
+        if examiner_dir:
+            _save(examiner_dir / "01_claim_interpretation.json", result)
+    except Exception as e:
+        logger.error("[%s] ClaimInterpreter failed: %s", examiner.display_name, e)
+        trace.errors.append(f"claim_interpretation: {e}")
+        accumulated["claim_interpretations"] = []
+
+    # ─── Spec Retriever: index specification for structured access ───
+    spec_retriever = None
+    if case.description_summary and len(case.description_summary) > 200:
+        try:
+            spec_retriever = SpecificationRetriever()
+            spec_retriever.index_specification(case.description_summary)
+            accumulated["spec_retriever"] = spec_retriever
+            logger.info("[%s] Specification indexed: %d paragraphs",
+                       examiner.display_name, len(spec_retriever.paragraphs))
+        except Exception as e:
+            logger.warning("[%s] Spec retriever init failed: %s", examiner.display_name, e)
+
+    # ─── Step 1.5: Prior Art Retrieval (Tool) ─────────
+    if not case.prior_art:
+        try:
+            retriever = PriorArtRetriever()
+            retriever.load_index()
+            claims_data = [{"claim_number": c.claim_number, "text": c.text} for c in case.claims]
+            search_results = retriever.search_for_claims(claims_data, top_k=3)
+
+            # Inject found prior art into the case
+            for ref in search_results.get("unique_refs", [])[:5]:
+                case.prior_art.append(PriorArtReference(
+                    ref_id=ref["publication_number"],
+                    title=ref["title"],
+                    abstract=ref.get("abstract", ""),
+                    relevant_text=ref.get("abstract", "")[:500],
+                    source="KB-retrieval",
+                ))
+            if case.prior_art:
+                logger.info("[%s] Retrieved %d prior art refs from KB",
+                           examiner.display_name, len(case.prior_art))
+                if examiner_dir:
+                    _save(examiner_dir / "01b_retrieved_prior_art.json",
+                          [{"ref_id": r.ref_id, "title": r.title, "similarity": ref.get("similarity", 0)}
+                           for r, ref in zip(case.prior_art, search_results.get("unique_refs", []))])
+        except Exception as e:
+            logger.warning("[%s] Prior art retrieval failed: %s", examiner.display_name, e)
+
+    # ─── Step 2: Prior Art Mapping ────────────────────
+    logger.info("[%s] Step 2/8: Prior Art Mapping", examiner.display_name)
+    role = PriorArtMappingRole(llm, examiner)
+    try:
+        result = role.run(case, **accumulated)
+        accumulated["prior_art_mappings"] = result
+        if examiner_dir:
+            _save(examiner_dir / "02_prior_art_mapping.json", result)
+    except Exception as e:
+        logger.error("[%s] PriorArtMapping failed: %s", examiner.display_name, e)
+        trace.errors.append(f"prior_art_mapping: {e}")
+        accumulated["prior_art_mappings"] = []
+
+    # ─── Step 3: Novelty Assessment ───────────────────
+    logger.info("[%s] Step 3/8: Novelty Assessment", examiner.display_name)
+    role = NoveltyAssessorRole(llm, examiner)
+    try:
+        result = role.run(case, **accumulated)
+        accumulated["novelty_assessments"] = result
+        if examiner_dir:
+            _save(examiner_dir / "03_novelty_assessment.json", result)
+    except Exception as e:
+        logger.error("[%s] NoveltyAssessor failed: %s", examiner.display_name, e)
+        trace.errors.append(f"novelty_assessment: {e}")
+        accumulated["novelty_assessments"] = []
+
+    # ─── Step 4: Obviousness Analysis ─────────────────
+    logger.info("[%s] Step 4/8: Obviousness Analysis", examiner.display_name)
+    role = ObviousnessAnalyzerRole(llm, examiner)
+    try:
+        result = role.run(case, **accumulated)
+        accumulated["obviousness_assessments"] = result
+        if examiner_dir:
+            _save(examiner_dir / "04_obviousness_analysis.json", result)
+    except Exception as e:
+        logger.error("[%s] ObviousnessAnalyzer failed: %s", examiner.display_name, e)
+        trace.errors.append(f"obviousness_analysis: {e}")
+        accumulated["obviousness_assessments"] = []
+
+    # ─── Step 5: Written Description Check ────────────
+    logger.info("[%s] Step 5/8: Written Description Check (112)", examiner.display_name)
+    role = WrittenDescCheckRole(llm, examiner)
+    try:
+        result = role.run(case, **accumulated)
+        accumulated["written_desc_assessments"] = result
+        if examiner_dir:
+            _save(examiner_dir / "05_written_desc_check.json", result)
+    except Exception as e:
+        logger.error("[%s] WrittenDescCheck failed: %s", examiner.display_name, e)
+        trace.errors.append(f"written_desc_check: {e}")
+        accumulated["written_desc_assessments"] = []
+
+    # ─── Step 6: Office Action ────────────────────────
+    logger.info("[%s] Step 6/8: Office Action", examiner.display_name)
+    role = OADrafterRole(llm, examiner)
+    try:
+        result = role.run(case, **accumulated)
+        accumulated["office_action"] = result
+        if examiner_dir:
+            _save(examiner_dir / "05_office_action.json", result)
+    except Exception as e:
+        logger.error("[%s] OADrafter failed: %s", examiner.display_name, e)
+        trace.errors.append(f"oa_drafter: {e}")
+        accumulated["office_action"] = {}
+
+    # ─── Step 7: Rejection Verification (CoVe) ─────────
+    logger.info("[%s] Step 7/8: Rejection Verification", examiner.display_name)
+    role = RejectionVerifierRole(llm, examiner)
+    try:
+        result = role.run(case, **accumulated)
+        accumulated["verification"] = result
+        if examiner_dir:
+            _save(examiner_dir / "07_rejection_verification.json", result)
+        # Update office_action with verified rejections
+        if result.get("verified_rejections") is not None:
+            verified_oa = dict(accumulated.get("office_action", {}))
+            verified_oa["rejection_grounds"] = result["verified_rejections"]
+            if result.get("verified_allowable_claims") is not None:
+                verified_oa["allowable_claims"] = result["verified_allowable_claims"]
+            accumulated["office_action"] = verified_oa
+    except Exception as e:
+        logger.error("[%s] RejectionVerifier failed: %s", examiner.display_name, e)
+        trace.errors.append(f"rejection_verifier: {e}")
+        accumulated["verification"] = {}
+
+    # ─── Step 8: Final Decision ───────────────────────
+    logger.info("[%s] Step 8/8: Final Decision", examiner.display_name)
+    role = FinalDecisionRole(llm, examiner)
+    try:
+        result = role.run(case, **accumulated)
+        accumulated["final_decision"] = result
+        if examiner_dir:
+            _save(examiner_dir / "06_final_decision.json", result)
+    except Exception as e:
+        logger.error("[%s] FinalDecision failed: %s", examiner.display_name, e)
+        trace.errors.append(f"final_decision: {e}")
+        accumulated["final_decision"] = {}
+
+    # ─── Populate trace ───────────────────────────────
+    trace.claim_interpretations = accumulated.get("claim_interpretations", [])
+    trace.prior_art_mappings = accumulated.get("prior_art_mappings", [])
+    trace.novelty_assessments = accumulated.get("novelty_assessments", [])
+    trace.obviousness_assessments = accumulated.get("obviousness_assessments", [])
+    trace.written_desc_assessments = accumulated.get("written_desc_assessments", [])
+    trace.office_action = accumulated.get("office_action")
+    trace.final_decision = accumulated.get("final_decision")
+    trace.llm_calls = llm.stats["calls"]
+    trace.elapsed_seconds = round(time.time() - start, 2)
+
+    if examiner_dir:
+        _save(examiner_dir / "trace.json", trace.model_dump())
+
+    logger.info("[%s] Done in %.1fs — decision: %s",
+                examiner.display_name, trace.elapsed_seconds,
+                trace.final_decision.get("decision", "?") if isinstance(trace.final_decision, dict) else "?")
+    return trace
+
+
+def _save(path: Path, data):
+    """Save JSON to file."""
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2, default=str)

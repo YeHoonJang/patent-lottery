@@ -1,0 +1,392 @@
+{
+  "case_id": "2019005661",
+  "proceeding_number": "2019005661",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2013268886-A1 and US-2011258081-A1 provides a clear and logical basis for the obviousness of the claimed invention. The motivation to combine is strong, as integrating geographic and customer data for route planning is a well-known need in the field."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The terms 'prospect filter parameter', 'unique attributes', and 'prospect attributes' are not clearly defined or supported in the specification. This creates ambiguity and makes it difficult for a person of ordinary skill in the art to understand and implement the invention."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1이 청구항 1, 3, 6, 16의 모든 요소를 명확하게 개시하고 있으므로 신규성 거절 근거는 강함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013268886-A1과 US-2011258081-A1의 결합이 청구항 2, 4, 5, 7, 8, 9, 11, 12, 13, 15의 기능을 예측 가능한 방식으로 실현할 수 있으나, 일부 청구항의 경우 결합 동기가 약간 약함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'prospect filter parameter', 'unique attribute', 'threshold value', 'prospect attribute', 'prospect value' 등의 용어가 명확히 정의되지 않아 모호함이 있으나, 이는 보정으로 해결 가능"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1 clearly anticipates the claimed customer tour optimization system and method by disclosing all the essential elements including receiving geographic search parameters, customer filter parameters, accessing a database of customer information, identifying customers, and generating a prospect tour with a travel route. The verification status is PASS, confirming the prior art matches the claimed features."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2013268886-A1 and US-2011258081-A1 renders the claimed features obvious. While there is a clear motivation to combine both references as they are directed to optimizing customer visits, the confidence levels for some claims (e.g., claim 10 with 0.55 confidence) suggest some uncertainty in the application of the combination to specific features. The verification status is PASS, but the strength of the obviousness argument varies across claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims are directly anticipated by US-2013268886-A1, which discloses all the essential features of the claimed invention, including geographic search parameters, customer filtering, and route generation. The confidence levels are generally high (0.7+), indicating strong novelty rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejections rely on the combination of US-2013268886-A1 and US-2011258081-A1. While the motivation to combine is reasonable, the confidence levels are moderate (0.5-0.7), and some claims are already rejected under 102, which is a stronger basis. The combination is logical but not entirely compelling in all cases."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The 112 rejections are based on the lack of clear definitions for certain terms. However, the verification status is 'FAIL' because the rejection lacks specific reference to the specification. This weakens the strength of the 112 rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013268886-A1이 청구항 1의 구성요소들을 명확히 개시하고 있으며, 신규성 판단에 대한 confidence가 0.82로 높음"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1이 청구항의 주요 요소들을 명확히 개시하고 있으며, 선행기술이 제공되어 청구항의 신규성을 부정하는 데 충분한 증거가 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합이 가능하지만, 결합 동기의 구체성이 다소 부족하며, 일부 청구항 요소들이 선행기술과의 차이가 명확하지 않음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "특정 용어에 대한 명세서의 뒷받침이 부족하지만, 명세서가 제공되어 일부 청구항 요소들의 구체성이 명확히 드러나지 않는 점은 개선 가능한 문제"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1이 모든 청구항의 구성요소를 개시하고 있으며, confidence 수치가 높음 (0.75~0.85)"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1 explicitly discloses all the claimed elements for most of the claims, making the 102 novelty rejections strong."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 novelty rejections for claims 2, 4, and 5 are based on implicit disclosure through interfaces and availability information, which provides moderate strength."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 novelty rejection for claim 10 is based on implicit disclosure of using IRR data as a unique attribute, which provides moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 obviousness rejections combine US-2013268886-A1 and US-2011258081-A1 with a clear motivation to optimize sales tours, but the combination involves some interpretation of how these systems would integrate."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 written description issue relates to undefined terms in the specification, which is a moderate concern that could be addressed with clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1 is a strong anticipatory reference that discloses all essential elements of the claimed system for claims 1,3-9,11-13,15,16. The prior art explicitly teaches receiving geographic search parameters, determining boundaries, applying filters, and generating routes - all core elements of the claimed invention. The similarity scores (0.75-0.8) and confidence levels (0.75-0.8) further support this strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claims 10 and 14 is based on the combination of US-2013268886-A1 and US-2011258081-A1. While the prior art teaches the general concepts of using customer attributes for prioritization, the specific application of IRR data and maximizing total prospect value has some interpretive flexibility. The confidence level of 0.65-0.73 suggests a moderate but not definitive case of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1이 청구항 1, 3, 6, 16의 모든 구성요소를 명확히 개시하고 있으며, confidence 0.82 이상으로 강한 신규성 거절 근거"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013268886-A1이 청구항 2, 4, 5의 구성요소를 암시적으로 개시하고 있으며, confidence 0.65~0.75로 중간 수준의 신규성 거절 근거"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2011258081-A1과 US-2013268886-A1의 결합이 청구항 7, 8, 9, 12, 13, 14, 15에 대해 합리적인 동기와 함께 진보성 거절 근거를 제공하지만, 결합의 명확성은 중간 수준"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'prospect filter parameter', 'unique attribute' 등의 용어가 불명확하게 정의되어 있으며, 이는 청구항 1, 9, 12, 15, 16에 대한 서술적 기재 거절 근거를 구성하지만, 명확성 부족으로 인해 중간 수준의 강도"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejection is based on a single prior art reference (US-2013268886-A1) and the ordinary skill in the art. The reasoning provides a clear motivation to combine and explains how the ordinary skilled artisan would have modified the reference to arrive at the claimed invention."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1이 청구항의 모든 요소를 명시적으로 또는 암시적으로 개시하므로 신규성 거절 근거는 강함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013268886-A1과 US-2011258081-A1의 결합 동기는 명확하지만, 일부 청구항(특히 10, 14)의 경우 결합 동기가 약간 약함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'prospect filter parameter'와 같은 용어의 정의 부족은 실용성을 떨어뜨리지만, 명세서가 제공되지 않았기 때문에 정확한 평가가 어려움"
+        }
+      ]
+    }
+  ]
+}

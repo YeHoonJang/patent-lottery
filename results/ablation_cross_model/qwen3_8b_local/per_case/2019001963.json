@@ -1,0 +1,372 @@
+{
+  "case_id": "2019001963",
+  "proceeding_number": "2019001963",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly discloses all claimed elements (carriage bracket, rail, engagement assembly, slide stops) and their functional equivalence to 'less than total number of mounting positions'. Combination is obvious for adjustable mounting, but functional equivalence introduces interpretation ambiguity under BRI."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Typo in 'releasably secured' and lack of specific implementation details constitute minor drafting issues, not fundamental indefiniteness under BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all claimed elements with functional equivalence (engagement assembly/slide stops = releasable mounting positions). Graham factors confirm PHOSITA would combine features for motion-limiting adjustability. High confidence (0.7) and clear motivation to combine."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguity in 'substantially vertical' and 'releasably secured to less than total positions' lacks specification support. While not definitively indefensible, the lack of clear definitions creates reasonable doubt under strict interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술(US-2013285347-A1:Claim1 및 Claim5)은 결합 동기부여가 명확하며, PHOSITA가 선택적 고정 위치를 위한 수정을 명확히 인식할 수 있음. 결합 동기(조절 가능한 고정 위치 제공)와 기술적 효과(구조적 안정성 유지)가 명확히 제시됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'substantially vertical', 'mounting positions', 'tilt stop arrangement' 등이 구체적으로 정의되지 않아 기재요건 위반 가능성이 있음. 그러나 발명의 목적(가벼운 구조, 조정 가능성)은 명확하고, 기술적 기여가 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과의 구조적 유사성은 명확하지만, 결합 동기의 명확성과 기술적 차이점이 부족하여 해석 여지가 존재. 공지기술 기반 동기 제시는 강력하지만, 'releasably secured'의 정의 부족으로 인해 기술적 진보성 판단에 영향."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 모든 구성 요소를 명시적으로 또는 암시적으로 포함하며, confidence 0.92로 증거가 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항의 용어('releasably secured')에 대한 명세서 뒷받침 부족은 추측 기반으로, 단순한 모호성 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1은 청구항의 핵심 기능(릴리스 가능한 마운팅 위치, 슬라이드 스톱, 리모트 컨트롤러 등)을 명확히 개시하며, 기술자가 결합 동기를 쉽게 인식할 수 있는 구조적 유사성을 보여준다. 이는 strictness=0.82 기준에 부합하는 강력한 거절 근거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 '릴리스 가능한 위치 선택', '리모트 컨트롤러' 등 구체적 기능이 명세서에 충분히 뒷받침되지 않았다. 다만, 선행기술과의 기능적 유사성으로 인해 일부 요소는 추론 가능하나, 전체적인 기술적 구현이 명확하지 않아 보완이 필요하다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술과의 유사성 및 결합 가능성에 대한 고도의 증거가 존재하며, 커버리지 점수와 신뢰도가 높아 강력한 거절 근거로 판단됨."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술에 명확히 기재되어 있으며, 커버리지 점수와 신뢰도가 높아 신규성 부재를 강력히 시사함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항의 기술적 구현에 대한 명세서의 부족은 추측에 의존하며, 증거가 명확하지 않아 약한 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1's slide stops and engagement mechanisms are functionally equivalent to the claimed features, but the dual-bracket/cross member configuration lacks explicit or implicit suggestion in REF1. The motivation to combine is weak without clear guidance from the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art combination (US-2013285347-A1:claim1 and claim4) is deemed obvious for simplifying hitch design, but the motivation to combine lacks explicit technical rationale. Graham factors note no unexpected results, and the confidence score (0.7) suggests moderate strength."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'substantially vertical' is ambiguously defined, directly violating 112(b). This is a clear deficiency in the specification, as noted in the Office Action."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art slide stops (US-2013285347-A1:claim1) are functionally equivalent to tilt stops in claims 3 and 15, with clear motivation to combine. However, the specific configuration of securing to the same mounting position (claim3) or adding remote control (claim15) introduces ambiguity in the combination threshold application."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objection to 'substantially vertical' lacks specific dimensional definitions, but the provided analysis does not address this term's sufficiency in the specification."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013285347-A1) explicitly discloses equivalent structural elements and functional features of claim 1. The combination of slide stop mechanism and engagement assembly is a well-known solution in the field, with clear motivation to limit sliding motion and provide adjustable mounting positions. Graham factors are fully satisfied, and secondary considerations are absent."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art anticipates claim 1 by disclosing all claimed structural elements and functional equivalents with a high degree of alignment. The strictness threshold is met, confirming lack of novelty."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all claimed elements (e.g., slide stops, engagement apertures, mechanical fasteners) and provides clear motivation to combine (e.g., remote controller as logical enhancement). Graham factors confirm PHOSITA would find the combination obvious. Coverage scores (0.6–0.85) consistently exceed strictness threshold."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1/3 are directly anticipated by prior art's explicit disclosure of identical configurations (support bracket portions, releasable engagement, mounting positions). Coverage scores (0.75–0.8) and confidence (0.8–0.9) confirm clear overlap with prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2013285347-A1) discloses all claimed elements, but the combination's motivation is inferred rather than explicitly stated. Graham factors indicate standard design choices, but lack of unexpected results weakens the obviousness argument."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly anticipates all claim elements (carriage bracket, longitudinal rail, slide stops, releasable engagement), with a coverage score of 0.72 exceeding the strictness threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2013285347-A1) discloses fixed slide stops and releasable fasteners (claim 5). Combining these elements for adjustable mounting positions is considered an obvious modification to a PHOSITA, but the specific 'releasably securing to less than total positions' requires interpretation beyond direct disclosure."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The term 'substantially vertical' lacks explicit definition in the specification, but this ambiguity does not directly invalidate the claims as it relates to a functional feature rather than structural specifics."
+        }
+      ]
+    }
+  ]
+}

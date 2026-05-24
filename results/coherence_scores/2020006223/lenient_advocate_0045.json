@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) throughout the §103 analysis, and the office action correctly cites 35 U.S.C. §103 as the sole rejection basis for all claims."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout all stages reference specific claim language (e.g., 'appending the load indication to an outgoing file system message'), specific prior art disclosures (US-2013227111-A1's read/write operation metrics, US-2013272121-A1's scheduling queue occupancy), and specific claim numbers."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds claims 1, 2, 3, 7, 8, 9, 10, 11 not novel based on prior art, but the §103 stage then finds nearly all the same claims non-obvious and recommends 'amend_suggested' rather than rejection — the final decision functionally reverses the office action's own rejections without clearly reconciling this contradiction, creating an internal inconsistency between the office action (which rejects all 22 claims) and the final decision (which treats all as merely 'amend_suggested' with 'weak' or 'moderate' bases)."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient examiner (strictness=0.29) consistently resolves ambiguity in favor of the applicant throughout: the §103 analysis finds most claims non-obvious, the final decision characterizes rejections as 'weak' or 'moderate,' and explicitly invokes the examiner's 'innovation-supportive stance' to give benefit of doubt on marginal obviousness — consistent with a low-strictness profile."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision recommends 'amend_suggested' for all 22 claims including those the office action formally rejected under §103, but the office action section concluded 'No claims are allowed' and rejected all claims 1–22 — the final decision functionally undermines the office action's rejections without providing a clear stated rationale for why the rejections should not stand."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18708,
+      "output_tokens": 528,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

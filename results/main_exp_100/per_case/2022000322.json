@@ -1,0 +1,361 @@
+{
+  "case_id": "PILOT-2022000322",
+  "proceeding_number": "2022000322",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술이 명확히 개시하고 있으며, 결합 동기가 타당하고 예측 가능함. 특히 3GPP 표준 맥락에서의 다중 무선 기술 통합은 통상의 기술자에게 명백함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "PC5_tech 파라미터 생략, 인터페이스 명칭 변경, 필터 구성 요소 추가 등은 모두 설계 선택이나 명백한 변형에 불과하며, 기술적 비약 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "클레임 12의 PC7 인터페이스는 직접적인 선행기술 기재는 없으나, PC6과의 기능 동등성 및 네트워크 아키텍처 관행상 명백한 대체로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항 2–11, 13–16에 대해 다수의 선행기술(US-2019261132-A1, US-2018279394-A1, US-2018279110-A1)이 각 구성요소를 명시적으로 개시하거나 자명한 결합으로 제시함. 결합 동기(motivation to combine)가 명확하며, 통상의 기술자 수준(PHOSITA)에서도 obvious 판단이 타당함. confidence 값이 전반적으로 0.8 이상으로 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 12의 PC7 인터페이스는 명세서에 단순 언급(¶0078)만 되어 있으며, 신규성 여부보다는 written description 및 enablement 미충족 문제. 기술적 차별성, 신호 흐름, 프로토콜, 사용 조건 등이 불명확하여 본질적으로 명확하지 않은 청구항 구성. USPTO의 written description 요건에 비추어 강한 거절 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 12 introduces a 'PC7 interface' not described in the original specification. While the absence of written description is a valid 112(a) concern, the technical concept of defining new interfaces for specialized signaling (e.g., monitor requests) is consistent with the disclosure's theme of technology-specific coordination. The omission of PC7 details may be viewed as an oversight rather than a lack of possession, especially given the explicit discussion of other PC interfaces (PC3, PC5, PC6). Under a purposivist interpretation, the invention’s goal—efficient, scalable inter-ProSe coordination—could reasonably encompass dedicated interfaces like PC7."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 조합이 개별 구성요소들을 개시하고 있으나, 전체 시스템의 통합적 기술적 기여와 조건부 매개변수 생략, 필터링, 애플리케이션 코드 매핑의 상호작용에서 명백한 기술적 진보 여부는 해석의 여지 있음. 특히 PC5_tech 생략과 cross-network discovery filter 통합은 효율성 향상이라는 기술적 목적을 달성하는 혁신적 접근일 수 있음. 그러나 선행기술이 유사한 해결책을 제시하고 있어 완전한 신규성은 인정하기 어려움. combination_threshold=0.72 기준으로는 obvious 판단이 가능하나, strictness=0.29인 관대한 심사관 관점에서 근거는 다소 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple prior art references (US-2019261132-A1, US-2018279110-A1, US-2018279394-A1) disclose core elements of multi-RAT ProSe discovery, filtering, and inter-PLMN coordination. The combination is logical, well-motivated by network efficiency and interoperability needs, and within the skill level of a PHOSITA. The claimed features represent routine optimizations (e.g., omitting default parameters) or predictable integrations of known techniques. Confidence in obviousness is high across claims 2–11, 13–16."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12 introduces 'PC7 interface', a non-standard term absent from the specification and 3GPP standards. No enabling disclosure exists for its protocol, function, or implementation. The specification fails to describe how to make or use this interface, violating written description and enablement requirements. This is a clear 112(a) failure, not subject to interpretation leniency under strict examination policy."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4, 5, 7, 8, 9, 13, and 16 are rejected based on combination of US-2019261132-A1 and US-2018279110-A1. The references individually disclose multi-technology ProSe discovery and WLAN over PC5, and their combination provides clear motivation to include PC5_tech parameter for WLAN in monitoring and announcing procedures. The integration is logical and technically sound, with explicit teaching in both references supporting the combination. Confidence in obviousness is high (0.85), and the verification status is PASS with proper citation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 10, 11, and 12 are rejected based on US-2018279394-A1 in view of US-2019261132-A1 and US-2018279110-A1. While inter-PLMN coordination (PC6) is known, the extension to include detailed parameters (ProSe application ID, mask, TTL) and use of PC7 interface is speculative. PC7 is not disclosed in prior art, and motivation to introduce a new interface is weak. Although parameter integration is plausible, the specific implementation over PC7 lacks strong support. Confidence is moderate (0.7–0.72), and the rationale relies on design choice rather than explicit teaching."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 REF1, REF2, REF4의 조합이 ProSe discovery 절차, 다중 무선 기술 지원, 매개변수 생략, 필터 구성 등 핵심 기능을 개시하고 있으며, 결합 동기가 명확함. 특히 E-UTRA에서의 PC5_tech 생략, discovery filter 내 매개변수 포함, 인터페이스 명칭 변경 등의 기술적 차이가 없어 obvious 판단이 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "거의 모든 청구항에 대해 다수의 선행기술이 관련 구성요소를 개시하고 있으며, 결합 동기가 명확하게 제시됨. 특히 다중 RAT 지원, 매개변수 생략, 필터링 메커니즘 등은 3GPP 표준화 맥락에서 통상의 기술자가 쉽게 도달할 수 있는 설계 선택으로 보임. US-2018279394-A1, US-2018279110-A1, US-2019261132-A1의 조합은 전체 시스템 아키텍처와 기능을 포괄적으로 커버함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is anticipated by US-2018279394-A1, which explicitly discloses a discovery request with ProSe application ID and a discovery response with ProSe response code. The correspondence between these parameters is inherent in the authentication mechanism, and the reference provides explicit support in claims and specification. This constitutes clear anticipation under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, and 16 are supported by a well-reasoned combination of US-2018279394-A1, US-2019261132-A1, and US-2018279110-A1. The motivation to combine—enabling multi-technology ProSe discovery with filtering and authorization—is clear and technically sound. Each element is known in the art and their integration is predictable to a PHOSITA."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 12 recites use of a PC7 interface for monitor request/response, but the specification only mentions PC7 as a reference point without detailing implementation (e.g., protocol stack, message format). While this raises enablement concerns, the concept of inter-PLMN ProSe function communication is known, and a PHOSITA might infer implementation from analogous interfaces like PC6. Thus, the 112 rejection is reasonable but not overwhelming."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술이 명확히 개시하고 있으며, 결합 동기가 설득력 있음. 특히 US-2019261132-A1과 US-2018279110-A1은 ProSe discovery의 핵심 기능을 포괄적으로 기술하고 있음. 다중 RAT, 필터링, 인터페이스 통신 등 주요 구성요소들이 공지된 기술로 조합 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술의 조합 또는 단일 선행기술이 명확히 개시하고 있으며, 결합 동기가 명확함. 특히 US-2019261132-A1과 US-2018279110-A1, US-2018279394-A1이 ProSe discovery, 필터링, 다중 PLMN 간 통신, 인터페이스 설계 등 핵심 기능을 포괄적으로 개시함. 소프트웨어 구현 및 파라미터 생략은 모두 공지된 최적화 기법으로, PHOSITA의 관점에서 자명함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 선행기술 인용문이 관련 기술을 명확히 개시하고 있으며, 특히 US-2019261132-A1과 US-2018279110-A1이 ProSe discovery, 필터링, 다중 RAT 지원을 구체적으로 설명함. 결합 동기(motivation to combine)가 3GPP 표준화 맥락에서 자연스럽게 도출되며, 신호 최적화, 로밍 지원, 필터 정확성 향상 등 기술적 이점이 명확함. confidence 점수 대부분 0.8 이상으로 일관되게 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12의 'PC7 interface'는 명세서 어디에서도 설명되지 않으며, 3GPP 표준에서도 정의되지 않은 용어임. 기술자가 해당 인터페이스의 구조, 기능, 구현 방법을 알 수 없으므로 서면 설명 요건 미충족은 명확함. 이는 명백한 112(a) 위반이며, 해석의 여지 없이 강한 거절 근거임."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "대부분의 청구항에 대해 명확한 선행기술이 제공되었으며, 결합 동기가 명확하고 해당 기술 분야의 통상적인 기술 수준에서 자명한 결합으로 판단됨. 특히 multi-RAT ProSe discovery와 WLAN PC5 통합은 공지된 목표로, 결합의 동기와 실행 가능성이 충분히 입증됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 3 및 15에 대한 obviousness 판단은 단일 인용문에 기반하나, 'corresponds to'의 구체적 의미와 ProSe announcing context에서의 특이성이 해석의 여지가 있음. 그러나 US-2019261132-A1의 서비스 매핑 기재를 고려하면, 이 역시 통상적인 신호 처리 방식에 해당하여 자명성 판단을 유지함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 7, and 15 are clearly anticipated by US-2019261132-A1, which explicitly discloses the claimed features such as omission of PC5_tech for E-UTRA, and direct correspondence between ProSe application ID and code. The disclosure is sufficient to satisfy anticipation under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4, 5, 6, 8, 9, 10, 11, 13, 14, and 16 are supported by strong obviousness rationale. The combination of US-2018279394-A1 and US-2018279110-A1 teaches all claim elements in the context of ProSe discovery across multiple radio technologies. Motivation to combine is clear—enabling multi-technology D2D discovery with proper signaling and filtering. The integration is within ordinary skill in the art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 12's reference to 'PC7' lacks detailed technical description in the specification. While mentioned in ¶0078, there is no differentiation from PC6 in terms of protocols, security, or message structure. Under BRI, interface naming alone is not patentable, but written description requires possession. At strictness=0.60, this rises to a valid 112(a) issue, though not insurmountable."
+        }
+      ]
+    }
+  ]
+}

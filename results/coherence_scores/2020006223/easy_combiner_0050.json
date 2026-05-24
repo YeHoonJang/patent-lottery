@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 obviousness analyses, and no incorrect statute is applied at any stage."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (US-2013227111-A1, US-2013272121-A1) and maps specific disclosed features (e.g., queue occupancy, read/write operation counts, bandwidth adjustment) to specific claim elements throughout novelty, obviousness, and office action stages."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found novel at §102 (e.g., claims 5, 6, 12, 13, 14, 19, 20) are still rejected at §103 in the office action with additional rationale (e.g., general resource efficiency principles, known batch scheduling techniques), providing stated justification for the escalation rather than simply asserting stronger overlap."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner profile shows a very low combination_threshold (0.222) and moderate strictness (0.461), and the trace reflects easy-combiner behavior by accepting weak motivation-to-combine arguments (e.g., 'general design choice,' 'well-known principle') to reject most claims, while still leaving some claims as non-obvious, consistent with the moderate strictness level."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' logically follows from the stage-level analyses, rejecting claims where prior art clearly taught the elements and suggesting amendment for claims (5, 6, 12, 13, 14, 19, 20) that were consistently found non-obvious across novelty and obviousness stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 21045,
+      "output_tokens": 430,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

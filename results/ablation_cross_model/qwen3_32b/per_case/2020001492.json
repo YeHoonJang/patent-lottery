@@ -1,0 +1,387 @@
+{
+  "case_id": "2020001492",
+  "proceeding_number": "2020001492",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejection is strong as the combination of US-2015243325-A1 and US-2011217019-A1 clearly renders the claims obvious. The motivation to combine is well-supported by the desire to improve playback experience, and the combination would have been routine to a PHOSITA."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejection is moderate as the claims contain terms that are not clearly defined in the specification. While this is a valid issue, the lack of specific definitions may be addressable through amendment rather than outright rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2011217019-A1 and US-2015243325-A1 provides clear motivation to combine to arrive at the claimed invention. The references disclose similar methods of receiving and analyzing images/videos, modifying them based on properties, and playing back the modified content. The differences between the claims and the prior art are considered routine design choices in the field of video processing."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The claims contain terms that are not clearly defined in the specification, such as 'property,' 'modifying,' 'image content,' and 'photo story.' This lack of clear definition makes it difficult for a person of ordinary skill in the art to understand the scope of the invention and how to practice it."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합이 청구항의 기술적 진보를 예측할 수 있지만, 청구항이 제공하는 특정한 수정 방식이 혁신적 기여로 인정된다는 점에서 해석의 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection is based on a strong combination of prior art references (US-2011217019-A1 and US-2015243325-A1) that explicitly teach all elements of the claims. The PHOSITA would recognize the claimed adjustments (e.g., frame rate, selection criteria) as routine optimizations, and the motivation to combine is clearly established by the need to streamline video playback while preserving key moments. The confidence level of 0.81 further supports the strength of this rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011217019-A1과 US-2015243325-A1이 청구항의 모든 요소를 개시하거나 자명하게 조합할 수 있음을 명확히 보여주며, 결합 동기가 명확함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서 뒷받침의 부족이 명확히 제시되지 않아 근거가 약함"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1이 청구항 8,9,10,11,14의 모든 요소를 명시적으로 개시하며, verification_status가 PASS로 명확한 증거가 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011217019-A1 및 US-2015243325-A1의 결합이 청구항 1,2,3,4,5,6,7,12,13,15,16,17,18,19,20을 자명하게 만든다고 판단됨. 결합 동기 설명이 있으나, Graham 요소 3의 PHOSITA 동기 명확성은 0.51 이하로 평가됨"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서 기재 부족으로 청구항 1,5,7,8,11,12,15,16,17,19,20이 112(c) 조항 위반. verification_status가 PASS로 명확한 증거 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011217019-A1 및 US-2015243325-A1이 대부분의 청구항에 대해 기술적 연결성을 제시하고 있으며, 결합 동기가 명확하게 제시되어 있으나, 일부 청구항(예: 9, 10, 14, 17)에 대한 증거의 강도는 다소 약한 편이다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'property' 용어에 대한 명세서 기재가 불충분하며, 분석 방법이나 기준이 명확히 설명되어 있지 않아 통상의 기술자가 발명을 재현하는 데 어려움이 있을 수 있다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are anticipated by the cited prior art references. For example, US-2015243325-A1 explicitly discloses methods and devices for automatically curating video content by determining relevance scores for video frames, selecting relevant frames and clips based on these scores, and playing back the modified video. US-2011217019-A1 explicitly discloses methods for creating a playlist for digest playback and synchronizing video with audio tracks. These references disclose all elements of the claims with high similarity scores, indicating clear anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2015243325-A1 and US-2011217019-A1 provides a clear and sufficient basis for the obviousness rejection. The prior art references disclose the core elements of the claims, and the combination is supported by a reasonable motivation to improve efficiency in video compilation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The rejection under 35 U.S.C. § 112(b) lacks specific references to the specification to substantiate the indefiniteness of the claimed terms. Without concrete evidence from the specification, the rejection is considered weak and is not sufficient to uphold the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2015243325-A1 and US-2011217019-A1 provides sufficient disclosure to render the claims obvious. The PHOSITA would reasonably combine these references to achieve the claimed functionality, with clear motivation to optimize playback and curation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claims use terms such as 'property', 'playback parameter', and 'photo story' without sufficient definition or technical detail in the specification. This creates ambiguity, but the lack of clarity may be remedied through amendment or explanation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술이 제공되었고, 결합 동기가 명확하게 제시됨. 영상 분석 및 재생 매개변수 조정은 해당 분야에서 공지된 기술로, 선행기술의 결합이 자명하다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 특정 용어가 명세서에서 명확히 정의되지 않았으며, 해당 용어의 범위가 너무 넓어 실시예를 초과할 수 있음. 그러나 명세서가 제공되어 구체적인 문제를 식별할 수 있으므로, 출원인의 수정으로 해결 가능성이 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1 및 US-2011217019-A1이 청구항의 구성요소를 명확히 개시하며, verification_status가 'PASS'로 확인됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015243325-A1이 청구항 4,6,9,10,14,17을 자명한 변형으로 포함하며, 결합 동기 설명이 충분함. confidence 0.5 이상은 moderate로 평가됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 4,10,14의 confidence가 0.5 이하로, 결합 동기의 명확성 및 선행기술과의 차이가 미약하여 weak으로 평가됨"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'property', 'image content', 'image quality metric', 'audio property', 'photo story' 등의 용어 정의가 누락되어 명백한 112 문제 발생"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art references disclose similar methods and systems for analyzing and modifying video content for playback. The differences between the claims and the prior art are considered routine and would have been obvious to a person skilled in the art. However, the confidence level for some claims is relatively low (e.g., 0.65 for claims 4, 12, 14), indicating some uncertainty in the obviousness determination."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claims contain terms that are not clearly defined in the specification, which could make it difficult for a person skilled in the art to implement the invention without undue experimentation. This issue affects multiple claims but is not uniformly strong across all claims."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011217019-A1 및 US-2015243325-A1의 결합이 Graham 4요소를 충족하며, combination_threshold(0.57)을 초과하는 0.75의 높은 신뢰도를 보임. 통상의 기술자에게 결합 동기가 명확하고, 사용자 경험 향상이라는 실질적 이점이 존재"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'Property', 'Photo story' 등 핵심 용어의 정의가 명확하지 않다는 지적이 있으나, strictness(0.60) 기준에 따라 112 거절의 강도는 moderate으로 평가됨. 명확성 부족이 발명의 핵심 부분에 국한된다는 점에서 보완 가능성 열림"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The novelty stage correctly applies element-by-element anticipation analysis under §102, citing specific prior art passages, and the office action and final decision also properly invoke §102 anticipation; no wrong-statute substitution occurs."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each §102 rejection cites specific paragraphs (e.g., [0003], [0002]) from US-2013339693-A1 and quotes specific claim language (BTB structure, dual-level BTB, branch/pattern history table) to support anticipation findings."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The final decision consistently rejects claims 5, 7, 11, 12, and 13 as anticipated—matching the novelty stage findings—and grants the remaining claims without contradiction; the weak §103 finding is explained by LLM unavailability rather than a silent reversal."
+  },
+  "item4": {
+    "score": 0,
+    "justification": "With strictness of 0.818 and a completely absent §103 analysis (all defaulted to non-obvious due to 'LLM unavailable'), a strict gatekeeper would be expected to either pursue §103 rejections more aggressively or at minimum flag the inability to assess obviousness as a substantive gap requiring follow-up, rather than simply accepting no obviousness rejections for all 16 claims."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 5, 7, 11, 12, and 13 while allowing the rest follows directly from the §102 anticipation findings at the novelty stage and the office action, with explicit rationale tying each claim decision back to prior-stage analysis."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018002380",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 8366,
+      "output_tokens": 407,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

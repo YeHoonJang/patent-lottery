@@ -1,0 +1,415 @@
+{
+  "case_id": "2021003655",
+  "proceeding_number": "2021003655",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.5714285714285714,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 1 is rendered obvious by the combination of US-2015375456-A1. The reference teaches a system for monitoring a melt pool in additive manufacturing by comparing characteristics of a control build pattern and a test pattern, and adjusting key process parameters to match the control build. The method of calibrating laser scanner delay settings by comparing and adjusting parameters is a straightforward application of the monitoring and adjustment techniques disclosed in the reference. The motivation to combine is the desire to improve the accuracy and standardization of the laser scanning process, which is a common goal in additive manufacturing. The differences between the claimed invention and the reference are minimal, involving only the specific application of the monitoring and adjustment techniques to delay settings rather than other parameters. Given the combination threshold of 0.34, the motivation to combine is sufficiently strong to render the invention obvious."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The method of these claims is anticipated by US-2015375456-A1. The reference implicitly teaches scanning processes involving control of laser beam motion, including start and stop coordinates, which are essential to the concept of the claimed parameters and motions. The coordination between the first and second scanning devices inherently involves scan motion control, and the reference's disclosure of control logic, timing parameters, and geometric parameters is sufficient to anticipate these claims."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 22 is clearly anticipated by US-2015375456-A1 with high confidence (0.833). The prior art explicitly discloses all system elements, making this a strong novelty rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 is considered obvious over US-2015375456-A1 with high confidence (0.85). The prior art provides sufficient teaching for the claimed calibration method, and the motivation to combine is clear based on the shared technical field and objectives."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Several claims (2, 3, 6, 7, 10, 16, 19, 20, 21, 22) are rejected under 112 for lacking clear definitions or implementation details in the specification. While these are valid concerns, the strength depends on how critical the undefined terms are to the claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Some rejections relate to overly broad terms (e.g., 'form of electronic storage device') that could be clarified with amendments. These are valid but less strong as they could be remedied through specification clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1이 청구항 1의 본질적 요소를 명시적으로 개시하며, 유사도 점수 0.85와 전체 커버리지 0.75로 충분한 개시가 이루어짐"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1이 청구항 1의 본질적 요소를 모두 포함하며, 추가적인 선행기술 결합이 필요하지 않음. 통상의 기술자는 레이저 제조 공정의 표준화와 정확도 향상을 위한 동기가 있음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 3, 7, 10, 16, 17, 19, 20, 21, 22에 대해 명세서에서 구체적인 정의나 예시가 부족하여 명확성이 결여됨. 그러나 이는 청구항 자체의 문제이며, 기술적 기여가 인정되면 보정을 통해 해결 가능"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서가 'key process parameter', 'test pattern', 'control build' 등의 핵심 용어에 대한 구체적 예시와 정의를 제공하지 않아 이해와 구현에 어려움이 있음. 이는 명확성 문제이지만, 출원인의 기술적 기여가 인정된다면 보정을 통해 해결 가능"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claim 1 is based on the routine optimization of delay settings in a known system. While the reference does not explicitly disclose the claimed calibration method, the reasoning relies on the predictable optimization of parameters in the field, which is a standard 103 argument. However, the confidence is only 0.7, and the innovation in standardization may be considered non-trivial."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 rejections for claims 2-22 are based on the reference implicitly or explicitly covering the claimed features. However, many of the rejections rely on the language 'obvious variant' or 'implicitly covers,' which introduces some ambiguity. The confidence levels are generally in the 0.5-0.65 range, indicating moderate strength but not conclusive anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "모든 청구항에서 명세서에 명확한 정의 및 구현 방법이 누락되어 있어, 청구항의 명확성과 실시 가능성에 문제가 있습니다. 이는 35 U.S.C. 112 제1항에 명백히 위배됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1은 매개변수 조정을 통한 모니터링 시스템을 기재하고 있으며, 레이저 지연 설정을 표준화하는 것은 선행기술의 논리적 확장으로 판단됩니다. 결합 동기가 명확히 제시되었고, confidence는 0.7로 상당히 높은 수준입니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'first characteristic'과 'key process parameter'에 대한 구체적인 정의와 설명이 명세서에 누락되어 있으며, 이로 인해 통상의 기술자가 발명을 실시하는 데 어려움이 있습니다. verification_status는 PASS로, 명세서의 부재가 명백합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술에 기반한 103 거절 근거가 명확하며, 청구항의 추가 요소들이 routine modification으로 간주됨. 결합 동기가 합리적으로 제시되었으나, 청구항의 특정한 요소들이 선행기술에 포함되어 있지 않다는 점에서 해석의 여지가 남음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 뒷받침이 부족한 구체적 용어들이 청구항에 포함되어 있음. 그러나 청구항의 특정 요소들이 명세서에 설명되어 있을 가능성이 있으므로, 보정을 통해 명확히 할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 1, 7, 19, and 22 are rejected under 102 for being anticipated by US-2015375456-A1. The confidence level is 0.75-0.8, which is moderate but not overwhelming. The prior art's implicit disclosure requires interpretation under BRI, which could be seen as a moderate strength of evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, and 22 are rejected under 103. The motivation to combine is reasonable (0.6-0.8 confidence), but many of these claims (2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21) are considered novel and not obvious. Given my strictness of 0.55, I would weigh these as moderate strength."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art document explicitly discloses all claim elements. The verification status is PASS with the note that the prior art document is provided and explicitly discloses all claim elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination with common knowledge is logically motivated and aligns with Graham analysis. The verification status is PASS with the note that the combination with common knowledge is logically motivated and aligns with Graham analysis."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claim references 'first characteristic' and 'second characteristic' without clear definitions in the specification. The method of comparison between these characteristics is also not clearly specified. The term 'key process parameter' is not explicitly defined, which could lead to ambiguity in implementation. This raises concerns about whether the specification provides sufficient written description and enablement for the claimed method."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015375456-A1은 청구항의 핵심 개념인 매개변수 조정을 통해 공정 제어하는 방법을 기재하고 있으나, 구체적으로 '레이저 딜레이' 보정을 언급하지는 않음. 결합 동기가 명확히 제시되었으나, 청구항의 특정한 적용 범위와 선행기술 간의 차이가 존재함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'first characteristic'과 'parameter'가 명확히 정의되지 않았으며, 이로 인해 청구항의 실시에 대한 구체적인 지침이 부족함. 그러나 청구항 자체가 명확하지 않은 경우가 아니라, 명세서의 기재 부족이 문제임."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 제공되었으며, 결합 동기가 논리적으로 설명되었으나, 결합이 예측 가능한 결과인지에 대한 명확성은 다소 약함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "102 거절은 단일 선행기술이 모든 청구항 요소를 개시해야 하지만, 이 경우 'obvious variant'라는 표현이 사용되어 명확한 anticipation이 아닌 103의 영역에 해당함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "112 거절은 명세서가 제공되었으므로 구체적인 명세서 조항을 근거로 해야 하지만, 이 경우 명세서의 특정 부분을 언급하지 않아 검증 불가"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The claims are clearly anticipated by US-2015375456-A1. The prior art reference explicitly or implicitly discloses all the features of the claims, with high similarity scores and direct textual support."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the prior art reference US-2015375456-A1 supports the obviousness of the invention, the motivation to combine is somewhat inferred rather than explicitly stated. However, the combination is logical and aligned with standard optimization practices in additive manufacturing."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claims contain undefined terms that could hinder implementation. While this is a valid issue, the lack of specification support is not extreme and could be addressed with clarification or amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1이 청구항의 주요 요소를 개시하고, 결합 동기가 명확하게 제시됨. 신규성 판단에서 1, 3, 7, 10, 16, 19, 20, 21, 22 등이 선행기술로 인해 신규성이 부정되며, 진보성 판단에서도 대부분의 청구항이 선행기술과의 차이가 자명한 변형으로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'first characteristic'과 반복 조정 과정이 구체적으로 기재되지 않아 112 거절 근거가 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015375456-A1이 청구항 1의 구성요소들을 암시적으로 공개하고 있으며, PHOSITA가 선행기술을 기반으로 본 발명을 수정할 동기가 존재함. 그러나 결합 동기의 명확성과 선행기술의 구체성에 따라 해석의 여지가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'first characteristic' 및 'key process parameter' 등의 용어가 명세서에서 충분히 설명되지 않아, 일반 기술자가 발명의 범위를 명확히 이해하고 실시하기 어려울 수 있음. 그러나 명세서가 제공되지 않았기 때문에 구체적 평가에 한계가 있음."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "case_id": "PILOT-2021001767",
+  "proceeding_number": "2021001767",
+  "gt_issues": [
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.7857142857142857,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Office Action은 US-2018288616-A1과 공지기술을 결합하여 청구항 1 및 3을 obvious로 판단하고 있으나, 본 출원의 핵심인 '추론 저장소' 및 '모듈 간 추론 공유를 위한 동의 기반 접근 제어' 아키텍처는 선행기술에 명시적이거나 암시적인 개시가 부족하다. 특히 '추론(inference)'을 구조화된 데이터로 저장하고 이를 다수 모듈이 사용자 동의 하에 공유하는 시스템은 단순한 데이터 보호 확장으로 보기 어려우며, 결합 동기의 명확성에 해석의 여지가 있음. 다만, 개인정보 보호 및 권한 관리의 일반적 원칙을 적용한 확장이라는 점에서 완전히 무시할 수는 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2018288616-A1은 권한 예측 및 요청 기능을 개시하고 있으나, 본 출원의 핵심 구성인 '추론 저장소에 저장된 복수의 추론', '모듈의 요청에 기반한 특정 추론 제공', '사용자 동의 검증 후 접근 제어' 등의 조합은 개시하거나 암시하지 않는다. 결합 동기(motivation to combine)는 존재할 수 있으나, 이러한 구조적 통합이 자명하다고 보기 어려우며, 특히 개인정보 보호와 개인화의 기술적 균형을 실현하는 아키텍처적 진보가 인정된다. 심사관 성향(strictness=0.25)에 따라, 약한 비자명성 근거는 출원인에게 유리하게 해석됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제시된 진보성 판단에 따르면, 선행기술 US-2018288616-A1은 권한 예측 및 요청에 초점을 두고 있으며, 본 출원의 핵심인 '추론 저장소'를 통한 중앙 집중식 추론 관리, 모듈 간 동의 기반 데이터 공유, 사용자 동의 검증 절차 등은 개시하지 않는다. 결합 동기에 대한 명확한 근거가 부족하며, 두 기술이 해결하려는 문제 영역(기기 권한 관리 vs. 사용자 프로파일 기반 개인화 데이터 공유)이 다르므로 통상의 기술자가 이를 결합할 합리적 동기가 없다고 판단됨. 그러나 엄격한 심사 기준(strictness=0.89)을 고려하더라도, 이러한 차이점이 기술적 통합의 비자명성을 충분히 뒷받침하며, 결합 동기의 부재가 명확히 입증됨. 따라서 103 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018288616-A1 명확히 예측 기반 권한 관리 시스템을 공지하고 있으며, 청구항 1, 3, 6, 7, 10, 12, 15, 16, 17, 19의 구성요소는 이와 기능적으로 동등하거나 예측 가능한 확장임. 특히 consent-based 접근 제어를 사용자 추론(inference)에 적용하는 것은 당업자에게 자명한 변화이며, 결합 동기(motivation to combine)가 명확함. strictness=0.82인 점을 고려하면, 이러한 수준의 유사성은 거절 유지에 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.82,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The only cited reference, US-2018288616-A1, discloses predictive permissioning for mobile tasks but does not teach or suggest a centralized inference store, consent-verified access to specific inferences, or bidirectional inference sharing with modules. The analysis finds no motivation to combine prior art elements to arrive at the claimed invention. Given the low combination_threshold (0.46), even a weak suggestion might suffice, but here the functional and architectural differences are significant. However, the confidence in non-obviousness ranges from 0.68 to 0.75, indicating moderate to high uncertainty. With strictness=0.47 (slightly lenient), weak evidence of obviousness does not justify rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious=false로 평가되었으며, 선행기술과의 차이점, 통상의 기술자 수준, 결합 동기 부족, 부차적 고려사항 등을 종합적으로 고려하여 진보성이 인정됨. combination_threshold=0.55 기준 대비 motivation_to_combine의 confidence가 낮음(평균 0.7 미만). strictness=0.55인 본 심사관의 성향상, 약한 obviousness 근거는 거절로 보지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으며, US-2018288616-A1과의 비교에서 '추론 저장소', '모듈 요청-동의 검증-제공' 구조, 사용자 피드백 루프 등이 선행기술에 개시되지 않았고 자명한 결합도 아니라고 평가됨. 결합 동기 부족과 차별적 기술적 효과가 강조되었으며, confidence 수준도 전반적으로 0.65~0.8 사이고, combination_threshold=0.44 기준 대비 여전히 비자명으로 판단됨. 따라서 103 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.48,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection relies on combining US-2018288616-A1 with common knowledge about software architecture (e.g., native vs. non-native modules) and feedback loops in ML systems. While the motivation to combine is plausible, the extension of permission predictions to a generalized inference-sharing framework with module-generated inferences and user correction of inferences involves a degree of functional abstraction that is not fully explicit in the prior art. Under moderate BRI and a combination threshold of 0.48, these extensions are considered obvious by the initial analysis, but the lack of direct disclosure of user-modifiable inferences (claim 9) and third-party inference contribution (claims 4, 13, 20) introduces uncertainty. Given the examiner's neutral-to-moderate strictness (0.52), these rejections are not overwhelmingly strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although US-2018288616-A1 discloses predictive permissioning based on user tasks with a virtual assistant, it does not teach or suggest a centralized inference store, granular consent for specific inferences, or bidirectional inference sharing with modules. The differences in purpose (permission prediction vs. personalization via behavioral inferences) and architecture (no inference store, no module-level consent verification) are significant. The motivation to combine is lacking, and the claimed framework represents a non-trivial integration of inference management and consent control. Given the combination threshold of 0.57 and the absence of teaching for key features, the obviousness challenge is weak."
+        }
+      ]
+    }
+  ]
+}

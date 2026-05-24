@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 0,
+    "justification": "The §102 novelty rejection cites a 'combination of US-2014126158-A1 and US-2015123751-A1,' but §102 anticipation requires a single reference disclosing every element—using a combination of references is a §103 framework, not §102, making the rejection legally misplaced."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language and identified prior art passages—e.g., the obviousness analysis cites specific features like 'latch plate,' 'Thomson drive,' and 'over-current relay' from named references with element-by-element comparisons."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds claim 1 not novel (is_novel=false, confidence=0.9) based on a two-reference combination, yet the obviousness stage independently finds claim 1 non-obvious (is_obvious=false), and then the final decision weighs a '103 obviousness' rejection from the Office Action—creating an internal contradiction where the same claim is simultaneously anticipated and non-obvious without coherent reconciliation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.29 (lenient) and combination_threshold=0.72 (high bar for combining), the examiner consistently resolves ambiguous evidence in favor of the applicant—finding most claims non-obvious, noting lack of motivation to combine, and recommending amendment rather than outright rejection, consistent with the lenient_advocate profile."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision recommends 'amend_suggested' partly on a '103_obviousness' basis for claim 1, yet the Office Action formally rejected claim 1 under §102 (not §103), and the obviousness analysis found claim 1 non-obvious—the final decision shifts legal basis and direction without clearly reconciling these contradictory prior-stage findings."
+  },
+  "total": 2,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2019004648",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10016,
+      "output_tokens": 469,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

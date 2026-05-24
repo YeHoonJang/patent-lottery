@@ -1,0 +1,862 @@
+{
+  "case_id": "2017001263",
+  "proceeding_number": "2017001263",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty (claims 2,3,4,5,8)",
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1은 measurement profile(skills, professional experience 기반 ranking), entity/replacement entity가 human resource임, social graph connections, professional information, ranking을 명시적으로 개시하고 있습니다. 선행기술 문헌이 제공되었고 모든 청구항 요소를 anticipate하는 명확한 증거가 있습니다. strictness=0.79에서 이는 강한 거절 근거입니다."
+        },
+        {
+          "basis": "103_obviousness (claims 2,3,4,5,8)",
+          "strength": "strong",
+          "reasoning": "102로 anticipate되는 청구항은 자동으로 103도 성립합니다. 선행기술이 모든 요소를 명시적으로 개시하고 있어 obviousness 판단도 강합니다."
+        },
+        {
+          "basis": "103_obviousness (claim 7)",
+          "strength": "moderate",
+          "reasoning": "선행기술이 social graph connection information과 user profiles를 개시하지만, structured/unstructured data 형태에 대한 명시적 개시는 없습니다. 다만 당업자에게 graph data를 structured 형태로 저장하는 것은 일반적 설계 선택입니다. claim 7은 'at least one of'로 광범위하게 한정되어 있어 structured data 암시만으로도 충족됩니다. combination_threshold=0.34로 낮아 공지상식 결합으로 자명하나, 증거가 암묵적이므로 moderate입니다. strictness=0.79에서는 거절 유지 경향이 높습니다."
+        },
+        {
+          "basis": "103_obviousness (claim 9)",
+          "strength": "moderate",
+          "reasoning": "선행기술은 skills/professional experience 기반 평가를 개시하지만, psychometric profile(attitudes, personality traits, sentiment analysis)에 대한 명시적 개시는 없습니다. 다만 2013년 당시 HR 분야에서 psychometric profiling은 공지기술이며, technical skills 평가와 결합하는 것은 일반적 관행이었습니다. 결합 동기는 후보자-직무 적합성 개선이라는 명백한 목적이 있습니다. combination_threshold=0.34로 낮아 공지상식 결합으로 자명하나, 선행기술이 psychometric 요소를 직접 개시하지 않아 moderate입니다. strictness=0.79에서는 공지상식 결합으로 거절 유지 경향이 높습니다."
+        },
+        {
+          "basis": "allowable (claim 6)",
+          "strength": "moderate",
+          "reasoning": "claim 6의 'lookup table'은 특정 구현 방법의 한정입니다. 선행기술은 social graph mapping을 개시하지만 lookup table 구현에 대한 명시적/암묵적 개시가 없습니다. 다만 mapping을 lookup table로 구현하는 것은 당업자의 일반적 설계 선택일 수 있습니다. combination_threshold=0.34로 낮아 설계 선택으로 볼 여지가 있으나, 선행기술이 다른 구현 방법(graph database 등)을 시사할 수 있어 non-obvious 판단에 합리성이 있습니다. strictness=0.79에서도 구체적 구현 방법의 한정은 존중될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1은 청구항 2(measurement profile), 3(human resource), 4(social graph mapping), 8(ranked list)의 모든 구성요소를 명시적으로 개시합니다. 선행기술의 Claims 3, 4, 5, 6, 7에서 직접적으로 대응되는 요소들이 발견되며, coverage_score가 0.77-0.9로 매우 높습니다. 신규성 결여가 명확합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 5(역할과 활동)와 7(구조화/비구조화 데이터)은 선행기술에 암시적으로 개시되어 있습니다. 청구항 5의 경우 '전문 경험과 기술'이 '역할과 활동'을 내포한다고 볼 수 있으나, 명시적 개시는 아닙니다. 청구항 7의 경우 데이터 형태 지정이 필연적이라는 주장은 논리적이나, 선행기술이 명시적으로 구조화/비구조화를 언급하지는 않습니다. Strictness 0.88 기준에서 암시적 개시도 거절 근거로 충분하다고 판단됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "102가 인정되지 않더라도, 103 거절은 명백합니다. 선행기술 US-2013275320-A1이 모든 핵심 요소를 개시하며, 통상의 기술자에게 이러한 요소들의 결합은 예측 가능합니다. Graham factors 분석 결과 선행기술과의 차이가 극히 미미하며, combination_threshold 0.34 기준을 충분히 충족합니다. 인적자원 분석 분야에서 프로파일 기반 매칭, 소셜 그래프 활용, 순위화는 모두 공지상식입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3,
+            4,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013275320-A1은 professional information, skills, experience를 개시하고 있으며, employee/prospective employee candidate 및 social graph connections를 명시적으로 개시합니다. 그러나 'measurement profile'이라는 용어와 선행기술의 'professional information'이 완전히 동일한지는 해석의 여지가 있습니다. BRI 하에서는 anticipation이 성립할 수 있으나, 출원인이 measurement profile의 구체적 의미를 주장할 경우 차이가 인정될 수 있습니다. Coverage scores(0.73-0.89)는 상당한 유사성을 보이지만 100% 일치는 아닙니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "102가 성립하지 않더라도, 선행기술이 대부분의 구성요소를 개시하고 있어 103 근거는 타당합니다. 그러나 'measurement profile'로의 확장, 'mapping'이라는 용어 선택 등이 단순한 용어 변경인지 기술적 의미가 있는 한정인지는 논란의 여지가 있습니다. 해당 분야에서 이러한 변형이 자명한지는 출원인의 반박에 따라 달라질 수 있습니다."
+        },
+        {
+          "basis": "allowable_claims",
+          "claims": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 5, 6, 7, 9는 선행기술에서 명시적으로 개시되지 않은 구체적 특징들(roles and activities, lookup table, structured/unstructured data, psychometric profile with sentiment analysis)을 포함하고 있습니다. 이러한 특징들은 선행기술의 단순한 확장으로 보기 어렵고, 추가적인 기술적 기여를 나타냅니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013275320-A1이 'user profiles including professional information' 및 'ranking based on professional experience, skills'를 개시하지만, 'measurement profile'이라는 명시적 용어는 사용하지 않음. 프로파일이 측정 가능한 메트릭을 포함한다는 점에서 유사하나, 'measurement profile'이 특정한 기술적 의미를 가질 수 있어 해석의 여지 존재. BRI 하에서도 완전한 anticipation으로 보기에는 용어 간 간극이 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 profiling과 measuring을 개시하지만, 'measurement profile'로 특징화하는 것이 자명한지는 불확실. PHOSITA가 단순히 용어를 바꾸는 것 이상의 기술적 의미를 부여할 수 있음. Combination_threshold=0.72 고려 시, 명시적 교시 없이 용어 변환만으로 obviousness를 주장하는 것은 약한 근거."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 'employee' 및 'prospective employee candidate'를 명시적으로 개시하며, 이는 분명히 human resources에 해당. 기술적 내용이 동일하고 단일 문헌이 모든 요소를 개시하므로 anticipation 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 HR 맥락에서 employee와 candidate가 human resources임은 자명. PHOSITA가 당연히 인식할 수 있는 사실이며, 기술적 기여가 없음."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 'social graph connection information'과 'social graph connections between users'를 명시적으로 개시하며, 이는 social links의 그래프 표현 및 entity 간 매핑에 해당. 모든 청구항 요소가 단일 문헌에 명시적으로 개시되어 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Social graph가 social links를 표현하고 entity 간 매핑을 제공한다는 것은 해당 분야의 기본 개념. PHOSITA가 당연히 인식할 수 있으며 자명함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 'ranking the plurality of second users as prospective employee candidates' 및 'summary is generated to reflect the ranking'을 명시적으로 개시하며, 이는 ranked list 생성에 직접적으로 대응. 모든 요소가 단일 문헌에 명시적으로 개시됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Ranking 결과를 ranked list로 제공하는 것은 해당 분야의 표준 관행. PHOSITA가 당연히 구현할 수 있으며 기술적 기여가 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim": 2,
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1이 'user profiles including professional information associated with employees'와 'ranking based on strength of connections, professional experience, and skills'를 명시적으로 개시한다. 이는 measurement profile의 핵심 구성요소를 모두 포함하며, coverage_score 0.78, confidence 0.92로 매우 높다. 선행기술이 측정 데이터를 수집하고 활용하는 시스템을 명확히 개시하므로 102 거절 근거가 강하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 2,
+          "strength": "strong",
+          "reasoning": "단일 선행기술 내에서 측정 데이터가 이미 수집·활용되고 있으며, 이를 'measurement profile'로 구조화하는 것은 데이터 관리의 통상적 방법이다. Graham factors 분석에서 실질적 기술 차이가 없고, PHOSITA에게 자명한 설계 선택이다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim": 3,
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1이 'employee'와 'prospective employee candidate'를 명시적으로 개시하며, 이는 본질적으로 human resource이다. Coverage_score 0.95, confidence 0.96으로 매우 높다. 선행기술이 청구항의 한정사항을 직접적으로 개시한다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 3,
+          "strength": "strong",
+          "reasoning": "선행기술이 이미 인적자원을 다루는 시스템을 개시하며, 이를 'human resource'로 명명하는 것은 용어의 일반화일 뿐 기술적 차이가 없다. 단순한 라벨링 변경으로 자명하다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim": 4,
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1이 'social graph connection between users'와 'social graph connections between the first user and a plurality of second users'를 명시적으로 개시한다. Coverage_score 0.88, confidence 0.91로 높다. 소셜 그래프 연결은 본질적으로 엔티티 간 매핑이다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 4,
+          "strength": "strong",
+          "reasoning": "그래프 이론에서 연결(connection)은 노드 간 매핑의 기본 개념이다. PHOSITA는 이를 당연히 알고 있으며, 선행기술의 소셜 그래프를 'mapping'으로 표현하는 것은 용어 재표현에 불과하다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim": 8,
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1이 'ranking the plurality of second users as prospective employee candidates'와 'summary generated to reflect the ranking'을 명시적으로 개시한다. Coverage_score 0.95, confidence 0.94로 매우 높다. 랭킹 시스템이 ranked list 생성과 동등하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 8,
+          "strength": "strong",
+          "reasoning": "랭킹 결과를 리스트로 제시하는 것은 UI/데이터 표현의 통상적 방법이며, PHOSITA에게 자명한 구현 방식이다. 실질적 기술 차이가 없다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1이 청구항 2, 3, 4, 8의 모든 구성요소를 명시적으로 개시하고 있습니다. Claim 2의 measurement profile(professional experience, skills), Claim 3의 human resource(employee, prospective employee candidate), Claim 4의 social links와 mapping(social graph connections), Claim 8의 ranked list(ranking of candidates)가 모두 선행기술에 직접 기재되어 있어 anticipation이 명확합니다. Coverage scores 0.75-0.87, similarity scores 0.88-0.95로 매우 높습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 5의 'roles and activities'는 선행기술에서 직접적으로 사용된 용어가 아닙니다. US-2013275320-A1은 'professional information', 'professional experience', 'skills', 'strength of connections'를 개시하고 있으나, 이것이 'roles and activities'와 동일한지는 해석의 여지가 있습니다. Coverage score 0.72, similarity scores 0.65-0.70으로 중간 수준입니다. 그러나 본인의 strictness=0.82 하에서, professional experience와 skills는 roles and activities의 실질적 표현으로 해석 가능하므로 102 거절을 유지합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 4, 8은 102 anticipation이 성립하므로 자동으로 103 obviousness도 성립합니다. 단일 선행기술이 모든 요소를 개시하고 있어 결합 동기 분석이 불필요하며, 통상의 기술자가 선행기술을 그대로 실시하는 것은 자명합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 5는 102에서 moderate strength이나, 103 관점에서는 strong입니다. 소셜 네트워크 분석 및 인적자원 관리 분야에서 professional experience, skills, connection strengths를 roles and activities로 특성화하는 것은 통상의 기술자에게 자명한 해석입니다. 이는 단순한 용어의 차이일 뿐 실질적인 기술적 차이가 아닙니다. 본인의 strictness=0.82와 combination_threshold=0.51 하에서 103 거절을 유지합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses all claimed elements with high similarity scores (0.72-0.95) and explicit match types. For claim 2, the prior art explicitly teaches ranking based on skills, experience, and connection strength (measurement profiles). For claim 3, employees and candidates are explicitly identified as human resources. For claim 4, social graph connections explicitly represent mappings between entities. For claim 8, ranking candidates explicitly creates ranked lists. These are direct, clear anticipations with strong evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Even if not anticipatory, these claims are obviously variations of what is explicitly taught. The prior art directly teaches the concepts, and any difference is merely in labeling (e.g., calling metrics 'measurement profiles'). No inventive concept is added."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "Professional information and experience reasonably include roles and activities, but the prior art does not explicitly enumerate these terms. However, given my combination_threshold of 0.46 and the implicit match with 0.65-0.8 similarity, this represents a reasonable inference from what is disclosed. A PHOSITA would understand that professional information encompasses roles and activities."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art teaches querying/mapping but does not explicitly mention 'lookup table.' However, lookup tables are fundamental data structures in computer science for implementing mappings. Given my combination_threshold of 0.46, this represents an obvious design choice. The similarity score is 0.5 (implicit match), which is at the borderline. With my strictness of 0.47, I lean toward finding this obvious as a conventional implementation technique."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "Social graphs and user profiles inherently contain both structured and unstructured data, but the prior art does not explicitly state this. The similarity score is 0.6 (implicit match). Given common knowledge in social networking systems and my combination_threshold of 0.46, this is a reasonable inference. With strictness of 0.47, I find this moderately supported."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Ranking candidates inherently produces ranked lists. This is a direct and obvious consequence of the prior art's explicit teaching. The prior art explicitly describes ranking operations, making this a strong obviousness case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "While psychometric profiling is known in HR, the prior art only discloses skills and experience—not the comprehensive set of psychometric factors claimed (knowledge, abilities, attitudes, personality traits, educational measurement, sentiment analysis). The similarity scores are low (0.6 and 0.55), and the match is implicit. Expanding from skills/experience to a full psychometric profile including sentiment analysis represents a significant broadening. Given my strictness of 0.47 (slightly lenient) and the low similarity scores, this is a weak case. The claimed psychometric profile is more comprehensive than what the prior art suggests."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 3: US-2013275320-A1 explicitly and unambiguously discloses that entities are employees and replacement entities are prospective employee candidates, which are inherently human resources. The reference title, abstract, and claims directly teach this limitation. Coverage score 0.92 with explicit match confirms strong anticipation. Claim 4: The reference explicitly discloses social graph connections between users (entities), which constitutes a representation of social links with mapping between entities. Coverage score 0.90 with explicit match type provides strong evidence of anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly teaches user profiles containing professional information, skills, and experience used for ranking employees and candidates. These attributes constitute measurement profiles. The reference teaches 'ranking the plurality of employees based on one or more of a strength of connections of the employees to other professionals, professional experience of the employees, and skills of the employees' (claim 3). Professional experience and skills are quantifiable measurements of entities, which a PHOSITA would understand as measurement profiles. Coverage score 0.77 indicates substantial overlap. The claim limitation merely names what the reference already teaches - no inventive step is required to recognize that professional profiles are measurement profiles."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly teaches ranking prospective employee candidates and generating summaries that reflect the ranking. The reference discloses 'ranking the plurality of second users as prospective employee candidates based at least in part on a ranking criterion, wherein the summary is generated to reflect the ranking of the plurality of second users as prospective employee candidates' (claim 6). This directly teaches creating a ranked list of replacement entities. Coverage score 0.88 with explicit match confirms strong teaching. Ranking candidates is a fundamental and obvious practice in human resource management systems - the motivation is inherent in the goal of identifying optimal replacements."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty_claim_2",
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses ranking employees based on professional experience, skills, and strength of connections with user profiles including professional information. Coverage score 0.76 with explicit matches (similarity 0.78, 0.76). This directly anticipates measurement profiles associated with entities."
+        },
+        {
+          "basis": "102_novelty_claim_3",
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly identifies employees and prospective employee candidates (similarity 0.85-0.88). These are clearly human resources. Coverage score 0.85 with explicit matches strongly supports anticipation."
+        },
+        {
+          "basis": "102_novelty_claim_4",
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses social graph connections between users (similarity 0.88-0.92). Social graph connections inherently constitute mappings between entities. Coverage score 0.89 with multiple explicit matches."
+        },
+        {
+          "basis": "102_novelty_claim_8",
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly teaches ranking prospective employee candidates (similarity 0.93) and ranking employees (similarity 0.88). Coverage score 0.91 with explicit matches directly anticipates creating ranked list of replacement entities."
+        },
+        {
+          "basis": "103_obviousness_claim_2",
+          "strength": "strong",
+          "reasoning": "The step of labeling existing professional information as 'measurement profile' is merely descriptive terminology. Prior art already uses this information for ranking. This is obvious nomenclature with clear motivation."
+        },
+        {
+          "basis": "103_obviousness_claim_3",
+          "strength": "strong",
+          "reasoning": "Characterizing employees and prospective employees as 'human resources' is standard industry terminology in HR field. No technical distinction exists - this is obvious use of common terminology."
+        },
+        {
+          "basis": "103_obviousness_claim_4",
+          "strength": "strong",
+          "reasoning": "Social graph connections inherently represent mappings between entities as fundamental graph theory concept. Prior art teaches connections with high similarity (0.88-0.92). Recognizing connections as mappings is obvious."
+        },
+        {
+          "basis": "103_obviousness_claim_8",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly teaches ranking candidates and employees. Prospective candidates serve identical function as replacement entities. Functional equivalence is obvious in HR context."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly teaches ranking employees based on 'strength of connections, professional experience, and skills' and using 'employment criterion.' These are clearly measurement profiles used to evaluate both current employees and prospective candidates. The only difference is nomenclature - calling these criteria 'measurement profile' versus 'ranking criteria' or 'employment criterion.' A PHOSITA would immediately recognize these as equivalent. The motivation is inherent in the problem solved by both the invention and prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly identifies 'employees' and 'prospective employee candidates' in the context of employee recruitment. The limitation that these are 'human resources' is not a patentable distinction - it is merely stating the obvious nature of the entities already disclosed. No inventive concept is added by labeling employees and candidates as human resources."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses 'social graph connection information including at least a social graph connection between the first user and the second user' and 'social graph connections between the first user and a plurality of second users.' These social graph connections are functionally identical to 'mappings between entity and other entities.' A PHOSITA would recognize that social graphs inherently represent mappings between entities. This is not a patentable distinction."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "The reasoning that social graph systems inherently use structured and/or unstructured data is logical based on common technical knowledge. Social graphs store connection data in structured formats (databases) and may store profile information in text fields. However, the prior art does not explicitly state that the graph comprises 'at least one of structured or unstructured data.' This requires inferring inherent properties. At my strictness level (0.50), this is borderline - the inference is reasonable but not explicitly stated. Given the broad claim language ('at least one of'), and the fact that any social graph implementation would satisfy this, I find the reasoning persuasive enough to maintain the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly teaches 'ranking the plurality of second users as prospective employee candidates based at least in part on a ranking criterion' and generating summaries that reflect this ranking. This directly corresponds to creating a ranked list of replacement entities. The high similarity scores (0.92-0.95) and explicit disclosure in the prior art make this a very strong rejection. There is effectively no difference between the claimed feature and what is explicitly taught."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 3: US-2013275320-A1이 'employee'와 'prospective employee candidate'를 명시적으로 개시하며, 이들이 human resource임은 자명합니다. 명시적 개시로 102 성립. Claim 4: Social graph connection이 social links의 representation이며 mapping을 포함함은 명백합니다. Claim 8: Ranking operation이 ranked list 생성과 동일한 기능을 수행함이 명시적으로 개시되어 있습니다. 모두 단일 선행기술에서 모든 요소가 명시적으로 개시되어 strong evidence입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "Professional information과 measurement profile의 차이는 용어상 차이에 불과합니다. HR 분야에서 professional information이 측정 가능한 속성을 포함한다는 것은 공지상식이며, 이를 measurement profile로 표현하는 것은 예측 가능한 변형입니다. KSR 기준에 따라 known elements의 predictable use로 자명성이 명백합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 professional information과 social connections을 개시하나, 'roles and activities'를 명시적으로 개시하지는 않습니다. 그러나 그래프 데이터베이스에서 노드에 roles, 간선에 activities를 저장하는 것은 공지 기술이며, 결합 동기가 논리적으로 제시되었습니다. Implicit match 기반이지만 공지상식과 결합 동기가 명확하여 moderate strength입니다. Strictness=0.52(중립)를 고려하면 거절 유지가 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "Mapping을 lookup table로 구현하는 것은 컴퓨터 과학의 기본적인 design choice입니다. KSR에 따라 known technique의 predictable use이며, 예상치 못한 결과가 없습니다. Design choice로서 자명성이 명백합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "모든 데이터가 structured 또는 unstructured임은 정의상 자명한 사실입니다. 이는 기술적 특징이 아니라 데이터의 본질적 속성을 서술한 것에 불과하며, 어떠한 발명도 포함하지 않습니다. Obviousness가 명백합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "이들은 102의 대안으로 제시된 103 거절이며, 102가 성립하는 경우 103도 당연히 성립합니다. 용어상 차이만 존재하며 technical modification이 없으므로 strong evidence입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.22,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses 'professional experience' and 'skills' as evaluation criteria for employees and candidates. These professional metrics directly constitute measurement profiles. The reference teaches 'ranking the plurality of employees based on one or more of a strength of connections of the employees to other professionals, professional experience of the employees, and skills of the employees.' This is clear anticipation of measurement profile metadata."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly identifies 'at least one first user as an employee of an employer' and 'at least one second user as a prospective employee candidate.' Employees and prospective employee candidates are unambiguously human resources. This is direct anticipation with no interpretation required."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses 'social graph connection information including at least a social graph connection between the first user and the second user' and 'social graph connections between the first user and a plurality of second users.' Social graph connections inherently represent mappings between entities (users). This is clear anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly teaches 'ranking, using the one or more computing devices, the plurality of second users as prospective employee candidates based at least in part on a ranking criterion, wherein the summary is generated to reflect the ranking.' This directly anticipates creating a ranked list of replacement entities. No interpretation gap exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 were overcome, formalizing professional experience and skills (already disclosed) as 'measurement profile' terminology would be obvious to PHOSITA in HR analytics. The reference already uses these metrics for evaluation—naming them 'measurement profile' is a trivial design choice with clear motivation (systematic evaluation) and reasonable expectation of success."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 were overcome, recognizing that 'employee' and 'prospective employee candidate' are 'human resources' would be obvious—these are equivalent standard terminology in personnel management. No technical modification needed, only semantic equivalence recognized by PHOSITA."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 were overcome, recognizing that social graph connections constitute mappings between entities would be obvious to PHOSITA in graph theory/social network analysis. Graph edges fundamentally encode mappings between nodes—this is basic knowledge in the field with inherent motivation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 were overcome, creating ranked candidate lists would be obvious—this is standard practice in HR systems to facilitate decision-making. The reference already teaches ranking methodology and criteria. Presenting ranked lists is conventional functionality with clear motivation and reasonable expectation of success."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses 'professional experience' and 'skills' as ranking criteria in Claim 3. These constitute measurement profiles for evaluating replacement entities. The coverage score of 0.72 and explicit disclosure support strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "Given the strong 102 rejection, the 103 rejection is also strong. Even if measurement profile terminology differs slightly, the concept of using experience/skills as evaluation metadata is explicitly taught and would be obvious."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly identifies 'employee' and 'prospective employee candidate' as the entities throughout its disclosure. Coverage score of 0.9 with explicit match type. This is unambiguous anticipation of human resources application."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "No combination needed - the prior art's explicit application domain is HR. This rejection is redundant but correct."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses 'social graph connection information' and 'social graph connection between first user and second user'. Coverage score of 0.9. The terminology difference between 'social graph' and 'graph comprising social links' is insubstantial."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Given strong 102 rejection, 103 is also strong. The claimed graph structure is explicitly taught in the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "While US-2013275320-A1 discloses 'professional information' in user profiles, the explicit mention of both 'roles' and 'activities' is implicit (similarity 0.65 for element 5a). However, it is reasonable that professional information encompasses both. The overall coverage of 0.72 is above threshold, but the implicit nature introduces some interpretive flexibility."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 Claim 6 explicitly discloses 'ranking the plurality of second users as prospective employee candidates based at least in part on a ranking criterion, wherein the summary is generated to reflect the ranking'. Coverage score of 0.95 with explicit match. Clear anticipation of creating ranked lists."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Given strong 102 rejection, 103 is also strong. Ranking is explicitly taught and is conventional in HR systems."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1이 'employee'와 'prospective employee candidate'를 명시적으로 개시하며, 이는 청구항 3의 'entity'와 'replacement entity'가 'human resource'라는 한정을 직접적으로 anticipate합니다. Coverage score 0.87, confidence 0.9로 매우 높으며, 선행기술의 Claim 1과 상세 설명에서 반복적으로 확인됩니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 4,
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1이 'social graph connection information'과 'social graph connection between users'를 명시적으로 개시하며, 이는 청구항 4의 'graph comprises a representation of social links and mapping between entities'를 직접적으로 anticipate합니다. Coverage score 0.85, confidence 0.85로 높습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1의 Claim 6이 'ranking the plurality of second users as prospective employee candidates based at least in part on a ranking criterion'을 명시적으로 개시하며, 이는 청구항 8의 'creating a ranked list of the replacement entity'를 직접적으로 anticipate합니다. Coverage score 0.83, confidence 0.85로 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "moderate",
+          "reasoning": "US-2013275320-A1이 skills, professional experience, connection strength를 개별적으로 개시하고 있으며, 이를 'measurement profile'로 구조화하는 것은 인적 자원 관리 시스템에서 통상적인 설계 선택입니다. 그러나 선행기술이 명시적으로 'measurement profile'이라는 메타데이터 구조를 개시하지는 않았습니다. Confidence 0.75로 중간 수준이며, combination_threshold 0.57이 0.6에 근접하여 공지상식 기반 결합의 경계선상에 있습니다. Strictness 0.60 기준으로 moderate 근거는 거절 유지가 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "moderate",
+          "reasoning": "US-2013275320-A1이 'professional information'과 'professional experience'를 개시하고 있으며, 이를 'roles and activities'로 구체화하는 것은 인적 자원 분석 분야에서 통상적입니다. 그러나 선행기술이 명시적으로 'roles and activities'를 그래프 구성요소로 개시하지는 않았습니다. Confidence 0.7로 중간 수준이며, similarity score 0.6-0.65로 낮습니다. Strictness 0.60 기준으로 moderate 근거는 거절 유지가 적절하나, 경계선상의 판단입니다."
+        }
+      ]
+    }
+  ]
+}

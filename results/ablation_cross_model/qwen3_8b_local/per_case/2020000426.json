@@ -1,0 +1,370 @@
+{
+  "case_id": "2020000426",
+  "proceeding_number": "2020000426",
+  "gt_issues": [
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012250378-A1과 US-2015311795-A1의 결합이 기술적 동기와 결합 가능성에 명확히 근거를 제공하며, LLC 컨버터 적용은 당업자에게 자명한 수정으로 판단됨. 결합 동기(효율 개선)와 기술적 중첩이 뚜렷함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'burst mode controller', 'target current', 'off-time' 등 핵심 용어에 대한 구체적 구현 방식이나 알고리즘 설명이 부재하여 기술적 실현 가능성 판단이 불가능함. 기술적 내용이 모호하고, 청구항과의 일관성 부족으로 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1 explicitly discloses threshold-based frequency adjustment and multi-threshold resistance control, which directly overlap with claims 3 and 16. The combination is obvious as PHOSITA would recognize primary-side monitoring and repetitive off-time control as routine modifications to burst mode techniques."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 3, 16 lack sufficient detail on target current definition and threshold calculation methodology. While the specification mentions these elements, the prior art (US-2015311795-A1) already includes similar pulse threshold adjustments, making the lack of detail more significant."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art combination meets threshold but lacks explicit teaching of specific threshold percentages and iterative adjustment mechanisms. PHOSITA's motivation is clear for some claims but requires non-obvious leaps for others."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The Office Action cites combination of prior art (US-2012250378-A1) with conventional methods, but prior art analysis shows specific integration (primary-side monitoring + dual-threshold control) is not obvious. Combination threshold (0.72) not met, and Graham factors indicate non-obviousness due to technical effects."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Formal objections mention informalities and indefinite language, but prior art analysis shows claims have sufficient detail for BRI. Confidence in 112 issues is low due to lack of explicit indefiniteness in claims."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012250378-A1과 US-2015311795-A1의 결합이 명확한 동기(주측 모니터링 단순화)와 기술적 당업자에게 명백한 결합 가능성(공지된 기술적 동기)을 제공하며, 청구항의 기능적 동등성과 구조적 유사성으로 인해 결합의 당위성이 높음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "임계치 정의 및 운영 파라미터의 모호성은 명세서에서 구체적 구현이 부족함을 시사하지만, 특정 비율(50%/75%)은 기존 기술의 변형으로 해석될 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2012250378-A1) explicitly discloses threshold-based frequency adjustment and burst mode control techniques directly matching the claimed invention. The combination threshold (0.51) is easily met with similarity scores of 0.5-0.7, and Graham factors confirm PHOSITA would find clear motivation to adapt flyback converter techniques to LLC converters for efficiency improvements."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 결합 동기와 기술적 문제 해결 방안이 명확히 제시되어, 결합의 당연성과 동기가 명확함. Graham 요소 모두 충족됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서의 구체적 구현 부족이 명시되었으나, 청구항의 범위가 넓은 해석(BRI)에 따라 일부 구현 방안이 포함될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술(US-2012250378-A1, US-2015311795-A1)은 청구항의 핵심 기능(오프타임 조정, 프라이머리 모니터링, 펄스 모드 제어)을 명확히 공개하며, 결합 동기(효율 향상)가 명확하게 제시됨. BRI 기준으로 특정 비율(50%/75%)도 비례 관계 기반으로 예측 가능. 증거의 강도가 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1과 REF2의 결합이 명확한 동기(효율 개선, 제어 정밀도 향상)와 기술적 효과(스위칭 손실 감소, 정밀 제어)를 제공하며, 결합 동기 기준(combination_threshold=0.22)을 충족합니다. 청구항의 기능적 유사성과 기술적 당연성은 높은 확신으로 판단됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 특정 임계값(50% 및 75%의 타겟 전류)과 구성 요소 상호작용에 대한 명세서 지원 부족은 중립적 판단을 요구합니다. 그러나 청구항 자체의 모호성과 구현 가능성 제한은 거절 근거로 볼 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2012250378-A1 and US-2015311795-A1) directly addresses all claimed features with clear functional equivalences. The combination is obvious for efficiency optimization, and Graham factors confirm PHOSITA would recognize the modification."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Key terms like 'target current' and 'off-time' lack sufficient specification in the disclosure, but the claims' technical context provides some support. The deficiency is significant but not conclusively proven without the specification."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The specific percentage thresholds (50%/75%) are not disclosed in the prior art, but the general concept of threshold-based control is considered obvious. Confidence levels (0.7-0.8) suggest moderate strength, though the exact percentages remain unaddressed."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Multiple claims lack sufficient detail in the specification to enable a PHOSITA to practice the invention, particularly regarding threshold values, current sensing methods, and component interconnections."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "명확한 선행기술 결합(US-2012250378-A1 + US-2015311795-A1)과 결합 동기(LLC 컨버터 효율 향상)가 구체적으로 제시됨. 기술적 효과(복잡도 감소)도 명시되어 103_obviousness 근거가 강력함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "핵심 용어('first threshold', 'target current', 'off-time')가 명세서에서 명확히 정의되지 않아 기술자 실천 불가능성 발생. 이는 112(b)의 요구사항을 충족하지 못함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination threshold of 0.48 indicates the invention would be obvious, but the prior art's functional equivalence to the claimed invention is based on indirect mappings (e.g., frequency thresholds to current thresholds). While the prior art's disclosure is relevant, the specific application to primary-side monitoring in LLC converters requires interpretation, reducing the strength of the obviousness argument."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2012250378-A1) explicitly discloses burst mode control with frequency adjustment based on thresholds, which directly anticipates the core functionality of claims 1 and 16-19. The functional equivalence argument is robust, and the prior art's disclosure is sufficiently specific to meet the novelty standard."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1 lacks specific threshold values and implementation details, creating ambiguity about the off-time adjustment mechanism. While the specification may provide some support, the lack of explicit definitions for the thresholds weakens the written description support."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1 explicitly discloses threshold-based frequency adjustment and burst mode control, which directly supports claim 1's off-time adjustment mechanism. Coverage score (0.68) exceeds combination threshold (0.57), and similarity scores (0.75-0.8) indicate explicit or obvious variants. Confidence (0.8) confirms strong evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1 lacks definition for 'first threshold,' 'second threshold,' and 'off-time' in the specification, creating indefiniteness. While the specification may provide some context, the lack of explicit definitions reduces enablement for a PHOSITA, aligning with moderate confidence (0.7)."
+        }
+      ]
+    }
+  ]
+}

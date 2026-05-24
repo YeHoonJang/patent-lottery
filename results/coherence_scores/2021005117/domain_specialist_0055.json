@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 anticipation with element-by-element analysis and §103 obviousness using Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) throughout novelty, obviousness, office action, and final decision stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'plurality of resistors arranged in parallel,' 'current monitoring circuitry'), specific prior art disclosures (US-2017305402-A1 claim 6 for transistors, claim 1 for brake controller signal), and specification passages tied to particular claim numbers."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claim 3 is found not novel at §102 (confidence 0.95) yet the obviousness stage returns is_obvious=false with reasoning 'tranzistor kullanımı obvious,' and claim 17 is similarly found not novel but marked is_obvious=false, creating internal contradictions between novelty findings and obviousness conclusions without adequate stated justification for the inconsistency."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.603 (moderate), the examiner upholds multiple moderate-strength §103 rejections while acknowledging weaker motivation to combine for temperature sensing and user interface claims, and explicitly notes 'Given the strictness level of 0.60, moderate rejections are upheld,' which is consistent with a moderately strict profile resolving ambiguity toward rejection."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims 1–20 follows directly from the accumulated §102 anticipation findings for claims 1, 3, 7, 8, 14, 17, 18 and §103 obviousness findings for the remaining claims, with the summary explicitly tying the decision to the prior-stage analyses and noting no secondary considerations were provided."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021005117",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13764,
+      "output_tokens": 460,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

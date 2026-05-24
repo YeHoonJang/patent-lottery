@@ -1,0 +1,422 @@
+{
+  "case_id": "2020000195",
+  "proceeding_number": "2020000195",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.9285714285714286,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2012293796-A1은 회전식 샘플 처리 장치의 부피 감지를 위한 후방산란 반사 검출을 개시하나, 청구항의 핵심 구성요소인 (1) 비색 반응을 위한 반응 챔버, (2) 기포 감소를 위한 충진 도관, (3) 샘플을 통과하는 투과 방식 조명, (4) 반응 챔버와 측정 셀 사이의 충진 도관 배치를 전혀 개시하지 않음. 선행기술은 근본적으로 다른 기술 분야(유전자 분석 vs. 비색 분석)를 다루며, 청구항 요소의 대부분이 누락됨. Coverage score 0.15-0.35는 실질적 차이를 확인함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2012293796-A1과 청구항 간 근본적 기술 분야 차이 존재. 선행기술은 회전 디스크 시스템의 부피 검출(후방산란 방식)을 교시하나, 청구항은 온라인 습식 화학 비색 분석기의 기포 제거(투과 방식)를 다룸. (1) 기포 감소를 위한 충진 도관 구조는 교시되지 않음, (2) 소수성 표면을 통한 기포 제거 방법 미개시, (3) 반응 챔버-충진 도관-측정 셀의 통합 구조 미제시, (4) 결합 동기(motivation to combine) 부재. PHOSITA가 기포 간섭 문제를 인식할 수 있으나, 선행기술은 이 문제 해결을 위한 특정 구조적 해결책(tilted fill conduit, hydrophobic surface)을 제시하지 않음. Combination_threshold=0.34 기준으로도, 상식만으로는 불충분 - 선행기술이 다른 기술 문제(회전 챔버의 부피 검출 vs. 비색 분석)를 다루기 때문."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 1-15 show clear novelty. The critical limitation 'fill conduit configured to reduce bubbles' (claim 1) has no matched reference in US-2012293796-A1 (coverage_score: 0.3). The prior art's rotating disk system with integrated chambers is structurally different from the claimed reaction chamber → bubble-reducing fill conduit → measurement cell architecture. Dependent claims add limitations (hydrophobic surface, polymer materials, PMMA, angular orientation, peristaltic pump, silica analyzer application) with coverage_score: 0.0, indicating no prior art disclosure. Method claims include de-bubbling steps not taught by prior art. Strong evidence supports novelty across all claims."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 1-15 are non-obvious. Graham analysis reveals substantial differences: (1) Prior art teaches rotating disk with centrifugal sample movement, not static chamber system with dedicated bubble-reducing conduit; (2) No teaching or suggestion of using hydrophobic surfaces for bubble reduction in fill conduits; (3) No motivation to combine reaction chamber with measurement cell via bubble-reducing conduit; (4) Specific material selections (polymer, PMMA) for hydrophobic bubble reduction not disclosed; (5) Angular positioning relative to gravity not suggested by rotating disk architecture; (6) De-bubbling process steps not taught in prior art's optical interrogation methods; (7) Transmission-based detection of de-bubbled samples not motivated by prior art's reflection-based (backscattered) detection. Even with combination_threshold=0.34, no reasonable motivation to combine exists. The architectural solution addresses a specific problem (bubble interference in colorimetric analysis) with a non-obvious structural and methodological approach not suggested by US-2012293796-A1."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2012293796-A1은 회전 디스크 기반 유전자 분석 시스템으로, 청구항의 핵심 구성요소인 'bubble-reducing fill conduit'를 전혀 개시하지 않음. 선행기술은 광학 검출 시스템을 포함하나, 반응 챔버와 측정 셀을 연결하는 기포 감소 도관이라는 특정 구조는 없음. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술과 청구 발명 간 근본적 아키텍처 차이 존재: (1) 회전 디스크 vs. 정적 유동 시스템, (2) 부피 검출 vs. 비색 분석, (3) 후방 산란 반사 vs. 투과 측정. 기포 간섭 문제는 비색 분석에서 알려진 이슈이나, 선행기술은 이를 인식하거나 해결책을 제시하지 않음. Hydrophobic surface, angular positioning, PMMA 등 구체적 구현은 선행기술에서 교시나 암시 없음. Combination motivation 결여. Graham factors 모두 출원인에게 유리. 이전 단계 분석은 잠재적 이슈 식별을 위해 넓게 검토했으나, 실제 거절 근거로는 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 기포 감소 메커니즘(소수성 표면, 경사 배치), 구체적 재료(PMMA), 실리카 분석 응용을 충분히 기재. 'Configured to reduce bubbles'는 기능적 언어이나 구체적 구현으로 뒷받침됨. 당업자가 과도한 실험 없이 실시 가능. 112 이슈 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항 1-9는 기계(colorimetric analyzer apparatus), 청구항 10-15는 공정(method)으로 명백히 법정 대상. Abstract idea 아님 - 구체적 물리적 구성요소 통합 및 화학 분석 적용. 101 이슈 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "No 102 rejections were identified. All claims were found novel. US-2012293796-A1 lacks critical elements including the fill conduit configured to reduce bubbles, de-bubbling methodology, transmission-based optics, and the specific architectural separation between reaction chamber and measurement cell. No anticipation exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims were found non-obvious. The prior art US-2012293796-A1 operates on fundamentally different principles (centrifugal disk vs. flow-through colorimetric). Key differences include: (1) bubble-reducing fill conduit - entirely absent from prior art; (2) hydrophobic surfaces for de-bubbling - no teaching or suggestion; (3) tilted conduit orientation - incompatible with prior art's rotating disk; (4) peristaltic pumping - architecturally distinct from centrifugal approach; (5) transmission optics vs. backscattered reflection. With combination_threshold=0.72, explicit teaching or strong motivation to combine is required, which is absent. The prior art addresses volume detection in rotating chambers, not bubble interference in flow-through colorimetric systems. No obvious modification path exists without hindsight."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No 112 issues were identified. The specification appears to provide adequate written description and enablement for all claimed features including the fill conduit structure, hydrophobic surfaces, PMMA material, tilted angles, peristaltic pump integration, and de-bubbling methodology. Claims are supported by the disclosure."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No 101 issues exist. The claims recite a physical apparatus (colorimetric analyzer with specific structural components) and corresponding methods involving physical transformation of samples through de-bubbling and optical measurement. These are clearly patent-eligible subject matter - not abstract ideas, laws of nature, or natural phenomena."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 모든 청구항이 novel로 판단되었고, 선행기술 US-2012293796-A1이 핵심 구성요소인 'fill conduit configured to reduce bubbles'를 전혀 개시하지 않음. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "진보성 판단에서 모든 청구항이 non-obvious로 판단되었으나, 다음 요소들이 재검토 필요: (1) Colorimetric analysis 분야에서 bubble이 optical measurement에 간섭을 일으킨다는 것은 공지상식일 가능성이 높음. (2) 선행기술 US-2012293796-A1이 sample processing device with optical detection을 개시하며, 이는 본 출원과 동일한 기술분야. (3) Hydrophobic surface를 이용한 bubble 제거는 유체역학 분야의 공지기술일 수 있음. (4) Reaction chamber와 measurement cell을 분리하고 그 사이에 conduit을 배치하는 것은 설계 변경의 여지가 있음. (5) 제공된 선행기술이 단일 문헌이지만, PHOSITA의 공지상식을 고려하면 결합 동기가 존재할 수 있음. (6) 명세서가 bubble 문제를 인식하고 있다는 것은 해당 문제가 공지되어 있었음을 시사. (7) 특정 material 선택(PMMA)이나 각도 설정은 design choice일 수 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action에서 'functional language \"configured to reduce bubbles\" is adequately supported'로 판단. 명세서가 de-bubbling mechanism을 충분히 설명하고 있으며, 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "Colorimetric analyzer는 physical device이며 abstract idea가 아님. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "112"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "claim": 1,
+          "strength": "weak",
+          "reasoning": "청구항 1의 'configured to reduce bubbles'는 기능적 표현이나, 명세서가 hydrophobic surfaces와 tilted orientation이라는 구체적 실시예를 제공하고 있음. 통상의 기술자는 이러한 실시예들로부터 '기포를 감소시키도록 구성된 fill conduit'의 개념을 이해할 수 있음. 기능적 청구항 언어는 명세서가 그 기능을 달성하는 구조를 개시하면 허용될 수 있음. 여기서 명세서는 de-bubbling을 달성하는 구체적 메커니즘(소수성 표면, 기울어진 배치)을 개시하고 있어, 청구항 1이 이러한 개시된 실시예의 맥락에서 기포 감소 기능을 갖는 fill conduit을 청구하는 것으로 해석 가능. Office Action은 'genus vs. species' 논리를 적용하나, 이는 지나치게 엄격한 해석임. 기능적 한정이 명세서의 구체적 실시예로 뒷받침되는 경우, 112 거절은 약한 근거임. Verification note도 'borderline'로 표시하여 이 거절이 경계선 사안임을 인정함."
+        },
+        {
+          "basis": "112_written_description",
+          "claim": 10,
+          "strength": "weak",
+          "reasoning": "청구항 10의 'de-bubbling the reacted sample'은 방법 청구항의 프로세스 단계로서 결과 지향적(result-oriented) 표현임. 방법 청구항에서 특정 결과를 달성하는 단계를 기재하는 것은 일반적으로 허용되며, 명세서가 그 단계를 수행하는 방법을 개시하면 충분함. 여기서 명세서는 hydrophobic surface contact 및 tilted flow를 통한 de-bubbling 방법을 구체적으로 개시하고 있어, 통상의 기술자는 'de-bubbling' 단계를 어떻게 수행하는지 이해할 수 있음. Office Action은 청구항 10이 'all de-bubbling methods'를 포함한다고 주장하나, 이는 과도한 해석임. 청구항 10은 명세서에 개시된 de-bubbling 방법의 맥락에서 읽혀져야 하며, BRI 원칙 하에서도 명세서의 개시 범위 내로 해석 가능함. Verification note도 'borderline'로 표시하여 이 거절이 경계선 사안임을 인정함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.73,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on general knowledge about bubble interference in optical measurements, but lacks specific teaching of the claimed structural solution. US-2012293796-A1 operates in a fundamentally different technical context (rotating disk genetic assays vs. continuous flow colorimetric analysis). The reference does not teach or suggest: (1) a fill conduit interposed between reaction and measurement chambers, (2) configuring the fill conduit to reduce bubbles, (3) hydrophobic surface treatments for bubble reduction, (4) angular positioning of conduits for de-bubbling, or (5) integration with colorimetric analysis systems. While bubble interference is a known problem, the specific structural solution - a dedicated fill conduit with bubble-reducing features positioned between chambers - represents a non-obvious inventive approach. The motivation to combine is weak because the reference addresses a different problem (sample volume detection in genetic assays) in a different system architecture (batch rotating disk vs. continuous flow). The Office Action itself acknowledges 'significant questions regarding the strength of this rejection' and notes the substantial architectural differences and lack of explicit teaching. With combination_threshold=0.46 and strictness=0.47 (slightly favoring applicant when evidence is marginal), this rejection does not meet the threshold for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항(1-15)에 대해 선행기술 US-2012293796-A1이 핵심 구성요소를 개시하지 않음. 특히 청구항 1의 fill conduit with bubble reduction 기능, 전송 기반 광학 측정, de-bubbling 메커니즘이 전혀 개시되지 않음. Coverage scores가 0.0~0.4로 낮아 anticipation 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항(1-15)에 대해 선행기술과의 결합 동기가 부족함. US-2012293796-A1은 회전 디스크 시스템에서 반사 기반 검출을 사용하는 반면, 본 발명은 flow-through 시스템에서 전송 기반 측정을 사용함. De-bubbling을 위한 fill conduit, hydrophobic surface, angled configuration 등은 선행기술에 암시조차 없음. Graham factors 분석 결과 motivation to combine이 명확히 부족함. Combination_threshold=0.55 기준으로도 obvious 판단 불가."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았으나, 청구항 자체에서 명확성 또는 뒷받침 문제 발견되지 않음. 청구항 용어들이 명확하고 일관성 있게 사용됨."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "물리적 장치(colorimetric analyzer)와 방법 청구항으로, abstract idea 이슈 없음. 실질적 기술적 개선(bubble reduction in optical measurement)을 제공하는 구체적 기술 발명임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 분석에서 모든 청구항(1-15)이 novel로 판단되었습니다. US-2012293796-A1은 회전 디스크 기반 시스템을 개시하나, 핵심 구성요소인 'fill conduit configured to reduce bubbles'를 전혀 개시하지 않습니다. 선행기술은 원심분리 방식을 사용하며, 반응 챔버와 측정 셀 사이의 유체 이송 도관 자체가 없습니다. Coverage scores (0.35 overall for claim 1)가 낮아 구조적 차이가 명확합니다. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항(1-15)이 non-obvious로 판단되었습니다. Graham 분석 결과: (1) 선행기술은 회전 디스크 아키텍처를 사용하며 유동-통과(flow-through) 시스템과 근본적으로 다릅니다. (2) 핵심 차이는 탈기포 fill conduit의 존재 자체입니다. (3) 선행기술은 원심분리로 샘플을 처리하므로 챔버 간 도관이 필요하지 않습니다. (4) 회전 디스크 시스템에 탈기포 도관을 추가할 동기(motivation to combine)가 없으며, 구조적으로 비양립적입니다. Combination threshold=0.22로 낮게 설정되었으나, 구조적 비양립성과 기술 분야 차이(genetic analysis vs. silica colorimetric analysis)로 인해 자명한 결합이 성립하지 않습니다. Confidence scores 0.75-0.82로 높습니다. 103 거절 근거 없음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서 관련 이슈가 분석에서 제기되지 않았습니다. 'configured to reduce bubbles'라는 기능적 표현은 명세서에서 구체적 구현(소수성 표면, 경사 기하학)으로 뒷받침됩니다. Office Action에서 'specification adequately describes and enables the claimed invention'으로 명시되어 있습니다. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 구체적인 기계 장치(colorimetric analyzer with physical structures) 및 방법(sample processing steps)을 청구합니다. Abstract idea 문제가 없으며, Office Action에서 'practical application of colorimetric analysis with concrete structural improvements'로 101 요건 충족을 확인했습니다. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 1-15 show strong novelty over US-2012293796-A1. The critical element 'fill conduit configured to reduce bubbles' is not disclosed in the prior art, which describes a fundamentally different rotating disk system. Coverage scores are consistently low (0.1-0.4), and confidence levels are high (0.75-0.95). No anticipating references were identified for any claim."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims 1-15 are evaluated as non-obvious. The prior art US-2012293796-A1 does not teach or suggest the fill conduit with de-bubbling functionality. The Graham factors analysis shows: (1) significant structural differences between rotating disk system and claimed analyzer, (2) no motivation to combine exists as only single reference provided, (3) the de-bubbling problem and solution are not addressed in prior art, (4) solving bubble interference represents unexpected result. Combination_threshold=0.33, but with single reference and missing core elements, no obvious combination exists. Confidence levels are high (0.7-0.85) for non-obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "not_applicable",
+          "reasoning": "No 112 issues were identified in the analysis. Claims appear to be supported by the specification."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "not_applicable",
+          "reasoning": "No 101 issues were identified. The claims are directed to a physical apparatus and method, not abstract ideas."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The novelty analysis shows all claims 1-15 have no anticipating references. US-2012293796-A1 discloses a fundamentally different system (rotatable disk for nucleic acid processing with backscattered reflection) compared to the claimed stationary colorimetric analyzer with transmission measurement and de-bubbling mechanisms. Coverage scores range from 0.0 to 0.3, indicating substantial missing elements. The critical inventive features—fill conduit configured to reduce bubbles, hydrophobic surfaces, tilted orientation, transmission colorimetry—are entirely absent from the prior art. No 102 rejection basis exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The obviousness analysis demonstrates no motivation to combine exists. US-2012293796-A1 operates on different principles (centrifugal force in rotating systems vs. gravity-assisted flow in stationary systems), serves different applications (nucleic acid analysis vs. wet chemistry colorimetry), and uses different optical techniques (backscattered reflection vs. transmission absorption). The de-bubbling concept is entirely absent from the prior art, which focuses on volume detection rather than bubble interference prevention. With combination_threshold=0.44, explicit teaching or clear suggestion is required but absent. The Graham factors show substantial differences in scope, technical field, and problem-solving approach. All claims show confidence levels of 0.79-0.88 for non-obviousness, indicating strong patentability."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No written description issues were identified in the analysis. The claims recite specific structural elements (reaction chamber, measurement cell, fill conduit, illumination source, detector, controller) and functional relationships (configured to reduce bubbles, transmission measurement, colorimetric analysis) that would typically be supported by specification disclosure. No indefiniteness concerns were raised regarding claim language."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No eligibility issues exist. The claims are directed to a physical apparatus (colorimetric analyzer) with specific structural components and a method of operating such apparatus. This is clearly patent-eligible subject matter under 101—a machine and process for industrial/analytical application, not an abstract idea, law of nature, or natural phenomenon."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Prior art US-2012293796-A1 does not disclose critical claim elements: (1) fill conduit configured to reduce bubbles, (2) hydrophobic surfaces for de-bubbling, (3) specific angular orientation, (4) de-bubbling process steps. Coverage scores are 0.0-0.3, indicating substantial novelty. No anticipating references identified for any claim."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Prior art addresses fundamentally different technical problem (volume detection in rotating disk systems using backscattered reflection) versus claimed invention (bubble interference in transmitted light colorimetry). No teaching, suggestion, or motivation exists to combine known elements to achieve the claimed invention. The prior art does not recognize bubble interference as a problem, nor suggest hydrophobic surfaces, angled conduits, or de-bubbling methods. Graham factors analysis shows significant differences in scope, technical context, and problem-solution approach. Combination threshold (0.52) not met - no meaningful combination path exists."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No written description issues identified. Specification adequately describes colorimetric analyzers, reaction chambers, measurement cells, illumination sources, detectors, controllers, and bubble interference problems. Claims are supported by disclosure."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No subject matter eligibility issues identified. Claims are directed to patent-eligible apparatus (colorimetric analyzer with specific structural components) and methods (sample processing with de-bubbling steps), not abstract ideas. Claims recite concrete implementations with physical components and process steps tied to specific technological applications."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The Office Action relies heavily on common knowledge and routine design choices without providing specific prior art references that actually disclose or suggest the key inventive concept: a fill conduit specifically configured to reduce bubbles in a colorimetric analyzer. US-2012293796-A1 discloses a rotating disk system for genetic analysis with backscattered reflection detection, which is fundamentally different from the claimed flow-through colorimetric analyzer with transmission measurement. The examiner's reasoning includes: (1) 'bubble interference is a known problem' - but the prior art does not identify this problem; (2) 'specialized conduits to manage bubbles' are common knowledge - but no specific reference is cited; (3) hydrophobic surfaces for bubble removal are 'well-known' - but the specific application to a fill conduit between reaction and measurement chambers in a colorimetric analyzer is not shown; (4) PMMA selection is 'routine' - but the combination of properties (hydrophobicity, optical clarity, chemical resistance) for this specific application is not obvious; (5) tilted conduits are 'conventional' - but not in this context; (6) peristaltic pumps are 'standard' - but the integration with bubble-reducing architecture is not shown; (7) transmission colorimetry is 'well-known' - but the prior art specifically teaches reflection detection. The examiner has not established a clear motivation to combine these elements or explained why a PHOSITA would modify the rotating disk genetic analysis system to incorporate a bubble-reducing flow conduit for colorimetric chemical analysis. The references to 'common knowledge' and 'routine choices' without specific supporting evidence constitute weak obviousness grounds, particularly given the structural and functional differences between the prior art and claimed invention."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2012293796-A1은 유전 분석용 회전 디스크 시스템에 관한 것으로, 청구항 1의 핵심 구성요소인 'fill conduit configured to reduce bubbles'가 전혀 개시되어 있지 않습니다. 또한 반응 챔버와 측정 셀 간의 유체 이송 구조, 투과 기반 비색 분석 등 여러 구성요소가 누락되어 있습니다. 선행기술은 후방 산란 반사 검출을 사용하며, 기포 감소라는 기술적 문제를 다루지 않습니다. Coverage score 0.3은 상당한 요소가 누락되었음을 나타냅니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2012293796-A1과 청구된 발명은 기술 분야(유전 분석 vs. 습식 화학 비색 분석), 시스템 구조(회전 디스크 vs. 유동식), 검출 원리(반사 vs. 투과), 해결 과제(부피 검증 vs. 기포 간섭)가 근본적으로 다릅니다. 기포 감소 fill conduit은 투과 기반 비색 분석에서 기포가 광경로를 차단하여 측정 오류를 일으키는 문제를 해결하기 위한 것인데, 선행기술은 이러한 문제를 인식하거나 다루지 않습니다. 당업자가 유전 분석 회전 디스크 시스템을 습식 화학 분석기의 기포 감소 솔루션으로 변형할 동기가 없습니다. 결합의 동기(motivation to combine)가 부재합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 비색 분석기 구조, 광학 측정에서의 기포 간섭 문제, 기포 감소 fill conduit의 구체적 구현(소수성 표면, PMMA 등 고분자 재료, 경사 배치, 연동 펌프)을 충분히 기재하고 있습니다. 실리카 분석기 응용(몰리브덴 블루 방법)도 설명되어 있습니다. 당업자가 명세서를 기반으로 발명을 실시할 수 있습니다. 112 거절 근거는 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 물리적 장치(비색 분석기) 및 방법(샘플 처리 및 분석)에 관한 것으로, 추상적 아이디어가 아닙니다. 구체적인 기술적 구조(반응 챔버, 측정 셀, fill conduit)와 물리적 프로세스(화학 반응, 기포 제거, 광학 검출)를 청구하고 있어 특허 적격성 문제가 없습니다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 obviousness framework throughout—invoking scope and content of prior art, differences, PHOSITA level, secondary considerations, and motivation to combine—without mixing in §101 or other inapplicable statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance is tied to specific prior art references (US-2013227111-A1 and US-2013272121-A1) with element-by-element comparisons to specific claim limitations, such as network adapter buffer load monitoring, piggybacking metrics on file system messages, and queue occupancy metrics."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For claims 5, 6, 19, and 20, the §102 novelty stage found them novel with confidence 0.85–0.90 because deprovisioning was entirely absent from the prior art, yet the §103 and final decision stages reversed course to reject these claims on obviousness—asserting downscaling is 'standard practice' and 'natural extension'—without adequately bridging the gap between the strong novelty finding and the obviousness conclusion."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.517 (moderate) and combination_threshold at 0.443 (moderate-low), the examiner's pragmatist approach is reflected: most claims are rejected but borderline ones (claims 5/6/19/20) are treated with 'moderate' strength and claims 12–14 are allowed, consistent with a balanced, not overly strict or lenient, examiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1–11 and 15–22 while granting claims 12–14 follows directly from the stage-level obviousness analysis in both the §103 and office action stages, with each claim decision explicitly referencing the prior reasoning."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18134,
+      "output_tokens": 467,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

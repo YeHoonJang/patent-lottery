@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 analysis across all claims, and correctly applies element-by-element anticipation logic at the §102 novelty stage."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout are tied to specific claim language (e.g., 'not more than one RACH configuration per CSI-RS' for claim 74, 'RRC message' for claim 80) and specific prior art disclosures (Kim's RACH chunk configuration, Park's measurement-based resource selection)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For claims 72 and 73, the §102 novelty stage labels them 'not novel' using two references combined (which is a §103 combination, not anticipation), yet calls them anticipated — this conflation is internally inconsistent and is not corrected or acknowledged in the subsequent §103 stage."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient examiner (strictness=0.248) resolves ambiguous cases in favor of the applicant — explicitly noting 'given the examiner's lenient tendency (strictness=0.25), this moderate-strength obviousness rejection should be weighed in favor of the applicant' — and grants claims 74, 80, and 118 on relatively thin non-obviousness grounds, consistent with a low-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to suggest amendment and grant claims 74, 80, and 118 while rejecting the remainder follows directly and consistently from the stage-level §102/§103 analyses that identified those exact claims as having novel or non-obvious elements."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004790",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10946,
+      "output_tokens": 422,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

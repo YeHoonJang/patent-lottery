@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 anticipation using element-by-element mapping, §103 under Graham/KSR factors (scope/content, differences, PHOSITA level, secondary considerations), and §112 written description with reference to specific specification deficiencies, invoking the appropriate legal framework for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "All rejections cite specific claim language (e.g., 'tilt lock-out arrangement,' 'plurality of mounting positions,' 'remotely') and reference specific disclosures in US-2013285347-A1, grounding every conclusion in identifiable claim elements and prior art passages."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claim 4 is found not novel and not obvious in the novelty/obviousness stages (with confidence 0.88/0.90), yet the office action switches the rejection basis to §112 written description rather than maintaining the §103 non-obvious finding, and then the final decision also rejects claim 4 under §112 — this is internally inconsistent because the earlier stages that found claim 4 patentably distinct are never reconciled with the change to a §112 ground in the office action."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves every ambiguity toward rejection across all 15 claims, applying §102, §103, and §112 grounds broadly and maintaining rejection even for claims with moderate evidence (e.g., claims 9, 10, 11 with confidences 0.75–0.78), which is consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage analyses: §102 rejections for claims 1 and 5 based on explicit prior art disclosure, §103 rejections for claims 3, 6–11, 14 based on obviousness findings, and §112 rejections for claims 2, 4, 12, 13, 15 based on specification deficiency findings, with stated rationale at each step."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019001963",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13882,
+      "output_tokens": 511,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

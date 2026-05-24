@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly invokes Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for each claim, and the §102 analysis performs element-by-element anticipation mapping against specific prior art references, correctly applying the recognized legal frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim elements (e.g., GVA→GPA mapping, EPT-based permission control, hypercall mechanism) and tie them to specific prior art passages and paragraph references in US-2016364341-A1 and US-2012254995-A1."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty findings of non-novelty are consistent with the §103 obviousness rejections, and where §102 relied on two references combined (e.g., claims 5, 7), the §103 stage explicitly uses those same combinations with stated motivation, without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a very low combination_threshold (0.222) and moderate strictness (0.461), consistent with freely combining references on minimal motivation and issuing broad rejections across all 20 claims, which matches the pervasive easy-combination reasoning throughout the trace."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated §102 and §103 findings, all of which concluded lack of novelty or obviousness, and the final decision summary explicitly ties back to the prior art analysis from earlier stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004383",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17813,
+      "output_tokens": 375,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

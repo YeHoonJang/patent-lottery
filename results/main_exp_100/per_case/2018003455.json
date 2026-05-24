@@ -1,0 +1,313 @@
+{
+  "case_id": "2018003455",
+  "proceeding_number": "2018003455",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1이 청구항 1의 모든 구성요소를 명시적으로 개시하며, 동일한 기술적 목적(음성 인식 정확도 향상)을 달성하기 위해 동일한 수단(문맥 정보 기반 ASR 엔진 조정)을 사용함. 종속청구항들 역시 선행기술에서 직접적으로 개시되거나 통상의 기술자에게 자명한 설계 선택으로 판단됨. 결합 동기(motivation to combine)는 명확하며, 예측 가능한 결과를 도출함. US-2012296654-A1과의 결합도 다양한 문맥 정보 소스 통합의 일반성을 뒷받침함. 모든 청구항에 대한 obviousness 판단 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1은 청구항 1, 2, 3, 4, 5, 11, 12, 13, 14, 15, 19, 20의 모든 구성요소를 명시적으로 개시하며, 맥락 정보 기반 음성 인식 조정, 사전 변경, 지식 도메인 및 어휘 선택, 하드웨어 구성, 소프트웨어 구현 등을 포함. US-2012296654-A1은 맥락 정보 유형(주변 소음, 위치, 시간 등)을 보완적으로 개시. 두 참조는 동일한 기술 분야에 속하며, 결합 동기(motivation to combine)가 명확하고, 통상의 기술자가 쉽게 결합 가능. 진보성 판단의 confidence가 0.82 이상으로 일관되며, 2차적 고려사항 부재. 전체적으로 강한 거절 근거."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 7, 10, 16, 17에 대해선 선행기술에 명시적 또는 암시적 개시가 없으며, 사용자 피드백 루프 및 맥락 정보의 장치 간 전송은 새로운 기술적 특징으로 평가됨. 진보성 판단에서 is_obvious=false로 확인. 그러나 본 출원의 전체 맥락에서 이들 특징이 독립청구항으로 분리되지 않고 종속청구항 형태로 존재하므로, 독립청구항의 거절이 전체 출원의 허여 가능성에 부정적 영향을 미침. strictness=0.88인 점을 고려하더라도, 이들에 대한 신규성 및 진보성 판단은 강력하여 보정 제안이 적절함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거의 모든 obviousness 거절은 US-2014324428-A1 및 US-2012296654-A1의 결합에 기반하며, 'lexicon 선택', '단어 가중치', '맥락 정보 유형' 등은 선행기술에서 직접적이거나 매우 근접한 개시를 포함함. 그러나 본 발명의 핵심 기술적 기여인 '지식 도메인 선택', '사용자 피드백 기반 실행', '매칭 로직 조정' 등은 명확히 개시되지 않음. combination_threshold=0.68로 비교적 낮은 기준임에도, 이러한 핵심 구성요소의 누락은 결합 동기의 강도를 약화시킴. 따라서 obviousness 판단은 전반적으로 'moderate' 수준으로, 엄격한 해석에서는 거절 가능하나, 혁신 장려 원칙 하에서는 보정 또는 허여 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 5, 6, 8, 9, 12, 14, 15, 16, 18, 19 are rejected under 103, but many of these involve routine optimizations or semantic refinements of disclosed techniques. While motivation to combine exists, the technical contribution in structured lexicon selection (claim 3/13) and interactive verification (claim 7/17) suggests some limitations may represent more than obvious design choices. Given examiner's purposivist view and low strictness, these rejections are not uniformly strong."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1이 문맥 정보를 이용한 음성 인식 조정의 전체 흐름을 명시적으로 개시하고 있으며, 청구항의 모든 구성요소가 단일 문헌에 포함됨. 결합 동기 필요 없이 자명하게 obvious하며, 통상의 기술자 수준, 동기, 차이점 분석 모두 strong함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1은 맥락 정보를 이용한 음성 인식 조정의 핵심 구성요소를 명시적으로 개시하고 있으며, US-2012296654-A1은 추가적인 맥락 요소를 제공함. 두 기술의 결합은 동일한 기술적 목적(음성 인식 정확도 향상)을 달성하기 위한 것으로, 통상의 기술자에게 명백한 동기 존재. 결합의 예측 가능성과 기술적 차별성 부재로 인해 강한 obviousness 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2와 12에 대한 103 거절 근거는 강력함. US-2014324428-A1은 문맥 정보에 기반한 사전(dictionary) 변경을 명시적으로 개시하고 있으며, 이는 '지식 영역 선택'이라는 표현과 기술적으로 실질적으로 동등함. 통상의 기술자는 사전 변경이 특정 지식 도메인(예: 내비게이션, 메일)에 맞춘 어휘 조정임을 인지하고 있으므로, 해당 용어의 사용은 명백한 변형에 불과함. 결합 동기(motivation to combine)도 명확하며, 음성 인식 정확도 향상이라는 공지된 목표와 일치함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1은 컨텍스트 정보를 사용하여 음성 인식 엔진을 조정하는 핵심 개념을 명시적으로 개시하고 있으며, 청구항 1~9, 11~20의 구성요소 대부분이 동일하거나 기능적으로 동등함. '지식 영역 선택', '사전 변경', '단어 가중치 조정' 등은 모두 선행기술의 '인식 모델 또는 사전 조정' 범위 내에 포함되며, 통상의 기술자가 명백하게 도달할 수 있는 수준. 결합 동기 존재하고, 선행기술 자체가 컨텍스트 기반 최적화를 통해 인식 정확도 향상을 목적으로 함. confidence 값 대부분 0.85 이상으로, 강한 명백성 근거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1은 청구항 1, 3, 8, 9, 11, 13, 18, 19, 20의 모든 구성요소를 단일 문헌에서 명시적으로 개시하고 있으며, 각 구성요소 간 대응 관계가 명확함. 신규성 결여 판단은 강한 근거를 가짐."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "word weighting, knowledge domain 선택, 매핑 조정, 사용자 피드백, 장치 간 전송 등은 선행기술에 직접 개시되지는 않았으나, 통상의 기술자에게는 공지된 기술을 결합하여 용이하게 도출 가능하다는 동기가 존재함. 그러나 일부 구성(예: knowledge domain 선택, 장치 간 전송)은 기술적 발전으로 볼 여지가 있음. strictness=0.46인 중립적 성향 하에서, 모든 obviousness 거절을 유지하기는 다소 무리가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1은 출원 발명의 모든 핵심 구성요소를 명시적으로 개시하고 있으며, 특히 문맥 정보 획득, ASR 엔진 조정, 음성 입력 수신, 인식 결과 제공의 순차적 흐름을 포함한다. 청구항 8, 14, 도 6, 도 8 등을 통해 방법, 장치, 매체 청구항 모두를 포괄하며, US-2012296654-A1과의 결합은 다양한 문맥 요소의 사용을 보완하여 obviousness 판단을 강화한다. 결합 동기(motivation to combine)도 명확하며, 통상의 기술자가 문맥 기반 ASR 최적화를 위해 이러한 기술을 결합할 합리적인 기대가 있었다고 판단된다. confidence 값 대부분 0.8 이상으로, 증거 강도가 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4 and 14 involve weighting words based on context. Although not explicitly disclosed in US-2014324428-A1, the concept of altering a dictionary in ASR systems inherently includes probabilistic adjustments such as weighting, which is a well-known technique in the field. The motivation to combine is strong given the predictable improvement in recognition accuracy, supported by the reference's broad teaching of context-based dictionary modification. Confidence in obviousness is high (0.78), and given the technical familiarity of ASR models, this constitutes a strong obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection of claims 1, 3, 8, 9, 11, 13, 18, 19, and 20 under 103 is based on US-2014324428-A1 either anticipating or rendering obvious the claimed features. Even if novelty were in question, the combination of context acquisition, ASR adjustment, and system implementation is fully supported by the prior art. The use of sensor-derived context and environmental factors is explicitly taught, and system/medium claims are standard implementations. The motivation to combine is direct and clear, with no unexpected technical hurdles. Given the high confidence scores (0.88–0.94) and explicit disclosures, this is a strong obviousness (and in many cases, anticipation) basis."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1은 문맥 정보를 이용한 음성 인식 조정의 핵심 개념을 명시적으로 개시하고 있으며, 청구항 1, 3, 11, 13, 20은 이에 의해 명백히 예견됨. 선행기술과의 실질적 차이 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "단어 가중치 부여(claim 4, 14)는 사전 변경(alter dictionary)의 일반적 구현 방식으로, 음성 인식 분야의 통상적 기술자가 쉽게 도출 가능함. US-2014324428-A1의 개시 범위 내."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "환경 기반 문맥 정보(claim 8, 18)는 US-2014324428-A1 및 US-2012296654-A1에서 각각 위치, 소음, 시간, 근접성, 온도 등을 개시하여 조합 시 전체 선택 그룹이 명백함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "인식된 음성과 사전 정의된 동작 간 매칭 조정(claim 5, 15)은 US-2014324428-A1의 작업 기반 인식(예: 검색, 내비게이션)에서 암시되나, 명시적 기재는 아님. 그러나 목적상 자연스러운 확장으로 간주 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "문맥 정보가 정보 처리 장치로부터 유도됨(claim 9, 19)은 US-2014324428-A1의 도면 및 명세서에서 센서와 마이크가 장치에 위치한다고 명시하여 자명함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1은 문맥 정보를 사용하여 음성 인식을 조정하는 핵심 개념을 명시적으로 개시하고 있으며, 출원 발명의 모든 구성요소가 동일하거나 명백한 변형으로 포함됨. 특히 센서 정보, 위치, 속도, 주변 소음 등 정보 처리 장치로부터 유도되는 문맥 정보는 선행기술의 청구항 및 도면에 직접 기재되어 있음. 결합 동기(motivation to combine)는 음성 인식 정확도 향상이라는 공통된 기술적 목적에서 자연스럽게 도출되며, 통상의 기술자도 이를 용이하게 결합할 수 있음. confidence 값 대부분 0.8 이상으로, 증거의 강도가 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2014324428-A1은 문맥 정보를 이용한 ASR 엔진 조정, 오디오 수신, 인식된 음성 제공을 개시하고 있으나, '지식 도메인 선택', '단어 가중치', '사용자 피드백 기반 인식 확인' 등은 직접적으로 개시하지 않음. 청구항 1, 3, 8, 11, 13, 18, 20에 대한 103 거절은 선행기술의 조합과 결합 동기 측면에서 일정한 근거가 있으나, 'selecting a lexicon' vs 'altering a dictionary' 간의 기술적 차이, 시스템 구성의 통합적 측면, 사용자 인터랙션 피드백의 부재 등으로 인해 완전히 명확하지 않음. strictness=0.60인 중립적 성향 하에서, 일부 청구항은 보정 가능성 고려."
+        }
+      ]
+    }
+  ]
+}

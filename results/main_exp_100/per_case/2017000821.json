@@ -1,0 +1,299 @@
+{
+  "case_id": "2017000821",
+  "proceeding_number": "2017000821",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.5,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012165198-A1은 갭 내 열전도성 재료를 사용하여 냉각 기능을 수행함. 반면 출원발명은 전기적 절연 및 기계적 충진을 위한 펠트 또는 아라미드 계열 접착재 사용을 특징으로 하며, 기술적 목적과 재료 특성이 상이함. Office Action은 '공지된 재료 사용'과 '공정 최적화'를 근거로 obviousness를 주장하나, 절연 펠트 및 아라미드를 '접착재'로 사용하여 갭을 계층적으로 충진하는 구성은 선행기술에 시사되지 않음. 특히 충전물질이 접착재에 부착되는 구조(claim 6) 및 조립 전 접착재 설치(claim 13)는 공지기술에서 벗어난 창의적 설계로 평가 가능. 그러나 본 심사관의 strictness=0.79에 따라, 선행기술과의 부분적 유사성 및 공지된 재료 사용 가능성에 비추어 거절을 유지함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, and 11 are directly supported by US-2012165198-A1 in both structure and function. The arrangement of stator windings, gaps between adjacent windings, and the presence of a space between stator core and housing with functional material are explicitly disclosed or inherently present. Motivation to combine is internal to the reference, requiring no external art. The confidence scores (0.95, 0.93, 0.82) and Graham factors consistently support obviousness. Given the high strictness (0.88), even moderate evidence would favor rejection, but here the evidence is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 6, 7, and 12 are rejected under 103 based on US-2012165198-A1 combined with common engineering practices. While the prior art teaches thermal management using heat conductive materials in stator slots, it does not explicitly disclose a dual-material system where a filling substance is adhered to an initial adhering material. The Office Action asserts that such a configuration is a 'known technique' in stator impregnation; however, no additional reference or explicit teaching supports this combination. The motivation to combine rests on general objectives (e.g., reducing air pockets, preventing cracking), which, while reasonable, do not rise to a strong level of predictability or explicit guidance. Given the low strictness (0.25), this moderate-strength obviousness rejection should be weighed in favor of the applicant, especially since the claimed configuration introduces a novel structural and functional interaction between two distinct materials."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012165198-A1은 인접 와인딩 쌍과 간극의 존재를 개시하고 있으나, 청구항 2 및 3의 구성이 '자명한 변형'인지에 대한 명확한 동기는 부족함. 슬롯이 간극에 해당한다는 점은 유사하지만, '인접 와인딩 쌍 사이의 간극'이라는 기술적 의미를 명확히 개시하지는 않음. 결합 동기의 명확성은 낮으며, 선행기술의 목적(열관리)과 출원발명의 목적(절연 및 구조 안정성)이 다름. strictness=0.29인 관대한 심사관 입장에서 이 정도 근거는 충분히 거절할 만큼 강력하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 인접한 테이트 사이의 슬롯(간극)과 스테이터 와인딩을 명시적으로 개시하고 있으며, 인접 와인딩 쌍 사이의 간극 존재는 전기 모터 설계의 일반적이고 공지된 구조임. 청구항 2 및 3의 구성은 동일한 기술적 사상 내에서 통상의 기술자가 자명하게 도달할 수 있는 수준. 결합 동기 없이 단일 문헌 기반 명백성 판단 가능하며, secondary considerations 부재."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6, 7, 11에 대해 US-2012165198-A1은 갭 내 부재물 채움을 개시하지 않으며, 결합 동기로 공지기술을 인용하고 있으나, 해당 공지기술의 적용이 명확하지 않음. 특히 'adhering material'과 'filling substance'의 이중 구조 및 그 결합 효과는 선행기술에서 명시적으로 제시되지 않음. 그러나 본 출원의 배경기술에서 문제점을 인정하고 있어, 문제 해결을 위한 동기는 존재할 수 있음. strictness=0.82인 점을 고려하면, 약간의 결합 동기만으로도 obvious 판단을 유지할 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 12, 13에 대해 제조 공정의 순서(예: adhering material 설치 시점)는 일반적인 최적화 범주 내에 있을 수 있으나, 'stator core 설치 전'이라는 특정 시점이 기술적 효과(접근성 향상, 손상 방지)와 직접 연결된다는 증거는 부족함. 그러나 공정 순서 변경이 일반적인 제조 기술 내에서 이루어질 수 있다는 점에서, 결합 동기는 존재하지만 강도는 중간 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 clearly discloses the structural arrangement of stator windings, gaps (slots), and heat conductive material filling those gaps. The functional characterization of the material as both 'adhering' and 'filling' is a broad but reasonable interpretation given the material's contact with coil and core. The motivation to combine is inherent in the reference's thermal management objective, and PHOSITA would recognize the equivalence. Confidence is high (0.75–0.85), and the structural overlap is substantial, making this a strong obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103 relies on common knowledge to combine adhesive and filling materials into the stator cavity. While the use of insulating materials like felt or aramid fiber is known in motor manufacturing, the specific configuration—particularly the numerical limit of '1 cubic inch or less' of free space and the sequencing of method steps (e.g., installing adhesive before housing)—is not clearly established as routine. The prior art (US-2012165198-A1) focuses on superconducting cooling, not electrical insulation or void minimization for safety. Thus, while some elements may be obvious, the combination as a whole, especially with quantitative and procedural specificity, lacks strong motivation to combine with predictable success."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 스테이터 코어의 톱니 사이에 슬롯(간극)을 형성하고, 초전도 코일(권선)을 배치하는 구조를 명시적으로 개시하고 있으며, 이는 청구항 2 및 3의 모든 구성요소를 직접적으로 포함하므로 신규성 결여 판단의 증거가 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'substantially fill' 및 'stator cavity free space'와 같은 용어는 명세서에서 정의되지 않아 불명확하나, 본 출원의 기술적 맥락과 통상의 기술자 관점에서 어느 정도 해석 가능함. strictness=0.46인 중립적 성향 하에서, 보정 기회를 부여하는 것이 적절함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2 and 3 are directly supported by US-2012165198-A1, which explicitly discloses a stator core with windings and slots (gaps) between adjacent teeth. The configuration is standard in electric motor design, and the motivation to combine is inherent in the art. The reference teaches all structural elements, and no inventive step is apparent in merely adopting this known arrangement in an insulated motor context."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 11 involves placing an adhering material in the space between the stator core outer diameter and motor housing. While US-2012165198-A1 discloses thermal contact materials for heat transfer, it does not explicitly disclose this specific gap or the use of an adhering material for structural bonding. However, filling or bonding the core-housing interface is a common practice in motor assembly for mechanical stability and thermal performance. Given strictness=0.50, this routine engineering choice leans toward obviousness, though not as strongly as claims 2 and 3."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 청구항 2 및 3의 모든 구성요소를 단일 문헌에서 명시적으로 개시하고 있으며, 슬롯(간극)과 인접 스테이터 권선 쌍의 존재를 직접적으로 대응시킬 수 있음. 선행기술의 기재(예: [0025], 청구항 12)는 신규성 결여 판단에 충분한 증거를 제공하므로, 이는 strong한 102 거절 근거임."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1의 청구항 12이 청구항 2 및 3의 모든 구성요소를 단일 문헌에서 명확하게 개시하고 있으며, 슬롯과 와인딩 쌍의 형성에 대해 직접적인 대응 관계가 존재함. anticipation의 요건을 충족."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "접착재 및 충전물, 정량적 free space 제한 등은 선행기술에 직접 개시되지 않음. 그러나 절연 향상 및 공간 최적화는 통상의 기술자가 추구할 목표이나, 'felt' 또는 'fibrous aramid' 재료의 사용, 특정 공정 순서, 정확한 수치 기준(≤1 cubic inch)은 자명한 최적화로 보기 어려움. 특히 재료와 공정의 조합은 창의적 요소를 포함할 수 있음. strictness=0.42인 본 심사관은 이 정도의 추론적 결합에는 보류 입장."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1의 청구항 12 및 설명은 청구항 2 및 3의 모든 구성요소를 명시적으로 개시하고 있으며, 구조적 동일성이 확인됨. anticipation에 해당하는 명확한 증거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012165198-A1은 갭 구조를 개시하지만, 접착 재료와 충전 물질의 조합, 전기적으로 절연된 펠트, 섬유상 아라미드 재료, 정량적 비충진 공간 제한(1입방인치 이하), 조립 타이밍 등은 명시적으로 개시하지 않음. 이러한 구성요소들은 공지기술 기반의 선택일 수 있으나, 전체 조합과 기술적 효과(예: 균열 방지, 절연 향상, 품질 일관성)에 대한 명확한 결합 동기와 예측 가능성은 제한적임. strictness=0.60 기준에서 충분히 자명하다고 보기 어려우며, 특히 정량적 제한과 특정 재료의 기능적 통합은 통상의 기술자가 쉽게 도출하기 어려운 설계 선택으로 평가됨."
+        }
+      ]
+    }
+  ]
+}

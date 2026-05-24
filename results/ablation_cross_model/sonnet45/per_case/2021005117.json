@@ -1,0 +1,947 @@
+{
+  "case_id": "2021005117",
+  "proceeding_number": "2021005117",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 3, 7, 8, 14, 17, 18: Prior art US-2017305402-A1 explicitly discloses most elements (parallel resistors, transistor switches, data processor, brake controller input). For claim 1, the 'current monitoring circuitry' is argued as inherent—the prior art's resistor sequencing to simulate current signatures suggests monitoring, but A1 does not explicitly label current monitoring circuitry. Under BRI and strictness=0.79, this inherency argument is moderately strong: the function (monitoring signal to sequence resistors) implies the structure, but it's not an explicit disclosure. Given my strict tendency, I find this sufficient for anticipation, but acknowledge some interpretive room."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1-2, 4-6, 9-16, 19-20: The obviousness rejections are well-supported. US-2017305402-A1 provides the core brake load simulator structure. The claimed differences (explicit current feedback, relays vs. transistors, temperature sensing, low-side drivers, user inputs, shunt resistor, five resistors, heat sinks) are all routine engineering practices in automotive test equipment and power electronics. Motivation to combine is clear: improve simulation accuracy, add thermal protection, enhance usability. No unexpected results presented. The combination threshold of 0.34 supports these combinations as obvious. Under strictness=0.79, these are strong obviousness rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses all claim elements with high similarity scores (0.9-0.95). Claims 3, 7, 8, 17, 18 have direct textual matches in prior art claims. Claim 1 shows complete structural overlap - parallel resistors, transistor switches, data processor control for brake load simulation. Claim 14 (method) inherently performed by prior art apparatus. Evidence is explicit and compelling."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "For claims 1, 3, 7, 8, 14, 17, 18: anticipated claims are per se obvious. For remaining claims: (1) Claims 2, 16 (relay substitution): strong - relay/transistor equivalence is textbook knowledge, KSR supports obvious substitution; (2) Claims 4, 5, 15 (temperature sensing/control): strong - thermal management in power dissipation is fundamental engineering, motivation clear (prevent damage); (3) Claim 6 (low-side driver): strong - prior art teaches low-side topology, driver IC is standard interface component; (4) Claims 9, 10, 19, 20 (user input features): strong - user configuration is routine in test equipment, motivation for versatility is obvious; (5) Claim 11 (shunt resistor): strong - shunt resistor is the most common current sensing method, textbook technique; (6) Claim 12 (five resistors): strong - selecting number from range is routine optimization, no criticality shown; (7) Claim 13 (heat sink): strong - heat sink for power dissipation is basic thermal management. All obviousness findings supported by common general knowledge with clear motivation to combine."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017305402-A1이 대부분의 요소를 개시하지만, current monitoring circuitry (element 1a)의 경우 similarity score 0.65에 implicit match입니다. 선행기술이 'load current to ramp up'을 기술하고 있어 전류 모니터링이 필연적으로 포함된다는 논리는 합리적이나, 명시적 개시는 아닙니다. strictness=0.25 (관대한 성향)를 고려하면, implicit match에 기반한 anticipation은 다소 약한 근거입니다. 출원인에게 benefit of the doubt를 주는 것이 혁신 장려에 부합합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "이들 청구항은 모두 similarity score 1.0으로 US-2017305402-A1에서 명시적으로 개시되었습니다. Transistors (claim 3, 17), tow-vehicle brake controller (claim 7, 18), connector to tow vehicle (claim 8)이 모두 explicit match입니다. 이는 명확한 anticipation 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1
+          ],
+          "strength": "weak",
+          "reasoning": "Current monitoring feedback 추가가 obvious하다는 주장이지만, US-2017305402-A1은 open-loop control (brake signal에 직접 반응)을 가르치고, closed-loop control (measured current 기반)은 다른 설계 철학입니다. Feedback control이 일반적으로 알려져 있더라도, 이 특정 응용에서 그것을 추가할 동기(motivation to combine)가 명시적으로 제시되지 않았습니다. 선행기술은 이미 'load current to ramp up'을 달성하므로, 추가적인 current sensing이 필요하다는 teaching이 없습니다. Combination_threshold=0.68을 고려하면 명시적 동기가 필요한데, 이는 'inherent motivation'에 불과합니다. Strictness=0.25 성향에서 이는 거절하기에 불충분합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Relay-transistor 대체가 obvious design choice라는 주장입니다. 두 소자가 기능적으로 유사하지만, 선행기술은 명시적으로 transistor를 가르칩니다. Relay 사용이 단순한 등가 대체인지, 아니면 특정 기술적 이점(high current, isolation)을 위한 선택인지 불분명합니다. Combination_threshold=0.68 기준에서 명시적 suggestion이 부족하고, strictness=0.25 성향에서는 출원인의 선택을 존중할 여지가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Power resistor에 heat sink를 사용하는 것은 fundamental engineering practice입니다. 이는 KSR common sense에 해당하며, 어떤 전기 엔지니어도 당연히 고려할 사항입니다. 명시적 teaching이 없어도 obviousness가 성립하는 경우입니다. 이는 strong 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            14
+          ],
+          "strength": "weak",
+          "reasoning": "Method claim 14는 apparatus claim 1과 동일한 논리입니다. Current measurement step 추가가 obvious하다는 주장이나, 선행기술의 method는 signal-responsive이지 measured-current-based가 아닙니다. 이는 다른 제어 방식이며, 명시적 동기 부족으로 weak 근거입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017305402-A1이 대부분의 요소를 개시하지만, claim 1의 핵심인 'current monitoring circuitry operative to control switches based on current data'가 명시적이 아닌 암묵적 개시(implicit)입니다. 브레이크 통합 회로가 전류를 모니터링한다는 추론은 가능하나, 측정된 전류 데이터를 기반으로 스위치를 제어한다는 직접적 개시는 부족합니다. Claims 3, 7, 8, 17, 18은 명시적 개시가 있어 stronger하나, claim 1은 해석의 여지가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017305402-A1과 US-2015219706-A1의 결합은 논리적이나, combination_threshold=0.72 기준으로 볼 때 결합 동기가 명시적으로 강하지는 않습니다. 두 문헌 모두 차량 전기 시스템 관련이지만, '706 문헌은 배터리 격리 모니터링이고 '402는 브레이크 부하 시뮬레이션으로 구체적 응용이 다릅니다. 전류 센싱을 부하 시뮬레이터에 통합하는 것이 예측 가능하다는 주장은 타당하나, 명시적 teaching이 부족합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "트랜지스터를 릴레이로 대체하는 것은 KSR에 따른 명백한 설계 선택입니다. 두 소자는 기능적으로 동등한 스위칭 소자이며, 선택은 전류 용량, 속도, 비용 등 일상적 엔지니어링 고려사항입니다. 이는 strong obviousness입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "전력 소산 저항에 히트 싱크를 추가하는 것은 기본적인 열관리 원칙의 명백한 적용입니다. 이는 예측 가능한 개선이며 어떤 기준으로도 자명합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses all elements with high similarity scores (0.75-0.95). Current monitoring is implicit but inherent in load signature monitoring. Single reference anticipates entire claims. Coverage scores consistently high (0.85-0.95). This is strong anticipation evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            2,
+            6,
+            11,
+            12,
+            13,
+            14,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 1 alternative 103: Strong - implicit current monitoring made explicit is obvious (KSR predictable combination). Claim 2: Strong - relay/transistor substitution is textbook design choice. Claim 6: Strong - low-side driver inherent in ground-referenced topology, standard practice. Claim 11: Strong - shunt resistor is conventional current sensing method, widely known. Claim 12: Strong - five resistors is routine optimization, no criticality shown. Claim 13: Strong - heat sink addition is common sense thermal management (In re Gal). Claims 14, 16: Strong - parallel method claims with same strong basis as apparatus claims."
+        },
+        {
+          "basis": "allowable_temperature_claims",
+          "claims": [
+            4,
+            5,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Temperature sensor and temperature-based control are not disclosed in prior art. However, thermal protection is well-known in power electronics. The specific application to brake testing is novel but arguably obvious extension. Given my strict standard (0.89), I would normally scrutinize whether thermal management in resistive loads is truly non-obvious. But prior art shows no teaching/suggestion of temperature sensing in this context. Allowable with moderate confidence."
+        },
+        {
+          "basis": "allowable_user_interface_claims",
+          "claims": [
+            9,
+            10,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "User interfaces for inputting axle count and load current are not in prior art. However, user-configurable test parameters are conventional in test equipment. These claims represent routine addition of user input to automated system. Under strict examination (0.89), I question whether adding standard UI elements is truly inventive. But absent explicit teaching in prior art, and given borderline combination_threshold (0.45), these remain allowable though with low confidence."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017305402-A1 explicitly discloses parallel resistors (0.95 similarity), transistor switches (0.92 similarity), and microcontroller control (0.78 similarity). However, 'current monitoring circuitry' is not explicitly disclosed as a separate structural element - it is inferred from functional descriptions of 'load current ramping' and 'sequential control'. Under BRI, this inference is plausible but requires interpretative stretch. Coverage score 0.8 indicates strong but not complete overlap. With my strictness=0.82, I lean toward maintaining rejection even with this moderate evidence, as the functional implication of current monitoring is reasonable."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "These claims add limitations explicitly disclosed in US-2017305402-A1 with high similarity scores (0.92-0.95). Claim 3 specifies transistors (explicit in reference). Claims 7-8 specify tow-vehicle brake controller application (explicit in reference claims 1-2). Claims 17-18 are method equivalents. Coverage scores 0.88-0.95 indicate strong anticipation. This is clear-cut 102 rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Method claim 14 recites measuring current and controlling switches based on measured current. US-2017305402-A1 describes sequential transistor control producing ramping current, but 'measuring current' as an explicit method step is implicit rather than stated. Coverage score 0.75 suggests substantial but incomplete overlap. Under BRI and my strictness=0.82, the functional equivalence supports rejection, but this is moderate strength due to implicit nature of current measurement step."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Relay vs transistor substitution. Both are well-known equivalent switching devices. KSR obvious-to-try principle applies clearly. This is textbook obviousness based on known alternatives with explicit motivation (switching capacity, isolation, cost). Reference explicitly shows transistors; relays are predictable substitution. Strong 103 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            5,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Temperature sensing and temperature-based control in power resistor circuits. This is fundamental thermal management - not inventive. Power resistors inherently generate heat; temperature monitoring is predictable solution. Using temperature data for switch control (thermal protection) is standard practice in power electronics. Motivation is inherent in the problem. Strong 103 rejection under my strictness=0.82."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Low-side driver as separate component. US-2017305402-A1 describes low-side transistor configuration but not explicit low-side driver IC. Using dedicated driver IC is standard practice for better gate drive and current handling, but this adds a structural element not explicitly in reference. Coverage score 0.6 indicates implicit rather than explicit disclosure. With my strictness=0.82, I consider this obvious as routine circuit design improvement, but strength is moderate due to structural addition."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            10,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "User interface for inputting test parameters (number of axles, desired load current). In test equipment design, user-configurable parameters are standard practice for versatility. US-2017305402-A1 is test equipment for brake controllers; allowing user to specify trailer configuration or load current is predictable enhancement with clear motivation. This is routine UI design in test/measurement equipment. Strong 103 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "Shunt resistor for current sensing. This is one of the most basic, textbook current measurement techniques. Once current monitoring is needed (already implicit in reference), implementing via shunt resistor is obvious and well-known method. No inventive concept. Strong 103 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Specifying 'five resistors' rather than unspecified plurality. The number is a routine design parameter for achieving desired resistance range/resolution. Five resistors = 32 combinations, which is reasonable choice. However, the specific number 'five' is not disclosed in reference and represents a design optimization decision. Coverage score 0.5 indicates implicit. Under my strictness=0.82, I view this as routine optimization (moderate strength) and maintain rejection, as there's no evidence of criticality of the number five."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Heat sink addition. Power resistors generate heat; heat sinks are fundamental passive cooling components. This is basic thermal management requiring no inventive insight. Heat sinks are commodity components. Adding heat sink to power resistor circuit is predictable and obvious. Strong 103 rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            6,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses all claim elements with high coverage scores (0.9-0.95). The prior art directly teaches: parallel resistors, transistors as switches, microcontroller control, brake control signal reception from tow vehicle, and load current monitoring. This is clear anticipation under 35 U.S.C. § 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Substituting relays for transistors is obvious design choice. Both are well-known switching devices with predictable tradeoffs (power handling, speed, isolation). This is routine engineering substitution of known equivalents per KSR. Clear motivation and predictable results."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "Adding user interface for trailer axle input is logical extension - different trailers have different axle counts affecting brake load. However, US-2017305402-A1 does not explicitly suggest this feature. The combination relies on common knowledge about test equipment user interfaces and trailer configurations. With strictness=0.47 (moderate), this represents borderline case but the motivation is reasonably clear."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "Adding user interface for load current input is standard test equipment functionality, but US-2017305402-A1 does not explicitly teach user parameter input. The reasoning relies on general principles of test equipment design. With strictness=0.47, this is borderline - the motivation is clear (precise testing) but the prior art does not strongly suggest this specific implementation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "Shunt resistor current measurement is fundamental technique in electronics, taught at undergraduate level. US-2015219706-A1 teaches series current sensor, and shunt resistor is most common implementation. Clear motivation to implement current monitoring using well-known shunt resistor technique. This is textbook application of known principles."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "weak",
+          "reasoning": "Selecting five resistors vs. other numbers is optimization parameter. While the reasoning explains design tradeoffs (resolution vs. complexity), there is no strong teaching that five is optimal or obvious choice. US-2017305402-A1 teaches 'plurality' without specific number. The claim adds specific numerical limitation not taught or suggested. With strictness=0.47, this weak reasoning should favor applicant."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "Heat sinks are standard thermal management for power dissipation. US-2017305402-A1 discloses resistors carrying brake load current (potentially high power). Adding heat sink is routine engineering practice. However, the prior art does not mention thermal considerations or suggest heat sink is needed. With strictness=0.47, this borderline case could go either way - heat management is obvious for power circuits but not explicitly taught."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses all claim elements in a single reference with high similarity scores (0.85-0.95). The reference's claims 1, 4, 6, 7, 8 provide direct support for parallel resistors, transistor switches controlled by data processor/microcontroller, and tow-vehicle brake controller context. Element 1a (current monitoring) is reasonably implicit given the sequential control of resistors based on brake signal. This constitutes clear anticipation under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Substitution of relay for transistor is textbook obvious variant - both are well-known switching elements performing identical function. The motivation (higher current handling, galvanic isolation in automotive applications) is clear and predictable. KSR v. Teleflex supports obviousness of known equivalents substitution. This falls well below combination_threshold=0.55."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            5,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Adding temperature sensing to power-dissipating resistors and using that data for thermal protection control are fundamental thermal management practices. The problem (heat generation in resistors) inherently motivates the solution (temperature monitoring and control). This is predictable use of known technique to solve recognized problem, clearly below combination_threshold=0.55."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "Low-side driver addition is routine interface design when microcontroller drives power switches. The reference already positions switches on low side (between resistor and ground). Adding driver IC to buffer microcontroller GPIO is standard practice based on known drive capability limitations. Clear motivation, well below threshold."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            10,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Adding user interface for parameter input (axle count, load current) to test equipment is standard practice. The reference already varies load to simulate different conditions; allowing user to specify parameters is obvious enhancement. Test equipment conventionally provides parameter input - this is predictable application of known technique."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "Shunt resistor current measurement is one of the most fundamental techniques in electronics, taught in introductory courses. When current monitoring is required (claim 1), shunt resistor is the most obvious first implementation choice. This represents elementary knowledge, far below any reasonable combination threshold."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Selection of five resistors vs. four/six is optimization within typical range (4-8 resistors common in ladder networks). However, the reference does teach 'plurality' without specifying number. While this is routine design choice, the specific number five has less explicit motivation than other rejections. Given strictness=0.55 (neutral), this moderate-strength rejection is maintainable but closer to borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Adding heat sink to power resistors handling tens to hundreds of watts is elementary thermal design. Heat sinks are the most basic passive thermal management component, universally applied to power-dissipating elements. The motivation is compelling and inherent in the high-power resistor application. Well below threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2017305402-A1이 청구항 1의 대부분 요소를 개시하나, 'current monitoring circuitry'는 명시적(explicit) 개시가 아닌 inherent disclosure로 해석됨. Inherent disclosure는 법적으로 유효하나 증거 강도는 moderate 수준. 청구항 3, 7, 8, 14, 17, 18은 명시적 개시가 있어 strong하나, 청구항 1의 102 근거는 moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "대부분의 청구항에 대해 103 근거가 strong함. US-2017305402-A1이 기본 구조를 개시하고, 추가 요소들(온도 센서, low side driver, 사용자 인터페이스, shunt resistor, heat sink 등)은 공지 기술 또는 common sense로 결합 동기가 명확함. Combination threshold 0.22는 낮은 편이어서 공지 기술 결합이 쉽게 obvious로 인정됨. 다만 청구항 2, 16(relay)은 결합 동기 부족으로 non-obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses all elements with high coverage scores (0.85-0.95). Element-by-element mapping is clear: parallel resistors (explicit in claim 1), transistor switches (explicit in claim 6), data processor control (explicit in claim 8), tow vehicle brake controller input (explicit in claim 1). Current monitoring is slightly implicit but functionally equivalent—the reference monitors brake signal and controls load current ramp-up, which inherently requires current monitoring. The anticipation is well-supported by specific claim language from the reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "Relay vs. transistor substitution: Both are switching devices, but the reference explicitly teaches transistors. While interchangeability is argued based on common knowledge, the reference specifically implements transistors (claim 6), which could be seen as teaching away from relays. However, KSR supports obvious design choices between known alternatives. Given strictness=0.50, this is borderline—the substitution is predictable but not explicitly motivated by the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "Temperature sensing addition: While resistive loads generating heat is well-known, neither reference explicitly discloses temperature sensors in this context. The motivation (thermal protection) is logical and follows common sense per KSR, but it's an addition not suggested by the prior art itself. The strength depends on whether 'common sense' alone is sufficient. Given strictness=0.50 and combination_threshold=0.33, this is a reasonable obvious addition, but not as strong as explicit teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Low-side driver addition: The reference shows low-side topology (transistor to ground, claim 7) but doesn't explicitly disclose separate driver IC. Adding driver IC is routine circuit design practice for current amplification/protection, but it's an implementation detail not taught by the reference. This is a predictable improvement but requires inferring the need for driver circuitry. At strictness=0.50, this is borderline obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "User interface for axle count and load current: Neither reference discloses user input for these parameters. The motivation is clear (configurability for different trailers/test conditions), and user interfaces are standard in test equipment. However, this is adding a feature not suggested by the prior art—it's a predictable enhancement but not explicitly taught. Per KSR, combining known elements (simulator + UI) is obvious if predictable, but the references don't motivate this specific combination. At strictness=0.50, this is moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "Shunt resistor specification: US-2015219706-A1 teaches current sensors generally, and shunt resistors are common current sensing methods. However, specifying 'shunt resistor' vs. generic 'current sensor' adds a specific implementation not explicitly taught. The motivation (accuracy, low cost) is reasonable, but this is a design choice among multiple current sensing options (Hall effect, etc.). At strictness=0.50 and combination_threshold=0.33, this is borderline—obvious as implementation choice but not explicitly motivated."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "weak",
+          "reasoning": "Five resistors specification: The reference teaches plurality without number. Selecting 'five' is argued as design optimization, but there's no evidence in the prior art suggesting this specific number. The analysis relies on post-hoc reasoning (binary weighting gives 32 levels, etc.) rather than motivation from the references. This is result-effective design choice but not explicitly obvious from the prior art. At strictness=0.50, this is weak—too speculative without explicit teaching or finite number of predictable solutions clearly identified in prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "Heat sink addition: Resistive loads generate heat requiring dissipation—this is well-established. Adding heat sink is standard thermal management. However, neither reference explicitly discloses heat sink in this context. The motivation is clear (prevent overheating), but this is common sense engineering rather than teaching from prior art. Per KSR, this supports obviousness, but it's not as strong as explicit disclosure. At strictness=0.50, this is moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            15,
+            16,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "Method claims corresponding to apparatus claims 4-5, 2, 9-10: Same analysis as apparatus claims. Temperature-based control (15), relay substitution (16), and user input steps (19, 20) are predictable but not explicitly taught. Strength is moderate for same reasons as corresponding apparatus claims."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017305402-A1 discloses parallel resistors, transistor switches, and data processor control explicitly. However, the 'current monitoring circuitry' element relies on implicit/functional disclosure rather than explicit structural description. The reference teaches load current monitoring functionally ('causes a load current on the brake controller to ramp up'), but does not explicitly describe dedicated current monitoring circuitry. Under BRI, functional equivalence may support anticipation, but this requires interpretation. The evidence is not as strong as explicit structural disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 is questionable due to implicit current monitoring disclosure, 103 is well-supported. US-2017305402-A1 provides all structural elements except explicit current-based feedback control. The reference already monitors load current to achieve its stated purpose (simulating brake signatures). Adding closed-loop current feedback to optimize simulation accuracy is a predictable modification with clear motivation. The combination_threshold=0.44 supports this as obvious design choice. Evidence is strong for obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            6,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "These claims are explicitly disclosed in US-2017305402-A1 with high similarity scores (0.92-0.95). Claim 3: transistors as switches (claim 6 of reference). Claim 6: low-side driver configuration (claim 7 of reference, transistors between resistors and ground). Claims 7-8: input from tow vehicle brake controller and connector (claims 1-2 of reference). Claims 14, 17, 18 are method equivalents of apparatus claims. Evidence is strong and clear."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Relay vs transistor substitution is well-established as obvious design choice in the art. Both are known switching elements selectable based on routine factors (current capacity, speed, cost). The modification requires no inventive step. Evidence is strong for obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Temperature sensing and thermal protection in resistive load devices is standard engineering practice. The apparatus inherently generates heat from resistors, creating clear motivation to add temperature monitoring and control. This is routine thermal management, not inventive. Evidence is strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            10,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "User-configurable parameters (axle count, load current) are standard features in test equipment. The reference already teaches a brake tester; adding configuration inputs is predictable extension to enable testing different scenarios. This is routine test equipment design. Evidence is strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "Shunt resistor is the textbook method for current measurement in electronics. The reference requires current monitoring; implementing via shunt resistor is obvious implementation choice requiring only ordinary skill. Evidence is strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Selecting five resistors (vs. other quantities) is a design optimization. The reference teaches plurality of resistors but does not specify number. While the choice of five is a routine optimization based on resolution/complexity tradeoff, it involves some design judgment. The evidence is moderate—the selection is predictable but not explicitly taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Heat sinks are conventional thermal management components. Adding heat sink to resistive load device is obvious based on well-known need for heat dissipation. Clear motivation from inherent heat generation. Evidence is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses all elements of claims 1, 3, 7, 8, 14, 17, 18. The reference teaches apparatus adapted to receive brake control signal from tow vehicle brake controller, comprising data processor, plurality of parallel resistors sequentially applied via transistor switches controlled by processor. Current monitoring is disclosed through load detection. The anticipation is clear and well-supported by specific claim language and column citations from the reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Obviousness rejections vary in strength. Claims 1, 3, 7, 8, 14, 17, 18 are strong (essentially anticipated). Claims 2, 16 (relay substitution) are moderate - while relay/transistor substitution is known, the reference explicitly teaches transistors, and the substitution requires some motivation beyond simple equivalence. Claims 4, 5, 13, 15 (temperature sensing, heat sink) are moderate - these are predictable additions but not explicitly disclosed. Claims 6 (low-side driver), 9, 10, 19, 20 (user interface), 11 (shunt resistor), 12 (five resistors) are moderate to weak - these involve implementation details or design choices that, while routine, add specificity not in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses the core structural elements (parallel resistors, switches, microcontroller) for brake load simulation. The addition of current monitoring feedback is a well-known, standard practice in load simulation devices. The motivation to combine is clearly established - achieving accurate load current simulation inherently requires measuring actual current and adjusting resistance accordingly. This is textbook feedback control applied to a known system. KSR principles directly apply: combining known elements (resistor switching system + current sensing) according to known methods (feedback control) yields predictable results (accurate load simulation). The combination threshold of 0.48 supports this obvious modification."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For dependent claims adding well-known features: (1) Relay/transistor substitution (claims 2,16) - these are known equivalent switching devices, obvious design choice per KSR. (2) Temperature sensing (claims 4,5,15) - standard practice in power-dissipating circuits for thermal protection. (3) Low side driver (claim 6) - routine interface circuit between microcontroller and power switches. (4) User interface for parameters (claims 9,10,19,20) - fundamental test equipment functionality. (5) Shunt resistor (claim 11) - most common current sensing method. (6) Five resistors (claim 12) - routine design parameter selection. (7) Heat sink (claim 13) - standard thermal management component. All represent predictable use of prior art elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3,7,8,17,18 specify features (transistor switches, tow-vehicle brake controller input) that are explicitly disclosed in US-2017305402-A1. These add no patentable weight beyond the base claims already found obvious. The prior art expressly teaches these limitations."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1은 청구항 1의 모든 구성요소를 명시적으로 개시함. (1) microcontroller circuitry = data processor (명시적), (2) plurality of resistors arranged in parallel = plurality of parallel resistors (claim 1, 명시적), (3) plurality of switches = plurality of transistors (claim 6, 명시적), (4) current monitoring circuitry = brake simulation circuitry monitoring brake control signal (inherent). 선행기술이 단일 문헌에서 모든 요소를 명시적으로 개시하므로 102 거절 근거가 강함. 종속항 3, 7, 8, 17, 18도 선행기술에 명시적으로 개시됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "Transistor를 relay로 대체하는 것은 전자회로 분야의 well-known design choice. 두 소자 모두 switching element로 공지되어 있고, 용도에 따라 선택 가능. 명확한 결합 동기 존재(design choice). Strictness 0.60 기준으로 strong evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "Low side driver는 microcontroller와 power switch 사이의 standard interface circuit. 선행기술이 data processor가 transistor 제어를 개시하고, driver 회로 추가는 routine practice. 명확한 결합 동기(common practice). Strong evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            10,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "User interface 추가(trailer axle 수, desired load current 입력)는 test equipment의 일반적 개선이나, 선행기술이 이를 명시적으로 시사하지 않음. 그러나 테스트 장비에서 사용자 입력 제공은 known design choice이고, trailer axle 수가 load current에 영향을 미친다는 것은 common knowledge. Combination_threshold=0.57 기준으로 common sense 인정 가능. Moderate evidence이나 strictness 0.60 기준으로 거절 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "Shunt resistor를 이용한 전류 측정은 전자회로 분야의 standard technique. 선행기술이 current monitoring을 개시하고, shunt resistor 사용은 well-known method. 명확한 결합 동기(common practice). Strong evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Five resistors라는 구체적 수량은 선행기술에 없으나, plurality of resistors가 개시됨. 저항 개수는 desired load range와 resolution에 따른 design parameter. Design choice로 볼 수 있으나, 구체적 수량의 선택이 자명한지는 해석 여지 있음. Strictness 0.60 기준으로 moderate evidence이나 거절 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Heat sink 추가는 power resistor 사용 시 well-known thermal management technique. 선행기술이 resistors 개시하고, heat sink 추가는 routine practice. 명확한 결합 동기(common practice). Strong evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 2와 동일 이유로 relay 사용은 known design choice. Strong evidence."
+        },
+        {
+          "basis": "allowable",
+          "claims": [
+            4,
+            5,
+            15
+          ],
+          "strength": "n/a",
+          "reasoning": "Temperature sensor circuitry 및 temperature data 기반 제어는 선행기술에 개시되지 않고, 명시적 교시나 시사도 없음. 열 관리가 일반적이나 선행기술이 이를 교시하지 않으므로 비자명. 허여 가능."
+        }
+      ]
+    }
+  ]
+}

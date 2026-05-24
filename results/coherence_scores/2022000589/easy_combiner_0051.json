@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 rejections throughout novelty, obviousness, office action, and final decision stages, with no misapplication of §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection references specific prior art (US-2014219407-A1, US-2017294238-A1, US-2015380113-A1) and identifies specific claim elements such as cylindrical chamber, electrodes, plasma rotation, superconducting magnets, and retrofit structure, satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Several claims (e.g., claims 3, 5, 6, 19) were treated as not novel under §102 based solely on implicit or 'obvious variation' reasoning (e.g., 'general steam cycle component,' 'obvious modification'), yet the §102 stage still found them not novel rather than reserving that conclusion for §103, creating an inconsistency where the §102 analysis was effectively doing §103 work without acknowledging the shift."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With combination_threshold=0.329, the examiner explicitly notes this low threshold and accepts weaker motivations to combine (e.g., 'common purpose and technical relevance alone suffices'), consistent with the easy_combiner archetype; strictness=0.502 (moderate) aligns with allowing claims 14 and 15 while rejecting the bulk of claims."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1-13 and 16-29 while identifying claims 14-15 as allowable subject matter follows directly and consistently from the stage-level §103 obviousness analyses and novelty findings, with no unexplained reversal."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000589",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 23142,
+      "output_tokens": 460,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

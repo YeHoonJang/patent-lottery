@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for each claim, and §102 anticipation is analyzed element-by-element with specific reference to US-2012302167-A1 disclosures."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific claim language (e.g., 'automatic execution of handwriting recognition engine,' 'boot-time initiation') and maps it to specific disclosures in US-2012302167-A1 (e.g., paragraph references, claim 1/2 of the reference, file generation with output data and screen image)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found non-novel at §102 are carried forward as obvious at §103 with the same prior art, and claims 8/10/20 found novel at §102 are then subjected to §103 with additional rationale about boot-time service initiation being a known technique but lacking motivation — no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.523 (near neutral) and combination_threshold=0.48, the examiner correctly rejects the bulk of claims strongly but acknowledges weak motivation for boot-time claims (8, 10, 20) with confidence 0.55, yet ultimately rejects all claims — consistent with a moderate examiner who resolves borderline cases against allowance without being lenient."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows logically from the accumulated §102 and §103 findings, with explicit weighing distinguishing strong rejections (claims 1-7, 9, 11-19) from weak ones (8, 10, 20) and explaining why even weak §103 grounds suffice for the latter."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000764",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17612,
+      "output_tokens": 449,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

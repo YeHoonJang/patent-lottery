@@ -1,0 +1,471 @@
+{
+  "case_id": "2020002880",
+  "proceeding_number": "2020002880",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.35714285714285715,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection asserts that US-2013226453-A1 (location sharing and messaging system) renders obvious the claimed task-based multimedia marketplace. However, critical examination reveals fundamental structural and functional differences: (1) The prior art is a peer-to-peer location sharing system for personal coordination, while the claims recite a three-party commercial marketplace architecture (task definer, content creator, content buyer) with fundamentally different roles and interactions; (2) The prior art contains no disclosure of: task definition systems, criteria-based content requests, third-party content purchasing, pricing mechanisms (claims 6-7), payment processing and revenue distribution (claim 7), or marketplace operation; (3) The motivation to combine is speculative - the Office Action relies on general statements about 'monetizing user-generated content' and 'predictable use of prior art elements' without identifying specific teachings or suggestions in the prior art that would lead a PHOSITA to create this particular marketplace architecture; (4) The Office Action treats numerous complex features as 'obvious design choices' or 'routine variations' without adequate support: requesting 'all' vs 'some' vs 'future' multimedia (claims 2-4), eight criteria types including ownership and availability time (claim 5), three-party payment distribution (claim 7), geographic task provisioning and location-based approval (claim 10), and automatic metadata capture for validation (claim 12); (5) The fundamental change from free peer-to-peer location sharing to a paid three-party marketplace with task management, content validation, and revenue distribution represents a transformation in system purpose and architecture that is not suggested by the prior art; (6) While individual elements (location parsing, client-server architecture, payment systems) may be known in isolation, the specific combination and architecture is not taught or suggested by US-2013226453-A1. Given my strictness level (0.79), I recognize these weaknesses significantly undermine the rejection, though some technical overlap exists (location handling, client applications)."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1 explicitly discloses 'still images and/or streaming voice or video data' which directly reads on 'digital still image' and 'video stream' under BRI. Single reference anticipation with explicit disclosure. Coverage score 0.88, confidence 0.9. This is clear anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 2-4 (requesting all/some/future data) are straightforward parameter variations of known request-response patterns. US-453 teaches data requests and future time commitments. These are obvious design choices requiring only routine skill. Confidence scores 0.75-0.78. Strong obviousness case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 5 adds multiple criteria fields (subject, ownership, etc.). US-453 explicitly teaches location (0.8) and time criteria. Adding standard metadata fields is routine database expansion, but requires inferring that PHOSITA would make these specific additions. Claim 8 (location validation workflow) similarly combines known location checking with conditional logic. Confidence 0.68-0.73. Evidence is present but involves some combination reasoning."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 6-7 add pricing and payment processing. US-453 contains no pricing disclosure (coverage 0.0). Obviousness relies entirely on 'common knowledge' that content platforms can be monetized. While this is true commercially, the technical implementation of pricing criteria and multi-party payment distribution is not taught by the cited reference. This is primarily a business method addition, not a predictable technical combination. Confidence 0.65-0.7 indicates uncertainty."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            10,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 9-10 (client-server architecture, geographic provisioning) and 12 (metadata capture) combine elements from US-453 with standard software patterns. US-453 teaches client apps, location features, and multimedia capture (0.6-0.75 similarities), but the specific workflows claimed (geographic task provisioning, metadata extraction from device elements) require combining multiple teachings. Confidence 0.69-0.74. Moderate strength due to combination reasoning."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 13-15 recite apparatus/program/system forms of the method claims. US-453 teaches server apparatus and client-server systems (0.5-0.7 similarities for individual elements), but the integrated four-party task-based architecture (task definer, content creator, server orchestrator, consumer) represents a specific system design not explicitly taught. Coverage scores 0.35-0.38. These claims depend on the obviousness of underlying method claims 2-12. Confidence 0.7-0.72. Moderate strength."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 11에 대한 103 거절은 강한 근거를 갖습니다. US-2013226453-A1이 'still images' 및 'streaming voice or video data'를 명시적으로 개시하고 있으며, 이는 청구항 11의 'digital still image and a video stream'과 직접 대응됩니다. 선행기술의 배경기술 섹션에서 모바일 장치가 카메라 및 음성 녹음 수단을 사용하여 정지 이미지 및/또는 스트리밍 음성 또는 비디오 데이터를 생성한다고 명시하고 있어, 두 요소 모두 anticipate됩니다. 결합 동기 또한 명확합니다 - 정지 이미지와 비디오 스트림은 모바일 멀티미디어 분야에서 표준적이고 공지된 데이터 유형이며, 통상의 기술자가 이들을 멀티미디어 시스템에 포함하는 것은 단순한 설계 선택입니다. coverage_score가 0.75로 높고, 각 요소의 유사도가 0.85로 매우 높습니다. Graham 분석도 타당합니다: (1) 선행기술이 두 유형을 모두 개시, (2) 청구항이 단지 이들을 명시, (3) 통상의 기술자에게 자명한 설계 선택, (4) 특별한 기술적 효과 없음. 이는 명백한 103 거절 사안입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 11에 대한 103 거절은 강한 근거를 가지고 있습니다. US-2013226453-A1이 배경기술 섹션에서 'still images and/or streaming voice or video data'를 명시적으로 개시하고 있으며, 청구항 11의 'digital still image'와 'video stream'은 이와 실질적으로 동일합니다. 이는 모바일 멀티미디어 분야에서 공지된 표준 데이터 형식이며, task-based system에 이러한 표준 형식을 적용하는 것은 통상의 기술자에게 자명한 설계 선택입니다. Coverage score 0.8, confidence 0.85로 높은 수준의 anticipation이 있으며, 결합 동기도 명확합니다. Graham factors 분석도 논리적이고 구체적입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 11에 대한 103 거절은 선행기술 US-2013226453-A1이 디지털 정지 이미지와 비디오 스트림을 명시적으로 개시한다는 점에 근거합니다. 매핑 결과에서 element 11b와 11c가 각각 0.7의 유사도와 explicit match를 보입니다. 그러나 이는 본 출원의 명세서 background art 섹션에서 인용된 내용이며, 선행기술 자체가 작업 기반 멀티미디어 데이터 제공 시스템의 맥락에서 이러한 멀티미디어 타입을 개시하는지는 불분명합니다. 멀티미디어 형식의 선택이 공지된 설계 선택이라는 점은 인정되나, 작업 기반 시스템에 이를 적용할 명시적 동기는 약합니다. 따라서 근거의 강도는 moderate로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013226453-A1은 위치 공유 애플리케이션으로, 청구항들의 태스크 기반 멀티미디어 크라우드소싱 시스템과 기술 분야 및 구성이 근본적으로 상이함. 매핑 결과에서 대부분의 청구항이 coverage_score 0.25~0.45로 낮은 중첩도를 보이며, 핵심 구성요소들(태스크 정보 유지, 멀티미디어 데이터 유지, 제3자 요청 처리, 가격 정보, 결제 시스템 등)이 전혀 매칭되지 않음. 102 거절 근거로서는 명백히 부족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 모바일 애플리케이션, 위치 정보 처리, 클라이언트-서버 통신 등 일부 기술 요소를 개시하고 있어 표면적 유사성 존재. 그러나 결합 동기(motivation to combine)가 불명확함. 선행기술은 무료 P2P 위치 공유 서비스인 반면, 청구항은 상업적 멀티미디어 마켓플레이스로 기술적 목적과 비즈니스 모델이 완전히 다름. Graham 요소 분석에서 PHOSITA가 위치 공유를 태스크 기반 크라우드소싱으로 전환하는 것이 자명하지 않다고 판단됨. 다만, 일부 청구항(5, 8, 10, 12)에서 위치/시간 정보 처리 등 개별 기술 요소의 유사성은 존재하여 moderate 수준의 obviousness 가능성 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 태스크 기반 시스템 아키텍처, 멀티미디어 데이터 타입, 메타데이터 처리, 지리적 위치 기반 운영, 가격/결제 개념 등을 적절히 뒷받침하고 있음. Office Action에서도 모든 청구항이 112 요건을 충족한다고 명시됨. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들은 구체적인 기술적 구현(서버 장치, 클라이언트 애플리케이션, 통신 인터페이스, 메타데이터 처리 등)을 포함하고 있어 abstract idea로 보기 어려움. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on 'it would have been obvious' reasoning without sufficient technical teaching from the prior art. US-2013226453-A1 teaches location sharing in messaging contexts, while the claims require a task-based multimedia marketplace with comprehensive server-side management, commercial transaction features, and automated validation. The Office Action assumes that combining location-sharing messaging with marketplace features is 'routine optimization' and 'predictable modification,' but provides no specific teaching, suggestion, or motivation from the prior art or common knowledge that would lead PHOSITA to make this combination. The architectural transformation from peer-to-peer messaging to centralized marketplace, addition of task-based criteria management, pricing mechanisms, multi-party payment distribution, metadata validation, and geographical provisioning represent substantial functional and structural differences. The rejection conflates 'known elements exist separately' with 'combining them is obvious,' which is insufficient under KSR. The motivation statements are conclusory (e.g., 'well-known practice of creating commercial multimedia marketplaces') without evidence that such motivation would arise from the prior art itself. For claims 6-7 (pricing and payment), the rejection admits US '453 teaches nothing about commercial features, yet asserts obviousness based on general knowledge of e-commerce—this approaches impermissible hindsight reconstruction. The combination_threshold of 0.46 requires moderate motivation, which is not sufficiently established."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013226453-A1은 위치 공유 메시징 시스템에 관한 것으로, 청구항들이 청구하는 태스크 기반 멀티미디어 데이터 제공 시스템의 핵심 구성요소들을 명시적으로 개시하지 않습니다. 신규성 판단에서 모든 청구항이 novel로 판단되었으며, anticipating_refs가 없습니다. 102 거절 근거가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항(2-15)이 non-obvious로 판단되었습니다. 선행기술은 위치 공유 메시징에 관한 것이며, 청구항의 태스크 기반 멀티미디어 마켓플레이스 시스템과는 기술적 목적과 구조가 근본적으로 상이합니다. 특히 가격 정보(청구항 6, 7), 지불 메커니즘(청구항 7), 메타데이터 기반 검증(청구항 8, 10), 4자 시스템 아키텍처(청구항 15) 등은 선행기술에 전혀 개시되지 않았으며, 결합 동기가 명확하지 않습니다. combination_threshold=0.55를 고려할 때, 명시적 교시나 시사가 필요하나 선행기술은 이를 제공하지 않습니다. 103 거절 근거가 매우 약합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action 분석 결과, '모든 청구항이 § 112의 기재요건 및 실시가능요건을 충족한다'고 명시되어 있습니다. 명세서가 청구항 요소들(태스크 정보 기준, 멀티미디어 데이터 유형, 클라이언트-서버 아키텍처, 메타데이터 처리, 지리적 위치 기반 프로비저닝)에 대한 적절한 뒷받침을 제공하고 있습니다. 112 거절 근거가 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들은 태스크 기반 멀티미디어 데이터 제공 방법, 시스템, 장치, 컴퓨터 프로그램에 관한 것으로, 구체적인 기술적 구현(클라이언트-서버 아키텍처, 메타데이터 처리, 위치 검증, 지불 메커니즘)을 포함하고 있습니다. Alice/Mayo 테스트 하에서 abstract idea로 볼 근거가 약하며, 'significantly more'를 제공하는 것으로 판단됩니다. Office Action에서도 § 101 거절이 없다고 명시되어 있습니다. 101 거절 근거가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013226453-A1은 location/time 기반 메시징 시스템을 개시하나, task-based multimedia data marketplace의 핵심 개념과는 거리가 있음. 선행기술은 location sharing event와 message parsing에 초점을 맞추고 있으며, 본 출원의 '작업 정의 → 멀티미디어 제출 → 제3자 요청 → 결제'라는 marketplace 구조를 직접 교시하지 않음. 진보성 판단에서 제시된 결합 동기의 상당 부분이 'common sense', 'design choice', 'routine practice' 등 일반론에 의존하고 있어, 구체적 교시나 시사가 부족함. 특히 Claims 6-7의 pricing/payment 기능은 선행기술에 전혀 개시되지 않았으며, 단순히 '상업화하면 당연히 가격을 붙인다'는 논리는 KSR 이후에도 신중하게 적용되어야 함. Claims 2-5의 요청 방식(all/some/future data)과 criteria 확장은 선행기술의 기본 기능에서 예측 가능한 변형으로 볼 여지가 있으나, task information이라는 조직화 개념이 선행기술에 명시되지 않아 결합의 자명성이 약화됨. Claims 8-12의 구현 세부사항은 routine implementation으로 볼 수 있으나, 전체 시스템의 맥락에서 판단해야 함. 전반적으로 진보성 거절 근거는 존재하나 강도는 중간 수준이며, 명세서의 전체적 기여와 선행기술과의 실질적 차이를 고려할 필요가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 모든 청구항이 신규한 것으로 평가되었습니다. US-2013226453-A1은 위치 공유 및 메시징 통합을 개시하지만, 태스크 기반 멀티미디어 시스템의 핵심 구성요소(태스크 정의, 멀티미디어 수집, 제3자 요청/응답 구조)를 명시적으로 개시하지 않습니다. 선행기술과의 차이가 명확하므로 102 거절 근거는 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항이 비자명한 것으로 평가되었습니다. US-2013226453-A1에서 청구항의 발명으로 도달하기 위해서는 (1) 2자 통신을 3-4자 구조로 전환, (2) 위치 공유를 태스크 기반 멀티미디어 마켓플레이스로 전환, (3) 상업적 프레임워크(가격, 결제) 추가, (4) 메타데이터 검증 및 지리적 필터링 추가 등 구조적·기능적 변경이 필요합니다. 선행기술은 개인 간 위치 공유에 초점을 맞추며, 상업적 멀티미디어 마켓플레이스로의 결합 동기가 명확하지 않습니다. combination_threshold=0.33이지만, 결합 동기의 부재와 구조적 차이로 인해 103 거절 근거는 약합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서 검토 결과 모든 청구항이 112 요건을 충족합니다. 명세서는 태스크 기반 시스템, 다중 사용자 역할, 클라이언트-서버 아키텍처, 위치 기반 기능, 메타데이터 처리, 멀티미디어 유형, 상업적 측면을 적절히 기재하고 있습니다. 청구항 용어는 명세서에 명시적으로 뒷받침되거나 당업계에서 잘 이해되는 개념입니다. 112 거절 근거는 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "특허적격성 검토 결과 문제가 없습니다. 청구항은 서버 장치, 통신 인터페이스, 프로세서, 메모리, 클라이언트 애플리케이션 등 구체적인 기술적 구현을 다루며, 추상적 아이디어가 아닌 구체적 기능을 수행하는 시스템/방법을 청구합니다. 101 거절 근거는 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 11에 대한 103 거절 근거는 일정한 논리적 타당성을 갖추고 있습니다. US-2013226453-A1이 카메라와 스트리밍 비디오를 개시하고, 본원 명세서 배경기술도 디지털 이미지와 비디오가 공지 기술임을 인정하고 있어, 표준 멀티미디어 형식의 적용은 통상의 기술자의 일반적 설계 선택으로 볼 여지가 있습니다. 그러나 청구항 11은 독립항이 아닌 종속항으로서, 청구항 1의 task-based multimedia system이라는 특정 맥락 내에서 디지털 이미지와 비디오 스트림을 명시한 것입니다. 선행기술은 location sharing context이고 본원은 crowdsourcing marketplace context로, 단순히 공지된 형식을 나열한 것 이상의 의미가 있을 수 있습니다. KSR의 common sense 기준을 적용할 수 있으나, task-based crowdsourcing이라는 새로운 시스템 맥락에서의 특정 멀티미디어 형식 선택이 단순한 design choice인지는 해석의 여지가 있습니다. 증거의 강도는 moderate입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies on combining US-2013226453-A1 (a P2P location sharing and messaging app) with the claimed task-based multimedia marketplace system. However, the motivation to combine is insufficiently supported by explicit teaching or suggestion in the prior art. The Office Action characterizes the claimed features as 'predictable variations' and 'routine optimizations,' but the prior art focuses on real-time location sharing between users, not on a centralized marketplace for multimedia content with distinct roles (task definer, content provider, requester) and commercial transaction infrastructure. The key differences include: (1) US '453 is a P2P social app without multimedia content management, storage, or marketplace features; (2) adding comprehensive metadata criteria (claims 5-6), pricing mechanisms (claims 6-7), payment distribution (claim 7), and future content reservation (claim 4) represents a fundamental business model shift, not a design choice; (3) the three-tier architecture (claim 9) and four-component system (claim 15) require architectural redesign beyond simple extension; (4) automated geographic verification for content approval (claims 8, 10) serves a different technical purpose than displaying location to users. The combination threshold (0.52) requires clear motivation, but the Office Action relies on general statements like 'known trend' and 'common knowledge' without specific evidence that combining location sharing with multimedia marketplaces was obvious to PHOSITA in 2014. The claimed invention addresses a crowdsourcing content platform problem (matching task-based content supply with demand), while US '453 addresses a communication problem (sharing location events). The technological fields overlap minimally, and the motivation to transform a free social app into a commercial marketplace with complex multi-party transactions is not self-evident from the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 11에 대한 103 거절 근거는 강력함. (1) 명세서 자체가 BACKGROUND ART에서 디지털 스틸 이미지와 비디오 스트림이 공지된 멀티미디어 포맷임을 명시적으로 인정 (2) 2014년 출원 시점에 이러한 포맷은 모바일 멀티미디어 시스템에서 표준적으로 사용 (3) 청구항 11은 청구항 1에 단순히 공지된 멀티미디어 데이터 유형을 추가한 것으로, 이는 통상의 기술자에게 자명한 설계 선택 (4) Graham 분석이 적절히 수행되었으며, 예측 불가능한 결과나 2차적 고려사항이 없음. 비록 청구항 1이 비자명이더라도, 청구항 11의 추가적 한정사항(디지털 이미지/비디오 스트림)은 공지상식에 해당하여 전체적으로 자명함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 2-3 recite requesting all or some multimedia data matching criteria. US-2013226453-A1 explicitly teaches criteria-based data provision and client applications accessing services. Database query functionality (fetching all/some records matching criteria) is fundamental to data retrieval systems. The combination is straightforward with clear motivation. Evidence is strong: prior art + common knowledge = obvious implementation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 4 requests future multimedia data. US-2013226453-A1 claim 12 explicitly teaches 'determining a future time commitment' and 'generating a notification reminder of the future time commitment.' The reference directly discloses future time functionality. Combining this with task-based multimedia requests is a predictable application. Evidence is strong: explicit teaching in prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 5 lists comprehensive criteria including subject, location, users, times, ownership. US-2013226453-A1 explicitly teaches location and time criteria. The additional criteria (subject, users, ownership) are characterized as 'standard metadata fields' analogous to Dublin Core. While metadata standards are known, the specific combination for task-based multimedia is not explicitly taught. The obviousness relies on 'routine practice' assertion. Evidence is moderate: partial prior art teaching + common knowledge assertion."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 6-7 add pricing and payment processing. US-2013226453-A1 does not disclose pricing. The rejection relies entirely on: (1) specification mentions 'potential buyers,' and (2) common knowledge of e-commerce pricing/payment systems. While commercial context suggests pricing is natural, the prior art provides no technical teaching of pricing mechanisms for multimedia services. The obviousness depends on applying business methods to the technical system. Evidence is moderate: no prior art teaching, reliance on commercial common sense."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 8 validates location metadata against criteria. US-2013226453-A1 teaches 'importing location information' and 'parsing message to determine location.' Validation (checking data against requirements before acceptance) is fundamental to data management. The specification emphasizes 'accuracy and reliability.' Evidence is strong: prior art teaches location handling + validation is routine quality control."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 9 specifies client-server architecture. US-2013226453-A1 explicitly states: 'services are typically accessed via a web browser or using a client application made specifically for the purpose of accessing the service.' The reference directly teaches the claimed architecture. Client-server is the standard implementation for networked services. Evidence is strong: explicit prior art teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 10 adds location-based task provisioning (geofencing) and geographic approval. US-2013226453-A1 teaches 'location sharing event' and 'displaying a map,' but does not explicitly disclose geofencing or location-based task distribution. The rejection relies on characterizing geofencing as 'standard in mobile applications since early smartphone era.' While geofencing is known technology, applying it to task-based multimedia distribution requires some integration effort. Evidence is moderate: partial prior art teaching + common technology assertion."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 11 specifies still images and video streams. US-2013226453-A1 explicitly discloses: 'camera and voice recording means for producing still images and/or streaming voice or video data.' The reference directly teaches both claimed multimedia types. Evidence is strong: explicit prior art disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 12 specifies client app capturing multimedia and metadata from device elements. US-2013226453-A1 teaches client applications and context analysis. Mobile apps routinely access device metadata (GPS, timestamps, camera EXIF, device ID). This is fundamental mobile app functionality. Evidence is strong: prior art + ubiquitous practice."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 13-14 recite server apparatus/computer program with standard components (processor, memory, communication interface) performing routine data operations (receive, store, transmit). US-2013226453-A1 teaches 'Services exist in networks for managing data, e.g. multimedia data, received from mobile apparatuses' and 'computer-readable instructions.' The claims recite conventional server architecture without inventive contribution. Evidence is strong: prior art teaches services + standard implementation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 15 integrates four-party system: task definer, content creator, server, content consumer. US-2013226453-A1 teaches mobile devices with cameras creating multimedia, network services managing data, and client apps accessing services. The rejection characterizes the four-party architecture as 'routine system integration' of known components, analogizing to stock photography and marketplace platforms. While each component is known, the specific four-party task-based workflow represents a particular system integration. Evidence is moderate: components known, but integrated system design requires some integration effort."
+        }
+      ]
+    }
+  ]
+}

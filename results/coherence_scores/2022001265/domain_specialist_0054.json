@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies the Graham/KSR framework, including explicit scope-and-content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation-to-combine analysis across all claims."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout novelty, obviousness, office action, and final decision stages, conclusions are tied to specific claim elements and specific prior art references (US-2020296365-A1 and US-2013101018-A1) with element-level comparisons such as luma APS index parsing and chroma ALF."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Several claims (e.g., claims 8, 16, 26, 34) are found novel at the §102 stage (with no anticipating refs) yet are still rejected under §103 without citing any prior art reference in the combination_refs field, making the §103 rejection appear to rest on no prior art basis, which contradicts the §102 novelty grant without adequate §103 rationale bridging the gap."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a moderate strictness of 0.523 and combination_threshold of 0.48, the examiner consistently rejects all claims while acknowledging mid-range confidence (0.7–0.85), which is consistent with a mildly strict, neutral examiner resolving ambiguity toward rejection without being extreme in either direction."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims follows directly from the accumulated §103 obviousness findings in the novelty and obviousness stages, with the final decision explicitly referencing the same prior art combinations and reasoning developed throughout the earlier stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 21017,
+      "output_tokens": 412,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

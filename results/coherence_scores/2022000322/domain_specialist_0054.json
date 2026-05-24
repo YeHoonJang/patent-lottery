@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR §103 framework throughout all stages, including explicit Graham factor analysis (scope and content, differences, PHOSITA level, secondary considerations) for each claim, with no statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection references specific claim elements (e.g., PC5_tech parameter, ProSe application ID, discovery filter, TTL) and ties them to specific prior art disclosures in identified references (US-2019261132-A1, US-2018279110-A1, US-2018279394-A1)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage is consistent with the §102 novelty findings — claims found not novel are also found obvious, and where §102 analysis discusses implicit or combined teachings, the §103 analysis builds on this without contradiction; claims 3 and 15 show nuanced treatment where novelty was rejected at 0.85 confidence but obviousness was initially found non-obvious before the office action reversed this with additional reasoning."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.523 (moderate) and combination_threshold=0.48 (moderate), the examiner resolves borderline cases like claims 3 and 15 toward rejection in the final decision with stated rationale, consistent with a mid-range examiner who neither freely grants nor rejects without engagement — and the overall balanced treatment reflects this profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102 and §103 stage findings, which consistently identified prior art coverage across all claims, and the final decision explicitly acknowledges the moderate strength evidence for claims 3/15 while maintaining rejection based on stated reasoning."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11245,
+      "output_tokens": 429,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

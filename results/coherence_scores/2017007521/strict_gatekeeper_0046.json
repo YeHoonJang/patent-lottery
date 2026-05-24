@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis consistently applies Graham v. John Deere factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) and KSR-style motivation-to-combine reasoning throughout §103 rejections, while §102 novelty uses element-by-element anticipation analysis against the single reference."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific claim language (e.g., 'predetermined priority ordering of acceptance,' 'weight value,' 'scan line order') and maps them to specific disclosures in US-2011210915-A1 (e.g., 'centroid pixel within each segment,' 'probability that each pixel is associated with one or more segments,' GrabCut/background subtraction)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found not anticipated at §102 (e.g., claims 2, 4, 5, 6, 8, 9, 10, 13) are then subjected to §103 obviousness analysis with additional rationale (e.g., common knowledge in image processing, routine design choices), and the §103 conclusions for claims like 13 that were found novel at §102 provide fresh reasoning rather than simply re-asserting anticipation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner resolves ambiguous elements (e.g., scan-line ordering, reset operation, threshold filtering) toward rejection by characterizing them as routine design choices or well-known optimizations, consistent with a strict gatekeeper profile, while allowing only claims with clearly non-obvious features (claims 4, 5, 6, 16, 19)."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject the majority of claims and allow claims 4, 5, 6, 16, and 19 directly follows the stage-level §102 and §103 analyses, with the allowable claims corresponding precisely to those found non-obvious in the obviousness stage and the rejected claims corresponding to those found obvious or anticipated."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017007521",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 19697,
+      "output_tokens": 497,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

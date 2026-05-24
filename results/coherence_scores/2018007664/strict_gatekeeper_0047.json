@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage uses element-by-element anticipation analysis comparing specific claim features (e.g., 'deps' track reference type, view identifier box) against prior art disclosures, and the §103 stage explicitly applies Graham factors (scope/content, differences, PHOSITA level, secondary considerations) with motivation-to-combine analysis, correctly invoking the recognized legal frameworks for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language ('deps' track reference type, 'view identifier box', '3VC Depth Resolution box'), specific prior art references (US-2013235152-A1, US-2011243233-A1), and contrast those disclosures against particular claim limitations, providing evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness analysis consistently builds on the §102 novelty findings — where §102 found the 'deps' type not explicitly disclosed, §103 likewise finds no motivation to combine to reach that feature — with no contradictions between stages and the office action and final decision directly tracking the prior stage conclusions."
+  },
+  "item4": {
+    "score": 0,
+    "justification": "With a strictness of 0.818, this examiner should resolve ambiguous evidence toward rejection, yet every single one of the 15 claims is granted without any claim facing even a provisional rejection or close scrutiny, and the final decision summary even acknowledges the high strictness profile but summarily dismisses it, which is inconsistent with strict-gatekeeper behavior on a comprehensive 15-claim application."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision follows directly from the accumulated stage analyses, which found all 15 claims novel and non-obvious, and the office action and final decision summary articulate specific reasons (absence of 'deps' type, view identifier box, 3VC-specific structures in prior art) that mirror the prior-stage findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018007664",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13237,
+      "output_tokens": 462,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

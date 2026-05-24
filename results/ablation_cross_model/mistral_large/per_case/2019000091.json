@@ -1,0 +1,690 @@
+{
+  "case_id": "2019000091",
+  "proceeding_number": "2019000091",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1 explicitly discloses all elements of Claim 8, including POI-based requests and coordinate data transmission. Anticipation under § 102 is clear and well-supported by the reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "While the combinations of prior art references and general knowledge provide a plausible motivation to combine for each claim, the reliance on general knowledge for some claims (e.g., 11, 12, 14, 18) introduces interpretive flexibility. However, given the low combination_threshold (0.34) and strictness (0.79), the rejections are maintained. The reasoning for claims like 2, 3, 4, 6, 7, 9, 10, 13, 15, 16, 17, 19 is stronger due to direct disclosures in prior art, while claims like 5, 11, 12, 14, 18 rely more on general knowledge."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            7,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1은 청구항 2, 4, 7, 10, 17의 핵심 요소(속도 제한 기반 속도 프로파일 결정, 헤딩 기반 데이터 경계 결정, 회전 시 속도 조정 등)를 명시적으로 공개합니다. 선행기술과의 중첩이 명확하여 거절 근거가 강합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012281091-A1은 청구항 3과 9의 데이터 전송 속도 및 지오펜스 결정 기술을 명시적으로 공개합니다. 선행기술과의 일치도가 높아 거절 근거가 강합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1은 청구항 8과 16의 POI 요청 처리 및 지오펜스 기반 데이터 요청 기술을 명시적으로 공개합니다. 거절 근거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술들의 결합은 논리적이지만, 결합 동기(motivation to combine)가 일부 청구항(예: 6, 9)에서 다소 추상적입니다. 그러나 해당 분야의 통상의 기술자 수준을 고려하면 결합이 자명하다고 볼 수 있어 거절 근거로 유지합니다. strictness=0.88에 따라 moderate 근거도 거절로 처리합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014278090-A1이 청구항 8의 모든 요소를 명시적으로 개시하고 있으며, anticipation 판단 근거가 명확함. confidence=0.75로 증거가 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014278090-A1이 청구항 8의 모든 요소를 개시하고 있으며, 결합 동기가 명확함. combination_threshold=0.68 이하로 판단되며, confidence=0.75로 근거가 충분함."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_number": 5,
+          "strength": "moderate",
+          "reasoning": "'semi-local data sector'라는 용어가 명세서에서 명확히 정의되지 않아 모호성이 존재함. 그러나 출원인의 기술적 기여가 인정되며, 보정을 통해 해결 가능한 수준임. strictness=0.25에 따라 보정 제안으로 처리."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014278090-A1이 Claim 8의 모든 요소를 명시적으로 개시하고 있으며, 증거가 명확함. 신규성 결여로 인한 거절 근거는 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014278090-A1이 POI 요청 처리 및 좌표 데이터 제공 기능을 개시하고 있으나, Claim 8의 요소들을 결합할 동기가 명시적으로 제시되지 않음. combination_threshold=0.72를 고려할 때, 결합 동기가 명확하지 않아 근거 강도는 moderate임."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "'semi-local data sector'라는 용어가 명세서에서 명확하게 정의되지 않았으나, 출원인의 기술적 기여가 일부 인정됨. strictness=0.29를 고려할 때, 보정 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 6, 7, 8, 10, 13, 17, and 20 are supported by clear disclosures in the cited prior art (US-2014121932-A1, US-2014278090-A1, US-2012281091-A1). The limitations of these claims are either explicitly or implicitly disclosed, leaving little room for interpretation. Given strictness=0.89, these rejections are maintained."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 15, 16, and 19 show similarities to prior art but require some interpretation (e.g., 'projected vehicle slow-down when turning' or 'geo-fence sufficient to encompass at least one turn or exit'). While the prior art is relevant, the overlap is not as direct as other claims. However, given strictness=0.89, these rejections are maintained."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 6, 7, 8, 10, 13, 15, 16, 17, 19, and 20 are combinations of well-known elements in the field of vehicle navigation and data management. The motivation to combine is clear, and the differences are minimal. Given combination_threshold=0.45 and strictness=0.89, these rejections are maintained."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 4 and 15 rely on interpretations of prior art that may not be explicit (e.g., 'adjust the received speed to accommodate for projected vehicle slow-down when turning'). While the motivation to combine exists, the confidence in obviousness is lower. However, given strictness=0.89, these rejections are maintained."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks clarity and detail for claims involving 'semi-local data sectors' and 'projected vehicle slow-down when turning.' While the claims may be novel, the written description does not sufficiently enable them. Given strictness=0.89, these objections are maintained, and the claims are rejected under § 112."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            6,
+            8,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1과 US-2014121932-A1의 결합은 geo-fence 정의 및 차량 속도/헤딩 기반 데이터 요청 트리거링을 명시적으로 개시하며, 결합 동기가 명확합니다. 통상의 기술자가 쉽게 도출할 수 있는 설계 선택으로 판단됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012281091-A1은 고대역폭 연결을 통한 데이터 전송 속도 고려를 명시적으로 개시하며, 데이터 세트 크기 기반 다운로드 시간 결정은 통상의 기술자가 쉽게 도출할 수 있는 사항입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1과 US-2014278090-A1의 결합은 회전 시 감속 고려 및 geo-fence 정의를 개시하지만, 'sideward of a vehicle heading'의 모호성으로 인해 112 거절도 병행됩니다. 진보성 근거는 강하지만 112 이슈로 인해 보정이 필요합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1은 속도 제한 기반 속도 프로파일 결정을 명시적으로 개시하며, 통상의 기술자가 쉽게 도출할 수 있는 사항입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1은 개별 도로의 속도 제한 기반 속도 프로파일 결정을 명시적으로 개시하며, 통상의 기술자가 쉽게 도출할 수 있는 사항입니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "'semi-local data sector'의 정의가 명세서에서 불분명하며, 도면에서도 명확히 설명되지 않아 112 거절 근거가 됩니다. 보정이 필요합니다."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "claim_numbers": [
+            4,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 4의 'sideward of a vehicle heading' 및 Claim 15의 'sufficient to encompass'는 모호하여 112 거절 근거가 됩니다. 보정이 필요합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "진보성 판단 근거는 대부분 선행기술의 결합과 공지기술의 활용을 기반으로 하고 있으나, 결합 동기(combination_threshold=0.46)의 기준이 낮아 통상의 기술자가 쉽게 도출할 수 있다는 해석에 의존하고 있음. 특히 청구항 5, 9, 11, 12, 14, 18, 20은 선행기술에서 직접 개시되지 않은 요소들이 포함되어 있으나, 공지기술의 결합으로 자명하다고 판단됨. 그러나 이러한 판단은 다소 추상적이며, 구체적인 결합 동기가 명확하지 않은 경우 있음. strictness=0.47에 따라, 근거의 강도가 moderate인 경우 출원인에게 보정 기회를 제공하는 방향으로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            10,
+            17,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌(US-2014278090-A1, US-2014121932-A1)이 청구항의 모든 요소를 명시적으로 또는 내재적으로 개시하고 있으며, confidence가 0.9 이상으로 높음. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            7,
+            9,
+            13,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 문헌과 공지기술의 결합으로 진보성 판단이 이루어졌으나, 결합 동기의 명확성 및 설계 선택의 자명성에 대한 해석 여지가 있음. confidence가 0.65~0.7로 중간 수준. strictness=0.55에 따라 일부 청구항은 보정 또는 추가 설명을 통해 극복 가능할 수 있으나, 현재 상태에서는 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            6,
+            11,
+            12,
+            14,
+            16,
+            18,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 명시적으로 개시되지 않은 구체적인 기술적 개선이 포함되어 있으며, 결합 동기가 부족함. confidence가 0.8 이상으로 높으며, 진보성 판단 근거가 약함. strictness=0.55에 따라 허여 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            8,
+            10,
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 6, 8, 10, 17, 18, and 19 are based on combinations of prior art that disclose overlapping functionalities (e.g., geo-fencing, speed limit-based profiling, and POI data transmission). While the combinations are logical, the motivation to combine is not explicitly disclosed in the prior art, leaving room for interpretation. Given strictness=0.46, the evidence is not overwhelmingly strong, but the rejection is maintained due to the reasonable likelihood of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 8 and 10 are explicitly disclosed in the cited prior art (US-2014278090-A1 and US-2014121932-A1, respectively). The evidence is clear and direct, leaving no room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of references provides a reasonable basis for obviousness, but the motivation to combine and the specific implementations of the claims (e.g., dynamic boundary adjustments, hierarchical data sets) leave some room for interpretation. The confidence scores (0.7-0.8) suggest moderate strength, but not overwhelming evidence. Given strictness=0.50, these rejections are maintained but with openness to applicant arguments or amendments."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            14,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 5, 14, and 20 were initially deemed novel and non-obvious, with no clear motivation to combine in the prior art. The confidence scores (0.8-0.85) support their allowability. These claims are granted."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014278090-A1 및 US-2014121932-A1이 청구항 8, 10, 17의 모든 구성요소를 구체적으로 개시하고 있음. 증거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술들의 결합이 논리적으로 보이지만, 청구항들의 차이점(예: 동적 경계선 확장, 회전 예측 기반 조정 등)은 해당 분야의 통상의 기술자가 쉽게 도출하기 어려운 수준임. 결합 동기의 명확성이 부족하여 strictness(0.52)에 따라 보정 가능성 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "'semi-local data sector' 및 'sufficient map data'의 정의가 불명확하고 명세서의 뒷받침이 부족함. 그러나 보정을 통해 명확화 가능하여 strictness(0.52)에 따라 보정 권고."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014278090-A1이 청구항 8의 모든 구성요소를 명시적으로 개시하고 있어 novelty 거절 근거가 명확함. 증거가 충분하여 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10,
+            17,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014121932-A1이 청구항 10, 17, 19의 모든 구성요소를 명시적으로 개시하고 있어 novelty 거절 근거가 명확함. 증거가 충분하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술들의 결합이 청구항의 특징을 암시하거나 부분적으로 개시하고 있으나, 결합 동기의 명확성과 자명성 판단에 다소 해석의 여지가 있음. 그러나 combination_threshold=0.52와 strictness=0.42를 고려할 때, 자명성 근거는 충분한 편임. 다만, 일부 청구항(예: 4, 5, 15)은 설계 선택의 범위를 약간 벗어날 가능성도 있으나, 전반적으로 103 거절을 유지할 만한 근거가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014278090-A1이 청구항 8의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.9로 높음. 신규성 부정 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술들의 결합 동기가 논리적이지만, 청구항들의 구체적인 구성(예: 'perimeter expansion', 'semi-local data sector')이 선행기술에서 명시적으로 개시되지 않았음. confidence가 0.68~0.8로 중간 수준이며, 통상의 기술자에게 자명하다고 단정하기에는 해석의 여지가 있음. strictness=0.52에 따라, 일부 청구항은 보정을 통해 구제 가능하다고 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "'semi-local data sector'라는 용어가 명세서에서 명확히 정의되지 않아 indefiniteness 문제가 있음. 그러나 보정을 통해 명확히 정의할 수 있는 여지가 있으므로, 거절 근거로는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            6,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of prior art references provides a logical motivation for obviousness, but the differences in claims (e.g., dynamic perimeter expansion based on speed limits, tolerance-based speed adjustments) require some creative effort beyond routine optimization. The confidence scores for these claims range from 0.7 to 0.95, indicating moderate strength. Given strictness=0.60, these rejections are maintained but with room for applicant argument or amendment."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "The terms 'semi-local data sector' and 'sufficient map data' lack clear definition in the specification. While this could be addressed through amendment, the current rejection is justified under 112. Given strictness=0.60, this rejection is maintained but could be overcome with clarification."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 and Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) under §103, with no cross-contamination between statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "All rejections and allowances reference specific claim language, specific prior art documents (US-2014213070-A1, US-2015303056-A1, US-2018358220-A1), and specific disclosed features (e.g., plasma power <300W, 0–100°C temperature, UV cure, disilane/trisilane precursors)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds claims 1–4, 17, 18, 19, 20 not novel (anticipated), but the obviousness stage reverses course and finds those same claims not obvious—then the office action rejects them under both §102 and §103 simultaneously, and the final decision moves to 'amend_suggested' for 17–20 despite the earlier §102 anticipation finding, without adequately reconciling this contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.523) and moderate combination threshold (0.48) are reflected appropriately: routine parameters receive strong §103 rejections while borderline combinations (claims 17–20, direct plasma) receive nuanced treatment with amendment suggestions rather than outright rejection or full allowance."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision flows logically from stage-level analyses: claims with explicit prior art disclosure are rejected, claim 7 (direct plasma, teaching away) is allowed, and claims 17–20 (moderate obviousness strength, technical advance not fully captured) receive amendment suggestions consistent with the obviousness weighing in the final decision section."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001845",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14971,
+      "output_tokens": 454,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

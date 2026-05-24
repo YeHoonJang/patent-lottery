@@ -1,0 +1,261 @@
+{
+  "case_id": "ABL-2020000764",
+  "proceeding_number": "2020000764",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.2857142857142857,
+  "amend_rate": 0.21428571428571427,
+  "reject_rate": 0.5,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012302167-A1은 입력 데이터에 응답하여 필기 입력 기능을 자동 활성화하며, 필기 입력을 수신하고, 출력 데이터를 생성하며, 파일을 생성하는 기술을 명시적으로 개시함. 청구항 1~7, 9, 11~19의 구성요소는 대부분 선행기술에 명시되거나 암시되며, 통상의 기술자가 필기 인식 엔진의 자동 실행, 입력 필터링, 파일 자동 생성, 드로잉 보존 등을 설계 선택으로 구현할 수 있다고 판단할 만한 충분한 동기가 존재함. 특히 사용자 편의성 향상과 즉시 응답성 보장을 위한 일반적인 관행으로서의 결합 동기가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 8, 10, 20의 '부팅 시점에 필기 인식 엔진 시작'은 선행기술에 직접적으로 개시되지 않으나, 모바일 시스템에서 백그라운드 서비스의 부팅 시 초기화는 일반적인 기술적 관행임. 즉시 응답성을 보장하려는 목적은 공지된 설계 목표이며, 이를 위해 엔진을 사전에 로드하는 것은 자명한 최적화로 간주될 수 있음. 다만, 선행기술이 명시적으로 '부팅 시 시작'을 교시하지는 않아, 약간의 창의적 걸음이 요구되며, 비예상된 효과에 대한 증거는 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으나, 그 근거는 '선행기술과의 동기 부족'과 '설계 철학의 차이'에 기반함. US-2012302167-A1은 사용자 트리거(핫키, 제스처)를 통해 필기 입력을 활성화하며, 이는 명백한 선행기술임. 그러나 출원 발명은 트리거 없이 자동 실행되는 엔진을 주장함. 선행기술의 동일한 기술 분야에서 배경 실행(background operation), 입력 필터링, 인식 실패 시 드로잉 저장 등의 기능은 공지 기술로 간주될 수 있음. combination_threshold=0.34로 낮은 기준임에도 불구하고, 결합 동기 부재를 이유로 obviousness를 부정한 것은 엄격한 심사 기준에 비춰 과도하게 출원인에게 유리한 판단임. motion-based touch filtering, boot-time service 시작, home screen에서의 입력 수신 등은 모바일 기기에서 일반적인 기술적 관행임. 따라서 obviousness 판단의 confidence(0.73~0.79)는 낮으며, 이는 weak 수준으로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012302167-A1은 사용자 입력에 기반한 필기 기능 활성화를 개시하고 있으나, 본 출원의 핵심인 '사용자 선택 없이 자동 실행' 기능과는 설계 철학이 상반됨. 결합 동기 부족하며, 통상의 기술자가 이를 결합하여 본 발명에 도달했다고 보기 어려움. 진보성 판단에서 confidence가 0.68~0.76 수준으로, 낮은 편이나 전반적으로 비자명성을 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 결합 동기 부재, 기술적 차이점, 그리고 2차적 고려사항을 고려하여 비자명성(non-obviousness)이 인정됨. US-2012302167-A1은 사용자 입력을 통한 활성화를 요구하지만, 본 출원은 자동 실행 및 백그라운드 운영을 특징으로 하며, 이는 전술한 선행기술의 설계 철학과 반대되는 always-ready 아키텍처를 채택함. 결합 동기(motivation to combine)가 명확히 존재하지 않으며, 당업자가 전력 소모, 오입력, UI 충돌 등의 문제로 인해 선행기술을 수정하여 본 발명에 도달할 동기를 갖지 못할 것으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012302167-A1은 청구항 1, 3, 4, 5, 7, 9, 11, 13, 15, 16, 17, 18의 모든 기능적 구성요소를 개시하며, 자동 실행, 필기 입력 수신, 문자 인식, 파일 저장, 비문자 입력의 드로잉으로 저장, 사용자 명령 없이 콘텐츠 자동 표시 등을 포함한다. 선행기술은 사용자가 전용 애플리케이션을 실행하지 않고도 필기 입력을 캡처할 수 있도록 하는 데 명확한 동기를 제공하므로, 결합 동기(motivation to combine)가 명확하고 강력하다. BRI 하에서의 기능적 등가성도 충분히 인정되며, PHOSITA가 이러한 시스템을 구현하는 것이 자명하다고 판단할 수 있다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012302167-A1이 청구항 1, 2, 3, 4, 5, 7, 9, 11, 12, 13, 15, 16, 17, 18의 모든 구성요소를 명시적 또는 암묵적으로 개시하고 있으며, 결합 동기 없이 단일 참조로 충분히 obvious 판단 가능. 선행기술과의 실질적 차이 없고, 통상의 기술자 수준에서 자명한 설계로, Graham 요소 전반에서 비자명성 결여가 명확함. confidence 수치 대부분 0.8 이상으로, 강한 근거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012302167-A1은 청구항의 모든 주요 구성요소를 개시하고 있으며, 자동 실행, 입력 수신, 문자 판단, 저장, 파일 생성, 드로잉 처리, 특정 터치 패턴 기반 활성화, 다양한 화면 상태에서의 동작, 부트 타임 초기화 등을 포함함. 개별 구성요소는 명시적이거나 기술적 관행 내에서 명백하며, 결합 동기(motivation to combine)는 단일 선행기술 내에서 충분히 도출됨. 특히 '사용자 선택 없이 자동 실행'은 하드웨어 키, 소프트키, 특정 터치 패턴에 의해 활성화되는 기능과 기능적으로 동일함. 필기 인식 엔진의 백그라운드 실행 및 즉시 반응 요구는 모바일 시스템 설계에서 일반적인 기술적 선택으로 간주됨. confidence 점수가 전반적으로 0.5 이상이며, 다수는 0.7 이상으로, 강한 근거가 존재함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012302167-A1은 입력 이벤트에 반응하여 필기 입력 기능을 활성화하고, 필기 입력을 수신하며 저장하는 전체 흐름을 개시하고 있음. 청구항 1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19의 구성요소는 선행기술에 명시되거나 암시되며, 사용자 편의를 위한 자동 실행, 홈 스크린에서의 입력 처리, 자동 표시 등은 통상의 기술자가 예측 가능하고 설계 가능한 수준. 결합 동기와 기대 성공 가능성 존재함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 결합 동기 부족, 선행기술과의 명확한 차이점, 그리고 장황한 비차이점 설명이 제시됨. US-2012302167-A1은 사용자 트리거를 요구하며, 본 출원은 자동 실행 및 백그라운드 운영, 홈 화면에서의 입력, 움직임 기반 필터링, 인식 실패 시 도면 저장 등을 포함하여 구조적·기능적으로 차별화됨. 결합 동기 없이 기술적 동기를 유추하는 것은 hindsight에 기반할 위험이 있음. combination_threshold=0.22 기준보다 높은 수준의 비자명성 확신(confidence 0.68~0.75)이 유지됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3, 12, 13, and 18 recite limitations involving 'unmoving touch input' or duplicate earlier claims without adding further limitation. The specification does not define or describe how 'unmoving touch' is detected (e.g., time threshold, motion algorithm), which is essential for enabling the invention. For claims 12 and 18, they merely repeat claims 11 and 5 without further limiting, violating § 112(d). These are strong written description and indefiniteness issues supported by clear lack of disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3 and 13 recite 'unmoving touch input' without defining what constitutes 'unmoving'—whether it is zero movement, sub-threshold displacement, or duration-based. The specification lacks quantitative or qualitative criteria, making the scope of the limitation uncertain to a PHOSITA. This indefiniteness is a clear 112(b) issue with strong support from MPEP § 2173.05(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대부분의 청구항에 대해 US-2012302167-A1이 핵심 기능을 개시하고 있으나, '자동 실행'과 '홈 스크린 입력', '드로잉 저장' 등의 특징은 선행기술의 명시적 개시 여부보다는 해석의 폭(BRI)에 의존하고 있음. 특히 입력 필터링, 피드백 제공, 데이터 보존 등의 동기는 일반적 목표로 간주될 수 있으나, 전체 시스템의 조합이 명백하다는 증거는 부분적으로 약함. 부팅 시 엔진 시작에 대한 obviousness 판단은 전력 소모와의 트레이드오프를 고려할 때 결합 동기가 다소 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으며, 근거로는 선행기술이 사용자 명령 없이 자동 실행, 부팅 시 기동, 홈 화면에서의 입력 수신, 움직임 기반 필기 판단, 인식 실패 시 도면으로 저장 등의 기능을 개시하지 않는다는 점이 제시됨. 그러나 이러한 기능들은 각각 모바일 기기에서의 사용자 편의성 향상이라는 공통 목적 하에 결합될 수 있는 공지 기술의 조합일 수 있음. 다만, 선행기술인 US-2012302167-A1이 명시적으로 사용자 트리거를 요구하고 있으며, 항상 켜져 있는(continuous background) 필기 인식 엔진을 개시하지 않음. 결합 동기(motivation to combine)가 명확히 존재하지 않으며, 전력 소모 및 시스템 간섭 우려로 인해 오히려 그러한 설계로 나아가기 어려운 기술적 장벽이 있음. 따라서 103 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2012302167-A1) requires user-initiated activation (e.g., hot key, gesture) to start handwriting input, while the claimed invention automatically executes the engine without user selection. The analysis concludes no motivation to combine or modify the prior art to achieve automatic, background execution due to concerns over power consumption and unintended input. However, these are design considerations rather than technical impossibilities. At strictness=0.60, the absence of explicit teaching is acknowledged, but the incremental nature of combining automatic execution with motion filtering, home screen input, and conditional storage does not rise to a strong obviousness rejection. The confidence scores (0.65–0.80) reflect moderate to high but not conclusive support for non-obviousness, placing the strength of the non-obviousness argument as weak under a strict regime that favors rejection when any plausible path exists."
+        }
+      ]
+    }
+  ]
+}

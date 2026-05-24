@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) across all claims, and the §102 stage performs element-by-element anticipation mapping to specific prior art disclosures."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language (e.g., 'adjusting ASR engine,' 'lexicon selection,' 'word weighting') and specific prior art citations (e.g., US-2014324428-A1 claim 14, [0032], [0035]), satisfying evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 stage finds all 20 claims anticipated (not novel), but the office action and final decision reject primarily on §103 grounds without adequately explaining the transition from full anticipation findings to an obviousness-based rejection—particularly for claims 1, 11, and 20 where the §102 stage found non-novelty (is_novel=false) yet the §103 stage found non-obviousness (is_obvious=false), creating an unexplained inconsistency since anticipation is a stronger finding than obviousness."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.603) and moderate combination threshold (0.566) are reflected in the trace: the examiner accepts single-reference anticipation for most claims, acknowledges some non-obvious distinctions (claims 1, 11, 20) without fully capitulating, and ultimately rejects while noting the ambiguity—consistent with a moderately strict pragmatist disposition."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the accumulated §102/§103 findings, noting that while claims 1, 11, and 20 present some challenge, the bulk of dependent claims are clearly obvious and secondary considerations are absent, providing a coherent rationale for the overall rejection."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018003455",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12436,
+      "output_tokens": 475,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

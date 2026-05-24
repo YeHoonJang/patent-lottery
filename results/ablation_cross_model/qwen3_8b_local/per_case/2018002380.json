@@ -1,0 +1,368 @@
+{
+  "case_id": "2018002380",
+  "proceeding_number": "2018002380",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses search trackers and bulk transfer mechanisms that functionally align with claimed suppression functionality. The motivation to combine is clear (reduce redundant computations), and Graham factors confirm minimal differences. Confidence scores (0.7–0.8) and explicit anticipation of multiple claims justify strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 15 uses functional language ('means') without sufficient structural details under 35 USC 112(f). This is a clear deficiency in written description, as the prior art does not provide adequate structure to support the claimed 'prediction suppression means'."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all claim elements (e.g., search trackers, miss indicators, buffer hierarchies) and provides clear motivation to combine (energy efficiency). Coverage scores >0.5 and explicit matches under strict scrutiny establish strong obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "While specification lacks specific implementation details for terms like 'history data' and 'quantitative thresholds', the claims are broadly enabled by prior art teachings. However, the absence of concrete examples weakens enablement under strict scrutiny."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013339693-A1은 분기 예측 억제 기술을 명확히 포함하며, 결합 동기(에너지 효율성 최적화)와 구조적 유사성(브랜치 타겟 버퍼, 서치 트래커, 억제 로직)이 명확히 제시됨. 결합 동기와 기술적 진보의 부족으로 인해 강한 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all claimed elements and the combination threshold (0.72) is met with clear motivation to reduce energy consumption. High confidence (0.7-0.8) in prior art alignment."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013339693-A1과의 결합 동기('resource optimization', 'historical behavior suppression')가 명확히 제시되어, 청구항 1 및 3의 기능은 당업자에게 당연한 수정 가능한 사항으로 판단됨. 결합 동기의 명확성과 선행기술의 구체적 기재로 인해 강한 근거로 평가."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'history data' 및 'prediction suppression circuitry' 용어에 대한 명세서 뒷받침이 부족함을 지적하나, 이는 기술적 구현의 구체성 부족으로 한정되며, 전체 청구항의 기술적 내용과는 관련성이 있음. 명세서의 부족한 부분이 전체 발명을 무효화하지 않으나, 중립적 판단이 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 branch target buffer 및 suppression 메커니즘 결합이 기술 통상자에게 명확한 동기로 이루어짐. Graham 요소 모두 충족하며 결합 동기 명확성 확보."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 'history data' 생성, 'suppress' 메커니즘, 'plurality'의 블록에 대한 명세서 뒷받침 부족으로 해석의 여지 있음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 핵심 요소를 명확히 포함하며 유사도 및 커버리지 점수 모두 높음."
+        },
+        {
+          "basis": "112_d",
+          "strength": "strong",
+          "reasoning": "means-plus-function 언어 사용 시 구조적 대응 없이 기능만 기술함으로써 명확성 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 REF1과의 결합 동기(에너지 절약, 파이프라인 효율성)와 Graham 요인(기술적 당업자의 이해 가능성, 이전 기술의 기능적 동등성)이 명확히 제시되어 결합 가능성과 동기 부여가 명확함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 REF1에 의해 예측되며, 커버리지 점수(0.58~0.85)와 기능적 동등성에 대한 명시적인 근거로 신규성 부재가 확정적임."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 'history data', 'subsequent blocks', 'means' 등은 구조적 정의 부재로 인해 설명이 불충분하나, BRI가 넓은 범위를 허용하므로 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1,2,4,6,8,10,12,14,16) show direct technical overlap with prior art (US-2013339693-A1) and clear motivation to combine for energy efficiency/accuracy. Graham factors confirm PHOSITA would find combination obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly discloses equivalent components (search trackers, bulk transfer logic) and provides clear motivation (energy efficiency) for combination. However, some claims (e.g., 3) involve specific limitations (e.g., 'two following blocks') that may require interpretation beyond direct overlap."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objection for claim 14 lacks concrete evidence from prior art analysis. The enablement issue is speculative without explicit deficiencies in the specification."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 1's history data structure (e.g., count, binary flag) is explicitly required by the Office Action, with confidence 0.8. The specification's lack of detail creates ambiguity, meeting the 'strong' threshold for 112(a) rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses overlapping elements (branch target buffers, search trackers, suppression mechanisms) with clear motivation (energy efficiency). Combination threshold (0.44) is met, and PHOSITA would recognize obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Functional terms like 'prediction suppression circuitry' lack structural definitions in the specification, creating ambiguity under 35 USC 112(b). Verification confirms specification deficiencies."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses branch target buffers and search trackers with history data, and the combination of these elements (branch prediction + history-based suppression) is an obvious variant under the prior art's disclosure. Coverage score (0.55) exceeds combination threshold (0.52), and motivation to combine is clearly stated."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims are directly anticipated or rendered obvious by the prior art (US-2013339693-A1) through functional equivalence, explicit disclosure, and clear motivation to combine. The Graham factors confirm the prior art's sufficiency and the PHOSITA's ability to apply the teachings."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail for terms like 'history data' and 'prediction suppression circuitry,' raising enablement concerns. However, the claims' technical effect (branch prediction suppression) is sufficiently described."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses equivalent components (branch target buffers, search trackers, history data) and provides clear motivation to combine (energy optimization, redundant operation reduction). High similarity scores (0.7-0.85) and Graham factors confirm obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims lack sufficient detail on 'history data scope' and suppression mechanisms, but prior art provides partial overlap. Moderate confidence in enablement due to abstract terminology."
+        }
+      ]
+    }
+  ]
+}

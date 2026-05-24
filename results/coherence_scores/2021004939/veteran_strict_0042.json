@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis, Graham/KSR factors (scope, differences, PHOSITA level, secondary considerations) for §103, and written description/enablement framework under §112(a)/(b) — each statute gets its own proper legal test."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'indicator indicating whether a non-IP data connection is used,' 'rate of data allowed'), specific prior art disclosures (US-2018324652-A1 claim 6, IWK-SCEF routing), and specification passages (¶0213, ¶0055) throughout all stages."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained: claims found not novel at §102 (e.g., claims 2, 5, 6) are confirmed obvious at §103 with the same rationale, claims found novel (7, 14) are not rejected under §102/§103 but instead rejected under §112, and the office action and final decision mirror these findings without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.793 and combination_threshold of 0.335 (easy combiner), the examiner rejects all claims, resolves ambiguous novelty findings (e.g., claims 15–17 with partial disclosures at confidence 0.60–0.75) toward rejection via §103, and accepts weaker motivation-to-combine arguments — all consistent with the strict/easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated stage analyses: §102 rejections for claims with high anticipation confidence, §103 rejections for claims with partial prior art overlap, and §112 rejections for claims 7, 14, 19, 24 that were found novel but lacking specification support — no reversal of prior conclusions occurs."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004939",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16813,
+      "output_tokens": 479,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

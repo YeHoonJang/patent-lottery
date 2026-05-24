@@ -1,0 +1,391 @@
+{
+  "case_id": "ABL-2018002356",
+  "proceeding_number": "2018002356",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "reject_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.32,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 청구항 1, 3, 5, 7, 9, 10 등에 해당하는 모든 구성요소를 개시하고 있으며, 통상의 기술자가 이를 결합하는 데 동기가 존재함. 바코드 및 모바일 기기 통합은 공지된 기술로, 진보성 부족이 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "QR 코드는 선행기술에서 명시적으로 개시되지 않았으나, 2D 바코드로서의 기능과 당시 공지된 기술 수준을 고려할 때 자명한 변형으로 간주될 수 있음. 다만, 특정 형식(QR)의 사용에 대한 직접적 시사 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "수량, 색상, 크기 등 제품 옵션 및 배송 세부 정보 선택은 선행기술의 초점과 다소 차이 있음. 그러나 전자상거래 시스템에서의 일반적 기능으로서, 통합의 동기가 충분히 부각되지는 않으나 설계 선택으로 간주 가능."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 13에서 QR 코드를 NFC로 수신한다는 것은 기술적으로 모순되며, 명세서가 이를 설명하지 않음. Claim 36 및 37도 광학 및 무선 수신의 통합 동작을 충분히 기재하지 않아, 명확성 및 서술 요건 미충족."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1이 청구항 1, 2, 3, 4, 5, 7, 9, 10 등 대부분의 구성요소를 명시적으로 개시하며, 기능적 동등성 하에서 'pay code', 'pay code provider' 등의 용어 차이는 명백한 변형에 불과함. 카메라 기반 바코드 판독, 모바일 장치, QR 코드 사용, 네트워크 기반 정보 조회, 결제 개시 등 모든 기술적 요소가 동일한 맥락에서 구현됨. 단일 참조에 의해 모든 요소가 커버되며, 결합 동기 필요 없음. 통상의 기술자 수준에서 자명한 실시였음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012296725-A1은 기계 판독 가능 코드, 거래 세부 정보 요청, 지불 옵션 선택 등을 개시하지만, 전체적인 통합 프로세스와 사용자 중심의 거래 완료 확인은 명확히 개시되지 않음. 조합 동기는 존재하나, 전체적인 방법의 기술적 통합은 자명하지 않을 수 있음. 낮은 엄격도와 목적주의 해석을 고려하면, 이 차이가 비자명한 기술적 진보일 가능성이 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "QR 코드는 바코드의 일반적인 변형으로 간주될 수 있으나, 출원 당시 모바일 결제 시스템에서 QR 코드를 '거래 세부 정보를 인코딩하는 지불 코드'로 사용하는 것은 자명하지 않을 수 있음. 그러나 공지기술 기반의 대체는 동일 기능을 제공하므로, 결합 동기는 약함. strictness=0.25 기준으로는 약한 거절 근거로 간주됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1은 대부분의 기본 기능(코드 읽기, 거래 세부 정보 요청, 결제 옵션 선택 등)을 개시하고 있으나, QR 코드의 특정 사용, 상품 속성 선택, 배송 세부 정보 선택, NFC와 광학 코드 리딩의 통합 등은 명확히 개시하거나 동기를 제공하지 않음. 이러한 요소들은 2011년 당시 POS 시스템의 일반적인 기술 수준(PHOSITA)에서 자명하지 않았으며, 특히 QR 코드와 NFC의 결합은 비전형적인 구현 방식임. 진보성 판단의 confidence가 0.7~0.85 수준으로, 완전한 자명성에는 미치지 못함. 그러나 기초적인 시스템 구성은 자명하므로, 일부 청구항에 대해선 자명성 판단이 유지될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 청구항 1, 3, 5, 9, 10, 12, 17의 모든 구성요소를 명시적으로 개시하고 있으며, 기계 판독 가능 태그, 바코드, 디스플레이 매체, 네트워크 기반 거래 정보 요청 등이 동일하게 기재되어 있음. anticipation에 충분한 근거 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모바일 기기의 카메라와 프로세서를 이용한 바코드/QR코드 판독, 결제 수단 선택, 제품 옵션 및 배송 정보 입력은 각각 공지기술 또는 선행기술과의 명확한 결합 동기 있음. 통상의 기술자에 의해 자명하게 구현 가능하며, 결합 동기(motivation to combine)가 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 42는 'transaction option'의 출처가 불명확하여 POSITA가 그 범위를 이해하기 어려우며, 청구항 44는 'the an'이라는 명백한 문법 오류로 인해 청구항의 명확성 결여. 명세서에서의 뒷받침 부족으로 인해 112(b) 위반은 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 기계 판독 가능 코드를 통해 거래 세부 정보를 획득하고, 중앙 컨트롤러와 통신하여 추가 정보를 요청 및 수신하며, 사용자 선택에 기반해 결제를 수행하는 전체 흐름을 명확히 개시함. 청구항 1, 3, 5, 7, 9, 10, 12, 14, 15, 16, 17의 구성요소들은 선행기술과 기능적으로 동등하거나 통상의 기술자에게 자명한 변형임. 결합 동기 존재하며, confidence 수준이 높음(0.8이상)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 13은 QR 코드와 NFC 수신을 동시에 요구하나, 이는 기술적으로 모순됨. QR 코드는 광학적 판독 방식이며 NFC는 근거리 무선 통신 방식으로, 동일한 'pay code'가 두 방식으로 수신되는 것은 명세서에 명확히 설명되지 않아 불명확함. 명세서도 이를 해소하지 못함. 따라서 112(b) 위반은 강력함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 44의 'the an associated transaction identifier'는 명백한 문법 오류로, 청구항의 명확성을 심각하게 저해함. 이는 written description 및 definiteness 요건을 위반하며, 명세서가 이를 보완하지 못함. 오류는 단순한 오타라도 청구항 해석에 혼란을 초래하므로 강한 근거로 인정."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1이 청구항 1, 2, 3, 5, 6, 7, 9, 10 및 이에 종속된 청구항들의 모든 구성요소를 실질적으로 개시하고 있으며, 결합 동기가 명확하고 기술적 차이가 없음. 카메라를 이용한 바코드 스캔, 결제 옵션 선택, 네트워크 통신 등은 모두 공지된 기술. 통상의 기술자도 용이하게 실시 가능하므로 명백성 판단은 강한 근거를 가짐."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 13, 37, 42, 44에 대해 명세서(¶0030, ¶0026, ¶0010, ¶0029)와의 불일치, 기술적 모순, 문법 오류 등이 명확히 지적되었으며, 소유권 전달 부족에 대한 구체적 근거가 있음. 특히 QR 코드와 NFC의 기술적 충돌, 데이터 흐름 방향의 모순, 조합에 대한 미개시 등은 명세서에 의해 명확히 뒷받침되지 않아 강한 112 거절 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 명확히 개시하고 있으며, 청구항 구성요소 대부분이 동일한 기술적 맥락에서 실현 가능함. 결합 동기 존재하며, 통상의 기술자 수준에서 자명한 구현으로 간주됨. confidence 값도 높음(0.7–0.87)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 13에서 QR 코드(광학식 심벌)와 NFC(전자 통신 방식)의 수신 방식이 기술적으로 모순됨. 명세서(¶0030)는 NFC가 '추가 거래 정보'만 전송한다고 명시하여, 지불 코드 자체를 NFC로 수신한다는 기재 부족. 서면 설명 요건 미충족."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 명확히 청구항 1 및 10의 모든 구성요소를 개시함. 선행기술의 구체적 단락([0023], [0025], [0031], [0034])이 기능적 단계와 일치하므로 신규성 결여 판단은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모바일 폰, 바코드, 결제 수단 선택, 디스플레이 매체 등에 관한 청구항들은 모두 선행기술에서 직접 개시되거나 통상의 기술수준에서 자명함. 결합 동기 존재하며, 기술적 맥락 일치."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 13의 QR 코드와 NFC의 결합은 기술적으로 모순됨(광학 스캔 vs 근거리 무선 통신). 명세서가 이를 뒷받침하지 않아 서면 설명 요구사항 미충족. 청구항 44의 'the an'은 명확성 결여, 청구항 22의 카테고리 불일치도 명세서에서 해결되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 청구항 1, 3, 5, 7, 9, 10 등에 포함된 모든 구성요소를 단일 문헌에서 명시적으로 개시하고 있으며, 'machine-readable tag'가 'pay code'로 해석 가능하고, 물리적 객체 또는 디스플레이에 표시되는 바코드 사용도 명시됨. 특히 청구항 10의 통신 네트워크를 통한 추가 정보 요청 및 처리 흐름도 동일하게 개시되어 있어 신규성 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012296725-A1은 휴대전화 기반 PCD를 언급하고 product scan data 수신을 개시하나, '카메라 및 프로세서'를 명시적으로 기재하지는 않음. 그러나 모바일 장치에서 광학 스캔을 수행하는 통상적인 방식이 카메라와 프로세서이므로, 결합 동기가 존재하나 약간의 해석 필요. strictness=0.50인 당신은 이 정도의 동기를 '명백함'으로 판단할 수 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 13은 QR 바코드를 NFC로 수신한다는 모순된 기재로 인해 명확성 부족. QR 코드는 광학 코드이며 NFC와는 물리적 수단이 상이함. 청구항 37, 42, 44도 구성 요소 간 관계나 문법 오류로 인해 명확하지 않음. 이는 명세서 기재 부족이 아닌 청구항 자체의 표현 문제로, 112 거절 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1이 청구항 1, 2, 3, 5, 7, 9, 10의 주요 구성요소를 포괄적으로 개시하고 있으며, 통상의 기술자가 결합할 수 있는 공지 기술의 범위 내에 있음. 결합 동기와 예측 가능성에 대한 근거가 명확하여 거절 유지가 정당함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 13의 QR 코드를 NFC로 수신한다는 기술적 모순은 명세서에서 뒷받침되지 않으며, 기술적 실현 가능성을 이해할 수 없게 하여 불명확함. 명세서에도 NFC와 광학 코드는 별도의 수단으로 설명됨. 112 거절은 강함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 22는 시스템 클레임이 메서드 클레임에 직접 종속되어 있어 112(d) 위반 가능성이 있으며, 명세서에서 구조적 연결 고리에 대한 설명이 부족하여 불명확함. 기술적 구조의 모호성으로 인해 강한 거절 근거로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1이 본 출원의 핵심 구성요소를 실질적으로 모두 개시하고 있으며, QR 코드 사용, 바코드 읽기, 거래 정보 표시 등은 통상의 기술자가 쉽게 결합 가능. 결합 동기가 명확하고, 기술적 맥락이 동일함. confidence 점수가 0.85 이상인 청구항들이 다수 포함됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 13은 NFC로 QR 코드를 수신한다고 기재하나, 명세서는 광학식 코드와 NFC를 별도 기술로 구분(¶0030), 기술적 모순 존재. 청구항 44는 'the an'이라는 명백한 문법 오류로 청구항 해석이 불가능하므로 written description 및 indefiniteness 문제 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 청구항 1, 2, 3, 5, 7, 9, 10 및 이에 종속된 청구항들의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, 모바일 장치를 이용한 전자 거래 처리, 바코드/기계 판독 가능 코드 활용, 사용자 선택 수신, 결제 완료 수신 등의 기능이 동일한 기술적 맥락에서 동작함. 결합 동기도 명확하여 obviousness 판단이 강함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 13은 QR 바코드를 NFC 장치로 수신한다고 명시하는데, QR 코드는 광학 이미지 기반이고 NFC는 근거리 무선 통신 기술로서 물리적/기술적 매커니즘이 상이함. 명세서에 이 둘을 통합하는 구체적 수단이나 변환 메커니즘에 대한 설명이 없어 서면 설명 요건 미달이 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1이 청구항 1, 3, 5, 7, 9, 10 등에 대해 모든 구성요소를 명시적으로 개시하고 있으며, BRI 해석하에서도 대응이 명확함. 신규성 상실 판단은 강력한 근거 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 2, 11, 19, 28, 31, 37은 선행기술에 묵시적으로 포함된 구성요소를 구체화한 것으로, 카메라와 프로세서를 가진 휴대전화는 당시 공지된 기술. 결합 동기 없이도 자명한 실시예로 간주 가능."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 13은 QR 코드를 NFC로 수신한다는 기술적으로 모순된 기재로, 명세서가 이를 뒷받침하지 않아 enablement 및 indefiniteness 문제 있음. 청구항 22는 범주 오류로 청구항 범위 불명확. 청구항 44는 문법 오류로 범위 해석 불가."
+        }
+      ]
+    }
+  ]
+}

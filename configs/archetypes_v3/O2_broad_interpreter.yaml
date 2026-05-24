@@ -1,0 +1,24 @@
+archetype_name: broad_interpreter
+archetype_type: orthogonal
+orthogonal_dimension: claim_breadth
+description: >
+  Orthogonal archetype isolating claim breadth. Interprets claims broadly under BRI,
+  increasing overlap with prior art. Tests how interpretation scope alone affects
+  102/103 rejection rates. [MPEP §2111, Kim et al. 2024]
+base_profile:
+  strictness: 0.50
+  claim_breadth: 0.80
+  combination_threshold: 0.50
+  seniority: 0.50
+  tech_specialization: 0.50
+  policy_stance: 0.50
+  legal_style: pragmatist
+  tech_domains:
+    - general
+noise_config:
+  strictness: 0.05
+  claim_breadth: 0.05
+  combination_threshold: 0.05
+  seniority: 0.05
+  tech_specialization: 0.05
+  policy_stance: 0.02

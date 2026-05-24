@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis for most claims and invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness rejections on claims 9 and 13, using the appropriate statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace consistently reference specific claim language (e.g., 'first portion,' 'connected configuration,' 'thermal trip,' 'TEST input device') and specific prior art disclosures from US-2014126158-A1 and US-2015123751-A1 with element-level comparisons."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a significant contradiction between stages: the §102 novelty stage finds claims 1–8, 10–12, 14–15 lack novelty (is_novel: false) and the obviousness stage confirms most are obvious, yet the final decision grants all of those claims on the same §102/§103 grounds without articulating why the earlier anticipation/obviousness findings were overcome, reversing prior-stage rejections without stated legal justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.248 (lenient advocate), the examiner consistently resolves ambiguity in favor of the applicant — finding non-obviousness for many claims despite weak distinctions, granting claims despite earlier anticipation findings, and using secondary considerations favorably — consistent with a lenient profile."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision grants claims 1–8, 10–12, 14–15 that were uniformly rejected under §102 (with high confidence 0.8–0.95) in the novelty and office action stages, without providing any new legal rationale or explanation for why those anticipation rejections no longer apply, making the grant decisions arbitrary reversals of the accumulated prior-stage findings."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2019004648",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14854,
+      "output_tokens": 472,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

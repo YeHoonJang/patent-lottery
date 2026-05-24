@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations, and motivation to combine) for every claim, and the office action explicitly invokes 35 U.S.C. §103 — no improper framework cross-contamination occurs."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout all stages reference specific prior art references (US-2020296365-A1 and US-2013101018-A1) with particular disclosures cited (e.g., 'multiple indicators are signaled in a tile group level,' 'one APS has one APS index,' 'determining whether to perform luma/chroma ALF') and map them to specific claim language."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage found most claims not novel (often combining two references, which is technically a §103 analysis even in that stage), but the §103 and office action stages consistently escalate to obviousness rejections for all claims without contradicting earlier findings — claims found novel at §102 (e.g., claims 8, 16, 18, 26, 34, 36) are then rejected as obvious with coherent additional rationale about conventional system components."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner profile shows high strictness (0.793) and low combination_threshold (0.335), which is consistently reflected in the trace: ambiguous disclosures (e.g., 'only luma filters' not explicitly disclosed) are resolved toward rejection, and weak motivation to combine (e.g., generic 'coding efficiency' rationale) is accepted to combine references, consistent with a strict examiner with an easy-combiner tendency."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims flows directly from the accumulated §102 and §103 stage analyses, which consistently found all claims either anticipated or obvious, and the final decision explicitly summarizes the strong §103 basis with reference to the same prior art and reasoning developed throughout."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 20331,
+      "output_tokens": 499,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

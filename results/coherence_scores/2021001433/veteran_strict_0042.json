@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR §103 obviousness framework throughout, including explicit scope-and-content, differences, PHOSITA level, and secondary considerations factors, with no improper conflation with §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every obviousness conclusion references specific claim language (e.g., 'installing executable software instructions,' 'MAC level protocols') and cites US-2012299509-A1 with specific disclosures (ZigBee, ZED/ZR/ZC roles, address assignment, data packet formatting) to justify each claim rejection."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage builds consistently on the §102 novelty findings: claims found not fully anticipated (e.g., claim 1 lacking explicit software installation disclosure) are then rejected under §103 with additional rationale about PHOSITA knowledge and predictable design choices, without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.793 and combination_threshold=0.335, the examiner appropriately resolves ambiguity toward rejection, accepts weak motivation to combine (e.g., 'public knowledge and design choice' suffices), and explicitly notes in examiner notes that 'even weak grounds support rejection' consistent with the strict/low-threshold profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated §103 obviousness findings across all claim groups, with claims 14 and 16 appropriately carved out as allowable based on the earlier obviousness stage finding them non-obvious (is_obvious: false), providing a coherent and non-arbitrary outcome."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001433",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17172,
+      "output_tokens": 411,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

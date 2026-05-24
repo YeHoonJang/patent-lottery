@@ -1,0 +1,352 @@
+{
+  "case_id": "2020006000",
+  "proceeding_number": "2020006000",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 8, 9, 15, 16 are clearly anticipated by US-2016140466-A1, which discloses all the elements of these claims. The confidence level is high (0.85-0.8) for these rejections."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The 112 rejections for claims 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 17, 18, 19, 20 are based on the lack of specific implementation details in the specification, but these were incorrectly applied in the Office Action by comparing to prior art rather than focusing on the written description itself. Given my strictness level (0.79), I would maintain these rejections as they identify potential issues with claim clarity."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2016140466-A1 is acknowledged to not explicitly disclose all the specific elements and combinations claimed in the application. Given the strictness of 0.88, the confidence level of 0.85 for novelty across all claims suggests a strong basis for rejection under 102."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016140466-A1은 리스크 평가 시스템의 기본 기능을 포함하지만, 청구항이 지리적 지역에 특화된 리스크 평가를 명시적으로 제시하고 있습니다. 결합 동기는 합리적으로 제시되었으나, 이 특화가 기술적 진보로 인정될 여지가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016140466-A1은 일반적인 위험 평가 시스템을 제시하며, 지리적 지역 기반의 데이터 소스 필터링은 통상의 기술자에게 자명한 확장으로 보이나, 지리적 지역 기반의 위험 평가가 선행기술에서 명확히 제시되지 않았기 때문에 해석의 여지가 남는다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 3, 10, 17은 그래픽 사용자 인터페이스와 관련된 기술적 세부 사항이 명세서에 누락되어 있으나, 이는 명세서 수정을 통해 해결 가능한 문제이다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 5, 12, 19의 시간 제한에 대한 기술적 뒷받침이 명세서에 누락되어 있으나, 이는 명세서 수정을 통해 해결 가능한 문제이다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 13, 20의 텍스트 파싱 메커니즘에 대한 구체적인 설명이 명세서에 누락되어 있으나, 이는 명세서 수정을 통해 해결 가능한 문제이다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 7, 14의 프로세스 중단 메커니즘에 대한 기술적 뒷받침이 명세서에 누락되어 있으나, 이는 명세서 수정을 통해 해결 가능한 문제이다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art US-2016140466-A1 clearly anticipates the claimed invention by teaching all the essential elements of the risk rating analytics system, including determining risk ratings, receiving unstructured text, selecting data from local sources, and adjusting risk ratings based on the data. The similarities in functionality and purpose strongly suggest a lack of novelty under 35 USC 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art US-2016140466-A1 teaches a system for risk categorization that includes determining risk categories, receiving information about risk sources, and configuring monitoring. The differences between the prior art and the claimed invention are primarily in the specific implementation details and the use of unstructured text for data selection. However, these differences are within the level of ordinary skill in the art, particularly given the general knowledge of using unstructured data in risk analysis. The motivation to combine or modify the prior art is clear, as it would be to improve the accuracy and specificity of risk ratings by incorporating more detailed operational data from the region."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are rejected under 35 U.S.C. § 102(a)(1) as being anticipated by US-2016140466-A1. The reference discloses a system for triaging and monitoring risk sources based on risk categorization, which includes determining category risk and inherent risk of a risk source, receiving information associated with the risk source, selecting data records from sources originating from a service provider, determining subsets based on the received information, and adjusting risk ratings based on these subsets. These features are sufficiently similar to the claimed invention, and therefore, the claims are not novel."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2016140466-A1 is cited as anticipating the claimed invention. The reasoning suggests that the elements of claim 1 are implicitly covered by the prior art, but the confidence level is 0.75, indicating some uncertainty. While the prior art does disclose a system for determining risk ratings, the specific application to geographic regions and use of unstructured text descriptions may not be explicitly disclosed, leaving some room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The Graham factors indicate that the differences between the prior art and the claimed invention (specific application to geographic regions and use of unstructured text) would have been recognized as design choices or routine modifications by a person having ordinary skill in the art. The motivation to combine is presented as applying known risk analysis methods to geographic regions to improve risk management strategies. The confidence level is 0.75, suggesting moderate strength for this rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The rejection under 35 U.S.C. §112(a) is based on the lack of clear definitions for key terms and insufficient explanation of specific algorithms and criteria. However, this rejection was marked as 'REMOVED' in the verification status, indicating that the evidence may not be sufficient. The reasoning points to deficiencies in the specification but does not provide specific evidence that these deficiencies make implementation impossible without undue experimentation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'operational risk', 'default risk rating', 'data sources originating from the geographic region' 등의 핵심 용어 및 과정에 대한 구체적 정의, 기준, 알고리즘 등이 누락되어 있으며, 통상의 기술자가 발명을 재현하는 데 어려움이 발생할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the prior art reference US-2016140466-A1, which teaches a system for risk categorization with elements similar to the claims. While the prior art doesn't explicitly mention geographic regions, the motivation to combine with geographic risk assessment is considered to be obvious to a person of ordinary skill in the art. The strength is moderate because the explicit focus on geographic regions in the claims is not directly taught by the prior art, requiring some interpretation of what would be obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016140466-A1이 청구항의 주요 요소를 암시적으로 가르치지만, coverage score가 0.4~0.65 범위로 다소 변동하며 명확한 일치가 아님"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서의 부재로 인해 뒷받침 부족 여부를 명확히 판단할 수 없으며, verification_status가 REMOVED됨"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art teaches a system for risk categorization and monitoring using data sources and textual information, which forms the basis for the claimed invention. The difference lies in the specific application to geographic regions and the use of unstructured text for selecting and adjusting risk ratings. The motivation to combine is based on the desire to apply existing risk management techniques to geographic regions, which is a predictable extension of the prior art. The use of NLP techniques for text analysis is a known technique in data processing that would be readily adopted by a person skilled in the art. However, the adaptation to geographic regions and the specific use of unstructured text may require some level of creativity or insight, which could be debated."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification does not provide a clear and concise definition for the term 'operational risk', which is a key term in the claims. Additionally, the method of 'adjusting the default risk rating' is not specifically described in the specification, which may make it difficult for one of ordinary skill in the art to practice the invention without undue experimentation. While these issues are valid, the lack of a detailed description may be addressed through amendments to the specification, rather than being an insurmountable barrier to patentability."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016140466-A1이 청구항의 모든 요소를 완전히 개시하므로, 신규성 거절 근거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 모든 기능을 개시하므로, 추가적인 창의적인 노력 없이 도출 가능하다는 진보성 거절 근거가 명확합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되었으나, 거절 근거로 제시된 용어들의 모호성이 명확히 입증되지 않았습니다. 단지 용어들이 '정의되지 않았다'고 주장할 뿐, 통상의 기술자가 실시에 어려움을 겪는 구체적 사례가 제시되지 않았습니다."
+        }
+      ]
+    }
+  ]
+}

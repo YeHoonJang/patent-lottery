@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR §103 factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) throughout the obviousness analysis for all claims, using the correct legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout all stages reference specific claim elements (send/receive buffers, assembler, path table, congestion window, feedback loop) and tie them to specific disclosures in US-2015245409-A1."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found novel at §102 (3, 4, 5, 10, 11, 12, 16) are then rejected under §103 with explicit additional rationale (e.g., feedback loops as general design principle, link aggregation as known art), avoiding contradictions with prior-stage findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness of 0.523 (moderate) and appropriately reaches rejection but acknowledges 'moderate' strength for assembler feedback and per-packet multipath transmission, reflecting balanced rather than aggressive rejection consistent with a mid-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims follows directly from the accumulated §103 findings, with the summary explicitly acknowledging that strong and moderate rejection grounds collectively justify the reject decision across all claims."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12843,
+      "output_tokens": 336,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

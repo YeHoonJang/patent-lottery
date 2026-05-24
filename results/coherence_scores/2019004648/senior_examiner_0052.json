@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences from claimed invention, PHOSITA level, secondary considerations) across all claim analyses, and the §102 anticipation analysis uses element-by-element comparison against specific prior art references."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Reasoning throughout all stages references specific claim language (e.g., 'immovable,' 'engagement surfaces,' 'retracted/extended position'), specific prior art disclosures (latch plate and cam in US-2014126158-A1, Thomson drive in US-2015123751-A1), and cites specific reference numbers for each conclusion."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The office action issues both a §102 anticipation rejection and a §103 obviousness rejection for the same set of claims using a combined reference approach, which is legally improper since anticipation under §102 requires a single reference disclosing all elements — using a combination of two references is a §103 argument, not §102 — and the novelty stage itself found claims 1 and 2 non-novel based on the combination rather than a single reference, creating an internally inconsistent framework."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.517 (moderate) and combination_threshold of 0.443 (moderate-low), the examiner appropriately rejects most claims while allowing three (claims 3, 9, 13) where the prior art genuinely lacks disclosure, reflecting a balanced pragmatist approach consistent with the profile dimensions."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject follows directly from the §103 obviousness findings at the obviousness stage (strong rejections for claims 1, 2, 4–8, 10–12, 14–15) and correctly allows claims 3, 9, and 13 consistent with the novelty and obviousness stages finding those claims novel and non-obvious."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019004648",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15920,
+      "output_tokens": 480,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

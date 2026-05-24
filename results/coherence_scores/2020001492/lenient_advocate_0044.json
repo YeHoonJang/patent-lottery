@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 rejections consistently invoke Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for each rejected claim, and §102 anticipation analysis uses element-by-element comparison against specific prior art references — the correct statutory frameworks are applied throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance decision references specific claim language (e.g., 'playback frame rate,' 'photo story,' 'image similarity') and specific prior art disclosures (US-2015243325-A1, US-2011217019-A1) with explanation of what each reference teaches."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claims 1 and 2 were found not novel at §102 (anticipating refs cited, confidence 0.9/0.95) yet were found non-obvious at §103 and ultimately allowed without a clear stated rationale for why the same references that allegedly anticipate them fail to render them obvious — this is an internal contradiction between stages that is not adequately justified."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner (strictness=0.248, lenient_advocate) consistently resolves ambiguity in favor of allowance — granting claims 1, 2, 5, 7, 8, 11, 13, 15–18, and 20 despite close prior art, and framing rejections as 'moderate' with amendment suggestions rather than outright denials, which is consistent with a low-strictness, innovation-supportive profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with grants on majority of claims and §103 rejections on a targeted subset follows directly from the cumulative stage findings: claims found obvious at §103 are rejected, claims found novel and non-obvious are allowed, and the final summary explicitly ties the outcome to the stage-level analysis."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001492",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14470,
+      "output_tokens": 465,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

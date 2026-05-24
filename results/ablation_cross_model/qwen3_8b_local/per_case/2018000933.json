@@ -1,0 +1,416 @@
+{
+  "case_id": "2018000933",
+  "proceeding_number": "2018000933",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art's background explicitly identifies substrate limitations (cost, flexibility), and metal foam is a known conductive material. PHOSITA would logically substitute it for existing substrates. However, confidence (0.75) slightly below strictness threshold (0.79) introduces ambiguity in obviousness determination."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims (3,8,9,11,12,19,20) are explicitly anticipated by prior art (US-2013140521-A1) with coverage scores exceeding strictness threshold. Explicit disclosure in abstract/claims confirms non-novelty."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Ambiguity in 'junction' and 'contact layer' terminology lacks sufficient definition in specification, but this is a secondary issue compared to primary novelty/obviousness grounds."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1 and REF2 provide explicit teachings for nanowires on substrates and electrical contact zones, with metal foam as an obvious substitution for cost and flexibility. The motivation to combine is clear but requires interpretation of 'obvious variant'."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "REF5 explicitly discloses III-nitride nanowires, directly overlapping with claim 3's specific semiconductor material, leaving no room for interpretation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The term 'junction' lacks clear definition in the specification, but this is a minor deficiency compared to the strong 102/103 grounds."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2013140521-A1) discloses nanowire structures with contact zones and quantum wells, which can be modified to use metal foam substrates. While the combination threshold (0.68) is met, the distinction between 'porous metal' and traditional substrates (sapphire/silicon carbide) introduces some ambiguity. The motivation to combine is plausible but not definitively established."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 8, 10, 11, 12, 13, 19, 20) are explicitly anticipated by the prior art with high confidence scores (0.75–0.95). The prior art's disclosure of nanowires, quantum wells, and contact zones directly overlaps with the claims, leaving little room for novelty."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The 'porous metal' substrate in claim 1 is not explicitly described in the prior art, but the term 'porous metal' is not clearly distinguishable from traditional substrates. The written description objection relies on ambiguity rather than definitive evidence of insufficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art explicitly discloses overlapping elements (e.g., III-nitride nanowires), but the combination with metal foam substrates or vapor-liquid-solid growth is not clearly motivated. The confidence scores (0.7–0.8) suggest some ambiguity in the obviousness determination."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is explicitly anticipated by the prior art's disclosure of III-nitride nanowires, which directly overlaps with the claimed composition. This is a clear novelty issue."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'junction opposite of the substrate' lacks clarity in the specification, but the issue is not definitively resolved by the prior art analysis. The confidence in novelty for Claim 1 (0.8) suggests some support for the claim."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 directly anticipates III-nitride nanowires (claim 3) and provides clear motivation for metal foam substrate (claim 1) and continuous pn junction (claim 10) as obvious variants meeting combination threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'junction' and 'continuous' lack technical definitions in the specification, but the issue is not entirely speculative as the claims rely on specific structural features."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is explicitly disclosed in the prior art with a high coverage score (0.8), meeting the strictness threshold for strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 1, 10, and 21 lack structural definitions for 'junction' and 'continuous pn junction', which is a clear deficiency under 35 U.S.C. § 112(b) and aligns with the Office Action's verification note."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "No strong combination of prior art elements or motivation to combine is evident for most claims, except claim 1, which is already rejected under 102 and 112."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art overlaps with claimed features, but some claims (4, 6, 16, 17) show distinct technical differences not suggested by the prior art."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 5, 7-12, 14-18, 19-21) are explicitly anticipated by US-2013140521-A1 with high coverage scores."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 1, 10, 13, 21 lack sufficient detail for 'nanowire junction' and 'continuous pn junction' structures."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 and 3 are directly anticipated by US-2013140521-A1 with high confidence (0.8/0.85) and clear motivation to combine"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1/5/13 show technical ambiguity but not complete absence of disclosure in specification"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1/3/5/13 are explicitly/implicitly covered by prior art with coverage scores >0.55"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are directly supported by prior art (US-2013140521-A1) with clear substitution motivations (metal foam substrate, III-nitride nanowires). High confidence scores (0.8, 0.95) and explicit teachings in Graham factors confirm strong obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguous terms like 'junction' and 'continuous pn junction' in claims 1 and 10 lack sufficient definition, but these issues may be remedied through amendment rather than outright rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 and 3 are clearly obvious under 103 due to explicit prior art disclosure (US-2013140521-A1) and clear motivation to combine (metal foam substitution, III-nitride standard use). Coverage scores (0.7/0.9) and combination threshold (0.33) are well met."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are anticipated by prior art with coverage scores (0.7/0.9) exceeding strictness threshold (0.5). Specific elements (metal foam substrate, III-nitride nanowires) are explicitly disclosed in prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1,7,10 have ambiguous terms ('junction opposite of the substrate', 'any combination thereof', 'continuous pn junction') not sufficiently defined in specification, raising enablement concerns."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art discloses core/shell structures and electrical contact zones, but metal foam substrate is a specific material choice. Combination motivation is plausible but not definitively established in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1 teaches nanowire structures on conductive substrates, and metal foam is a known conductive material. While the substitution is predictable, the confidence (0.7) and combination threshold (0.52) suggest moderate strength."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses III-nitride nanowires (InGaN/GaN), directly matching claim 3. The coverage score (0.85) and confidence (0.9) indicate strong non-novelty."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Objections for claims 1, 6, 7 lack explicit evidence of insufficient written description in the provided data, relying on general assertions."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'junction' in claim 1 lacks clear definition in the specification, raising written description concerns. While the objection is specific to this term, the confidence in the analysis (0.8) suggests the issue is not purely speculative but requires clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is explicitly anticipated by US-2013140521-A1 with similarity_score=0.9 and confidence=0.9, meeting strictness threshold"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguity in 'nanowire junction' requires clarification under 35 USC 112(b)"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Most claims lack explicit teaching/suggestion for combination, but some (e.g., 4, 16) show moderate similarity"
+        }
+      ]
+    }
+  ]
+}

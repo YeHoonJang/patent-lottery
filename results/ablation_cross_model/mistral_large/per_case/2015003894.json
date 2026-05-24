@@ -1,0 +1,397 @@
+{
+  "case_id": "2015003894",
+  "proceeding_number": "2015003894",
+  "gt_issues": [
+    "102",
+    "112"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            31
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2012216297-A1 and general web personalization practices provides a plausible motivation to combine, but the claims introduce specific limitations (e.g., pre-login display of personalized themes) that may not be explicitly disclosed. However, the low combination_threshold (0.34) and the routine nature of the limitations (e.g., usernames, passwords, cookies) tilt the balance toward obviousness. Given strictness=0.79, this is sufficient to maintain the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            25,
+            30
+          ],
+          "strength": "moderate",
+          "reasoning": "Client-side storage of personalized theme data is not explicitly disclosed in the prior art, but it is a well-known alternative to server-side storage. The motivation to combine client-side storage with personalized themes is supported by general web development practices. While the claims introduce a novel aspect, the low combination_threshold (0.34) and the routine nature of client-side storage weaken the non-obviousness argument. Given strictness=0.79, this is sufficient to maintain the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 4, 9, 11, 14, 22, and 27 are rejected under § 103 with clear motivation to combine (US-2012216297-A1 + routine design choices). The prior art discloses analogous user-specific data handling, and substituting personalized themes is a superficial distinction under BRI (breadth=0.73). The combination threshold (0.34) is met, and no secondary considerations overcome the prima facie case. Confidence levels (0.85–0.88) support a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 5, 6, 7, 8, 10, 12, 13, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 28, 29, and 30 recite routine implementation details (e.g., usernames, cookies, foreground/background imagery). These are well-known practices in web development and do not add patentable weight. The combination threshold is easily met by common knowledge, and confidence levels (0.9–0.99) confirm strong obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "While US-2012216297-A1 discloses user-specific data handling, the claims' focus on 'personalized website themes' is not explicitly anticipated. However, under BRI (0.73) and strictness (0.88), the functional overlap with the prior art raises substantial novelty concerns. The distinction between 'theme' and 'medical data' is superficial, but the prior art does not explicitly disclose themes. Thus, novelty rejections are moderate but not definitive."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 31의 종속 관계 오류는 명확한 112 조항 위반이지만, 실질적인 기술 내용은 명세서에 뒷받침됨. 종속 관계 수정만으로 해결 가능한 문제로, 근거 강도는 moderate 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claims 27 and 31의 참조 오류는 명세서의 기술적 내용을 충분히 뒷받침하지 못하는 사소한 형식적 문제로, 청구항의 실질적인 기술적 기여를 부정하지 않음. 출원인의 기술적 기여가 인정되므로 보정 제안으로 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2012216297-A1) discloses server-client data exchange mechanisms, and website personalization (e.g., themes, cookies) is a well-known practice in web development. The combination of these elements is straightforward and lacks inventive step. The confidence scores for obviousness (0.85-0.95) are high, and the motivation to combine is clear. Given the strictness level (0.89), this rejection is maintained."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "While the prior art does not explicitly disclose 'personalized website themes,' the core data exchange mechanisms are analogous to those in the claims. The broadest reasonable interpretation (BRI) standard supports anticipation for claims involving data exchange. However, the lack of explicit disclosure in the prior art introduces some interpretive flexibility. Given the strictness level, this is still a valid rejection but secondary to obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of prior art (US-2012216297-A1) and common knowledge in web development provides a clear and logical basis for rejecting the claims as obvious. The functional steps (receiving, storing, transmitting user-specific data) are disclosed or suggested by the prior art, and the additional limitations (e.g., cookies, client/server storage, dynamic content replacement) are routine design choices. The Graham factors support this conclusion, and no secondary considerations overcome the obviousness determination. Given the strictness level (0.82), this rejection is maintained."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "While the prior art (US-2012216297-A1) does not explicitly disclose 'personalized website themes,' it discloses analogous systems for handling user-specific data. The functional overlap is significant, but the lack of explicit disclosure introduces some interpretive ambiguity. Given the strictness level (0.82), this rejection is maintained for claims where the overlap is substantial (e.g., Claims 1, 9, 11, 27)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 31's improper dependency (method claim depending from a system claim) is a clear formal issue under 35 U.S.C. § 112. This is not a matter of interpretation but a structural defect that must be corrected. The rejection is maintained."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "진보성 판단 근거는 선행기술 US-2012216297-A1과 웹 개발 분야의 공지기술을 결합한 것으로, combination_threshold=0.46을 충족하며 결합 동기가 존재함. 그러나 청구항의 구성요소들이 공지된 기술의 단순한 결합인지, 아니면 예기치 않은 효과를 창출하는지 여부에 대한 명확한 증거가 부족함. 특히, 'personalized website theme'과 'indicium'의 구체적인 구현 방식이 선행기술과 차별화될 가능성이 있으며, 통상의 기술자가 쉽게 도출할 수 있는지에 대한 해석의 여지가 있음. strictness=0.47에 따라, 근거의 강도가 moderate인 경우 출원인에게 유리하게 판단할 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "formal_objections",
+          "strength": "moderate",
+          "reasoning": "제목의 기술적 특징 반영 부족 및 종속항의 형식 오류는 형식적 결함으로, 증거 기반의 실질적 거절 사유는 아님. 그러나 USPTO 규정 준수를 위해 보정이 필요함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 선행기술 대비 신규성을 인정받았으며, confidence 점수가 높음 (0.8~0.95). 거절 근거 부재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 진보성을 인정받았으며, 결합 동기나 Graham 요인 분석에서 명확한 근거 부족. confidence 점수가 높음 (0.8~0.9)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 모든 청구항을 뒷받침하며, 용어 정의 및 실施 가능성도 충분함. 거절 근거 부재."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항이 컴퓨터 기술의 실질적 적용을 명시하며, 추상적 아이디어에 해당하지 않음. 거절 근거 부재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 31의 종속 청구항 구조 위반은 명세서의 구체적 부분(¶0006)에서 뒷받침이 확인되었으나, 독립 청구항으로 제시된 점에서 형식적 결함이 존재함. 35 U.S.C. § 112 및 37 CFR § 1.75(c)의 요건을 충족하지 못했으나, 실질적인 기술적 내용은 명세서에 기재되어 있어 보정이 가능함. strictness=0.46에 따라 보정 권고로 판단."
+        },
+        {
+          "basis": "objection_dependent_claims",
+          "strength": "weak",
+          "reasoning": "종속 청구항들의 구조적 모호성은 통상의 기술자에게 명확하지 않을 수 있으나, 실질적인 기술적 내용이 독립 청구항을 포함하고 있어 statutory rejection으로 이어질 가능성은 낮음. strictness=0.46에 따라 보정 권고로 판단."
+        },
+        {
+          "basis": "objection_title",
+          "strength": "weak",
+          "reasoning": "제목의 광범위성은 37 CFR § 1.72(a) 위반 가능성을 시사하나, 실질적인 기술적 내용과 무관하여 거절 근거로 삼기에는 부족함. strictness=0.46에 따라 보정 권고로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103_obviousness is based on the combination of US-2012216297-A1 and common knowledge in web development. While the prior art discloses server-client data exchange and personalized access control, the specific concept of a 'personalized website theme' displayed pre-login is not explicitly disclosed. However, the motivation to combine these elements (personalized themes and pre-login display) is supported by the Graham factors and common design choices in web development. The strength of this rejection is moderate because the combination relies on routine design choices rather than explicit prior art disclosures."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2 and 3 limit 'identifying data' to 'username' or 'user password,' which are well-known in web authentication. While this is a routine choice, the rejection is moderate because the claims do not introduce any inventive step beyond the basic functionality of usernames and passwords."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012216297-A1과 웹 개발 분야의 공지기술 결합에 대한 동기는 논리적으로 제시되었으나, 청구항의 구체적인 구성(예: 'identifying data' 요청 전 테마 적용, 'foreground/background imagery' 등)이 통상의 기술자에게 자명하다고 단정하기에는 해석의 여지가 있습니다. 특히 피싱 방지라는 문제 해결을 위한 설계 선택이 공지기술의 단순한 결합으로 볼 수 있는지 여부는 논란의 소지가 있습니다. 그러나 combination_threshold=0.44에 따라 결합 동기가 비교적 쉽게 인정되었으며, confidence 점수(0.75-0.9)가 높게 책정되어 103 거절 근거로 유지됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 31의 잘못된 종속 관계는 명백한 오류로, 35 U.S.C. § 112(d)의 요건을 위반합니다. 이는 증거가 명확하여 거절 근거로 유지됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 31의 기재 오류는 명백하며, 청구항이 시스템 클레임(claim 27)을 메소드 클레임으로 잘못 참조하고 있어 모호성을 초래함. 명세서의 지원 여부와 무관하게 청구항 자체의 명확성 결여로 인해 112조 위반이 명확함. strictness=0.42 성향에서도 근거 강도가 충분하여 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "formal_objection",
+          "strength": "moderate",
+          "reasoning": "청구항 31의 종속 대상 오류는 형식적 결함으로, 수정 가능하며 거절 사유로는 강하지 않음. 다만, 명세서의 불필요한 배경 기술 설명은 간결성 측면에서 개선이 필요함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 31의 drafting error는 명확하며, 청구항의 모호성으로 인해 35 U.S.C. § 112(b)의 definiteness 요구사항을 충족하지 못함. 명세서의 지원이 있음에도 불구하고, 오류 수정 없이는 청구항의 의미가 불분명함."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "case_id": "2016004003",
+  "proceeding_number": "2016004003",
+  "gt_issues": [
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 청구항의 모든 구성요소를 명확히 포함하며, 결합 동기와 기술 효과가 명확히 제시됨. Graham 요인에 따르면 기술적 차이가 미미하고 PHOSITA의 일반적 지식 범위 내에 있음. 신규성 판단에서의 유사도 점수(0.7-0.75)와 커버리지 점수(0.68)도 강력한 근거로 작용."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 'attention estimation features'와 'interaction measurement' 등의 용어가 명세서에서 구체적으로 설명되지 않아, 기술적 실현 가능성에 대한 불확실성이 있음. 그러나 명세서 부재로 인한 판단은 제한적이며, 청구항 자체의 모호성은 중간 수준의 근거로 분류됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly anticipates all elements of claims 1, 3, 5-21 with high similarity scores (0.75-0.85) and clear functional equivalence. The combination threshold (0.34) is comfortably met, and PHOSITA motivation to combine is explicitly stated in all cases."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims lack specificity in technical terms and implementation details, as noted in the Office Action. While some claims (e.g., 2, 5) show partial distinction, the broad BRI interpretation allows prior art overlap."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013160036-A1은 청구항 1, 3 등 다수의 요소를 명확히 개시하고, 결합 동기(사용자 상호작용 최적화)와 Graham 요소(기술 범위, 차이점, PHOSITA 수준)가 명확히 충족됨. 결합 동기와 기술적 차이점이 명확하여 103_obviousness 기준 충족."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 11, 21의 'attention measurement calculation' 과정이 구체적 알고리즘/파라미터 없이 추상적 표현으로 남아 있음. 그러나 명세서에서 일반적인 특징 추출과 상호작용 모니터링을 언급하고 있으므로, ' undue experimentation'이 불필요한 수준으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art combinations are obvious for PHOSITA, but some claims (e.g., 2, 12, 20) show non-obvious features requiring technical detail clarification."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Critical terms like 'fusion' and 'attention estimation features' lack technical definitions, making implementation unduly speculative."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013160036-A1은 청구항 1의 핵심 요건인 'dual-device attention monitoring' 및 'dynamic interface adjustment'를 구체적으로 개시하며, 결합 동기(0.45 기준)가 명확하고 기술적 변형이 자명함을 근거로 103_obviousness가 성립됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'attention estimation feature' 및 'interaction measurement'의 구체적 기술이 명확히 기재되지 않아 112_written_description 요건 위반 가능성이 있으나, 청구항 자체의 모호성 여부는 추가 분석 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses attention measurement and interface adaptation in multi-device systems, with explicit matches (e.g., 'user-interaction parameter reflecting attention distribution') and coverage score of 0.78. The motivation to combine is inherent in the field, and strictness=0.82 amplifies the weight of this evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims lack sufficient detail in the specification (e.g., 'attention estimation features,' 'weight calculation methodology'), but the deficiency is not explicitly tied to the claims' enablement. Strictness=0.82 leans toward rejection, though the evidence is circumstantial."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all claimed elements (attention monitoring, interface optimization, content delivery control) with clear motivation to combine. Coverage score (0.76) and explicit matches (e.g., 'user-interaction parameter') demonstrate direct anticipation, exceeding combination_threshold=0.46."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Terms like 'attention estimation features' and 'control delivery' lack sufficient definition in the specification, failing to meet BRI requirements. This indefiniteness renders claims unenforceable under §112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1 explicitly discloses all claimed steps with a coverage score of 0.75 (exceeding strictness threshold). The combination of elements is obvious under the prior art's teachings, and the motivation to combine is clearly stated in the Graham factors."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly teaches attention monitoring, parameter calculation, and interface configuration. The claimed invention's features are obvious extensions of these teachings with clear motivation to combine, as supported by Graham factors and high confidence (0.85)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims lack sufficient detail to enable practice without undue experimentation, but the issue is not definitively resolved by the provided information."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013160036-A1은 청구항의 핵심 요소(동적 인터페이스 조정, 사용자 상호작용 파라미터, 주의도 추정 기능 등)를 구체적으로 개시하며, 결합 동기(다중 기기 시스템의 사용자 상호작용 최적화)가 명확히 제시됨. 모든 청구항에 대한 103 근거가 높은 신뢰도(0.7 이상)로 강력한 거절 근거"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서가 주의도 계산 알고리즘, 가중치 조정 방법 등 구체적 기술 세부사항을 명시하지 않아 PHOSITA의 실행 가능성을 제한. 다만, 일부 청구항(예: 청구항 2)은 명세서의 구체적 기재로 인해 허여 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly teaches attention-based interface optimization and multi-device interaction management, which directly supports the claimed method. The combination with REF3's weighted feature analysis is a logical extension for PHOSITA, with clear motivation to improve responsiveness in multi-device systems."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 청구항 1의 '주의 평가 특징'과 '상호작용 측정'을 결합한 기능을 명확히 내재적으로 제공하며, 결합 동기(다중 기기 데이터 통합)가 명확히 제시됨. combination_threshold(0.52)도 충족됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1 explicitly teaches attention-based multi-device interaction principles, and the combination with companion device measurement is a logical extension. However, the motivation to combine is somewhat inferred rather than explicitly stated in the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Independent claims lack structural definition for 'attention estimation features,' relying solely on dependent claims for specificity. This ambiguity is not adequately addressed in the specification, rendering the claims unsupported."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all core elements of the claims (attention monitoring, parameter-setting, interface configuration) with clear motivation to combine. Confidence scores (0.7-0.8) and Graham factors confirm obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguity in 'weight calculation methodology' and 'interaction measurement' definitions lacks concrete examples/algorithms. Specification does not enable PHOSITA to practice the invention."
+        }
+      ]
+    }
+  ]
+}

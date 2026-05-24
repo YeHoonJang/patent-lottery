@@ -1,0 +1,288 @@
+{
+  "case_id": "ABL-2021001650",
+  "proceeding_number": "2021001650",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.2857142857142857,
+  "reject_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1이 차량 상태 정보 전송 시스템을 개시하고 있으며, 카메라를 통한 디지털 미디어 파일 획득은 상태 정보의 정확성을 높이기 위한 통상적인 수단으로, 결합 동기가 명확함. combination_threshold가 낮아 obvious 판단이 용이함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 거절된 청구항에 대해 US-2014188999-A1과의 결합 동기가 명확히 제시되었으며, PHOSITA의 수준에서 예측 가능한 기술 결합으로 평가됨. 특히 위치 정보 포함, 사전 정의된 상태 업데이트, 기술자 선택 및 ETA 기반 디스패치 등은 자동차 서비스 분야에서 통상적 기술로 간주되며, 선행기술과의 차이점이 비자명하지 않음. 진보성 판단의 confidence 값이 전반적으로 0.7 이상으로 높으며, 보조적 고려사항에서 상업적 성공이나 장기간 미충족 수요 등의 반증이 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "출원인의 주장에 따르면, 통합 카메라를 통한 디지털 미디어 파일 촬영 및 객관적 의사결정 흐름은 선행기술에 통합적으로 개시되지 않았으며, 이는 기술적 진보로 인정됨. 그러나 Office Action에서는 US-2014188999-A1의 상태 정보 전달 기능을 확장해 디지털 파일 전송 및 서비스 응답을 obvious로 판단함. 선행기술이 카메라 통합이나 미디어 기반 의사결정 흐름을 명시하지 않았다는 점에서 결합 동기(motivation to combine)가 약함. 그러나 통신 효율성 향상은 공지상식 범위 내로 간주될 수 있어, 판단은 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014188999-A1은 차량 서비스 상태의 실시간 통신, 기술자 입력, 위치 추적, 서비스 제안, 사용자 계정 연동을 개시하고 있으며, 청구항들이 추가하는 디지털 미디어 촬영 및 송신, 시각적 증거 기반 수리/교체 결정, ETA 기반 기술자 선정, 사전 정의된 상태 업데이트 사용 등은 모두 2014년 기준으로 널리 알려진 모바일 기술과 현장 서비스 관행의 예측 가능한 적용이다. 결합 동기(motivation to combine)는 명확하며, 기술적 진보성 부족에 대한 근거가 탄탄함. 공지기술 기반의 결합도 명확히 제시되어 있어 거절 근거로 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1은 차량 상태 정보를 기술자 입력을 기반으로 결정하고 소유자에게 전달하는 핵심 구조를 개시함. 청구항 2, 4, 5, 7, 9, 10, 12, 14, 16–23의 추가 구성 요소들(예: 통합 카메라 작동, 이진 서비스 선택, 기술자 시스템으로의 요청 전송, 입찰 기반 파견)은 모두 해당 시스템의 자연스러운 확장 또는 통상적인 기술자가 용이하게 도달할 수 있는 설계 선택으로 판단됨. 결합 동기(motivation to combine)는 서비스 투명성, 정확성, 효율성 향상이라는 공지된 목적에서 명확하며, 2차적 고려사항도 없음. 심사관의 strictness=0.82을 고려하더라도, 이러한 수준의 변형은 obvious로 판단하기에 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 5, 6, 10, 12, 13, 18, 20, 21에 대한 obviousness 판단은 선행기술과의 차이점이 존재하며, 특히 동적 기술자 선택 및 폴링(claims 18, 20, 21)은 명확한 결합 동기 없이 확장된 해석일 수 있음. 그러나 심사관의 broad BRI 해석과 공지기술을 고려하면 결합 동기가 있다고 판단할 수 있음. strictness=0.47로 중립적 성향이므로, 약한 근거는 거절 유지하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 7, 8, 11, 14, 15, 16 are supported by explicit disclosure in US-2014188999-A1 regarding status communication, location use, pre-formed messages, and software implementation. The modifications are routine and predictable, with clear motivation to combine for improved service coordination."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 18, 19, 20, 23 involve dynamic technician selection and ETA-based polling. While not in the primary reference, these are standard logistics practices. Motivation to combine exists for efficiency, but integration into a vehicle repair brokering context introduces minor novelty. At strictness=0.55, these are deemed obvious but with some interpretive flexibility."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 8 and 15 recite 'pre-formed status updates' without sufficient detail in the specification to convey how these are generated, stored, or selected. While the specification mentions examples like 'on-site' or 'completed,' it lacks structural or algorithmic support for the claimed functionality. This constitutes a moderate written description issue under §112(a), as the term is not defined and the implementation is underdescribed, though not entirely absent."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 6, 8, 11, 13, 15, and 17 are rejected under 103 based on US-2014188999-A1. The prior art clearly discloses real-time communication of vehicle status to a customer's mobile device, predefined status updates (e.g., completion status), and customer as decision authority. Extending this to include digital media files or applying the model to roadside repair is a predictable and logical extension. Motivation to combine is well-supported by common technical practices and low combination threshold (0.33). Confidence in obviousness is high (0.8–0.9), and the reasoning aligns with Graham factors, particularly scope and content of prior art and PHOSITA knowledge."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거절된 청구항들(3,4,6,8,11,12,13,14,15,19,23)에 대한 103 거절 근거는 대부분 선행기술의 기능을 확장하거나 일반적인 기술적 관행으로 설명하고 있음. 특히 디지털 미디어 전송, 수리/교체 선택, 소유자 통신, 사전 정의된 업데이트 등은 US-2014188999-A1의 개시 내용과 유사한 맥락에서 예측 가능하다고 판단됨. 그러나 일부 주장(예: 14, 19, 23)은 선행기술이 정비소 내 상태 보고에 초점이 있음에도 불구하고, 길가 수리 및 기술자 파견 상황에 직접 적용한 점에서 해석의 여지가 있음. 결합 동기(motivation to combine)는 존재하지만, 전체 시스템 맥락에서의 통합 정도는 명확하지 않아 강한 obviousness로 보기에는 다소 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014188999-A1은 실시간 차량 상태 전달 시스템을 개시하고 있으나, 디지털 미디어 파일(특히 카메라를 통한 손상 부위 촬영)의 통합은 직접적으로 기재되지 않음. 그러나 카메라 사용, 위치 정보 수신, 사전 정의된 상태 업데이트 선택 등 개별 요소들은 공지기술로 간주될 수 있으며, 이들의 결합이 예측 가능한 결과를 유도한다는 점에서 obviousness 주장은 일정한 타당성을 가짐. 다만, 특히 청구항 18~23에서 제시된 복수 기술자 선정, 제안 요청, 응답 기반 파견, 도착 예정 시간 기반 선택 및 폴링(polling) 등의 일련의 프로세스는 단순한 공지기술의 결합을 넘어선 시스템적 혁신으로 보일 수 있음. 이러한 측면에서 결합 동기와 예측 가능성에 대한 증거는 전반적으로는 충분하나, 특히 고도화된 디스패치 로직에 대해서는 해석의 여지가 존재함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 6, 11, 13, and 22 are strongly supported by US-2014188999-A1, which explicitly discloses communication of vehicle status to a mobile device associated with the vehicle owner. The substitution of digital media for status data is a predictable improvement within the skill of a PHOSITA, and the motivation to combine is clear and practical."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 8, 12, 15, and 16 involve obvious variants such as binary repair/replace decisions and pre-formed status updates. While these features are not explicitly disclosed, they represent routine optimizations in user interface and decision logic that would be obvious to a PHOSITA. However, some interpretation is required to establish motivation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 7, 14, and 22 rely on the inclusion of physical location in a service request. While US-2014188999-A1 discloses location determination at a service center, extending this to roadside requests involves a moderate leap. The logistical necessity supports obviousness, but the context shift slightly weakens the rationale."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 9 and dependent claim 16 rely on system-level obviousness based on modular extension of prior art. While the system components are known, the integration for digital media-based brokering is less directly supported. The argument depends on combining known elements for improved functionality, but lacks explicit teaching for the specific combination in a roadside context."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1 광범위하게 차량 서비스 상태 보고, 기술자 입력, 실시간 통신, 예측 완료 시간, 서비스 조정을 개시함. 청구항 2-23의 구성요소들은 카메라 통합, 미디어 전송, 수리/교체 선택, 소유자 승인, 위치 기반 요청, 사전 정의된 상태 업데이트, ETA 기반 기술자 파견 등에서 모두 선행기술의 명시적 기능이거나 예측 가능한 변형임. 결합 동기와 PHOSITA 수준에서의 예측 가능성은 높은 confidence(0.65~0.85)로 뒷받침됨. 특히 디지털 미디어 파일 전송, 수리/교체 선택, 완료 상태 추적 등은 자동차 서비스 시스템에서 일반화된 관행임."
+        }
+      ]
+    }
+  ]
+}

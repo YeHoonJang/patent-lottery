@@ -1,0 +1,556 @@
+{
+  "case_id": "2017006232",
+  "proceeding_number": "2017006232",
+  "gt_issues": [
+    "102",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.9285714285714286,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 explicitly discloses all elements of claims 17, 18, and 20, including the casing, extra-corporal blood circulation components, base socket with collection trough, hydraulic system components, and external storage tanks. The anticipation is clear and direct, leaving no room for novelty."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            18,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26,
+            32
+          ],
+          "strength": "moderate",
+          "reasoning": "While US-2011315237-A1 does not explicitly disclose all features (e.g., receptacle resources for routing external leaking liquids, base socket extensions, sensor placements), these are considered routine design choices for a PHOSITA. The combination motivation is logical but relies on common fluid management practices. Given the strictness threshold (0.79), the rejection is maintained, though the strength is moderate due to reliance on PHOSITA's ordinary skill."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19,
+            23,
+            27,
+            28,
+            29,
+            30,
+            31,
+            33
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 19 and 33 (visible/accessible receptacle resources) are borderline but lack explicit disclosure in the prior art. Claims 23, 27, 28, 29, 30, and 31 introduce novel features (e.g., cross-piece, removable cover, capillary action, stamped grooves, liquid differentiation) not suggested by the prior art. The combination threshold (0.34) is not met, and the rejection is weak. Given strictness (0.79), these claims are not rejected."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1의 명시적 공개 내용과 청구항의 직접적인 대응으로 인해 anticipation 근거가 명확함. 거절 유지 적합."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 implicit 기능과 결합된 해석이 필요하지만, strictness=0.88에 따라 유사성만으로도 anticipation 판단 근거로 충분함. 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26,
+            33
+          ],
+          "strength": "moderate",
+          "reasoning": "결합 동기(motivation to combine)가 논리적이지만, 일부 청구항(예: 19, 21, 22)은 PHOSITA의 설계 선택으로 볼 여지가 있음. 그러나 combination_threshold=0.34와 strictness=0.88에 따라 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "'specified quantity' 용어의 모호성은 기능적 설명으로 일부 보완 가능하며, 112 거절 근거로서는 불충분함. 보정 권고로 처리."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 20,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011315237-A1이 청구항 20의 모든 구성요소('캐이싱 외부에 위치한 저장 탱크 및 투석액 준비 매체')를 명시적으로 개시하고 있어 신규성 근거가 명확함. confidence=0.95로 높으며, 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 20,
+          "strength": "moderate",
+          "reasoning": "선행기술이 저장 탱크의 외부 배치를 개시하고 있으나, 청구항 20의 구체적 배치가 통상의 기술자에게 자명하다고 단정하기에는 결합 동기의 명확성이 다소 부족함. 그러나 combination_threshold=0.68 이하로 판단되어 103 근거로 유지. strictness=0.25에 따라 출원인에게 유리하게 해석할 여지가 있으나, 선행기술의 명시적 개시로 인해 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "All claims were found to be novel with high confidence (0.8-0.95). No anticipatory references were identified, and the distinguishing features provide clear technical contributions. Given the strictness level (0.29), this basis does not support rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims were found to be non-obvious with high confidence (0.8-0.95). The Graham factors, including the lack of motivation to combine and the technical improvements over prior art, support non-obviousness. The combination_threshold (0.72) was not met, and the innovation-supportive philosophy favors allowance."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "While the specification generally supports the claims, minor formalities were identified (e.g., terminology consistency, clarification of 'specified quantity,' and enablement of 'color-selection'). These issues are not severe enough to warrant rejection but should be addressed for clarity and compliance with 35 U.S.C. § 112."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No abstract idea or patent-ineligible subject matter was identified. The claims recite a concrete technical solution for leak detection in a medical device, which is eligible under 35 U.S.C. § 101."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 17, 18, and 20 are explicitly disclosed in US-2011315237-A1, with high confidence scores (0.9-0.95). The prior art directly anticipates the core features of these claims, leaving no room for interpretation under strictness=0.89."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 17, 18, 19, 20, 21, 22, 24, 26, and 33 are rejected under § 103 based on US-2011315237-A1. The differences are design choices or routine optimizations (e.g., visibility of receptacle resources, base socket extension, sensor positioning) that would have been obvious to a PHOSITA. The combination threshold (0.45) is met or exceeded for these claims, and the reasoning is well-supported by the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 23, 25, 27, 28, 29, 30, and 31 are not obvious over the prior art. The differences (e.g., cross-piece for liquid routing, capillary action, liquid differentiation) are not disclosed or suggested by the prior art, and the combination threshold is not met. These claims are novel and non-obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            25,
+            26,
+            33
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 17, 18, 20, 25, 26, and 33 exhibit clear overlap with US-2011315237-A1, with differences representing routine design optimizations (e.g., sensor placement, external accessibility). The motivation to combine these features is logical and supported by the prior art. Claims 19 and 21, while not explicitly disclosed, are considered obvious extensions of the prior art under the strictness threshold (0.82). The confidence scores (0.7–0.85) and combination_threshold (0.51) support this rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17,
+            18,
+            20,
+            25,
+            32
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 17, 18, 20, and 25 are anticipated by US-2011315237-A1, with high confidence (0.8–0.9). Claim 32 is partially anticipated, but the novel feature (automatic sealing verification) alone does not confer novelty. While the anticipation is strong, the strictness threshold (0.82) justifies maintaining the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            22,
+            23,
+            24,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 22, 23, 24, 27, 28, 29, 30, 31, and 32 include features not disclosed or suggested in the prior art (e.g., capillary action routing, cross-piece attachment, liquid differentiation). The combination_threshold (0.51) is not met, and the confidence in obviousness is low (0.7–0.95 for non-obviousness). These claims are allowable."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            20,
+            21,
+            25
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1이 청구항 20, 21, 25의 모든 구성요소를 명시적으로 개시하고 있어 신규성 거절 근거가 명확합니다. confidence 값이 각각 0.9, 0.75, 0.85로 높으며, 선행기술과의 일치도가 높습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 'receptacle resources'를 명시적으로 개시하지는 않았지만, 유사한 기능을 가진 liquid collector (190)가 존재하며, 이는 설계 선택으로 볼 수 있습니다. confidence=0.78로 높지만, strictness=0.47에 따라 해석의 여지가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            19,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26,
+            33
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011315237-A1과 통상의 기술자의 상식을 결합하여 도출 가능한 구성으로, combination_threshold=0.46을 충족합니다. 그러나 청구항 17, 22, 24, 26은 구체적 결합 동기가 다소 추상적이며, confidence 값이 0.6-0.78로 중간 수준입니다. strictness=0.47에 따라 일부 청구항은 보정 가능성 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011315237-A1이 청구항 17과 20의 핵심 구성요소를 명시적으로 개시하고 있음. 청구항 17의 'receptacle resources'는 선행기술의 'liquid collector'와 기능적으로 동일하며, 청구항 20의 'storage tank located outside the casing'은 선행기술의 'Tank for Acid Concentrate 122' 및 'Tank for Bicarbonate Mixture 124'와 직접 대응됨. 증거의 명확성으로 인해 거절 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011315237-A1이 청구항 17의 대부분의 구성요소를 개시하고 있으나, 'receptacle resources for external leaking liquids'는 명시적으로 개시되지 않았음. 그러나 이는 통상의 기술자가 누수 감지 시스템의 효율성을 높이기 위해 자연스럽게 고려할 수 있는 설계 선택으로 판단됨. combination_threshold=0.55에 따라 결합 동기가 인정되지만, 설계 선택의 범위에 따라 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 20은 US-2011315237-A1에 명시적으로 공개된 저장 탱크의 외부 배치로 인해 novelty가 부정됨. 근거가 명확하고 confidence가 0.9로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 17, 21, 26, 29, 32는 US-2011315237-A1과 공지기술을 결합한 것으로 판단됨. 그러나 결합 동기의 명확성이나 inventive step의 부재에 대한 해석 여지가 존재함. strictness=0.46에 따라 moderate 근거는 거절로 유지하되, 출원인의 반박 가능성을 고려."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            18,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011315237-A1은 청구항 17, 18, 20의 핵심 구성요소를 대부분 개시하고 있으나, '외부 누수액을 수집하여 트레이로 유도하는 수단'과 같은 구체적 구현은 명시적으로 개시되지 않았습니다. 그러나 통상의 기술자(PHOSITA)가 이러한 설계 선택을 공지상식으로 인식할 수 있다는 점에서 결합 동기가 인정됩니다. strictness=0.50에 따라, 증거의 강도가 충분하지는 않지만 거절 근거로 유지할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17,
+            18,
+            20,
+            25
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1은 청구항의 핵심 요소(케이싱, 수집 홈, 센서, 유압 시스템 구성요소 배치)를 공개하지만, 'receptacle resources'와 같은 세부 기능은 명시적으로 언급하지 않음. 그러나 strictness=0.52에 따라, 선행기술과의 유사성이 높고 청구항의 해석(BRI=0.49)이 보통 수준이므로, 102 근거로 거절할 수 있으나 강도는 moderate임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            18,
+            20,
+            25
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술(US-2011315237-A1)은 청구항의 핵심 요소를 공개하며, 차이점(예: 'receptacle resources')은 통상의 기술자가 쉽게 구현 가능한 설계 선택임. 결합 동기(motivation to combine)는 명확하며, combination_threshold=0.44에 따라 103 거절이 타당함. confidence 점수(0.75-0.9)도 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'specified quantity'의 정의가 불명확하여 112 요건을 충족하지 못할 수 있으나, 명세서의 나머지 부분이 PHOSITA에게 충분한 정보를 제공한다고 볼 수 있음. strictness=0.52에 따라, 보정 요구(objection) 수준으로 판단함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 explicitly discloses storage tanks (122, 124) located outside the casing for dialysate preparation, which directly anticipates the claimed feature. The evidence is clear and unambiguous."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1 discloses most elements of claim 17, but the 'receptacle resources for the reception of external leaking liquids' are not explicitly described. However, the implicit disclosure of liquid collectors (180, 190) combined with the broadest reasonable interpretation (BRI) standard provides sufficient basis for anticipation. The strictness level (0.42) leans toward giving the benefit of the doubt, but the evidence is still substantial."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2011315237-A1 with common general knowledge (e.g., designing fluid collection systems to handle overflow) provides a logical motivation to combine. The difference is minimal, but the combination threshold (0.52) and strictness level (0.42) suggest that this rejection is borderline. The evidence is sufficient but not overwhelming."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "The use of external storage tanks for dialysate preparation is a well-known and standard practice in the field, as evidenced by US-2011315237-A1. This feature is clearly obvious to a PHOSITA, and the evidence is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 17의 novelty 거절은 US-2011315237-A1이 대부분의 구성요소를 공개하고 있으나, 'receptacle resources'와 외부 누수 유도 메커니즘의 구체적인 부분이 명시적으로 공개되지 않았음. 그러나 선행기술의 raised dam (139)과 ramp (138) 등이 유사한 기능을 암시하므로, 근거 강도는 moderate로 평가됨. strictness=0.52에 따라, 이 근거는 거절 유지에 충분하지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 17의 obviousness 거절은 US-2011315237-A1의 raised dam (139)과 ramp (138) 등이 외부 누수를 중앙 트레이로 유도하는 메커니즘의 동기를 제공함. 통상의 기술자(PHOSITA)는 누수 감지 효율성을 높이기 위해 이러한 메커니즘을 결합할 동기가 충분하며, combination_threshold=0.48을 충족함. 근거 강도는 strong으로 평가되며, 거절 유지에 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011315237-A1은 청구항 17의 대부분의 구성요소를 명시적으로 개시하지만, 'receptacle resources for the reception of external leaking liquids'는 암시적으로만 언급되어 있습니다. strictness=0.60에 따라 유사성을 근거로 거절할 수 있으나, 명시적 개시가 아니므로 근거의 강도는 moderate로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011315237-A1은 청구항 17의 핵심 구성요소를 개시하며, 'receptacle resources'의 추가는 누수 감지 시스템의 효율성 향상을 위한 공지된 설계 선택으로 볼 수 있습니다. 결합 동기가 명확하고 combination_threshold=0.57을 충족하므로 근거의 강도는 strong으로 평가됩니다."
+        }
+      ]
+    }
+  ]
+}

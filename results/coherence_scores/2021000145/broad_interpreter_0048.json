@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies Graham/KSR factors for §103 analysis (scope and content, differences, PHOSITA level, secondary considerations) throughout the obviousness stage and office action, and uses element-by-element comparison for the §102 novelty stage—no statute-mixing observed."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'send buffer, receive buffer, and assembler'), specific prior art disclosures (US-2015245409-A1's MPTCP, LTE/WiFi, bandwidth/latency/loss monitoring), and cite the reference explicitly in combination_refs and cited_refs fields."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a notable inconsistency: claims 7 and 14 were found novel (not anticipated) at the §102 stage, yet the office action erroneously labels them under a '102_novelty' rejection basis while the reasoning explains they are NOT rejected under §102—and the final decision treats them as allowable, which is internally contradictory in the office action structure even if the ultimate outcome is consistent."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.475 (moderate) and high claim breadth of 0.79 are consistently reflected—most ambiguous elements (buffers, assembler, congestion window) are resolved toward rejection under broad interpretation, while the genuinely absent UDP limitation is correctly allowed, matching a moderate-strictness broad interpreter."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1–6, 8–13, 15–17 and allow 7 and 14 follows directly and logically from the accumulated §103 obviousness findings and the novelty findings for UDP claims, with explicit rationale provided in the summary and claim-level decisions."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10549,
+      "output_tokens": 450,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

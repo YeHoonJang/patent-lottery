@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace properly applies §102 element-by-element anticipation, Graham/KSR factors for §103 (scope/content, differences, PHOSITA level, secondary considerations), and §112 written description/enablement analysis, each under the correct statutory framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific prior art references (US-2016364341-A1, US-2012254995-A1) with citations to specific disclosures (e.g., paragraph [0025], EPT permission bits, GVA-to-GPA mapping) and specific claim language (e.g., 'executable-by-user mode,' 'application code protector,' hypercall mechanism)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds all 20 claims anticipated (is_novel=false for all), yet the obviousness stage and final decision treat claims 1, 9, and 20 as not obvious (is_obvious=false) and rely heavily on §103 and §112 rejections — without explaining why claims deemed fully anticipated at §102 require additional §103 analysis or why the §102 rejection is effectively abandoned in favor of §112 as the primary rejection basis."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a moderate strictness of 0.517, the examiner appropriately resolves ambiguous obviousness cases (claims 1, 9, 20) as non-obvious while rejecting most dependent claims as obvious, and upholds rejection overall based on the strong §112 issues — consistent with a pragmatist, near-neutral strictness profile rather than either granting on weak evidence or rejecting aggressively without basis."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the accumulated stage analyses: the §102 stage established anticipation concerns, the §103 stage flagged mixed results, and the §112 stage provided a strong independent basis that the final decision explicitly identifies as 'independently sufficient,' with per-claim rationale consistent with prior stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004383",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13309,
+      "output_tokens": 494,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

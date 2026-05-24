@@ -1,0 +1,450 @@
+{
+  "case_id": "2018001311",
+  "proceeding_number": "2018001311",
+  "gt_issues": [
+    "102",
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed-in-Part with New Ground of Rejection",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 6, 7, and 14 are evaluated as having moderate strength for novelty rejection. While US-2013195665-A1 discloses the presence of a damper within the gap between adjacent platforms, the explicit 'offset position' is not disclosed. However, given the strictness level (0.79), the implicit disclosure of a damper in the gap may be interpreted as anticipatory for these claims. The confidence levels (0.7-0.95) suggest some interpretive flexibility, but the lack of explicit disclosure weakens the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1-5, 7-19 are evaluated as having strong grounds for obviousness rejection. The prior art (US-2013195665-A1) discloses a damper within the gap between adjacent platforms, and the motivation to adjust the damper's position for performance optimization is supported by the application's background and common knowledge in the field. The combination threshold (0.34) and high confidence levels (0.75-0.9) further strengthen this rejection. The adjustments (e.g., offset positioning, load split) are deemed predictable variations for a person of ordinary skill in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art (US-2013195665-A1) discloses the use of dampers in gas turbine engines, and the offset positioning of the damper is a routine design choice for optimizing damping performance. The motivation to combine is well-supported by common knowledge in the field, and the adjustment is a predictable variation of the prior art. Confidence in this rejection is high (0.85)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            5,
+            9,
+            12,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "The offset positioning of the damper relative to the blade-to-blade centerline or closer to one platform is a routine optimization for a PHOSITA. The prior art supports the use of dampers, and the positional adjustments are predictable and well-known in the field. Confidence in this rejection is high (0.88)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            10,
+            13,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "The offset of the damper's center of mass or its circumferential positioning is a routine design choice for optimizing damping performance. The prior art discloses damper structures, and the mass distribution adjustments are predictable and well-known. Confidence in this rejection is high (0.87)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            8,
+            11,
+            16,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "The specific load split (60%/40%) is a predictable optimization for a PHOSITA seeking to improve damping performance. The prior art supports damper adjustments for load distribution, and this is a routine design choice. Confidence in this rejection is high (0.85)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            14,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "The offset positioning of the damper to provide an unequal load split or its integration into a broader engine assembly is a routine design choice. The prior art supports damper optimization, and the adjustments are predictable. Confidence in this rejection is high (0.85-0.86)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "While the use of geared architectures in gas turbine engines is well-known, the combination with the prior art's teachings may not be explicitly disclosed. However, the motivation to combine is supported by common knowledge, making this a moderate rejection. Confidence is slightly lower (0.80) due to the lack of explicit disclosure in the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 6 incorporates the novel features of Claim 1 by reference, and the prior art does not disclose the combination of rotor disk/blade root structures with an offset damper position. The motivation to combine is not clearly established, and the confidence in this rejection is lower (0.75). Given strictness=0.88, this rejection is weak."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 선행기술 대비 신규성 있다고 판단되었으며, confidence 수준도 높음 (0.8~0.9). 선행기술 US-2013195665-A1은 댐퍼의 오프셋 위치, 중심 질량 오프셋, 비대칭 하중 분할 등 핵심 차이점을 명시하지 않음. 따라서 102 근거는 매우 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 비자명하다고 판단되었으며, confidence 수준도 높음 (0.82~0.9). 선행기술은 댐퍼의 위치 조정 가능성을 암시하지만, 오프셋 위치, 중심 질량 오프셋, 60%/40% 비대칭 하중 분할 등 구체적인 기술적 기여를 결합할 동기를 제공하지 않음. combination_threshold(0.68)를 초과하며, 기술적 효과도 예상치 못한 것으로 평가됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았지만, 청구항의 용어와 기술적 특징은 명확하며, 선행기술 대비 기술적 기여가 명백함. 모호성이나 뒷받침 부족에 대한 근거가 없으므로 112 근거는 약함."
+        },
+        {
+          "basis": "formal_objections",
+          "strength": "moderate",
+          "reasoning": "발명의 명칭, 용어 일관성, 청구항 6의 문구 등은 형식적 문제로, 발명의 실체적 허용 가능성에 영향을 미치지 않음. 그러나 특허 문서의 명확성과 일관성을 위해 보정이 필요함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 4, 8, 11, 16, 19의 'approximately' 용어는 명확성 요건을 충족시키기 위해 구체적인 수치 범위(예: ±5%)를 명시하는 것이 바람직하나, 현재 명세서의 서술로 인해 기술적 범위가 불명확하다고 보기에는 증거가 부족함. 혁신 지원형 심사 철학에 따라 보정 권고로 처리."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "독립항의 수가 과다하다는 지적은 형식적인 문제로, 기술적 진보를 제한하는 근거가 되지 않음. 혁신 지원형 심사 철학에 따라 보정 권고로 처리."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections are based on the premise that adjusting the damper's position to achieve an offset or specific load split is a routine design choice for a PHOSITA. While the prior art (US-2013195665-A1) discloses dampers under turbine blade platforms, the specific positional adjustments (e.g., offset relative to blade-to-blade centerline, 60/40 load split) are not explicitly disclosed. However, the motivation to combine these features is plausible given the prior art's focus on optimizing damping performance. The strength of this rejection is moderate because the combination threshold (0.45) is met, but the lack of explicit disclosure in the prior art leaves room for interpretation. Given the examiner's strictness (0.89), this moderate strength is sufficient to maintain the rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejections focus on the ambiguity of terms like 'load split,' 'unequal load split,' and 'approximately.' While the specification lacks explicit definitions or methodologies for these terms, the claims themselves are not inherently indefinite. The strength of this rejection is moderate because the specification could be amended to clarify these terms without undue experimentation. However, given the examiner's strictness, this moderate strength is sufficient to maintain the objection and suggest amendments."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013195665-A1은 댐퍼의 존재와 진동 감쇠 기능을 공개하지만, 'offset position'이나 'unequal load split'과 같은 구체적인 설계 변경을 명시적으로 제시하지는 않음. 그러나 해당 분야의 통상의 기술자(PHOSITA)는 진동 감쇠 성능 최적화를 위해 댐퍼 위치를 조정하는 설계 변경을 고려할 수 있으며, 이는 예측 가능한 변형으로 간주될 수 있음. 결합 동기(motivation to combine)는 존재하지만, 청구항의 차이점이 공지된 기술의 단순한 변형인지 혁신적인 개선인지에 대한 해석의 여지가 있음. strictness=0.82에 따라, 근거가 moderate임에도 불구하고 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013195665-A1은 댐퍼의 배치와 진동 감쇠 기능을 공개하지만, 'offset position'이나 'center of mass offset'과 같은 구체적인 설계 최적화는 명시하지 않음. 그러나 해당 분야의 통상의 기술자가 성능 개선을 위해 댐퍼의 위치를 조정하는 것은 자명하다고 판단됨. 결합 동기(motivation to combine)는 논리적이지만, 청구항의 차이점이 설계 최적화의 범위를 벗어나는지 여부는 해석의 여지가 있음. strictness=0.47에 따라, 근거가 moderate인 경우 출원인에게 유리하게 판단함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 obviousness rejection for claims 1-5, 7-19 is based on the argument that adjusting the damper's position or center of mass to optimize damping performance and load distribution is a well-known design choice. While US-2013195665-A1 does not explicitly disclose the 'offset position' or unequal load split, the motivation to combine these features is supported by common knowledge in the art. However, the combination threshold (0.55) and the examiner's pragmatist style suggest that the rejection is not overwhelmingly strong, as the prior art lacks explicit disclosure of these features. The confidence scores (0.75-0.79) indicate moderate strength, but the lack of explicit prior art disclosure leaves room for interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection of claims 1-19 under 103_obviousness is based on the argument that the differences (e.g., offset damper position, unequal load split, center of mass offset) are routine optimizations for one of ordinary skill in the art. While the cited prior art (US-2013195665-A1) does not explicitly disclose these features, the motivation to combine and the predictability of the modifications are supported by the Graham factors. However, the confidence scores for obviousness (ranging from 0.72 to 0.78) suggest that the evidence is not overwhelmingly strong. Given the strictness level of 0.46, this leans toward a moderate strength rejection, with room for interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection is based on US-2013195665-A1 and general knowledge of a PHOSITA. While the prior art does not explicitly disclose the offset damper position or specific load splits (e.g., 60/40), the modifications are argued as routine optimizations for damping performance. The combination threshold (0.33) is met, but the motivation to combine relies on general engineering practices rather than explicit teachings. The confidence scores (0.7-0.75) suggest moderate strength, but the lack of secondary considerations or unexpected results weakens the rejection slightly."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "The rejection for Claims 6 and 20 is provisional and based on US-2013195665-A1 combined with general knowledge. The prior art does not disclose the combination of a rotor disk/blade roots with an offset damper (Claim 6) or a geared architecture with an offset damper (Claim 20). The motivation to combine is speculative, and the confidence score (0.65) is low. The rejection is weak due to insufficient evidence or explicit teaching in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103_obviousness for claims 1-5, 7-13, and 15-19 is based on the argument that the offset position, center of mass offset, or unequal load split represent routine design choices for optimizing damper performance. While the motivation to combine is plausible, the confidence scores (0.72-0.79) suggest that the differences may not be entirely routine or predictable. The combination_threshold (0.44) is met, but the strictness (0.52) leans slightly toward granting the benefit of the doubt for moderate cases."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection for claims 6, 14, and 20 involves additional structural elements combined with the offset damper position. The motivation to combine is less clear, particularly for claims 14 and 20, where the integration of compressor/fan sections or geared architecture is not explicitly disclosed in the prior art. The confidence scores (0.6-0.65) indicate weaker support for obviousness, and the strictness (0.52) suggests these claims may warrant further consideration."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103_obviousness for claims 1-5, 7-19 is based on the premise that adjusting the damper's position or load distribution to optimize damping performance is a predictable variation. While the motivation to combine (performance optimization) is logical, the specific 'offset position' and 'unequal load split' features are not explicitly disclosed in the prior art. The confidence scores (0.84-0.89) suggest moderate strength, but the lack of explicit disclosure in the prior art leaves room for interpretation. Given the examiner's strictness (0.42), this leans toward a moderate rejection, with potential for amendment or argument to overcome."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2013195665-A1) discloses dampers between adjacent platforms, and the differences (e.g., offset positioning, load split ratios) are framed as routine design choices. While the motivation to combine is logical, the lack of explicit disclosure of these specific features introduces some interpretive flexibility. Given the combination threshold (0.48) and the examiner's moderate confidence (0.74-0.80), this is a moderate-strength rejection. The strictness level (0.52) suggests a slight tilt toward rejection, but not definitively."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 6 and 20 involve combinations of features (e.g., rotor disk + offset damper, geared architecture + offset damper) not explicitly disclosed in the prior art. The provisional rejection lacks clear evidence of motivation to combine, and the confidence (0.65) is lower than for other claims. This is a weak rejection, and the strictness level (0.52) favors granting the benefit of the doubt to the applicant."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection under 103_obviousness for claims 1-19 is supported by a detailed Graham analysis, clear motivation to combine, and predictable variations of known damper configurations. The combination threshold (0.57) is met, and the prior art (US-2013195665-A1) provides a strong basis for the rejection. The confidence levels in the obviousness analysis range from 0.75 to 0.82, indicating a well-founded rejection."
+        }
+      ]
+    }
+  ]
+}

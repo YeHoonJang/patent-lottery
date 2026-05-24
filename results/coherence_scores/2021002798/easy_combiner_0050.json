@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis explicitly applies Graham factors (scope and content, differences, PHOSITA level, secondary considerations) and addresses motivation to combine, which is the correct KSR/Graham framework for §103; §102 analysis performs element-by-element comparison against the cited reference."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are linked to specific claim language (e.g., 'current sentiment score,' 'sentiment intent,' 'average sentiment score') and the specific prior art reference US-2014355749-A1, with identified gaps between the reference's disclosure and the claimed elements."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness findings consistently build on the §102 novelty findings — both stages find the same elements missing from the prior art, and the office action and final decision align with both prior stages without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.461 and combination_threshold=0.222 (easy combiner), yet still finds no obviousness due to lack of motivation to combine; the final decision notes that 'evidence strength is weak' and resolves ambiguity in applicant's favor per strictness=0.46, which is consistent with a moderately lenient pragmatist profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision follows directly from the accumulated stage analyses: all claims found novel at §102, all found non-obvious at §103 with stated Graham-factor reasoning, and the office action and final decision both recommend allowance with consistent rationale."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021002798",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13517,
+      "output_tokens": 383,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "case_id": "2021001650",
+  "proceeding_number": "2021001650",
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2-23 are rejected based on US-2014188999-A1 combined with common general knowledge. The prior art provides a clear foundation for vehicle service communication systems. The added elements (camera integration, digital media transmission, repair/replace decisions, owner authority, location-based dispatch, pre-formed status updates, intermediary brokering, technician selection, ETA-based selection, solicitation workflows) were all well-established practices by 2017. The combination_threshold=0.34 allows these common sense combinations. The application's own background acknowledges several of these elements as known (repair/replace decisions, service management intermediaries, technician networks). The motivation to combine is clear in each case: improving communication accuracy through visual documentation, optimizing dispatch through ETA/solicitation, and facilitating informed decisions. The Graham factors support obviousness: the scope and content of prior art covers the communication framework, the differences are routine additions of known technologies, and a PHOSITA would have found these combinations obvious. No secondary considerations (unexpected results, commercial success, long-felt need) are evident. With strictness=0.79, even moderate evidence supports rejection, and here the evidence is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejection is based on US-2014188999-A1 combined with common knowledge. The prior art provides a comprehensive vehicle service communication system with technician input, status determination, and mobile device communication. The key differences (camera integration, digital media transmission, repair-or-replace framework, technician selection) are all well-supported as obvious: (1) Camera integration: By 2017, smartphone cameras were ubiquitous and using them for vehicle damage documentation was standard practice in insurance and service industries. The motivation is clear and strong—visual evidence is objectively superior to text descriptions. (2) Digital media transmission: US-2014188999-A1 already discloses the communication infrastructure to vehicle owners; substituting images for text is a predictable variation using the same channels. (3) Repair-or-replace: The specification itself admits this is a fundamental, pre-existing decision framework in vehicle service. (4) Technician selection and ETA-based optimization: The specification acknowledges these as prior art practices. Dispatch optimization using ETA is standard. (5) Solicitation-response (RFQ): Well-known bidding processes applied to technician dispatch. All elements perform known functions with clear motivations and no unexpected results. The Graham factors strongly support obviousness. With combination_threshold=0.34 and strictness=0.88, even moderate evidence would support rejection, but here the evidence is strong across all claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2014188999-A1은 텍스트 기반 상태 정보 통신을 개시하지만, 본 출원의 핵심인 디지털 미디어 파일(사진/비디오) 획득 및 통신은 명시적으로 개시하지 않습니다. 모든 청구항에서 anticipating_refs가 비어있고, 선행기술과의 차이가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 서비스 센터 환경의 텍스트 기반 시스템이며, 본 출원은 로드사이드 환경의 시각적 증거 기반 시스템입니다. 두 시스템의 기술적 맥락, 목적, 구현이 근본적으로 다르며, 통상의 기술자가 선행기술로부터 본 출원의 구성을 도출할 명시적 동기나 교시가 없습니다. 결합 동기(motivation to combine)가 부족하고, 단순한 설계 선택이 아닌 기술적 문제 해결 방식의 변경을 수반합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 모든 청구항 요소를 명확히 뒷받침하고 있으며, 청구항 용어는 명세서에서 명시적으로 정의되거나 해당 분야에서 잘 이해되는 용어입니다. 통상의 기술자가 과도한 실험 없이 발명을 실시할 수 있습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 차량 서비스 관리 분야의 실용적 기술 응용에 관한 것이며, 추상적 아이디어가 아닌 구체적인 기술적 구현을 청구합니다. 로드사이드 서비스에서 시각적 증거 기반 원격 의사결정이라는 기술적 문제를 해결합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014188999-A1은 사전 정의된 completion status(completed, currently being performed, has not begun)를 technician input 기반으로 선택하고 mobile device에 전달하는 시스템을 명시적으로 개시합니다(Claims 5-8, 11). 이는 청구항 8과 15의 '사전 형성된 상태 업데이트 선택 및 전달'과 실질적으로 유사합니다. 그러나 본 출원의 맥락은 로드사이드 서비스이며, 선행기술은 고정된 서비스 센터 환경입니다. 결합 동기(roadside context로의 적용)는 논리적이지만, 로드사이드 서비스의 특수한 요구사항(현장 파견, 즉각적 의사결정)을 고려할 때, 단순한 맥락 변경 이상의 기술적 고려가 필요할 수 있습니다. 선행기술의 completion status는 서비스 진행 상황을 나타내는 반면, 로드사이드 맥락에서의 상태 업데이트는 현장 상황의 즉각적 전달을 의미할 수 있습니다. 증거는 있으나 해석의 여지가 있으므로 moderate로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1 provides a comprehensive vehicle service communication system with mobile device integration, status updates, and bidirectional communication. The differences (camera integration, multimedia transmission, brokering role, technician selection) all represent well-established practices in the vehicle service and mobile technology fields. Camera-based damage documentation is routine practice in automotive service and insurance. Multimedia transmission over mobile networks is standard capability. Service brokering platforms (Uber model) are well-known. ETA-based dispatch optimization is fundamental to service industries. The combination motivations are explicit and compelling: visual documentation improves decision accuracy, location-based dispatch enables mobile service, ETA optimization reduces wait times. Each element performs its known function, and the combinations yield predictable results. The Graham factors analysis is thorough and well-supported. No secondary considerations (unexpected results, commercial success, long-felt need) have been presented to overcome the obviousness showing. The prior art combined with common knowledge provides strong basis for 103 rejection across all claims 2-23."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1 explicitly discloses all elements of claim 8: technician input for status selection (Claim 11), predetermined status types (Claims 6-8), and communication to vehicle owner's mobile device (Claims 1-2). The prior art's 'completion status', 'currently being performed', and 'has not begun' are pre-formed status updates. This is clear anticipation with direct textual support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1 provides the technician system and communication infrastructure. Mobile device cameras for documentation were ubiquitous by the priority date. The motivation to combine (visual documentation is superior to text) is compelling and based on common sense. The combination uses each element for its known purpose. This is textbook obviousness under KSR."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1 establishes the complete communication pathway to vehicle owner's mobile device. Transmitting images instead of text over this existing channel is a straightforward substitution of one known data type for another. The motivation (visual information is more informative) is obvious. This is simple substitution of equivalents."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "strong",
+          "reasoning": "Repair vs. replace is fundamental in vehicle service—applicant's own specification acknowledges this. US-2014188999-A1's 'suggested service' inherently includes this binary choice. Making it explicit adds no inventive concept. This is merely stating what was implicit in the prior art and common general knowledge."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "Applying the selected service is the natural and intended consequence of any service decision system. US-2014188999-A1's purpose is to facilitate service decisions, which are made to be executed. A PHOSITA would understand this as inherent in the system's function. This limitation adds no inventive step."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1 communicates with vehicle owners for service decisions. In vehicle service context, the owner is the natural decision-making authority (legal and financial responsibility). The claim merely makes explicit what is implicit in the prior art. No inventive concept."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "moderate",
+          "reasoning": "US-2014188999-A1 discloses vehicle location at service center, not roadside location for dispatch. However, applicant's specification acknowledges that providing location in service requests was known practice in roadside service. Including location for dispatch purposes is obvious adaptation. The context shift (service center to roadside) involves some modification, but the motivation is clear and the adaptation straightforward."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 9,
+          "strength": "strong",
+          "reasoning": "System claim parallel to method claims 2-3. US-2014188999-A1 provides system architecture (processor, memory, instructions). Adding camera and image transmission capabilities would be obvious for same reasons as claims 2-3. System implementation adds no additional inventive concept."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "strong",
+          "reasoning": "Depends from claim 9, adds camera actuation. Same analysis as claim 2. Camera integration for documentation was obvious. System format adds no inventive concept beyond method format."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 11,
+          "strength": "strong",
+          "reasoning": "Depends from claim 10, adds image transmission to owner. Same analysis as claim 3. Transmitting images over established communication channel was obvious substitution."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 12,
+          "strength": "strong",
+          "reasoning": "Depends from claim 9, specifies repair/replace. Same analysis as claim 4. This binary choice is fundamental in vehicle service and adds no inventive concept."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 13,
+          "strength": "strong",
+          "reasoning": "Depends from claim 9, specifies owner as authority. Same analysis as claim 6. Vehicle owner as decision-maker is implicit in prior art and obvious in context."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 14,
+          "strength": "moderate",
+          "reasoning": "Depends from claim 9, adds service request with location. Same analysis as claim 7. Context shift from service center to roadside involves some adaptation, but motivation is clear."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 15,
+          "strength": "strong",
+          "reasoning": "Depends from claim 9, adds pre-formed status updates. US-2014188999-A1 discloses status selection and communication with predetermined status types. Providing pre-defined templates is straightforward implementation. Combination with digital media (claim 9) uses known elements for predictable functions."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 16,
+          "strength": "strong",
+          "reasoning": "Computer program product format of claim 9 functionality. Same substantive limitations, same obviousness analysis. Format change adds no inventive concept—this is conventional claim drafting practice."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 17,
+          "strength": "moderate",
+          "reasoning": "Brokering method combining dispatch, digital media, and bidirectional communication. US-2014188999-A1 provides communication infrastructure. Applicant's specification acknowledges roadside dispatch was known. Digital media is obvious per claims 2-3. However, the complete brokering workflow with intermediary role is somewhat more complex than simple combinations. The motivation is clear but the integration involves multiple elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 18,
+          "strength": "strong",
+          "reasoning": "Depends from claim 17, adds selecting from multiple technicians. Applicant's specification explicitly acknowledges this was known: 'list of available roadside service technicians.' This is fundamental to dispatch and adds no inventive concept."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 19,
+          "strength": "strong",
+          "reasoning": "Depends from claim 18, adds ETA-based selection. US-2014188999-A1 mentions predicted completion time. Time-based optimization in dispatch is common sense—customers want fast service. Using ETA for selection is obvious application of known principles."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 20,
+          "strength": "strong",
+          "reasoning": "Depends from claim 19, adds polling for ETA. Polling is standard information-gathering technique in dispatch systems. Once ETA is used for selection (claim 19), polling to obtain ETAs is routine implementation with no inventive concept."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 21,
+          "strength": "moderate",
+          "reasoning": "Solicitation-based dispatch system. Applicant's specification acknowledges multi-provider networks were known. Solicitation/competitive bidding was a known dispatch variant. However, no specific prior art reference discloses solicitation-based selection—this relies on common general knowledge. The motivation is clear (better information for selection) but the evidence is less direct than claims with explicit prior art support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 22,
+          "strength": "moderate",
+          "reasoning": "Combines solicitation dispatch (claim 21) with digital media workflow. Claim 21 itself is moderate strength. The combination adds digital media communication, which is obvious per earlier claims. However, the overall system integrates multiple elements (solicitation, visual documentation, bidirectional communication). Each element is known but the complete integration is somewhat complex."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 23,
+          "strength": "strong",
+          "reasoning": "Depends from claim 22, adds time estimate in solicitation response. Same analysis as claim 19 regarding time estimates. Including ETA in solicitation response is natural implementation—technicians responding to solicitations would obviously include timing information. This is common sense with no inventive concept."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            8,
+            14,
+            15,
+            19,
+            23
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1이 명시적으로 pre-formed status updates 선택 및 통신, 차량 위치 정보, 예상 완료 시간을 개시하고 있음. 선행기술 문헌이 제공되었고, 청구항의 모든 구성요소가 명시적으로(explicit match) 개시되어 있어 102 거절 근거가 강함. Claim 8: coverage 0.8, explicit matches. Claim 14: coverage 0.7, explicit match. Claim 15: coverage 0.8, explicit matches. Claim 19: coverage 0.6-0.68, explicit match for time element. Claim 23: coverage 0.7, explicit match."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "카메라를 이용한 차량 손상 기록, 디지털 미디어 파일 전송, 수리/교체 결정은 해당 분야의 공지 기술이었다는 주장은 타당하나, 이들의 결합이 자명한지는 해석의 여지가 있음. 출원인의 명세서가 수리/교체 결정이 공지되었음을 인정하고 있어 일부 청구항(4, 5, 6, 12, 13)의 103 근거는 강화됨. 그러나 카메라 통합 및 디지털 미디어 파일 기반 원격 의사결정의 결합(claims 2, 3, 9, 10, 11, 16, 17)은 단순한 대체 이상의 기술적 통합을 요구할 수 있음. 결합 동기는 제시되었으나(정확성 향상, 분쟁 감소), 예상치 못한 결과나 기술적 어려움에 대한 반박 기회가 필요함. Technician selection 관련 청구항(18, 20, 21, 22)은 solicitation-response workflow가 공지되었다는 주장이 있으나, 차량 서비스 분야에서의 구체적 적용은 추가 검토 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014188999-A1은 차량 상태 정보를 소유자의 모바일 장치에 통신하는 것을 명시적으로 개시하지만, 'digital media file'이라는 특정 형태를 명시하지는 않습니다. BRI 하에서 'digital media file'을 'status information'으로 해석하는 것은 가능하나, 본 출원의 맥락(로드사이드 서비스에서 손상 부분의 사진/영상)과 선행기술의 맥락(서비스 센터 내 상태 모니터링)이 다릅니다. 증거는 있으나 해석의 여지가 있습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            6,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014188999-A1은 차량 소유자의 모바일 장치로 통신하는 것을 개시하여 'authority is owner'가 inherently disclosed되었다고 볼 수 있습니다. 그러나 본 출원은 'authority'라는 broader term을 사용하며, 이를 소유자로 특정하는 것이 단순한 명시화인지 추가적 한정인지 해석의 여지가 있습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            8,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014188999-A1은 technician input 기반 상태 결정을 개시하지만, 'pre-formed status updates from a plurality'라는 구체적 구조를 명시하지 않습니다. BRI 하에서 이를 포함한다고 해석할 수 있으나, 미리 형성된 복수의 옵션 중 선택이라는 구조가 명시적으로 개시되지 않았습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            6,
+            8,
+            11,
+            13,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 차량 상태 통신 시스템을 개시하고 있어, 청구항과의 차이점(digital media file 사용, authority=owner 명시, pre-formed updates 사용)이 routine design choices라고 볼 여지가 있습니다. 그러나 로드사이드 서비스 맥락에서 시각적 증거(디지털 미디어)를 사용하는 것과 서비스 센터 내 상태 모니터링은 기술적 목적이 다르며, 결합 동기가 명시적이지 않습니다. combination_threshold=0.55로 낮아 공지상식 기반 결합을 인정할 수 있으나, 맥락 차이를 고려하면 moderate 수준입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 2-23 have strong obviousness grounds. US-2014188999-A1 provides a comprehensive vehicle service communication system. The key additions in the claimed invention (camera integration, digital media transmission, repair/replace selection, technician selection) are either: (1) common general knowledge explicitly acknowledged as such (camera use, GPS location, pre-formed status updates, polling), (2) admitted by applicant as known in the art (repair vs replace decision, multiple technician selection), or (3) obvious variations of disclosed features (time estimation for arrival vs completion, digital media vs text communication). The combination motivations are clear and well-supported. The examiner correctly applied KSR principles and used applicant's own admissions effectively."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2014188999-A1 combined with well-known technologies (camera integration, GPS, dispatch systems). The prior art teaches vehicle service communication systems, but the key differences are: (1) camera-based digital media file acquisition of damage, (2) communicating visual damage documentation to owners, (3) repair vs. replace decisions based on visual evidence, (4) roadside service context, and (5) technician selection/dispatch workflows. While the motivation to combine is articulated (improving communication, visual documentation for better decisions), the strength is moderate rather than strong because: (a) the prior art focuses on service center status updates, not roadside damage documentation; (b) the combination requires multiple known technologies to be integrated in a specific way not explicitly taught; (c) the repair vs. replace decision based on visual damage documentation represents a specific application not directly disclosed. However, the reasoning is logical and the technologies were known in 2017. Under strictness=0.50 (neutral), this moderate-strength rejection warrants careful consideration of whether the combination would truly be obvious or represents a non-obvious integration."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014188999-A1은 차량 서비스 상태 통신 시스템을 개시하지만, 카메라를 이용한 디지털 미디어 파일 획득 및 전송은 명시적으로 개시하지 않음. 결합 동기는 논리적이나(시각적 정보가 텍스트보다 유용), 이는 사후적 추론(hindsight)의 위험이 있음. 선행기술은 서비스 센터 맥락이고, 본 출원은 로드사이드 손상 평가 맥락으로 적용 분야가 다름. 카메라 사용이 자명하다는 주장은 일반적 기술 지식에 의존하나, 구체적인 손상 부위 촬영 및 수리/교체 결정 워크플로우의 결합은 단순한 카메라 추가 이상의 시스템적 통합을 요구함. 증거는 있으나 해석의 여지가 상당함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1은 기술자 입력에 기반하여 완료 상태(completed, in progress, not started)를 선택하고 모바일 장치에 통신하는 시스템을 명시적으로 개시합니다(Claims 6-8, 11). 이는 청구항 8, 15의 '사전 형성된 상태 업데이트 선택 및 통신'과 실질적으로 동일합니다. coverage_score 0.75는 높은 유사도를 나타냅니다. 서비스 센터 맥락을 로드사이드 서비스에 적용하는 것은 통상의 기술자에게 자명한 설계 선택이며, 효율적이고 표준화된 의사소통 제공이라는 명확한 동기가 존재합니다. combination_threshold=0.52를 고려할 때, 이 정도의 명시적 교시는 103 거절을 유지하기에 충분합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            8,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1 explicitly discloses all elements of claims 8 and 15. Claims 6-8 of the prior art describe pre-formed status options ('completed', 'currently being performed', 'has not begun'), Claim 11 discloses technician input for status determination, and Claim 2 discloses real-time communication to mobile devices. The mapping shows 0.8 coverage with explicit matching. This is clear anticipation with strong documentary evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            9,
+            10,
+            11,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Camera integration for damage documentation: While using cameras for documentation is known, the specific integration into a mobile technician system for real-time damage assessment and owner communication represents a meaningful combination. US-2014188999-A1 teaches status communication but not visual documentation. The motivation to combine is logical but requires some inferential steps. Given my moderate strictness (0.52), this falls in the borderline category - the combination is predictable but not explicitly taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            5,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Repair vs. replace decisions and service application: The specification acknowledges these are known concepts, and applying them to the US-2014188999-A1 system is straightforward. However, the prior art focuses on status communication, not decision-making frameworks. The gap between status reporting and decision implementation exists but is bridgeable with common knowledge. At strictness 0.52, this is a moderate case - obvious but requires combining distinct concepts."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            13
+          ],
+          "strength": "weak",
+          "reasoning": "Owner as authority: While US-2014188999-A1 communicates with owners, explicitly identifying the owner as the decision-making authority is more of a clarification than a technical limitation. The mapping shows only 0.5 similarity with implicit matching. This is a weak obviousness case - it's more about making explicit what is implicit in the prior art. Given my moderate strictness, I lean toward finding this obvious but recognize it's a close call."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Roadside service with location in request: US-2014188999-A1 teaches location determination at service centers, not location-based dispatch for roadside service. The specification acknowledges roadside service is known, but adapting the prior art system from service center to roadside context involves meaningful differences in use case and information flow. The similarity score of 0.7 reflects this gap. At strictness 0.52, this is moderate - the adaptation is logical but not trivial."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "Brokering method with digital media: Combines multiple elements (technician selection, digital media communication, bidirectional coordination). While each element may be known, the specific combination for damage-based service coordination represents a meaningful integration. The confidence scores (0.7-0.8) reflect uncertainty about the strength of the combination. At my strictness level, this is moderate - predictable but involves multiple inferential steps."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            18,
+            19,
+            20,
+            21,
+            23
+          ],
+          "strength": "moderate",
+          "reasoning": "Technician selection and ETA-based dispatch: The specification acknowledges technician selection is known, and US-2014188999-A1 teaches time prediction. However, the prior art's time prediction relates to service completion, not technician arrival. Adapting this to ETA-based selection and solicitation processes involves logical but non-trivial extensions. The confidence scores (0.75-0.8) suggest moderate strength. At strictness 0.52, these are borderline - the combinations are predictable but require multiple steps of reasoning."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "카메라를 이용한 디지털 미디어 획득은 2017년 시점에 스마트폰의 보편적 기능이며, 차량 손상 문서화를 위해 카메라를 사용하는 것은 공지상식입니다. 선행기술 US-2014188999-A1이 모바일 장치를 통한 차량 서비스 통신 시스템을 명확히 개시하고 있으므로, 해당 장치의 카메라 기능을 활용하는 것은 자명한 설계 선택입니다. 결합 동기가 명확하고 예측 가능한 결과입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 차량 상태 정보를 모바일 장치에 통신하는 것을 명시적으로 개시하고 있습니다(Claims 2, 3, 11). 텍스트 기반 상태 정보를 디지털 미디어 파일로 확장하는 것은 동일한 통신 인프라를 사용하는 데이터 타입의 변경일 뿐이며, 통상의 기술자에게 자명한 변형입니다. 더 상세한 시각적 정보 제공이라는 명확한 동기가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "수리 대 교체 결정은 차량 서비스 분야의 기본적인 의사결정 구조이며, 출원인의 명세서 자체가 이를 일반적 관행으로 인정하고 있습니다. 선행기술이 권장 서비스(suggested service)를 개시하고 있으므로, 전통적인 수리/교체 이진 선택 구조를 적용하는 것은 예측 가능한 사용입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "서비스 결정 후 해당 서비스를 실제로 차량에 적용하는 것은 차량 서비스 프로세스의 자연스럽고 필수적인 다음 단계입니다. 선행기술이 서비스 센터에서의 서비스 수행을 전제로 하고 있으므로, 결정된 서비스의 실행은 당연한 후속 단계입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 차량 소유자의 연락처 정보 및 모바일 장치와의 통신을 개시하고 있습니다. 차량 서비스 분야에서 소유자가 최종 의사결정 권한을 갖는 것은 일반적 관행이지만, 선행기술이 명시적으로 '권한자로서의 소유자' 역할을 개시하지는 않습니다. 그러나 이는 표준 비즈니스 관행에 기반한 예측 가능한 설계 선택입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 기술자 입력 기반 상태 결정을 개시하고 있으며, 사전 정의된 옵션 세트를 제공하여 입력을 표준화하는 것은 2017년 시점의 일반적인 UI 설계 관행입니다. 입력 오류 감소 및 일관성 향상이라는 명확한 동기가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 9는 앞서 분석한 개별 요소들(청구항 2, 3 등)의 통합입니다. 각 구성요소의 자명성이 확인되었으므로, 이들을 하나의 시스템으로 통합하는 것은 통상의 기술자에게 예측 가능한 결합입니다. 청구항 16은 동일한 기능을 컴퓨터 프로그램 제품으로 구현한 것으로, 방법을 소프트웨어로 구현하는 것은 통상적 설계 선택입니다."
+        }
+      ]
+    }
+  ]
+}

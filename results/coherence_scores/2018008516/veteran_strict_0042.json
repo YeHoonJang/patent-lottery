@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations, motivation to combine) across all claim rejections, with no cross-contamination from other statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions are consistently linked to specific prior art references (US-2016140851-A1, US-2016274578-A1), specific claim elements (e.g., 1b for priority traffic, QCI 1 for claims 4/12/18, API for claims 8/16/20), and specific disclosures (flight data reception, geographic zone-based control, operator authentication interface)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 stage correctly found most claims novel (with is_novel flagged 'false' only where single-reference disclosure was found, and correctly noting claims 1, 9, 17 retain novelty due to missing 1b/9b/17a elements), and the §103 stage then builds on this by adding motivation-to-combine rationale for the same elements, without contradicting the §102 findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.793 and combination_threshold=0.335, the examiner's low combination threshold is reflected in readily accepting weaker motivations to combine (e.g., 'common purpose of public safety'), and the high strictness is reflected in rejecting all 20 claims with no allowances even where §102 novelty was found, consistent with a veteran strict profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and coherently from the §103 obviousness findings at the obviousness stage (all claims found obvious with confidence 0.80–0.90) and the office action (all claims rejected under §103), with no reversal or unexplained deviation."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018008516",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13505,
+      "output_tokens": 463,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

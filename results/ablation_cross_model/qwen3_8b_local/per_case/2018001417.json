@@ -1,0 +1,361 @@
+{
+  "case_id": "2018001417",
+  "proceeding_number": "2018001417",
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses both components (secure payment token encryption and API-based transaction servers) and their integration in the same technical field. The combination threshold is met with clear motivation to enhance security and seamless integration."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguous terms like 'file storage system' and 'network transport layer' lack implementation details in the specification, raising enablement concerns for claims 4-8."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses overlapping technologies (secure payment tokens, networked authorization data) with clear motivation to combine. Graham factors confirm the combination is obvious to a PHOSITA."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Specification lacks concrete details on encryption methods, protocols, and implementation specifics, making the invention's practice indistinct under BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Combination of US-2015235212-A1 and US-2015302374-A1 suggests encryption/secure APIs as obvious extensions, but the specific integration with 'virtual container' and 'file storage encryption' requires interpretation. Confidence (0.78-0.82) indicates moderate strength."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015235212-A1 explicitly discloses 'virtual container' and 'file storage encryption' in claim 2 with high confidence (0.85), directly anticipating the claimed features."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015235212-A1 and US-2015302374-A1) explicitly discloses secure virtualization and API-based transaction handling. The combination is supported by a clear motivation to integrate secure data processing with API interactions, meeting the combination threshold."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2015235212-A1) explicitly discloses the virtual container and data exposure control, directly overlapping with the claim elements under a broad interpretation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks sufficient detail to enable the 'virtual container's data exposure control mechanism, rendering the claim indefinite."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references (US-2015235212-A1 and US-2015302374-A1) explicitly disclose overlapping features of the claims, and their combination is logically motivated by the field's common goal of enhancing payment security. The Graham factors confirm that a PHOSITA would recognize encryption and integration as standard security measures, with high confidence (0.73–0.92)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art combinations with clear motivation to apply encryption/secure APIs to payment systems, but specific claim elements (e.g., 'file storage system', 'network transport layer') lack sufficient specificity in the specification."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015235212-A1 and US-2015302374-A1) explicitly discloses encryption, secure payment tokens, and integration methods. The combination threshold (0.46) is met with high confidence (0.85), and Graham factors confirm obviousness through explicit teachings and motivation to combine."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 2,3,4,6,7,8 lack explicit written description support despite prior art overlap. Confidence scores (0.7-0.8) indicate partial alignment but insufficient clarity for enablement, requiring amendment under strictness=0.47."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art combination (US-2015235212-A1 and US-2015302374-A1) with clear motivation (enhancing security) and Graham factors (scope, differences, PHOSITA level) are well-supported. Confidence score 0.85 indicates strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art references disclose overlapping elements (secure payment processing, encryption), but the specific integration of a virtual container with enterprise APIs for seamless app interaction is not explicitly taught. The combination's motivation is plausible but not definitively supported by the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3's network encryption is inherently disclosed in the prior art as a standard security practice, making the variant obvious."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 2,4,6,7,8 lack explicit disclosure of the virtual container mechanism and its integration with APIs, raising ambiguity in the specification."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references explicitly disclose overlapping elements (encryption, secure tokens, pass integration) with clear motivation to combine. Graham factors confirm technical effect and PHOSITA understanding."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Abstract terms like 'file storage system' lack specification support, but claims 4-6 show sufficient detail. Moderate confidence in deficiency but requires amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015235212-A1과 US-2015302374-A1의 결합이 기술적 동기와 공지 기술에 기반해 명확히 예측 가능하며, Graham 요소에서의 차이점이 제한적임을 보여줌."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references explicitly/implicitly disclose all claim elements, and the combination is obvious under the disclosed technical field with clear motivation (security enhancement). Confidence scores (0.7-0.8) and Graham factors confirm strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art references (US-2015235212-A1, US-2015302374-A1) disclose overlapping elements, but the combination requires interpretation of 'virtual container' as a non-obvious technical solution. Graham factors indicate secondary considerations suggest non-obviousness, yet combination motivation is not explicitly stated in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art references (US-2015235212-A1, US-2015302374-A1) directly anticipate claims 2,3,7,8 with high similarity/coverage scores (0.7-0.85). The disclosed subject matter overlaps explicitly with the claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 2,3,7,8 contain terms ('file storage system', 'network transport layer', etc.) lacking specificity in the specification. The enablement issues are clear as PHOSITA cannot implement without further guidance."
+        }
+      ]
+    }
+  ]
+}

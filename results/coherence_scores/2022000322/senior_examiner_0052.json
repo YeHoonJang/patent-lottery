@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the §103 Graham/KSR framework throughout—explicitly identifying scope and content of prior art, differences from the claimed invention, PHOSITA level, secondary considerations, and motivation to combine—without invoking any improper statutory framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (e.g., US-2019261132-A1, US-2018279110-A1, US-2018279394-A1) and maps them to specific claim elements such as PC5_tech parameter, discovery filters, ProSe application codes, and inter-PLMN messaging."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage found claims 3 and 15 not novel (is_novel: false, confidence 0.9 each), yet the §103 obviousness stage initially found those same claims not obvious (is_obvious: false), and then the office action and final decision reversed to reject them under §103 without adequately reconciling the earlier obviousness finding with the novelty finding—creating an internal inconsistency across stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has moderate strictness (0.517) and a moderate combination threshold (0.443), and the reasoning reflects this balanced posture—rejecting all claims but acknowledging non-trivial integration issues for claims 3 and 15 before ultimately rejecting, consistent with a pragmatist examiner who resolves borderline cases toward rejection without being excessively strict."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims 2–16 under §103 flows directly from the accumulated obviousness analysis at each stage, which consistently found strong prior art coverage and clear motivation to combine, with the final decision explicitly summarizing these same grounds."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18919,
+      "output_tokens": 441,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

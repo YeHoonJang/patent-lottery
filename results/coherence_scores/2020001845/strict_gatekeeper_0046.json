@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation under §102 for claims found in prior art, and applies the Graham/KSR framework (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness rejections, with no statute-switching errors."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection references specific claim language (e.g., Si_xH_y x≥2, plasma power <300W, temperature <100°C) against specific prior art disclosures (US-2014213070-A1, US-2015303056-A1, US-2018358220-A1) with element-by-element comparisons throughout."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage consistently treats only those claims found novel at §102 (claims 6,7,8,10,14,16,20) as obvious, and claims found anticipated (1-5,9,11-13,15,17-19) are carried forward as §102 rejections without contradiction; claim 20's novelty stage reasoning is internally strained but the obviousness conclusion is sustained with additional rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner resolves every ambiguity toward rejection—treating process optimization ranges as obvious, interpreting remote plasma as PECVD, and extending prior art disclosures to cover unspecified gases—consistently reflecting a highly strict gatekeeper disposition."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102 anticipation findings for the majority of claims and §103 obviousness findings for the remainder, with no reversal of prior-stage conclusions and explicit summary rationale."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001845",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17144,
+      "output_tokens": 429,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

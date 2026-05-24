@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis for §102 (claims 1, 21) and Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) for §103 throughout all claim analyses."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection references specific prior art references (US-2013227111-A1 and/or US-2013272121-A1) and identifies particular disclosed features (e.g., scheduler module generating congestion metrics, client/system metrics-based load determination) compared against specific claim language."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage found claims 4, 6, 12, 13, 14, 18, 19, and 20 to be novel with meaningful reasoning, and the §103 obviousness stage found claims 4, 6, 12, 13, 14, 18, 19, and 20 non-obvious, yet the office action lists all those claims as 'allowable' while the final decision reverses course and rejects all of them under §103 without any new rationale explaining the change from the obviousness stage's non-obvious findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has moderate strictness (0.547) and a combination_threshold of 0.553, and the trace reflects this balanced profile—rejecting most claims but acknowledging non-obviousness for several specific-resource and advanced-control claims before ultimately rejecting them under the final-decision override, consistent with a mid-range pragmatist examiner."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision rejects claims 4, 6, 12, 13, 14, 18, 19, and 20 which were explicitly found non-obvious in the §103 stage and listed as allowable in the office action, without providing any additional rationale for reversing those prior-stage conclusions."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 20260,
+      "output_tokens": 479,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation for §102 claims, Graham/KSR factors (scope/content, differences, PHOSITA level, secondary considerations) for §103 claims, and written description/enablement analysis under §112(a)/(b) — each statute receives its proper legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection references specific prior art references (US-2018324652-A1, US-2018295556-A1) with specific claim elements mapped (e.g., IWK-SCEF roaming data transmission, SCS/AS request handling, HSS interaction), and §112 rejections cite specific claim language like 'accounting information for charging' and 'rate of data allowed' alongside support-score metrics."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained throughout — claims found not novel at §102 are carried forward as anticipated in the office action and final decision; claims found novel but obvious at §103 are rejected on that basis; claims novel and non-obvious (7, 14, 19, 24) are redirected to §112, and the final decision rejects all claims on the same grounds established in prior stages without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.875 and combination_threshold=0.344, the examiner rejects ambiguous claims (e.g., claims 15-17 where the prior art only partially discloses elements) by readily combining references with minimal motivation articulated, and resolves all borderline §112 cases toward rejection rather than grant — fully consistent with a high-strictness, easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'reject all claims' decision flows directly and logically from the accumulated stage findings: §102 rejections for clearly anticipated claims, §103 rejections for combinable claims, and §112 rejections for claims with novel features lacking specification support, with no unexplained reversals."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004939",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14091,
+      "output_tokens": 480,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "case_id": "ABL-2021005117",
+  "proceeding_number": "2021005117",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.07142857142857142,
+  "reject_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "릴레이와 로우 사이드 드라이버는 전기 제어 분야에서 공지된 기술로, US-2017305402-A1의 트랜지스터 기반 스위치를 대체하거나 드라이버 회로를 추가하는 것은 통상의 기술자가 예측 가능하게 수행할 수 있는 설계 선택이다. 결합 동기(motivation to combine)가 명확하며, 선행기술과의 기술적 격차가 없고, 신규성 판단에서의 차이가 진보성에 영향을 미치지 않는다. 심사 성향(strictness=0.79)을 고려하더라도 이는 강한 obviousness 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1은 청구항 1, 3, 7, 8, 14, 17, 18의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, 전류 모니터링 회로의 존재는 시스템 동작의 본질적 기능으로 간주될 수 있음. 마이크로컨트롤러 기반 제어와 순차적 저항 적용은 전류 피드백을 필요로 하므로, 전류 모니터링 회로는 암시적으로 개시됨. 따라서 103 기준으로도 강한 obvious 판단이 정당함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "릴레이 사용(청구항 2, 16)은 트랜지스터와의 기능적 대체로서 공지된 기술이며, 전자 스위칭 회로 설계 분야에서 일반적인 설계 선택. 통상의 기술자는 신뢰성, 전류 용량 등을 고려해 릴레이를 사용하는 것이 자명하다고 판단함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "온도 센서(청구항 4, 5, 15)는 전력 소자를 포함하는 전자 장치에서 과열 보호를 위한 공지 기술. US-2015219706-A1은 고장 진단을 개시하고 있으며, 온도 기반 제어는 열 관리의 일반적 실시예로, obviousness의 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "로우 사이드 드라이버(청구항 6)는 마이크로컨트롤러와 전력 스위치 사이의 인터페이스로서 산업 표준. US-2017305402-A1의 제어 아키텍처와 결합 시 자명한 설계 확장."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "사용자 인터페이스를 통한 축 수(청구항 9, 19) 및 부하 전류 입력(청구항 10, 20)은 테스트 장비에서의 일반적인 사용자 맞춤형 기능. 디스플레이 기능과 결합 시 usability 향상을 위한 자명한 진보."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "션트 저항(청구항 11)은 전류 측정의 가장 기본적이고 널리 사용되는 방법. US-2017305402-A1의 전류 측정 기능과 결합 시 자명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "저항의 수가 다섯 개인지 여부(청구항 12)는 성능 조정을 위한 설계 변수. '복수의 저항'은 일반적 표현이며, 특정 수치는 granularity 조정의 일반적 선택."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "히트싱크(청구항 13)는 전력 소자에서의 열 방산을 위한 공지된 수단. 저항 및 스위치의 전력 소모는 열 발생을 초래하므로, 히트싱크 추가는 자명한 보호 조치."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 1에 대해 US-2017305402-A1은 전류 측정 및 스위치 제어를 개시하지만, 실시간 피드백을 통한 동적 부하 시뮬레이션은 명시하지 않음. 본 출원은 측정 데이터를 실시간으로 제어에 활용하는 점에서 기술적 진보가 인정되며, 진보성 판단에서 confidence 0.75로 비자명하다고 평가됨. 거절 근거는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 3은 US-2017305402-A1의 청구항 6에 의해 명확히 개시되며, 트랜지스터 기반 스위치 제어는 동일한 기술적 맥락에서 동일한 기능 수행. 진보성 판단에서도 자명하다고 평가됨(confidence 0.95). 강한 거절 근거."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 7, 8, 18은 모두 입력 신호가 견인 차량 브레이크 컨트롤러로부터 발생한다는 점에서 US-2017305402-A1에 명시적으로 개시됨. 신규성 및 진보성 판단 모두 confidence 0.97 이상으로, 동일한 기술적 전제로서 강한 자명성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 14는 측정 및 제어 방법을 포함하지만, 본 출원은 실시간 피드백 기반 동적 제어를 통해 정밀도 향상이라는 기술적 효과를 달성함. 진보성 판단에서 confidence 0.75로 비자명하다고 평가됨. 거절 근거는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 17은 US-2017305402-A1의 청구항 6에 의해 직접적으로 개시됨. 트랜지스터 사용은 명확하며, 진보성 판단에서도 자명하다고 평가됨(confidence 0.95). 강한 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 2 and claim 16 are deemed obvious based on substitution of relays for transistors. While relays and transistors are known switching elements, REF1 exclusively uses transistors and does not suggest replacement. The substitution, though routine in some contexts, is not explicitly motivated in the specific application of load current simulation for brake controllers. Given the moderate breadth of claim interpretation and lack of direct teaching, this obviousness rejection is weak under BRI and the examiner's innovation-supportive stance."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1은 출원 발명의 핵심 구성요소인 병렬 저항, 스위치(트랜지스터), 마이크로컨트롤러 기반 제어, 전류 측정 회로, 입력 신호 수신 등을 명시 또는 암시적으로 개시하고 있으며, 동일한 기술적 목적(견인차량 브레이크 컨트롤러 테스트)을 달성함. 릴레이 사용, 로우 사이드 드라이버, 션트 저항, 5개 저항 선택 등은 통상의 기술자가 설계 시 쉽게 도달할 수 있는 변형으로, 결합 동기 및 기술적 자명성에 대한 증거가 명확함. US-2015219706-A1은 전류 측정에서 션트의 사용 가능성을 뒷받침함. 전체적으로 선행기술 조합이 출원 발명을 포괄하며, obviousness 판단에 강한 근거 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1은 부하 전류 시뮬레이션을 위한 핵심 구성요소(전류 측정, 병렬 저항, 스위치 제어, 마이크로컨트롤러)를 모두 개시하고 있으며, 제1항 및 관련 청구항의 기술적 내용과 실질적으로 동일함. 션트 저항(claim 11), 다섯 개의 저항(claim 12), 히트싱크(claim 13), 로우 사이드 드라이버(claim 6)는 각각 공지된 설계 기법 또는 명백한 변형으로, 통상의 기술자가 결합할 동기가 있음. 결합 동기와 예측 가능성 모두 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "릴레이 사용(claims 2, 16)은 트랜지스터의 공지된 대체 수단이나, 특정한 신뢰성 또는 전류 용량 요구 사항 없이 단순히 '릴레이로 대체'하는 것은 설계 선택의 범위 내에 있음. 온도 센서(claims 4, 15) 및 온도 기반 제어(claim 5)는 전자 장비에서 흔하나, 본 발명의 맥락에서 특별한 통합 효과가 입증되지 않음. 그러나 이러한 보호 회로 추가는 통상적인 엔지니어링 관행으로 간주될 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "사용자 인터페이스를 통한 트레일러 축 수(claims 9, 19) 또는 원하는 부하 전류 설정(claims 10, 20)은 테스트 장비의 유연성을 높이는 기능이나, 사용자 맞춤형 설정은 자동 테스트 장비에서 흔히 채택되는 접근 방식임. 이러한 인터페이스 추가는 발명적 사고보다는 기능 확장의 범주에 속함. 그러나 선행기술에 직접적인 동기 부족은 있으나, 일반적 관행 내에서 예측 가능하다고 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1은 데이터 프로세서, 브레이크 시뮬레이션 회로(병렬 저항 및 스위치), 브레이크 통합 회로(신호 적분 기능)를 개시하고 있으며, 전류 측정에 기반한 제어는 피드백 루프의 일반적 확장으로 간주될 수 있음. 'current monitoring circuitry'는 명시적으로 언급되지 않으나, 'brake integration circuitry'가 입력 신호의 전류 특성을 시간에 따라 측정함으로써 암시적으로 개시됨. 통상의 기술자 입장에서 전류 피드백을 통한 정밀도 향상은 자명한 설계 목표이며, combination_threshold=0.46 기준에 비추어 결합 동기가 충분히 존재함. confidence=0.85로, 증거가 명확하고 합리적임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "릴레이 사용은 트랜지스터의 공지된 대체 수단으로, 자동차 전력 스위칭 분야에서 널리 알려져 있으며, US-2017305402-A1의 동일한 기능을 수행하는 구성에 적용하는 것은 통상의 기술자가 자명하게 도달할 수 있음. 결합 동기 명확."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "온도 센서 회로 및 이를 기반으로 한 스위치 제어는 전력 소모 장치의 과열 방지를 위한 공지된 설계 관행으로, US-2017305402-A1과 US-2015219706-A1의 결합은 안전성 향상 목적의 명확한 동기 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "저사이드 드라이버는 마이크로컨트롤러와 전력 스위치 사이의 공지된 인터페이스로, 신뢰성 향상을 위한 설계 선택이나, US-2017305402-A1이 직접 제어를 암시하므로 추가의 자명성은 해석의 여지 있음. 그러나 통상적 설계 관행으로 간주 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "사용자 인터페이스를 통한 트레일러 액슬 수 또는 부하 전류 설정은 테스트 유연성을 향상시키는 기능으로, 선행기술에는 없으나, 사용자 맞춤형 제어를 위한 일반적 접근으로서 자명하게 도달할 수 있다는 주장은 합리적이나, 특정 기술적 환경에서의 적용은 비자명할 수 있음. 심사관 성향(0.55) 상 거절 유지 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1이 부하 전류 시뮬레이션을 위한 마이크로컨트롤러, 병렬 저항, 스위치, 전류 측정 기능을 모두 개시하고 있으며, 동일한 기술적 목적을 달성함. 청구항 1, 3, 7, 8, 14, 17, 18은 단일 선행기술에 의해 완전히 개시되거나 명백한 변형이므로, 진보성 거절은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "릴레이 사용은 트랜지스터 대체로서 공지된 기술이지만, 고전류 환경에서의 신뢰성 향상이라는 특정 이점이 명세서에 강조되지 않음. 통상의 기술자 수준에서 설계 선택으로 간주될 수 있으나, 자명성에 약간의 해석 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "로우 사이드 드라이버는 자동차 전자에서 일반적이지만, US-2017305402-A1이 마이크로컨트롤러와 트랜지스터를 직접 연결한다고 개시하므로, 드라이버 추가는 기능적 향상보다는 설계 선택에 가까움. 명세서에 특별한 효과 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "셔트 저항은 전류 측정의 공지된 방법이나, 선행기술이 신호 적분을 사용하는 점에서 기술적 접근 차이 존재. 그러나 정확한 측정을 위한 일반적 대안으로서 자명하다고 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "다섯 개의 저항 수는 설계 선택의 범위 내. 선행기술이 '복수의 저항'을 개시하므로, 특정 수치는 정밀도 조정을 위한 일반적 결정. 특별한 효과 입증 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "히트 싱크는 전력 소자에서 일반적이나, 소형 시뮬레이터에 통합된 점에서 그 필요성이 명확하지 않음. 발열 문제에 대한 언급 없고, 명세서에 신뢰성 향상 외 특별한 효과 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1은 청구항 1, 3, 7, 8, 14, 17, 18의 모든 구성요소를 단일 선행기술에서 명확히 개시하고 있으며, 특히 전류 측정, 병렬 저항, 스위치(트랜지스터), 마이크로컨트롤러 제어, 신호 출처 등이 직접 대비됨. 신규성 결여 판단은 강한 근거 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "릴레이 사용(청구항 2, 16)은 트랜지스터의 대체 수단으로서 공지된 기술이지만, 릴레이는 기계적 수명, 반응 속도 등의 단점이 있어 무조건적 치환이 자명하다고 보기는 어려움. 동기(motivation)는 존재하나, 완전히 예측 가능한 결과는 아님."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "온도 센서(4,5,15), 저사이드 드라이버(6), 사용자 인터페이스(9,10,19,20), 정확히 5개의 저항(12), 히트 싱크(13) 등은 선행기술에 전혀 개시되지 않았으며, 각각의 기능이 새로운 기술적 효과(온도 기반 제어, 사용자 맞춤 시뮬레이션, 열 관리 등)를 제공함. 이러한 구성들은 공지된 기술을 단순히 결합한 것이 아니라, 새로운 제어 로직과 사용자 상호작용을 도입하므로 obviousness 판단은 약한 근거에 기반함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1은 제1항의 핵심 구성요소(전류 모니터링, 병렬 저항, 트랜지스터 스위치, 마이크로컨트롤러 제어)를 명시 또는 암시적으로 개시하고 있으며, 동일한 기술적 목적(트레일러 제동 시스템 시뮬레이션)을 달성함. 결합 동기 및 통상의 기술자 수준에서의 자명성은 Graham 요소에 따라 충분히 입증됨. confidence=0.9로 강한 근거."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "릴레이, 로우 사이드 드라이버, 다섯 개 저항, 히트 싱크는 선행기술에 직접 개시되지 않으나, 각각 공지된 기술적 수단임. 릴레이는 트랜지스터의 대체로 설계 선택 가능, 히트 싱크는 열 관리의 일반적 해결책. 그러나 본 용도에서의 통합이 예상치 못한 효과를 초래하지 않음. combination_threshold=0.44 기준으로 자명하다고 판단 가능하나, BRI 하에서 해석의 여지 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2 (relay), Claim 6 (low side driver), Claim 11 (shunt resistor), Claim 12 (five resistors), Claim 13 (heat sink), and Claim 16 (relay in method) are all based on well-established design practices in power electronics and microcontroller-based control systems. The substitution of relays for transistors, use of shunt resistors for current sensing, low-side driving for N-channel devices, addition of heat sinks for thermal management, and selection of resistor count as a design choice are all within the ordinary skill in the art. The confidence in these obviousness rejections is high (0.8–0.9 range), and the motivation to combine or apply common knowledge is well-supported by the prior art and general engineering principles."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1이 청구항 1의 모든 구성요소를 명시적 또는 기능적으로 개시하며, 통상의 기술자에게는 전류 측정 방식(적분 vs 셔트 저항)의 대체가 명백함. 결합 동기와 선행기술의 범위가 명확하여 강한 103 거절 근거."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "트랜지스터 사용(청구항 3, 17)은 선행기술에 명시적으로 개시됨. 기술적 차이 없음. 진보성 판단에서 'is_obvious=false'는 오류로 보이며, 일관성 있게 obvious로 판단해야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "입력 신호 출처(청구항 7, 18) 및 커넥터(청구항 8)는 선행기술의 핵심 구성으로 명시됨. 용도와 연결 방식이 동일하므로 명백함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "셔트 저항(청구항 11)은 공지 기술이나, 본 시스템에서의 적용은 명확한 대체가 아님. 그러나 전류 측정의 일반성과 기능적 동등성 고려 시, obviousness 판단은 합리적이나 약간의 해석 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "저항 수가 5개인 점(청구항 12)은 설계 선택으로 간주 가능하나, 특정 수의 저항이 부하 단계에 특별한 효과를 주는지 불명. 일반적 engineering choice로 간주하되, criticality 없음이 명확하지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "히트싱크(청구항 13)는 전력 소자에 일반적이나, 선행기술이 과열 문제를 언급하지 않음. 예방적 설계로 간주 가능하나, 명백성은 다소 낮음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "방법 청구항 14는 선행기술의 동작을 그대로 반영함. 측정 및 제어 로직이 동일하므로 신규성 및 진보성 모두 결여."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1이 청구항 1, 3, 6, 7, 8, 11, 14, 17, 18의 모든 구성요소를 명시하거나 암시적으로 개시하며, 결합 동기 없이 단일 문헌에 기반한 비자명성 결여가 명확함. 특히 트랜지스터 기반 스위치, 입력 신호 수신, 전류 측정, 마이크로컨트롤러 제어 등은 동일한 기술적 맥락에서 직접적으로 개시됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "릴레이와 트랜지스터의 치환은 기능적 등가성에 기반하지만, 특정한 신뢰성 요구 또는 환경 조건 없이 일반적 치환으로 보는 것은 약간의 해석의 여지 있음. 그러나 엄격성 기준(0.60) 하에서는 통상의 기술자에게 명백한 설계 선택으로 간주 가능."
+        }
+      ]
+    }
+  ]
+}

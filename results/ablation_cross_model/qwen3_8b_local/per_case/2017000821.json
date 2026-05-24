@@ -1,0 +1,338 @@
+{
+  "case_id": "2017000821",
+  "proceeding_number": "2017000821",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all claimed structural elements (stator slots filled with heat conductive material, adjacent winding pairs, cavity filling) and the combination of adhering/filling substances to minimize free space is a logical extension of the prior art's thermal management approach. The Graham factors confirm the obviousness of material substitution (felt/aramid) and cavity volume constraints as quantitative refinements of the prior art's general concepts."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "While the specification lacks detailed material properties (e.g., felt/aramid characteristics) and implementation steps, the claims' functional language (e.g., 'substantially fill') aligns with the prior art's disclosure. However, the absence of specific implementation details creates enablement concerns under 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses core components (superconducting coils, refrigerant-filled tubes) and functional equivalents (adhering material/filling substance). Graham factors confirm PHOSITA would combine these for thermal management, meeting strictness threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 4, 8의 'adjacent' 및 '≤1 cubic inch' 용어는 명세서에서 구체적 정의가 부재하나, 선행기술(US-2012165198-A1)도 해당 구조를 명시하지 않아 기재요건 충족 여부 판단에 여지가 있음. 발명의 목적(열전도성 및 절연성 향상)과 기술적 기여가 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly teaches functional equivalents of all claimed elements, but material substitutions (e.g., fibrous aramid, electrically insulated felt) and volume constraints show some ambiguity. Graham factors confirm PHOSITA would recognize modifications, but functional equivalence and commercial application suggest limited inventive step."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all elements of claims 1 and 3, with high confidence (0.8) and coverage scores below the strictness threshold (0.89)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 teaches stator cores with windings, gaps, and heat conductive materials. A PHOSITA would combine these elements with clear motivation, supported by high confidence (0.8) and Graham factors."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Lack of specific material definitions (e.g., 'fibrous aramid') and method details (e.g., 'free space measurement') in the specification, but verification confirms deficiencies."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1's disclosure aligns with all claim elements, and the combination is supported by technical rationale. However, confidence scores (0.6-0.8) fall short of strictness threshold (0.82), and some claims (e.g., 10, 14, 16) show weak evidence of non-obviousness. Motivation to combine is clear, but functional equivalences and obvious variants weaken the strength."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly discloses equivalent structures and functions, but some claims (e.g., 10, 16) rely on BRI interpretations and material substitutions with lower confidence (0.55). Combination motivation is clear for most claims, but functional equivalency under BRI introduces interpretive flexibility."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2012165198-A1) explicitly teaches cooling tubes for thermal management, while claims 6/12 focus on insulation and cavity filling. The distinct technical objectives (thermal vs. electrical insulation) and lack of motivation to combine create a clear non-obviousness distinction."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'substantially fill' and 'circumferentially adjacent' lack clear definition in the specification, raising enablement concerns. However, the specification may still provide sufficient support for core features."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all claimed elements with clear motivation to combine (thermal management improvement). Confidence scores (0.75-0.8) exceed strictness threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 6, and 12 are explicitly anticipated by REF1 with high confidence (0.8-0.95), meeting the strictness threshold. Other claims (1,4-5,7-16) lack sufficient anticipation or are novel with coverage scores below the threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 문헌이 동일 출원서 내 claims로 제시되어 prior art가 될 수 없음. 결합 동기 부족으로 인한 103_obviousness 거절은 제거됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks structural details for critical elements like 'plurality of stator winding pairs' and 'gaps between pairs', making enablement and written description deficiencies clear and unambiguous. This meets the strictness threshold for strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012165198-A1과의 직접적 대응 및 기술적 대체 가능성에 대한 명확한 증거로, 결합 동기와 Graham 요소가 명확히 제시됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 특정 용어(예: 'non-filled areas', 'substantially fill', 'fibrous aramid')에 대한 구체적 설명이 누락되었으나, 일부 기술적 맥락에서 유추 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses stator cores with slots between teeth and superconducting coils, directly corresponding to claims 2 and 3. Coverage scores (0.68/0.78) exceed combination threshold, and confidence is high (0.8)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'non-filled areas', 'fibrous aramid', and 'circumferentially adjacent' lack quantitative/structural definitions. While specification deficiencies are clear, the lack of explicit prior art guidance on these terms reduces certainty."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 2's 'adjacent pairs' lacks spatial/structural definition, violating definiteness requirements under 35 U.S.C. § 112(a)."
+        }
+      ]
+    }
+  ]
+}

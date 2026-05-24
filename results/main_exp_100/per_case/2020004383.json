@@ -1,0 +1,314 @@
+{
+  "case_id": "PILOT-2020004383",
+  "proceeding_number": "2020004383",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016364341-A1이 가상 머신 내 애플리케이션 메모리 보호를 위한 EPT 기반 하이퍼바이저 제어를 명시적으로 개시하고 있으며, US-2012254995-A1이 보안 에이전트를 통한 메모리 접근 트래핑 및 실행 허용 여부 판단을 개시함. 두 기술은 모두 메모리 보안 및 실행 제어라는 공통 목적을 가지며, 통상의 기술자가 결합할 동기가 명확함. 특히 하이퍼콜, 페이지 테이블 구조, 실행 모드 설정 등은 해당 분야의 공지기술로, 결합의 기술적 장벽 없음. Graham 요소 중 기술 수준, 차이점, 2차적 고려사항 모두 obviousness를 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016364341-A1은 EPT를 사용하여 게스트 애플리케이션의 메모리 실행 권한을 제어하며, 특히 신뢰되지 않는 앱의 커널 모드 실행을 방지하는 보안 아키텍처를 명시적으로 개시하고 있다. US-2012254995-A1은 OS 아래 계층에서 메모리 접근을 트랩하고 동적 권한 제어를 수행함으로써, 애플리케이션 행동에 기반한 보안 정책 적용을 가능하게 한다. 두 문서의 결합은 게스트가 메모리 할당 이벤트를 감지하고 하이퍼바이저에 executable-by-user 모드 설정을 요청하도록 하는 청구항 구성에 대해 명확한 기술적 근거와 결합 동기(motivation to combine)를 제공한다. 특히, 가상화 환경에서 보안 강화를 위한 사용자 코드의 커널 실행 제한은 통상의 기술자에게 공지된 설계 목표이며, 하이퍼콜을 통한 요청, 페이지 테이블 기반 권한 설정 등은 모두 공통 기술이다. 모든 종속항은 독립항의 기능적 요소를 구체화하거나 일반적인 시스템 구성 요소를 추가한 것에 불과하므로, 전체 청구항 군에 대해 진보성 결여 판단은 강한 근거를 가진다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 메모리 보호를 위한 EPT 사용과 보안 에이전트의 트래핑을 개시하고 있으나, 본 출원의 하이퍼콜을 통한 게스트 주도적 요청, 조건부 실행 모드 설정, 커널 코드 범위 전송, 동적 실행 제어 등은 통합적으로 개시되지 않음. 결합 동기의 존재는 인정되나, 구체적 구현이 자명하다고 단정하기 어려움. 심사관의 관대한 성향(strictness=0.25)을 고려하면, 이러한 차이점은 기술적 진보로 평가될 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제시된 선행기술들은 본 발명의 핵심인 '게스트가 애플리케이션 메모리 페이지를 감지하고 하이퍼바이저에 executable-by-user mode 설정을 요청'하는 절차를 개시하지 않으며, 결합 동기도 명확하지 않음. US-2016364341-A1은 EPT 기반 격리를, US-2012254995-A1은 보안 에이전트 기반 트래핑을 다루지만, 서로 다른 보안 계층에서 작동하며 통합 동기가 부족함. 특히 게스트가 하이퍼콜을 통해 하이퍼바이저 페이지 테이블의 실행 권한을 조작하는 기술적 사고는 통상의 기술자가 자명하게 도달하기 어려움. 결합 동기에 대한 confidence도 낮음(0.72 기준 미달)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2016364341-A1 and US-2012254995-A1 provides clear and substantial support for the claimed invention's core elements: guest-level memory allocation detection and hypervisor-enforced execution mode control. The motivation to combine—layered security through guest-hypervisor collaboration—is a well-established principle in system security. The technical components (EPT, hypercalls, memory trapping) are explicitly disclosed or standard in the art. Confidence in obviousness is high across most claims, particularly for claims involving standard virtualization mechanisms."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016364341-A1은 EPT를 통한 하이퍼바이저 수준의 메모리 보호를 명확히 개시하며, 게스트 OS가 메모리 할당을 탐지하고 권한 설정을 요청하는 것은 가상화 보안 아키텍처에서 자명한 설계 선택이다. US-2012254995-A1은 보안 에이전트를 통한 메모리 접근 트랩과 정책 기반 판단을 제공하며, 두 기술의 결합은 악성코드 방지 및 커널 모드 실행 방지라는 공지된 보안 목표에 부합한다. 결합 동기가 명확하고, 기술적 통합이 예측 가능하므로, 진보성 결여의 근거는 강력하다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016364341-A1은 EPT를 사용하여 하이퍼바이저 수준에서 메모리 실행 권한을 제어하는 구조를 명시적으로 개시하고 있으며, US-2012254995-A1은 보안 에이전트를 통해 메모리 접근을 트랩하고 정책 기반 결정을 수행하는 기술을 제공한다. 두 기술의 결합은 가상화 환경에서 보안을 강화하기 위한 명백한 접근 방식으로, 통상의 기술자가 쉽게 도달할 수 있다. 특히 게스트가 하이퍼콜을 통해 메모리 권한 설정을 요청하는 것은 가상화 아키텍처에서 공지된 통신 수단이며, 'executable-by-user' 모드의 정의 및 커널 공간에서의 비실행 보장은 보안 정책의 기본 원칙이다. 결합 동기(motivation to combine)는 명확하고, 선행기술 간 기술적 격차가 없으며, 전체 청구항 구성이 공지된 기술의 조합으로 실현 가능하다. 따라서 obviousness 판단의 근거는 강력하다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2016364341-A1 and US-2012254995-A1 provides clear and specific teachings relevant to the claimed invention. US-2016364341-A1 discloses hypervisor-level memory protection using EPT, including GPA-to-HPA mapping with execution permission control, while US-2012254995-A1 teaches below-OS trapping of memory access and execution attempts, particularly for security enforcement. The motivation to combine—enhancing virtualization-based security by integrating guest-level detection with hypervisor-enforced execution policies—is logically sound and supported by the shared objective of preventing unauthorized kernel-mode code execution. Most claim features, including hypercalls, mode-based execution control, and dynamic permission setting, are either explicitly disclosed or represent routine extensions known in the art. Confidence in the obviousness rejection is high across most claims, particularly for claims involving standard virtualization mechanisms (e.g., claims 2, 5, 6, 8, 10, 14, 16)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016364341-A1은 EPT를 사용하여 게스트 애플리케이션의 메모리 접근 권한을 제어하며, 특히 실행 권한을 사용자 모드로 제한하는 기술을 명시적으로 개시하고 있으며, US-2012254995-A1은 보안 에이전트를 통해 메모리 접근 시도를 트랩하고 보안 정책을 적용함으로써 권한 변경을 감시하는 기술을 제공한다. 두 기술의 결합은 가상화 환경에서 보안을 강화하기 위한 통상적인 설계 원리에 부합하며, 통상의 기술자에게 명확한 결합 동기가 존재함. 특히, 커널 모드에서의 악성 코드 실행 방지는 알려진 보안 위협에 대한 대응으로, 선행기술의 결합이 예측 가능하고 자연스러운 기술적 발전임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016364341-A1과 US-2012254995-A1의 결합은 메모리 보안과 가상화 계층에서의 접근 제어라는 동일한 목적을 공유하며, 통상의 기술자가 결합할 수 있는 공지된 보안 아키텍처를 제공한다. EPT 기반 매핑, 게스트 페이지 테이블, 접근 권한 트랩, 조건부 실행 모드 설정 등 청구항 대부분의 구성요소가 명시되거나 암시되므로 결합 동기가 명확하고 기술적 차별성이 부족하다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Office Action은 US-2016364341-A1이 'hypercall'을 명시적으로 개시하지 않지만, BRI 하에서 하이퍼콜 메커니즘이 '내재적으로 포함된다'고 주장한다. 그러나 hypercall은 특정한 인터페이스 메커니즘으로, 선행기술에서 명시적 또는 암시적 개시가 없을 경우 신규성을 유지할 가능성이 있다. 이는 해석의 여지가 크며, strictness=0.50인 중립적 심사관 기준에서 약한 근거로 평가된다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2016364341-A1 discloses EPT-based memory permission control and US-2012254995-A1 teaches below-OS memory monitoring, the specific combination of a guest proactively detecting application memory allocation and requesting the hypervisor to set 'executable-by-user' mode in hypervisor page tables is not explicitly suggested. The motivation to combine relies on hindsight, and the guest-initiated, hypervisor-enforced cooperation model represents a non-trivial integration. However, given the general knowledge of virtualization and security mechanisms, and the common use of hypercalls, the combination may be considered obvious to a PHOSITA, though not strongly so."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification fails to describe key terms such as 'executable-by-user mode' and 'executable-by-none mode' with sufficient detail, including their implementation in hypervisor page tables (e.g., EPT permission bits). Functional elements like 'application code protector' and 'I/O module' lack structural disclosure. The ambiguity around 'kernel space' and lack of selection criteria in claim 19 further support a strong written description rejection. These deficiencies prevent a skilled artisan from making and using the invention without undue experimentation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2 and claim 10 recite standard virtual memory mapping techniques explicitly disclosed in US-2016364341-A1. The use of guest page tables to map GVAs to GPAs is fundamental in virtualized systems and directly taught in the prior art. Confidence is high (0.9), and motivation to combine is not required as it is a single-reference obviousness. This constitutes a strong rejection basis."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016364341-A1은 EPT를 통한 메모리 권한 제어와 게스트-하이퍼바이저 간 보안 아키텍처를 명시적으로 개시하고 있으며, US-2012254995-A1은 메모리 접근 트래핑을 통한 보안 강화 기술을 제공한다. 두 기술의 결합은 가상화 환경에서의 커널 모드 코드 실행 방지라는 명확한 동기와 함께, 통상의 기술자가 자명하게 도출할 수 있는 범위 내에 있다. 특히 메모리 매핑, 실행 권한 제어, 보안 트래핑은 모두 공지된 기술 블록이며, 그 결합은 시스템 보안 강화라는 일반적인 설계 목표에 부합한다. confidence 수치(0.7 이상 다수)와 기술적 중복성 측면에서 강한 근거로 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016364341-A1은 EPT를 사용하여 게스트 애플리케이션의 메모리 권한을 설정하고, 신뢰 기반 보호를 제공하는 구조를 명시적으로 개시하고 있으며, 이는 청구항 1의 핵심 구성인 'executable-by-user 모드' 설정과 실질적으로 동일하다. US-2012254995-A1은 보안 에이전트가 메모리 접근을 트랩하고 실행 권한을 조건부로 부여하는 기술을 개시하여, 청구항 7 등에서의 '요청 기반 권한 설정'에 대한 보완적 기술적 근거를 제공한다. 두 선행기술은 동일한 기술분야(가상화 보안)에 속하며, 보안 강화라는 명확한 동기를 가지고 통상의 기술자에 의해 결합 가능하며, combination_threshold=0.57 기준을 충족한다. 진보성 결여 판단의 증거가 강력함."
+        }
+      ]
+    }
+  ]
+}

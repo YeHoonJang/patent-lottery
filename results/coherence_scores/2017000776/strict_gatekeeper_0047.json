@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 for rejected claims and Graham/KSR factors (scope, differences, PHOSITA level, secondary considerations) for §103 obviousness analysis across all claims."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance decision references specific claim language from identified prior art (e.g., US-2013124263-A1 claim 2 'regions configured in accordance with postal codes,' claim 5 'metropolitan statistical areas,' claim 1 'aggregating transactions according to merchant categories') and maps those disclosures to specific claim elements."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis is consistent with §102 findings—claims found anticipated (2, 4, 9, 14, 16, 21) are also found obvious, and claims found novel are consistently found non-obvious, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.82, the examiner resolves ambiguous overlaps (e.g., MSA vs. municipal boundaries, claim 4) toward rejection and maintains rejections even where confidence is moderate (0.75), consistent with a strict gatekeeper profile, while still allowing claims with clear novelty."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 2, 4, 9, 14, 16, and 21 while allowing the remainder follows directly from the §102 anticipation findings in the novelty and obviousness stages, and the summary explicitly ties the strictness threshold to the rejection rationale."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017000776",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17939,
+      "output_tokens": 393,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

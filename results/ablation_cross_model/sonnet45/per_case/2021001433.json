@@ -1,0 +1,429 @@
+{
+  "case_id": "2021001433",
+  "proceeding_number": "2021001433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.7857142857142857,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012299509-A1 discloses gateway-device architecture in building automation systems using ZigBee network, but does not explicitly teach installing executable software instructions to enable second protocol capability. The rejection relies heavily on combining this reference with 'common general knowledge' of OTA firmware updates. While OTA updates were known by 2015, the specific application of installing software to enable a second communication protocol (as opposed to mere firmware upgrades) represents a functional gap. The combination motivation is reasonable but not compelling - the reference shows address assignment and network management, not protocol capability installation. The claimed invention's distinction is not merely 'applying known OTA updates' but specifically installing protocol-switching capability, which is a non-trivial functional addition. However, given my strictness=0.79 and the presence of some overlapping subject matter, I find this moderate-strength rejection sufficient to maintain rejection for most claims."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2012299509-A1이 청구항의 일부 요소(ZigBee 통신 확립, 게이트웨이-디바이스 통신)와 유사성을 보이지만, 핵심적인 발명 특징인 '제1 통신 프로토콜을 통해 제2 통신 프로토콜 capability를 제공하는 실행 가능한 소프트웨어 설치'는 선행기술에 명확히 개시되지 않음. Coverage score가 0.25로 낮아 anticipation 근거 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 단일 ZigBee 프로토콜 내에서 주소 할당만 수행하며, 프로토콜 마이그레이션 개념을 전혀 다루지 않음. Graham 분석에서 (1) 선행기술은 단일 프로토콜 패러다임, (2) 본원 발명은 프로토콜 부트스트래핑이라는 질적으로 다른 해결책 제시, (3) PHOSITA가 프로토콜 이질성 문제를 프로토콜 마이그레이션으로 해결하는 것은 비자명, (4) 산업계가 게이트웨이 변환이나 벤더 락인에 의존했다는 점에서 이차적 고려사항도 비자명성 지지. 결합 동기(motivation to combine)가 없으며, combination_threshold=0.34 기준으로도 논리적 결합 경로 부재."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "명세서가 청구항을 적절히 뒷받침하며, 청구항 용어가 명세서에 지원되거나 당업계에서 잘 이해되는 의미를 가짐. 기재불비 이슈 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "청구항이 빌딩 자동화 시스템 및 무선 통신 관리의 기술적 개선을 다루며, 추상적 아이디어가 아닌 특허 적격 대상."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "All claims found novel with high confidence (0.85-0.9). US-2012299509-A1 discloses gateway and ZigBee communication but lacks critical elements: (1) installing executable software instructions to enable second protocol capability, and (2) establishing communication over second protocol after software installation. Coverage scores consistently low (0.0-0.46), indicating substantial missing elements. No anticipation found."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims found non-obvious with high confidence (0.85-0.9). Core inventive concept is protocol migration through remote software installation, which is neither taught nor suggested by single reference US-2012299509-A1. Prior art shows only static single-protocol (ZigBee) systems with address assignment. No motivation to combine exists with single reference. Graham factors strongly support non-obviousness: (1) prior art limited to single static protocol, (2) key differences in dynamic protocol switching capability, (3) PHOSITA would not find remote protocol stack installation obvious without explicit teaching, (4) addresses long-felt need for protocol interoperability in building automation. KSR analysis shows no explicit teaching, implicit suggestion, or motivation to combine. The invention represents significant technical advancement from passive address assignment to active protocol migration management."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Prior art US-2012299509-A1 discloses ZigBee gateway and address assignment, but does not disclose installing executable software on devices to enable second protocol communication. Core inventive elements (software installation for protocol switching, dual-protocol architecture) are missing from prior art. Novelty analysis shows coverage scores of 0.2-0.3, indicating significant gaps. All claims are novel."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While US-2012299509-A1 teaches gateway-based device management and address assignment in ZigBee networks, it provides no teaching, suggestion, or motivation to install software for protocol switching. The claimed invention addresses a different technical problem (protocol interoperability via software-based migration) than prior art (single-protocol address management). Combination_threshold=0.72 requires strong motivation to combine; here, the gap between static address assignment and dynamic protocol switching via OTA software installation is substantial. PHOSITA would not find obvious the leap from configuring addresses within one protocol to enabling entirely different protocol communication via software installation. The technical contribution (solving heterogeneous protocol interoperability) represents genuine advancement."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Specification provides adequate support for all claim elements. Terms like 'executable software instructions,' 'communication protocol,' 'gateway,' 'building automation device' are either defined in specification or well-understood in the art. Protocol names are industry-standard. 'Predetermined duration' is common patent terminology. No indefiniteness issues identified. Claims satisfy written description and enablement requirements."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "Claims recite specific technical methods and apparatus involving hardware components (gateway, processors, memory, building automation devices) and concrete technical steps (protocol communication, software installation over wireless networks). Not abstract ideas. Directed to practical application in building automation with technological improvements. Patent-eligible subject matter under Alice/Mayo framework."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012299509-A1은 단일 ZigBee 프로토콜 환경에서의 주소 할당만을 개시하며, 청구항의 핵심 구성요소인 '제1 프로토콜을 통한 소프트웨어 설치로 제2 프로토콜 능력 부여' 및 '프로토콜 전환'을 전혀 개시하지 않음. Coverage scores가 0.0~0.43으로 낮고, 명확한 차이점이 존재함. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "단일 선행기술만 제공되었고, 해당 선행기술은 프로토콜 전환 개념을 교시하지 않음. 그러나 펌웨어 업데이트는 해당 분야의 공지기술이며, 이를 프로토콜 능력 추가에 응용하는 것이 완전히 예측 불가능하다고 보기는 어려움. Combination_threshold=0.45로 낮게 설정되어 있어, 공지기술의 단순 결합 가능성을 고려해야 함. 하지만 분석에서는 '프로토콜 단편화 문제를 원격 소프트웨어 설치로 해결'하는 것을 비자명한 통찰로 판단. 증거는 moderate 수준."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않아 완전한 평가 불가. 분석에서는 112 이슈를 제기하지 않았으며, 청구항 용어가 해당 분야에서 이해 가능하다고 판단. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "소프트웨어 관련 청구항이나, 분석에서는 '빌딩 자동화 시스템의 구체적 기술적 개선'으로 판단하여 101 이슈 없다고 결론. Abstract idea 거절 근거 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1 does not disclose the critical limitation of 'installing executable software instructions on the building automation device over the first communication protocol to provide a capability to communicate over a second communication protocol.' The prior art only shows address reassignment within a single ZigBee network, not protocol switching via software installation. Coverage scores for key elements (1b, 1c) are low (0.25), indicating substantial uncovered subject matter. The novelty analysis correctly identifies that the prior art operates entirely within a single protocol framework."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The Graham factors analysis shows clear differences between the prior art and claimed invention. US-2012299509-A1 addresses address management within a single ZigBee protocol, while the claimed invention addresses protocol migration through software installation—a fundamentally different technical problem. There is no explicit teaching, suggestion, or motivation in the prior art to combine elements to arrive at protocol switching via OTA software installation. The combination_threshold of 0.51 requires clear motivation, which is absent. The prior art does not even hint at the concept of enabling a second protocol through software installation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The specification appears to adequately support the claimed subject matter. Terms like 'establishing communication,' 'installing executable software instructions,' and protocol-related terms are either defined or well-understood in the art. No specific 112 issues were identified in the analysis. The specification discusses building automation devices, wireless protocols, and software installation concepts that support the claims."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "The claims are directed to specific technological processes and structural implementations in building automation systems, not abstract ideas. The method claims recite concrete steps involving specific protocols and software installation. The apparatus claims recite specific structural elements (processor, memory). Under Alice/Mayo, the claims represent a technological improvement in building automation communication systems. No 101 issues identified."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 모든 청구항이 신규한 것으로 확인되었습니다. 선행기술 US-2012299509-A1은 청구항의 핵심 구성요소인 '제1 통신 프로토콜을 통한 소프트웨어 설치로 제2 통신 프로토콜 통신 능력 제공'을 개시하지 않습니다. 선행기술은 단일 프로토콜(ZigBee) 환경에서의 주소 할당만 다루며, 프로토콜 전환 개념이 없습니다. 102 거절 근거는 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항이 비자명한 것으로 확인되었습니다. 선행기술 US '509는 주소 할당 시스템을 개시하지만, 프로토콜 전환을 위한 원격 소프트웨어 설치(over-the-air software installation for protocol switching)라는 발명적 개념은 개시하지 않습니다. 통상의 기술자가 주소 할당으로부터 프로토콜 전환 시스템을 도출하는 명확한 동기나 교시가 없습니다. Graham 요소 분석에서도 선행기술과의 차이가 실질적이고, 프로토콜 전환은 보안, 호환성, 안정성 문제로 인해 단순 설계 선택이 아닙니다. 결합 동기 기준(combination_threshold=0.46)을 고려하더라도, 단일 선행기술만으로는 자명성을 입증할 수 없으며, 추가 선행기술과의 결합 동기도 제시되지 않았습니다. 103 거절 근거는 없습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 게이트웨이가 제1 프로토콜로 통신 확립, 소프트웨어 설치, 제2 프로토콜로 통신 확립하는 과정을 기재하고 있습니다. 청구항의 용어('executable software instructions', 'installing', 'capability to communicate', 'MAC level protocols', 'physical level protocols', 열거된 프로토콜명)는 명세서에 명시적으로 기재되었거나 해당 분야에서 잘 이해되는 용어입니다. 빌딩 자동화 및 무선 통신 분야의 통상의 기술자는 명세서를 기반으로 발명을 실시할 수 있습니다. 다만, 청구항 4의 '6L0WPAN'은 오타로 보이며(표준 명칭은 '6LoWPAN'), 청구항 17의 'required for communication'은 다른 청구항의 'configured for' 또는 'to be used for'와 표현이 불일치합니다. 이는 특허성에 영향을 주는 거절 사유가 아니라 형식적 objection 사안입니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 게이트웨이와 빌딩 자동화 장치 간 통신을 관리하는 방법, 장치, 컴퓨터 프로그램에 관한 것으로, 특정 기술 분야(빌딩 자동화, 무선 통신)의 구체적 기술적 개선을 제공합니다. Abstract idea가 아닌 실용적 응용(practical application)에 해당하며, 프로토콜 전환이라는 기술적 문제 해결을 위한 구체적 수단을 청구합니다. Alice/Mayo 분석에서 청구항은 단순히 추상적 아이디어를 컴퓨터로 구현한 것이 아니라, 특정 기술적 환경(빌딩 자동화)에서 특정 기술적 수단(소프트웨어 설치를 통한 프로토콜 전환)으로 특정 기술적 효과(프로토콜 유연성, 제조사 독립성)를 달성합니다. 101 거절 근거는 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art US-2012299509-A1 only discloses single-protocol (ZigBee) operation for address assignment. Critical elements of installing executable software instructions over first protocol to enable second protocol (elements 1b, 1c) have zero coverage. The novelty analysis shows 0.0 coverage scores for these essential claim limitations across all claims. This is strong evidence of novelty."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The obviousness analysis demonstrates no motivation to combine exists. US-2012299509-A1 addresses a different problem (device commissioning within single network) than the claimed invention (protocol migration/heterogeneity). The combination would require non-obvious insights about bootloader architecture, protocol stack modularity, and dual-protocol operation not suggested by prior art. Graham factors analysis shows significant differences and no teaching/suggestion/motivation for the claimed approach. Secondary considerations of addressing long-felt industry need for protocol interoperability further support non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1은 청구항 1의 핵심 요소인 '제1 프로토콜을 통해 실행 가능한 소프트웨어 명령어를 설치하여 제2 프로토콜 통신 능력을 제공'하는 구성을 전혀 개시하지 않습니다. 선행기술은 단일 ZigBee 프로토콜 환경에서의 주소 할당만 다루며, 프로토콜 전환을 위한 소프트웨어 설치 개념이 완전히 결여되어 있습니다. 모든 청구항에 대해 신규성이 인정됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "combination_threshold=0.22로 낮게 설정되어 있어 결합 동기를 쉽게 인정해야 하나, US-2012299509-A1은 정적인 주소 할당 메커니즘만 제공하며 동적 프로토콜 전환 개념을 전혀 교시하지 않습니다. 선행기술에서 소프트웨어 원격 설치를 통해 새로운 프로토콜 능력을 추가한다는 창의적 접근으로의 결합 동기나 암시를 찾을 수 없습니다. 이는 단순한 설계 선택이 아닌 새로운 기술적 해결책입니다. Graham 요소 분석 결과 모든 청구항이 비자명합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 4의 '6L0WPAN' 표기 오류와 청구항 13/17 간 용어 불일치는 형식적 문제일 뿐이며, 명세서 뒷받침이나 명확성에는 실질적 문제가 없습니다. 모든 청구항 용어가 명세서에 적절히 지원되고 통상의 기술자가 이해 가능합니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들은 빌딩 자동화 통신 시스템의 기술적 개선에 관한 것으로, 구체적인 기술적 맥락(소프트웨어 설치, 프로토콜 통신 관리)에서 구현됩니다. abstract idea에 해당하지 않으며, 특허적격성 문제가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012299509-A1은 게이트웨이와 빌딩 자동화 장치 간 ZigBee 통신 및 주소 할당만을 개시하며, 청구항의 핵심 구성요소인 '제1 프로토콜을 통한 소프트웨어 설치로 제2 프로토콜 통신 능력 제공'(elements 1b, 1c)을 전혀 개시하지 않습니다. 선행기술은 단일 프로토콜 환경에서만 작동하며, 프로토콜 전환이나 소프트웨어 원격 설치 개념이 완전히 부재합니다. 신규성 분석에서 모든 청구항이 coverage_score 0.0~0.6으로 완전한 anticipation이 없음이 확인되었습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술과 청구항 간 기술적 차이가 명확하고 실질적입니다. 정적 주소 할당 시스템에서 동적 프로토콜 전환 시스템으로의 변경은 단순한 설계 선택이 아니라, 이기종 프로토콜 지원이라는 기술적 문제에 대한 비자명한 해결책입니다. Graham 분석 결과: (1) 선행기술은 단일 프로토콜만 다룸, (2) 프로토콜 전환 메커니즘이라는 핵심 차이 존재, (3) 통상의 기술자가 단일 선행기술에서 프로토콜 전환 개념을 도출할 명시적 동기 없음, (4) 이기종 장치 통합이라는 예상 밖의 효과 제공. 결합 동기(motivation to combine)가 부재하며, combination_threshold=0.33이지만 결합할 추가 선행기술조차 제공되지 않았습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 청구항의 모든 핵심 요소('building automation device', 'executable software instructions', 'first/second communication protocol')에 대해 충분한 기재를 제공합니다. 용어들은 해당 기술 분야에서 통상적으로 이해되는 의미를 가지며, 발명의 실시 방법이 명확합니다. 112 거절 근거가 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 게이트웨이와 빌딩 자동화 장치 간 통신 관리라는 구체적 기술 문제를 해결하는 방법 및 장치를 청구합니다. 추상적 아이디어가 아닌 실제 통신 프로토콜 전환 메커니즘을 구현하며, Alice/Mayo 테스트 하에서도 특허적격성이 있습니다. 101 거절 근거가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 게이트웨이를 통한 ZigBee 네트워크 관리를 개시하나, 청구항의 핵심 요소인 '제1 프로토콜을 통해 소프트웨어를 설치하여 제2 프로토콜 통신 능력을 추가'하는 구성이 전혀 개시되지 않음. 선행기술은 단일 프로토콜 환경에서 주소 할당만 수행하며, 프로토콜 전환 개념이 부재. 102 거절 근거 없음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 ZigBee 단일 프로토콜 환경에서 주소 재할당을 개시하나, 청구항의 핵심인 '소프트웨어 설치를 통한 프로토콜 능력 동적 추가'와는 기술적으로 상이. 결합 동기가 명시적으로 제시되지 않으며, 선행기술은 프로토콜 변경의 필요성을 교시하지 않음. Graham 4요소 분석에서 PHOSITA가 런타임 프로토콜 전환을 자명하게 도출할 수 없음. combination_threshold=0.44이나, 선행기술만으로는 교시/시사 부족. 103 거절 근거 weak"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았으나, 청구항 용어는 명확하고 기술 분야에서 통상적. Claim 4와 9의 '6L0WPAN' 오타는 informality로 objection 대상이나 112 거절 사유는 아님. 112 거절 근거 없음"
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 빌딩 자동화 시스템의 통신 프로토콜 관리라는 구체적 기술적 문제를 해결하며, 네트워크 시스템 기능 개선이라는 실용적 적용(practical application)에 해당. Abstract idea에 불과하지 않음. 101 거절 근거 없음"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "none",
+          "reasoning": "The novelty analysis correctly identifies that US-2012299509-A1 does not disclose the critical limitation of installing executable software instructions on building automation devices over a first protocol to enable communication over a second protocol. All claims show high novelty confidence (0.72-0.8), and the coverage scores (0.0-0.35) confirm incomplete anticipation. No 102 rejection is warranted."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "none",
+          "reasoning": "The obviousness analysis demonstrates that the claimed protocol migration concept is non-obvious over US-2012299509-A1. The prior art teaches static single-protocol architecture focusing on address assignment, whereas the claims require dynamic protocol migration via software installation. No motivation to combine exists, as the prior art does not recognize or address protocol upgradeability challenges. Graham factors strongly support non-obviousness: the differences are fundamental (static vs. dynamic protocol capability), PHOSITA would not find the combination obvious, and secondary considerations (solving long-felt need for protocol flexibility) support patentability. Confidence scores are high (0.78-0.83)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "No 112 issues were identified in the analysis. The claims appear properly supported by the specification based on the examination record."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "No 101 issues were identified. The claims are directed to technical improvements in building automation device communication, not abstract ideas."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "No valid 102 rejection was identified. All claims were found to be novel. US-2012299509-A1 does not disclose the critical limitation of installing executable software instructions to enable a second communication protocol. The prior art only addresses address assignment within a single ZigBee protocol framework."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims were found non-obvious. The prior art (US-2012299509-A1) serves a fundamentally different purpose (address management) than the claimed invention (protocol capability installation). There is no teaching, suggestion, or motivation to combine address assignment with over-the-air protocol installation. The technical challenges of protocol stack installation, MAC/physical layer switching, and multi-protocol support represent non-obvious solutions. The Graham factors analysis shows significant differences, and secondary considerations support non-obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No 112 rejection was identified. The Office Action explicitly states that all claims are adequately supported by the specification, and that the specification enables a person of ordinary skill to make and use the invention without undue experimentation. The protocol examples are well-known in the field."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No 101 rejection was identified. The Office Action explicitly states that claims are directed to patent-eligible subject matter, involving specific technological improvements in building automation device communication with practical applications tied to specific technological implementations."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on the rationale that installing software for protocol switching would be obvious to address the known problem of protocol heterogeneity. However, US-2012299509-A1 only discloses address assignment and data relay functions within a single ZigBee network. The leap from static address assignment to dynamic software installation for protocol migration requires substantial modification beyond routine optimization. The prior art teaches a fundamentally different approach (addressing devices within one protocol) rather than enabling protocol switching capability through software installation. The motivation to combine is based on general industry knowledge rather than explicit teaching in the reference. Given strictness=0.60 (moderate), this moderate-strength rejection warrants careful scrutiny of whether the combination would truly be obvious or requires inventive insight."
+        }
+      ]
+    }
+  ]
+}

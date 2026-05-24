@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 framework throughout, explicitly articulating scope and content of prior art, differences from the claimed invention, PHOSITA level, and secondary considerations for every obviousness rejection, with no misapplication of other statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (REF2, REF3) with identified claim elements and disclosure passages (e.g., REF3's mean-centering via x−μ, covariance matrix Σ; REF2's SVM Claim 2 and bound-based outlier detection), and allowable claims are distinguished by pointing to the absence of the cumulative variance threshold method in those same references."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained throughout: claims found novel at §102 (e.g., claims 2, 3, 5) are then evaluated for obviousness at §103, with those found non-obvious at both stages (claims 5, 12, 19) consistently allowed, and no contradictions arise between novelty findings and the subsequent obviousness analysis."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's high strictness (0.793) and low combination threshold (0.335) are reflected in the reasoning: even moderately supported combinations (e.g., claims 2, 3 preprocessing steps with implied motivation from REF3/REF2) are resolved toward rejection, and the final decision explicitly notes that the strict examination standard means moderate-level obviousness evidence is sufficient to maintain rejection."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims except 5, 12, and 19 flows directly from the accumulated stage-level analyses, with claims 5, 12, and 19 consistently identified as non-obvious across novelty, obviousness, and office action stages, and the overall reject decision reinforced by the summary citing strong §103 grounds for the majority of claims."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003412",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14432,
+      "output_tokens": 475,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 for claims 2, 9, 14, and 21, and applies Graham/KSR-style obviousness factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) for §103 rejections of claims 3, 4, 15, and 16 — no statute-mixing detected."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are anchored to specific claim language (e.g., 'purchase centroid,' 'predetermined category') and specific prior art disclosures (US-2013124263-A1 claim 2 for postal codes, claim 6 for merchant category aggregation), satisfying evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage builds consistently on the §102 novelty findings — claims found anticipated under §102 are also addressed under §103 as an alternative, and claims found novel at §102 (e.g., claim 1) are also found non-obvious at §103, with no contradictory reversals between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.889, the examiner resolves ambiguous cases (e.g., lat/long, municipal boundaries) toward rejection even where the prior art does not explicitly disclose those features, and the final decision explicitly notes 'any doubt favors rejection' given the high strictness threshold — fully consistent with the strict_gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 2, 3, 4, 9, 14, 15, 16, and 21 while granting claims 1, 5–8, 10–13, 17–20, and 22–24 directly follows from the accumulated §102 and §103 findings across both novelty and obviousness stages, with explicit summary rationale provided."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017000776",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 21690,
+      "output_tokens": 481,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

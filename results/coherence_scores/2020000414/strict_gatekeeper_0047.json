@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies the correct statutory frameworks: §103 obviousness is analyzed using Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all relevant claims, and §112 written description is invoked for claims lacking adequate specification support for terms like 'acceptable performance level' and 'integrated into.'"
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout are tied to specific claim language (e.g., 'data/clock mode setting,' 'acceptable performance level,' 'integrated into'), specific prior art disclosures (US-2013196654-A1, its claim 2 on multiplexing), and specific specification passages (e.g., ¶0047, ¶0030) for the §112 rejections."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage builds consistently on the §102 novelty findings—claims found non-novel under §102 are rejected under §103, claims found novel under §102 (e.g., claims 8–14, 16, 19, 20) are correspondingly found non-obvious and allowed, with no unexplained contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner resolves ambiguity toward rejection throughout—claims with even partial prior art overlap are rejected, the examiner explicitly notes 'strictness=0.82' in the examiner notes as justifying a rejection posture on borderline cases, consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject flows directly from the accumulated stage analyses: claims with strong prior art overlap are rejected under §103, claims with specification support issues are rejected under §112, and claims with genuinely novel/non-obvious features (scrambling, clock modes, wired/time-domain interference) are indicated as allowable but recommended for amendment due to dependent claim structure issues."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000414",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 19999,
+      "output_tokens": 473,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

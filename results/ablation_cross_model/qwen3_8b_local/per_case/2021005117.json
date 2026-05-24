@@ -1,0 +1,377 @@
+{
+  "case_id": "2021005117",
+  "proceeding_number": "2021005117",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 is directly anticipated by US-2017305402-A1 with 0.9 confidence, making obviousness clear and unambiguous under strictness=0.79"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is explicitly disclosed in US-2017305402-A1 with 0.9 confidence, meeting anticipation threshold"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1's 'current monitoring circuitry' lacks sufficient description, but evidence is circumstantial with 0.5 confidence"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2017305402-A1) explicitly discloses all elements of claim 1, including parallel resistors, transistor switches, and microcontroller-based control. The combination is obvious to a PHOSITA for load current simulation, with clear motivation to adapt existing brake testing technology."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'parallel on input signal' and 'control based on data' lack sufficient specification in the disclosure, creating ambiguity under 35 USC 112(a)/(d). However, the specification's adequacy is not fully evaluated in the provided analysis."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2017305402-A1) explicitly discloses all claimed elements (parallel resistors, transistor switches, microcontroller-based control) and provides a clear motivation to combine them for simulating load current. The combination is directly supported by the prior art's disclosed purpose and technical effect, meeting the high confidence threshold (0.85)."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술은 저항을 통해 브레이크 서명을 모방하는 기술을 개시하고 있으나, 전류 측정 회로와 스위치 제어 간의 결합 동기 및 기술적 진보 여부에 대한 명확한 근거가 부족함. 결합 동기 설명은 '정확도 향상'을 기반으로 하지만, 선행기술이 이를 직접적으로 제시하지 않아 비현실적인 기술적 조정이 필요함을 고려할 때, 동기 부여는 제한적임."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly anticipates all elements of claim 1, including parallel resistors, transistor switches, and microcontroller-based control. The confidence score of 0.95 confirms strong evidence of non-novelty."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20) have confidence scores ≥0.65, with several exceeding 0.82. The combination threshold (0.51) is met, and functional equivalences/obvious substitutions are explicitly stated in prior art."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 7, 8, 14, 18 have coverage scores ≥0.82, directly matching prior art elements. Functional equivalences (e.g., microcontroller/data processor, low-side driver) are explicitly disclosed."
+        },
+        {
+          "basis": "112(b)",
+          "strength": "moderate",
+          "reasoning": "Enablement issue for claim 1 is noted but lacks detailed technical justification in the Office Action. The prior art's disclosure may not sufficiently support the claimed invention's scope."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2017305402-A1) explicitly discloses transistor-based switches and resistor control systems that directly match claims 2-3. The substitution of relays for transistors (claim 2) is an obvious design choice within the same technical field, supported by high confidence (0.75-0.95)."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are explicitly anticipated by US-2017305402-A1, which discloses identical microcontroller-controlled resistors, switches, and current monitoring functions. The similarity scores (0.8-0.95) exceed the strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1's 'operative to control' lacks sufficient specificity, as the specification does not disclose the algorithm for translating current measurements into switch activation. This ambiguity meets the 112(b) standard but requires clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 2, 4-20) are rejected based on explicit prior art (US-2017305402-A1_CL1/CL6, US-2015219706-A1_CL1) with confidence scores ≥0.55. The combination motivation is clearly established via substitution of known switch types (relays/transistors) and functional equivalency of sensors (current/temperature)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 5, 6, 9-10, 12-15, 19-20 show similarity scores ≥0.5 but rely on functional equivalency and obvious variants (e.g., 'several' resistors → 5 resistors). These require interpretation under BRI but meet combination threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objection for claim 9 ('user interface adapted to allow...') is a single-element ambiguity, which is minor under BRI and does not invalidate the claim's scope."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art explicitly teaches core components of claims 1 and 3, and the combination threshold is met with clear motivation to combine. The Graham factors confirm the obviousness of substituting known elements."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses transistor-based switches and resistor control, with relays as an obvious variant. The substitution of relays for transistors is a known design choice in the art, and the combination is supported by clear evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art provides explicit disclosure of transistor-based switching and microcontroller control, with clear motivation to substitute relays/transistors and add low-side drivers. Confidence scores (0.75/0.7/0.65) exceed the combination_threshold=0.44, indicating strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses all elements of claim 1, and the substitution of data processor with microcontroller is a routine design choice. Confidence score 0.8 indicates strong evidence."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 directly matches claim 3's elements (transistor-based switches). Confidence score 0.9 confirms strong anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 4,5,9,10 lack explicit disclosure of temperature sensors/user interfaces in the prior art. Confidence scores 0.5-0.6 indicate moderate weakness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are explicitly anticipated by REF1, with high confidence (0.8/0.9). The prior art directly matches all elements, leaving no room for interpretation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 12, 15, and 19 lack sufficient written description, but the deficiencies are not severe. The specification's inadequacy is noted but not conclusively proven without further evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 4, 9, 10, 12, 13, 19, and 20 are supported by clear combinations of prior art elements (US-2015219706-A1, US-2017305402-A1) with explicit motivations for modification. The combination threshold (0.57) is met, and the Graham factors confirm obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 6, 7, 8, 14, 17, and 18 are explicitly anticipated by US-2017305402-A1 with coverage scores exceeding the strictness threshold (0.60). No ambiguity in prior art disclosure."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The enablement objection for claims 14-20 is based on insufficient specification details for temperature-based control and user interfaces. While the specification lacks explicit support, the claims may still be salvageable with amendments."
+        }
+      ]
+    }
+  ]
+}

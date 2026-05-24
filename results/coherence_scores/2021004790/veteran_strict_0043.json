@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for every claim group, and the §112 rejections invoke the written description/enablement standard with specific specification paragraph citations (¶0121), demonstrating statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection is grounded in specific claim language (e.g., 'CSI-RS와 RACH 구성 간의 매핑,' 'RAR 수신을 위한 시간 창') and specific prior art disclosures (US-2018167979-A1's RACH chunk information, US-2018359653-A1's measurement-based resource selection), with named citations at each claim level."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage found claims 87, 94, 110, and 117 novel, and the §103 obviousness stage initially found 87, 94, 110, and 117 non-obvious; the office action and final decision then elevated 87 and 110 to obvious under §103 with additional stated rationale (network optimization/resource saving), while 94 and 117 were shifted to §112 rejection—each transition is explicitly reasoned, avoiding unexplained contradictions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.875, the examiner consistently resolves ambiguity toward rejection—even claims 87 and 110 (where obviousness confidence was only 0.6) are rejected with stated network-optimization rationale, and the final decision explicitly references the strictness parameter ('심사관 성향(strictness=0.88)에 따라, 약한 근거라도 거절 유지'), fully consistent with a high-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage-level analyses: the §103 obviousness findings covering the bulk of claims, the §112 written-description findings for claims 94/116/117, and the escalated §103 rejection for claims 87/110, with explicit weighing and summary tying the decision back to each stage."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004790",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 20397,
+      "output_tokens": 549,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

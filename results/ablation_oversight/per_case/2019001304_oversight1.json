@@ -1,0 +1,296 @@
+{
+  "case_id": "ABL-2019001304",
+  "proceeding_number": "2019001304",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "reject_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "각 청구항에 대해 선행기술의 명시적 공개는 없으나, PHOSITA가 색상 기반 로스팅 제어, 피드백 루프, 샘플링 주기 조절, 중첩 배치 등을 통합할 동기가 있다고 판단됨. 결합 동기와 공지기술 기반의 논리는 타당하나, 일부 구성요소(예: 분말색상 측정과의 통합, 크래킹 기준 주기 조절)는 기술적 통찰을 필요로 하며, obviousness 판단에 약간의 해석이 개입됨. combination_threshold=0.34 기준보다는 높은 수준의 창의성이 요구되나, strictness=0.79에 따라 약한 근거라도 거절 유지 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2014106038-A1을 기반으로 한 결합 동기가 명확히 제시되었으며, 선행기술과의 기술적 격차가 크지 않음. 특히 피드백 제어, 샘플링 주기 조정, 분석 모델 적용 등은 공정 제어 분야에서 통상적인 기술자에게 자명한 확장으로 간주될 수 있음. 신규성 판단에서 일부 요소가 미개시된 것으로 평가되었으나, 진보성 관점에서 이러한 차이점들이 개별적으로 또는 조합적으로 비자명한 기여를 한다고 보기 어려움. secondary considerations 부재로 인해 obviousness 근거가 더욱 강화됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 9 is directed to using raw or partially roasted beans, which is explicitly disclosed in US-2014106038-A1 as dried and milled beans prior to roasting. The reference provides clear support for this feature, and a PHOSITA would recognize this as standard input material. The confidence in obviousness is high (0.9), and the feature lacks any unexpected result. Thus, the 103 rejection is strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 15 recites a coffee machine comprising the apparatus of claim 10. US-2014106038-A1 explicitly discloses an apparatus for roasting, grinding, and brewing coffee, which constitutes a coffee machine. Integrating the claimed control apparatus into such a system would be obvious to improve automation. The reference anticipates the combination, and the motivation to combine is inherent. Confidence is high (0.85), making this a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 9 is directly anticipated by US-2014106038-A1, which explicitly discloses dried and milled beans prior to roasting, equivalent to raw or partially roasted beans. The disclosure is clear and unambiguous, satisfying the legal standard for anticipation under §102. Similarly, claim 15 is anticipated as the reference discloses a complete coffee machine including roasting, grinding, and brewing functions. The integration claimed is explicitly taught."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 비신규성 제외 청구항(2-8,10-14)에 대해 US-2014106038-A1과 공지기술의 결합이 명확하며, 결합 동기(motivation to combine)가 탄탄함. 색상 측정, 피드백 제어, 샘플링 주기 조정 등 개별 요소는 각각 공지되었고, 이들의 통합은 자명한 설계 선택. combination_threshold=0.45 기준에 비해 낮은 수준의 창의성 요구에도 부합. PHOSITA 관점에서 통합의 예측 가능성과 기술적 시사점 부족이 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014106038-A1은 로스팅 과정에서 색상 변화를 통한 모니터링을 개시하며, 표면 색상 측정은 공지된 방법이다. 분쇄 후 분말 색상 분석은 품질 관리에서 통상적이다. 이중 색상 입력을 통한 측정 정확도 향상은 다중 센서 융합의 일반적 기술 관행에 부합하며, 피지식자는 신뢰성 향상을 위해 이러한 조합을 용이하게 고려할 수 있다. 피드백 제어, 반복 샘플링, 크래킹 단계 기반 샘플링 주파수 조정, 샘플 중복 사용, 동시 샘플링 및 가열 정지 등은 모두 공정 제어에서 통상적인 최적화 기술이다. 결합 동기와 기술적 동기는 명확하며, 2차 고려사항 부재로 obviousness가 강화됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art US-2014106038-A1 explicitly discloses an integrated coffee machine that performs roasting, grinding, and brewing. The motivation to combine the control apparatus of claim 10 with the known integrated machine is well-supported by the reference's teaching of improved flavor and economic benefits. The combination is predictable and yields no unexpected results, satisfying the KSR rationale for obviousness. Confidence in this rejection is high (0.85), and the structural and functional overlap is clear."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 9 is clearly anticipated by US-2014106038-A1, which explicitly discloses dried and milled beans prior to roasting. The disclosure is direct and unambiguous, satisfying §102 anticipation standard. Confidence is high (0.95), and the reference text is provided."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 15 is rejected as obvious over US-2014106038-A1 for integrating a control apparatus into a coffee machine. While the reference discloses a coffee machine with roasting, grinding, and brewing, the specific control using dual colour inputs (surface and powder) is not disclosed. The motivation to combine is plausible but not strong, as the prior art does not suggest real-time grinding for control. At strictness=0.55, this is a borderline obviousness rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Multiple claims are rejected under §112(a) for lack of written description. However, many of these rejections are speculative. For example, claims 2, 4, 5, 6, 11, 12, 13 rely on functional language that could be supported by routine engineering practices. The specification, while possibly sparse, may still support the claims under broadest reasonable interpretation. At strictness=0.55, these rejections are overly harsh without clear evidence of lack of possession."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 9's limitation regarding raw or partially roasted beans is inherent in standard roasting processes and explicitly supported by US-2014106038-A1, which describes roasting after drying and milling. The motivation to combine is based on common knowledge, making this a strong obviousness rejection. Similarly, claim 15's integration into a coffee machine is directly suggested by the prior art's disclosure of an integrated roasting, grinding, and brewing system, with clear motivation and reasonable expectation of success."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 9 is clearly anticipated by US-2014106038-A1, which explicitly discloses the use of dried and milled beans prior to roasting, corresponding directly to 'raw or partially roasted' beans. The anticipation is explicit and unambiguous, supported by a specific passage in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 9 is directed to using raw or partially roasted beans, which is explicitly disclosed in US-2014106038-A1 as dried and milled green beans. The use of raw beans is foundational in coffee roasting and would be considered common general knowledge. The motivation to combine is inherent in the prior art, and no inventive step is required. This constitutes a strong obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 15의 거절 근거는 US-2014106038-A1이 커피 원두의 볶기, 분쇄, 추출을 통합한 커피 머신을 명시적으로 개시하고 있어, 청구항 10의 장치를 커피 머신에 포함시키는 것이 예측 가능한 조합이며 충분한 결합 동기가 있음. 진보성 판단에서 confidence 0.9로 평가되었고, 선행기술의 통합 시스템 개시가 명확하여 강한 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 9 is clearly anticipated by US-2014106038-A1, which explicitly discloses the use of raw or partially roasted coffee beans as input for roasting. The reference describes beans that have been harvested, dried, and milled—standard characteristics of green coffee beans. This disclosure matches the claim language directly, satisfying the anticipation requirement under §102 with high confidence (0.9). There is no ambiguity in the disclosure, and the feature is both disclosed and functional in the same context."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014106038-A1 명확히 통합 커피 기계를 개시하며, 본 발명의 제어 장치를 기존 커피 기계에 통합하는 것은 자명한 기술적 확장으로 간주됨. 결합 동기 존재하며, unexpected result의 증거 없음. confidence 0.9로 강한 근거."
+        }
+      ]
+    }
+  ]
+}

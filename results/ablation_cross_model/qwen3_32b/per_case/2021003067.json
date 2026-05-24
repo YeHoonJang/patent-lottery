@@ -1,0 +1,305 @@
+{
+  "case_id": "2021003067",
+  "proceeding_number": "2021003067",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.5,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 REF1의 flanges에 대한 개시와 결합 동기가 합리적으로 제시되었으나, impact surface의 구체적인 구성 및 작용 방식에 대한 선행기술의 개시가 명확하지 않아 해석의 여지가 있음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 구체적 내용과 청구항의 구성요소가 명확하게 매칭되어 신규성이 부정되는 청구항들에 대해 강한 거절 근거가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015375758-A1이 청구항 21의 주요 특징(앵커 포인트 위치 및 동일한 거리의 스트로브 위치)을 대부분 포함하지만, 특정 위치 지정은 명시적으로 언급되지 않았습니다. 결합 동기는 중력 균형 및 제동 성능 향상이라는 합리적인 동기로 제시되었으나, 이는 설계 선택에 해당하며 명확한 증거로 볼 수는 없습니다. 따라서 근거의 강도는 중간 수준으로 판단됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술에 개시된 구성요소가 있으나, 결합 동기가 명확하지 않아 obviousness 판단에 있어 해석의 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art US-2015375758-A1 teaches all the essential features of the claimed invention, with the differences being minor and obvious to a person having ordinary skill in the art. The motivation to combine is clear (enhancing structural integrity and safety), and the confidence levels for most claims are above 0.65, indicating strong evidence for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375758-A1이 제공되었고, 청구항의 모든 구성요소가 개시됨"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1이 청구항의 모든 요소를 명확히 개시하여 신규성을 부정하는 명확한 증거가 존재합니다. 모든 청구항이 동일한 거절 근거를 공유하며, Office Action에서 verification_status가 PASS로 확인되었습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the prior art US-2015375758-A1, which discloses a similar trolley structure with side plates, sheaves, and an anchor point. The reasoning shows that the claimed features are obvious improvements to stability and functionality based on the prior art. However, some claims (like 37) have lower confidence scores (0.475) indicating weaker evidence for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1 is explicitly cited as anticipating most of the claims. The prior art discloses a trolley with two side plates, forward and rearward sheaves (pulleys) mounted between the plates, a single anchor point for attaching a payload, and a symmetrical design that implicitly covers the equidistant arrangement of sheaves to the centerline. The confidence scores for these rejections (0.7 to 0.85) indicate strong support for the anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 rejections for claims 21, 32, 39 rely on implicit suggestions in the prior art (US-2015375758-A1) rather than explicit disclosures. While the prior art covers core structural elements, specific positional relationships (e.g., anchor point between forward axis and centerline) are not definitively shown. Confidence scores (0.65–0.68) indicate moderate strength but leave room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejections for claims 21, 32, 39 are based on routine design choices (e.g., optimizing braking functionality). However, the prior art lacks explicit teaching of the specific configurations, and the motivation to combine is generalized. Confidence scores (0.65–0.68) suggest the rejections are plausible but not definitive."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action identifies several claims with 112(a) rejections due to unclear or unsupported terms. The rejections are valid as the specification fails to provide adequate written description for the claimed features, such as 'equal-distance to a centerline,' 'impact surface,' and 'predominantly borne.' However, the strength of these rejections is moderate because the claims are not entirely indefinite but require clarification to meet the written description requirement."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375758-A1이 청구항 21, 27, 31, 32, 38, 39, 40의 구성요소를 명시적으로 또는 암시적으로 개시함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015375758-A1에 기반한 청구항 21, 27, 31, 32, 38, 39, 40의 차이점이 기술 분야에서 보통 기술자가 쉽게 수정할 수 있는 루틴 설계 선택일 수 있으나, 결합 동기의 명확성에 따라 판단 필요"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2015375758-A1에 개시되지 않은 청구항 22, 23, 24, 25, 26, 28, 29, 30, 33, 34, 35, 36, 37의 특정 요소가 기술 분야에서 보통 기술자가 쉽게 도출할 수 있는 루틴 설계 선택인지에 대한 명확한 증거 부족"
+        }
+      ]
+    }
+  ]
+}

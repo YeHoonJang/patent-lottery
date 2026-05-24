@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham v. John Deere §103 framework (scope and content, differences, PHOSITA level, secondary considerations) for all obviousness determinations, and uses element-by-element anticipation analysis for §102 novelty findings."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim elements (e.g., 'installing executable software instructions to enable a second communication protocol'), specific prior art disclosures from US-2012299509-A1 (e.g., ZigBee protocol usage, address assignment, PAN_ID), and specific claim numbers."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis for claims 4 and 9 is consistent with the §102 findings, which already flagged those claims as partially anticipated (is_novel: false) due to ZigBee disclosure, making the subsequent obviousness rejection logically coherent and not contradictory; all other claims found novel at §102 are allowed at §103."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a moderate strictness of 0.517, the examiner correctly resolves most claims in favor of the applicant while still rejecting the weakest claims (4 and 9), appropriately reflecting neither excessive strictness nor excessive leniency given the profile parameters."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to suggest amendment (reject claims 4 and 9 while allowing the remaining 16 claims) flows directly from the accumulated §102 and §103 stage analyses, with no reversal of prior conclusions and with explicit rationale tying the decision back to the prior art findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001433",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11024,
+      "output_tokens": 407,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

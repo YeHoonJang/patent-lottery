@@ -1,0 +1,387 @@
+{
+  "case_id": "2017006232",
+  "proceeding_number": "2017006232",
+  "gt_issues": [
+    "102",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011315237-A1은 청구항의 모든 요소를 명시적으로 개시하며, 결합 동기와 기술적 당업계의 통상적 지식이 명확히 제시됨. PHOSITA가 당연한 기술적 수정으로 결합할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 US-2011315237-A1과 구조/기능적으로 동일하거나 자명한 변형으로, 결합 동기와 Graham 요소가 명확히 제시됨. 103 기준 충족"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'receptacle resources', 'specified quantity' 등 핵심 용어에 대한 구체적 정의 또는 구현 방법 누락. 기술적 지원 부족으로 해석의 여지 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 explicitly discloses all elements of claims 17-33, including the casing, collection trough, receptacle resources, sensor, and hydraulic system components. The prior art directly anticipates each claim, leaving no room for interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 32's control unit function is explicitly supported by prior art's alarm system, meeting combination threshold with clear motivation to combine."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 30/31 lack sufficient detail for liquid differentiation, specification deficiencies directly impact claim support."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Objection to 'receptacle resources' requires clarification but not definitive rejection due to ambiguous antecedent basis."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior Art 1 explicitly discloses all elements of claims 17-33 with high confidence (0.76-0.9). The Graham factors confirm no non-obvious inventive step, and the motivation to combine is clearly stated. The combination threshold (0.45) is well exceeded by the explicit overlaps and functional equivalences."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011315237-A1은 청구항 17~33의 대부분 요소를 명시적으로 개시하며, 기술적 유사성과 구조적 동일성으로 인해 신규성 부재가 명확히 입증됨"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'receptacle resources', 'capillary action', 'color-selection' 등의 용어 정의 부족으로 인해 PHOSITA가 발명을 실행할 수 있는지 의문이 제기되나, 기술적 맥락에서 유추 가능성이 존재"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 구성요소가 청구항에 직접적으로 적용 가능하며, 결합 동기(예: 누수 방지, 시스템 통합)가 명확하여 진보성 부재"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 directly discloses all claimed features with high confidence (0.6-0.8). The combination of drainage system, moisture detector, and receptacle resources is obvious for leak management in dialysis devices. Graham factors confirm PHOSITA would combine these elements for functional improvement."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 directly anticipates most claims with high confidence (0.65-0.8), meeting strictness threshold. Combination motivation is clear in technical field."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 22/28/29/33 show lower confidence (0.5-0.65) but still meet combination threshold. PHOSITA would recognize design variations."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Lack of specification details for 'specified quantity' and color-based differentiation is speculative, not definitively unsupported."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (17, 18, 22-33) are directly anticipated or obvious under US-2011315237-A1 with confidence ≥0.6, meeting strictness threshold."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 27-29 and 31 have confidence 0.5-0.65, requiring cautious evaluation under strictness=0.46."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 17 is explicitly anticipated by US-2011315237-A1 with 0.8 confidence, clearly meeting novelty criteria."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 explicitly discloses all elements of claims 17-26, 29, and 33 with high coverage scores (0.7-0.82) and confidence (0.65-0.8). The prior art directly anticipates these claims, meeting the strictness threshold."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 30, 31, and 32 lack disclosure of liquid differentiation/color-based detection/sealing verification in the prior art. While the prior art suggests similar fluid management systems, the specific features are not disclosed, and combination motivation is weak (confidence 0.3-0.4)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 17-21, 24, 25, 33 are explicitly anticipated by US-2011315237-A1 with confidence scores ≥0.75, indicating direct disclosure of all claimed elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 22, 23, 26, 27 are obvious variants of prior art features (e.g., ramp/dam system, sloped collector), but require interpretation of 'threshold-based routing' and 'height-based flow management'."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Terms like 'receptacle resources,' 'capillary action,' and 'automatic sealing verification' lack sufficient specification, but prior art does not address these limitations."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly anticipated by US-2011315237-A1, which discloses equivalent elements (e.g., collectors, moisture detectors, hydraulic systems) with overlapping functionality. The prior art directly addresses each claim's technical features."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 17, 22, and 30 lack sufficient structural and quantitative details for 'receptacle resources' and 'specified quantity'. The specification does not provide enablement or written description to support these terms, violating 35 U.S.C. § 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항에 포함된 'receptacle resources', 'specified quantity', 'deepest point', 'capillary action', 'color-selection' 등의 용어는 명세서에서 구체적 정의나 구조적 세부사항이 부족하여 명확성 기준을 충족하지 못함. 명세서가 제공되었으나, 해당 용어의 기능 및 구현 방식에 대한 명확한 설명이 없어 청구항의 실현 가능성이 제한됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 17-33 (except 30,31) are fully anticipated by US-2011315237-A1 with confidence >0.8. 112(b) rejection for claim 17 has strong evidence of undefined terms."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 30-32 show novel features not disclosed in prior art, requiring new invention rather than obvious combination."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 17's 'receptacle resources' and 'specified quantity' lack specification support, meeting 112(b) rejection criteria."
+        }
+      ]
+    }
+  ]
+}

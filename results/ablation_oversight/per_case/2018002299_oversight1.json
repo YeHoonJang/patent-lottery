@@ -1,0 +1,247 @@
+{
+  "case_id": "ABL-2018002299",
+  "proceeding_number": "2018002299",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.5,
+  "amend_rate": 0.07142857142857142,
+  "reject_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 2, 7, 9, 14, 16, 21 contain indefinite language under §112(b). Terms like 'sufficient amount of foam', 'no sodium trimetaphosphate', and 'heating sufficiently' lack objective boundaries and are not adequately defined in the specification. The term 'fibrous material' in claim 16 is overly broad without structural or compositional limitation. These indefiniteness issues are clear and meet the threshold for rejection under strict interpretation, especially given the textualist approach and high strictness (0.79)."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012214887-A1은 석고 슬러리에 calcined gypsum, 전분, 폼을 포함하는 것을 개시하고 있으며, pre-gelatinized 전분과 리그노설포네이트 분산제의 사용은 본 기술분야에서 공지된 기술이다. claimed 구성요소들의 농도 범위(예: 전분 >4%, 리그노설포네이트 ≥0.3%)는 성능 최적화를 위한 통상의 실험 범위 내에 있으며, 폼의 양, 물:석고 비율, 밀도, 계면활성제 종류 등도 모두 result-effective variables로서 통상의 기술자가 정기적인 실험을 통해 도달할 수 있는 수준이다. 부정적 한정(sodium trimetaphosphate 불포함) 역시 선행기술이 이를 포함하지 않으므로 자명한 배제로 판단되며, 특별한 효과 입증 부족. 명세서의 'surprisingly good' 주장은 정량적 비교 데이터 없이 일반화되어 있어 비자명성 입증 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012214887-A1은 전가공 전분과 리그노설포네이트의 동시 사용을 개시하지 않으며, 특히 전분 함량 4% 초과 및 리그노설포네이트 0.3% 이상의 조합에 대한 가르침이 전무함. 결합 동기(motivation to combine)가 없으며, 명세서에 기재된 네일 풀 성능 향상은 비자명한 기술적 효과로 작용함. combination_threshold=0.72 기준 대비 동기 부족으로 인해 obviousness 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2012214887-A1 and common general knowledge provides a clear basis for obviousness. Pre-gelatinized starch and lignosulfonate dispersants are well-known functional additives in gypsum formulations. Their use at the claimed levels falls within routine optimization, and no unexpected results are demonstrated. Motivation to combine is supported by technical rationale in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012214887-A1은 전분, 분산제, 폼, 수분 비율 등 개별 구성요소를 개시하고 있으나, pre-gelatinized 전분 4% 이상, 리그노설포네이트 0.3% 이상, ammonium ether sulfate 계면활성제, 물:석고 비율 범위, sodium trimetaphosphate 부재 등의 특정 조합과 정량적 범위는 명시하지 않음. 이러한 조합과 농도 범위가 시너지 효과를 나타내며 예측 불가능한 성능 향상을 입증한 경우, 진보성 인정 가능. 그러나 Office Action은 이 모든 요소를 '결과 효과 변수의 최적화(routine optimization)'로 간주하고 있음. 통상의 기술자가 이러한 특정 농도 범위와 조합을 동일한 목적(경량화 및 강도 유지)을 위해 선택했을 가능성은 있으나, 고농도 전분과 특정 분산제의 조합이 슬러리 안정성과 네일 풀 강도에 미치는 영향은 비자명할 수 있음. 명세서에 실험적 데이터가 존재하고 상업적 성공 가능성이 시사된 점에서, obviousness 판단은 다소 무리가 있음. 그러나 선행기술이 넓은 범위의 첨가제 사용을 개시하고 있고, 특정 성분 선택이 기술적 돌파구라기보다는 정기적 실험 범주에 있을 수 있어, 전반적으로는 moderate 수준의 거절 근거로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Ammonium ether sulfate surfactant is a known foam stabilizer in gypsum slurries. US-2012214887-A1 teaches foam use but does not specify surfactant type. Selection of a known surfactant for its intended purpose is a routine choice supported by MPEP § 2144.07. Confidence in obviousness is high (0.8–0.85), and no unexpected results are shown."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Water:calcined gypsum ratio (0.7:1 to 1.3:1) is a result-effective variable. Adjusting water content to control slurry rheology and set time is routine optimization. US-2012214887-A1 discloses water use and its functional role. MPEP § 2144.05(II) applies. The range is within conventional practices, and no criticality is demonstrated."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Exclusion of sodium trimetaphosphate is not inventive per se when the prior art does not disclose or require it. MPEP § 2144.04(II)(A) supports that omission of an element and its function is obvious if the function is not desired. However, negative limitations can sometimes be significant if tied to unexpected results. Here, no such evidence is provided, so the rejection holds, but with slightly lower confidence (0.8)."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The only cited reference, US-2012214887-A1, does not disclose the key claimed features: (1) pre-gelatinized starch in amounts >4% by weight of calcined gypsum, (2) lignosulfonate dispersant at ≥0.3%, or (3) their combination. The prior art teaches thickening agents (e.g., cellulose ethers), which are functionally distinct from lignosulfonate dispersants. There is no suggestion or motivation to combine high levels of pre-gelatinized starch with a dispersant that reduces viscosity, especially given their opposing rheological effects. The synergistic improvement in nail pull resistance and slurry stability is not predictable. The confidence in non-obviousness across all claims is moderate to high (0.7–0.75), and no strong or even moderate obviousness rejection is supported by the evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The only prior art cited is US-2012214887-A1, which discloses a gypsum slurry with optional starch and thickening agents but does not teach or suggest pre-gelatinized starch in amounts >4% by weight or a lignosulfonate dispersant at ≥0.3%. The combination of these components at the claimed levels is not disclosed, and there is no clear motivation to combine them. The asserted technical benefits (e.g., improved nail pull resistance) and secondary considerations support non-obviousness. Given the lack of explicit teaching or suggestion in the prior art, and the absence of a rationale for combining the elements to achieve the claimed results, the obviousness rejection is weak. At strictness=0.46, which leans slightly toward applicant favorability when evidence is not strong, this weak 103 position does not justify rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Ammonium ether sulfate surfactant selection is a known material for its intended use, but the prior art does not explicitly teach or suggest it in this specific formulation. While selection of known surfactants is generally obvious, the lack of direct disclosure and absence of evidence of unexpected results make this a moderate-strength rejection. Under a strictness level of 0.50, this does not clearly cross the threshold for a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The rejection of claims with negative limitations (e.g., 'no sodium trimetaphosphate') is based on routine omission of non-disclosed components. However, the specification may implicitly support such exclusions as contributing to stability or compatibility. Without evidence that the exclusion is critical, it is still a weak rejection because negative limitations involving unmentioned ingredients are often deemed non-inventive but do not necessarily render the claim obvious without further technical reasoning."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술(US-2012214887-A1)은 pre-gelatinized 전분과 리그노설포네이트 분산제를 특정 농도 이상으로 조합하여 사용하는 것을 개시하지 않으며, 이러한 조합에 대한 동기(motivation to combine)도 명확히 제시하지 않는다. 통상의 기술자가 고농도의 pre-gelatinized 전분과 리그노설포네이트를 병용하여 경량화와 네일 풀 강도를 동시에 향상시킬 것이라고 예측하기는 어렵다. 명세서에 기재된 '놀랍도록 좋은 구조적 특성'은 예측 불가능한 효과로서 비자명성을 뒷받침한다. 따라서 103 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2012214887-A1) discloses the core elements of a gypsum slurry with starch and foam for lightweight boards. Pre-gelatinized starch and lignosulfonate dispersants are known in the art for improving slurry cohesiveness and dispersion. The claimed ranges (>4% starch, ≥0.3% lignosulfonate, density ≤31 lb/ft³, water ratio 0.7:1–1.3:1) are result-effective variables that a PHOSITA would optimize through routine experimentation. Ammonium ether sulfate surfactants are predictable choices for foam stability. Negative limitations (exclusion of sodium trimetaphosphate) lack evidence of unexpected results. Motivation to combine is supported by technical predictability and absence of secondary considerations. Confidence in obviousness is high across all claims, with consistent reasoning and no contradictory evidence."
+        }
+      ]
+    }
+  ]
+}

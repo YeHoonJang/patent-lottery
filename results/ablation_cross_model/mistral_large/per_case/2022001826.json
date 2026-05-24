@@ -1,0 +1,462 @@
+{
+  "case_id": "2022001826",
+  "proceeding_number": "2022001826",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013167249-A1은 청구항 1 및 14의 핵심 요소인 'identifying private/non-private portions', 'masking private portions', 'modifying display'를 명시적으로 개시하고 있으며, 'grouping' 기능은 redaction 과정의 자연스러운 확장으로 간주됩니다. 결합 동기(motivation to combine)는 명확하며, 통상의 기술자가 쉽게 구현할 수 있는 수준입니다. confidence=0.85로 근거가 강력합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            8,
+            15,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013167249-A1은 'masked/exposed regions'의 개념을 암시하고 있으며, 'layers' 및 'contextual information' 분석은 해당 분야에서 공지된 기술입니다. 그러나 청구항 2, 15의 'manipulating layers to group' 및 청구항 8, 18의 구체적인 'contextual information' 분석은 명시적으로 개시되지 않았습니다. 결합 동기는 존재하지만, 차이점이 미미하여 moderate로 평가됩니다. strictness=0.79에 따라 거절 유지합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 10, 11, 12, 13은 서비스 제공자의 비즈니스 모델(구독, 광고, 클라우드 환경 등)을 기술하고 있으나, 특정 기술적 구현이나 실질적인 기술적 기여를 명시하지 않아 35 U.S.C. § 101의 statutory subject matter 요건을 충족하지 못할 가능성이 있습니다. 그러나 112 기준으로는 모호성이 크지 않으므로 moderate로 평가합니다. strictness=0.79에 따라 보정 요구합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 8, 14, 15, 18, and 19 are rejected under § 103 based on US-2013167249-A1 (Kumar) combined with common knowledge in UI/UX and data processing. The Graham factors analysis demonstrates that the differences (e.g., grouping, layers, interactive suggestions) are routine design choices or well-known techniques in the art. The motivation to combine these with Kumar’s redaction method is logical and supported by the PHOSITA’s knowledge. Confidence levels for these rejections range from 0.75 to 0.85, indicating strong evidence."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 8, 14, 15, 18, and 19 were initially rejected under § 102 as anticipated by Kumar. However, the reasoning relies on implicit disclosures (e.g., 'grouping' being inherently disclosed by Kumar’s redaction process). While the Examiner’s interpretation is plausible under a broad reading (breadth=0.73), the lack of explicit disclosure in Kumar weakens the § 102 rejection. Given strictness=0.88, this moderate strength is sufficient to maintain the rejection under § 103, which is stronger."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Objections to the title, abstract, and drawings are procedural and do not directly impact patentability. While the objections are valid under 37 CFR § 1.72 and § 1.84, they are minor and can be addressed through amendments. These do not constitute substantive grounds for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "101_eligibility",
+          "strength": "moderate",
+          "reasoning": "Claims 10, 11, 12, and 13 recite elements related to service provider activities and business methods, which may raise eligibility concerns under 35 U.S.C. § 101. However, the claims are not explicitly directed to abstract ideas without a technical improvement, and the objection is framed as a cautionary note rather than a rejection. Given the purposivist approach and strictness=0.25, this is considered a moderate concern that does not warrant rejection but suggests amendment for clarity."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objection regarding compliance with 35 U.S.C. § 112 is general and lacks specific evidence of new matter or lack of support. The claims appear to be adequately supported by the specification, and this objection is considered weak. Given the strictness level, this does not warrant rejection or amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013167249-A1은 개인 데이터 가림 기술을 개시하지만, 청구항의 구체적인 그룹화 기능(개인/비개인 부분 그룹화, 레이어 조작, 컨텍스트 분석 등)은 명시적으로 제시되지 않음. 결합 동기 기준(combination_threshold=0.72)이 높고, 통상의 기술자가 쉽게 도달할 수 없는 기술적 진보가 인정됨. 혁신 지원형 심사 철학(strictness=0.29)에 따라, 근거가 약하므로 출원인에게 유리하게 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            8,
+            14,
+            15,
+            18,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013167249-A1은 청구항 1, 2, 8, 14, 15, 18, 19의 핵심 기능을 개시하며, 차이점은 통상의 기술자가 쉽게 도달할 수 있는 설계 선택 또는 공지된 기술의 자연스러운 확장입니다. 결합 동기는 명확하며, Graham 요인 분석 결과 차이점이 미미하여 진보성이 인정되지 않습니다. strictness=0.89에 따라 거절 근거가 강합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            8,
+            14,
+            15,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술과의 유사성은 인정되나, '동일성'보다는 '유사성'에 가깝습니다. 그러나 진보성 거절이 이미 강하게 적용되어 신규성 거절은 보조적 근거로 작용합니다. strictness=0.89에 따라 진보성 거절을 우선 유지합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 14, and 15의 경우, 선행기술 US-2013167249-A1이 핵심 기능인 'identifying and masking private portions'을 개시하고 있으며, 'grouping'이나 'layers'와 같은 추가 요소는 해당 분야의 통상의 기술자가 자연스럽게 적용할 수 있는 설계 선택으로 판단됩니다. 결합 동기(motivation to combine)가 명확하고, PHOSITA 수준에서 자명하므로 103 거절 근거는 강합니다. strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 10, 11, 12, and 13의 경우, 'service provider', 'subscription/advertising/fee basis', 'cloud environment', 'deploying a system' 등은 해당 분야에서 공지된 비즈니스 모델이나 기술로 간주됩니다. 그러나 이러한 요소들이 선행기술과 결합될 동기가 명시적으로 개시되지 않았으므로, 근거 강도는 moderate입니다. strictness=0.82에 따라, 근거가 다소 약하더라도 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 10 and 11의 거절 근거는 비즈니스 모델 요소(서비스 제공자 역할, 구독/광고/요금 기반 제공)에 기반함. 기술적 특징이 아닌 비즈니스 관행에 해당하여 결합 동기가 존재하지만, strictness=0.47에 따라 증거의 강도가 충분하지 않다고 판단할 여지가 있음. 그러나 combination_threshold=0.46에 따라 결합 동기가 인정되므로 moderate 강도로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013167249-A1은 청구항 1과 14의 핵심 구성요소(프라이빗/비프라이빗 부분 식별, 마스킹, 디스플레이 수정 지시)를 개시하지만, 'grouping' 요소는 명시적으로 개시되지 않았습니다. combination_threshold=0.55에 따라 결합 동기가 인정되지만, 'grouping'이 통상의 기술자에게 자명하다고 보기에는 다소 해석의 여지가 있습니다. strictness=0.55 성향에 따라 근거 강도는 moderate로 평가되며, 보정 가능성을 고려할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "101",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15, and 20 are evaluated as obvious based on the combination of US-2013167249-A1 and common knowledge. However, the motivation to combine and the routine design choices are subject to interpretation. Given the strictness level (0.46), the rejection is not overwhelmingly strong, but the evidence is sufficient to maintain the rejection for most claims. Claims 6, 7, 8, 9, 16, 17, 18, and 19 are allowable as their features are not disclosed or suggested by the prior art."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "moderate",
+          "reasoning": "The 101 rejections for Claims 1, 2, 3, 4, 5, 14, and 15 are based on the abstract idea of data filtering or selective display. While the claims do not recite an inventive concept sufficient to transform the abstract idea into patent-eligible subject matter, the analysis under *Alice* is subject to interpretation. Given the strictness level (0.46), the rejection is not overwhelmingly strong, but the lack of a clear inventive concept supports maintaining the rejection for these claims."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013167249-A1과 일반 지식을 결합한 근거는 명확하지만, 청구항 1, 2, 5의 '그룹화' 및 '레이어 기반 조작'이 통상의 기술자가 쉽게 도출할 수 있는지에 대한 해석의 여지가 존재함. 결합 동기(motivation to combine)는 합리적이지만, 진보성의 판단 기준에 따라 다소 주관적일 수 있음. strictness=0.50에 따라 중립적으로 평가함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 3, 4, 6, 10-16, 20의 경우, 대체 콘텐츠 제시, 광고 삽입, 스크린샷 저장, 서비스 제공자 역할, 프로그램 명령어 구현 등은 디지털 서비스 및 소프트웨어 개발에서 공지된 기술로, 통상의 기술자가 쉽게 도출할 수 있음. 결합 동기가 명확하여 근거 강도가 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013167249-A1은 동적 가림(redaction)을 개시하지만, 청구항 1, 14, 19의 '그룹화' 기능은 명시적으로 개시되지 않았음. 그러나 그룹화는 사용자 경험 개선을 위한 설계 선택으로 볼 수 있으며, 통상의 기술자(PHOSITA)가 쉽게 도출할 수 있는 수준임. 결합 동기는 논리적이지만, 기술적 개선으로 보기에는 한계가 있음. strictness=0.52에 따라 증거의 강도가 충분하지 않아 거절 유지 여부에 신중을 기함."
+        },
+        {
+          "basis": "101_eligibility",
+          "claim_numbers": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 10, 11, 12, 13은 서비스 제공자 역할, 구독 모델, 클라우드 환경 등 비즈니스 방법에 가까운 주제를 다룸. 기술적 개선으로 보기 어려우며, 실용적 적용(practical application)이 명확하지 않음. 그러나 101 거절은 기술적 특성이 포함될 경우 완화될 수 있음. strictness=0.52에 따라 보정 요구로 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서의 기능적 표현(예: 'contextual information', 'alternate content')은 일부 모호성을 초래할 수 있으나, 청구항의 기술적 구현을 뒷받침하기에 충분한 수준임. 추가 예시나 세부 설명을 요구할 수 있으나, 112 거절 근거로는 부족함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection under 103_obviousness for claims 1, 14, and 19 is based on US-2013167249-A1 (REF1) and the motivation to combine for improved user experience. While REF1 discloses dynamic redaction, it does not explicitly disclose the grouping of masked and non-masked content. The motivation to combine is logical but not overwhelmingly strong, as the grouping mechanism introduces a technical distinction that may not be immediately obvious to one of ordinary skill in the art. Given the strictness level of 0.42, this rejection is borderline but leans toward moderate due to the lack of explicit disclosure in REF1."
+        },
+        {
+          "basis": "101_eligibility",
+          "claim_numbers": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "The objection under 101_eligibility for claims 10, 11, 12, and 13 is based on these claims reciting non-statutory subject matter, such as business methods and service provider activities. While the claims lack specific technical implementations, they are not entirely abstract and could be amended to include machine or transformation limitations. Given the strictness level of 0.42, this objection is moderate and could be overcome with amendments."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [],
+          "strength": "weak",
+          "reasoning": "The objection regarding broad references to 'contextual information' and 'contextual analysis' is noted, but it is not tied to specific claims. The specification appears to provide sufficient enablement for the allowable claims, and the objection is more of a general note for clarity. Given the strictness level of 0.42, this is considered weak and does not warrant rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013167249-A1이 개별 구성요소를 일부 포함하지만, 청구항의 핵심 기능인 '그룹화', '레이어 기반 조작', '대체 콘텐츠 표시', '문맥 기반 자동 식별' 등을 명시적으로 개시하지 않음. 신규성 판단 근거는 충분하지만, 선행기술과의 유사성으로 인해 103 진보성 판단으로 이어질 가능성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술로부터 청구항의 핵심 기능(그룹화, 레이어 조작, 문맥 분석 등)을 도출하기 위한 명확한 결합 동기가 부재함. Graham 요인 분석 결과, 차이점(differences)이 통상의 기술자가 쉽게 도출할 수 있는 수준을 넘어섬. 결합 동기 기준(combination_threshold=0.48)을 충족하지 않음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않아 청구항 자체의 모호성이나 뒷받침 부족 여부를 판단할 수 없음. 다만, 청구항의 용어는 일반적으로 명확하며, 기술 분야에서 통상적으로 사용되는 표현임."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 컴퓨터 구현 방법 및 시스템으로, 추상적 아이디어에 해당할 가능성은 있으나, 구체적인 기술적 개선(그룹화, 레이어 조작, 문맥 분석 등)을 포함하고 있어 101 위반 근거가 명확하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1은 마스킹 및 재전송을 공개하지만, 'grouping masked/non-masked portions'은 명시되지 않았음. 그러나 UI/UX 설계에서 그룹화는 공지된 기술로 간주되며, 결합 동기(combination_threshold=0.57)를 충족함. 근거는 있으나 해석의 여지가 있으므로 moderate로 평가."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "레이어 기반 조작은 GUI 설계에서 공지된 기술이지만, US-2013167249-A1에 명시되지 않았음. 통상의 기술자에게 자명한 설계 선택으로 간주되나, 구현 세부사항이 선행기술과 명확히 구분되지 않아 moderate로 평가."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "weak",
+          "reasoning": "비즈니스 방법 및 배포 모델(구독, 클라우드 등)은 공지된 기술이지만, 특허법상 진보성 판단에서 약한 근거로 간주됨. 결합 동기가 명확하지 않으며, strictness(0.60) 성향상 거절 근거로 부족함."
+        }
+      ]
+    }
+  ]
+}

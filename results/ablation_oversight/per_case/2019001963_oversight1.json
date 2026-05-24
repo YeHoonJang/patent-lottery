@@ -1,0 +1,344 @@
+{
+  "case_id": "ABL-2019001963",
+  "proceeding_number": "2019001963",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "reject_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013285347-A1은 구조적 크로스 멤버를 개시하지 않으며, 이를 추가하는 것은 단순한 설계 선택이 아니라 구조적 통합의 비자명한 변화를 수반할 수 있음. 그러나 차량 프레임 강성을 위한 크로스 멤버의 사용은 공지된 기술이므로, 결합 동기의 존재는 합리적이나 명확한 예시는 없음. 심사관의 strictness=0.79에 따라, 약간의 불확실성 있음에도 불구하고 거절을 유지함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1은 복수의 카리지 브래킷 사용을 'at least one' 표현을 통해 암시하며, structural cross member의 추가는 구조 강성 향상을 위한 통상의 기술자에게 자명한 설계 선택임. 결합 동기(motivation to combine)가 명확하고, 선행기술의 기술적 맥락과 일관됨. confidence 0.82 이상으로, 강한 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 5, 6, 8, and 14 are clearly anticipated by US-2013285347-A1, which explicitly discloses the plurality of apertures, mechanical fastener use, releasable securing, and bolt implementation. The disclosure is direct and unambiguous, satisfying the legal standard for anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 12 and 15 contain clear grammatical and logical errors—'secured to itself' and redundant phrasing—that render the claimed subject matter unsupported and indefinite. The specification does not resolve these errors, making the written description rejection proper and substantial."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12 contains a physically impossible configuration ('secured to the first mounting bracket') which is not supported by the specification. The error introduces new matter and lacks written description support, constituting a clear failure under §112(a). Similarly, claim 15's redundant phrase 'first and second first and second support brackets' is not disclosed anywhere in the specification and cannot be reasonably interpreted as describing a known structure. These are not mere drafting errors but substantive issues affecting the adequacy of the written description."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1은 청구항 1 및 5의 모든 구성요소를 명시적으로 개시하고 있으며, BRI 하에서 차량 프레임 레일, 마운팅 브래킷, 복수의 장착 위치 및 해제 가능 고정 방식이 직접 대응됨. anticipation 판단에 충분한 증거가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 2, 3, 6, 14, 15는 선행기술에 명시되거나 당업자가 예측 가능한 설계 선택(예: 복수의 패스너 사용, 복제, 슬라이드 스톱 위치 조정)에 기반함. 결합 동기(motivation to combine)가 명확하며, 기술적 맥락 내에서 자명함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 12 및 15는 명백한 서술 오류 및 모호성 존재. '자신에게 고정' 또는 'first and second first and second'와 같은 표현은 명세서에 근거 없으며, 당업자가 청구 범위를 이해할 수 없음. 서면 설명 및 명확성 요건 위반."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1은 청구항 1, 2, 3, 5, 6, 7, 8, 11, 13, 14, 15의 모든 구성요소를 명시하거나 명백하게 암시하고 있으며, 결합 동기(motivation to combine)가 존재함. 특히 슬라이드 스톱, 복수의 체결 구멍, 기계식 패스너 사용 등은 직접적으로 개시됨. 대칭 구조 및 크로스 멤버의 추가는 일반 기술자의 수준에서 예측 가능하며, KSR 기준에 따라 명백성 판단이 타당함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 4의 'controller' 및 'remotely'는 명세서에 구조적, 기능적 설명이 부족하여 서술적 지지 요건 미충족. 청구항 12의 자기참조 오류('first mounting bracket secured to first mounting bracket')는 명백한 서술적 결함으로, 명세서 어디에도 그러한 구성이 기재되지 않음. 두 경우 모두 112(a) 위반이 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1 clearly discloses all elements of claims 1, 5–9, 14, and 15, including the mounting bracket, vehicle frame rail with vertical side member, engagement apertures, mechanical fasteners (bolts), and slide stops functioning as tilt stops. The disclosure is explicit in figures and specification, satisfying anticipation under §102 with high confidence (0.9+)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 3, 10, 11, and 13 are rejected under §103. While tilt stop placement (claims 2, 3) is supported by modular attachment teachings in the prior art, duplication of parts (claim 11) and addition of a cross member (claims 10, 13) involve design choices. However, motivation to combine is based on common truck bed configurations and symmetry—routine knowledge in the art. Confidence is moderate (0.75–0.85), and combination threshold is low (0.46), supporting obviousness but with some interpretive flexibility."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12 contains a logical inconsistency ('secured to itself'), which lacks written description and enablement. Claim 15 has grammatical errors rendering it indefinite. These are clear §112 issues supported by the record, warranting rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1은 제1항의 모든 구성요소를 명확히 개시하고 있으며, BRI 하에서도 실질적 차이 없음. confidence 0.9로 신규성 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "제4, 6, 8, 9, 10, 11, 13항에 대해 선행기술에 직접적 개시 없으나, 통상적 설계 선택으로 간주될 수 있는 수준. 그러나 구조적 차이 존재. combination_threshold 낮음(0.22)에도 불구하고, 일부 진보성 판단은 보수적 해석 필요."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "제12항의 'first mounting bracket is secured to the first mounting bracket'은 명백한 self-attachment 모순. 명세서(¶0018)는 support bracket 또는 cross member에의 부착만 개시. 신규 물질(new matter) 문제 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1이 본 출원의 대부분 구성요소를 실질적으로 개시하고 있으며, 기능적 동등성 및 설계 선택으로서의 확장 가능성이 명확함. 특히 마운팅 브래킷, 서포트 브래킷, 다수의 장착 위치, 탈부착 결합 구조 등은 동일한 기술적 개념에 기반함. 결합 동기가 명확하고, 통상의 기술자가 쉽게 도달 가능하다고 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 12의 'first mounting bracket is secured to itself'는 논리적 모순이며, 명세서가 이를 명확히 하지 못함. 청구항 15의 'first and second first and second support brackets'는 중복적 표현으로 의미가 불명확함. 이는 35 U.S.C. § 112(b)에 따라 명확성 요건을 충족하지 못함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1 discloses a structurally and functionally similar sliding hitch system with a carriage bracket, longitudinal rail with vertical side member, engagement assembly, and slide stops. The claimed features such as apertures, mechanical fasteners, bolts, and dual support brackets are either explicitly disclosed or represent obvious design choices to a PHOSITA. The motivation to combine is clear based on engineering principles of load distribution, adjustability, and structural integration. Confidence in obviousness is high (0.7–0.85), and the reference supports most limitations under broadest reasonable interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1은 청구항 1, 2, 3, 5, 6, 7, 8, 9, 15의 모든 구성요소를 명시적으로 개시하고 있으며, 구조적·기능적 등가성이 인정되어 신규성 결여 판단에 강한 근거가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 4, 12, 15의 용어는 명세서에 정의되지 않거나 명백한 문법 오류를 포함하여, 기술자가 청구범위를 명확히 이해할 수 없으며, 이는 112조(b) 위반이 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1 discloses the core structure of the claimed hitch assembly, including mounting bracket (carriage bracket), support bracket (longitudinal rail), plurality of mounting positions (engagement apertures), and releasable mechanical fastening. The claimed vehicle frame rail with horizontal and vertical portions is inherent in standard vehicle chassis design. The addition of dual brackets, cross member, and tilt stops are predictable engineering modifications within the skill level of a PHOSITA. Motivation to combine is well-supported by structural stability and load distribution objectives. Confidence in obviousness is high across most claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12's recitation of 'secured to the first mounting bracket' is self-referential and structurally incoherent. The specification does not describe a mounting bracket secured to itself, violating written description and definiteness requirements. Similarly, claim 15's phrase 'first and second first and second support brackets' is grammatically nonsensical and lacks clear antecedent basis. These are not mere formalities but substantive failures to meet §112 standards, regardless of likely typographical intent."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, and 5 are clearly anticipated by US-2013285347-A1, which discloses all claimed elements either explicitly or through functional equivalence under moderate BRI. The disclosure of the longitudinal rail with engagement apertures, carriage bracket, and slide stop directly corresponds to the claimed structure with high confidence (0.72–0.95)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 6–11, 13, and 14 are rejected under §103 based on the functional equivalence of the longitudinal rail to a support bracket and common engineering practices such as mechanical fastening, dual-side mounting, and cross-bracing. While these are predictable variations, some structural distinctions (e.g., separate support bracket) introduce interpretive flexibility. However, given the moderate strictness (0.60) and combination_threshold=0.57, the motivation to combine is sufficient."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 12 and 15 contain clear errors unsupported by the specification: self-attachment in claim 12 and redundant phrasing in claim 15. These lack written description and are indefinite under §112(b). The defects are not typographical alone but affect claim scope and support, warranting rejection."
+        }
+      ]
+    }
+  ]
+}

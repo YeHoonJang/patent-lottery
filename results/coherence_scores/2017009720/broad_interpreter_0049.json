@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace invokes both §102 anticipation with element-by-element analysis (coverage scores, implicit/inherent disclosure reasoning per claim) and §103 with explicit Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for all 16 claims, using the correct statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection references specific claim language (e.g., 'measurements representative of at least one load,' 'determining change in probability of failure') and maps them to specific disclosed modules in US-2013138332-A1 (prognostic module, learning module, cost module, query module)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 findings (all claims not novel, coverage scores 0.6–0.75) are consistent with and support the §103 findings (all claims obvious over same reference), and the office action and final decision both reject all claims on the same grounds without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.547 and claim_breadth=0.864 (broad interpreter), which is reflected in the liberal reading of prior art disclosures (treating 'air data' as implicitly covering direct load measurements, environmental data, etc.) and resolving ambiguity toward rejection—consistent with a moderately strict, broad-interpreting examiner."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all 16 claims follows directly and consistently from the accumulated §102 and §103 stage analyses, with the final decision summary explicitly referencing the same rationale developed in prior stages without reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017009720",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12729,
+      "output_tokens": 399,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The novelty stage conducts element-by-element anticipation analysis under §102, and the obviousness stage (where substantive) applies Graham/KSR-style motivation-to-combine reasoning under §103, with the office action explicitly citing the correct statutory sections."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'location of a scheduled trip item,' start/end time attributes) and specific prior art references (US-2013268886-A1, US-2011258081-A1) with element-level comparisons."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds claims 1, 3, 5, 6, 7, and 16 not novel, but the obviousness stage defaults to non-obvious for all claims (LLM unavailable), yet the final decision and office action reject those same claims under §103 without any substantive §103 analysis having been performed, creating an unexplained contradiction between the obviousness stage output and the later-stage conclusions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a moderate strictness of 0.523, the examiner reaches a balanced 'amend_suggested' outcome—rejecting core independent claims while allowing novel dependent claims—which is consistent with a middle-of-the-road examiner neither aggressively granting nor broadly rejecting."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to suggest amendment follows logically from the accumulated analysis: independent claims (1, 3, 5–7, 16) were found anticipated/obvious and rejected, while dependent claims (4, 8–15) with features not found in the prior art were allowed, and the summary explicitly states the rationale for this split outcome."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005661",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9315,
+      "output_tokens": 431,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

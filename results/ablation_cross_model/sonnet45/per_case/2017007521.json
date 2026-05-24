@@ -1,0 +1,412 @@
+{
+  "case_id": "2017007521",
+  "proceeding_number": "2017007521",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2011210915-A1은 확률 맵과 centroid 계산을 개시하지만, 본 출원의 핵심 구성요소인 (1) streaming computational engine with array of evaluation functions, (2) priority-based acceptance with termination after first accepting function, (3) local aggregator integration을 개시하지 않음. 단순히 유사한 이미지 처리 목적을 공유한다는 것만으로는 102 anticipation의 근거가 되지 않음. 선행기술의 coverage score가 0.2-0.4 수준으로 낮아 핵심 차별점이 커버되지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과 본 출원 간 몇 가지 유사점 존재: (1) 이미지 픽셀 처리, (2) 확률 맵 사용 (청구항 11, 15, 20), (3) centroid 계산 (청구항 7, 8, 12). 그러나 시스템 아키텍처와 목적이 근본적으로 다름: 선행기술은 pose estimation을 위한 병렬 확률 계산, 본 출원은 streaming k-means clustering을 위한 sequential processing with early termination. combination_threshold=0.34로 낮아 결합이 용이해 보일 수 있으나, (1) 우선순위 기반 acceptance termination 메커니즘, (2) local aggregator 통합, (3) single-pass streaming k-means 구현 등은 선행기술에서 명시적으로 교시되지 않음. 확률 맵 사용의 높은 유사성(청구항 11, 15, 20의 coverage 0.8-0.85)은 주목할 만하나, 이는 청구항 1, 14, 17의 전체 시스템 맥락 내에서 평가되어야 함. 결합 동기는 불충분하나, strictness=0.79 성향을 고려 시 일부 청구항에서 103 우려 가능."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았으나, 청구항 용어들('streaming computational engine', 'evaluation function', 'local aggregator', 'priority ordering', 'candidate centroid' 등)은 컴퓨터 과학 및 머신러닝 분야에서 이해 가능한 기술 용어임. 112 written description이나 enablement 이슈는 명세서 검토 없이 판단하기 어려우며, 현재까지 제공된 정보로는 112 거절 근거 부족."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들은 k-means clustering이라는 수학적 알고리즘을 포함하나, 이는 구체적 시스템 아키텍처(streaming computational engine, evaluation functions array, local aggregators)와 통합되어 실용적 응용(computational efficiency 향상, 이미지 처리 등)을 제공. Alice step 2 분석 시 significantly more than abstract idea로 판단 가능. 101 거절 근거 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection identifies US-2011210915-A1 as disclosing clustering with centroid computation for body part segmentation. The key differences are the streaming architecture with priority-ordered evaluation functions, early termination, and local aggregators. The Office Action argues these are obvious design choices for adapting k-means to streaming. However, the strength is moderate rather than strong because: (1) the prior art does not explicitly disclose the specific streaming architecture with priority-based acceptance and early termination mechanism, (2) the combination rationale relies heavily on general knowledge about streaming optimizations rather than explicit teaching in the reference, (3) the claim recites a specific structural arrangement (array of evaluation functions with priority ordering and termination logic) that is not directly suggested by the body pose estimation system of the reference. The reference processes pixels for body segmentation, but the leap to a general streaming k-means architecture with the claimed acceptance/termination mechanism requires some degree of design insight beyond routine optimization. Nevertheless, given that k-means is well-known, streaming architectures are known, and computational efficiency is obvious motivation, the combination has reasonable support even if not explicitly taught."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11, 15, and 20 have strong 102 rejection grounds. US-2011210915-A1 explicitly discloses image data with pixels having probabilities indicating association with predefined body parts (coverage scores 0.9, 0.85). The abstract and detailed description clearly teach processing pixels to determine probabilities for body segments. This is direct anticipation with explicit disclosure, not inference or interpretation. The evidence is clear and unambiguous."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While initial obviousness analysis identified Claims 11, 15, and 20 as obvious, these claims are already rejected under 102 (stronger ground). For independent claims 1, 14, 17 and their dependencies: the streaming architecture with priority-ordered evaluation functions, acceptance-based termination, and integrated processing represents a fundamentally different computational paradigm from prior art's batch processing. The combination_threshold=0.68 requires substantial motivation to combine, which is absent. Prior art teaches batch pixel processing followed by post-processing centroids; claimed invention teaches streaming with integrated evaluation functions. No teaching, suggestion, or motivation exists to bridge this architectural gap. Under my strictness=0.25 (lenient toward applicants), weak obviousness grounds favor the applicant when novel technical contribution exists."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            11,
+            15,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1이 청구항 11, 15, 20의 핵심 구성요소(single frame image data, pixels with probabilities for body parts, probability maps for predefined parts)를 명시적으로 개시합니다. Reference의 claim 1 'assigning to each pixel a probability that the pixel is within each segment'과 Summary 'calculate a probability that each pixel is associated with body parts'는 청구항의 모든 요소를 anticipate합니다. 102 거절 근거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 7의 'cluster of entities로부터 candidate centroid 결정'은 선행기술의 'body segment 내 centroid pixel 결정'과 underlying operation이 동일합니다. Centroid 계산은 clustering의 기본 연산이며 공지상식입니다. 그러나 선행기술의 centroid는 body part segmentation context이고 청구항 7은 general k-means clustering context로, application context 차이가 있습니다. 청구항 8의 '평균을 통한 centroid 계산'은 수학적 정의이자 공지상식이지만, 선행기술이 이 특정 계산 방법을 명시적으로 개시하지는 않았습니다. 결합 동기는 있으나 일부 해석의 여지가 남아있어 moderate 강도로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            11,
+            15,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "102 거절의 대안으로서, 선행기술이 이미 모든 features를 명시적으로 개시하므로 103 거절도 strong합니다. 만약 102가 극복되더라도 minor differences는 자명한 설계 선택입니다."
+        },
+        {
+          "basis": "allowable",
+          "claims": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            12,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "이들 청구항의 핵심 features(streaming architecture, priority-based early termination, local aggregation, sequential forwarding, k-means approximation with single-pass streaming 등)는 선행기술에 개시되지 않았습니다. 선행기술의 body part segmentation(complete probability distribution calculation for all segments)은 청구항의 streaming k-means clustering with priority-based early termination과 근본적으로 다른 접근법입니다. 결합 동기가 불충분하며(combination_threshold=0.72), 통상의 기술자가 선행기술로부터 청구항의 구조를 도출할 명시적 교시가 없습니다. Allowable 판단이 적절합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "청구항 7, 11, 15, 20에 대한 102 거절은 US-2011210915-A1이 centroid 결정(claim 7) 및 body part에 대한 픽셀 확률을 포함하는 이미지 데이터(claims 11, 15, 20)를 명시적으로 개시한다는 점에 근거합니다. 선행기술의 개시 내용이 해당 요소들과 높은 유사성(similarity 0.8~0.95)을 보이고 있으나, 청구항 1, 14, 17의 기본 구성(streaming computational engine, array of evaluation functions, priority ordering)이 선행기술에 명시적으로 개시되지 않았다는 점을 고려하면, 전체 조합이 anticipate되는지에 대해서는 해석의 여지가 있습니다. 그러나 추가된 요소들(centroid 결정, image data application)은 선행기술에 명시적으로 존재하며, 이는 102 거절의 근거로 작용할 수 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 1-6, 8-10, 12-14, 16-19에 대한 103 거절은 매우 강한 근거를 가지고 있습니다. US-2011210915-A1이 핵심 기술(픽셀 확률 계산, centroid 결정)을 개시하고 있으며, 청구항과의 차이점(streaming architecture, array of evaluation functions, priority-based termination)은 2014년 당시 널리 알려진 설계 선택 및 최적화 기법입니다. 스트리밍 처리(MapReduce, Spark Streaming), 병렬 처리, k-means 변형 알고리즘(online k-means, streaming k-means)은 모두 공지 기술이었으며, 결합 동기(성능 최적화, 실시간 처리, 메모리 효율성)가 명확합니다. Graham 4요소 분석이 체계적으로 수행되었고, PHOSITA가 선행기술을 스트리밍 아키텍처로 변환하는 것이 자명하다는 논리가 설득력 있게 제시되었습니다. Combination_threshold=0.45는 중간 수준으로, 명시적 교시 없이도 공지상식과 설계 선택으로 결합을 인정할 수 있는 기준이며, 본 사안은 이를 충족합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Prior art US-2011210915-A1 teaches pixel-based probability calculation and centroid determination for body parts, but does not disclose the specific streaming computational architecture with priority-based acceptance mechanism, array of evaluation functions with local aggregators, first-accept termination logic, or single-pass streaming k-means approximation. The rejection relies heavily on the assertion that combining streaming architecture with k-means clustering would be 'obvious' based on general knowledge of these techniques, without providing explicit teaching, suggestion, or motivation in the prior art itself. The claimed streaming architecture represents a specific algorithmic structure that is structurally distinct from batch processing disclosed in the prior art. The motivation to combine is based on hindsight reasoning (computational efficiency for real-time processing) rather than explicit teaching in the reference. While k-means and streaming processing are known in general, the specific combination of priority ordering, first-acceptance termination, local aggregation, and parallel evaluation represents more than predictable use of prior art elements. The examiner's combination_threshold=0.51 requires clear motivation, which is not adequately demonstrated from the prior art alone—only from general knowledge and hindsight. Given strictness=0.82, I would normally favor rejection on borderline cases, but this case involves significant structural differences and insufficient explicit motivation in the cited reference itself."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "none",
+          "reasoning": "선행기술 US-2011210915-A1은 청구항의 핵심 구성요소인 (1) streaming computational engine with array of evaluation functions, (2) priority ordering based acceptance with early termination, (3) local aggregators in each evaluation function을 개시하지 않음. 모든 청구항에 대해 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2011210915-A1은 centroid 계산을 개시하나, 청구항의 streaming evaluation function architecture로 변경할 명시적 교시나 시사가 없음. k-means clustering은 공지되었으나, single-pass streaming architecture with priority-ordered evaluation functions는 선행기술에서 교시되지 않음. combination_threshold=0.46(중간값)을 고려할 때, 명시적 결합 동기 없이는 103 인정 어려움. 결합의 동기가 불분명하고, 아키텍처 차이가 실질적이며, single-pass streaming approximation은 알고리즘적 혁신으로 평가됨. strictness=0.47(중립에 가까움)을 고려하면 weak 근거는 출원인에게 benefit of doubt 제공."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "청구항 용어가 명확하고 명세서 뒷받침이 충분한 것으로 판단됨. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "청구항은 specific technological implementation (streaming computational engine, evaluation functions, local aggregators)을 청구하며, abstract idea에 해당하지 않음. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The obviousness rejection rests on the assumption that streaming techniques and k-means variants were 'known in the art' and that combining them with US-2011210915-A1 would be a 'predictable use of known techniques.' However, the rejection fails to cite any specific prior art references teaching streaming k-means algorithms or streaming cluster assignment with priority-ordered evaluation functions and early termination. The motivation to combine is stated in general terms (reduced memory, real-time processing) but lacks concrete evidence that skilled artisans would actually modify the batch probability calculation approach of US '915 into the claimed streaming architecture. US '915 teaches a fundamentally different approach: batch processing all pixels to calculate probabilities, then determining centroids. The claimed invention streams entities to an array of evaluation functions with first-acceptance termination—a structural paradigm shift not suggested by US '915. The rejection relies heavily on 'common knowledge' assertions (e.g., 'k-means clustering and streaming variants were known') without providing documentary evidence. Under strictness=0.55, such broad generalizations without specific teaching references constitute weak evidence for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항(1-20)에 대해 선행기술 US-2011210915-A1이 핵심 구성요소들을 개시하지 않음이 명확히 입증됨. 특히 청구항 1의 'streaming computational engine', 'array of evaluation functions', 'priority-ordered acceptance with early termination', 'local aggregator' 등 핵심 구조적 요소들이 선행기술에 부재함. Coverage scores가 대부분 0.0-0.25로 낮으며, 일부 높은 경우(청구항 11, 15, 20의 0.88, 0.8)도 전체 시스템 구조와의 결합이 개시되지 않음. 신규성 판단의 confidence도 0.6-0.8로 충분히 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 부분적 요소들(픽셀 처리, centroid 계산, body part probability)을 개시하나, 이들을 청구항의 스트리밍 평가 함수 배열 구조로 결합할 명시적 동기가 부족함. 그러나 일부 요소들(거리 기반 할당, 평균 계산, 병렬 처리)은 공지 기술일 수 있으며, combination_threshold=0.22(낮음)를 고려하면 일부 청구항(특히 종속항)에서 자명성 경계선상 판단 가능. 하지만 핵심 발명 개념인 '단일 패스 스트리밍 k-means 근사화'는 전통적 다중 패스 k-means와 근본적으로 다르며, 이러한 아키텍처 전환의 동기가 선행기술에서 불충분함. Graham 분석이 상세하고 secondary considerations(계산 효율성, 실시간 처리)가 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action에서 명세서가 모든 청구항을 적절히 뒷받침한다고 명시함. 기술 용어들이 명세서에 정의되거나 해당 분야에서 잘 이해되는 용어임. 통상의 기술자가 과도한 실험 없이 발명을 실시할 수 있음. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "Office Action에서 청구항이 특정 기술적 개선(스트리밍 엔진 아키텍처, 단일 패스 k-means 근사화)을 제공하며 추상적 아이디어가 아닌 구체적 기술 솔루션이라고 명시함. 특정 컴퓨터 구성요소(스트리밍 엔진, 평가 함수, aggregator)와 연결되고 구체적 처리 단계를 포함함. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection for claims 1-10, 14-19 relies heavily on hindsight reasoning and lacks explicit motivation to combine. US-2011210915-A1 discloses body pose estimation with centroid calculation, but does not teach or suggest the core inventive concept: streaming architecture with priority-ordered evaluation functions, early termination upon first acceptance, and local aggregators. The Office Action argues these are 'routine design choices' and 'obvious optimizations,' but provides no evidence from the prior art or secondary references showing such streaming architectures were known or obvious in the clustering field at the time of invention. The combination motivation is speculative—claiming 'efficiency improvements' without concrete teaching. K-means clustering is well-known, but single-pass streaming k-means with priority-ordered evaluation is not shown to be obvious from the cited reference. The prior art processes all pixels comprehensively for pose estimation, which is fundamentally different from selective streaming with early termination for clustering. The examiner has not established a prima facie case of obviousness with proper motivation to combine."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The 102 rejection for claims 11-13, 15, 20 is problematic because these claims depend from base claims (1, 14, 17) that are not anticipated. Even if the added limitations (pixel probabilities for body parts, centroid determination for body parts, scan line order, probability maps) are disclosed in US-2011210915-A1, the base claims recite a streaming architecture with priority-ordered evaluation functions that is NOT disclosed in the prior art. For a dependent claim to be anticipated, ALL limitations including those of the parent claim must be disclosed. Since claims 1, 14, 17 are not anticipated (lack streaming architecture elements), claims 11-13, 15, 20 cannot be anticipated either. The Office Action erroneously focuses only on the added limitations while ignoring the non-disclosed base claim elements. Additionally, claim 13's assertion that 'scan line order is inherent' is speculative without explicit disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 7, 8, 11, 12, 15, 20에 대한 103 거절은 moderate 강도입니다. US-2011210915-A1이 centroid 결정(claim 7), pixel probability maps(claims 11, 15, 20), centroid-location relationship(claim 12)을 명시적으로 개시하는 것은 사실입니다. Claim 8의 평균 기반 centroid 계산도 clustering의 공지상식입니다. 그러나 이러한 요소들이 청구항 1의 streaming computational engine architecture와 결합되어야 하는데, 선행기술은 batch processing 방식의 정적 이미지 분석 시스템이며 streaming architecture를 개시하지 않습니다. 따라서 종속항들의 거절은 base claim의 novelty에 의존적입니다. 선행기술의 개별 요소들은 명확하지만, 이를 streaming k-means system에 결합할 명시적 동기는 약합니다. Combination_threshold=0.44를 고려하면 일부 결합은 자명할 수 있으나, system architecture의 구조적 차이로 인해 moderate로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 분석에서 모든 청구항(1-20)이 is_novel: true로 판단되었으며, anticipating_refs가 모두 빈 배열임. US-2011210915-A1이 일부 유사한 요소(이미지 데이터, 픽셀, 확률, centroid)를 개시하나, 청구항의 핵심 구성요소인 streaming computational engine architecture, evaluation functions array, priority-based acceptance termination, local aggregators는 전혀 개시되지 않음. Coverage scores가 대부분 0.0~0.25로 낮으며, 일부 청구항(11, 15, 20)에서 0.88까지 올라가나 이는 이미지 데이터 부분만의 유사성을 반영할 뿐 전체 청구항을 anticipate하지 못함. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항(1-20)이 is_obvious: false로 판단되었음. 선행기술 US-2011210915-A1은 이미지 픽셀의 확률 계산 및 centroid 결정을 개시하나, 청구항의 핵심인 streaming architecture와는 근본적으로 다른 기술적 접근법임. 선행기술은 comprehensive pixel-by-pixel processing인 반면, 청구항은 priority-ordered streaming with early termination임. Motivation to combine 분석에서 선행기술로부터 streaming architecture를 도출할 명시적 교시나 동기가 없음이 확인됨. Graham factors 분석에서 scope and content는 이미지 처리이나, differences는 architectural paradigm의 근본적 차이를 보임. Secondary considerations로 single-pass efficiency, real-time capability 등 예측 불가능한 효과가 있음. Combination threshold 0.52 기준으로, 선행기술의 pixel processing과 청구항의 streaming architecture의 결합은 명시적 교시 없이는 비자명함. Confidence scores 0.7~0.82로 높음. 103 거절 근거 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "112 분석이 제공되지 않았으며, 청구항들이 명확하고 구체적으로 기재되어 있음. Streaming computational engine, evaluation functions, priority ordering, local aggregators 등 핵심 용어들이 명확히 정의되어 있고, dual-condition acceptance logic, sequential streaming in parallel 등 구체적 구현도 기재됨. 명세서 뒷받침 부족이나 indefiniteness 문제가 보이지 않음. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "101 분석이 제공되지 않았으나, 청구항들이 구체적 기술 구현(streaming computational engine, evaluation functions array, local aggregators)을 recite하고 있어 abstract idea에 해당하지 않음. K-means clustering 자체는 수학적 알고리즘이나, 청구항은 이를 구현하는 구체적 시스템/방법/컴퓨터 저장매체를 청구하며, single pass streaming이라는 기술적 개선을 제공함. Alice/Mayo test를 통과할 것으로 판단됨. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The Office Action rejects claims 11, 12, 15, and 20 as obvious over US-2011210915-A1. However, the rejection reasoning acknowledges that 'the streaming computational engine architecture of claim 1 represents a non-obvious advancement' and concludes the application to specific data types is merely an 'obvious design choice.' This creates a logical inconsistency: if the core architecture (claim 1) is non-obvious, then dependent claims adding specific data types inherit that non-obviousness unless there is independent teaching in the prior art to apply that novel architecture to those data types. The prior art teaches the DATA (probability maps for body parts) but does NOT teach or suggest applying a STREAMING EVALUATION FUNCTION ARCHITECTURE WITH PRIORITY ORDERING AND EARLY TERMINATION to that data. The rejection conflates 'known data type' with 'obvious to apply novel processing architecture to that data type.' High similarity scores (0.75-0.95) for data elements only show the data type is disclosed, not that applying the novel architecture is obvious. The motivation to combine is generic ('efficient processing of large datasets') rather than specific teaching or suggestion. Under KSR, obvious to try or general motivation is insufficient without more concrete guidance. The rejection lacks specific teaching that would lead a PHOSITA to modify the prior art's batch processing approach to create the claimed streaming architecture for this data type."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011210915-A1은 'centroid pixel within segments'를 명시적으로 개시하며(Claim 8), 이는 청구항 7의 'candidate centroid associated with a cluster'와 기능적으로 유사합니다. 그러나 청구항 7의 핵심은 'evaluation functions'라는 특정 구조적 한정입니다. Office Action은 centroid 계산을 evaluation function으로 구현하는 것이 '자명한 설계 선택(obvious design choice)'이라고 주장하나, 이는 결과 중심의 해석입니다. 청구항 7은 청구항 1을 인용하므로, streaming computational engine, array of evaluation functions, priority ordering 등의 전체 아키텍처가 포함됩니다. 선행기술은 단일 이미지 프레임의 batch processing을 시사하며, 이를 streaming architecture의 modular evaluation functions로 전환하는 것은 단순한 '구현 선택'을 넘어서는 아키텍처적 변경입니다. 그러나 centroid 계산 자체는 명확히 개시되어 있으므로 완전히 weak하지는 않습니다. strictness=0.60 기준으로, 증거가 있으나 해석의 여지가 있는 moderate로 평가합니다."
+        }
+      ]
+    }
+  ]
+}

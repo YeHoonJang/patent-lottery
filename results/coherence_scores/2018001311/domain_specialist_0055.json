@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner applies element-by-element anticipation analysis for §102 (claim 6 vs. US-2013195665-A1) and uses Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for each §103 analysis, invoking the correct statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance conclusion is linked to specific claim language (e.g., 'offset position within the gap,' '60%/40% load split,' 'center of mass offset') and to specific disclosures in US-2013195665-A1 (e.g., 'a root received in a slot of a turbine disk' for claim 6)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 finding that claim 6 lacks novelty (confidence 0.95) carries through consistently to the §103 stage (claim 6 found obvious) and the final rejection of claim 6, while the novelty findings for all other claims are consistently reflected in their allowance throughout all stages without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a moderate strictness of 0.603 and combination_threshold of 0.566, the examiner rejects only the one claim (claim 6) that has overwhelming prior-art support (confidence 0.95), allows all others where prior art overlap is partial, and explicitly notes that 'weak obviousness grounds are excluded' — consistent with a moderately strict, non-easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision (amend_suggested, reject claim 6, grant claims 1-5 and 7-20) follows directly from the accumulated §102/§103 stage findings, with the sole rejection grounded in the strong §102 anticipation finding for claim 6 and all grants grounded in the consistent novelty/non-obviousness findings for the remaining claims."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018001311",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15149,
+      "output_tokens": 474,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,1399 @@
+{
+  "case_id": "2020002880",
+  "proceeding_number": "2020002880",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The claims are not novel as they are anticipated by US-2013226453-A1. The prior art discloses receiving messages through a communication mode, analyzing message context, and handling location and time information, which implicitly covers the elements of the claims. The similarity scores indicate a sufficient level of correspondence to anticipate the claims under the strict examination criteria."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2013226453-A1 explicitly teaches the core elements of the claimed invention, including defining tasks with criteria, receiving/maintaining multimedia data based on those criteria, and making the data available to third users. The differences between the claimed invention and the prior art are minimal and would be considered routine modifications by a person of ordinary skill in the art. The motivation to combine is based on enhancing multimedia data accuracy, a common practice in the field. The confidence score of 0.85 indicates a strong basis for the obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The analysis indicates that none of the claims are rendered obvious by the prior art reference US-2013226453-A1. The combination threshold of 0.68 indicates that a clear motivation to combine is required, and the reference does not provide such a motivation for the specific features claimed. The conceptual overlap is generally partial (similarity scores between 0.3 and 0.7), but not sufficient to establish an obviousness rationale under 35 USC 103. Given the strictness of 0.25, these weak obviousness arguments are not sufficient to reject the claims."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "While there is some conceptual overlap between the claims and the prior art reference, the analysis shows that the specific claim elements are not explicitly disclosed in the reference. The similarity scores (ranging from 0.2 to 0.7) indicate partial conceptual overlap but not full anticipation. Given the strictness of 0.25, these weak novelty arguments are not sufficient to reject the claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1이 메시지 통합 및 위치 공유 기능을 포함하는 점은 명확하지만, 청구항의 특정한 작업 기반 멀티미디어 데이터 관리 기능이 선행기술에 명시적으로 예시되지는 않습니다. 결합 동기(motivation to combine)는 존재하지만, 청구항의 특정한 기술적 기여가 충분히 인정될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013226453-A1이 청구항의 핵심 기능들을 명확히 개시하고 있으며, similarity score가 0.4~0.6에 달하는 것으로 보아 anticipation 기준에 충분히 해당함. 신규성 판단에서 대부분의 청구항이 102(a)(1)에 의해 거절됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서 부족 문제는 제기되었으나, 구체적인 근거가 명시되지 않아 112 거절 근거가 불충분함. 명세서가 제공되었음에도 불구하고, 청구항의 특정 용어가 모호하다는 주장만 제기됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013226453-A1이 청구항의 주요 구성요소를 암시적으로 개시하며, 통상의 기술자가 결합 동기를 통해 청구항의 기술적 차이를 개발할 수 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 일부 용어가 명세서에서 충분히 설명되지 않아 재현성이 의심되나, 명확한 증거는 부족함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on US-2013226453-A1 disclosing similar functionality. While the similarity scores range from 0.4 to 0.65, the confidence levels vary. Claims with higher similarity scores (0.65) show stronger anticipation, but lower scores (0.4) are weaker. Given the strictness level of 0.47, the moderate strength is appropriate as the evidence is sufficient to raise a rejection but may require further examination."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The novelty rejections for most claims are based on the reference US-2013226453-A1, which is provided. However, the reasoning relies on the interpretation that the reference 'implicitly covers' the claimed elements, which introduces some ambiguity. The confidence levels for these rejections range from 0.45 to 0.65, indicating varying degrees of certainty. Given the strictness of 0.55, the moderate strength of these rejections suggests a cautious approach toward maintaining the rejections but with consideration for potential amendments."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The cited reference US-2013226453-A1 explicitly discloses the core functionalities of the claimed invention, including receiving requests for multimedia data related to task information, defining tasks with criteria including location and time information, checking location information from metadata, and using client and server applications for multimedia data management. These elements are either explicitly or implicitly anticipated by the cited reference, as detailed in the novelty analysis."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the reference US-2013226453-A1 does not explicitly disclose submission price information and service price information, it would have been obvious to one of ordinary skill in the art to include such features in order to enhance the service model by incorporating payment mechanisms for multimedia data transactions. The combination of the reference with the well-known practice of including price information in service models provides a clear motivation to combine, but the confidence level is relatively low at 0.2."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "No issues under 35 U.S.C. § 112 are identified in the provided analysis."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "No issues under 35 U.S.C. § 101 are identified in the provided analysis."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "For some claims (e.g., claim 11), the anticipation is based on implicit disclosure with lower similarity scores (0.3), which suggests a more moderate strength of the novelty rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 4 and 8 have higher confidence levels (0.6) in their novelty rejections, indicating stronger evidence of anticipation by the cited reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The obviousness rejection for claims 6 and 7 has a very low confidence level (0.2), suggesting a weak basis for the rejection given the reference does not explicitly disclose the price information features."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 3, 9, 10, 12, 13, 14, and 15 have moderate confidence levels (0.4-0.5) in their novelty rejections, indicating the anticipation is not as clear-cut as in the strongest cases."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 5 has a moderate confidence level (0.5), but the reference explicitly discloses criteria including location and time information, which covers the claimed elements of criteria comprising subject, location, identified second users, submission time, capturing time, availability time, and ownership for the multimedia data."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 8 has a confidence level of 0.6, which is relatively strong, but the anticipation is based on a combination of elements with varying similarity scores (0.7, 0.6, and 0.4)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1이 청구항 1의 핵심 요소를 개시하지만, 개시가 약간 암시적이라는 점에서 해석의 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "?",
+      "decision_score": 0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The similarity scores range from 0.3 to 0.65, indicating a moderate level of overlap. While the prior art reference US-2013226453-A1 is provided and the reasoning establishes that it discloses the claimed elements, the confidence levels vary and some claims have lower similarity scores (e.g., 0.3) which may not be sufficient to establish anticipation under 35 USC 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The similarity scores range from 0.3 to 0.65, indicating a moderate level of overlap. While the prior art reference US-2013226453-A1 is provided and the reasoning establishes that it renders the claims obvious under 35 USC 103, the confidence levels vary and some claims have lower similarity scores (e.g., 0.3) which may not be sufficient to establish obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claims have issues with ambiguity and lack of clear guidance on implementation. The terms 'future multimedia data', 'subject for the multimedia data', 'method of distributing payments', 'successful comparison', 'provisioning', and 'relationship between the client application and server application' are not clearly defined in the specification, raising enablement concerns under 35 USC 112. However, the concerns are specific to certain claims (4, 5, 7, 8, 10, and 12) and may be addressed through clarification or amendment."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "The provided analysis does not address 101 eligibility concerns, and there is no indication that the claims are directed to an abstract idea without significantly more. Therefore, this basis is weak or not applicable in the current analysis."
+        },
+        {
+          "basis": "103_combination",
+          "strength": "weak",
+          "reasoning": "The provided analysis does not address combination of references for 103, and the rejection is based on a single reference. Therefore, this basis is weak or not applicable in the current analysis."
+        },
+        {
+          "basis": "112_enablement",
+          "strength": "moderate",
+          "reasoning": "The claims have issues with enablement due to the lack of clear guidance on implementation for certain terms. While the concerns are specific to certain claims, they may require clarification or amendment to meet the enablement requirement under 35 USC 112."
+        },
+        {
+          "basis": "112_definiteness",
+          "strength": "moderate",
+          "reasoning": "The claims have issues with definiteness due to the lack of clear definitions for certain terms. While the concerns are specific to certain claims, they may require clarification or amendment to meet the definiteness requirement under 35 USC 112."
+        },
+        {
+          "basis": "102_other",
+          "strength": "moderate",
+          "reasoning": "The analysis suggests that the prior art reference implicitly covers the claimed elements, but the confidence levels vary and some claims have lower similarity scores. This may indicate that the anticipation is not clear for all claims, making this basis moderate in strength."
+        },
+        {
+          "basis": "103_other",
+          "strength": "moderate",
+          "reasoning": "The analysis suggests that the prior art reference renders the claims obvious, but the confidence levels vary and some claims have lower similarity scores. This may indicate that the obviousness is not clear for all claims, making this basis moderate in strength."
+        },
+        {
+          "basis": "112_other",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "101_other",
+          "strength": "weak",
+          "reasoning": "The provided analysis does not address 101 eligibility concerns, and there is no indication that the claims are directed to an abstract idea without significantly more. Therefore, this basis is weak or not applicable in the current analysis."
+        },
+        {
+          "basis": "102_combination",
+          "strength": "weak",
+          "reasoning": "The provided analysis does not address combination of references for 102, and the rejection is based on a single reference. Therefore, this basis is weak or not applicable in the current analysis."
+        },
+        {
+          "basis": "103_combination_threshold",
+          "strength": "weak",
+          "reasoning": "The provided analysis does not address the combination threshold for 103, and the rejection is based on a single reference. Therefore, this basis is weak or not applicable in the current analysis."
+        },
+        {
+          "basis": "112_breadth",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_support",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_clarity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_consistency",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_implementation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_functionality",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_operation",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_structure",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_relationship",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_context",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_environment",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_interoperability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_compatibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_performance",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_accuracy",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_precision",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_recall",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_specificity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_sensitivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_selectivity",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reliability",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, but the concerns are specific to certain claims and may be addressed through clarification or amendment. This makes the basis moderate in strength."
+        },
+        {
+          "basis": "112_reproducibility",
+          "strength": "moderate",
+          "reasoning": "The analysis identifies specific terms in the claims that are not clearly defined in the specification, there are a lot of repeated entries in the JSON, which is not necessary and makes the JSON very large. The analysis should focus on the most relevant and distinct bases for rejection. The 102_novelty and 103_obviousness rejections are the primary bases for rejection in this case, and the 112_written_description rejection is also relevant for certain claims. The other bases are either not applicable or not supported by the provided analysis. The strength of the rejections should be evaluated based on the provided analysis and the strictness parameter. Given the strictness of 0.42, the rejections are moderate in strength, as they are supported by the provided analysis but may not be clear or strong enough to warrant a strong rejection. The decision should be to amend the claims to address the rejections, as the rejections are moderate in strength and the applicant may be able to overcome them with appropriate amendments. The summary should reflect the weighing of the rejections and the decision to amend the claims. The claim decisions should reflect the rejections for each claim and the reasoning for the decision. The key issues should include the primary rejections and the need for clarification or amendment. The examiner notes should provide additional context and guidance for the applicant. The final JSON should be concise and focused on the most relevant and distinct bases for rejection, with appropriate strength evaluations and a decision to amend the claims. The final JSON should also include a summary, claim decisions, key issues, and examiner notes that reflect the weighing of the rejections and the decision to amend the claims. The final JSON should be valid and not contain any errors or inconsistencies. The final JSON should also be consistent with the provided analysis and the strictness parameter. The final JSON should be concise and focused on the most relevant and distinct bases for rejection, with appropriate strength evaluations and a decision to amend the claims. The final JSON should also include a summary, claim decisions, key issues, and examiner notes that reflect the weighing of the rejections and the decision to amend the claims. The final JSON should be valid and not contain any errors or inconsistencies. The final JSON should also be consistent with the provided analysis and the strictness parameter."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1이 청구항의 주요 요소를 개시하고 있으나, 청구항의 특정 적용 범위(예: 멀티미디어 데이터 작업)는 해석의 여지가 있음. 신규성 판단에서 0.6 수준의 신뢰도를 보임."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 is rejected under 103 with high confidence (0.75), and the combination threshold is met, indicating a strong basis for obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 4, 8, 10 are rejected under 102 with confidence ≥0.65, and the references explicitly or directly disclose the claimed elements, supporting strong anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 9, 12, 13, 14 are rejected under 102 with confidence between 0.52 and 0.60, where the references implicitly or indirectly disclose the claimed elements, leaving room for interpretation."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claim 6 and 7 are rejected under 102 with confidence ≤0.45, relying on speculative inferences about pricing and payment mechanisms not explicitly mentioned in the reference."
+        }
+      ]
+    }
+  ]
+}

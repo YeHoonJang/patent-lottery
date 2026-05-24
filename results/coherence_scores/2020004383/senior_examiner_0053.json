@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation analysis for §102, Graham factors (scope, differences, PHOSITA level, secondary considerations) for §103, and claim-specification support analysis for §112, using the appropriate legal frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'executable-by-user mode,' 'application code protector,' 'I/O module'), specific prior art disclosures (US-2016364341-A1's EPT mappings, US-2012254995-A1's below-OS security agent), and specification passages regarding functional terms."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a direct inconsistency: claims 1 and 9 were found non-obvious in the §103 stage, yet the office action and final decision reject them under §102 anticipation without adequately reconciling why the same prior art that failed to render them obvious now fully anticipates them—the §103 analysis explicitly stated the prior art did not teach guest-initiated hypervisor enforcement, but the §102 rejection asserts complete anticipation of the same elements."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.422) is appropriately reflected: claims 1 and 9 are treated with some benefit of the doubt in the §103 stage (found non-obvious), while ultimately rejected on the volume of §102 and §112 issues, consistent with a pragmatist examiner who is neither strongly lenient nor strongly strict."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the accumulated stage analyses—strong §102 anticipation findings for most claims, §103 obviousness for claims 2 and 10, and substantial §112 issues across multiple claims—with the summary explicitly weighing these grounds against the moderate strictness level."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004383",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14415,
+      "output_tokens": 460,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

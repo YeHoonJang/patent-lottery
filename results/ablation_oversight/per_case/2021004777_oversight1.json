@@ -1,0 +1,293 @@
+{
+  "case_id": "ABL-2021004777",
+  "proceeding_number": "2021004777",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed with New Ground of Rejection",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.21428571428571427,
+  "reject_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143936-A1은 청구항 1, 2, 3, 4, 5, 7, 12, 14, 15의 모든 구성요소를 명시하거나 BRI 하에 명백하게 개시하고 있음. 특히 하단 로딩 개구부, 절단선과 중첩되는 테두리, 탄성 재료 사용, 테니스 공 보관 기능 등은 동일하거나 자명한 변형으로 판단되며, 결합 동기(motivation)는 운동 중 아이템 보관의 접근성 및 안정성 향상이라는 공통 설계 목적으로 충분히 뒷받침됨. confidence 수치 대부분 0.75 이상으로, 강한 근거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143936-A1이 청구항 1, 2, 3, 4, 5, 7, 14, 15의 모든 구성요소를 명시하거나 BRI 하에 명백하게 개시함. '결합(coupled)'은 섬유 분야에서 봉제를 의미하며, 절단선과의 중첩, 상단 경계, 개구부 배치 등은 구조적 필연성 있음. 테니스 관련 용도는 배경기술에 직접 기재됨. 결합 동기 없이 단일 선행기술로 충분하며, confidence 0.9 이상으로 강한 obviousness 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3의 개방부가 제1 및 제2 절단선 사이를 따라 확장된다는 특징은 선행기술의 구조적 배치로부터 도출될 수 있으나, 절단선과의 정확한 정렬 및 중첩 여부는 명시되지 않음. 선행기술이 원주를 따라 배치된 패널을 개시하고 있으나, 특정 절단선과의 기하학적 관계는 명확하지 않으며, 이는 해석의 여지가 있음. 결합 동기의 존재 여부도 명확하지 않아 hindsight의 위험이 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 1은 US-2014143936-A1에 의해 명확히 예시됨. 선행기술은 패널형 포켓, 개방부, 절단선과의 중첩 등 모든 구성요소를 단일 문서에서 개시하고 있으며, 명세서 및 청구항에서 직접 확인 가능하므로 신규성 결여 판단은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 3, 4, 5, 7, 8, 9, 10, 12, 14, 15에 대한 진보성 거절은 대부분 선행기술의 명시적 개시 또는 통상의 기술자에게 자명한 설계 선택에 기반함. 그러나 일부 해석(예: '중첩', '위치')은 구조적 명확성보다는 일반화된 배치 설명에 근거하며, 기술적 효과가 제한적임. 특히 해부학적 위치 지정은 기능적 차이 없이 단순한 설명 정밀도 향상 수준에 그침."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143936-A1이 청구항 1, 2, 3, 4, 5, 7, 12, 14, 15의 모든 구성요소를 실질적으로 개시하거나 자명하게 시사하며, 통상의 기술자가 동일한 목적을 달성하기 위해 자연스럽게 도달할 수 있는 기술적 수준임. 선행기술과의 차이가 없거나, 차이가 있다 하더라도 기능적 필수 사항 또는 공지기술의 범위 내에 있음. confidence 점수도 0.7 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143936-A1은 청구항 1-12, 14-15의 모든 구성요소를 명시적으로 또는 명백한 변형으로 개시하며, 통상의 기술자가 동일한 목적(운동 중 아이템 보관)을 위해 용이하게 도달할 수 있는 기술적 맥락을 제공함. 결합 동기(motivation to combine)는 명확하며, 선행기술의 scope and content, PHOSITA 수준, 기술적 차이점의 정도를 종합적으로 고려할 때 진보성 결여 판단이 타당함. confidence 수치 대부분 0.7 이상으로, 특히 claim 1, 6, 14, 15은 0.8 이상의 높은 확신을 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 내 'cut line', 'partial overlap', 'essentially', 'incorporated into a seam', 'top loading', 'securely hold', 'more elastic', 'integrated with' 등의 용어는 명세서에서 정의되지 않거나 기준이 불명확하여 112(a) 서면 설명 요건과 112(b) 명확성 요건을 위반함. 도면 참조도 부족하여 구조적 관계를 재현하기 어렵고, 당업자가 과도한 실험 없이 실시하기 어려움. 명확한 서지적 근거 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6의 'further opening for top loading'은 US-2014143936-A1 청구항 8에서 개방부가 제1 및 제2 끝에 모두 존재한다고 명시하여 직접적으로 심사 기준을 충족하므로, 신규성 거절은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7, 8, 9, 10, 12, 14, 15에 대해 US-2014143936-A1이 각각의 기능적 위치 및 재료 특성을 명시하거나 자연스럽게 유도하고 있어, PHOSITA 기준에서 자명한 변형으로 간주됨. 특히 테니스 볼 보관 및 신축성 재료 사용은 명시적 언급됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143936-A1은 청구항 1의 핵심 구성요소인 하단 로딩 포켓, 컷 라인과 중첩되는 제1경계, 패널의 결합 구조를 명확히 개시하며, 종속청구항들의 특징도 동일한 선행기술에 포함되거나 통상의 기술 수준 내에서 자명한 변형으로 판단됨. 결합 동기 없이 단일 선행기술로 모든 구성이 설명 가능하므로, 103 거절 근거는 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 9, 11, 13에 대해 제시된 103 거절은 공지기술 또는 설계 선택의 범위 내 변형으로 보지만, 각각 상단 로딩 개구부 추가, 엉덩이 근육 위 위치, 탄성 밴드 부재, 치마 통합 구조는 선행기술에 직접적으로 개시되지 않아 해석의 여지 존재. 그러나 통상의 기술자 관점에서 자명하다고 보는 데에 합리적 근거는 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 14, and 15 are clearly anticipated by US-2014143936-A1, which explicitly discloses a sports garment with a pocket for bottom loading, adaptation to hold tennis balls, and use in tennis. The disclosure is direct and specific, satisfying §102 with high confidence (0.75–0.95)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejections for Claims 2–5, 7, 8, 10, 12, 14, and 15 rely on predictable design choices in athletic apparel, such as seam integration, anatomical placement, and material selection. While these are reasonable extensions of the prior art, some limitations (e.g., overlap with cut lines, top border) involve structural interpretations that allow for design variation. Given moderate BRI (0.55) and strictness (0.50), these are supportable but not overwhelmingly strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 6, 9, 11, and 13 involve non-standard features: dual loading openings, gluteal placement, absence of elastic band, and skirt integration. The prior art does not suggest these, and some (e.g., top-loading opening, no elastic) could undermine the retention mechanism taught in US-2014143936-A1. Asserting obviousness here relies on broad design optimization logic but lacks clear motivation to combine or reasonable expectation of success. At strictness=0.50, these weak rejections should not stand without stronger evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143936-A1은 청구항 1-5, 14, 15의 모든 구성요소 또는 자명한 변형을 개시하며, 동일한 기술 분야에서 동일한 문제를 해결하기 위한 명확한 동기 존재. 선행기술은 하단 적재 포켓, 컷라인과의 중첩, 테니스 공 수납, 테니스 의류 적용 등을 직접적으로 기재함. 결합 동기 및 통상의 기술자 수준에서의 실현 가능성이 높음. confidence 0.8 이상의 판단이 다수이며, 2차적 고려사항도 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143936-A1이 청구항 1-12, 14, 15의 모든 기술적 특징을 명시하거나 명백하게 개시하고 있으며, 결합 동기가 명확함. 선행기술과의 실질적 차이 없음. confidence 0.8 이상인 항목 다수 포함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014143936-A1은 청구항 1-5, 7-10, 14-15의 모든 구성요소를 명시하거나 암시적으로 개시하고 있으며, 동일한 목적(운동 중 아이템 보관)을 달성하기 위한 것으로, 통상의 기술자에게 자명한 구조임. 결합 동기와 기술적 맥락이 명확하므로 근거 강도는 강함."
+        }
+      ]
+    }
+  ]
+}

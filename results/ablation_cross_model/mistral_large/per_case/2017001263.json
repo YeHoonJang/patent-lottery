@@ -1,0 +1,813 @@
+{
+  "case_id": "2017001263",
+  "proceeding_number": "2017001263",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art (US-2013275320-A1) explicitly discloses all elements of claims 3, 4, and 8, including 'prospective employee candidates' (human resources), 'social graph connection information' (representation of social links and mapping), and 'ranking prospective employee candidates' (creating a ranked list). These disclosures leave no room for novelty, and the confidence levels (0.9-0.95) are high."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art provides clear motivation to combine the disclosed elements for claims 1, 2, 3, 4, 5, 7, 8, and 9. The differences between the claims and the prior art are superficial under the Broadest Reasonable Interpretation (BRI), and the combination threshold (0.34) is met. Confidence levels range from 0.7 to 0.95, indicating strong evidence for obviousness. The Graham factors further support this conclusion, as no inventive step is demonstrated."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "The term 'measurement profile' lacks sufficient definition or examples in the specification to enable a PHOSITA to determine its scope. While the specification mentions 'psychometric profile,' it does not clarify whether 'measurement profile' is limited to psychometric data or includes other attributes. This creates ambiguity, but the issue could be resolved with amendments to the specification."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, 4, 5, 7, and 8 are directly anticipated by US-2013275320-A1. The reference explicitly discloses all elements of these claims, including metadata-based entity identification, social link graphs, human resources as entities, and ranking mechanisms. The confidence scores (0.82-0.98) and textualist interpretation (breadth=0.73) support a strong rejection under § 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 4, 5, 6, 7, 8, and 9 are unpatentable over US-2013275320-A1 combined with common knowledge. The differences (e.g., 'lookup table', 'psychometric profile') are routine design choices or natural extensions of the prior art. The combination threshold (0.34) and Graham factors analysis confirm obviousness with high confidence (0.82-0.91)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail for 'psychometric profile' (Claim 9) and 'lookup table' (Claim 6). While this is a valid objection, it is secondary to the novelty/obviousness rejections. Given strictness=0.88, this issue alone would not warrant rejection but supports the overall rejection stance."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 'prospective employee candidate' (human resource)를 명시적으로 개시하며, 청구항 3의 'entity and the replacement entity is a human resource'와 동일합니다. 통상의 기술자에게 엔티티를 인간 자원으로 한정하는 것은 자연스러운 설계 선택으로, 결합 동기가 명확합니다. confidence=0.95로 근거 강도가 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 'social graph connection between the first user and the second user'를 명시적으로 개시하며, 이는 청구항 4의 'representation of social links which further comprises a mapping between the entity and other entities'와 동일합니다. 사회 연결망 그래프의 매핑 표현은 통상의 기술자에게 명백한 설계 선택으로, 결합 동기가 명확합니다. confidence=0.9로 근거 강도가 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 'ranking the plurality of second users as prospective employee candidates'를 명시적으로 개시하며, 이는 청구항 8의 'creating a ranked list of the replacement entity'와 동일합니다. 후보자 순위 목록 생성은 통상의 기술자에게 명백한 설계 선택으로, 결합 동기가 명확합니다. confidence=0.9로 근거 강도가 높습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 3, 4, 8의 모든 구성요소를 구체적으로 개시하고 있음. 특히 청구항 3의 'human resource' 한정, 청구항 4의 'social graph connection information' 매핑, 청구항 8의 'ranking'은 선행기술과 실질적으로 동일함. 증거가 명확하여 거절 근거로 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 3, 4, 8의 구성요소를 직접적으로 개시하거나, 해당 분야의 통상의 기술자가 자연스럽게 도출할 수 있는 설계 선택으로 판단됨. Graham factors 분석 결과, 차이점이 없거나 자명하며, 결합 동기가 명확함. 증거가 충분하여 거절 근거로 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 청구항 1, 3, 4, 8의 핵심 구성요소를 명시적으로 개시하거나 실질적으로 동일하게 포함하고 있음. strictness=0.89에 따라 유사성만으로도 신규성 부정 근거 충분."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 청구항 1, 2, 3, 4, 8의 기술적 실질을 개시하며, combination_threshold=0.45 기준 결합 동기가 명확함. 통상의 기술자(PHOSITA)가 쉽게 도출할 수 있는 설계 선택의 문제로 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 청구항 5, 6, 7, 9의 구체적 기술적 특징('roles and activities', 'lookup table', 'unstructured data', 'psychometric profile')을 명시하지 않으며, 결합 동기가 불분명함. combination_threshold=0.45 기준 미충족."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 5, 6, 7, 9는 명세서의 뒷받침 여부가 불분명하며, 선행기술에 부재하는 특징을 포함하고 있어 모호성 우려 있음. 그러나 strictness=0.89에 따라 112 거절보다는 진보성 판단으로 처리됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1과의 중첩이 명확하며, 결합 동기가 논리적이고 해당 분야의 통상적 기술자에게 자명함. confidence 점수 (0.82~0.88)가 높고, Graham 4요소 분석 결과 차이점이 실질적이지 않음. 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항의 모든 요소를 명시적으로 공개함. confidence 점수 (0.97~0.99)가 매우 높고, 직접적 개시로 인해 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "'measurement profile' 용어가 명세서에서 명확히 정의되지 않았으나, 청구항 9의 'psychometric profile'과 연관성이 있을 수 있음. strictness=0.82에 따라 거절 유지하되, 보정 가능성 인정."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 3, 4, 8의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.9 이상으로 높음. 신규성 부정 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 'professional information'이나 'skills'를 암시적으로 다루지만, 'measurement profile'을 명시적으로 개시하지 않음. 결합 동기는 논리적이지만, 통상의 기술자가 이를 구체화할 동기가 명확하지 않을 수 있음. strictness=0.47에 따라, 근거가 다소 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "사회적 그래프의 데이터 구조가 'structured or unstructured'일 수 있다는 것은 해당 분야에서 공지된 기술이지만, 선행기술이 이를 명시적으로 다루지 않음. 결합 동기는 타당하지만, 설계 선택의 일환으로 해석될 수 있어 근거가 다소 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013275320-A1은 사회적 연결과 고용 정보를 기반으로 후보자를 식별하는 시스템을 개시하나, 청구항 1의 'metadata'와 'graph representation'을 명시적으로 결합한 것은 아닙니다. 다만, 해당 분야의 통상의 기술자가 이러한 요소를 결합하는 것은 자명하다고 볼 수 있으나, 명확한 증거가 부족하여 moderate로 평가됩니다. strictness=0.55에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 'measurement profile'과 유사한 전문적 지표(기술, 경험)를 개시하나, 명시적이지 않습니다. 메타데이터 프레임워크에 측정 프로파일을 통합하는 것은 설계 선택으로 볼 수 있으나, 결합 동기가 명확하지 않아 moderate로 평가됩니다. strictness=0.55에 따라 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술은 'employees' 및 'prospective employee candidates'를 명시적으로 개시하며, 이는 청구항 3의 'human resource'에 직접 대응됩니다. 명확한 증거로 strong 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술은 'social graph connection information' 및 'social graph connections'를 명시적으로 개시하며, 이는 청구항 4의 그래프 표현과 매핑에 직접 대응됩니다. 명확한 증거로 strong 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 전문적 경험 및 기술을 개시하나, 그래프 내 'roles and activities'의 명시적 개시는 없습니다. 다만, 해당 분야의 통상의 기술자가 이를 통합하는 것은 자명하다고 볼 수 있으나, 명확한 증거가 부족하여 moderate로 평가됩니다. strictness=0.55에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 사용자 프로파일 검색을 통해 구조화/비구조화 데이터를 암시하나, 그래프 내 명시적 개시는 없습니다. 해당 분야의 통상의 기술자가 이를 통합하는 것은 자명하다고 볼 수 있으나, 명확한 증거가 부족하여 moderate로 평가됩니다. strictness=0.55에 따라 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술은 'ranking prospective employee candidates'를 명시적으로 개시하며, 이는 청구항 8의 'ranked list'에 직접 대응됩니다. 명확한 증거로 strong 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 4와 8의 핵심 구성요소('social graph connection information'의 매핑 및 'ranking prospective employee candidates')를 명시적으로 개시하고 있어, 신규성 거절 근거가 명확하고 강력함. confidence 0.98 및 0.97로 증거의 강도가 높음."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "weak",
+          "reasoning": "신규성 거절 근거는 청구항 3의 'human resource' 한정에 초점을 맞추고 있으나, 이는 출원 전체의 맥락에서 구체적 적용 대상으로 한정하는 것으로, 선행기술과의 차별성이 불분명함. confidence 0.95이지만, strictness=0.46에 따라 근거가 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 'human resource' 대체 시스템을 개시하지만, 청구항의 전체 구성(예: graph-based profile, metadata set)과의 결합 동기는 불명확함. combination_threshold=0.22에 가까우나, PHOSITA의 관점에서 비자명성은 인정되지 않음. confidence 0.65로 근거의 강도가 중간 수준임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            5,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 'professional information', 'skills', 'social graph connection information' 등을 개시하고 있으나, 청구항의 구체적 구성('measurement profile', 'roles and activities', 'structured or unstructured data')으로의 확장은 통상의 기술자의 능력 범위 내로 판단됨. confidence 0.7-0.75로 근거의 강도가 중간 수준임. strictness=0.46에 따라, 설계 선택의 범주 내에서 결합 동기가 인정됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 4는 102로 거절되었으므로, 103 근거는 중복적임. 그래프 기반 표현의 구체화는 선행기술에서 명시되지 않았으나, confidence 0.7로 근거의 강도가 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 6('lookup table')과 9('psychometric profile')는 선행기술에서 명시되지 않은 새로운 구성으로, 비자명성이 인정됨. confidence 0.85 및 0.8로 근거의 강도가 약함(허여 근거)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            3,
+            4,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013275320-A1과의 대비에서 청구항 1, 3, 4, 8의 핵심 요소는 기능적으로 유사하거나 동일하지만, 용어적 차이('predefined set of metadata', 'human resource' 등)가 존재합니다. 그러나 이러한 차이는 novelty를 인정하기에 충분하지 않으며, anticipation 판단의 confidence가 0.75~0.9로 비교적 높습니다. 다만, 용어적 차이에 대한 해석의 여지가 있어 moderate로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 청구항 1, 3, 4, 8의 핵심 요소를 개시하거나 공지된 설계 선택으로 간주될 수 있습니다. Graham factors 분석에서 차이점은 용어적 수준에 그치거나 통상의 기술자가 쉽게 도출할 수 있는 수준입니다. 결합 동기는 명확하며, confidence가 0.8~0.95로 높습니다. 따라서 strong 근거로 평가합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            5,
+            6,
+            7,
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 청구항 2, 5, 6, 7, 9의 핵심 요소('measurement profile', 'roles and activities', 'lookup table', 'structured or unstructured data', 'psychometric profile')를 명시적으로 개시하지 않습니다. confidence가 0.7~0.95로 높으며, novelty를 인정할 수 있는 명확한 근거가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            5,
+            6,
+            7,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 청구항 2, 5, 6, 7, 9의 핵심 요소를 개시하지 않으며, 결합 동기도 명확하지 않습니다. 심리측정 프로파일, 역할/활동, lookup table 등은 인력 추천 시스템에서 공지된 기술이 아니며, 설계 선택으로 간주될 수 없습니다. confidence가 0.8~0.9로 높지만, 결합 동기의 부재로 인해 weak 근거로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 소셜 그래프 기반 후보자 식별 시스템을 개시하며, 청구항 1의 메타데이터 및 그래프 기반 엔티티 대체와 기능적으로 동일합니다. 결합 동기는 공지상식 및 설계 선택으로 인정되며, confidence 0.82로 근거가 명확합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술은 청구항 2의 'measurement profile'과 유사한 순위 매기기 기준(기술, 경험, 연결 강도)을 명시적으로 개시하며, confidence 0.85로 근거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 순위 매기기 기준을 'measurement profile'로 해석하는 것은 가능하지만, 청구항 2의 구체적 표현과 완전히 일치하지는 않습니다. strictness=0.52에 따라, 근거가 충분하지 않아 보정 가능성 있음."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술은 청구항 4(소셜 그래프), 5(roles/activities), 7(구조화/비구조화 데이터), 8(순위 목록)을 명시적으로 개시하며, confidence 0.78~0.93으로 근거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 요소들은 공지된 기술이지만, 청구항의 구체적 조합이 자명하다고 단정하기에는 해석의 여지가 있습니다. strictness=0.52에 따라, 보정 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2013275320-A1) discloses social graph-based candidate identification, which overlaps with the core concept of Claim 1. However, the adaptation for 'entity replacement' in team optimization may not be explicitly disclosed. The motivation to combine is logical but not overwhelmingly strong. Given strictness=0.42, this leans toward rejection but with room for argument."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art discloses quantifiable attributes (skills, experience) for ranking, which aligns with the 'measurement profile' concept. While the generalization is predictable, the claim lacks specific technical details to distinguish it. Given strictness=0.42, this is borderline but leans toward rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses 'prospective employee candidates' as human resources, directly anticipating the claim limitation. No ambiguity exists; this is a clear anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses social graph connections between entities, directly anticipating the claim limitation. This is a clear case of anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art discloses professional experience and skills, which implicitly include roles and activities. Explicitly including these in the graph is a predictable extension, but the claim lacks specific technical advantages. Given strictness=0.42, this leans toward rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "weak",
+          "reasoning": "The prior art does not disclose or suggest a 'lookup table' for mapping. While lookup tables are common, the claim lacks technical details to support non-obviousness. However, the combination threshold (0.52) is not met, and the rejection lacks strong motivation. Given strictness=0.42, this leans toward allowance."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art inherently involves structured/unstructured data, and explicitly stating this flexibility is a routine design choice. The claim lacks technical novelty, but the rejection is not overwhelmingly strong. Given strictness=0.42, this leans toward rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses ranking prospective employee candidates, directly anticipating the claim limitation. This is a clear case of anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art discloses professional information and ranking criteria, which are components of a psychometric profile. Combining these with general knowledge of psychometric evaluations is predictable, but the claim lacks specific technical details. Given strictness=0.42, this leans toward rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art discloses social graph-based candidate identification and metadata usage, which aligns closely with Claim 1. However, the claim's broad recitation of 'entity' (not limited to human resources) introduces some ambiguity. The motivation to combine is logical but not explicitly disclosed in the prior art. Given strictness=0.52, this leans toward rejection but with room for amendment."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "The addition of a 'measurement profile' is a predictable extension of profile-based systems, but the prior art does not explicitly disclose this term. The combination threshold (0.48) supports obviousness, but the lack of explicit disclosure in the prior art weakens the rejection. Given strictness=0.52, this is borderline but leans toward rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses identifying human resources as entities. This is a clear anticipation under 102, with high confidence (0.95). No ambiguity exists."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses social graph connections as a mapping between entities. This is a clear anticipation under 102, with high confidence (0.9). No ambiguity exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "The addition of 'activities' to role-based systems is a predictable extension, but the prior art does not explicitly disclose 'activities.' The combination threshold (0.48) supports obviousness, but the lack of explicit disclosure weakens the rejection. Given strictness=0.52, this is borderline but leans toward rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail to support the 'lookup table' limitation. While the term is well-understood, the absence of examples or implementation details weakens the claim. Given strictness=0.52, this leans toward rejection but with room for amendment."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses structured and unstructured data in graphs. This is a clear anticipation under 102, with high confidence (0.85). No ambiguity exists."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses ranking candidates. This is a clear anticipation under 102, with high confidence (0.9). No ambiguity exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "The addition of a 'psychometric profile' is a predictable extension of profile-based systems, but the prior art does not explicitly disclose this term. The combination threshold (0.48) supports obviousness, but the lack of explicit disclosure weakens the rejection. Given strictness=0.52, this is borderline but leans toward rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 3, 4, 8의 구성요소를 명시적으로 개시하고 있으며, confidence가 0.85 이상으로 높습니다. strictness=0.60에 따라 거절 근거로 유지됩니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항 2, 7의 구성요소를 암시적으로 개시하고 있으나, confidence가 0.7로 중간 수준입니다. strictness=0.60에 따라 거절 근거로 유지되지만, 출원인의 반박 가능성은 존재합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            7,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 결합 동기가 명확하며, combination_threshold=0.57을 충족합니다. confidence가 0.75 이상으로 높으며, 통상의 기술자의 관점에서 자명합니다. strictness=0.60에 따라 거절 근거로 유지됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술과의 결합 동기가 불분명하거나 confidence가 0.8 미만입니다. strictness=0.60에 따라 허여 또는 보정 권고로 판단됩니다."
+        }
+      ]
+    }
+  ]
+}

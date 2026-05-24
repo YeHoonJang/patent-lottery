@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences from prior art, PHOSITA level, secondary considerations) for all §103 obviousness determinations, using the correct legal framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection references specific prior art disclosures (US-2013144785-A1, US-2012159647-A1) and maps specific claim elements (e.g., 'realness score,' 'relationship coefficient,' photo tags, birthday wishes) to specific prior art teachings."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds most claims lack novelty (confidences 0.70–0.85), yet the §103 obviousness stage reverses course and finds claims 1–5, 10–11 non-obvious without clearly explaining how elements found fully anticipated at §102 suddenly present a non-obvious combination at §103."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.292 (lenient), the examiner leans toward 'amend_suggested' rather than outright rejection for most claims, grants claim 2, and explicitly notes in the final decision weighing that 'strictness=0.29인 관대한 심사 기준에서 이 정도의 차이는 허여 가능 수준,' consistent with a lenient profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with selective rejections of claims 6–9 and grants/allowances of claim 2 follows logically from the accumulated stage analyses, with stated rationale connecting prior-stage obviousness findings to each claim decision."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001350",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15661,
+      "output_tokens": 420,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

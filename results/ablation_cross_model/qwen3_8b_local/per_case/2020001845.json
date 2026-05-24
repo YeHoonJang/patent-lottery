@@ -1,0 +1,376 @@
+{
+  "case_id": "2020001845",
+  "proceeding_number": "2020001845",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015303056-A1와 US-2018347035-A1의 결합 동기와 기술적 유사성이 명확하며, PHOSITA가 실리콘 전구체 선택을 위한 동기를 가질 수 있음. 선행기술의 기술적 범위와 결합 가능성에 대한 증거가 명확함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014356549-A1이 청구항 1의 핵심 요소(PECVD, 고면적비 채움, 라디칼 반응)를 명시적으로 포함하며, 이는 청구항의 신규성을 부정함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'flowable film' 및 'substantially no seam formed'과 같은 용어가 명세서에서 구체적 정의나 수치적 기준이 부족하여 해석의 여지가 있음. 그러나 이는 청구항의 구조적 명확성에 대한 기본적인 문제로, 심사 성향에 따라 거절 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art US-2014356549-A1 explicitly discloses overlapping process steps (PECVD, plasma, curing) and application (gapfill) with claimed method. The combination of precursor selection, plasma gases, and low-temperature parameters is directly disclosed, with clear motivation for improving high aspect ratio trench filling. Confidence scores (0.85-0.92) indicate strong evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 1 contains terms 'flowable film' and 'substantially no seam' lacking sufficient definition in the specification. These terms are not adequately supported by the disclosure, violating 35 U.S.C. § 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1's term 'substantially no seam' lacks quantitative definition, creating ambiguity under 35 U.S.C. § 112(b). While the specification describes high aspect ratio trench filling in later claims, claim 1's broader scope lacks specific parameters for seam definition and aspect ratio thresholds. This introduces enablement concerns but is not definitively unenforceable."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art US-2014213070-A1 and US-2018347035-A1 directly anticipate or overlap with claims 1 and 3, and the combination motivation is explicitly stated. Graham factors confirm obviousness with high confidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'flowable' and 'seam-free' lack quantitative definitions, but the specification may provide sufficient context to amend rather than reject."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2014213070-A1) teaches similar flowable film concepts, but the combination of specific PECVD precursors, plasma curing parameters (<300W), and aspect ratio ≥25:1 is not explicitly suggested. While the differences are technical, the lack of quantitative definitions in the specification weakens the argument against obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification fails to provide sufficient detail for 'flowable film' and 'seam-free' terminology, which are critical to enable the full scope of the invention. This deficiency is reinforced by the prior art's general disclosure of similar concepts."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 1 is explicitly anticipated by US-2014213070-A1 with coverage score 0.75 (below strictness threshold 0.82). The prior art directly discloses all claimed elements of the flowable dielectric layer and curing process."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 1's term 'substantially no seam' lacks quantitative/qualitative definition in the specification, making it ambiguous under 35 USC 112(b). This is a clear deficiency in the written description."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3's combination of polysilicon precursors and plasma gases is supported by multiple prior art references (US-2015303056-A1, US-2014213070-A1) with confidence 0.7. While the combination is obvious, the specific synergy between elements is not explicitly disclosed."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly anticipated by prior art with high confidence (0.7-0.8), showing direct overlap with the claimed subject matter."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art combinations (e.g., US14 + US15) disclose all elements of claims with no significant differences, and PHOSITA would find the combination obvious."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1's 'seam' and 'substantially no seam' lack quantification, creating ambiguity under 35 USC 112(d), but verification status indicates the issue is passable."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20) are explicitly or implicitly covered by US-2014356549-A1 with coverage scores above 0.55. The prior art provides clear teachings on plasma/curing techniques, precursor combinations, and gapfill applications, making the claimed methods obvious through direct anticipation or simple combination."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항은 선행기술과의 결합 동기 및 기술자가 당연히 선택할 수 있는 매개변수 조정이 명시되어 있어 결합 동기 존재. confidence 값이 0.5 이상인 대부분의 청구항은 강한 증거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (2-16, 18-20) are directly anticipated by prior art references (US-2014356549-A1, US-2015303056-A1) with explicit teachings overlapping the claims. The combination threshold is met with clear motivation for gapfilling applications."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 7, 14, and 15 lack sufficient definition or specification support, but the deficiencies are not severe enough to render the claims invalid under strict 112 standards."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references (US-2015303056-A1, US-2014356549-A1) explicitly disclose combinable elements with clear motivation for gapfill applications. Confidence scores (0.7-0.9) exceed combination_threshold=0.44."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 6-20 show high confidence (0.65-0.9) in obviousness due to direct anticipation or explicit teaching in prior art. Combination thresholds are exceeded, and Graham factors confirm PHOSITA would find the modifications obvious."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 6-20 are explicitly anticipated by prior art with coverage scores >0.42. The prior art references disclose all claimed elements with no non-obvious inventive step."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 'substantially seam-free' term lacks clear definition, but the specification may still provide sufficient support. This requires further clarification rather than automatic rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3 is explicitly rejected as obvious over US-2015303056-A1 and US-2018347035-A1 with clear motivation to combine (flowable gapfilling via PECVD). Confidence score of 0.8 indicates strong evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Vague terms like 'substantially no seam' and lack of quantitative parameters for aspect ratio (claims 1, 17, 20) show insufficient disclosure. Confidence scores (0.6-0.7) suggest moderate weakness in specification support."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art references (US-2014213070-A1 and US-2015303056-A1) disclose related techniques, but the specific integration of UV curing with PECVD using higher-order silanes for high aspect ratio gapfilling is not explicitly suggested. While the combination appears plausible, the unique process parameters (<100°C, <300W) and seamless filling requirement introduce non-obviousness elements not clearly supported by the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks sufficient detail on critical process parameters (e.g., plasma power, temperature) and chemical composition required for a PHOSITA to practice the invention, particularly for high aspect ratio (>25:1) gapfilling. This deficiency undermines enablement and written description."
+        }
+      ]
+    }
+  ]
+}

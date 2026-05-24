@@ -1,0 +1,696 @@
+{
+  "case_id": "2022001826",
+  "proceeding_number": "2022001826",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1이 'dynamically redacting private data'와 'delivering the redacted user session for display'를 개시하나, 청구항 1의 핵심 구성요소인 'grouping the private portions together'와 'grouping the non-private portions together'에 대한 명시적 개시는 없음. 거절 논리는 'redaction이 inherently grouping을 포함한다'는 기능적 동등성 주장에 의존하나, 이는 해석의 여지가 있음. 선행기술은 단순히 private data를 redact(mask)하는 것을 가르치지, masked portions을 spatially group together 하는 것을 명시적으로 가르치지 않음. 그러나 redaction 결과가 functionally masked content와 visible content의 separation을 초래한다는 점에서 일부 타당성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 14에 대한 103 거절은 강력함. US-2013167249-A1이 identification과 masking/redaction을 가르치고, 'grouping'은 UI design에서 visual organization을 위한 obvious design choice임. Claims 2, 5, 6, 7, 15, 16, 17에 대한 103도 strong - layer-based implementation(claim 2/15), coordinate systems(claim 5), screenshot functionality(claim 6/16), manual user input(claim 7/17)은 모두 well-known techniques이거나 obvious design alternatives임. Claims 10-13의 business/deployment models는 routine commercial practice로 명백히 obvious. Combination threshold=0.34(낮음)를 고려하면, common sense와 routine optimization이 결합 동기로 충분함. 모든 103 거절의 근거가 탄탄함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1 discloses identifying private/non-private portions, masking private data, and displaying redacted content. However, the 'grouping' limitation in claims 1 and 14 requires spatial organization of masked and non-masked regions. The prior art's redaction process may implicitly involve treating private data as a collective masked unit, but explicit spatial grouping (arranging masked portions together in one area and non-private portions together in another area) is not clearly disclosed. Under BRI, 'group together' could be interpreted broadly to encompass any collective treatment, but this interpretation stretches the plain meaning. The anticipation argument relies on implicit disclosure and broad claim interpretation. Given the lack of explicit teaching of spatial grouping, this is a borderline case where the evidence is not overwhelmingly strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "Even if not anticipated, the combination of US-2013167249-A1's redaction technology with spatial grouping of masked/exposed regions is strongly obvious. The prior art provides the core functionality (identify, mask, display). Spatial grouping is a straightforward UI organization principle motivated by usability concerns: scattered masked portions impair comprehension, while grouping provides clarity. This represents a predictable variation using routine UI design choices. The motivation to combine is clear and logical. With combination_threshold=0.34 (low threshold), this obviousness argument is solid."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Layer-based UI manipulation is fundamental and well-established technology. Using layers to implement region grouping and manipulation is the conventional approach in graphics programming. The combination of US-2013167249-A1's masking with standard layer technology is highly predictable. The motivation (layers are the standard mechanism for organizing/manipulating display elements) is clear and strong. This is textbook obviousness: applying well-known implementation techniques to known functionality."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Filling empty/masked screen space with alternate content is a common UI design practice. The prior art creates masked areas; using that space productively is an obvious design choice motivated by efficient screen real estate utilization. The reasoning is straightforward and the motivation is clear. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Advertisement-based monetization is ubiquitous in software. Using available screen space (masked areas) for ads is an obvious commercial application with clear business motivation. This is a routine business model choice, not a technical innovation. Very strong obviousness based on well-known commercial practices."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Coordinate systems are fundamental to any graphics/UI system that defines regions. Using coordinates (virtual or otherwise) to specify region positions and boundaries is not inventive but rather a basic requirement of implementation. This is textbook obviousness: applying fundamental technical principles."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Screenshot functionality is standard and ubiquitous. Adding this routine feature to capture masked views is obvious, motivated by common user needs. The combination is highly predictable using readily-available technology. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "User control over privacy settings is fundamental in privacy systems. Allowing user input to designate private portions is an obvious alternative to automated identification, motivated by providing user flexibility. This is a well-established design pattern in privacy tools. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Automated contextual classification is well-known in DLP and privacy systems. Applying automated analysis to reduce manual tagging burden is an obvious improvement with clear motivation. The field recognizes automated classification as standard practice. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "The listed contextual factors (identity, time, location, NLP, intent, image classification) are all standard in context-aware systems. Using these well-established parameters for privacy decisions is obvious. Each factor represents known practice in the field. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Service provider models, subscription/advertising/fee monetization, cloud/SaaS deployment, and infrastructure deployment are all standard industry practices. These represent business model and deployment choices, not technical innovations. Applying these well-established practices to the underlying technology is highly obvious. Very strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 19 combines automated contextual analysis (obvious per claim 8), suggestion/confirmation UI (standard pattern in automated systems), user subset selection (obvious per claim 7), and grouping (obvious per claim 1). Each component is either disclosed or obvious. The combination follows predictable design principles: balance automation with user control for transparency and trust. This is a standard approach in privacy systems. Strong obviousness through combination of obvious elements with clear motivation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 10-13 recite conventional business methods (service provider deployment, monetization models, cloud/SaaS, infrastructure deployment) that were well-established industry practices by 2020. These are not technical inventions but routine business arrangements. The prior art system (US-2013167249-A1) could obviously be deployed using these standard practices. The motivation to combine is clear: these are pervasive industry standards applicable to any software system. Even under my lenient strictness (0.25), this rejection is justified because the claims add no technical contribution—they merely apply universally known business methods to the underlying technical system."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "102_novelty (Claims 1, 14)",
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1 discloses identifying private data and redacting it from display. However, the prior art shows redacted session delivered to support personnel's device, while claims 1 and 14 recite modifying the user's own device display. The BRI interpretation that 'user device' encompasses any device displaying user content is broad, but the functional difference (support viewing vs. user self-viewing for sharing) represents a meaningful distinction. The 'grouping' limitation is argued as implicit, but the prior art does not explicitly teach grouping masked portions together and non-private portions together as separate organized areas. The anticipation requires reading implicit disclosures broadly and stretching BRI interpretation. Given strictness=0.29 (lenient), this moderate-strength 102 basis should be resolved in favor of the applicant - the differences, while subtle, are sufficient to avoid strict anticipation."
+        },
+        {
+          "basis": "103_obviousness (Claims 1, 14)",
+          "strength": "moderate",
+          "reasoning": "The obviousness analysis presents reasonable combination rationale: adapting support-viewing to user self-viewing is a use-case change within the same privacy management field, and grouping similar content is a known UI principle. However, the motivation to combine requires recognizing that users would want to share content with selective privacy protection - this is not explicitly taught in the healthcare compliance-focused prior art. The combination threshold (0.72) requires explicit teaching, and here we have: (1) prior art teaching what to achieve (mask private data), (2) proposed modification involves changing the audience/context (support to user) and adding UI organization (grouping). While logical, this requires hindsight recognition that user-facing privacy masking for sharing is valuable. Given strictness=0.29 and policy=0.52 (neutral), and the purposivist interpretation favoring technical contribution, the applicant's contribution of user-facing privacy display with grouped organization merits recognition. The moderate 103 strength combined with lenient strictness suggests benefit of doubt to applicant."
+        },
+        {
+          "basis": "103_obviousness (Claims 10-13)",
+          "strength": "strong",
+          "reasoning": "These claims add only business arrangements (claim 10: service provider functions; claim 11: monetization models; claim 12: cloud SaaS; claim 13: infrastructure deployment) to the technical features of claim 1. All of these are well-known, conventional practices in the software industry. Cloud SaaS was established by the priority date, and US-2013167249-A1 mentions web services. Service provider arrangements and business models are generic commercial choices, not technical innovations. Even under strictness=0.29, adding purely conventional business/deployment elements to underlying technical features (whether obvious or novel) does not create non-obvious subject matter. These claims present strong 103 basis for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty (Claims 1, 14)",
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1 discloses identifying and redacting private data, but the 'grouping' limitation is reached through inherency argument. The prior art redacts for a support person's view, not the user's own device with explicit grouping. The inherency argument that 'redacting inherently results in grouping' is a legal stretch. However, given strictness=0.89, even moderate evidence of anticipation warrants rejection to ensure no weak patents issue."
+        },
+        {
+          "basis": "103_obviousness (Claims 1, 14)",
+          "strength": "strong",
+          "reasoning": "US-2013167249-A1 clearly discloses the core functionality of identifying and masking private content. The only difference is explicit grouping. Grouping content by type is a fundamental UI design principle. With combination_threshold=0.45, the motivation to combine redaction with grouping for visual organization is obvious. This is a predictable use of prior art elements requiring only ordinary creativity."
+        },
+        {
+          "basis": "103_obviousness (Claims 10, 11, 12, 13)",
+          "strength": "strong",
+          "reasoning": "These claims add conventional business models (service provider operations, subscription/advertising/fees, cloud SaaS, system deployment). These are well-known industry practices that do not require inventive skill. The combination with the privacy technology is obvious and predictable. Strong basis for rejection."
+        },
+        {
+          "basis": "112_written_description (Claims 10, 11, 13)",
+          "strength": "strong",
+          "reasoning": "Claims 10, 11, and 13 recite business arrangements and deployment activities that are not adequately described in the specification as essential elements of the invention. These appear to be commercial/deployment activities external to the technical invention. Strong basis for rejection under 112(a)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1이 identifying private/non-private data와 redacting을 개시하나, 'grouping together' 요소는 inherent하다는 해석에 의존. 선행기술은 support person's device로 전달하는 것이고, user device 자체의 display modification과는 context가 다름. 그러나 BRI 하에서 'user device'를 넓게 해석하고, grouping을 redacted session 생성에 inherent한 것으로 보면 anticipation 가능. Strictness=0.82 성향상 moderate 근거도 거절 유지 경향."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            7,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "'Pre-tagged as private' 필드가 user input을 의미한다는 해석은 합리적이나, 명시적 개시는 아님. 그러나 pre-tagging은 필연적으로 어떤 형태의 사전 지정(user configuration/input)을 수반함. Strictness=0.82 성향상 이 정도 추론은 충분히 anticipation으로 볼 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Layer-based rendering은 GUI 프로그래밍의 표준 기법. 선행기술이 region-based redaction을 가르치고, 이를 layer로 구현하는 것은 predictable use of known technique. 결합 동기 명확."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "Masked area에 alternate content를 제시하는 것은 선행기술에 명시되지 않음. 그러나 screen space optimization은 공지된 UI 원칙이며, masked area 활용은 predictable. Strictness=0.82 성향상 moderate 근거도 거절 유지 경향."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 3이 obvious하다면, alternate content를 advertisement로 구체화하는 것은 ubiquitous한 monetization 전략. 명백히 obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Coordinate system 사용은 GUI 프로그래밍의 기본. Region 정의에 coordinate를 사용하는 것은 필수적이거나 자명한 구현 수단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Screenshot 기능은 모든 OS의 표준 기능. Masked display를 screenshot으로 저장하는 것은 명백히 predictable combination."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 'dynamic redaction'이 contextual analysis를 함의한다는 주장은 합리적이나, 명시적 개시는 없음. Contextual analysis 기법 자체는 공지되어 있고, 이를 적용하는 것은 obvious한 improvement. Strictness=0.82 성향상 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "각 contextual factor가 개별적으로 공지되었으나, 이들의 조합이 청구항에서 요구됨. 그러나 각 factor의 적용은 predictable하며, 조합의 동기도 명확(improve accuracy). Strictness=0.82 성향상 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10,
+            11,
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "Service provider model, monetization model, cloud/SaaS deployment는 모두 표준 비즈니스/기술 관행. 명백히 obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 1이 거절되므로, 이를 구현하는 system deployment는 자명. Routine IT activity."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "Automated detection + suggestion-based UI + user confirmation은 공지된 패턴이나, text message context에서의 구체적 적용은 선행기술에 명시되지 않음. 그러나 이는 predictable application to specific domain. Strictness=0.82 성향상 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 7, 14, 17: The grouping limitation is characterized as 'predictable design choice' for UI/UX optimization. However, US-2013167249-A1 teaches in-place redaction for healthcare support sessions, not content reorganization for the user's own display. The motivation to combine (visual organization) is somewhat generic. The examiner's argument relies on general UI/UX principles rather than specific teaching in the prior art. Given my strictness of 0.47, this moderate evidence warrants rejection, but the reasoning could be stronger."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 10-13: Business method and deployment limitations are cited as 'conventional arrangements.' However, these claims also depend from claim 1, which adds the grouping functionality. The business/deployment aspects alone do not make the technical features obvious. The rejection conflates non-technical business limitations with the underlying technical invention. Moreover, the office action itself notes these may raise 101 concerns, suggesting they are being rejected on wrong grounds. The evidence for 103 based on business models is weak - this should be addressed under 101 if at all."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 2, 15: The rejection argues layer-based graphics is 'well-known technique' but provides no specific evidence or reference. The office action itself acknowledges 'specific application of this technique to privacy content masking with the claimed layer manipulation steps represents a specific technical implementation not taught or suggested by the prior art' in the allowable subject matter section. This is contradictory reasoning. Without a specific reference teaching layer manipulation for privacy masking, this 103 rejection lacks adequate support."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 3, 4, 16, 20: The office action states 'concept of using screen real estate for alternate content or advertisements is well-known' but provides no reference and acknowledges the prior art 'does not suggest monetization of masked areas.' The rejection is based on general knowledge without specific evidence. The office action itself finds these allowable subject to base claim rejection, indicating weak 103 basis. The combination of privacy masking with advertising is not obvious from healthcare compliance prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 10-13 recite generic service provider arrangements (claim 10), conventional business models like subscription/advertising/fee basis (claim 11), well-known cloud/SaaS deployment (claim 12), and routine infrastructure provisioning (claim 13). These are clearly obvious applications of common knowledge in the art to the disclosed computing system. The prior art US-2013167249-A1 discloses a privacy protection computing system, and applying standard service provider models, monetization strategies, cloud deployment, and infrastructure provisioning to such a system would have been obvious to a PHOSITA. These claims add no technical contribution beyond the base method. The combination threshold (0.55) is met because these represent predictable uses of prior art elements according to their established functions, requiring only ordinary skill and common sense. The rejection is well-supported and appropriate."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1은 프라이버시 데이터 식별 및 마스킹의 핵심 기능을 개시하지만, 'grouping' 요소는 명시적으로 개시되지 않음. UI/UX 디자인 원칙에 따른 자명한 변형이라는 논리는 일리 있으나, 선행기술이 지원 인력을 위한 리덕션에 초점을 맞춘 반면 본 출원은 사용자 디바이스에서의 그룹화된 마스킹에 초점을 둠. 결합 동기는 존재하나 그룹화의 구체적 구현은 해석의 여지가 있음. Strictness 0.46(중립)을 고려할 때 moderate 강도로 평가"
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "스크린샷 저장 기능은 모든 현대 컴퓨팅 시스템의 공지 기능이며, 마스킹된 디스플레이의 스크린샷 저장은 기록 보관, 공유 등의 명백한 동기가 있음. 결합이 예측 가능하고 통상의 기술자에게 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013167249-A1이 사용자 권한 부여를 개시하고, 사용자 입력을 통한 프라이버시 식별은 사용자 제어형 프라이버시 시스템의 기본 원칙. 결합 동기가 명확하고 통상의 기술 수준 내"
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "서비스 프로바이더 모델(claim 10), 수익화 모델(claim 11), 클라우드 배포(claim 12), 인프라 제공(claim 13)은 모두 소프트웨어 산업의 확립된 비즈니스 및 배포 관행. 기술적 혁신이 아닌 통상적 상업적 선택으로 자명함"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1 teaches core redaction functionality, but the 'grouping' limitation is not explicitly disclosed. The obviousness analysis relies on the argument that grouping similar content types is a conventional UI design choice. While this is a reasonable argument, the prior art does not teach or suggest spatial grouping of masked vs. exposed regions. The motivation to combine is based on general UI design principles rather than specific teaching in the art. Given my neutral stance (strictness=0.50), this represents a moderate-strength rejection where the grouping feature could be viewed as either obvious design choice or a non-trivial enhancement."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Layer-based graphics manipulation is fundamental and well-established in computer graphics. The prior art teaches redaction, and implementing this using layers is a routine engineering choice. The motivation is clear (rendering efficiency, independent manipulation), and the results are entirely predictable. This is a strong obviousness case based on common knowledge in the field."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Displaying alternate content in masked areas, particularly advertisements, is one of the most ubiquitous practices in software applications. The motivation is clear (monetization, screen space utilization), and the combination is entirely predictable. This is a strong obviousness case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Virtual coordinate systems are fundamental to computer graphics. Using coordinates to define display regions is routine engineering practice, not an inventive concept. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Screenshot functionality is ubiquitous in computing. Adding this conventional feature to masked content display is a predictable combination with clear motivation (sharing, documentation). Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "User customization through user input is a fundamental principle in software design, especially for privacy settings. The motivation to allow user control is clear and well-established. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "While automated classification and contextual analysis were known techniques, applying them specifically to privacy detection without user interaction represents a more sophisticated approach than the pre-tagging method in the prior art. The obviousness analysis relies on the argument that automating privacy detection is a natural evolution with clear motivation (reducing user burden). However, the specific application of contextual analysis to automatic privacy detection may involve non-trivial design decisions. Given combination_threshold=0.33 and my neutral stance, this is a moderate-strength rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "Each enumerated contextual factor (recipient, time, location, NLP, intent, image classification) is individually known for privacy and security determinations. Selecting from these known factors is routine optimization. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Service provider models, cloud/SaaS deployment, and business models (subscription, advertising, fees) are well-established practices. These represent routine business decisions without technical innovation. Strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "The suggestion-and-confirmation workflow combines automated detection with user confirmation. While each component is known (automated analysis, user confirmation UI pattern, grouping), the specific combination for text message privacy with the enumerated workflow steps may involve design decisions beyond routine optimization. The obviousness analysis relies on the argument that this is a conventional semi-automated pattern. Given my neutral stance, this is a moderate-strength rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Displaying advertisements in masked space is a straightforward application of ubiquitous monetization practices. Strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.48,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 3-7, 10-14, 16-17, 20에 대한 103 거절: US-2013167249-A1은 redaction 기술을 명확히 개시하나, 청구항의 핵심인 'grouping' 기능(masked portions를 함께 그룹화, non-private portions를 함께 그룹화)은 명시적으로 개시되지 않음. Office Action은 이를 'UI/UX optimization'이라는 설계 선택으로 자명하다고 주장하나, 이는 functional result에 기반한 추론이지 explicit teaching이 아님. In-place redaction에서 spatial reorganization으로의 전환은 predictable variation일 수 있으나, 선행기술이 이러한 방향을 시사하지는 않음. Combination_threshold=0.44로 낮아 common sense 기반 결합을 허용하지만, grouping의 구체적 이점(readability improvement)이 자명한지는 해석의 여지가 있음. Claims 3-4(alternate content/advertisement), 5(coordinates), 6(screenshot), 7(user input)은 grouping보다 더 자명함 - 이들은 well-known techniques의 straightforward application임. Claims 10-13(business models/deployment)은 technical merit가 없어 더욱 자명함. 전반적으로 moderate strength: 증거는 있으나 핵심 grouping limitation에 대한 명시적 teaching은 부족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 2, 15(layer-based manipulation): Office Action 자체가 'provisionally allowed'로 표시하여 실질적으로 non-obvious로 인정함. Layer-based implementation은 선행기술에서 시사되지 않으며, 단순 설계 선택을 넘어서는 specific technical means임. 이 거절 근거는 weak하며, 실질적으로는 allowance에 가까움."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 8, 9, 18(contextual analysis): Office Action이 'provisionally allowed'로 표시함. Multi-factor contextual analysis(recipient ID, time, location, NLP, user intent, image classification)는 pre-tagged fields approach와 significantly different paradigm임. 선행기술이 static approach를 사용하므로 dynamic contextual analysis로의 전환은 명시적 suggestion 없음. 이 거절 근거는 weak하며, 실질적으로는 allowance에 가까움."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 19(hybrid workflow with suggestions): Office Action이 'provisionally allowed'로 표시함. Automatic detection + suggestions + user confirmation workflow는 선행기술에서 명시적으로 시사되지 않음. Multi-stage approach는 novel combination임. 이 거절 근거는 weak하며, 실질적으로는 allowance에 가까움."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 10-13의 103 거절 근거는 강력함. 서비스 제공자 모델(claim 10), 구독/광고/수수료 기반 수익화(claim 11), 클라우드 SaaS 배포(claim 12), 컴퓨터 인프라 배포(claim 13)는 2020년 출원 시점에 소프트웨어 산업에서 통상적이고 공지된 사업 관행 및 배포 방식임. 이들은 기술적 기여 없이 통상적 비즈니스 방법 및 배포 선택을 기본 발명(claim 1)에 추가한 것에 불과함. KSR 판례에 따라, 공지 요소들을 공지 방법에 따라 조합하여 예측 가능한 결과만을 산출하는 경우 자명함. US-2013167249-A1이 제공한 개인정보 보호 시스템에 이러한 통상적 사업 방식을 적용하는 것은 당업자에게 자명한 선택임. 증거가 명확하고 법적 기준(KSR)에 부합하므로 거절 유지가 적절함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "101",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013167249-A1은 프라이버시 데이터를 redact하는 기본 개념을 제공하지만, 청구항의 핵심 차이점인 '그룹화(grouping)'는 선행기술에 명시적으로 개시되지 않음. 거절 논리는 'UI 디자인의 일반 원칙'과 '공지기술의 결합'에 의존하나, 구체적인 선행기술 증거 없이 일반론에 기반함. Layer-based manipulation, contextual analysis, screenshot 등의 추가 기능들도 '자명한 결합'으로 주장되나, 실제 결합 동기는 사후적 분석(hindsight)의 가능성이 있음. 특히 그룹화의 기술적 효과(visual clarity, efficient space usage)가 예측 가능한 수준인지는 증거 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 10-13의 경우, 비즈니스 모델(service provider, subscription/advertising, cloud/SaaS, deployment)은 기술 분야에서 매우 잘 알려진 상업적 관행임. 이들은 기술적 혁신이 아닌 비즈니스 방법의 선택이며, 선행기술의 기술을 상업화하는 통상적 방법에 불과함. 103 거절 근거가 명확하고 강력함."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "Claims 10-13은 Alice/Mayo 2단계 분석에서 명백히 추상적 아이디어(business methods, economic practices, organizational arrangements)에 해당하며, 실질적인 기술적 개선(practical application) 없이 일반적 컴퓨터 인프라를 도구로 사용하는 것에 불과함. Inventive concept이 없어 101 거절 근거가 매우 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "101"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "101_eligibility",
+          "strength": "moderate",
+          "reasoning": "The 101 rejection is based on the abstract idea of organizing and presenting information based on privacy classification. While this characterization has some merit under Alice framework, the claims recite specific technical implementations including layer manipulation, coordinate systems, contextual analysis using multiple data sources (NLP, image classification, location), and display reorganization. The examiner's analysis treats these as merely conventional implementations, but the combination of contextual privacy determination with spatial reorganization and grouping may constitute significantly more than an abstract idea. The specification would need review to determine if technological improvements are disclosed. The strength is moderate because: (1) data organization can be abstract under Electric Power Group, but (2) the specific technical implementation details (layers, coordinates, multi-factor contextual analysis) may provide inventive concept. Given strictness=0.60 (moderate), this borderline case requires careful consideration of whether the combination constitutes significantly more."
+        }
+      ]
+    }
+  ]
+}

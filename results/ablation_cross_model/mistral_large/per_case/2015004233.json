@@ -1,0 +1,503 @@
+{
+  "case_id": "2015004233",
+  "proceeding_number": "2015004233",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.9285714285714286,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012239035-A1 (Kuo)과의 대비에서 청구항 1-10, 13-16의 차이점은 'ball and socket connector assembly'의 구체적 사용 및 'internally threaded riding collar'의 연결 구조로, 이는 해당 분야의 통상의 기술자가 쉽게 선택할 수 있는 설계 변형으로 판단됨. Graham 4요소 분석 및 combination_threshold=0.34에 따라 결합 동기가 명확하며, 2차적 고려사항이 부재하여 근거 강도가 높음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 Kuo와의 유사성이 높으나, 청구항 4-7, 9, 10, 14, 16의 구체적 연결 구조('internally threaded riding collar' 등)는 명시적으로 개시되지 않았음. 그러나 strictness=0.79에 따라 유사성만으로도 신규성 부정 근거로 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012239035-A1은 청구항 2와 3의 모든 구성요소를 명시적으로 개시하고 있으며, 기능적 동일성도 확인됨. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 'longitudinal slot'과 'internally threaded riding collar'를 명시적으로 개시하지 않았지만, 유사 구성요소('screw drive', 'bore')를 개시하고 있음. strictness=0.88에 따라 유사성으로 인해 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 'bone plates'와 'distraction mechanism'의 축방향 이동은 청구항 2와 3의 구성과 기능적으로 동일하며, 통상의 기술자가 쉽게 도출 가능함. 결합 동기도 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "'externally threaded drive rod'와 'elongated sleeve member'는 선행기술에 개시되어 있으나, 'longitudinal slot'과 'riding collar'는 설계 선택의 영역임. 그러나 combination_threshold=0.34에 따라 결합 동기가 인정되어 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 구체적인 'ball and socket connector assembly'의 결합이나 회전 메커니즘을 개시하지 않았으며, 결합 동기가 불분명함. 근거가 약하여 허여 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 3, 6, 8, 10, 13, and 15 lack clear dependency references. While this is a formal issue under 37 CFR § 1.75(c), it does not inherently invalidate the claims but requires clarification. Given the strictness level (0.25), this is not a strong basis for rejection but rather an objection requiring amendment."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The title 'Cranial Distractor' is generic and does not specifically reflect the novel features (e.g., multi-directional movement via ball and socket connector assembly). This is a minor formal issue under 37 CFR § 1.72 and does not impact patentability. Given the strictness level, this is a weak basis for rejection and can be addressed with a title amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1 (Kuo)은 하악골 신연장치의 축방향 이동 및 회전 메커니즘을 공개하고 있으나, 청구항의 'ball and socket connector assembly'와 두개골 적용은 명시적으로 언급되지 않았습니다. 그러나 통상의 기술자가 하악골 신연장치의 메커니즘을 두개골 신연장치에 적용하고, 곡률을 고려한 ball and socket connector를 사용하는 것은 예측 가능한 설계 변경으로 볼 수 있습니다. 결합 동기는 논리적이지만, 청구항의 기술적 기여가 완전히 무시될 수 없는 수준입니다. strictness=0.29에 따라, 출원인의 기술적 기여를 긍정적으로 검토할 필요가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 (Kumar)은 청구항의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, 기능적 동등성도 명확함. 특히 청구항 2, 3, 8, 15는 Kumar에서 명시적으로 공개된 요소들과 동일하거나 자명한 변형임. 청구항 4, 5, 7, 9, 10은 Kumar의 슬라이딩 링/힌지 부착과 볼-소켓 연결부의 기능적 동등성을 근거로 거절 가능함. confidence 점수도 0.72 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Kumar의 하악골 디스트랙터를 두개골 환경에 적용하는 것은 통상의 기술자에게 예측 가능한 사용임. 볼-소켓 연결부와 힌지 부착의 대체는 설계 선택의 문제로, 결합 동기가 명확함. Graham 요소 분석에서도 차이점은 미미하며, 2차적 고려사항이 없음. confidence 점수 0.8 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            11,
+            12,
+            13,
+            14,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "볼-소켓 연결부의 구체적 구성 (예: 내부 나사 라이딩 칼라 연결, 원위 끝 연결)은 Kumar에서 명시적으로 공개되지 않음. 그러나 통상의 기술자가 이러한 구성을 설계 선택으로 여길 가능성은 존재함. 결합 동기가 명확하지 않지만, 공지기술의 조합으로 달성 가능한 수준임. confidence 점수 0.7~0.75로 중간 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            9,
+            10,
+            15,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1은 청구항 8, 9, 10, 15, 16의 회전 기능 및 연결 구조와 유사한 기능을 개시하고 있으나, 'ball and socket connector assembly'의 구체적인 조합은 개시하지 않음. 그러나 회전 기능 자체는 명백히 개시되어 신규성 판단에서 불리한 요소임. strictness=0.82에 따라 거절 근거로 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            9,
+            10,
+            15,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술은 축방향 이동 및 회전 기능을 개별적으로 개시하며, 통상의 기술자는 이를 결합하여 cranial distractor에 적용할 동기를 가짐. 'ball and socket connector assembly'의 사용은 설계 선택의 범주로 볼 수 있으며, combination_threshold=0.51에 따라 결합 동기가 충분함. 거절 근거 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 3, 6, and 8 are evaluated as moderate under 102_novelty. While US-2012239035-A1 discloses axial movement functionality, the absence of explicit disclosure of 'ball and socket connector assembly' introduces interpretive flexibility. Given strictness=0.47, the benefit of the doubt leans toward the applicant, but the axial movement functionality alone is sufficiently close to warrant rejection unless amended."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 4, 5, 6, 7, 8, and 9 are evaluated as strong under 103_obviousness. The combination of US-2012239035-A1 with common knowledge of ball-and-socket joints in medical devices provides a clear motivation to combine. The differences (e.g., 'ball and socket connector assembly' and 'internally threaded riding collar') are design choices within the skill of an ordinary artisan, satisfying the combination_threshold=0.46."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1은 하악골 디스트랙터에 관한 것으로, 두개골 디스트랙터의 구체적인 구성요소(예: ball and socket connector assembly)를 명시적으로 개시하지는 않음. 그러나 청구항 2-16의 핵심 기능인 축방향 이동, 골판 연결, 회전 기능 등은 유사하게 개시되어 신규성 판단에 부정적 영향을 미침. 단, 청구항 1의 경우 ball and socket 연결 구조를 통한 다방향 이동 기능은 명시되지 않아 신규성이 인정됨. strictness=0.55에 따라, 청구항 2-16의 신규성 거절은 moderate 강도로 평가되지만, 진보성 거절과 중복되어 우선순위는 낮음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012239035-A1은 축방향 이동, threaded drive rod, 슬라이딩 링, 힌지 연결, 골판의 회전 기능 등을 개시함. 청구항 2-16의 ball and socket 연결 구조는 명시되지 않았지만, 곡면 지형에 대한 적응성을 위해 통상의 기술자가 쉽게 적용할 수 있는 설계 선택으로 판단됨. combination_threshold=0.55와 실용주의 성향에 따라, 결합 동기는 명확하며 진보성 거절은 strong 강도로 유지됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1은 하악골용 장치의 축방향 이동 기능을 개시하고 있으나, 두개골용 장치로의 적용 및 구체적인 설계 선택('externally threaded drive rod', 'riding collar')은 통상의 기술자에게 자명하다고 볼 수 있으나, 두개골용 장치라는 점에서 약간의 기술적 차별성이 존재함. strictness=0.46에 따라 moderate 강도로 평가되며, 근거의 명확성이 다소 부족함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1은 회전 기능('third bone plate is rotatable')을 개시하고 있으나, 청구항의 'ball and socket connector assembly'와 구체적인 연결 방식은 명시되지 않음. strictness=0.46에 따라 novelty 부정 근거는 moderate 강도로 평가되며, 회전 기능의 유사성만으로 novelty를 부정하기에는 다소 부족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "회전 기능은 공지된 기술로 간주되나, 두개골용 장치에 적용하는 구체적인 동기가 명확하지 않음. combination_threshold=0.22에 따라 설계 선택으로 간주 가능하나, strictness=0.46에 따라 moderate 강도로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claim 1에 대한 102 거절은 선행기술 US-2012239035-A1이 하악골용 디스트랙터를 개시하지만, 청구항 1의 'distraction mechanism'과 'bone plates'가 매우 포괄적으로 기술되어 있어 선행기술과의 직접적인 대비가 불분명함. 증거 부족으로 판단되며, strictness=0.50에 따라 출원인에게 유리하게 해석."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2-9 및 11-16에 대한 103 거절은 선행기술 US-2012239035-A1의 하악골용 메커니즘을 두개골용으로 적용하는 동기가 PHOSITA 수준에서 예측 가능하다는 점에서 근거가 있으나, 'ball and socket connector assembly'와 같은 구체적 구조의 도입이 통상의 기술자의 능력 범위를 벗어난다는 반론도 존재함. 결합 동기의 명확성이 부족하여 moderate 강도로 평가되며, strictness=0.50에 따라 보정 필요성을 고려."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1 (REF1)은 하악골용 장치를 개시하지만, 두개골용 장치로의 적용 가능성을 직접적으로 명시하지는 않음. 청구항 1은 'cranial distractor'를 광범위하게 청구하고 있어, PHOSITA가 하악골용 장치를 두개골에 적용하는 것이 예측 가능한 변형인지에 대한 해석의 여지가 있음. 그러나 REF1이 bone distractor의 일반적인 구조를 제공하고 있어, 결합 동기(motivation to combine)가 존재한다고 볼 수 있음. strictness=0.52를 고려할 때, 근거의 강도는 moderate로 평가되며, 출원인의 보정 가능성을 열어둘 필요가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            9,
+            15,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1은 하악골용 디스트랙터의 회전 기능을 개시하지만, 두개골용 디스트랙터의 구체적 구조('ball and socket connector assembly')와 직접적으로 동일하지는 않음. 다만, 회전 기능 자체는 유사하여 신규성 판단에 해석의 여지가 있음. strictness=0.42에 따라, 증거가 명확하지 않으므로 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            9,
+            15,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술은 회전 기능을 개시하며, 두개골용 디스트랙터에서도 동일한 기능을 적용할 동기가 명확함. 결합 동기(combination_threshold=0.52)를 충족하며, 통상의 기술자가 예측 가능한 변형으로 판단할 수 있음. 근거가 충분하여 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 1이 제공된 청구항 세트에 포함되지 않았으며, 명세서에도 해당 청구항의 기술 내용이 없음. 35 U.S.C. § 112의 서면 설명 요건을 충족하지 못함. 근거가 명확하고 증거가 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012239035-A1은 하악골용 장치의 축방향 이동 메커니즘을 개시하고 있으나, 두개골용 장치에 특화된 cranial plate의 적용은 명시되지 않음. 통상의 기술자가 이를 자명하게 적용할 수 있다는 주장은 타당하지만, 해부학적 차이로 인해 설계 선택의 범위를 넘어서는지 여부에 대한 해석의 여지가 있음. strictness=0.60을 고려할 때, 근거의 강도는 moderate로 평가되며, 거절 유지 결정."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 screw drive 메커니즘을 개시하고 있으나, threaded drive rod와 longitudinal slot을 갖는 구체적인 구조는 명시되지 않음. ball and socket connector assembly와의 결합 동기는 통상의 기술자에게 알려진 설계 선택으로 볼 수 있으나, 구체적인 조합의 자명성은 명확하지 않음. strictness=0.60을 고려할 때, 근거의 강도는 moderate로 평가되며, 거절 유지 결정."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 구체적인 연결 구조(예: ball and socket connector assembly와 internally threaded riding collar의 조합) 또는 회전 기능을 개시하지 않음. 결합 동기가 부족하며, 통상의 기술자가 자명하게 구현할 근거가 불충분함. 근거의 강도는 weak로 평가되며, 허여 결정."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace applies element-by-element anticipation analysis for §102 and uses Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for each §103 claim, correctly invoking the recognized legal tests for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each novelty and obviousness analysis references specific prior art (US-2015269244-A1) disclosures such as Kaplan-Meier curves, k-means clustering, and retention data, and compares them against specific claim language like 'feasibility,' 'cost scores,' 'calendar entries,' and 'gender-specific promotion rates.'"
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 stage finds all claims novel, the §103 stage consistently finds no obviousness, and the office action and final decision grant all claims—later stages follow from and do not contradict earlier findings without justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.422 (below 0.5, mildly lenient), and the trace consistently resolves ambiguous elements in the applicant's favor, granting all 20 claims with confidence scores mostly in the 0.75–0.90 range, which is consistent with a lenient examiner's disposition."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision follows directly from the accumulated §102 novelty findings (all novel), §103 obviousness findings (none obvious), and the office action (all claims allowed), with the final decision summary explicitly referencing these prior-stage conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004068",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11950,
+      "output_tokens": 390,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

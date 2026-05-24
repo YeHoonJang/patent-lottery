@@ -1,0 +1,299 @@
+{
+  "case_id": "2021004954",
+  "proceeding_number": "2021004954",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013284480-A1이 본 발명의 대부분 청구항을 암시적으로 개시하고 있으며, 결합 동기가 명확하게 설명되어 있음. 103 판단 기준에 부합하는 강력한 거절 근거"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항에 포함된 핵심 용어들이 명세서에서 명확히 정의되지 않았으며, 해당 분야에서의 일반적 의미도 불분명함. 이로 인해 통상의 기술자가 발명을 재현하는 데 어려움이 있을 수 있으며, 이는 35 USC 112(a) 및 (b)의 기재요건을 충족하지 못함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The terms 'impact operating mode' and 'weighted' are flagged for potential ambiguity under 35 U.S.C. § 112(b). While the specification may provide context, the lack of explicit claim definitions could lead to interpretation issues. The strength is moderate as clarification would help but isn't an immediate rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections are based on the prior art disclosing the use of a battery and operator-defined parameters, with the additional features considered as straightforward optimizations. While the reasoning is plausible, the confidence in the obviousness is relatively low (0.65-0.75), which weakens the strength of the rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejections are based on the lack of clear definitions for 'impact operating mode' and insufficient detail on parameter relationships. While the specification may provide some support, the ambiguity is significant enough to raise concerns about the written description requirement."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2013284480-A1 implicitly discloses the essential elements of the claimed method, and the combination of these elements would be obvious to a person of ordinary skill in the art as it represents a straightforward application of known control techniques. The motivation to combine is clear and directly related to common goals in the field of power tools."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.53,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2013284480-A1 is cited as the basis for the 103 rejection. However, the confidence levels across the claims vary from 0.3 to 0.65, with many claims having low confidence (0.3 to 0.4). While the rejection is based on a reasonable motivation to combine, the implicit nature of the prior art's disclosure and the lack of explicit teaching on specific control methods and parameters suggest that the rejection is not entirely strong. Given the strictness level (0.47), moderate confidence is not sufficient to justify a strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejection is based on the lack of clear definitions for terms like 'impact operating mode' and insufficient quantitative relationships between parameters and control actions. This is a valid concern, as it may hinder a person of ordinary skill in the art from practicing the invention without undue experimentation. However, the rejection is not absolute and could be addressed with amendments. Given the strictness level (0.47), this is a moderate issue, not strong enough to justify a final rejection without further clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art US-2013284480-A1 is cited as anticipating claims 23 and 44. While it does disclose detecting motor parameters and specifying driving time, the analysis indicates that the confidence level is 0.775, which is moderate rather than strong. The reasoning relies on implicit disclosure and functional equivalence, which may require further clarification. Given the strictness parameter of 0.55, this moderate strength basis would be weighed towards rejection, but not strongly so."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2013284480-A1) explicitly discloses the control strategies recited in the claims, including detecting current/rotation speed during impact mode (claim 23), specifying torque/rotation speed as a function of detected parameters (claim 25), and stopping the motor based on revolutions (claim 30). These elements are directly anticipated by the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The differences between the claims and US-2013284480-A1 (e.g., reducing torque after driving time (claim 24), weighting parameters with battery voltage (claim 28)) would have been obvious to a person of ordinary skill in the art. The prior art suggests similar control methods, and the adaptations are routine optimizations or logical extensions."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2013284480-A1 provides explicit disclosure of current detection, motor control based on predefined parameters, and clutch mechanisms. The claimed features (e.g., specifying driving time based on detected parameters, reducing torque after a certain period) are directly implied or obvious variants of the prior art's teachings. Confidence scores for these claims (0.65-0.7) exceed the combination threshold (0.33), supporting a strong basis for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 24, 25, 27, 28, 32, 35 are rejected under 103 with moderate to high confidence (0.48-0.7). The reasoning cites prior art (US-2013284480-A1) disclosing core elements and missing features being 'routine adaptations' or 'obvious variants' with clear motivation from the prior art's parameter-based control logic."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 26, 36-43 are rejected under 103 with low confidence (0.2-0.32). The reasoning relies on combining prior art with 'known techniques' (e.g., statistical analysis, user-defined parameters) but lacks explicit prior art disclosure of these specific elements. However, the combination threshold (0.44) is satisfied for some claims (e.g., 26 at 0.2) due to the examiner's strictness (0.52) and the field's conventional nature."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013284480-A1이 제공되었고, 결합 동기와 Graham 요소들이 제시되어 있으나, 청구항 23, 24, 25, 28, 31, 32, 44에 대해 명확한 자명성 판단이 요구된다. 신규성 거절과 진보성 거절이 동시에 제시된 것으로, 진보성 거절의 근거는 상대적으로 약하지만, strictness=0.60 기준으로는 유지 가능."
+        }
+      ]
+    }
+  ]
+}

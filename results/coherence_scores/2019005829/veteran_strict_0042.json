@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner applies Graham v. John Deere §103 factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) consistently across all claim analyses, and the §102 stage uses element-by-element anticipation reasoning—both correct statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific prior art references (US-2014180802-A1 and/or US-2013179495-A1) and maps specific disclosed elements (e.g., 'target definition data' to metadata, 'historical transaction data' to purchase history) to corresponding claim language."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage finds most claims not novel, and the §103 stage consistently builds on those same findings by confirming obviousness with additional motivation-to-combine rationale, without contradicting earlier findings; the final decision aligns with both stages in rejecting all claims."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.793 and combination_threshold=0.335, the examiner resolves ambiguities toward rejection throughout (e.g., treating API use and packet-based networks as 'obvious design choices' on thin evidence), and explicitly notes in the final decision that even weak obviousness grounds suffice under this profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and coherently from the accumulated §102 and §103 stage analyses, with the weighing section explicitly summarizing the strong obviousness rationale and absence of secondary considerations established in prior stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005829",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15302,
+      "output_tokens": 388,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

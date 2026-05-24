@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace applies element-by-element anticipation for §102 claims and invokes Graham factors with KSR-style obviousness reasoning (scope/content, differences, PHOSITA level, secondary considerations) for §103 claims, correctly matching statutes to their recognized legal frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection references specific prior art documents (US-2013321456-A1 or US-2016247051-A1) with paragraph-level citations (e.g., para [0024], [0025]) and maps specific claim elements to specific prior art disclosures."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found non-novel at §102 are carried forward as anticipated in the §103 stage (treated as fully disclosed in single reference), and claims treated as only obvious at §103 (e.g., claims 4, 5, 6, 7) were not asserted as anticipated at §102, maintaining internal consistency throughout the stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.875, this veteran-strict examiner rejects all 22 claims with no allowances, resolving every ambiguity (e.g., device-type engine selection, 1D/2D classification) toward rejection, which is fully consistent with a high-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision directly follows from the accumulated §102 and §103 stage findings, with the weighing section explicitly noting strong §102 rejections for core claims and moderate-to-strong §103 rejections for dependent claims, resulting in a coherent all-reject outcome."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018006139",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17914,
+      "output_tokens": 406,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

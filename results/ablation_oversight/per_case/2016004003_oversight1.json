@@ -1,0 +1,280 @@
+{
+  "case_id": "ABL-2016004003",
+  "proceeding_number": "2016004003",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "reject_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 다중 장치 환경에서 사용자 주의를 모니터링하고 인터페이스를 동적으로 구성하는 전체 시스템을 명확히 개시하고 있으며, 본 출원의 모든 구성 요소(주의 추정 특성, 상호작용 측정, 가중치 계산, 콘텐츠 전달 제어 등)는 동일하거나 통상의 기술자가 용이하게 도달할 수 있는 변형으로 해석됨. 결합 동기(motivation to combine)가 명확하며, BRI 원칙 하에서 청구항 용어가 선행기술의 개시 범위에 포함됨. 2차적 고려사항에 대한 증거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 사용자 주의를 모니터링하고, 이를 기반으로 장치 간 상호작용을 조정하는 시스템을 명시적으로 개시함. 본 출원의 대부분의 구성요소 — attention measurement 계산, 콘텐츠 특성 분석, 사용자 프로필 및 과거 이력 기반 가중치, 상호작용 측정, 정보 융합, 시간 기반 분석, 보조 콘텐츠 전달 조정 — 는 선행기술에 명시되거나 통상의 기술자에게 자명한 변형임. 결합 동기(motivation to combine)는 '사용자 몰입도 최적화'라는 공통된 설계 목적으로 명확하며, KSR 기준 하에서 예측 가능한 변형으로 간주됨. 특히, UI 구성과 보조 콘텐츠 전달은 멀티미디어 시스템에서 밀접하게 연관된 개념으로, 전자가 후자를 포함하는 범위로 해석될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1은 다중 장치에서의 주의 집중 정보를 수신하고 사용자 인터페이스를 구성하는 것을 개시하고 있으나, 청구항에서 요구하는 바와 같이 '기본 콘텐츠로부터의 주의 추정 특징 추출'과 '동반 장치의 상호작용 측정을 통한 가중치 조정'의 구체적 기술적 틀을 명확히 개시하지 않는다. 특히, 주의 측정이 콘텐츠 기반 특징과 상호작용 측정의 융합을 기반으로 하여 2차 콘텐츠 전달을 제어한다는 점에서 차이가 있다. 선행기술이 유사한 기능을 수행할 수 있다고는 하나, 청구항의 구성요소들이 동일하거나 자명한 변형인지는 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1은 동반 장치의 인터페이스 조정에 초점을 두고 있으며, 본 출원의 핵심인 주의 측정을 통한 보조 콘텐츠 전달 제어는 유사하지만, '기본 콘텐츠 전달 제어'라는 새로운 기술적 사상은 명확히 벗어남. 다른 청구항들에 대한 obviousness 판단은 선행기술과의 직접적 대응성 및 공지 기술의 결합 가능성을 고려할 때 타당하지만, 전체 시스템의 목적과 적용 분야에서의 차이가 존재하여 완전히 자명하다고 단정하기 어려움. 특히 개인 프로필, 시청 이력, 가중치 조정 등의 요소는 일반적 기술로 간주될 수 있으나, 그 조합과 구체적 적용 맥락에서의 혁신성이 완전히 부정되지는 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 다중 장치 환경에서 사용자 주의를 모니터링하고 인터페이스를 조정하는 핵심 개념을 명확히 개시하고 있으며, 청구항의 모든 구성요소가 선행기술의 범위 내에서 예측 가능한 확장 또는 통상의 기술수준 내 조합으로 간주될 수 있다. 결합 동기(motivation to combine)도 명확하며, Graham 요소들에 대한 분석이 탄탄함. confidence 점수도 평균 0.9 이상으로, 강력한 obviousness 근거로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1 명확히 다중 장치 환경에서 주의도를 모니터링하고, 사용자 인터페이스를 구성하며, 보조 장치와의 상호작용을 기반으로 사용자 경험을 최적화하는 방법을 개시함. 본 출원의 대부분의 구성요소—기능적 단계 및 시스템 아키텍처—는 선행기술에 명시적 또는 암시적으로 포함되어 있음. 특히, 보조 콘텐츠 전달 제어는 인터페이스 구성의 자연스러운 확장으로, 당업자에게 자명함. 결합 동기(motivation to combine)가 명확하고, 추가적인 기술적 진보 없이 기존 개념의 적용에 불과함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 다중 디바이스 환경에서 사용자 주의를 모니터링하고, 이를 기반으로 인터페이스를 구성하는 핵심 기능을 명확히 개시하고 있으며, 청구항 1, 11, 21의 주요 구성요소(attention estimation feature 추출, companion device 모니터링, attention measurement 산출, secondary content 전달 제어)가 실질적으로 동일하다. 결합 동기 없이 단일 선행기술에 의해 직접 개시되며, confidence가 0.85 이상인 항목이 다수이고, 통상의 기술자 수준에서의 구현도 자명하다. 따라서 obviousness 근거는 강력하다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 다중 장치 환경에서 사용자 주의를 모니터링하고, 이를 기반으로 보조 장치의 인터페이스를 구성하는 시스템을 명시적으로 개시하고 있으며, 청구항 1-9, 11-19, 21의 모든 구성요소를 실질적으로 포함하거나 BRI 하에서 자명하게 동등한 기능을 제공함. 결합 동기 없이 단일 참조로 대부분의 한정을 커버하며, PHOSITA 기준에서 일반적인 기술 수준 내에서 명백함. confidence 점수도 0.72~0.88로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 청구항 1의 모든 구성요소를 명시적 또는 암시적으로 개시하며, 다중 장치 환경에서 사용자 주의를 모니터링하고 콘텐츠 전달을 조정하는 시스템을 전체적으로 공개함. 주의 추정 특징 추출, 상호작용 측정, 가중치 부여, 시간 함수 기반 측정, 콘텐츠 전달 제어 등 모든 핵심 요소가 동일하거나 통상의 기술자에 의해 쉽게 도출 가능한 수준으로 개시되어 있음. 결합 동기 필요 없이 단일 참조로 진보성 결여 판단 가능하며, confidence 값 대부분 0.8 이상으로 강한 증거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 다중 장치 환경에서 사용자 주의를 모니터링하고, 이를 기반으로 인터페이스 및 콘텐츠 전달을 조정하는 핵심 아이디어를 명확히 개시하고 있으며, 본 출원의 모든 구성 요소(콘텐츠 특징 추출, 사용자 프로필 기반 가중치, 상호작용 측정, 시간 기반 융합, 전달 속도 조정 등)는 해당 선행기술의 목적과 기술적 맥락 내에서 통상의 기술자가 예측 가능하고 자명하게 구현할 수 있는 범위에 속함. 결합 동기와 Graham 요소 분석도 일관되며, 2차적 고려사항의 결여가 추가로 obviousness를 뒷받침함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 다중 장치 환경에서 사용자 주의를 모니터링하고 인터페이스를 조정하는 핵심 개념을 명확히 개시하고 있으며, 청구항 1, 11, 21의 구성요소들은 이에 대한 직접적인 확장 또는 명백한 변형으로 간주될 수 있다. 특히 보조 콘텐츠 전달 제어, 주의 추정 특성 추출, 상호작용 측정, 가중치 계산, 시간 함수 기반 주의 측정 등은 선행기술의 teaching 범위 내에서 통상의 기술자가 자명하게 도달할 수 있는 기술적 발전이다. 결합 동기(motivation to combine)가 명확하며, Graham 요소들(기술적 차이, 통상의 기술자 수준, 2차적 고려사항 부재)이 모두 obviousness 판단을 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 다중 장치 환경에서 사용자 주의를 모니터링하고, 이를 기반으로 사용자 인터페이스를 구성하는 방법을 명시적으로 개시하고 있으며, 보조 콘텐츠 전달 제어는 그 기능적 연장선에 위치한다. 'user-interaction parameter'와 'configuring a user interface'라는 표현은 보조 콘텐츠의 전달 방식이나 표현 조절을 포함하는 포괄적 개념으로 해석될 수 있으며, 통상의 기술자에게는 이러한 확장이 자명하다고 판단된다. 결합 동기(motivation to combine)도 명확하며, 선행기술의 목적과 본 출원의 기술적 과제가 일치하므로, 103 거절 근거는 강력하다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2013160036-A1이 기능적으로 동일한 구성요소와 동작을 개시하고 있으며, 청구항의 주요 구성요소인 주의 추정 특징 추출, 상호작용 측정, 주의 측정 계산, 콘텐츠 전달 제어 등이 선행기술의 'attention information' 및 동적 인터페이스 구성 기능과 실질적으로 동일함. 결합 동기 필요 없이 단일 참조로 충분히 개시되어 있으며, confidence 수치 대부분 0.8 이상으로 일관성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1 명확히 다중 장치에서의 주의 모니터링, 사용자 상호작용 매개변수 설정, 인터페이스 구성 기능을 개시함. 청구항의 주의 측정 기반 2차 콘텐츠 전달 제어는 선행기술의 동일한 원리를 적용한 예측 가능한 변형임. 결합 동기(motivation to combine)는 명확하며, PHOSITA가 공지된 기술을 결합하여 출원 발명에 도달할 가능성이 높음. 모든 종속항에 대해 동일한 논리가 일관되게 적용됨."
+        }
+      ]
+    }
+  ]
+}

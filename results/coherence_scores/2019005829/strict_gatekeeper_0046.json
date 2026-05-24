@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 and uses element-by-element anticipation logic for §102, invoking the correct legal frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection references specific prior art documents (US-2014180802-A1, US-2013179495-A1) with identified corresponding disclosures (e.g., 'target definition data,' 'transaction receipts,' 'metadata security levels') and specific claim language."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found novel at §102 (e.g., 4, 6, 7, 12, 16, 18, 23) are given additional obviousness analysis at §103, and those found not novel at §102 are consistently rejected at §103, with no contradictions between stages; notably, claims 4, 6, 7 novel at §102 are then found non-obvious at §103, which is internally consistent, while the final decision overrides these with a strict-examiner rationale that is explicitly stated."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.889 is explicitly invoked in the final decision summary ('엄격한 심사 기준(strictness=0.89) 하에서는 이러한 약한 차이점만으로는 특허성을 인정하기 어렵다'), resolving ambiguous claims (4, 6, 7, 12, 16, 18, 23) toward rejection, consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage analyses: the majority were found obvious at §103, and the few with non-obvious findings at §103 are overridden with explicit reference to the strict examination standard, providing stated rationale rather than arbitrary reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005829",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17845,
+      "output_tokens": 487,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

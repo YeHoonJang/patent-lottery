@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 analysis uses element-by-element anticipation mapping to a single prior art reference, and the §103 analysis explicitly applies Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for every claim, using the correct legal framework for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the novelty, obviousness, office action, and final decision stages, conclusions are consistently tied to specific claim language (e.g., 'sentiment profile,' 'sentiment intent'), specific prior art disclosures (US-2014355749-A1, including specific claims like Claim 2, 3, 8 thereof), and element-by-element comparisons."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 findings of no novelty are consistently carried forward into §103 (as an alternative/cumulative ground), and the §103 obviousness reasoning builds on rather than contradicts the §102 findings, with the office action explicitly noting both grounds apply to the same claims."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.889 and consistently resolves all ambiguity toward rejection across all 20 claims, even for borderline elements (e.g., Claim 6, confidence 0.75) where a lenient examiner might allow, which is consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated §102 and §103 analyses finding all 20 claims anticipated or obvious, with the summary explicitly citing the same prior art and rationale developed across the prior stages without any unexplained reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021002798",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16718,
+      "output_tokens": 403,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

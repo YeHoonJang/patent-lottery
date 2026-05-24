@@ -1,0 +1,349 @@
+{
+  "case_id": "2021003067",
+  "proceeding_number": "2021003067",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all claimed elements (dual sheaves, anchor points, braking mechanics) and provides clear motivation for combination (weight distribution, safety improvements). Graham factors confirm PHOSITA would recognize these as obvious modifications."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses aligned receptacles and hardware mounting points, which are functionally equivalent to all claims. The coverage scores exceed the combination threshold, and the motivation to combine (weight distribution optimization) is clearly established. Confidence levels are consistently high (0.6–0.85)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims contain ambiguous terms like 'carabiner-sized aperture' and 'engage brake' with no structural definition in the specification. These terms lack enablement and meet the 112 written description requirement. Verification status confirms this as a valid basis."
+        },
+        {
+          "basis": "112_f_means_plus_function",
+          "strength": "strong",
+          "reasoning": "Terms like 'impact surface' and 'engage brake' are means-plus-function limitations without structural support, violating 35 U.S.C. § 112(f)."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims are analyzed as non-obvious with moderate confidence (0.7-0.75). Graham factors indicate no clear motivation to combine features, and coverage scores fall below combination threshold (0.68)."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly discloses aligned anchor points and structural elements overlapping with claims. While the combination is argued as obvious, the specific positioning and integration of features (e.g., 'substantially circular' aperture, impact surface orientation) may not be fully disclosed or suggested in the prior art, leaving room for non-obviousness under a purposivist interpretation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Ambiguous terms like 'substantially circular' and 'below the zip line when installed' lack explicit definitions in the specification. However, the specification's context (e.g., zip line systems, carabiner use) provides sufficient support for a skilled artisan to infer the intended scope, mitigating indefiniteness."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly anticipated by US-2015375758-A1, which discloses identical structural features (side walls with aligned receptacles, pulley alignment, circular apertures, dual-side anchor points, etc.) matching the claims' specific configurations. Confidence scores range from 0.72 to 0.91, indicating clear overlap."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375758-A1과의 기술적 결합이 명확하고, 결합 동기(안정적인 하중 분산 필요성)가 논리적이고 기술적 예측 가능성이 높아 진보성 기준에 부합하지 않음. 모든 청구항에 대한 103 근거가 강력하며, confidence 값이 0.6 이상으로 일관됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 'directly below', 'substantially circular', 'perpendicular' 등 구체적 용어의 정의 부족으로 인해 기술적 지원이 불충분함. 명세서의 뒷받침이 명확하지 않아 보완이 필요함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (21-28, 31-34, 36-40) are supported by clear evidence of obviousness under BRI with high confidence (0.65-0.85). The prior art's structure directly overlaps with claimed features, and motivations to combine are explicitly stated in Graham factors."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 25-28, 31-34, 36-40 have explicit prior art overlaps, but some (e.g., 29, 30) lack direct disclosure. Confidence varies (0.55-0.9), requiring careful evaluation under strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Objections to claims 21, 23, 24 are based on vague descriptions, but no explicit deficiencies are cited in the prior art analysis."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses structural elements (dual side plates, receptacles, aligned eyes) that are modified to achieve the claimed features. Graham factors show clear motivation (weight distribution, braking efficiency) and PHOSITA understanding, with confidence scores above 0.6 for most claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Lack of explicit definition for terms like 'equal-distance to centerline' and 'center point' creates ambiguity, but the issue is technical rather than fundamental to patent eligibility."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses overlapping structures (side plates, pulleys, receptacles) and functional equivalents (anchor points, carabiner apertures) for all claims. The Graham factors confirm that a PHOSITA would find the claimed features as obvious extensions of REF1's design, with no non-obviousness evidence. Confidence scores (0.5-0.85) and clear motivation-to-combine (e.g., adapting receptacles for carabiners, aligning anchor points) support strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375758-A1은 청구항 21-40의 모든 기능적 요소(고정점 위치, 무게 분산 구조, 충격 표면 등)를 명확히 포함하고 있으며, 그 차이점은 PHOSITA가 기술적 동기를 인식할 수 있는 '무게 이전 최적화'와 같은 공지된 설계 선택에 해당합니다. 모든 청구항에 대한 증거는 강력하며, 결합 동기와 Graham 요소 모두 명확하게 충족됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375758-A1은 청구항의 모든 구성요소를 명시적/암시적으로 개시하고 있으며, 기술자가 이들을 결합하여 청구항의 기능을 달성하는 동기가 명확히 존재함. Graham 요소에 따라 기술 수준이 높고, 이전 기술의 결합이 논리적임을 확인."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 21-28, 31-38 are explicitly anticipated or obvious variants of US-2015375758-A1 with clear motivation to combine for safety/weight distribution. Graham factors show minor positional adjustments with skilled artisan recognition."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술 REF1와 명확히 매칭되며, 결합 동기와 기술적 가르침이 구체적으로 제시됨. Graham 요소에서의 차이점은 미세한 수정에 불과하며, 비예상 결과나 상업적 성공이 없음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 'equal-distance', 'directly below', 'substantially circular' 등 모호한 용어가 포함되어 명세서에서 구체적 정의가 부재함. 다만, 기술적 필수 요소의 불분명함이 아니라 용어의 정량적 기준 부족에 해당함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2015375758-A1의 구조적 요소(측면 벽, 펄리, 정렬된 눈, 플랜지, 횡단 커넥터 등)가 명확히 반영되었으며, 결합 동기(안전성 향상, 무게 분배 최적화)가 명시적입니다. 커버리지 점수(0.6~0.75)와 신뢰도(0.6~0.8)가 strictness threshold(0.57)를 초과하며, Graham 요소에서 상업적 동기와 기술적 이해도가 충분히 제시되었습니다."
+        }
+      ]
+    }
+  ]
+}

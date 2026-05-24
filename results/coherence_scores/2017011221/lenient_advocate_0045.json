@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The novelty stage applies element-by-element anticipation against US-2014143129-A1 (§102), the obviousness stage applies Graham factors including scope/content, differences, PHOSITA level, and secondary considerations (§103), and the office action and final decision correctly invoke §102 and §103 frameworks respectively, with no statute-mixing."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim analysis references specific prior art disclosures from US-2014143129-A1 (e.g., 'module operable to acquire applicant goals,' '¶[0023],' 'module to acquire preferred option') and maps them to specific claim language such as 'identifying parties,' 'generating dynamic workflow,' and 'transmitting workflow.'"
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage found all 20 claims anticipated (is_novel=false), but the §103 stage then found all 20 claims non-obvious (is_obvious=false) and the office action rejected claims 1,3–20 under §102 while allowing claim 2—this internal inconsistency (anticipation found for claim 2 at §102, then allowed at §102 stage) and the contradiction between §102 anticipation of all claims and §103 non-obviousness of all claims is not reconciled with any stated rationale bridging the two stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.29 (lenient) is consistently reflected throughout—the §103 analysis favors the applicant on every claim, the final decision resolves ambiguity toward 'amend_suggested' rather than outright rejection, and the summary explicitly notes the low-strictness profile as justification for applicant-favorable treatment."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision's 'amend_suggested' outcome flows logically from the accumulated analysis: §102 rejections on most claims, §103 non-obviousness findings favoring the applicant, and the identification of claim 2's time-based prompting as allowable subject matter all coherently support a middle-ground 'amend to capture allowable features' conclusion."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017011221",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13300,
+      "output_tokens": 529,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

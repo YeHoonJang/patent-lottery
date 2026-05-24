@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 anticipation on an element-by-element basis for claims found in single prior art references, and applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) for all §103 rejections, with no conflation of other statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (US-2013321456-A1, US-2016247051-A1) and maps particular claim limitations to specific disclosures in those references, such as FIG. 4, Claim 1, and specific features like complexity threshold logic and object-type classification."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims 21-22 were found novel at §102 but obvious at §103, with explicit additional rationale provided (HTML5 is industry-standard web technology known to PHOSITA for performance optimization), consistent with the established principle that §103 can reject claims that survive §102 when obviousness is separately justified."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.818, the examiner consistently resolves all ambiguities toward rejection—including claims with lower confidence (0.7-0.75) on device-type and resolution features—without granting any claims even on borderline evidence, which appropriately reflects the strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly and consistently from the accumulated stage analyses: claims found not novel at §102 are rejected under §102, claims found obvious at §103 are rejected under §103, and the two claims found novel but obvious (21-22) receive §103 rejections, with no reversals or unexplained contradictions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018006139",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16266,
+      "output_tokens": 427,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

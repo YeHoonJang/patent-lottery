@@ -1,0 +1,536 @@
+{
+  "case_id": "2015004233",
+  "proceeding_number": "2015004233",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses 'drive mechanism configured to selectively move the second bone mount longitudinally along the main body' which is functionally identical to 'proximal cranial plate moves axially along said distraction mechanism'. The coverage score of 0.85 confirms strong anticipation. The differences (terminology: bone mount vs. cranial plate; application: mandible vs. cranium) are predictable variations. The prior art explicitly teaches movable bone mounts for distraction, providing clear motivation to apply to cranial applications. This is a straightforward adaptation of known elements to predictable use."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses 'third bone mount configured to be moved longitudinally along the main body' which directly corresponds to 'distal cranial plate moves axially along said distraction mechanism'. Coverage score of 0.85 indicates strong structural and functional equivalence. The only differences are nomenclature and anatomical site, which represent obvious adaptations. The prior art's teaching of movable bone mounts for controlled bone distraction provides explicit motivation for cranial application."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses 'drive mechanism configured to selectively move the second bone mount longitudinally along the main body' (Claim 2) and 'third bone mount configured to be moved longitudinally along the main body' (Claim 3). The terms 'axially' and 'longitudinally' describe identical directional movement along the distractor. Anatomical application difference (mandibular vs cranial) does not distinguish structural features. Single reference anticipates all claim elements with high similarity scores (0.88, 0.84). Strong 102 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 is overcome, applying mandibular distraction mechanisms to cranial distraction is obvious. Both involve same mechanical principle (bone separation via gradual distraction). PHOSITA (orthopedic surgeon/biomedical engineer) would recognize axial movement mechanisms are transferable across anatomical sites as routine design choice. Motivation to combine is clear: both applications serve identical function. Combination_threshold=0.34 supports finding obviousness on common design principles."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012239035-A1 explicitly discloses 'third bone plate is rotatable with respect to the main body about a rotational axis' (Claim 12). While reference uses hinged connection vs claimed ball-and-socket, functional result (rotation about longitudinal axis) is identical. Ball-and-socket joints inherently provide rotational freedom as basic mechanical principle. However, substituting hinge with ball-and-socket requires design choice between different joint types. Given strictness=0.88 and explicit rotation teaching in reference, this is moderate-strength obviousness. The rotation feature itself is explicitly taught; joint mechanism is substitution of known elements."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "none",
+          "reasoning": "신규성 판단에서 모든 청구항(2-16)이 is_novel=true로 판단되었습니다. US-2012239035-A1은 각 청구항의 구성요소를 완전히 개시하지 않으며, 특히 ball and socket connector assembly를 통한 다방향 운동성과 cranial application의 구체적 구현이 누락되었습니다. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항(2-16)이 is_obvious=false로 판단되었으나, 이는 재평가가 필요합니다. US-2012239035-A1은 mandibular distractor로서 일부 유사 요소들(longitudinal movement, rotation, screw drive)을 개시합니다. 그러나 (1) mandibular에서 cranial로의 전환은 해부학적 차이(선형 vs. 곡면)로 인해 자명하지 않고, (2) hinged attachment에서 ball and socket으로의 대체는 운동학적 특성의 근본적 변화이며, (3) 명세서가 명시적으로 지적한 문제(cranial curvature accommodation)는 선행기술이 해결하지 못합니다. 결합 동기가 불명확하고, combination_threshold=0.68 기준에서 명시적 교시가 부족합니다. 103 근거는 weak입니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "Office Action은 모든 청구항이 명세서에 의해 적절히 뒷받침되며, 통상의 기술자가 과도한 실험 없이 발명을 실시할 수 있다고 명시했습니다. 'Ball and socket connector assembly', 'tilt/swivel/rotate', 'threaded rod/sleeve/slot/collar' 등의 용어는 명확하며 기술 분야에서 이해 가능합니다. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "본 발명은 cranial distractor라는 의료기기의 구체적 구조에 관한 것으로, abstract idea, natural phenomenon, law of nature에 해당하지 않습니다. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Office Action은 US-2012239035-A1을 인용하여 청구항 2-16을 103으로 거절하고 있습니다. 선행기술은 mandibular distractor로서 longitudinal movement, screw drive mechanism, hingedly attached bone plates with rotation을 개시합니다. 거절의 핵심 논리는 (1) hinge를 ball and socket으로 대체하는 것이 obvious design choice이고, (2) mandibular에서 cranial로의 적용이 routine engineering modification이라는 것입니다.\n\n그러나 이 거절 근거는 moderate 강도입니다. 왜냐하면:\n\n1. Ball and socket vs. Hinge의 구조적 차이: 선행기술의 hinge는 제한된 자유도(주로 1축 회전)를 제공하는 반면, 청구항의 ball and socket은 tilt/swivel/rotate의 다방향 움직임을 제공합니다. Office Action은 이것이 'obvious design alternative'라고 주장하지만, 왜 통상의 기술자가 hinge 대신 ball and socket을 선택할 것인지에 대한 명시적 동기(explicit motivation)가 약합니다. 'Greater degrees of freedom'은 사후적(hindsight) 추론일 수 있습니다.\n\n2. Cranial vs. Mandibular의 해부학적 차이: Office Action은 'underlying mechanical principles are the same'이라고 주장하지만, 명세서는 cranial bone의 convex/concave curvature가 linear distractor로 해결되지 않는 특정 기술적 문제임을 명시합니다. Mandibular와 cranial의 해부학적 차이(곡면 형상, 두개골의 복잡한 3차원 구조)를 고려하면, 단순한 'routine adaptation'으로 보기 어렵습니다.\n\n3. Slot/Riding Collar 구조: Office Action은 longitudinal slot과 riding collar extending through slot이 'well-known mechanical principle'이라고 주장하지만, 선행기술은 이 특정 구조를 명시적으로 개시하지 않습니다. 'Screw drive positioned within a bore'에서 slot/collar 구조를 도출하는 것은 추론의 비약이 있습니다.\n\n4. Combination의 predictability: Office Action은 여러 특징의 결합(ball and socket + axial movement + slot/collar + rotation)이 predictable하다고 주장하지만, 이러한 복합적 구조 조합이 선행기술에 명시적으로 교시되지 않았으며, 결합의 동기가 사후적 추론에 기반할 가능성이 있습니다.\n\n결론: 103 거절은 일부 합리적 근거가 있으나(선행기술이 유사한 기능을 일부 개시), 핵심 구조적 차이(ball and socket, slot/collar)와 해부학적 적용 차이(cranial curvature)를 고려하면 'obvious'라고 단정하기에는 증거가 불충분합니다. Combination_threshold=0.72를 적용하면, 명시적 결합 동기가 부족하여 거절 근거가 moderate 수준입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses bone mounts moving longitudinally along main body via drive mechanism. The terms 'longitudinally' and 'axially' are synonymous in bone distractor context. The substitution of 'cranial plate' for 'bone mount' is mere field-of-use adaptation without structural distinction. Coverage scores of 0.85 indicate comprehensive anticipation. Single reference anticipation with direct element-by-element correspondence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if not anticipated, adaptation from mandibular to cranial distractor would be obvious. Both address same problem (bone segment separation), use same mechanism (longitudinal movement via drive), achieve same result (controlled regeneration). Motivation to combine is clear: known need for cranial distraction. PHOSITA would recognize this as predictable use of prior art. This serves as alternative ground if 102 is overcome."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses longitudinal movement of bone mounts along the distraction device's main body, which is functionally and structurally identical to the claimed axial movement of cranial plates. The terms 'axial' and 'longitudinal' are synonymous in this context. The prior art's drive mechanism configured to selectively move the second bone mount longitudinally (similarity_score: 0.85) directly anticipates the claimed features. This is a clear case of anticipation with strong textual support from the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if not anticipated, the application of mandibular distractor principles to cranial distraction is obvious. The motivation to combine is inherent in the field - distraction osteogenesis operates on the same principles regardless of anatomical location. A PHOSITA would recognize that longitudinal movement of bone segments is fundamental to any distraction procedure. The prior art explicitly teaches this mechanism, and applying it to cranial plates requires no inventive insight beyond routine application of known principles. This is a straightforward extension of prior art to a predictable application."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses longitudinal/axial movement of bone mounts along main body (similarity 0.75). The difference is merely anatomical application (mandibular vs. cranial) and plate designation (proximal/distal). This represents predictable use of prior art in the same field. PHOSITA would readily apply known axial movement mechanisms to different bone distraction contexts. Strong evidence supports obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            9,
+            15,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012239035-A1 discloses rotation capability (similarity 0.75), but in context of hinged attachments for mandibular distraction. The claims add rotation to ball-and-socket connector assemblies in cranial application. While rotation is a known feature, combining it with ball-and-socket (vs. hinged) represents a different mechanical configuration. The prior art teaches rotation but not specifically in the claimed structural context. Evidence is moderate - rotation is disclosed but the specific combination may require some inventive insight. Given strictness=0.47 (slightly favorable to applicant), this warrants further examination but provisional rejection is appropriate."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012239035-A1이 청구항 10의 대부분 요소를 개시하나, 'hinged and rotatable bone plate attachment'를 'ball and socket connector assembly'로 BRI 해석하는 것은 기능적 등가성에 의존함. 명세서에서 ball and socket의 구체적 구조가 정의되었다면 anticipation 성립이 약화될 수 있음. 그러나 BRI 하에서 기능적 유사성(tilting, swiveling, rotation)이 높고, 단일 문헌이 모든 요소를 개시하므로 moderate strength로 판단"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 longitudinal movement of bone mounts를 명시적으로 개시하고, 동일한 bone distraction 원리를 cranial application에 적용하는 것은 predictable variation. Motivation이 명확하고 결합이 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            11,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Riding collar with longitudinal slot 구성이 선행기술에 명시되지 않았으나, 'conventional mechanical design choice'로 간주됨. 이는 공지 기술의 적용이지만, 특정 구조적 조합이 명시적으로 제시되지 않아 KSR의 'predictable variation' 기준에는 부합하나 증거의 직접성은 moderate 수준"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Ball and socket connector를 hinged attachment의 대안으로 보는 것은 합리적이나, 선행기술이 ball and socket을 명시하지 않음. 그러나 (1) claim 12에서 rotatable bone plate를 명시적으로 개시하고, (2) ball and socket이 well-known mechanical element이며, (3) 동일한 기능적 목적(multi-directional articulation)을 달성하므로 obvious. Motivation은 bone curvature accommodation으로 명확하나, 구조적 차이(hinged vs ball-and-socket)로 인해 strong보다는 moderate"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            10,
+            13,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012239035-A1은 mandibular distractor를 개시하고 있으며, 구조적 요소(elongated body, screw drive, bone mounts, hinged attachment with rotation)는 존재함. 그러나 청구항 10의 핵심인 'ball and socket connector assembly'는 명시적으로 개시되지 않음. 선행기술은 'hingedly attached' 및 'rotatable about rotational axis'를 개시하나, ball and socket의 완전한 다방향 자유도(tilt up/down, swivel left/right, rotate)와는 구조적 차이가 있음. Hinged attachment는 제한된 각도 조정을 허용하나, ball and socket은 구형 자유도를 제공함. 또한 cranial vs. mandibular application의 해부학적 차이가 있음. Coverage score 0.85는 높으나, 핵심 구성요소의 구조적 동일성이 완전히 입증되지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            14,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1은 bone distractor의 기본 구조를 명확히 개시함. Claims 2-3의 axial movement는 선행기술에서 명시적으로 교시됨(longitudinal movement of bone mounts). Claims 4-5, 11-12의 threaded rod/riding collar/slotted sleeve 구성은 conventional mechanical implementation으로, 선행기술의 screw drive mechanism을 구체화한 것임. Claims 6-7, 13-14의 fixed-end mounting은 선행기술 claim 2에서 교시됨. Claims 8-9, 15-16의 rotation은 선행기술 claim 12에서 명시적으로 교시되며, col. 1, lines 40-45에서 동기가 설명됨. 결합 동기가 명확하고, PHOSITA가 예측 가능한 범위 내의 설계 선택임."
+        },
+        {
+          "basis": "dependency_objection",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 1이 제공되지 않아 종속항 2-9의 완전한 평가가 불가능함. 이는 절차적 하자로 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012239035-A1은 mandibular distractor를 개시하고 있으며, cranial application으로의 적용에 대한 motivation to combine이 제시되었습니다. 그러나 여러 핵심 구조적 차이가 존재합니다: (1) ball-and-socket connector assembly vs. hinged connection - 이는 단순 대체가 아닌 다른 기능적 특성을 제공, (2) longitudinal slot과 internally threaded riding collar - 명시적 개시 부재, (3) cranial bone의 curvature accommodation은 mandibular bone과 다른 기술적 과제. 선행기술이 유사한 기능(axial movement, rotation)을 제공하나, 구체적 구조적 조합과 cranial application의 특수성을 고려할 때 obviousness 판단에 해석의 여지가 있습니다. 특히 ball-and-socket이 tilt/swivel/rotate의 multi-directional freedom을 제공하는 것은 hinged rotation과 질적으로 다른 solution입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 2-3의 103 거절 근거는 moderate 강도입니다. US-2012239035-A1이 'longitudinal movement of bone mounts along main body'를 명확히 개시하고 있어 axial movement 자체는 disclosed 상태입니다(similarity 0.75-0.8). 그러나 핵심 쟁점은: (1) 선행기술이 mandibular distractor이고 출원은 cranial distractor임 - 해부학적 적용 부위가 다름, (2) mandibular와 cranial distraction의 기술적 차이(curvature accommodation 필요성 등)가 단순한 설계 변경인지 비자명한 개선인지가 불분명함, (3) motivation to combine이 '동일한 mechanical principle(gradual bone separation)'에 기반하나, cranial application의 특수성(curvature)을 고려하면 단순 적용이 아닐 수 있음. 선행기술이 axial movement를 가르치지만, anatomical site의 차이와 그에 따른 technical challenge가 obviousness 판단에 영향을 줄 수 있습니다. 증거는 존재하나 해석의 여지가 있어 moderate로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses bone mounts that move longitudinally along the main body via a drive mechanism (Claim 1: 'A drive mechanism configured to selectively move the second bone mount longitudinally along the main body'). The axial movement limitation in claims 2 and 3 is directly taught by the prior art. The adaptation from mandibular to cranial application is a predictable use of prior art elements - bone distractors operate on identical mechanical principles regardless of anatomical location. The motivation to combine is clear: same technical problem (bone distraction), same mechanical solution (longitudinal movement). This is a straightforward application of known principles to a predictable variation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 Claim 12 explicitly teaches 'the third bone plate is rotatable with respect to the main body about a rotational axis.' The reference's Background section explicitly identifies the problem that conventional distractors 'can only be adjusted in its longitudinal direction' but 'the distracted portion... may also need rotation in the angular direction' to achieve correct positioning. This provides both explicit disclosure of rotational capability and clear motivation to apply it. The application's own specification acknowledges the same problem (cranial curvature accommodation). Applying known rotational capability to bone plate connections is a predictable design choice with clear motivation from the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses 'second bone mount' and 'third bone mount' that move 'longitudinally along the main body' via a drive mechanism. The structural correspondence between 'longitudinally along main body' and 'axially along distraction mechanism' is clear and direct. The only difference is anatomical application (mandibular vs. cranial), which does not distinguish the claimed structure. The element-by-element comparison shows explicit disclosure with high similarity scores (0.75). This is a strong anticipation case where a single reference discloses all limitations."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 rejection is overcome, the 103 rejection is independently strong. The prior art teaches identical mechanical structure applied to mandibular distraction. The modification to cranial application is a straightforward field-of-use adaptation. Bone distraction operates on the same biomechanical principles regardless of anatomical site. The motivation to combine is clear: US-2012239035-A1 explicitly addresses controlled bone separation through distraction osteogenesis, the same problem as the claimed invention. A PHOSITA (medical device engineer or orthopedic surgeon) would recognize that axial movement of bone plates along a linear distraction mechanism applies equally to cranial and mandibular bones, requiring only routine geometric adjustments. No evidence of unexpected results or secondary considerations to overcome obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 explicitly discloses second and third bone mounts moving longitudinally along the main body via a drive mechanism. The correspondence between 'bone mount' and 'cranial plate', and between 'longitudinally along main body' and 'axially along distraction mechanism' is direct and clear. Coverage scores of 0.8 indicate explicit disclosure. This is a strong anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            8,
+            9,
+            15,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012239035-A1 Claim 12 explicitly recites 'third bone plate is rotatable with respect to the main body about a rotational axis.' This directly corresponds to the claimed rotation of distal cranial plate about the longitudinal axis. The disclosure is explicit with similarity score of 0.85. Strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 rejection were overcome, the obviousness rejection is strong. Mandibular and cranial distractors are in the same field of bone distraction osteogenesis. The axial movement mechanism is fundamental to both applications. The motivation to apply mandibular distractor principles to cranial applications is clear and well-established. This is a predictable use of prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "Rotation capability is explicitly disclosed in the prior art for bone plates in distraction devices. Applying this known feature from mandibular to cranial applications is an obvious design choice requiring only ordinary skill. The motivation is clear from the common functional purpose of bone distraction."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            15,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "While the rotation feature itself is explicitly disclosed, Claims 15 and 16 depend from Claims 13 and 14, which include non-obvious structural combinations (longitudinal slot, riding collar, ball and socket connector). However, adding a well-known rotation feature to these structures appears to be an obvious modification. The strength is moderate because the base claims have some non-obvious elements, but rotation is a standard design choice."
+        }
+      ]
+    }
+  ]
+}

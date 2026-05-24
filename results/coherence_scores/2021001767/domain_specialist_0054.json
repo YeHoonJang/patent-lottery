@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 for claims with prior art overlap, and invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness analysis, with separate §101 Alice/Mayo evaluation in the office action."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'inference store,' 'non-native module,' 'closed-loop feedback'), specific prior art disclosures in US-2018288616-A1 (machine learning permission prediction, installation-time prompts, task-based consent), and coverage scores (0.72, 0.84, 0.71) supporting anticipation or obviousness findings."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Later-stage §103 analysis for claims 3, 4, and 9 is consistent with and builds upon the §102 novelty findings that those same claims were novel (not anticipated), and the office action and final decision maintain the same differentiation between anticipated and merely obvious claims without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.523) and combination threshold (0.48) are consistently reflected in the reasoning — the examiner reaches anticipation conclusions with moderate confidence, acknowledges uncertainty on claims 4 and 9, and the final decision appropriately lands at 'amend_suggested' with a borderline decision score of 0.48 rather than a firm rejection or grant."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'amend_suggested' decision follows logically from the accumulated stage analyses: strong §102 rejections for most claims, moderate §103 rejections for claims 3, 4, 9, 12, 13, 19, 20, with explicit acknowledgment that claims involving user-modifiable inferences and third-party inference contribution present paths to allowance through amendment."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001767",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12046,
+      "output_tokens": 474,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

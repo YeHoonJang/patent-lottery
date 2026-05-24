@@ -1,0 +1,288 @@
+{
+  "case_id": "ABL-2021001433",
+  "proceeding_number": "2021001433",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.5714285714285714,
+  "amend_rate": 0.0,
+  "reject_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012299509-A1은 게이트웨이와 빌딩 자동화 장치 간의 ZigBee 기반 통신 및 주소 할당을 개시하지만, '실행 가능 소프트웨어 명령어를 설치하여 두 번째 통신 프로토콜로의 통신 기능을 제공'한다는 핵심 구성요소는 명시하거나 암시하지 않는다. 그러나 통신 프로토콜 전환을 위한 소프트웨어 설치는 무선 장치 관리 분야에서 점차 공지된 접근 방식으로 간주될 수 있으며, 특히 게이트웨이 기반 네트워크에서 장치 역량을 원격으로 업데이트하는 것은 IoT 환경에서 일반화되고 있다. 따라서 통상의 기술자가 선행기술과 공지된 기술을 결합할 동기가 존재할 수 있으나, 직접적인 시사성은 부족하여 강도는 중간으로 평가된다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The primary reference US-2012299509-A1 discloses core functionality of gateway-mediated communication in a building automation system using ZigBee, including network configuration and address assignment. While explicit software installation for enabling a second protocol is not disclosed, the functional equivalent—reconfiguration of network identifiers and addressing—is present. Under BRI and strictness=0.88, installing software to enable a new protocol is viewed as an obvious extension of known firmware update practices and over-the-air reconfiguration in wireless embedded systems. The motivation to combine is supported by common challenges in heterogeneous network interoperability and protocol evolution. Graham factors, especially level of ordinary skill and predictability of software-based protocol adaptation, strongly support obviousness. Confidence in rejection across all claims is high (minimum 0.75), with several above 0.85, reinforcing strength."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 주소 할당 및 ZigBee 기반 통신을 개시하지만, '소프트웨어 명령어를 설치하여 제2 프로토콜을 가능하게 함'이라는 핵심 구성요소는 개시하지 않음. 결합 동기 부족하며, 통상의 기술자가 해당 기능을 용이하게 도출하기 어렵다고 판단됨. confidence 수준은 0.68~0.85로, 진보성 결여 주장의 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 ZigBee 네트워크를 통한 주소 할당을 개시하지만, 게이트웨이가 건물 자동화 장치에 실행 가능 소프트웨어를 설치하여 제2의 통신 프로토콜을 사용할 수 있도록 한다는 기술적 사상은 명시적으로 개시하지 않음. 소프트웨어 설치를 통한 프로토콜 역량 추가는 암시적일 수 있으나, 명확한 동기나 결합 가능성이 제시되지 않아 자명성 판단의 근거가 약함. combination_threshold=0.72 기준에 비춰보아도 결합 동기의 존재가 낮게 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1은 게이트웨이를 통한 조명 장치와의 통신 설정, 주소 재할당을 통한 네트워크 식별자 변경, 소프트웨어 기반 모듈(주소 설정 모듈)을 통한 동적 재구성 기능을 개시하고 있음. 본 출원의 '실행 가능 소프트웨어 명령어 설치'는 이러한 동적 설정 변경의 기능적 등가물로 간주될 수 있으며, 무선 건물 자동화 시스템에서 소프트웨어 업데이트를 통한 통신 프로토콜 전환은 통상의 기술자에게 예측 가능한 설계 선택임. 결합 동기(motivation to combine)는 명확하며, 선행기술과의 차이는 설명 방식 또는 구성 요소의 명시 여부에 불과함. confidence 수치(0.7~0.9)도 전반적으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1은 게이트웨이를 통한 빌딩 자동화 장치와의 통신을 개시하며, ZigBee 기반 네트워크에서 데이터 릴레이 및 포맷팅을 수행함. 제1항의 핵심 구성요소인 제1 프로토콜을 통한 통신 설정 및 릴레이는 선행기술에 명시적 포함됨. '소프트웨어 설치를 통한 제2 프로토콜 활성화'는 직접 개시되지 않으나, IoT 및 무선 통신 분야에서 소프트웨어 업데이트를 통한 기능 확장은 통상적인 기술적 관행으로 간주됨. 특히 초기 프로토콜로 접속 후 소프트웨어 업데이트로 고급 프로토콜 전환은 상호운용성 및 시스템 관리 측면에서 명백한 이점이 있어, 통상의 기술자가 용이하게 도출 가능함. 결합 동기(motivation to combine)가 명확하며, Graham 요소 모두를 고려할 때 obviousness 판단의 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 ZigBee 기반 주소 할당 및 통신 설정을 개시하지만, 첫 번째 프로토콜을 통해 실행 가능한 소프트웨어를 장치에 설치하여 두 번째 프로토콜로 통신할 수 있도록 하는 기능은 개시하지 않음. 결합 동기(motivation to combine)가 명시되어 있지 않으며, 동일한 기술적 과제를 해결하는 다른 선행기술도 제공되지 않음. 소프트웨어 설치를 통한 프로토콜 역량 확장은 단순한 공지 기술의 결합을 넘는 기술적 진보로 평가됨. combination_threshold=0.46 기준보다 높은 창의성 요소 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 게이트웨이를 통한 조명 장치와의 통신 및 주소 할당을 개시하지만, '제1 프로토콜을 통해 실행 가능 소프트웨어 명령어를 설치하여 제2 프로토콜 사용 능력 부여'하는 구성은 명시하거나 암시하지 않음. 진보성 판단에서 결합 동기(motivation to combine)의 부재가 반복적으로 강조되었으며, 선행기술 간의 기술적 격차가 존재함. 해당 기능은 단순한 주소 재할당이나 네트워크 식별자를 넘어서는 시스템 수준의 통합으로, 통상의 기술자가 쉽게 도달할 수 없다고 평가됨. 따라서 obviousness 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1 clearly discloses dual-stage communication over ZigBee with configuration-driven capability update. The functional equivalence between address assignment and software-based capability installation, combined with common knowledge of firmware updates in embedded systems, provides strong motivation to combine. The claimed method represents a predictable implementation of known techniques in the art."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "MAC-level protocol use (claims 2,7) is inherent in ZigBee operation, which is explicitly disclosed in the prior art. Device roles (ZED, ZR, ZC) are defined at the MAC layer. No additional inventive step is present."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Physical layer communication via IEEE 802.15.4 is an inherent component of ZigBee. The prior art's wireless communication necessarily involves the physical layer. This limitation does not introduce patentable novelty."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "ZigBee is explicitly listed in claims 4 and 9 and is the sole protocol used in the prior art. Selecting a protocol already in use does not constitute an inventive step."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the predetermined duration upon power-on is not explicitly disclosed, timing-based fallback mechanisms for device commissioning were well-known in ZigBee and similar protocols. The motivation to ensure reliable onboarding while maintaining security post-setup is reasonable. However, the specific implementation timing is not detailed in the reference, introducing some interpretive leeway."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 게이트웨이를 통한 주소 할당 및 통신 설정 기능을 개시하지만, 제1 프로토콜을 통해 실행 가능 소프트웨어를 건물 자동화 장치에 설치하여 제2 프로토콜 통신 기능을 제공하는 구성은 개시하지 않음. 관련 기술 분야에서 이러한 소프트웨어 기반 프로토콜 전환을 제안하거나 동기화하는 명확한 교시가 없으며, 결합 동기(motivation to combine)가 부족함. 진보성 판단에서 confidence가 0.68~0.78 수준으로, 전반적으로 비자명성(non-obviousness)이 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 주소 할당 및 네트워크 식별자 비교에 집중하고 있으며, 실행 가능 소프트웨어 지시문을 통해 장치의 통신 프로토콜 역량을 동적으로 확장하는 기능은 개시하지 않음. 결합 동기 부족하며, 통상의 기술자가 해당 기술을 조합하여 청구항 발명에 도달하기는 자명하지 않음. 진보성 판단의 confidence는 0.65~0.8 수준이나, 핵심 구성요소인 '소프트웨어 설치를 통한 제2 프로토콜 사용 가능하게 함'이 단일 문헌에 개시되지 않았고, 기술적 시사점이나 동기가 명확하지 않아 obviousness 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2012299509-A1) discloses address assignment and communication via ZigBee but does not teach or suggest installing software to enable a new communication protocol. The analysis finds no motivation to combine for protocol capability installation, and the technical effect—dynamic protocol migration in constrained devices—is not routine. Given the lack of explicit teaching and low expectation of software-upgradable communication stacks in building automation devices, the obviousness rejection is not supported with strong evidence. At best, it is a weak 103 position, which does not meet the threshold for rejection under a moderate strictness standard (0.42)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1은 게이트웨이를 통한 빌딩 자동화 장치의 동적 구성, 특히 주소 재할당을 통한 통신 상태 전환을 개시하고 있으며, '소프트웨어 설치를 통한 제2 프로토콜 기능 제공'은 OTA 업데이트 및 펌웨어 다운로드라는 공지상식과 결합 시 명확한 결합 동기가 있음. 통상의 기술자 입장에서 초기 단순 프로토콜로 접속 후 고급 기능을 소프트웨어로 확장하는 것은 시스템 유연성 및 호환성 향상을 위한 설계적 선택으로 자연스러움. Graham 요소 중 선행기술의 범위, 차이점, 기술수준에서 모두 결합의 타당성 있음. confidence 0.73 이상의 거절 근거 다수."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "MAC 및 물리 계층 프로토콜 사용은 ZigBee의 기술적 본질. US-2012299509-A1이 ZigBee 사용을 명시함으로써 IEEE 802.15.4 기반 MAC/PHY 계층 사용은 암시됨. 통상의 기술자에게는 자명한 사항으로, 명시적 기재 없더라도 inherent disclosure로 간주 가능. confidence 0.65~0.7 수준으로 일관됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "ZigBee를 포함한 통신 프로토콜의 열거는 선행기술에 직접 개시됨. 해당 그룹 내 프로토콜 선택은 표준 기술로서 설계 선택에 해당. 산업적 표준화 및 공지성 고려 시 결합 동기 명확."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "컴퓨터 프로그램 제품 및 저장 매체는 소프트웨어 구현의 일반적인 형태. US-2012299509-A1의 소프트웨어 모듈을 저장 매체에 저장하는 것은 통상적인 기술적 표현이나, 발명의 핵심이 소프트웨어 아키텍처에 있지 않다면 형식적 차이로 볼 수 있음. 그러나 본 출원에서 소프트웨어 설치가 핵심 기능이므로, 이에 대한 저장 매체 청구는 자명한 변형으로 보는 것이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 결합 동기 부족, 선행기술과의 중대한 기술적 차이, 그리고 secondary considerations 강조됨. US-2012299509-A1은 소프트웨어 설치를 통한 프로토콜 능력 부여 기능을 개시하지 않으며, 특히 자원 제한 장치에 원격으로 프로토콜 스택을 설치하는 것은 통상의 기술자에게 자명하지 않음. confidence 값은 0.65~0.75 범위이나, 전체적으로 결합 근거가 취약함."
+        }
+      ]
+    }
+  ]
+}

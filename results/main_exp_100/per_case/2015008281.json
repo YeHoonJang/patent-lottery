@@ -1,0 +1,354 @@
+{
+  "case_id": "PILOT-2015008281",
+  "proceeding_number": "2015008281",
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 거절된 청구항에 대해 선행기술과의 결합 동기가 명확히 제시되었으며, 각 차별적 요소(예: 주석에 대한 세분화된 접근 제어, 사용자 생성 주석, 권한 위임, 미디어 유형 확장, 연락처 분류, 아이템 리스트 공유, 동시 표시 등)가 일반 기술자의 관점에서 예측 가능하고 자명한 확장으로 평가됨. combination_threshold=0.34 기준에 비추어도, 공지된 보안 관행, UI 설계 원칙, 협업 시스템의 일반적 기능을 고려할 때 결합 동기의 강도가 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013239021-A1은 그룹 기반 IM 시스템에서 세분화된 활동 모니터링, 세션 참여 제어, 프레젠크 정보 제공을 명시적으로 공개하고 있으며, 이는 접근 제어의 기본을 형성한다. 청구항 38의 '주석 보기 허용/거부' 기능은 이러한 기존 접근 제어 메커니즘의 자연스러운 확장으로, PHOSITA가 정보과부하 및 프라이버시 관리를 위해 설계할 것으로 예상되는 사항이다. 결합 동기(정보 시각화 제어 필요성)가 명확하고, 시스템 구조와 사용자 요구 모두에서 자명하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "주석 기능(청구항 39, 41 등)은 실시간 메시징을 지속적인 디지털 아이템에 적용한 것으로, 협업 플랫폼에서의 맥락 기반 논의 필요성과 일치한다. 선행기술이 텍스트 메시징을 공개하므로, 이를 콘텐츠 연동 주석으로 확장하는 것은 사용자 상호작용 향상을 위한 명백한 디자인 선택이다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "제3자에게 권한 위임(청구항 42, 52)은 접근 제어 시스템에서 흔하지만, 선행기술에 직접적 기재는 없다. 그러나 그룹 관리 및 역할 기반 접근 제어(RBAC)는 네트워크 시스템에서 공지된 개념이며, 협업 환경에서의 관리 효율성이라는 동기가 존재하므로, strictness=0.88인 심사관 기준에서 여전히 obvious로 판단 가능하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "사용자 카테고리화(청구항 45, 55)는 UI 설계의 일반적 관행이나, 선행기술에 명시적 기재는 없음. 그러나 대용량 연락처 관리를 위한 조직적 필요성은 명확하며, '가족', '직장' 등의 그룹 분류는 2000년대 초반 IM 시스템에서 이미 일반화된 기능이었음. 따라서 공지된 UI 패턴으로 간주 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "디지털 아이템이 리스트 형태(청구항 46, 56)라는 점은 데이터 구조 측면에서 자명하며, '즐겨찾기 목록' 공유는 소셜 플랫폼에서 흔함. 선행기술이 정보 공유를 공개하므로, 이를 리스트 구조로 확장하는 것은 자명한 변형으로 간주 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "디지털 아이템과 주석 동시 표시(청구항 47, 57)는 주석 도구에서의 표준 UI 패턴이나, 선행기술이 이를 직접 공개하지는 않음. 그러나 맥락 유지 필요성과 사용자 경험 측면에서 자명한 설계 선택으로 간주 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "이미지, 오디오, 비디오 등 디지털 아이템 유형(청구항 43, 53)은 네트워크 공유 환경에서 극도로 일반적인 매체 유형이며, 선행기술이 일반 컴퓨팅 환경에서 작동함을 고려하면, 이러한 유형에 대한 적용은 자명한 구현 선택이다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 40, 44, 50, and 54 are directly anticipated by US-2013239021-A1, which explicitly discloses instant messaging between group members and presence information (online/offline status) as core functionalities. The disclosure is clear, specific, and enabling, satisfying the anticipation standard under § 102. These are not design choices or implied features but explicitly described elements in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The rejection under 103_obviousness for claims 40, 44, 50, and 54 relies on the combination of known features (instant messaging and presence information) from a single reference, US-2013239021-A1. However, these features are already explicitly anticipated by the prior art, making 102 more appropriate than 103. The conversion from 102 to 103 is not justified because the reference does disclose the features in a single embodiment. Furthermore, the claimed features are narrow and conventional, but since they are fully anticipated, the obviousness rejection is redundant and weaker than a novelty-based rejection. Given that the rest of the claims involve non-obvious, granular annotation access control not taught in the prior art, maintaining an obviousness rejection on these specific claims introduces inconsistency."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 43 and 53 recite common digital media types (image, audio, video, text) that are ubiquitous in digital communication systems. Although US-2013239021-A1 focuses on messaging session metadata, it operates in a context where transmission of such media is routine. The motivation to combine is based on well-known, predictable use of standard content types in networked environments. Given the high level of general knowledge in the art regarding multimedia sharing, the extension to these item types is obvious without requiring inventive insight. This constitutes a strong 103 rejection under KSR rationale of 'simple substitution' or 'predictable use of prior art elements'."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 거절된 청구항에 대해 선행기술 US-2013239021-A1과의 명확한 결합 동기 및 공지기술 기반의 예측 가능성 근거가 제시됨. 특히 접근 제어, 주석 기능, 미디어 유형, UI 디자인 등은 2005년 기준으로 모두 일반화된 기술 트렌드에 부합하며, PHOSITA가 쉽게 결합 가능하다고 판단할 수 있음. 심사관의 strictness 수준(0.82)을 고려할 때, 이러한 수준의 결합 동기와 기술 일반성은 충분히 강력한 거절 근거로 작용함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 40, 44, 50, and 54 are directly anticipated by US-2013239021-A1. The reference explicitly discloses instant messaging (chat sessions) and presence technology indicating online/offline status. These disclosures are clear and unambiguous, satisfying the 102 standard with high confidence (0.95–0.97). The features are not merely suggested but explicitly described in the prior art, making the anticipation strong."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2013239021-A1 discloses elements such as buddy lists, presence information, selective access to activity data, and text-based messaging, it does not explicitly disclose a system where annotations on shared digital items are selectively viewable by certain users while others are denied such access but retain basic access. The reference teaches access control in the context of session initiation and awareness, but not annotation-specific access control. The combination of features is plausible, and motivation to combine could be argued based on privacy and user control, but the specific mechanism of annotating shared digital items with differential view permissions is not clearly derived. Given the broadest reasonable interpretation and the system's focus on messaging context, the obviousness rejection is reasonable but not strongly supported by explicit disclosure or clear technical motivation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013239021-A1 discloses a comprehensive system for managing access to digital interactions (chat sessions) and associated activity metadata, which functions as annotations. The reference explicitly teaches selective visibility of session details (e.g., recent messages, presence status) while maintaining communication access. The claimed method steps are directly aligned with disclosed functionality. Motivation to combine is inherent in user interface design principles for privacy and awareness in real-time communication systems. Confidence in obviousness is high (0.8–0.95), and the structural claims (48, 58) are conventional implementations. Thus, the 103 rejection is strongly supported."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013239021-A1 공개된 존재 기반 메신저 시스템과 사용자 제어 정보 공유 기능은 청구항 38의 핵심 구성요소를 포괄하며, 주석에 대한 접근 제어 분리는 협업 시스템에서의 일반적인 설계 선택으로 간주될 수 있음. 결합 동기와 공지기술 근거가 명확하고, Graham 요소 분석도 충분함. confidence 0.75 이상의 높은 신뢰도를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013239021-A1은 메시징 및 존재 정보 시스템을 개시하며, 청구항의 핵심 요소인 'annotation에 대한 접근 제어'와 '디지털 아이템에 대한 접근 유지'를 부분적으로 지원하지만, '명시적 접근 거부 지시'는 직접적으로 개시하지 않음. 다만, 선행기술의 선택적 정보 제공 기능과 일반 기술자의 지식을 고려할 때, 접근 제어에 '허용'과 '거부'가 모두 포함된다는 점은 자명하다고 판단됨. combination_threshold=0.52 기준에 부합하나, 일부 구성요소는 BRI 범위 내 해석에 의존하므로 강도는 보통임."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013239021-A1 명확히 인스턴트 메시징 및 온라인/오프라인 상태 제공 기능을 개시함. 이러한 기능은 인스턴트 메시징 시스템의 기본 구성 요소로서, 선행기술에 직접적으로 기재되어 있어 결합 동기 없이도 자명함. 신규성 판단에서도 동일한 선행기술에 의해 명백히 예시됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013239021-A1은 인스턴트 메시징 환경에서의 세분화된 접근 제어, 존재 정보, 사용자 활동 보고 기능을 명시적으로 개시하고 있으며, 청구항에 포함된 대부분의 구성요소와 기능을 포괄하고 있음. 청구항 38, 48, 58의 핵심인 '디지털 항목에 대한 접근 허용'과 '주석 보기의 선택적 허용/거부'는 접근 제어 시스템에서 공지된 개념으로, 해당 분야 숙련자의 일반 지식 내에서 예측 가능한 조합으로 간주됨. 결합 동기(motivation to combine)가 명확하고, 2차 고려사항(예: 상업적 성공, 장기 미충족 수요)에 대한 증거도 없어, 명백성에 대한 초기 입증책임(prima facie case)이 성립함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "사용자 주석 기능(청구항 39, 41, 49, 51)은 US-2013239021-A1의 실시간 메시징 기능에, 2005년 이전부터 널리 알려진 사진 태그, 문서 주석 기능을 결합한 것으로, 협업 소프트웨어 분야에서 예측 가능한 발전임. 사용자 코멘트를 디지털 항목에 지속적으로 연결하는 것은 기술적 돌파구 없이도 당업자가 쉽게 도달할 수 있는 사항임."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "인스턴트 메시지 교환 기능(청구항 40, 50) 및 존재 정보 제공(청구항 44, 54)은 US-2013239021-A1의 핵심 기능으로 명시적으로 개시되어 있으며, 해당 기술 분야의 표준 기능임. 따라서 명백성 판단은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "제3자가 접근 권한을 위임하는 기능(청구항 42, 52)은 파일 공유 시스템 등에서 공지된 접근 제어 개념이지만, US-2013239021-A1 자체에는 명시되지 않음. 그러나 네트워크 기반 협업 환경에서의 유사한 요구가 존재했고, 당업자가 이를 결합할 동기가 있음. 다만, 구체적인 구현 방식에 대한 기술적 난이도는 낮으나, 참조 문헌과의 직접적 연결은 약간의 추론을 필요로 하므로 강도는 보통으로 평가."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "디지털 항목이 이미지, 오디오, 비디오 등인 경우(청구항 43, 53)는 2005년 당시 IM 및 온라인 플랫폼에서 이미 일반화된 사실이지만, US-2013239021-A1은 주로 텍스트 기반 메시징에 집중하고 있음. 그러나 멀티미디어 공유는 자연스러운 진화 방향이므로 명백성 판단은 타당하나, 참조 문헌과의 직접적 대응은 약간의 추론 필요."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "통신 정체성의 카테고리화(청구항 45, 55), 디지털 항목이 항목 리스트인 경우(청구항 46, 56), 주석과 항목의 동시 표시(청구항 47, 57)는 모두 2005년 당시 UI/UX 및 데이터 구조 설계에서 공지된 관행이나, US-2013239021-A1에는 명시되지 않음. 그러나 AOL, MSN 등에서 이미 실시된 바 있어, 당업자가 이를 결합할 동기가 있음. 강도는 보통."
+        }
+      ]
+    }
+  ]
+}

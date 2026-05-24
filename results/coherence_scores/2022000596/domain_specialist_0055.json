@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner correctly applies Graham v. John Deere KSR factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) for §103 rejections and element-by-element anticipation logic for §102 novelty findings, using the proper statutory framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout consistently reference specific claim language (e.g., Tg -20°C or lower, 35% low density region, 7.5% void portion), specific prior art disclosures (US-2016237259-A1 claim 7 for Tg range, claim 3 for diene rubbers), and specification passages, satisfying the evidence-linked reasoning requirement."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds claims 9-20 and 24 lack novelty (is_novel: false) citing US-2016237259-A1, but the office action then rejects those same claims only under §103 obviousness while simultaneously stating 'NO REJECTION UNDER 35 U.S.C. § 102' — this inconsistency between the novelty findings and the office action's rejection basis is not explained or justified."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.603 (moderate) and combination_threshold at 0.566 (moderate), the examiner appropriately rejects most composition/tire claims as obvious while allowing the novel X-ray CT method and apparatus claims (21-23), reflecting a balanced, neither overly strict nor lenient disposition consistent with the profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 9-20 and 24 and grant claims 21-23 follows directly and consistently from the accumulated obviousness and novelty analyses across all stages, with stated rationale linking prior art teachings to each claim decision."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000596",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12201,
+      "output_tokens": 463,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

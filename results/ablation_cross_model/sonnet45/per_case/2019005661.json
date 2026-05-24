@@ -1,0 +1,475 @@
+{
+  "case_id": "2019005661",
+  "proceeding_number": "2019005661",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.2857142857142857,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            5,
+            7,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1은 청구항 1, 3, 5, 7, 16의 모든 구성요소를 명시적으로 개시합니다. Coverage scores 0.68-0.78, similarity scores 0.66-0.85로 높습니다. 여행 최적화 시스템과 영업 방문 시스템은 기술적으로 동일한 문제(제한된 시간/거리 내 복수 위치 방문)를 해결하며, 용어 차이('trip items' vs 'customers')는 BRI 하에서 실질적 차이가 아닙니다. 선행기술은 geographic parameters, filter parameters, database access, customer identification, route generation을 모두 개시합니다. Anticipation 요건 충족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            4,
+            6,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 2, 4, 6, 8, 9, 11, 12, 13, 14, 15는 US-2013268886-A1의 명시적 교시에 공지기술(map APIs, distance-time conversion, spatial indexing, shortest path algorithms, multi-objective optimization, threshold filtering, priority scheduling, summation, lead scoring)을 결합한 것입니다. KSR 원칙에 따라 공지 요소들의 예측 가능한 결합은 자명합니다. 각 청구항에 대해 구체적인 선행기술 인용, 결합 동기, Graham factors 분석이 제공되었습니다. Combination threshold 0.34를 초과하는 명확한 동기(효율성 개선, 사용자 경험 향상, 영업 성과 극대화)가 존재합니다. 2012년 시점에 이러한 기술들은 모두 공지되어 통상의 기술자가 routine engineering으로 구현 가능했습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 10(IRR as unique attribute)은 In re Dillon 법리에 따라 공지된 속성 범주(financial metrics)에서 구체적 종(IRR)을 선택한 것으로 분석되었으나, 선행기술이 IRR을 명시적으로 시사하지 않고 명세서도 IRR의 장점을 설명하지 않습니다. Confidence 0.71로 낮습니다. 그러나 IRR, ROI, NPV, CLV 등은 2012년 시점에 영업/재무 분야에서 고객 가치 평가에 널리 사용된 유한한 대안들이며, 시간 가치를 고려하는 IRR 선택은 예측 가능합니다. Strictness 0.79 하에서 moderate 근거도 거절로 판단합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 3, 5에 대한 102 거절은 US-2013268886-A1이 청구항의 핵심 요소들을 개시한다고 주장하나, 'geographic boundary for prospect tour'와 'customer database access'는 명시적 개시가 아닌 inherent disclosure 주장에 의존합니다. 'trip calendar'을 'travel route'와 기능적으로 동일하다고 보는 해석은 BRI 하에서도 다소 넓은 해석입니다. Coverage_score 0.35는 단일 선행기술로 모든 구성요소를 명시적으로 커버하지 못함을 시사합니다. 그러나 strictness=0.88 기준으로 볼 때, 선행기술이 핵심 개념(지리적 필터링 + 경로 생성)을 충분히 시사하고 있어 anticipation 가능성을 배제할 수 없습니다. Moderate strength로 평가하되, 엄격한 성향 반영 시 거절 유지가 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항(1-16)에 대한 103 거절은 매우 강력한 근거를 갖추고 있습니다. (1) US-2013268886-A1과 US-2011258081-A1의 결합은 명확한 동기(영업 효율성 향상)를 가지며, KSR 기준의 multiple rationales(obvious to try, simple substitution, predictable results)로 뒷받침됩니다. (2) Graham 4요소가 철저히 분석되었고, PHOSITA의 지식 수준이 구체적으로 정의되었습니다. (3) Claims 4, 6-16의 추가 한정사항들(maximum drive distance, geographic boundary, drive times/distances, shortest route, customer ranking, value maximization 등)은 모두 공지 기술의 자명한 적용 또는 common general knowledge로 설명됩니다. (4) Combination_threshold=0.34는 낮은 기준으로, 영업 경로 최적화라는 공지의 목적을 달성하기 위한 결합 동기는 common sense 수준에서 인정됩니다. (5) TSP, VRP, GIS, mapping APIs, CRM financial metrics 등 well-established technologies의 적용은 예측 가능한 결과를 산출합니다. Verification_status: PASS로 103 근거가 검증되었습니다. Strong rejection 유지가 타당합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013268886-A1과 US-2011258081-A1은 각각 여행 계획 시스템과 영업 자동화 시스템을 개시하나, 본 발명의 핵심 구성요소인 지리적 경계 결정, 고객 필터링, 영업 투어 경로 최적화의 통합적 조합을 명시적으로 개시하지 않음. Coverage scores가 0.2~0.4 범위로 낮고, 대부분 implicit 매칭에 그침. 102 거절 근거는 매우 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "combination_threshold=0.68로 높은 기준이 적용되는 상황에서, 두 선행기술(여행 계획 vs 영업 자동화)은 서로 다른 기술 분야와 목적을 가짐. 이들을 결합하여 지리적 파라미터 기반 영업 투어 최적화 시스템을 구성한다는 명시적 교시나 동기가 선행기술에 없음. 개별 요소들(지도 표시, 시간 제약 등)이 공지기술일 수 있으나, 본 발명의 특정한 통합적 조합은 선행기술에서 예측 불가능함. 103 거절 근거도 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 지리적 검색 파라미터, 고객 필터 파라미터, 데이터베이스 접근, 최적 경로 생성 등 청구항의 주요 구성요소들을 충분히 뒷받침함. Claim 8의 오타('stating location' → 'starting location')는 objection 사항이나 거절 근거는 아님. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들은 컴퓨터화된 투어 최적화 시스템이라는 기술적 해결책에 관한 것으로, 프로세서, 메모리, 데이터베이스, 지리적 경계 결정 알고리즘 등 구체적 기술적 요소들을 포함함. Abstract idea를 넘어 significantly more를 제공함. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 분석 결과, 모든 청구항에 대해 anticipating_refs가 비어있으며 단일 선행기술이 모든 구성요소를 개시하지 못합니다. US-2013268886-A1과 US-2011258081-A1은 개별 요소들을 부분적으로 개시하지만, 지리적 경계 설정 + 고객 필터링 + 영업 투어 경로 최적화의 통합 시스템은 어느 단일 선행기술도 개시하지 않습니다. Coverage scores가 0.2-0.4 범위로 낮으며, 특히 핵심 요소인 지리적 경계 결정(청구항 6), 최대 주행 거리(청구항 4), IRR 데이터 사용(청구항 10) 등은 선행기술에서 전혀 개시되지 않았습니다. 102 거절 근거는 매우 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "결합 동기 분석 결과, US-2013268886-A1(개인 여행 계획)과 US-2011258081-A1(영업 프로세스 자동화)을 결합하여 지리적으로 최적화된 영업 투어 시스템을 구성할 명시적 교시나 시사가 선행기술에 없습니다. 두 선행기술은 서로 다른 기술 분야와 목적을 가지며(여행자 개인 선호 vs. 영업 프로세스 관리), 이들을 결합하는 것은 후지식 편향 없이는 자명하지 않습니다. Combination_threshold=0.72로 높은 기준이 적용되며, 명시적 결합 동기가 요구됩니다. 선행기술에서 지리적 경계 설정, 고객 속성 기반 필터링, 투어 경로 최적화를 통합할 동기가 제시되지 않았습니다. 특히 청구항 10(IRR 데이터), 청구항 13(총 prospect 가치), 청구항 15(속성-가치 수치 매핑) 등은 선행기술에서 전혀 교시되지 않은 새로운 개념입니다. 103 거절 근거는 약합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action 분석 결과, 명세서가 모든 청구항 요소에 대해 적절한 written description과 enablement를 제공한다고 명시되어 있습니다. 'prospect tour,' 'geographic boundary,' 'customer filter parameter,' 'prospect value' 등의 용어가 명세서에 충분히 뒷받침되며, 해당 분야의 통상의 기술자가 영업 경로 최적화 시스템의 맥락에서 이해할 수 있다고 판단됩니다. 112 거절 근거는 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들은 지리적 검색 파라미터, 고객 필터 파라미터, 데이터베이스 접근을 통합한 구체적인 시스템 및 방법을 청구하며, 추상적 아이디어에 해당하지 않습니다. 청구항은 영업 경로 최적화라는 기술적 문제에 대한 구체적 기술적 솔루션을 제공하며, 단순한 비즈니스 방법이 아닌 컴퓨터 시스템의 기능적 개선을 제공합니다. Alice/Mayo 테스트를 통과할 것으로 판단되며, 101 거절 근거는 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013268886-A1은 여행 계획 시스템을 개시하지만, 청구항 1의 핵심 요소인 'prospect tour'(영업 투어)와 'customer'(고객) 개념과는 domain이 다릅니다. 선행기술은 'trip items'(여행 항목)을 다루지만, 이것이 영업 고객 방문 경로와 동일하다고 보기는 어렵습니다. 특히 element 1f(travel route generation)의 similarity가 0.55로 낮고 is_covered=false로 표시되었습니다. 그러나 strictness=0.89 기준에서는 유사성이 보이면 거절을 유지하는 편이므로, 기술적 구성요소의 중첩(geographic parameters, database access, filtering, route generation)을 근거로 102 anticipation을 인정할 수 있습니다. 다만 domain 차이로 인해 strong보다는 moderate 강도입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1(여행 계획)과 US-2011258081-A1(영업 자동화)의 결합은 명확한 동기를 가집니다. 두 문헌 모두 제공되었고, combination motivation이 논리적으로 설명되었습니다: 영업 담당자가 여행자와 동일한 지리적/시간적 제약을 가지므로, 여행 최적화 기술을 영업 경로에 적용하는 것은 자명합니다. KSR 기준(familiar elements, known methods, predictable results)을 충족합니다. Claims 1-9는 모두 이 결합으로 obvious하다고 판단되었으며, 구체적인 근거(maximum drive distance는 표준 제약, geographic boundary는 routine GIS, shortest route는 well-known TSP, attribute-based optimization은 multi-criteria VRP)가 제시되었습니다. Combination_threshold=0.45로 낮은 기준을 적용하면 이는 strong obviousness case입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "102 거절은 단일 선행기술에 의한 anticipation을 요구하나, 본 거절은 US-268886과 US-258081의 '조합'에 의존합니다. 102는 조합 이론을 허용하지 않으므로, 이 거절은 법적 근거가 약합니다. 단, 개별 청구항(3, 5, 7)에 대해서는 US-268886 단독으로도 anticipation 가능성이 있으나, 전체적으로 102 거절은 과도합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-268886의 여행 계획 기술(지리적/속성 기반 필터링, 이동 시간 고려)과 US-258081의 판매 자동화 시스템을 결합하는 동기는 명확합니다(판매 효율성 향상). 두 선행기술은 모두 2011-2013년 출원으로 시기적으로 근접하며, 결합이 예측 가능한 결과를 낳습니다. Claims 1-9, 11-16의 대부분 요소가 선행기술 조합 또는 공지기술로 커버됩니다. Claim 10(IRR)만 선행기술에서 개시되지 않아 non-obvious로 판단됩니다. Combination_threshold=0.51 기준으로, 본 조합은 threshold를 충분히 초과하는 명확한 동기와 예측 가능성을 갖습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013268886-A1은 여행 계획 시스템으로 청구항 1의 고객 투어 최적화 시스템과 기능적 유사성이 높습니다. 그러나 적용 도메인(여행 vs. 판매)의 차이와 'prospect tour'라는 특정 용어의 부재로 인해 완전한 anticipation이라고 보기에는 약간의 해석 여지가 있습니다. 선행기술은 '고객 투어 경로'가 아닌 '여행 일정'을 생성하며, 판매 맥락에서의 고유한 요구사항(예: 판매 기회 최적화)을 명시적으로 다루지 않습니다. Coverage score 0.6도 이러한 부분적 매칭을 반영합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1 claim 6이 'start time, end time'을 명시적으로 개시하며, 이는 투어 완료 시간과 직접적으로 대응됩니다. 이 거절 근거는 강력합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1과 US-2011258081-A1의 결합은 명확한 동기를 가지며, 여행 계획 기술을 판매 경로 최적화에 적용하는 것은 2012년 시점에서 예측 가능한 설계 선택입니다. 두 기술은 모두 지리적 최적화 및 스케줄링을 다루며, 기술적 호환성이 높습니다. 청구항 6-9, 11-16의 추가 요소들(지리적 경계, 타임라인, 최단 경로, 속성 기반 최적화, 가치 합산 등)은 모두 경로 계획 분야의 공지된 기법이거나 선행기술의 자명한 확장입니다. combination_threshold=0.46은 이러한 결합을 허용하는 수준입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 2의 지도 표시는 2012년 시점의 표준 UI 기능이며, 청구항 3의 출발 위치는 경로 계획의 필수 요소이고, 청구항 4의 거리 제약은 시간 제약의 자명한 변형입니다. 모두 강력한 obviousness 근거를 가집니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1 provides explicit and detailed teachings for all rejected claims. Claim 2 (map display): explicitly taught by 'visual representation of the trip' - similarity 0.75, explicit match. Claim 3 (starting location): explicitly taught by 'start time and location attributes of trip' - similarity 0.8. Claim 4 (maximum drive distance): taught by 'traveling time between locations' for feasibility - similarity 0.65, reasonable implicit teaching. Claim 5 (time available): explicitly taught by 'start time, an end time' - similarity 0.85. Claim 7 (multiple customers with drive times): explicitly taught by 'using the traveling time between the locations of two events' and trip calendar with scheduled items - similarity 0.7-0.8. All features are conventional applications of known trip planning concepts to sales context. Combination motivation is straightforward - applying trip optimization to sales territory management. No inventive insight required."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "weak",
+          "reasoning": "Prior art fails to teach critical limitations. Claim 1: geographic boundary determination for prospect tour (element 1c) and prospect tour generation with defined route (elements 1h, 1i) not disclosed - coverage 0.65 with key elements uncovered. Claims 6, 8-16 have similar missing teachings: geographic boundary calculation (claim 6), shortest route optimization (claim 8), attribute-based route optimization (claim 9), IRR financial metrics (claim 10 - coverage 0.0), threshold filtering (claim 11), visit sequence optimization (claim 12), total prospect value calculation (claims 13-14 - coverage 0.2), numerical value mapping (claim 15 - coverage 0.35). References serve different purposes (leisure travel vs. sales optimization) with no motivation to combine disparate fields. Missing teachings are substantive, not mere design choices."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1-9, 11-16: The combination of US-2013268886-A1 (travel planning) and US-2011258081-A1 (sales automation) provides a logical foundation for obviousness. The '886 reference teaches geographic-based selection, attribute filtering, and route generation for trip planning. The '081 reference teaches sales force automation. The motivation to combine—applying geographic optimization to sales route planning to improve productivity—is rational and aligns with known objectives in the field. However, the strength is 'moderate' rather than 'strong' because: (1) The '886 reference is in a different domain (personal travel vs. sales visits), requiring cross-domain adaptation; (2) The specific concept of 'prospect tour' with customer filtering based on sales metrics is not explicitly taught; (3) Some elements (e.g., geographic boundary determination for customer selection, timeline with drive times/distances) require extrapolation from general trip planning concepts. The combination relies partly on hindsight reconstruction. Given my strictness=0.46 (slightly below neutral), I recognize that the combination is plausible but not compelled by the prior art. The references provide building blocks, but the specific application to prospect tour generation represents a non-trivial adaptation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 10 (IRR-based attribute): The rejection relies on 'common knowledge regarding financial metrics' rather than explicit prior art disclosure. While IRR is a known financial metric, the application of IRR specifically to optimize sales visit routes is not taught in the cited references. The '886 reference teaches general attribute-based matching, and the '081 reference teaches sales automation, but neither suggests using financial return metrics like IRR for route optimization. The leap from general attribute filtering to IRR-based customer prioritization in route planning is not obvious without hindsight. This represents a creative integration of financial analysis with geographic optimization that is not suggested by the prior art. The motivation to combine is asserted ('maximizing ROI is a fundamental business objective') but not substantiated by the references. Given my strictness=0.46 and the lack of explicit teaching, this rejection is weak and should be withdrawn."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection combines US-2013268886-A1 (travel planning) with US-2011258081-A1 (sales automation). While both references exist and cover related domains, the strength of the combination requires careful evaluation. The '886 reference teaches generic trip planning with geographic parameters, attribute-based item selection, and route visualization. The '081 reference teaches sales force automation but lacks specific disclosure of geographic route optimization. The motivation to combine relies on: (1) '081's mention of geographic challenges faced by sales associates, (2) general benefit of applying travel planning to sales, and (3) both being computerized business systems. However, the claims specify 'prospect tour' with unique elements like geographic boundary determination for customer selection (claim 6), IRR-based optimization (claim 10), prospect value maximization (claims 13-14), and threshold-based customer filtering (claim 11). These are not explicitly taught in either reference. The combination_threshold=0.33 allows obviousness based on design choices or common knowledge, but the question is whether the specific application to sales 'prospect tours' with customer value optimization represents more than routine adaptation. The examiner's reasoning relies heavily on: (a) applying known travel optimization to sales domain is obvious, (b) using financial metrics like IRR is common knowledge, (c) threshold filtering and ranking are routine techniques. This is plausible but involves multiple inferential steps. At strictness=0.50 (neutral), moderate-strength 103 grounds deserve careful scrutiny of whether the combination truly renders the claims obvious or whether the specific integration represents non-obvious innovation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 분석 결과 모든 청구항(1-16)이 신규성을 가지는 것으로 판단되었다. US-2013268886-A1은 여행 계획 시스템으로 판매 투어 최적화와는 다른 기술 분야이며, US-2011258081-A1은 지리적 경로 생성 기능이 없다. 어떤 선행기술도 청구항의 모든 구성요소를 개시하지 않으므로 102 거절 근거는 없다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석 결과 모든 청구항이 비자명한 것으로 판단되었다. 선행기술의 결합 동기가 불명확하다: (1) US-2013268886-A1의 여행 계획 기능을 판매 투어에 적용할 명시적 교시가 없음, (2) US-2011258081-A1은 지리적 최적화 기능을 제공하지 않음, (3) combination_threshold=0.44로 명시적 교시나 시사가 필요한데 선행기술에서 이러한 결합을 제안하는 내용이 없음. 청구항의 특정 조합—지리적 파라미터 기반 고객 선택, 필터 파라미터, IRR 데이터, prospect 가치 최대화—은 선행기술에서 자명하지 않다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 1과 16의 용어 불일치('customer filter parameter' vs 'prospect filter parameter')가 지적되었으나, 이는 명세서 맥락에서 동일 개념으로 이해 가능하므로 112(b) indefiniteness 거절 수준은 아니다. 청구항 8의 오타('stating location' vs 'starting location')도 맥락상 명확하므로 거절 근거 미약. Objection 수준으로만 처리됨."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "101 eligibility 이슈는 제기되지 않았다. 청구항은 구체적인 기술적 구현(지리적 경계 결정, 경로 생성, 타임라인 계산)을 포함하므로 abstract idea 문제 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "신규성 분석에서 모든 청구항(1-16)이 선행기술에 의해 anticipate되지 않음을 확인. US-2013268886-A1은 개인 여행 계획 시스템으로 판매 고객 투어와 기술 분야 및 목적이 상이하며, 핵심 요소인 '지리적 경계 결정', '고객 속성 기반 투어 생성', '출발-종료 경로 정의' 등이 명시적으로 개시되지 않음. US-2011258081-A1은 판매 프로세스 자동화만 다루며 지리적 경로 최적화 요소 전혀 미개시. Coverage score가 대부분 0.1-0.4로 낮고 핵심 요소들이 is_covered=false. 신규성 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항이 비자명하다고 판단되었으나, 일부 청구항(2, 3, 5, 7, 9, 12, 14)의 confidence가 0.6-0.7로 moderate 수준. 그러나 결합 동기 분석 결과: (1) US-2013268886-A1(개인 여가 여행)과 US-2011258081-A1(판매 프로세스)은 기술 분야와 해결 과제가 상이하여 결합 동기 불명확. (2) 핵심 기능인 '지리적 경계 결정'(청구항 1, 6), '최대 운전 거리'(청구항 4), 'IRR 기반 최적화'(청구항 10), '총 가치 최대화'(청구항 13-15) 등은 선행기술 조합으로 도출 불가. (3) combination_threshold=0.52는 명시적 교시를 요구하나 선행기술에 이러한 교시 없음. 일부 청구항의 confidence가 낮으나, 결합 동기 부재와 핵심 기능 미개시로 인해 자명성 거절 근거는 weak로 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않아 상세한 112 분석은 제한적이나, abstract와 detailed description이 시스템 아키텍처, 지리적 파라미터, 고객 필터, 투어 생성, 경로 최적화 등 청구항의 주요 요소를 뒷받침한다고 분석됨. Office Action에서도 'adequate written description and enablement'로 판단. 용어 일관성 문제(customer filter parameter vs. prospect filter parameter)가 objection으로 언급되었으나 indefiniteness 수준은 아니라고 명시. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항 1은 특정 컴퓨터 시스템(processor, memory, instructions)과 구체적 기능(파라미터 수신, 데이터베이스 접근, 고객 식별, 투어 경로 생성)을 청구. Office Action에서 '판매 대표 경로 최적화라는 기술적 문제에 대한 기술적 해결책(technological solution to a technical problem)'으로 판단. Abstract idea가 아닌 '컴퓨팅 기술의 특정 적용(specific application of computing technology)'으로 평가. 지리적 경계 결정, 경로 최적화 알고리즘 등 기술적 요소 통합. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013268886-A1이 청구항 1, 2, 3, 5, 16의 구성요소를 개시하나, 여행 계획과 영업 투어는 용도가 다릅니다. 'trip items'를 'customers'로, 'trip'을 'sales tour'로 해석하는 것은 일정한 추론을 요구합니다. 명세서 전체(full text)가 제공되지 않아 청구항 용어의 정확한 범위를 확인하기 어렵습니다. 지도 표시(claim 2)는 'visualize'로부터 암묵적 개시로 보았으나, 명시적 개시는 아닙니다. 단일 문헌 anticipation은 모든 요소가 명시적으로 개시되어야 하므로, 이 해석에는 moderate한 강도의 근거만 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1과 US-2011258081-A1의 결합은 명확한 동기가 있습니다. 여행 계획 기술을 영업 투어에 적용하는 것은 통상의 기술자에게 자명한 설계 선택입니다. Claim 4(최대 운전 거리), 7(타임라인), 8(최단 경로), 9(속성 기반 최적 경로), 12(순위 기반 방문 순서), 14(영업 기회 극대화)는 모두 공지기술의 예측 가능한 적용 또는 결합입니다. 결합 동기가 논리적이고 증거가 충분합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 2 (map display): 지도상 경로 표시는 2012년 당시 공지기술이지만, prospect tour라는 특정 맥락에서 자명성 판단은 해석의 여지가 있음. 증거는 있으나 단순한 표시 방법 선택으로 볼 수도 있음. Claim 3 (starting location): 출발 위치 지정은 경로 계획의 기본 요소이나, 이를 검색 매개변수로 포함하는 것이 자명한지는 논란의 여지 있음. US-2013268886-A1이 위치 정보를 다루지만 영업 투어 맥락과는 다름. Claim 8 (shortest route): 최단 경로 알고리즘은 공지기술이지만, 청구항 7의 시스템에 이를 적용하는 것이 단순한 설계 선택인지 아니면 새로운 응용인지는 해석 가능. 전반적으로 증거는 존재하나 결합 동기가 명시적이지 않아 moderate 수준."
+        }
+      ]
+    }
+  ]
+}

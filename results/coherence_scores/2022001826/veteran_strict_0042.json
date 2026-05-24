@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies §103 obviousness under the Graham/KSR framework, explicitly addressing scope and content of prior art, differences between claims and prior art, PHOSITA level, and secondary considerations for each claim, without conflating with §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the novelty, obviousness, office action, and final decision stages are grounded in specific claim language (e.g., 'private/non-private portions,' 'masking instructions,' 'virtual coordinates') and specific prior art disclosures from US-2013167249-A1 (e.g., 'dynamically redacting private data,' 'linked user-support login name')."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained: claims found not novel (1, 2, 8, 9, 14, 15, 18, 19) are carried forward as §103 rejections with additional rationale, claims found novel (3, 4, 5, 6, 7, 16, 17, 20) are consistently treated as allowable or amend-suggested in the office action and final decision, with no unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.793 and combination_threshold of 0.335, the examiner leans toward rejection on ambiguous evidence (e.g., claims 2, 9, 19 where prior art coverage is partial) and accepts weaker motivation to combine (e.g., GUI layers, context-based identification treated as obvious design choices), consistent with the strict/easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1, 2, 8–15, 18, 19 and suggest amendment for claims 3–7, 16, 17, 20 directly follows from the accumulated §102 and §103 stage analyses, with the summary and claim-by-claim decisions explicitly referencing the prior stage reasoning without unexplained reversals."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001826",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18295,
+      "output_tokens": 502,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

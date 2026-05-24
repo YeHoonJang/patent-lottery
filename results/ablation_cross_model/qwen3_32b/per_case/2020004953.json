@@ -1,0 +1,316 @@
+{
+  "case_id": "2020004953",
+  "proceeding_number": "2020004953",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art US-2014180715-A1 is cited as anticipating all elements of claims 1 and 8. While the reasoning clearly maps the prior art to the claimed method, the confidence level of 0.8 suggests that the anticipation is not absolute. Given the moderate strength of the novelty rejection and the applicant's strictness parameter of 0.29, which favors the applicant in cases of uncertainty, the rejection may be reconsidered or amendments suggested."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The Office Action clearly states that all claims 2-14 are rejected under 35 U.S.C. § 102(a)(1) as anticipated by US-2014180715-A1. Each claim is explicitly rejected with verification status 'PASS' and detailed reasoning showing how the cited reference anticipates the claimed features."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1이 청구항 1의 대부분의 구성요소를 암시적으로 개시하며, 차이점은 통상의 기술자에게 자명한 설계 선택으로 간주됩니다. 결합 동기는 온라인 서비스 시장의 효율성 향상으로 명확합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1이 청구항 1의 구성요소를 실질적으로 동일하게 개시하여 신규성을 결여합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서에서 뒷받침이 불분명한 112 거절은 검증 단계에서 제거되었으며, 청구항의 용어 해석에 대한 명확성은 충분한 증거가 제공되지 않았습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1이 청구항 2,3,5,6,7,8,9,10,12,13,14의 모든 요소를 명시적으로 개시하거나 암시적으로 포함하고 있음. 제공된 분석에 따르면 청구항 요소들이 선행기술에 의해 직접적으로 개시됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014180715-A1이 청구항 2-14의 모든 요소를 암시적으로 포함하고 있으며, 결합 동기가 합리적으로 제시됨. 그러나 청구항 4 및 11은 허용 가능한 것으로 나타나므로 일부 청구항에 대해서는 증거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2014180715-A1 disclosing the core functionality of the claimed invention. The combination threshold is 0.22, which is below 0.4, suggesting that the differences between the prior art and the claimed invention are minimal and would be considered routine modifications by a person of ordinary skill in the art. However, the reasoning relies on common sense and design choices, which may be subject to interpretation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The 112 rejection is based on the core terms 'structured information' and 'meeting activity' not being explained in the specification and the scope of the claims exceeding the examples provided. This is a strong rejection as it directly relates to the requirements of 35 USC 112(a) and (b) for written description and enablement."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 대부분의 구성요소를 암시적으로 개시하지만, 결합 동기와 구체적인 구현 방식에 대한 명확한 증거가 부족합니다. 통상의 기술자가 선행기술을 결합하여 청구항의 기술을 도출할 수 있었는지에 대한 판단에는 여전히 해석의 여지가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1이 청구항의 구성요소들을 암시적으로 개시하고 있으며, 해당 분야의 통상의 지식을 가진 자가 쉽게 결합할 수 있는 것으로 판단됩니다. 결합 동기가 명확하게 제시되어 있고, 청구항의 구성요소들이 선행기술과 유사하여 obviousness 거절 근거가 강합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2014180715-A1이 제공되었지만, 단일 문헌이 모든 청구항 요소를 개시하는지에 대한 구체적 근거가 명시되지 않았습니다. 일부 청구항 요소들이 암시적으로 개시된다고 판단되지만, 명확한 증거가 부족하여 novelty 거절 근거는 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art teaches a method for conducting virtual consultations with specialists that includes prompting selection of meeting types, entering structured information, transmitting quotes, enabling customer acceptance with additional information, allowing modification of details, and transmitting confirmation notifications. The motivation to combine is to improve efficiency and user experience, but the differences between the prior art and the claimed invention are considered minor and within routine skill. Given the moderate strictness parameter (0.42), the evidence supports a moderate strength of the obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The US-2014180715-A1 reference explicitly discloses all the elements of the claims, including prompting professionals to enter structured information, displaying graphical interfaces, and transmitting notification messages. The motivation to combine is clear and based on standard design choices in the field, making the rejection strong."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'best suited to do the job' is subjective and lacks specific criteria in the specification. While the issue is valid, the strength depends on whether the applicant can provide clarification or examples in a response."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1이 청구항의 모든 요소를 암시적으로 개시하고 있으며, 유사성 점수와 커버리지 점수가 높아, 청구항이 신규성을 갖지 않는 것으로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서가 'structured information' 및 'automatically'와 같은 용어에 대한 구체적인 설명을 제공하지 않아, 청구항의 범위가 명확하지 않음. 그러나 이는 명세서의 부족한 설명에 기반하므로, 출원인이 명확히 보완하면 개선 가능."
+        }
+      ]
+    }
+  ]
+}

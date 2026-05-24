@@ -1,0 +1,323 @@
+{
+  "case_id": "2018002356",
+  "proceeding_number": "2018002356",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항의 모든 요소를 개시하고 있으며, 유사도 점수가 0.6 이상으로 명확히 신규성이 부정된 것으로 판단됩니다. 이는 강한 거절 근거로 간주됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았거나, 명세서 내에서 구체적 근거가 제공되지 않아 112 기재요건 거절을 유지하기 어렵습니다. 이는 증거 부족으로 인해 약한 거절 근거로 간주됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항 1의 핵심 요소를 개시하고 있으나, 용어 차이가 존재하며, 기술적 구현 방식의 본질적 차이가 명확하지 않음. 통상의 기술자가 이를 자명한 변형으로 볼 수는 있으나, 혁신성을 완전히 배제하기는 어렵다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 22, 6, 14, 23, 32, 38, 48, 36, 42, 44, 45에 대한 모호성은 명세서의 부재 또는 불충분한 정의로 인한 것으로, 이는 기술적 기여 자체의 문제보다는 청구항 표현 문제로 판단되어 출원인에게 유리하게 처리 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art US-2012296725-A1 is cited for all claims and is interpreted to implicitly cover the claimed elements. The confidence levels are mostly moderate (0.6-0.7), suggesting that the prior art does not explicitly disclose the claims but is interpreted to implicitly cover them. This is a borderline case where the interpretation is not definitive but leans toward anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 모든 청구항의 구성요소를 개시하며, 각 청구항에 대한 confidence 점수가 0.8 이상으로 높음. 청구항의 요소들이 선행기술에 의해 명확히 개시되었음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서의 부족한 기재가 지적되었으나, verification 단계에서 근거가 불충분하다고 평가됨. 구체적인 모호성 사례가 명시되지 않아 명확한 거절 근거로 보기 어렵고, 보정이 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항의 모든 구성요소를 암시적으로 개시하고 있으며, confidence 0.82로 높은 확신 수준"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 특정 용어가 충분히 설명되지 않았다는 점은 인정되나, 이는 보정으로 해결 가능한 문제"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항의 핵심 기능을 개시하고 있으며, 결합 동기와 예측 가능성이 제시됨. 그러나 구체적인 구현 차이가 존재하고, 일부 청구항은 허용됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 모든 청구항의 구성요소를 암시적으로 개시하고 있으며, 제공된 신규성 판단의 confidence 점수가 상당히 높은 수준(0.575~0.75)을 보이고 있습니다. 이는 청구항이 선행기술에 의해 완전히 개시되었음을 강하게 암시합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The provided Office Action cites a specific prior art reference (US-2012296725-A1) and explains how it anticipates the claims. The confidence scores for most claims range from 0.65 to 0.8, indicating a strong anticipation by the prior art. Since a specific prior art reference is provided and the reasoning connects it to the claimed elements, this 102 rejection is valid under the strict verification criteria."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the prior art (US-2012296725-A1) and the motivation to combine. While the prior art covers the core elements of the claims, the confidence levels vary between 0.5 and 0.8. Some claims have lower confidence (e.g., 0.5 for claims 8 and 16), suggesting the rejection may not be as strong for those claims. Given the strictness of 0.52, the 103 rejection is moderate in strength."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1는 청구항의 핵심 요소들을 명확히 개시하고 있으며, 제공된 confidence 점수가 높아(평균 0.82), 신규성 부정의 근거가 강합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "112 거절의 근거가 명세서 기재 여부에 대한 구체적인 근거 없이 일반적인 지적이며, 명세서가 제공된 상황에서 이는 약한 근거로 판단됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항 1의 구성요소를 개시하고 있으며, 결합 동기가 시장 수요와 사용자 경험 개선을 기반으로 명확히 제시됨. 그러나 유사성 점수는 0.7~0.85 범위이며, 전체 coverage score는 0.78로 신규성 판단에서도 기존 기술과 유사함을 나타냄. 이는 선행기술과의 차이가 미미할 수 있으나, 결합의 동기와 선행기술의 기재가 명확하기 때문에 진보성 거절 근거는 중간 수준의 강도를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항의 주요 요소를 이미 제시하고 있으며, 거래 세부 정보를 결제 코드에 인코딩하는 것은 통상의 기술자에게 자명한 설계 선택으로 간주됩니다. 결합 동기는 이동 결제 시스템의 효율성 향상을 위한 것으로 논리적입니다. 그러나 청구항의 특정 구현 방식에 대한 추가적인 구체적인 설명이 없어 근거의 강도는 중간 수준입니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항의 주요 구성요소인 결제 코드 읽기, 거래 세부 정보 요청, 결제 옵션 표시 및 결제 처리를 포함하고 있습니다. 그러나 유사성 점수가 완벽하지 않아 완전한 동일성은 입증되지 않았습니다. 이에 따라 근거의 강도는 중간 수준으로 평가됩니다."
+        }
+      ]
+    }
+  ]
+}

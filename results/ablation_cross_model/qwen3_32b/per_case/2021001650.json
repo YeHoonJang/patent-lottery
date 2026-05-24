@@ -1,0 +1,323 @@
+{
+  "case_id": "2021001650",
+  "proceeding_number": "2021001650",
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2014188999-A1) is cited for anticipation, but many rejections rely on 'obvious variant' or 'implicit disclosure' reasoning. While the strictness threshold supports rejecting claims with moderate confidence, the explicit/implicit distinction and variant interpretations may require further scrutiny to confirm full anticipation under 102(a)(1)."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014188999-A1은 차량 상태 정보 전송 시스템을 개시하지만, 디지털 미디어 파일을 사용한 손상 평가라는 구체적 기술은 포함하지 않음. 그러나 이미지 기반 평가가 통상 기술자에게 자명하다는 주장은 일정 수준의 설득력이 있으나, 결합 동기의 명확성과 구체적 기술의 차이로 인해 강도는 중간 수준"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 6, 13, 18에 대해 '권한이 차량 소유자임'이라는 요소가 선행기술에서 명시적으로 개시됨. 유사도 0.7로 직접적인 개시로 판단되며, 이는 명확한 신규성 부정의 근거"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The combination_threshold (0.68) is not met for most claims, and the prior art does not provide explicit motivation to combine the disclosed elements. The claims introduce novel features not directly suggested by the prior art, such as camera integration for digital media acquisition and structured service response selection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are considered novel as the prior art (US-2014188999-A1) does not explicitly disclose the specific features of the claims, particularly the integration of cameras for media acquisition, communication of digital media files to the owner system, and structured service response selection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claim 1 is based on the prior art reference US-2014188999-A1, which teaches a system for providing vehicle status to a mobile computing device. While the prior art does teach similar elements, the confidence level is only 0.7, indicating that the rejection is not entirely certain. Given my strictness level of 0.29, I would be more inclined to consider the applicant's technical contribution before rejecting the claim."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014188999-A1이 청구항의 대부분을 포함하고 있으나, 일부 요소는 암시적 개시에 기반한 해석이 필요함. 결합 동기는 명확하지만, 청구항의 구체성과 선행기술의 암시적 개시 사이의 차이가 존재함. strictness=0.89 기준으로 moderate 근거를 거절로 판단함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejections are strong because the reference US-2014188999-A1 is cited for all claims and the reasoning clearly explains how each claimed feature is an obvious extension of the reference. The motivation to combine is well-justified for improving transparency and decision-making in vehicle service processes."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejection for claim 1 is moderate because it points out specific terms ('digital media file' and 'authority') that are not clearly defined in the specification. While this is a valid issue, it could potentially be addressed with clarification in the specification rather than being a fundamental flaw in the claims."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claim 1 relies on a single reference (US-2014188999-A1) and frames the claimed invention as a 'logical extension' of existing systems. While the Graham factors are addressed, the reasoning depends on implicit suggestions (e.g., 'predicted completion time' implying time estimates) rather than explicit disclosure. Confidence (0.75) is moderate, aligning with the strictness threshold (0.47) to maintain the rejection but not strongly enough to escalate."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2-23 are rejected under 102(a)(1) for anticipation by US-2014188999-A1. The reference explicitly discloses core elements (e.g., communication modules, status determination) or implicitly suggests others (e.g., camera use for digital media). Confidence scores (0.5–0.75) and explicit/implicit disclosures meet the strictness threshold for strong grounds."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 novelty rejections are based on the prior art US-2014188999-A1 disclosing similar functionality. While the similarity scores range from 0.55 to 0.75, showing varying degrees of overlap, the confidence levels are generally moderate (0.55-0.75). The reasoning relies on implicit disclosure for many elements, which introduces some interpretative uncertainty. Given the strictness of 0.55, this is a moderate strength rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 obviousness rejection for claims 1 and 17 is based on the prior art teaching a system for providing vehicle status to a mobile computing device, with a motivation to use digital media for accurate communication. The confidence is 0.7, and the Graham factors are reasonably addressed. While the modification is considered obvious, the reasoning is not entirely conclusive, making this a moderate strength rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejections are supported by a clear motivation to combine (real-time communication improvements) and sufficient Graham factors. Confidence levels (0.6333) exceed the strictness threshold (0.50), indicating strong basis for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on a single prior art reference (US-2014188999-A1) with implicit disclosures and conventional implementations. While the prior art covers the core functionality, the confidence scores range from 0.5 to 0.7, indicating that the disclosures are not explicit and require interpretation. The motivation to combine is stated as a common and predictable improvement, which is reasonable but not particularly strong. Given the strictness of 0.52, the moderate strength of the rejection is slightly below the threshold for a strong rejection but still warrants a rejection unless the applicant provides compelling arguments or amendments."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014188999-A1이 청구항의 주요 요소를 개시하지만, 일부 청구항은 추가적인 구체적 구성을 포함하여 신규성이 인정될 수 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the prior art US-2014188999-A1, which is cited as teaching a system for communicating vehicle status to an authority. The claims are rejected as being obvious over this reference, with the reasoning that the claimed invention is an obvious modification to provide more detailed visual information for service decisions. The motivation to combine is stated as improving accuracy and objectivity of vehicle status communication by using digital media files instead of just textual descriptions. While the prior art does teach a system for vehicle status communication, the specific use of digital media files to represent vehicle damage and the detailed method steps for servicing a damaged vehicle are not explicitly taught. The confidence level of 0.7 for many of the claims suggests that the evidence is somewhat strong but not overwhelming."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The reasoning for the 103 rejection is based on the common knowledge that photographic or video documentation is a standard method for conveying vehicle status. While there is a clear motivation to combine based on the similarity in function, the absence of explicit disclosure of digital media files in the reference introduces some uncertainty. Given the strictness level of 0.60, this moderate strength of evidence supports maintaining the rejection but with a closer scrutiny."
+        }
+      ]
+    }
+  ]
+}

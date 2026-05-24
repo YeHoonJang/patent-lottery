@@ -1,0 +1,344 @@
+{
+  "case_id": "PILOT-2017006947",
+  "proceeding_number": "2017006947",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1 clearly discloses the core functionality of reading and reporting frequency-related measurement information from neighbor cells via measurement reports in an LTE carrier aggregation context. The claimed features in claims 1, 2, 6, 8, 12, 13, 18, and 24 are either directly disclosed or represent routine implementation of known procedures in UE and network apparatuses. The motivation to combine is inherent in the reference's teaching, and no inventive step is demonstrated for these claims. The evidence is clear and directly applicable, satisfying a high threshold for obviousness under broadest reasonable interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 7's identification of the apparatus as a UE is directly supported by US-2011281615-A1's disclosure of a mobile station apparatus, which is recognized as equivalent to a UE in LTE systems. This is a terminological equivalence well-known to PHOSITA, and no inventive insight is required. The reference provides explicit support, making this a strong obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1은 UE가 측정 보고서를 통해 주파수 정보를 보고하는 구체적 방법을 개시하고 있으며, 'frequency information'과 'frequency band list' 간의 차이가 실질적이지 않음. BRI 원칙과 strictness=0.88에 따라 frequency information은 frequency band list로 넓게 해석 가능. 조건부 보고, 장치 구현, 소프트웨어 매체 등도 당업자에게 자명한 확장. 결합 동기 명확하고, 선행기술과의 중첩이 명확하므로 강한 obviousness 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012244905-A1이 이웃 셀의 측정 정보를 포함한 보고를 수신하는 것을 개시하고 있으나, '주파수 대역 번호 목록'을 명시적으로 포함하는지는 명확하지 않음. 주파수 대역 번호는 측정 정보의 자연스러운 확장으로 볼 수 있으나, ANR 프로세스를 위한 구체적 용도와 기술적 효과(자동화, 신호링 절감)는 선행기술에서 명확히 시사되지 않음. 결합 동기의 존재 여부에 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제공된 진보성 판단에 따르면, 선행기술 조합 간 결합 동기가 부족하며, combination_threshold=0.72 기준을 충족하지 못함. US-2012244905-A1과 US-2011281615-A1은 측정 보고 및 neighbor cell 관리를 개시하지만, frequency band list의 수신 및 보고라는 특정 기능을 결합할 명시적 또는 암시적 동기가 없음. lateNonCriticalExtension 활용, 조건부 보고, 0개 band number의 의미 정의 등은 기술적 진보로 평가되며, 공지상식 또는 자명한 변형으로 보기 어려움. 따라서 obviousness 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1이 측정 보고를 통한 주파수 정보 보고를 개시하고 있으며, 청구항 1, 2, 5, 6, 7, 8, 11, 12, 13, 18, 24의 구성은 이 기술을 바탕으로 통상의 기술자가 쉽게 도달할 수 있는 수준. 결합 동기 명확하고, 3GPP 표준 관행과도 일치함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "lateNonCriticalExtension 및 MeasResultEUTRA/UTRA 사용은 선행기술에 직접 개시되지 않으나, 3GPP 프로토콜에서 공지된 확장 방식 및 표준 구조임. 통상의 기술자가 이 방식을 채택할 동기 존재하나, 특정 파라미터 추가는 비자명성 암시됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "FGI 또는 UE 능력 정보 요소를 주파수 대역 보고 가능 여부를 나타내는 지시자로 사용하는 것은 선행기술에 명시되지 않으나, 유사한 용도로의 확장은 LTE 시스템에서 일반적인 설계 패턴임. 동기 존재하나, 특정 적용에 대한 명백성은 경계선 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "0에서 maxMultiBands까지의 가변 인스턴스 및 0개 대역 번호 해석은 효율적 신호링 설계로 합리적이나, 구체적 정의는 프로토콜 설계의 비자명 선택일 수 있음. 그러나 3GPP에서의 일반적 관행을 고려하면 명백성 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "eNB가 측정 보고를 수신하는 것은 LTE 아키텍처상 자연스러우며, US-2011281615-A1과 US-2012244905-A1의 결합에 동기 존재. 그러나 ANR을 위한 주파수 대역 목록 수신 기능의 명시적 연결은 약간의 추론 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1은 UE가 네트워크로부터 메시지를 수신하고, 측정 대상이 조건을 충족하는 경우 측정 보고서를 통해 복수의 주파수 대역에 관한 정보를 보고하는 것을 명시적으로 개시하고 있으며, 이는 인접 셀의 주파수 대역 목록을 읽고 서비스 셀에 보고하는 동작과 실질적으로 동일하다. 통상의 기술자 입장에서 LTE 측정 보고 메커니즘은 잘 알려진 기술이며, 주파수 대역 목록의 보고는 네트워크 최적화 목적 하에 자명한 설계 선택이다. 결합 동기(motivation to combine)는 명확하고, 선행기술의 내용과 청구항 간 기술적 차이가 미미하므로 강한 obviousness 근거로 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1은 측정 보고를 통해 주파수 및 캐리어 정보를 보고하는 기능을 명확히 개시하고 있으며, 이는 청구항 1, 2, 5, 6, 7, 8, 11, 12, 13, 16, 18, 21, 23, 24의 구성과 기능적으로 동일하다. 통상의 기술자가 이러한 정보를 이웃 셀의 주파수 대역 목록으로 해석하거나 조건부로 보고하는 것은 자명하며, 하드웨어 또는 소프트웨어 구현도 일반적 설계 선택이다. 따라서 거절 근거는 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "MeasResultEUTRA/UTRA의 포함 여부는 US-2011281615-A1에 직접적으로 개시되지 않았으나, 3GPP 표준에서 공지된 정보 요소라는 점에서 통상의 기술자가 이를 측정 보고서에 포함할 동기가 있다고 판단할 수 있다. 그러나 본 발명의 특정한 맥락에서의 사용 목적과 효과가 명확히 비교되지 않았으므로, 결합 동기의 강도는 중간 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the primary combination of US-2012244905-A1 and US-2011281615-A1 suggests measurement reporting and neighbor cell management, the specific act of reading a broadcast frequency band list from a neighbor cell is not explicitly taught. The motivation to combine relies on inference about ANR enhancement, which is plausible but not strongly evidenced. Given the examiner's moderate strictness (0.55), this constitutes a moderate-strength obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1은 UE 기반 측정 보고를 명확히 개시하며, 주파수 대역 목록 보고는 측정 정보의 자연스러운 확장으로 간주될 수 있음. MeasResultEUTRA/UTRA 사용, 조건부 보고, 장치 및 매체 구현은 모두 통상의 기술 수준에서 자명한 사항. 결합 동기(motivation to combine)는 네트워크 효율성 및 SON 지원이라는 공지된 목적으로 충분히 뒷받침됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "lateNonCriticalExtension에 새로운 파라미터 추가는 선행기술에 명시적으로 개시되지 않음. 그러나 3GPP 표준에서 이 확장 메커니즘은 공지되어 있으며, backward-compatible한 정보 추가를 위해 사용되는 것이 통상적임. 통상의 기술자가 이를 적용하는 것은 자명하나, 특정 기술적 효과나 비자명성 여부에 해석의 여지 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1은 UE가 인접 셀의 주파수 정보를 측정 보고서를 통해 serving cell에 보고하는 것을 명시적으로 개시하고 있으며, 'frequency band list broadcast'는 측정 정보의 일환으로 해석될 수 있음. abstract, claim 1, [0038]에서 모든 구성요소가 개시되어 있어 신규성 결여 판단은 강한 증거 기반."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "정보 요소를 측정 보고서에 추가하거나 lateNonCriticalExtension 사용, MeasResultEUTRA/UTRA 지정, 조건부 보고 등은 LTE 프로토콜에서 통상의 기술자가 숙지한 구현 방식이며, 선행기술과의 결합 동기가 명확함. 3GPP 표준에서의 공지된 기술로 자명성 판단은 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2012244905-A1이 측정 정보 보고를 개시하고 있으나, 'frequency band list'의 수신 및 보고라는 특정 동작에 대한 명시적 기재는 부족함. 선행기술의 'measurement information' 해석에 따라 신규성 판단이 달라질 수 있음. strictness=0.42인 본 심사관은 증거가 다소 약한 102 거절에 대해 보정 기회를 부여할 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1은 UE가 측정 보고 메시지를 통해 캐리어 및 주파수 정보를 서비스 셀에 보고하는 것을 명확히 개시하고 있으며, 이는 청구항 1, 2, 6, 7, 8, 12, 13, 18, 24의 핵심 구성요소와 실질적으로 동일하다. 하드웨어 및 소프트웨어 구현은 통상의 기술자에게 자명한 변형으로, 결합 동기와 기술적 맥락이 명확함. 선행기술의 공개 범위와 기술 수준을 고려할 때, 이러한 구현이 obvious임은 높은 신뢰도로 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "MeasResultEUTRA/UTRA 사용(청구항 4,10) 및 조건부 보고 로직(청구항 5,11)은 개별 선행기술에 직접적으로 개시되지 않았으나, US-2012244905-A1의 측정 보고 전략과 US-2011281615-A1의 다중 주파수 측정 관리 맥락에서 통상의 기술자가 이를 결합할 동기가 존재할 수 있음. 그러나 특정 정보 요소 사용이나 조건 조합은 비자명한 설계 선택일 수 있으며, 명시적 교시 부재로 인해 강한 obvious 판단에는 다소 미흡함. strictness=0.52인 본 심사관 기준에서 이는 중립적 판단 대상임."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012244905-A1 명확히 이웃 셀의 주파수 대역 정보를 UE가 측정 보고서를 통해 보고하는 기능을 개시함. 청구항 1, 2, 7, 8, 13의 구성요소를 단일 문헌이 모두 개시하므로 신규성 결여 판단은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "lateNonCriticalExtension, MeasResultEUTRA/UTRA, 조건부 보고, UE 능력 지시자, 가변 인스턴스 수, eNB 식별 등은 LTE 표준에서 공지된 기술이나, 이를 ANR을 통한 추가 주파수 대역 획득에 적용한 점에 대해 창의적 걸림돌이 존재할 수 있음. strictness=0.60 기준으로 일부는 자명하나, 전체적으로는 중간 강도로 평가."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "case_id": "2022000596",
+  "proceeding_number": "2022000596",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.7857142857142857,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 20의 103 거절 근거는 약함. US-2016237259-A1이 conjugated diene compound와 Tg 범위를 개시하나, 핵심적인 density region characterization parameters (low density region ≥35% at 1.5 MPa, void portion ≤7.5% at 3.0 MPa)는 전혀 개시하지 않음. 선행기술은 polymer chemistry와 Tg 제어에 초점을 두고 있으며, stress-induced density distribution을 측정하거나 제어하는 개념 자체가 없음. Conjugated diene compound의 사용이 conventional하다는 것만으로는 novel density characterization approach와의 결합이 obvious하다고 할 수 없음. Office Action 자체도 'motivation to combine is present but not strong'이라고 인정하고 'provisional rejection'으로 표시함. 결합 동기가 명확하지 않고, 발명이 해결하는 문제(low Tg만으로는 abrasion resistance 예측 불가)가 선행기술에서 인식되지 않았음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 16-19의 103 거절 근거는 강력함. US-2016237259-A1이 Tg 범위 -110°C to +20°C를 명시적으로 개시하여 청구항 16-19의 Tg 값들(≤-22°C, ≤-24°C, ≤-25°C, ≤-28°C)을 모두 포함함. 선행기술은 낮은 Tg가 마모 저항성과 구름 저항성 개선에 유리하다고 명시적으로 교시하며, 출원인의 명세서도 이를 공지 기술로 인정함('it is known that generally a crosslinked rubber composition used for a tire tread is excellent in breaking resistance and abrasion resistance as its glass transition temperature (Tg) becomes lower'). 비록 기본 청구항들(10, 14)의 밀도 분포 특성화가 비자명할 수 있으나, 명시적으로 교시된 넓은 Tg 범위 내에서 특정 값을 선택하는 것은 통상의 기술자에게 자명한 최적화에 해당함. 결합 동기가 명확하고 선행기술의 교시가 구체적임. Strictness=0.88을 고려할 때, 이러한 범위 내 선택은 명백히 자명하며 거절을 유지해야 함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2016237259-A1은 유사한 Tg 범위를 개시하지만, 청구항의 핵심인 'low density region' 및 'void portion'의 특정 응력 조건 하 측정 방법을 전혀 개시하지 않음. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 Tg 제어 및 고무 조성물을 개시하나, 신장 시 특정 응력에서의 밀도 분포 측정이라는 미세구조 특성화 접근법은 전혀 제안되지 않음. 결합 동기 부재. 출원인의 발명은 고무의 내마모성 메커니즘에 대한 새로운 통찰을 제공하며, 선행기술로부터 자명하지 않음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항은 명확한 수치 한정과 측정 조건을 제시하며, 명세서가 X-ray CT를 이용한 측정 방법을 상세히 기재한 것으로 보임. 112 문제 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "물리적 제품(타이어, 고무 조성물)에 관한 청구항으로 추상적 아이디어가 아님. 101 문제 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2016237259-A1은 일반적인 타이어 트레드 고무 조성물과 Tg 범위를 개시하지만, 청구항의 핵심 특징인 (1) 특정 응력 하에서 측정된 저밀도 영역 및 공극의 체적 비율, (2) 밀도 비율 정의(0.1-0.8× for low density, 0-0.1× for void), (3) X-ray CT를 이용한 응력 하 미세구조 특성화 방법론을 전혀 개시하지 않음. 선행기술은 조성 최적화에 초점을 맞추고 있으며, 응력 의존적 내부 밀도 분포 특성화라는 전혀 다른 기술적 접근법을 제시하지 않음. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2016237259-A1은 중합체 선택, 관능화, 충전재 선택을 통한 조성 최적화를 교시하지만, 청구항의 응력 의존적 미세구조 특성화 개념을 제시하거나 암시하지 않음. 선행기술과 청구항 발명 사이의 차이점: (1) 내부 밀도 분포를 특정 응력 하에서 측정하는 분석 방법론 자체가 선행기술에 없음, (2) 저밀도 영역과 공극의 체적 임계값(35%, 7.5% 등)이 마모 저항성과 상관관계가 있다는 인식이 선행기술에 없음, (3) X-ray CT를 이용한 동적 신장 중 밀도 측정이라는 특수 분석 기법이 선행기술에 없음. 결합 동기(motivation to combine): 선행기술은 조성 최적화에 집중하며, 응력 하 내부 미세구조 분석이라는 전혀 다른 패러다임으로 전환할 동기를 제공하지 않음. 당업자는 조성 변수 조정으로 문제를 해결하려 할 것이며, 특수 이미징 기법을 이용한 미세구조 특성화로 전환할 이유가 없음. 명세서에 따르면, 본 발명은 '낮은 Tg만으로는 우수한 내마모성이 보장되지 않는 예외 현상'이라는 인식된 문제를 해결하기 위해 새로운 분석적 통찰을 제공함. 이는 단순한 조성 최적화를 넘어선 혁신적 접근법. 103 거절 근거 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 X-ray CT 분석 방법론, 저밀도 영역 및 공극의 밀도 비율 정의, 특정 응력 하 측정 조건, 그리고 이러한 미세구조 특징과 내마모성 간의 관계에 대해 충분히 상세히 기재함. 당업자는 명세서의 기재를 바탕으로 과도한 실험 없이 본 발명을 실시할 수 있음. 청구항의 수치 범위(35%, 7.5% 등)는 실험적 데이터에 기반한 것으로 보이며, 명세서의 뒷받침이 충분함. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항 9는 공압 타이어라는 구체적인 제조물(manufacture)을 청구하고, 청구항 10-23은 가교 고무 조성물이라는 구체적인 조성물(composition of matter)을 청구함. 이들은 특허 적격 대상임. 추상적 아이디어가 아니라 구체적인 물리적 구조와 조성을 청구함. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016237259-A1 discloses rubber compositions with overlapping Tg ranges and tire tread applications, establishing a foundation for obviousness. However, the critical density-based characterization parameters (35% low density region at 1.5 MPa, 7.5% void portion at 3.0 MPa) with specific density definitions (0.1-0.8x and 0-0.1x) are not disclosed. The Office Action argues these would be 'obvious to try' for optimization, but this reasoning has moderate strength because: (1) The prior art focuses on chemical composition optimization, not microstructural characterization under stress; (2) The combination of X-ray CT with specific stress levels and volumetric thresholds represents a novel analytical framework not suggested by the reference; (3) While X-ray CT was known (per applicant's Background), applying it to measure stress-induced density distribution changes in rubber is not taught; (4) The specific numerical thresholds (35%/7.5%, and narrower ranges in dependent claims) are not suggested as optimal values. The motivation to combine is based on general knowledge that microstructure affects performance, but the specific characterization approach and parameters are not obvious from the reference. Given my strictness level (0.89), I view this as sufficient grounds for rejection, but acknowledge the evidence is not as strong as direct anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2016237259-A1은 타이어 트레드용 고무 조성물과 유리전이온도 범위를 개시하나, 본 출원의 핵심인 '응력을 가한 상태에서의 밀도 분포 특성화'라는 개념 자체가 선행기술에 전혀 없습니다. 구체적으로: (1) 1.5 MPa 응력 하 저밀도 영역 부피 ≥35%, (2) 3.0 MPa 응력 하 보이드 부피 ≤7.5%, (3) 저밀도 영역과 보이드의 밀도 정의(각각 연신 전 밀도의 0.1-0.8배, 0-0.1배)는 선행기술에 개시되지 않았습니다. Office Action은 이러한 수치 파라미터를 'routine optimization'으로 치부하나, 선행기술이 응력 하 밀도 분포를 측정하거나 제어하는 개념 자체를 다루지 않는 상황에서, 통상의 기술자가 이러한 특정 특성을 최적화해야 한다는 동기나 교시를 얻을 수 없습니다. 유리전이온도 범위의 중첩만으로는 응력 하 내부 구조 제어라는 전혀 다른 차원의 접근을 자명하게 만들지 못합니다. 공액 디엔 고무의 사용(청구항 20)과 X-ray CT 측정(청구항 21-23)도 마찬가지로, 선행기술이 이러한 요소들을 '응력 하 밀도 분포 제어'라는 본 발명의 핵심 개념과 결합할 동기를 제시하지 않습니다. 명세서는 낮은 Tg만으로는 내마모성이 보장되지 않는 예외 현상이 있었고, 응력 하 밀도 특성 제어가 이를 해결한다는 예측 불가능한 통찰을 제공합니다. Graham 분석상 차이점이 실질적이고, 결합 동기가 불명확하며, 2차적 고려사항(예측 불가능한 효과)이 비자명성을 뒷받침합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection of claim 20 relies on the argument that applying X-ray CT characterization to known conjugated diene rubbers would have been obvious. However, this reasoning has significant weaknesses: (1) The prior art US-2016237259-A1 teaches material selection based on chemical composition and Tg, with no suggestion to characterize internal density distributions under applied stress. (2) While X-ray CT is acknowledged as a known imaging tool, the specification's citation of JP 2009-085732 A relates to analyzing friction members, not measuring density distributions of rubber during controlled elongation. (3) The Office Action reasoning conflates 'using X-ray CT to analyze materials' with 'using X-ray CT to measure specific density distribution parameters (low density region volume, void portion volume) during controlled stress elongation'—these are fundamentally different applications. (4) The claimed density-based parameters (≥35% low density region at 1.5 MPa, ≤7.5% void portion at 3.0 MPa, with specific density ratio definitions 0.1-0.8× and 0-0.1× original density) represent a novel characterization framework, not merely applying a known tool to known materials. (5) The motivation to combine is based on general goals ('understanding mechanical behavior to improve abrasion resistance') rather than specific teaching or suggestion in the art to pursue this particular density-based characterization approach. (6) The specification indicates this approach solves an unexpected problem—explaining why some low-Tg rubbers fail to show expected abrasion resistance—suggesting the density characterization provides non-obvious insight. Given combination_threshold=0.46 (requiring substantial motivation for obviousness), this rejection lacks sufficient evidence of specific teaching or suggestion to pursue the claimed density-based characterization approach."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 20,
+          "strength": "moderate",
+          "reasoning": "US-2016237259-A1 explicitly discloses conjugated diene polymers (polybutadiene, butadiene-styrene copolymer, etc.) for tire tread applications with Tg ranges that encompass the claimed -20°C or lower. The reference provides strong teaching on using these materials. However, the specific density distribution parameters (low density region ≥35% at 1.5 MPa, void portion ≤7.5% at 3.0 MPa, with precise density definitions 0.1-0.8x and 0-0.1x) are not disclosed. The motivation to combine relies on: (1) general teaching that abrasion resistance is important, (2) discussion of controlling molecular structure and filler networks, and (3) inference from applicant's own admission that Tg alone doesn't ensure good abrasion resistance. This provides a logical but not explicit motivation to measure/control density distribution under stress. The combination represents optimization of microstructure, but the specific parameters (stress levels, density ratios, volume percentages) appear to be based on empirical discovery rather than predictable variation. The prior art teaches material selection and Tg control but does not teach or suggest the density-based characterization approach. Given combination_threshold=0.55 (requiring substantial motivation), this is a borderline case: the material choice is explicitly taught, but combining it with the novel characterization method requires inferential reasoning about what a PHOSITA 'would' do without direct teaching."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2016237259-A1은 타이어 트레드용 고무 조성물과 유리전이온도 범위를 개시하나, 청구항의 핵심 구성요소인 '응력 하 저밀도 영역 부피', '응력 하 공극 부피', '밀도 정의(0.1~0.8배, 0~0.1배)' 등 응력-변형 상태에서의 미세구조 파라미터를 전혀 개시하지 않음. 유리전이온도 범위의 중첩만으로는 신규성 거절 불가능. 102 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2016237259-A1은 타이어 트레드용 고무 조성물, 공액 디엔 중합체, 유리전이온도, 전통적 기계적 물성(Mooney viscosity, rebound resilience)을 개시하나, 응력 하 밀도 분포 제어라는 접근법은 전혀 언급하지 않음. X-ray CT 분석, 응력 인가 상태에서의 내부 구조 평가, 저밀도 영역/공극의 정량적 제어는 선행기술에서 교시되지 않음. PHOSITA가 전통적 물성 측정에서 응력 하 밀도 분포 측정으로 전환할 명시적 동기 없음. 단일 선행기술만 제공되어 결합 문제 없음. combination_threshold=0.22이나, 결합할 추가 선행기술이 없어 103 적용 불가능."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항은 '저밀도 영역', '공극', '밀도 정의' 등 용어를 명확히 정의하고, 측정 가능한 수치 범위를 제시함. 명세서는 X-ray CT 분석 방법, 응력 인가 조건, 밀도 분포 평가 방법을 개시하여 PHOSITA가 실시 가능함. 112 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 물리적 제품(공기입 타이어, 가교 고무 조성물)과 제조 방법(X-ray CT 평가)에 관한 것으로, abstract idea에 해당하지 않음. 101 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection argues that optimization of microstructural characteristics would have been obvious, but this reasoning is problematic. US-2016237259-A1 focuses on compositional aspects (polymer types, fillers, Tg) and conventional mechanical properties. It does not teach, suggest, or recognize the importance of measuring density distributions under specific applied stress conditions (1.5 MPa and 3.0 MPa). The claimed parameters—low density region volume ≥35% at 1.5 MPa stress and void portion volume ≤7.5% at 3.0 MPa stress—represent a novel characterization approach, not mere optimization of known properties. The prior art does not provide any motivation to measure or control these specific microstructural parameters. The rejection relies on hindsight reasoning ('would have been motivated to investigate internal structure') without pointing to any teaching in the reference that suggests this particular approach. The combination of known tire/rubber compositions with an entirely new characterization methodology based on density distribution under stress lacks both teaching and motivation in the prior art. The specification's Background indicates this represents a new understanding of the abrasion resistance mechanism, suggesting non-obvious advancement rather than routine optimization."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies on the argument that it would have been 'obvious to characterize rubber compositions by their density distributions under stress conditions' based on US-2016237259-A1's teaching of Tg control for abrasion resistance. However, this reasoning has critical weaknesses: (1) The prior art teaches controlling Tg and polymer composition but does NOT teach, suggest, or recognize density distributions under specific stress conditions (1.5 MPa, 3.0 MPa) as relevant parameters. (2) The specification explicitly states that the invention was developed because 'low Tg alone did not always correlate with good abrasion resistance' - this represents non-obvious problem recognition that the prior art does not address. (3) The rejection treats the specific stress-volume parameters (35%/7.5%, etc.) as 'routine optimization' but provides no evidence that measuring density at these specific stress levels was known or obvious in the art. (4) The motivation to combine is speculative - stating that density characterization 'would be an obvious extension' does not establish that PHOSITA would have been motivated to do so without hindsight. (5) For claims 21-23, while X-ray CT is known, the rejection does not establish that applying it to measure density under controlled stress/elongation was obvious, especially given the specification's statement that Patent Document 2 did not describe analyzing samples under elongation. (6) The rejection conflates understanding elastic modulus/deformation (which the prior art addresses through Tg/composition) with characterizing density distributions at specific stress levels (which represents a different analytical paradigm). The evidence does not support a prima facie case of obviousness - the combination relies heavily on hindsight reconstruction rather than clear motivation in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on the assumption that applying X-ray CT characterization under stress to rubber compositions would have been obvious. However, this assumption is problematic for several reasons: (1) US-2016237259-A1 teaches conventional rubber composition properties (Tg, Mooney viscosity, abrasion resistance) but provides no teaching, suggestion, or motivation to characterize materials by stress-induced density distributions measured via X-ray CT. (2) The specification explicitly states that while X-ray CT for material analysis is known, analyzing samples under external stress or analyzing density distributions is NOT described in the prior art (Patent Document 2). (3) The claimed density-based characterizations (low density region 0.1-0.8× original density at 1.5 MPa, void portion 0-0.1× original density at 3.0 MPa) represent a fundamentally different analytical framework not suggested by prior art focus on Tg and conventional mechanical properties. (4) The specification indicates unexpected discovery: that Tg alone does not correlate with abrasion resistance, and that density distribution under stress is the critical parameter—this suggests non-obvious relationship. (5) The Office Action's reasoning that 'applying known analytical techniques...would have been obvious' is circular: it assumes PHOSITA would have motivation to apply X-ray CT under stress without explaining why this specific combination would be pursued. The prior art's focus on Tg optimization does not logically lead to measuring density under stress. (6) The claimed numerical ranges are not simple optimization within a disclosed framework—they are parameters of an entirely novel characterization method not taught by the prior art. Without prior art teaching or suggesting the density-based analytical approach itself, optimizing specific numerical values within that framework cannot be obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 20의 103 거절은 conjugated diene compound가 선행기술에 명시적으로 개시되어 있다는 점에 기반하나, 거절의 핵심 논리에 중대한 약점이 있음. (1) 선행기술은 density distribution characterization 방법 자체를 전혀 개시하지 않음, (2) 단순히 동일 재료(conjugated diene)를 사용한다는 것만으로는 새로운 특성화 패러다임(density distribution under stress)을 적용할 동기가 되지 않음, (3) Office Action은 'ordinary optimization'이라고 주장하나, 최적화할 파라미터(density distribution)가 선행기술에 존재하지 않으므로 논리적 비약임, (4) 선행기술이 동일 용도(tire tread)와 동일 재료를 개시한다는 것은 필요조건일 뿐 충분조건이 아님 - X-ray CT를 이용한 stress 하 density 분석이라는 완전히 새로운 분석 방법론을 적용할 동기는 선행기술에서 찾을 수 없음. Graham factors 분석에서도 이 발명은 기존 문제(일부 low-Tg rubber의 예상 밖 낮은 내마모성)를 해결하기 위해 새로운 분석 도구(X-ray CT)를 개발한 것으로, 단순 최적화가 아닌 paradigm shift를 나타냄."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "All claims 9-24 were found to be novel. US-2016237259-A1 discloses glass transition temperatures overlapping with claimed ranges, but does not disclose the specific density distribution characterization under applied stress (low density region volume at 1.5 MPa, void portion volume at 3.0 MPa). The density-based limitations represent a novel analytical approach not anticipated by any single reference. No 102 rejection is appropriate."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims 9-24 were found to be non-obvious. While US-2016237259-A1 teaches rubber compositions with controlled Tg and conventional properties, it provides no teaching or suggestion of: (1) characterizing density distribution under applied elongation stress, (2) defining low density regions (0.1-0.8× original density) and void portions (0-0.1× original density), (3) establishing volumetric thresholds at specific stress levels, or (4) using X-ray CT to evaluate stressed samples. The claimed invention addresses a recognized problem (unpredictable abrasion resistance despite appropriate Tg) through a novel microstructural analysis paradigm. No motivation to combine exists for achieving the claimed density-based parameters. The multi-step innovation path (recognize Tg insufficiency → adopt stress-based CT analysis → identify density thresholds → correlate to performance) lacks any hint in the prior art. Even under my moderate strictness (0.60), the evidence for obviousness is insufficient."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "One minor objection was identified: claim 10, line 2 appears to be missing the '%' symbol in 'volume of the void portion of 7.5 or less' (should be '7.5%' for consistency with claim 9). This is a typographical error, not a substantive 112 issue. The specification adequately describes the claimed density characterization methodology, measurement conditions, and equipment. No written description or enablement rejection is warranted. The objection can be corrected through minor amendment."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No eligibility issues identified. The claims are directed to a physical article (pneumatic tire) and a composition of matter (crosslinked rubber) with specific structural properties, not an abstract idea. The claimed microstructural characterization parameters represent patent-eligible physical properties of tangible materials. No 101 rejection is appropriate."
+        }
+      ]
+    }
+  ]
+}

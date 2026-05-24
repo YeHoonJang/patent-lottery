@@ -1,0 +1,286 @@
+{
+  "case_id": "PILOT-2021001433",
+  "proceeding_number": "2021001433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.5714285714285714,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1은 게이트웨이를 통한 빌딩 자동화 장치와의 통신 설정, 주소 할당, 네트워크 식별자 비교를 개시하고 있으며, 소프트웨어 설치를 통한 통신 능력 확장은 IoT 및 무선 센서 네트워크 분야에서 공지된 기술적 해결책임. 통상의 기술자에게 예측 가능하며, 결합 동기 명확함. confidence 0.78 이상의 진보성 판단 근거 다수 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.32,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 8, and 9 are directed to limitations that are either inherent in or represent routine selections from the prior art. The use of physical layer protocols (claims 3, 8) is inherent in ZigBee (IEEE 802.15.4), which is explicitly disclosed in US-2012299509-A1. Selecting protocols from a known group (claims 4, 9) constitutes common engineering practice in the field of low-power wireless communication. Given the high strictness level (0.88), these obviousness rejections are well-supported and do not require a high threshold for combination motivation (0.34). The evidence is clear and aligns with PHOSITA knowledge."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 게이트웨이를 통한 주소 할당 및 데이터 릴레이 기능을 개시하지만, 제1 프로토콜을 통해 BA 장치에 소프트웨어를 설치하여 제2 프로토콜 통신을 가능하게 하고, 이후 그 프로토콜로 통신을 수립하는 과정은 개시하지 않음. 결합 동기(motivation to combine)가 명확하지 않으며, 통상의 기술자가 이러한 구성에 도달하기 위해 명백한 동기를 갖는다고 보기 어려움. combination_threshold=0.68 기준보다 높은 비자명성 유지. confidence 점수도 0.68~0.75 수준으로, 진보성 부정 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012299509-A1은 주소 할당 및 네트워크 식별자 비교를 개시하고 있으나, 게이트웨이가 빌딩 자동화 장치에 실행 가능한 소프트웨어 지시어를 설치하여 제2 통신 프로토콜을 위한 능력을 제공한다는 핵심 특징은 포함하지 않음. 결합 동기(motivation to combine)가 명확하지 않으며, 기술적 목적과 효과가 상이함. combination_threshold=0.72 기준보다 높은 비자명성(confidence 0.65~0.8)이 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1은 동적 주소 재할당 및 네트워크 식별자 기반 인증을 통해 장치의 통신 환경을 재구성하는 과정을 명시적으로 개시하고 있으며, 이는 제2 프로토콜 통신으로의 전환과 실질적으로 동일한 기술적 효과를 달성한다. '실행 가능한 소프트웨어 명령 설치'는 명시되지 않으나, 통신 능력 변경은 소프트웨어 설정 변경 없이는 불가능하므로 암시적 개시 또는 통상의 기술수준에서 자명하다고 판단된다. ZigBee 기반 시스템에서의 MAC/PHY 계층 포함성, 표준 프로토콜 사용, 소프트웨어 기반 제어 구현 등은 모두 공지상식에 부합하며, 결합 동기(motivation to combine)도 명확함. 따라서 103 거절 근거는 강력함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 12 및 18의 'computer readable medium'은 명세서에서 비일시적(non-transitory) 매체로 한정하지 않아, BRI 하에서 전파 신호 등 비통계적 대상(signal per se)을 포함할 수 있음. 이는 35 U.S.C. § 101의 주제 범주를 초과하며, § 112(a) 서술요건도 위반할 수 있음. 명세서에 명확한 제한 조항이 없으므로, 청구항 범위 전반에 대한 발명자의 소유권(possessory support)이 부족하다고 판단됨. 이는 명확한 서술요건 위반으로, 강한 거절 근거임."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1 공개한 ZigBee 기반 게이트웨이 및 장치 간 통신 구조, 주소 할당, 패킷 포맷 변환은 소프트웨어 실행을 내포하며, 통신 프로토콜 전환을 위한 소프트웨어 설치는 자명한 확장이다. 선행기술과 공지기술 결합 동기(motivation to combine)가 명확하고, PHOSITA 수준에서 일반적인 설계 선택으로 간주될 수 있다. confidence 0.78 이상의 높은 수준 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4 and 9 are rejected based on US-2012299509-A1, which explicitly discloses the use of ZigBee—a protocol listed in the claim—as the communication method in a building automation system. Selecting ZigBee for both first and second protocols is a straightforward design choice within the knowledge of a PHOSITA. The confidence in obviousness is high (0.85), and the prior art directly supports the limitation. Given that no unexpected results or technical advantages are demonstrated, the rejection is well-supported and aligns with the broad interpretation (BRI) standard and combination threshold of 0.46."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.82,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art US-2012299509-A1 discloses establishing communication over a first protocol (ZigBee) and address reassignment, but does not teach or suggest installing executable software to enable a second communication protocol. The step of software installation for enabling new protocol capability—especially at MAC or physical layers or for protocol version upgrades—is not disclosed. While protocol diversity and gateway functions are known, the specific combination of remote software installation to alter communication stack capabilities on a building automation device is not clearly suggested. The motivation to combine is weak, and the functional transformation represents more than routine optimization. Given the examiner's moderate strictness (0.46), this weak obviousness position does not justify rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항에 대해 'LLM unavailable — default to non-obvious'로 기재되어 있으며, 결합된 선행기술이나 결합 동기에 대한 구체적 설명이 전혀 없음. 따라서 obviousness 판단 근거가 부족하며, 단순 추측 수준에 머무름."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4 and 9 are rejected based on US-2012299509-A1, which explicitly discloses the use of ZigBee as the communication protocol in a building automation context. Since ZigBee is a member of the claimed group and the claims do not require the first and second protocols to be different, selecting ZigBee for both is either inherent or obvious. The motivation to combine is strong because using a known protocol in its intended environment is routine in the art, and no unexpected result is demonstrated. The verification status is PASS with clear mapping to prior art, supporting a strong obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.91,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2012299509-A1) discloses address assignment and communication within a ZigBee network but does not teach or suggest installing software to enable a second communication protocol. The modification would require a fundamental change in how building automation devices are provisioned, and no motivation to combine exists. Given the technical specificity of software-based protocol capability installation—especially at the MAC or physical layer—and the lack of any suggestion in the prior art, the obviousness rejection is weak. The confidence scores (0.65–0.9) reflect non-obviousness, and with strictness=0.42 (leaning toward applicant benefit when evidence is not strong), this weighs against rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art US-2012299509-A1 discloses a ZigBee-based building automation system involving a gateway and address assignment, but does not teach or suggest installing executable software on a device to enable a second communication protocol. While the concept of software updates in networked devices is known generally, applying it specifically to enable a new or revised MAC- or physical-layer protocol in a building automation context is not clearly motivated in the prior art. The combination of steps—establishing a first protocol, installing software over it to enable a second protocol, and switching communication—is not explicitly disclosed. However, given that firmware updates and multi-protocol support are known in broader networking contexts, there is some arguable rationale for combination, though not a strong one. Given the examiner's moderate strictness (0.52), this moderate-strength obviousness challenge does not outweigh the claimed technical improvements in interoperability and backward compatibility."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2012299509-A1) discloses communication over a first protocol (ZigBee) and address assignment, but does not teach installing software to enable a second communication protocol. While the idea of remote software updates is known in broader computing contexts, applying it to change MAC or physical layer protocols in resource-constrained building automation devices involves technical hurdles not addressed in the prior art. The motivation to combine is weak because the reference does not suggest protocol stack modification via software. However, given the general trend toward firmware updates in IoT devices, there is a moderate possibility that such a combination might be considered obvious under a broad interpretation, especially for higher-level protocols. Given the examiner's strictness level of 0.60, this moderate-strength argument is not sufficient to override the lack of explicit teaching or motivation."
+        }
+      ]
+    }
+  ]
+}

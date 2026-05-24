@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) across all claim-level obviousness evaluations, and §102 anticipation analysis is used element-by-element for claims where a single reference is relied upon."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout cite specific prior art references (US-2016364341-A1, US-2012254995-A1) with paragraph-level or claim-level citations and map specific claim language (e.g., 'executable-by-user mode,' 'hypercall,' 'guest physical addresses') to specific disclosures in those references."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage found claims 4, 12, and 18 novel (not anticipated), but the office action then issues a §102 rejection for claims 4 and 12 based on an 'inherent disclosure' theory that was not developed at the §102 novelty stage, and the final decision rejects all claims including 4, 12, and 18—contradicting the earlier novelty findings without adequate bridging rationale for the shift from 'novel' to '§102 anticipated.'"
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a combination_threshold of 0.329 (easy combiner) and consistently accepts weak motivation-to-combine arguments (e.g., 'shared objective of security,' 'known design principle') across many claim combinations, consistent with a low combination threshold profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows from the accumulated stage analyses where the vast majority of claims were found obvious at §103, and the few claims flagged as potentially novel (4, 12, 18) are addressed with additional rationale in the office action and final decision summary, making the overall rejection outcome non-arbitrary."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004383",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18967,
+      "output_tokens": 460,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

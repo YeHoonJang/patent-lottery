@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 0,
+    "justification": "The §102 stage correctly applies element-by-element anticipation analysis, but the final decision stage mislabels its basis as '103_obviousness' for claims that were rejected under §102 in the office action, without applying Graham/KSR factors, scope/content of prior art, differences, or level of ordinary skill—mixing §102 findings with §103 labels without the required obviousness framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "The novelty and office action stages consistently cite specific claim language and specific passages from US-2017305402-A1 (e.g., claim 6 for transistors, claim 7 for low-side placement, claim 1 for brake controller signal) to support each conclusion."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The office action rejects claims 1, 3, 6, 7, 8, 14, 17, 18 under §102 anticipation, but the final decision stage relabels those same rejections as '103_obviousness' without any stated justification for the statute change, directly contradicting the earlier-stage §102 basis."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has moderate strictness (0.475) and a broad interpretation profile (claim_breadth 0.79), and the trace reflects this by finding many independent claims anticipated or obvious while allowing numerous dependent claims with added features, consistent with a pragmatist broad-interpreter who does not over-reject on thin grounds."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject the application overall follows logically from the stage-level findings that key independent claims (1, 3, 6, 7, 8, 14, 17, 18) lack novelty over US-2017305402-A1, while recommending amendment for dependent claims found novel, which is consistent with accumulated analysis."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2021005117",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9260,
+      "output_tokens": 456,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

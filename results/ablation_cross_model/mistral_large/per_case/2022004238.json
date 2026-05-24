@@ -1,0 +1,612 @@
+{
+  "case_id": "2022004238",
+  "proceeding_number": "2022004238",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 38, 40, 43, 53, and 55 are explicitly or inherently disclosed in US-2012212074-A1. The prior art describes all elements of these claims, including resonance frequency adjustment, coupling state management, and resistance-based control. The confidence levels for these rejections are high (0.75-0.85), and the evidence is clear."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of elements in claims 38, 40, 43, 53, and 55 would have been obvious to a PHOSITA. The prior art (US-2012212074-A1) provides a motivation to combine these elements for optimizing energy transmission efficiency. The confidence levels for these rejections are high (0.75-0.85), and the motivation to combine is well-supported by the prior art's teachings."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            38,
+            39,
+            40,
+            54,
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012212074-A1은 자기 공명 무선 전력 전송 시스템에서 공진 주파수 변경, 에너지 비교 기능, 의료 임플란트 수신자 사용을 명시적으로 개시하고 있음. 통상의 기술자가 이러한 기능을 결합하는 것은 설계 선택의 문제로 판단되며, 결합 동기가 명확함. 근거 강도가 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            53,
+            54,
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 53, 54, 55는 존재하지 않는 청구항(예: 'claim 37')을 참조하거나, 청구항 38이 수신자를 명시하지 않음에도 '수신자'를 참조하여 명세서의 뒷받침이 없음. 이는 35 U.S.C. § 112의 명확성 요건을 위반하며, 근거가 명확함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            38,
+            39,
+            40,
+            54,
+            55
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술과의 유사성은 있으나, 청구항의 일부 구성요소가 암시적으로만 포함되어 있음. 그러나 진보성 판단에서 이미 103 거절로 처리되었으므로, 102 거절은 중복적임. strictness=0.88에 따라 103 거절을 우선 적용."
+        },
+        {
+          "basis": null,
+          "claim_numbers": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            56,
+            57
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에 명시되지 않은 구체적 기능(예: 조건부 공진 주파수 조정, 시간 간격 내 저항 변경, 구체적 회로 구성 등)을 포함하며, 통상의 기술자가 쉽게 도출할 수 없는 수준임. 근거 부족으로 허여 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 선행기술과 차별화되며, 신규성 판단의 confidence가 높음 (0.7~0.95). 선행기술 US-2012212074-A1은 핵심 요소인 '평가 장치의 역결합 신호 변조 특성 기반 에너지 결정 및 피드백 제어'를 개시하지 않음. 신규성 근거는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항이 비자명하다고 평가되었으며, confidence가 높음 (0.75~0.95). 선행기술은 결합 동기를 제공하지 않으며, 통상의 기술자가 쉽게 도출할 수 없는 기술적 해결책을 제시함. 결합 동기 기준(0.68)을 충족하지 않음. 진보성 근거는 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 38 및 53의 오타('claim 37' 참조)와 청구항 55의 오타('claim 38' 참조)는 명세서의 기술적 내용을 왜곡하지 않지만, 청구항 간의 참조 오류로 인해 112 요건 불확실성 존재. 그러나 명세서가 구체적인 회로 구성 및 제어 방식을 상세히 설명하고 있어, 오타 수정으로 해결 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 52, 53, and 54 contain an improper dependency reference to 'claim 37,' which does not exist or is not an independent claim. This definiteness issue is clear and unambiguous, providing a strong basis for rejection under 35 U.S.C. § 112(b). The error is procedural and must be corrected to resolve the indefiniteness."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            38,
+            39,
+            40,
+            53,
+            54,
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012212074-A1은 자기 공명 무선 전력 전송 시스템의 기본 구조와 공진 주파수 조정, 결합 상태 조절 기능을 명시하고 있으며, 청구항 38, 39, 40, 53, 54, 55의 핵심 구성 요소와 유사함. 변조 특성 기반 피드백 제어는 통상의 기술자가 공지된 기술을 적용하여 쉽게 구현할 수 있는 수준으로 판단됨. Graham 요인 분석 결과, 차이점은 미미하며 결합 동기가 명확함. 따라서 근거 강도는 강함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            38,
+            39,
+            40,
+            53,
+            54,
+            55
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012212074-A1은 청구항의 기본 시스템 구조와 의료 임플란트 수신자 구성을 개시하고 있으나, 변조 특성 기반 에너지 결정 방식이나 구체적인 주파수 조정 조건은 명시하지 않음. 그러나 신규성 판단 시 '유사성'도 고려되므로 근거 강도는 중간 수준임. strictness=0.89에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            56,
+            57
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 구체적인 에너지 조건 기반 주파수 조정, 전기 저항 변화, 여기 전류 변동, 시간 간격 조건, 회로 구성 등을 명시하지 않음. 결합 동기가 불분명하며, 통상의 기술자가 쉽게 도출할 수 없는 수준임. 근거 강도는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            38,
+            40,
+            41,
+            42,
+            53,
+            55,
+            56
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012212074-A1이 공진 주파수 조절을 통한 에너지 전송 제어의 핵심 기능을 개시하고 있으며, 청구항의 추가 기능(에너지 비교, modulation property 기반 결정, 피드백 제어 등)은 해당 분야의 통상의 기술자가 자명하게 결합할 수 있는 설계 선택임. 결합 동기(motivation to combine)가 명확하고, combination_threshold=0.51을 충족함. strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            53,
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 53과 55의 참조 오류(존재하지 않는 청구항 37 참조 및 수신자 미규정 청구항 38 참조)는 명백한 indefiniteness를 야기함. 35 U.S.C. § 112(b) 기준을 충족하지 못하며, 수정 없이 허용 불가."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            38,
+            40,
+            41,
+            42,
+            53,
+            55,
+            56
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술과의 유사성이 높으나, '동일성'보다는 '유사성'에 가까움. 그러나 strictness=0.82에 따라 103_obviousness로 이미 강한 거절 근거가 제시되었으므로, 102 거절은 보조적 근거로 활용."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            38,
+            40,
+            53,
+            55
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1은 공진 주파수 조정 및 무선 에너지 전송 시스템의 기본 구조를 공개하고 있으나, 청구항의 구체적인 조건부 조정(예: 에너지 비교 결과 기반)이나 역결합 신호의 변조 특성 활용은 명시적으로 공개되지 않았음. 그러나 combination_threshold=0.46과 실용주의 성향에 따라, 이러한 조합은 통상의 기술자에게 예측 가능하다고 판단됨. 근거는 있으나 해석의 여지가 있으므로 moderate로 평가."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            39,
+            54
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 의료 임플란트를 수신자로 사용하는 것을 명시적으로 공개하고 있음. 청구항 39와 54의 의료 임플란트 제한은 선행기술에 의해 직접적으로 예상되며, novelty 결여가 명확함. 근거가 충분하여 strong으로 평가."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            56,
+            57
+          ],
+          "strength": "weak",
+          "reasoning": "이 청구항들은 조건부 공진 주파수 조정, 특정 회로 구성, 고속 저항 변경, 평가 장치의 변조 특성 분석 등 선행기술에 명시적으로 공개되지 않은 구체적인 구현 방식을 포함함. 결합 동기가 불명확하거나 예측 가능하지 않으며, combination_threshold=0.46을 충족하지 못함. 근거가 부족하여 weak으로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            38
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012212074-A1은 자기 공명 무선 전력 전송 시스템에서 공진 주파수 변경 및 에너지 전송 제어를 개시하고 있으나, 청구항 38의 '역결합 신호의 변조 특성을 기반으로 에너지 전송량을 결정하는 구체적인 방법'은 명시되지 않았습니다. 그러나 combination_threshold=0.55에 따라 통상의 기술자가 공지된 변조/복조 기술을 결합할 동기가 충분하다고 판단됩니다. 근거는 있으나 해석의 여지가 있으므로 moderate로 평가합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            46,
+            51
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 46과 51의 'first electrical part', 'second electrical part' 등의 용어는 명세서에서 명확한 정의를 제공하지 않아 indefinite합니다. 종속 청구항(49, 50)에서 구체화되지만, 독립 청구항의 모호성은 112(b) 위반으로 강하게 유지됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of prior art teachings (US-2012212074-A1) with the claimed features is logical and supported by the low combination threshold (0.22). However, some claims (e.g., 38, 40, 43, 56) involve extensions of prior art that, while plausible, may not be explicitly disclosed. The motivation to combine is reasonable but not overwhelmingly strong for all claims. Given strictness=0.46, this leans toward rejection but with room for amendment or argument."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            38,
+            40,
+            41,
+            42,
+            43,
+            52,
+            53,
+            55,
+            56
+          ],
+          "strength": "weak",
+          "reasoning": "The prior art (US-2012212074-A1) discloses elements of the claims but does not explicitly anticipate all features. Novelty rejections here are overly aggressive, as the claims involve combinations or extensions of prior art rather than direct anticipation. Given strictness=0.46, these rejections are unlikely to hold without stronger evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "The incorrect claim reference ('recipient of claim 38') is a clear error that contradicts the claim language and specification. This is a straightforward objection that must be corrected."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1이 Claim 55의 모든 구성요소를 명시적으로 개시하고 있어 선행기술로서의 근거가 명확함. 거절 유지 필요."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            53,
+            55
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 53의 참조 오류(존재하지 않는 Claim 37 참조)는 명백한 실수로 수정 가능함. Claim 55의 참조 오류(수신자 정의 불명확)는 수정 가능하지만, 'modulation property' 용어의 모호성은 명세서 지원이 있으므로 indefiniteness 근거로는 약함. 보정 권고."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 38, 39, 53, 54, and 55 are based on a combination of prior art (US-2012212074-A1) and common knowledge in the field. While the prior art discloses resonance frequency adjustment and the use of medical implants, the motivation to combine these elements for feedback-controlled energy transmission is plausible but not explicitly disclosed. The confidence level (0.7-0.9) suggests moderate strength, but the combination threshold (0.44) allows for obviousness rejections even with moderate evidence. Given strictness=0.52, this leans toward rejection but with room for argument."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The objections regarding 'modulation property' and the definitions of 'first electrical part,' 'second electrical part,' etc., are valid but addressable through amendments. The terms are used broadly but lack explicit ties to the specification. This is a moderate issue that does not warrant outright rejection but requires clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012212074-A1은 자기 공명 무선 전력 전송 시스템으로, 공진 코일을 포함하는 송신기와 수신기를 갖는 시스템을 명시적으로 개시함. 청구항 55의 '수신자와 기지국을 포함하는 시스템'은 이러한 시스템의 일반적인 구성과 동일하여 신규성이 부정됨. 증거가 명확하고 해석의 여지가 없음."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            56,
+            57
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술과의 대비에서 신규성이 인정되며, 선행기술이 청구항의 구체적인 구성이나 메커니즘을 개시하지 않음. 신규성 판단 근거는 명확하지만, 진보성 판단과 연계하여 재검토 필요."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            56,
+            57
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 청구항의 핵심 메커니즘(예: 역결합 신호의 변조 특성을 통한 피드백 제어, 조건부 주파수 조정, 브리지 회로 구성 등)을 명시적으로 개시하지 않음. 그러나 결합 동기의 가능성을 완전히 배제할 수 없으며, 통상의 기술자가 공지 기술을 결합하여 도달할 수 있는지에 대한 해석의 여지가 있음. 다만, combination_threshold=0.52를 초과하여 진보성이 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 55의 거절 근거는 선행기술 US-2012212074-A1이 자기 공명 무선 전력 전송 시스템의 기본 구조(기지국 및 수신자)를 개시한다는 점에 기반합니다. 그러나 청구항 55는 역결합 신호를 송수신하는 구체적인 기능을 포함하고 있어, 선행기술이 모든 필수 요소를 명시적으로 개시하지는 않습니다. 따라서 근거의 강도는 moderate로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 38, 40, 43, 53, and 55 are directly anticipated by US-2012212074-A1, as the prior art explicitly or implicitly discloses all elements of these claims. The confidence levels for these rejections are high (0.75-0.85), and the evidence is clear and unambiguous. Strictness=0.60 supports maintaining these rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 38, 40, 43, 53, and 55 are also rejected under 103 as obvious over US-2012212074-A1 combined with general knowledge in wireless power transfer and communication. The Graham factors analysis supports this rejection, with clear motivation to combine and no secondary considerations to overcome the prima facie case. The combination_threshold=0.57 and strictness=0.60 support maintaining these rejections."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The objections under 112 for claim number mismatches and indefinite terms (e.g., 'temporally changed resistivity') are valid but correctable. The strictness=0.60 suggests that these issues should be addressed via amendment rather than outright rejection, as they do not fundamentally undermine the patentability of the claims."
+        }
+      ]
+    }
+  ]
+}

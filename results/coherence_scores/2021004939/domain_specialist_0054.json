@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 anticipation using element-by-element analysis against US-2018324652-A1, and §103 obviousness using Graham factors (scope/content, differences, PHOSITA level, secondary considerations) with explicit motivation-to-combine reasoning throughout both stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language (e.g., 'roaming 시 IWK-SCEF', 'SCS/AS reference ID 기반 전송', 'NAS PDU') and specific passages from US-2018324652-A1, including citation to its Claim 6 for the non-IP data reception feature."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage consistently builds on §102 findings without contradiction — claims found anticipated at §102 are also rejected at §103, and claims found novel at §102 (e.g., 7, 14, 15) are found non-obvious at §103 and allowed, maintaining coherent alignment across stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.523 (moderate) and combination_threshold at 0.48 (moderate), the examiner appropriately applies rejections where prior art is reasonably close and grants where genuinely novel features appear, reflecting a balanced pragmatist stance without over-rejecting or over-granting on ambiguous evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 2, 5, 6, 8, 9, 12, 13, 18, 23 and allow claims 7, 14, 15, 16, 17, 19, 20, 21, 22, 24 directly follows from the accumulated §102/§103 analyses, with the final decision summary explicitly cross-referencing the stage-level reasoning."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004939",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13981,
+      "output_tokens": 465,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

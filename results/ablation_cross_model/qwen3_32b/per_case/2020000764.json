@@ -1,0 +1,343 @@
+{
+  "case_id": "2020000764",
+  "proceeding_number": "2020000764",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The US-2012302167-A1 patent clearly anticipates all elements of the claims. The coverage scores for these claims range from 0.6 to 0.83, indicating strong evidence that the prior art sufficiently discloses all claim elements. Given the strictness of 0.79, the strong evidence of anticipation warrants a rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1이 청구항의 모든 구성요소를 명확히 개시하고 있으며, 신규성 부재가 명백합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술이 대부분의 청구항 특징을 포함하고 있으며, 해당 분야 기술자가 추가적인 실험 없이 결합 동기를 유도할 수 있으므로 진보성 부재가 명백합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 핵심 용어가 불명확하게 정의되어 있어, 모호성이 존재하지만 이는 명백한 거절 근거로 보기에는 약한 측면이 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1이 모든 청구항의 본질적 요소를 포함하고 있으며, 추가적인 결합 동기의 필요성이 없어 obviousness 판단이 명확합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 문헌 US-2012302167-A1이 청구항의 모든 요소를 명확히 개시함. 모든 청구항이 102(a) 또는 (b)에 의해 거절됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 1, 9, 16 are clearly anticipated by US-2012302167-A1 as it explicitly discloses all elements of these claims including a mobile terminal with a processor, touch screen, and controller configured to activate a handwriting input function, receive handwriting input, determine if the input indicates a character, and automatically store the character. The confidence level is high (0.82-0.8) and verification status is PASS, indicating strong evidence for anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claim 2 is rejected under 102(a) based on implicit teaching that 'characters would be stored within this file.' However, the verification note indicates that implicit teaching alone is not sufficient for anticipation under 102(a). The confidence level is 0.85 but the verification status is REMOVED, suggesting this rejection is not well-supported."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20 are rejected under 103(a) as being unpatentable over US-2012302167-A1. The reasoning states these features would have been obvious to one of ordinary skill in the art as routine modifications to improve functionality and user experience. The confidence levels are moderate (0.6-0.75) and verification status is PASS, indicating some support but requiring further consideration."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The cited reference US-2012302167-A1 is provided and explicitly discloses the features of the claims, satisfying the 102(a) anticipation standard. The verification status is PASS, and the reasoning is consistent across all claims."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The cited reference US-2012302167-A1 explicitly discloses the core elements of these claims including: (1) a mobile terminal with processor, touch screen, and memory; (2) handwriting input activation without application selection; (3) touch pattern determination; (4) storage of recognized characters and non-recognized input as drawings; (5) background operation of handwriting recognition engine; and (6) automatic file generation. These specific disclosures meet the anticipation standard under 35 U.S.C. §102(a)(1)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2012302167-A1 does not explicitly disclose home screen with application shortcuts or boot-time activation, these features are routine adaptations in the field of mobile devices. The reference teaches automatic handwriting recognition without user command, and the concept of launching functionality at boot time or on home screen is well-established in the art. A person of ordinary skill would have combined these elements with predictable results."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on US-2012302167-A1, but the confidence levels vary across claims (0.5 to 0.8). Some claims (e.g., 6, 8, 10, 14, 19, 20) have lower confidence (0.5), suggesting the anticipation is less certain. While the prior art reference is provided, the implicit disclosure interpretation for several claims introduces some ambiguity. Given the strictness parameter of 0.50, this is a moderate strength rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 문헌 US-2012302167-A1이 청구항의 모든 요소를 명확히 개시하고 있으며, 신규성 판단에서 모든 청구항이 102로 거절됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012302167-A1과의 차이점이 단순 구체화 차이로, 해당 분야의 통상의 지식으로 자명하다는 판단. 결합 동기는 명확하나, 차이점의 실질적 혁신성 여부에 따라 판단이 달라질 수 있음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'unmoving touch input', 'drawing', 'not recognized as a character' 등의 용어가 충분히 정의되지 않아 구현이 어려울 수 있음. 명세서가 제공되었으나, 일부 용어에 대한 구체적 설명이 부족함"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1이 청구항의 모든 요소를 명확히 개시하고 있으며, coverage score가 0.68 이상으로 대부분의 청구항에 대해 높은 수준의 개시를 보여줍니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 모든 요소를 개시하고 있으므로, 103 진보성 판단에서도 자명함이 인정됩니다. 결합 동기 또한 필요하지 않으며, Graham 요소 모두에서 청구항과 선행기술 간의 차이가 없음이 판단됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012302167-A1이 청구항 1, 2, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20의 주요 요소들을 명확히 개시하고 있으며, 신규성 판단에서도 이 청구항들이 102(a)(1)에 의해 거절받는 것으로 평가됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012302167-A1이 청구항 1, 2, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20의 차이점이 routine design choice로 판단됨. 청구항 3, 4, 5, 11, 12, 13, 17, 18의 추가 요소들이도 routine design choice로 판단되지만, 이들은 신규성이 인정된 상태에서 진보성 판단으로 거절됨"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The 102 novelty rejections for claims 1, 2, 8, 9, 10, 13, 16, and 20 are strong as the prior art reference US-2012302167-A1 explicitly discloses all essential elements of these claims with coverage scores ranging from 0.65 to 0.8. The confidence levels are generally high (0.65-0.8), indicating a clear anticipation of the claimed invention."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 obviousness rejection for claims 11 and 12 is moderate in strength. While the prior art reference US-2012302167-A1 teaches capturing and storing handwriting, it does not explicitly disclose storing portions not recognized as characters as drawings. However, the rejection argues this would be an obvious modification to one of ordinary skill in the art. The confidence level is 0.6, which suggests some uncertainty in this conclusion."
+        }
+      ]
+    }
+  ]
+}

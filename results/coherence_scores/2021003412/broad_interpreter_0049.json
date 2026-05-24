@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR framework for §103 throughout novelty, obviousness, office action, and final decision stages, explicitly addressing scope and content of prior art, differences from the claims, PHOSITA level, and secondary considerations for each claim."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'deleting constant/nearly constant metrics,' 'eigenvalue decomposition,' 'SVM matrix'), specific prior art references (US-2016352767-A1, US-2014179270-A1), and particular disclosures within those references (covariance matrices, dummy variable labeling, time-series modeling)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage repeatedly finds claims not novel under §102 by relying on combinations of two references (e.g., claims 2, 7, 8) and on 'implicit' or 'broad interpretation' reasoning that conflates §102 anticipation with §103 obviousness—even explicitly acknowledging missing elements—yet the obviousness stage proceeds without acknowledging this inconsistency or providing additional rationale beyond what was already used to deny novelty."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a moderate strictness (0.547) and high claim breadth (0.864), consistent with the broad-interpreter archetype; the trace reflects this by aggressively finding anticipation under BRI even for elements acknowledged as missing, and sustaining all §103 rejections with high confidence, which aligns with a broad-interpreting, moderately strict examiner."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the accumulated §103 obviousness findings across all claims, with the final decision summary and claim-by-claim decisions directly mirroring the prior-stage analyses without unexplained reversal."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003412",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11107,
+      "output_tokens": 453,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

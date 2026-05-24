@@ -1,0 +1,384 @@
+{
+  "case_id": "2019005661",
+  "proceeding_number": "2019005661",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art combination (US-2013268886-A1 and US-2011258081-A1) with clear motivation to adapt trip planning for sales optimization, but differences are minor adaptations (confidence 0.7)"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Specification lacks detailed enablement for IRR-based prioritization, route optimization algorithms, and key terms like 'prospect tour' (confidence 0.5-0.65)"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013268886-A1) explicitly discloses all claimed features with clear functional equivalence. The combination threshold is met (0.34), and Graham factors confirm obviousness through standard PHOSITA knowledge. No unexpected results or commercial success are cited."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are clearly obvious over the combination of US-2013268886-A1 and US-2011258081-A1 with explicit motivation to combine and high similarity scores (0.68 threshold exceeded)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 3, 7, 9, 12, 13, 14 lack sufficient enablement but the specification provides some support. Weakness is moderate due to partial disclosure."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claim 15's indefiniteness is a minor issue that could be resolved with amendment, not a fundamental deficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013268886-A1) explicitly discloses trip planning systems with location-based filtering, route optimization, and customer parameter selection. The claimed invention's core functionality is an obvious variant of these systems adapted to sales territory optimization, with clear motivation to combine features for sales opportunity conversion."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are anticipated by US-2013268886-A1, which explicitly discloses trip planning systems with geographic parameter processing, customer database access, and route generation. The claimed system's core functionality is directly covered by the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1 lacks sufficient written description for 'prospect tour' and 'prospect filter parameter,' and IRR-based optimization criteria require detailed algorithmic implementation not fully disclosed in the specification. While the specification may provide some basis, the lack of explicit disclosure creates ambiguity."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses foundational elements (attribute-based filtering, logistics optimization) that directly anticipate the claimed invention. The combination is obvious for route selection based on geographic/customer attributes, with clear motivation to apply trip planning techniques to sales tours."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 8, 12, and 14 lack sufficient detail to enable the invention. Terms like 'prospect tour,' 'optimal route,' and 'user ability' are not adequately defined in the specification, rendering the claims indefinite."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Clear combination of US-2013268886-A1 and US-2011258081-A1 with explicit mappings and logical motivation to combine (e.g., integrating trip planning with sales optimization). Confidence scores (0.85-0.8) indicate strong evidence of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are strongly anticipated by prior art (US-2013268886-A1 and US-2011258081-A1) with clear motivation to combine, meeting strictness threshold (0.78/0.7). Graham factors confirm obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Term 'prospect tour' lacks sufficient definition in the specification, directly cited as indefinite under 35 U.S.C. §112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 16) are explicitly anticipated by prior art references with high confidence (0.75-0.8). The combination of features is supported by clear evidence of functional equivalence and common knowledge in the field."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 9, 10, 11, 13 lack sufficient detail in the specification, but the evidence is not conclusive. The confidence level (0.7) suggests moderate weakness in supporting the technical elements."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2013268886-A1) discloses trip planning with geographic parameters and customer filtering, but lacks explicit route optimization with dynamic sequencing based on customer-specific attributes (e.g., IRR data) and time/distance constraints. While the combination threshold is low, the specific integration of geographic boundary definition, customer ranking, and attribute-based sequencing is not explicitly suggested by the prior art, making the obviousness argument weaker."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1 lacks sufficient detail on how non-geographic factors (e.g., IRR data) influence route optimization, creating ambiguity in the 'prospect tour' and 'optimal route' definitions. However, the specification provides some context, so the deficiency is not entirely absent."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1 explicitly discloses trip planning with geographic parameters, customer selection, and route optimization. The combination of these elements for sales efficiency is clearly obvious to a PHOSITA, supported by high confidence (0.7-0.8) and clear Graham factors."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 10 and 13 lack sufficient detail on IRR data integration and prospect value calculation. While the specification is insufficient, the deficiency is specific and not entirely speculative."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Objections to terms like 'prospect tour' and 'attribute' are vague and rely on interpretation. The specification's lack of detail is noted but not definitively tied to unimplementability."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1,7,9,12-16) are supported by explicit prior art combinations with clear motivation to combine (e.g., US-2013268886-A1 and US-2011258081-A1). Confidence scores (0.63-0.8) indicate strong overlap with prior art elements."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3 and 11 are explicitly anticipated by single prior art references (US-2013268886-A1) with direct coverage scores (0.7-0.72)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Objections to claims 1,7,9,10,11,12,13,14,15 lack sufficient detail on algorithmic specifics and key terms, but the disclosure provides some foundational context."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2013268886-A1) discloses core functionalities overlapping with claims 1 and 3, but the combination with US-2011258081-A1 for sales optimization is not definitively obvious. Graham factors indicate logical advancement but lack unexpected results."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Specification lacks concrete examples for 'prospect tour' and 'unique attribute', failing to enable the claimed invention. This is a clear deficiency under 35 U.S.C. §112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013268886-A1) explicitly discloses overlapping features with claims 1-16 (except 10) and provides clear motivation to combine elements for sales route optimization. The Graham factors confirm obviousness with no secondary considerations supporting non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2013268886-A1) explicitly discloses core functionalities of all claims (e.g., parameter-based selection, route optimization, attribute filtering). The combination is deemed routine and predictable, with confidence scores consistently above 0.65. The Graham factors confirm PHOSITA would recognize these as obvious extensions."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1 and 16 lack sufficient written description for terms like 'prospect tour' and 'prospect filter parameter.' While the specification may not fully enable these terms, the evidence is not entirely absent, leaving room for interpretation under a moderate strictness threshold."
+        }
+      ]
+    }
+  ]
+}

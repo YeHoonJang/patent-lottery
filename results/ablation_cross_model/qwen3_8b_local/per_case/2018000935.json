@@ -1,0 +1,371 @@
+{
+  "case_id": "2018000935",
+  "proceeding_number": "2018000935",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013216989-A1의 센서 기반 행동 감지, 신호 비교, 추천 시스템은 청구항 1의 핵심 요소와 기능적 동등성을 형성하며, 결합 동기 및 기술적 예측 가능성에 충분히 부합합니다. combination_threshold 0.34를 초과하며, PHOSITA가 기술적 결합을 쉽게 인식할 수 있는 명확한 근거가 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'quantified profile' 및 유전자 알고리즘 파라미터에 대한 명세서의 부족한 설명은 기술적 실현 가능성에 영향을 줄 수 있으나, 청구항 자체의 기능적 동등성은 선행기술과 비교해 명확하게 정의되지 않았습니다. 이는 해석의 여지가 있는 중립적 문제입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013216989-A1의 다수 청구항이 신청인의 청구항을 예측적으로 결합할 수 있으며, 결합 동기(behavioral recommendation system 향상)가 명확하고 기술 분야에서 공지된 기술로 판단됨. 신뢰도 0.85 이상의 높은 수치로 강력한 근거"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'inspect' 용어의 모호성과 'quantified profile' 등의 핵심 용어 정의 부족은 기술자가 발명을 구현할 수 없게 하며, 명세서 뒷받침이 불충분함. 그러나 선행기술과의 유사성으로 일부 요소는 예측 가능함"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art combination (US-2013216989-A1) directly anticipates core method steps, but genetic algorithm-specific features in claims 8-13, 27-32 show technical distinction. Motivation to combine is clear but technical novelty exists in algorithmic implementation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art's behavior tracking and feedback mechanisms are logically combined to achieve the claimed functionality, with verification status as PASS."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail on the genetic algorithm's parameters, fitness functions, and mutation mechanisms, but the initial analysis indicates novelty."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술과의 유사성 및 결합 동기 명확히 제시됨. 선행기술의 'behavior sensing', 'gap identification', 'recommendation systems'가 청구항 요소와 직접 매칭되며, PHOSITA의 결합 동기 존재로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'genetic algorithm implementation', 'fitness function' 등 핵심 기술의 구체적 정의 및 실시 예시 누락. 기술적 구현 방식 명확화 불가능한 상태로, 기재요건 미충족 확정적 근거 있음."
+        },
+        {
+          "basis": "112_broadness",
+          "strength": "moderate",
+          "reasoning": "청구항의 'inspect', 'satisfactorily addressed' 등 용어의 모호성은 해석의 여지 있음. 그러나 심사 성향(엄격)에 따라 이는 'weak'로 판단되어 수정 요구"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly anticipated by US-2013216989-A1 with high confidence (0.8-0.9). The prior art's personalized feedback, behavioral scoring, and adaptive recommendations directly overlap with all claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Lack of specific genetic algorithm parameters and implementation details creates enablement issues, but the specification may still provide sufficient disclosure for some claims."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013216989-A1) provides a clear foundation for behavior sensing, gap analysis, and adaptive recommendations. The integration of genetic algorithms for optimization is a known technique in adaptive systems, creating a strong motivation to combine these elements. The Graham factors confirm the combination is predictable and aligns with PHOSITA knowledge."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'behavior parameter' and 'quantified profile' lack explicit definition in the specification, raising enablement concerns. While the genetic algorithm details are deferred to dependent claims, this creates ambiguity in the independent claim's scope."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013216989-A1은 행동 분석 및 유전자 알고리즘을 활용한 최적화 기술을 명확히 공개하고 있으며, 결합 동기(motivation to combine)가 명확히 제시됨. 유전자 알고리즘을 행동 개선 전략에 적용하는 것은 당업자에게 공지된 기술로, 청구항의 핵심 요소가 선행기술과 유사한 범주에 포함됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'quantified profile'의 구체적 정의 및 유전자 알고리즘의 구현 방법(유전자 표현, 적합도 함수, 돌연변이 정의 등)이 명세서에 부족함. 이는 PHOSITA가 발명을 실행하기 위해 과도한 실험을 요구함을 시사하지만, 명세서의 전체적 맥락에서 완전한 모호성은 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013216989-A1의 Claim1b, 2, 3, 4는 청구항의 핵심 요소(behavior sensing, gap analysis, genetic algorithm)를 명확히 포함하며, 결합 동기(technical problem solving)가 명시되어 있음. 모든 청구항에 대한 confidence가 0.6 이상으로, combination_threshold(0.22)를 명백히 초과함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "유전자 알고리즘 구현 세부사항에 대한 명세서 지원 부족이 지적되나, 선행기술의 데이터 기반 최적화 기술과 결합할 경우 유추 가능한 기술 범위로 판단됨. 다만, 명세서 뒷받침 부족은 허여에 영향을 미칠 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are explicitly anticipated by US-2013216989-A1 with high coverage scores (>0.65). The prior art's recommendation systems, signal comparison, and real-time support directly overlap with claimed features. Clear motivation to combine exists (e.g., improving behavior change effectiveness)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks explicit technical definitions for critical terms like 'quantified profile,' 'intention-behavior gap,' and genetic algorithm parameters, making enablement impossible for a PHOSITA."
+        },
+        {
+          "basis": "112_enablement",
+          "strength": "strong",
+          "reasoning": "Subjective terms like 'time of higher likelihood' and 'satisfactorily addressed' are not objectively defined, compromising enablement without undue experimentation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While some claims combine prior art elements, the unique application of genetic algorithms to behavior gaps lacks clear motivation to combine in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art's signal comparison and iterative behavior tracking provide a clear motivation to integrate optimization techniques like genetic algorithms. However, the combination requires specific technical insight (e.g., applying genetic algorithms to time/action genes), which may not be obvious to a PHOSITA without explicit guidance."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1 provides foundational elements (behavior sensing, gap identification) that could be combined with known adaptive techniques. However, the explicit application of genetic algorithms to optimize behavior change profiles is absent, and the motivation to combine is not clearly implied in the prior art. The combination threshold (0.48) suggests explicit teaching is required, which is lacking."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The term 'quantified profile' lacks a clear technical definition in the specification, but this is a definitional issue rather than a direct rejection of novelty. The confidence in newness for claims 1 and 8-19 is high (0.3-0.8), indicating the term's ambiguity does not invalidate the core inventive concept."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술(US-2013216989-A1)의 기능적 요소(행동 감지, 피드백 루프, 데이터베이스 검색)가 청구항과 명확히 중복되며, 유전자 알고리즘의 적용은 해당 분야에서 공지된 기술로 결합 동기(최적화 기법의 적용)가 명확함. 신뢰도 0.7 이상의 높은 증거로, 강한 거절 근거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항에서 'intention-behavior gap', 'mutation', 'stop criterion' 등 핵심 개념이 명세서에 충분히 정의되지 않으며, 유전자 알고리즘 구현 세부사항이 부재함. 이는 기술적 실현 불가능성을 초래하며, 신뢰도 0.7 이상의 증거로 강한 거절 근거."
+        }
+      ]
+    }
+  ]
+}

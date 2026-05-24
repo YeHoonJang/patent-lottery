@@ -1,0 +1,323 @@
+{
+  "case_id": "ABL-2019005661",
+  "proceeding_number": "2019005661",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.07142857142857142,
+  "reject_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2013268886-A1 and US-2011258081-A1 provides clear and substantial support for the core functionality of generating a prospect tour using geographic and customer-based parameters. The motivation to combine—improving efficiency in scheduling by integrating CRM with route planning—is well-supported by the common goal of resource optimization in both references. Key limitations such as geographic boundary, time constraints, customer filtering, and sequence optimization are either explicitly disclosed or represent straightforward extensions of the prior art. The confidence scores (0.8–0.85) further validate the strength of the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1이 청구항 1, 3, 5, 6, 16의 모든 구성요소를 명확하게 개시함. BRI 해석 하에서 'location of a scheduled trip item', 'start time, end time', 'trip calendar' 등이 각각 지리적 파라미터, 시간 제약, 투어 경로 생성에 대응하며, 명백한 anticipation 존재. confidence 0.85 이상, 단일 문헌 기반으로서 102 적용 타당."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 4, 7, 12에 대한 103 거절은 결합 동기와 공지기술 기반에서 정당화됨. 지도 표시, 최대 운전 거리, 다중 고객 식별, 방문 순서 최적화는 각각 GUI 관행, 경로 제한 설계 선택, 리드 관리 및 일정 시스템 결합의 연장선. 그러나 일부 구성(예: 최대 운전 거리)은 선행기술에 직접 개시되지 않아 자명성에 약간의 해석 여지 존재하나, combination_threshold=0.34 기준 하에서 동기 존재로 판단 가능."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'prospect filter parameter'와 'customer filter parameter'의 불일치, 'stating location'의 명백한 오타, 'conforming with'의 모호한 표현 등은 명세서와 청구항 간 일관성 및 명확성 부족을 나타냄. 112(a) 서면설명 및 112(b) 명확성 요건 위반 가능성이 높음. 특히 'prospect filter parameter'는 명세서 전반에서 사용되지 않아 소유권(possessory) 문제 발생."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2013268886-A1 discloses a travel planning system with route optimization, its application to sales opportunity conversion is not explicit. The combination with US-2011258081-A1 for lead generation provides some motivation, but the integration of geographic and customer filtering specifically for sales tours involves a purposeful distinction in technical application. The motivation to combine is plausible but not compelling, especially given domain differences between travel planning and sales optimization. Under a purposivist interpretation, the claimed invention serves a distinct commercial efficiency purpose not fully addressed by prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Features like maximum drive distance (claim 4), shortest route (claim 8), threshold filtering (claim 11), and numerical mapping (claim 15) are common in routing and data processing systems. However, their specific integration into a sales opportunity conversion framework is not trivial. While individually obvious, their combined use in the claimed context contributes to a non-obvious technical effect in field sales optimization. The confidence in obviousness is low due to lack of direct teaching or suggestion in prior art for this specific integration."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The use of IRR data (claim 10) as a customer attribute is not disclosed in prior art. Although IRR is a known financial metric, its application in route optimization for sales tours is novel and non-obvious. There is no clear motivation in US-2011258081-A1 or general knowledge to integrate financial return metrics into spatial-temporal tour planning. This represents a meaningful technical enhancement in decision-making systems for sales strategy, exceeding routine design choices."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although the prior art references (US-2013268886-A1 and US-2011258081-A1) disclose elements related to trip planning and sales lead management, respectively, the combination does not render the claimed invention obvious. The integration of geographic search parameters with customer filter parameters specifically for optimizing sales tours—particularly using unique attributes like IRR, total prospect value, and time/distance constraints—is not clearly motivated in the prior art. The reasoning consistently identifies a lack of motivation to combine, and confidence scores for non-obviousness are moderate to high (up to 0.9), indicating weak obviousness grounds. Given the low strictness (0.29), this weak evidence does not justify rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1과 US-2011258081-A1의 결합은 명백하며, 각 선행기술이 지리적/시간적 일정 최적화 및 고객 속성 기반 필터링을 개시하고 있어, 일반 기술자가 이를 결합할 동기가 존재함. 결합 동기와 기술적 실현 가능성에 대한 근거가 명확하고, Graham 요소 분석도 완전함. confidence 수치(0.9) 또한 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1과 US-2011258081-A1의 결합은 위치 기반 여행 일정 최적화와 영업 리드 우선순위화라는 공통의 최적화 목적을 가진 시스템을 통합하는 것으로, 통상의 기술자에게 명백한 설계 선택이다. 결합 동기(motivation to combine)는 시간 및 자원 제약 하에서의 효율성 극대화라는 현실적인 비즈니스 요구에 기반하며, 각 구성요소(지리적 필터링, 고객 속성 기반 우선순위, 경로 시각화, 최단 경로 산정 등)는 개별적으로 공지된 기술이다. 전체 시스템은 이러한 공지 기술의 직관적 조합에 불과하며, 새로운 기술적 효과나 예상 외 결과는 입증되지 않았다. confidence 점수 대부분 0.8 이상으로, 강력한 obviousness 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 5, 7, 12–15 are rejected under 103 with clear citations from US-2013268886-A1 and US-2011258081-A1. The combination is supported by explicit teachings in both references and a clear motivation to combine for improving sales and scheduling efficiency. Confidence scores range from 0.71 to 0.90, indicating strong evidentiary support."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Both references are highly relevant and directly address key aspects of the claimed invention. US-2013268886-A1 teaches geographic and time-based trip planning with route visualization and feasibility analysis, while US-2011258081-A1 teaches customer filtering, prioritization, and scheduling based on sales potential. The combination anticipates all claim elements, and the motivation to combine is clear and logical: improving sales productivity by integrating route planning with customer value assessment. The Graham factors support obviousness, with no evidence of secondary considerations. Confidence in the rejection is high across all claims, with minimal differences between the prior art and the claims."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "기본 청구항 1 및 관련 종속청구항(3,5,6,7,12-16)에 대한 거절은 두 개의 명확한 선행기술(US-2013268886-A1 및 US-2011258081-A1)의 결합에 기반하며, 결합 동기(motivation to combine)가 명확함. 영업 효율성 제고라는 공통 목적 하에 GIS 기반 경로 계획과 영업 자동화 시스템을 통합하는 것은 통상의 기술자에게 자명하며, confidence 점수(0.85 이상)도 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 2의 거절은 단일 선행기술(US-2013268886-A1)과 공지기술(지도 기반 UI)의 결합에 근거함. 지도상 경로 표시는 내비게이션 시스템에서 표준 관행이며, spatial visualization의 필요성은 명확함. confidence 0.9로 강한 근거 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2011258081-A1 and US-2013268886-A1 provides clear disclosure of sales lead filtering, customer prioritization, and geographic route planning. The motivation to combine is strong: improving field sales efficiency by integrating customer value with travel logistics is a predictable and logical step for a person of ordinary skill. Key features such as route generation based on customer and geographic filters, time constraints, start location, and visualization are either explicitly taught or obvious extensions. Confidence in the combination is high (0.75 average), and the references are from overlapping domains (sales automation and trip planning), supporting a reasonable expectation of success."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 4's 'maximum drive distance' parameter is not explicitly disclosed, but distance-based constraints are common in routing systems. While US-2013268886-A1 teaches time and location parameters, the leap to maximum drive distance requires a small inferential step. However, given the ordinary skill in the art and routine use of distance limits in logistics, this is considered an obvious design choice. The strength is moderate due to lack of explicit disclosure, but supported by common technical practice."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 8–10 and 13–15 involve optimizing routes based on shortest path or total prospect value using financial metrics like IRR. While shortest path algorithms are well-known, their specific application to sales tours with financial prioritization is not explicitly taught. However, combining known sales scoring (US-2011258081-A1) with route optimization (US-2013268886-A1) is a logical extension. The motivation is present but slightly less direct, making the strength moderate. No secondary considerations (e.g., commercial success) are provided to rebut obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2013268886-A1 and US-2011258081-A1 provides clear and substantial support for the claimed elements in most claims. Motivation to combine is well-reasoned based on improving efficiency in sales and travel planning, a common goal in both references. The technical fields (CRM, GIS, itinerary optimization) are closely related, and integration represents a predictable combination of known systems."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 8, and 10 involve features not explicitly disclosed—maximum drive distance, shortest route definition, and IRR as a customer attribute. While these are framed as obvious applications of known techniques (route constraints, shortest path algorithms, financial metrics), the specific combination in a sales tour context lacks direct motivation in the prior art. However, under a moderate strictness standard, these are viewed as predictable uses of conventional tools in the field."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013268886-A1은 지리적, 시간적, 속성 기반 필터링과 경로 생성을 포함하는 여행 계획 시스템을 명시적으로 개시하고 있으며, 청구항 1, 3, 5, 6, 7, 9, 11, 12, 15, 16의 구성요소 대부분이 동일하거나 실질적으로 동등한 기술적 구현을 포함함. 영업 방문에의 적용은 목적의 변화일 뿐, 기술적 차별성이 없음. 결합 동기(motivation to combine)가 명확하며, 통상의 기술자 수준(phosita)에서 자명한 적용으로 판단됨. confidence 수치 또한 0.8 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "기초 청구항 1 및 16에 대한 진보성 거절은 강한 근거를 가짐. 두 선행기술(US-2011258081-A1 및 US-2013268886-A1) 모두 자동화된 계획 시스템 분야에서 사용자 효율성 향상을 목표로 하며, 영업 활동과 여행 계획이라는 유사한 맥락에서 데이터 필터링 및 경로 최적화 기능을 포함함. 결합 동기(motivation to combine)는 명확하고, 통상의 기술자도 이러한 통합을 쉽게 도출할 수 있음. Graham 요소 중 기술적 차이(differences)는 단순한 조합에 불과하며, 2차적 고려사항도 제시되지 않아 obvious 판단이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1–9, 11–16 are based on combinations of US-2011258081-A1 (sales automation with customer filtering) and US-2013268886-A1 (location/time-based travel planning). The integration of customer attribute filtering and geographic route optimization is supported by overlapping goals of user efficiency. Motivation to combine is clear and predictable. Features like start location, max drive distance, time constraints, and value-based prioritization are routine extensions in the field. Confidence in obviousness is high (≥0.85), and the combination references provide sufficient technical foundation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 10 introduces IRR as a customer attribute for route optimization. While IRR is a known financial metric, its specific application to sales tour optimization is not explicitly disclosed in the prior art. The Office Action treats it as a predictable substitution, but this requires a leap in technical reasoning—integrating financial ROI analysis into spatial route planning is not routine. Graham factors indicate moderate PHOSITA level and lack of secondary evidence. Confidence is 0.78, below the threshold for strong obviousness. Under strictness=0.60, this moderate weakness warrants reconsideration, though not automatic allowance."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for each claim, and §102 uses element-by-element anticipation reasoning, correctly invoking the statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the novelty, obviousness, and office action stages reference specific claim language (e.g., 'evaluation device comparing transmitted energy to a set value'), specific prior art disclosures from US-2012212074-A1 (e.g., 'coupling changer,' 'implantable micro stimulator,' 'load resistance'), and specific technical features of each claim."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings — claims found not novel at §102 are also found obvious at §103, and claims found novel at §102 (e.g., 41, 42, 44–51, 57) are uniformly found non-obvious, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.248 (lenient) and combination_threshold=0.676 (high), which is reflected in the reasoning: borderline anticipation cases for claims 38 and 40 are resolved toward rejection using 'functional similarity' and 'generous interpretation,' yet the high combination threshold leads to findings of non-obviousness for many dependent claims with specific hardware implementations, consistent with a lenient-but-selective profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with selective grants for claims 41, 42, 44–51, and 57 flows directly from the accumulated stage analyses, which consistently found those claims novel and non-obvious while rejecting claims 38–40, 43, 52–56, with no unexplained reversals."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022004238",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14053,
+      "output_tokens": 472,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "case_id": "ABL-2017007521",
+  "proceeding_number": "2017007521",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "reject_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1은 이미지 데이터를 사용한 인간의 자세 추정 시스템을 개시하며, 픽셀별 확률 할당, 세그먼트 내 중심점 결정, 후속 처리를 위한 전달 등을 포함한다. 청구항 1-15, 17, 18, 20의 구성요소는 이 선행기술에서 명시적으로 개시되거나, 실시간 이미지 처리 아키텍처에서 일반적인 설계 선택으로 간주될 수 있다. 특히 우선순위 기반 평가 종료, 로컬 어그리게이션, 스캔라인 스트리밍 등은 효율성 향상을 위한 자명한 최적화로, 결합 동기가 명확하다. confidence 점수가 0.7 이상인 항목이 다수이며, 전체적으로 강한 obviousness 근거를 형성함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 4's 'sequential streaming in parallel' is internally contradictory but reflects a known parallel processing pattern. Given US-2011210915-A1's image processing context, applying standard parallel evaluation with sequential input distribution is a predictable design choice. PHOSITA would combine this with reasonable expectation of success. Claim 13's scan line order is conventional in raster image systems and directly applicable to prior art's pixel processing. Motivation to combine is clear and supported by common knowledge."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 12, 15, and 20 rely on features explicitly disclosed or inherently suggested in US-2011210915-A1. Centroid determination for body parts, use of pixel probability data, and probability maps are all directly taught. Arranging evaluation functions in an array for parallel processing is an obvious modular extension. No inventive insight is required. Confidence in obviousness is high based on direct teachings and routine optimization."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art US-2011210915-A1 discloses probabilistic segmentation and centroid determination for body pose estimation but does not teach or suggest the specific streaming architecture involving an array of evaluation functions, priority-based acceptance, termination upon first acceptance, local aggregation, or peer-to-peer streaming. The combination of these features to achieve single-pass k-means approximation in a distributed streaming environment is not obvious. Motivation to combine is lacking, and the technical integration represents a meaningful advancement in real-time clustering efficiency. Given the low obviousness threshold (combination_threshold=0.68) and the examiner’s lenient stance (strictness=0.25), this constitutes a weak basis for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 11, 15, and 20 are directly supported by US-2011210915-A1's explicit disclosure of single-frame image data with pixel-level probabilities for body part association and probability maps. The functional equivalence between 'centroid pixel' and 'candidate centroid' in claims 7, 8, 12 is well-established in the prior art, and averaging coordinates is a fundamental technique in clustering. These rejections are based on clear anticipatory disclosures and common knowledge, making them strong."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1은 실시간 신체 포즈 추정을 위한 픽셀 기반 확률 맵과 센트로이드 결정을 개시하고 있으며, 본 출원의 핵심 구성요소인 평가 함수 배열, 조기 종료, 로컬 어그리게이션, 상태 전이 등은 모두 실시간 스트리밍 환경에서 알려진 최적화 기법이다. 결합 동기(motivation to combine)가 명확하며, 통상의 기술자가 선행기술을 결합하여 출원 발명에 도달하는 것이 자명하다. 특히 조기 종료, 파이프라인 전달, 배치 전송, 상태 리셋 등은 실시간 시스템 설계의 일반적 관행이다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 19의 '다차원 공간에서의 위치와 독립적'이라는 표현은 k-means 알고리즘의 기본 원리인 거리 기반 할당과 모순되며, 명세서(¶0119)는 이를 확률 맵으로 설명하지만, 확률 맵 자체도 픽셀 좌표에 의존한다. 따라서 명세서가 해당 기술적 개념을 소유하고 있음을 입증하지 못하며, 서면 설명 요건을 충족하지 못한다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7, 11, 15, and 20 are directly supported by US-2011210915-A1, which explicitly discloses determining centroids within body segments and processing single-frame image data with per-pixel probabilities for predefined body parts. The reference inherently teaches the formation of probability maps and centroid determination, making these claims obvious without requiring impermissible hindsight. The motivation to combine is internal to the reference, satisfying the TSM test."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1(Kanade)는 이미지 프레임 내 픽셀에 대한 신체 부위 확률 할당 및 세그먼트 내 센트로이드 결정을 명시적으로 개시하고 있으며, 이는 컴퓨터 비전 분야에서 신체 포즈 추정을 위한 공지된 기술이다. 청구항 11, 12, 15, 20은 이러한 공지된 기술적 요소를 스트리밍 k-means 시스템에 적용한 것에 불과하며, 통상의 기술자가 결합할 동기(motivation to combine)가 명확하고 성공 가능성(expectation of success)이 있음. Office Action에서 §102와 §103 모두 근거를 제시하였으며, 특히 §103에 대한 Graham 요소 분석이 탄탄함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 4의 '순차적 병렬 스트리밍'은 모순적이며, 선행기술 US-2011210915-A1이 픽셀 단위 병렬 처리를 개시하므로, 데이터 스트리밍에 병렬 처리를 적용하는 것은 통상의 기술자에게 자명한 설계 선택이다. 진보성 판단의 confidence가 0.6으로, 근거가 명확하고 해석의 여지도 제한적이다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7, 8, 11, 12, 15, 20은 신규성 판단에서 이미 선행기술에 개시된 내용으로, 용어의 명칭 변경(예: 중심 픽셀 → 후보 중심점) 또는 동일한 기술적 사상의 재구성일 뿐이다. 진보성 판단에서도 동일한 결론이 반복되며, 결합 동기와 기술적 차이 부재가 명확하여 거절 근거가 강하다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11 and 15 are clearly anticipated by US-2011210915-A1, which explicitly discloses obtaining image data of a single frame with pixels and probabilities indicating association with predefined body parts. The disclosure is direct and unambiguous, satisfying the § 102 novelty rejection standard."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The § 112 rejections are based on lack of clarity or support for terms such as 'weight value', 'maximum distance', 'sequential streaming in parallel', and 'independence from spatial locations'. While some terms are not fully defined in the specification, many are contextually inferable by a PHOSITA familiar with streaming algorithms and k-means clustering. However, the specification could better define initialization methods and functional mechanisms, warranting caution."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11 and 15 are clearly anticipated by US-2011210915-A1, which explicitly discloses image data from a single frame with pixels assigned probabilities of association with body parts (paragraph [0038]). The disclosure is direct and unambiguous, satisfying the statutory bar under §102."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The §112 rejections for claims 4, 16, and 19 are based on reasonable concerns. Claim 4's 'sequential... in parallel' phrasing is potentially contradictory but could be interpreted as sequential input with parallel function evaluation, which may be supported in context. Claims 16 and 19 involve functional language ('approximate', 'independent of locations') that lack precise metrics, but the specification may implicitly support them through algorithmic behavior. Given moderate strictness, these are not automatically fatal."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11, 15, and 20 are clearly anticipated by US-2011210915-A1, which explicitly discloses image data from a single frame, pixel-level probabilities for body part association, and probability maps tied to predefined body parts. The disclosure in the prior art matches the claim language in both structure and function, satisfying the anticipation standard under §102 with high confidence (0.9–0.95)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 4's recitation of 'sequential streaming... in parallel' presents a fundamental contradiction. Sequential and parallel data transmission are logically incompatible without specific architectural clarification, which is absent in the specification. Similarly, claim 19's assertion that k-means clustering is 'independent of locations in multidimensional space' contradicts the core algorithmic principle of k-means, which relies on Euclidean distance. The specification fails to provide an enabling disclosure or alternative mechanism, rendering the claim indefinite and non-enabled under §112(a) and (b). These are not mere drafting issues but go to the heart of operability and clarity."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the prior art (US-2011210915-A1) addresses body part segmentation using probabilistic models and centroid determination, it does not teach or suggest the full architecture of streaming k-means with priority-ordered evaluation functions, local aggregation, cascaded forwarding, or reset mechanisms. The applicant's arguments regarding lack of motivation to combine are persuasive. However, given the partial overlap in data processing goals (centroid identification from image data), and considering the general knowledge of k-means in the art, there is a moderate risk that a broad interpretation could lead to an obviousness challenge. Yet, at strictness=0.52, this falls short of a strong conclusion."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 15는 선행기술 US-2011210915-A1에 명시적으로 개시된 단일 프레임 이미지 데이터 및 픽셀별 신체 부위 확률 정보를 재사용하고 있으며, 동일한 기술 분야에서 통상의 기술자가 쉽게 결합할 수 있는 내용이다. 결합 동기와 성공 가능성은 명확하며, 추가적인 창의적 사고가 요구되지 않음. Office Action의 인용 및 검증 상태(PASS)도 이를 뒷받침함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11 and 15 are clearly anticipated by US-2011210915-A1, which explicitly discloses single-frame image data with pixel-level probabilities for predefined body parts. The disclosure in the prior art (Summary and Claim 6) is specific and directly maps to the claimed subject matter. Claim 7 is also strongly anticipated, as 'candidate centroid' is equivalent to 'centroid pixel' in the prior art, with explicit support in Claim 8 and the Summary. These are not broad or interpretive rejections but grounded in direct disclosures."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 11 및 15는 US-2011210915-A1에 의해 명확히 개시됨. paragraph [0023]에서 단일 프레임 이미지 데이터 및 픽셀별 신체 부위 확률 계산을 직접적으로 기재하고 있으며, BRI 하에서도 피하기 어려움. 신규성 결여는 명확하므로 strong 근거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 2, 3, 4, 9, 10, 12, 14, 16, 18, 19, 20에 대한 112 거절은 대부분 용어의 모호성과 명세서 뒷받침 부족을 근거로 함. 그러나 일부 용어(예: 'reset', 'weight value')는 기술 분야 통상의 기술자가 해석 가능할 수 있음. strictness=0.60인 만큼, 일부는 보정 가능성 열어둘 여지 있음. 그러나 'sequential streaming in parallel'과 같이 명백히 모순되는 표현은 indefiniteness 강함."
+        }
+      ]
+    }
+  ]
+}

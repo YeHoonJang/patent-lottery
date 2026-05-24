@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes §103 Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for obviousness rejections and §112(a) written description framework for structural/support deficiencies, with no statute-mixing observed."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'white marking material,' 'non-smooth,' 'light scattering particles'), the prior art reference US-2018113244-A1, and specific disclosures within it (e.g., 'light scattering particles,' 'forward-scattering elements') throughout novelty, obviousness, and office action stages."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds claims 3, 4, 6, 7, 9, etc. novel (is_novel=false entries are mislabeled but treated as novel per reasoning), yet the obviousness stage then raises §103 rejections on those same claims without clearly explaining why the same elements that failed to anticipate nonetheless support an obviousness finding — the transition from 'direct disclosure lacking' to 'obvious' is asserted rather than justified with additional rationale distinguishing the two standards."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.461 and combination_threshold=0.222 (easy combiner), the examiner liberally finds obviousness for most ink/white-material claims with minimal motivation to combine, while allowing toner-based claims and suggesting amendments rather than outright rejection — consistent with a moderately lenient, easy-combining profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with grants for toner-based claims (5, 8, 13, 16) directly follows from the accumulated stage analyses: §103 rejections for white/ink claims at moderate strength, §112 issues for dependency-chain claims, and consistent non-obviousness findings for toner claims across both novelty and obviousness stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001686",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12280,
+      "output_tokens": 490,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

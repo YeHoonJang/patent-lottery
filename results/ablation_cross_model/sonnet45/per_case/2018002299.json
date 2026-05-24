@@ -1,0 +1,340 @@
+{
+  "case_id": "2018002299",
+  "proceeding_number": "2018002299",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.23,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012214887-A1 teaches gypsum slurry with generic starch, but does NOT explicitly disclose: (1) pre-gelatinized starch (only mentions 'natural polymer (i.e., starch)' without pre-treatment specification), (2) amount >4% by weight, (3) lignosulfonate dispersant at all (uses cellulose ether or polyacrylamide instead), (4) amount ≥0.3% for dispersant. The obviousness argument relies on: (a) pre-gelatinized starch being 'well-known modification' of starch, (b) lignosulfonate being 'known equivalent' dispersant, (c) concentration ranges being 'routine optimization'. However, the reference does not suggest combining these specific elements. The motivation provided is 'implicit in shared objective' - this is weaker than explicit teaching or suggestion in prior art. KSR permits combination of known elements with predictable results, but requires rational motivation beyond hindsight. Here, the specific combination (pre-gelatinized starch >4% + lignosulfonate ≥0.3%) is not taught or suggested by the reference. The specification claims 'surprisingly good structural properties, especially regarding nail pull' - while conclusory without comparative data, this hints at potential unexpected results. Under strict examination with combination_threshold=0.34, this combination would require stronger showing of motivation than provided. The 103 rejection has merit but is not as strong as a case where the reference explicitly teaches or suggests the claimed combination."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1-6, 8-13, 16-20: The prior art US-2012214887-A1 discloses the basic gypsum slurry composition with optional starch and foam, but does not explicitly disclose pre-gelatinized starch in claimed amounts or lignosulfonate dispersant. The obviousness rejection relies on: (1) pre-gelatinized starch being a known variant of starch, (2) lignosulfonate being a known dispersant in construction materials, (3) routine optimization of amounts, ratios, and foam content, and (4) ammonium ether sulfate being a known surfactant. While these elements are individually known, the combination lacks explicit teaching in the prior art. However, the motivation to combine (improving strength with starch, improving flow with dispersant) is logical and well-reasoned. The combination_threshold=0.34 (low) supports finding obviousness even without explicit teaching. The reasoning is sound but involves multiple inferential steps (known element + routine optimization + predictable combination). This is moderate strength - not weak because the logic is coherent and elements are known, but not strong because it requires combining multiple pieces of knowledge without explicit teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 7, 14, 21 (negative limitation - no sodium trimetaphosphate): The rejection acknowledges there is no evidence that sodium trimetaphosphate was commonly used in gypsum wallboard formulations or that its exclusion addresses a known problem. The rejection is 'provisional' and invites applicant to provide evidence. Without teaching that this compound needed to be avoided, the motivation for the negative limitation is speculative. This is weak strength - the rejection essentially admits lack of motivation. Under strict examination (strictness=0.88), I would normally maintain rejections with weak evidence, but a negative limitation without any teaching that the excluded component was problematic or commonly used lacks foundational support. Even under strict standards, rejecting a claim for excluding something that was never taught to be present or problematic is questionable."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012214887-A1은 석고 슬러리의 기본 구성(calcined gypsum, water, foaming agent)을 개시하지만, pre-gelatinized starch (>4% by weight) 및 lignosulfonate dispersant (≥0.3% by weight)의 조합은 전혀 개시하지 않습니다. 선행기술은 cellulose ether와 polyacrylamide copolymers를 언급하지만, 이는 청구된 구성요소와 명확히 다릅니다. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 다른 증점제(cellulose ether, polyacrylamide/acrylic acid copolymers)를 개시하나, pre-gelatinized starch를 이들과 대체하거나 lignosulfonate dispersant와 결합할 명시적 교시나 동기가 전혀 없습니다. 명세서는 이 조합이 nail pull resistance 등 예상치 못한 구조적 특성을 제공한다고 기재하여 unexpected results를 시사합니다. Combination_threshold=0.68(높음)를 고려하면, 명확한 결합 동기나 교시가 필요한데 선행기술에 이것이 없습니다. PHOSITA가 이 특정 조합에 도달할 이유가 없습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 모든 청구항 요소(pre-gelatinized starch, lignosulfonate dispersant, 농도 범위, density targets, surfactant types, water ratios, 제조 방법)를 충분히 기재하고 있습니다. 수치 범위들이 명확히 정의되어 있고, functional language도 객관적 기준(density)으로 제한됩니다. Negative limitation(no sodium trimetaphosphate)도 명세서에서 뒷받침됩니다. 112 문제 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들은 조성물(claims 1-7), 제조물품(claims 8-15), 제조방법(claims 16-21)으로 모두 statutory categories에 해당합니다. Abstract idea나 natural phenomenon이 아니며, 구체적 제조 응용입니다. 101 문제 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012214887-A1은 gypsum slurry의 기본 구성(calcined gypsum, water, foaming agent, thickening agent including starch)을 개시하지만, 청구항의 핵심 차별점인 (1) pre-gelatinized starch >4% 및 (2) lignosulfonate dispersant ≥0.3%는 명시적으로 개시되지 않았습니다. Lignosulfonate가 건축 재료 분야에서 공지된 dispersant라는 점과 starch 함량 최적화가 통상의 실험 범위라는 점은 인정되나, 이 두 성분의 '특정 조합'이 '특정 함량 범위'에서 'surprisingly good nail pull properties'를 낸다는 명세서의 주장은 예측 불가능한 결과일 가능성이 있습니다. 선행기술은 starch를 'in some cases' 사용한다고만 하여 필수 성분으로 제시하지 않았고, lignosulfonate는 전혀 언급되지 않았습니다. 결합의 동기는 일반적 수준(dispersion 개선, thickening 최적화)에서는 설명 가능하나, 이 특정 조합과 함량이 nail pull 성능이라는 구조적 특성을 개선한다는 것은 선행기술로부터 명백하지 않습니다. Combination_threshold=0.72를 고려하면, 이는 경계선상의 사안입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2012214887-A1 discloses starch generically ('in some cases natural polymer (i.e., starch)') but does not explicitly disclose pre-gelatinized starch at >4% by weight or lignosulfonate dispersant at ≥0.3% by weight. These are specific quantitative and qualitative limitations not found in the reference. The anticipation analysis shows element coverage scores of 0.5-0.6, indicating only partial overlap. Under strict BRI interpretation, 'starch' does not necessarily read on 'pre-gelatinized starch >4%' and the reference's 'thickening agent' does not read on 'lignosulfonate dispersant ≥0.3%'. The 102 rejection lacks sufficient explicit disclosure of all claim elements. This is a weak basis for anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The obviousness rejection is well-supported. US-2012214887-A1 provides a strong foundation disclosing gypsum slurry with calcined gypsum, water, foam, and starch. The differences (pre-gelatinized starch, lignosulfonate dispersant, specific ratios/ranges) are clearly identified. The motivation to combine is well-articulated: (1) pre-gelatinization is a known modification to improve starch dispersibility in aqueous systems - this is common knowledge in construction materials; (2) lignosulfonate is a well-known dispersant in gypsum formulations for improving flow properties; (3) the specific concentration ranges represent routine optimization of known variables; (4) surfactant selection (ammonium ether sulfate) is from a finite class of known alternatives; (5) water-to-stucco ratio and density adjustments are predictable result-effective variables. All claimed limitations represent either routine optimization, selection from known alternatives, or predictable use of known techniques. The combination threshold of 0.45 is met - the modifications are straightforward applications of known principles. No unexpected results have been shown. This is a strong obviousness case across all claims."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejection for claims 1-6, 8-13, 15-20 is supported by strong evidence. US-2012214887-A1 explicitly discloses the core structure (gypsum slurry with calcined gypsum, water, foam, and starch between facers) and the manufacturing process. The key differences are: (1) pre-gelatinized starch at >4%, (2) lignosulfonate dispersant at ≥0.3%, (3) specific density/ratios, and (4) specific surfactant selection. Each limitation represents routine optimization or obvious selection from known alternatives. Pre-gelatinized starch has been used in gypsum for decades as a strengthening agent—optimizing the amount (4-10%) is routine experimentation. Lignosulfonate dispersants are well-established in gypsum/cement formulations (0.1-2% typical range). The motivation to combine is clear and well-articulated: dispersant improves workability/foam stability while starch enhances strength—complementary functions. Ammonium ether sulfate is a well-known foaming surfactant; selecting it is obvious substitution. Water:stucco ratio 0.7:1 to 1.3:1 falls within conventional 0.6:1 to 1.5:1 range. Density optimization through foam adjustment is routine. Claim 15's parameters (½ inch thickness, paper facers, hydroxyalkylated corn starch, 1000-1300 lbs/MSF) represent standard dimensions and obvious selections. Method claims 16-20 combine known process steps with obvious compositional modifications. Under KSR principles, this constitutes predictable use of prior art elements, routine optimization, and obvious to try with reasonable expectation of success. The obviousness analysis is thorough, logical, and well-supported."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2012214887-A1, which discloses gypsum slurry with calcined gypsum, water, foaming agent, and thickening agent, plus optional starch. The claimed invention differs in two key aspects: (1) pre-gelatinized starch >4% by weight, and (2) lignosulfonate dispersant ≥0.3% by weight. The reasoning for obviousness relies on: (a) pre-gelatinization being a known technique to improve starch functionality, (b) lignosulfonate being a well-known dispersant in gypsum systems that could substitute for cellulose ether, and (c) the amounts representing routine optimization. However, the strength is moderate rather than strong because: (1) the reference only mentions starch as optional without any specific amount or modification, creating a gap between generic mention and the specific >4% pre-gelatinized requirement; (2) the reference uses cellulose ether or polyacrylamide copolymers as thickening agents, not dispersants, and the functional substitution from thickener to dispersant involves some interpretive leap; (3) the combination of BOTH elements together (pre-gelatinized starch >4% AND lignosulfonate ≥0.3%) is not explicitly taught or suggested by a single reference; (4) while the individual elements may be known, the motivation to combine them in these specific amounts is based on general knowledge rather than explicit teaching. The rejection articulates reasonable motivation based on known functions, but the evidence could be stronger if there were explicit teaching of the combination or amounts."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2012214887-A1 in combination with common knowledge. The prior art discloses gypsum slurry with calcined gypsum, water, starch, and foam. The differences are: (1) pre-gelatinized starch at specific amounts (>4% or 4.5-10%), (2) lignosulfonate dispersant at specific amounts (≥0.3% or 0.35-1.0%), (3) ammonium ether sulfate surfactant, (4) water:gypsum ratio 0.7:1 to 1.3:1, and (5) density ≤31 pcf. The reasoning relies heavily on 'common knowledge' and 'routine optimization' without specific prior art citations for the claimed combinations. While pre-gelatinized starch, lignosulfonate dispersants, and ammonium ether sulfate surfactants are generally known in the art, the specific combination with the claimed amounts represents more than simple optimization. The motivation to combine is logical but not explicitly taught in the cited reference. The claim ranges (e.g., >4% starch, ≥0.3% lignosulfonate) define specific working formulations that may produce unexpected synergistic effects not predictable from the prior art. Given my strictness of 0.55 (moderate), I find this rejection moderately strong but not definitively compelling without more specific prior art showing the claimed combination or ranges."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejection relies on combining pre-gelatinized starch (a known variant of disclosed starch) with lignosulfonate dispersant (a known additive in gypsum art). US-2012214887-A1 discloses the base composition with starch but does not explicitly teach pre-gelatinized form or lignosulfonate. The strength is moderate rather than strong because: (1) the reference does not teach or suggest the specific combination claimed, (2) the motivation to combine relies heavily on general knowledge in the field rather than explicit teaching in the reference, (3) no evidence of unexpected results is presented, but also no evidence that the combination was routine or predictable at the time of invention. The combination_threshold=0.22 and strictness=0.46 suggest a balanced approach - the modification is plausible but not definitively obvious without more evidence of what was routine in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2012214887-A1 discloses gypsum slurry with calcined gypsum, water, foaming agent, and mentions starch as optional ingredient. However, the reference does not explicitly disclose pre-gelatinized starch at more than 4% by weight or lignosulfonate dispersant at least 0.3% by weight. The anticipation analysis shows only 50-60% element coverage for claims 1, 2, 8, 9, and 16. Under 102, all elements must be disclosed in a single reference. The missing critical limitations (specific starch type/amount and lignosulfonate dispersant) mean these claims are not anticipated. The 102 rejection is weak and should be withdrawn."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness analysis is more substantial. US-2012214887-A1 teaches gypsum slurry with starch and dispersants/thickening agents. The differences are: (1) pre-gelatinized starch at specific amounts (>4% or 4.5-10%), (2) lignosulfonate dispersant at specific amounts (≥0.3% or 0.35-1.0%), (3) specific density, surfactant, and ratio parameters. The reasoning that these represent routine optimization and known alternatives has merit - starch optimization, lignosulfonate as known dispersant, density control through foam, surfactant selection, and conventional ratios are all plausible. However, the combination of ALL these specific parameters together, particularly the specific starch type (pre-gelatinized) with specific amounts AND lignosulfonate dispersant with specific amounts, may represent more than routine optimization. The motivation to combine is based on common goals (lightweight, strength, workability) which is reasonable under KSR. Given my strictness=0.50 (neutral), I find this moderate strength - there is a reasonable obviousness case, but not overwhelming. The combination threshold=0.33 suggests I should accept design choice and common sense as sufficient motivation, which tips toward obviousness for most claims."
+        },
+        {
+          "basis": "negative_limitation_claims_7_14_21",
+          "strength": "strong_for_allowance",
+          "reasoning": "Claims 7, 14, and 21 include the negative limitation 'no sodium trimetaphosphate is present.' US-2012214887-A1 does not mention STMP at all, neither its presence nor absence. The prior art provides no teaching or suggestion to exclude STMP, and no evidence of what problems STMP might cause or benefits its exclusion provides. This negative limitation may represent discovery of an advantage to STMP-free formulations not suggested by the prior art. The obviousness analysis correctly identifies these claims as non-obvious with confidence 0.6. Given the lack of any prior art teaching regarding STMP, these claims should be allowed."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on optimization arguments and routine design choices. While US-2012214887-A1 teaches gypsum slurry with optional starch and foam, the specific requirements of pre-gelatinized starch >4% by weight and lignosulfonate dispersant ≥0.3% by weight are not explicitly disclosed. The rejection argues these are obvious optimizations, but the evidence is interpretive rather than explicit. The reference mentions starch only as optional without specifying pre-gelatinization or amounts. Lignosulfonate is not mentioned at all in the reference. The combination motivation relies on general knowledge of PHOSITA rather than explicit teaching in the reference. For density limitation (31 pcf), the reference teaches 60-80% air volume but does not explicitly correlate this to the claimed density. The water:gypsum ratio and specific starch/dispersant ranges are argued as routine optimization, which is a valid 103 rationale under KSR, but lacks strong explicit teaching. Overall, the rejection has logical foundation but depends on assumptions about PHOSITA's knowledge and routine optimization rather than explicit disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012214887-A1 teaches gypsum slurry with starch as optional additive and foaming agents, but does not explicitly disclose pre-gelatinized starch >4% or lignosulfonate dispersant ≥0.3%. The obviousness rejection relies on: (1) pre-gelatinized starch and lignosulfonate being 'well-known' additives in the field, and (2) motivation to combine for predictable improvements. However, the prior art reference does not teach or suggest the specific combination of BOTH additives at the claimed amounts. While each additive individually may be known, the Office Action does not cite secondary references proving that their combined use at these specific levels was known or obvious. The motivation to combine is articulated in general terms (strength improvement, workability) but lacks specific evidence that a PHOSITA would have been motivated to add lignosulfonate to the specific foamed gypsum formulation of US-2012214887-A1. The combination threshold of 0.52 suggests moderate scrutiny is appropriate. Given my strictness level of 0.42 (slightly lenient), this moderate-strength rejection warrants further consideration but may not be sufficient without additional evidence of the combined teachings."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.48,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The 102 rejection of claims 1, 2, 8, 9, and 16 is based on US-2012214887-A1, but critical elements are missing from the reference. Specifically: (1) pre-gelatinized starch is mentioned only as 'in some cases natural polymer (i.e., starch)' without any quantitative specification of '>4% by weight'; (2) lignosulfonate dispersant at ≥0.3% is not disclosed at all in the reference; (3) the specific density of '≤31 pounds per cubic foot' is not explicitly stated, only high air content (60-80%) is mentioned; (4) the specific water:gypsum ratio and other quantitative parameters are absent. For anticipation under 102, each and every element must be disclosed in a single reference. The reference teaches the general concept of lightweight gypsum wallboard with foam and optional starch, but lacks the specific quantitative limitations and the lignosulfonate dispersant element entirely. The 102 rejections appear to rely on 'inherency' arguments (e.g., high air content inherently results in low density) that are speculative without explicit disclosure of the claimed values. This is insufficient for anticipation and represents overreach."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection has more substantive basis than the 102 rejection, but still contains areas of weakness. Strong aspects: (1) The prior art clearly teaches the basic gypsum wallboard structure and foam addition for lightweight properties; (2) Starch is mentioned as an optional additive, making optimization of its amount a plausible obvious step; (3) Common surfactants like ammonium ether sulfate are known in the field; (4) Water:gypsum ratios in the claimed range are conventional. Moderate/weak aspects: (1) Lignosulfonate dispersant is NOT disclosed in US-2012214887-A1 at all—the motivation to add it relies entirely on 'common knowledge' without a specific reference teaching its use in lightweight gypsum wallboard with starch systems; (2) The combination of pre-gelatinized starch >4% AND lignosulfonate dispersant ≥0.3% AND specific foam levels AND specific surfactant represents a multi-element combination without clear teaching of why these specific elements should be combined together; (3) No evidence is provided of actual 'common knowledge' that lignosulfonate was routinely used in gypsum wallboard formulations at the priority date; (4) The rejection does not adequately address potential interactions between starch and lignosulfonate that might not be predictable. The rejection relies heavily on 'routine optimization' and 'known alternatives' arguments, which can be appropriate, but here they are applied to multiple simultaneous parameter optimizations without sufficient evidence that the combination would be obvious. Given my strictness level of 0.52 (moderate), I find the 103 basis for lignosulfonate addition to be moderately strong but not conclusive, and the overall multi-element combination to be on the borderline of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejection relies on two key modifications to US-2012214887-A1: (1) using pre-gelatinized starch instead of generic starch at >4% by weight, and (2) adding lignosulfonate dispersant at ≥0.3% by weight. While the prior art discloses starch generically, the specific selection of pre-gelatinized starch and the particular weight percentages represent a combination of known elements. The examiner's reasoning that pre-gelatinized starch and lignosulfonate are 'well-known' in the art is stated but not supported by specific evidence in the record. The motivation to combine is logical (improving binding and dispersion), but the specific combination with the claimed weight ranges appears to be based on general knowledge rather than explicit prior art teaching. The strength is moderate because: (a) the basic composition is disclosed in the prior art, (b) pre-gelatinized starch and lignosulfonate are plausibly known alternatives/additives in the field, but (c) the specific combination at the claimed amounts lacks explicit prior art support and may represent a non-obvious optimization that yields improved lightweight wallboard properties."
+        }
+      ]
+    }
+  ]
+}

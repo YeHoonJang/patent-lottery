@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation for §102 (citing specific claim elements matched to prior art disclosures), Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103, and explicitly notes no §112 issues — all appropriate statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions reference specific claim language (e.g., 'based on a target current,' '50% and 75%'), specific prior art disclosures (US-2012250378-A1's burst-off period, US-2015311795-A1's adaptive threshold), and named claim numbers, providing evidence-linked reasoning at each step."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a notable inconsistency: claims 5, 6, 13, and 14 are found novel (not anticipated) in the §102 stage with reasoning that the prior art's frequency/resistance control differs from off-time control, yet the office action and final decision reject these same claims under §102 as anticipated by US-2012250378-A1 without adequately reconciling the earlier finding that 'direct off-time control' was distinguishable."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner (strictness=0.547, moderate; combination_threshold=0.553, moderate) appropriately resolves borderline cases toward rejection overall while acknowledging interpretive uncertainty in the final decision weighing, and grants no claims — consistent with a mid-strictness pragmatist who applies BRI but notes amendment possibilities."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the accumulated stage analyses: strong §102 findings on claims 1, 7, 9 etc., moderate §103 findings on 3, 4, 8, 11, 12, and the final decision summary explicitly references these stage-level conclusions as the basis for maintaining all rejections."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000426",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15205,
+      "output_tokens": 476,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

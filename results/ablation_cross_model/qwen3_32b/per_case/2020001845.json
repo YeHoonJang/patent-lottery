@@ -1,0 +1,411 @@
+{
+  "case_id": "2020001845",
+  "proceeding_number": "2020001845",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014213070-A1, US-2018347035-A1, US-2014356549-A1, 및 US-2018358220-A1에서 청구항의 기술적 특징을 직접적으로 또는 암시적으로 개시하며, 통상의 기술자는 이를 기반으로 동일한 방법을 적용할 동기를 가짐"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 1, 3, 11, 14, 18, 19, 20의 용어가 명세서에서 명확하게 정의되지 않았으며, 그 구체적인 구성이나 형성 방법에 대한 충분한 기재가 없어 실시가능성에 우려가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014213070-A1이 청구항의 모든 요소를 포함하며, 신규성이 명확히 부정됩니다. 청구항에 명시된 flowable film 형성 및 seam-free gapfill 방법이 선행기술에서 이미 개시되어 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 기술적 내용은 청구항의 발명이 당업자에게 자명하다는 것을 명확히 시사합니다. 청구항에 명시된 조건 및 구성요소는 선행기술에서 개시된 기술적 개념의 단순한 변형 및 조합에 불과하며, 결합 동기가 명확합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 사용된 용어는 명세서에서 충분히 정의되지 않았으나, 일부 청구항은 명확성이 부족한 수치적 표현을 제외하면 허용 가능할 수 있습니다. 그러나 명확성이 부족한 용어는 심각한 문제를 일으킬 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2014213070-A1 teaches a method of forming a silicon-based dielectric layer that is initially flowable when formed on a substrate, which corresponds to the flowable film in the claim. However, the reasoning for obviousness relies on implicit teachings and the formation of a solid film being a 'natural consequence' of the deposition process. While there is some support in the prior art, the connection between the prior art and the specific claimed features is not entirely explicit, leaving some room for interpretation. Given the strictness parameter of 0.25, which favors the applicant when evidence is moderate, I would suggest that the applicant has a reasonable chance to overcome this rejection through minor amendments or clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합이 청구항의 기술적 기여를 충분히 암시하지만, 일부 청구항에 대해 결합의 동기와 범위에 대한 명확성 부족이 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014213070-A1, US-2018347035-A1, US-2018358220-A1, 및 US-2014356549-A1이 청구항의 구성요소를 개시하거나 유사한 효과를 나타내며, 이들의 결합은 당업자가 예상할 수 있는 범위 내에 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 내의 특정 용어들이 명세서에서 명확히 정의되지 않았으며, 해당 분야에서도 통용되지 않습니다. 이는 청구항의 명확성과 실시가능성을 저해할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014213070-A1이 청구항의 대부분을 개시하거나 obvious variant로 판단되었으며, 결합 동기가 명확하고 반도체 기술자에게 당연한 선택으로 보입니다. 대부분의 청구항에서 confidence가 0.7 이상으로 높은 수준을 보입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1, US-2015303056-A1, US-2014356549-A1, US-2018358220-A1 등 선행기술이 청구항의 구성요소들을 명백히 개시하고 있으며, confidence 점수가 0.6 이상으로 상당한 확신을 제공합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "일부 청구항은 선행기술에 의해 자명하다고 판단되지만, 결합 동기와 공지 기술의 범위에 따라 해석의 여지가 있습니다. confidence 점수가 0.55~0.68로 중간 수준의 확신을 제공합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.83,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The Office Action rejects all claims under 35 U.S.C. § 102(a)(1) based on US-2014213070-A1, which explicitly teaches forming a flowable silicon-based dielectric layer on high aspect ratio features, including substrate preparation, film formation, and curing steps. The confidence scores for these rejections (0.75-0.88) exceed the strictness threshold (0.55), supporting strong novelty rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.46,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly discloses a flowable silicon-based dielectric film formed to avoid voids and seams in high aspect ratio features, which anticipates the core process steps of claims 1, 18, and 20."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015303056-A1 explicitly teaches conformal deposition of silicon carbide films using PECVD, which anticipates the use of PECVD for forming the flowable film in claims 2 and 19."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The plasma power limitation (<300 W) is an obvious variant of the plasma power ranges (500 W to 10,000 W) taught by US-2018358220-A1 for etching. A person of ordinary skill in the art would recognize that lower power settings are suitable for deposition processes to achieve better control and quality."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The specification of a 'direct plasma' is an obvious variant of the plasma generation from gas mixtures taught by US-2018358220-A1. A person of ordinary skill in the art would recognize that different plasma types are suitable for the PECVD process depending on the desired outcome."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The use of a separate plasma or electron beam for curing is an obvious adaptation of the plasma technology taught by US-2018358220-A1 for etching metal-doped carbon materials. A person of ordinary skill in the art would recognize that plasma can be used for curing as well as etching."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The temperature limitation (<100°C) is an obvious variant of the lower deposition rates taught by US-2015303056-A1 to avoid voids. A person of ordinary skill in the art would recognize that lower temperatures are suitable for achieving better control and quality in the PECVD process."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The use of UV curing is an obvious variant of the solidification methods (plasma or thermal) taught by US-2014213070-A1. A person of ordinary skill in the art would recognize that UV curing is a suitable alternative for solidifying the flowable film."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The temperature range (10°C to 550°C) for UV curing is an obvious variant based on general knowledge of UV curing processes. The prior art reference US-2014213070-A1 does not specify UV curing temperatures, but a person of ordinary skill in the art would recognize that this range is suitable for UV curing."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The hydrogen content limitation (<10 atomic percent) is an obvious variant of the silicon-containing precursors with Si-H bonds and process parameter adjustments taught by US-2014213070-A1 and US-2015303056-A1. A person of ordinary skill in the art would recognize that controlling hydrogen content is a routine optimization for achieving desired film properties."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014356549-A1 and US-2014213070-A1 together disclose the use of higher-order silane precursors and plasma gases (H2, N2, Ar), which anticipate the claimed combination in claims 3, 4, and 19."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 explicitly states filling high aspect ratio gaps (e.g., 25:1), which anticipates the claimed aspect ratio threshold in claims 17 and 18."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2014213070-A1 teaches a flowable silicon-based dielectric layer with seam-free gapfill but does not explicitly disclose amorphous silicon. While the process is similar, the lack of explicit mention of amorphous silicon introduces some ambiguity in the anticipation argument, making the 102 rejection moderate in strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2014213070 and US-2018358220-A1 provides a clear motivation to substitute amorphous silicon for other silicon-based materials due to its well-known advantages (e.g., etch selectivity and conformality). The Graham factors support a logical and synergistic integration of the prior art teachings, making the 103 rejection strong."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1 및 기타 선행기술이 청구항 1, 2, 3, 4, 5, 12, 13, 14, 15, 17, 18, 19를 명확히 anticipation 함. 선행기술의 구체적인 기술 내용이 청구항의 요소를 모두 포함함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 7, 8, 9, 10, 11, 16, 20은 선행기술의 공지사항을 바탕으로 조정 가능한 범위를 포함함. 결합 동기는 존재하지만, 특정 조건(예: 300W 미만 전력, 100°C 미만 온도)이 선행기술과 차이가 있음. 통상 기술자의 관점에서 예상 가능한 범위인지에 따라 판단 필요."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 1, 3, 7, 11의 일부 용어(예: 'flowable film', 'direct plasma')가 명세서에서 명확히 정의되지 않았지만, 해당 분야의 통상 기술자가 이해할 수 있는 수준임. 명세서가 제공되지 않았으므로 구체적 근거 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1이 청구항 1, 18, 20의 모든 요소를 명확히 개시하고 있으며, verification_status가 PASS로 확인됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014213070-A1과 US-2015303056-A1의 결합이 논리적이고 동기가 명확하지만, 청구항의 구체적인 구성을 고려할 때 모든 청구항이 자명하다고 단정하기에는 일부 청구항(예: claims 2, 19)은 허용 가능함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서에서 'flowable film'과 'flowable silicon film'의 정의가 명확하지 않다는 주장이 있으나, verification_status가 FAIL이며 구체적 근거가 부족함"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술은 flowable silicon-based dielectric layer를 형성하고 solidify하는 방법을 공개하지만, 'substantially seam-free' 특징은 명시되지 않았습니다. 이 특징이 PHOSITA에게 자명한 설계 선택인지에 대한 해석의 여지가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2014213070-A1 and US-2018347035-A1 provides a reasonable basis for obviousness, but there is some interpretation space regarding the specific silicon precursor and plasma conditions. The motivation to combine is present, but the strength of the combination depends on the PHOSITA's ability to adjust these conditions."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "case_id": "2021001433",
+  "proceeding_number": "2021001433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012299509-A1이 청구항의 모든 요소를 명시적으로 또는 암시적으로 개시함. ZigBee 네트워크 통신 및 프로토콜 설치 기능이 명확히 기재됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "102_novelty 기준으로 이미 거절된 청구항에 대해 103_obviousness 거절은 불필요하나, 결합 동기가 제시됨. 하지만 동기는 일반 지식 기반으로 약한 근거에 해당함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1은 청구항 1, 3, 5, 6, 10, 13, 15, 17의 모든 요소를 명확히 개시하고 있습니다. 선행기술이 청구항과 동일한 과정을 개시한 경우, 신규성 부정은 명확한 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과의 차이점이 통상의 기술자가 자연스럽게 도출할 수 있는 변형으로 보이나, 청구항에서 명시된 특정 프로토콜 전환 과정이 선행기술에서 암시적으로 포함되어 있는지에 대한 해석의 여지가 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'executable software instructions'에 대한 명세서의 기재가 부족한 것으로 확인되나, 명세서가 제공되지 않았기 때문에 구체적인 기재 부족의 범위를 명확히 판단하기 어려운 점이 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012299509-A1이 청구항의 모든 구성요소를 개시하거나 암시적으로 포함하며, 통상의 기술자가 선행기술의 가이드라인에 따라 청구항의 기술을 직접적으로 적용할 수 있음. 2차적 고려사항으로는 특별한 혁신성이 제시되지 않음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 핵심 용어 'executable software instructions'와 'provide a capability to communicate'가 명세서에서 구체적으로 설명되지 않았으며, 명세서에 명확한 실시예가 제공되지 않아 35 USC 112(a)와 112(b)의 요건을 충족하지 못할 수 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'predetermined duration'이라는 용어가 명세서에서 구체적으로 정의되지 않았으며, 명세서에 명확한 실시예가 제공되지 않아 35 USC 112(b)의 요건을 충족하지 못할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012299509-A1이 청구항의 모든 구성요소를 명시적으로 개시하거나 암시적으로 교육하고 있습니다. 특히 ZigBee 네트워크를 통한 통신 설정, 주소 할당 요청 처리, 프로토콜 변경 과정 등이 청구항의 핵심 요소와 일치합니다. 신규성 판단에서 대부분의 청구항에 대해 0.7 이상의 높은 신뢰도가 제시되었습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012299509-A1이 청구항의 핵심 요소를 이미 개시하고 있으며, 추가적인 수정이 통상의 기술자에게 자명하다는 것이 명확합니다. Graham 요소 분석에 따르면, 청구항의 소프트웨어 기반 프로토콜 변경은 네트워크 시스템에서 잘 알려진 기술의 적용에 불과합니다. 결합 동기로 ZigBee 네트워크의 보편적 사용과 프로토콜 호환성 향상의 필요성이 명확히 제시되었습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2012299509-A1 explicitly teaches the core functionality of the claimed invention, including establishing communication with a building automation device over a ZigBee network, transmitting requests for address assignment, and establishing communication using a second protocol. The differences in the claims (e.g., explicit recitations of standard components like processors, memory, or specific protocols) are deemed obvious in view of the prior art and the combination threshold applied. Given the strong motivation to combine and the standard nature of these components in networked devices, the obviousness rejection is strong."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2012299509-A1 explicitly discloses establishing communication with a building automation device over a ZigBee network (first communication protocol), transmitting requests for address assignment (which implies installing executable software instructions to provide a capability to communicate over a second protocol), and establishing communication using the second protocol. The implicit elements, such as MAC level protocols, physical level protocols, specific protocol groups (e.g., ZigBee), and later revisions, are reasonably interpreted as being standard in the field and covered by the prior art. The anticipation is strong as the prior art teaches all the elements of the claims."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2012299509-A1 explicitly discloses the core features of the method, gateway, and building automation device claims. The confidence level for these rejections is high (0.8 and above) for most claims, indicating strong anticipation by the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejections under 35 U.S.C. § 103 are based on common knowledge in the field about ZigBee operating at MAC and physical levels. While the confidence levels are lower (0.6 and 0.55), the reasoning relies on well-established understanding of ZigBee protocol characteristics."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The written description rejections are based on the specification's lack of clear definitions and implementation examples for key terms like 'executable software instructions' and 'predetermined duration'. This creates ambiguity about the invention's scope, but the issue is more about specification clarity than the novelty of the concept itself."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012299509-A1이 모든 청구항의 요소를 개시하거나 자명한 변형으로 보이는 경우, 이는 강한 103 거절 근거가 됩니다. 제공된 분석에서 대부분의 청구항에 대해 0.8 이상의 confidence가 주어졌으며, 청구항 1, 4, 6, 9, 11, 13, 15, 17 등이 0.8 이상의 confidence를 보입니다. 이는 선행기술이 청구항의 핵심 요소를 명확히 개시하거나 자명한 변형임을 나타냅니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art US-2012299509-A1 teaches a system with similar communication protocols and gateway/controller architecture. While the prior art does not explicitly mention 'installing executable software instructions' in the exact claimed manner, the address assignment functionality inherently involves software execution. This provides a moderate strength basis for novelty rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection of claims 5 and 10 is based on the concept of updating communication protocols being well-known in the art. While there is some reasoning provided, the confidence level (0.45) from the initial analysis suggests the connection is somewhat tenuous. Given the strictness level of 0.52, this would be considered a moderate rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection of claims 14 and 16 is based on the concept of implementing timing controls for communication being well-known in the art. The confidence level (0.5) from the initial analysis indicates some uncertainty in the connection. With a strictness level of 0.52, this would also be considered a moderate rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art does not suggest the concept of dynamically installing executable software instructions to enable communication over a second protocol. The motivation to combine is not clearly present, and the combination would require an inventive step."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art does not disclose the specific features of installing executable software instructions on a building automation device to enable communication over a second protocol. These features are not directly taught or suggested by the prior art."
+        }
+      ]
+    }
+  ]
+}

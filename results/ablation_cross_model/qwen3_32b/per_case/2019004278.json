@@ -1,0 +1,369 @@
+{
+  "case_id": "2019004278",
+  "proceeding_number": "2019004278",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과의 원리적 유사성은 인정되지만, 메시지 전달 경로 선택이라는 구체적 응용 분야에 대한 설명이 명확하지 않아 해석의 여지가 있다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013203433-A1이 제공되며, 청구항 1, 11, 15의 요소들이 명확히 개시됨. 신규성 판단의 confidence가 높음 (0.88)으로 강한 거절 근거로 판단됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013203433-A1이 제공되며, 청구항 1-15의 요소들이 선행기술로부터 자명한 변형임을 명확히 제시됨. 결합 동기와 Graham 요소들이 충분히 설명됨. confidence가 높음 (0.88)으로 강한 거절 근거로 판단됨"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'planned delivery', 'relevant circumstance', 'presence data' 등의 용어가 명확히 정의되지 않았다는 점이 지적됨. 그러나 이는 청구항의 핵심 요소가 아닌 보조적 요소에 대한 문제로, 전체 발명의 보호 범위에 큰 영향을 미치지 않음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 핵심 개념을 개시하고 있지만, 메시지 전달을 특정 애플리케이션으로 재지정하는 구체적인 기능은 명시되어 있지 않아 해석의 여지가 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술에 기반한 수정이 합리적이나, 청구항의 구체적인 구현 방식과의 차이가 일부 존재하여 결합 동기의 강도가 중간 수준"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서에서 핵심 용어의 정의가 불명확하나, 출원인이 보정을 통해 명확히 할 수 있는 잠재력이 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2013203433-A1) focuses on network resource allocation based on user behavior tracking, not on message delivery systems that specifically identify and route messages through preferred communication applications based on user behavior. While elements like behavior tracking and resource control are mentioned, the explicit message delivery via selected applications is not disclosed. The combination threshold (0.72) indicates that a clear teaching or suggestion is needed for combination. The prior art does not provide such a teaching for redirecting messages via preferred applications based on user behavior."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013203433-A1이 사용자 행동 기반의 자원 할당을 개시하고, 이 개념을 메시지 전달 경로 선택에 적용하는 것은 통상의 기술자에게 자명한 것으로 판단됩니다. 결합 동기 또한 명확하며, 청구항의 구체적인 차이점이 선행기술의 자연스러운 확장으로 볼 수 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항에 포함된 용어들이 명세서에서 명확히 정의되지 않았다는 주장은 제기되었으나, 명세서가 제공되지 않아 구체적인 분석이 불가능합니다. 따라서 이 거절 근거는 증거 부족으로 인해 약한 것으로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013203433-A1이 청구항의 핵심 요소를 직접 개시하고 있으며, 신규성이 명백히 결여됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013203433-A1이 사용자 행동 분석 기반의 리소스 제어를 개시하고 있으며, 청구항의 요소는 이의 직관적 확장임."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 특정 용어가 명세서에서 명확히 기재되지 않았으나, 이는 명확한 거절 근거가 아닌 보정이 필요한 사항임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The reference US-2013203433-A1 teaches behavior tracking and resource allocation decisions based on user behavior. While the reference does not explicitly mention message delivery via preferred communications applications, the claimed invention is considered to be covered by the general teaching of the reference under a broad interpretation. The novelty rejection is based on an implicit disclosure, which introduces some interpretive uncertainty."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The difference between the reference and the claim is the specific application of behavior-based decision making to message delivery. Given the relatively low combination_threshold (0.46), it is reasonable to conclude that a person of ordinary skill would be motivated to apply the known principles of behavior tracking to message delivery. However, the application is somewhat specific and not entirely obvious without further evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claims use terms like 'planned delivery', 'communications applications', 'relevant circumstance', and 'presence data' without clear definitions or sufficient description in the specification. This lack of clarity could hinder enablement and understanding for a person of ordinary skill in the art. However, the issue is primarily one of clarity and could be resolved with minor amendments."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The anticipating reference US-2013203433-A1 is cited for all claims, but the reasoning is largely based on implicit anticipation. While the reference does disclose behavior tracking and resource control, the direct correspondence to the claimed features is not always explicit, leading to moderate confidence in the novelty rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art teaches the core concept of adapting delivery based on user behavior, and the application of this principle to message delivery via preferred communication applications is considered a straightforward extension. The motivation to combine is clear, but the specific application to message delivery may require some interpretation."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art teaches tracking user behavior and controlling resource allocation based on this behavior, which encompasses the core concept of the claims. However, the focus on network resource management versus message delivery introduces some interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013203433-A1의 내용과 청구항의 차이는 일반 기술자에게 예측 가능한 설계 선택으로 판단 가능. 그러나 결합 동기 기준(0.44)을 고려할 때 일부 청구항에서 결합 동기가 명확하지 않은 것으로 보임"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 주요 기능을 암시적으로 개시하지만, 명확한 동일성은 확인되지 않음. strictness=0.42 기준으로 근거 강도는 중간 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술이 사용자 행동 데이터를 기반으로 리소스 할당을 제시하고, 결합 동기(motivation to combine)가 명확히 제시됨. combination_threshold=0.52 이하인 청구항에 대해 obviousness 근거가 강력함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서 부재로 구체적 정의 및 구현 방법이 불분명하지만, confidence=0.4로 제공된 정보만으로는 명백한 112 문제로 보기 어려움. strictness=0.42 기준으로 약한 근거로 거절 유지 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The rejection is based on specific terms in the claims that are not clearly defined in the specification, leading to ambiguity and lack of enablement. The cited terms such as 'planned delivery,' 'relevant circumstance,' 'presence at a location,' and 'accessed a telephone connection, web application, or network' are not sufficiently described in the specification to convey possession of the invention to one skilled in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013203433-A1이 청구항 1, 3, 11, 15의 모든 구성요소를 명백하게 개시하므로, 신규성 거절이 명확한 증거에 기반합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013203433-A1이 청구항 2, 4-10, 12-14의 구성요소를 개시하지는 않지만, 해당 기술 분야의 공지된 기술로 자명한 변형으로 볼 수 있는 충분한 근거가 있습니다. 다만, 일부 청구항의 경우 증거의 강도가 다소 약한 편입니다."
+        }
+      ]
+    }
+  ]
+}

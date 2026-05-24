@@ -1,0 +1,360 @@
+{
+  "case_id": "PILOT-2018003355",
+  "proceeding_number": "2018003355",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1이 제공한 기술적 내용과 모바일 소셜 네트워크 시스템의 공지기술을 종합할 때, 청구항 2, 4, 6, 7, 13, 14, 19의 구성요소는 통상의 기술자가 명백하게 결합 가능하다. 특히 센서를 통한 위치/시간 정보 수신, 프로필 유형 구분, 프로필 기반 관련성 평가, 위치 기반 사용자 식별 등은 2012년 기준으로 널리 알려진 기술적 수단이다. 결합 동기가 명확하고, 선행기술이 이를 충분히 뒷받침함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1은 청구항 1, 2, 4, 5, 6, 7, 14, 19, 20, 21의 핵심 구성요소를 모두 개시하며, 차이점은 BRI 하에서 'presenting relevant content', 'periodically received', 'profile similarity' 등 일반적이고 자명한 기술적 표현으로 해석 가능. 결합 동기 명확하며, POSITA 수준에서 쉽게 도달 가능. confidence 0.9 이상의 고신뢰 판단 다수."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 20, 21의 'augmented personalized dynamic space' 및 'structuring content process'는 명세서에 구조적/알고리즘적 설명이 부족하지만, 기술적 맥락상 맥락 기반 증강 정보 공간으로 해석 가능하며, 통상의 기술자가 실현 가능하다고 판단될 수 있음. strictness가 낮아 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 3 및 17의 '가상 시간/위치'와 '개인 센서 기반 프로필 속성 결정'은 명세서 설명이 부족하나, 센서 기반 동적 프로파일링 및 가상 맥락은 관련 기술에서 통용되는 개념으로, 보정 가능 수준으로 간주."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 5, 7, 14의 '유사성 기반 접근 제어', '프로필 상관관계', '관심사 공유 판단'은 알고리즘 기재 부족하나, 프로필 비교 및 위치 기반 필터링은 공지 기술로 간주 가능. 출원인의 기술적 기여를 인정해 보정 제안."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 8의 'constantly collecting' 및 'physical attributes'는 모호하나, 지속적 데이터 수집은 IoT 맥락에서 일반적. 'physical attributes'도 센서 데이터로 해석 가능. strictness 낮아 거절보다 보정 유도."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 11은 청구항 9와 중복되나, '무작위 선택' 기능은 기술적 기여 있음. 중복 objection은 보정 요청으로 처리."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 2의 센서 기반 입력은 공지된 기술이나, 'structuring content process'와의 통합 맥락에서 그 자명성이 다소 약함. 그러나 모바일 시스템에서 센서 사용은 일반적이므로 결합 동기 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 5의 '유사 프로필 기반 접근 제어'는 선행기술의 프로필 유사성 활용을 확장한 것으로, 기술적 동기 부족 시 약할 수 있으나, 개인정보 보호 및 관련성 향상 목적에서 합리적."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 6, 7, 19는 선행기술에 명시적 개시 또는 정의적 동일성으로, 102에서 이미 신규성 결여 판단됨. 103은 대안적 근거로 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1은 소셜 네트워크, 위치, 시간 기반 맞춤 콘텐츠 제공의 핵심 기능을 개시하고 있으며, 청구항의 차이점은 기능적 언급 또는 공지된 설계 선택에 불과함. 결합 동기와 통상의 기술자 수준에서의 실현 가능성은 명확하므로, 103 거절 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3의 'virtual time/location'은 선행기술이 실제 위치/시간에 집중하지만, 증강 현실 및 가상 공간에서의 개인화는 공지된 설계 선택이며, 통상의 기술자가 명백하게 도달할 수 있는 변형이다. 결합 동기 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 9, 11의 'randomly selecting'은 선행기술의 관련성 중심 필터링과 반대되는 개념으로, 명백한 결합 동기 부족. 그러나 공익 보호 원칙과 strictness=0.82에 따라, 기술적 비명백성에도 불구하고 112 문제와 함께 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'augmented personalized dynamic space', 'randomly selecting', 'correlation', 'personal sensors' 등 핵심 용어들이 명세서에 정의되지 않아, 본 발명의 전 범위에 대한 소유권이 없으며, 구현이 불가능한 수준. 명확한 112(a) 위반."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 4–7 are based on features explicitly disclosed or inherently suggested in US-2012317198-A1, such as public/private profile handling, profile similarity-based filtering, and sensor-based context acquisition. The motivation to combine is well-supported by common design goals in social and mobile systems, and the technical implementation is within the level of ordinary skill. Confidence in obviousness is high (0.8–0.85), and the prior art provides sufficient foundation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1이 청구항 1, 2, 4, 6, 7, 19, 20, 21의 핵심 구성요소를 명시적으로 개시하며, BRI 하에서 'structuring content process' 및 'augmented personalized dynamic space'도 기능적으로 유사한 'presenting relevant content'로 해석 가능. 결합 동기 명확하고, 통상의 기술자도 자명하게 도달 가능하다고 판단됨. confidence 수치도 0.8 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1이 청구항 1, 2, 4, 6, 7, 19, 20, 21의 모든 구성요소를 명시적으로 개시하며, 기능적 동등성과 BRI 해석 하에서 'augmented personalized dynamic space'도 필터링된 콘텐츠 전달 환경으로 해석 가능. 결합 동기 없이 단일 문헌로 obviousness 판단 가능하며, confidence가 0.9 이상으로 강한 증거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1은 청구항 1의 핵심 구성요소인 정보 수집, 프로필 기반 관련 정보 탐지, 시간 및 위치 필터링, 필터링된 콘텐츠 송신을 명시적으로 개시함. 'augmented personalized dynamic space' 및 'structuring content process'는 기능적으로 'presenting relevant content'와 동등하며, 개인화된 위치 기반 서비스 설계에서 통상의 기술자가 용이하게 도달할 수 있는 변형으로 간주됨. 결합 동기(motivation to combine)는 사용자 경험 향상이라는 명확한 기술적 목적으로 충분히 뒷받침됨. 따라서 103 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1은 청구항 1, 20, 21의 핵심 구성요소인 소셜 네트워크 정보 수집, 사용자 프로필 생성, 시간/위치 기반 필터링, 관련 콘텐츠 제공을 명시적으로 개시하고 있으며, 'augmented personalized dynamic space' 및 'structuring content process'는 BRI 하에서 선행기술의 'presenting relevant content'에 포함될 수 있으므로, 결합 동기와 함께 obvious 판단이 타당하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 4~7, 14, 19는 프로필 유사성 기반 필터링, 공개/사적 프로필 구분, 관심사 공유 판단 등 소셜 네트워크 시스템의 일반적 기능을 포함하며, US-2012317198-A1에 명시적 또는 암시적으로 개시되어 있어 통상의 기술자가 쉽게 도달할 수 있으므로 강한 obvious 근거가 있다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 1~3, 8~9, 11~13, 15~18, 20~21에 포함된 'augmented personalized dynamic space', 'randomly selecting', 'personal sensors', 'constantly collecting' 등의 용어는 명세서에서 구조적, 알고리즘적 설명 없이 기능적으로만 기재되어 있어 written description 및 enablement 요구를 충족하지 못하므로 강한 112 거절 근거로 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1이 청구항 1, 4, 6, 7, 19, 20, 21의 핵심 구성요소를 명확히 개시하고 있으며, 추가 기술적 특징들이 모바일 및 증강 현실 환경에서의 일반적인 사용자 경험 최적화 수단으로 간주될 수 있음. 결합 동기 존재하고, 당업자 수준에서 명백함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 5, 8, 10, 13, 14, 15는 선행기술의 명시적 개시는 없으나, 위치 및 프로필 기반 필터링의 논리적 확장으로 간주 가능. 그러나 일부 기능(예: 실시간 근접 알림)은 약간의 창의적 단계를 요구할 수 있음. strictness=0.42 수준에서 거절 유지함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1은 청구항 1, 2, 4, 6, 7, 19, 20, 21의 모든 핵심 구성요소를 명시하거나 암시적으로 개시하고 있으며, 통상의 기술자가 결합할 수 있는 동기가 명확함. 특히 콘텐츠 필터링, 위치/시간 기반 제공, 프로필 기반 관련성 평가, 다중 소셜 네트워크 통합 등은 소셜 미디어 및 위치 기반 서비스 분야에서 공지된 기술. 'structuring content process' 및 'augmented personalized dynamic space'에 대한 용어 차이는 기능적 실질과 무관하며, 선행기술의 'presenting relevant content'와 실질적으로 동일함. 진보성 판단에서 confidence가 0.8 이상인 점도 강한 근거임."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012317198-A1은 위치 및 시간 기반 필터링, 프로필 생성, 연결된 사용자 콘텐츠 제공 등 핵심 기능을 개시하며, 모바일 기기 센서 사용, 공개 프로필 공유, 유사성 기반 관련성 평가는 통상의 기술자에게 명백함. 동기 결합이 타당하고 선행기술과의 기술적 격차가 작음."
+        }
+      ]
+    }
+  ]
+}

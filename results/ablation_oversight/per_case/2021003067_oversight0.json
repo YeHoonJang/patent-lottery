@@ -1,0 +1,274 @@
+{
+  "case_id": "ABL-2021003067",
+  "proceeding_number": "2021003067",
+  "oversight_level": 0.0,
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.42857142857142855,
+  "reject_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.32,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1은 측벽, 전후방 셰이브, 하부 갭, 피팅(앵커 포인트)을 개시하며, 청구항 21, 27, 28, 32, 33, 34, 38, 39, 40의 구성요소 대부분이 동일하거나 기능적 변형 범위 내에 있음. 앵커 포인트 위치, 상부 후크, 발사 기구 연결 가능성 등은 구조적 기능성 및 통상적 설계 선택으로 간주될 수 있으며, 결합 동기(motivation to combine)가 명확함. BRI 및 strictness=0.79 기준에서 충분히 obvious로 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 0.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1은 측판, 시브, 하부 갭, 앵커 포인트를 포함하는 기본적인 트롤리 구조를 명확히 개시하고 있으며, 청구항 21-28, 31-35, 38, 40의 특징들은 하중 분배, 구조적 안정성, 부착 호환성 향상을 위한 설계 선택으로서, 통상의 기술자가 공지된 기계 원리를 적용하여 도달할 수 있음. 결합 동기(motivation to combine)는 하중 중심 조정, 제조 용이성, 안전성 향상 등 명확하며, combination_threshold=0.34로 낮아 설계 최적화만으로도 obvious 판단 가능. BRI 해석하에서도 선행기술과의 중첩이 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 29, 30, 36, 37, 39는 임팩트 제동 기능, 즉 충격 표면, 캐치, 종단 브레이크와의 상호작용을 포함하나, US-2015375758-A1은 제동 기능을 전혀 개시하지 않음. 다만, 고속 짚라인에서의 안전성 요구는 공지된 문제이며, 충격 제동은 기계적 원리상 예측 가능한 해결책. 그러나 '임팩트 표면이 전방 시브 앞쪽에 위치하고 수직임', '캐치가 제동 장치와 결합함', '감속 시 하중이 전방 시브에 집중되어 탈선 방지됨' 등의 기술적 효과는 선행기술에 직접적으로 시사되지 않아, obviousness 판단에는 해석의 여지 존재. 그러나 combination_threshold 낮음과 strictness 높음으로 인해, 이 또한 obvious로 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 28's parallelism near the anchor is not explicitly disclosed but aligns with common mechanical practice; however, the specific functional benefit in impact braking context introduces uncertainty. Claims 31, 33, and 38 rely on features directly disclosed (flanges, receptacles), but their characterization as 'obvious' overlooks the integration into a braking-optimized system. Motivation to combine is present but not compelling for safety-critical positioning. Given the examiner's lenient stance (strictness=0.25), these rejections are not strong enough to sustain."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 0.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거절된 청구항들(25, 26, 27, 28, 31, 33, 38, 40)은 선행기술에 개시되거나 통상적인 기계 설계 선택으로 간주될 수 있으나, 특히 제26항(지름 비교), 제31/33항(후크) 등은 기능적 위치나 응용 맥락에서 본 발명의 충격 브레이킹 시스템과의 통합적 목적을 고려할 때 자명하지 않을 수 있음. 그러나 선행기술이 'additional receptacles' 및 'handles'를 개시하고 있어 결합 동기는 존재함. strictness=0.29인 관대한 심사관 입장에서 이러한 설계 변형들이 진보성 결여로 간주될 만큼 강력한 증거는 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1은 케이블을 따라 이동하는 트롤리의 핵심 구조(측판, 풀리, 바닥 갭, 앵커 포인트)를 명확히 개시하고 있으며, 청구항 21-28, 31-33, 38-40의 추가적 특징들(위치, 직경, 정렬, 상부 고정점 등)은 모두 기계 설계의 일반적 관행 또는 구조적 필수 요건으로 도출 가능. 결합 동기(motivation to combine)는 동일한 목적(케이블 이동 장치로서의 안정성 및 기능성 향상)에서 명확하며, 2차적 고려사항도 제출되지 않음. confidence 값 대부분 0.8 이상으로, 일관된 강도 보유."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 0.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-20153758-A1은 케이블 트롤리의 기본 구조(측면판, 풀리, 바닥 갭, 고정 피팅)를 명확히 개시하며, 청구항 21, 22, 23, 24, 25, 27, 28, 31, 32, 33, 40의 구성요소들은 명시적이거나 하중 안정성 및 기계적 설계의 자명한 결과로 간주됨. 'aligned receptacles', 'circular aperture', 'upper hooks' 등은 모두 선행기술에 직접 또는 기능적으로 개시됨. 결합 동기(motivation to combine)는 하중 중심 조절, 주행 안정성 향상, 액세서리 장착 유연성 등 공통 기술 목적에서 명확하며, 2차적 고려사항도 없음. confidence 수치(0.72~0.88)도 전반적으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1이 청구항 21-28, 31-33, 38의 모든 구조적 요소를 명시하거나 본질적으로 개시하고 있으며, 대칭 설계 및 기계적 기능성에 기반한 obviousness 판단은 타당함. 결합 동기 없이 단일 문헌으로 충분히 obviousness를 입증 가능함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 34, 35는 공지기술과의 결합을 요구하나, launch mechanism 연결 및 후방 위치는 명시적 가르침 없음. 그러나 부착점의 일반적 설계 선택으로 간주될 수 있어, 해당 분야 숙련자의 수준 내에서 obviousness 판단은 타당하나 해석의 여지 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 0.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2015375758-A1은 케이블 트롤리의 기본 구조를 공개하지만, 청구항 21-28 및 32의 특정 앵커 포인트 위치, 형상, 배치 등은 명시적으로 기재하지 않음. 이러한 특징들은 일반적인 설계 선택이나 최적화 범위 내에서 obvious로 간주될 수 있으나, 위치 및 단일성 등의 조합은 명확한 동기 없이 선행기술에 직접적으로 기초하기 어려움. 심사관 성향(strictness=0.55)을 고려하면, 이러한 설계 변형들이 자명하다고 단정하기에는 약간의 불확실성이 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 29-31, 33-40는 임팩트 브레이크 표면, 후크, 상부 앵커, 브레이크 후크 등 새로운 기능적 구성요소를 포함함. US-2015375758-A1은 수동 브레이크에 초점을 두며, 이러한 자동 또는 충격 기반 제동 기능을 제안하거나 암시하지 않음. 출원 문서에 기재된 안전성 향상 등의 이점은 비자명성을 뒷받침할 수 있음. 동기 결합(motivation to combine)이 부족하고, 공지기술에 의한 obviousness 판단은 추측에 기반함. 따라서 이에 기반한 거절은 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대부분의 청구항에 대해 US-2015375758-A1과의 비교 및 설계 선택, 최적화 기반의 obviousness 판단이 이루어졌으나, 일부 위치 및 배치 특징(예: 앵커 포인트의 정확한 수직 위치, 후크의 후방 배치)은 선행기술에 명확히 개시되지 않아 해석의 여지가 있음. 특히 combination_threshold가 낮음(0.22)으로 인해 쉽게 obvious 판단을 유도할 수 있음. 그러나 strictness=0.46으로 중립적 성향을 가지므로, 명확하지 않은 부분은 출원인에게 유리하게 해석될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1이 케이블을 따라 이동하는 트롤리의 기본 구조, 풀리 배열, 피팅, 리셉터클 등을 명확히 개시하고 있으며, 청구항 21-25, 27-28, 31-33, 38-40의 구성요소들은 명시적 또는 암묵적으로 포함됨. 위치, 배열, 형상 등은 통상의 기술자가 설계 최적화를 통해 도달할 수 있는 수준이며, 결합 동기가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 34-37의 충격면, 브레이크 캐치, 발사 메커니즘 연결, 후크 위치는 선행기술에 직접 개시되지 않으나, 안전성 향상 및 기능적 목적을 위한 방향성 있는 개선으로서, 통상의 기술자가 예측 가능하게 도달할 수 있는 범위 내에 있음. 그러나 새로운 기능 도입으로서 비자명성 주장 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1은 트롤리의 기본 구조(측판, 쉐이브, 하부 갭, 장착 리셉터클)를 명확히 개시하며, 청구항 21-28, 31-33, 38, 40의 차별점은 하중 분포 최적화, 구조적 강도, 제작 용이성 등 일반적인 설계 선택 범위 내에 있음. '단일 앵커 포인트', '서브스턴셜리 원형 아포처', '아포처 직경 < 쉐이브 직경' 등은 통상적 기술자에게 자명한 변형. motivation_to_combine은 mechanical optimization 및 safety enhancement 목적에서 충분히 인정 가능. combination_threshold=0.44로 낮아 결합 동기 쉽게 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 0.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 0.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    }
+  ]
+}

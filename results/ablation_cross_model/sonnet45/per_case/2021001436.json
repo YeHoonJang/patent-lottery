@@ -1,0 +1,1099 @@
+{
+  "case_id": "2021001436",
+  "proceeding_number": "2021001436",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            4,
+            14,
+            16,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses overlay positioning of magnified images on field of view with movement correspondence, which directly anticipates claims 2, 14, 16. US-2015241686-A1 explicitly teaches image stitching and composite processing to create contiguous wide-field images, directly anticipating claims 4, 18. The references provide clear disclosure of all claim elements with specific quotations supporting each element. Coverage scores range from 0.78-0.87, indicating strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            5,
+            6,
+            7,
+            12,
+            15,
+            17,
+            21,
+            39,
+            41,
+            43
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of US-2016183779-A1 and US-2015241686-A1 provides strong obviousness grounds. Both references operate in the same technical field (microscopy/imaging), address the same problem (multi-magnification sample review), and their combination is predictable. For claims 3, 5, 6, 7: the combination of dual-magnification overlay with multiple image collection/stitching represents straightforward design choices (overlapping for alignment is well-known, collecting multiple second-level images is natural extension, maintaining spatial relationships is fundamental). For claims 12, 15, 17, 21: these represent routine UI design choices, standard feature-based alignment, and processor automation - all predictable refinements of disclosed techniques. For claims 39, 41, 43: combining virtual slide imaging with dual-magnification overlay addresses the acknowledged 'familiar problem' in cellular analysis; automation and objective lens changes are standard practice. My strictness level (0.79) supports maintaining these obviousness rejections even though individual elements require combination - the motivation is clear and results predictable."
+        },
+        {
+          "basis": "allowable_claims",
+          "claims": [
+            8,
+            40,
+            42
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 8 (different illumination conditions) introduces a feature not taught by prior art, but this is a known technique in microscopy - however, its specific combination with dual-magnification overlay is not suggested. Claim 40 (same relative positions across different first-level images) adds a specific spatial registration protocol not disclosed, though comparative analysis is known. Claim 42 (multi-focal-plane imaging) introduces z-stacking capability not taught by references. These claims add distinct functional aspects beyond what prior art teaches or suggests. Given my strictness (0.79), I find these allowable but would scrutinize them carefully if additional prior art became available."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3,
+            4,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses overlay of magnified images with positional correspondence (claim 2, 14). US-2015241686-A1 explicitly discloses multiple image acquisition by moving observation region (claim 3) and image stitching to form contiguous composite images (claim 4). These are single reference anticipations with clear element-by-element correspondence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            39,
+            41,
+            43
+          ],
+          "strength": "strong",
+          "reasoning": "Alternative obviousness rejections are well-supported. Claims 2, 3, 4, 12, 14, 15, 16, 17, 18, 41, 43 are obvious over single references with explicit teachings. Claims 5, 6, 7, 21, 39 are obvious over straightforward combinations with clear motivation (context preservation in imaging systems). The combination references are from the same field (microscopy/imaging), address the same problem (balancing magnification with field of view context), and their combination is predictable. Feature matching and image stitching are fundamental techniques in the art."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "claims": [
+            16,
+            17,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "These claims depend from canceled claims (11 and 20), creating broken dependency chains. Under MPEP 2173.05(e), claims depending from nonexistent claims are indefinite per se. This is a procedural defect requiring correction."
+        },
+        {
+          "basis": "allowable_claims",
+          "claims": [
+            8,
+            40,
+            42
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 8 (different illumination conditions): The cited prior art does not teach or suggest varying illumination between magnification levels. However, multi-modal illumination microscopy is known in the art. A PHOSITA might consider this obvious, but without explicit prior art teaching, allowance is reasonable. Claim 40 (same relative positions across different first level images): This represents a systematic organizational principle not explicitly taught. The cited references teach multiple image acquisition but not this specific spatial correspondence pattern. Claim 42 (multi-focal plane imaging): Z-stack imaging is known but not taught by cited references in this context. The combination would require additional insight."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 3, 4, 6, 7, 14, 15, 16, 17, 18, 21 show moderate-to-strong obviousness over US-2016183779-A1 and US-2015241686-A1. The references explicitly teach most limitations. However, some claims involve interpretive steps (e.g., 'positioned according to region' vs. 'positioned to correspond with movement'). Under strictness=0.25, I weigh these differences carefully. Claims with explicit teaching (4, 15, 18: alignment and compositing) are strong rejections. Claims with implicit teaching (2, 6, 7, 14, 16, 21: positioning and overlay) are moderate—the references teach the function but not the exact claim language. Claim 39 combines two references, which requires combination motivation analysis. The motivation is present (both address multi-scale imaging), but this is moderate strength. Claims 3, 17 (collecting additional images) are weak-to-moderate—while the system can collect multiple images, the claim language 'second second level image' is somewhat contrived and may not add substantive limitation beyond claim 1. Under my innovation-supporting philosophy, I scrutinize whether these rejections truly reflect lack of technical contribution or merely semantic differences."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 16, 17, 18, 21 depend from canceled claims (11, 20), making them indefinite under 112(b) and (d). This is a formal defect with strong basis—the claims literally reference non-existent base claims. This must be corrected regardless of substantive patentability. Additionally, claim 21 has grammatical error ('configured overlay' vs. 'configured to overlay'), which is a clarity issue under 112(b). These are strong, clear-cut rejections that require amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "102_novelty (Claims 2, 6, 7, 14, 16, 21 - Hildebrand)",
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses a system with magnified graphical overlays positioned on a base surgical field of view with tracking functionality. The structural and functional equivalence between the prior art's overlay positioning system and the claimed invention is clear. The evidence for anticipation is strong with confidence levels ranging from 0.75-0.85."
+        },
+        {
+          "basis": "102_novelty (Claims 4, 18 - Fukui)",
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly teaches an image processing unit configured to create composite images by compositing multiple images, which directly anticipates the claimed alignment functionality. Confidence levels of 0.78-0.80 support strong anticipation."
+        },
+        {
+          "basis": "103_obviousness (Claims 3, 17 - Fukui + Hildebrand)",
+          "strength": "moderate",
+          "reasoning": "While both references address multi-region and multi-magnification imaging, the combination requires some inference to apply sequential multi-region imaging to the multi-magnification overlay context. The motivation to combine is logical (examining multiple areas at high magnification) but not explicitly stated in either reference. Confidence 0.79-0.82 indicates reasonable but not overwhelming certainty."
+        },
+        {
+          "basis": "103_obviousness (Claim 5 - Fukui)",
+          "strength": "moderate",
+          "reasoning": "The claim explicitly recites overlapping as the alignment mechanism, but Fukui only implies this through its composite processing teaching. While overlapping is indeed standard in image stitching, the prior art does not explicitly teach this specific implementation detail. Confidence 0.78 suggests moderate strength, and given my lenient strictness (0.29), this borderline case warrants benefit of the doubt to the applicant."
+        },
+        {
+          "basis": "103_obviousness (Claim 39 - Fukui + Hildebrand)",
+          "strength": "moderate",
+          "reasoning": "The combination is logical and addresses known needs in microscopy, but requires integrating multiple teachings from two different references. While the combination is predictable, it involves non-trivial synthesis of the multi-region framework from one reference with the magnified overlay concept from another. Confidence 0.82 indicates moderate-to-strong, but given my lenient approach, the complexity of the combination warrants consideration."
+        },
+        {
+          "basis": "103_obviousness (Claim 41 - Fukui + Hildebrand)",
+          "strength": "weak",
+          "reasoning": "Fukui explicitly teaches automated imaging control, making automation obvious. However, the claim's specific requirement for 'automated fashion' collection of both first and second level images in the multi-magnification overlay context adds a level of specificity. Confidence 0.83 is high, but my lenient strictness (0.29) and the claim's specific implementation details suggest that if the applicant can demonstrate non-obvious technical advantages of this specific automation approach, it may warrant allowance or amendment opportunity."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses overlay positioning with correspondence tracking (Claim 5: 'movement of the graphical overlay corresponds to the movement'), which directly teaches positioning overlays according to source regions. US-2015241686-A1 explicitly discloses image stitching with 'corresponding regions' and composite processing. These are direct, explicit disclosures, not inferences."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims where 102 might have interpretation issues, 103 provides strong alternative grounds. Combining overlay systems (US-2016183779-A1) with multi-image acquisition (US-2015241686-A1) addresses complementary aspects of the same microscopy workflow. Motivation is explicit: examining multiple areas of interest at high magnification. User selection (claim 12) and automation (claim 41) are textbook UI design choices requiring no inventive skill. Position-matched imaging (claim 40) is standard practice in comparative microscopy."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly teaches overlay positioning with movement correspondence to surgical field. The claim's 'positioned according to the region' is functionally equivalent to the prior art's positional tracking. Coverage score 0.8 with direct teaching of spatial correspondence. This is not merely similar but teaches the exact functional requirement."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly teaches acquiring 'at least two images' by moving observation region in different directions. Collecting a second second-level image is the natural implementation of the disclosed multi-region sequential imaging. Coverage score 0.69 with direct teaching of multiple image acquisition methodology."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly teaches 'stitching a plurality of images' to 'create an image of the entire object' with 'image composite processing.' This directly teaches aligning images to form contiguous composite. Coverage score 0.85. Image stitching inherently involves alignment to form contiguous images - this is core prior art teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015241686-A1 teaches processing 'corresponding regions between the at least two images' for composite processing. While overlapping regions are fundamental to image stitching, the prior art does not explicitly state 'overlapping.' However, processing corresponding regions for stitching inherently requires overlap analysis. Coverage score 0.69. Given my strictness=0.82, this implicit teaching combined with the fundamental nature of overlap in stitching is sufficient for obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "Combination of US-2015241686-A1 (multiple images) and US-2016183779-A1 (overlay technique). Both references address microscopy imaging with explicit discussion of field of view vs. magnification tradeoff. Motivation to combine is clear: apply overlay technique to multiple acquired images. Coverage score 0.78. This is straightforward combination of explicitly related teachings."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016183779-A1 teaches positional tracking for overlay. When multiple overlays are used (from claim 6 combination), maintaining relative positions according to source regions is necessary for spatial accuracy. Coverage score 0.69. While not explicitly stated for multiple overlays, this is a logical extension. Given my strictness=0.82, the necessity of this feature for functional operation supports obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses complete system: imaging device acquiring images, computing device determining area of interest, display device overlaying magnified image on field of view. Coverage score 0.83. This is direct system anticipation with only terminological differences ('first/second level' vs 'field/magnified')."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 teaches image processing unit performing composite processing on images including 'corresponding regions between images.' Feature alignment is inherent in composite processing and identifying corresponding regions. Coverage score 0.73. This is fundamental requirement of the disclosed technology."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Same analysis as claim 2 applied to system format. US-2016183779-A1 teaches processor-controlled overlay with positional correspondence. Coverage score 0.79. System recitation of method already found obvious. (Note: also has 112(b) defect)"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "Same analysis as claim 3 applied to system format. US-2015241686-A1 teaches imaging controller configured to execute sequential multi-region imaging. Coverage score 0.67. System recitation of method already found obvious. (Note: also has 112(b) defect)"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Same analysis as claim 4 applied to system format. US-2015241686-A1 explicitly teaches image processing unit configured to stitch images. Coverage score 0.86 - highest among all claims. Direct system teaching with functional equivalence. (Note: also has 112(b) defect)"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            21
+          ],
+          "strength": "moderate",
+          "reasoning": "Same analysis as claim 7 applied to system format. Combination of positioning from US-2016183779-A1 with multiple images context. Coverage score 0.74. Maintaining relative positions is necessary for functional system but not explicitly taught for multiple overlays. Given my strictness=0.82, this functional necessity supports obviousness. (Note: also has 112(b) defect)"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            39
+          ],
+          "strength": "strong",
+          "reasoning": "Combination of US-2015241686-A1 (systematic multi-image acquisition, stitching) and US-2016183779-A1 (magnified overlay, positional tracking). Coverage score 0.79. Both references explicitly discuss same problem: field of view vs. magnification. Clear motivation to combine. All claim elements are explicitly taught across the two references."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            41
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly teaches 'imaging controller configured to cause the imaging unit to execute imaging while moving observation region.' Controller-driven imaging is inherently automated. Coverage score 0.72. The claim merely labels what is inherent in controller-based operation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            43
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016183779-A1 teaches changing zoom for magnification adjustment. Claim specifies changing objective lenses. While the prior art doesn't explicitly teach objective changing, both zoom and objective changing are well-known equivalent methods in microscopy. Coverage score 0.68. This is selection from known alternatives. Given my strictness=0.82 and the fundamental equivalence of these magnification-changing methods in the field, this supports obviousness based on common general knowledge."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            7,
+            14,
+            16
+          ],
+          "cited_ref": "US-2016183779-A1",
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses positioning graphical overlays according to surgical device movement, which corresponds to positioning according to the area of interest. The mapping shows coverage scores of 0.65-0.75 with implicit matches. The reference clearly teaches the system architecture (claim 14) and positioning features (claims 2, 7, 16). This is strong anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            4,
+            18
+          ],
+          "cited_ref": "US-2015241686-A1",
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly discloses image composite processing to align and create contiguous composite images. The mapping shows coverage scores of 0.68-0.75 with implicit matches on key elements. The reference teaches both the method (claim 4) and processor configuration (claim 18) for alignment. This is strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            5,
+            6,
+            15,
+            17,
+            39,
+            41,
+            43
+          ],
+          "cited_refs": [
+            "US-2016183779-A1",
+            "US-2015241686-A1"
+          ],
+          "strength": "moderate to strong",
+          "reasoning": "The combination rationale is logical and well-supported. However, strength varies by claim: Claims 5, 18, 41, 43 are strong (explicit teachings in references, similarity scores 0.55-0.7). Claims 3, 6, 15, 17, 39 are moderate (require combining references, implicit matches with scores 0.55-0.72). With combination_threshold=0.46 and strictness=0.47, these meet the obviousness standard, but some claims (3, 6, 15, 17) have moderate strength due to requiring inference about combining overlay with multiple images."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "claims": [
+            16,
+            17,
+            18,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "These claims depend on canceled claims (11 or 20), making them indefinite under 35 U.S.C. 112(d). This is a clear statutory violation that must be corrected regardless of substantive patentability. However, this is a formal defect that can be cured by amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            4,
+            14,
+            16,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 and US-2015241686-A1 explicitly disclose all claim elements with high coverage scores (0.75-0.8). The references teach overlay positioning corresponding to source regions, image composite processing for alignment, and system components matching claimed limitations. These are clear anticipations with direct textual support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            4,
+            14,
+            16,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 rejections were overcome, the 103 rejections are strong. The references teach all elements, and the claimed combinations are straightforward applications of disclosed techniques. Motivation to combine is well-established (balancing field of view with detail in microscopy). No unexpected results or secondary considerations evident."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            5,
+            6,
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 3: Collecting multiple second level images is merely repeating the known imaging process taught by the references. Claim 5: Overlapping regions for alignment is fundamental to image stitching taught in Fukui. Claim 6: Extending single overlay to multiple overlays is straightforward optimization. Claim 7: Relative positioning of overlays is automatic consequence when each is positioned according to source region. All have clear motivation and predictable results."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12,
+            15,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 12: User selection capability is conventional UI feature, but the references only implicitly suggest interactive control through 'variable positioning.' Claim 15: Feature-based alignment combines teachings from two references (feature identification from Lowry + alignment from Fukui), which is logical but requires combining two concepts. Claim 17: Processor configuration for multi-region imaging is straightforward implementation, but claim specifies 'second second level image' which is somewhat specific. These have reasonable obviousness arguments but involve some interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            39,
+            41
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 39: Method claim combining features from both references in systematic manner. The combination addresses known problem (wide field vs. detail) but involves integrating multiple teachings into cohesive method. Claim 41: Automation of systematic imaging is routine optimization, but the references describe controllers without explicitly teaching full automation. Both have solid obviousness arguments but require some inferential steps."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "claims": [
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 21 depends from canceled claim 20, making it indefinite. Additionally contains grammatical error 'configured overlay' instead of 'configured to overlay.' Clear 112(b) rejection."
+        },
+        {
+          "basis": "allowability",
+          "claims": [
+            8,
+            40,
+            42,
+            43
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 8 (different illumination conditions), Claim 40 (same relative positions across samples), Claim 42 (multi-focal plane information), and Claim 43 (objective lens changing) are not taught or suggested by the prior art. These features add novel technical approaches not evident in the references."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            6,
+            7,
+            12,
+            14,
+            16,
+            21
+          ],
+          "reference": "US-2016183779-A1",
+          "strength": "strong",
+          "reasoning": "Rakshit explicitly discloses tracking surgeon's area of interest, magnifying it, and overlaying onto portion of original field of view with position tracking. The disclosure 'The surgeon's area of interest can be magnified and overlaid onto a portion of the original field of view of the surgical microscope' combined with real-time tracking directly teaches positioning magnified overlay according to source region. This is direct anticipation, not implicit teaching."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            4,
+            15,
+            17,
+            18,
+            41
+          ],
+          "reference": "US-2015241686-A1",
+          "strength": "strong",
+          "reasoning": "Fukuma explicitly discloses sequential imaging while shifting field of view, image stitching to create contiguous composites, imaging controller for automated operation, and composite processing using corresponding regions. These are direct teachings, not interpretations. The virtual slide system necessarily collects multiple higher-magnification images and stitches them."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            39,
+            41,
+            43
+          ],
+          "references": [
+            "US-2016183779-A1",
+            "US-2015241686-A1"
+          ],
+          "strength": "strong",
+          "reasoning": "The combination is well-motivated. Both references address the same problem: balancing magnification and field of view in microscopy. Rakshit teaches overlay positioning via tracking; Fukuma teaches automated multi-image collection and stitching. Combining these is predictable use of known techniques in the same field. The motivation is clear: achieve comprehensive multi-scale visualization with proper spatial registration. This is not hindsight - both references explicitly identify the magnification/FOV tradeoff as the problem they solve."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly teaches graphical overlay positioning that corresponds to movement of surgical device in field, which directly anticipates positioning second level image according to its originating region in first level image. Claim 5 of prior art provides clear written description of this feature. Coverage score 0.8 and confidence 0.85 support strong anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly discloses imaging controller causing imaging while moving observation region in at least two different directions to acquire multiple images. This directly teaches collecting multiple second level images from regions of first level image. Coverage score 0.68 and confidence 0.75 support anticipation, though slightly weaker than claim 2."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 Claim 2 explicitly teaches image processing unit creating composite image by compositing at least two images. This directly anticipates aligning images to form contiguous image. Coverage score 0.75 and confidence 0.85 support strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 teaches composite image creation. Overlapping regions for alignment is inherent in image stitching and well-known in the art. This is textbook image processing technique. Confidence 0.85 supports strong obviousness finding."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Combination of US-2016183779-A1 (overlay) and US-2015241686-A1 (multi-region imaging) addresses known problem. Motivation exists but requires combining two references. Coverage score 0.75 and confidence 0.8 suggest reasonable obviousness, but combination introduces some uncertainty. With combination_threshold=0.33, this meets threshold for obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016183779-A1 teaches single overlay with position-correspondence. Extending to multiple overlays positioned relative to one another is predictable but not explicitly taught. Confidence 0.78 suggests moderate strength. This requires inference from single to multiple overlays."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 discloses complete system: imaging device acquiring images, computing device determining area of interest and generating magnified overlay, display device providing overlay. This anticipates all three claimed system elements. Coverage score 0.73 and confidence 0.82 support strong anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 Claim 5 explicitly teaches computing device identifying surgical device portions and display device positioning overlay to correspond with device movement. This directly anticipates feature alignment between magnification levels. Coverage score 0.75 and confidence 0.8 support strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016183779-A1 teaches variable overlay positioning, which suggests user control. Enabling explicit user selection is natural UI extension but not explicitly taught. Confidence 0.72 indicates moderate strength. This is reasonable inference but requires design choice."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 teaches image processing unit creating composite images. Processor implementation of this taught functionality is standard practice in automated systems. Confidence 0.85 supports strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            39
+          ],
+          "strength": "moderate",
+          "reasoning": "Combination of US-2015241686-A1 (multi-region imaging, alignment) and US-2016183779-A1 (overlay) addresses known problem stated in specification background. Both references in related fields. Confidence 0.8 suggests reasonable obviousness, but complex combination of multiple teachings. With combination_threshold=0.33, this meets threshold."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            41
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 teaches imaging controller causing imaging while moving observation regions. Controller-driven operation is inherently automated. Claiming 'automated fashion' merely describes inherent characteristic of taught system. Confidence 0.75 supports strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            4,
+            5,
+            14,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly teaches overlay positioning with movement tracking (claim 2), and US-2015241686-A1 explicitly teaches image stitching with alignment and overlapping regions (claims 4, 5, 18). The system claim 14 maps directly to US-2016183779-A1's disclosed architecture. These are clear element-by-element anticipations with high confidence scores (0.82-0.92)."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            6,
+            39
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 6: US-2016183779-A1 shows single overlay primarily; extending to multiple overlays requires inference. Claim 39: Requires combining two references, which is more appropriately 103 analysis, not 102. The office action inappropriately labels these as 102 rejections when combination is required."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            6,
+            7,
+            12,
+            14,
+            15,
+            39,
+            40,
+            41,
+            43
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2016183779-A1 (overlay system) with US-2015241686-A1 (multi-image stitching) has clear motivation - both address microscopy visualization. However, some claims (3, 7, 12, 40, 41) involve design choices that, while predictable, require explicit combination rationale. With combination_threshold=0.44 and strictness=0.52, these fall in the moderate range - there is motivation but not explicitly taught."
+        },
+        {
+          "basis": "112_written_description",
+          "claims": [
+            16,
+            17,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 16, 17, and 21 depend from canceled claims (11 and 20). This is a clear definiteness defect under 112(b) - the dependency chain is broken. This rejection is well-founded and must be maintained."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses all elements: graphical overlay of magnified image on field of view with position tracking. The surgical vs. sample analysis distinction is a minor application difference. Coverage score 0.8 with explicit match type supports strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "Even if not anticipated, applying surgical overlay technique to general sample analysis is obvious design choice with clear motivation for improved visualization."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "Extension from single to multiple high-mag images is predictable, but represents quantitative change. Given strictness 0.42, this moderate-strength obviousness warrants careful consideration - the step from one to multiple images may not be as trivial as suggested."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly teaches image stitching to create contiguous wide field of view. Coverage 0.75 with explicit match supports anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Application of known stitching technique to different magnification level is straightforward."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "While composite processing inherently involves overlapping, the implicit nature (coverage 0.70, implicit match) suggests this is more suitable for obviousness than anticipation. At strictness 0.42, implicit anticipation should be questioned."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Overlapping regions for alignment is well-known basic technique in image stitching."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Coverage 0.8 but the reference discusses overlay of magnified regions - whether this teaches 'first and second second level images' (multiple distinct high-mag overlays) is less clear from abstract alone."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Combination of US-2016183779-A1 and US-2015241686-A1 is logical but represents a step beyond what either teaches individually. At strictness 0.42, this moderate-strength combination may not warrant rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "Extension of positioning technique to multiple overlays is logical but represents additional implementation complexity. Coverage 0.75 with implicit match suggests this is not explicitly taught."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 discloses complete system with all claimed elements. Coverage 0.77 with explicit matches for key elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "Direct application of surgical system to general sample analysis is obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "While feature alignment is necessary for composite processing, explicit processor configuration for this is an implementation detail. Coverage 0.65 implicit match suggests moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim has dependency error (depends on canceled claim 11). Beyond that, the obviousness analysis is similar to claim 2 system version - moderate strength due to dependency issue requiring correction."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "weak",
+          "reasoning": "Claim has dependency error. Additionally, coverage 0.65 implicit match for 'second second level image' concept suggests prior art does not clearly teach this. At strictness 0.42, weak obviousness with dependency error should not support rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Direct processor implementation of explicitly disclosed stitching technique, though claim has dependency chain through claim 17 (which has error)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            21
+          ],
+          "strength": "weak",
+          "reasoning": "Claim has dependency error (depends on canceled claim 20). Coverage 0.7 implicit match. Extension of positioning to multiple overlays is not explicitly taught. Dependency error plus weak technical basis counsels against rejection at strictness 0.42."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            39
+          ],
+          "strength": "moderate",
+          "reasoning": "Combination of two references is logical but represents synthesis not explicitly suggested. Coverage 0.78 suggests reasonable but not complete overlap. At strictness 0.42, this borderline combination may not warrant rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            41
+          ],
+          "strength": "moderate",
+          "reasoning": "While automation is known, coverage 0.7 implicit match suggests the specific automated collection in this context is not explicitly taught. At strictness 0.42, this moderate-strength obviousness may not support rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            6,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016183779-A1 teaches overlay positioning corresponding to movement/area of interest, but the claim recites positioning 'according to the region of the first level image that is comprised in the first second level image' which is a specific spatial relationship. The reference teaches dynamic tracking rather than explicit positional mapping based on comprised regions. For claim 4, US-2015241686-A1 teaches image stitching but at same magnification levels, not explicitly multi-level stitching. The anticipation requires some inference. For claim 6, extending single overlay to multiple overlays requires interpretation. For claim 14, the system elements map well but require interpreting surgical microscope field of view as 'first level' and magnified overlay as 'second level' in the claimed sense."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "strength": "strong",
+          "reasoning": "The obviousness grounds are well-supported. US-2016183779-A1 and US-2015241686-A1 are in the same field (microscopy/surgical visualization), address the same problem (inspecting areas of interest while maintaining context), and their combination is logical. For claims 3, 6, 7, collecting multiple high-magnification images is a straightforward extension. For claims 4, 5, 18, image stitching with overlapping regions is well-established. For claim 8, different illumination for different magnifications is standard practice. For claim 12, user selection is obvious UI design. For claims 15, 41, the references explicitly teach the claimed features. For claims 39-40, combining the two references addresses complementary aspects of the problem. For claims 42-43, multi-focal plane imaging and changing objective lenses are fundamental microscopy techniques. The motivation to combine is clear and the combination_threshold of 0.48 is easily met."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            16,
+            17,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 16 and 17 depend on claim 11 which is canceled. Claim 21 depends on claim 20 which appears to be canceled. This is a clear defect under 112(b) and (d) as the claims fail to properly incorporate limitations of their parent claims when those parent claims do not exist. This is not a substantive rejection but a formal defect that must be corrected."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            6,
+            7,
+            14,
+            16,
+            21
+          ],
+          "reference": "US-2016183779-A1",
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1은 surgical microscope에서 magnified image를 overlay하고, overlay의 movement가 surgical device의 movement에 correspond하도록 하는 구성을 명시적으로 개시합니다. 이는 청구항 2의 'positioned according to the region' 및 관련 청구항들의 핵심 구성과 실질적으로 동일합니다. Coverage scores가 0.79-0.85로 높고, 선행기술이 입력으로 제공되었으며, 단일 문헌이 모든 구성요소를 개시합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            4,
+            15,
+            18
+          ],
+          "reference": "US-2015241686-A1",
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1은 'image composite processing'과 'stitches a plurality of images to create a microscope image with a wide field of view'를 명시적으로 개시하여, 청구항 4, 15, 18의 image alignment 및 contiguous image formation을 직접 anticipate합니다. Coverage scores가 0.78-0.8로 높고, 선행기술 문헌이 제공되었습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            14,
+            15,
+            16,
+            18,
+            21
+          ],
+          "references": "US-2016183779-A1 and/or US-2015241686-A1",
+          "strength": "strong",
+          "reasoning": "102로 anticipate되는 청구항들은 103 also obvious합니다. 단일 문헌이 모든 구성을 개시하므로 obviousness는 자명합니다. 두 선행기술은 동일 분야(imaging systems)에서 공통 목적(high-resolution detail with context)을 추구하며, 결합 동기가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            39,
+            40,
+            41
+          ],
+          "references": "US-2016183779-A1 in combination with US-2015241686-A1",
+          "strength": "moderate",
+          "reasoning": "청구항 39는 복잡한 method claim이지만, 각 구성요소가 선행기술에 개시되어 있습니다. 두 문헌의 결합 동기(comprehensive multi-scale imaging)가 논리적으로 설명되고, combination_threshold=0.57 기준을 충족합니다. 그러나 청구항 39의 전체 workflow가 단일 문헌에 명시적으로 개시되지 않아 일부 해석의 여지가 있습니다. 청구항 40(consistent positions)과 41(automated fashion)은 선행기술에서 암묵적이지만, standard practice로 인정 가능합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claims": [
+            17
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 17이 'processor configured to collect images'를 기재하고 명세서는 'imaging device configured to collect'를 기재한다는 112(a) 거절입니다. 그러나 이는 기능적 청구항 해석 문제일 수 있으며, processor가 imaging device를 제어하여 images를 collect하도록 하는 것으로 해석 가능합니다. Written description 거절로 하기엔 증거가 약합니다. 또한 청구항 17은 canceled claim 11에 의존하여 이미 112(b) indefiniteness로 거절되었으므로, 추가적인 112(a) 거절은 중복적입니다."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "claims": [
+            16,
+            17,
+            18,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "이들 청구항은 canceled claims(11, 20)에 의존하여 improper dependency 문제가 있습니다. 이는 명확한 112(b) indefiniteness 이슈이며, 형식적 문제로서 거절 근거가 강합니다."
+        }
+      ]
+    }
+  ]
+}

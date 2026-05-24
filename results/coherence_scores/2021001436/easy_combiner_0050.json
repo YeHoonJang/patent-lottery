@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 rejections, uses element-by-element anticipation logic for §102 novelty, and invokes §112(b) indefiniteness for dependency-on-canceled-claims issues — all statute-appropriate frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance conclusion references specific prior art references (US-2016183779-A1, US-2015241686-A1) with stated disclosures mapped to specific claim elements, and the §112 rejection cites the specific dependency defect (canceled claims 11 and 20)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently follows the §102 novelty findings — claims found novel (8, 40, 42, 43) are also found non-obvious, while claims found not novel are found obvious — with no contradictions between stages without stated rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a combination_threshold of 0.222 (very easy combiner) and moderate strictness (0.461), the examiner accepts thin motivations to combine (e.g., 'well-known challenge in microscopy') and broadly rejects most claims while still allowing four claims where no prior art was found, consistent with a pragmatist easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'reject' decision flows directly from the accumulated stage analyses — most claims rejected under §103 with strong confidence, four claims (8, 40, 42, 43) granted based on consistent novelty and non-obviousness findings, and §112 issues for claims 16, 17, 21 flagged throughout — with explicit summary rationale provided."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001436",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13828,
+      "output_tokens": 443,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

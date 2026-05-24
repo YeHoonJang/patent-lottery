@@ -1,0 +1,326 @@
+{
+  "case_id": "ABL-2021003655",
+  "proceeding_number": "2021003655",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "reject_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6's jump motion is inherently and necessarily disclosed in US-2015375456-A1's selective laser beam direction across non-contiguous regions. The reference explicitly teaches the core functionality that encompasses jump motions, making anticipation clear and unambiguous."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7–10, 14–17, and 22 are based on features either explicitly taught (e.g., synchronization, processor control) or inherently required (e.g., delay adjustments, image storage) in the prior art. The motivation to combine is strong, grounded in routine optimization of result-effective variables and standard practices in laser AM systems."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 11, 12, 13, 18, 19, 20, and 21 suffer from indefiniteness and lack of algorithmic or methodological detail, particularly for software and measurement claims. While the specification likely supports general concepts, the absence of specific implementation details (e.g., how drive voltage is used, how distances are measured) creates ambiguity. However, these could potentially be remedied by amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7, 19, 21, and 22 are directly anticipated by US-2015375456-A1. The reference explicitly discloses synchronized control of scanning devices (claim 7), automated process via processor (claim 19), software for automatic adjustment (claim 21), and the integrated system with coordinate comparison and delay adjustment (claim 22). These disclosures satisfy the anticipation standard under §102 with high confidence (0.8–0.95), making the rejections strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims 2–6, 8–18, and 20, the prior art teaches a closed-loop laser additive manufacturing system with melt pool monitoring and synchronized scanning. Although specific calibration parameters (e.g., skywriting, run-in/run-out, jump delay, laser on/off delay) are not explicitly disclosed, they represent standard motion and timing parameters in galvanometer-based laser systems. A PHOSITA would be motivated to optimize these parameters to improve scan accuracy and part quality. The combination is supported by the reference’s teaching of process control and synchronization. Confidence in obviousness ranges from 0.7 to 0.85, and given the field’s emphasis on precision and thermal management, the rejections are strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 18 involves measuring galvanometer drive voltage for comparison, which is not disclosed in US-2015375456-A1. The reference relies on optical melt pool monitoring, not electrical signals. While drive voltage could correlate with scanner position, it is an indirect and less conventional method. The motivation to combine is weaker (confidence 0.6), and a PHOSITA might not naturally look to electrical drive signals when optical feedback is available. However, under broad interpretation and given the goal of real-time diagnostics, using such signals as a proxy is still within the realm of routine engineering alternatives, especially in cases of optical obstruction."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 19, 20, 21, and 22 are rejected under 103, and the prior art explicitly discloses processor-based synchronized control of scanning devices, which inherently implies automation, software implementation, automatic adjustment, and integrated system functionality. Motivation to combine is clear and well-established in the field of laser additive manufacturing for precision and repeatability."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 19의 자동화는 US-2015375456-A1에 개시된 프로세서 기반 동기 제어를 바탕으로 하며, 자동화의 동기는 명확하나, 자동화의 맥락(모니터링 대비 캘리브레이션)에서 약간의 창의적 단계가 요구될 수 있음. 그러나 선행기술이 자동화 가능성을 충분히 시사하므로, 적어도 자동화 자체는 자명함. 하지만 strictness=0.29로 관대한 기준에서 보정 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art '456 teaches synchronized scanning and melt pool monitoring in laser additive manufacturing, with a clear emphasis on process control and thermal management. The claimed calibration techniques—though not explicitly disclosed—are all logical extensions of known engineering practices in the field. Each claimed feature (e.g., delay calibration, run-in/run-out, jump motion, software automation) relates to routine optimization of timing and spatial parameters in laser scanning systems. The motivation to combine is well-supported by the shared goal of improving geometric accuracy and thermal control. PHOSITA would be familiar with scanner dynamics, feedback loops, and digital control systems, making the combination highly predictable. Confidence in obviousness is high across all claims, and no secondary considerations rebut the prima facie case."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 동기화된 이중 스캐닝 장치, 용융 풀 모니터링, 피드백 제어, 열 거동 조절, 지연 시간 조정, 스캔 패턴 형성 등을 명시적으로 개시하고 있으며, 정밀한 공정 제어는 적층 제조 분야의 공지된 기술적 과제임. 결합 동기(motivation to combine)는 명확하고, 통상의 기술자도 이를 결합하는 것이 자명함. 특히, 자동화 및 소프트웨어 기반 제어는 시스템 아키텍처상 자연스러운 발전. confidence 값 대부분 0.8 이상으로, 진보성 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 레이저 적층 제조 시스템에서 스캔 동기화, 지연 조정, 런인/런아웃, 점프 동작 등을 포함한 광범위한 제어 기능을 개시하고 있으며, 청구항 2, 3, 4, 5, 6, 8, 9, 10, 14, 15, 16, 19, 20, 21, 22의 구성요소 대부분이 명시적 또는 암시적으로 포함됨. PHOSITA 입장에서 이러한 파라미터 조정은 정밀 가공을 위한 일반적인 최적화 방법으로 자명하며, 결합 동기(motivation to combine)가 명확함. confidence 점수도 0.8 이상으로 높음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 7은 선행기술에서 프로세서가 제1 및 제2 스캐닝 장치를 동기화하여 제어하는 것을 명시적으로 개시하고 있으며, 이는 스캔 동작과 조사원 제어 간의 동기화에 직접 대응함. anticipation 판단의 요건을 충족하며, 해석의 여지 없이 신규성 결여로 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7's synchronization between scan motion and irradiation source control is not explicitly disclosed in US-2015375456-A1, but the reference's synchronous scanning control for melt pool tracking provides a reasonable basis for inferring coordination between motion and energy delivery. While common knowledge supports timing coordination in laser systems, the specific application to skywriting or delay calibration is not directly addressed. Given the broadest reasonable interpretation and moderate strictness, this constitutes a moderate obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 레이저 스캐닝, 동기 제어, 용융 풀 모니터링, 자동화된 피드백 조정 등을 포함하는 포괄적인 적층 제조 시스템을 개시하고 있으며, 청구항 2-10, 14-17, 19-22의 대부분 특징이 명시적 또는 암시적으로 포함됨. 결합 동기가 명확하고, 통상의 기술자 수준에서 설계 선택이나 최적화로 간주될 수 있음. 특히 claim 7은 동기 제어의 명시적 개시로 인해 strong 103 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 18의 갈바노미터 구동 전압 측정은 선행기술에 직접 개시되지 않으나, 정밀 제어 시스템에서의 동작 진단 방법으로서 공지된 기술적 관행에 해당. 전기적 신호 측정을 통한 동작 검증은 POSITA에게 자명할 수 있으나, 광학적 모니터링 중심의 문헌에서 직접적 근거는 약함. strictness=0.46 기준으로 moderate로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 스캔 동기화, 지연 조정, 해치 패턴, 레이저 온오프 제어, 광학 이미지 저장, 자동화 소프트웨어 등을 명시하고 있으며, 청구항 2, 3, 6, 7, 10, 14, 15, 16, 19, 20, 21, 22의 특징들은 통상의 기술자에게 자명한 범위 내에 있음. 결합 동기 명확하고, 선행기술 적용 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 레이저 적층 제조에서 스캔 동작 제어, 동기화, 지연 조정, 패턴 형성, 데이터 저장, 자동화 및 소프트웨어 기반 파라미터 조정을 명시하거나 암시적으로 개시하고 있으며, 통상의 기술자도 이러한 기능들이 공정 안정성 확보를 위한 표준 기술임을 인식할 수 있음. 결합 동기 및 기술적 맥락이 명확하여 obviousness 판단의 증거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Most rejections under §103 are based on the argument that claimed parameters (e.g., skywriting, delay settings, run-in/run-out duration, hatch patterns, software control) are obvious design choices in view of US-2015375456-A1's teaching of synchronized scanning and melt pool control. While the reference supports motivation for precise timing and control, many specific parameters (e.g., orthogonal distance between scan paths, galvanometer voltage comparison, coordinate-based calibration between builds) go beyond routine optimization and represent non-routine improvements. Confidence scores for non-obviousness in claims 11, 12, 13, 18, and 22 are high (0.84–0.88), indicating weak obviousness rationale for those. The combination threshold is 0.52, and several rejections rest on 'obvious to try' reasoning, which is moderate in strength under current examination standards."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 동기화된 스캐닝 장치, 프로세서 제어, 열전달 모니터링, 광학 탐지기 및 소프트웨어 기반 제어를 명시적으로 개시하고 있으며, 청구항 2, 3, 4, 5, 6, 7, 10, 16, 19, 20, 21, 22의 구성요소는 선행기술의 직접적 개시 또는 통상의 기술자에게 명백한 일반적 관행에 해당함. 결합 동기 및 Graham 요소 분석이 타당하며, confidence 점수가 0.8 이상인 항목이 다수임."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7 and 22 are clearly anticipated by US-2015375456-A1, which explicitly discloses synchronization of scanning devices via a processor and an integrated system for monitoring and adjusting scanner parameters. The disclosure is direct and unambiguous, satisfying the requirements for anticipation under §102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejections for claims 2–6, 8–13, 16–17, 19–21 are based on sound reasoning that calibration of scan delays and use of test patterns are routine in the art. However, the extension of these principles to specific motions like skywriting, run-in, run-out, and jump lacks explicit teaching in the reference, requiring a moderate leap in reasoning. The motivation to combine is plausible but not compelling, falling within the moderate range."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The rejection of claims 14, 15, and 18—directed to laser on/off delay adjustment and galvanometer drive voltage measurement—is weak. The prior art does not suggest these specific parameters, nor is there a clear motivation to modify the reference to include them. These represent non-conventional approaches that go beyond routine optimization, making the obviousness conclusion tenuous under strict scrutiny."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The written description rejection is moderate. While the claims use technical terms common in laser scanning, their absence from the specification creates support issues. However, some terms may be considered within the knowledge of a PHOSITA, and if original disclosure contains implicit support, the rejection could be overcome with argument or citation. The lack of algorithm for software-implemented functions adds weight but does not rise to strong indefiniteness without further evidence."
+        }
+      ]
+    }
+  ]
+}

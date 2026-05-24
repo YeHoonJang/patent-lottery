@@ -1,0 +1,373 @@
+{
+  "case_id": "2017007521",
+  "proceeding_number": "2017007521",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1의 클레임 6, 8, 3은 청구항 1의 핵심 기능(centroid-based 처리, 분할 처리, 스트리밍 메커니즘)을 명확히 포함하며, 결합 동기(motivation to combine)가 명확하고 기술적 동기(processing efficiency)가 공지된 기술에 기반해 명백한 obviousness를 보인다. 증거의 명확성과 일치도가 높아 강한 근거로 판단된다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 기술적 기준이 명확하지 않아 통상의 기술자가 발명을 재현하기 어렵다는 형식적 지적사항이 제기되었으나, 명세서 내용이 부재한 상태에서 단순한 기술 용어 모호성만으로는 112절 기재요건 충족 여부를 확정적으로 판단하기 어렵다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 103 거절 근거는 선행기술과의 명확한 기능적 중복 및 결합 동기 제시로 강한 증거가 있음. confidence 값이 0.8 이상으로 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'acceptability' 및 'priority ordering'에 대한 명세서 부족은 해석의 여지가 있으나, 심사 성향에 따라 거절로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 REF1과의 결합 동기 및 기술적 진보는 명확하지만, 청구항의 기술적 기여가 일부 인정될 수 있어 강도가 중간 수준"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항의 용어 해석에 대한 명세서 부족은 추측 기반으로, 심사 성향에 따라 보정 제안 가능"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1은 스트리밍 처리와 센트로이드 계산 기술을 명확히 공개하고 있으며, 결합 동기(실시간 신체 자세 추정의 효율성)도 당업자에게 명확히 유도됨. 유사성 점수(0.75-0.85)와 구체적 매핑으로 인해 결합의 당위성이 높음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항 1의 '스트리밍 메커니즘', '우선순위 기반 중단', '로컬 어그리게이터' 등을 구체적으로 공개하고 있으며, 유사성 점수와 명확한 매핑으로 인해 기술적 동일성 확보됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'acceptability'와 'priority ordering'의 정의 부재는 명확한 기술적 모호성으로, 하지만 청구항 자체의 기술적 기여가 인정됨. 보정이 유리한 경우로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1의 시퀀스 처리, 중심점 클러스터링, 우선순위 정렬 요소가 명확히 중첩되며, 결합 동기(motivation to combine)가 명시되어 결합 가능성에 대한 증거가 강력함. 유사도 점수(0.7~0.85)와 명세서 기술의 직접적 대응으로 103 기준 충족."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 claim8과 claim6은 청구항 1, 3, 11, 15, 16의 핵심 구성요소(우선순위 기반 수락, 클러스터링 근사, 확률 기반 분할)를 명확히 예측하며, 결합 동기(motivation to combine)도 명시됨. 선행기술의 동일 문서 내 claims 간 결합이 103 기준에 부합함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 'predetermined priority ordering' 및 'candidate centroid value calculation method'와 같은 핵심 용어의 구체적 구현이 명세서에 명시되지 않아 모호성 발생. 그러나 명세서 부족이 아닌 청구항 자체의 불명확성으로 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art combinations (REF7, REF11, REF17) show clear overlap with claim elements, but confidence scores (0.7-0.8) suggest some interpretation flexibility under strictness=0.47"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1,3,7,11,15,16) are explicitly anticipated by prior art with high confidence (0.65-0.9) and explicit matches"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "General objection without specific evidence of insufficiency in claims, but noted in Office Action"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 구체적 기술 내용과 청구항의 유사성, 결합 동기의 명확성, 커버리지 점수(0.58~0.82)가 combination_threshold(0.55)를 초과하며, Graham 요소에서 PHOSITA의 기술적 이해와 적용 가능성도 명시됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 핵심 용어('predetermined priority ordering', 'current state of candidate centroid value' 등)의 구체적 정의와 구현 방법이 누락되어 기술자에게 구현 지침 제공이 불가능함을 명확히 반영."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1-20) are explicitly anticipated by prior art (US-2011210915-A1) and combination of references is supported with clear motivation (e.g., efficiency gains, parallel processing). Confidence levels (0.58-0.8) indicate strong evidence of obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are directly anticipated by specific prior art claims (e.g., claim1 by US-2011210915-A1-claim8). Confidence scores (0.58-0.8) confirm clear overlap with prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguities in terms like 'predetermined priority ordering' and 'scan line order' exist, but the Office Action cites these as formal objections rather than definitive rejections. Requires clarification but not conclusive invalidation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 claim 3, 6, 8이 청구항의 기능적 요소를 명확히 포함하며, 결합 동기(실시간 포즈 추정 효율 개선)가 명시되어 거절 근거가 강력함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "기능적 용어(acceptability, priority ordering 등)의 명세서 뒷받침 부족은 중립적 판단을 요구함"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2011210915-A1) explicitly discloses centroid determination (claim8) and scan line processing (claim13), which are combined to form the claimed streaming mechanism. The Office Action confirms this combination as sufficient for obviousness, and the cited references directly address key features like 'priority ordering' and 'acceptability'."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks detailed algorithmic descriptions for evaluation function decision-making and aggregator incorporation, as noted in the Office Action. This deficiency is critical for enablement under 35 U.S.C. § 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 3, 7, 11은 선행기술의 요소가 결합 가능하나, 결합 동기 제시가 부족하거나 명확하지 않아 중립적 판단이 필요함. 103_obviousness 기준에 따라 동기 부족으로 강도가 중간 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1 provides explicit technical features (centroid determination, probability assignment) that directly overlap with claims 1, 3, 16. The combination motivation is logical (single-pass streaming optimization) and supported by Graham factors. Confidence of 0.8 indicates strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1's priority-based acceptance and local aggregator incorporation are explicitly supported by prior art (US-2011210915-A1 claims 6/8) with clear motivation to combine for computational efficiency. Confidence 0.7 exceeds combination threshold 0.57."
+        }
+      ]
+    }
+  ]
+}

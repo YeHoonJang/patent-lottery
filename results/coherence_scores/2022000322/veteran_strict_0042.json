@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 obviousness framework throughout, explicitly identifying scope and content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation to combine for each claim."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (e.g., US-2019261132-A1, US-2018279394-A1, US-2018279110-A1) and maps specific claim elements—such as PC5_tech parameter, discovery filter, ProSe application ID—to specific disclosures in those references."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage found all claims non-novel with high confidence, and the §103 stage consistently builds on those same findings without contradiction, using the same references and adding motivation-to-combine rationale where multiple references are combined."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.793 and a low combination_threshold of 0.335, the examiner appropriately resolves all ambiguities toward rejection and readily accepts weaker motivations to combine (e.g., 'efficiency,' 'standard practice'), consistent with a veteran strict profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and consistently from the uniformly adverse §102 and §103 stage findings, with explicit per-claim summaries and weighing of obviousness strength, including a moderate note for claim 12 where prior art was less direct."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17003,
+      "output_tokens": 379,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

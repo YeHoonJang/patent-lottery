@@ -1,0 +1,381 @@
+{
+  "case_id": "2021003655",
+  "proceeding_number": "2021003655",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1은 청구항 1의 핵심 구성요소(스캐닝 장치 동기화, 광학 모니터링)를 명시적으로 개시하며, 결합 동기(공지된 기술의 통합)가 명확하게 제시됨. 결합 동기 기준 0.34를 초과해 obviousness 판단 강도 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'skywriting process', 'polygonal delay', 'synchronization' 등 핵심 용어에 대한 구체적 정의가 누락됨. 기재요건 미비로 인한 112(d) 거절 근거 확실함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 동기부여 가능한 기술 결합이 명확하고, 결합 동기의 논리성이 충분히 제시됨. Graham factors에서 prior art의 프레임워크 내에서의 명확한 동기부여가 확인됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 포함된 'jump delay', 'skywriting process', 'key process parameter' 등의 용어가 명세서에서 명확히 정의되지 않음. 다만, 명세서 제공 시 추가 분석이 가능하므로 해석 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'first characteristic', 'jump delay', 'polygonal delay setting' 등 청구항에 사용된 용어가 명확히 정의되지 않아 실행 가능성과 기술적 내용 부족이 명확히 확인됨. 이는 112(b)의 기재요건을 명백히 위반함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술(US-2015375456-A1)은 동기화 스캐닝 및 공간 분석 기술을 포함하지만, 'run-in/run-out delay calibration'이라는 구체적 기술적 적용은 명시되지 않음. 결합 동기 부족으로 인해 obviousness 판단은 약함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술은 동기화 스캐닝 기술을 포함하나, 청구항의 'run-in/run-out delay calibration'이라는 특정 적용은 새로운 기술적 해결책으로서 차별화됨. 그러나 102(a)의 anticipatory 요건은 충족되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 'synchronized scanning devices'와 'optical detection of melt pool characteristics'가 청구항 1의 핵심 기능인 'scan coordinate comparison'과 결합 가능하며, 동기 제공이 명확한 것으로 판단됨. confidence 0.85로 강한 근거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2의 'skywriting process'와 3의 'polygonal delay'는 명세서에서 명확히 정의되지 않아 enablement 문제 발생. 그러나 용어 수정/명시 가능성이 있어 보정 제안 적절."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 청구항 1 및 3의 핵심 요소('first scanning device', 'synchronous control', 'parameter adjustment')를 명확히 포함하며, 결합 동기(공정 일관성 향상)가 명확히 제시됨. Graham 요소 모두 충족됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'first characteristic' 및 'scan motion' 용어에 대한 명세서 뒷받침 부족은 명확하지만, 이는 단순한 용어 모호성일 뿐 구체적 기술적 효과 부재로 이어지지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses overlapping elements (synchronizing scanning devices, melt pool monitoring) with claim 1, supported by high similarity scores (0.65/0.75) and explicit mappings. Confidence is 0.8."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art provides clear motivation to combine parameter adjustment (melt pool monitoring) with delay calibration during run-in/run-out motions. Graham factors confirm PHOSITA would recognize this combination. Confidence is 0.7."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'polygonal delay' lack definition in the specification, while 'jump delay' and 'mark delay' are contextually mentioned. Verification confirms this deficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1은 청구항 1의 핵심 요소(동기화 제어, 용융 풀 추적, 딜레이 설정)를 명확히 포함하며, 결합 동기(motivation to combine)가 명확히 제시됨. Graham 요인 분석에서 기술적 통상의 지식을 가진 자(PHOSITA)가 당연히 결합할 수 있음을 뒷받침."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 3, 10, 16, 20, 22에 대한 불명확성은 명세서에서 명확히 정의되지 않은 용어로 인한 것으로, 수정을 통해 해결 가능. 다만, 이는 청구항 자체의 기술적 명확성에 대한 문제로, 강력한 거절 근거가 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The Office Action explicitly identifies multiple undefined terms (e.g., 'skywriting process', 'run-in motion', 'polygonal delay') critical to claim scope. These terms are not adequately defined in the specification, rendering the claims indefinite and failing enablement requirements. The confidence in this rejection is high (0.8 in novelty, 0.7 in non-obviousness), but the 112 issue is a separate, strong basis for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2015375456-A1) explicitly discloses synchronized scanning and melt pool tracking, which closely align with the claimed method. While the combination is clear, the distinction between 'scan motion characteristics' and 'melt pool data' introduces some ambiguity. The motivation to combine is strong (process control improvement), but the novelty threshold (strictness=0.46) requires cautious evaluation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The terms 'first characteristic' and 'reference characteristic' lack sufficient definition in the specification. The absence of detailed measurement/comparison methods creates significant ambiguity, making it unclear how a PHOSITA would implement the claimed method without undue experimentation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'skywriting process', 'jump delay' 등 핵심 용어에 대한 구체적 정의나 구현 세부사항이 부재하며, 기술자가 이 기술을 실천하기 위해 과도한 실험을 요구하는 것으로 판단됨. 이는 112(a)의 기술적 설명 부족을 명확히 보여주는 강력한 증거."
+        },
+        {
+          "basis": "112_enablement",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'run-in/run-out motion' 및 'scan characteristics'에 대한 명세서의 설명이 부족하나, 신규성 판단에서 기술적 차이가 명확히 제시되어 일부 보완 가능성이 있음. 그러나 명세서의 부족한 설명은 여전히 중대한 문제로 남음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 103의 결합 동기가 부족함을 명시하며, 선행기술의 목적과 청구항의 목적 차이가 명확하여 결합 동기 부재로 인해 103 적용이 어렵음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 청구항 1의 '스캔 시작/종료 지연 보정'을 구체적으로 개시하며, 결합 동기(motivation to combine)가 명확히 제시됨. Graham 요소에서 기술 수준과 차이점이 명확히 구분되며, PHOSITA의 통상적 지식 범위 내에서의 결합이 명백함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 3의 'jump delay', 'mark delay' 등은 명세서에서 정의되지 않아 기술적 지원 부족이 명확히 확인됨. 명세서 뒷받침 부족은 법적 근거로 충분한 강도를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims are directly anticipated by the prior art (US-2015375456-A1) or its teachings are combinable with obvious motivation. The prior art explicitly discloses overlapping functionalities (synchronization, melt pool tracking, scan duration adjustment) that cover all claim elements. Graham factors confirm PHOSITA would combine these teachings for process control optimization."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 2 and others lack specific definitions for terms like 'skywriting process' and 'jump motion'. While the prior art provides some context, the specification does not sufficiently describe these terms, creating ambiguity under BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1은 청구항의 핵심 요소(스캔 동기화, 디レイ 조정, 파라미터 조정 등)를 명확히 개시하고 있으며, 결합 동기(motivation to combine)도 명확히 제시됨. Graham 요소에서 기술자의 지식 수준과 이전 기술의 공지된 기능을 고려할 때, 결합은 당연한 수준으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1 explicitly discloses synchronized scanning and parameter adjustment, which directly supports the claimed calibration of scan motion delays and synchronization. The motivation to combine is clearly stated, and the Graham factors confirm the obviousness of adjusting jump delay settings for process consistency."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Non-standard terminology ('skywriting process', 'jump delay') and insufficient technical detail for run-in/run-out motions and synchronization mechanism are noted. While the specification lacks clarity, the issue is not entirely absent, leaving room for interpretation under the moderate BRI setting."
+        }
+      ]
+    }
+  ]
+}

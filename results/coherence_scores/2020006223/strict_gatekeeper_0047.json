@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for every claim, and the §112 rejection for claim 15 correctly applies the written description/possession-of-invention framework under 35 U.S.C. 112(a)."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific prior art references (US-2013227111-A1, US-2013272121-A1) with citation to specific disclosed features (e.g., claim 7 of US-2013227111-A1 for read/write metrics, paragraph [0047] for choking information in the §112 rejection) and specific claim language."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The novelty stage finds no claims novel (all marked is_novel=false using combinations of the same two references), and the obviousness stage consistently builds on those same combinations without contradicting the earlier findings, maintaining coherent progression to the office action and final rejection."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.818 is reflected throughout: all 22 claims are rejected, every borderline element (e.g., auto-provisioning, de-provisioning, batch control) is resolved toward rejection even at lower confidence levels (0.6-0.65), and no ambiguous evidence is resolved in the applicant's favor."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims directly follows from the accumulated §103 findings (all claims found obvious with detailed Graham factors) and the §112 finding on claim 15, with explicit weighing sections restating the strong basis for each ground before issuing the rejection."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 19098,
+      "output_tokens": 426,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

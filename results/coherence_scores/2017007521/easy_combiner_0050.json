@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies the correct statutory framework: §102 anticipation analysis uses element-by-element comparison against the prior art reference, and the office action explicitly cites §102(a)(1) with specific claim language mapped to specific disclosures in US-2011210915-A1."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection and allowance determination references specific claim language (e.g., 'priority-based termination,' 'two-mode acceptance logic') and specific prior art passages (e.g., Claim 8 of US-2011210915-A1 for centroid determination, Summary for pixel probability maps), providing evidence-linked reasoning throughout."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage uniformly defaults to non-obvious due to LLM unavailability, and the final decision consistently carries forward the §102 rejections for claims 7, 11, 15, and 20 while granting the remaining claims, with no contradictions between novelty findings and final claim dispositions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.461 (moderate/slightly lenient) and combination_threshold of 0.222 (easy combiner), the examiner appropriately grants the majority of claims on novelty without pressing §103 combinations, consistent with a lenient-to-moderate profile that defaults to non-obvious when combination analysis is unavailable."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 7, 11, 15, and 20 follows directly from the §102 novelty findings at the novelty stage and the office action rejections, while granting remaining claims based on the consistently stated novelty of their additional limitations."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017007521",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 8850,
+      "output_tokens": 422,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 framework throughout, explicitly identifying scope and content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation to combine for each claim rejection."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific prior art references (US-2020296365-A1 and/or US-2013101018-A1) and maps specific disclosures (e.g., APS index parsing, chroma ALF, slice-level signaling) to specific claim elements."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings—claims found not novel at §102 are then confirmed obvious at §103 with added motivation-to-combine rationale, and claims 8 and 16 found novel at §102 (lacking display disclosure) are still rejected at §103 as obvious post-solution activity, which is explicitly justified."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The strict examiner profile (strictness=0.889) is explicitly acknowledged in the final decision summary, and the examiner resolves every ambiguous element (e.g., display output, 'only filter set' limitation) toward rejection, consistent with a high-strictness gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims follows directly from the accumulated §103 findings across both the novelty and obviousness stages, with the final decision summary reiterating the prior art combinations and rationale without reversing any prior-stage conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15283,
+      "output_tokens": 389,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

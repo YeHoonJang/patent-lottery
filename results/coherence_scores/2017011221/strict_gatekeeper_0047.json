@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 obviousness framework throughout, including explicit identification of scope/content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation to combine — the correct legal test for §103."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection is tied to specific claim elements (e.g., 'automatically scheduling closing actions,' 'predetermined duration,' 'requesting recordation to government entity') mapped against specific disclosures in US-2014143129-A1, such as its 350-rule location-based processing and third-party data verification."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage found most claims novel (2–4, 6, 10–12, 14, 18–20) but found claims 1, 5, 7–9, 13, 15–17 lacking novelty; the §103 stage then consistently escalated all claims to obviousness rejections without contradicting the earlier findings, relying on the same reference with added rationale for motivation to combine."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner resolves all ambiguous elements (e.g., 'update upon completion' not explicitly disclosed) toward rejection rather than grant, and combination_threshold=0.513 supports accepting motivation-to-combine arguments based on efficiency and routine design choices, both consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all 20 claims flows directly from the §103 obviousness analysis at both the claim-by-claim and office action stages, with the weighing explicitly summarizing why the prior art's conditional processing, third-party integration, and location-based rules render the claims obvious extensions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017011221",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17479,
+      "output_tokens": 440,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

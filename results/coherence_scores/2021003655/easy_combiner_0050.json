@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences from claimed invention, PHOSITA level, secondary considerations) throughout the obviousness stage, and the office action and final decision also invoke the correct §103 framework rather than conflating it with §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection is linked to specific claim language (e.g., run-in/run-out, laser on/off delay, galvanometer drive voltage) and to specific disclosures in US-2015375456-A1, with confidence scores and element-by-element comparisons provided throughout the novelty and obviousness stages."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The obviousness stage builds consistently on the novelty findings—claims found non-novel at §102 are also found obvious at §103, claim 18 found novel is also found non-obvious, and the final decision mirrors both earlier stages without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner profile shows a very low combination_threshold (0.222) and moderate strictness (0.461), consistent with the easy-combiner archetype; the trace accepts weak motivation-to-combine language ('general engineering goal,' 'well-known in the art') to reject most claims while still allowing claim 18, reflecting a lenient-to-moderate stance rather than a strict one."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 2–22 under §103 and indicate claim 18 as allowable follows directly and coherently from the accumulated novelty and obviousness stage analyses, with explicit rationale tying back to the prior art findings and the specific galvanometer voltage distinction for claim 18."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003655",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16070,
+      "output_tokens": 425,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

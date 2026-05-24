@@ -1,0 +1,468 @@
+{
+  "case_id": "2022004238",
+  "proceeding_number": "2022004238",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly discloses all elements of claims 38-57 with high confidence (0.75-0.85)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Medical implant application shows obvious variant (confidence 0.65), but other elements are strongly supported by reference."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly discloses similar energy comparison and frequency adjustment features with logical motivation to combine for power transfer optimization"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항 38의 모든 요소를 명확히 개시하지는 않으나 유사한 기능을 포함하고 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 38의 추가 기능이 해당 분야의 통상적 기술로 판단되나, 명확한 결합 동기가 부족함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 40의 기능이 선행기술의 변형이지만, 기술적 기여가 인정될 수 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 43의 기능이 선행기술과 유사하지만, 구체적인 구현 방식에서 차이가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012212074-A1의 구체적 내용과 매칭됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "결합 동기가 논리적이지만 출원인의 기술적 기여가 일부 인정됨"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1이 청구항 38의 모든 요소를 명확히 개시함"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1이 청구항 40의 기능을 내재적으로 개시하나 명시적 언급은 없음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 41-42는 US-2012212074-A1의 명백한 변형이지만 동기 부여가 약간 모호함"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 청구항 6이 청구항 43을 명시적으로 개시함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 44의 저항 변화 메커니즘은 공지된 기술이지만 구체적 구현이 다소 다름"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1 청구항 6이 청구항 52를 실질적으로 개시하지만 완전히 동일하지는 않음"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1 청구항 2가 청구항 53을 실질적으로 개시하지만 완전히 동일하지는 않음"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1 시스템이 청구항 55를 실질적으로 개시하지만 완전히 동일하지는 않음"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly teaches all elements of the claimed invention with sufficient detail for obviousness determination."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly discloses a control circuit with resonance coil and frequency adjustment, anticipating claim 38."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art suggests obvious combinations for claims 38, 40-44, 47, 53, 55, 56 but requires some interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly discloses all elements of claims 38-57 with high confidence scores (0.6-0.9)"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While obviousness is supported, some claims have lower confidence scores (0.6-0.65) where interpretation may vary"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly anticipates the claimed elements with high confidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of elements is obvious but some claims have minor variations."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly discloses all elements of the claimed invention with high confidence scores (0.6-0.9)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the combinations are plausible, some variations require minor technical inferences with confidence scores ranging 0.57-0.9."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly discloses all elements of claim 38."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 40-44, 46, 49-53, 55-57 are obvious variations of prior art teachings, though some require minor interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과 공지기술의 결합 동기가 논리적이지만 특정 구현에 대한 명확한 교시는 부족"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "무선 전력 전송 시스템의 기본 설계 목표와 일치하나 구체적인 주파수 조절 방법에 대한 명시적 교시 부족"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "공지된 주파수 튜닝 방법 적용이 명확히 교시됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "전자 회로 설계의 일반적 기법이지만 특정 응용에 대한 명확한 동기 부족"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "피드백을 위한 역결합은 일반적이지만 특정 구현에 대한 교시 부족"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "피드백 제어를 위한 시스템 구성은 공지되었으나 특정 응용에 대한 명확한 동기 부족"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 clearly discloses all elements of claims 38-44, 47, and 52-56 with high confidence levels (0.75-0.9)"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Even where not directly anticipated, the combination of elements would have been obvious to PHOSITA with clear motivation to combine"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항 38의 주요 요소를 개시하나 완전히 동일하지는 않음"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항 40의 요소를 개시하나 완전히 동일하지는 않음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "자연 주파수 조정은 공지된 기술"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "자연 주파수 이탈 조정은 공지된 기술"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항 43의 요소를 명시적으로 개시함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "전류 변동을 통한 저항 변경은 공지된 기술"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "시간적 저항 요소 변경은 선행기술의 변형"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "기지국 구성이 선행기술과 유사하나 완전히 동일하지는 않음"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "시스템 구성이 선행기술과 유사하나 완전히 동일하지는 않음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "신호 특성 기반 에너지 결정은 공지된 기술의 변형"
+        }
+      ]
+    }
+  ]
+}

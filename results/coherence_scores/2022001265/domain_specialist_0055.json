@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies Graham/KSR factors (scope and content of prior art, differences from prior art, PHOSITA level, secondary considerations) for §103 analysis throughout the obviousness stage, and separately applies the §112(f)/§112(a) written description framework for means-plus-function claims 17 and 35."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are consistently tied to specific claim limitations (e.g., 'only' restriction, luma/chroma APS index separation), specific prior art disclosures (US-2020296365-A1's slice-level APS signaling, US-2013101018-A1's independent chroma ALF), and specific specification concerns (lack of algorithmic detail for means-plus-function claims)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness findings are consistent with the §102 novelty stage — claims found novel at §102 (e.g., claims 4, 6, 8, 12, 14, 16) are either found non-obvious or obvious under §103 with explicit rationale (e.g., claim 8 deemed obvious as a conventional step despite being novel), and the 'only' claims consistently flow from novelty through obviousness to allowable subject matter."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.603 and combination_threshold at 0.566 (moderate levels), the examiner appropriately rejects most claims while allowing the 'only' limitation claims (4, 6, 12, 14) as non-obvious, reflecting a balanced rather than extreme stance consistent with the moderate profile parameters."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject directly follows from the accumulated §103 findings (strong obviousness for most claims), §112 findings (means-plus-function inadequacy for claims 17/35), and the stage-consistent identification of the 'only' limitation claims as allowable subject matter dependent on rejected base claims."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14712,
+      "output_tokens": 489,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

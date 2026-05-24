@@ -1,0 +1,352 @@
+{
+  "case_id": "2019004278",
+  "proceeding_number": "2019004278",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013203433-A1은 네트워크 자원 할당에 관한 것으로, 청구항의 핵심 구성요소인 '메시지 전달 경로 변경' 개념을 전혀 개시하지 않음. Coverage_score가 0.0~0.38로 매우 낮으며, 단일 선행기술이 모든 구성요소를 개시하지 못함. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술과 청구항은 기술적 과제가 상이함(자원 할당 vs. 메시지 라우팅). 선행기술은 사용자 행동 추적을 개시하나, 이는 네트워크 최적화 목적이며 통신 앱 선택과는 무관. 결합 동기가 명확하지 않으며, 통상의 기술자가 자원 관리 시스템을 메시지 라우팅 시스템으로 변형할 교시나 시사가 부재. Combination_threshold=0.34로 낮은 기준이나, 기술 분야 및 해결 과제의 상이성으로 인해 공지상식만으로 결합 동기 인정 어려움."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 모든 청구항 구성요소에 대해 충분한 기재를 제공함. 시스템 아키텍처(FIG. 2), 데이터 구조(FIG. 3), 동작 흐름(FIGS. 6-7)이 명확히 개시되어 있으며, 통상의 기술자가 과도한 실험 없이 발명을 실시 가능. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 추상적 아이디어가 아닌 구체적 기술 구현(메시지 라우팅 시스템)에 관한 것. Alice/Mayo 프레임워크 하에서 실용적 적용(practical application)에 해당하며, 통신 시스템의 기능 개선이라는 기술적 효과 제공. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "102 거절(청구항 1, 11, 15)의 근거는 약합니다. US-2013203433-A1이 '사용자 행동 기반 리소스 할당'을 개시하지만, 청구항의 핵심인 '메시지 전달을 위한 선호 통신 애플리케이션 선택'과는 기술적 목적과 구현이 다릅니다. 선행기술은 네트워크 대역폭 할당에 초점을 맞추며, 특정 애플리케이션을 통한 메시지 라우팅을 명시적으로 개시하지 않습니다. BRI 원칙 하에서도 '리소스 제어'와 '메시지 전달 애플리케이션 선택'은 구별되는 개념입니다. Similarity scores(0.72-0.84)는 유사성을 나타내지만, 102 anticipation에 필요한 '모든 구성요소의 명시적 개시'를 충족하지 못합니다. Coverage scores(0.5-0.52)도 경계선상이며, 이는 완전한 anticipation이 아님을 시사합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "103 거절의 근거는 중간 정도입니다. 선행기술 US-2013203433-A1이 사용자 행동 기반 최적화의 일반 원리를 개시하고, 이를 메시지 전달 애플리케이션 선택에 적용하는 것이 자명하다는 주장은 논리적입니다. 결합 동기(사용자 경험 향상, 네트워크 효율성)도 합리적입니다. 그러나 선행기술은 '네트워크 리소스 할당'에 초점을 맞추며, '다중 통신 애플리케이션 간 메시지 라우팅'이라는 구체적 문제를 다루지 않습니다. 독립항(1, 11, 15)의 경우, 기술 분야의 차이(network resource management vs. application-level message routing)가 있어 자명성 판단이 경계선상입니다. 종속항(2-10, 12-14)의 경우, 추가된 한정사항들(시간/위치 기반 상황 인식, presence data, 양방향 메시징 등)이 공지상식이라는 주장은 타당하나, 이들을 메시지 전달 애플리케이션 선택에 결합하는 것이 자명한지는 해석의 여지가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "청구항 1과 11에 대한 102 거절은 선행기술 US-2013203433-A1이 '메시지를 선호 애플리케이션으로 리디렉션'하는 구체적 구성을 명시적으로 개시하지 않는다는 점에서 약합니다. 선행기술은 네트워크 리소스 할당 최적화에 초점을 맞추고 있으며, 'resource allocation'을 'message delivery path selection'으로 해석하는 것은 상당한 확장입니다. 매핑 결과에서 핵심 elements(1b, 1d, 1e)가 모두 implicit 매칭이며 낮은 유사도(0.3-0.4)를 보이고, coverage_score가 0.4로 낮습니다. 선행기술이 '메시지 전달 경로의 애플리케이션 간 변경'을 명시적으로 기재하지 않았으므로, anticipation 기준을 충족하지 못합니다. strictness=0.25의 관대한 기준과 혁신 지원형 철학을 고려할 때, 이 정도의 암묵적 개시는 102 거절을 정당화하기에 불충분합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 4, 5, 6, 7, 8, 9, 11, 13, 14에 대한 103 거절은 moderate 강도입니다. 선행기술이 사용자 행동 기반 리소스 제어의 일반 원리를 개시하고 있으며, 이를 메시지 라우팅에 적용하는 것이 predictable use라는 논리는 일정 부분 타당합니다. 그러나 '네트워크 리소스 할당'에서 '메시지 전달 경로의 애플리케이션 간 변경'으로의 도약은 추가적 기술적 통찰을 요구합니다. 특히 청구항 1의 핵심은 '제1 애플리케이션에서 수신한 메시지를 제2 애플리케이션(선호 앱)으로 리디렉션'하는 것인데, 이는 단순한 리소스 할당이 아니라 애플리케이션 간 메시지 라우팅의 능동적 변경입니다. combination_threshold=0.68이 0.6보다 크므로 명시적 교시가 필요하지만, 선행기술의 교시는 일반적 원리 수준에 머물러 있습니다. 청구항 4-9, 13-14의 구체적 컨텍스트(시간, 위치, 캘린더, 여행)는 공지기술이지만, 이를 '통신 애플리케이션 선택'에 적용하는 것은 통상의 설계 선택 범위 내에 있습니다. strictness=0.25의 관대한 기준을 적용할 때, moderate 강도의 103 거절은 출원인에게 유리하게 해석될 여지가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013203433-A1은 '사용자 행동 기반 리소스 할당 및 콘텐츠/데이터 전달 최적화'를 개시하지만, 청구항의 핵심인 '메시지를 선호 통신 애플리케이션으로 라우팅'하는 구체적 구성은 명시적으로 개시하지 않습니다. 선행기술은 리소스 할당에 초점을 맞추고 있으며, '콘텐츠/데이터 전달 최적화'는 추상적 수준에서 언급됩니다. '메시지는 데이터의 일종'이라는 논리는 과도한 확장 해석입니다. 선행기술이 '제1 애플리케이션 대신 선호 애플리케이션으로 전달'이라는 명시적 전환 메커니즘을 개시하지 않으므로, 102 거절 근거는 약합니다. strictness=0.29의 관대한 기준에서 이는 anticipated가 아닙니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 사용자 행동 기반 최적화의 일반 원리를 개시하고 있으나, 메시지 라우팅으로의 구체적 적용은 추가적인 발명적 단계를 요구할 수 있습니다. 청구항 1, 11, 15의 경우, 선행기술과의 차이(리소스 할당 vs. 메시지 라우팅)가 자명한 설계 선택인지 발명적 단계인지는 해석의 여지가 있습니다. 청구항 4-9, 13-14의 경우, 특정 애플리케이션 유형 및 contextual factors는 공지기술이지만, 이를 선행기술과 결합하는 동기가 명확한지는 논란의 여지가 있습니다. combination_threshold=0.72는 높은 편이므로, 명시적 교시나 강한 결합 동기가 필요합니다. 현재 제시된 결합 동기('최적화를 메시지 전달에 적용하는 것이 자명')는 다소 일반적이며, 구체적인 기술적 교시가 부족합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013203433-A1은 사용자 행동 추적, 행동 패턴 저장, 행동 기반 최적화 전달이라는 핵심 프레임워크를 명시적으로 개시하고 있습니다. 청구항들의 차이점은 이 프레임워크를 '통신 애플리케이션 선택'이라는 특정 맥락에 적용한 것에 불과합니다. 선행기술은 'tracking user behavior with respect to mobile usage', 'recording characteristics or patterns of user behavior in a user behavior profile', 'aggregating or computing statistical data related to content consumption'을 명시적으로 교시하며, 이는 청구항 1, 3, 11, 12, 15의 핵심 요소를 모두 포함합니다. 2016년 출원 시점에 행동 기반 개인화 및 최적화는 널리 알려진 기술이었고, 이를 통신 애플리케이션 선택에 적용하는 것은 통상의 기술자에게 자명한 설계 선택입니다. 청구항 4-9, 13-14의 추가 한정사항(특정 애플리케이션 유형, 시간/위치/여행 기반 상황, 센서 데이터)은 모두 2016년 당시 공지된 기술이며, 선행기술의 행동 분석 시스템에 이러한 공지 요소를 적용하는 것은 자명합니다. combination_threshold=0.45로 낮은 수준이므로, 공지상식이나 설계 선택만으로도 결합 동기를 인정할 수 있습니다. 선행기술이 이미 '행동 추적→패턴 분석→최적화 전달'의 전체 흐름을 제공하므로, 이를 메시지 전달 애플리케이션 선택에 적용하는 것은 명백히 자명합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "101"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "Alice/Mayo 2단계 분석이 논리적으로 수행되었습니다. Step 1에서 청구항들이 '사용자 선호도 기반 의사결정'이라는 추상적 아이디어에 해당함을 명확히 식별했습니다. 이는 정신적 과정의 자동화로, Electric Power Group 및 Intellectual Ventures 판례와 일치합니다. Step 2에서 청구항의 추가 요소들(memory resource, processing resource, modules)이 일반적 컴퓨터 구성요소에 불과하며, 단순히 '컴퓨터로 하라'는 지시에 해당함을 설득력 있게 제시했습니다. 청구항 3-9의 구체적 상황들(시간, 위치, presence data)은 field of use 한정에 불과하며, DDR Holdings나 Enfish와 달리 컴퓨터 기술 자체의 개선이 없습니다. 명세서의 배경 설명도 사용자 경험 문제를 다루고 있어, 기술적 문제 해결이 아님을 뒷받침합니다. 101 거절 근거가 매우 강력합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013203433-A1 discloses user behavior tracking, statistical analysis, and delivery optimization, but focuses on network resource allocation rather than communications application selection. The extension from resource allocation to application selection requires a logical leap. While the prior art teaches tracking behavior patterns and optimizing delivery, it does not explicitly teach intercepting messages intended for one application and redirecting to another based on user preferences. The combination motivation relies on 'improving user experience' which is somewhat generic. For claims 1, 3, 11, 12, 15: the core methodology is disclosed but the specific application domain differs. For claims 4-9, 13-14: these add well-known contextual factors (time, location, calendar, travel, specific app types) that are obvious refinements but not explicitly disclosed. For claim 10: the bidirectional routing adds complexity not taught by the prior art, making this rejection weaker. Overall, the 103 rejection has merit but involves some inferential steps and reliance on design choice arguments."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 5, 12에 대한 103 거절은 moderate 강도임. US-2013203433-A1이 사용자 행동 추적 및 통계 계산을 개시하나, 통신 애플리케이션 선택이라는 구체적 적용은 명시하지 않음. 선행기술은 네트워크 리소스 할당 최적화에 초점을 두며, 메시지 전달 경로 변경과는 기술적 목적이 상이함. 그러나 사용자 행동 패턴 기반 선호도 결정은 해당 분야의 공지 기술이며, 통상의 기술자가 이를 통신 앱 선택에 적용하는 것은 설계 선택 수준으로 볼 여지가 있음. Claim 5의 시간적 파라미터 구체화 및 claim 12의 규칙 기반 결정은 공지된 구현 선택으로 볼 수 있으나, 선행기술과의 기술 분야 차이를 고려하면 자명성 판단에 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2013203433-A1은 네트워크 레벨 자원 할당에 관한 것으로, 본 출원의 핵심인 애플리케이션 간 메시지 라우팅과는 기술 분야 및 해결 과제가 명확히 상이함. 선행기술은 (1) 제1 통신 애플리케이션으로 전송된 메시지 식별, (2) 선호 애플리케이션 선택, (3) 선호 애플리케이션으로 메시지 리디렉션이라는 핵심 구성요소를 개시하지 않음. Office Action은 '사용자 행동 추적'이라는 일반적 개념의 유사성만으로 obviousness를 주장하나, 이는 결합 동기(motivation to combine)가 불명확함. 선행기술의 네트워크 최적화 목적과 본 출원의 사용자 경험 개선 목적은 상이하며, 통상의 기술자가 네트워크 자원 관리 기술로부터 애플리케이션 레벨 메시지 라우팅을 자명하게 도출하기 어려움. Office Action 자체도 '추가 reasoning이나 evidence가 필요할 수 있다'고 인정하고 있어, 거절 근거의 강도가 약함. 단일 선행기술만으로는 청구항의 모든 구성요소를 커버하지 못하며, 추가 선행기술 없이는 결합이 자명하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2013203433-A1은 네트워크 자원 할당(bandwidth, radio power states)에 관한 것으로, 메시지를 가로채서 다른 통신 애플리케이션으로 재전송하는 개념과는 기술 분야가 상이함. 선행기술은 사용자 행동 추적을 개시하나, 이는 네트워크 최적화 목적이며 메시지 라우팅과는 무관함. Office Action은 '행동 추적 원리를 메시지 라우팅에 적용하는 것이 자명하다'고 주장하나, 이는 결과론적 추론(hindsight bias)에 해당함. 선행기술에는 (1) 메시지 가로채기(interception), (2) 애플리케이션 간 메시지 재전송(redirection), (3) 선호 애플리케이션 선택 기준에 대한 교시나 암시가 전혀 없음. 결합 동기로 제시된 '명세서 BACKGROUND의 문제 인식'은 출원 자체의 내용이므로 결합 동기의 객관적 증거로 부적절함. 선행기술이 다루는 기술 문제(네트워크 혼잡)와 청구된 발명의 문제(다중 통신 채널 관리)는 본질적으로 다름. PHOSITA가 자원 할당 시스템을 메시지 라우팅 시스템으로 변형할 명확한 동기가 선행기술에서 제시되지 않음. Graham 요소 분석 결과, 선행기술과의 차이가 실질적이며, 단순한 설계 선택이 아닌 창작적 통찰을 요구함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013203433-A1은 네트워크 리소스 할당 최적화에 관한 것으로, 청구항의 핵심 구성요소인 '통신 애플리케이션 간 메시지 리디렉션'을 명시적으로 개시하지 않습니다. Coverage scores가 대부분 0.0~0.35로 낮으며, 유사성이 있는 부분(사용자 행동 추적)도 기술 분야와 목적이 상이합니다. 102 거절 근거는 매우 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 네트워크 최적화 분야이고, 청구항은 애플리케이션 선택 기반 메시지 전달 분야입니다. 사용자 행동 추적이라는 공통 요소가 있으나, 이를 통신 애플리케이션 선택에 적용하는 것은 기술 분야, 해결 과제, 해결 수단이 모두 상이하여 결합 동기가 불충분합니다. combination_threshold=0.44를 고려해도, 선행기술에서 메시지 리디렉션 개념이 교시되거나 시사되지 않아 통상의 기술자가 자명하게 도출할 수 없습니다. Graham 분석 결과 모든 청구항이 비자명하며, confidence scores도 0.65~0.9로 높습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action에서 명시된 바와 같이, 명세서는 'current message module', 'behaviors module', 'identification module', 'delivery module' 등 모든 청구항 구성요소에 대해 충분한 기재와 실시가능성을 제공합니다. 112 거절 근거가 제시되지 않았습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "Office Action에서 명시된 바와 같이, 청구항은 추상적 개념(데이터 처리, 메시지 라우팅)을 포함하지만, 사용자 선호도 기반 지능형 메시지 전달을 통해 컴퓨터 시스템 기능을 개선하는 실용적 응용으로 통합되어 있습니다. 구체적 기술 구현(모듈/엔진)을 명시하여 추상적 아이디어 이상의 의미를 갖습니다. 101 거절 근거가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2013203433-A1은 네트워크 리소스 할당(bandwidth, radio power)에 관한 것으로, 청구항의 핵심인 '메시지를 제1 통신 애플리케이션에서 수신하여 선호 통신 애플리케이션으로 리디렉션'하는 시스템과는 기술 분야와 목적이 상이합니다. 선행기술은 사용자 행동 추적을 개시하지만, 이를 애플리케이션 간 메시지 라우팅에 적용하는 것은 명시적으로 교시되지 않았으며, 결합 동기가 불충분합니다. 두 기술은 서로 다른 계층(네트워크 인프라 vs. 애플리케이션 레이어)에서 작동하며, 통상의 기술자가 이를 결합할 명확한 시사가 없습니다. 진보성 판단에서 제시된 분석이 타당하며, 103 거절 근거는 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013203433-A1은 사용자 행동 추적(0.85 similarity), 통계 데이터 계산(0.65-0.7 similarity), 행동 기반 최적화를 명확히 개시하지만, 핵심 차이점이 존재합니다. 선행기술은 네트워크 자원 할당(bandwidth, radio power)에 행동 분석을 적용하는 반면, 청구항은 메시지를 한 통신 앱에서 다른 선호 앱으로 리디렉션하는 것입니다. 결합 동기는 논리적으로 설명되었으나(동일한 최적화 목표, 예측 가능한 확장), 이는 응용 분야의 변경(application domain shift)입니다. 선행기술이 '자원 할당'을 개시한 것과 '메시지 라우팅'은 기술적으로 구별됩니다. 행동 추적 프레임워크의 유사성은 높지만, 메시지 인터셉션 및 앱 간 리디렉션이라는 구체적 구현은 선행기술에 명시되지 않았습니다. 이는 moderate 강도로, strictness 0.52 수준에서는 증거의 충분성에 대한 신중한 판단이 필요합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013203433-A1은 네트워크 리소스 할당에 관한 것으로, 청구항의 핵심 구성요소인 '메시지 전달 경로 변경'을 개시하지 않습니다. 모든 청구항에서 anticipating_refs가 비어있고, coverage_score가 0.15~0.55로 낮습니다. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 사용자 행동 추적 및 네트워크 리소스 할당을 다루지만, 메시지 라우팅 변경이라는 다른 기술 문제를 해결하지 않습니다. 결합 동기(motivation to combine)가 명확하지 않으며, 리소스 최적화와 메시지 애플리케이션 선택은 서로 다른 기술 영역입니다. combination_threshold=0.57은 명시적 교시를 요구하는 수준에 가까우며, 선행기술은 이를 제공하지 않습니다. 모든 청구항에서 is_obvious=false이고 confidence 0.65~0.8로 높습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았으나, 청구항 자체는 명확하고 구체적입니다. 'current message', 'preferred communications application', 'relevant circumstances' 등의 용어가 일관되게 사용되었으며, 종속항들이 독립항의 구성요소를 구체화하고 있습니다. 112 이슈 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 메시지 전달 시스템 및 방법에 관한 것으로, 실용적 응용(practical application)에 해당합니다. 모바일 디바이스 및 통신 시스템의 기능을 개선하는 기술적 해결책을 제공합니다. abstract idea에 해당하지 않으며, 101 이슈 없음."
+        }
+      ]
+    }
+  ]
+}

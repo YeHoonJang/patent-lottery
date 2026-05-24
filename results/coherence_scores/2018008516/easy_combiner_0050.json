@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly invokes Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for every claim, and the §102 framework is correctly applied element-by-element for anticipation findings, with no statute-mixing."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout reference specific claim language (e.g., QCI value of 1, standardized API, high-priority transmission) and cite specific prior art disclosures (US-2016140851-A1's flight risk map, zone evaluation, external control; US-2016274578-A1's digital certificate authentication)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The office action labels claims 4, 12, 18 and 8, 16, 20 under '102_novelty' as rejection grounds but then concludes they are NOT rejected (stating 'not rejected under 35 U.S.C. 102 for lack of anticipation'), creating a self-contradictory use of the 102 rejection basis label that is inconsistent with the prior novelty stage findings and the final allowable claim determinations."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a very low combination_threshold (0.222) and moderate strictness (0.461), the examiner readily combines references with minimal motivation articulation and resolves ambiguous elements (like high-priority transmission) toward obviousness, consistent with an easy-combiner profile, while still allowing QCI-specific and API-specific claims."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with partial rejections flows logically from the accumulated stage analysis: claims found obvious at §103 are rejected, while claims found novel (QCI value 1, standardized API) are allowed, and the summary explicitly ties the decision to the stage-level findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018008516",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13884,
+      "output_tokens": 446,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

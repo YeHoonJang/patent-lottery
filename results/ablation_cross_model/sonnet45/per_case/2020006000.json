@@ -1,0 +1,311 @@
+{
+  "case_id": "2020006000",
+  "proceeding_number": "2020006000",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016140466-A1 discloses a general risk management system with risk triage and monitoring, which provides a foundation for the obviousness rejection. The prior art teaches determining risk ratings and receiving information about risk sources. However, the claimed invention's specific combination of (1) geographic region-specific data source selection, (2) unstructured text processing to determine a subset based on operational activities, and (3) adjusting risk rating based on that subset represents a more specific implementation. While the specification acknowledges that geographic-specific risk assessment is known in the field, the prior art does not explicitly teach the claimed combination. The motivation to combine is based on common knowledge and KSR principles rather than explicit teaching in the prior art. The examiner's reasoning relies heavily on 'it would have been obvious' conclusions without concrete evidence that the specific combination was known or suggested. The strength is moderate because: (a) there is a relevant prior art reference that covers some elements, (b) the combination rationale is logical but not explicitly supported by prior art teachings, (c) the specification's acknowledgment of known practices provides some support, but (d) the specific technical implementation (NLP-based text processing for geographic-specific risk adjustment) is not shown in the prior art. Under my strictness level (0.79), moderate evidence combined with logical inference is sufficient to maintain rejection, especially given the policy to protect the public from weak patents."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016140466-A1 provides a solid foundation for risk rating systems with risk source identification, information reception, and risk determination (similarity 0.75 for core element). The differences—geographic-region focus, unstructured text processing, region-specific data source selection—represent predictable combinations of known elements. The motivation to combine is well-established: (1) applicant's own specification acknowledges geographic-specific risk assessment is a known problem in international business, (2) region-specific data sources improving accuracy is common sense in the field, (3) NLP for text processing and database querying are standard techniques, (4) multi-stage calculations and GUI display are routine practices. With combination_threshold=0.34, the bar for finding motivation is low, and the evidence here exceeds that threshold. The Graham analysis is thorough with proper consideration of scope, differences, PHOSITA level, and lack of secondary considerations. All dependent claims add only routine refinements (intermediary ratings, GUI conversion, NLP implementation, fallback logic) that are predictable engineering choices. The obviousness reasoning is legally sound and technically well-supported."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2016140466-A1은 서비스 제공자 리스크 관리에 초점을 맞추고 있으며, 청구항의 핵심 구성요소인 (1) 지리적 지역과 관련된 운영 활동의 비구조화된 텍스트 설명 수신, (2) 해당 지역에서 유래한 데이터 소스로부터 제2 데이터 레코드 세트 선택, (3) 비구조화된 텍스트 설명에 기반한 서브셋 결정, (4) 서브셋에 기반한 기본 리스크 등급 조정을 명시적으로 개시하지 않음. Coverage score 0.35는 상당한 미개시 요소를 나타냄. 신규성 분석의 confidence 0.75-0.85는 높은 편이나, 선행기술이 다른 기술 문제(지역 확장 리스크가 아닌 벤더 리스크)를 다루고 있어 102 거절 근거는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항이 non-obvious로 판단됨(confidence 0.7-0.85). 선행기술 US-2016140466-A1은 서비스 제공자 리스크 분류에 초점을 맞추고 있으며, 청구항의 지리적 지역 특정 운영 리스크 평가로의 결합 동기가 명확하지 않음. Graham factors 분석 결과, 선행기술과 청구항 간의 차이가 상당하며(지역 특정 데이터 소스 선택, 비구조화된 텍스트 기반 필터링, NLP 기반 키워드 추출 등), PHOSITA가 이러한 결합을 자명하게 도출할 수 없음. 결합 동기는 사후적 재구성(hindsight reconstruction)에 해당하며, 선행기술이 다른 기술 문제를 다루고 있어 103 거절 근거는 약함. Combination threshold 0.68을 고려할 때, 결합 동기가 이 기준을 충족하지 못함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항의 용어들(예: 'unstructured text description', 'data sources originating from the geographic region', 'subset', 'adjusting')이 명세서에서 충분히 뒷받침되고 있는 것으로 보임. 신규성 및 진보성 분석에서 명세서가 청구항의 기술적 특징들을 적절히 설명하고 있다고 판단됨. 112 거절 근거는 제시되지 않았으며, 청구항이 명확하고 명세서의 뒷받침을 받고 있어 112 거절 근거는 약함."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 지리적 지역 특정 운영 리스크 평가를 위한 구체적인 기술적 해결책을 제공함. 비구조화된 텍스트 처리, 지역 특정 데이터 소스 선택, NLP 기반 키워드 추출, 데이터베이스 쿼리 구성 등의 기술적 수단을 사용하여 리스크 등급을 조정하는 것은 추상적 아이디어의 단순 적용이 아닌 구체적인 기술적 개선에 해당함. Alice/Mayo 테스트의 Step 2를 통과할 수 있는 충분한 기술적 특징(significantly more)을 포함하고 있어 101 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016140466-A1은 위험 평가 시스템을 개시하지만, 청구항의 핵심 특징들(지리적 지역 기반 데이터 소스 선택, 비구조화 텍스트 기반 서브셋 결정, NLP 키워드 추출)은 명시적으로 개시되지 않음. 거절 논리는 '이러한 기술들이 공지되어 있고 결합이 자명하다'는 추론에 의존하나, 선행기술 문헌이 단일 문헌이고 구체적인 결합 동기가 추측에 기반함. 명세서 배경 기술 설명이 결합 동기를 일부 뒷받침하나, 청구항의 특정 조합(지역별 데이터 소스 + 운영 활동 텍스트 기반 필터링 + 위험 등급 조정)은 선행기술에서 명시적으로 제안되지 않음. 출원인의 기술적 기여(지역 특화 위험 평가를 위한 통합 시스템)가 인정될 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016140466-A1 teaches basic risk rating determination and monitoring, but the claimed invention adds several specific features: (1) geographic region focus with two-stage data source approach, (2) unstructured text processing of operational activities, (3) subset determination based on text analysis, (4) region-specific adjustment methodology. While the Office Action argues these are obvious combinations of known techniques, the specific combination of geographic-region-based data source selection, unstructured text analysis for filtering, and the two-stage adjustment process represents a non-trivial integration. The motivation to combine is based largely on 'common sense' and 'routine practice' arguments rather than explicit teaching in the prior art. However, given the examiner's strict disposition (strictness=0.89) and the policy to reject when there is overlap with prior art, the moderate strength of evidence combined with the examiner's philosophy ('부실한 특허가 발행되면 혁신 생태계에 해를 끼친다') supports maintaining the rejection. The prior art does provide a foundation for risk rating systems, and the differences, while specific, can be characterized as predictable refinements using known techniques in the field."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016140466-A1 provides a risk management framework with risk rating determination and monitoring, which covers the core concept. However, the claimed invention adds specific features: (1) geographic region-specific data source selection, (2) unstructured text description processing for operational activities, and (3) subset determination based on text analysis. The examiner's reasoning relies heavily on 'routine design choice' and 'well-known technique' arguments without explicit documentary evidence. The prior art shows similarity scores of 0.75, 0.65, and 0.55 for some elements, but critical elements (1c, 1d) have no coverage. The combination threshold of 0.51 allows common sense combinations, but the motivation to combine is based on problem domain inference rather than explicit teaching. The geographic region focus and unstructured text processing represent a specific application that may not be entirely predictable from the prior art alone. Coverage scores of 0.45 for independent claims indicate less than half of the claim elements are disclosed. While the examiner's logic is reasonable, the evidence is not overwhelming - it depends on accepting that geographic filtering and text-based data selection are obvious variations rather than inventive contributions."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016140466-A1 discloses a risk management system with risk rating functionality, but the specific combination of (1) geographic region-based data filtering, (2) unstructured text processing of operational activities, (3) subset determination based on text description, and (4) risk adjustment based on that subset represents multiple modifications. While the examiner argues these are 'routine techniques,' the prior art does not explicitly teach or suggest this specific combination. The motivation to combine is based on general industry needs rather than explicit teaching in the prior art. The examiner's reasoning relies heavily on the assertion that these techniques were 'well-known' by 2019, but does not cite specific evidence beyond US-2016140466-A1. The combination requires integrating multiple disparate techniques (NLP, geographic filtering, text-based querying) in a specific way not shown in the prior art. At combination_threshold=0.46, this is borderline - the combination involves more than trivial modifications. However, the examiner has articulated a logical rationale for why a PHOSITA would make these modifications (region-specific risk assessment for international operations), and the individual techniques (geographic filtering, text processing, NLP) were indeed known in the field. The strength is moderate because while the motivation exists, the specific combination is not explicitly taught."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016140466-A1은 위험 평가 시스템을 개시하지만, 청구항의 핵심 특징인 (1) 지리적 지역 기반 위험 평가, (2) 비구조화 텍스트 설명 사용, (3) 지역 출처 데이터 소스 선택, (4) 텍스트 기반 데이터 레코드 필터링의 조합은 명시적으로 개시되지 않음. 선행기술은 서비스 제공자 위험 평가에 초점을 맞추고 있으며, 지리적 맥락으로의 적용은 추론에 기반함. 결합 동기는 논리적으로 설명되었으나, 이는 '사후적 재구성(hindsight reconstruction)'의 위험이 있음. 특히 비구조화 텍스트를 사용하여 지역별 데이터 소스를 필터링하는 특정 조합은 선행기술에서 명시적으로 제안되지 않음. NLP 기반 키워드 추출 및 데이터베이스 쿼리 구성(청구항 4, 11, 18)은 공지 기술이지만, 이를 지리적 위험 평가 맥락에 적용하는 것은 추가적인 기술적 통찰을 요구함. 종속항들의 특징(중간 위험 등급, 폴백 메커니즘)은 표준 관행이나, 전체 조합의 자명성은 moderate 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 3, 10, 17에 대한 103 거절은 US-2016140466-A1이 communications interface를 통한 client devices와의 통신을 개시하고 있으며, GUI 표시를 위한 데이터 포맷 변환이 해당 분야의 공지 기술이라는 점에서 일정한 근거가 있음. 그러나 선행기술이 명시적으로 'adjusted risk rating'의 포맷 변환 및 GUI 표시를 개시하지 않으며, 단순히 communications interface의 존재만으로 포맷 변환의 자명성을 주장하는 것은 다소 약한 논리임. 선행기술은 risk rating 정보를 client devices에 제공한다는 일반적 개념만 개시하고 있으며, 구체적인 포맷 변환 프로세스나 GUI 표시 방법은 개시하지 않음. 포맷 변환이 공지 기술이라는 주장은 타당하나, 이것이 청구항의 구체적 맥락(geographic region 기반 risk rating 조정 후 GUI 표시)에서 자명한지는 해석의 여지가 있음. Combination threshold 0.22를 고려할 때, 이는 경계선상의 사안임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 10, and 17 add only format conversion for GUI display to otherwise allowable base claims. This is clearly routine data presentation functionality in software engineering. The motivation to combine is straightforward: any user-facing analytical system requires presenting results in accessible formats. This is not a case requiring deep technical analysis - it is a textbook example of applying well-known techniques to solve a predictable problem. The rejection is well-supported by common general knowledge in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 3, 10, 17에 대한 103 거절은 '포맷 변환이 routine practice'라는 일반론에 기반하고 있으나, US-2016140466-A1은 GUI 포맷 변환을 명시적으로 개시하지 않습니다. 선행기술은 communications interface를 개시하지만, 이것이 자동으로 '다양한 포맷으로의 변환'을 시사한다고 보기는 어렵습니다. 103 거절은 결합의 동기와 예측가능성을 요구하는데, 단순히 '소프트웨어 개발의 표준 관행'이라는 주장만으로는 충분한 근거가 되지 않습니다. 특히 청구항은 '다른 포맷으로 변환(converting to a different format)'을 명시하고 있어, 단순 표시와는 구별됩니다. 선행기술이 특정 포맷 변환 기능을 개시하지 않은 상태에서, 이를 obvious로 판단하기에는 증거가 부족합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on combining US-2016140466-A1 with common knowledge in NLP, region-specific data selection, and software engineering practices. While US-2016140466-A1 teaches risk management with risk ratings and monitoring, the specific combination of (1) unstructured text processing of operational activities, (2) region-specific data source selection, (3) subset determination based on text, and (4) risk adjustment based on that subset represents multiple steps beyond the prior art. The motivation to combine is logical (improving geographic risk assessment), but the prior art does not explicitly teach or suggest this specific workflow. NLP and region-specific analysis were known techniques, but their specific application to this risk rating adjustment methodology may not be as obvious as suggested. The combination requires multiple inferential steps. Given the moderate combination_threshold (0.52) and the lack of explicit teaching of the claimed combination in the prior art, this rejection has moderate strength but is not conclusively strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016140466-A1은 리스크 관리 시스템의 기본 프레임워크를 제공하지만, 청구항의 핵심 특징인 (1) 지리적 지역 기반 운영 리스크 평가, (2) 2단계 데이터 소스 접근법(기본 평가용 제1 데이터 세트 + 지역 특화 제2 데이터 세트), (3) 비구조화 텍스트 처리를 통한 운영 활동 설명 분석, (4) 텍스트 기반 데이터 서브셋 결정은 선행기술에 명시적으로 개시되지 않음. 진보성 판단은 '리스크 평가 원칙이 도메인 독립적'이라는 일반론과 '다중 데이터 소스 사용 및 NLP 기법이 공지'라는 사실에 기반하나, 이러한 요소들의 특정 조합(지역 특화 + 2단계 접근 + 비구조화 텍스트 기반 조정)이 자명한지는 해석의 여지가 있음. 선행기술은 서비스 제공자 리스크에 초점을 맞추고 있으며, 지리적 지역 기반 운영 리스크로의 전환과 특정 데이터 처리 방식의 결합 동기가 명확히 입증되지 않음. 결합 동기가 '정확도 향상'이라는 일반적 목표에 의존하고 있어, 구체적 기술적 교시가 부족함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 10, 17의 103 거절은 moderate 강도입니다. US-2016140466-A1이 communications interface와 client devices를 개시하고 있어 GUI 표시 기능을 암시하지만, 'converting to different format for GUI display'는 명시적으로 개시되지 않았습니다. 거절 근거는 '당업자에게 자명한 routine practice'에 의존하고 있습니다. 이는 KSR의 predictable variation 원칙에 부합하나, format conversion이 단순한 표시 기능인지 아니면 특정 기술적 구현인지에 따라 해석의 여지가 있습니다. 선행기술이 risk data presentation을 개시하고, format conversion이 well-known practice라는 점은 인정되나, 청구항의 'adjusted risk rating'을 'different format'으로 변환하는 구체적 조합의 자명성은 moderate 수준입니다."
+        }
+      ]
+    }
+  ]
+}

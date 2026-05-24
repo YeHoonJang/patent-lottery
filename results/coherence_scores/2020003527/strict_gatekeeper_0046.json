@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation for §102, Graham/KSR factors for §103, and claim/specification support analysis for §112, using each statute's recognized legal framework throughout all stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection is tied to specific claim language and specific disclosures in US-2012141633-A1 (e.g., Claim 4 for fillings, Claim 5 for thickness/mass, Claim 8 for temperature), with explicit element comparisons throughout."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims 3, 4, and 5 were found novel at §102 and then subjected to §103 with additional rationale about common general knowledge and routine optimization, and claim 16 remained non-obvious across both stages — no contradictions appear between §102 and §103 findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner consistently resolves ambiguity toward rejection — treating inherent disclosures as anticipating (claims 7, 10, 12), applying broad reasonable interpretation to 'cream-cheese' vs 'process cheese,' and explicitly noting that strictness=0.89 supports rejecting marginal claims — fully consistent with the strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'reject' decision follows directly from the accumulated stage analyses: the vast majority of claims were found anticipated or obvious, claim 16 is noted as potentially allowable but depends from rejected claims, and claim 17 has a formal defect — all of which coherently support overall rejection."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020003527",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12591,
+      "output_tokens": 400,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "case_id": "2020006433",
+  "proceeding_number": "2020006433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1과 US-2012228933-A1의 결합은 에너지 흐름 측정/계산과 데이터 시각화 기법의 결합으로 볼 수 있으나, 청구항 1의 '우선순위 할당 규칙'은 선행기술에 명시되지 않았음. 그러나 시각화 기법 적용은 통상의 기술자가 쉽게 구현할 수 있는 수준으로 판단되며, combination_threshold=0.34에 따라 결합 동기가 인정됨. strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1이 청구항 2, 9, 16의 모든 구성요소를 명시적으로 개시함. 신규성 부정은 명확하며, 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1이 모든 에너지 흐름 값을 명시적 또는 암시적으로 개시하며, 통상의 기술자가 쉽게 결합할 수 있는 수준임. combination_threshold=0.34에 따라 자명함. 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1이 측정/계산 구성요소를 개시하나, '디스플레이 이미지 생성'은 공지된 데이터 시각화 기법의 적용으로 볼 수 있음. 그러나 청구항의 구체적 시각화 방법은 명시되지 않아 해석의 여지가 있으나, strictness=0.79에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1과 US-2012228933-A1의 결합은 청구항 1의 모든 구성요소를 포괄하며, 시각화는 해당 분야의 공지된 기술로 판단됩니다. 결합 동기는 명확하고, PHOSITA 수준에서 예측 가능합니다. 근거가 충분하여 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1은 청구항 2, 9, 16의 모든 구성요소를 명시적으로 개시합니다. 신규성 부정 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1은 청구항 3, 10, 17의 대부분의 구성요소를 명시적으로 개시하며, 나머지 구성요소는 암시적으로 개시됩니다. 신규성 부정 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1과 US-2013297084-A1의 결합은 우선순위 규칙을 암시하지만, 명시적 개시는 부족합니다. 그러나 PHOSITA 수준에서 설계 선택으로 볼 수 있어 근거는 있으나 해석의 여지가 있습니다. strictness=0.88에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            12,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1은 '자가 소비 최대화' 규칙을 암시하며, 구체적인 우선순위 규칙은 설계 선택으로 볼 수 있습니다. 근거는 있으나 해석의 여지가 있습니다. strictness=0.88에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1과 US-2015229268-A1의 결합은 에너지 흐름 시각화 장치/프로그램을 포괄하며, 시각화는 공지된 기술로 판단됩니다. 근거가 충분하여 거절 유지."
+        },
+        {
+          "basis": "allowable",
+          "claim_numbers": [
+            6,
+            7,
+            13,
+            14,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 6, 7, 13, 14, 19, 20은 에너지 흐름의 구체적인 시각적 표현을 정의하며, 선행기술에 의해 개시되지 않았습니다. 기술적 진보를 제공하며, 근거가 충분하여 허여."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 1,
+          "strength": "moderate",
+          "reasoning": "거절 근거는 선행기술의 결합으로 청구항 1의 '우선순위 할당 규칙'과 시각화 방법을 도출할 수 있다는 주장임. 그러나 선행기술은 '우선순위 할당 규칙'을 명시적으로 개시하지 않으며, 시각화 방법 또한 예측 가능한 설계 선택으로 보기 어려움. combination_threshold=0.68을 고려할 때, 결합 동기가 명확하지 않음. strictness=0.25에 따라 출원인의 기술적 기여를 긍정적으로 평가함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "moderate",
+          "reasoning": "거절 근거는 청구항 3의 에너지 흐름 값들이 선행기술에서 암시적으로 다루어진다는 주장임. 그러나 선행기술은 DER, 저장장치, 전력망, 부하 간의 모든 흐름 값을 명시적으로 개시하지 않으며, '우선순위 할당 규칙'에 따른 계산 및 시각화라는 통합적 기능을 제공하지 않음. strictness=0.25에 따라 출원인의 기술적 기여를 인정함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016164299-A1은 에너지 흐름의 측정 및 계산을 개시하나, 청구항 3, 10, 17의 구체적인 에너지 흐름 값 조합과 그 체계적 시각화 방법을 명시적으로 개시하지는 않음. 다만, 35 USC 102의 관대함(strictness=0.29)을 고려할 때, 선행기술의 암시적 교시가 존재하며, 이는 moderate 강도로 평가됨. 혁신 지원형 심사 철학에 따라, 출원인의 기술적 기여(에너지 흐름의 우선 순위 할당 규칙 기반 시각화)를 인정하여 거절 근거를 약화시킬 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016164299-A1은 에너지 흐름의 측정 및 계산을 개시하며, combination_threshold=0.72를 고려할 때, 통상의 기술자가 이를 결합하여 청구항 3, 10, 17의 에너지 흐름 값을 도출할 동기가 존재함. 그러나 에너지 흐름의 우선 순위 할당 규칙을 기반으로 한 체계적 시각화는 선행기술에서 발견되지 않으며, 이는 출원인의 기술적 기여로 평가됨. 따라서 근거 강도는 moderate이며, 혁신 지원형 심사 철학에 따라 거절을 유지하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1은 청구항 2, 8, 9, 10, 15, 16, 17의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.87 이상으로 높음. 신규성 결여는 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            6,
+            7,
+            11,
+            12,
+            13,
+            14,
+            18,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 조합을 통해 진보성 거부가 가능하나, 청구항 4, 5, 11, 12, 18의 우선순위 규칙은 선행기술에서 암시적 개시만 존재함. 청구항 6, 7, 13, 14, 19, 20의 시각화 기능은 공지된 기술의 적용으로 볼 수 있으나, 구체적인 디스플레이 이미지 구현은 설계 선택의 영역임. combination_threshold=0.45에 따라 결합 동기가 인정되나, strictness=0.89에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            8,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1이 청구항의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.92~0.95로 매우 높음. 신규성 결여 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            11,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016164299-A1과 US-2013297084-A1의 결합 동기가 인정되나, 우선 순위 규칙의 명시적 정의가 공지상식인지 여부에 다소 해석의 여지가 있음. 그러나 combination_threshold=0.51과 strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            13,
+            14,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012228933-A1과 US-2016164299-A1의 결합으로 에너지 흐름 시각화가 자명하다는 근거는 있으나, 구체적인 시각화 방법의 차별성이 명확하지 않음. 그러나 strictness=0.82에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "REF1 (US-2016164299-A1)은 에너지 흐름 측정, 계산, 제어 기능을 포괄하지만, 'display image' 생성이나 구체적인 에너지 흐름 경로 정의는 명시적으로 개시되지 않았습니다. 그러나 에너지 흐름 시각화의 필요성은 출원 배경에 명시되어 있으며, 통상의 기술자가 이를 결합할 동기가 있다고 판단됩니다. strictness=0.47에 따라 근거는 있으나 해석의 여지가 있으므로 moderate로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            6,
+            7,
+            11,
+            12,
+            13,
+            14,
+            18,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "REF1과 REF2 (US-2012228933-A1)의 결합은 우선순위 규칙이나 구체적인 시각화 기능을 명시적으로 개시하지 않습니다. 결합 동기는 추론에 의존하며, 통상의 기술자가 이를 설계 선택으로 구현할 명확한 동기가 부족합니다. strictness=0.47에 따라 근거가 약하므로 weak로 평가합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "REF1은 에너지 흐름 측정, 계산, 제어 기능을 포괄하지만, 'display image' 생성이나 구체적인 에너지 흐름 경로 정의는 암시적입니다. 신규성 판단 시 strictness=0.47에 따라 유사성이 높다고 판단되지만, 명확한 개시가 없으므로 moderate로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1이 청구항의 모든 구성요소를 명시적으로 또는 암시적으로 개시하고 있으며, confidence가 0.7 이상으로 높음. 신규성 거절 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016164299-A1과 US-2013297084-A1의 결합이 에너지 흐름 계산 및 시각화를 시사하지만, 구체적인 결합 동기가 다소 추상적임. combination_threshold=0.55를 고려할 때, 근거는 있으나 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            11,
+            12,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 에너지 우선 할당 규칙을 암시적으로 언급하고 있으나, 청구항의 구체적인 규칙은 공개되지 않음. 결합 동기가 논리적이지만, 통상의 기술자가 쉽게 도출할 수 있는지는 논란의 여지가 있음. confidence가 0.7로 보통 수준임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            6,
+            7,
+            13,
+            14,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 에너지 흐름 시각화의 구체적인 방법을 공개하지 않으며, 결합 동기가 불명확함. confidence가 0.75로 높지만, 통상의 기술자가 도출하기 어려운 수준임. 출원인의 방법이 해결되지 않은 기술적 필요성을 충족함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1이 청구항의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, 결합 동기가 명확합니다. confidence 값이 0.82 이상으로 높고, combination_threshold=0.22에 따라 진보성 거절이 타당합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016164299-A1과 US-2012228933-A1의 결합으로 청구항 1의 'energy priority allocation rules'에 기반한 계산 및 시각화 방법을 도출할 동기가 불분명합니다. 그러나 strictness=0.46에 따라, 공지상식으로 해석될 가능성을 배제할 수 없어 moderate로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016164299-A1이 청구항 1, 2, 3, 8, 9, 10, 15, 16, 17의 구성요소를 대부분 개시하고 있으나, 일부 구성요소는 암시적 개시에 의존하고 있습니다. strictness=0.50에 따라, 유사성이 인정되지만 명확한 '동일성'은 아니므로 moderate 강도로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016164299-A1, US-2012228933-A1, 및 US-2015229268-A1의 결합이 청구항 1, 2, 3, 8, 9, 10, 15, 16, 17의 구성요소를 커버하며, 결합 동기가 명확합니다. Graham factors 분석도 타당하여 strong 강도로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 9, and 10 are fully disclosed by US-2016164299-A1 (REF1), with high confidence (0.8-0.85). The anticipation is clear and supported by explicit disclosures in REF1. Claims 1, 8, 15, 16, and 17 are also anticipated by REF1, though with slightly lower confidence (0.65-0.75) due to implicit disclosures or minor gaps. However, the gaps are not significant enough to overcome the anticipation rejection under strictness=0.52."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For Claims 1, 2, 3, 8, 9, 10, 15, 16, and 17, the combination of REF1 and REF2 provides a logical motivation to combine, and the differences (e.g., visualization) are routine design choices for a PHOSITA. The confidence levels (0.7-0.85) are high, but the combination threshold (0.44) and pragmatist style allow for some flexibility. For Claims 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, and 20, the rejection is based on predictable extensions of the prior art, but the specific priority rules and visualization techniques introduce some novelty. The confidence levels (0.7-0.8) are moderate, and the strictness=0.52 suggests a balanced approach."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 9, and 16 are clearly anticipated by US-2016164299-A1 (REF1). The reference discloses all elements of these claims, and the confidence level for anticipation is high (0.85). No interpretation or combination is required, satisfying the strict standard for anticipation under 35 U.S.C. § 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 3, 8, 9, 10, 15, 16, and 17 are rejected under 35 U.S.C. § 103 based on REF1 alone or in combination with REF2. While REF1 discloses the core elements of energy flow measurement and calculation, the motivation to combine these with visualization techniques is plausible but not explicitly disclosed. The confidence levels (0.7-0.85) suggest moderate strength, but the combination threshold (0.52) and pragmatist style lean toward upholding the rejection for claims where visualization is not a novel aspect."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 8 and 15 involve 'energy flow visualization modules,' which are not explicitly disclosed in REF1 or REF2. While visualization of energy data is a known technique, the specific implementation in these claims lacks clear motivation to combine. The confidence level (0.7) is borderline, and the strictness level (0.42) suggests a tendency to favor the applicant in cases of ambiguity."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1은 청구항 2, 9, 16의 모든 구성요소를 명시적으로 개시하며, confidence가 0.85 이상으로 높습니다. 선행기술과의 대비가 명확하여 거절 근거가 강합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1은 청구항 3, 10, 17의 모든 에너지 흐름 값을 명시적으로 개시하며, confidence가 0.82 이상으로 높습니다. 선행기술과의 대비가 명확하여 거절 근거가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1과 US-2012228933-A1의 결합은 에너지 흐름 시각화의 동기를 제공하지만, 구체적인 우선순위 규칙이나 시각화 방법의 결합이 명확하지 않습니다. confidence가 0.75로 중간 수준이며, 결합 동기의 명확성이 다소 부족합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, 8, 9, 10, 15, 16, and 17 are rejected under 35 U.S.C. § 103 based on the combination of US-2016164299-A1 and US-2012228933-A1. The motivation to combine is clear, as visualization of energy flows is a natural extension of energy management systems for system optimization. The Graham factors confirm the obviousness, and no secondary considerations overcome the prima facie case. The confidence scores for these rejections are high (0.75-0.9), indicating strong evidence."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "While the initial analysis suggested anticipation under 35 U.S.C. § 102 for Claims 1, 2, 3, 8, 9, 10, 15, 16, and 17, the primary rejection basis shifted to § 103 obviousness. The § 102 rejections were based on US-2016164299-A1 alone, but the confidence scores (0.7-0.9) indicate that while the prior art is close, it may not explicitly disclose all elements. Given the strictness level (0.60), the § 102 rejections are considered moderate and are superseded by the stronger § 103 rejections."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, and 20 are deemed allowable under § 103. The reasoning for these claims is robust, with no prior art disclosing or suggesting the novel features (e.g., priority allocation rules, specific visualization methods). The confidence scores (0.75-0.85) support their non-obviousness, and this is considered a weak basis for rejection."
+        }
+      ]
+    }
+  ]
+}

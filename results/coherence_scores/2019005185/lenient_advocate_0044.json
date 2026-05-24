@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 rejections and uses element-by-element anticipation logic for §102 novelty findings, applying statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., poloxamer 407 20-30%, 64°F-85°F range), specific prior art claims (US-2013116210-A1 claims 22, 23, 26, 27), and specific API comparisons, providing evidence-linked reasoning at each stage."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 stage found claims 4 and 17 lack novelty (is_novel: false) with high confidence (0.90 and 0.95), but the §103 and office action stages reverse course and allow/find non-obvious these same claims without sufficiently new rationale — the obviousness reasoning for claim 4 actually contradicts the strong anticipation finding by invoking minor species-optimization arguments that were not raised at the novelty stage."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner profile shows low strictness (0.248) and a lenient_advocate archetype, which is consistently reflected in the trace: ambiguous concentration ranges are resolved in favor of the applicant, multiple claims receive 'grant' or 'amend_suggested' rather than outright rejection, and the final decision explicitly references the lenient strictness (0.25) as justification for favoring the applicant on moderate-strength rejections."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision logically follows from accumulated stage analyses: claims with specific undisclosed concentration ranges (8, 10, 12), multi-API combinations (22), and the temperature-range/method claims (17, 20) were identified as novel/non-obvious in earlier stages and are consistently allowed, while claims with clearly anticipated elements are rejected or sent for amendment."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005185",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 20156,
+      "output_tokens": 492,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

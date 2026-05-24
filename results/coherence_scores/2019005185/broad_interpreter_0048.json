@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR obviousness factors (scope and content, differences, PHOSITA level, secondary considerations) across all §103 rejections, with no misapplication of a different statute's framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection is tied to specific claim language (e.g., concentration ranges, named APIs) and specific disclosures in US-2013116210-A1 (e.g., claims 21, 22, 23, 26, 27 of the reference), satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty findings (largely finding no novelty) are consistent with the §103 obviousness findings, and where §102 confidence was lower (e.g., claims 4, 17, 20 on specific temperature ranges), the §103 stage appropriately introduces a narrower non-obvious finding before the final decision overrides those on the basis of the overall weight of evidence—this is explained rather than contradicted."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.475 (moderate/slightly lenient) and claim_breadth=0.79 (broad interpreter), the examiner applies BRI to extend §102 rejections even for claims with unlisted concentrations, yet appropriately notes uncertainty (confidence 0.5–0.6) for borderline claims and acknowledges some non-obviousness arguments for claims 4, 17, and 20, which is consistent with a moderately strict broad-interpreter profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated stage analyses: nearly all claims were found non-novel or obvious with stated Graham-factor reasoning, and the few claims given non-obvious consideration (4, 17, 20) are ultimately rejected with explicit explanation that the specific temperature ranges substantially overlap the prior art disclosure, making the final decision non-arbitrary."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005185",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14811,
+      "output_tokens": 469,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

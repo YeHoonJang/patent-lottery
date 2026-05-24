@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 rejections across both the obviousness stage and the office action, using the correct legal framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection references specific prior art (US-2012220818-A1 and/or US-2013303835-A1) with element-by-element comparisons to specific claim language, such as 'two separate portions,' 'alternating manner,' hydraulic displacement amplification, and dual fluid chambers."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The obviousness stage findings consistently carry through to the office action and final decision — claims found obvious in §103 analysis are rejected in the office action, and claims found non-obvious (e.g., 3, 13, 15, 17–21, 23–30) are given 'amend_suggested' status in the final decision without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.517 (moderate/neutral), the examiner appropriately resolves ambiguous claims toward amendment rather than outright rejection or allowance, and the final decision explicitly ties the 'amend_suggested' outcomes to the neutral strictness profile, reflecting dimension-consistent reasoning."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision's 'amend_suggested' outcome follows logically from the accumulated stage analyses, which found some claims clearly obvious (rejected) and others lacking explicit or implicit prior art disclosure (amendment suggested), with the summary explicitly reconciling the office action's broad rejections against the identified gaps in the prior art."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000038",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 20183,
+      "output_tokens": 406,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

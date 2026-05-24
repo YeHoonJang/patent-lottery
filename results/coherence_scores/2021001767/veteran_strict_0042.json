@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly applies Graham factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) across all claims, and the §102 stage uses element-by-element comparison against the prior art reference, both consistent with the correct statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language (e.g., 'inference store,' 'user consent data,' 'native/non-native module') and to specific disclosures in US-2018288616-A1 (Abstract, Claim 1, BACKGROUND section)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 stage finds all 20 claims novel with moderate-to-high confidence, and the §103 stage likewise finds all claims non-obvious, yet the office action and final decision reject claims 1 and 3 (and dependents) under §103 without introducing new prior art or substantially new reasoning that wasn't already weighed against at the §103 stage, creating an unexplained reversal."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.793 and low combination_threshold of 0.335 are reflected in the final decision rejecting claims despite moderate obviousness strength (0.38 decision score), resolving ambiguity toward rejection as expected of a strict examiner with an easy-combiner disposition."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of claims 1 and 3 (and dependents) follows from the office action's §103 reasoning, which in turn builds on the prior art comparison conducted throughout, and the summary explicitly acknowledges the moderate strength of the rejection rationale rather than reversing prior findings without explanation."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001767",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15350,
+      "output_tokens": 424,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

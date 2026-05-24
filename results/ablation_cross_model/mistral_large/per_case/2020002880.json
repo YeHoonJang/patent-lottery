@@ -1,0 +1,647 @@
+{
+  "case_id": "2020002880",
+  "proceeding_number": "2020002880",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 1.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1과의 유사성 점수(0.5-0.6)는 신규성 부정에 대한 근거로 제시되었으나, 청구항의 전체 구성요소를 완전히 충족하지는 않음. 특히 청구항 4의 '태스크 기반 미래 멀티미디어 데이터 요청'과 청구항 5의 '기준(위치, 시간 등)'은 선행기술의 '미래 이벤트 알림' 및 '시간/위치 파싱'과 유사하지만, 태스크 기반 멀티미디어 데이터 관리의 구체적 맥락에서는 차별성이 존재함. 그러나 strictness=0.79에 따라 유사성이 있으면 거절을 유지하는 성향이므로, 신규성 거절을 유지하되, 진보성 거절과 중복되는 점을 고려하여 우선순위를 진보성 거절에 둠."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013226453-A1은 '미래 이벤트 알림', '시간/위치 파싱', '위치 기반 정보 제공' 기능을 개시하며, 이는 청구항 4, 5, 10의 핵심 요소와 직접적으로 대응됨. 결합 동기(combination_threshold=0.34)는 낮아 쉽게 obvious 판단이 가능하며, 통상의 기술자가 설계 선택으로 이를 확장할 수 있음. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            6,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "명세서가 '제출 가격 정보', '서비스 가격 정보', '지불 수령' 기능에 대한 충분한 설명을 제공하지 않음. 그러나 청구항 자체는 명확하게 정의되어 있으며, 명세서의 보완을 통해 해결 가능함. strictness=0.79에 따라 보정이 필요한 사유로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013226453-A1은 태스크 기반 데이터 관리 시스템을 개시하며, 멀티미디어 데이터 요청 및 관리는 모바일 기기의 공지된 기능과 결합 시 자명합니다. 청구항 1, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15의 구성요소는 선행기술의 자연스러운 확장 또는 설계 선택으로 판단되며, 결합 동기가 명확합니다. confidence 값도 0.8 이상으로 높습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술과의 중첩이 있으나, 청구항의 일부 요소(예: 'criteria'의 구체성)는 선행기술에 명시되지 않았습니다. 그러나 BRI 해석 하에 유사성이 인정되며, 103 근거가 더 강력하므로 102 근거는 보조적입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            6,
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 2, 3, 6, 7은 선행기술에 명시되지 않은 새로운 기능을 포함하며, 특히 금전적 거래 요소(6, 7)는 위치 공유 시스템과 무관합니다. 결합 동기가 부족하여 103 근거가 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013226453-A1이 청구항 11의 '디지털 정지 이미지 및 비디오 스트림'을 명시적으로 개시하고 있어 신규성 결여 근거가 명확함. 증거가 직접적이고 구체적임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 멀티미디어 데이터 유형을 개시하고 있으나, 태스크 기반 시스템에 적용하는 구체적 동기가 명확하지 않음. 통상의 기술자가 자연스럽게 결합할 수 있다는 주장은 타당하지만, 혁신 지원형 심사 철학에 따라 출원인의 기술적 기여를 고려할 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 11의 '디지털 정지 이미지' 및 '비디오 스트림'은 선행기술 US-2013226453-A1에서 명시적으로 개시되어 있으나, 이는 태스크 기반 멀티미디어 데이터 시스템의 맥락에서 사용되는 것이 아니며, 통상의 기술자가 쉽게 도출할 수 있는 요소로 보임. 그러나 결합 동기(motivation to combine)가 명확하지 않으며, 발명의 목적과 기술적 기여를 고려할 때 근거의 강도는 moderate 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "The term 'only some' lacks clarity and is not sufficiently defined in the specification. The ambiguity in the selection criteria for 'some' multimedia data is a clear violation of 35 U.S.C. § 112(b), justifying a strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "The term 'future multimedia data' is ambiguous, but the specification could potentially be amended to clarify its meaning. Given the strictness level (0.89), this is treated as a moderate rejection with a leaning toward rejection unless clarified."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_number": 6,
+          "strength": "strong",
+          "reasoning": "The terms 'submission price information' and 'service price information' are undefined in the specification, rendering the claim indefinite. This is a clear violation of 35 U.S.C. § 112(b), justifying a strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_number": 7,
+          "strength": "strong",
+          "reasoning": "The lack of detail on the payment distribution mechanism among the first user, second user, and operator renders the claim indefinite. This is a clear violation of 35 U.S.C. § 112(b), justifying a strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "The terms 'metadata' and 'successful comparison' are not sufficiently defined, leading to ambiguity. This is a clear violation of 35 U.S.C. § 112(b), justifying a strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_number": 10,
+          "strength": "moderate",
+          "reasoning": "The terms 'geographical location' and 'provisioning' lack clarity, but the specification could be amended to define these terms. Given the strictness level (0.89), this is treated as a moderate rejection with a leaning toward rejection unless clarified."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_number": 12,
+          "strength": "moderate",
+          "reasoning": "The term 'metadata elements' is undefined, but the specification could be amended to clarify its meaning. Given the strictness level (0.89), this is treated as a moderate rejection with a leaning toward rejection unless clarified."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1은 미래 시점의 알림 및 이벤트 생성 메커니즘을 개시하고 있으나, 청구항 4의 'request from the third user for future multimedia data'와 정확히 일치하지는 않음. 유사성은 있으나, 태스크 기반 멀티미디어 데이터 요청이라는 맥락에서의 차이점이 존재함. strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013226453-A1은 미래 시점의 알림 및 이벤트 생성 메커니즘을 명시적으로 개시하고 있으며, 통상의 기술자가 이를 태스크 기반 멀티미디어 데이터 요청 시스템에 적용할 동기를 가짐. 결합의 동기가 명확하고, 차이점은 미미하여 진보성 부족 판단 근거가 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "formality_claim_order",
+          "strength": "moderate",
+          "reasoning": "청구항의 논리적 순서 재배열은 형식적 요건으로, 출원인의 보정을 통해 쉽게 해결 가능. 그러나 USPTO 규정 준수를 위해 필요한 사항임."
+        },
+        {
+          "basis": "formality_specification_clarity",
+          "strength": "weak",
+          "reasoning": "명세서의 추가 설명은 enablement나 written description 요건을 강화하는 데 도움이 되지만, 현재 명세서로도 충분한 지원 제공. 엄격한 거절 근거로는 부족함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1의 '미래 시간 약속 알림 생성'과 청구항 4의 '미래 멀티미디어 데이터 요청'은 기능적 유사성이 있으나, 실질적인 기술적 차이는 존재함. 결합 동기는 논리적이지만, 통상의 기술자가 자연스럽게 확장할 수 있는지는 해석의 여지가 있음. confidence(0.65)와 strictness(0.55)를 고려하여 moderate로 평가."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1의 '시간 및 위치 정보 파싱'과 청구항 5의 '기준(시간, 위치, 제출 시간 등)'은 유사성이 있으나, 멀티미디어 데이터 요청의 구체적인 기준으로 확장하는 것은 명확하지 않음. confidence(0.6)와 strictness(0.55)를 고려하여 moderate로 평가."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 1의 참조 대상 누락은 형식적 결함으로, 명세서의 기재 요건을 충족하지 못함. 그러나 기술적 내용 자체는 문제되지 않으며, 보정으로 해결 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1은 위치 공유 및 메시지 플랫폼 통합을 다루지만, 태스크 기반 멀티미디어 데이터 요청 시스템의 핵심 요소('task information' 정의, 'criteria' 기반 유지 등)를 명시적으로 개시하지 않음. 결합 동기 점수(0.22) 기준을 충족하지 않으나, PHOSITA의 관점에서 태스크 기반 시스템으로의 확장이 논리적이라는 주장은 일정 부분 타당함. 그러나 신규성 판단에서 높은 confidence(0.85)로 신규성을 인정받은 점과 진보성 판단에서 결합 동기가 부족하다는 점은 고려해야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 메시지 분석 및 알림 생성에 중점을 두며, '모든', '일부', '미래' 멀티미디어 데이터 요청의 구체적인 범위와 태스크 정보와의 연계를 명시하지 않음. PHOSITA의 관점에서 이러한 변형은 논리적이지만, 진보성 판단에서 결합 동기가 부족하다는 점과 신규성 판단에서의 높은 confidence(0.75-0.8)는 고려해야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 위치/시간 정보 파싱을 다루지만, 태스크 기반 멀티미디어 데이터 요청을 위한 구체적인 기준 체계(주제, 위치, 제출 시간 등)를 명시하지 않음. PHOSITA의 관점에서 기준 체계의 추가가 논리적이지만, 진보성 판단에서 결합 동기가 부족하다는 점과 신규성 판단에서의 confidence(0.7)는 고려해야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 경제적 거래와 관련된 기준을 전혀 다루지 않으며, '제출 가격 정보' 및 '결제 수신' 프로세스는 통상의 기술자가 쉽게 도출할 수 없음. 진보성 판단에서 높은 confidence(0.95-0.98)로 비자명성을 인정받은 점은 유효함. 결합 동기 점수(0.22) 기준을 충족하지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 위치 정보 파싱을 다루지만, 멀티미디어 데이터의 메타데이터 검증 및 기준 기반 유지 프로세스를 명시하지 않음. PHOSITA의 관점에서 메타데이터 검증이 논리적이지만, 진보성 판단에서 결합 동기가 부족하다는 점과 신규성 판단에서의 confidence(0.8)는 고려해야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 메시지 플랫폼 통합을 다루지만, 태스크 기반 멀티미디어 데이터 요청 및 제공을 위한 클라이언트-서버 애플리케이션 연계 프로세스를 명시하지 않음. PHOSITA의 관점에서 클라이언트-서버 연계가 논리적이지만, 진보성 판단에서 결합 동기가 부족하다는 점과 신규성 판단에서의 confidence(0.75)는 고려해야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 위치 정보 파싱 및 지도 표시를 다루지만, 태스크 정보와 연계된 지리적 위치 기반 멀티미디어 데이터 제공 프로세스를 명시하지 않음. PHOSITA의 관점에서 지리적 위치 기반 프로세스가 논리적이지만, 진보성 판단에서 결합 동기가 부족하다는 점과 신규성 판단에서의 confidence(0.82)는 고려해야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 멀티미디어 데이터의 구체적인 유형(디지털 정지 이미지, 비디오 스트림)을 다루지 않으며, 이러한 유형은 통상의 기술자가 쉽게 도출할 수 없음. 진보성 판단에서 높은 confidence(0.95)로 비자명성을 인정받은 점은 유효함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 메시지 플랫폼 통합을 다루지만, 태스크 기반 멀티미디어 데이터 요청 및 제공을 위한 클라이언트-서버 애플리케이션 연계 및 메타데이터 캡처 프로세스를 명시하지 않음. PHOSITA의 관점에서 클라이언트-서버 연계 및 메타데이터 캡처가 논리적이지만, 진보성 판단에서 결합 동기가 부족하다는 점과 신규성 판단에서의 confidence(0.78)는 고려해야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 메시지 플랫폼 통합을 다루지만, 태스크 기반 멀티미디어 데이터 요청, 캡처, 제공 및 거래 프로세스를 위한 서버 장치, 컴퓨터 프로그램, 시스템의 구체적인 구성 및 기능을 명시하지 않음. PHOSITA의 관점에서 이러한 확장이 논리적이지만, 진보성 판단에서 결합 동기가 부족하다는 점과 신규성 판단에서의 confidence(0.7-0.78)는 고려해야 함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the combination of US-2013226453-A1 and conventional multimedia data handling techniques. While US-2013226453-A1 discloses location-sharing and notification features, it does not explicitly disclose a task-based multimedia data request and distribution system. The motivation to combine is plausible but not overwhelmingly strong, as the prior art lacks direct teaching of task-based multimedia data handling. The rejection leans on the assumption that a person of ordinary skill in the art would find it obvious to combine these features, but the evidence is not definitive. Given the strictness level of 0.50, this rejection is borderline and may warrant further consideration or amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013226453-A1과의 대비 결과, 모든 청구항이 신규성 요건을 충족하는 것으로 평가되었으나, 선행기술의 abstract 및 일부 기술적 맥락과의 유사성으로 인해 추후 추가 선행기술 발견 시 재검토 필요성이 있음. 현재 단계에서는 근거 부족으로 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 및 결합 동기 분석 결과, 모든 청구항이 진보성 요건을 충족하는 것으로 평가되었으나, combination_threshold(0.44)가 낮아 추후 유사한 선행기술 조합 시 obviousness 판단 가능성 있음. 현재 단계에서는 근거 부족으로 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 5, 6의 'comprising at least one of the following' 표현은 모호성을 유발할 수 있으나, 명세서의 뒷받침이 명확하여 112 위반으로 보기 어려움. 다만, 출원인의 보정을 통해 명확성을 높일 필요가 있음."
+        },
+        {
+          "basis": "formality",
+          "strength": "strong",
+          "reasoning": "청구항 2, 3, 4의 종속항 형식 미준수 및 청구항 5, 6의 모호한 표현은 형식적 요건 위반으로 명확히 거절 근거가 됨. 보정 필요."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 기술적 특징을 포함하며, abstract idea에 해당하지 않음. 근거 부족으로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013226453-A1은 위치 공유 및 메시지 플랫폼 통합을 다루지만, 태스크 기반 멀티미디어 데이터 요청, 수집, 유지 및 배포의 체계적인 메커니즘을 명시적으로 개시하지 않음. 결합 동기는 위치/시간 기반 프롬프트와 태스크 기반 시스템의 연관성에 의존하나, 이는 추론에 가까우며 명확한 근거가 부족함. 청구항 1의 핵심 요소(태스크 정의, 기준 기반 유지, 멀티미디어 데이터 제공)는 선행기술에서 직접적으로 다루어지지 않음. strictness=0.42에 따라, 근거가 약하여 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 데이터 요청의 범위(모든 데이터, 일부 데이터, 미래 데이터)를 세분화하는 기능을 제공하지 않음. 이러한 기능은 사용자 유연성을 높이는 일반적인 확장으로 보일 수 있으나, 선행기술에서 명시적 동기가 부족함. 통상의 기술자가 위치 공유 시스템을 확장하여 이러한 기능을 추가할 근거가 명확하지 않음. strictness=0.42에 따라, 근거가 약하여 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 위치 및 시간 정보를 추출하지만, 태스크 기준을 포괄적으로 정의하는 메커니즘(주제, 소유권, 가격 정보 포함)은 제공하지 않음. 가격 정보 통합은 새로운 비즈니스 모델을 가능하게 하지만, 선행기술에서 명확한 결합 동기가 부족함. strictness=0.42에 따라, 근거가 약하여 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "지불 처리 기능은 디지털 플랫폼에서 일반적인 비즈니스 관행이지만, 태스크 기반 멀티미디어 플랫폼에 통합하는 구체적인 메커니즘은 선행기술에서 명시되지 않음. 결합 동기가 명확하지 않으며, 추측에 기반한 거절임. strictness=0.42에 따라, 근거가 매우 약하여 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 위치 정보를 추출하지만, 태스크 기준과 비교하여 멀티미디어 데이터를 유지하는 메커니즘은 명시되지 않음. 이는 데이터 정확성을 높이는 일반적인 최적화로 보일 수 있으나, 선행기술에서 명확한 동기가 부족함. strictness=0.42에 따라, 근거가 약하여 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "클라이언트-서버 아키텍처와 지리적 위치 기반 태스크 제공은 분산 컴퓨팅에서 일반적인 관행이지만, 태스크 정의, 멀티미디어 캡처, 데이터 유지 및 요청 처리를 위한 구체적인 분산 역할 구조는 선행기술에서 명시되지 않음. 결합 동기가 부족함. strictness=0.42에 따라, 근거가 약하여 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "weak",
+          "reasoning": "멀티미디어 데이터 유형을 디지털 정지 이미지 및 비디오 스트림으로 제한하는 것은 일반적인 관행이지만, 선행기술에서 명시적 근거가 없음. 추측에 기반한 거절임. strictness=0.42에 따라, 근거가 매우 약하여 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "메타데이터 캡처는 데이터 정확성을 높이는 일반적인 최적화이지만, 클라이언트-서버 구조에서 태스크 기반 멀티미디어 데이터 요청 및 유지 메커니즘과 결합할 명시적 동기가 부족함. strictness=0.42에 따라, 근거가 약하여 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "서버 장치의 하드웨어/소프트웨어 구성 및 시스템 아키텍처는 일반적인 구현이지만, 태스크 기반 멀티미디어 데이터 요청 및 유지 메커니즘을 위한 구체적인 구성은 선행기술에서 명시되지 않음. 결합 동기가 부족함. strictness=0.42에 따라, 근거가 약하여 출원인에게 유리하게 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013226453-A1에서 멀티미디어 데이터 유형('디지털 정지 이미지' 및 '비디오 스트림')이 공지되어 있으며, 해당 분야의 통상의 기술자가 이를 태스크 기반 시스템에 자연스럽게 적용하는 것은 자명함. 결합 동기가 명확하고, 진보성 판단 기준(combination_threshold=0.48)을 초과함. 근거 강도가 충분하여 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            2,
+            3,
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 2, 3, 4는 독립항 형식으로 기재되었으나 실질적으로 청구항 1에 종속됨. 종속항 형식으로 수정되지 않으면 모호성 발생 가능. 그러나 명세서에서 충분히 뒷받침되어 있어 근거 강도는 중간 수준임. strictness=0.52에 따라 보정 권고."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013226453-A1은 위치 및 시간 기준 분석을 개시하지만, '주제'나 '사용자 식별'과 같은 추가 기준을 명시적으로 공개하지는 않음. 그러나 통상의 기술자가 위치/시간 기준을 다른 관련 요소로 확장하는 것은 예측 가능한 설계 선택으로 볼 수 있어, 근거의 강도는 moderate임. strictness=0.60을 고려할 때, 거절 유지 여부는 경계선에 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1은 '디지털 정지 이미지 및 비디오 스트림'을 명시적으로 개시하며, 이는 통상의 기술자가 태스크 기반 시스템에 쉽게 통합할 수 있는 표준 멀티미디어 데이터 유형임. 결합 동기가 명확하고, 근거의 강도는 strong임."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5,
+            11
+          ],
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 102 근거는 confidence가 낮거나(claim 5: 0.85) 선행기술의 구체적인 공개가 불분명함(claim 11: 0.95). '유사성'과 '동일성'을 구분해야 하며, 102 근거로는 부족함. 103으로 전환하여 평가하는 것이 적절함."
+        }
+      ]
+    }
+  ]
+}

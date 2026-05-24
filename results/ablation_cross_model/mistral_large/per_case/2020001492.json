@@ -1,0 +1,742 @@
+{
+  "case_id": "2020001492",
+  "proceeding_number": "2020001492",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            15,
+            16,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015243325-A1은 청구항의 핵심 구성요소(비디오 수신, 관련성 점수 분석, 수정, 재생)를 명시적으로 공개하며, 청구항의 용어와 실질적으로 동일하거나 자명한 변형으로 해석됨. 근거의 confidence가 0.8 이상으로 높으며, 선행기술과의 중첩이 명확함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            11,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011217019-A1은 비디오와 오디오 동기화를 공개하지만, 청구항의 'analyzing at least one audio track' 요소를 명시적으로 다루지 않음. 그러나 동기화 자체는 명확히 공개되어 있으며, 오디오 분석은 통상의 기술자가 쉽게 도출할 수 있는 설계 선택으로 보임. confidence가 0.7로 다소 낮지만, strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            11,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015243325-A1과 US-2011217019-A1의 결합은 통상의 기술자에게 명백한 동기를 제공함. 비디오 분석/수정 기술과 오디오 동기화 기술의 결합은 해당 분야에서 공지된 기술의 단순한 조합으로 보이며, combination_threshold=0.34 이하임. confidence가 0.75 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            6,
+            9,
+            10,
+            12,
+            13,
+            14,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 특정 구성요소(예: 프레임 레이트 차이, 이미지 유사성 측정, 'photo story')를 명시적으로 공개하지 않지만, 해당 기술들은 해당 분야에서 공지된 기술로 볼 수 있음. 그러나 청구항의 구체적인 조합이나 정의가 통상의 기술자에게 자명하지 않을 수 있음. confidence가 0.8~0.95로 높지만, strictness=0.79에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            11,
+            15,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1과 US-2011217019-A1의 결합이 청구항의 모든 구성요소를 개시하거나 공지기술로 인정됨. 결합 동기가 명확하고, Graham 요소가 충족됨. confidence 0.85 이상으로 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            6,
+            9,
+            10,
+            12,
+            13,
+            14,
+            16,
+            17,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술에 명시적 개시가 없지만, 공지기술로 해석될 수 있는 구성요소 포함 (예: 'playback frame rate', 'measuring image similarity'). 그러나 결합 동기가 명확하지 않거나 통상의 기술자의 설계 선택으로 보기 어려움. confidence 0.85 이상이지만, strictness=0.88에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            7,
+            8,
+            11,
+            15,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합으로 청구항의 구성요소를 충족할 수 있으나, 'playback parameter'와 'image quality metric' 등의 구성요소가 선행기술에서 명시적으로 개시되지 않았으며, 결합 동기가 명확하지 않은 부분이 있음. strictness=0.25에 따라 출원인에게 유리하게 판단할 여지가 있음."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            7,
+            8,
+            11,
+            15,
+            18,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 구성요소를 대부분 개시하나, 'playback frame rate', 'image content analysis', 'photo story' 등 일부 구성요소는 명시적으로 개시되지 않았음. strictness=0.25에 따라 신규성 인정 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 1,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011217019-A1과 US-2015243325-A1의 조합은 청구항 1의 구성요소를 부분적으로 개시하지만, 'playback parameter'를 동적으로 결정하고 이를 기반으로 이미지 세트를 수정하는 구체적인 단계는 명시되지 않았음. 결합 동기(motivation to combine)는 논리적이지만, 청구항 1의 기술적 기여(속성 분석 + 재생 매개변수 결정 + 동적 수정)를 완전히 충족하지 않음. 혁신 지원형 심사 철학에 따라, 출원인의 기술적 기여가 인정되며 근거 강도는 moderate로 평가됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "moderate",
+          "reasoning": "선행기술은 'relevance score' 기반의 분석을 개시하지만, 'image quality metric' 결정 및 이를 기반으로 한 비디오 수정이라는 구체적인 구성은 명시되지 않았음. 결합 동기는 논리적이지만, 청구항 8의 기술적 기여(이미지 품질 메트릭 분석 및 동적 수정)를 완전히 충족하지 않음. 혁신 지원형 심사 철학에 따라, 출원인의 기술적 기여가 인정되며 근거 강도는 moderate로 평가됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 15,
+          "strength": "weak",
+          "reasoning": "장치 구성요소(processor, storage memories)는 공지된 기술이지만, 청구항 1의 구체적인 방법(속성 분석 + 재생 매개변수 결정 + 동적 수정)을 수행하는 장치라는 구성은 선행기술에서 명시되지 않았음. 결합 동기는 불분명하며, 출원인의 기술적 기여가 인정됨. 근거 강도는 weak로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            11,
+            15,
+            16,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1 및 US-2011217019-A1의 구체적인 공개 내용이 청구항의 구성요소와 직접적으로 대응됩니다. 근거 제시 원칙에 따라 명확한 증거가 존재하며, confidence 값이 0.85 이상으로 높습니다. 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 결합 동기가 명확하며, Graham 4요소 분석에 따라 통상의 기술자가 쉽게 도출할 수 있는 수준입니다. combination_threshold(0.45)를 초과하는 유사성 점수와 결합 동기가 존재하며, confidence 값이 0.65 이상입니다. 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            9,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 9의 특정 이미지 품질 지표('global domain metric' 등)와 청구항 13의 'photo story' 구성 요소에 대한 명세서의 서면 설명이 불충분합니다. 그러나 이는 보정을 통해 극복 가능한 수준으로 보입니다. strictness(0.89)에 따라 거절 유지하되, 보정 가능성을 언급."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            11,
+            15,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011217019-A1과 US-2015243325-A1의 결합이 청구항의 모든 구성요소를 개시하거나 자명하게 도출 가능하며, 결합 동기가 명확함. confidence가 0.8 이상으로 높고, 통상의 기술자가 쉽게 도출할 수 있는 수준임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            6,
+            9,
+            10,
+            12,
+            13,
+            14,
+            16,
+            17,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술에서 명시적으로 개시되지 않은 구성요소가 있으나, 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 수준임. 예를 들어, 'playback frame rate 조정'이나 '이미지 유사도 측정'은 비디오 처리 분야에서 공지된 기술로 볼 수 있으나, 명시적 근거가 부족하여 moderate로 평가함. strictness=0.82에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            11,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1과 US-2011217019-A1의 결합이 청구항의 모든 구성요소를 공개하고 있으며, 결합 동기가 명확합니다. 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 기술적 수단으로 판단됩니다. confidence 수준이 0.8 이상으로 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "재생 프레임 레이트 조정은 비디오 처리 분야에서 공지된 기술적 수단이지만, 명시적인 선행기술 공개가 부족합니다. 그러나 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 수준으로 판단됩니다. confidence 수준이 0.75-0.8로 보통입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "이미지 유사성 측정은 이미지 처리 분야에서 공지된 기술적 수단이지만, 명시적인 선행기술 공개가 부족합니다. 그러나 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 수준으로 판단됩니다. confidence 수준이 0.8로 보통입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "이미지 품질 메트릭 및 중복 이미지 제거는 공지된 기술적 수단이지만, 구체적인 메트릭(글로벌 도메인, 특징점 등)이 명시적으로 공개되지 않았습니다. 그러나 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 수준으로 판단됩니다. confidence 수준이 0.8로 보통입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12,
+            13,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "포토 스토리를 통한 동기화 및 구성은 멀티미디어 프레젠테이션 분야에서 공지된 기술적 수단이지만, 명시적인 선행기술 공개가 부족합니다. 그러나 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 수준으로 판단됩니다. confidence 수준이 0.75로 보통입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            5,
+            7,
+            8,
+            11,
+            15,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2015243325-A1 and US-2011217019-A1 provides a logical motivation to combine for a PHOSITA, but the claims involve some interpretive flexibility under BRI (breadth=0.86). The confidence levels (0.7-0.8) suggest moderate strength, but not overwhelming evidence. Given strictness=0.55, the rejection is maintained but with room for applicant argument or amendment."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            5,
+            7,
+            8,
+            11,
+            15,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "While the prior art discloses similar elements, the claims involve some differences (e.g., 'playback parameter,' 'image quality metric') that are not explicitly disclosed. Under BRI, these differences may not be sufficient for novelty, but the evidence is not definitive. Given strictness=0.55, this basis is weaker than 103_obviousness and less likely to sustain a rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The objections to 'global domain metric,' 'intermediate domain metric,' 'feature point metric,' 'geometry metric,' and 'photo story' are valid but addressable through amendment. The terms are understood in the field but could benefit from clearer definitions in the specification. This is a moderate issue that does not warrant rejection if corrected."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 7, 15, and 18 are anticipated by US-2015243325-A1 with high confidence (0.85-0.95). The reference explicitly discloses all limitations of these claims, including receiving videos, analyzing frames, modifying content, and playback. No interpretation or combination is required, making this a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 7, 15, and 18 are rejected under 103 over US-2015243325-A1 alone or in combination with US-2011217019-A1. While the combination of references is plausible (combination_threshold=0.22), the motivation to combine relies on general knowledge in the field. The rejection is moderate because the references do not explicitly teach all limitations, leaving room for argument."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Objections under 37 C.F.R. § 1.71 and § 1.83 are raised due to insufficient detail in the specification and drawings. While the objections are valid, they are procedural and can be addressed through amendments. The strength is moderate because the issues do not directly invalidate the claims but require clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            15,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015243325-A1과 US-2011217019-A1의 결합은 청구항의 핵심 구성요소를 개시하지만, 'playback parameter' 결정과 같은 일부 요소는 설계 선택의 범주로 볼 수 있어 해석의 여지가 있음. 통상의 기술자가 쉽게 도달할 수 있는 수준인지에 대한 판단이 필요함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011217019-A1은 오디오 트랙과 동기화된 재생을 개시하지만, 'analyzing an audio track to determine properties'와 같은 추가 요소는 통상의 기술자에게 자명하지 않을 수 있음. 설계 선택의 범주인지에 대한 판단이 필요함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            6,
+            9,
+            10,
+            12,
+            13,
+            14,
+            16,
+            17,
+            19
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 명시적으로 개시되지 않은 구성요소들이 포함되어 있으며, 결합 동기가 명확하지 않음. 'routine design choice'로 간주하기에는 증거가 부족하거나 추측에 의존함. 특히 'photo story', 'image similarity measurement', 'movement detection' 등은 공지기술이지만 청구항과 동일한 방식으로 적용되었는지 불분명함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            15,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1이 청구항 1, 2, 5, 7, 8, 15, 18의 모든 구성요소를 명시적으로 또는 묵시적으로 개시하고 있음. 증거가 명확하여 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            15,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1이 핵심 구성요소를 개시하고 있으며, 차이점은 통상의 기술자가 쉽게 도출할 수 있는 설계 선택 또는 최적화로 판단됨. 결합 동기가 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            16,
+            17,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015243325-A1과 US-2011217019-A1의 결합을 통해 청구항의 추가 제한사항을 충족할 수 있으나, 구체적인 기술적 특징(예: 재생 프레임 레이트 조정, 이미지 유사성 측정, 오디오 동기화 등)에 대한 명시적 개시가 부족함. 결합 동기가 논리적이지만, 통상의 기술자가 쉽게 도출할 수 있는지는 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            15,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015243325-A1과 US-2011217019-A1의 결합이 청구항의 모든 구성요소를 개시하거나 자명하게 도출 가능하며, 결합 동기가 명확함. confidence가 0.85 이상으로 높고, PHOSITA의 지식 기반으로 판단이 타당함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            6,
+            9,
+            10,
+            12,
+            13,
+            14,
+            16,
+            17,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술에서 명시적으로 개시되지 않은 구성요소가 있으나, PHOSITA의 지식 기반으로 자명하게 도출 가능하다고 판단됨. 그러나 일부 구성요소(예: 'photo story' 동기화, 구체적인 이미지 품질 메트릭)는 통상의 기술자가 쉽게 도출하기 어려운 측면이 있음. confidence가 0.7~0.95로 다양하며, strictness=0.42에 따라 보정 가능성 고려."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            11,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합으로 청구항의 모든 구성요소를 개시한다고 판단되나, 'image quality metric'이나 'audio track 분석'과 같은 구체적인 기술적 특징은 명시적으로 개시되지 않음. confidence가 0.8로 높지만, strictness=0.42에 따라 보정 가능성 고려."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            10,
+            11,
+            15,
+            17,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011217019-A1과 US-2015243325-A1의 결합이 청구항의 모든 구성요소를 충족하며, 결합 동기가 명확하고 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 수준입니다. confidence 값도 0.75 이상으로 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            6,
+            9,
+            12,
+            13,
+            14,
+            16,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술에서 명시적으로 개시되지 않은 구성요소가 포함되어 있으나, 해당 분야의 통상의 기술자가 공지기술이나 설계 선택으로 쉽게 도출할 수 있는 수준입니다. 그러나 결합 동기의 명확성이 다소 부족하며, confidence 값이 0.7-0.9 사이로 중간 수준입니다. strictness=0.52에 따라, 증거의 강도가 충분하지 않으므로 보정 또는 추가 설명을 요구할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "101",
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 5, 6, 7, 8, 10, 11, 15, 16, 17, 18, and 20 are supported by clear evidence from US-2015243325-A1 and US-2011217019-A1. The combination of these references provides a logical motivation to combine, and the differences are insubstantial. The confidence levels for these rejections are high (0.75-0.95), and the Graham factors analysis supports the obviousness determination. Given strictness=0.60, this rejection is maintained."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "moderate",
+          "reasoning": "Claims 12, 13, and 19 are directed to abstract ideas under the Alice/Mayo framework. While the claims lack additional elements that transform the abstract idea into a patent-eligible application, the analysis is somewhat subjective. However, the claims do not recite a specific inventive concept beyond generic computer implementation. Given strictness=0.60, this rejection is maintained, but there is room for argument with additional evidence or amendments."
+        },
+        {
+          "basis": "112_compliance",
+          "strength": "moderate",
+          "reasoning": "The objections to the title and abstract are procedural and based on regulatory compliance (37 C.F.R. § 1.72). These are not substantive rejections but require amendments. Given strictness=0.60, these objections are noted but do not impact the patentability of the claims."
+        }
+      ]
+    }
+  ]
+}

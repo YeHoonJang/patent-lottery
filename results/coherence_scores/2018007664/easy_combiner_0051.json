@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) across all claims, and §102 and §103 are invoked under their respective correct frameworks throughout the trace."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'deps' track reference type, 3VC Depth Resolution box, SEI messages) and specific prior art disclosures from US-2013235152-A1 (inter-view prediction order, VRA pictures, processor/memory apparatus)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage is consistent with the §102 novelty findings — claims found novel at §102 (5, 6, 7, 12, 13) are also found non-obvious at §103, and claims found lacking novelty at §102 are found obvious at §103, with no unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a low combination_threshold (0.329) and moderate strictness (0.502), and the trace reflects easy combination reasoning — single-reference obviousness rejections are accepted with minimal motivation (e.g., 'design choice,' 'general knowledge of ISOBMFF'), consistent with an easy-combiner profile; allowances on claims 5–7 and 12–13 reflect moderate strictness rather than either extreme."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision (amend_suggested, rejecting claims 1–4, 8–11, 14–15 and allowing claims 5, 6, 7, 12, 13) directly follows from the accumulated §102/§103 stage analyses without contradiction or unexplained reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018007664",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12254,
+      "output_tokens": 443,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

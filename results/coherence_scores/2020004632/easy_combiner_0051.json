@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 with explicit prior art mapping, and uses Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 obviousness determinations, with no cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (e.g., US-2012248924-A1, US-2015311758-A1, US-2012306422-A1) and links conclusions to specific claim elements such as the π/6 electrical angle, N=6 harmonic order, single/double-layer windings, and 3-phase configuration."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For claims 4, 5, 8, 9, 10, 17, and 18, the §102 novelty stage found these claims not novel based on US-2012306422-A1 'may include' or 'can be understood as' single/double-layer windings, yet the final decision lists several of these (e.g., claims 9, 10) under both §102 rejection and §103 reasoning without reconciling the inconsistency—additionally, claim 1 was found not novel at §102 but then found non-obvious at §103 (is_obvious: false) without adequately explaining the contradiction before the office action overrides both."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The easy_combiner profile (combination_threshold=0.329) is reflected throughout—the examiner readily combines references with minimal motivation statements (e.g., 'common design objective,' 'widely used technology') consistent with a low combination threshold, and the moderate strictness (0.502) is reflected in allowing claim 12 while broadly rejecting others."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows logically from the accumulated stage analyses: claims found not novel at §102 are rejected on §102 grounds, claims found obvious at §103 are rejected on §103 grounds, and claim 12 (found novel and non-obvious at both prior stages) is allowed, with no unexplained reversals."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004632",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16985,
+      "output_tokens": 527,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

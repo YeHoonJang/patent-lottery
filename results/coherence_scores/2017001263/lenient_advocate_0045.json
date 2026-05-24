@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes Graham factors for §103 claims and element-by-element anticipation for §102 claims, with the appropriate statutes applied at each stage (e.g., §102 for claims 3, 4, 8 with explicit prior art matches; §103 with motivation-to-combine and Graham factor analysis for claims 2, 5, 7, 9)."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection references specific claim language (e.g., 'measurement profile,' 'lookup table,' 'psychometric profile,' 'roles and activities') and ties conclusions to specific disclosures in US-2013275320-A1, such as social graph connections, ranking criteria, and employee skill attributes."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The stage outputs are internally consistent: claims found anticipated at §102 (3, 4, 8) remain rejected in the office action and final decision; claim 6 found novel and non-obvious throughout is granted; §103 claims (2, 5, 7, 9) are treated as moderate-to-weak rejections with amendment suggested, consistent with the earlier obviousness analysis labeling them as probable but not compelling."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient examiner (strictness 0.29, purposivist) correctly moderates rejections — using 'amend_suggested' rather than outright rejection for §103 claims, describing obviousness as 'moderate' or 'weak,' and recommending an interview, all consistent with low-strictness lenient advocacy; clear-cut §102 anticipations are still rejected, which is appropriate."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision logically follows the accumulated stage analyses: strong §102 claims (3, 4, 8) are rejected, clearly novel claim 6 is granted, and moderately obvious claims (2, 5, 7, 9) receive amendment suggestions rather than outright rejection, with the summary explicitly tying the 'amend_suggested' outcome to the examiner's lenient profile and purposivist philosophy."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017001263",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 7150,
+      "output_tokens": 508,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

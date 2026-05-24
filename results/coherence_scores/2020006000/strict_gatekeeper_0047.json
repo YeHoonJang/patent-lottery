@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis for §102 (claims 1, 8, 15) and invokes Graham/KSR factors explicitly for §103 (all dependent claims), with no statute-mixing observed."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout novelty, obviousness, and office action stages, the examiner consistently cites specific claim limitations (e.g., 'subset determination based on unstructured text,' 'intermediary risk rating,' 'NLP keyword extraction') and maps them against specific disclosures in US-2016140466-A1 with paragraph-level references."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found non-novel at §102 (1, 8, 15) are carried forward as anticipated in the office action and final decision, while claims found novel at §102 (2–7, 9–14, 16–20) are then subjected to §103 obviousness analysis, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves ambiguity toward rejection—invoking broadest reasonable interpretation to cover implicit disclosures for §102, and readily finding motivation to combine for §103 at combination_threshold=0.513—consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated stage analyses: independent claims rejected on §102 anticipation established in novelty stage, and all dependent/implemented claims rejected on §103 obviousness established in the obviousness stage, with no reversal or unexplained deviation."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006000",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14140,
+      "output_tokens": 404,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "case_id": "2017006232",
+  "proceeding_number": "2017006232",
+  "gt_issues": [
+    "102",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 17, 18, 20, 26에 대한 103 거절. US-2011315237-A1이 대부분의 구성요소를 개시하나, 핵심 차이점은 외부 누출액을 collection trough로 routing하는 구성. 선행기술은 별도의 drain disposal을 교시. 결합 동기(design simplification, centralized monitoring, cost reduction)는 합리적이나, 이것이 '자명한 설계 선택'인지 '발명적 기여가 있는 시스템 아키텍처 변경'인지는 해석 여지 있음. 선행기술은 분산 수집(distributed collection)을 교시하는데, 이를 중앙집중식(centralized overflow routing)으로 변경하는 것은 단순 plumbing 변경 이상의 시스템 설계 결정일 수 있음. 그러나 제시된 동기가 engineering common sense 범위 내이고, 예상치 못한 효과 증거 없음. Claim 18, 20은 선행기술에 명시적으로 개시된 통상 구성요소 추가로 약한 거절. Claim 26의 sensor positioning은 basic practice이나, '당연히 그렇게 할 것'과 '명시적 교시'는 구분 필요. 전체적으로 moderate 강도 - 거절 근거는 있으나 출원인이 반박 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1 discloses most elements of claim 17, but element 17f (routing mechanism to direct external leaks into internal collection trough above specified quantity) is not explicitly disclosed. The rejection argues this is obvious based on common sense and unified monitoring benefits. However, the prior art describes separate collectors for different leak sources rather than an overflow routing system. The motivation to combine relies on design choice arguments and KSR common sense rationale. Given that the similarity score for element 17f is only 0.45 (implicit), and the specific overflow routing mechanism represents more than mere design choice - it creates a functional relationship not clearly suggested by the prior art's separate collector approach - this rejection has moderate strength. The reference teaches consolidated monitoring but not the specific overflow routing architecture."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection combines US-2011315237-A1 and US-2011315611-A1 to show hydraulic components inside and outside the casing. While it is standard architecture for dialysis machines to have internal and external hydraulic components, the similarity scores are modest (0.7 for element 18a with implicit matching). The rejection relies heavily on 'well-known' architecture arguments. The '237 reference describes fluid lines to external plumbing, and the '611 reference describes internal manifolds and external containers, but neither explicitly discloses the claimed 'hydraulic system components for the appropriation of dialyzing liquid' in the specific configuration claimed. The motivation is based on standard practice rather than explicit teaching. This represents a predictable combination but with some interpretive reach."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "moderate-to-weak",
+          "reasoning": "The rejection argues that making receptacle resources visible and accessible is obvious based on medical device design principles and maintenance requirements. However, the similarity score is only 0.5 (implicit) and the '237 reference does not explicitly disclose external visibility/accessibility of receptacle resources. The rejection relies heavily on general principles (FDA regulations, cleanability standards) rather than specific prior art teaching. While these are valid KSR-type common sense arguments, they represent inferential reasoning rather than explicit disclosure. The reference describes collectors that need monitoring, but 'needing monitoring' does not necessarily dictate 'visible and accessible from outside the casing' as the only design choice."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            26
+          ],
+          "strength": "strong",
+          "reasoning": "The rejection for claim 26 has strong basis. US-2011315237-A1 explicitly discloses both (1) a sloped bottom creating a deepest point, and (2) a water alarm sensor for the collector. Positioning a liquid sensor at the deepest point of a sloped collection vessel is fundamental engineering practice with clear technical rationale: earliest detection, smallest quantity detection, and avoiding false negatives. This represents straightforward application of basic sensor placement principles to disclosed elements. The combination is highly predictable and requires only ordinary skill. While the similarity score is 0.55 (implicit), the technical reasoning is sound and based on established engineering principles rather than speculation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            33
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 33 depends on claim 18 and adds the visible/accessible limitation from claim 19. Since both underlying claims have moderate-strength rejections, the combination rejection also has moderate strength. The analysis properly synthesizes the rationales from claims 18 and 19, but inherits the weaknesses of both: (1) reliance on 'standard architecture' for hydraulic components without explicit teaching, and (2) reliance on general design principles for visibility/accessibility without specific prior art disclosure. The combination represents predictable use of known elements but involves interpretive reach in both component rationales."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 provides explicit disclosure of claims 17, 18, 20, 26 with direct structural and functional matches. Column and line citations show clear anticipation. For claims 19, 21, 22, 24, 25, 33, evidence is moderate—some elements require interpretation of implicit disclosures (accessibility, spatial relationships, inherent functions). However, given my innovation-supportive philosophy, moderate 102 evidence may not justify rejection if technical contribution exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claims with moderate 102 evidence (19, 21, 22, 24, 25, 33), 103 analysis relies on 'obvious design choices' and 'inherent functions.' While motivation exists (maintenance accessibility, fluid management), these are general engineering principles rather than specific teachings. At combination_threshold=0.68 and strictness=0.25, I should favor applicant when reasoning is based on hindsight or common sense without explicit prior art teaching. Strong 103 applies to claims 17, 18, 20, 26 where 102 is also strong."
+        },
+        {
+          "basis": "allowable_claims",
+          "strength": "strong",
+          "reasoning": "Claims 23, 27, 28, 29, 30, 31, 32 show genuine technical contributions: cross-piece structure (23), removable cover (27), capillary action mechanism (28, 29), liquid type differentiation (30, 31), automated verification (32). Prior art does not disclose these specific features. These represent meaningful innovations in leak detection/management."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            18,
+            20,
+            26
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1 discloses most structural elements (bottom collector, moisture sensor, external leak collectors, hydraulic components, storage tanks, sloped bottom). The key difference for claim 17 is that the prior art shows external leak collectors draining to sewer rather than routing into the central collection trough. The Office Action argues this routing modification is 'obvious design choice for unified monitoring.' However, this represents a functional and structural change (converting parallel drainage systems into a hierarchical overflow system) that is not explicitly taught. The motivation is logical efficiency, but US-2011315237-A1 deliberately chose separate drainage paths, suggesting a design preference. For claim 26, sensor placement at deepest point is arguably common sense, but not explicitly disclosed. Given my lenient stance (strictness=0.29) and purposivist philosophy (valuing technical contribution), the 'unified monitoring' argument is reasonable but not compelling enough to definitively reject without stronger evidence of explicit teaching or clear industry practice."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            30,
+            31,
+            32
+          ],
+          "strength": "weak",
+          "reasoning": "These are provisional rejections acknowledging lack of explicit prior art. Claim 30 (liquid type differentiation), claim 31 (color-based differentiation), and claim 32 (automatic sealing verification) represent functional enhancements beyond simple moisture detection. The Office Action correctly notes these features are 'known in the field' but does not cite specific prior art teaching their combination with dialysis leak detection systems. US-2011315237-A1 teaches only basic moisture detection/alarm. The gap between presence detection and type differentiation (especially color-based) or automated diagnostic response is substantial. Without specific prior art citations showing these combinations, these rejections rest on general knowledge assertions. Under my lenient approach, general knowledge arguments without specific evidence should favor the applicant. These appear to be speculative rejections that should be withdrawn or converted to amend-suggested positions."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            17,
+            18,
+            20,
+            26
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 explicitly discloses: dialysis machine with casing (12, 114), bottom liquid collector (130) below the machine collecting internal leaks, separate liquid collectors (180, 190) for external leaks from fittings/valves, water alarm (150) in bottom collector, fluid lines and hydraulic components for dialysate, storage tanks for concentrate (122, 124), and sloped bottom with sensor at lowest point. The only element requiring interpretation is 17f ('above a specified quantity, route external leaks into collection trough'). While not explicitly stated in those exact words, the reference's system design of multiple leak sources feeding into a common bottom collector with overflow alarm inherently teaches this routing function. The reference states collectors 'either holding the fluid or connecting a sewer pipe' - this describes a routing mechanism. Coverage scores for these claims (0.79-0.82) and high confidence (0.83-0.86) support strong anticipation. Under my strictness=0.89 and aggressive identification principle, the implicit/inherent disclosure of routing function in the unified collection system is sufficient for 102 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            18,
+            20,
+            26
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 is overcome, 103 clearly applies. US-2011315237-A1 teaches all elements except possibly the explicit 'above specified quantity' overflow routing (17f). It would be obvious to a PHOSITA (medical device engineer) to implement such overflow routing as predictable use of known leak collection techniques. The motivation is clear: unified leak detection, fewer sensors, simplified maintenance. The reference itself suggests collecting all leaks in one location. For claim 26 (sensor at deepest point), this is common sense fluid sensor placement - the reference's sloped bottom inherently places alarm at lowest point. Claims 18 and 20 add standard dialysis components explicitly taught in the reference. My combination_threshold=0.45 supports finding obviousness based on routine design optimization. Confidence scores (0.85-0.9) are very high."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1 teaches most elements of claim 17, but element 17f (receptacle resources routing external liquids into collection trough above specified quantity) requires combination reasoning. The reference teaches separate collectors (180, 190) for external leaks and states desirability of consolidating leaks into single container, but does not explicitly teach overflow routing from external receptacles into main trough. The combination logic is: (1) reference teaches separate external collectors, (2) reference teaches main bottom collector, (3) reference states advantage of single collection point. Combining these by routing external collector overflow into main trough is presented as predictable. However, this requires inference - the reference does not explicitly suggest this specific overflow routing mechanism. Given my strictness=0.82, I view this as moderate strength: there is reasonable basis for combination, but it requires inferential step not explicitly taught. The motivation (consolidation) is stated in reference, which supports obviousness. For claim 18, adding hydraulic components to dialysis machine is essentially inherent - this strengthens to moderate-strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            26
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 teaches sloped bottom collector with sensor. Claim 26 adds limitation that sensor is at deepest point. This is classic 'common sense' obviousness under KSR. Any engineer designing liquid detection system would place sensor at lowest point for earliest detection. This is not inventive step but ordinary engineering practice. The reference provides all elements (sloped bottom + sensor), and positioning at deepest point is obvious arrangement. This is strong obviousness - no evidence of unexpected results or secondary considerations to overcome."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            33
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1 discloses individual components (bottom collector 130, separate liquid collectors 180/190, drain pipes 182/192, moisture detector 150), but the critical limitation 'receptacle resources developed so that, above a specified quantity, they route at least a part of these external leaking liquids into the collection trough' requires interpretive leap. The prior art shows drain pipes connecting to sewer OR to collection system, but does not explicitly teach threshold-based overflow routing from external receptacles INTO internal collection trough. The Office Action relies on broad BRI claiming drain pipe connections constitute routing, but the specification states collectors 'either holding the fluid or connecting a sewer pipe' - this is alternative functionality, not integrated overflow routing. The overflow mechanism is inferred rather than explicitly disclosed."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            23,
+            26
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 23: US-2011315237-A1 explicitly discloses raised dam 139 for liquid retention. Positioning such barrier between conduit and trough to control overflow at specific height is obvious mechanical implementation requiring only ordinary engineering skill. Motivation is clear (control overflow threshold), result is predictable. Claim 26: Sloped bottom 140 toward one end + moisture detector 150 = obvious to place sensor at lowest point. This is textbook sensor placement optimization with entirely predictable results. Both claims represent conventional engineering choices applied to disclosed structure."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            17,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1 discloses most elements of claims 17 and 18, but element 17f (routing external leaking liquids into the collection trough above a specified quantity) lacks explicit disclosure. The prior art shows separate collectors that either hold fluid or connect to sewer pipes, and mentions that the bottom collector serves as final collection point, but does not explicitly teach an overflow mechanism from external receptacles to internal collection trough based on quantity threshold. The coverage score is 0.83 with element 17f having only implicit match. Under strictness 0.55, this moderate-strength anticipation should be maintained as rejection, but applicant has reasonable arguments for distinction."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 20 merely adds storage tanks for dialysate preparation media (acid concentrate, bicarbonate), which are explicitly disclosed in the same reference US-2011315237-A1. This is a standard, necessary component of dialysis machines. Even if base claim 17 were novel, adding this known element represents obvious combination with clear motivation (standard dialysis equipment configuration) and predictable results. This rejection is well-supported."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            26
+          ],
+          "strength": "strong",
+          "reasoning": "Positioning a liquid sensor at the deepest point of a sloped collection trough is a straightforward application of well-known design principles in liquid detection systems. The prior art discloses both a sloped bottom and a moisture detector in the collector. Placing the sensor at the lowest point for earliest detection is common sense engineering optimization requiring no inventive insight. Clear motivation (optimize sensor performance) and predictable results. This rejection is sound."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1 discloses most elements of claim 17 with good coverage (0.75). However, element 17d (receptacle resources routing external leaks to collection trough above specified quantity) has weaker explicit disclosure (0.65 coverage, partially implicit). The reference shows external collectors (180, 190) with drain pipes that can route to sewer or hold fluid, but the specific routing to the internal collection trough above a threshold is not explicitly stated. This is more of a functional equivalence argument than direct anticipation. Given my moderate strictness (0.46), I find this anticipation argument borderline - the core concept is present but the specific implementation claimed is not explicitly disclosed."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 18 adds hydraulic system components inside and outside casing to claim 17. US '237 explicitly discloses fluid lines 118, 120, liquid chambers, tanks 122, 124 - these clearly constitute hydraulic system components located both inside and outside the casing. This element has strong coverage (0.7) and is explicitly described. However, this rejection depends on claim 17 being anticipated, which I rated as moderate strength."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 20 adds storage tanks outside casing for dialysate preparation. US '237 explicitly lists 'Tank for Acid Concentrate 122' and 'Tank for Bicarbonate Mixture 124' with coverage 0.75. This is direct, explicit disclosure of the claimed feature. However, like claim 18, this depends on claim 17 anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            18,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "The obviousness analysis is stronger than the anticipation. US '237 discloses: (1) bottom collector for internal leaks with sensor; (2) external collectors for valve/fitting leaks; (3) routing capabilities (to sewer or holding). The motivation to route external leaks to the internal collector when overflow occurs is clear and well-articulated: simplify monitoring by using one sensor instead of multiple sensors - a problem explicitly identified in the application's own background. This is a predictable combination of known elements (overflow routing + unified collection) with clear motivation from the prior art and the problem statement. The combination threshold (0.22) is low, meaning I should find obviousness when there is identifiable motivation, which exists here. My moderate strictness (0.46) combined with strong motivation and explicit problem identification supports an obviousness finding. For claims 18 and 20, the added features are explicitly disclosed standard components, making the obviousness even clearer."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 17-18: US-2011315237-A1 explicitly teaches consolidating leak collection and reducing sensor count. The reference states 'it is also possible to collect all possibly occurring leaking liquids from different sources in a collection container' with 'only one sensor.' Routing external leaks into the bottom collection trough is a straightforward extension of this explicitly disclosed principle. This is strong evidence of obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 19, 33: Making external leak receptacles visible and accessible is a predictable design choice based on common sense maintenance requirements in medical equipment. While not explicitly disclosed, the motivation is clear and the result is entirely predictable. This constitutes strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 20: US-2011315237-A1 explicitly lists 'Tank for Acid Concentrate' and 'Tank for Bicarbonate Mixture' in its parts list. Locating these tanks externally is standard practice for serviceability. This is strong evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 21: Extending base socket beyond front panel is a geometric design choice for comprehensive leak collection. The motivation (capturing leaks from front-mounted components) is logical, but the specific configuration is not explicitly taught. Under strictness=0.50, this is a borderline case leaning toward obvious based on predictable design modification."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 25: Once claim 21's extended base socket is established, sensor placement in that area is logical. However, this depends on claim 21 being obvious. The reasoning is sound but builds on a moderate foundation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 26: Reference explicitly discloses sloped bottom creating a deepest point. Placing sensor at deepest point is standard engineering practice for liquid detection. This is strong evidence of obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 27: Removable covers are standard in medical equipment (US-2011315611-A1 shows doors/panels). The motivation for cleanliness and accessibility is clear, but the specific application to the extended base socket requires combining multiple steps. Under strictness=0.50, this is moderately obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1 explicitly discloses all essential elements of claims 17-19, 21, 24-26, and 33. The reference provides clear structural correspondence: bottom liquid collector (130) as collection trough, external collectors (180, 190) as receptacle resources, drain pipes (182, 192) routing external leaks, moisture detector (150) as sensor, and extended ramp section (138). Coverage scores range from 0.74-0.82 indicating strong anticipation. The element-by-element mapping is explicit and well-supported."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims 20 and 21, the combination of US-2011315237-A1 and US-2011315611-A1 is straightforward. External dialysate storage tanks are standard in dialysis machine design for known reasons (space efficiency, ease of replacement). The motivation to combine is clear and rooted in common industry practice. The extended base socket configuration with front panel is a predictable mechanical arrangement. Both combinations yield expected results with no evidence of non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            17,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1이 claim 17의 대부분 구성요소를 개시하나, element (d) '외부 누출액을 일정량 이상일 때 collection trough로 routing하는 receptacle resources'의 명시적 개시는 불분명함. 선행기술은 별도의 collectors와 sewer connections을 개시하지만, '일정량 이상 시 main collection trough로 routing'하는 구체적 메커니즘은 암묵적 해석 필요. Claim 18은 hydraulic components가 선행기술에 개시되어 있으나, claim 17의 anticipation 여부에 의존적. Coverage score 0.72는 moderate 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 거의 모든 구성요소를 개시하고, 누락된 overflow routing 메커니즘은 설계 최적화(센서 수 감소)라는 명확한 동기가 있음. 출원인 명세서 자체가 이 동기를 인정('only one sensor 사용 가능'). PHOSITA에게 overflow 관리는 기본 원리이며, 별도 collectors를 main trough로 연결하는 것은 예측 가능한 결합. Combination_threshold=0.52 기준으로 이는 obvious 범위에 해당."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            26
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 sloped bottom collector와 water alarm을 개시. 센서를 최저점에 배치하는 것은 액체 감지의 기본 원리(중력에 의해 액체가 최저점으로 흐름)이며, 통상의 엔지니어링 상식. 조기 누출 감지라는 목적상 최저점 배치는 자명한 최적화. 이는 routine optimization으로 진보성 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 17-18에 대한 102 거절의 핵심 쟁점은 element 17d (receptacle resources routing external leaks to collection trough above specified quantity)의 개시 여부입니다. US-2011315237-A1은 separate collectors 180, 190을 개시하고 있으나, 이들이 bottom collector 130으로 overflow되는 메커니즘은 명시적으로 개시되어 있지 않습니다. Abstract에서 'collects fluid leaking from inside of dialysis machine for holding or discharging into sanitary sewer'라고 언급하고 있으나, 이는 내부 누출에 대한 것이며 외부 누출의 overflow routing을 명확히 개시하지 않습니다. Coverage score 0.82와 implicit match type을 고려할 때, 이는 anticipation보다는 obviousness에 더 적합한 수준입니다. Strictness=0.52 (중립적)를 고려하면, 명시적 개시가 없는 상태에서 102 거절은 다소 aggressive합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 17-18에 대한 103 거절은 강력한 근거를 가지고 있습니다. US-2011315237-A1은 명시적으로 'several sensors are usually necessary' 문제를 언급하고 'collecting all possibly occurring leaking liquids from different sources in a collection container'를 제안합니다. 이는 결합 동기(motivation to combine)를 명확히 제시합니다. Combination_threshold=0.48을 고려할 때, 이 수준의 명시적 동기는 obviousness를 뒷받침하기에 충분합니다. External collectors를 bottom collector와 통합하는 것은 cost reduction, design efficiency, simplified monitoring이라는 분명한 이점이 있으며, PHOSITA에게 자명한 설계 변경입니다."
+        },
+        {
+          "basis": "103_obviousness_claim26",
+          "strength": "strong",
+          "reasoning": "Claim 26 (sensor at deepest point)에 대한 103 거절은 매우 강력합니다. US-2011315237-A1은 'slopes downward towards one end'를 명시적으로 개시하고 있으며, moisture detector를 collector에 배치합니다. 액체 검출 시스템에서 센서를 가장 깊은 지점에 배치하는 것은 common sense engineering practice입니다. 이는 예측 가능한 결과를 초래하는 routine design choice이며, inventive skill을 요구하지 않습니다. Tech_specialization=0.89인 PHOSITA에게 이는 자명합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            17,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2011315237-A1이 대부분의 요소를 개시하나, element 17(f) '외부 누출액을 지정 수량 이상일 때 수집 트로프로 라우팅'은 명시적 개시가 약함. 참조문헌은 'all possibly occurring leaking liquids from different sources in a collection container'와 drain pipes 182, 192를 개시하지만, 이것이 '외부 receptacle에서 내부 collection trough로의 threshold-based routing'을 명시적으로 anticipate하는지는 불분명. BRI 하에서도 drainage connections이 claimed routing mechanism과 정확히 일치하는지 의문. 102 rejection의 증거 강도는 moderate 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2011315237-A1이 단일 센서로 모든 누출을 통합 수집하려는 명시적 동기를 제공('collect all possibly occurring leaking liquids from different sources...to provide only one sensor'). 외부 누출을 내부 트로프로 라우팅하는 것은 이 통합 목적의 predictable implementation. Element 17(f)의 threshold mechanism도 overflow control의 routine engineering practice. 결합 동기가 명확하고 modification이 predictable하므로 103 rejection은 strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            21
+          ],
+          "strength": "moderate",
+          "reasoning": "Base socket이 front panel을 넘어 연장된다는 구체적 spatial relationship은 US-2011315237-A1에 명시되지 않음. Office Action은 'functional requirement of collecting external leaks from front-mounted components would naturally lead to extending forward'라고 주장하나, 이는 일정 부분 추론에 기반. 전면 패널 너머 연장이 obvious한지는 해석 여지가 있음. Moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            26
+          ],
+          "strength": "strong",
+          "reasoning": "센서를 collection trough의 가장 깊은 지점에 배치하는 것은 액체 감지의 기본 원리(earliest detection을 위해 lowest point에 배치). US-2011315237-A1이 sloped bottom을 개시하므로, 센서를 deepest point에 두는 것은 common sense engineering. 103 rejection은 strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            27
+          ],
+          "strength": "strong",
+          "reasoning": "Removable cover 제공은 maintenance access를 위한 standard practice. US-2011315237-A1의 bottom collector가 주기적 inspection/emptying을 필요로 하므로, removable cover 추가는 predictable design choice. 103 rejection은 strong."
+        }
+      ]
+    }
+  ]
+}

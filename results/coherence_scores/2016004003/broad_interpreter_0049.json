@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage applies element-by-element anticipation analysis against US-2013160036-A1, the §103 stage uses Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations), and the final decision distinguishes between anticipation and obviousness grounds — all statute-appropriate frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions reference specific claim language (e.g., 'extracting attention estimation features from primary content'), specific claim provisions of US-2013160036-A1 (e.g., 'Claim 3 of the reference' disclosing user profile/history), and explicit comparisons of claimed elements to reference disclosures."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 stage finds all 21 claims anticipated by US-2013160036-A1, but the §103 stage and final decision then reverse course to find the same claims non-obvious without resolving the contradiction — if the claims are fully anticipated, a separate non-obviousness finding at §103 contradicts the §102 conclusions without adequate reconciliation, and the Office Action issues only §102 rejections while the final decision re-bases everything on §103."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner profile shows moderate strictness (0.547) and moderate combination_threshold (0.553), and the reasoning appropriately requires 'more than common sense' to justify combinations while not outright rejecting all claims — this middle-ground posture is consistent with the examiner's dimensions."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision's 'amend_suggested' outcome flows logically from the §103 obviousness analysis finding the content-based feature extraction non-obvious, while maintaining rejections on independent claims 1, 11, and 21 where prior art overlap is strongest — the decision is consistent with accumulated stage analyses."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2016004003",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12786,
+      "output_tokens": 461,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

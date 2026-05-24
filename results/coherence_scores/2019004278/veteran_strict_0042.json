@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences from claims, level of ordinary skill, secondary considerations) for each claim, and §102 anticipation is analyzed element-by-element, with each statute applied to its appropriate legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance references specific claim language (e.g., 'planned delivery cancellation,' 'location/motion analytics data,' 'calendar-scheduled meeting') and ties conclusions to specific disclosures in US-2013203433-A1, such as content consumption tracking, session-based usage, and resource allocation control."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage is consistent with the §102 novelty stage: claims found novel (4, 8, 10, 13, 14) are also found non-obvious, while claims found lacking novelty (1, 2, 3, 5, 6, 7, 9, 11, 12, 15) are also found obvious, with no contradictory flip-flops and the §103 stage adds motivation-to-combine reasoning where §102 found anticipation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.793 and low combination_threshold of 0.335 are reflected throughout: ambiguous overlaps (e.g., 'message delivery' as a variant of 'content consumption tracking') are resolved toward rejection, and motivation to combine is accepted on relatively thin grounds (e.g., 'natural consequence,' 'predictable use'), consistent with a strict examiner with easy-combiner tendency."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated stage analyses—claims found obvious in §103 are rejected, claims found non-obvious are marked allowable/amend-suggested, and the overall 'reject' decision is explained by the rejection of the independent claims, with no reversal of prior-stage findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019004278",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16729,
+      "output_tokens": 486,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) throughout the §103 analysis for every claim, with no misapplication of §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific claim language (e.g., NRF discovery request/response, A-SMF/I-SMF, N6/N3 interfaces) and maps them to specific disclosures in US-2019182875-A1 with element-level comparison."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found novel at §102 (e.g., claims 3, 4, 5, 9-11, 15-17) are subsequently rejected under §103 with additional rationale explaining why the specific features (domain types, hierarchical SMF, interface assignments) would be obvious despite lacking explicit prior art disclosure, maintaining consistency between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.475 (moderate-lenient) and combination_threshold=0.459, the examiner issues rejections but acknowledges interpretive flexibility (noting 'strictness=0.47' in final decision weighing as supporting an opportunity to amend), and even finds claims 5, 11, and 17 non-obvious at the §103 stage before overriding them in the final decision with moderate-strength reasoning, which is consistent with a pragmatist examiner of moderate strictness."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "At the §103 stage, claims 5, 11, and 17 were explicitly found non-obvious (is_obvious=false) with high confidence (0.85), yet the final decision rejects all claims including 5, 11, and 17 under §103 without adequately justifying the reversal of those specific non-obviousness findings beyond brief generic reasoning about 'scalability needs.'"
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022004005",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15173,
+      "output_tokens": 472,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

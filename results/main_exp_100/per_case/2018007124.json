@@ -1,0 +1,251 @@
+{
+  "case_id": "PILOT-2018007124",
+  "proceeding_number": "2018007124",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.5714285714285714,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Primary reference US-2015282232-A1 discloses foundational D2D coordination and mode transitions based on link conditions, which establishes a basis for decentralized communication. The claimed features—such as capability metric comparison, thresholding, ranking, self-comparison, and adaptive updates—are all standard techniques in distributed and ad hoc networks. The motivation to combine is clear: improving network stability and efficiency in infrastructure-limited scenarios like public safety. PHOSITA would readily apply known clustering and leader election methods to the D2D framework of the prior art. The confidence scores in obviousness (ranging from 0.75 to 0.84) further support strong, consistent reasoning across claims."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 35의 'The method of claim 35'라는 표현은 명백한 자기 참조 오류이며, 35 U.S.C. 112(d)에 위배되어 종속청구항의 구성 요건을 위반함. 이는 명세서의 기재 내용으로도 정정할 수 없는 형식적 결함임. Claim 47은 무효인 claim 35에 종속되므로 동일한 결함을 계승함. 증거 명확하고 해석의 여지 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The only cited prior art, US-2015282232-A1, discloses general D2D communication and beaconing but does not teach or suggest the cluster head capability metric, its comparison to qualifying criteria, or the selection mechanism based on such comparison. While some underlying concepts like thresholding or synchronization are known in wireless systems, their specific integration into a decentralized cluster head selection process using capability metrics is not disclosed. The motivation to combine is lacking, and the claimed features represent a cohesive technical solution for autonomous clustering. Given the low combination_threshold (0.68) and the examiner's lenient stance (strictness=0.25), the obviousness rejections are considered weak due to insufficient evidence of motivation to combine and lack of anticipation of the core inventive concept."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015282232-A1은 D2D 통신에서 코어 네트워크를 거치지 않는 데이터 경로를 명시하고 있으며, 이는 피어 연결 설정을 본질적으로 포함한다. 클러스터 헤드 선택 후 피어 연결을 설정하는 것은 네트워크 형성의 자연스러운 후속 동작으로, 통상의 기술자가 결합할 동기가 명확함. 진보성 판단에서 confidence가 0.9로 높게 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "피어 연결 설정은 D2D 통신의 본질적이고 필수적인 기능으로, US-2015282232-A1이 직접 통신 링크 설정을 명시적으로 개시하고 있음. 결합 동기 없이도 통상의 기술자가 해당 기능을 용이하게 도출할 수 있으며, 진보성 판단에서의 confidence도 0.85로 높음. 선행기술이 피어 투 피어 연결의 본질을 충분히 암시하므로, obvious 판단은 강한 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 'is_obvious = false'로 평가되었으며, 결합 동기(motivation to combine)가 부족하다고 명시됨. US-2015282232-A1은 D2D 통신 및 모드 전환을 다루지만, 클러스터 헤드 역할 선택을 위한 능력 지표(capability metric) 기반의 자율적이고 분산된 선택 메커니즘을 개시하지 않음. 선행기술과의 차이점이 명확하며, PHOSITA가 선행기술을 결합하여 출원발명에 도달할 동기가 명시적으로 부족함. combination_threshold=0.55 기준에도 미달하는 결합 동기로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 40 and 48 are rejected based on the functional equivalence between establishing a D2D connection and connecting to a selected cluster head. While US-2015282232-A1 explicitly discloses D2D connections, the reference does not explicitly frame such connections in the context of cluster head selection. The motivation to combine is reasonable but not compelling, as the reference focuses on mode transitions rather than cluster formation. Given the combination_threshold=0.22, this would typically support an obviousness finding, but the lack of explicit context for cluster-based topology introduces interpretive ambiguity. Under strictness=0.46, which leans slightly toward applicant favor in borderline cases, this rejection is considered moderate rather than strong."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 40 and 48 are directed to establishing a peer connection to a selected cluster head. US-2015282232-A1 explicitly discloses D2D communication where data paths bypass the core network, which inherently requires peer-to-peer connections. The implementation of such a connection in a clustered topology is a straightforward extension of the prior art. The motivation to combine is internal to the reference, and the functionality is fundamental to D2D operation. Given the high confidence (0.9) in obviousness and clear disclosure in the prior art, this is a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The only prior art cited is US-2015282232-A1, which discloses general D2D communication and beaconing but does not teach or suggest the specific features of cluster head capability metrics, qualifying criteria comparison, threshold filtering, self-comparison, dynamic metric adjustment, or integration of reference signals in beacons. The analysis concludes no motivation to combine exists and that the claimed features are not obvious. Given the lack of additional prior art references and the specific technical enhancements described, the obviousness rejection is not supported with sufficient evidence, making it weak under the examiner's moderate strictness level."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    }
+  ]
+}

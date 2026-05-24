@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis for claims found to lack novelty, and separately applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 obviousness determinations across all 20 claims."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (US-2014324428-A1, US-2012296654-A1), maps particular claim elements to specific passages or claim numbers in those references (e.g., claim 14 of US-2014324428-A1 for lexicon selection, claim 5 of US-2012296654-A1 for context types), and the sole allowance of claim 10 is grounded in the absence of any disclosure of 'transferrable' context information in either reference."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis consistently builds on the §102 findings — claims found not novel under §102 are also rejected as obvious using the same single reference, while claims found novel under §102 are then subjected to combination-based §103 analysis with added rationale; no stage reverses an earlier finding without explanation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves ambiguity toward rejection throughout — novel claims like 2, 4, 5, 6, 7 are still rejected under §103 as 'obvious extensions' or 'known design choices,' and the combination_threshold of ~0.51 is explicitly referenced when accepting motivation to combine, consistent with a strict-gatekeeper profile that leans toward rejection on borderline evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1–9 and 11–20 and suggest amendment for claim 10 flows directly and coherently from the accumulated stage-level analyses, with the summary restating the same prior art mapping and the sole allowable feature (transferability) identified consistently across novelty, obviousness, office action, and final decision stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018003455",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14857,
+      "output_tokens": 501,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

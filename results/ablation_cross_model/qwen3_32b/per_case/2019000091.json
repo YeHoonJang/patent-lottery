@@ -1,0 +1,345 @@
+{
+  "case_id": "2019000091",
+  "proceeding_number": "2019000091",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejection is supported by multiple prior art references (US-2014278090-A1, US-2014121932-A1, and US-2012281091-A1) with clear motivations to combine. The combination threshold (0.34) is low, and the textualist interpretation style prioritizes the literal claims over functional descriptions. Most claims have confidence scores above 0.7, which aligns with the strictness parameter (0.79) favoring rejections over allowances."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art references explicitly disclose or implicitly anticipate the claimed features for each rejected claim, with confidence scores ranging from 0.68 to 0.84. The anticipation is based on clear disclosures in the prior art that cover the claimed elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The Graham factors for each claim indicate that the combination of prior art references would have been obvious to a person of ordinary skill in the art. The motivation to combine is clearly articulated, and the differences between the claims and the prior art are considered trivial or obvious modifications."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The written description rejections are based on vague or undefined terms in the claims. While these are valid issues, they could potentially be addressed through clarification or amendment rather than outright rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014121932-A1과 US-2014278090-A1이 각각 청구항의 구성요소를 개별적으로 공개하고 있으며, 결합 동기 또한 합리적으로 제시되어 있으나, 청구항의 구체적 구성과 기술적 효과에 대한 명확한 차이가 존재함. 결합의 동기는 합리적이지만, 출원인의 기술적 기여가 일부 인정될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 rejection relies on implicit coverage of the perimeter expansion based on speed limits. While the reference discloses optimized speed profiles, the direct equivalence to the claimed method is not explicitly stated, leaving room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection cites a combination of two references with a clear motivation to integrate speed limit data with geo-fence boundaries. The confidence (0.72) is slightly below the combination threshold (0.72), suggesting the rejection is borderline but still valid under a purposive interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 1 is rejected under 35 U.S.C. § 112(a) for lacking clear definitions of 'predetermined amount of time' and 'distance' in the specification. These terms are critical to the invention's implementation but are not quantified or sufficiently described, making the claim non-enabling. Given the strictness of 0.89, this is a strong basis for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Combination of prior art with clear motivation to optimize data transmission is well-supported in the analysis. The references US-2014278090-A1 and US-2014121932-A1 provide a solid foundation for the rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims are explicitly anticipated by the cited prior art references, indicating a lack of novelty. For example, claim 8 is directly anticipated by US-2014278090-A1 which explicitly teaches the receipt of information when vehicle coordinates fall within a geo-fence related to a POI."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Some claims lack clear definitions in the specification, such as claim 2 which does not clearly define the specific criteria for determining how much to expand the perimeter based on speed limits. However, this issue may be resolved through amendments rather than outright rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2014278090-A1 and US-2012281091-A1 provides a reasonable basis for the obviousness rejection. The motivation to combine is based on optimizing data transfer for vehicles through geo-fenced areas, which is a logical application of the teachings of both references. However, the confidence level of 0.7 suggests that while there is a basis for the rejection, there is some room for interpretation regarding the non-obviousness of the specific modifications claimed."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art teaches the core elements of the claims, and the combination would have been obvious to a person having ordinary skill in the art for the reasons detailed in the analysis. However, the confidence scores vary from 0.5 to 0.85, indicating some variation in the strength of the obviousness rejections across different claims."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 제공되었으며, 결합 동기가 명확하게 제시되어 있으나, 일부 청구항의 경우 결합의 예측 가능성에 대한 근거가 약간 부족함"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The reasoning for the 112 rejection is based on the lack of clear definitions for terms like 'projected speed' and 'predetermined amount of time', as well as the absence of explicit criteria for defining the geo-fence distance. While these ambiguities are valid concerns, the rejection's strength depends on whether the specification provides sufficient context or examples for a person of ordinary skill in the art to implement the invention without undue experimentation. Given the moderate confidence level in the rejection (not absolute certainty), this is classified as a moderate strength rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The 102 rejection is based on US-2014278090-A1, which is stated to disclose all elements of claim 1. The confidence level for this rejection is high (0.8), indicating strong evidence that the prior art anticipates the claimed invention. This is classified as a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술들의 결합이 청구항의 대부분을 암시하지만, 일부 청구항(예: 13, 14, 20)의 confidence가 낮아 결합 동기의 명확성에 의문이 제기될 수 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014278090-A1, US-2014121932-A1, US-2012281091-A1은 청구항의 구성요소를 개시하거나 유사한 기술을 제공하며, 결합 동기가 명확하고 예측 가능한 방식으로 조합 가능하다는 점에서, 진보성 거절 근거가 강력하다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "각 청구항은 명확한 선행기술에 의해 개시되며, 신규성 거절 근거도 강력하다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서가 일부 용어와 기능에 대한 충분한 설명을 제공하지 못하는 것으로 보이나, 명확한 증거 없이 추측하기 어렵기 때문에 중간 강도로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 obviousness rejection is based on the combination of US-2014121932-A1, US-2014278090-A1, and US-2012281091-A1. While the references do teach the relevant features of defining geo-fences, determining speed limits, optimizing data transfer, and pre-loading information, the confidence scores for some claims (e.g., 12 with 0.65, 13 with 0.7, 14 with 0.7) suggest that the evidence is somewhat weaker for these claims. The motivation to combine the references is generally clear (improving navigation efficiency and data download reliability), but the specific adaptations required for some claims may be more nuanced. Given my strictness of 0.52, I would maintain the 103 rejection for most claims but consider the weaker confidence scores for some claims as potential points for amendment or further consideration."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.66,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 6, 10, 17 have high confidence (0.75-0.7) in the prior art combination being obvious. The references explicitly disclose similar concepts that would motivate a PHOSITA to combine them with predictable results."
+        }
+      ]
+    }
+  ]
+}

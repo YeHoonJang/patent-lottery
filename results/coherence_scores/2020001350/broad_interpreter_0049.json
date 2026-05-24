@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 analysis throughout the obviousness stage, the office action, and final decision, with no misapplication of other statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim-level rejection cites specific prior art references (US-2013144785-A1 and US-2012159647-A1) and maps specific disclosed features to specific claim elements (e.g., realness score to Smith's identity validity verification, challenge to Kumar's social network authentication request)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds all 20 claims not novel (§102), yet the obviousness stage and office action shift entirely to §103 rejections without explaining why the §102 analysis was abandoned — this is a significant unexplained contradiction, as §102 anticipation findings were asserted with 0.70–0.90 confidence but then dropped entirely."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.547 and combination_threshold of 0.553 (moderate values), the examiner appropriately rejects most claims while allowing some nuanced non-obvious findings for claims 1, 11, and 19, reflecting a balanced rather than uniformly strict or lenient approach consistent with the mid-range profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims under §103 directly follows from the obviousness stage findings, which found the vast majority of claims obvious, and the office action rejections, with the final decision's reasoning explicitly tracking the same Kumar+Smith combination rationale developed throughout."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2020001350",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18551,
+      "output_tokens": 409,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "case_id": "2019000091",
+  "proceeding_number": "2019000091",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'projected speed calculation', 'signal strength threshold parameters' 등 핵심 기술 요소의 정량적 기준이 명시되지 않아, 통상의 기술자가 발명을 실행하기 위해 과도한 실험을 요구하는 상황이 발생함. 'substantially' 및 'predetermined threshold'와 같은 용어는 기술적 구현의 불확실성을 초래하며, 이는 112(a) 및 (b)의 기재요건을 명백히 위반함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술의 결합으로 명확히 예측 가능하며, 결합 동기와 기술적 중첩이 명시적으로 제시됨. 고신뢰도의 증거로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항의 핵심 요소(예: 'local data set', 'semi-local data sector')가 명세서에서 명확히 정의되지 않으며, 알고리즘적 구현이 부족함. 기술적 실현 가능성 부족으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2014121932-A1 and US-2014278090-A1) explicitly discloses features overlapping with claims 7, 8, 10, 15, 17, 18. However, the combination threshold (0.68) is not met, and the novelty analysis indicates distinct technical focus on data download optimization. The PHOSITA would not readily combine these elements for download timing optimization, suggesting the claims are not obvious under strict scrutiny."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objection highlights insufficient detail for dynamic data boundary algorithms, but the specification's breadth (0.37) and the applicant's technical contribution (purpose-driven) suggest the disclosure is sufficient. The lack of explicit algorithm details may be addressed through amendment rather than rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 3 are clearly anticipated by prior art combinations with strong technical overlap and logical motivation to combine. The verification status confirms prior art alignment with claimed functionality."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks sufficient detail on projected speed calculations and geo-fence algorithms, but this is a technical implementation issue rather than a fundamental enablement problem."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014278090-A1과 US-2014121932-A1의 결합은 명확한 동기(데이터 다운로드 효율 개선)와 기술적 효과(지연 감소)를 바탕으로 통상의 기술자가 쉽게想到할 수 있는 명백한 조합으로, 103_obviousness 기준을 충족합니다. Graham 요소에서의 기술 차이가 '공지된 기술의 자명한 변형'으로 간주되며, 증거의 신뢰도가 높습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (2, 4-20) are explicitly rejected as obvious combinations of prior art with clear motivation to combine. Confidence scores for these claims range from 0.6 to 0.85, meeting the strictness threshold of 0.82. The Graham factors provide detailed technical rationale for obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Enablement issues persist across most claims due to vague terms like 'local data set' and lack of implementation details. While not as strong as 103 evidence, the strictness parameter (0.82) favors rejection over amendment suggestions."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2014278090-A1 and US-2014121932-A1 directly addresses the deficiencies in claims 1 and 3, with clear motivation for optimization in wireless networks. Verification confirms the combination's validity."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Critical terms like 'projected speed' and 'projected size' lack specific definitions, undermining enablement and written description under 35 USC 112(a)/(d)."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 is explicitly anticipated by US-2014278090-A1 with clear motivation to combine, meeting strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 3 lacks concrete definitions for 'projected size' and 'transfer rates' in the specification, confirmed by verification status."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected under 103 due to clear prior art combinations (US-2014278090-A1 and US-2014121932-A1) with explicit motivation to combine, verified by Graham factors and high confidence scores."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims are anticipated by prior art, but some claims (e.g., 2, 5) show partial novelty. However, the overall trend indicates strong anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claim 1's 'local data set' lacks explicit definition in the specification, but this is a minor issue compared to the strong 103 rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 5-20) are explicitly anticipated or obvious over prior art with high confidence (0.7-0.9). The Graham factors show clear motivation to combine teachings for navigation efficiency, with no non-obviousness indicators."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Indefinite terms like 'semi-local' and 'indicium' raise enablement concerns, but some claims (2, 5) have sufficient technical details in the specification to support allowance."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (2,4,6,8,10,11,12,13,14,15,16,17,18,19,20) are rejected as obvious combinations of US-2014121932-A1 and US-2012281091-A1. The combination motivation (e.g., optimizing data download efficiency) is explicitly supported by prior art, and confidence scores (0.65-0.85) exceed the strictness threshold (0.52)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술의 기술적 요소(US-2014278090-A1, US-2014121932-A1, US-2012281091-A1)의 결합 가능성이 명확히 제시되어, 결합 동기와 기술적 효과가 명확함. Graham 요인에 따르면 PHOSITA가 당연히 결합할 수 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'projected speed', 'perimeter distance' 등 핵심 용어의 구체적 정의와 실시 예시가 부재, 기술적 설명 부족으로 인해 뒷받침 불충분 판단. 이는 특허법 제112조의 요구사항을 충족하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple prior art references (US-2014278090-A1, US-2014121932-A1, US-2012281091-A1) directly overlap with claims 1, 3, 6, 9, 16. The combination threshold (0.48) and Graham factors confirm obviousness with high confidence (0.75-0.85)."
+        },
+        {
+          "basis": "112(b)",
+          "strength": "moderate",
+          "reasoning": "Enablement issues for claims 1, 3, 6, 9, 16 lack sufficient detail, but the prior art provides foundational concepts that mitigate this weakness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all elements and their combination is logically obvious. Verification notes confirm the combination is predictable and aligns with PHOSITA's knowledge."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks sufficient detail on algorithms and criteria for perimeters, geo-fence positioning, and timing calculations, which impacts enablement."
+        }
+      ]
+    }
+  ]
+}

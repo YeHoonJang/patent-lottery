@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies the correct legal frameworks: element-by-element anticipation analysis under §102 with specific claim-to-prior-art mapping, and Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) explicitly articulated for every §103 claim—no cross-statute confusion detected."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the novelty and obviousness stages, conclusions are consistently tied to specific claim language (e.g., 'identifying private portions,' 'masking private portions,' 'grouping') and specific prior art disclosures (e.g., 'identifying fields pre-tagged as private,' 'dynamically redacting private data' from US-2013167249-A1), satisfying evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Later §103 and office action conclusions are consistent with the earlier §102 findings—claims found not novel under §102 are also rejected under §103 with additional rationale (e.g., HIPAA compliance, known automation trends), and claims found novel under §102 are allowed or not rejected under §103, with no contradictory reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's high strictness (0.875) and low combination threshold (0.344) are explicitly invoked in the reasoning (e.g., 'strictness=0.88 기준으로 BRI 해석,' 'combination_threshold=0.34 하에서 결합 동기가 충분하다'), consistently resolving ambiguity (e.g., 'grouping as incidental result') toward rejection and accepting weaker motivation to combine, in line with the profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'reject' decision follows directly from the accumulated stage analyses: claims with strong prior-art overlap are rejected, claims with layer-based UI, virtual coordinates, screenshots, and advertisement features—which were found non-obvious in earlier stages—are granted, and the summary explicitly references the stage-level reasoning without unexplained reversals."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001826",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16405,
+      "output_tokens": 503,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

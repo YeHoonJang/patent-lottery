@@ -1,0 +1,285 @@
+{
+  "case_id": "2021001144",
+  "proceeding_number": "2021001144",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The analysis indicates that the claimed invention is not obvious over the cited prior art reference US-2014265550-A1. The specific interconnection between the supply voltage input of the interface expansion module and the digital data output of the network device to enable fail-safe behavior and load diagnosis capabilities is not suggested by the prior art. The motivation to combine the prior art references to achieve the claimed invention is not clearly established."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014265550-A1이 청구항의 주요 요소를 공개하고 있으며, 결합 동기가 명확히 제시되어 있어 진보성을 부정하는 근거가 명확함"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 핵심 요소를 암시적으로 제시하고 있으나, '오류 시 작동 중단 기능'과 같은 특정 구현 방식에 대한 명시적인 언급이 없어 해석 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The US-2014265550-A1 reference provides a reasonable basis for the obviousness rejection. The claimed features are considered to be predictable variations of the reference's teachings, but the confidence levels for some claims are relatively low (0.53-0.76), indicating some uncertainty in the application of the rejection to all claims."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 고장 감지 및 전류 측정 기능을 암시적으로 포함하지만 명시적으로 언급하지 않음. 통상의 기술자가 선행기술의 전력 및 네트워크 연결 구조에 고장 감지 및 전류 측정 기능을 결합할 동기가 있음. 결합 동기 기준(0.51)을 만족하지만, 선행기술과 청구항 간 차이가 명확하지 않아 중간 수준의 강도로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejection is supported by a clear motivation (fail-safe behavior) and predictable results, with a confidence level of 0.7. Given the combination threshold (0.46) and the examiner's strictness (0.47), the rejection is justified as the prior art provides a foundation for the claimed invention, and the design choice is within the ordinary skill level."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2014265550-A1 discloses a system with power and network connectivity features that can be interpreted as establishing a basis for obviousness. The confidence for claims 1-4 is above or at the combination_threshold (0.55), indicating moderate strength. Claims 5-7 have lower confidence (0.45), making their obviousness rejections weaker."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The reasoning for the 103 rejection is based on the prior art reference US-2014265550-A1 and the ordinary level of skill in the art. The confidence levels for the obviousness determinations range from 0.4 to 0.6, indicating moderate confidence in the rejection. While the prior art teaches similar functionality, the confidence levels suggest that the rejection is not definitive and requires further consideration."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 rejection is based on the prior art reference US-2014265550-A1, which is provided and explained in the reasoning. The confidence levels for the novelty determinations range from 0.4 to 0.6, indicating moderate confidence in the rejection. The prior art teaches similar functionality, but the confidence levels suggest that the rejection is not definitive and requires further consideration."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejection is based on the US-2014265550-A1 reference, which teaches a distributed sensor network with interface units and sensor units that share similarities with the claimed invention. While the reference does disclose the core concepts of power and network connectivity through interconnections, the specific configuration where the supply voltage input of the interface extension module is interconnected with the digital data output of the network device is not explicitly taught. The motivation to combine is based on the well-known objective of improving safety and reliability in networked systems, which is reasonable but not entirely compelling. The secondary considerations suggest that the claimed invention may offer some improvements in implementation details, which are considered routine design choices. Therefore, the strength of the obviousness rejection is moderate."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The reasoning for the 103 rejections is based on the prior art reference US-2014265550-A1 and the motivation to combine for improved fault detection and safety. While the prior art does not explicitly disclose all the claimed features, the reasoning suggests these would be obvious variants to a PHOSITA. The confidence scores (0.7-0.75) indicate moderate strength in these rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the prior art reference US-2014265550-A1 and the assertion that certain features (unoccupied digital data output, fail-safe behavior, load diagnosis) would have been obvious to a person of ordinary skill in the art. While the prior art does not explicitly disclose these features, the Office Action argues they are obvious design choices or well-known techniques. This is a moderate strength rejection as it relies on some interpretation of what would have been obvious to a person of ordinary skill in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The reasoning for the 103_obviousness rejection is based on the US-2014265550-A1 reference and the assertion that the claimed features (switching off the module in case of errors or measuring sum current for load diagnosis) would be obvious variants to one of ordinary skill in the art. The confidence level is 0.7, indicating a moderate level of certainty. While the reference provides a foundation in power and network connectivity management, the specific combination of features for load diagnosis through summation current measurement is not explicitly taught. The motivation to combine is based on the well-known need for system reliability and fault detection in safety-relevant networks, which is reasonable but not definitive. Therefore, the strength of this rejection is moderate."
+        }
+      ]
+    }
+  ]
+}

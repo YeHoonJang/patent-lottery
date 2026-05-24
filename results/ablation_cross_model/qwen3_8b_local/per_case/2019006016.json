@@ -1,0 +1,327 @@
+{
+  "case_id": "2019006016",
+  "proceeding_number": "2019006016",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are rejected based on clear combination of prior art references (DE 10 2007 003 040 B4 and US-2014150923-A1) with explicit motivation to combine. Graham factors and confidence scores (0.6-0.85) support strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "DE102007003040B4와 US-2014150923-A1의 결합은 기술적 맥락과 결합 동기의 논리성을 충분히 갖추고 있으며, 선행기술의 기능적 요소 통합이 당업자에게 자명한 수준으로 판단됨. strictness=0.88에 따라 강력한 근거로 간주."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 10's position calculation is explicitly supported by prior art combination with clear motivation (Graham factors). Confidence score 0.8 indicates strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art lacks specific combinations of parameters and functionalities (e.g., dynamic position calculation using speed/volume/flow rate, multi-parameter optical analysis). While some references address individual elements, the integration and novel application to dosing systems are not disclosed, making combination less straightforward."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (DE 10 2007 003 040 B4 and US-2014150923-A1) explicitly discloses optical sensing and motion control components that can be combined with clear motivation to achieve the claimed result. The combination threshold is met with high confidence (0.82-0.91)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Ambiguous terms like 'first volume' and 'nature of the vessel' lack sufficient specification in the disclosure, confirmed by verification. This creates enablement and written description issues under 35 USC 112."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항에서 'predetermined speed', 'predetermined volumetric flow', 'nature of the vessel' 등은 명세서에서 정량화되지 않거나 명확히 정의되지 않아 기재요건을 충족하지 못함. 알고리즘적 계산 방법과 광학 매개변수 기준이 명세서에 제공되지 않아 청구항의 불확정성과 지원 부족이 명확히 확인됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "DE 10 2007 003 040 B4 and US-2014150923-A1 provide explicit teachings that directly address the claimed features. The combination is logical and supported by clear motivation, meeting the threshold for obviousness under strictness=0.47."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action identifies overly broad claims lacking specific optical sensor configuration details, raising enablement concerns. While the specification supports the claims, the breadth may require clarification to meet enablement requirements under 35 U.S.C. § 112(a)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Office Action explicitly rejects claims 10, 11, 13, 14, 15, 18, 20, 22, 24 under 35 U.S.C. § 112(a) for insufficient written description and enablement. Claims 12, 17, 27 are allowable due to specific implementation details for optical sensor integration."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "DE 10 2007 003 040 B4 directly anticipates claims 12, 14, 21, 22, 26, 28 with explicit disclosure of optical phase detection and parameters."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 17 and 27 are obvious by combining US-2014150923-A1 and DE 10 2007 003 040 B4 with clear motivation for integration."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 15, 16, 24, 25 lack prior art references but have weak motivation to combine, requiring further evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Clarity issues in 'predetermined speed' and 'predetermined volumetric flow' are speculative without specification details."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2014150923-A1) explicitly teaches mechanical positioning systems with guide bores and force-controlled drives. Optical sensing for phase boundary detection is a well-known technique in fluid analysis. The combination of these elements is obvious to a PHOSITA as both components are separately taught and the integration addresses a predictable result (fluid analysis with positional control). The high confidence (0.7) and clear motivation to combine (flow-rate-based speed adjustments, modular sensor housing) support strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims are deemed non-obvious as no prior art suggests the specific combinations or technical integrations required by the claims, with clear distinctions from existing art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The Office Action explicitly identifies indefinite terms ('phase boundary', 'directly adjoining') and insufficient disclosure of critical methodologies ('predetermined volumetric flow', 'second position calculation'), which directly violate 35 U.S.C. § 112(a) and (b). The specification's lack of detail renders the claims unenable, meeting the 'undue experimentation' standard under MPEP § 2173.02."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "DE 10 2007 003 040 B4 explicitly discloses all claimed elements (claims 10, 12, 14) with high confidence (0.85/0.88/0.82), meeting strictness threshold"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2014150923-A1 provides clear motivation for claims 11/13, but features are not explicitly disclosed (confidence 0.75/0.72), slightly below combination_threshold"
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No abstract idea issues identified"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No description issues identified"
+        }
+      ]
+    }
+  ]
+}

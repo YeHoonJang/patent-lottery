@@ -1,0 +1,284 @@
+{
+  "case_id": "2021003412",
+  "proceeding_number": "2021003412",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1의 구성요소들은 US-2016352767-A1과 US-2014179270-A1의 결합에 의해 명확히 개시되며, PCA와 SVM의 결합은 분산 컴퓨팅 시스템 모니터링 분야에서 공지된 기술적 관행임. 두 선행기술 모두 이상 행동 탐지를 목적으로 하며, 차원 축소 후 분류 모델 적용은 성능 향상과 계산 효율성이라는 명확한 동기를 제공함. Graham 요소 분석에서도 차이점이 비본질적이며, 통상의 기술자 수준에서 용이하게 결합 가능하다고 판단됨. confidence 0.82로 높은 신뢰도 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references US-2016352767-A1 and US-2014179270-A1 collectively disclose all key elements of the claimed invention: preprocessing (variance-based filtering, timestamp synchronization), PCA (mean-centering, covariance, eigen-decomposition), and SVM classification. The combination is in the same field, with clear motivation to improve anomaly detection accuracy by reducing noise and dimensionality. Each step is either explicitly disclosed or a well-known, textbook extension (e.g., PCA from multivariate Gaussian models). PHOSITA would find the combination obvious. Secondary considerations absent. Confidence in obviousness is high across all claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 PCA 기반 시스템 지표를 분산 컴퓨팅 시스템의 상태 분류기 학습에 사용하는 구체적 통합을 명시적으로 개시하지 않음. US-2016352767-A1은 공분산 행렬과 평균 중심화를 사용하지만, 주성분을 시간에 따른 시스템 지표로 계산하고 이를 분류기 학습에 적용하는 것은 명시되지 않음. US-2014179270-A1은 SVM 기반 이상 탐지를 개시하지만, PCA 유도 지표를 사용하지 않음. 두 기술의 결합 동기는 명확하지 않으며, 특히 분산 컴퓨팅 환경이라는 맥락에서의 적용은 비자명함. 그러나 데이터 전처리 및 PCA는 공지 기술로 간주될 수 있어, 일부 청구항에 대해선 자명성 판단이 가능함. 그러나 핵심 통합에 대한 기술적 차별성은 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 PCA 기반 분석과 SVM 분류를 각각 개시하고 있으나, PCA로 도출된 시스템 지표를 상태 분류기 훈련에 사용하는 통합적 아키텍처는 명시적이지 않음. 결합 동기(motivation to combine)가 존재하나, 분산 컴퓨팅 시스템의 고차원 메트릭 처리라는 특정 기술적 문제에 대한 해결책으로서의 통합은 자명하지 않을 수 있음. 심사관 성향(strictness=0.29)에 따라, 기술적 기여가 인정되는 경우 출원인에게 유리하게 판단함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 조합이 명확하며, 결합 동기가 타당하고 공지된 기술의 직관적 통합에 해당함. 특히 PCA, SVM, 전처리 단계는 각각 US-2016352767-A1 및 US-2014179270-A1에 명시적 또는 암시적으로 개시됨. 통상의 기술자에게 이러한 결합은 자명하며, 신규성 및 진보성 모두 결여됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2016352767-A1 and US-2014179270-A1 provides clear and direct teachings of all key elements: multivariate statistical analysis including PCA-like methods (Gupta), time-series preprocessing, outlier labeling, and SVM-based classification (Sharma). The motivation to combine is strong, rooted in the shared technical goal of improving anomaly detection in complex systems. The claimed steps—preprocessing, PCA application, threshold-based labeling, classifier training, and real-time deployment—are individually and collectively routine in the field. Given the high confidence in both novelty and obviousness assessments (confidence scores ≥0.78), and alignment with PHOSITA knowledge, the 103 rejection is well-supported and robust."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016352767-A1과 US-2014179270-A1의 결합은 출원 발명의 핵심 구성요소 — 메트릭 전처리, PCA 기반 차원 축소, 상태 분류기 훈련 및 이상 탐지 — 를 충분히 개시하고 있으며, 결합 동기(motivation to combine)가 명확함. PCA의 핵심 수학적 절차(평균 중심화, 공분산 행렬)는 Rajagopal에 명시적으로 존재하며, Bhattacharya는 SVM 기반 이상 분류를 명확히 개시함. 두 기술의 통합은 분산 컴퓨팅 환경에서 고차원 메트릭 스트림을 처리하기 위한 예측 가능한 기술 발전으로, PHOSITA에게 자명함. Graham 요소들(기술 수준, 차이점, 보조적 고려사항)도 obviousness를 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대부분의 청구항에 대해 REF2와 REF3의 결합이 일반적인 이상 탐지 및 데이터 전처리 기법을 포함하고 있어 진보성 거절이 타당해 보이나, 특히 청구항 6, 13, 20에서의 '경계 기반 레이블링을 통한 SVM 학습' 구조는 선행기술에서 명확히 개시되지 않으며, 이는 단순한 설계 선택을 넘어서는 기술적 혁신일 수 있음. 통상의 기술자가 이를 자발적으로 결합할 동기가 충분히 입증되지 않아 강한 거절 근거로 보기에는 한계 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Combination of US-2014179270-A1 and US-2016352767-A1 provides clear teaching for preprocessing (filtering, synchronization), statistical analysis using covariance (foundation for PCA), and SVM-based classification. Motivation to combine is strong due to shared field and common goal of anomaly detection in time-series data. PHOSITA would readily apply known data science techniques like PCA and standard deviation filtering. Confidence in obviousness is high across most claims."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claims involving eigenvalue/eigenvector computation (4, 11, 18), while the mathematical foundation (mean, covariance) is present in US-2016352767-A1, explicit disclosure of PCA's full implementation is absent. However, PCA is a well-known technique in the art for dimensionality reduction in anomaly detection. Given the moderate strictness (0.46), this routine application of a standard method to known data is considered obvious, though slightly less certain than other combinations."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016352767-A1과 US-2014179270-A1의 결합은 이상 탐지를 위한 통계적 및 머신러닝 기반 프레임워크를 명확히 개시하며, PCA의 적용은 다변량 데이터 분석에서 통상의 기술자가 용이하게 도달할 수 있는 공지 기술로 간주됨. 동기 결합도 명확하고, 기술적 효과도 예측 가능함. combination_threshold=0.33 기준에 비추어도 충분히 낮은 수준으로 obvious 판단이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "대부분의 청구항에 대해 US-2016352767-A1과 US-2014179270-A1의 결합이 명확한 기술적 동기를 제공하며, PCA, 표준편차 기반 필터링, 타임스탬프 동기화, SVM 기반 이상 탐지 등은 해당 기술 분야에서 공통적으로 알려진 기술임. 특히 데이터 전처리 및 기계학습 기반 이상 탐지 시스템에서 이러한 기법들의 결합은 일반 숙련자에게 명백함. 진보성 판단의 confidence 값도 0.78~0.88로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2014179270-A1 and US-2016352767-A1 provides clear and substantial support for all claimed elements. Both references are in the same field of anomaly detection in computing systems, disclose overlapping techniques (time-series modeling, outlier detection, SVM classification, multivariate statistical analysis), and provide a clear motivation to combine to improve detection accuracy. The claimed preprocessing, PCA-based system indicator computation, and SVM classification represent predictable integrations of known methods. Confidence scores for obviousness are consistently high (0.82–0.92), indicating strong evidentiary support."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of REF3, REF2, and REF1 provides a coherent and well-supported basis for obviousness. REF3 discloses core statistical preprocessing (mean-centering, covariance, outlier detection), which inherently involves standard deviation and implies PCA foundations. REF2 adds time-synchronization and SVM classification, both standard in anomaly detection. The motivation to combine—improving data quality and detection accuracy in multivariate time-series systems—is logical and field-appropriate. Graham factors support obviousness: the scope and content are closely aligned, PHOSITA would know these techniques, and no secondary considerations rebut obviousness. Confidence scores (0.8–0.9) across claims confirm strong rationale."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014179270-A1과 US-2016352767-A1은 모두 이상 행동 탐지 시스템에 관한 명확한 선행기술을 제공하며, 각각 시간 기반 모델링, 메트릭 벡터 구성, 통계적 편차 분석, SVM 기반 분류를 개시함. 청구항 2, 3, 4, 6, 7, 8 등은 이러한 공지기술의 직접적 결합 또는 일반적인 데이터 전처리 파이프라인 구현에 해당하며, 결합 동기(motivation to combine)가 명확하고 예측 가능한 결과를 도출함. 특히 PCA, 표준 편차 기반 필터링, 런타임 상태 분류기 적용은 통상의 기술자에게 자명한 기술적 관행으로 간주됨."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "case_id": "PILOT-2021001650",
+  "proceeding_number": "2021001650",
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 9's use of digital media file (e.g., image) for damage assessment is a predictable improvement over technician input in US-2014188999-A1. Visual documentation was well-known in insurance and repair industries. Motivation to combine is clear: improve accuracy and support remote decisions. Confidence is high (0.8) and aligns with prior art's purpose."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 16's implementation on a non-transitory medium is conventional software practice. Prior art discloses processor-executable modules for status communication. Implementing known functions in standard computing environment is obvious. Secondary considerations absent. Strength is strong due to ubiquity of software-based systems."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 17 and 22 involve brokering repair decisions using digital media. Core communication flow (technician → system → owner) is disclosed in prior art. Substituting coded status with digital images is predictable. However, 'brokering' as a formalized process adds slight structural nuance. Strength is moderate due to functional overlap but marginal innovation in workflow orchestration."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2014188999-A1과 공지기술의 결합이 논리적이고, 선행기술이 제공하는 시스템 구조와 목적(서비스 상태 통신)이 청구항의 구성요소(이미지 촬영, 미디어 전송, 수리/교체 결정, 기술자 선택 등)와 명확히 연결됨. 결합 동기(motivation to combine)는 기술적 개선(정확성 향상, 의사소통 효율화)으로 명확하며, 각 구성요소는 모바일 서비스 시스템에서 일반적으로 알려진 기술임. Graham 요소 전반에서 obviousness가 입증됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious=false로 평가되었으며, 결합 동기(motivation to combine)가 부족하고 선행기술과의 통합적 개시가 없다고 명시됨. 특히 카메라를 통한 디지털 미디어 파일 획득, 시각적 데이터 기반 의사결정, 기술자 선택 프로세스 등은 선행기술에 개시되지 않음. combination_threshold=0.68임에도 불구하고, confidence 값이 낮은(0.75~0.95) 판단들이 다수이나, 모든 reasoning이 비자명성을 지지하고 있어 실질적인 obvious 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014188999-A1은 서비스 상태 통신 시스템을 개시하고 있으며, 통합 카메라를 이용한 손상 이미지 촬영, 차주에게 디지털 미디어 전송, 수리/교체 결정, 기술자 선택 및 ETA 기반 디스패치 등의 구성요소는 모두 공지된 기술 또는 일상적인 서비스 운영 관행에 기반한다. 카메라 활용, 시각 정보 기반 의사결정, 디스패치 최적화는 모두 예측 가능한 기술 발전이며, 결합 동기가 명확하고 PHOSITA가 쉽게 결합할 수 있음. 선행기술과의 차이점이 기술적 진보라기보다는 데이터 유형 및 통신 흐름의 단순한 확장에 불과하므로, obviousness 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "출원 청구항 9, 16, 17, 22는 선행기술 US-2014188999-A1의 핵심 기능(상태 정보 수집 및 통신)을 기반으로 하며, 디지털 미디어 파일 사용은 통상의 기술자가 진단 정확성을 높이기 위해 자명하게 도입할 수 있는 수단. 결합 동기(정확성 향상)가 명확하고, 기술적 맥락이 일치하므로 강한 obviousness 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 8 and 15 are clearly anticipated by US-2014188999-A1, which explicitly discloses predefined status updates (e.g., 'service not begun,' 'in progress,' 'completed') selected and communicated via a communication module. The disclosure is direct and unambiguous, satisfying the 102 standard."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection of claims 9, 16, and 22 under 103 relies on combining US-2014188999-A1 with common knowledge about digital media transmission. While transmitting visual data for vehicle damage is routine, the integration of an in-vehicle technician system with automated camera actuation is not fully addressed in the prior art. The motivation to combine is reasonable but not compelling, making this a moderate-strength rejection under a balanced strictness standard."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대부분의 103 거절은 선행기술의 기능을 확장하거나 공지된 설계 선택으로 보는 데 근거함. 그러나 일부 주장(예: 미디어 파일 전송)은 당시 기술 수준에서 자명한지에 대해 해석의 여지 존재. strictness=0.55 기준으로, 증거는 충분히 강력하지만 완전히 명백하다고 단정하기 어려운 사례 포함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 6 및 13은 선행기술에 명시적으로 개시되어 있음. '권한이 차량 소유자'라는 요소는 US-2014188999-A1의 연락처 정보와 모바일 기기 연결 구조에서 직접적으로 도출되며, 해석의 여지 없이 anticipation 성립."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Digital media file transmission is a known format in telematics, but the prior art does not explicitly disclose it. The motivation to combine relies on functional equivalence between text-based status and digital media. At strictness=0.46, this is not strong enough to sustain a 103 rejection without more explicit teaching or technical synergy."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 6 and 13 directly correspond to explicit disclosure in US-2014188999-A1 regarding contact information linked to the vehicle owner. The prior art unambiguously identifies the owner as the recipient and authority. This meets the legal standard for anticipation under §102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 11’s digital media communication is treated as obvious over prior art that transmits status information. However, the transformation from general status data to structured digital media (e.g., images/video) involves a technical distinction. While common in practice, the leap from text to media file is not fully substantiated in the reference, making the 103 basis debatable at moderate strictness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대부분의 103 거절은 공지기술과의 결합 동기에 기반하며, combination_threshold=0.33으로 인해 비교적 낮은 수준의 동기로도 obvious 판단이 이루어짐. 특히 카메라 통합, 소유자 권한 명시, polling, 복수 기술자 선택 등은 선행기술에 직접 개시되지 않았으나, '공지된 관행' 또는 '자명한 설계 선택'으로 간주됨. 그러나 이러한 판단은 BRI와 관대한 결합 기준에 의존하며, strictness=0.50인 중립적 심사관 관점에서 일부는 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 6, 7, 8, 11, 12, 13, 14, and 15 are based on clear teachings in US-2014188999-A1, with additional elements (e.g., digital media, location, pre-formed updates) representing routine improvements known in the art. The motivation to combine is well-supported by common practices in service communication and dispatch systems. At combination_threshold=0.44, these modifications are obvious to a PHOSITA."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2014188999-A1 with common knowledge in the art renders some claims obvious, particularly those involving camera integration and digital media communication. However, the motivation to combine is not strongly explicit for claims involving dynamic technician selection and polling, leading to moderate confidence in obviousness rejections for most claims except 18–21."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거절된 청구항들에 대한 103 거절은 공지기술 기반의 명백한 변형으로서 결합 동기가 존재하지만, 일부 청구항(예: 18-21, 23)은 US-2014188999-A1에 명시적으로 개시되지 않은 디스패치 및 기술자 선택 메커니즘을 포함한다. 이러한 기능들은 서비스 물류에서 통상적일 수 있으나, 본 출원의 맥락에서 통합된 운영 모델로서의 혁신성은 완전히 명백하지 않다. 심사관 성향(strictness=0.60)에 따라, 이러한 해석의 여지가 있는 근거는 보정 가능성과 함께 재고될 수 있다."
+        }
+      ]
+    }
+  ]
+}

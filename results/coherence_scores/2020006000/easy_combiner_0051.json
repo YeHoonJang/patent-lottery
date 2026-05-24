@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis explicitly invokes Graham factors (scope and content, differences, PHOSITA level, secondary considerations) for each claim, and the novelty stage correctly performs element-by-element comparison against the prior art reference, using statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions at each stage are tied to specific claim elements (e.g., 'unstructured text description,' 'NLP keyword extraction,' 'subset determination,' 'GUI format conversion') and reference the specific prior art document US-2016140466-A1 with identification of what it does and does not disclose."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage finds all claims novel, and the §103 stage consistently finds all claims non-obvious for the same reasons, with the office action and final decision following that same trajectory without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has combination_threshold=0.329 (easy combiner) but consistently finds no motivation to combine and rules non-obvious; however, strictness is moderate (0.502) and the examiner grants all claims, which is consistent with a mid-strictness pragmatist profile facing claims with clearly distinguished elements — the reasoning does not contradict the profile dimensions."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision follows directly and explicitly from the accumulated §102 and §103 findings (all claims novel and non-obvious), the office action allowing all claims, and the final decision summary restating those same grounds without any unexplained reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006000",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16949,
+      "output_tokens": 382,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

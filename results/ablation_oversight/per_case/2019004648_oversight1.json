@@ -1,0 +1,288 @@
+{
+  "case_id": "ABL-2019004648",
+  "proceeding_number": "2019004648",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.07142857142857142,
+  "reject_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1은 모듈형 전자 장치의 기계적 및 전기적 연결, 선택 가능한 기능 모듈, 전류 정격 변형 가능성을 명확히 개시하며, 청구항 1, 2, 8, 10, 11, 12, 15의 구성은 이 선행기술로부터 자명하게 도달 가능하다. 결합 동기(motivation to combine)가 명확하고, 모듈형 설계는 공지된 기술적 흐름이다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1은 고장 감지, 트립 신호 출력, 트립 유닛 동작의 일련의 과정을 개시하므로, 청구항 5는 이 기술을 모듈식 장치에 적용한 것으로 자명한 결합이다. 선행기술 간의 기능적 호환이 명확하며, 동기가 존재한다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1과 US-2015123751-A1은 동일 기술분야(circuit protection, modular electrical devices)의 선행기술로, 모듈 선택, 전류 정격 조정, 고장 감지, 트립 동작, 액추에이터 동작 등 본 출원의 핵심 기능을 각각 개시함. 두 기술의 결합은 예측 가능한 결과를 산출하며, 통상의 기술자가 모듈식 차단기의 유연성과 신뢰성을 향상시키기 위해 자명하게 결합할 수 있음. 결합 동기(motivation to combine)가 명확하고, 선행기술 간 기술적 격차가 없음. 신규성 판단에서 일부 청구항이 102에 의해 거절된 점도 103의 강도를 뒷받침함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 제공되었고, 결합 동기의 존재는 일정 부분 인정되나, '현장 구성 가능성(field-configurable)' 및 모듈 선택을 통한 정격/기능 맞춤성은 선행기술의 단순한 결합을 초월하는 기술적 기여로 해석 가능. 특히 제1항의 핵심인 '선택 가능한 모듈 조합'은 단순한 설계 선택이라기보다 새로운 기술적 효과를 제공함. 심사관 성향이 관대하고, innovation을 장려하는 입장에서, 이러한 해석의 여지는 출원인에게 유리하게 작용함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although two references (US-2014126158-A1 and US-2015123751-A1) disclose modular coupling and trip mechanisms respectively, there is no clear motivation to combine them to achieve the claimed field-configurable, functionally segregated architecture. The combination would require rethinking system design principles, particularly placing detection intelligence in a separately selectable second portion. Given the combination_threshold=0.72 and lack of explicit teaching or suggestion, the obviousness rejection is weak. Secondary considerations such as reduced inventory, customization flexibility, and long-felt need further weaken the obviousness position."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1과 US-2015123751-A1의 결합은 모듈성과 트립 메커니즘 간의 기술적 동기를 명확히 제공하며, 동일 기술 분야에서 통상의 기술자가 합리적으로 결합할 수 있음. 특히, 모듈 설계와 전기적 차단 기능의 통합은 공지된 설계 목표로, motivation_to_combine이 명확함. confidence 0.8 이상의 진보성 판단이 다수 포함됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 14의 'processor apparatus' 및 'routines'는 기능적 언급에 그치며, 명세서에 구조적 구현(예: 프로세서 유형, 메모리 구성, 알고리즘 절차)이 기재되지 않음. 소프트웨어 구현 발명에 있어 알고리즘 미기재는 §112(a) 위반으로 간주됨. 이는 실무에서 일관되게 적용되는 기준임."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3의 분리 불가능성은 선행기술이 강조하는 재구성 가능성과 대조되며, 안전성 또는 방해 방지를 위한 설계 선택으로 간주될 수 있으나, 이를 통상의 기술자가 자명하게 도입했을 가능성은 제한적임. Claim 9의 정량적 수용 비율은 구조 최적화로 볼 수 있으나, 구체적인 기술적 효과나 실험 데이터 없이 'routine optimization'으로 간주하기에는 약간의 비자명성이 있음. Claim 13의 TEST 입력은 GFCI 등에서 공지되었으나, 해당 출원의 맥락에서 감지 시스템과 트립 유닛의 연동을 통해 자가 진단을 수행하는 방식은 단순한 기능 추가를 넘는 통합적 설계일 수 있음. 그러나 세 가지 모두 결합 동기와 공지기술 기반으로 103 적용이 타당하다고 판단할 수 있는 경계 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1과 US-2015123751-A1의 조합은 모듈성과 전기적 차단 기능을 통합하는 공지된 설계 목표를 반영하며, 결합 동기가 명확하고 동일 기술분야에서 통상의 기술자에 의해 예측 가능함. 청구항 1의 구성요소 대부분이 두 문헌에 개시되어 있으며, 결합 시 새로운 기술적 효과 없음. confidence 0.85 이상의 진보성 판단 다수 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 4에 대한 obviousness 판단은 열/자기 트립 유닛이 공지된 기술이라는 점에서 합리적이지만, 명세서에 특별한 구조적 차별성이 있을 수 있음. Claim 13의 TEST 입력 장치는 사용자 테스트 기능이 전기 안전 장치에서 일반적이라는 점에서 동기 부여는 있으나, 선행기술에 직접적 개시는 없음. strictness=0.46인 본 심사관은 약한 동기에는 출원인에게 유리하게 판단하나, 공지기술 수준이 높아 moderate 수준으로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1과 US-2015123751-A1의 조합은 청구항 1의 모든 구성요소를 개시하며, 결합 동기(motivation to combine)가 명확함. 모듈화 설계는 전기 보호 장치 분야에서 공지된 기술적 트렌드로, 통상의 기술자에게 명백한 설계 선택임. confidence 점수가 0.85로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 7에 대해 US-2015123751-A1은 액추에이터의 작동을 개시하나, 확장 위치에서 제1 내부 영역에 부분적으로 수용된다는 점은 명시하지 않음. 그러나 기계적 정렬 및 보호를 위한 공학적 관행 측면에서 obvious 판단이 가능하나, 해석의 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 9 및 13은 선행기술에서 명확히 개시되지 않았으며, 결합 동기가 부족함. 특히 TEST 입력 장치의 구체적 구현은 공지되지 않아 obvious 판단이 어려움. 다만, 자가 진단 기능 자체는 공지되었을 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1과 REF2의 결합은 청구항 1의 모든 구성요소를 포괄하며, 모듈형 인터럽션 장치의 현장 구성 가능성은 동일 기술 분야의 통상적 기술자가 명백하게 결합할 수 있는 범위에 있음. 결합 동기(motivation to combine)가 명확하고, 선행기술 간 기술적 장벽 없이 통합 가능. Graham 요소에서 scope and content, differences, PHOSITA level 모두 obviousness를 지지함. confidence 점수 평균 0.8 이상으로 강한 신뢰도."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1과 US-2015123751-A1의 결합은 청구항 1의 모든 구성요소를 충분히 개시하며, 동일 기술분야 내에서 모듈화 및 보호 기능 통합은 공지된 설계 동향임. 결합 동기(motivation to combine)가 명확하고, Graham 요소들도 obviousness를 지지함. confidence 0.7 이상의 대부분 청구항에서 일관된 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015123751-A1이 트립 유닛과 과전류 릴레이를 개시하고 있으며, 열 트립 및 자기 트립은 회로 차단기 분야에서 공지된 기술로, 통상의 기술자가 이를 채택하는 것은 예측 가능한 기술 적용으로 판단됨. 결합 동기와 증거가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014126158-A1과 US-2015123751-A1의 결합은 모듈성과 보호 기능 통합이라는 공지된 설계 목표를 반영하며, 통상의 기술자가 명백하게 결합할 수 있는 기술이다. 결합 동기와 예측 가능성 모두 명확함."
+        }
+      ]
+    }
+  ]
+}

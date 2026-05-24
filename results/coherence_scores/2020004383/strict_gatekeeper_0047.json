@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace invokes element-by-element anticipation under §102 with specific prior art citations and applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) throughout the §103 analysis, using the correct statutory frameworks for each stage."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection cites specific prior art references (US-2016364341-A1 and/or US-2012254995-A1) with reference to particular disclosed features such as EPT-based permission control, GVA-GPA mapping, and below-OS security agents, linking conclusions to specific claim language and prior art disclosures."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage consistently builds on the §102 findings without contradiction — where §102 found anticipation with high confidence, §103 reaffirms obviousness using the same references, and the final decision rejects on §103 as the primary basis while acknowledging the §102 grounds, maintaining logical coherence throughout."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.818, the examiner consistently resolves ambiguities toward rejection (e.g., treating hypercall communication as 'implicit' disclosure, characterizing kernel-space non-executability as a 'natural result' of EPT), which is appropriate for a strict gatekeeper profile that should lean toward rejection on borderline elements."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision directly follows from the accumulated §102 and §103 findings across all 20 claims, with the summary explicitly tying the decision to the strength of the §103 grounds and the prior art evidence developed in earlier stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004383",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17809,
+      "output_tokens": 414,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "case_id": "2020001686",
+  "proceeding_number": "2020001686",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1이 optical waveguide, first marking material(광추출 요소), second marking material(산란 입자), third marking material(반사체), non-smooth surface 등을 명시적으로 개시하고 있으며, white/non-white marking material, ink, toner 등의 변형도 실시예 또는 자명한 설계 선택으로 포함됨. 모든 청구항의 구성요소가 단일 선행기술에 의해 개시되어 신규성 결여가 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 6, 7, 8, 14, 15, 16는 취소된 claim 1에 종속되며, 유효한 기초 청구항이 없어 청구항 범위가 불명확하고 서면 설명 지원이 결여됨. 명세서 기재가 있더라도 청구항 계층 구조 위반으로 인해 112(a) 위반이 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1 explicitly discloses all claimed elements including white and colored marking materials, use of ink and toner, light scattering particles, non-smooth surfaces for TIR frustration, and layered optical waveguide structures. The reference anticipates or renders obvious each limitation with high confidence (0.82–0.97). Motivation to combine is inherent in the reference’s objective of enhancing light extraction efficiency. Graham factors show no meaningful difference, ordinary skill level sufficient, and no secondary considerations rebutting obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 17 is clearly anticipated by US-2018113244-A1, which discloses all structural elements: optical waveguide with front and back surfaces, first marking material as surface reliefs for TIR frustration, second marking material as reflector, and third marking material as light scattering particles on the reflector. The disclosure is explicit and matches the claim language, supporting a strong 102 rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 6, 7, and 8 depend from canceled claim 1, which originally defined the layered configuration. While the specification describes the overall system, the specific structural relationship of the third marking material in the absence of claim 1 creates ambiguity. However, the application as a whole may still support these features in context, especially since other claims (e.g., 9, 14–16) describe similar arrangements. The written description issue is not insurmountable and could be resolved with amendment."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Only claim 17 is deemed obvious, solely because it is anticipated. For all other claims, the prior art does not suggest the specific use of white or colored marking materials (ink or toner) in layered configurations for image-specific illumination. The technical effect—enhanced brightness, contrast, and color accuracy—is not achieved by the reference, which focuses on uniform illumination. No motivation to combine exists beyond hindsight. Given the low combination threshold (0.68) and purposivist interpretation, these differences represent meaningful innovation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 5, 8, 13, and 16 are rejected based on the substitution of toner for ink as a marking material. While toner and ink are known alternatives in printing, the specific optical function in image-specific illumination on waveguides introduces technical considerations such as scattering efficiency, adhesion, and durability. The prior art does not explicitly address these in the claimed context. Under a purposivist and innovation-supportive view with low strictness (0.29), this substitution may represent a non-routine implementation contributing to display quality, weakening the obviousness stance."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2018113244-A1과 공지기술의 결합으로 자명성 판단. 흰색 재료, 잉크/토너 사용, 비흰색 재료, 비평활면, 복수 웨이브가이드 배열 등은 각각 광학 조명 및 디스플레이 분야에서 통상의 기술자가 예측 가능하고 자명하게 선택할 수 있는 설계 요소임. 결합 동기 명확하고, 선행기술과의 기술적 격차 없음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 6, 7, 8이 취소된 청구항 1에 종속되어 있어 명확성 결여. 종속 청구항의 구조적 기초가 상실되어 범위가 불명확함. 명세서나 청구항 계층에서 회복 가능한 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1은 광학 웨이브가이드, 복수의 마킹재료, 백색 및 비백색 재료 사용, 잉크/토너 기반 프린팅 공정, 산란 입자, 반사 향상 구조, 및 복수의 웨이브가이드 배열을 모두 개시하거나 암시하고 있음. 당업자가 이러한 기술 요소들을 결합하여 청구항의 구성에 도달하는 것은 설계 목표(광 추출 효율 및 시각적 효과 향상)와 기술적 맥락에서 자명함. 결합 동기(motivation to combine)가 명확하며, Graham 요소 전반에서 obviousness가 강하게 입증됨. confidence 점수 대부분 0.8 이상으로, 기술적 중첩도 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1이 광학 파동가이드, 산란 요소, 반사기, 산란 입자 포함 구조를 명시적으로 개시하고 있으며, 흰색/비흰색 잉크 또는 토너는 공지의 표시 재료로서 통상적인 설계 선택임. 결합 동기(motivation to combine)가 광추출 효율 향상이라는 기술적 목적에서 명확하며, 청구항 구성요소들이 선행기술과의 실질적 차이 없음. confidence 값 대부분 0.7 이상으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1은 광파도체, 광추출 요소, 산란 입자 등 핵심 구조를 모두 개시하고 있으며, 청구항과의 차이점은 색상(흰색 또는 비흰색) 및 재료(잉크 또는 토너)의 특정화에 국한됨. 이러한 특성은 광학 디스플레이 기술 분야에서 관용적인 설계 선택 또는 공지된 재료의 사용으로 간주되며, 결합 동기와 성공 가능성에 대한 합리적 기대가 있음. 특히 흰색 재료의 사용은 산란 효율 향상 측면에서 명백한 기술적 동기가 존재함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1이 광학 웨이브가이드, 제1/제2/제3 마킹재료, 비평활 표면, 백색 및 비백색 잉크/토너 사용, 전자사진 인쇄 공정 등을 명시적으로 개시하고 있으며, 청구항 3-20의 모든 구성요소가 단일 선행기술에 의해 직접적으로 공지됨. 신규성 결여에 대한 증거가 명확하고 직접적임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1은 광추출 요소, 반사기, 광산란 입자 포함 층을 명시적으로 개시하고 있으며, 흰색 마킹 물질, 잉크, 토너, 유색 마킹 물질 등의 사용은 광학 디스플레이 및 프린팅 기술 분야에서 공지된 기술적 선택으로 간주됨. 통상의 기술자 수준에서 이러한 재료 선택은 설계 선택 또는 사소한 변형에 해당하며, 새로운 기술적 효과 없이 동일한 기능을 수행함. Graham 요소들(기술 수준, 차이점, 보조적 고려사항) 모두 obviousness를 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2018113244-A1) discloses core functionality of edge-lit illumination using scattering elements on an optical waveguide. The claimed features—white marking materials, use of ink/toner, non-white colored layers, and layered structures on both surfaces—are not explicitly disclosed, but their individual components are well-known in the art. The motivation to combine (e.g., improving brightness with white materials, using conventional printing media like ink/toner) is supported by common knowledge in display technology. The combination threshold of 0.44 is met, and no secondary considerations (unexpected results, commercial success) rebut the obviousness. At strictness=0.52, this moderate-to-strong obviousness case is sufficient to maintain rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1이 청구항 3-5, 9, 11-13, 17, 19-20의 모든 구성요소를 단일 문헌에서 명시적으로 개시하고 있으며, 해당 문헌의 기술적 내용과 청구항의 범위 간 실질적 차이가 없음. confidence 점수도 0.85 이상으로 높음. 선행기술의 구체적 기재가 forward-scattering 요소, 산란 입자 포함 코팅, 백색/유색 잉크, 토너 기반 층 등에 대해 직접적이고 명확하여 신규성 결여 판단이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1의 Claim 1 및 Claim 3과 배경기술에서 청구항 9 및 17의 모든 구성요소가 개시되어 있으며, 광학 웨이브가이드, 산란 요소, 반사기, 산란 입자 포함 백색 잉크/토너층 등이 통합적으로 설명됨. 결합 동기는 동일 문헌 내에서 명확하며, 통상의 기술자가 해당 구성에 도달하는 것은 자명함. confidence 수치(0.92~0.93)도 매우 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018113244-A1이 청구항 3-20의 모든 구성요소를 명시하거나 암시적으로 개시하고 있으며, 특히 백색 잉크/토너, 산란 입자, 컬러드 마킹 재료 등의 사용은 동일하거나 자명한 변형에 해당함. 결합 동기 및 PHOSITA 수준에서의 기대 가능성이 높아 obviousness 판단의 근거가 강함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 6, 7, 8, 14, 15, 16는 취하된 청구항 1에 종속되며, 이는 35 U.S.C. 112(d)에 명백히 위배됨. 이는 형식적 결함이지만 명확하고 수정 없이는 해소되지 않음. 명세서가 이를 보완하지 못하므로 근거 강도는 높음."
+        }
+      ]
+    }
+  ]
+}

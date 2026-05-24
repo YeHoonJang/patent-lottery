@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §103 Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for obviousness rejections and §112(a) written description for claims 116/117, using statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific prior art references (US-2018359653-A1, US-2018167979-A1) with explicit mapping to claim elements, such as quoting specific claim language like 'RACH chunk information corresponding to at least one antenna beam' and 'performing a plurality of measurements on the plurality of reference signals.'"
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings—claims found novel at §102 (74, 80) are either allowed or rejected only under §103 with additional rationale (e.g., RRC as standard protocol), and the overall direction is maintained without unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's low combination_threshold (0.222) is explicitly acknowledged in the §103 reasoning ('combination_threshold=0.22로 낮아 공지상식 기반 결합도 허용됨'), and the moderate strictness (0.461) is reflected in a balanced decision that rejects most claims but allows claim 74, consistent with a pragmatist easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows logically from the accumulated stage analyses: strong §103 rejections for most claims, a §112 rejection for claims 116/117 identified in the office action, and allowance of claim 74 as the sole claim surviving both §102 novelty and §103 obviousness analysis."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004790",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12979,
+      "output_tokens": 441,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

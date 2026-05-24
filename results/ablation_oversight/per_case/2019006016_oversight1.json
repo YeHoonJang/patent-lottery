@@ -1,0 +1,196 @@
+{
+  "case_id": "ABL-2019006016",
+  "proceeding_number": "2019006016",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.6428571428571429,
+  "amend_rate": 0.14285714285714285,
+  "reject_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014150923-A1은 자동 액체 핸들링 시스템의 기본 구조(조작 장치, 캐뉼라, 펌프, 축 이동)를 개시하고 있으며, DE 10 2007 003 040 B4는 광학적 매개변수(굴절률, 탁도, 투과도)를 이용한 상 경계 검출 방법을 명시적으로 기술하고 있음. 두 기술의 결합 동기(motivation to combine)는 '정확한 액면 검출 및 시스템 지연 보상'이라는 설계 필요성에 의해 명확히 뒷받침됨. 광학 센서의 위치(캐뉼라와 샘플링 컨테이너 사이), 제1 및 제2 위치 계산, 다중 상 경계 검출, 체적 산출, 적응형 속도 제어 등은 모두 개별적으로 공지된 기술 요소들의 예측 가능한 조합이며, KSR 기준에 따라 자명한 결합으로 판단됨. confidence 점수(0.72~0.82)도 전반적으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US'923 and DE'040 provides clear and relevant teachings: US'923 discloses the core automated dosing system with linear movement and fluid aspiration, while DE'040 teaches optical detection of phase transitions using fiber-optic sensors in needles. The integration of an optical sensor between the cannula and sampling container to detect phase boundaries in aspirated fluid is a predictable application of known sensing technology to solve a known problem—accurate liquid level detection in non-conductive liquids. The motivation to combine is strong, grounded in technical need and common sense, and supported by the low combination_threshold=0.34. Calculation of the second position based on kinematic and volumetric parameters is routine engineering. Dependent claims recite features (user input, specific optical parameters, vessel registration, dual-phase detection, immersion control, modular housing) that are either explicitly known or represent routine optimizations and predictable integrations. No secondary considerations rebut the prima facie case of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "DE 10 2007 003 040 B4은 침투 바늘 내 광섬유를 이용한 위상 전이 감지를 명확히 개시하고 있으며, US-2014150923-A1은 자동 도징 장치의 이동 및 펌프 기능을 제공한다. 두 기술의 결합 동기(motivation to combine)는 전도성에 의존하지 않는 보다 신뢰성 높은 액체 수위 감지를 가능하게 한다는 점에서 명확하며, 선행기술 간 기술적 격차가 크지 않다. 또한, 위치 보정 계산은 시스템 지연을 보상하기 위한 예측 가능한 엔지니어링 조정으로, 통상의 기술자에게 자명하다. 모든 청구항이 동일한 기초 위에 구축되어 있어, 103 거절은 일관되게 적용 가능하다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 16 recites 'a second predetermined distance' without antecedent basis or clear definition in the specification. The term is not defined in terms of how it is determined—whether it is fixed, user-defined, or calculated from other parameters. This lack of clarity renders the scope of the claim indeterminate to a PHOSITA, satisfying the standard for indefiniteness under §112(b). The rejection is well-supported and unambiguous."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.91,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 US-2014150923-A1과의 비교가 이루어졌으나, 선행기술이 광학 센서, 사용자 입력, 다중 상 경계 탐지, 부피 계산, 속도 제어 등의 기능을 전혀 개시하지 않으며, 결합 동기(motivation to combine)도 부족하다고 판단됨. 진보성 판단의 confidence는 0.76~0.82 수준으로, 명확한 자명성 증거는 없음. combination_threshold=0.52 기준보다 높은 비자명성 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The limitation 'defined basic position' in claims 13, 20, and 29 lacks explicit support in the specification. There is no description of how this position is established, measured, or maintained—no reference to sensors, mechanical stops, calibration routines, or coordinate systems. The term is used functionally without structural or procedural backing, which fails the written description requirement under §112(a). This is a strong 112 issue given the absence of any enabling disclosure for a key functional limitation."
+        }
+      ]
+    }
+  ]
+}

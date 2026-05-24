@@ -1,0 +1,381 @@
+{
+  "case_id": "2021004954",
+  "proceeding_number": "2021004954",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.2857142857142857,
+  "amend_rate": 0.5714285714285714,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 23, 24, 25, 27, 28, 29, 31, 32, 35, and 44 are rejected under 103_obviousness with clear motivation to combine and evidence from US-2013284480-A1. The differences are routine optimizations or design choices for a person of ordinary skill in the art, aligning with the combination_threshold of 0.34. Confidence levels (0.7-0.79) support a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 31,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013284480-A1은 배터리 전압 확인 기능을 개시하고 있으며, 알림 출력 기능은 전동공구 분야에서 공지된 기술로 간주됩니다. 그러나 두 기능을 결합할 구체적인 동기가 명시적으로 제시되지 않았고, 통상의 기술자가 쉽게 도출할 수 있는 설계 선택 수준인지에 대한 해석의 여지가 있습니다. combination_threshold=0.34를 고려할 때, 결합 동기가 명확하지는 않지만 해당 분야의 공지 기술로 간주될 수 있어 moderate 강도로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 26, 36, 37, 40, 41, 42의 '표준 편차', '시간 관련 비교 기울기' 등의 용어는 통계적/수학적 개념으로 통상의 기술자에게 충분히 이해될 수 있으나, 명세서에 구체적인 계산 방법이나 구현 예시가 부족하여 112(b) 명확성 요건에 대한 우려가 있음. 그러나 현재 단계에서는 거절 근거로 삼기에는 증거가 부족하며, 출원인의 기술적 기여가 인정되므로 보정 제안으로 처리."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 27의 '계산 방법', '표', '특성 곡선'은 명세서에 구체적인 예시가 제시되어 있으나, 구현 가능한 구체적 범위를 명확히 하기 위한 추가 설명이 권장됨. 그러나 거절 근거로 삼기에는 증거가 부족하며, 보정 제안으로 처리."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 28, 31의 '한계값', '최소값'은 명세서에 구체적인 값이나 결정 방법이 명시되지 않았으나, 통상의 기술자에게 충분히 이해될 수 있는 용어로 판단됨. 거절 근거로 삼기에는 증거가 부족하며, 보정 제안으로 처리."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 선행기술 US-2013284480-A1과 대비하여 신규성 인정됨. 선행기술은 전동공구의 물리적 구조 및 배터리 배치에 중점을 두며, 청구항의 핵심 요소(예: 충격 작동 모드에서의 동적 제어, 매개변수 기반 구동 시간 지정 등)를 개시하지 않음. 신규성 근거는 매우 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 진보성 인정됨. 선행기술은 청구항의 핵심 차이점을 명시적으로 개시하지 않으며, 통상의 기술자가 쉽게 도출할 수 없는 기술적 진보로 평가됨. 결합 동기(motivation to combine)도 명확하지 않으며, combination_threshold(0.72)를 초과하지 않음. 진보성 근거는 매우 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 모든 청구항의 구성요소를 충분히 뒷받침하며, 용어의 모호성이나 명세서 지원 부족 문제는 발견되지 않음. 112 근거는 매우 약함."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 전동공구의 실질적 기술적 개선(예: 동적 제어, 매개변수 기반 구동 시간 지정)을 다루며, 추상적 아이디어에 해당하지 않음. 101 근거는 매우 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims (23-44) are supported by a detailed Graham factors analysis and combination of US-2013284480-A1 with general knowledge of PHOSITA. The motivation to combine is clear, and the differences are routine design choices or predictable extensions of known techniques. Confidence scores for each claim are high (0.82-0.91), and the combination threshold (0.45) is met. No secondary considerations overcome the prima facie case of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 27, 32, 36, 38, 39의 용어('계산 방법', '표', '특성 곡선', '매개변수', '시간 관련 비교 구배', '서로 다른 제어 방법')는 명세서에 구체적인 예시가 제공되어 있으나, 청구항 자체에서는 지나치게 광범위하게 기재되어 있어 모호성이 존재함. 그러나 명세서의 뒷받침이 있으므로 근거 강도는 moderate 수준임."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 44는 '제어 장치'의 구조적 특징이 구체적으로 기재되지 않고 기능적 기재에 의존하고 있어, 35 U.S.C. § 112(f)에 따른 기능적 기재로 해석될 가능성이 있음. 그러나 명세서에 기능적 기재를 뒷받침하는 설명이 존재하므로 근거 강도는 moderate 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103_obviousness for claims 23, 24, 25, 27, 28, 31, 32, 34, 35, and 44 is based on the combination of US-2013284480-A1 and general motor control knowledge. While the combination of these references is plausible, the specific application of feedback-based control techniques to an impact operating mode or unscrewing operations may not be straightforward for all claims. The confidence scores for these rejections range from 0.72 to 0.78, indicating moderate strength. Given the strictness level of 0.47, the evidence is not overwhelmingly strong, and some claims may warrant further consideration or amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 신규성 판단 결과 선행기술과의 차이점이 명확하며, 선행기술이 청구항의 핵심 요소를 개시하지 않음. 근거 부족으로 신규성 거절은 부적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단 결과 선행기술에서 결합 동기를 찾을 수 없으며, 통상의 기술자가 쉽게 도출할 수 없는 수준임. 근거 부족으로 진보성 거절은 부적절함."
+        },
+        {
+          "basis": "formal_objections",
+          "strength": "moderate",
+          "reasoning": "추상 및 제목의 형식적 문제는 명확하지만, 기술적 내용의 허여를 방해하지 않음. 보정이 필요한 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103_obviousness is based on a combination of US-2013284480-A1 and common knowledge in the art. While the cited prior art does not explicitly disclose the specific dynamic control methods during impact mode or unscrewing operations, the use of feedback-based control, statistical analysis of motor parameters, voltage compensation, and user-defined thresholds are well-established techniques. The motivation to combine these techniques is logical and predictable for a PHOSITA. However, the confidence scores for obviousness (ranging from 0.74 to 0.81) suggest that the rejection is not overwhelmingly strong, leaving room for interpretation based on the examiner's strictness level (0.46). The lack of secondary considerations (e.g., commercial success, long-felt need) further weakens the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            27
+          ],
+          "strength": "moderate",
+          "reasoning": "The use of calculation methods, tables, or characteristic curves for motor control is well-known, but the specific application to dynamically adjust control parameters in an impact operating mode of a power tool is not explicitly disclosed in the prior art. The combination motivation is plausible but not overwhelmingly strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            28
+          ],
+          "strength": "moderate",
+          "reasoning": "Monitoring battery voltage and adjusting parameters based on voltage levels is conventional, but the specific weighting of parameters based on battery voltage below a threshold in the context of this invention is not clearly disclosed. The motivation to combine is logical but not definitive."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            31
+          ],
+          "strength": "weak",
+          "reasoning": "Checking battery voltage and providing a notification is a standard feature, but the prior art does not explicitly disclose this in the context of the claimed method. The motivation to combine is weak as it relies heavily on common knowledge without direct support in the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            34
+          ],
+          "strength": "moderate",
+          "reasoning": "Allowing an operator to specify limit values or the number of revolutions is a common customization feature, but the prior art does not disclose this in the specific context of the claimed method. The motivation to combine is reasonable but not strongly supported."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 선행기술과의 명확한 대비 부족 및 신규성 확인이 이루어졌으며, confidence 수준이 높음. 선행기술이 청구항의 모든 구성요소를 직접적으로 커버하지 않음(strictness=0.52 기준)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술의 결합 동기 부족 및 진보성 확인이 이루어졌으며, confidence 수준이 높음. 통상의 기술자가 쉽게 도출할 수 없는 구체적 방법론이 포함되어 있음(combination_threshold=0.44 기준)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았지만, 청구항 자체의 모호성이나 명세서 뒷받침 부족 여부는 확인되지 않음. 형식적 보정이 필요한 사항 외에 실질적 112 이슈는 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항이 abstract idea에 해당할 가능성은 낮으며, 기술적 특징이 명확히 포함되어 있음. 추가적인 101 근거는 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 obviousness rejection is based on the application of well-known motor control principles to specific contexts (e.g., impact mode, unscrewing). While the prior art (US-2013284480-A1) does not explicitly disclose all claimed features, the motivation to combine these features is supported by the natural progression of motor control technology. However, the confidence scores for obviousness (ranging from 0.68 to 0.79) suggest that the evidence is not overwhelmingly strong. The combination threshold (0.52) is met, but the strictness level (0.42) leans slightly toward granting the benefit of the doubt to the applicant for moderate cases."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항(23-44)이 선행기술 US-2013284480-A1과 대비하여 신규성 요건을 충족함이 명확히 입증됨. 선행기술은 충격 작동 모드 동안 모터의 전류/회전 속도 감지, 동적 구동 시간 지정, 토크/회전 속도 감소, 배터리 전압 기반 가중치 적용 등 청구항의 핵심 요소들을 개시하지 않음. confidence 수준이 0.95 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항(23-44)이 진보성 요건을 충족함이 입증됨. 선행기술은 청구항의 핵심 차이점(예: 동적 매개변수 기반 제어, 2단계 제어 방법, 체결 토크 추정 등)을 명시적 또는 암시적으로 제시하지 않으며, 통상의 기술자가 쉽게 도출할 수 있는 결합 동기가 없음. Graham 요인 분석에서도 차이점(differences)이 명확하고, 결합 동기(motivation to combine)가 부족함. confidence 수준이 0.85 이상으로 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 모든 청구항을 뒷받침하며, 용어의 모호성이나 지원 부족 문제가 확인되지 않음. 단, 종속 청구항의 참조 관계가 최종 출원 시 명확히 되어야 함을 정보 제공(objection)으로 언급."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 전동공구의 모터 제어라는 실용적 응용 기술에 해당하며, 추상적 아이디어에 해당하지 않음. §101 요건을 충족함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the combination of general knowledge in power tool motor control and adaptive control techniques. While the individual features (e.g., detecting motor parameters, specifying driving time, reducing torque/speed, battery voltage compensation) are well-known in the art, the specific combination and application to impact operating modes and unscrewing operations may not be explicitly disclosed in the prior art. The motivation to combine these features is plausible but not overwhelmingly strong, as the prior art (US-2013284480-A1) does not directly address these combinations. The confidence scores for obviousness range from 0.72 to 0.78, indicating moderate strength. Given the strictness level of 0.60, this rejection is borderline but leans toward maintainable."
+        }
+      ]
+    }
+  ]
+}

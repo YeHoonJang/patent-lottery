@@ -1,0 +1,24 @@
+archetype_name: senior_examiner
+archetype_type: orthogonal
+orthogonal_dimension: seniority
+description: >
+  Orthogonal archetype isolating seniority. Experienced examiner with established
+  pattern recognition but time pressure. Tests whether seniority alone shifts toward
+  more grants, as documented by Frakes & Wasserman (2017).
+base_profile:
+  strictness: 0.50
+  claim_breadth: 0.50
+  combination_threshold: 0.50
+  seniority: 0.85
+  tech_specialization: 0.50
+  policy_stance: 0.50
+  legal_style: pragmatist
+  tech_domains:
+    - general
+noise_config:
+  strictness: 0.05
+  claim_breadth: 0.05
+  combination_threshold: 0.05
+  seniority: 0.05
+  tech_specialization: 0.05
+  policy_stance: 0.02

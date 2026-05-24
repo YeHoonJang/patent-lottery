@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes §103 Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for obviousness rejections and §112(b) definiteness/enablement framework for written description rejections, with no statute-mixing."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection references specific prior art (US-2013226408-A1, US-2015351681-A1) with explicit mapping to claim language (e.g., 'determining a level of drowsiness' for claim 7, 'well-driving score' for claim 3), and §112 rejections cite specific indefinite claim terms."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained: claims found novel but obvious in §102/§103 stages (e.g., claim 2) are then rejected under §112 rather than flipping to §103, and claims found neither anticipated nor obvious (e.g., claims 4, 9, 10) are correctly allowed on the merits but still rejected under §112, with no unexplained contradictions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The strict examiner profile (strictness=0.889) is consistently reflected: all 15 claims are rejected, ambiguous terms are resolved toward rejection, and the final decision explicitly cites the examiner's strict disposition (strictness=0.89) as justification for rejecting all claims with any definiteness or obviousness concern."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated stage analyses: §103 rejections for claims shown obvious in the obviousness stage and §112 rejections for claims with indefinite terms identified in the office action, with no reversal of prior-stage findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004143",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15540,
+      "output_tokens": 428,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

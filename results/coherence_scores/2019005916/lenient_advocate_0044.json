@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) throughout the §103 obviousness analysis for each claim, and correctly uses element-by-element comparison for §102 novelty findings, invoking the appropriate legal framework for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection and allowance conclusion references specific claim language (e.g., T1, T2, honeycomb configuration, methane concentration thresholds) and specific prior art disclosures (e.g., US-2012189523-A1 disclosing 0.1–1% methane, Pt on zirconia/titania, outlet temperature control), with citations throughout."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage is consistent with the §102 novelty stage: claims found not novel under §102 are also found obvious under §103 (consistent with anticipation implying obviousness), and claims found novel (6, 7, 12, 13, 16–19) are also found non-obvious, with the office action and final decision maintaining these same groupings without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.248 (lenient) and combination_threshold 0.676 (high, reluctant combiner), which is well-reflected in the trace: several claims are allowed or amendment-suggested rather than outright rejected, the examiner acknowledges uncertainty in obviousness judgments for claims 7 and 13, and the high combination_threshold is reflected in refusing to combine references for honeycomb structure and low concentration claims without clear motivation."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with rejections for claims 2–5, 7–11, 13–15 and allowance recommendations for claims 6, 12, 16–19 directly follows from the accumulated stage-level analyses, with the summary explicitly tying the decision to the stage findings about honeycomb structure, low methane concentrations, and temperature ranges."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005916",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13063,
+      "output_tokens": 505,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

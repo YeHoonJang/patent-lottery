@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 and separately invokes §112(a) written description/enablement framework for the dependency and definiteness issues, with no cross-contamination between statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance is grounded in specific claim language and specific prior art citations (e.g., US-2016183779-A1 for overlay positioning, US-2015241686-A1 for image stitching), and §112 rejections identify specific claims and the reason (dependency on canceled claims 11 and 20, undefined term 'feature')."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The novelty findings (§102 not novel for most claims, novel for claims 8, 40, 42, 43) are carried forward consistently into §103 (obvious for rejected claims, not obvious for claims 8, 40, 42, 43), and the office action and final decision maintain the same alignment throughout without unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner consistently resolves ambiguity toward rejection—even amending allowable claims to require independent rewriting due to dependency issues—and the final summary explicitly notes the strict profile as justification for maintaining rejections on borderline grounds, consistent with the gatekeeper archetype."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'reject' decision with decision_score=0.15 flows directly from the accumulated stage findings: strong §103 rejections across most claims, §112 rejections for dependency on canceled claims, and only four claims identified as having allowable subject matter, all of which are conditioned on amendment."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001436",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16141,
+      "output_tokens": 435,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

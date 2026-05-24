@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) across all claim-level obviousness assessments, correctly distinguishing §102 anticipation from §103 obviousness without conflating them with §101 or §112 frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Claim-level reasoning throughout novelty and obviousness stages references specific claim language (e.g., 'set data/clock mode,' 'acceptable performance level,' 'demultiplexing') and specific prior art disclosures in US-2013196654-A1 (e.g., 'multiplexing the coexistence message with one or more data messages' in claim 2, 'determining potential interference'), with no bare conclusory rejections."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings — claims found novel at §102 (e.g., claims 7–14, 16, 19–20, 22, 26–28) are treated as non-obvious at §103 with no unexplained contradictions, while claims found to lack novelty are also found obvious with compatible reasoning."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner maintains rejections even where prior art overlap is modest (e.g., claims 3–5 at 0.75–0.78 confidence) and explicitly notes in the final decision that 'even weak obviousness grounds should be maintained,' consistently reflecting a strict gatekeeping posture throughout."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject flows directly from the accumulated stage analyses: claims found obvious in §103 are rejected, claims found novel and non-obvious are flagged as 'amend_suggested' due to dependency on rejected base claims, and the examiner's notes explicitly tie the overall reject decision to the strength of the §103 grounds and the strict examiner profile."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000414",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18105,
+      "output_tokens": 489,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "case_id": "PILOT-2017007521",
+  "proceeding_number": "2017007521",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7, 11, 15, and 20 are directly anticipated by US-2011210915-A1 with explicit disclosure of centroid determination, single-frame image data with body part probabilities, and probability maps. The prior art clearly describes these features in the Summary and claims, satisfying the anticipation standard under §102."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 4, 9, 12, 16, 19, and 20 suffer from clear written description deficiencies. The specification fails to support 'sequential streaming in parallel,' selection of 'a portion' of centroids, hierarchical 'first array' structure, undefined 'approximate' k-means, location-independent clustering, and undefined 'probability maps.' These are not minor ambiguities but fundamental gaps in disclosure, indicating lack of possession."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7, 11, 15, and 20 are clearly anticipated by US-2011210915-A1. The prior art explicitly discloses determining centroid pixels within body segments, pixel-level probability association with body parts, and the use of probability maps. These disclosures match the claimed subject matter in a single reference, satisfying the legal standard for anticipation under 102. Confidence in these rejections is high (0.9–0.92), and the Office Action provides direct citations."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 4's parallel streaming is an obvious improvement over the sequential processing in US-2011210915-A1. Parallelization for performance in real-time image systems is common general knowledge. The combination_threshold=0.34 supports this obviousness finding. Even if not anticipated, claims 7, 11, 15, and 20 represent obvious adaptations of known data structures and functions into a streaming framework, with predictable results and no inventive step. Motivation to combine is grounded in routine optimization practices."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 4 and 19 raise written description concerns. Claim 4's 'sequential... in parallel' is logically contradictory and not clearly enabled. Claim 19's 'location-independent k-means' contradicts the fundamental principle of distance-based clustering without sufficient algorithmic or structural support in the specification. While the specification may be interpreted to resolve these issues, the ambiguity is significant enough to require clarification. Given strictness=0.88, these are treated as valid 112 issues rather than dismissed as minor drafting problems."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 3, 4, 18, 19에 대한 112(a) 및 (b) 거절은 명세서의 기재 부족과 용어의 모호성에 기반하고 있으나, 일부 용어(예: 'maximum distance', 'weight value')는 기술 분야에서 통상적으로 해석될 수 있으며, 전체 시스템의 맥락에서 충분히 이해 가능하다고 판단됨. 특히 'sequential streaming in parallel'은 병렬 처리 아키텍처 내에서의 데이터 분배 방식으로 기술적으로 해석 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 15는 선행기술 US-2011210915-A1에서 개시된 동일한 기술적 내용을 방법 청구항으로 표현한 것에 불과하며, 이는 통상의 기술자가 설계 선택을 통해 도달할 수 있는 수준. 결합 동기 없이 단일 문헌 기반으로 obviousness 판단 가능하며, confidence=0.97로 강한 증거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1은 신체 세그먼트 기반 픽셀 평가 및 센트로이드 결정을 명시적으로 개시하고 있으며, 출원 발명의 핵심 구성요소(평가 함수, 후보 센트로이드, 어그리게이터)와 기능적으로 대응함. '우선순위 기반 수락 종료', '거리 기반 수락', '임계값 기반 필터링', '스캔 라인 순서 처리' 등은 실시간 이미지 처리 시스템에서의 자명한 최적화 기술로, 통상적 기술자의 용이한 설계 선택으로 간주됨. combination_threshold=0.45 및 strictness=0.89 기준, 결합 동기와 자명성 판단이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 4, 16, 19에 대해 명세서가 병렬 스트리밍 통합, 근사 k-평균의 정량적 기준, 위치 독립성의 기술적 정의를 미제공하여 written description 및 enablement 요건을 명백히 위반함. strictness=0.82 기준으로도 강한 거절 근거."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 7, 11, 15, 20은 US-2011210915-A1에 의해 명확히 개시됨. 단일 선행기술이 모든 구성요소를 포함하며, 기술적 실질이 동일하므로 strong anticipation 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 11, 15, and 20 are fully anticipated by US-2011210915-A1, which explicitly discloses image data per frame with pixel-level probabilities for body part association and probability maps. Since anticipation under 102 is established, obviousness under 103 is also valid per MPEP 2131. The evidence is clear and direct, with high confidence (0.9–0.95), making this a strong rejection basis."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7, 11, and 15 are clearly anticipated by US-2011210915-A1, which explicitly discloses determining centroid pixels within segments, image data of a single frame, and pixel-level probabilities associated with predefined body parts. The disclosure is sufficient to meet the 102 standard with high confidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejections for claims 4, 9, 12, 19, and 20 raise legitimate concerns about written description support. While some terms like 'in parallel' and 'probability maps' appear in the specification, their exact scope and implementation are not fully clarified. Given the broad claim interpretation (BRI=0.86), these ambiguities justify a moderate 112 rejection, but not so strong as to deny all possible interpretations."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7, 11, 15, and 20 are directly anticipated by US-2011210915-A1. The reference explicitly discloses determining centroid pixels within body segments (claim 7), pixel-level probabilities for body parts in single-frame depth images (claims 11, 15), and the inherent generation of probability maps through pixel-wise assignment (claim 20). These disclosures match the claimed limitations with clear and specific support in the prior art, satisfying the anticipation standard under 35 U.S.C. § 102."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7, 11, 15, and 20 are directly supported by US-2011210915-A1 in both disclosure and technical concept. The reference explicitly teaches centroid pixel determination within body segments (Claim 8), which maps directly to candidate centroid computation in clustering. Similarly, pixel-level probability assignment to body parts is clearly disclosed in the summary. The application of these concepts to a streaming k-means context does not require inventive insight but falls within the routine skill of a PHOSITA. Motivation to combine is implicit in the shared technical field and purpose, satisfying the combination_threshold=0.33. Confidence in obviousness is high (0.9), and the reasoning aligns with Graham factors, particularly scope/content and PHOSITA level."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 11, 15, and 20 are clearly anticipated by US-2011210915-A1, which explicitly discloses single-frame image data with pixel-level probabilities for body part association and probability maps. The disclosure in the prior art matches the claimed subject matter in both structure and context, leaving no ambiguity. Confidence is high (0.9–0.95), and the reference is a single, enabling document. Thus, the 102 rejection is strong and should be maintained."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 4's use of 'sequential' and 'in parallel' is inherently contradictory without further clarification. The specification does not resolve this apparent conflict, making it impossible for a PHOSITA to discern the technical meaning. Similarly, 'portion' in claim 9 and 'independent of locations' in claim 19 lack definitional support or operational criteria in the specification. These are not minor ambiguities but go to the core of claim scope. Given that the specification fails to provide sufficient guidance, these 112 rejections are strong."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7, 11, 15, and 20 are directly anticipated by US-2011210915-A1, with clear disclosure of centroid determination, single-frame image data with pixel-level probabilities, and probability maps for body parts. The reference explicitly teaches these features in its claims and summary, satisfying the statutory bar under 102 with high confidence (0.9–0.95). The evidence is unambiguous and does not require inference."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.48,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1은 청구항 7, 11, 15, 20의 모든 구성요소를 명확히 개시하고 있으며, 각각의 기술적 특징이 동일하거나 실질적으로 동등하므로 신규성 결여 판단이 타당함. 특히 중심 픽셀 결정, 단일 프레임 이미지 데이터, 확률 맵 등은 문헌 내 명확한 대응 기재 존재."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 4의 '순차적 스트리밍을 병렬로'라는 표현은 모순적이며 명확성 부족이 있으나, 명세서에 병렬 평가 함수 배열 구조가 개시된 경우 해석 가능할 수 있음. 청구항 16의 '근사화(approximate)' 및 청구항 19의 '독립적(independent)'은 기술적 맥락에서 통상의 기술자가 해석 가능할 수 있으나, 명세서의 정의 부재로 인해 모호성 인정 가능. 청구항 20의 '확률 맵'에 대한 서술적 뒷받침은 부분적으로 존재하나 형식적 정의 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7, 11, and 15 are clearly anticipated by US-2011210915-A1, which explicitly discloses determining centroids within body segments, pixel-level probability assignment for body parts in depth images, and corresponding method steps. The disclosure is direct and unambiguous, satisfying the requirements for anticipation under 102."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, and 19 raise indefiniteness issues. 'Weight value' in claim 2 lacks definition; 'sequential' and 'parallel' in claim 4 appear contradictory without clarification in the specification; and 'independent of locations' in claim 19 lacks technical precision. While these terms may be interpretable in context, the lack of clarity in the claims or specification introduces ambiguity that meets the threshold for a 112(b) rejection under a moderate strictness standard."
+        }
+      ]
+    }
+  ]
+}

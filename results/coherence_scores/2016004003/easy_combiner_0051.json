@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation analysis for §102, applies Graham factors (scope/content, differences, PHOSITA level, secondary considerations) throughout the §103 analysis, and uses the KSR/Graham framework appropriately—never conflating statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection is tied to specific claim language (e.g., 'extracting attention estimation features,' 'controlling secondary content delivery') and specific disclosures in US-2013160036-A1 (e.g., 'history of interactions,' 'user profiles,' 'configuring user interface'), with the reference cited by number throughout."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage builds logically on the §102 findings—claims found anticipated at §102 are also found obvious at §103, while claims 10 and 20 found novel at §102 are also found non-obvious at §103, with the final decision consistently allowing only claims 10 and 20, creating no contradictions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With combination_threshold=0.329 (easy combiner) and moderate strictness=0.502, the examiner broadly combines elements from a single reference using common sense and standard practice motivations, and resolves most ambiguous claims toward rejection while leaving only clearly distinguishable claims (10, 20) allowable—consistent with the easy-combiner, moderate-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1–9, 11–19, 21 and suggest amendment for claims 10 and 20 flows directly from the accumulated §102/§103 analyses, with the summary explicitly explaining why the distinguishing feature (primary content delivery control) justifies the allowance, making the decision non-arbitrary."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2016004003",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12963,
+      "output_tokens": 446,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

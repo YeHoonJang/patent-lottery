@@ -1,0 +1,351 @@
+{
+  "case_id": "PILOT-2019001304",
+  "proceeding_number": "2019001304",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2014106038-A1 discloses color monitoring, grinding, and process control in coffee roasting, the combination of surface and powder color from two batches for roasting degree determination is not explicitly taught. The motivation to combine is plausible but relies on inference that a POSITA would routinely integrate dual-color analysis for improved accuracy. Adaptive sampling based on roasting phases is common, but linking it specifically to cracking events (as in claims 6 and 12) introduces a technical insight not clearly supported by the reference. Thus, while many features are obvious extensions, the specific integration and timing logic show moderate, not strong, obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014106038-A1은 로스팅과 색 변화의 관계, 후처리로서의 분쇄, 로스팅 프로파일의 중요성을 개시하고 있으며, 표면 및 분말 색상의 통합 분석, 피드백 제어, 반복 샘플링, 크래킹 이벤트 기반 샘플링 주파수 조절 등은 모두 공정 제어 분야에서 통상의 기술자에게 자명한 최적화 및 일반화의 범위 내에 있음. 결합 동기가 명확하며, 2차적 고려사항도 제출되지 않아 obviousness에 대한 prima facie 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 15의 종속성이 명확하지 않아 범위가 불확정적이지만, 명세서에 해당 장치가 포함된 커피 머신에 대한 일반적 기재가 존재하므로, 보정을 통해 해결 가능하다고 판단됨. strictness가 낮아 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 9는 US-2014106038-A1에 의해 명확히 예시됨. 원두가 건조 및 분쇄된 상태에서 로스팅을 시작한다는 것은 선행기술에 직접 개시되어 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 9의 'raw or partially roasted'라는 구성요소는 US-2014106038-A1의 배경기술에서 직접적으로 개시되고 있으며, 명확한 문헌 인용이 가능하므로 신규성 결격 근거로 강력함. 출원인의 주장보다 선행기술의 직접 기재가 우선함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 8의 'stopping heating' 표현은 명확성 측면에서 다소 모호하나, 명세서에 샘플링 후 측정을 위한 일시적 가열 정지가 기술적 맥락상 암시될 수 있음. 통상의 기술자가 과도한 실험 없이 실시 가능하다고 보는 여지가 있음. strictness가 낮은 심사관 입장에서는 보정 제안이 적절함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 15는 US-2014106038-A1에서 로스팅, 분쇄, 추출 기능을 통합한 커피 머신을 명시적으로 개시하고 있어, '커피 머신이 장치를 포함한다'는 구성이 단일 문헌에서 직접적으로 예시됨. 신규성 결격으로서 강한 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 9 and 15 are directly anticipated by US-2014106038-A1. The reference explicitly discloses raw or partially roasted beans and an integrated coffee machine with roasting and grinding functions. The disclosure is clear and unambiguous, satisfying the anticipation standard under 102. These rejections are based on explicit teachings, not inference."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections for claims 2–8 and 10–14 rely on a combination of known techniques in coffee roasting and process control. While US-2014106038-A1 discloses surface monitoring, grinding, and roasting dynamics, it does not explicitly integrate dual-color analysis (surface and powder) into a feedback control system. The motivation to combine is plausible but not compelling; stopping heating during sampling (claim 8) introduces process inconsistency that a PHOSITA might avoid. The prediction model in claim 4 involves non-trivial calibration not clearly routine. However, under a strictness level of 0.89, even moderate suggestions of obviousness are treated as sufficient for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014106038-A1은 로스팅 프로파일과 표면 변화(색상, 오일 이동)가 풍미 발달과 관련이 있음을 개시하고 있으며, 분쇄 및 분석을 위한 샘플링은 식품 가공 품질 관리에서 공지된 기술이다. 청구항 2~8, 10~15의 구성은 표면 색상과 분말 색상 측정의 결합, 반복 샘플링, 피드백 제어, 샘플링 주기 조절, 제어 장치의 기능 분할 등 공정 제어 분야에서 통상의 기술자에게 자명한 최적화 및 통합으로 간주될 수 있다. 결합 동기(motivation to combine)는 정확도 향상 및 공정 안정성 제고라는 명확한 목적을 가지며, 예측 가능한 결과를 도출한다. 신규성 판단에서는 일부 청구항이 신규하다고 평가되었으나, 진보성 측면에서는 전체 발명이 통상의 기술 수준에서 자명한 조합에 해당하므로 강한 obviousness 근거가 성립한다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 15의 거절은 통합 커피 시스템에 새로운 제어 장치를 결합하는 것이 자명하다는 근거에 기반함. US-2014106038-A1이 통합 시스템을 개시하고 있으나, 구체적인 이중 색상 기반 제어 장치(claim 10)를 포함하지 않음. 결합 동기는 존재하나, 그 결합이 기술적 효과를 명확히 초래한다고 단정하기 어려움. strictness=0.47인 중립적 성향 하에서, 이 정도의 동기만으로 obvious 판단을 유지하기엔 근거가 다소 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 9 and 15 are clearly anticipated by US-2014106038-A1. The reference explicitly discloses dried and milled beans prior to roasting (supporting claim 9) and a complete apparatus for roasting, grinding, and brewing coffee (supporting claim 15). The disclosures are direct and unambiguous, satisfying the legal standard for anticipation under 35 U.S.C. 102."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112(a) rejections for claims 8 and 15 raise legitimate concerns. For claim 8, the specification lacks clarity on whether 'stopping heating' applies to the roaster or only sampled beans. For claim 15, integration of the apparatus into a 'coffee machine' is not clearly described. While these issues are not trivial, they do not appear insurmountable. Given the applicant's likely possession of the general concept, these are moderate written description issues that could be resolved with clarification or amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 9's subject matter—using raw or partially roasted beans—is explicitly disclosed in US-2014106038-A1, which states that beans are dried and milled prior to roasting. This constitutes a standard and inherent practice in coffee roasting. The confidence in obviousness is high (0.9), and the reference directly supports the feature. Thus, the rejection under 103 is well-supported."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 15's integration of a roasting control apparatus into a coffee machine is explicitly taught in US-2014106038-A1, which discloses a fully automated coffee machine performing roasting, grinding, and brewing. The motivation to combine is clear and inherent in the reference. The confidence level is 0.85, and the integration represents a routine design choice for a PHOSITA. Therefore, the 103 rejection is strongly supported."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014106038-A1 명확하게 로스팅, 그라인딩, 브루잉 기능을 통합한 커피 머신을 개시하고 있으며, 출원발명의 제10항에 따른 로스팅 제어 장치를 통합하는 것은 로스팅 정밀도를 향상시켜 음료 품질을 개선하려는 일반적인 기술적 동기에 부합한다. 결합 동기가 명확하고, 선행기술의 목적과 일치하므로, 거절 근거는 강력하다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 15 combines a known coffee machine (roasting, grinding, brewing) with a roasting control apparatus. US-2014106038-A1 discloses the full coffee preparation system, and integrating a control apparatus for automation is a predictable combination with reasonable expectation of success. Motivation to combine is clear from the reference's goal of integrated coffee processing. Confidence is high (0.85), and this meets KSR rationale for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014106038-A1이 완전한 커피 제조 시스템(로스팅, 분쇄, 추출)을 개시하고 있으므로, 청구항 10의 제어 장치를 커피 머신에 통합하는 것은 통상의 기술자에게 명백한 설계 선택임. 결합 동기(motivation to combine)가 명확하며, 자동화 및 일관성 향상이라는 기술적 동기가 존재함. confidence 0.9로 높으며, 심사 성향(strictness=0.42) 하에서도 충분히 강한 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 9 is directly anticipated by US-2014106038-A1, which explicitly discloses the use of raw (green) coffee beans as starting material for roasting. The disclosure in paragraph [0005] clearly supports this, making the anticipation clear and unambiguous. Confidence is high (0.95), and the feature is foundational industry practice."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 9 and 15 are clearly anticipated by US-2014106038-A1. The reference explicitly discloses raw or partially roasted beans prior to roasting and a coffee machine with roasting and grinding functions. The disclosure is direct and unambiguous, satisfying the anticipation standard under 102."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 8 and 12 lack sufficient written description and enablement. The specification does not clarify whether 'stopping heating' applies to the entire roaster or only sampled batches, nor does it describe how first cracking is detected or how frequency adjustment is implemented. These omissions create indefiniteness and fail to enable a PHOSITA to practice the invention without undue experimentation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Although the Office Action rejected claims 9 and 15 under 102, the 103 analysis supports obviousness for these claims as well. However, for other claims, the combination of dual-colour sensing (surface and powder), iterative control, phase-dependent sampling, and sample overlap is not suggested in the prior art. The lack of motivation to combine US-2014106038-A1 with other teachings to achieve the claimed system makes the non-rejected claims non-obvious. Given the technical integration and unexpected control improvements, the 103 rejections would not be sustained for claims 2–8, 10–14."
+        }
+      ]
+    }
+  ]
+}

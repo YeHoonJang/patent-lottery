@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 framework throughout the obviousness stage and office action, explicitly identifying scope and content of prior art, differences from the claims, PHOSITA level, secondary considerations, and motivation to combine for each claim."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions at every stage reference specific claim elements (e.g., assembler feedback loop, UDP support, congestion window, packet-level splitting) against specific disclosures or omissions in US-2015245409-A1, with confidence scores and cited references provided."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness findings are consistent with the §102 novelty findings: claims found novel (e.g., 3, 7, 10, 14, 17) are found non-obvious, while claims found not novel are confirmed obvious, and where novel claims are still rejected (4, 5, 11, 12, 16), additional rationale such as 'obvious to try' and known networking techniques is provided."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.547 (moderate) and claim_breadth of 0.864 (high/broad interpreter) are reflected in BRI-based functional equivalence reasoning that pushes toward rejection but stops short of rejecting the clearly differentiated assembler-feedback and UDP claims, appropriately balancing ambiguous evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated stage analyses: claims with strong or moderate §103 grounds are rejected, while claims with no prior art basis for the distinguishing features (assembler feedback, UDP) are indicated as allowable subject matter, with explicit rationale tracing back to the office action and obviousness stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14193,
+      "output_tokens": 430,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

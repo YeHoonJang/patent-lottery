@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 0,
+    "justification": "The §102 novelty stage uses an element-by-element anticipation framework correctly, but the final decision abandons the §102 findings entirely and re-frames the rejection under §103 without applying Graham/KSR factors (scope/content of prior art, differences, level of ordinary skill, objective indicia), instead using a loose 'plausible combination' rationale that conflates the two statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the novelty stage and office action, conclusions reference specific claim language and specific disclosures from US-2013239021-A1 (buddy lists, presence information, modal dialogs, chat session data, Claim 3 of the reference), providing adequate evidence linkage."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds all claims 38–58 anticipated under §102 with moderate-to-high confidence, but the final decision silently drops the §102 basis and issues all rejections under §103 without explaining why the §102 anticipation findings were abandoned, creating a direct unexplained contradiction between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.547 and claim_breadth=0.864, the examiner broadly interprets claim language (e.g., buddy lists as 'authorization,' text messages as 'annotations') and maintains rejections across all claims while acknowledging room for amendment, which is consistent with a moderate-strictness, broad-interpreter profile."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision rejects all claims under §103 despite the entire prior-stage analysis (novelty, office action) being conducted exclusively under §102, and no rationale is provided for switching statutes, making the final decision's basis arbitrary relative to the accumulated stage analyses."
+  },
+  "total": 2,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2015008281",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 8038,
+      "output_tokens": 431,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

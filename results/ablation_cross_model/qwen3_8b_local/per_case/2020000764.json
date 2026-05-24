@@ -1,0 +1,369 @@
+{
+  "case_id": "2020000764",
+  "proceeding_number": "2020000764",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (REF1) explicitly discloses overlapping features (e.g., 'touch screen', 'generate output data', 'capture image') that directly anticipate or are obvious variants of all claims. Graham factors confirm PHOSITA would combine these elements for improved usability, with confidence scores ≥0.6. Combination threshold (0.34) is easily met."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks sufficient detail to enable distinguishing 'character' vs 'drawing' inputs, and terms like 'automatically' are not clearly defined. While not a direct anticipation, this ambiguity weakens enablement under 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술(US-2012302167-A1)의 구체적 기술(claim1, claim5, claim11 등)이 청구항 요소를 명확히 포함하며, PHOSITA가 결합 동기를 인식할 수 있는 명확한 기술적 동기(예: 자동 인식 기능 통합)가 제시됨. Graham 요인에서의 기술적 차이와 상업적 필요성 부재로 인해 결합 가능성 강도 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항에 포함된 'drawing', 'unmoving touch input', 'boot time' 등 핵심 용어에 명세서에서 구체적 정의나 기술적 기준이 부재하며, 이는 청구항의 용어가 모호하고 명세서 뒷받침이 불분명한 것으로 판단됨. 검증 단계에서 명세서 지원 부족으로 인한 112 거절 근거가 확정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly anticipates all claim elements with high confidence (0.75+), and the combination is deemed obvious to a PHOSITA. The prior art's explicit disclosure and alignment with common design trends meet the strong threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguity in terms like 'character', 'automatically', and 'drawing' lacks sufficient technical definition, but the specification's absence is not entirely irreparable under moderate BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art US-2012302167-A1 explicitly discloses all claimed features (handwriting recognition, file generation, touch input, automatic storage) and provides clear motivation to combine elements (e.g., seamless input-file integration). Confidence scores (0.65-0.9) and Graham factors confirm obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims contain indefinite terms (e.g., 'automatic execution without user selection') and lack specific implementation details. However, the prior art's disclosure of similar functionality may provide sufficient support under BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1의 claim1, claim5는 청구항의 핵심 기능(자동 인식, TOUCH 입력 처리, 저장 워크플로우)을 명시적으로 개시하며, 결합 동기와 기술 수준이 명확히 제시됨. 103 기준에 부합."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 'character', 'automatic storage' 등 기술적 정의가 누락된 용어가 포함되어 있음. 명세서의 뒷받침 부족으로 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1은 청구항의 모든 기능을 명확히 포함하며, 결합 동기(예: 사용자 효율성 개선)가 명확하게 제시됨. 이는 103_obviousness의 강력한 근거로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 'character', 'drawing', 'unmoving touch input' 등의 용어가 명확히 정의되지 않아 기술적 구현이 어려운 점은 분명하지만, 명세서가 제공되지 않아 완전한 부족 여부는 판단 불가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1의 기술적 요소가 결합 동기와 명확한 기술적 동질성을 갖추고 있어, PHOSITA에게 명백한 결합 가능성 존재. 결합 동기(사용자 선택 제거, 입력 처리 최적화 등)가 명확하고, 기술적 차이가 미미함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 'unmoving touch input', 'character determination criteria' 등 핵심 용어가 명세서에서 충분히 정의되지 않아 기술적 구현 가능성 부족. 그러나 명세서가 제공되지 않았으므로 단순한 용어 모호성일 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are explicitly anticipated by prior art (US-2012302167-A1) with high confidence scores (0.7-0.9). The combination of elements is straightforward for a PHOSITA, and motivation to combine is clearly articulated."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguous terms like 'character', 'drawing', and 'boot time' lack clear definitions in the specification, but the issue is not entirely speculative as the terminology is central to the claims."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art claims 1 and 4 directly overlap with the claims and provide a clear motivation to combine (eliminate manual application launching). Confidence of 0.7 supports strong rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Terms like 'character' and 'unmoving touch input' lack technical definitions in the specification, creating ambiguity. Verification confirms specification deficiencies."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 5, 12, 13, 16) are directly anticipated by prior art claims with explicit disclosure of all elements. Confidence scores range from 0.5 to 0.9, indicating strong evidence of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1의 'background handwriting recognition' 및 'touch input processing' 기술은 청구항의 기능과 기술적 요소가 동일하거나 자명한 변형으로, 결합 동기(사용자 경험 개선)가 명확하여 103_obviousness가 강력하게 성립됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 'character', 'unmoving touch input', 'drawing' 등 핵심 용어의 기술적 정의가 명확하지 않아 enablement 문제 발생 가능성이 있음. 그러나 명세서의 부족한 뒷받침이 단순한 추측이 아닌 실질적 불명확성으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술과 동일하거나 유사한 기술을 포함하며, 결합 동기와 PHOSITA의 인식 가능성에 대한 명확한 근거가 제공됨. 신뢰도 점수(0.63~0.85)가 strictness 임계값(0.42)을 초과함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 포함된 'character', 'unmoving touch input', 'drawing', 'non-recognized' 등의 용어가 명세서에서 명확히 정의되지 않아 모호성 발생. 그러나 일부 청구항은 구체적인 기능을 포함하고 있어 완전한 부족은 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1의 '터치 스크린 입력 감지(abstract)'와 '파일 생성(claim 1)' 기술을 결합하는 것이 해당 분야에서 공지된 기술로, 사용자 경험 개선을 위한 동기로 논리적 결합이 가능하다는 명확한 증거가 존재하며, confidence 0.82로 강도가 높다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'character'의 정의 부족과 'automatically store'의 구체성 부족은 명세서에서 구체적인 구현 방식이 누락되었음을 시사하지만, 이는 청구항의 명확성 문제로 해석의 여지가 있으며, confidence가 명시되지 않아 중립적 판단이 필요하다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly anticipates claims 1, 3, 6-9, 11-19 through direct disclosure or implied functionality, with coverage scores exceeding 0.7. No technical motivation to combine is present, but strictness threshold (0.6) is met."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) throughout the §103 analysis for each claim, and §102 novelty is addressed element-by-element with anticipating references, reflecting correct statute-appropriate frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the novelty and obviousness stages reference specific prior art documents (US-2013144785-A1 and US-2012159647-A1) with specific disclosed features (e.g., social network login authentication, realness score, social graph analysis) mapped to specific claim elements."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds all claims lack novelty (is_novel: false for all claims including claim 1), but the §103 obviousness stage then finds claims 1, 11, and 19 non-obvious—this contradicts the earlier finding that these claims are fully anticipated by the prior art without stating why anticipation was incorrect, creating an unexplained inconsistency between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner profile shows strictness of 0.248 (lenient) and high combination_threshold of 0.676, and the trace consistently resolves ambiguity toward allowance—granting claims 11 and 19, suggesting amendments rather than outright rejection for others, and explicitly citing low strictness (0.25) in the final decision weighing as justification for not letting moderate obviousness preclude allowance."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision follows logically from the stage-level analyses: the obviousness stage found claims 11 and 19 non-obvious, the office action allowed those same claims, and the final decision grants them while maintaining rejections on the remaining claims, with consistent reasoning throughout about the two-stage risk assessment being the inventive concept."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001350",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17398,
+      "output_tokens": 458,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

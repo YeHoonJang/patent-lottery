@@ -1,0 +1,868 @@
+{
+  "case_id": "2019000091",
+  "proceeding_number": "2019000091",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1이 속도 제한 데이터를 차량 시스템 파라미터 결정에 사용하는 것을 명시적으로 개시하지만, 크루즈 컨트롤 맥락에서의 속도 프로파일 생성과 데이터 경계 확장은 다른 기술적 문제를 다룬다. 그러나 속도 제한이 차량 속도를 초과할 때 더 넓은 영역을 고려하는 것은 합리적인 설계 선택이다. Strictness=0.79를 고려하면 이 정도의 유사성으로도 거절 유지가 타당하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012281091-A1과 US-2014278090-A1의 결합은 명확하다. 두 문헌 모두 차량 텔레매틱스 도메인에서 작동하며, 온디맨드 데이터 전송과 지오펜스 기반 위치 추적을 결합하는 것은 예측 가능한 최적화다. 결합 동기가 분명하고 기술적 교시가 명확하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1이 POI 기반 요청과 POI 좌표 데이터 제공을 명시적으로 개시한다. 청구항 8은 이 선행기술의 직접적인 적용이며, 단일 문헌으로 anticipation에 가깝다. 거절 근거가 매우 강하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 도로의 알려진 속도 제한을 차량 행동 파라미터 결정에 사용하는 것을 명시적으로 개시한다. 이를 데이터 경계를 따라 예상 속도 결정에 적용하는 것은 직접적인 응용이다. 거절 근거가 강하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014278090-A1과 US-2012281091-A1이 차량 진행 추적과 데이터 요청을 개시하지만, 차량 속도가 최대 예상 속도를 초과할 때 지오펜스를 동적으로 재정의하는 것(element 16d)은 명시적으로 개시되지 않았다. 그러나 이는 예측 가능한 최적화로 볼 수 있다. Strictness=0.79를 고려하면 거절 유지가 타당하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 지도 데이터의 속도 제한 정보를 차량 시스템 파라미터에 사용하는 것을 명시적으로 개시한다. 지도 데이터 내 속도 제한을 기반으로 최대 예상 이동 속도를 정의하는 것은 직접적인 적용이다. 거절 근거가 강하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 도로를 따라 다른 위치에서 속도 제한을 사용하는 위치 기반 접근법을 개시한다. 이를 도로별로 적용하는 것은 직접적인 적용이다. 거절 근거가 강하다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 8에 대한 103 거절 근거는 강력합니다. US-2014278090-A1이 POI 요청과 POI를 나타내는 좌표 데이터를 포함한 맵 데이터를 명시적으로 개시하고 있습니다. 선행기술은 차량 좌표를 POI를 둘러싼 지오펜스 좌표 세트와 비교하고, 차량 좌표가 지오펜스 내에 있으면 POI 관련 정보(새로운 도로 위치, 도로 진입로 등의 좌표 데이터 포함)를 수신한다고 명시적으로 개시합니다. 이는 청구항 8의 'POI를 포함하는 요청'과 'POI를 나타내는 알려진 위치를 정의하는 좌표 데이터를 포함하는 맵 데이터'를 실질적으로 개시합니다. 결합 동기도 명확하며, 차량 내비게이션 시스템에서 POI 식별과 좌표 기반 매핑은 잘 확립된 기술입니다. 신규성 판단에서도 confidence 0.82로 신규성이 없다고 판단되었고, 진보성 판단에서도 confidence 0.85로 자명하다고 판단되었습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1 explicitly discloses all elements of claim 8: POI-based requests and coordinate data defining POI locations. The abstract and detailed description directly teach these features. This is a clear anticipation with strong textual support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "moderate",
+          "reasoning": "The combination of US-2014278090-A1 (geo-fence triggering with projected coordinates) and US-2012281091-A1 (bandwidth-aware data transfer) is logical for timely map data delivery. However, the specific application to 'triggering additional-data request based on vehicle speed AND data download speed' requires some inventive insight. US-2014278090-A1 triggers POI information presentation, not data downloads. The leap from POI information to map data downloads with bandwidth consideration, while plausible, involves a functional shift that may not be entirely obvious. Given my lenient strictness (0.25), this moderate-strength rejection warrants reconsideration in favor of the applicant."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "weak",
+          "reasoning": "While US-2014121932-A1 uses heading for speed profile determination and US-2014278090-A1 uses projected coordinates, the specific application of heading to 'determine local data boundary' for map data download purposes represents a context shift from vehicle control to data management. The motivation to combine is somewhat generic ('data should be pre-fetched in direction of travel'), and the specific implementation for data boundary determination is not explicitly taught. Given my lenient strictness (0.25) and purposivist interpretation focusing on technical contribution, this weak rejection should be resolved in favor of the applicant."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections are based on combinations of prior art references that teach related but distinct concepts. While the combinations are logical, many require significant insight to bridge the gap between vehicle control systems (cruise control) and data management systems (map data download). For claims 4, 6, 7, 10-15, 17-19, the motivation to combine is articulated but relies heavily on 'predictable use' and 'routine design choices' arguments. Given my lenient strictness (0.29), I find these combinations to be moderate strength rather than strong, as they require non-trivial insight to apply vehicle control concepts to data boundary management. However, claims 8, 11, 12, 13, 14 involve more straightforward combinations or single reference teachings that are stronger."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1 explicitly discloses POI in requests (similarity 0.85) and coordinate data for POI (similarity 0.75). The prior art directly teaches all elements of claim 8 with high confidence (0.85). This is a clear anticipation case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1 teaches speed limits for cruise control, but applying this to expand data perimeter requires a conceptual leap from speed optimization to data boundary management. However, the combination threshold (0.45) is met, and with strictness=0.89, this moderate evidence supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "Calculating download time from transfer rate and data size (time = size/rate) is fundamental engineering practice. This is routine calculation well within PHOSITA skill. High confidence (0.75) and clear obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "Combining turn handling from US-2014121932-A1 with geo-fence definition from US-2014278090-A1 requires integration of two concepts. The combination is logical but not explicitly taught. With strictness=0.89, moderate evidence supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "moderate",
+          "reasoning": "Three-way combination of geo-fencing, data transfer rates, and speed-based operations. Each element exists in prior art, but the specific integration for triggering data requests requires synthesis. Moderate evidence, but strictness=0.89 favors rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1 uses heading for cruise control, not data boundary definition. Applying heading to data boundaries is logical but represents a different application context. With strictness=0.89, moderate evidence supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 9,
+          "strength": "moderate",
+          "reasoning": "Combining geo-fence positioning with download time calculation is logical engineering practice. The timing calculation (distance/speed vs. size/rate) is routine. Moderate evidence with strictness=0.89 supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1 uses speed limits for cruise control. Applying speed limits to project future vehicle speed for geo-fence positioning is a straightforward extension. Moderate evidence with strictness=0.89 supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 11,
+          "strength": "strong",
+          "reasoning": "Adding tolerance to speed limits is common engineering practice to account for real-world variations. This is routine design choice with high confidence (0.76). Clear obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 12,
+          "strength": "strong",
+          "reasoning": "Selecting maximum of two values (current speed vs. speed limit + tolerance) is a simple max() operation. This is routine engineering practice with high confidence (0.74). Clear obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 13,
+          "strength": "strong",
+          "reasoning": "Using historical communication rates to predict future transfer rates is standard practice in network systems. This is routine engineering with high confidence (0.75). Clear obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 14,
+          "strength": "moderate",
+          "reasoning": "Using historical data sizes to predict future sizes is routine practice, but no specific prior art reference is cited. Relying on general knowledge. With strictness=0.89 and confidence (0.71), moderate evidence supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 15,
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1 handles turns for cruise control. Applying this to define data boundaries encompassing turns/exits is logical but represents different application context. Moderate evidence with strictness=0.89 supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 16,
+          "strength": "moderate",
+          "reasoning": "US-2014278090-A1 teaches geo-fence tracking. Dynamic redefinition when speed exceeds expected is adaptive response, but not explicitly taught. Moderate evidence with strictness=0.89 supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 17,
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1 includes speed limits in map data for cruise control. Applying this to define maximum expected travel speed for geo-fence management is logical extension. Moderate evidence with strictness=0.89 supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 18,
+          "strength": "strong",
+          "reasoning": "Selecting highest speed limit as maximum expected speed is simple max() operation for conservative planning. This is routine engineering practice with high confidence (0.72). Clear obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 19,
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1 teaches speed profiles for different locations. Applying speed limits on per-road basis is granular extension. Moderate evidence with strictness=0.89 supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 20,
+          "strength": "moderate",
+          "reasoning": "US-2012281091-A1 mentions signal issues. Monitoring signal strength and triggering data requests is logical adaptive behavior, but including signal strength indicia in request is not explicitly taught. Moderate evidence with strictness=0.89 supports rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 2,
+          "strength": "weak",
+          "reasoning": "US-2014121932-A1이 속도 제한 기반 속도 프로파일 최적화를 개시하지만, 'expanding the perimeter'라는 명시적 개시는 없음. BRI 하에서도 속도 프로파일 조정과 데이터 경계 확장은 구별됨. similarity score 0.75이나 element 2b는 not covered로 표시됨. 102 anticipation은 모든 요소의 명시적 개시를 요구하므로 이 거절은 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1이 속도 제한 기반 파라미터 조정을 개시하고, 이를 데이터 경계 확장에 적용하는 것은 논리적 확장. 결합 동기가 implicit하게 존재함. strictness=0.82 기준으로 moderate 근거는 거절 유지 가능."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 7,
+          "strength": "weak",
+          "reasoning": "US-2014121932-A1이 heading을 속도 프로파일 결정에 사용한다고 개시하지만, 'determining the local data boundary based on heading'은 다른 적용. similarity score 0.65이나 데이터 경계 결정이라는 특정 용도는 명시되지 않음. 102는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 heading 기반 위치 결정을 명시적으로 개시하고, 이를 데이터 경계 설정에 적용하는 것은 자명한 확장. heading 데이터를 공간적 경계 정의에 사용하는 것은 PHOSITA에게 자명함. 강한 거절 근거."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "moderate",
+          "reasoning": "US-2014278090-A1이 POI 좌표 시스템을 명시적으로 개시하고, element 8a는 0.85 similarity로 explicit match, element 8b는 0.7 similarity로 covered. coverage score 0.75. 102 anticipation의 요건을 충족할 가능성이 높음. moderate to strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1이 POI 좌표 데이터를 명시적으로 개시하고, 청구항은 이의 직접적 적용. 결합이 아닌 단일 선행기술의 straightforward application. 강한 거절 근거."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 10,
+          "strength": "weak",
+          "reasoning": "US-2014121932-A1이 속도 제한 기반 속도 프로파일을 개시하지만, 'projected speed based on known speed limits'라는 특정 용도는 명시되지 않음. similarity score 0.65이나 projected speed라는 개념은 다름. 102는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1이 속도 제한 기반 속도 결정을 개시하고, 이를 projected speed에 적용하는 것은 논리적 확장. 그러나 projected speed라는 특정 개념의 자명성은 해석의 여지가 있음. strictness=0.82 기준으로 moderate 근거는 거절 유지 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 4, 6, 7, 8, 10, 11, 12, 15, 17, 18, 19에 대한 103 거절은 선행기술의 결합에 기반하고 있습니다. US-2014121932-A1, US-2014278090-A1, US-2012281091-A1이 제공되었고, 이들의 결합 동기가 제시되었습니다. 그러나 일부 청구항(특히 2, 4, 7, 10, 11, 12, 15, 17, 18, 19)의 경우, 선행기술이 개별 요소는 개시하지만 청구항이 요구하는 특정 결합이나 적용은 명시적으로 개시하지 않습니다. 예를 들어, 청구항 2의 '속도 제한 기반 경계 확장', 청구항 4의 '회전 감속과 측면 지오펜스 결합', 청구항 7의 '진행 방향 기반 경계 결정'은 선행기술에서 명시적으로 결합되지 않았습니다. 결합 동기는 '공지된 설계 원칙' 또는 '자명한 설계 선택'으로 제시되었으나, 이는 구체적 증거보다는 일반론에 가깝습니다. combination_threshold=0.46이 낮아 공지상식 기반 결합을 인정하는 경향이 있으나, 일부 청구항은 단순한 설계 선택을 넘어서는 기술적 결합을 포함합니다. 청구항 6과 8은 US-2014278090-A1에 의해 상당 부분 개시되어 있어 거절 근거가 더 강합니다. 전체적으로 moderate 강도로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1 explicitly discloses both elements of claim 8 with high similarity scores (0.85, 0.8). The reference clearly teaches POI-based requests and coordinate data defining known POI locations. Coverage score of 0.82 significantly exceeds threshold. This is direct anticipation with clear textual support."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1 explicitly discloses defining speed profile based on speed limits at positions, which directly anticipates claim 17's requirement of maximum expected travel speed defined as part of map data based on speed limits. Similarity score of 0.75 and coverage of 0.67 exceed threshold. Clear anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1 explicitly discloses speed profile as function of speed limits at positions, which inherently means defining speed for each individual road based on that road's speed limit. Similarity score of 0.75 and coverage of 0.72 exceed threshold. Direct anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "Combination of speed limit control (US-2014121932-A1) with geo-fence boundaries (US-2014278090-A1) is logical, but the specific application to expanding perimeter based on speed limit comparison requires some design choice. Motivation is clear but not explicitly taught. At strictness 0.55, this is borderline - predictable combination but requires integration step."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Calculating download time = data size / transfer rate is fundamental engineering knowledge. US-2012281091-A1 provides context of bandwidth management. This is basic calculation requiring no inventive insight. Clear obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "Combining turn-based speed adjustment (US-2014121932-A1) with sideward geo-fence definition (US-2014278090-A1) is logical but requires design integration. The specific combination is not explicitly taught. At strictness 0.55, this is borderline but the motivation is reasonably clear."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Combining geo-fence triggering (US-2014278090-A1) with transfer speed considerations (US-2012281091-A1) is predictable optimization, but the specific implementation of time-based boundary and speed-based geo-fence placement requires design choices. Motivation is clear but integration not trivial. At strictness 0.55, this is borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "Using heading to determine data boundary direction is logical extension of US-2014121932-A1's heading usage, but the specific application to data boundary definition is not explicitly taught. Common sense application but requires design step. At strictness 0.55, this is borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "The timing calculation combining speed, transfer rate, data size, and boundary distance is basic engineering, but the specific geo-fence positioning based on this calculation requires design integration. Motivation is clear but implementation not trivial. At strictness 0.55, borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "Using speed limits to project vehicle speed is logical extension of US-2014121932-A1, but the specific application to data boundary approach timing is not explicitly taught. Context difference exists between cruise control and data download. At strictness 0.55, borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "Adding tolerance to speed limits is standard engineering practice for safety margins. This is common knowledge requiring no inventive insight. Clear obviousness based on general engineering principles."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "Taking maximum of two values for conservative estimation is basic logic and standard engineering practice. This requires no inventive insight. Clear obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "Using historical data for prediction is standard practice in network systems, but the specific application to transfer rate projection is not explicitly taught in US-2012281091-A1. Common practice but requires implementation step. At strictness 0.55, borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Using historical data set sizes for projection is standard practice in data management, but not explicitly taught in references. Common practice but requires implementation. At strictness 0.55, borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Sizing boundary to encompass turns/exits is logical extension of route-aware systems, but the specific requirement is not explicitly taught. Predictable design choice but requires integration. At strictness 0.55, borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Adaptive geo-fence adjustment based on speed exceedance is predictable control strategy, but the specific implementation is not taught. Standard adaptive control principle but requires design integration. At strictness 0.55, borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Using highest speed limit for maximum expected speed is obvious conservative design choice for worst-case planning. This is fundamental engineering practice requiring no inventive insight. Clear obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "Monitoring signal strength and triggering preemptive requests is predictable solution to US-2012281091-A1's disclosed problem of unreliable coverage, but the specific implementation is not taught. Logical solution but requires design step. At strictness 0.55, borderline."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty (claim 8)",
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1이 청구항 8의 모든 구성요소를 명시적으로 개시함. Claim 1에서 'receive vehicle coordinates', 'compare the vehicle coordinates to geo-fence coordinate sets of a plurality of geo-fences surrounding point of interest (POI)', 'receive information relating to the POI'를 명확히 기재. Detailed description에서 'POI information may include a variety of data including new road locations, new entrances to roads'로 coordinate data defining known locations를 포함함. 단일 문헌에서 모든 요소가 개시되어 anticipation 성립."
+        },
+        {
+          "basis": "103_obviousness (claim 2)",
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 속도 제한 기반 속도 프로파일을 개시하고, US-2014278090-A1이 geo-fence 경계를 개시함. 속도 제한이 현재 차량 속도를 초과할 때 데이터 경계를 확장하는 것은 충분한 데이터 커버리지를 보장하기 위한 예측 가능한 설계 선택. 결합 동기가 명확하고 combination_threshold=0.22 기준 충족."
+        },
+        {
+          "basis": "103_obviousness (claim 3)",
+          "strength": "strong",
+          "reasoning": "US-2012281091-A1이 고대역폭 연결과 데이터 전송을 개시함. 다운로드 시간 = 데이터 크기 / 전송 속도 계산은 데이터 통신 시스템의 기본 공식. 이는 routine calculation으로 PHOSITA에게 자명함."
+        },
+        {
+          "basis": "103_obviousness (claim 4)",
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 회전 시 속도 조정과 lateral acceleration을 명시적으로 개시함. US-2014278090-A1이 geo-fence 정의를 개시함. 회전 시 측면 영역에 geo-fence를 정의하는 것은 차량이 회전할 때 측면 데이터 커버리지가 필요하다는 명백한 요구사항의 적용."
+        },
+        {
+          "basis": "103_obviousness (claim 6)",
+          "strength": "moderate",
+          "reasoning": "세 개의 선행기술(US-2014278090-A1, US-2012281091-A1, US-2014121932-A1)을 결합하여 차량 속도와 다운로드 속도를 모두 고려한 geo-fence 트리거링을 구현. 각 요소는 개별적으로 개시되어 있으나, 특정 조합(차량 속도 + 다운로드 속도 동시 고려)은 명시적이지 않음. 그러나 combination_threshold=0.22로 인해 이러한 결합은 예측 가능한 것으로 판단됨."
+        },
+        {
+          "basis": "103_obviousness (claim 7)",
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 차량 헤딩 기반 경계 결정을 개시함. 헤딩이 이동 방향을 결정하므로 관련 데이터 영역에 영향을 미친다는 것은 자명함. 이는 common sense application."
+        },
+        {
+          "basis": "103_obviousness (claim 9)",
+          "strength": "moderate",
+          "reasoning": "세 개의 선행기술을 결합하여 다운로드가 경계 도달 전에 완료되도록 geo-fence를 결정. 각 요소(projected speed, data transfer rate, data set size)는 개별적으로 개시되어 있으나, 이들을 모두 결합한 특정 타이밍 계산은 명시적이지 않음. 그러나 이는 데이터 가용성 보장이라는 기본 요구사항의 straightforward engineering application으로 판단됨."
+        },
+        {
+          "basis": "103_obviousness (claims 10, 11, 12)",
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 속도 제한 사용을 개시함. Claim 10(접근 도로의 속도 제한 사용), claim 11(tolerance 추가), claim 12(현재 속도와 조정된 속도 제한 중 큰 값 선택)은 모두 속도 제한 데이터의 straightforward application과 안전 마진 추가라는 표준 엔지니어링 관행."
+        },
+        {
+          "basis": "103_obviousness (claims 13, 14)",
+          "strength": "strong",
+          "reasoning": "과거 관찰된 통신 속도(claim 13) 및 데이터 세트 크기(claim 14)를 사용하여 미래를 예측하는 것은 데이터 통신 및 관리 시스템의 standard practice. Historical data를 사용한 prediction은 common engineering practice."
+        },
+        {
+          "basis": "103_obviousness (claim 15)",
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 회전 처리를 개시하고, US-2014278090-A1이 경로 기반 좌표를 개시함. 경로의 회전이나 출구를 포함하도록 경계를 정의하는 것은 이러한 경로 특징이 지도 데이터를 필요로 한다는 명백한 요구사항."
+        },
+        {
+          "basis": "103_obviousness (claim 16)",
+          "strength": "moderate",
+          "reasoning": "US-2014278090-A1이 geo-fence 추적 및 트리거링을 개시하고, US-2012281091-A1이 모바일 유닛 추적을 개시함. 속도가 최대값을 초과할 때 geo-fence를 더 가깝게 재정의하는 것(element 16d)은 명시적으로 개시되지 않았으나, 조건 변경 시 경계를 조정하는 것은 적절한 응답 시간을 유지하기 위한 common adaptive system design principle로 판단됨."
+        },
+        {
+          "basis": "103_obviousness (claims 17, 18, 19)",
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1이 지도 데이터의 속도 제한을 개시함. Claim 17(로컬 지도 데이터의 속도 제한 기반), claim 18(최고 속도 제한 기반), claim 19(개별 도로별)은 모두 최대 예상 속도 설정을 위한 가용 지도 데이터의 straightforward application."
+        },
+        {
+          "basis": "103_obviousness (claim 20)",
+          "strength": "strong",
+          "reasoning": "US-2012281091-A1이 불안정한 셀룰러 신호 영역을 언급함. 신호 강도를 모니터링하고 임계값 이하로 떨어질 때 데이터를 요청하는 것은 연결 손실 전에 데이터 가용성을 보장하기 위한 모바일 통신 시스템의 common practice."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1 explicitly discloses both elements of claim 8: (a) request including POI and (b) map data including coordinate data defining known locations representing the POI. The reference clearly teaches a system where POI requests result in receiving geo-fence coordinate sets and location data for the POI. This is a clear case of anticipation with high confidence (0.9)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1 teaches speed limit determination and speed-based boundary adjustment. Applying speed limits to expand data coverage areas when vehicle may travel faster is a straightforward combination with clear motivation (ensuring adequate data coverage). The obviousness analysis is well-supported with confidence 0.75."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012281091-A1 teaches data transfer and bandwidth management. Calculating download time as size/rate is fundamental in data communications. The combination is predictable and well-motivated with confidence 0.8."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014121932-A1 teaches speed adjustment for curves, and US-2014278090-A1 teaches geo-fence definition. While combining these for sideward geo-fence extension is logical, the specific application to define coverage sideward of heading based on turning behavior requires some insight. Confidence is 0.7, indicating moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Combining geo-fence triggering (US-2014278090-A1) with bandwidth-aware data management (US-2012281091-A1) is logical, but the specific implementation of defining geo-fence within data boundary based on both vehicle speed and download speed requires integration of multiple factors. Confidence 0.65 suggests moderate strength with some interpretive flexibility."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "Using vehicle heading to determine data boundary direction is straightforward and well-motivated. Both references teach relevant elements, and the combination is predictable with confidence 0.75."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "Combining geo-fence positioning (US-2014278090-A1) with download time calculations (US-2012281091-A1) to ensure sufficient download time is a predictable timing calculation. Confidence 0.75 supports strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            11,
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1 teaches speed limit usage. Basing projected speed on speed limits (claim 10), adding tolerances (claim 11), and using maximum functions (claim 12) are all straightforward applications of known techniques with confidence 0.75-0.8."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012281091-A1 teaches data transfer rates. Using historical data for prediction is well-established practice in data communications. Confidence 0.75 supports strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "While using historical data sizes for prediction is common practice, no specific prior art reference is cited. The rejection relies on general knowledge in the art. Given strictness=0.50 (neutral), this moderate strength rejection based on general knowledge without specific reference citation warrants careful consideration. Confidence 0.8 suggests the practice is well-known, but lack of specific reference slightly weakens the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Combining turn/curve handling (US-2014121932-A1) with boundary definition (US-2014278090-A1) to encompass turns/exits is logical, but requires integration of route planning with data coverage. Confidence 0.7 indicates moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of geo-fence tracking (US-2014278090-A1) with speed-based dynamic adjustment (US-2014121932-A1) is logical, but the specific implementation of redefining geo-fence closer when speed exceeds expected speed requires system integration. Confidence 0.65-0.7 suggests moderate strength with interpretive flexibility."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            18,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014121932-A1 teaches speed limit control. Defining maximum expected speed based on speed limits (claim 17), using highest speed limit (claim 18), and road-specific speeds (claim 19) are straightforward applications with confidence 0.75-0.8."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012281091-A1 discusses signal availability issues. Monitoring signal strength and proactively requesting data before connectivity loss is a predictable application with confidence 0.75."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1은 청구항 8의 모든 요소를 명시적으로 개시합니다. 선행기술의 청구항 1은 'point of interest (POI)'를 포함하는 요청을 개시하고, 상세 설명은 'map information which includes the current POI information pertaining to locations on a map where the points of interest are located'를 명시적으로 개시합니다. 매핑 결과에서 element 8a와 8b 모두 covered=true이며, similarity_score가 각각 0.85, 0.8로 매우 높고, coverage_score=1.0입니다. 이는 단일 선행기술이 청구항의 모든 구성요소를 개시하는 전형적인 102 거절 사례입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "대안적 거절로서, US-2014278090-A1이 청구항 8의 모든 요소를 개시하므로, 만약 102가 성립하지 않더라도 103은 명백히 성립합니다. POI 요청과 POI 위치 정보를 포함하는 맵 데이터의 결합은 해당 분야에서 확립된 기능의 예측 가능한 사용이며, 결합 동기가 명확합니다. 선행기술이 이미 이러한 결합을 명시적으로 교시하고 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1은 청구항 8의 모든 구성요소를 명시적으로 개시함. Claim 1에서 'geo-fences surrounding point of interest (POI)'를 개시하고, 상세 설명에서 'POI information may include a variety of data including new road locations, new entrances to roads, toll amounts, gas station names, gas prices, strip mall names, retail establishment names, eating establishment names'를 개시하여 POI를 나타내는 좌표 데이터를 포함함. 선행기술이 청구항 8의 (1) 요청이 POI를 포함하고 (2) 맵 데이터가 POI를 나타내는 알려진 위치를 정의하는 좌표 데이터를 포함한다는 모든 구성을 개시함. 102 거절 근거가 명확하고 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "102가 성립하지 않더라도, US-2014278090-A1이 POI 주변 지오펜스와 POI 관련 정보를 개시하고, POI 정보가 coordinate data를 포함한다는 것은 해당 기술분야의 통상의 지식에 해당함. 위치 기반 시스템에서 POI가 지리적 좌표를 포함해야 한다는 것은 자명하며, 결합 동기(location-based system의 기본 요구사항)가 논리적으로 설명됨. 103 거절 근거도 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty (Claim 6)",
+          "strength": "moderate",
+          "reasoning": "US-2014278090-A1은 geo-fence, vehicle coordinates, projected coordinates, data transmission을 개시하지만, 'triggering an additional-data request based on a vehicle speed and data download speed'라는 청구항 6의 핵심 구성요소는 선행기술에서 명시적으로 개시되지 않음. 선행기술은 geo-fence 도달 시 POI 정보 전송을 다루지만, 차량 속도 및 데이터 다운로드 속도에 기반한 추가 데이터 요청 트리거는 해석의 여지가 있음. 단일 문헌 anticipation으로 보기에는 일부 구성요소의 명시성이 부족함."
+        },
+        {
+          "basis": "102_novelty (Claim 8)",
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1은 'request includes a point of interest'와 'POI information includes coordinate data defining known locations'를 명시적으로 개시함. 청구항 8의 모든 구성요소가 단일 문헌에서 명확히 발견되므로 102 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness (Claim 6)",
+          "strength": "moderate",
+          "reasoning": "US-2014278090-A1과 US-2012281091-A1의 결합은 논리적이나, 'vehicle speed and data download speed'를 모두 고려하여 geo-fence를 정의하는 구체적 결합 동기가 선행기술에서 명시적으로 교시되지 않음. 두 문헌 모두 차량 데이터 관리를 다루지만, 청구항 6의 특정 결합은 후지식 편향(hindsight bias) 가능성이 있음. combination_threshold=0.48 기준에서 결합 동기가 충분한지 판단이 필요함."
+        },
+        {
+          "basis": "103_obviousness (Claim 8)",
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1이 POI 요청 및 coordinate data를 명시적으로 개시하므로, 103 분석은 102와 동일한 결론에 도달함. 단일 문헌에서 모든 구성요소가 개시되어 있어 자명성 판단이 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 6,
+          "strength": "weak",
+          "reasoning": "US-2014278090-A1은 geo-fence와 POI 정보 전송을 개시하지만, 청구항 6의 핵심 요소인 'vehicle speed and data download speed를 기반으로 geo-fence를 정의'하는 구성은 명시적으로 개시하지 않습니다. Office Action도 'While US-278090 does not explicitly recite that the geo-fence is defined based on vehicle speed and data download speed'라고 인정하고 있습니다. 102는 모든 요소의 명시적 개시를 요구하므로, 이 거절은 증거가 불충분합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 8,
+          "strength": "strong",
+          "reasoning": "US-2014278090-A1은 POI 요청과 POI 관련 정보(location data 포함)를 명시적으로 개시합니다. 상세 설명에서 'POI information may include... new road locations... gas station names... retail establishment names'라고 명시하여, 청구항 8의 모든 요소(request includes POI, map data includes coordinate data defining known locations representing POI)를 anticipate합니다. 증거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "moderate",
+          "reasoning": "US-2014278090-A1의 geo-fence 시스템과 US-2012281091-A1의 bandwidth 관리를 결합하는 것은 논리적 동기가 있습니다(데이터 전송 최적화). 그러나 vehicle speed와 download speed를 모두 고려하여 geo-fence를 동적으로 배치하는 것은 단순한 결합 이상의 예측적 메커니즘을 요구합니다. US-278090은 POI 정보 제공에 초점을 맞추고, US-281091은 요청 시 대역폭 제공에 초점을 맞추므로, 이들을 결합하여 예측적 geo-fence 배치를 구현하는 것은 명시적 교시가 부족합니다. combination_threshold=0.57이므로 명시적 교시나 강한 시사가 필요하나, 선행기술은 이를 충분히 제공하지 않습니다. 다만 데이터 전송 최적화라는 일반적 동기는 존재하므로 moderate로 평가합니다."
+        }
+      ]
+    }
+  ]
+}

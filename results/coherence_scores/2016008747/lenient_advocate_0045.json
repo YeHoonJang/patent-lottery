@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage applies element-by-element anticipation analysis citing specific claim language and a single prior art reference (US-2015143081-A1), and the §103 stage applies Graham factors (scope/content, differences, PHOSITA level, secondary considerations), both consistent with the correct statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the novelty and obviousness stages, each claim rejection references specific claim language (e.g., 'front end units,' 'processing elements,' 'controller configured to activate') and maps them to specific numbered claims in US-2015143081-A1."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 stage finds all claims lack novelty with high confidence (0.93–0.99), yet the §103 stage inexplicably finds all claims non-obvious (is_obvious: false) with identical 0.7 confidence despite explicitly acknowledging 'no substantial differences,' creating a direct contradiction: claims found anticipated are simultaneously found non-obvious without adequate bridging rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.292 (lenient), and the final decision of 'amend_suggested' rather than outright rejection — along with the weighing section noting applicant-favorable interpretation given low strictness — is consistent with a lenient examiner resolving ambiguity in the applicant's favor."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' follows logically from the accumulated analysis: §102 rejections were issued for all claims, the obviousness stage found no additional rejection grounds, and the final decision recommends amendment rather than allowance or final rejection, consistent with the stage-level outputs."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2016008747",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17966,
+      "output_tokens": 422,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "case_id": "PILOT-2022000717",
+  "proceeding_number": "2022000717",
+  "gt_issues": [
+    "102",
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018329537-A1은 다중 방향 터치 전극, 드라이브-센스 모듈, 브리지 배선, 블록 구조, 전극 배열 등 본 출원의 모든 핵심 구성요소를 명시하거나 명백히 암시하고 있으며, 결합 동기(motivation to combine)가 선행기술 내에 명시적 존재함. 통상의 기술자 수준, 2차적 고려사항 부재 등 Graham 요소 전반에서 obviousness가 강하게 입증됨. confidence 값 대부분 0.8 이상으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018329537-A1은 청구항 1, 2, 3, 10, 11, 13, 20의 모든 구성요소를 명시적 또는 암시적으로 개시하며, 다중 방향 전극 구조, 동일 층 형성, 브리지 배선, 대각선 방향 전극, 디스플레이 통합 등은 각각 터치 센서 기술 분야에서 공지된 기술적 경향이다. 결합 동기(motivation to combine)가 명확하며, 통상의 기술자도 쉽게 도달 가능하다고 판단된다. 특히, 신규성 판단에서도 일부 청구항이 선행기술에 개시되었다고 평가된 점에서 진보성 결여는 더욱 명확하다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 2's rejection relies on routine optimization arguments (layer reduction, transparency) based on US-2018329537-A1's use of insulating films. While plausible, the reference does not explicitly teach co-locating all three electrode sets on a single transparent layer. Under moderate BRI and low strictness (0.25), this represents a design choice rather than an inevitable conclusion, making the obviousness rationale moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 10 and 20 are rejected under 103 as an alternative to 102, arguing that labeling diagonal electrodes as 'rows and columns' is merely semantic. The prior art clearly discloses 45°/135° electrodes forming a second grid, so redefining them as rows/columns is a reasonable interpretation. However, this depends on functional equivalence, which may not be fully established. Given the explicit disclosure of angular grids, the rationale is moderate in strength."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2018329537-A1은 다중 방향 전극을 개시하지만, 세 개의 전기적으로 격리된 그리드(행, 열, 존)를 단일 드라이브-센스 모듈로 통합 제어하는 아키텍처는 개시하지 않음. 결합 동기 부족하며, 통상의 기술자가 이를 결합하여 청구항 발명에 도달하기는 자명하지 않음. combination_threshold=0.72 기준보다 높은 비자명성 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018329537-A1은 다중 방향 터치 전극, 동일 층 내 전극 배열, 브리지 배선을 통한 연결, 디스플레이 통합 구조, 특정 각도의 교차 방향 등을 명시적으로 개시하고 있으며, 청구항 1, 2, 3, 10, 11, 13, 20의 구성요소들이 단일 선행기술에 의해 명시적 또는 암시적으로 포함됨. drive-sense 모듈, 투명 전도성 층, 연결 트레이스, 45/135도 축, 게이트/데이터층 활용 등은 모두 통상의 기술자가 자명하게 도출할 수 있는 기술적 수준에 있음. 결합 동기 명확하고, 선행기술과의 기술적 격차 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018329537-A1은 다중 방향 터치 전극 구조를 명시적으로 개시하고 있으며, 청구항 1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 20에 대한 차이점은 통상의 기술자가 용이하게 도달할 수 있는 설계 선택 또는 공지 기술의 직관적 확장에 해당함. 특히, 동일한 층에 형성, 블록 구조, 공통 신호원 사용, 각도 지정 등은 선행기술의 동일한 목적(감도 향상, 제조 간소화)을 달성하기 위한 전형적인 기술로서, 결합 동기가 명확하고, 그 효과가 예측 가능함. confidence 수치가 0.7 이상이며, Graham 요소들 간 일관성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 12, 3, 13, 10, and 20 are rejected based on US-2018329537-A1 combined with common knowledge in display integration. The motivation to combine—such as reducing manufacturing complexity, improving optical clarity, using standard interlayer routing, and selecting conventional diagonal angles—is well-supported. These are routine optimizations a PHOSITA would recognize, making the obviousness rejections strong."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2018329537-A1은 제1항, 제3항, 제10항, 제11항, 제13항, 제20항의 모든 구성요소를 명시적으로 개시하고 있으며, 청구항과의 대비 분석에서 실질적인 차이가 없음. 특히 전극의 배열 방향, 그리드 형성, 드라이브-센스 모듈 포함, 디스플레이 통합, 연결 트레이스 구조 등이 동일하게 기재되어 있어 신규성 결여 판단에 강한 근거 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "제2항 및 제12항에 대해 선행기술이 동일한 투명 전도층 또는 공통 전압층 상의 전도 패드 형성을 직접적으로 개시하지는 않으나, 동일한 층에 전극 배치를 허용하고 있고, 제조 공정 단순화 및 투과율 유지 목적의 동기는 공지됨. 그러나 제12항의 공통 전압층 위에 형성되는 구조는 선행기술과의 차이가 다소 크며, 통상의 기술자가 이를 자명하게 결합할 동기를 명확히 제시하지 않음. 따라서 obvious 판단은 보통 수준의 강도를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018329537-A1은 다중 방향 터치 전극 구조, 브리징 와이어, 디스플레이 통합, 대각선 그리드(45°/135°) 등을 개시하고 있으며, 동일 레이어 형성, 게이트/데이터 금속층 사용 등은 공정 최적화 측면에서 통상의 기술자가 용이하게 도출할 수 있는 설계 선택으로 판단됨. 결합 동기와 기술적 맥락이 명확하므로 근거 강도는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2018329537-A1이 제1항의 모든 구성요소를 명시적으로 개시하고 있으며, 도면 및 명세서에서 전극 배열, 방향성, 드라이브-센스 회로 기능이 직접적으로 확인됨. 제3, 6, 11, 16항은 제1항에 종속적이거나 동일한 구조를 반복하므로 anticipation이 성립함. 증거가 명확하고 해석의 여지가 적음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 다중 방향 전극 구조를 개시하고 있으나, 제2항의 '동일한 실질적으로 투명하고 전도성인 층' 형성은 설계 선택으로 간주될 수 있음. 제4, 5항의 신호 생성 방식은 공지된 기술이지만, '동일한 신호 특성' 또는 '별도의 공통 기준 신호'의 구체적 구현은 명세서 뒷받침이 불분명함. 제7~9항의 기하학적 배열은 선행기술의 변형이지만, 코너/크로스 패드의 배치 변경은 기능적 차이 없이 설계 자유도 내 존재함. 결합 동기(motivation)는 존재하나, 모든 청구항에서 자명성의 정도가 일관되게 강하지는 않음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'존', '블록 행/열', '동일한 신호 특성' 등의 용어가 명세서에서 충분히 정의되지 않아 모호성 존재. 그러나 제2항은 상대적으로 명확하며 실시예와 일치함. 서술적 지지 부족 주장은 타당하나, 일부 용어는 BRI 하에서 해석 가능하므로 전면적 112 거절은 다소 엄격함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 2와 12에 대한 obviousness 판단은 제조 간소화 및 광학 투명성 향상이라는 동기가 타당하나, 세 번째 전극을 별도 절연막에서 동일한 투명 전도성 층으로 이동시키는 것이 전기적 간섭 또는 신호 무결성에 미치는 영향에 대한 구체적 증거나 분석이 부족함. 선행기술이 동일한 층에 세 전극 세트를 모두 배치할 것을 명시하지 않아 해석의 여지가 있음. strictness=0.52 수준에서 약한 증거로는 충분치 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 10과 20에 대한 rejection은 선행기술이 제3 및 제4 방향 전극이 제1 및 제2 방향 사이에 위치한다고 개시하고 있으나, 이를 '45도 및 135도 축을 갖는 행과 열'로 해석하는 것은 BRI 범위를 벗어난 확장일 수 있음. 선행기술이 '행-열 그리드'로서의 대각선 구조를 개시하지 않으며, 진보성 판단에서 이미 non-obvious로 평가된 점을 고려하면, 이에 대한 obviousness 주장은 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 12, 3, 13, 10, and 20 are rejected based on US-2018329537-A1 combined with common technical knowledge in display-integrated touch sensors. The motivation to combine—such as simplifying manufacturing, improving optical transparency, using multilayer routing, and optimizing electrode angles—is well-supported by routine engineering practices. These modifications represent predictable variations within the prior art, and the confidence levels (0.75–0.85) exceed the combination threshold (0.52), supporting strong obviousness rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2 및 12에 대한 거절은 REF1의 동일 레이어 전극 기재와 통상의 기술자 관점에서의 제조 간소화 동기를 근거로 하며, 합리적인 판단이지만 직접적인 개시는 아님. 특히 청구항 12의 공통 전압 레이어 위에 세 가지 전극 패드를 직접 형성하는 것은 잡음 간섭 위험이 있어 자명성 판단에 해석의 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 3 및 13에 대한 거절은 REF1의 브리지 배선 구조와 인셀 터치 디스플레이에서 게이트/데이터 레이어를 트레이스로 사용하는 것이 통상 기술임을 고려할 때, 결합 동기가 명확하고 기술적 자명성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4, 5, 14, 15에 대한 거절은 신호 일관성 및 최적화를 위한 공통/분리 기준 신호 사용이 센서 설계에서 일반적이나, 세 가지 전극 그룹(행, 열, 존)에 동시에 적용하는 구체적 구성에 대한 직접적 동기는 약함. 통상의 기술자에게는 예측 가능하나, 출원 발명의 기술적 효과(예: 다중 감지 모드)를 고려하면 자명성 판단은 보수적이어야 함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Combination references are the same as anticipation references; motivation to combine is based on design optimization (e.g., layer reduction, integration) which is common in the art. However, strictness level 0.60 requires cautious application of obviousness where structural differences exist. Some rejections (e.g., claim 2, 12) rely on design choice rationale with moderate confidence (0.8), while others (claim 3, 13) have stronger technical basis in bridge wiring and metal layer use."
+        }
+      ]
+    }
+  ]
+}

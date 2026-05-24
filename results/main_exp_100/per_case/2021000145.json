@@ -1,0 +1,401 @@
+{
+  "case_id": "PILOT-2021000145",
+  "proceeding_number": "2021000145",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1은 다중 연결 설정, 연결 파라미터 모니터링, 정책 기반 트래픽 분배를 명시적으로 개시하며, 청구항 1의 핵심 구성요소인 send/receive 커넥터, 경로 특성 유지, 스케줄러를 실질적으로 포함한다. 'send buffer', 'receive buffer', 'assembler'는 데이터 전송 및 재조합을 위한 일반적인 구성요소로, 통상의 기술자에 의해 용이하게 포함될 수 있으며, 결합 동기(motivation to combine)가 명확함. combination_threshold=0.34로 낮아 공지기술 기반의 obvious 판단이 용이함. 신규성 및 진보성 모두에서 높은 confidence(0.8 이상)가 유지되며, 112 문제도 병존함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015245409-A1은 다중 네트워크 인터페이스(LTE, WiFi)를 통한 다중 경로 연결 설정, 연결 파라미터(대역폭, 지연, 손실률) 모니터링, 정책 기반 트래픽 분배, 연결 관리자(=scheduler) 기능을 명시적으로 개시함. 청구항의 핵심 구성요소인 send/receive connectors, path table, scheduler는 직접 대응됨. send/receive buffer, assembler는 명시적 기재 없으나, 다중 경로 환경에서의 데이터 흐름 제어 및 재조합은 MPTCP 및 기존 전송 프로토콜에서 공지된 기술이며, 통상의 기술자에게 자명함. 피드백 메커니즘, TCP/UDP 지원, 중간 노드 포함 여부 등도 네트워크 설계의 일반적 실시 방식에 해당. 결합 동기(motivation to combine)는 성능 최적화라는 공통 설계 목표로 명확하며, 결과도 예측 가능함. confidence 값 대부분 0.8 이상으로 일관되며, 전체적으로 강한 obviousness 근거가 성립함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although US-2015245409-A1 discloses multi-path communication and traffic scheduling, it does not teach or suggest the specific combination of application-level send/receive buffers, an assembler for reassembly, and feedback from assembler to scheduler. The integration of these elements into an MPTP API framework for OS-independent, middlebox-friendly multi-path transport is not rendered obvious. The motivation to combine is lacking, and the claimed configuration represents a meaningful technical improvement. Given the low strictness (0.29) and purposive interpretation, this constitutes a weak obviousness challenge."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1 공개된 다중 경로 통신 시스템은 청구항의 핵심 구성요소(다중 커넥터, 경로 테이블, 스케줄러)를 포함하며, 전송/수신 버퍼 및 어셈블러의 부재는 패킷 기반 네트워크에서 통상적인 기술자(PHOSITA)에게 자명한 설계 사항으로 간주됨. 결합 동기(motivation to combine)는 비대칭 경로(LTE/WiFi)에서의 신뢰성 있는 전송 필요성에 의해 명확히 뒷받침됨. combination_threshold=0.45 기준에 비추어, 공지된 공학적 관행을 반영한 obvious 판단은 강한 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1이 다중 경로 통신, 연결 관리, 경로 특성 기반 트래픽 분배, 스케줄링 등을 명시적으로 개시하고 있으며, 청구항 1, 8, 15의 구성요소들이 선행기술과 실질적으로 동일하거나 당업자에게 명백한 변형임. 결합 동기(motivation to combine)가 명확하고, Graham 요소 전반에서 obviousness가 충분히 입증됨. confidence 0.82 이상으로, 강한 근거 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 15의 '단일 버퍼'는 명세서 [0012]에서 별도의 send/receive 버퍼로 기재되어 있어 명확한 뒷받침 부족. 청구항 17의 'TCP/UDP 동시 지원'은 명세서 [0011]에서 'TCP 또는 UDP'로 한정되어 있어 범위 초과. 모두 명세서 명시적 기재와 모순되며, new matter에 해당. verification_note도 이를 뒷받침하므로 강한 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The primary rejection under 103 is based on US-2015245409-A1 combined with common knowledge in networking. The reference discloses core elements of multi-path transport (connectors, path table, scheduler), and the addition of buffers and assembler is a well-known technique for handling packet ordering and loss. Motivation to combine is clear due to asymmetric network conditions. The confidence in obviousness is high (0.75–0.9) across most claims, and the broad interpretation (breadth=0.79) supports this. Even though some elements are not explicitly disclosed, they are routine engineering choices, making the rejection strong."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1은 다중 경로 설정, 경로 특성 모니터링, 정책 기반 트래픽 분산을 명시적으로 개시하며, 청구항 1, 6, 8, 13, 15의 구성요소 대부분은 명시적 또는 암시적으로 포함됨. BRI 해석하에 기능적 동등성이 인정되며, 통상의 기술자가 이를 결합할 동기가 명확함. confidence 0.75 이상으로 강한 근거."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 2 및 9의 경로 특성(throughput, latency, loss rate, congestion window)은 선행기술에서 직접 또는 공지기술로 개시됨. 혼잡 창은 TCP 기반 전송에서 통상적인 파라미터로, 성능 최적화 목적 하에 포함하는 것이 자명함. motivation_to_combine이 명확하고, phosita level에서 쉽게 도출 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4 및 11의 '각 데이터 패킷을 복수의 경로를 통해 전송'은 선행기술의 연결 단위 분산과 차이가 있음. 그러나 packet-level splitting은 네트워크 부하 분산에서 'obvious to try'로 간주될 수 있음. 다만, 재조합 오버헤드 및 지연 문제로 인해 비자명할 수도 있으나, strictness=0.55 수준에서 거절 유지 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 5, 12, 16의 '0개 이상의 중간 노드'는 선행기술의 인프라 기반 네트워크와 차이가 있음. 직접 연결(예: P2P)은 공지기술이나, 다중 경로 프로토콜에 통합 관리하는 것은 비자명할 수 있음. 그러나 유연한 경로 관리라는 목적 하에 결합 동기가 있다고 판단될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1이 다중 경로 설정, 경로 특성 관리, 스케줄링 등을 개시하고 있으며, 송수신 버퍼 및 어셈블러는 네트워크 시스템에서 공지된 구성 요소로, 결합 동기가 명확함. combination_threshold=0.22로 낮아 공지상식 기반 결합도 용인됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "경로 테이블에 throughput, latency, loss rate, congestion window 저장은 US-2015245409-A1의 모니터링 대상과 TCP 공지기술로 충분히 뒷받침됨. congestion window는 TCP 시스템에서 표준 매개변수."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "어셈블러에서 스케줄러로의 피드백은 동적 트래픽 조정 기능에서 암시되지만, 구성 요소 간의 명시적 연결은 간접적. 그러나 피드백 루프는 네트워크 제어에서 공지된 기법이므로 자명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "중간 노드 포함 여부는 실제 네트워크 토폴로지의 일반적 특징으로, US-2015245409-A1의 WiFi/LTE 지원에서 자연스럽게 도출됨. 'zero to plurality' 범위는 유연성 설계로 자명하다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "TCP 지원은 MPTCP 언급을 통해 명시적으로 개시됨. RFC 6824 기반으로, TCP는 기본 전제이므로 obvious 판단은 타당함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "UDP 지원은 공지된 프로토콜이지만, 다중 경로에서의 적용은 연결 없음, 순서 보장 문제 등 기술적 과제 있음. 선행기술이 UDP 기반 다중 경로를 제안하지 않으며, 결합 동기 불명확. 그러나 combination_threshold 낮음에 따라 자명성 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1은 다중 경로 연결 관리 및 트래픽 분배를 명시적으로 개시하고 있으며, 청구항 1, 8, 15의 핵심 구성요소(커넥터, 경로 테이블, 스케줄러)를 포함한다. '버퍼'와 '어셈블러'는 명시되지 않으나, TCP/IP 기반 통신 시스템에서의 버퍼링 및 재조합은 통상의 기술자에게 공지된 일반적 기술 수단으로, 결합 동기(motivation to combine)가 명확하다. combination_threshold=0.33 기준에 비추어도 obvious 판단은 정당하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 2 및 9의 'throughput, latency, loss rate, congestion window'는 네트워크 성능 모니터링의 표준 지표이며, 선행기술에서 'bandwidth, latency, loss rate, congestion status'를 명시적으로 개시하고 있어 실질적으로 동일하다. 이는 routine optimization에 해당하며, PHOSITA가 자명하게 도달할 수 있는 기술적 선택이다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4, 5, 11, 12, 16의 '0개에서 복수의 중간 노드' 제한은 네트워크 토폴로지의 일반적 현실을 반영하나, '0개 노드' 즉 직접 경로는 다중 경로 시스템에서 예외적 사례일 수 있다. 그러나 선행기술이 다양한 인터페이스(LTE, WiFi)를 관리하므로, 다양한 경로 구조를 암시한다고 보는 것이 합리적이며, 통상의 기술자에게는 설계상 고려 사항으로 간주될 수 있다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "TCP/UDP 지원(청구항 6, 7, 13, 14, 17)은 인터넷 통신의 표준 프로토콜로서, 다중 경로 메커니즘에서의 지원은 실용성을 고려할 때 자명하다. 그러나 선행기술이 특정 프로토콜을 언급하지 않으므로, 이는 설계 선택의 범위 내에서 obvious 판단이 가능하나, 혁신성은 낮다. strictness=0.50인 점에서, 공지상식 기반 결합은 인정되나 경계적임."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1이 다중 연결 설정, 연결 특성 모니터링, 정책 기반 트래픽 분배를 명시적으로 개시하고 있으며, 버퍼 및 어셈블러는 다중 경로 통신에서 데이터 재조합 및 신뢰성 전송을 위한 공지된 구성으로 간주될 수 있음. combination_threshold=0.44로 낮아 결합 동기 인정이 용이하며, 선행기술과의 기능적 유사성이 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "throughput, latency, loss rate는 선행기술에 명시적으로 개시되어 있으며, congestion window는 TCP 기반 시스템에서 당업자에게 공지된 파라미터. 경로 테이블에 저장하는 구성은 네트워크 관리의 일반적 관행으로 자명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "중간 노드 포함 여부는 네트워크 토폴로지의 일반적 변형인 것으로 간주될 수 있으나, 청구항의 범위가 광범위하므로 명시적 개시 부족 시 해석의 여지 존재. 그러나 선행기술이 다양한 인터페이스 연결을 개시하므로 예측 가능한 구현으로 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "MPTCP는 TCP의 확장이며, US-2015245409-A1이 MPTCP를 배경 기술로 명시적으로 언급하므로 TCP 지원은 본질적으로 개시됨. 결합 동기 없이도 자명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "UDP는 공지된 프로토콜이나, 선행기술은 TCP/MPTCP 중심이며 UDP 기반 다중 경로 전송에 대한 언급 없음. 그러나 애플리케이션 수준에서의 프로토콜 독립성은 일반적 설계 선택으로 간주될 수 있음. strictness=0.52 기준에서 자명성 판단은 가능하나, 일부 해석 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1 공개한 다중 경로 연결 관리 및 트래픽 분배 기능과, 공지된 전송계층 기술(버퍼링, 재조합, 혼잡 제어) 결합은 명확한 동기 존재. TCP/UDP 지원은 각각 직접 공지 또는 응용 요구 기반으로 명백함. 진보성 거절 근거 전반적으로 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "경로 테이블에 혼잡창(congestion window) 포함 여부는 명시적 기재 없으나, 적응형 트래픽 분배 시스템 내에서 혼잡 제어 필요성은 함의됨. 공지된 TCP 메커니즘 적용은 당업자 수준에서 타당하나, 다중 경로 환경에서의 구체적 통합에 다소 해석 필요."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "UDP 지원은 실시간 응용을 위한 일반적 선택이나, US-2015245409-A1이 MPTCP 중심으로 기술되어 있어 UDP 통합에 직접적 동기 부족. 그러나 응용 인식 정책 기반 시스템에서 프로토콜 확장은 예측 가능한 설계 선택으로 간주 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1이 다중 경로 통신의 핵심 구성요소(다중 연결, 정책 기반 트래픽 분배, 연결 매개변수 모니터링)를 명시적으로 개시하고 있으며, 버퍼 및 어셈블러는 네트워크 시스템에서 통상적인 구성 요소로 간주될 수 있음. 결합 동기와 공지기술 근거가 명확하므로 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "경로 테이블에 저장되는 특성(처리량, 지연, 손실률, 혼잡 창)은 선행기술에서 직접 또는 암시적으로 개시되며, TCP 혼잡 창은 공지된 기술임. 프로토콜(TCP/UDP) 지원 역시 선행기술과 네트워크 환경에서 자명하므로 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "어셈블러에서 스케줄러로의 피드백은 선행기술에 직접 개시되지 않으나, 네트워크 제어 시스템에서의 피드백 루프는 일반적인 설계 원칙으로 간주될 수 있음. 그러나 구체적 구현 방식의 차이가 존재하여 해석의 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "동일 패킷을 복수 경로로 전송하는 것은 링크 결합 및 병렬 전송 기술과 유사하나, 선행기술은 트래픽 분산을 중심으로 하여 동일 패킷의 병렬 전송까지는 명확히 개시하지 않음. 고급 기술자에게는 예측 가능하나, 기술적 진보성 여부에 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015245409-A1은 다중 경로 연결 관리 시스템의 핵심 구성요소(다중 커넥터, 경로 테이블, 스케줄러, 어셈블러)를 명시적으로 개시하며, 청구항과의 기능적 차이가 미미함. 'send buffer' 및 'receive buffer'의 추가는 통신 시스템에서 데이터 흐름 관리 및 재조합을 위한 일반적인 수단으로, 통상의 기술자에게 자명한 설계 선택임. 피드백 메커니즘, 중간 노드 포함 경로, TCP/UDP 지원 등은 모두 선행기술의 기술적 맥락과 공지기술에 의해 충분히 뒷받침됨. 결합 동기(motivation to combine)가 명확하고, Graham 요소 전반에서 obviousness의 근거가 견고함."
+        }
+      ]
+    }
+  ]
+}

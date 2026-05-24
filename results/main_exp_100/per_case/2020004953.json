@@ -1,0 +1,304 @@
+{
+  "case_id": "PILOT-2020004953",
+  "proceeding_number": "2020004953",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 단일 선행기술(US-2014180715-A1)이 기술적 맥락을 충분히 개시하고 있으며, 청구항 구성요소들과의 차이점이 GUI 기반 예약 시스템의 일반적인 설계 선택 또는 자명한 확장 수준에 머무름. 결합 동기 없이도 단일 참조 내에서 obvious 판단이 가능하며, 통상의 기술자 관점에서의 기술 수준(phosita_level)과 선행기술의 공개 범위(scope_and_content) 간의 격차가 미미함. confidence 값 또한 0.85 이상으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 청구항 2~14의 핵심 구성요소들 — 구조화된 입력을 위한 그래픽 인터페이스, 날짜/시간 정보 처리, 전자 알림 전송, 고객 응답 수신, 미팅 유형 설정 — 을 명시하거나 기능적으로 개시하고 있음. 'available appointments' 표시, 'selected appointment' 처리, 'notification transmission', 'virtual consultation' 등의 기능은 청구항의 용어와 Broadest Reasonable Interpretation 하에서 실질적으로 동일하거나 자명한 변형임. 결합 동기(motivation to combine)는 동일한 목적(고객과 전문가 간의 구조화된 예약 프로세스 자동화)을 달성하기 위한 것으로서 명확하며, 통상의 기술자도 이러한 시스템을 용이하게 구현 가능함. 진보성 판단의 confidence 값도 0.8 이상으로 높음. secondary considerations의 결여는 prima facie obviousness를 강화함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2014180715-A1 discloses individual elements such as structured input via GUI, appointment scheduling, and notification transmission, it does not explicitly teach the integrated two-way negotiation workflow where structured meeting information is proposed by the professional, modified by the customer, and finalized upon mutual agreement, with conditional notifications triggered only upon such agreement. The combination of these features represents a non-trivial integration that goes beyond the sum of known elements. Although the Office Action asserts obviousness based on common knowledge, the referenced prior art lacks clear motivation to combine these specific steps into a cohesive, condition-driven system. Given the examiner's lenient stance (strictness=0.25) and purposivist interpretation favoring innovation, this constitutes a moderate rather than strong obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 8의 'quote' 관련 구성은 US-2014180715-A1에 명시적으로 개시되지 않았으나, BRI 하에서 '응답 제안'으로 해석 가능하며, 서비스 마켓플레이스 맥락에서 일정 및 가격 제안의 통합은 통상의 기술자에게 동기가 있을 수 있음. 그러나 'quote'의 정의가 명세서에서 불명확하고, 선행기술이 전반적으로 가상 상담 중심인 점을 고려하면, 결합 동기의 명확성은 제한적임. 따라서 근거는 존재하지만 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2014180715-A1이 동일한 구성요소, 동일한 기술적 맥락, 동일한 목적을 개시하고 있으며, 통상의 기술자가 용이하게 도출할 수 있음. 결합 동기 필요 없이 단일 문헌에 의해 완전히 개시됨. Graham 요소 전반에서 차이점 없음 및 2차적 고려사항 결여. confidence 값이 0.85 이상으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2014180715-A1이 핵심 기능인 예약 인터페이스, 알림 전송, 응답 수신, 가상 상담 지원 등을 명시적으로 개시하고 있으며, 추가 구성요소(장소, 이메일/문자 알림, 대면 미팅 포함 등)는 통상의 기술자가 용이하게 도달할 수 있는 설계 선택 또는 공지상식에 해당함. 결합 동기와 Graham 요소 분석이 일관되며, 2차적 고려사항 부재로 인해 prima facie obviousness가 성립함. strictness=0.82인 심사관 기준으로도 충분히 강력한 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거절 근거는 공지기술과의 결합 동기를 포함하고 있으나, 일부 청구항(4, 5, 6, 7 등)에 대해 선행기술의 개시 범위를 넘어서는 차이점이 존재함. 특히 이메일/SMS 알림, 구조화된 업데이트 입력, 장소 변경, 대면 미팅 등은 명시적 개시 부족. 그러나 combination_threshold=0.46으로 인해 공지상식 기반 결합이 용인되며, BRI 해석 하에서 자명성 판단이 가능. strictness=0.47인 중립적 성향 하에서, 증거 강도는 충분히 강하지 않아 전면 거절보다는 보정 권고가 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2014180715-A1이 단일 선행기술로서 청구항의 구성요소를 명시적 또는 암시적으로 개시하고 있으며, BRI 해석(0.86) 하에서 그래픽 인터페이스, 구조화된 입력, 알림 전송, 미팅 유형 등이 포함됨. 신규성 결여 판단에 대한 증거가 충분하고 confidence 수치도 높음(0.75~0.9)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 청구항 2-14의 모든 구성요소를 명시적으로 개시하거나 통상의 기술자에 의해 자명하게 도출될 수 있는 기능으로 구성하고 있으며, 선행기술의 시스템 흐름, 그래픽 인터페이스, 알림 전송, 예약 수정, 회의 유형 지정 등이 모두 동일하거나 근접한 방식으로 구현됨. 결합 동기는 단일 참조 내에 포함되어 있으며, 추가적인 창작 수준을 요구하지 않음. confidence 값이 전반적으로 0.8 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 서비스 전문가와 고객 간의 예약을 위한 가상 상담 시스템을 개시하며, 요청 수신, 전문가 매칭, 알림 전송, 약속 정보 송수신, 구조화된 입력 유도 등의 핵심 기능을 포함한다. 청구항 2~14의 추가적 요소들(견적 선택, 카테고리 기반 미팅 유형 선택, 이메일/문자 알림 등)은 온라인 서비스 마켓플레이스에서 공지된 관행이며, 통상의 기술자가 이를 결합하는 데 명확한 동기(motivation to combine)가 있음. Graham 요소들(기술 수준, 차이점, 2차적 고려사항)을 고려하더라도, 이러한 결합이 예측 가능하고 자명한 결과를 낳는다는 점에서 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 동일한 기술 분야에서 서비스 전문가와 고객 간 미팅 예약을 위한 시스템을 개시하고 있으며, 청구항 2~14의 모든 핵심 구성요소를 명시하거나 암시하고 있음. GUI를 통한 구조화된 입력, 알림 전송, 예약 선택, 미팅 유형 포함 등은 선행기술의 직접적 기재 또는 통상의 기술자가 쉽게 도달 가능한 범위에 있음. 결합 동기 및 기술적 맥락이 명확하며, secondary considerations에 대한 반증 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1은 서비스 전문가와 고객 간 회의 예약을 위한 구조화된 정보 입력, 그래픽 인터페이스, 알림 전송, 응답 처리 등의 핵심 구성요소를 명시적으로 개시하고 있으며, 청구항 2~14의 모든 요소가 동일하거나 통상의 기술자에 의해 자명한 변형으로 구현 가능함. 결합 동기는 명확하며, 선행기술의 목적과 기술적 맥락이 출원 발명과 밀접함. Graham 요소 분석에서도 차이점이 미미하고, 보조적 고려사항의 부재가 obviousness를 강화함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art US-2014180715-A1 discloses appointment scheduling within a virtual consultation system but does not teach or suggest structured input by service professionals, bidirectional negotiation of meeting details, or inclusion of in-person meetings. The combination references are limited to a single reference, and no motivation to combine with other teachings is identified. The differences between the claimed invention and the prior art are consistently noted across multiple claims, particularly regarding the negotiation loop, structured GUI elements, and transmission of quote + meeting info with confirmation. Given the lack of prior art support for these features and the absence of a clear motivation to modify the reference, the obviousness rejections are weak. At strictness=0.52, which leans slightly toward applicant favorability when evidence is not strong, these weak 103 positions should not sustain a rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 단일 선행기술인 US-2014180715-A1이 제공되며, 청구항의 구성요소들이 동일하거나 명백한 변형으로 개시됨. 진보성 판단에서 차이점이 실질적으로 없으며, 통상의 기술자가 결합 없이도 동일한 시스템을 구현할 수 있다고 판단됨. Graham 요소 전반에서 secondary considerations 부재, 기술적 차이 없음이 반복적으로 확인됨. confidence 수치도 0.7 이상으로 높음. strictness=0.60인 엄격한 기준에서도 충분히 거절 가능한 강도."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "case_id": "PILOT-2018008973",
+  "proceeding_number": "2018008973",
+  "gt_issues": [
+    "102",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed with New Ground of Rejection",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.08,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1이 청구항 1-19의 모든 구성요소를 명시적 또는 묵시적으로 개시하고 있으며, 특히 도면, 청구항 7, 8, 9 및 BACKGROUND 기술 내용과의 대비를 통해 신규성 결여가 명확함. 신규성 판단의 confidence가 0.75 이상으로 일관되며, 단일 문헌에 의한 완전한 개시가 입증됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 20-40의 방법 청구항은 선행기술에 개시된 구조적 구성요소를 기반으로 동일한 목적(골간 압축)을 달성하는 절차를 수행하며, 통상의 기술자에 의해 용이하게 도출 가능. 결합 동기(motivation to combine)가 명확하고, 2차적 고려사항 부재로 인해 진보성 결여 판단이 타당함. confidence 값이 0.81 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1은 동일한 기술 분야에서 다부재 나사 구조를 통해 뼈 압축을 실현하며, 청구항 1의 모든 구성요소를 명시하거나 암시하고 있음. 나사부 외경 조건, 도구 수용부, 테이퍼 형상, 해부학적 적용 등 모든 특징이 선행기술에 개시되거나 통상의 기술수준에서 용이하게 도출 가능. 결합 동기와 Graham 요소 모두 명확하며, 2차적 고려사항 부재. confidence 수치 대부분 0.8 이상으로 일관성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013338722-A1은 청구항 1, 3, 4의 구성요소를 개시하지만, 청구항 1의 '나사부 외경이 비나사부보다 크지 않음'은 단순한 설계 선택이 아니라 삽입성 및 응력 분포 최적화라는 기술적 효과를 포함하며, 진보성 판단에서 confidence 0.75로 비자명한 기여로 평가됨. 청구항 3과 4는 공지기술에 기반하나, 전체 발명 맥락에서의 결합 동기와 기술적 전환의 용이성에 해석의 여지 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 5, and 6 are directly supported by explicit disclosures in US-2013338722-A1. The reference clearly teaches a secondary drive formation (claim 3), tapered threading (claim 4), full-length threading (claim 5), and a head from which the shaft extends (claim 6). These features are conventional in orthopedic screws, and the motivation to combine is inherent in the prior art's design objectives. Given the high confidence scores (0.75–0.85) and verification status PASS, these rejections are strong."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1은 관절 융합 및 골절 고정 장치로서 일반적인 정형외과적 적용을 개시하고 있으며, 원위 지골과 중간/근위 지골의 융합은 해당 기술분야에서 통상적인 임상 적용 부위이다. 구조적으로 동일한 장치를 일반적으로 알려진 해부학적 위치에 적용하는 것은 통상의 기술자에게 자명하며, 결합 동기가 명확하다. confidence 0.8로 평가되며, strictness 0.89인 본 심사관 기준에서도 충분히 강력한 거절 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1이 본 발명의 핵심 구조와 기능을 완전히 개시하고 있으며, 청구항 12~40의 한정사항들이 공지된 기계적 결합 방식(Morse taper, snap-fit), 일반적인 설계 선택(리브, 탭, 테이퍼 나사), 수술상 필요성(이중 도구 수용부), 해부학적 적응(각도 샤프트), 및 표준 수술 절차에 귀속되는 방법으로 구성됨. 결합 동기가 명확하고, 당업자 수준에서 용이하게 도달 가능함. 선행기술이 핵심 메커니즘을 개시하므로, 추가 구성요소들은 비자명하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1은 본 발명의 핵심 구조(이중 나사부, 압축 고정 메커니즘)를 명확히 개시하며, 나머지 특징(Morse taper, 리브, 탭 구조 등)은 정형외과 임플란트 설계 분야에서 공지된 기술적 해결 수단으로, 통상의 기술자가 동일한 목적(결합 신뢰성, 조작 용이성 향상)을 위해 쉽게 도달할 수 있음. 결합 동기와 기술적 맥락이 명확하므로 근거 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1은 본 출원의 핵심 구조 및 기능을 거의 동일하게 개시하고 있으며, 청구항 1, 11, 20 등 독립항의 구성요소 대부분이 직접적으로 대응됨. 나머지 종속항들도 테이퍼, 나사부 직경, 도구 수용부 등 설계 선택의 범위 내에 있어, 통상의 기술자에게 명백한 변형으로 간주될 수 있음. 결합 동기(motivation to combine)는 단일 참조 내에서 충분히 설명되며, 기술적 차이가 미미함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4, 16, 23, 26, and 36 are all directed to tapered or varying diameter threads, which are explicitly disclosed in US-2013338722-A1, Claim 8. The reference clearly teaches a tapered external thread on the first element, providing both explicit disclosure and motivation for use in bone fixation to improve insertion and purchase. The combination threshold is low (0.22), and this teaching meets that standard with high confidence (0.9). Therefore, the obviousness rejection is strong and well-supported by prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2013338722-A1 discloses a compression bone screw with many structural similarities, the specific anatomical applications (e.g., phalanges in claims 8, 9, 21, 37, 38) and novel mechanical features (e.g., Morse taper, snap-fit, directional ribs, radially movable tabs in claims 12-15, 32-34) are not explicitly taught or strongly suggested. The motivation to combine or modify the prior art for these specific uses and configurations is plausible but not compelling. Given the moderate strictness (0.50), these differences introduce sufficient uncertainty to weaken the obviousness rejection for certain claims, particularly those with structural or application-specific novelty."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1은 다부재 골압축 나사 장치를 명확히 개시하며, 청구항 1, 3, 4, 5, 6, 7, 10, 16, 17, 18의 구성요소를 실질적으로 포함함. 직경 관계, 테이퍼 나사, 도구 수용부, 전체 나사 길이 등은 선행기술에 명시적이거나 통상의 설계 선택으로 간주될 수 있음. 결합 동기(motivation to combine)는 골고정 장치의 일반적 목적(안정성 향상)과 일치하므로 강한 obviousness 근거로 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 8, 9의 'distal phalanx와 middle/proximal phalanx' 적용은 선행기술에 명시되지 않으나, 관절 융합(arthrodesis)이 손가락 관절에서 일반적임이 공지되어 있음. 특정 해부학적 위치 적용은 임상적 확장으로 간주될 수 있으나, 해부학적 특수성과 장치 최적화 간 연관성에 대한 명확한 증거는 부족함. strictness=0.52 기준으로, 이는 중간 강도의 obviousness로 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 20의 수술 방법은 US-2013338722-A1의 삽입 및 압축 절차와 실질적으로 동일하며, 단계 순서와 기능이 일치함. 수술 방법의 obviousness는 선행기술의 목적과 직접적으로 부합하므로 강한 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대부분의 청구항에 대해 US-2013338722-A1이 기초적인 구조와 기능을 개시하고 있으나, 일부 특징(예: 나사부 외경이 나사 없는 부분보다 크지 않음)은 선행기술이 오히려 더 큰 지름을 허용함을 시사하여 자명성 판단에 해석의 여지가 있음. 각도 형성, 리브, 탭, 반대 방향 나사 결합 등은 선행기술에 직접 개시되지 않아 결합 동기의 명확성 부족. 그러나 통상의 기술자 관점에서 설계 최적화 또는 공지 기술의 적용으로 볼 수 있는 요소도 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1은 청구항 1, 2, 3, 4, 5, 6, 7, 10, 11, 16, 17, 18, 20, 24, 25, 26, 27, 29, 30, 31, 36, 39의 핵심 구조적 요소를 명시적으로 개시하거나 암시하고 있으며, 차이점은 직경, 테이퍼, 도구 수용부 등 설계 선택 사항에 불과함. 이러한 변형은 당업자에게 자명하며, 선행기술의 목적(골격 압축 및 고정)과 동일한 기술적 과제를 해결함. 진보성 판단의 그레이엄 요소(범위 및 내용, 차이점, 기술수준, 보조적 고려사항) 모두 obviousness를 지지함. confidence 수치도 0.75 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "해부학적 특정(예: 원위 지골과 중간/근위 지골 융합, 청구항 8, 9, 21, 37, 38) 및 반대 방향 나사 결합(청구항 35)은 선행기술에 명시적으로 개시되지 않으나, 일반적인 관절 고정 장치를 흔한 수술 부위(DIP 관절 등)에 적용하는 것은 당업자에게 자명한 적응임. 그러나 특정 뼈 조합의 적용이 반드시 자명하다고 단정하기 어려우며, 해석의 여지가 있음. 선행기술이 해부학적 위치를 특정하지 않지만, 그 용도가 관절 융합임을 고려하면 motivation은 존재함. strictness=0.52인 중립적 성향 하에서, 이 정도 증거는 거절 유지 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013338722-A1은 청구항 1, 3, 4, 5, 6, 11의 모든 구성요소를 단일 문헌에서 명확히 개시하고 있으며, 구조적 및 기능적 동등성이 확인됨. BRI 하에서도 충분히 예견 가능하므로 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "해부학적 위치(청구항 8, 9) 및 동일 직경(청구항 2), 타퍼형 머리(청구항 7)는 선행기술의 일반적 적용 범위 내에 있으나, 본 발명의 특정 기술적 효과(압축 조절, 응력 분포 최적화)가 시사되지 않아 해석의 여지 있음. 그러나 공지 설계 원칙에 기반하므로 중간 강도."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 10, 13, 15, 16, 19 등에 대한 명세서 기재 부족은 명확함. 이중 나사, 리브 구조, 래디얼 탭, 경사각 정의, 각도 범위 등에 대한 구조적 및 기능적 설명이 부족하여 enablement 및 written description 위반이 명백함."
+        }
+      ]
+    }
+  ]
+}

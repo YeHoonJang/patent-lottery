@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace properly invokes element-by-element anticipation analysis for §102 claims and applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for every §103 obviousness determination."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection is tied to specific prior art references (US-2012248924-A1, US-2015311758-A1, US-2012306422-A1) with explicit mapping of claim elements to disclosed features, such as π/6 displacement to A=180°/N and FIG. 4 of US-2015311758-A1 to double-layer windings."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a significant inconsistency: claim 1 is found non-obvious in the §103 stage (confidence 0.75, stated non-obvious) yet is rejected under §102 in the office action and final decision without resolving the tension—the obviousness stage finding of non-obviousness for claim 1 is simply abandoned in the office action without stated justification, and similarly claim 14's §103 stage found it non-obvious but the final decision rejects it as obvious without meaningful additional rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has combination_threshold=0.222 (very easy combiner) and accepts weak motivations to combine throughout (e.g., claim 7 automotive application, claim 12 fractional-slot selection), consistent with that archetype, while the moderate strictness (0.461) is reflected in rejecting most claims but acknowledging some weakness for claim 14."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102 and §103 analyses across both stages, with the summary explicitly noting the strong anticipation findings and the weaker grounds for claim 14, maintaining directional consistency with the stage-level conclusions."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004632",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13784,
+      "output_tokens": 470,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

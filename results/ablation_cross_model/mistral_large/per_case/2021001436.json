@@ -1,0 +1,991 @@
+{
+  "case_id": "2021001436",
+  "proceeding_number": "2021001436",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5,
+            7,
+            14,
+            16,
+            18,
+            21,
+            39
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 핵심 구성요소를 직접적으로 공개하고 있어 명백한 신규성 결여가 확인됨. 특히 US-2015241686-A1과 US-2016183779-A1의 명시적 공개 내용이 청구항과 일치하거나 자명한 변형으로 판단됨. confidence 값이 0.8 이상으로 높으며, 이는 근거의 강도를 뒷받침함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            6,
+            12,
+            15,
+            17,
+            41,
+            43
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 일부 구성요소를 공개하고 있으나, 전체 구성의 일치 여부에 다소 해석의 여지가 있음. 그러나 BRI 원칙 하에 청구항을 넓게 해석할 경우 신규성 결여 가능성은 여전히 높음. confidence 값이 0.7~0.8로 보통 수준이지만, strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            39,
+            41,
+            43
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술들의 결합이 통상의 기술자에게 자명하며, 결합 동기(motivation to combine)가 명확함. Graham 요소를 충족하며, combination_threshold=0.34를 쉽게 넘음. confidence 값이 0.75 이상으로 높고, 결합의 자명성이 명백함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            40,
+            42
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 직접적으로 공개되지 않은 구성요소를 포함하고 있어 신규성 결여 근거가 약함. confidence 값이 0.7 이하로 낮고, 선행기술과의 차별성이 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            40,
+            42
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 결합 동기가 명확하지 않으며, 청구항의 구성요소 조합이 공지된 기술에서 직접적으로 도출되지 않음. confidence 값이 0.7 이하로 낮고, 결합의 자명성이 부족함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 (REF1)이 청구항의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.9 이상으로 높음. 선행기술과의 중첩이 명확하여 거절 근거로 충분함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 (REF2)이 청구항의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.9 이상으로 높음. 선행기술과의 중첩이 명확하여 거절 근거로 충분함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "REF1과 REF2의 결합으로 청구항의 모든 구성요소가 개시되었으며, confidence가 0.9로 높음. 결합된 선행기술과의 중첩이 명확하여 거절 근거로 충분함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            39
+          ],
+          "strength": "strong",
+          "reasoning": "REF1과 REF2의 결합으로 청구항의 모든 구성요소가 개시되었으며, confidence가 0.92로 높음. 결합된 선행기술과의 중첩이 명확하여 거절 근거로 충분함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            41
+          ],
+          "strength": "strong",
+          "reasoning": "REF2가 자동화된 이미지 획득을 명시적으로 개시하고 있으며, confidence가 0.88로 높음. 선행기술과의 중첩이 명확하여 거절 근거로 충분함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            43
+          ],
+          "strength": "moderate",
+          "reasoning": "REF1이 배율 변경 시 대물 렌즈 교체를 암시하고 있으나, 명시적 개시가 아니므로 confidence가 0.8로 다소 낮음. 그러나 해당 분야에서 표준 관행으로 인정될 수 있어 거절 근거로 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "REF1이 청구항의 모든 구성요소를 개시하고 있으며, 고배율 이미지를 저배율 이미지에 오버레이하는 것은 해당 분야의 통상의 기술자가 쉽게 생각할 수 있는 설계 선택임. confidence가 0.9 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "REF1과 REF2의 결합으로 청구항의 모든 구성요소가 개시되었으며, 두 개의 고배율 이미지를 획득하는 것은 해당 분야의 통상의 기술자가 쉽게 생각할 수 있는 설계 선택임. confidence가 0.9 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "REF2가 청구항의 모든 구성요소를 개시하고 있으며, 고배율 이미지 정렬 및 연속 이미지 형성은 이미지 스티칭 기술로 널리 알려져 있음. confidence가 0.9 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            39
+          ],
+          "strength": "strong",
+          "reasoning": "REF1과 REF2의 결합으로 청구항의 모든 구성요소가 개시되었으며, 다수의 이미지를 처리하고 오버레이하는 것은 해당 분야의 통상의 기술자가 쉽게 생각할 수 있는 설계 선택임. confidence가 0.93으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            41
+          ],
+          "strength": "strong",
+          "reasoning": "REF2가 자동화된 이미지 획득을 개시하고 있으며, 자동화된 이미지 획득은 현미경 시스템에서 일반적인 설계 선택임. confidence가 0.88로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            43
+          ],
+          "strength": "moderate",
+          "reasoning": "REF1이 배율 변경 시 대물 렌즈 교체를 암시하고 있으나, 명시적 개시가 아니므로 confidence가 0.82로 다소 낮음. 그러나 해당 분야에서 표준 관행으로 인정될 수 있어 거절 근거로 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 1,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016183779-A1은 고배율 이미지를 저배율 이미지에 오버레이하는 기술을 개시하지만, 청구항 1의 '고배율 이미지가 저배율 이미지의 특정 영역에서 유래한 것임을 기반으로 오버레이 위치를 결정'하는 구체적 구성요소는 개시하지 않음. 그러나 오버레이 위치 결정의 정확성 및 사용자 편의성 향상을 위한 동기는 공지기술로 인정될 수 있어, 통상의 기술자가 쉽게 도출할 가능성이 있음. 다만, 명시적 교시가 없으므로 근거 강도는 moderate로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'collecting' 및 'overlaying'에 대한 구체적 구현 방법이 명세서에 불충분하게 기재되어 있으나, 출원인의 기술적 기여가 일부 인정될 수 있는 여지가 있습니다. 명세서의 다른 부분에서 유사한 기술이 설명되어 있을 가능성을 고려하여, 보정을 통해 해결할 수 있는 수준으로 판단됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            9,
+            10,
+            11,
+            13,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "strength": "strong",
+          "reasoning": "명세서에 취소되었거나 구체적인 기재가 없는 청구항에 대해서는 112 거절 근거가 명확하며, 보정 없이는 충족되기 어렵습니다. 해당 청구항들은 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            14,
+            15,
+            16,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016183779-A1 및 US-2015241686-A1이 청구항의 핵심 요소를 명시적으로 개시하고 있으며, confidence 수준이 0.9 이상으로 높음. 신규성 부정 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            39,
+            40,
+            41
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 조합으로 청구항의 구성이 자명하며, 결합 동기가 명확함. Graham 4요소 분석에서 통상의 기술자가 쉽게 도출할 수 있다고 판단됨. confidence 수준이 0.8 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            42,
+            43
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 명시적으로 개시되지 않은 새로운 기술적 특징을 포함하고 있으나, 진보성 판단에서 confidence 수준이 0.8 이하로 다소 낮음. 그러나 strictness 성향에 따라 거절 근거로 유지할 수 있으나, allowable claims로 판단된 근거가 더 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            14,
+            15,
+            16,
+            18,
+            21,
+            39,
+            41
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술(Koch 및 Yamazaki)과의 결합 근거가 명확하며, 결합 동기가 해당 분야의 통상의 기술자에게 자명합니다. 청구항의 요소들이 선행기술에 명시적으로 개시되거나 공지상식으로 간주됩니다. confidence 수준이 0.85 이상으로 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            8,
+            12,
+            17,
+            40,
+            42,
+            43
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술에 명시적으로 개시되지 않았지만, 공지상식 또는 선행기술의 자연스러운 확장으로 간주됩니다. confidence 수준이 0.7~0.8로 중간 수준입니다. 그러나 strictness=0.82에 따라 거절 유지합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서의 best mode 및 구체적 구현 방법에 대한 설명이 부족합니다. 그러나 청구항 자체의 명확성 문제는 없으므로 보정 가능합니다."
+        },
+        {
+          "basis": "title_abstract_specification",
+          "strength": "weak",
+          "reasoning": "제목, 초록, 명세서의 형식적 문제는 보정 가능하며, 실질적 거절 근거가 아닙니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            41
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 핵심 구성요소를 직접적으로 공개하고 있으며, confidence가 0.85 이상으로 높음. 특히 US-2015241686-A1과 US-2016183779-A1은 청구항의 기술적 특징을 명시적으로 포함하고 있어 102 거절 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            39,
+            41
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합 동기가 명확하고, 통상의 기술자가 쉽게 도출할 수 있는 수준임. 그러나 일부 청구항(예: 3, 6, 7, 21, 39)은 결합의 자명성이 다소 해석의 여지가 있으나, confidence가 0.8 이상으로 높아 moderate로 평가함. strictness=0.47에 따라, moderate 근거는 거절로 판단함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            40,
+            42,
+            43
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 해당 특징을 공개하지 않으며, confidence가 0.7-0.75로 다소 낮음. 그러나 novelty 판단에서는 근거가 명확하지 않아 weak로 평가함. strictness=0.47에 따라, weak 근거는 허여로 판단함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            40,
+            42,
+            43
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 해당 특징을 공개하지 않으며, 결합 동기가 부족함. confidence가 0.7-0.75로 낮아 weak로 평가함. strictness=0.47에 따라, weak 근거는 허여로 판단함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016183779-A1 discloses overlaying a magnified image on a lower-magnification image with positional correspondence. The difference in explicit positional alignment is minor but may be arguable as a non-obvious improvement. Given the combination threshold (0.55) and strictness (0.55), this is borderline but leans toward rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015241686-A1 suggests capturing multiple images at varying magnifications. Collecting a second second-level image is a logical extension, but the claim's specificity may provide a narrow path for argument. Given the confidence (0.75) and strictness (0.55), this is a moderate rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Combination of US-2015241686-A1 and US-2016183779-A1 clearly discloses aligning and overlaying images. The motivation to combine is logical and well-supported. This is a strong rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly discloses aligning images by overlapping regions for compositing. This is a clear anticipation under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Overlaying multiple second-level images is a logical extension of US-2016183779-A1. While the prior art discloses a single overlay, the step to multiple overlays is a routine design choice. Given the confidence (0.75), this is a moderate rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "Combination of US-2016183779-A1 and US-2015241686-A1 discloses overlaying and aligning images. Positioning multiple overlays relative to their regions of origin is a logical and well-supported extension. This is a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "weak",
+          "reasoning": "Capturing images under different illumination conditions is a routine practice, but the claim does not specify how this is novel or non-obvious. Given the lack of explicit prior art disclosure and strictness (0.55), this leans toward rejection but is weak."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016183779-A1 discloses user interaction for determining areas of interest. Enabling user selection of a second-level image is a logical extension, but the claim's specificity may provide a narrow path for argument. Given the confidence (0.75), this is a moderate rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses a system for overlaying a magnified image on a lower-magnification image. This is a clear anticipation under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015241686-A1 discloses aligning features for compositing. Aligning a second-level image with a first-level image is a logical extension, but the claim's specificity may provide a narrow path for argument. Given the confidence (0.75), this is a moderate rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly discloses overlaying a magnified image on a lower-magnification image with positional correspondence. This is a clear anticipation under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            39
+          ],
+          "strength": "strong",
+          "reasoning": "Combination of US-2015241686-A1 and US-2016183779-A1 discloses collecting, aligning, and overlaying images. The combination is logical and well-supported. This is a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            40
+          ],
+          "strength": "weak",
+          "reasoning": "Capturing second-level images at the same relative positions is a routine practice, but the claim does not specify how this is novel or non-obvious. Given the lack of explicit prior art disclosure and strictness (0.55), this leans toward rejection but is weak."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            41
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015241686-A1 explicitly discloses automated image collection. This is a clear anticipation under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            42,
+            43
+          ],
+          "strength": "weak",
+          "reasoning": "Capturing images at multiple focal planes and changing objective lenses are routine practices. The claims do not specify how these steps are novel or non-obvious. Given the lack of explicit prior art disclosure and strictness (0.55), these lean toward rejection but are weak."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            18,
+            21,
+            39,
+            41
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2016183779-A1 and US-2015241686-A1 provides a plausible motivation to combine for most claims, but the differences (e.g., positional alignment, batch processing) rely on common knowledge or design choices. The confidence scores (0.75-0.85) suggest moderate strength, but the combination_threshold=0.22 lowers the bar for obviousness. Given strictness=0.46, these rejections are maintained but with room for applicant argument or amendment."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            14,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 2, 14, and 16 are explicitly disclosed or inherently anticipated by US-2016183779-A1 with high confidence (0.8-0.9). No ambiguity exists in the prior art's disclosure of these limitations."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Objections to the title, abstract, and drawings are procedural and do not directly impact patentability. These are minor and correctable via amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            14,
+            15,
+            16,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌(US-2016183779-A1, US-2015241686-A1)에 청구항의 구성요소가 명시적으로 공개되어 있으며, confidence 수준이 0.85 이상으로 높음. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            39
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합 동기가 논리적이고 공지기술에 기반한 판단이 타당하나, 일부 청구항(예: 6, 7, 21)은 복수의 이미지 오버레이나 상대적 위치 지정 등에서 창의적 확장이 요구될 수 있음. confidence 수준이 0.7-0.9로 보통 수준이며, strictness=0.50에 따라 일부 청구항은 보정 가능성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            40,
+            42,
+            43
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에 명시적 공개가 없으며, 통상의 기술자가 쉽게 도출할 수 없는 수준. confidence 수준이 0.8 이상으로 높고, 기술적 진보가 인정됨. 거절 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1 (US-2016183779-A1)과 REF2 (US-2015241686-A1)은 청구항 2, 4, 5, 6, 7, 14, 16, 18, 21, 39의 모든 구성요소를 명시적으로 개시하고 있음. 증거가 명확하여 거절 근거로 유효함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1과 REF2의 결합 동기는 논리적이지만, 청구항별 차이점(예: 두 개의 고배율 이미지 오버레이, 프로세서 구성 등)이 통상의 기술자에게 자명하다고 보기에는 다소 해석의 여지가 있음. 그러나 Graham 요소가 충족되어 103 거절 근거로 유효함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            14,
+            16,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌(US-2016183779-A1, US-2015241686-A1)이 청구항의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, confidence 점수(0.8-0.85)가 높음. 단일 문헌이 청구항을 충족하므로 102 거절 근거는 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 문헌이 개별 구성요소를 공개하고 있으나, 결합 동기는 논리적이지만 일부 청구항(예: 3, 15, 17)의 경우 결합의 자명성이 다소 약함. confidence 점수(0.75-0.85)는 높지만, strictness(0.42) 성향에 따라 일부 청구항은 보정 가능성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            12,
+            39,
+            40,
+            42,
+            43
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 청구항의 핵심 특징(예: 서로 다른 조명 조건, 사용자 선택 기능, 다중 초점 평면 캡처)을 공개하지 않아 결합 동기가 없음. confidence 점수(0.8-0.9)가 높고, 혁신적 장점이 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌(US-2016183779-A1, US-2015241686-A1)이 청구항의 구성요소를 명시적으로 개시하고 있으며, confidence 수준이 0.8 이상으로 높습니다. 청구항과 선행기술의 일치성이 명확하여 거절 근거가 강합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            21,
+            39
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 문헌들의 결합을 통해 청구항의 기술이 개시되지만, 결합된 문헌들이 청구항의 모든 구성요소를 명시적으로 포함하지는 않습니다. confidence 수준이 0.8로 높지만, 결합의 명시성이 다소 부족하여 moderate로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌들이 청구항의 기술적 맥락에서 예측 가능한 변형 또는 설계 선택을 명시적으로 개시하고 있으며, Graham 4요소 분석에 따라 해당 분야의 통상의 기술자가 쉽게 도달할 수 있는 수준입니다. confidence 수준이 0.8 이상으로 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            7,
+            17,
+            21,
+            39
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 문헌들의 결합을 통해 청구항의 기술이 예측되지만, 결합 동기가 명확하지 않거나 해당 분야의 통상의 기술자가 쉽게 도달할 수 있는 수준인지에 대한 해석의 여지가 있습니다. confidence 수준이 0.75-0.8로 다소 높지만, 결합의 명시성이 부족하여 moderate로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            12,
+            40,
+            41,
+            42,
+            43
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술 문헌들이 청구항의 기술을 명시적으로 개시하지 않으며, 해당 분야의 통상의 기술자가 쉽게 도달할 수 있는 수준으로 간주되지 않습니다. confidence 수준이 0.8 이상으로 높지만, 비자명성의 근거가 명확하여 weak로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            14,
+            15,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌(US-2016183779-A1, US-2015241686-A1)이 청구항의 구성요소를 구체적으로 개시하고 있으며, confidence가 0.85 이상으로 높음. 신규성 부정 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            6,
+            7,
+            12,
+            17,
+            18,
+            21,
+            39
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합 동기가 논리적이지만, 일부 청구항(예: 6, 7, 21)은 단일 문헌에서 직접 개시되지 않아 결합의 필요성이 다소 추론에 의존함. confidence가 0.8로 중간 수준임. strictness=0.60에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            40,
+            42,
+            43
+          ],
+          "strength": "moderate",
+          "reasoning": "해당 분야의 공지 기술(예: z-stacking, illumination 조정, objective lens 교체)에 기반한 거절이지만, 명시적 선행기술 문헌이 없음. confidence가 0.85로 높지만, 공지 기술의 범위가 모호할 수 있음. strictness=0.60에 따라 거절 유지."
+        }
+      ]
+    }
+  ]
+}

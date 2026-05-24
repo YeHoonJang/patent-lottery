@@ -1,0 +1,318 @@
+{
+  "case_id": "PILOT-2017009017",
+  "proceeding_number": "2017009017",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1 명확히 압력 조절을 통한 냉각 온도 제어 기능을 개시하며, 제안된 청구항의 모든 구성요소(압력 트랜스듀서, 가변 밸브, 압력 감소기, 유량 측정, 흐름 저항 보상, 데이터 입력 장치, 프로브 식별 등)는 선행기술에 명시적이거나 당업자가 통상적으로 구현 가능한 공지 기술임. 결합 동기 명확하고, 2차적 고려사항에서 비공지성 입증 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1은 청구항 16-20, 24-31의 모든 구성요소를 명시적으로 개시하거나, 당업자에게 자명한 일반적 기술로 포함하고 있음. 압력 조절, 피드백 제어, 센서 및 밸브 배치, 유량 저항 보상, 냉매의 액화 및 팽창 등은 모두 선행기술의 동일한 목적(정밀한 온도 제어)을 달성하기 위한 공통의 공학적 수단이며, 동기 결합이 명확함. 진보성 판단의 confidence가 0.85 이상으로 높고, 2차적 고려사항도 없음. 따라서 거절 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012253337-A1은 압력 기반 온도 조절 시스템의 핵심 원리를 개시하고 있으나, 일부 구성요소(예: 유량 보상, 제1 압력 측정용 트랜스듀서 등)는 명시적 기재보다는 기능적 내재성에 기반하여 obviousness를 주장함. 이러한 해석은 합리적이지만, 청구항의 특정한 구현 방식에 대한 직접적 동기나 명확한 기재 부족으로 인해 강한 증거라 보기 어려움. 특히 유동 저항 보상이나 센서 배치 등은 설계 선택의 범위 내일 수 있음. 그러나 본 출원의 목적과 기술적 기여를 고려할 때, 이러한 구성들이 반드시 자명하다고 단정하기는 어려움. 심사관 성향(strictness=0.25)에 따라, 약한 또는 모호한 obviousness 근거는 출원인에게 유리하게 해석됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거의 모든 거절된 청구항은 US-2012253337-A1에 의해 명백하다고 판단되었으나, 일부 구성요소(예: 유동 저항 보정, 데이터 입력 장치)는 선행기술에 명시적으로 개시되지 않았으며, 이들에 대한 결합 동기는 다소 추론적임. 특히 보정 수단 및 제어 정밀도 향상은 통상의 기술자가 곧장 도출하기 어려운 고도화된 제어 전략일 수 있음. 그러나 심사관의 관점에서 공지기술과의 결합이 예측 가능하다고 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection under 103_obviousness is supported by a single prior art reference, US-2012253337-A1, which discloses the core mechanism of pressure-based temperature control in a cryosurgical system using Joule-Thomson cooling. The claimed elements such as pressure transducers, valves, pressure reducers, and refrigerant restriction are either explicitly disclosed or represent routine engineering implementations for achieving precise thermal regulation. The motivation to combine these elements is well-founded in the common objective of improving system stability and control accuracy in cryotherapy devices. Given the high confidence scores (mostly above 0.8) in both novelty and obviousness analyses, and the absence of secondary considerations supporting non-obviousness, the 103 rejection is strongly supported."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1은 냉각제의 압력 조절을 통한 온도 제어의 핵심 원리를 명시적으로 개시하고 있으며, 청구항 16의 모든 구성요소와 동일한 기술적 효과를 달성한다. 종속항의 압력 트랜스듀서, 조절 밸브, 피드백 제어, 데이터 입력 장치 등은 유체 제어 및 의료 장비 자동화 분야에서 공지된 기술로, 통상의 기술자가 정밀한 온도 제어를 위해 용이하게 도입할 수 있다. 결합 동기(motivation to combine)는 선행기술 내에서 명확히 제시되며, 2차적 고려사항의 증거는 제출되지 않아 obviousness 판단을 약화시킬 요소가 없다. confidence 값 대부분 0.8 이상으로, 일관된 강도를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1은 압력 조절을 통한 크라이프로브 온도 제어의 핵심 구성과 방법을 명시적으로 개시하고 있으며, 청구항 16, 17, 18, 19, 20, 24, 25, 26, 27, 29, 31의 구성요소들은 선행기술에 암시되거나 통상적 기술 수준에서 자명한 실시예로 간주됨. 선행기술과의 실질적 차이가 없으며, 결합 동기와 통상적 기술자의 수준을 고려할 때 obviousness 판단은 강한 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1은 압력 기반 온도 조절, 유량 및 압력 제어, 밸브 및 센서 사용, 냉매 팽창 및 부분 응축 등 청구항 16-20, 24-31의 핵심 구성요소와 동작 원리를 모두 개시하고 있음. 추가 구성요소들은 유체 제어 시스템에서 통상적인 기술로서, 통상의 기술자가 쉽게 도달할 수 있음. 결합 동기와 기술적 동일성에 대한 증거가 명확하며, 2차적 고려사항도 없음. confidence 값 대부분 0.8 이상으로, 강한 obviousness 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 21–23 introduce data input, memory storage, and probe identification features not explicitly disclosed in US-2012253337-A1. While automatic device recognition and calibration are known in medical systems, their integration into a cryoprobe temperature control system for flow resistance compensation involves a degree of system-level innovation. The motivation to combine is present but not compelling; such features enhance usability and safety but do not yield unpredictable results. Given the examiner's moderate strictness (0.46), these claims represent an incremental improvement that may warrant patentability if not routine in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 21, 22, 23, and 30 introduce features not explicitly disclosed in US-2012253337-A1, such as probe-specific flow resistance data input, storage for multiple probes, automatic identification, and resistance-aware pressure control. While these features enhance precision and usability, their obviousness depends on whether incorporating known medical device practices (e.g., calibration data, auto-ID) into a cryoregulation system would be routine to a POSITA. Given the lack of explicit teaching or strong motivation in the prior art to combine these specific functionalities for cryoprobe temperature control, and considering the moderate confidence (0.7–0.8) in obviousness, the rejection is not strongly supported under a neutral strictness standard (0.50)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1은 청구항 16 내지 31의 핵심 구성요소들(압력 설정 수단, 유량 조절, 압력 감지, 유동 저항 고려, 팽창 수단 등)을 명시하거나 암시적으로 개시하고 있으며, 이러한 요소들의 결합은 폐쇄 루프 유체 제어 시스템 설계의 일반적인 기술적 관행에 부합함. 결합 동기(motivation to combine)는 동일한 목적(정밀한 온도 제어) 달성을 위한 설계 선택으로서 명확하며, 2차적 고려사항도 존재하지 않음. confidence 수치 대부분 0.8 이상으로, 증거 강도가 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1은 청구항 16, 17, 18, 20, 25, 26, 27, 28, 29의 모든 구성요소를 명시적 또는 내재적으로 개시하고 있으며, 기술적 내용이 일치하므로 신규성 결여 판단의 근거가 강함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 24의 '확장 수단'에 대한 명세서 기재는 부족하지만, 기술 분야의 통상의 기술자가 열역학적 원리를 바탕으로 부분 응축을 실현할 수 있는 방법을 추론할 수 있는 여지가 있음. strictness=0.42인 본 심사관은 이 정도의 모호성은 즉각적인 거절보다는 보정 기회를 부여하는 것이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1은 압력 조절을 통한 냉각 온도 제어라는 동일한 원리와 목적을 명확히 개시하고 있으며, 청구항 16-31의 추가 구성요소들(센서 배치, 유량 보정, 데이터 입력 장치 등)은 정밀도 향상, 안전성, 호환성 개선을 위한 통상의 기술자가 용이하게 도달할 수 있는 설계 선택으로서, 결합 동기가 명확하고 선행기술과의 차이가 비자명하지 않음. confidence 값 대부분 0.74 이상으로 높은 수준."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 24의 '확장 수단이 냉매를 응축시킨다'는 기능은 열역학적으로 모순되며, 명세서에는 이를 실현할 수 있는 구조적 설명, 실시예, 도면이 전혀 제시되지 않아, 발명이 소유되고 있다는 것과 산업상 이용 가능하다는 것을 명확히 하지 못함. enablement 및 written description 요구조건 모두 미충족."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012253337-A1은 압력 조절을 통한 온도 제어의 핵심 원리를 명확히 개시하고 있으며, 청구항 16 내지 31의 대부분 구성요소가 동일하거나 통상의 기술적 설계 범위 내에 있음. 압력 측정기, 조절 밸브, 압력 감소 수단, 유량 저항 보상 등은 제어 공학 및 유체 시스템에서 공지된 기술로, 결합 동기가 명확하고 선행기술과의 기술적 맥락이 일치함. 특히 method claims는 apparatus claims의 자연스러운 연장으로서 obviousness 판단이 타당함."
+        }
+      ]
+    }
+  ]
+}

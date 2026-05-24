@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies the Graham v. John Deere framework—explicitly addressing scope and content of prior art, differences between prior art and claims, PHOSITA level, and secondary considerations—while the §102 stage uses element-by-element anticipation analysis, demonstrating statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are anchored to specific claim language (e.g., 'data/clock mode,' 'data scrambling mode,' 'SDR/DDR mode') and specific prior art disclosures from US-2013196654-A1 (e.g., 'coexistence message multiplexing,' 'LTE uplink channel adjacent to ISM band,' 'peripheral device'), satisfying the evidence-linked reasoning requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings—claims found novel at §102 (e.g., claims 5, 8–14) are treated as non-obvious at §103, and claims found lacking novelty at §102 are found obvious at §103, with no unexplained contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's combination_threshold of 0.329 (low/easy combiner) is reflected in readily accepting weak motivation-to-combine arguments (e.g., demultiplexing as 'obvious variant' of multiplexing, remote coexistence manager 'implied' by peripheral device disclosure), while the moderate strictness (0.502) results in a balanced split decision granting novel claims rather than rejecting everything."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated stage analyses—claims rejected under §103 in the obviousness stage are rejected in the final decision, claims found novel and non-obvious are granted, and the decision_score of 0.35 (leaning toward rejection) is consistent with the majority of independent claims being rejected."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000414",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 26100,
+      "output_tokens": 486,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

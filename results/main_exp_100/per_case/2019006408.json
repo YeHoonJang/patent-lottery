@@ -1,0 +1,353 @@
+{
+  "case_id": "2019006408",
+  "proceeding_number": "2019006408",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 5 is directly and explicitly disclosed in US-2017145561-A1, including SEM evidence (FIG. 1A) showing ligaments and pores in a porous metal foam. The disclosure is clear, specific, and visually confirmed, satisfying the anticipation standard under 102 with high confidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6 involves selecting among noble metals (Ag, Pt, Au) for ligaments in a porous metal structure. US-2017232725-A1 discloses gold in an identical structural and functional context. The interchangeability of noble metals is well known in the art for conductivity and stability. The motivation to combine is strong, and the result is predictable, meeting the KSR 'obvious to try' standard."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 9 is explicitly anticipated by Claim 8 of US-2017145561-A1, which recites 'thermal elastomer' (organic binder) or 'metal material' as the bonding material. The wording is identical to the claim language, leaving no room for ambiguity. This is a textbook case of anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2017145561-A1, US-2016159651-A1, and US-2017232725-A1 provides clear and coherent teachings for forming a composite structure with porous metal and a carbon nanotube layer that is shrunk to form wrinkles. Each element—porous metal substrate, aligned CNTs, bonding methods, shrinkage-induced wrinkling—is explicitly disclosed in the prior art. The motivation to combine is strong, rooted in enhancing surface area, mechanical compliance, and electrical performance in sensor and electrode applications. The claimed structure represents a predictable assembly of known elements without evidence of unexpected results or synergistic effects. Given the high confidence (0.85) in the obviousness rationale and the explicit disclosure of key features, the 103 rejection is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "청구항 5와 8에 대한 신규성 거절은 단일 문헌에 의해 명시적으로 개시되었다고 판단되었으나, 전체적인 기술적 맥락에서 'co-shrinking' 및 'integrated wrinkled structure'와 같은 구조적 통합은 명확히 개시되지 않았다. 특히 US-2014151288-A1은 그래핀의 적층에 초점이 있으며, 탄소나노튜브와 다공성 금속의 공동 수축 구조는 암시되지 않음. 따라서 신규성 거절 근거는 완전히 강력하지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 6과 8에 대한 진보성 거절은 일반적인 재료 선택(예: 금속 리가멘트) 및 접착 방식의 일반화에 기반함. 그러나 본 발명의 핵심 기여는 정렬된 나노튜브와 다공성 금속의 공변형(co-shrinking)을 통한 기계적 강도 및 전기적 성능 향상에 있음. 이러한 효과는 선행기술에 제시되지 않았으며, 결합 동기도 명확하지 않음. 따라서 진보성 거절은 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6에 대한 귀금속 재료 선택은 공지된 특성에 기반한 것으로 보이나, 본 발명의 핵심 기여는 복합 구조와 공정에 있으며 재료 자체의 선택은 기술적 진보에 직접 기여하지 않음. 선행기술이 Au 사용을 개시하더라도 Ag, Pt의 대체는 자명한 수준을 넘는다고 보기 어려우나, unexpected result의 부재로 인해 완전한 허여에는 다소 미흡함. 그러나 strictness가 낮아 출원인에게 유리하게 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 8의 '접착재가 접촉면을 둘러싸다'는 표현은 제조 공정상 자연스러운 결과일 수 있으나, US-2014151288-A1의 적용 맥락(그래핀 + 섬유 기판, 열성형 라미네이션)과 본 발명의 동적 공정(공동 수축)은 명확히 다름. 결합 동기의 명확성은 낮으며, porous metal과 CNT 구조의 계면에서의 envelopment가 당연하다고 보기 어렵고, 공정 조건에 따라 달라질 수 있음. 증거 부족으로 인해 거절 근거 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 거절된 청구항에 대해 선행기술 간의 결합 동기가 명확하며, 통상의 기술자 입장에서의 자명성 판단이 타당함. 특히 정렬된 탄소 나노튜브, 연속적 주름 구조, 귀금속 리가멘트 선택, 접착 재료 사용 등은 모두 공지된 기술적 설계 선택으로, 성능 향상이라는 명확한 동기를 제공함. combination_threshold=0.45로 낮아 결합이 용이하며, 각각의 confidence 값이 0.85 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 거절 대상 청구항에 대해 단일 또는 결합 가능한 선행기술이 존재하며, 각각의 결합 동기가 명확함. 특히 US-2017145561-A1은 다공성 금속과 CNT의 복합체, 압축 공정, 주름 형성, 리가멘트 및 공동 구조를 포괄적으로 개시하여 Claim 1, 5의 핵심 구성요소를 충족함. Claim 3, 10의 정렬된 CNT 구조는 US-2016159651-A1에 의해 직접 개시되어 자명성 판단에 강한 근거 제공. Claim 4의 연속적 주름 구조는 US-2017232725-A1의 유사한 기술적 원리에 기반하여 예측 가능. Claims 7–9의 유기바인더 사용은 US-2014151288-A1에 명시적으로 개시되어 통상의 기술자에게 자명함. 전체적으로 선행기술 간 기술적 맥락이 일관되며, 합리적인 성공 가능성 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 5, 7, 9, and 10 are supported by clear prior art combinations with explicit technical rationale and motivation to combine. The references are directly applicable, and the resulting structures are predictable. The level of detail in the cited art, including SEM images and process descriptions, provides strong evidence of obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'envelop' in claim 8 lacks precise definition in the specification, raising indefiniteness. While the concept may be understandable to one skilled in the art, the lack of clarity on whether the bonding material completely surrounds the contact interface introduces ambiguity. However, this could potentially be resolved through amendment rather than sustained rejection, especially given the disclosed mechanical benefits."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3 combines known elements: porous metal foam (US-2017145561-A1), strain-induced wrinkling (US-2017232725-A1), and aligned CNTs (US-2016159651-A1). The combination is supported by technical rationale and shared application goals. Motivation to combine is clear and well-documented in the references. Confidence is high (0.85), and evidence is robust."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 4's continuity of wrinkled structure is inherent in the process of shrinking a continuous conductive film, as disclosed in US-2017232725-A1. The feature is essential for electrical functionality and is directly supported by the prior art. No unexpected result is shown. Strength is strong due to direct disclosure and logical inference."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 5's ligament-and-pore structure is explicitly shown in US-2017145561-A1 and is conventional in open-cell metal foams. The feature is not novel and is obvious. Strength is strong due to explicit disclosure and common knowledge in materials science."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6 recites Ag, Pt, Au, or combination. US-2017232725-A1 discloses Au but not Ag or Pt. However, all are well-known noble metals used in electrodes. Substitution among known equivalents is routine. Strength is moderate because while the principle is sound, the specific combination in this context lacks direct evidence of interchangeability."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7 introduces a bonding material. US-2014151288-A1 discloses polymer lamination for graphene, analogous to CNTs. While functionally similar, the reference does not explicitly teach CNTs on porous metal. Strength is moderate due to analogy rather than direct teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 8 requires enveloping contact surfaces. US-2014151288-A1 describes interpenetrating networks, which reasonably imply enveloping. However, 'enveloping' is a broader term not explicitly defined. Strength is moderate due to inherent but not explicit disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 9 specifies organic binders or metal. US-2014151288-A1 explicitly lists epoxy, polyurethane, silicone—common organic binders. Metal bonding layers are conventional. The claim covers well-known materials. Strength is strong due to explicit disclosure and common practice."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 10 requires aligned CNTs. US-2016159651-A1 explicitly discloses aligned CNT films drawn from arrays, a standard method. Alignment for directional conductivity is well-motivated. Strength is strong due to direct prior art and clear technical benefit."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술의 조합 또는 단일 문헌이 명확히 개시하고 있으며, 결합 동기가 타당하고 통상의 기술수준 내에서 예측 가능한 결과를 도출함. 특히 정렬된 탄소나노튜브, 주름 구조, 다공성 금속 기판, 접착제 사용 등은 각각 공지된 기술로, 그 결합이 새로운 기능이나 예외적 효과를 발생시킨다는 증거는 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 간의 결합이 명확하며, 동일한 기술 분야에서 공지된 기술을 조합하여 통상의 기술자가 쉽게 도달할 수 있는 발명으로 판단됨. 특히 US-2017145561-A1이 핵심 구조를 개시하고 있으며, 나머지 특징들은 US-2016159651-A1, US-2017232725-A1, US-2014151288-A1 등에서 보조적으로 개시됨. 결합 동기(motivation to combine)도 명확히 제시되어 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 3, 4, 5, 7, 9, 10에 대한 거절 근거는 모두 명확한 선행기술 조합과 타당한 결합 동기를 포함하며, 각 구성요소가 선행기술에 의해 포괄되거나 예측 가능한 변형으로 간주됨. 특히 US-2017145561-A1, US-2017232725-A1, US-2016159651-A1, US-2014151288-A1이 관련 기술을 포괄적으로 개시하고 있어 obviousness 판단에 강한 증거가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 5 and Claim 9 are clearly anticipated by US-2017145561-A1, with explicit disclosure of porous metal ligaments defining pores and the use of thermal elastomers or metal as bonding materials. The reference provides direct, unambiguous support in figures and claims, satisfying 102 standard."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 6, 7, and 10 are supported by strong obviousness rationales. The combination references (US-2016159651-A1, US-2017232725-A1, US-2014151288-A1, and US-2017145561-A1) collectively teach all claimed features. Motivation to combine is clear, based on improving conductivity, adhesion, and structural performance, with predictable results within PHOSITA’s skill."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 3, 4, 5, 7, 9, 10에 대한 103 거절 근거는 모두 명확한 선행기술에 기반하며, 결합 동기와 기술적 일치성이 명시됨. 특히 US-2017145561-A1과 US-2016159651-A1은 동일한 기술분야에서 공통의 목적(전도성/기계적 성능 향상)을 추구하며, 통상의 기술자가 쉽게 결합할 수 있음. 진보성 판단의 confidence도 0.8 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 6, 7, 9, and 10 are supported by clear prior art teachings and well-established motivations to combine. The references explicitly disclose or suggest each claimed feature, and the technical rationale for combining them (e.g., improving conductivity, adhesion, or mechanical stability) is consistent with ordinary skill in the art. Confidence levels range from 0.75 to 0.95, indicating strong evidentiary support."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 8's rejection relies on the argument that 'enveloping' the interface with a bonding material is an obvious extension of known lamination techniques. However, US-2014151288-A1 does not explicitly teach or suggest full envelopment of the contact surfaces. While complete interface coverage is a known method to improve durability, the specific structural arrangement claimed lacks direct support. The confidence level of 0.7 reflects uncertainty in whether this constitutes a non-obvious improvement."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 5 is directly anticipated by US-2017145561-A1, which discloses a porous metal foam (e.g., nickel foam) comprising ligaments defining pores, as shown in FIG. 1A. This is a standard structural characteristic of metal foams and is inherently disclosed. The anticipation is clear and unambiguous, with a confidence level of 0.9."
+        }
+      ]
+    }
+  ]
+}

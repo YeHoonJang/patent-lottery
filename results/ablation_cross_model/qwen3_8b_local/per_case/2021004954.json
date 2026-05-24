@@ -1,0 +1,282 @@
+{
+  "case_id": "2021004954",
+  "proceeding_number": "2021004954",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.5714285714285714,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 26 and 36 involve statistical analysis and gradient-based control, which require explicit technical implementation details in the specification to meet enablement requirements under 35 U.S.C. § 112(a). While the specification provides support for other claims, these specific features lack sufficient detail, creating a moderate enablement issue."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013284480-A1) directly implies all claimed features through mechanical adjustments and parameter-based control. Graham factors confirm PHOSITA would combine elements for obvious optimization. Confidence scores (0.7) and combination_threshold (0.34) support strong obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 23-44 use undefined terms like 'parameter', 'standard deviation', and 'means' without specification. Lack of enablement and written description support is confirmed by verification notes. Moderate confidence (0.7) still meets strictness threshold for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art lacks explicit disclosure of parameter-based control logic and adaptive mechanisms. While the closest reference (US-2013284480-A1) describes mechanical components, there is no suggestion to combine them with parameter detection or dynamic control algorithms. Graham factors indicate no motivation to combine features, but the novelty of statistical analysis (e.g., standard deviation) and user-defined thresholds introduces some ambiguity."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art lacks explicit parameter-based control logic, but combination motivation is weak. PHOSITA would require non-obvious innovation to adapt control sequences."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (23, 24, 25, 28, 29, 35, 44) are explicitly supported by prior art (US-2013284480-A1) with clear motivation to combine and Graham factors confirming obviousness. Confidence scores (0.7) align with strictness threshold (0.89)."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 26, 27, 30, 31, 32, 34, 36 show partial overlap with prior art but lack explicit disclosure of key features (statistical analysis, tables/curves, revolution counting, etc.). Verification notes confirm prior art gaps but confidence remains below strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 37, 40, 34 lack technical specifics for implementation (seating torque estimation, disengaged screw recognition, operator-defined parameters). Verification notes confirm enablement issues under 35 USC 112(d)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (24, 28, 29, 31, 33, 35, 37, 38, 40, 41, 42, 43, 44) are rejected as obvious due to explicit prior art disclosure and logical combination with common knowledge. Verification notes confirm strong support for these combinations."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art lacks explicit disclosure of parameter-based control logic and specific sequences. While PHOSITA might infer adaptive control, the specific linkage to driving time adjustment/torque reduction is not suggested, resulting in moderate confidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses both clutch mechanisms (claim 5) and trigger switches (claim 1). The combination is supported by clear motivation (enhanced efficiency, safety, and control) and meets the combination threshold. Graham factors confirm logical integration of disclosed elements."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims are deemed non-obvious as prior art lacks functional control algorithms, parameter-based adjustments, and combination motivations. Graham factors show no suggestion in prior art to integrate structural elements with control logic."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art lacks parameter-based control logic, but no explicit teaching to combine elements. Motivation to combine is absent, but PHOSITA might infer some utility."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims show no teaching/suggestion in prior art to combine mechanical arrangements with parameter-based control logic. Graham factors confirm significant differences and lack of motivation to combine."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art lacks explicit disclosure of parameter-based control algorithms, and combination motivation is absent. Graham factors show significant differences from prior art, but PHOSITA guidance is lacking."
+        }
+      ]
+    }
+  ]
+}

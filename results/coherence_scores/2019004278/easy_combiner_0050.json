@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis explicitly applies Graham factors (scope and content, differences, PHOSITA level, secondary considerations) for each claim, and the novelty stage performs element-by-element anticipation analysis against US-2013203433-A1, reflecting correct statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout both the §102 and §103 stages, conclusions are tied to specific claim elements (e.g., 'current message module,' 'identification module,' 'delivery module') and specific prior art disclosures in US-2013203433-A1, with explicit comparisons of what is and is not disclosed."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage consistently builds on the §102 findings—where novelty was found because the prior art lacked the message-routing concept, the obviousness stage reiterates the same distinctions and finds no motivation to combine, without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a combination_threshold of 0.222 (very easy combiner) yet consistently finds no motivation to combine even for straightforward extensions; however, the examiner's strictness of 0.461 (near moderate) and the final notes explicitly acknowledge this tension and justify the grant based on meaningful technical distinctions, which is consistent with a moderate-strictness pragmatist."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to grant all claims follows directly from the accumulated §102 novelty findings (all claims novel) and §103 obviousness findings (all claims non-obvious), with the office action and final decision summarizing the same rationale without reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019004278",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10260,
+      "output_tokens": 397,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

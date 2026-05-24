@@ -1,0 +1,350 @@
+{
+  "case_id": "PILOT-2018002380",
+  "proceeding_number": "2018002380",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.35714285714285715,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 15 is a means-plus-function claim that lacks adequate corresponding structure in the specification. The disclosure describes the function of prediction suppression but does not provide sufficient hardware details or algorithmic implementation to satisfy the written description requirement under 112(a). This is a clear violation, especially given the broad functional language without structural linkage."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 15 explicitly invokes means-plus-function under 112(f), but the specification fails to disclose corresponding structure for 'prediction suppression means'. MPEP § 2181 mandates clear linkage to specific hardware or algorithm, which is absent. This is a clear and well-established 112(a) failure. Other claims (1, 8, 10, 14, 16) also recite functional language without structural support, indicating a pattern of inadequate disclosure. The written description deficiency is evident and meets the high threshold for rejection under strict examination."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013339693-A1은 성능 향상을 위한 미스 기반 전송 필터링에 초점을 맞추고 있으며, 청구항의 핵심인 '히스토리 데이터를 이용한 브랜치 예측 동작 억제'를 개시하거나 암시하지 않음. 결합 동기 부족하며, 전력 절약을 위한 새로운 제어 패러다임으로서 기술적 진보가 있음. combination_threshold=0.68 기준보다 높은 비자명성 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3의 '두 개의 후속 블록' 제한은 설계 선택으로서 명백하다고 판단되었으나, 핵심 발명 개념인 다중 블록에 대한 예측 억제는 선행기술에 없으며, '2'라는 숫자에 특별한 효과나 비정상적 결과가 명세서에 기재되지 않았음. 그러나 이는 통상적인 설계 범위 내에서의 선택으로 보는 것이 타당하므로 근거는 중간 강도."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 12의 '여러 명령어 포함' 제한은 파이프라인 프로세서의 기본 가정으로, 선행기술에 암시되어 있으나, 이는 기술 분야의 보편적 사실에 가까우며, 특허성 판단의 실질적 쟁점이 아님. strictness가 낮은 심사관 관점에서 이는 거절보다는 자명한 구성 요소로 간주되어야 함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 13의 '브랜치 포함 블록 예측'은 BTB의 표준 기능으로 선행기술에 개시되어 있으나, 이는 본 발명의 핵심 기여인 '역사 데이터 기반 억제'와는 별개의 일반적 기능임. 이 제한 자체로는 명백성 거절을 유지할 만큼 강한 근거가 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2013339693-A1) discloses suppression of BTB searches based on miss correlation, but does not teach or suggest using history data of following instruction blocks' branch behavior for suppression. While the claimed invention introduces a new heuristic based on sequential block-level branch absence, the use of historical patterns to control prediction circuitry is within the general knowledge of PHOSITA. The difference lies in the trigger mechanism (cache/BTB miss vs. block-level branch history), but both aim at power-efficient prediction. Given the strictness level of 0.89, even a moderate possibility of obviousness must be weighed heavily. However, no explicit teaching or motivation to combine for this specific purpose is found, making the obviousness argument moderate rather than strong."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 5, 7, 11, 12, and 13 are directly anticipated by US-2013339693-A1. The reference explicitly discloses the BTB structure (claim 5), two-level BTB with speed/capacity differences (claim 7), branch history table equivalent to GHB (claim 11), instruction blocks containing multiple instructions (claim 12), and prediction of branch-containing blocks (claim 13). These disclosures are clear and unambiguous in the prior art, satisfying the anticipation standard under §102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "No valid obviousness rejection was made due to LLM unavailability. However, even under a strict standard, the absence of any combination rationale or secondary reference means there is no basis to assert obviousness. The failure to assess Graham factors or motivation to combine renders any 103 argument unsupported. Thus, despite examiner's strictness, the lack of evidence makes this a weak ground."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3의 '두 개의 후속 블록'은 정량적 설계 선택으로, 선행기술이 시퀀스 분석을 암시하므로 결합 동기는 존재하나, '2'라는 숫자 자체에 기술적 근거나 예외적 효과가 명시되지 않음. strictness=0.47 기준으로 해석의 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 5의 BTB 사용은 US-2013339693-A1에 명시적으로 개시되어 있으며, 일반적인 기술 수준에서 자명함. 증거 명확하고 반박 여지 낮음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 7의 미크로/풀 BTB 구조는 선행기술의 1단계/2단계 BTB와 기능 동등하며, 용어 차이만 있음. 기술적 실질 차이 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 12의 '복수 명령어 포함'은 파이프라인 아키텍처에서 자명하나, 명세서에 명시적 근거 없이 'inherent' 주장은 다소 추상적. 해석의 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 13은 브랜치 예측의 일반적 목적을 서술한 것으로, 선행기술과 동일하나, '예측 대상 블록이 브랜치 포함'이라는 명시는 기능적 제한이라기보다 설명적 성격."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013339693-A1이 청구항 1, 2, 3, 5, 7, 8, 10, 11, 12, 13, 15, 16의 모든 구성요소를 단일 선행기술로서 명확히 개시하고 있으며, 명세서 및 도면에서 직접 대응되는 부분이 존재하므로 신규성 결여 판단은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 6의 '이력 데이터가 브랜치 타겟 데이터 일부'라는 구성은 선행기술에 직접 개시되지 않으나, 데이터 통합 저장은 마이크로아키텍처에서 공지의 설계 원칙이며, 효율성 향상을 위한 동기가 존재하므로 진보성 결여 판단은 타당하나, 해석의 여지 있음. strictness=0.55 수준에서 유지 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious=false로 평가되었으며, 결합 동기(motivation to combine) 부족을 근거로 들고 있음. US-2013339693-A1은 miss correlation 기반의 검색 억제를 제안하지만, 청구항은 후속 블록의 이력 데이터를 기반으로 예측 회로를 억제하는 구조로, 목적과 동작 원리가 다름. 선행기술 간의 결합 동기가 명확하지 않으며, hindsight 없이는 도달하기 어려움. confidence 값도 0.55~0.75 수준으로, 높은 편은 아님. strictness=0.50인 중립적 심사관 입장에서 이러한 약한 obviousness 근거는 거절로 보기 어렵다고 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3의 'two following blocks'는 수치적 제한일 뿐이며, 선행기술에서 다중 블록 처리 및 파이프라인 운영이 개시되어 있어 통상의 기술자에게 자명한 설계 선택으로 간주됨. 결합 동기 기준(combination_threshold=0.44)에 비추어도 충분히 예측 가능하며, unexpected result의 증거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 5, 7, 12, 13의 구성 요소들은 모두 선행기술 US-2013339693-A1에서 명시적 또는 암시적으로 개시됨. BTB 포함, 계층 구조, 다중 명령어 블록, 분기 포함 블록 예측은 모두 공지 기술로서, 통합이 자명하며 기술적 진보 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3의 'two following blocks' 제한은 양적 변화이며, 선행기술이 다중 블록 억제 개념을 완전히 개시하지는 않음. 그러나 선행기술이 조건부 억제를 개시하므로, 블록 수를 두 개로 정하는 것이 통상의 기술자에게 명백할 수 있음. 그러나 억제 윈도우의 길이를 정하는 것이 반드시 루틴한 최적화인지에 대한 해석의 여지 존재. strictness=0.42로 인해 약간의 불확실성은 출원인에게 유리하게 작용."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 12의 'plurality of instructions per block'은 파이프라인 프로세서의 기본 구조로, 선행기술에서 명시적/암시적으로 개시됨. 이는 기술 분야의 상식에 해당하며, 특허성 기여 없음. 증거 명확하고 해석의 여지 거의 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 13의 'branch-containing block 예측'은 브랜치 예측 회로의 본질적 기능으로, US-2013339693-A1에서 BTB를 이용한 브랜치 블록 식별을 명시적으로 개시함. 이는 공지 기술의 직접적 적용으로, 명백한 obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 5, 7, 12, and 13 are directly anticipated by US-2013339693-A1 with explicit disclosure of BTB storing branch target data, two-level BTB hierarchy, instruction blocks with multiple instructions, and branch-containing block identification. The matching is clear and well-supported."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3's limitation to two following blocks is a numerical selection within routine engineering trade-offs. While not explicitly disclosed, choosing a small number like two for history tracking is a design choice a PHOSITA would make. Given the reference's teaching of tracking mechanisms, the motivation to combine is plausible but not compelling without hindsight. At strictness=0.52, this is not strong enough to sustain a rejection without clearer guidance."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7's obviousness rejection is redundant given the 102 anticipation. For claims 12 and 13, the obviousness rationale overlaps with inherent disclosure. While the features are standard, combining them under 103 adds little beyond the 102 basis. The motivation to combine is weak because no actual combination is needed—they are foundational concepts."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 5, 7, 12, and 13 are directed to features explicitly disclosed in US-2013339693-A1 or represent well-established design practices in microprocessor architecture. The use of a BTB for storing branch target data, hierarchical BTB structures with speed-capacity trade-offs, multi-instruction blocks, and identifying branch-containing blocks are all either directly anticipated or considered standard knowledge in the field. The motivation to combine is grounded in common technical understanding, and the reference provides sufficient disclosure to support obviousness. Given the high confidence scores (0.9–0.95) and alignment with conventional design principles, this constitutes a strong rejection basis."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "case_id": "2021001144",
+  "proceeding_number": "2021001144",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 2 and 3 share significant overlap with US-2014265550-A1 in core interconnection and power supply features. However, the summation current measurement (Claim 2) and fail-safe disconnection (Claim 3) are not explicitly disclosed. Given the broad claim interpretation (breadth=0.69) and strictness (0.79), the similarity is sufficient to raise novelty concerns, but the lack of explicit disclosure weakens the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of US-2014265550-A1 with general knowledge of current monitoring and fault detection in network systems provides a clear motivation to combine. The additional features (e.g., summation current measurement, fail-safe disconnection, fault detection) are well-known techniques in the field, and the combination threshold (0.34) supports obviousness. The confidence levels (0.75-0.85) further strengthen this rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'expected summation current' in Claims 6 and 7 lacks clear definition or support in the specification. While this raises enablement concerns, the issue is addressable through amendment or clarification, making it a moderate rather than strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1은 청구항 2의 핵심 구성요소(공급 전압 입력과 디지털 데이터 출력의 상호연결)를 암시적으로 개시하며, 'load diagnosis device'와 'summation current 측정'은 해당 분야의 공지된 기술임. 결합 동기는 안전성 요구사항으로 명확하며, combination_threshold=0.34를 충족함. 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1은 청구항 3의 핵심 구성요소를 개시하며, 오류 시 모듈 차단은 안전성 확보를 위한 통상적 기술임. 결합 동기는 명확하며, 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1은 청구항 4의 핵심 구성요소를 개시하며, 'load diagnosis device'와 'summation current 측정'은 공지된 기술임. 결합 동기는 안전성 요구사항으로 명확하며, 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 청구항 5의 핵심 구성요소를 개시하지만, 'summation current 변화 없음'을 오류 조건으로 사용하는 구체적 방법은 명시되지 않음. 다만, 전류 변화 감지는 공지된 기술로 결합 동기가 인정됨. 근거 강도는 중간 수준이지만 strictness=0.88에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 청구항 6의 핵심 구성요소를 개시하지만, 'measured summation current'와 'expected summation current'의 불일치를 오류 조건으로 사용하는 구체적 방법은 명시되지 않음. 다만, 전류 비교는 공지된 기술로 결합 동기가 인정됨. 근거 강도는 중간 수준이지만 strictness=0.88에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 7은 청구항 6과 동일하며, 새로운 기술적 특징을 추가하지 않음. 중복 청구항으로 간주되며, 근거 강도가 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "claim_number": 1,
+          "strength": "moderate",
+          "reasoning": "The rejection under 112 is based on the broad term 'claimed manner' lacking sufficient support in the specification. While the specification describes specific implementations (e.g., fail-safe disconnection and load diagnosis), the claim language is overly broad. Given the purposivist approach and strictness of 0.25, this rejection is not strong enough to outright reject but warrants an amendment to align with the specification."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "weak",
+          "reasoning": "The rejection of Claim 7 as obvious over Claim 6 is based on redundancy. While Claim 7 is substantively identical to Claim 6, the combination_threshold (0.68) is not exceeded, and there is no clear motivation to combine prior art to render Claim 7 obvious. Given the low strictness (0.25) and the innovation-supportive philosophy, this rejection is weak and should not stand as a bar to allowance. However, redundancy is a valid concern for amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "중복 청구항",
+          "strength": "moderate",
+          "reasoning": "청구항 7은 청구항 6과 중복되어 보정 권고 사유로 적합하지만, 기술적 기여가 인정되는 청구항의 중복일 뿐 명백한 거절 사유는 아님. strictness=0.29에 따라 보정 제안으로 처리."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014265550-A1이 청구항의 핵심 구성요소를 암시적으로 개시하고 있으나, 'load diagnosis device'와 같은 특정 기능이 명시적으로 공개되지 않았음. 그러나 strictness=0.89에 따라 유사성이 인정되므로 거절 근거로 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014265550-A1과 공지기술의 결합 동기가 명확하며, Graham 4요소 분석에 따라 진보성이 인정되지 않음. combination_threshold=0.45를 충족하며, 통상의 기술자가 예측 가능한 설계 선택으로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 7은 Claim 6과 중복되며, 새로운 기술적 구성을 추가하지 않음. 35 U.S.C. § 112에 따른 명확성 및 뒷받침 요건을 충족하지 못함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014265550-A1과 공지기술의 결합 동기가 명확하며, 'load diagnosis device'의 기능은 전력 관리 시스템에서 공지된 기술로 간주됩니다. combination_threshold(0.51)를 초과하고 confidence(0.85)가 높아 거절 유지 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "PoE 기술과 오류 대응 메커니즘은 US-2014265550-A1에 명시적으로 공지되었으며, 공급 전압 입력과 디지털 데이터 출력의 상호연결은 자명한 변형으로 간주됩니다. confidence(0.82)가 높아 거절 유지 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "전류 모니터링은 공지된 기술이지만, 디지털 데이터 출력과의 연계가 통상의 설계 선택인지 여부에 약간의 해석 여지가 있습니다. 그러나 combination_threshold(0.51)를 초과하고 confidence(0.78)가 높아 strictness(0.82)에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "전류 변화 감지를 통한 오류 탐지는 전기 시스템에서 공지된 기술이며, 이를 확장 인터페이스에 적용하는 것은 자명한 설계 선택입니다. confidence(0.8)가 높아 거절 유지 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "strong",
+          "reasoning": "전류 비교를 통한 오류 탐지는 전력 관리 시스템에서 공지된 기술이며, 이를 네트워크 장치에 적용하는 것은 자명한 설계 선택입니다. confidence(0.8)가 높아 거절 유지 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "strong",
+          "reasoning": "Claim 6과 실질적으로 동일하며, 새로운 기술적 특징이 없습니다. confidence(0.8)가 높아 거절 유지 적절함."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_number": 7,
+          "strength": "strong",
+          "reasoning": "Claim 7이 Claim 6과 실질적으로 동일하여 청구항의 명확성과 독창성 요건을 충족하지 못합니다. 명세서 뒷받침 여부와 무관하게 청구항 자체의 모순이 명백하여 거절 유지 적절함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the combination of US-2014265550-A1 with common knowledge in PoE systems and safety-relevant networks. While the motivation to combine is plausible, the prior art does not explicitly disclose all elements (e.g., summation current measurement, specific fail-safe interconnection). The combination threshold (0.46) is met, but the evidence leans toward obviousness rather than anticipation. Given the strictness level (0.47), the rejection is maintained but with room for applicant argument or amendment."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 7 is substantively identical to Claim 6 and does not introduce new elements. While redundant, the obviousness rejection is weaker here because it relies entirely on the reasoning for Claim 6. The objection to redundancy is valid, but the rejection under 103 is less compelling for this claim alone."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014265550-A1과 PoE 공지기술의 결합 근거는 제시되었으나, 청구항 2의 '공급 전압 입력(S)과 디지털 데이터 출력(OUT)의 상호 연결' 및 '부하 진단 장치'가 PoE 시스템에서 공지된 기술로 직접적으로 명시되지 않음. 결합 동기는 타당하지만, 통상의 기술자가 예측 가능한 설계 선택인지에 대한 해석 여지가 존재함. strictness=0.55에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 3의 '오류 시 인터페이스 확장 모듈 및 모든 디지털 인터페이스 차단 기능'은 PoE 시스템에서 공지된 기술로 볼 수 있으나, 선행기술에서 명시적 개시가 부족함. 결합 동기는 타당하지만, 통상의 기술자가 예측 가능한 설계 선택인지에 대한 해석 여지가 존재함. strictness=0.55에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 4의 '부하 진단 장치를 통한 합산 전류 측정'은 PoE 시스템에서 공지된 기술로 볼 수 있으나, 선행기술에서 명시적 개시가 부족함. 결합 동기는 타당하지만, 통상의 기술자가 예측 가능한 설계 선택인지에 대한 해석 여지가 존재함. strictness=0.55에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 5의 '합산 전류 변화 부재를 통한 오류 감지'는 PoE 시스템에서 공지된 기술로 볼 수 있으나, 선행기술에서 명시적 개시가 부족함. 결합 동기는 타당하지만, 통상의 기술자가 예측 가능한 설계 선택인지에 대한 해석 여지가 존재함. strictness=0.55에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 6과 7의 '측정된 합산 전류와 예상 합산 전류의 불일치 기반 오류 감지'는 PoE 시스템에서 공지된 기술로 볼 수 있으나, 선행기술에서 명시적 개시가 부족함. 결합 동기는 타당하지만, 통상의 기술자가 예측 가능한 설계 선택인지에 대한 해석 여지가 존재함. strictness=0.55에 따라 증거의 강도가 충분하지 않다고 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "moderate",
+          "reasoning": "US-2014265550-A1이 PoE 시스템의 power/data interconnection을 암시하고, current monitoring이 공지기술임은 인정되나, 'load diagnosis device'의 summation current 측정이 명시적으로 결합 동기(motivation to combine)로 제시되지 않았음. combination_threshold(0.22)는 충족되나, strictness(0.46) 성향상 근거 강도가 borderline임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "moderate",
+          "reasoning": "US-2014265550-A1이 fail-safe disconnection을 명시하지는 않으나, safety-relevant networks에서 fail-safe가 공지 요구사항임은 인정됨. 그러나 결합 동기가 추상적이며, strictness(0.46) 성향상 근거 강도가 borderline임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "Current monitoring이 공지기술이나, summation current 측정이 Claim 3의 fail-safe method와 결합된 구체적 동기가 불명확함. combination_threshold(0.22)는 충족되나, strictness(0.46) 성향상 근거 강도가 borderline임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "weak",
+          "reasoning": "Fault detection based on static current behavior가 공지기술로 언급되나, interface switching 중 current 변화 없음을 fault로 판단하는 구체적 방법이 선행기술에 없음. 결합 동기가 추측에 가까우며, strictness(0.46) 성향상 근거 부족으로 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "weak",
+          "reasoning": "Baseline comparison이 공지기술이나, summation current와 expected baseline 비교가 구체적으로 선행기술에 제시되지 않음. 결합 동기가 불명확하며, strictness(0.46) 성향상 근거 부족으로 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "weak",
+          "reasoning": "Claim 6과 동일하며, 근거 부족으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejections under 103 are based on the combination of US-2014265550-A1 with common knowledge in power management and fail-safe techniques. While the motivation to combine is logical, the specific implementation of fail-safe shutdown via interconnection of supply voltage input and digital data output, along with summation current measurement, may not be explicitly disclosed or suggested in the prior art. The confidence scores (0.75-0.85) indicate moderate strength, but there is room for interpretation regarding whether these combinations would be obvious to a PHOSITA. Given the strictness level of 0.50, these rejections are borderline but lean toward rejection due to the logical motivation to combine."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 7 is substantively identical to Claim 6, introducing no meaningful distinctions. This redundancy violates the definiteness requirement under 35 U.S.C. 112(d). The evidence is clear and unambiguous, warranting a strong rejection or objection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection of Claim 2 is based on the combination of US-2014265550-A1 and conventional techniques in safety-relevant networks. While the combination is plausible, the specific integration of summation current measurement and fail-safe shutdown via interconnection of supply voltage input and digital data output is not explicitly disclosed. The motivation to combine is logical but not overwhelmingly strong, given the moderate strictness (0.52). The confidence score (0.8) suggests a reasonable basis, but the claim may be amendable to overcome the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection of Claim 3 relies on the combination of US-2014265550-A1 and conventional fail-safe mechanisms. Fault-based disconnection is well-known, but its integration with the specific architecture of the interface expansion module is not explicitly disclosed. The motivation to combine is reasonable, but the rejection is not ironclad, given the moderate strictness (0.52). The confidence score (0.85) indicates a strong basis, but amendments could potentially overcome the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014265550-A1이 인터페이스 확장 장치의 전원 및 네트워크 연결을 공개하고 있으며, 부하 진단 장치의 총전류 측정은 공지기술임. PHOSITA가 안전성 확보를 위해 이러한 결합을 할 동기가 명확하며, 예측 가능한 결과를 도출함. 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 인터페이스 모듈의 전원/네트워크 연결을 공개하고 있으며, 결함 시 연결 해제는 안전성 확보를 위한 공지된 메커니즘임. PHOSITA가 이러한 결합을 할 동기가 명확하며, 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "총전류 측정 자체는 공지기술이지만, 인터페이스 확장 장치에 적용하는 구체적 맥락이 선행기술에 명시되지 않음. 그러나 PHOSITA가 예측 가능한 방식으로 적용할 동기가 있으므로 근거는 있으나 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "확장 인터페이스 전환 시 총전류 변화 부족을 통한 결함 감지는 공지된 진단 기술이지만, 구체적 적용 맥락이 선행기술에 없음. PHOSITA가 예측 가능한 방식으로 적용할 동기가 있으나 근거 강도가 다소 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "측정 전류와 예상 전류의 불일치 비교는 표준 진단 기술이지만, 인터페이스 확장 장치에 적용하는 구체적 맥락이 선행기술에 없음. PHOSITA가 예측 가능한 방식으로 적용할 동기가 있으나 근거 강도가 다소 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 7이 청구항 6과 실질적으로 동일하여 명확성 및 중복성 문제가 있으나, 명세서의 뒷받침이 불분명한 것은 아님. 근거는 있으나 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1은 인터페이스 확장 모듈(IOE)의 공급 전압 입력(S)과 네트워크 장치(DCC)의 디지털 데이터 출력(OUT) 간의 상호 연결과 유사한 구조를 개시하고 있습니다. summation current 측정을 통한 부하 진단은 네트워크 진단 분야에서 공지된 기술로, 통상의 기술자가 쉽게 결합할 수 있는 요소입니다. 결합 동기가 명확하며, confidence=0.82로 근거가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1은 분산 센서 네트워크의 전원 및 네트워크 연결 구조를 개시하며, 결함 발생 시 인터페이스 차단은 안전 관련 네트워크에서 공지된 기술입니다. 통상의 기술자가 쉽게 결합할 수 있는 요소로, confidence=0.85로 근거가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "summation current 측정을 통한 부하 진단 및 결함 감지는 네트워크 진단 분야에서 공지된 기술로 간주되지만, 제공된 선행기술에서 명시적으로 개시되지 않았습니다. 통상의 기술자가 구현하는 것이 자명하다고 판단되나, 결합 동기의 명확성이 다소 약합니다 (confidence=0.78-0.81). strictness=0.52에 따라, 근거가 충분하지 않다고 단정하기 어렵지만, 보정 또는 추가 설명을 통해 극복 가능할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1과 해당 분야의 공지기술을 결합한 동기가 명확하며, PoE 시스템과 전류 모니터링 기술의 결합은 통상의 기술자가 쉽게 도출할 수 있는 설계 선택임. 근거의 confidence가 0.85로 높고, combination_threshold (0.57)를 충족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "모듈식 인터페이스 시스템과 장애 시 모듈 차단 기술의 결합은 네트워크 시스템에서 공지된 기술임. 근거의 confidence가 0.88로 높고, combination_threshold (0.57)를 충족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "전류 모니터링 기술은 네트워크 시스템에서 공지된 기술이며, US-2014265550-A1의 모듈식 인터페이스와 결합할 동기가 충분함. 근거의 confidence가 0.82로 높고, combination_threshold (0.57)를 충족함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5,
+            6,
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 5, 6, 7의 구체적인 장애 감지 방법은 선행기술에 명시적으로 제시되지 않았으며, 진보성 판단에서도 combination_threshold를 충족하지 않음. 근거의 confidence가 각각 0.85, 0.83, 0.83으로 높음."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "case_id": "2018000935",
+  "proceeding_number": "2018000935",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013216989-A1은 센서 기반 행동 감지, 추천 제공, 행동 점수화를 개시하나, '의도-행동 갭'이라는 핵심 개념과 사용자 피드백 기반 동적 프로필 조정은 명시적으로 개시하지 않음. 진보성 판단에서 이러한 요소들이 비자명하다고 분석되었으나, 행동 변화 시스템 분야에서 적응형 학습과 사용자 피드백 메커니즘은 공지 기술임. 선행기술의 행동 점수화 시스템을 의도-행동 갭 정량화로 확장하고, 추천 시스템에 사용자 수락/거절 기반 적응을 추가하는 것은 예측 가능한 변형으로 볼 여지가 있음. 시간 최적화 알림(청구항 4), 질문 기반 피드백(청구항 5-6), 유전 알고리즘 최적화(청구항 7-13)는 선행기술에 명시되지 않았으나 해당 분야의 공지 기술이며, 결합 동기가 논리적으로 설명 가능함. 그러나 명세서가 의도-행동 갭의 매개 요인 파악과 맥락 인식 코칭의 중요성을 강조하며, 기존 시스템의 낮은 성공률(25-30%)을 지적한 점은 2차적 고려사항으로 작용할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013216989-A1은 행동 감지, 추천 제공, 수용성 점수화를 개시하지만, 청구항의 핵심 구성요소인 'intention-behavior gap의 명시적 식별', '정량화된 프로파일 생성', '사용자 수락/거절에 따른 프로파일 변경'을 명시적으로 개시하지 않습니다. Office Action은 이러한 구성요소들이 선행기술에 '내재적으로(inherently)' 존재한다고 주장하나, 이는 BRI 해석을 지나치게 확장한 것입니다. 선행기술이 '행동과 수용성 간의 상관관계'를 다루는 것과 '의도-행동 간극'을 명시적으로 식별하고 정량화하는 것은 다릅니다. 102 거절은 각 구성요소의 명시적 개시를 요구하므로, 이 근거는 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "103 거절은 더 강한 근거를 가집니다. (1) 선행기술은 행동 감지 및 추천 시스템의 기본 프레임워크를 제공합니다. (2) 출원인의 명세서 자체가 intention-behavior gap이 공지된 문제임을 인정합니다(Sheeran, 2002 인용). (3) 사용자 피드백 기반 시스템 개선은 적응형 시스템의 일반적 관행입니다. 그러나 '의도-행동 간극'이라는 개념을 명시적으로 정량화하고 프로파일로 생성하는 것이 단순한 설계 선택인지, 아니면 발명적 통찰을 요구하는지는 해석의 여지가 있습니다. 선행기술은 '행동 개선'을 목표로 하지만, '의도와 행동의 차이'를 명시적으로 측정하고 추적하는 메커니즘은 개시하지 않습니다. 결합 동기는 논리적이나, 구체적 구현의 자명성은 중간 수준입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The 102 rejection relies on overly broad interpretation of the prior art. US-2013216989-A1 discloses behavior sensing and scoring, but the claimed 'intention-behavior gap' quantification, user acceptance/rejection mechanism, and dynamic profile variation based on user feedback are not explicitly disclosed. The examiner's interpretation that 'comparing actual behavior against acceptability standards inherently involves identifying gaps between intended behavior and actual behavior' is a stretch. The prior art teaches static scoring, not the claimed adaptive feedback loop. Under BRI with moderate breadth (0.37), this interpretation is too broad. The novelty analysis correctly identified that key elements (1b-1e) show only implicit matches with low similarity scores (0.6-0.7), and element 1e has no match at all. The 102 rejection should not be sustained."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection has some merit but relies on hindsight reasoning. The prior art teaches behavior sensing, scoring, and recommendations, but does not teach or suggest: (1) explicit intention-behavior gap quantification as a distinct metric, (2) user acceptance/rejection interaction model, (3) dynamic profile variation based on user responses. The examiner argues these would be 'obvious extensions' and 'routine design choices,' but this is conclusory without specific teaching or suggestion in the prior art. The motivation to combine is stated generally ('improve effectiveness') but lacks specific technical reasoning for why a PHOSITA would make these specific combinations. The obviousness analysis correctly identified that the combination_threshold=0.68 requires substantial motivation, which is questionable here. However, given that some elements are disclosed (sensing, scoring, recommendations) and the claimed features could be viewed as refinements, this is a moderate-strength rejection that warrants careful consideration of the applicant's technical contribution."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013216989-A1은 행동 센싱과 권장사항 제공을 개시하지만, 'intention-behavior gap'의 식별, 정량화된 프로파일 생성, 사용자 피드백 기반 적응이라는 핵심 구성요소를 개시하지 않음. Coverage score 0.45로 불완전. 신규성 판단에서 모든 청구항이 novel로 평가되었으며, 선행기술과의 차이가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 정적 권장사항 제공만 개시하며, intention-behavior gap 정량화 및 적응적 폐쇄 루프 시스템은 개시하지 않음. 유전 알고리즘 적용(청구항 8-13)은 선행기술에 전혀 교시되지 않음. Combination_threshold=0.72로 높은 기준이 적용되나, 결합 동기를 제공할 제2 선행기술이 없음. 통상의 기술자가 선행기술로부터 본 발명의 핵심 구성을 도출하는 것은 비자명함. 진보성 판단에서 모든 청구항이 non-obvious로 평가됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 intention-behavior gap을 Background에서 정의하고(Sheeran, 2002 참조), Table 1에서 매개 요인을 제공. 정량화된 프로파일은 유전 알고리즘을 통한 데이터 구조로 설명됨. 적응적 피드백 메커니즘은 반복 최적화 과정으로 설명됨. 112 이슈는 식별되지 않음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 행동 분석과 권장이라는 추상적 개념을 포함하지만, 특정 기술적 도구(센서, 유전 알고리즘, 사용자 인터페이스)와 통합되어 자동화된 코칭 효과 개선이라는 기술적 문제를 해결. 스마트폰 기반 센싱(청구항 14-15), 전용 디바이스(청구항 16-17), 신체 부착 센서(청구항 18-19) 등 구체적 구현을 제공. 101 이슈는 식별되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2013216989-A1 teaching behavior sensing, acceptability scoring, and personalized recommendations. The key differences are: (1) the specific 'intention-behavior gap' terminology and quantification, and (2) the feedback loop varying the profile based on user acceptance/rejection. While the prior art provides a foundation for behavior monitoring and personalization, the specific concept of quantifying an intention-behavior gap and implementing adaptive profiling based on user feedback represents a meaningful technical contribution. The applicant's citation of Sheeran (2002) shows the intention-behavior gap is a known problem, but this does not mean the solution is obvious. The prior art's 'acceptability scoring' is conceptually different from 'intention-behavior gap quantification'—the former compares behavior to standards, while the latter measures the delta between user's stated intentions and actual actions. The feedback loop mechanism (element 1e) is not explicitly taught in US-989, which only mentions receiving manually reported information, not using acceptance/rejection to vary a quantified profile. However, given the low combination_threshold (0.45) and my strict examination philosophy (strictness=0.89), I find that a PHOSITA could reasonably combine the prior art's personalization features with known adaptive learning techniques to arrive at the claimed invention. The motivation to combine is present (improving personalization), and the combination would be predictable. The genetic algorithm claims (8-13, 27-32) are correctly identified as non-obvious due to the specific algorithmic approach not being suggested by the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013216989-A1이 청구항 1의 대부분 구성요소(센서 기반 행동 감지, 행동 평가, 권장사항 제공)를 개시하고 있으나, 'varying the quantified profile based on user actions'에 대한 명시적 개시가 약함. 이 요소는 'inherent'하다고 주장하지만, 명세서에서 명확히 개시되지 않았으므로 102 거절의 근거로는 다소 약함. 그러나 나의 엄격한 성향(strictness=0.82)과 공익 보호 철학에 따라, 선행기술과의 실질적 중첩이 크므로 102 거절을 유지할 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술이 핵심 구성요소를 모두 개시하고, 'varying profile' 기능은 적응형 추천 시스템의 공지된 설계 원리로서 통상의 기술자에게 자명함. combination_threshold=0.51이 0.6 미만이므로 설계 선택이나 공지상식으로도 결합을 인정할 수 있음. 결합 동기가 명확하고(사용자 피드백 기반 시스템 개선), Graham factors가 충족됨. 103 거절은 강력한 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 1-38 were found to be novel with high confidence (0.7-0.9). US-2013216989-A1 does not anticipate any claim. Coverage scores range from 0.2-0.35, indicating insufficient disclosure of key elements including: intention-behavior gap identification, quantified profile generation, accept/reject mechanism, and profile variation based on user response."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims 1-38 were found to be non-obvious with high confidence (0.7-0.9). The core inventive concept of quantifying the intention-behavior gap and implementing an iterative refinement mechanism through user acceptance/rejection is not taught or suggested by US-2013216989-A1. While the prior art discloses behavior sensing and recommendations, it lacks: (1) the specific focus on intention-behavior gap as a quantifiable metric, (2) the accept/reject feedback mechanism, (3) dynamic profile variation, and (4) genetic algorithm optimization for this specific problem. The motivation to combine known elements in this specific manner would require hindsight. The specification addresses a recognized problem (only 25-30% behavior change success rate) with a non-obvious solution. Graham factors support non-obviousness: significant differences from prior art, PHOSITA would not find combination obvious, and secondary considerations (long-felt need, non-obvious solution) favor patentability."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No 112 issues were identified. The specification provides adequate written description for all claimed features including intention-behavior gap, quantified profile, accept/reject mechanism, genetic algorithm implementation, and various device implementations. All terms are sufficiently defined and enabled."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No 101 issues were identified. While the claims involve data processing and algorithms, they are directed to a specific technical solution (behavior change system with sensors, quantified profiling, and iterative optimization) that improves computer functionality and provides practical application in lifestyle management. The claims are not directed to an abstract idea alone."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013216989-A1이 행동 센싱, 평가, 추천 제공의 기본 프레임워크를 명확히 개시하고 있으며, intention-behavior gap이 공지 개념임은 명세서 자체가 인정하고 있습니다. 그러나 선행기술이 명시적으로 'intention-behavior gap'을 식별하거나 'quantified profile'을 생성하는 것을 개시하지는 않았습니다. 선행기술의 'level of acceptability'와 'score'가 intention-behavior gap과 기능적으로 유사하다는 주장은 해석의 여지가 있습니다. Combination_threshold=0.55에서 공지상식으로 결합을 인정할 수 있으나, 명시적 교시가 없는 점을 고려하면 moderate 강도입니다. 유전 알고리즘 관련 청구항(8-13, 27-32)은 선행기술이 전혀 개시하지 않았고, 해당 분야에서 유전 알고리즘 사용이 자명하다는 증거가 부족하여 weak입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 1-38 are found novel. US-2013216989-A1 does not disclose the core inventive concept of 'intention-behavior gap' identification and quantification. The prior art focuses on behavior detection and acceptability scoring, which is fundamentally different from quantifying the gap between user intention and actual behavior. Coverage scores range from 0.35-0.4, indicating significant uncovered elements. The anticipating_refs arrays are empty for all claims, confirming no anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While the obviousness analysis identifies US-2013216989-A1 as a combination reference, the motivation to combine is consistently found lacking. The prior art teaches behavior sensing and recommendation systems, but does not teach or suggest: (1) the psychological concept of intention-behavior gap as a quantifiable metric, (2) generating a quantified profile specifically of this gap, (3) varying the profile based on user acceptance/rejection feedback, or (4) applying genetic algorithms to optimize this specific metric. The combination_threshold=0.22 is low, meaning combinations should be easier to find obvious, but even with this low threshold, the lack of teaching or suggestion to quantify intention-behavior gap makes combination non-obvious. The Graham factors analysis shows that the differences from prior art are substantial and represent non-obvious insights into behavior change psychology. Secondary considerations indicate the invention addresses a long-felt but unsolved need (only 25-30% behavior change success rate). Confidence scores are high (0.7-0.9) for non-obviousness findings."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "No 112 issues were identified in the analysis. The specification adequately describes the invention including intention-behavior gap concept, quantified profiles, genetic algorithm application, and various implementations. The Office Action explicitly states 'The written description requirement under 35 U.S.C. § 112 is satisfied.'"
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "No 101 issues were identified. The Office Action states 'No rejection under 35 U.S.C. § 101 is made, as the claims are directed to a specific technological implementation of behavior change management using sensors, processors, and adaptive algorithms, which constitute significantly more than an abstract idea.' The claims recite specific technological implementations with sensors, processors, and algorithms, not mere abstract ideas."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Prior art US-2013216989-A1 discloses behavior sensing and personalized recommendations, but does not explicitly teach the 'intention-behavior gap' concept, quantified profiles thereof, or adaptive variation based on user responses. Only 2 out of 5 core elements of claim 1 are explicitly covered. The novelty analysis correctly identifies that the specific intention-behavior gap framework is not anticipated."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While the prior art teaches behavior sensing and recommendations, the specific intention-behavior gap framework represents a conceptual leap not suggested by the prior art. The obviousness analysis correctly identifies lack of teaching/suggestion for: (1) intention-behavior gap identification and quantification, (2) adaptive profile variation based on user responses, (3) genetic algorithm optimization (claims 8-13, 27-32), (4) temporal optimization (claims 4, 23), and (5) interactive questioning (claims 5-6, 24-25). With combination_threshold=0.33, some combinations might be easier to find obvious, but here no explicit motivation exists to combine behavior tracking with intention-behavior gap analysis. The claimed invention addresses a recognized problem (25-30% success rate) with a novel solution."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Prior art US-2013216989-A1 discloses behavior sensing and recommendation provision, but lacks critical elements: (1) intention-behavior gap concept, (2) quantified profile generation, (3) iterative feedback loop varying profile based on user acceptance/rejection. Coverage score 0.35 indicates substantial missing elements. No anticipation established."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While prior art teaches behavior sensing and recommendations, it does not teach or suggest: (1) quantifying intention-behavior gap as distinct metric, (2) iterative profile refinement based on user feedback, (3) genetic algorithm optimization. The combination requires non-obvious insight into psychological distinction between intention and behavior, plus technical implementation of adaptive profiling. No motivation to combine exists in prior art. Addresses long-felt need (25-30% behavior change success rate) with novel solution."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Specification provides adequate written description for intention-behavior gap concept, quantified profiling methodology, genetic algorithm implementation, and various sensor configurations. No written description issues identified."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "Claims recite technological solutions (sensor-based behavior monitoring, genetic algorithm optimization, adaptive profiling systems) integrated into practical applications (lifestyle management, behavior change). Not abstract ideas. No eligibility concerns."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "101"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "101_eligibility",
+          "strength": "moderate",
+          "reasoning": "The 101 rejection is well-articulated with proper Alice/Mayo two-step analysis and relevant case law citations. However, the strength is moderate rather than strong because: (1) the claims recite specific technical implementations (genetic algorithms with defined fitness functions, mutation operations, convergence criteria) that go beyond mere generic computer use, (2) the iterative profile refinement based on user feedback represents a concrete technical solution to a technical problem (improving automated coaching effectiveness), (3) the temporal optimization and context-aware action suggestions involve more than abstract data analysis. While the rejection identifies abstract idea elements (data collection, analysis, display), the claims' combination of behavioral sensing, quantified gap profiling, genetic algorithm optimization, and adaptive refinement may constitute significantly more than the abstract idea. The specification's reference to known research does not necessarily render the specific technical implementation abstract. Given my moderate strictness (0.42) and pragmatist interpretation style, this moderate-strength rejection warrants careful consideration of whether the technical details provide sufficient inventive concept."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2013216989-A1은 행동 감지, 프로필 구축, 추천 제공을 개시하지만, 'intention-behavior gap'의 정량화 및 사용자 수락/거부 기반 프로필 변경이라는 핵심 개념은 명시적으로 개시되지 않음. 선행기술의 'acceptability scoring'과 'personalized profiles'는 본원의 intention-behavior gap 정량화와 다른 개념임. 선행기술은 행동의 수용 가능성을 평가하지만, 의도와 행동 간 격차를 정량화하고 이를 기반으로 프로필을 반복적으로 변경하는 구체적 메커니즘은 개시하지 않음. 102 anticipation은 모든 요소가 단일 문헌에서 명시적으로 개시되어야 하는데, 핵심 요소가 inherent 또는 implicit으로만 존재한다는 주장은 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 14, 16, 18, 33, 35, 37의 스마트폰/전용기기/웨어러블 구현은 해당 분야에서 공지된 플랫폼 선택임. 선행기술이 센서 기반 행동 감지 및 추천 시스템을 개시하고, 이를 스마트폰 등에 구현하는 것은 예측 가능한 설계 선택임. KSR 기준에 따라 기존 요소의 예측 가능한 사용에 해당함. 그러나 base claims (1, 20)의 intention-behavior gap 개념이 신규하다면, 이에 의존하는 dependent claims도 비자명할 수 있음. 플랫폼 구현 자체는 자명하나, 신규한 방법을 자명한 플랫폼에 적용하는 것이 전체적으로 자명한지는 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The novelty analysis found claims 1, 14, 16, 18, and 20 as 'not novel' but with coverage scores of only 0.54-0.61 and confidence levels of 0.71-0.75. The reasoning acknowledges that the 'intention-behavior gap' concept is NOT explicitly disclosed in US-2013216989-A1. Most element matches are 'implicit' (similarity 0.55-0.7) rather than explicit. The prior art discusses 'behavior with acceptability level' but not 'intention-behavior gap' - these are conceptually different. Given strictness=0.60 (moderate) and the implicit nature of matches, these 102 rejections are weak."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The obviousness analysis concluded all claims are non-obvious with confidence levels of 0.75-0.90. The analysis correctly identifies that US-2013216989-A1 does not teach or suggest: (1) the intention-behavior gap concept as a distinct psychological metric, (2) quantified gap profiling, (3) adaptive profile variation based on user responses, (4) genetic algorithm optimization for gap profiles. The motivation to combine is absent - the prior art addresses different problems (behavior acceptability scoring vs. intention-behavior gap quantification). The specification cites behavioral psychology research (Sheeran 2002) showing this addresses a recognized problem (25-30% success rates) not solved by prior systems. Given combination_threshold=0.57 and lack of motivation to combine, 103 rejections would be weak."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No 112 issues were identified in the analysis. The specification provides detailed disclosure of the intention-behavior gap concept, quantified profile generation, adaptive mechanisms, and implementation platforms. All claims appear adequately supported by the written description."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No 101 issues were identified. The claims are directed to specific technical implementations (sensor-based behavior monitoring, genetic algorithm optimization, adaptive profiling) that go beyond abstract ideas. The claims integrate into practical applications for lifestyle management systems."
+        }
+      ]
+    }
+  ]
+}

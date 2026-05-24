@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 0,
+    "justification": "The §103 obviousness stage uses Graham factors but then concludes 'is_obvious: false' for every claim because they are anticipated—this conflation of §102 and §103 is confused, and the final decision's 'weighing' section further mislabels the rejection basis as '103_obviousness' when the office action is grounded in §102, showing statute-misapplication across stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions reference specific claim language and cite US-2015143081-A1 with element-by-element comparisons (e.g., 'Claim 1 of US-2015143081-A1 discloses a processor comprising front end units, processing elements, and a controller configured to activate a front end unit…')."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds all 25 claims anticipated with high confidence (0.93–0.99), yet the obviousness stage finds all claims 'not obvious' with reasoning that partially contradicts the anticipation findings by arguing features 'would not be obvious without prior art'—this effectively rehabilitates patentability after full anticipation without adequate reconciliation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient examiner (strictness=0.248) consistent with profile does not issue a final rejection but instead suggests amendments and a terminal disclaimer path, reflecting leniency toward grant-favorable outcomes even where all claims are anticipated."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision's weighing section incorrectly states the rejection is 'based on 103_obviousness' when the office action issued under §102, and the decision to suggest amendments rather than reject is not fully supported by the accumulated stage findings that uniformly found all claims anticipated with high confidence."
+  },
+  "total": 2,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2016008747",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12657,
+      "output_tokens": 436,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

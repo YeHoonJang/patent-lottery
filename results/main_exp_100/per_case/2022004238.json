@@ -1,0 +1,323 @@
+{
+  "case_id": "PILOT-2022004238",
+  "proceeding_number": "2022004238",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 공진주파수 조절, 부하 저항 변경, 무선 통신을 통한 충전 상태 피드백 등 출원발명의 핵심 기술적 요소를 명시적으로 개시하고 있으며, 통상의 기술자가 이를 결합하여 출원된 제어 회로 및 시스템을 쉽게 도출할 수 있음. 특히 의료 임플란트 응용, 주파수 조절 기반 에너지 제어, 변조 특성을 이용한 에너지 평가 등은 선행기술의 직접적인 확장 또는 공지 기술의 적용으로 간주됨. 결합 동기(motivation to combine)는 전력 전송 효율 최적화라는 명확한 공통 목적으로 충분히 입증됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 explicitly discloses a feedback-based control system using reverse coupling signal modulation to adjust resonance frequency for energy regulation in wireless power transfer. The reference teaches all key elements: evaluation device comparing transmitted energy with desired value, determination of energy via modulation property, frequency adjustment based on comparison, and application to medical implants. The dependent claims recite conventional power electronics (e.g., bridge circuits, transistors, amplifiers) and control strategies well within PHOSITA's knowledge. Motivation to combine is inherent in the reference’s goal of maintaining efficient power transfer under variable coupling. Confidence in obviousness is high (avg 0.91 across claims), and secondary considerations are absent. Given strictness=0.88, even moderate evidence would support rejection; here, evidence is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012212074-A1은 주파수 조절, 결합 제어, 의료 임플란트 응용 등을 개시하고 있으나, 평가 장치의 비교 기능이나 저항 제어 수단 등 일부 구성은 직접적 기재보다는 기능적 유사성에 기반함. combination_threshold=0.68 기준에는 부합하지만, strictness=0.25의 관대한 심사 기준에서 피드백 제어의 자명성 여부에 해석의 여지 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art discloses general concepts of resonant power transfer, coupling control via resistance, and use in medical implants. However, specific control logic and circuit implementations in the rejected claims are not fully disclosed. While some features are logical extensions, the combination does not clearly provide motivation for all claimed limitations, especially precise energy feedback control and dynamic resistance modulation. Given examiner's lenient tendency (strictness=0.29), these rejections are not strong enough to sustain."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 무선 전력 전송 시스템에서 피드백 통신, 주파수 조정, 부하 저항 변화, 결합 상태 조절, 역방향 결합 신호의 변조 및 복조 기능을 개시하고 있으며, 이러한 기능들은 본 발명의 핵심 구성인 폐루프 제어 기반 에너지 조절과 밀접하게 관련됨. 개별 요소들이 단일 실시예로 명시되지는 않았으나, 동일한 기술 분야의 통상적인 지식을 가진 자라면 이러한 기능들을 결합하여 청구항 38의 제어 회로를 도출할 수 있는 동기가 충분히 존재함. 특히 의료 임플란트에 대한 안정적이고 효율적인 전력 공급은 선행기술에서 명확히 강조된 과제이므로, 주파수 조정을 통한 에너지 제어는 자명한 해결 수단으로 간주될 수 있음. 따라서 103 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 명확히 제어 회로, 공진 주파수 조절, 결합 상태 변경, 역결합 신호를 통한 평가 기능을 개시함. 청구항 38-43, 52-56의 구성요소는 개시 또는 암시됨. 특히 의료 임플란트 수신기(청구항 39, 54), 부하 저항을 통한 결합 조절(청구항 43, 52), 역변조를 통한 에너지 평가(청구항 53, 56)는 직접적 개시. 신규성 결여 근거 강함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 52-54는 존재하지 않는 청구항 37에 의존함. 명확한 선행 기초 결여로 불명확성 발생. 청구항 55는 '청구항 38의 수신기'를 언급하나, 청구항 38은 수신기를 구조적 요소로 명시하지 않음. 명세서가 제공되었음에도 이러한 청구항 구조적 결함은 서면 설명 및 불명확성 문제로서 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "진보성 판단은 LLM 오류로 인해 비어 있음. 그러나 신규성 판단에서 암시된 기능(예: 주파수 조절 기반 에너지 제어)은 공지 기술 조합 시 자명할 수 있음. 다만, 결합 동기 및 Graham 요소 부족으로 인해 진보성 거절 근거는 현재 약함. 그러나 strictness=0.82에 따라, 신규성과 112 거절이 강하므로 진보성 판단은 보조적 역할."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 무선 전력 전송 시스템에서 주파수 조절, 부하 저항 변경, 역방향 신호를 통한 정보 수신 등 핵심 기술을 개시하고 있으며, 피드백 기반 제어는 해당 분야에서 통상적인 기술적 접근이다. 청구항 38, 40, 43, 52–56의 구성은 선행기술의 자연스러운 확장 또는 동일 기술적 효과를 위한 대안으로서 명확한 결합 동기가 존재하며, 통상의 기술자가 쉽게 도달할 수 있음. 특히 의료 임플란트 적용(청구항 39, 54)은 명시적으로 개시되어 있어 obvious 판단이 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1이 무선 전력 전송 시스템에서 역방향 변조를 통한 피드백 제어 및 공진 주파수 조정을 명시적으로 개시하고 있으며, 청구항의 모든 구성요소가 동일하거나 통상의 기술로 쉽게 도달 가능한 수준임. 결합 동기와 선행기술의 범위가 명확하여 진보성 결여 판단이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1은 주파수 조절, 결합 상태 조절, 통신 기능을 개시하고 있으며, 의료 임플란트 적용, 저항 조절, 역결합 신호 수신 등은 공지된 기술적 맥락 내에서 통상의 기술자가 쉽게 도달할 수 있는 범위로 판단됨. 그러나 일부 청구항(예: 44, 52)에 대한 obviousness는 구현 수단의 일반성에 기반하고 있어 해석의 여지가 있음. 심사관 성향(strictness=0.46)상, 증거가 충분하나 창의성 여부에 다소 유연한 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 자기 공진 무선 전력 전송 시스템에서 주파수 조절, 결합 상태 제어, 무선 통신을 통한 피드백 제어를 명시적으로 개시하고 있으며, 특히 의료 임플란트 적용, 부하 저항 변화를 통한 공진 주파수 조절 등 청구항 38, 39, 40, 43, 52-57의 핵심 구성요소를 포괄함. 평가 장치, 복조기, 에너지 비교 등의 기능은 피드백 제어 시스템의 일반적 구성 요소로서 암시되며, 통상의 기술자도 이를 용이하게 구현 가능하다고 판단됨. 결합 동기 없이 단일 문헌 내에서 모든 요소가 개시되어 있어 obviousness 판단의 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 주파수 조절을 통한 무선 전력 제어, 통신 데이터 기반 피드백, 부하 저항 조절, 의료 임플란트 응용 등을 명시적으로 개시하고 있으며, 청구항 38-44, 52-57의 구성은 이에 기반한 통상적인 제어 전략 및 시스템 구현으로, 결합 동기가 명확하고 기술적 차별성이 부족함. 진보성 판단의 confidence가 높고, 선행기술과의 기술적 거리가 좁음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 자기 공진 무선 전력 전송, 주파수 조정을 통한 전력 제어, 역결합 신호를 통한 통신, 부하 저항 조절 등을 명시적으로 개시하고 있으며, 청구항의 모든 구성요소가 동일하거나 통상의 기술자에 의해 명백하게 도출 가능한 변형임. 결합 동기(motivation to combine)는 시스템 효율성 및 안정성 향상이라는 공지된 설계 목표에서 자연스럽게 유도됨. Graham 요소들(기술 수준, 차이점, 2차적 고려사항) 모두 obviousness를 지지함. confidence 수치(0.58~0.85)도 전반적으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1의 청구항 6은 로드 저항의 변화를 통한 커플링 상태 변경을 명확히 개시하고 있으며, 이는 청구항 43 및 44의 전기 저항 변화를 통한 공진 주파수 조절과 직접적으로 대응함. 선행기술의 개시 범위가 명확하고, 기술적 기능이 실질적으로 동일하므로 신규성 결여 판단은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "커플링 변화에 대한 주파수 조절은 US-2012212074-A1에 개시된 주파수 변경 기능과 관련이 있으나, 청구항 40~42의 구체적 제어 로직(예: 에너지 부족/과다에 따른 주파수 조정)은 명시적으로 개시되지 않음. 그러나 무선 전력 전송 시스템에서의 공진 유지 및 효율 최적화는 공지된 설계 목표로, 당업자가 쉽게 도달할 수 있는 기술적 발전으로 판단됨. strictness=0.52인 점을 고려하면, 이 정도의 결합 동기는 obvious 판단을 유지하기에 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 주파수 조절을 통한 전력 제어, 무선 통신을 통한 상태 피드백, 부하 변화에 대한 보상, 의료 이식물 응용 등을 명확히 개시하고 있으며, 통상의 기술자가 이러한 기능들을 결합하여 청구항 38, 39, 40, 41, 42, 43, 52, 53, 54, 55, 56의 기능을 도출할 수 있는 동기가 명확함. 특히 주파수 변경을 통한 에너지 조절과 역결합 신호 분석은 동일한 기술적 맥락에서 동작하므로 결합 동기의 존재가 명확함."
+        }
+      ]
+    }
+  ]
+}

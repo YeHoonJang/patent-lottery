@@ -1,0 +1,306 @@
+{
+  "case_id": "ABL-2019004278",
+  "proceeding_number": "2019004278",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.35714285714285715,
+  "amend_rate": 0.14285714285714285,
+  "reject_rate": 0.5,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The claims extensively use functional language (e.g., 'module', 'engine') without corresponding structural support in the specification. The specification fails to disclose specific algorithms, hardware configurations, or software architectures required to perform the claimed functions, particularly for modules like 'delivery module' and 'selection engine'. This constitutes a clear failure to meet the written description requirement under § 112(a). The lack of algorithmic detail for identifying 'relevant circumstances' or applying rules based on frequency counts further undermines enablement."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013203433-A1이 사용자 행동 기반 네트워크 자원 할당을 개시하고 있으며, 청구항 1, 3, 4, 5, 11, 12, 15의 핵심 구성요소인 행동 기반 분석, 빈도 기반 선택, 시간/앱 유형 기반 상황 인식이 동일한 기술적 원리로 적용 가능함. 결합 동기 명확하고, 통상의 기술자 수준에서 예측 가능함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2의 전달 취소 기능은 선행기술의 자원 해제 동작과 유사하나, 메시지 전달 경로 변경과의 직접적 연결은 명시되지 않음. 그러나 시스템 효율성 측면에서 자명한 설계 선택으로 간주 가능하므로, 엄격한 심사 기준하에 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 9의 존재 데이터 정의는 선행기술이 네트워크 및 앱 접근을 추적하므로, 이를 'presence data'로 해석하는 것은 넓은 청구항 해석(BRI) 하에 자명함. 그러나 용어의 직접적 일치는 없어 해석의 여지 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2013203433-A1은 네트워크 자원 할당에 초점을 맞추고 있으며, 메시지를 특정 통신 애플리케이션 간에 재전송하거나 사용자 행동 기반으로 선호 애플리케이션을 결정하는 기능은 개시하지 않음. 결합 동기(motivation to combine)가 명확하지 않으며, 기술적 목적과 적용 분야가 상이함. 해당 참조문헌을 수정하여 본 발명의 메시지 라우팅 기능을 구현할 명백한 동기가 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013203433-A1은 네트워크 자원 할당에 초점을 두고 있으며, 메시지 전달 경로를 사용자 행동 기반으로 동적으로 변경하는 기술적 사상은 포함하지 않음. 결합 동기 부족하며, 기술적 목적과 해결하려는 문제가 근본적으로 다름. motivation_to_combine가 명확하지 않아 obviousness 판단 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013203433-A1은 사용자 행동 기반의 네트워크 자원 할당을 개시하며, 메시지 전달 경로 최적화는 그의 예측 가능한 확장으로 간주됨. 메시지 전달은 자원 사용의 일종이며, 과거 행동에 기반한 라우팅은 공지된 분석 기법의 적용에 불과함. 결합 동기(motivation to combine)는 사용자 경험 향상 및 네트워크 효율성 증대라는 명확한 목적에서 도출됨. 청구항 1, 3, 5, 11, 12, 15는 모두 기능적 구성요소와 일반적인 통계적 필터링으로 이루어져 있어, 기술적 돌파구 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 7, 8, 13, 14는 위치, 캘린더, 이동 유형 등 컨텍스트 데이터를 사용함. 선행기술에 직접 개시되진 않았으나, 모바일 기기에서의 GPS, 센서, 캘린더 접근은 공지된 기술. 그러나 이러한 데이터를 '통신 애플리케이션 선호도 결정'에 적용하는 것은 단순한 통합 이상의 기술적 통합을 요구할 수 있음. 다만, 심사관의 strictness=0.89에 따라, 공지된 컨텍스트 정보와의 결합 동기는 충분히 인정 가능하다고 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013203433-A1은 사용자 행동 기반 콘텐츠 전달 최적화를 명시적으로 개시하며, 청구항 1의 핵심 구성요소인 메시지 재전달, 선호 앱 식별, 과거 행동 분석 등을 포괄함. 선행기술과의 기술적 중첩이 높고, 동기 결합이 명확하여 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4~9는 특정 앱 유형, 시간, 위치, 센서 데이터 등을 추가로 정의하지만, 이들 요소는 모바일 컴퓨팅 분야에서 공지된 정보임. 그러나 이러한 구체적 요소들이 메시지 전달 최적화와 직접적으로 결합된 사례는 명확하지 않아 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 13, 14의 캘린더 기반 회의 및 여행 상황은 특이한 맥락이지만, 위치 및 활동 감지 기술은 공지됨. 그러나 이러한 정보가 통신 앱 선호도 결정에 직접 사용된다는 명확한 동기 부족. 그러나 맥락 인식 시스템의 발전 방향상 예측 가능한 확장으로 간주될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.82,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art US-2013203433-A1 discloses user behavior tracking for network resource optimization but does not teach message redirection between communication applications based on such behavior. The combination references are limited to a single prior art document, and there is no clear motivation to modify it to achieve application-level message routing. The claimed invention operates at a different technological layer (application vs. network) with a distinct purpose (user-centric delivery vs. resource conservation). The confidence scores for non-obviousness range from 0.75 to 0.85, indicating a moderate to high level of uncertainty in favor of non-obviousness. Given the lack of teaching, suggestion, or motivation to combine, the obviousness rejection is weak."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 4의 구성요소는 텍스트 메시징, 전화, 소셜 네트워킹 앱과 같은 일반적인 통신 애플리케이션을 열거하고 있으며, 이는 모바일 기기에서 널리 사용되는 공지된 애플리케이션들이다. US-2013203433-A1은 사용자 행동을 기반으로 자원을 할당하는 시스템을 개시하고 있으며, 통신 앱 사용에 대한 일반적인 맥락은 포함되어 있다. 그러나 본 발명의 핵심은 특정 애플리케이션 유형을 선택하는 데 있는 것이 아니라, 사용자 행동 및 맥락에 기반한 메시지 전달 경로의 동적 재지정에 있다. Claim 4는 독립청구항이 아니며, 독립청구항 1의 선택 로직에 적용되는 구체적인 앱 유형을 나열할 뿐이다. 이러한 열거는 기술적으로 새로운 기능을 추가하지 않지만, 그것이 명백하다는 판단은 다소 주관적일 수 있다. 선행기술이 직접적으로 이러한 앱들을 '선호 애플리케이션으로서 메시지 재전달'하는 맥락에서 사용하는 것은 아니므로, 결합 동기의 명확성은 보통 수준이다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013203433-A1은 사용자 행동 프로파일링 및 통계적 분석을 통한 자원 할당 최적화를 명시적으로 개시하고 있으며, 메시지 전달을 특정 통신 애플리케이션으로 라우팅하는 것은 이 기술의 예측 가능한 적용이다. 청구항 1, 3, 11, 12, 15는 선행기술과 기능적으로 동등하며, obviousness 판단에 충분한 근거가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4와 5는 일반적인 지식을 기반으로 판단됨. 텍스트 메시징, 전화, 소셜 네트워킹 앱은 휴대기기에서 흔히 사용되므로 obvious로 간주할 수 있으나, 특정 애플리케이션 유형에 대한 명시적 조합 동기는 약간의 해석이 필요함. 그러나 PHOSITA 수준에서 자명하다고 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 9는 선행기술에서 네트워크 및 애플리케이션 접근을 모니터링하는 것을 '존재 데이터'로 재해석한 것으로, 기능적으로 동일하므로 obvious로 간주됨. 그러나 용어 재정의에 기반한 판단이므로 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013203433-A1은 사용자 행동 기반 자원 할당 시스템을 개시하며, 메시지 전달 경로 선택에 대한 핵심 개념인 사용자 프로파일링 및 애플리케이션 사용 빈도 분석을 포함한다. 청구항 1, 3, 11, 12, 15는 이 선행기술의 자연스러운 연장선상에 있으며, 통상의 기술자가 자명하게 도달할 수 있는 수준. 동기 부여(motivation to combine)가 명확하고, 차이점이 비기술적 아님."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 4~9는 특정 상황(시간, 위치, 존재 데이터 등)을 기반으로 애플리케이션을 선택하는 요소를 포함. 선행기술은 시간 기반 세션과 네트워크 상태를 인식하지만, 위치 및 모션 데이터는 암시적. 이러한 데이터의 사용은 모바일 분야에서 공지되었으나, 메시지 전달 시스템에의 통합은 설계 선택의 범위 내이나, 완전한 명시적 개시는 아님. strictness=0.50 기준, 해석의 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 2의 전달 취소 기능은 선행기술에서 명시적으로 개시되지 않으나, 자원 할당 조절(대역폭 감소, 연결 해제)은 동일한 맥락에서 해석 가능. 통신 세션 관리의 일반적 실무로 볼 수 있으나, 메시지 전달 취소라는 특정 동작에 대한 직접적 연결은 다소 추론 필요. confidence=0.7이나, 명확한 동기 부여는 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술(US-2013203433-A1)은 사용자 행동 기반 네트워크 자원 할당에 초점. 메시지 전달 경로 전환, 특히 최초 애플리케이션이 아닌 사용자 선호 애플리케이션을 통해 재전달하는 기능은 개시하지 않음. 결합 동기 부족으로 obvious 판단의 근거가 약함. 진보성 판단에서 모든 청구항에 대해 is_obvious=false로 평가되었으며, confidence 수준도 0.7 이상으로, 통상의 기술자에게 자명하지 않다는 판단이 지배적임."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 4's limitation specifying preferred applications (text messaging, phone, social networking) is considered an obvious selection of well-known communication platforms. While these application types are common and known in the art, the integration of behavior-based selection for message redirection across platforms is part of a broader non-obvious system. The prior art (US-2013203433-A1) supports behavior tracking for resource allocation but does not directly teach or suggest application-level message redirection. Thus, while selecting among common apps might seem routine, doing so within the context of dynamic, context-aware message routing adds nuance. Given the examiner’s moderate strictness (0.42), this does not rise to a strong obviousness conclusion, especially without evidence of routine optimization or design choice in this specific technical context."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 4의 한정은 텍스트 메시징, 전화, 소셜 네트워킹 앱과 같은 널리 알려진 통신 애플리케이션에 국한되며, 선행기술 US-2013203433-A1은 사용자 행동에 기반한 모바일 애플리케이션 사용을 이미 추적하고 있음. 통상의 기술자는 이러한 공지된 애플리케이션에 행동 프로파일링을 적용하는 것이 자명하다고 판단할 수 있으며, 결합 동기가 존재함. 따라서 이 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013203433-A1은 사용자 행동 기반 리소스 할당을 통해 전달 최적화하는 핵심 메커니즘을 개시하며, 메시지 전달 경로 선택은 이의 자연스러운 연장선상에 있다. 선행기술의 목적과 기술적 접근이 유사하고, 통상의 기술자에게는 애플리케이션 수준 전달 전략으로의 확장이 예측 가능하다. combination_threshold=0.57 기준을 충족하며, motivation to combine이 명확함."
+        }
+      ]
+    }
+  ]
+}

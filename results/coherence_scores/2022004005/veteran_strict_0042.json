@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §103 Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for obviousness rejections and uses element-by-element anticipation analysis for §102 novelty findings, with appropriate statutory frameworks invoked throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim elements (NRF discovery requests/responses, N3/N6 interfaces, A-SMF/I-SMF roles), specific prior art disclosures (US-2019182875-A1 figures, claims, and descriptions), and specific claim numbers, providing adequate evidence linkage."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claims 3, 9, and 15 were found novel and non-obvious in the §102/§103 stages, but the office action then rejects them under §102 using a 'functional descriptive material' rationale that was never analyzed in the novelty or obviousness stages, and the final decision rejects them under §103 obviousness without reconciling this shift across stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.793 and combination_threshold of 0.335, the examiner consistently resolves ambiguity toward rejection and accepts relatively weak motivation-to-combine arguments (e.g., 'natural extension,' 'same principle applied to control plane'), which is consistent with a strict, easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the accumulated stage analyses, which found the vast majority of claims obvious over US-2019182875-A1 and treated the domain-type limitations as non-functional, with no unexplained reversal of direction."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022004005",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16142,
+      "output_tokens": 423,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

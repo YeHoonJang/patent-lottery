@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis for novelty, Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness, and 35 U.S.C. §112(b) indefiniteness/written description frameworks for the office action and final decision—each stage uses the appropriate legal test."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language (e.g., 'offset position,' 'blade-to-blade centerline,' 'approximately 60%/40%'), specific prior art disclosures from US-2013195665-A1 (e.g., 'stiff slug of metal,' symmetric contact), and specific specification paragraph references (¶0005, ¶0009, ¶0011, ¶0013, ¶0016, ¶0022, ¶0034, ¶0036)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The stages are consistent: novelty finds all claims novel over US-2013195665-A1, obviousness independently confirms non-obviousness using Graham factors, and the office action/final decision then raise §112 indefiniteness issues (not previously addressed) without contradicting the novelty/obviousness findings, instead building on them logically."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.547 (moderate) and combination_threshold=0.553 (moderate), and the trace reflects this balance—finding all claims novel and non-obvious (not overly strict) while still raising multiple §112 rejections on genuine indefiniteness grounds and suggesting amendment rather than outright final rejection, consistent with a pragmatist mid-strictness examiner."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision (amend_suggested, all claims rejected on §112 grounds) follows directly from the accumulated stage analyses: novelty and obviousness stages cleared the prior art hurdle, and the office action stage identified specific §112(b) indefiniteness issues that are carried through consistently to per-claim rejection decisions in the final decision with stated rationale."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018001311",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13485,
+      "output_tokens": 526,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

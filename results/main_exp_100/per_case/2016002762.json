@@ -1,0 +1,273 @@
+{
+  "case_id": "PILOT-2016002762",
+  "proceeding_number": "2016002762",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.5,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.21,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 '069는 필터 최적화 과정에서 컴포넌트 값을 조정하여 비이상성을 보상하는 기술을 개시하고 있으며, 이는 구성요소의 기여도 평가를 포함한다고 합리적으로 해석될 수 있음. 청구항 1의 '무의미한 요소 식별 및 제거'는 이러한 최적화 프로세스의 자연스럽고 예측 가능한 확장으로, PHOSITA가 공통 지식으로 수행할 수 있는 설계 단순화 기법임. KSR 기준하에 결합 동기가 명확하며, 마이크로파 필터 설계 분야에서 소형화, 비용 절감, 불필요한 패러지틱 감소는 명확한 동기 부여 요소임. 제조 단계는 자명한 후속 활동으로서 특허성에 기여하지 않음. 따라서 103 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014137069-A1은 필터 최적화 과정에서 비이상성 보상을 통한 구성요소 조정을 개시하고 있으며, 구성요소의 영향도 평가가 내재된 과정임. 이에 더해, 필터 설계 분야에서 무시 가능한 요소 제거는 반복적 최적화의 일환으로 일반적 관행. 결합 동기(motivation to combine)는 제조 용이성, 비용 절감, 성능 유지라는 공지된 설계 목표에서 명확히 도출됨. PHOSITA 수준에서 해당 차이점이 자명한 확장임을 인정할 수 있으며, 신규성은 인정되나 진보성 부족은 명백함. 따라서 103 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2014137069-A1) teaches optimization through parameter adjustment and compensation for non-idealities, but does not suggest removing an insignificant circuit element. The difference in design philosophy—elimination vs. tuning—is significant. There is no clear motivation to combine or modify the prior art to arrive at element removal, and such a step would not be trivial for a PHOSITA due to potential performance risks. Given the low combination_threshold (0.68), the lack of explicit teaching or motivation makes this an unlikely obviousness case. The confidence in obviousness is low (0.7), and under a lenient standard (strictness=0.25), this weakens the rejection further."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art reference US-2014137069-A1 does not teach or suggest the step of determining and removing an insignificant circuit element. The reference focuses on parameter adjustment for non-idealities, not structural simplification through element removal. The combination of references does not provide a clear motivation to combine with a pruning-based design strategy, especially in the sensitive context of microwave filters. Given the low combination_threshold sensitivity and the lack of explicit guidance in the prior art, the obviousness challenge is weak, particularly under a purposivist interpretation that values technical innovation in design methodology."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014137069-A1은 필터 최적화 및 비이상성 보상 과정을 통해 소자 값을 조정하는 방법을 개시하고 있으며, 이는 소자의 중요도 평가 및 불필요한 소자 제거로 자연스럽게 확장될 수 있다. 통상의 기술자에게 설계 간소화, 제조 비용 절감, 성능 안정성 향상을 위한 소자 제거는 자명한 설계 선택으로 간주되며, 결합 동기(motivation to combine)가 명확하다. combination_threshold=0.45 기준에 비추어도 충분히 낮은 수준으로, obviousness 판단의 강도가 높다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014137069-A1은 필터 설계 최적화를 위한 매개변수 조정 기술을 개시하지만, '비중요 소자 식별 및 제거'를 명시적으로 기재하지 않는다. 그러나 필터 설계 분야에서 불필요한 소자 제거는 공지된 설계 간소화 기술로 간주될 수 있으며, 이는 제조 비용 절감 및 성능 유지라는 공통 목적과 일치한다. 결합 동기(motivation to combine)는 일반 기술 수준에서 도출 가능하나, 'insignificant element'의 정량적 판단 기준이나 자동화된 식별 과정에 대한 구체적 기술 부재로 인해 완전한 자명성 입증에는 다소 부족함이 있다. 그러나 본 출원의 차이점이 기술적 진보라기보다는 일반 공학적 판단의 범위 내에 있다는 점에서, 자명성 근거는 중간 정도의 강도를 가진다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the prior art (US-2014137069-A1) does not explicitly disclose determining and removing an insignificant circuit element during filter optimization, the concept of simplifying circuit designs by eliminating redundant components could be viewed as an optimization technique within the skill level of a PHOSITA. However, the prior art focuses on compensating for non-idealities rather than topological simplification, and there is no explicit motivation to remove elements based on insignificance. Given the specialized nature of microwave filters—where each element affects resonance and coupling—the absence of teaching on element removal supports a finding of non-obviousness. The strength of the obviousness challenge is therefore moderate, but not strong enough to overcome the lack of motivation to combine under 103."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2014137069-A1) discloses parameter adjustment for compensation of non-idealities but does not explicitly teach or suggest removing an insignificant circuit element. While structural simplification through element removal is a meaningful distinction, the step of identifying and removing an 'insignificant' element could be viewed as an optimization technique within the skill level of a PHOSITA, especially when seeking to reduce component count. However, the lack of explicit teaching or motivation to remove rather than adjust elements reduces the strength of an obviousness rejection. Given the technical benefits and absence of clear guidance in the prior art, the obviousness argument is not strong but remains a moderate possibility under a broader interpretation of optimization practices."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2014137069-A1) teaches optimization of filter designs by adjusting component values but does not explicitly disclose removing an insignificant circuit element. While the difference in technological context (analog vs. microwave filters) and the qualitative step of element removal suggest non-obviousness, the concept of simplifying a circuit by eliminating insignificant components could be viewed as a design optimization practice known in the art. However, no explicit teaching or motivation to combine is found in the provided references, leading to moderate confidence in non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art US-2014137069-A1 discloses filter optimization with parameter adjustments for non-idealities but does not explicitly teach removing an insignificant circuit element. While the step of element removal is a qualitative difference, the distinction lies in design methodology rather than a technical barrier. A PHOSITA might reasonably consider simplifying a circuit by removing negligible components as part of routine optimization, especially in microwave filter design where minimizing complexity is a known objective. However, the prior art does not clearly suggest this specific step, and the motivation to combine is not strong. Given the moderate confidence in non-obviousness and the examiner's neutral strictness level, the obviousness rejection is not sufficiently supported."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술인 US-2014137069-A1은 아날로그 필터 최적화 및 비이상성 보상을 개시하고 있으나, '비의미 회로 요소 식별 및 제거'라는 구조 간소화 단계는 명시적으로 개시하지 않음. 이는 단순한 파라미터 조정을 넘는 추가적 판단 단계로 평가되며, 결합 동기 부재로 인해 obviousness 판단이 어렵다고 볼 수 있음. 그러나 동일한 필터 최적화 분야에서의 설계 간소화는 통상의 기술자에게는 어느 정도 예측 가능한 접근일 수 있어, 강한 obviousness 주장에는 다소 약함. combination_threshold=0.44 기준으로도 동기 부족으로 인해 obviousness 근거는 moderate 수준으로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'insignificant' lacks a clear, consistent definition in the specification. While a 10% threshold is mentioned, it is not established as a required criterion, leaving the scope of 'insignificance' ambiguous across different filter types and design contexts. Additionally, the 'computerized filter optimizer' is referenced by name and example (e.g., Agilent ADS) but without disclosure of specific algorithms, decision logic, or structural implementation for identifying and removing elements. This absence of technical detail fails to satisfy the written description and enablement requirements under 35 U.S.C. 112(a). The indefiniteness under 112(b) further compounds the issue, as a PHOSITA would not be able to reliably determine the metes and bounds of the claim. Given the high importance of clarity and disclosure in method claims involving automated optimization, this constitutes a strong 112 rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action raises a written description issue regarding the term 'insignificant' and the scope of 'computerized filter optimizer.' While the specification provides a threshold (e.g., <10% contribution), it does not fully clarify how this is applied across different elements or conditions. However, the disclosure of a quantitative threshold and examples of tools (e.g., Agilent ADS) provides some support. Given the moderate strictness level (0.52), this issue is not strong enough to warrant a full rejection without giving applicant an opportunity to clarify or amend."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'insignificant' is not defined in the specification, and no objective criteria, algorithm, or technical metric is disclosed for determining when a circuit element qualifies as insignificant. The lack of a discernible methodology or threshold undermines the written description requirement, as a PHOSITA would not recognize that the inventor had possession of the full scope of the claimed method. This is consistent with Ariad and established case law requiring adequate disclosure of functional claim limitations."
+        }
+      ]
+    }
+  ]
+}

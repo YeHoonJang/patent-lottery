@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes §102 anticipation with element-by-element comparisons, §103 obviousness with Graham factors (scope/content, differences, PHOSITA level, secondary considerations), and §112 written description with enablement analysis, each applied to the appropriate claims under the correct statutory framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout consistently reference specific claim language (e.g., 'indicator indicating whether a connection for non-IP data is used'), specific prior art disclosures (US-2018324652-A1 Claim 6, TAU message procedures, IWK-SCEF interactions), and specification passages regarding missing definitions of 'accounting information' and 'rate of data allowed'."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claims 7 and 14 were found novel and non-obvious in §102/§103 stages (no anticipating refs, no combination motivation), yet the office action and final decision reject them under §103 as 'obvious improvements' citing routine optimization — contradicting the earlier finding of non-obviousness without adequate additional rationale bridging the two positions, and the §103 office action reasoning is internally self-contradictory ('novel, they are rejected under 103')."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.603 (moderate), the examiner maintains rejections broadly but acknowledges moderate confidence on close calls (e.g., claims 15, 16 at confidence 0.65/0.60) and allows claims 7, 14, 19, 24 to pass §102 while applying §103 and §112 rejections — consistent with a moderately strict examiner resolving ambiguity toward rejection without being absolute."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage analyses: §102 rejections for the majority of claims, §103 for claims 7/14/19/24, and §112 for claims 7/8/14/19/24, with the summary explicitly tying the decision to strictness=0.60 and the stage-level findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004939",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15477,
+      "output_tokens": 514,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

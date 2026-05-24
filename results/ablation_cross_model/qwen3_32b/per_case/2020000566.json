@@ -1,0 +1,295 @@
+{
+  "case_id": "2020000566",
+  "proceeding_number": "2020000566",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.35714285714285715,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1이 청구항 1의 구성요소들을 암시적으로 포함하고 있으며, 통상의 기술자가 선행기술의 가르침에 따라 청구항을 도출할 수 있다는 점에서 결합 동기가 명확함"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2015142940-A1) is cited for obviousness, but many claims rely on implicit disclosures with confidence scores as low as 0.45. While the prior art covers data aggregation and monitoring, the specific claim features (e.g., 'special metric', 'distributed-application-representing aggregation entity') require interpretation. Given strictness=0.25, the evidence is not strong enough to sustain all rejections."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The 112 rejections target ambiguous terms like 'population metric data' and 'special metric'. However, the specification likely provides context for implementation (e.g., time-ordered data points, aggregation entities). With strictness=0.25, these rejections are weak unless the specification entirely lacks support, which is not explicitly stated."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015142940-A1이 청구항의 요소들을 암시적으로 개시하고 있으나, 암시적 개시의 명확성은 청구항별로 0.4에서 0.65 사이로 다양하며, 일부 청구항(예: 9, 10, 16, 17, 20)의 confidence는 낮은 편이다. 따라서 근거의 강도는 중간 수준으로 평가된다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.83,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항이 자명하지 않다고 판단되었으며, 결합 동기를 제시할 수 없다는 분석이 이루어졌습니다. 선행기술은 가상화 정보 수집에 중점을 두고 있지만, 청구항의 구체적인 구조(시간순서로 정렬된 수치 데이터 포인트, 객체 엔티티 표현, 집계 엔티티 구조 등)는 명시하지 않습니다. 따라서 이는 선행기술과의 차별성을 나타내며, 자명하지 않다고 판단됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1이 청구항의 주요 요소를 암시적으로 개시하고 있으며, strictness=0.82 기준에 따라 암시적 개시도 충분히 거절 근거로 인정됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'object entities', 'aggregation entities' 등 핵심 용어에 대한 구체적인 정의와 구현 세부사항이 명확히 누락되어 있어, 112(a) 위반으로 거절 근거가 명백합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The reference US-2015142940-A1 explicitly discloses all the claimed features including collecting, storing, and analyzing virtualization-related information with object and aggregation entities. The similarity scores for most claims range from 0.64 to 0.82, indicating a high degree of correspondence between the reference and the claims. The verification status is PASS, confirming that the reference anticipates the claims."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "No obviousness rejections were identified in the analysis. Since the focus is on novelty rejection under 102, the obviousness analysis is not applicable here."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No written description issues were identified in the analysis. The Office Action states that the claims comply with 35 U.S.C. §112(a) and (b)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 가상화 관련 정보 분석을 개시하지만, 청구항의 구체적인 구조와 기능(메트릭 엔티티, 집계 엔티티, 인구 메트릭)을 명시적으로 개시하지 않는다. 당업자가 선행기술을 기반으로 청구항의 구체적인 구현을 도출하기 어렵다. confidence 수치(0.65)는 중간 수준으로, 명확한 증거는 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the reference US-2015142940-A1 implicitly disclosing the claimed elements. While the reference is provided, the confidence levels for many claims are below 0.7, suggesting some ambiguity in whether the reference fully anticipates all claim elements. Given the strictness of 0.50, a moderate strength is assigned as the evidence is present but not entirely conclusive."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The provided analysis for 103 obviousness indicates that the claims are not obvious because the prior art does not disclose the specific features claimed. The motivation to combine references is not present, and the differences between the claims and the prior art are significant. Given the strictness of 0.52, the weak strength of the obviousness argument does not meet the threshold for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 대부분의 청구항에 대해 is_obvious가 false로 판단되었으며, 결합 동기가 명확하지 않다고 명시됨. confidence 수치도 0.5~0.65로 약한 편임."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art does not provide a clear motivation to combine for the specific features in the claims. The confidence in non-obviousness (0.7) is above the combination threshold (0.48), but the reasoning for each claim indicates no explicit prior art disclosure or combination rationale. The strictness parameter (0.52) suggests a slight preference for rejection, but the weak basis for 103 does not meet the threshold for a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1이 청구항의 모든 핵심 개념을 개시하고 있으며, 청구항과의 차이가 선행기술의 개시 범위 내에 포함됩니다. 결합 동기 기준(0.57)에 따라 obviousness 판단이 타당하며, 증거가 충분히 명확합니다."
+        }
+      ]
+    }
+  ]
+}

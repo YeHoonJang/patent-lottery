@@ -1,0 +1,235 @@
+{
+  "case_id": "ABL-2015003894",
+  "proceeding_number": "2015003894",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "102",
+    "112"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.6428571428571429,
+  "amend_rate": 0.21428571428571427,
+  "reject_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 접근 제어에 초점을 두며, 개인화된 웹사이트 테마를 통한 피싱 방지 기법을 개시하지 않는다. 그러나 클라이언트 측 개인화, 쿠키 기반 상태 유지, 코드 집합을 통한 테마 전달 등 개별 구성요소는 공지된 기술이다. 이러한 기술적 수단들이 '인증 전 개인화된 테마 표시'라는 보안 목적을 위해 결합된 점에서, 통상의 기술자가 명백하게 결합할 동기가 명시적으로 존재하지는 않으나, 전체적인 기술 맥락에서 사용자 인증 보안 향상 목적은 널리 알려진 과제이다. 따라서 진보성 판단은 'moderate' 수준으로, 엄격한 심사 기준에서 결합 동기의 부재를 강조할 경우 거절 가능성이 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection under §103 is based on a predictable combination of US-2012216297-A1's secure client-server data transmission framework with well-known website personalization techniques (e.g., cookie-based theme storage, user-selectable themes, client/server rendering of visual elements). The motivation to combine—to improve phishing resistance by enabling visual verification of legitimate sites prior to login—is a recognized objective in web security. All claim elements (code, cookies, foreground/background imagery, client/server storage) are standard in web development and represent routine implementation choices. No secondary considerations rebut the prima facie case of obviousness. Given the high level of ordinary skill in web systems (PHOSITA), the combination yields no unexpected result. This constitutes a strong obviousness rejection under KSR rationale."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Prior art (US-2012216297-A1) is in a different field (medical data management) and does not teach or suggest using a personalized website theme before authentication for phishing prevention. The combination of visual personalization with pre-login display is not implied, and there is no motivation to combine references to arrive at the claimed invention. The technical purpose and problem domain are distinct, making the obviousness argument weak. Given the low combination_threshold (0.68), even common sense or design choice would not lead a PHOSITA to make this modification without explicit teaching."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템에 관한 것으로, 웹사이트 테마의 개인화 또는 인증 전 개인화된 테마 표시 기능과 기술적 목적 및 구조가 근본적으로 다름. 결합 동기 부재. 통상의 기술자가 해당 기술을 결합하여 피싱 방지 수단으로 삼을 합리적 동기 없음. 진보성 판단의 confidence는 전반적으로 0.7 이상이나, 기술적 통합의 비자명성과 목적의 상이성으로 인해 강한 obvious 거절 근거로 보기 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으며, 선행기술과의 기술적 목적, 구성, 효과에서의 차이점이 명확히 지적되었고, 결합 동기 부재 및 2차적 고려사항(피싱 방지, 사용자 경험 향상)이 강조됨. combination_threshold=0.45 기준에도 불구하고, 해당 발명이 인증 이전 단계에서 개인화된 테마를 표시함으로써 보안과 사용자 경험을 동시에 해결하려는 기술적 사상은 공지된 기술의 단순 조합으로 보기 어려움. 선행기술인 US-2012216297-A1은 의료 데이터 관리에 특화되어 있어, 웹사이트 테마 개인화 기술과는 기술적 장벽이 존재함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템에 초점을 두고 있으며, 웹사이트 테마의 개인화 또는 피싱 방지를 위한 시각적 인증 수단으로서의 개인화된 테마 적용을 개시하지 않는다. 그러나 쿠키, 코드 세트, 전경/배경 이미지 등의 구성요소는 웹 기술 분야에서 공지된 수단이며, 통상의 기술자가 사용자 인증 보안을 강화하기 위해 이러한 공지 기술을 결합하여 인증 이전 단계에서 개인화된 테마를 표시하는 방식을 시도할 가능성은 존재함. 결합 동기(motivation to combine)는 보안성 향상이라는 일반적 과제에서 도출될 수 있으나, 명시적이고 강력한 동기가 선행기술에 존재하지는 않음. 따라서 진보성 판단에서 '비자명'으로 평가된 점은 타당하나, 근거의 강도는 보통 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 31은 시스템 청구항인 청구항 27에 종속되며, 동시에 'the set of data is stored at the webserver'라는 시스템 구성을 기술하고 있다. 그러나 청구항 31 자체는 방법 청구항으로서의 형식을 취하고 있어, 청구항 간의 종속 관계와 기술적 일관성이 결여되어 있다. 명세서는 데이터 저장 위치에 대한 기술을 포함하고 있으나, 방법 청구항이 시스템 청구항에 종속되는 구조 자체에 대한 서술은 없으므로 서면 설명 요건을 충족하지 못한다. 이는 명확한 112(a) 위반이며, 강한 거절 근거로 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제출된 진보성 판단에 따르면, 선행기술 US-2012216297-A1은 의료 데이터 관리 시스템에 관한 것으로, 웹사이트 테마의 개인화 또는 인증 전 보안적 시각 표시 기능과 무관하다. 결합 동기(motivation to combine)가 명확히 제시되지 않았으며, 보안 목적의 개인화된 테마 표시는 통상의 기술자가 쉽게 도달할 수 없는 비자명한 구성으로 평가됨. 그러나 해당 기술적 구성이 '코드', '쿠키', '이미지 대체' 등 일반적인 수단을 새로운 맥락에 적용한 것에 불과할 수 있다는 해석의 여지도 존재하나, 전체 시스템의 기술적 효과(피싱 방지)와 통합된 구조를 고려할 때 obviousness를 주장하기 위한 강한 증거는 부족함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art (US-2012216297-A1) is in a different field (medical data management) and does not disclose or suggest the use of personalized website themes as a security indicator before authentication. While general concepts like cookies, theming, and authentication are known, the specific combination and purpose—using a user-personalized visual theme displayed prior to login as a phishing deterrent—are not taught or suggested in the prior art. The motivation to combine is lacking, and the invention addresses a recognized problem (phishing) in a novel way. The confidence in non-obviousness is moderate to high across claims, with the lowest being 0.68 for claim 21, but still above the threshold for a weak reference. Given the lack of a clear prior art teaching or suggestion, the 103 rejection basis is weak."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 31의 청구항 범주 불일치는 명확한 112(b) 문제로, 시스템 청구항에 의존하는 방법 청구항은 법적 범주에서 모순되며, 청구항 범위의 명확성을 해친다. 이는 명백한 결함으로, 근거가 강력하다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.91,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제시된 선행기술 US-2012216297-A1은 의료 데이터 관리 시스템에 특화되어 있으며, 개인화된 웹사이트 테마를 인증 정보 요청 이전에 표시한다는 기술적 구성이나 동기를 개시하지 않는다. 청구항들이 인증 전 테마 표시를 통한 피싱 방지 및 사용자 인식 향상이라는 새로운 기술적 목적을 포함하고 있어, 통상의 기술자가 선행기술로부터 용이하게 도달했다고 보기 어렵다. 진보성 판단에서 제시된 결합 동기 부재 및 차별점에 대한 설명이 일관되며, confidence 수치도 0.73 이상으로, obviousness 근거는 전반적으로 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템에 관한 것으로, 사용자 인증 전 개인화된 웹사이트 테마를 표시하는 보안 기능을 개시하지 않으며, 기술적 목적과 해결 과제가 명확히 상이함. 결합 동기 부족으로 인해 obviousness 판단의 근거가 약함. 통상의 기술자도 본 발명의 구성과 효과를 예측하기 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art US-2012216297-A1 is directed to medical data management and secure access control, with no disclosure or suggestion of personalized website themes for phishing prevention. The claimed invention introduces a novel use of pre-authentication visual customization to enhance user recognition and security. While some elements (e.g., cookies, theming) are known in isolation, there is no teaching, suggestion, or motivation in the prior art to combine them in the specific manner claimed. The differences in purpose and functionality are significant, and a PHOSITA would not be led to this combination without hindsight. However, given the broad applicability of web personalization, the obviousness argument is considered weak but present."
+        }
+      ]
+    }
+  ]
+}

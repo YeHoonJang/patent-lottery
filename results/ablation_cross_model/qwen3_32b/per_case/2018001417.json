@@ -1,0 +1,380 @@
+{
+  "case_id": "2018001417",
+  "proceeding_number": "2018001417",
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.5,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015302374-A1과 US-2015235212-A1이 각각 모바일 결제 인터페이스와 보안 처리 기법을 개시하지만, 청구항 1의 전체 구성요소를 명시적으로 개시하지는 않는다. 다만, 결합 동기가 명확하고, 통상의 기술자가 이를 결합하여 청구항의 기술적 효과를 달성할 수 있다는 점에서, 결합의 타당성은 높다. 그러나 청구항의 구체적인 구성요소가 선행기술에 암시적으로 개시되었는지에 대한 해석 여지가 있으므로, 근거의 강도는 중간 수준으로 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 문헌이 명확히 청구항의 기술적 특성을 암시적으로 포함하고 있으며, 청구항 2, 3, 4, 5, 6, 7, 8 모두에 대한 개시가 명확히 제시되었습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술과의 유사성이 명확하며, 결합 동기가 제시되어 있어 관련 분야의 통상 기술자가 자명하게 도출할 수 있는 수준으로 판단됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 3, 4, 6의 용어가 명세서에 명확히 기재되지 않았다는 점이 확인되었으나, 구체적인 구현 방식에 대한 설명 부재가 명확히 명세서에서 드러났습니다. 그러나 명세서가 제공되지 않았다면 판단이 어려웠을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2015235212-A1 and US-2015302374-A1 provides a clear motivation to apply known security measures to mobile payment transactions. The combination threshold of 0.68 supports the conclusion that these claims would have been obvious to one of ordinary skill in the art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'virtual container' is not clearly defined in the specification, and there is a lack of specific implementation details. This lack of clarity may require undue experimentation by one of ordinary skill in the art to practice the invention as claimed."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 5 is rejected under 103 because the prior art (US-2015199674-A1) explicitly defines 'pass' as including gift cards, directly covering the claim element. The confidence is 1.0, and the reasoning lacks meaningful differentiation from the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 5 is rejected under 35 U.S.C. § 102(a)(1) as being anticipated by US-2015199674-A1, which explicitly defines a 'pass' as a form of mobile payment, such as a gift card. This is a direct and explicit disclosure."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 3, 4, 6, 7, and 8 are rejected under 35 U.S.C. § 102(a)(1) as being anticipated by the prior art references. The reasoning relies on implicit coverage of features, which introduces some interpretive uncertainty compared to direct and explicit disclosures."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015235212-A1 및 US-2015199674-A1이 청구항의 핵심 요소를 명확히 기재하고 있어 신규성이 명백히 부정됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 결합이 모바일 결제 시스템 통합에 있어 당업자의 동기와 기술 수준에 따라 자명함"
+        },
+        {
+          "basis": "112_written_description",
+          "reasoning": "명세서에서 구체적인 정의나 구현 방법이 명확히 기재되지 않아 통상의 기술자가 발명을 재현하는 데 어려움이 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, and 4 are clearly anticipated by US-2015235212-A1 with similarity scores of 0.75, 0.7, and 0.7 respectively, which are well above the threshold for anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 6, 7, and 8 are considered obvious over the combination of US-2015235212-A1 and US-2015302374-A1, with similarity scores of 0.65, 0.6, and 0.55. While these scores exceed the combination_threshold of 0.46, the evidence is not as strong as in the 102 rejections."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claim 6 is also mentioned in the 102 analysis with a similarity score of 0.65, but the 103 rejection is more appropriate given the combination of references."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action notes an objection regarding terminology consistency for 'pass' and 'virtual container,' which could affect the written description requirement if not corrected."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 암시적으로 개시하고 있으며, 결합 동기가 논리적이나, 청구항의 구체적인 암호화 구현 방식과 기프트 카드 통합의 독창성에 대한 명확한 해석이 필요함"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술이 관련 기능을 암시적으로 개시하고 있으나, 청구항의 특정 구성요소(예: 기업 애플리케이션의 API)에 대한 명확한 개시 여부에 해석의 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The novelty rejections for claims 2-6 are based on the US-2015235212-A1 and US-2015302374-A1 references. The reasoning connects the claimed elements to specific disclosures in these references, but the confidence scores range from 0.5 to 0.7, indicating some level of interpretation is required to establish the anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejections for claims 7 and 8 are based on the US-2015302374-A1 and US-2015235212-A1 references. The reasoning provides a logical motivation to combine and connects the claimed elements to specific disclosures in these references, but the confidence scores are 0.5 and 0.55, suggesting some level of interpretation is still needed to establish the obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The provided prior art references disclose elements related to encryption of payment tokens and communication systems, but the specific application of these techniques to virtual containers and gift card barcodes involves some interpretation. The confidence scores range from 0.55 to 0.7, indicating moderate strength in the obviousness rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art references provide some support for the obviousness of the claimed features, but the confidence levels are mixed (ranging from 0.55 to 0.73). While the references disclose general secure processing and encryption techniques, the specific application of these techniques to the integration of a mobile payment application with other mobile applications in a way that prevents security exposures is not clearly addressed. The motivation to combine is generally stated as enhancing security, which is a well-known practice, but the specific combination and implementation are not explicitly taught. Given the strictness of 0.52, moderate evidence is not sufficient for a strong rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The references cited for novelty (US-2015235212-A1 and US-2015302374-A1) suggest that the claimed features are not novel, but the novelty rejections are based on implicit disclosures rather than explicit teachings. The confidence levels are moderate (ranging from 0.55 to 0.73), indicating that the prior art does not clearly anticipate the specific features of the claims. Given the strictness of 0.52, moderate evidence is not sufficient for a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the combination of US-2015235212-A1 and US-2015302374-A1. While the references do disclose similar systems for secure payment processing, the specific implementation details in the claims (such as encryption at different layers and API integration specifics) may require some interpretation to determine if they are obvious design choices. The motivation to combine is reasonable (enhancing security and user experience), but the confidence scores for some claims (e.g., claim 8 with 0.4 confidence) suggest some uncertainty in the analysis."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 핵심 기능을 암시적으로 개시하고 있으며, 결합 동기가 명확하게 제시됨. 그러나 청구항의 구체적인 구현 방식과의 차이가 미미하다는 점에서 해석의 여지가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 청구항의 특정 요소에 대한 구체적인 설명이 부족함. 그러나 이는 명확한 누락보다는 구체화가 필요한 정도로 보임."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 주요 요소를 개시함. 청구항과 선행기술 간의 차이가 명확하지 않거나 미미함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015235212-A1 및 US-2015199674-A1의 내용과 결합 동기 설명이 명확히 제시됨. 그러나 청구항 요소들이 선행기술과 결합된 기술의 자명한 변형인지에 대한 명확성은 다소 부족함."
+        }
+      ]
+    }
+  ]
+}

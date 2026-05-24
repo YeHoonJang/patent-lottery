@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage correctly applies element-by-element anticipation analysis against specific prior art (US-2013124263-A1), and the §103 stage, while defaulting to non-obvious due to LLM unavailability, explicitly acknowledges the Graham factors framework was not applied rather than invoking a wrong statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "The §102 novelty rejections for claims 2, 9, 14, and 21 are each tied to specific claim language and specific disclosures in US-2013124263-A1 (e.g., 'postal codes' in claim 2 of the prior art, merchant category aggregation for claims 9/21), satisfying evidence-linked reasoning for all rejections issued."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The office action and final decision are consistent with the novelty findings—claims found not novel at §102 (2, 9, 14, 21) are rejected, claims found novel are allowed, and the §103 stage's acknowledged absence of analysis is carried through to the final decision without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.603 (moderate) and combination_threshold=0.566 (moderate), the examiner appropriately rejects claims with clear anticipatory disclosure while allowing the majority of claims and recommending amendment rather than full rejection, consistent with a moderate-strictness profile that does not over-reject on ambiguous evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision ('amend_suggested') directly follows from the accumulated stage analysis: §102 rejections for claims 2, 9, 14, 21 are maintained, §103 analysis is acknowledged as absent, and the recommendation to allow remaining claims after amendment is a logical conclusion from all prior findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017000776",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10595,
+      "output_tokens": 442,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

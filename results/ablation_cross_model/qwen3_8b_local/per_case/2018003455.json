@@ -1,0 +1,351 @@
+{
+  "case_id": "2018003455",
+  "proceeding_number": "2018003455",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 explicitly discloses all claimed elements and functional equivalents, with high confidence (0.8+). The Graham factors confirm PHOSITA would combine these elements for obviousness, meeting strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Generalized 'contextual information' lacks specific implementation details in the specification, creating ambiguity under BRI. However, the prior art's explicit disclosure reduces this weakness."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims are directly anticipated or obvious in view of prior art (e.g., US-2014324428-A1-claim14) with high confidence (0.75-0.9). The combination of prior art elements for contextual adjustment is straightforward and lacks non-obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'contextual information' is overly broad and lacks sufficient definition in the specification, failing to meet enablement and written description requirements under 35 U.S.C. § 112."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014324428-A1은 컨텍스트 기반 음성 인식 조정 기술을 명확히 포함하고 있으나, 청구항의 구체적 기술적 기여가 선행기술과 구분되지 않는다는 점에서 결합 동기의 명확성과 기술적 진보 여부에 대한 해석 여지가 존재합니다. 이는 strictness=0.25의 성향에 따라 허여 또는 보정을 유도하는 근거로 판단됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly discloses contextual adjustment of speech recognition (US-2014324428-A1) and task-related environmental monitoring (US-2012296654-A1). While the combination is logically extendable, the functional equivalence and lack of unexpected results suggest the invention's core is not significantly inventive under the purposivist approach."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2014324428-A1) explicitly discloses all claimed elements, and the combination is obvious through direct substitution of known elements. Confidence scores (0.81–0.96) and Graham factors confirm strong evidence of obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'contextual information' lacks sufficient definition in the specification, violating 35 USC 112(a)/(b). While the objection is clear, the specification's ambiguity requires further clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 결합 동기와 기술적 유사성(0.51 이상의 threshold)이 명확히 제시되어, 결합이 당연한 수준으로 판단됨. 다수의 청구항에 대한 고도의 유사성(0.7~0.85)과 Graham 요인의 완전한 충족으로 근거 강도가 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "공지된 결합 동기와 기술적 내용이 있으나, 청구항의 구체성이나 명세서의 뒷받침 여부에 대한 구체적 증거 부재로 인해 약한 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all elements of claim 1 and provides a clear solution to the same technical problem, requiring no additional motivation to combine. Confidence score of 0.9 indicates strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술 US-2014324428-A1과 직접 결합 가능하며, 동기부여가 명확히 제시됨. 선행기술의 구체적 기능(컨텍스트 기반 ASR 조정, 미세소음 처리, 행동 실행)이 청구항 요소와 일치하여 결합이 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 'contextual information' 등 핵심 용어가 기술적 구체성 부족으로 인해 구현 방법이 불분명함. 명세서에 예시만 제공되었을 뿐, ASR 엔진 조정 과정의 구체적 동작 방식이 명시되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2014324428-A1) explicitly discloses all claimed features (e.g., contextual adjustment of dictionaries, ambient noise, lexicon selection) and provides clear motivation to combine. Coverage scores of 0.6–0.8 exceed the strictness threshold, confirming obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1–4 lack sufficient detail for enablement, but the prior art (US-2014324428-A1) provides some definitions for terms like 'contextual information' and 'lexicon.' This reduces the strength of the 112(b) objection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 explicitly discloses all elements of claims 1 and 3, including contextual adjustment and lexicon selection. Confidence scores (0.8/0.85) indicate direct anticipation under 102(a)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1's term 'adjusting' lacks sufficient definition in the specification. While the prior art provides context, the claim's breadth may not be adequately supported."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Cited references provide clear support for obviousness, with high confidence and verification status as PASS. The combination of features is directly supported by prior art, and the motivation to combine is well-established in the field."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014324428-A1은 청구항의 핵심 요소인 '컨텍스트 기반 음성 인식 조정'을 명확히 개시하며, 동일한 기술적 영역에서 당업자에게 결합 동기 제공. '사전 수정', '환경 소음 분석', '디바이스 기반 컨텍스트 수집' 등 구체적 기술이 청구항을 포괄."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 '컨텍스트 정보' 및 '조정'의 구체적 정의가 명세서에 부족함을 반영. 그러나 선행기술의 기술적 내용과 결합할 경우, 일반적인 기술 용어로 해석 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항이 선행기술 REF1 및 REF2의 기술을 결합하여 동일한 기능을 달성하는 것이 당업자에게 명백한 동기로 판단됨. 결합 동기와 기술적 내용의 논리성 검증 완료."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014324428-A1은 컨텍스트 데이터 기반 ASR 조정 및 사용자 입력 처리 기능을 명시적으로 개시하며, 결합 동기(환경 변화에 따른 정확도 향상)와 PHOSITA의 기술적 이해를 명확히 제시함. Graham 요소에서의 기술적 차이 부재 및 결합 가능성의 명확성으로 강한 근거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 'contextual information' 및 조정 과정의 구체적 정의가 명세서에 부족함을 지적하나, 이는 기술적 용어의 일반적 해석 범위 내에 있어 명확한 부족이 아님. 다만, 실용주의적 판단에서 추가 설명이 필요함."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "case_id": "PILOT-2018001311",
+  "proceeding_number": "2018001311",
+  "gt_issues": [
+    "102",
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed-in-Part with New Ground of Rejection",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 20의 기어드 아키텍처는 US-2013195665-A1에 직접 개시되지는 않으나, 가스터빈 엔진 분야에서 공지된 기술로서 통상의 기술자가 자명하게 적용할 수 있는 구성이다. 선행기술과의 결합 동기가 명확하며, 기술적 사일로에 갇히지 않고 일반적 설계 선택으로서의 obviousness가 인정된다. combination_threshold=0.34 기준에 비해 낮은 장벽에서도 충족되며, secondary considerations도 제시되지 않아 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 'is_obvious': false로 평가되었으며, 선행기술인 US-2013195665-A1이 중심에 위치한 댐퍼를 강조하고 있어 비대칭 오프셋 구성으로의 결합 동기가 부족하다고 판단됨. 결합 동기의 부재와 산업계의 장기적인 니즈를 고려하면, obvious 판단의 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6의 로터 디스크 및 블레이드 루트 결합 구조는 US-2013195665-A1의 청구항 9에서 명시적으로 개시되어 있으며, 가스터빈 엔진 설계 분야에서 일반적인 기술로 널리 알려져 있음. 결합 동기에 대한 설명이 명확하고, 본 발명의 핵심 기술(오프셋 댐퍼)과 무관한 구성 요소이므로 자명성 판단이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 20의 geared turbofan 구성은 2013년 시점에서 공지기술로 널리 알려져 있으며, Pratt & Whitney 등의 공개 자료를 통해 상용화가 진행 중이었다. US-2013195665-A1에 개시된 댐퍼를 기존의 잘 알려진 엔진 아키텍처에 적용하는 것은 PHOSITA에게 예측 가능하고 동기 부여가 명확하다. 결합 동기(motivation to combine)가 존재하며, 추가적인 혁신적 단계 없이도 실현 가능하다. 따라서 103 거절 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 20은 제14항에 기어드 아키텍처를 통한 팬 구동을 추가하는데, 이는 항공기 엔진 분야에서 공지된 기술로, 통상의 기술자가 성능 향상을 위해 용이하게 도입할 수 있는 설계 선택임. US-2013195665-A1은 터빈 섹션을 개시하고 있으며, 기어드 팬은 가스터빈 엔진에서 연료 효율성과 추진 성능을 개선하기 위해 널리 사용되는 기술임. 결합 동기 명확하고, 예측 가능한 결과를 초래하며, 새로운 기술적 효과 없음. strictness=0.82 수준에서 이는 충분히 강한 obviousness 근거임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6 is clearly anticipated by US-2013195665-A1, which explicitly discloses a turbine disk with slots receiving blade roots. The disclosure in paragraphs [0002] and [0020] directly corresponds to the subject matter of claim 6, making the anticipation clear and unambiguous."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 4, 8, 11, 16, and 19 recite 'approximately 60%/40%' load split without defining the range of 'approximately' in the specification. This lack of quantitative boundaries renders the scope indefinite under 112(b), and insufficient written description support under 112(a), as a PHOSITA cannot determine with reasonable certainty what values fall within the claimed range. The dynamic nature of load split exacerbates this issue. This is a strong 112 issue supported by MPEP 2173.05(b) and consistent with USPTO policy."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 20's use of 'geared architecture' is broad and not specifically defined in the specification (e.g., gear type, ratio, configuration). While the term appears in the disclosure and is known in the art, the lack of structural delineation raises written description concerns under 112(a) regarding possession of the full scope. However, given that geared turbofans are conventional, and the term is used in context with a drawing, the deficiency may be remediable. At strictness=0.55, this is a moderate issue—sufficient to require clarification but not necessarily fatal if support can be inferred."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious=false로 평가되었으며, 선행기술인 US-2013195665-A1이 대칭적 댐퍼 배치를 제시함에 따라 비대칭 오프셋 배치에 대한 결합 동기나 수정 동기가 부족하다고 판단됨. 선행기술과의 차이점은 구조적·기능적으로 명확하며, 그 효과가 예측 불가능한 성능 향상으로 이어진다는 보조적 고려사항도 제시됨. combination_threshold=0.22인 점을 고려하더라도, 동기 부족과 기술적 돌파구가 인정되어 진보성 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 6의 구성요소인 로터 디스크 및 블레이드 루트의 슬롯 결합 구조는 선행기술 US-2013195665-A1의 청구항 9에 명시적으로 개시되어 있으며, 가스터빈 엔진에서 일반적으로 사용되는 공지 기술이다. 결합 동기 없이 단일 문헌에 의해 충분히 개시되어 있으며, 통상의 기술자가 이를 용이하게 적용할 수 있으므로 obviousness 판단의 증거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 20 combines a known geared turbofan architecture with an offset damper. While geared architectures are common general knowledge, the integration of this specific damper configuration into such an engine is not explicitly taught. The motivation to combine is logical but relies on routine engineering practice rather than a specific teaching or synergistic effect. Given the examiner's moderate strictness (0.52), this does not rise to a strong obviousness rejection, but the lack of unexpected results supports a moderate finding."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 4, 7, 8, 11, 15, 16, and 19 recite quantitative or qualitative load split limitations ('approximately 60%/40%', 'unequal load split') without sufficient support in the specification. The term 'approximately' is not defined, and no tolerance, experimental data, or design boundaries are provided. Similarly, 'unequal' lacks a minimum threshold or guiding standard. This constitutes a clear written description failure under 112(a), as a PHOSITA cannot discern the scope or confirm inventor possession. The evidence is direct and unambiguous."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6의 rotor disk 및 root-to-slot 결합 구조는 US-2013195665-A1의 Claim 9에 명시적으로 개시되어 있으며, 가스터빈 엔진에서 통상적인 기술로 간주됨. 선행기술과의 결합 동기가 명확하고, 예측 가능한 결과를 유도하므로 obvious 판단의 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 20의 기어드 아키텍처 및 팬 섹션은 명세서에서 공지기술로 인정되며, 선행기술과의 결합 동기는 존재하지만, offset damper와의 통합이 특정한 상승효과를 유도하지는 않음. 다만, 일반적인 기술 적용 차원에서 obvious로 판단할 수 있음. strictness=0.52인 점을 고려하더라도, 결합 동기의 명확성으로 인해 거절 유지함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 6은 선행기술 US-2013195665-A1에 의해 명확히 공개되며, '루트가 디스크 슬롯에 삽입'된다는 구성은 동일하게 개시됨. 신규성 결여에 대한 증거가 명확하고 confidence가 0.95로 높음."
+        }
+      ]
+    }
+  ]
+}

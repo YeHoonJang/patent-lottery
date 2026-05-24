@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for all §103 obviousness analyses, and uses element-by-element comparison for §102 novelty, correctly invoking the recognized legal framework for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout are tied to specific claim elements and prior art disclosures, e.g., citing US-2013203433-A1's 'statistical behavior analysis' and 'session-based tracking' to map against specific claim limitations like 'relevant circumstance' and 'frequency of use.'"
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings — claims found not novel under §102 are rejected under §103 with additional motivation-to-combine reasoning, and claims found novel under §102 (e.g., claims 4-8, 10, 13-14) are not rejected under §103, maintaining internal consistency."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.547 (moderate), the examiner appropriately rejects core independent claims and obvious dependent claims while allowing novel dependent claims, reflecting a balanced approach neither overly strict nor lenient; the 'amend_suggested' outcome for novel claims is consistent with a mid-range strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1-3, 9, 11-12, 15 and suggest amendment for claims 4-8, 10, 13-14 directly follows from the accumulated §103 obviousness stage analyses without contradiction, with the summary explicitly summarizing the rationale from earlier stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019004278",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13802,
+      "output_tokens": 420,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

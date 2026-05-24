@@ -1,0 +1,372 @@
+{
+  "case_id": "2019001963",
+  "proceeding_number": "2019001963",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15의 구성요소들을 모두 개시하고 있어 신규성이 부정된 근거가 명확함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1을 기반으로 청구항 2, 4, 10의 요소들이 해당 기술분야의 통상의 지식을 가진 자가 자명하게 결합할 수 있는 것으로 보이나, 일부 청구항(4, 10)의 경우 선행기술과의 차이가 상당하여 자명성 판단에 있어 해석의 여지가 있음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 12의 표현이 모호하고 명확하지 않아 기재요건을 충족하지 못하는 것으로 보이나, 단순 오타인지 또는 본질적 모호성인지 구분이 필요한 상황"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2013285347-A1 clearly anticipates all elements of the claims. The reasoning provided demonstrates that the reference discloses a sliding fifth wheel hitch assembly with all the claimed features, including the direct-mount mounting brackets, longitudinal rail, engagement assembly, and various additional features in the dependent claims. The confidence levels for each claim are high (0.8 to 0.9), indicating strong evidence of anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항 1-15의 모든 구성요소를 명확히 개시하고 있으며, 각 청구항에 대한 신규성 판단에서 confidence 점수가 0.6 이상으로 높은 수준입니다. 특히 청구항 5, 6, 15는 confidence 0.85, 0.75, 0.75로 매우 강한 근거를 제공합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The US-2013285347-A1 reference clearly anticipates all the elements of the claims. It discloses a fifth wheel hitch assembly with a mounting bracket, vehicle frame rail, and support bracket with multiple mounting positions, which are releasably secured to less than all of these positions. This directly corresponds to the claimed invention. The confidence level for most claims is 0.85 or higher, indicating strong anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The claims introduce terms such as 'tilt lock-out', 'tilt stop', 'first and second positions', and 'remote location' without clear definitions in the specification. These terms create ambiguity regarding the specific structure and function of these components, making it difficult for a person of ordinary skill in the art to understand the scope of the invention. The issue is valid but could potentially be addressed through clarification in the specification."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The US-2013285347-A1 reference discloses all the elements of the claims except for the controller in claim 4. However, the inclusion of a controller to operate the stabilizer assembly from a remote location would have been obvious to one of ordinary skill in the art, as it is a well-known technique to provide remote control functionality in vehicle hitch assemblies. The confidence level is 0.75, indicating a moderate level of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항의 대부분의 요소를 개시하고 있으며, 해당 기술 분야에서 공지된 기술로서 결합 동기가 명확함"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항의 모든 요소를 명확히 개시하고 있어 신규성을 부정할 수 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on a cited prior art reference and includes a clear motivation to combine. However, the confidence levels for some claims are relatively low (e.g., 0.5-0.6), indicating some uncertainty in the obviousness determination."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejection for claims 2 and 15 is based on insufficient description of the 'tilt lock-out arrangement' and 'tilt stop arrangement.' While this is a valid concern, the rejection may be addressable with clarification in the specification."
+        },
+        {
+          "basis": "112_enablement",
+          "strength": "weak",
+          "reasoning": "The 112 enablement rejection for claim 4 was incorrectly cited and should be treated as a 112 written description issue. The reasoning is valid but the basis is technically incorrect."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항의 모든 요소를 명확히 가르치거나 암시적으로 가르치며, 결합 동기가 명확히 설명되어 있고, 유사성 점수가 높아 진보성 거절 근거가 강함"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1이 청구항의 구성요소를 모두 개시하며, 신규성 판단에서 명확한 증거가 제시됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항의 대부분을 개시하며, 결합 동기가 논리적으로 설명됨. 그러나 일부 청구항에서 선행기술의 암시적 개시에 대한 해석 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2013285347-A1 already discloses a sliding fifth wheel hitch assembly with a carriage bracket (mounting bracket) adapted to support a hitch plate, a longitudinal rail with a vertical side member (vehicle frame rail), and an engagement assembly with multiple mounting positions. The claimed invention's feature of releasably securing the mounting bracket to less than all mounting positions would have been obvious to a person of ordinary skill in the art as a simple design choice to allow for adjustable positioning while maintaining structural integrity. The combination of these elements is a straightforward adaptation of known components to achieve a predictable result."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2013285347-A1 discloses a sliding fifth wheel hitch assembly that includes a carriage bracket adapted to support a hitch plate (element 1a), a longitudinal rail with a substantially vertical side member (element 1b), an engagement assembly for releasably engaging the rail (element 1c), and a plurality of engagement apertures spaced along the rail (element 1e). While the prior art does not explicitly mention all the elements in the exact wording of the claim, the combination of a carriage bracket with a vertical surface, a rail with horizontal and vertical portions, and an engagement assembly with multiple mounting positions sufficiently anticipates the claimed invention under 35 USC 102. The feature of the mounting bracket being releasably secured to less than all mounting positions is considered an obvious variant given the disclosure of a releasable engagement assembly."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'substantially' is used in the claims and may require clarification to ensure it does not render the claim indefinite under 35 USC 112(b). The term 'releasably secured' is also used in the claims and may require clarification to ensure it does not render the claim indefinite under 35 USC 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art US-2013285347-A1 clearly discloses all the elements of claims 1, 2, 3, and 15, including the longitudinal rail with a vertical side member, the carriage bracket supporting a hitch plate, and the slide stop mechanism. The anticipation is well-supported by the prior art disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 35 U.S.C. § 103 is based on the prior art teaching a similar system and the use of multiple mounting positions being a design choice. While there is a reasonable motivation to combine, the distinction between a slide stop and a tilt lock-out/tilt stop introduces some ambiguity in the obviousness determination."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1이 대부분의 청구항 요소를 포함하고 있으며, 일부는 단순한 설계 선택이나 예측 가능한 결과로 간주됨. 결합 동기 또한 명확하게 제시되어 있으나, 일부 청구항에서 구체적인 세부사항의 차이가 존재하여 근거의 강도는 중간 수준으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 문헌 US-2013285347-A1이 청구항 1, 3, 5, 6, 7, 8, 9, 15의 요소들을 명확히 개시하여 anticipation이 성립됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1을 기반으로 한 modification이 공지 기술에 기반하지만, 결합 동기는 명확히 제시되지 않아 obviousness 판단에 있어 다소의 해석 여지가 있음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'tilt lock-out arrangement'와 'tilt stop arrangement'에 대한 구체적 설명이 부족하여 청구항의 구현이 불확실하지만, 이는 명확한 수정을 통해 개선 가능함"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2013285347-A1) is clearly disclosing all essential elements of the claimed invention, even if using slightly different terminology. The mapping is direct and well-supported, making this a strong novelty rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the prior art teaches all essential elements, the difference lies in terminology and specific implementation details. The motivation to combine is based on design choice and common sense, which is supported by the combination_threshold of 0.57. However, the distinction between anticipation and obviousness remains, and the strength is somewhat moderate due to the reliance on design choice."
+        }
+      ]
+    }
+  ]
+}

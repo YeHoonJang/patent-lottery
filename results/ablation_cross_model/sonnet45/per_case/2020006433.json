@@ -1,0 +1,862 @@
+{
+  "case_id": "2020006433",
+  "proceeding_number": "2020006433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measured energy flow values with high similarity scores (0.85-0.9). The reference teaches photovoltaic generator (DER), grid connection, battery charging/discharging, and power meter means measuring all these flows. This is clear anticipation with strong evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Alternative obviousness ground is equally strong. The four measurements represent standard monitoring points in any DER system. US-2016164299-A1 teaches complete power monitoring infrastructure. Combination motivation is inherent in achieving comprehensive system monitoring. No unexpected results."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 discloses six of seven flows explicitly. US-2012228933-A1 provides the seventh (storage to load). Both references address identical problem domain (DER energy management). The seven flows are simply complete enumeration of all source-sink pairs in standard three-component DER topology. Motivation to combine is clear: achieving comprehensive flow tracking. This is predictable use of known techniques on known architecture."
+        },
+        {
+          "basis": "allowable_subject_matter",
+          "claims": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "Priority allocation rules (claims 4, 5, 11, 12, 18) and visualization features (claims 6, 7, 13, 14, 19, 20) are not taught by prior art. However, some claims (e.g., claim 8 apparatus) depend on or incorporate rejected limitations. The allowability determination requires careful analysis of dependency relationships and whether independent claims have patentable weight."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measurements: power meter means measuring input/output from inverter (DER production), power absorbed/supplied to grid (total grid consumption), battery charging during recharge, and battery discharge. The reference directly anticipates every element with detailed claim language mapping. Coverage score of 0.88-0.92 confirms strong anticipation. This is not a case of interpreting similar features—the measurements are identical in purpose and implementation."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 discloses all seven energy flow values: (i)-(iv) and (vi) are explicitly disclosed; (v) battery-to-grid and (vii) grid-to-storage are inherent in the bidirectional system architecture. The reference describes a system where 'battery module being adapted to store power from said first DC-DC conversion stage, during recharge, and to supply power to said second DC-AC conversion stage during discharge,' with the second stage output connected to the grid and loads. This necessarily involves all claimed flow paths. Coverage scores of 0.85-0.88 support strong anticipation. The flows are not merely similar—they are the same energy paths in the disclosed system."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 anticipation were questionable (which it is not), these claims are obviously obvious. The measurements and flow values represent standard, routine characterization of DER systems. A PHOSITA (electrical engineer in power systems) would recognize these as necessary and conventional. No inventive step exists in enumerating the complete set of measurements or flow paths in a multi-source, multi-sink power system. This is basic system analysis, not invention."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1 discloses optimization control using 'multiplicative coefficients' to maximize cost-effectiveness and 'maximize the ratio between self-produced energy and energy taken from the grid.' This inherently involves prioritization. US-2013297084-A1 explicitly teaches priority-based control (charge when emissions/costs low, discharge when high). The combination is well-motivated: both address DER optimization. However, the claimed 'energy priority allocation rules that define, for each energy sink, a priority for receiving energy from each of at least two energy sources' is a specific formulation. The references show optimization and conditional control but not this exact rule structure. Given my strictness (0.88) and the combination threshold (0.34), I find this moderately strong—there is implicit priority in optimization, and the combination is motivated, but the explicit rule formulation adds a layer of specificity not directly taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            12,
+            18
+          ],
+          "strength": "moderate-to-strong",
+          "reasoning": "The specific priority sequences (DER→load→storage→grid; storage→load→grid) reflect economically optimal self-consumption maximization. US-2016164299-A1 describes operational modes where generation serves loads and stores excess, with grid supply during evening. This inherently establishes load-first priority. US-2013297084-A1 teaches cost minimization through priority control. A PHOSITA would recognize this sequence as economically logical: use free renewable energy for immediate loads (avoid purchase), store excess (defer use), export surplus (least beneficial). However, the references describe functional operation and optimization goals but do not explicitly state this priority ordering as a defined rule. The economic logic is strong, but the explicit formulation is an interpretation step. Given my strictness (0.88), I lean toward finding this obvious—the priority sequence is the natural, economically rational implementation of the disclosed optimization objectives. The difference between 'describing operational modes that reflect priorities' and 'defining explicit priority rules' is not inventive."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measurement types (DER production, grid consumption, storage charging, storage discharging) with high similarity scores (0.8-0.9). The measurements are standard components inherent to any DER monitoring system. The obviousness reasoning is well-supported by explicit prior art disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of US-2016164299-A1 and US-2012228933-A1 explicitly teaches all seven computed energy flow values. Six flows are disclosed in US-2016164299-A1; the seventh (storage-to-grid) is explicitly taught in US-2012228933-A1. The motivation to combine is clear (both address identical DER power management problem), and the combination is predictable aggregation of known flow paths."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1 discloses control module implementing optimized power distribution, which implicitly involves priority allocation among sinks. However, the claim explicitly recites 'energy priority allocation rules' as a distinct limitation. While the control optimization inherently requires priorities, the explicit formalization of priority rules represents a conceptual step. Under strictness=0.25 (lenient), this moderate-strength obviousness argument warrants closer scrutiny—the implicit vs. explicit distinction may favor applicant."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            12,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2016164299-A1 and US-2012228933-A1 implicitly teaches the priority sequence through operational descriptions and economic rationality. US-2016164299-A1 describes DER powering loads first, then storing excess; US-2012228933-A1 teaches storage discharge management. However, the specific five-step priority sequence is not explicitly stated—it is inferred from economic principles. Under strictness=0.25, this inference-based obviousness (rather than explicit teaching) is a moderate-strength argument that deserves benefit of doubt toward applicant."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measurement types (DER production, grid consumption, storage charge/discharge) in a single reference. The measurements represent fundamental monitoring points in DER systems. The combination is predictable use of known elements for basic energy management. Evidence is clear and direct."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "While the three references (US-2016164299-A1, US-2012228933-A1, US-2013297084-A1) collectively disclose all seven energy flow paths, computing individual flows from aggregate measurements requires some technical insight. The combination motivation is logical (comprehensive energy tracking) but involves integrating concepts from multiple references. The obviousness is not as clear-cut as claims 2/9/16, though the evidence is substantial."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 9, 16에 대한 102 거절은 매우 강력함. US-2016164299-A1이 네 가지 측정값(DER 생산, 그리드 소비, 저장장치 충전, 저장장치 방전)을 모두 명시적으로 개시하고 있으며, 단일 문헌이 모든 요소를 anticipate함. 선행기술 문헌이 입력으로 제공되었고, power meter means가 inverter module의 입출력 전력을 측정하며(DER 생산 및 그리드 소비 포함), battery-charger module과 battery module이 충전 및 방전을 명시적으로 개시함. 신규성 판단에서도 confidence 0.89-0.91로 매우 높음. 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 10, 17에 대한 103 거절은 강력함. US-2016164299-A1이 7개 에너지 흐름 값 중 6개를 명시적으로 개시하고, US-2013297084-A1이 나머지 1개(grid to storage)를 개시함. 결합 동기가 명확함: 두 문헌 모두 DER 에너지 관리 시스템을 다루며, 공통 목표는 에너지 흐름 최적화. 7개 흐름값 계산은 Kirchhoff 법칙의 단순 적용으로, 통상의 기술자에게 자명함. 진보성 판단에서도 confidence 0.86-0.88로 높음. DER 시스템의 모든 에너지 경로를 계산하는 것은 routine engineering analysis. 거절 유지."
+        },
+        {
+          "basis": "103_obviousness_alternative",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, 9, 10, 16, 17에 대한 대체 103 거절도 강력함. 102가 인정되지 않을 경우의 안전장치로서, 네 가지 측정값은 DER 시스템의 기본적인 모니터링 파라미터이며, 일곱 가지 흐름값 계산은 에너지 보존 원리의 straightforward application임. 선행기술이 시스템 토폴로지를 개시하고 있으며, 통상의 기술자가 모든 에너지 경로를 계산하는 것은 자명함. 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measurement types with high similarity scores (0.85-0.90). The reference describes photovoltaic generator with power meter measuring input/output, power absorbed/supplied to grid, battery charging/discharging. This constitutes clear anticipation. Single reference provides all claim elements."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "Seven energy flow values require combination of three references. While coverage_score is 0.84, using multiple references for § 102 rejection is questionable - this should be § 103. However, if viewed as 'inherent disclosure' across related DER systems, anticipation argument has merit. Under strictness=0.82, I lean toward maintaining rejection, but § 103 is more appropriate basis."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Even if § 102 fails, § 103 is clearly applicable. The four measurements are fundamental DER monitoring parameters. Motivation to combine is obvious - comprehensive system monitoring requires these basic measurements. References demonstrate this is routine in the art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "Computing all seven energy flows between DER components (generator, storage, grid, loads) is straightforward application of energy conservation. All references address same DER system problem. Motivation to combine is clear - comprehensive energy tracking. This is predictable optimization, not inventive leap."
+        },
+        {
+          "basis": "allowable",
+          "claims": [
+            4,
+            5,
+            11,
+            12,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "Priority allocation rules limitation shows distinction from prior art. References show control/optimization but not explicit priority-based rule systems. However, the distinction is somewhat narrow - prior art does manage energy flows, just not through explicit 'priority rules' framework. Under strictness=0.82, I find this distinction sufficient for allowability, but it's a close call."
+        },
+        {
+          "basis": "allowable",
+          "claims": [
+            6,
+            7,
+            13,
+            14,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Visualization/display image features are clearly not disclosed in prior art focused on system control. Coverage_score 0.0 for these elements. This is distinct inventive concept addressing user information needs, not system control. Clear allowability."
+        },
+        {
+          "basis": "allowable",
+          "claims": [
+            8,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Energy flow visualization module combining priority computation and display generation shows distinction. However, dependent claims 9-10, 16-17 add only measurement/computation elements that are obvious. The visualization module itself is novel, but some dependent claims dilute this novelty. Under strictness=0.82, base claims 8 and 15 are allowable due to visualization module, but dependent claims adding only measurements/computations may still be obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measurements for claims 2/9/16 (photovoltaic generator with measurement, power meter for grid consumption, battery-charger module for charge measurement, battery discharge capability) and the complete system architecture encompassing all seven flow paths for claims 3/10/17. The reference provides clear, explicit disclosure of each claimed element. This is strong anticipation evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "For claims 2/3/9/10/16/17: Even if not anticipated, these measurements and flow computations represent fundamental, conventional practices in DER systems. US-2016164299-A1 shows complete architecture; US-2012228933-A1 teaches tracking individual sources. Motivation is inherent in basic DER operation. For claims 4/11: While 'priority allocation rules' as explicit term is not disclosed, US-2013297084-A1 teaches control algorithms for energy allocation decisions (store vs. supply based on emission/rates), and US-2016164299-A1 teaches optimization control. With combination_threshold=0.46, implementing priority rules for multi-sink management is obvious design choice. Strong obviousness evidence for all these claims."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measured energy flow values with high similarity scores (0.85-0.92). The reference teaches photovoltaic generator power measurement (DER production), power meter means measuring grid absorption/supply (grid consumption), battery-charger module during recharge (storage charging), and battery module during discharge (storage discharging). This is clear anticipation with strong textual support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Even if not anticipated, the four measurements are obvious. US-2016164299-A1 expressly identifies the need to 'understand the various flows of energy between the energy sources and the energy recipients.' These four flows are the fundamental measurable quantities in any DER system with generation, storage, and grid connection. Measuring them is routine practice with clear motivation stated in the reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 combined with US-2012228933-A1 teaches all seven energy flow pathways. Both references address identical technical problems in DER systems. The motivation to combine is explicit: US-2016164299-A1 states the need to understand energy flows for optimization, and US-2012228933-A1 teaches storage-to-grid tracking for reverse supply. The seven pathways represent exhaustive enumeration of physically possible flows between three source types and three sink types - a straightforward application of energy conservation principles."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "weak",
+          "reasoning": "Priority allocation rules are not explicitly disclosed in any reference. While US-2016164299-A1 discusses cost optimization and US-2012228933-A1 tracks power sources, neither teaches formal priority-based allocation rules. The coverage score of 0.45 confirms insufficient evidence. This represents a specific control strategy choice not dictated by the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            12,
+            18
+          ],
+          "strength": "weak",
+          "reasoning": "The specific three-tier priority hierarchy (DER: load→storage→grid; storage: load→grid) is not disclosed or suggested. Coverage score of 0.2 indicates no meaningful evidence. While individual flows exist in prior art and economic logic might suggest prioritizing self-consumption over grid export, the specific claimed hierarchy is not taught. This is one of many possible priority schemes."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            7,
+            13,
+            14,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "Visualization features showing energy flow distribution from sources to sinks are entirely absent from prior art. Coverage score is 0.0. While US-2016164299-A1 mentions providing information 'in a readily understandable format,' this does not teach the specific claimed display image formats. The specific visualization designs represent UI choices not suggested by the references."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            15
+          ],
+          "strength": "weak",
+          "reasoning": "While measurement modules are disclosed (US-2016164299-A1), the combination of priority-based computation modules and visualization generation modules is not taught. Coverage scores of 0.55 and 0.45 indicate partial but incomplete disclosure. The integration of these three specific functions (measurement, priority rules, visualization) is not suggested by any reference combination."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of US-2016164299-A1, US-2015229264-A1, and US-2012228933-A1 provides clear teaching of all four measured energy flow values. US-2016164299-A1 explicitly teaches power meter means for measuring grid power and battery charge/discharge. US-2015229264-A1 teaches measuring solar panel output. US-2012228933-A1 teaches monitoring battery input/output. The motivation to combine these measurements is compelling: comprehensive monitoring is a fundamental requirement for DER system management. Each measurement corresponds to a standard energy flow that must be tracked. The combination represents routine design choice with predictable results. The evidence strongly supports obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "The seven computed energy flow values represent a complete enumeration of physically possible energy paths in a DER system topology. US-2016164299-A1 teaches the basic system architecture with generator, storage, loads, and grid. US-2012228933-A1 teaches reverse power supply to grid. US-2013297084-A1 teaches bidirectional storage operation. The claimed flow paths are determined by the laws of physics and energy conservation applied to the system topology. A person of ordinary skill would recognize these as all possible source-to-sink combinations. The distinction between 'first' and 'second' storage devices is mere labeling. The motivation to compute all flows for complete energy accounting is clear and well-supported. The evidence strongly supports obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1 teaches control optimization with multiplicative coefficients, which implicitly involves prioritization logic. US-2013297084-A1 teaches algorithmic decision-making based on carbon emission and cost. While these references suggest priority-based control concepts, the explicit formalization of 'priority allocation rules defining a priority for each energy sink' requires some degree of interpretation. The concept of priority-based resource allocation is well-known in energy management, making the formalization step relatively straightforward. However, the transition from implicit optimization to explicit priority definition involves a modest inventive step. Given my moderate strictness (0.46), I find the evidence sufficient but not overwhelming. The rejection is maintainable but closer to the boundary."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1과 US-2012228933-A1의 결합은 명확한 근거를 가집니다. US '299는 그리드 및 인버터 전력 측정을 개시하고, US '933은 배터리 충방전 모니터링을 개시합니다. 4가지 측정값(DER 발전량, 그리드 소비량, 충전, 방전)은 각각 개별적으로 선행기술에 개시되어 있으며, 이들을 결합하는 동기(포괄적인 에너지 흐름 모니터링)는 DER 시스템 관리의 기본 요구사항입니다. 결합은 예측 가능하며 자명합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "7가지 에너지 흐름 값은 DER-배터리-부하-그리드의 4자 구조에서 키르히호프 법칙과 에너지 보존 법칙을 적용하면 자연스럽게 도출되는 모든 가능한 경로입니다. US '299는 이러한 구조를 개시하고 '에너지 소스와 수신자 간의 다양한 흐름을 이해할 필요'를 명시합니다. 통상의 기술자는 시스템의 물리적 구성에서 모든 에너지 경로를 식별하고 추적하는 것이 에너지 수지 관리의 기본임을 알고 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "US '299의 제어 모듈과 US '084의 알고리즘 기반 제어는 우선순위 할당 규칙의 개념을 시사하지만, '에너지 싱크의 우선순위를 정의하는 규칙 세트'라는 명시적 구조는 선행기술에서 직접 개시되지 않았습니다. 그러나 제어 시스템이 규칙 또는 알고리즘에 기반하여 작동하는 것은 표준 설계이며, 우선순위 할당은 최적화를 위한 통상적 접근법입니다. 명시적 개시는 없으나 설계 선택으로 자명하다고 볼 수 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            12,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US '299의 배경기술이 '자가 생산 에너지가 그리드 에너지보다 명백히 경제적'이며 '가정이 그리드로부터 가능한 독립적인 것이 이상적'이라고 명시적으로 기재합니다. 이는 청구항 5의 우선순위(부하→저장→그리드)를 강하게 시사합니다. 경제성과 자급자족을 달성하기 위해서는 DER 에너지를 부하에 먼저 사용하고, 남은 것을 저장하며, 그래도 남으면 그리드에 수출하는 것이 논리적 귀결입니다. 이는 비용-편익 분석의 직접적 적용이며 자명합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            13,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US '933은 에너지 흐름 정보를 관리하고, US '299는 '에너지 흐름의 시각화 제공 필요성'을 명시합니다. 관리되는 에너지 흐름 데이터를 시각적으로 디스플레이하는 것은 사용자 인터페이스 설계의 기본 원칙입니다. 운영자가 시스템 상태를 이해하기 위해서는 데이터의 시각적 표현이 필수적이며, 이는 통상의 설계 실무입니다. 하나의 소스에서 여러 싱크로의 흐름을 표시하는 것은 예측 가능한 설계 변형입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            14,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 6과 동일한 에너지 흐름 데이터를 싱크 중심 관점에서 표시하는 것은 소스 중심 관점의 단순한 역전입니다. 동일한 관계를 양방향으로 표현하는 것은 사용자 인터페이스 설계의 예측 가능한 변형이며, 사용자 선호나 정보 요구에 따른 설계 선택입니다. 기술적 차이가 미미하고 자명합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "방법 청구항을 컨트롤러/프로세서를 포함한 장치로 구현하는 것은 현대 에너지 관리 시스템의 표준 구현 방식입니다. US '299는 제어 모듈을 포함한 장치를 개시합니다. '에너지 흐름 시각화 모듈'은 단순히 프로세서에서 실행되는 소프트웨어/펌웨어입니다. 방법을 장치로 변환하는 것은 통상의 엔지니어링 실무이며 발명적 요소가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "방법을 컴퓨터 판독 가능 매체에 구현하는 것은 소프트웨어 구현의 통상적 형식입니다. 에너지 관리 방법은 일반적으로 소프트웨어로 구현되며, 이를 메모리나 디스크 등의 매체에 저장하는 것은 표준 실무입니다. 청구항 형식의 차이일 뿐 발명적 요소가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measurement types with high similarity scores (0.75-0.85) and coverage score of 0.81. Single reference anticipation is clearly established with detailed element-by-element mapping. The prior art explicitly teaches power meter means measuring input/output flows including photovoltaic input, grid absorption/supply, and battery charge/discharge."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "Combination of US-2016164299-A1, US-2012228933-A1, and US-2013297084-A1 discloses all seven computed flow values with high similarity scores (0.75-0.85) and coverage score of 0.79. Each flow path is explicitly or directly disclosed across the combined references. The rejection properly identifies specific disclosures for each of the seven energy flow values."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1 discloses control logic and optimization (similarity 0.68, coverage 0.66-0.68) but does not explicitly disclose 'energy priority allocation rules.' The prior art teaches optimization based on multiplicative coefficients and required values, which implicitly involves prioritization, but the explicit priority-based allocation framework is not directly taught. However, with combination_threshold=0.44 and strictness=0.52, converting optimization objectives into explicit priority rules is a predictable design choice. The motivation to combine is reasonable (achieving optimization requires decision rules), making this moderately strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            12,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016164299-A1 teaches cost optimization and grid independence objectives, and US-2012228933-A1 confirms self-consumption preference, but neither explicitly discloses the specific sequential priority orderings claimed (similarity 0.6-0.62, coverage 0.61). However, these priority sequences are logical implementations of the disclosed economic optimization goals. With combination_threshold=0.44 and strictness=0.52, the specific orderings (DER→load→storage→grid; storage→load→grid) are predictable design choices based on well-understood economic incentives (avoid grid purchase, maximize self-consumption). The reasoning is sound but involves some gap-filling."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1은 청구항 2의 4가지 측정값 모두를 명시적으로 개시합니다: 광전지 발전기 출력 측정, 그리드 전력 측정, 배터리 충전 및 방전 측정. 단일 선행기술이 모든 구성요소를 개시하므로 102 거절 근거가 강력합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 3의 7가지 에너지 흐름 경로가 US-2016164299-A1과 US-2012228933-A1의 조합으로 개시되나, 102 거절은 단일 문헌 기준이 원칙입니다. 두 문헌 조합이 필요하다면 103이 더 적합한 근거일 수 있습니다. 다만 이러한 흐름들이 DER 시스템에서 '본질적(inherent)'이라는 주장이 있으므로 moderate 강도로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "DER 시스템에서 모든 주요 에너지 흐름 지점을 측정하고 계산하는 것은 시스템 최적화의 기본 요구사항입니다. US-2016164299-A1이 명시적으로 'optimization of energy collection'을 목적으로 제시하며, 이를 위해 포괄적 측정이 필요함을 교시합니다. 결합 동기가 명확하고, 통상의 기술자에게 자명한 설계 선택이므로 103 근거가 강력합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.22,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1 explicitly discloses all four measurement types with concrete citations: power meter measuring photovoltaic input (DER production), power meter measuring grid absorption/supply P4-/P4+ (grid consumption), battery-charger module and battery module storing power during recharge (charge measurement), and battery module supplying power during discharge (discharge measurement). Similarity scores are high (0.82-0.90). The anticipation finding is well-supported by specific disclosure locations in the reference."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "The seven computed energy flow values require combining three references (US-2016164299-A1, US-2012228933-A1, US-2013297084-A1). While each individual flow path is disclosed somewhere in the references, this is not a single reference anticipation. US-299 covers flows (i)-(iv) and (vi). US-933 teaches storage-to-grid reverse supply for flow (v). US-084 teaches grid-to-storage charging for flow (vii). However, 102 rejection typically requires a single reference. The combination of multiple references to show all seven flows may be more appropriately analyzed under 103. The novelty rejection as stated appears to conflate anticipation with obviousness analysis."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Even if not anticipated, the four measurement types are clearly obvious. US-299 teaches comprehensive DER monitoring. These measurements (DER production, grid consumption, storage charge/discharge) are fundamental operational parameters for any DER system. The motivation is clear: tracking energy flows is essential for system operation, billing, and optimization. A PHOSITA would implement these as routine engineering practice. The combination is predictable use of known measurement techniques with high expectation of success."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "The seven energy flow values represent all bidirectional flow paths in a DER system with generator, storage, grid, and loads. US-299 provides the basic architecture. US-933 teaches the well-known practice of storage-to-grid reverse flow. US-084 teaches grid-to-storage charging based on optimization. A PHOSITA would be motivated to compute all flow values to comprehensively monitor system operation and optimize energy usage. This is predictable combination of known elements for their intended purposes. The motivation (maximize renewable utilization, minimize costs, optimize battery usage) is clear and well-articulated. Combination threshold is met."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 2, 9, 16: US-2016164299-A1 explicitly discloses power meter measuring DER production, grid consumption, and battery charge/discharge (similarity 0.85-0.9). US-2012228933-A1 explicitly discloses monitoring unit for storage battery input/output (similarity 0.85-0.88). All four measurement types are directly and explicitly disclosed. Coverage score 0.87-0.92. This is clear anticipation with no gaps in disclosure. Claims 3, 10, 17: US-2016164299-A1 explicitly discloses six of seven flows with high similarity (0.85-0.92). US-2012228933-A1 explicitly discloses seventh flow (storage to grid reverse supply, similarity 0.88). Coverage score 0.88. All seven flow values are directly disclosed with minimal need for inference. Under BRI, these measurement and computation elements are broadly construed and fully anticipated."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "In the alternative to 102 rejections: The combination of US-2016164299-A1 and US-2012228933-A1 renders these claims obvious. US-299 explicitly states the need to 'understand the various flows of energy' and provides power measurement means. US-933 provides storage battery monitoring. The motivation to combine is express and clear. The four measurements (claims 2, 9, 16) and seven flows (claims 3, 10, 17) are standard parameters for DER monitoring. A PHOSITA would obviously combine these monitoring approaches as predictable use of prior art elements. Combination_threshold=0.57 is easily met—the explicit teaching in US-299 to understand all flows provides strong motivation. No unexpected results or secondary considerations overcome this prima facie case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 4, 11 require 'priority allocation rules defining a priority for each energy sink.' US-2013297084-A1 discloses algorithm-based control using carbon emission strength (similarity 0.7), but this is conditional control based on external factors, not priority allocation rules. Coverage score 0.6 indicates insufficient explicit disclosure. The conceptual difference between reactive condition-based control and proactive priority allocation framework is significant. Prior art shows optimization strategies but does not explicitly teach or suggest priority rule sets that define inherent priorities for each sink independent of real-time conditions. While PHOSITA might recognize benefits of priority-based allocation, the selection of this specific architectural approach from multiple control paradigms is not explicitly taught. With strictness=0.60 (moderate), this weak evidence is insufficient to sustain obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            12,
+            18
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 5, 12, 18 require specific priority sequences: (i) DER energy: load→storage→grid; (ii) storage energy: load→grid. US-2016164299-A1 shows solar power may power loads and store additional energy (similarity 0.7, implicit). US-2012228933-A1 shows surplus power to grid (similarity 0.65-0.68). Coverage score 0.6. The prior art describes operational scenarios where these flows occur but does not establish them as explicit priority sequences or design rules. The similarity scores (0.65-0.7) indicate implicit support only. The leap from describing what happens in certain conditions to establishing these as priority rules involves design choice not explicitly taught. PHOSITA would need to select this specific ordering from multiple possible priority schemes (e.g., grid-first for revenue, storage-first for backup). With strictness=0.60, this weak implicit evidence is insufficient for obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            7,
+            13,
+            14,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "These claims require display images depicting energy flow amounts. Coverage score 0.0—no prior art discloses visualization or display. US-2016164299-A1 states need for 'visualization' but provides no teaching on implementation. Generic knowledge that computers can display data is insufficient to render obvious the specific visualization format claimed (depicting amounts from sources to sinks or vice versa). Visualization design involves numerous choices (format, layout, granularity, presentation style) not addressed in prior art. This is not mere automation—it requires selecting specific display approach from many alternatives. The entire display aspect is absent from prior art, making obviousness rejection untenable."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            15
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 8, 15 require apparatus/medium with: (a) controller/processor (covered), (b) visualization module (not covered), (c) obtaining measurements (covered), (d) computing based on priority rules (not covered), (e) generating display (not covered). Coverage score 0.5-0.55. Critical elements—visualization module, priority-based computation, display generation—lack explicit prior art disclosure. US-2016164299-A1 teaches control module and measurement. US-2013297084-A1 teaches algorithm control. US-2012228933-A1 teaches monitoring. But none teach the combination of visualization module + priority allocation computation + display generation. The combination of multiple unobvious elements (priority rules per claims 4-5, visualization per claims 6-7) does not become obvious merely because some routine elements (controller, measurement) are known. With strictness=0.60, this weak evidence for the claimed combination is insufficient."
+        }
+      ]
+    }
+  ]
+}

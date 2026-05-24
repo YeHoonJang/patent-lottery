@@ -1,0 +1,426 @@
+{
+  "case_id": "2018002356",
+  "proceeding_number": "2018002356",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 청구항 1-35, 36-44, 46-50의 거의 모든 구성요소를 명시적 또는 암시적으로 공개하고 있으며, 해당 분야의 통상의 기술자가 쉽게 결합할 수 있는 동기가 명확합니다. 결합의 자명성은 Graham 요소를 통해 체계적으로 검토되었으며, confidence 점수가 0.75 이상인 경우가 대부분입니다. 이는 거절 근거로서 충분한 강도를 가집니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 22는 부모 청구항 16에 'optical machine-readable code'라는 한정 요소가 포함되지 않았음에도 이를 한정하고 있어, 명세서의 서술 범위를 벗어납니다. 이는 35 U.S.C. § 112의 서면 설명 요건을 충족하지 못하며, 명확한 근거가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 청구항의 핵심 구성요소(기계가 읽을 수 있는 코드, 거래 세부 정보 요청/수신, 사용자 선택 옵션 전송 등)를 명시적으로 또는 암시적으로 공개하고 있으며, QR 코드/NFC 사용이나 거래 옵션(수량, 품질, 색상, 크기, 배송 세부 정보 등)은 해당 분야의 통상 기술로 간주됩니다. 결합 동기(motivation to combine)는 시장 요구 및 기술적 효율성으로 충분히 뒷받침되며, Graham 요인 분석에서도 자명성이 인정됩니다. confidence 점수(0.88~0.99)가 높고, 선행기술과의 중첩이 명확하여 거절 근거가 강합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 22의 의존성 불일치(방법 청구항에서 시스템 청구항으로 의존)는 35 U.S.C. § 112의 명확한 위반입니다. 청구항의 문언 자체로 판단 가능하며, 모호성이나 해석의 여지가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1은 'funding source' 선택 기능을 명시적으로 개시하고 있으나, 청구항 7, 15, 24, 33, 39, 49의 'selection of a funding source'가 선행기술과 실질적으로 동일하다고 판단된 근거는 명확하지만, 출원인의 기술적 기여가 완전히 부정되지 않았음. combination_threshold=0.68을 고려할 때, 결합 동기가 공지상식 수준으로 인정되지만, 출원인의 혁신 지원 성향(strictness=0.25)에 따라 보정 또는 추가 설명을 통해 허여 가능성을 열어둘 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 7, 15, 24, 33, 39, and 49 are based on the prior art reference US-2012296725-A1, which explicitly discloses 'preferred payment options' such as 'credit card, debit card, checking account.' The selection of a funding source from these options is a conventional aspect of financial transactions, making these claims obvious to a person having ordinary skill in the art. The combination motivation is logical and supported by common knowledge."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항의 구성요소를 명시적 또는 암시적으로 개시하고 있으며, confidence 수준이 높음 (0.75-0.95). 특히 'machine-readable tag'와 'bar code'의 기능적 동일성, 'mobile telephone'과 'portable computing device'의 동일성 등이 명확함. strictness=0.89에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1의 구성요소들이 통상의 기술자에게 자명하게 결합될 수 있는 동기가 명확하며, combination_threshold=0.45를 충족함. 예를 들어, 기계가 읽을 수 있는 코드와 네트워크 통신의 결합은 모바일 거래 시스템의 표준 설계 선택임. confidence 수준이 높음 (0.8-0.95). strictness=0.89에 따라 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 22의 참조 모순 (method claim 참조 vs. system claim)은 명백한 indefiniteness를 야기하며, 명세서에서도 해결되지 않음. Definiteness 요건을 충족하지 못하므로 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항들의 모든 구성요소를 명시적 또는 암시적으로 공개하고 있으며, 단일 문헌으로 신규성 부족이 명확히 입증됨. 거절 근거의 confidence가 0.78~0.85로 높고, 증거가 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 머신리더블 태그를 공개하고 있으나, 바코드/QR 코드 구체화나 거래 옵션('quantity, quality, color, size')은 설계 선택 수준의 결합 동기로 해석될 수 있음. confidence가 0.8~0.88로 높지만, 통상의 기술자의 자명성 판단에 일부 해석의 여지가 있음. 그러나 strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 22의 참조 오류와 청구항 44의 문법 오류는 명백하며, 명세서의 기재요건 위반으로 명확함. 수정 요구는 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1은 핵심 기술(기계가 읽을 수 있는 코드를 통한 거래 처리)을 개시하고 있으나, 청구항의 일부 구성요소(QR 코드, NFC, 구체적인 거래 옵션 등)는 명시적으로 개시되지 않았습니다. 그러나 이러한 구성요소는 해당 분야의 공지기술 또는 설계 선택으로 간주될 수 있으며, 결합 동기가 논리적이므로 103 거절 근거는 moderate 강도로 평가됩니다. strictness=0.47에 따라, 일부 청구항은 보정 또는 추가 설명을 통해 허여 가능성을 고려할 수 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서의 'transaction details' 및 'additional transaction details'의 범위가 모호하며, NFC 기술의 구체적인 구현 방식에 대한 설명이 불충분합니다. 그러나 이러한 문제는 보정을 통해 해결 가능하므로 moderate 강도로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 청구항의 핵심 구성요소(기계가 읽을 수 있는 코드 읽기, 거래 세부 정보 요청 및 수신, 사용자 선택 사항 전송, 결제 개시 등)를 명시적으로 또는 암시적으로 공개하고 있습니다. QR 코드나 NFC와 같은 기술은 해당 분야에서 공지된 기술로, 통상의 기술자가 예측 가능한 수준에서 결합할 수 있습니다. 결합 동기(motivation to combine)가 명확하며, Graham 요인 분석에서도 진보성이 인정되지 않습니다. confidence 점수도 대부분 0.8 이상으로 높습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 제공되었으며, 해당 문헌이 청구항의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있어 근거가 명확합니다. confidence 값도 대부분 0.8 이상으로 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "QR 코드나 거래 옵션(수량, 품질, 색상, 크기) 등은 공지 기술로 볼 수 있으나, 결합 동기의 명확성이 다소 부족합니다. combination_threshold=0.22이므로 결합 동기가 인정되지만, confidence 값이 0.75~0.85로 중간 수준입니다. strictness=0.46에 따라 일부 청구항은 보정 가능성 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 22의 오기 문제는 형식적 결함으로, 실질적 거절 근거가 아닙니다. 보정으로 쉽게 해결 가능합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            7,
+            10,
+            11,
+            15,
+            18,
+            19,
+            27,
+            28,
+            33,
+            39,
+            42,
+            43,
+            49
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 기계가 읽을 수 있는 태그를 통해 거래 세부 정보를 처리하는 시스템을 명시적으로 개시하고 있으며, 청구항들의 추가 요소(예: 거래 세부 정보 요청, 사용자 선택 사항 처리, 결제 개시)는 해당 분야의 통상의 기술자가 쉽게 구현할 수 있는 수준입니다. 결합 동기(motivation to combine)가 명확하고, Graham 요인 분석에서도 차이점이 통상의 설계 선택으로 간주됩니다. 따라서 근거의 강도는 강합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            22,
+            44
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 22의 'Claim 16' 참조 오류와 청구항 44의 'the an associated transaction identifier' 문구는 명백한 오류로, 청구항의 명확성을 해치며 indefiniteness를 유발합니다. 이는 35 U.S.C. § 112의 요건을 충족하지 못하므로 근거의 강도는 강합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 청구항의 핵심 구성요소(기계가 읽을 수 있는 코드, 휴대용 장치, 네트워크를 통한 거래 처리, 사용자 선택 옵션 등)를 포괄적으로 공개하고 있으며, 이러한 요소들의 결합은 해당 분야의 통상의 기술자에게 자명합니다. 결합 동기(motivation to combine)도 명확하며, Graham 요인 분석 결과 차이점은 미미하고 해당 분야의 기술 수준에 비추어 자명하다고 판단됩니다. confidence 점수도 대부분 0.8 이상으로 높습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'quality'라는 용어의 모호성은 해당 분야에서 일반적으로 사용되는 용어이지만, 명세서에 명확한 정의가 없으므로 indefiniteness로 볼 수 있습니다. 그러나 출원인이 용어를 명확히 정의하거나 제거할 경우 보정이 가능할 것으로 보입니다. Claim 36의 'transaction identification', 'transaction information', 'transaction details' 간의 모호성도 유사하게 보정 가능하지만, 현재 상태에서는 indefiniteness가 존재합니다. strictness=0.52에 따라 moderate 강도로 판단하여 보정 요구를 유지합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 제공되었으며, 해당 문헌이 청구항의 모든 구성요소를 명시적으로 개시하고 있어 신규성 결여가 명확함. 거절 근거의 confidence가 0.75 이상으로 높고, 단일 문헌으로 충족되어 근거 강도가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "QR 코드나 NFC는 공지기술로 인정되지만, 결합 동기가 명확하고 통상의 기술자가 쉽게 도출할 수 있는지는 해석의 여지가 있음. 그러나 결합 동기(confidence 0.8 이상)와 Graham 요인 분석이 제시되어 근거는 있으나, strictness=0.42에 따라 일부 청구항은 보정 가능성 고려."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 22와 44의 오류(잘못된 참조, 오타)는 명백하며, 모호성으로 인해 112 거절이 타당함. 명세서 뒷받침 여부와 무관하게 청구항 자체의 명확성 문제가 존재함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1은 청구항 1, 2, 3, 5, 7, 9, 10, 11, 12, 15, 17, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33, 35, 39, 41, 42, 43, 44, 46, 49의 구성요소를 명시적으로 또는 전체 구성요소의 유사성 및 결합 가능성을 고려할 때 개시하고 있습니다. confidence가 0.7 이상으로 높으며, 신규성 부정 근거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1은 바코드 리더 기능을 개시하고 있으며, QR 코드는 바코드의 확장된 형태로 통상의 기술자가 쉽게 적용할 수 있는 변형입니다. 그러나 '수량, 품질, 색상, 크기'와 같은 구체적인 거래 옵션은 거래 시스템에서 공통적으로 사용되지만, 결합 동기(combination_threshold=0.48) 기준에 따라 판단 시 일부 청구항은 진보성 근거가 약할 수 있습니다. confidence가 0.8 이상인 청구항은 강하게 유지되지만, 0.75 이하인 청구항은 성향에 따라 허여 가능성을 고려합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않아 청구항 자체의 모호성이나 뒷받침 부족 여부를 판단할 수 없습니다. 따라서 112 근거는 적용하지 않습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "추상적 아이디어에 해당할 가능성은 있으나, 구체적인 기술적 구현이 포함되어 있어 101 근거로 거절하기에는 증거가 부족합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012296725-A1이 제공되었으며, 단일 문헌이 청구항의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있어 근거가 명확합니다. strictness=0.60에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 '머신-readable 태그'를 개시하고 있으나, 구체적인 바코드/QR 코드 구현은 설계 선택의 영역입니다. 결합 동기가 논리적이지만, 해당 분야의 공지기술 수준에 따라 해석의 여지가 있습니다. strictness=0.60에 따라 근거가 충분하여 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 22와 44의 명백한 오류(잘못된 의존 관계 및 문법 오류)가 있으며, 명세서의 뒷받침이 부족합니다. 근거가 명확하여 거절 유지."
+        }
+      ]
+    }
+  ]
+}

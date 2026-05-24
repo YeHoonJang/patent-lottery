@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes §102 anticipation with element-by-element analysis against specific prior art references (Kwon, Lee) and §103 obviousness using Graham/KSR-style factors including scope of prior art, motivation to combine, and result-effective variable optimization."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection cites specific claim language (e.g., off-time adjustment, threshold crossings), specific prior art paragraphs/claims (Kwon para [0022], [0030], Claim 8; Lee para [0035], Claim 1), and maps them to individual claim elements throughout the §102 and §103 analyses."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds claims 4, 12, and 18 novel (no anticipating references), yet the obviousness stage defaults all claims to non-obvious ('LLM unavailable'), creating a gap where those novel claims are later rejected as obvious in the office action without any intervening §103 analysis from the obviousness stage itself — a contradiction between stages that is introduced by system failure rather than stated examiner rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.875, the examiner consistently resolves ambiguity toward rejection, including treating implicit/inherent disclosures as anticipatory, characterizing specific numerical ranges as obvious routine optimization, and allowing no claims — behavior squarely consistent with a high-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage-level findings: §102 anticipation for the majority of claims and §103 obviousness for the numerical-threshold dependent claims, with the summary explicitly tying each claim decision to the prior-stage rejections."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000426",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10843,
+      "output_tokens": 432,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

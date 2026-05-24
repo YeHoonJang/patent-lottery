@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 anticipation using element-by-element comparison against US-2018113244-A1, applies Graham factors for §103 obviousness, and invokes §112(a) written description for claims depending on a canceled base claim — each under the appropriate statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific claim language (e.g., 'white marking material,' 'ink,' 'toner,' 'non-smooth surface'), maps it to specific disclosures in US-2018113244-A1 (e.g., 'light scattering particles disposed between said reflector and said convex broad-area surface'), and explains the correspondence."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage acknowledges ambiguity for several elements (e.g., claim 9's second marking material position is 'not clear,' claim 6's color is not mentioned in the prior art) yet the §103 obviousness stage and office action assert equally or more confident rejections on those same elements without adding materially new rationale, and multiple claims (e.g., 4, 5, 12, 13) are rejected under §102 based on reasoning (ink/toner as 'obvious' carrier) that is actually §103-level, creating an internal inconsistency between the novelty and obviousness stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves ambiguities toward rejection throughout all stages — e.g., treating implicit/functional disclosures as anticipating, treating design-choice variations as non-novel, and maintaining strong rejection across all contested claims — consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims 3–20 follows directly from the accumulated §102 and §112 findings, and the single grant of claim 2 is consistent with it not being flagged at any prior stage, with explicit rationale tying each claim decision back to prior-stage analysis."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001686",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15368,
+      "output_tokens": 496,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

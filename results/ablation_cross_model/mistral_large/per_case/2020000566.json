@@ -1,0 +1,561 @@
+{
+  "case_id": "2020000566",
+  "proceeding_number": "2020000566",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1은 분산 시스템 모니터링 및 집계의 핵심 요소를 공개하며, 청구항의 차이점('population metrics', 'aggregation techniques')은 해당 분야의 통상적 설계 선택으로 판단됨. 결합 동기(motivation to combine)가 명확하고, combination_threshold=0.34 이하로 자명성 판단 기준을 충족함. confidence 점수(0.7~0.95)가 높고, strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            5,
+            6,
+            9,
+            10,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "'special metrics' 및 'metric tables'는 선행기술에서 명시적 공개가 없지만, 모니터링 시스템에서의 공지된 기술로 볼 수 있음. 그러나 청구항의 구체적 구조(예: 시간 관련 추가/삭제 이벤트 기록)는 자명하지 않다는 반론 가능. confidence 점수(0.75~0.8)가 중간 수준이지만, strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            6,
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "'metric table'의 구체적 구현 및 기능에 대한 명세서 설명이 불충분함. 청구항의 모호성도 존재하나, 112 거절은 보정으로 해결 가능. strictness=0.79에 따라 보정 요구로 처리."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            12,
+            13,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015142940-A1은 시간 순서 데이터 포인트 저장 및 시간 관련 숫자 값을 명시적으로 개시하지 않지만, 시스템 모니터링 분야에서 공지된 기술로 해석될 수 있음. 결합 동기는 존재하지만, 청구항의 구체적인 구현 방식이 선행기술에서 명시적이지 않아 moderate 강도로 평가. strictness=0.88에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            8,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 데이터 집계 및 분석을 다루며, 집계 엔티티와 인구 메트릭의 개념을 암시함. 통상의 기술자가 이를 구현하는 것은 설계 선택의 일환으로 명백하지만, 청구항의 구체적인 연관성이 명시적이지 않아 moderate 강도로 평가. strictness=0.88에 따라 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1은 가상 머신, 컨테이너 등 실행 환경을 명시적으로 개시하여 청구항 7과 14의 신규성을 부정함. 증거가 명확하여 strong 강도로 평가. 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "분산 애플리케이션 구성 요소를 객체 엔티티로 표현하는 것은 설계 선택의 일환으로 명백하지만, 선행기술에서 명시적이지 않아 moderate 강도로 평가. strictness=0.88에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015142940-A1은 분산 애플리케이션 구성 요소의 실행 환경을 명시적으로 개시하지만, 객체 엔티티로 표현하는 구체적인 메커니즘은 개시하지 않음. 그러나 통상의 기술자가 설계 선택으로 객체 엔티티를 도입할 동기는 존재함. 결합 동기의 명확성은 있으나, 청구항의 구체적인 기술적 기여(상태 정보 저장 서브시스템 제어 구성 요소와의 연관성)를 고려할 때 근거 강도는 moderate임."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 1의 'state-information-storage subsystem'과 선행기술 US-2015142940-A1의 'information concentrator'는 기능적으로 유사하지만, 청구항 1의 표현이 매우 포괄적이며 선행기술이 구체적인 기술적 구현을 명시적으로 개시하지 않음. 결합 동기(motivation to combine)는 존재하지만, 청구항 1의 기술적 기여가 명확하지 않아 103 거절의 강도는 moderate로 평가됨. strictness=0.29에 따라, 출원인에게 유리하게 판단할 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 (REF1)은 컴퓨터 시스템 모니터링 및 데이터 수집, 분석, 가상화 환경에서의 구성 요소 관리와 관련된 핵심 기능을 폭넓게 공개하고 있습니다. 청구항의 구성요소들은 REF1에서 직접적으로 또는 암시적으로 공개되거나, 해당 기술 분야에서 공지된 관행(예: 시계열 데이터 저장, 객체 엔티티 표현, 집계 엔티티 사용, 메트릭 테이블을 통한 연관성 추적, 이상치 탐지 등)으로 판단됩니다. 결합 동기(motivation to combine)는 명확하며, Graham 요인 분석 결과 PHOSITA에게 자명하다고 평가됩니다. confidence 점수(0.7~0.9)는 근거의 강도를 뒷받침합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1은 분산 시스템 모니터링 및 데이터 수집/분석 기능을 포괄적으로 다루며, 청구항의 '객체 엔티티', '집계 엔티티', '인구 메트릭' 등은 통상의 기술자가 쉽게 도출할 수 있는 설계 선택으로 판단됨. Graham 4요소 분석 결과 PHOSITA 수준에서 자명하며, 결합 동기(motivation to combine)도 명확함. 근거 강도가 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 1의 'control component' 및 'state-information-storage subsystem'에 대한 명세서 설명이 불충분함. 그러나 'control component'의 구체적 기능이 청구항의 핵심인지 여부에 따라 판단이 달라질 수 있음. strictness=0.82 성향에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1이 청구항 3의 'object entity' 개념을 명시적으로 개시하고 있으며, confidence 0.85로 높음. 단일 문헌이 모든 구성요소를 충족하므로 거절 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015142940-A1이 기본적인 모니터링 및 데이터 수집 기법을 개시하고 있으나, 청구항별 차이점(예: 시간순 데이터 저장, 아웃라이어 탐지 등)은 해당 분야의 통상적 설계 선택으로 볼 여지가 있음. 결합 동기(motivation to combine)는 논리적이지만, confidence 0.7-0.75로 중간 수준. strictness=0.47에 따라 보정 가능성 고려."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 1의 103 거절 근거는 US-2015142940-A1의 선행기술이 유사한 기능을 개시하고 있으나, 청구항의 구체적 구성요소('state-information-storage subsystem', 'metric-collection subsystem', 'population-metric-monitoring subsystem')를 명시적으로 결합할 동기가 명확하지 않음. 선행기술은 가상화 환경에서의 데이터 수집 및 분석을 다루지만, 청구항의 세부 메커니즘(예: population metric 모니터링, 이상치 탐지)을 직접적으로 개시하지 않음. 결합 동기는 논리적이지만, 청구항의 구체적 구현을 도출하기에는 증거가 부족함. strictness=0.55에 따라, 근거 강도가 moderate인 경우 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claim 1의 102 거절 근거는 US-2015142940-A1이 유사한 기능을 개시한다고 주장하지만, 청구항의 구체적 구성요소를 완전히 충족하지 않음. 선행기술은 'state-information-storage subsystem'과 유사한 기능을 암시하지만, 청구항의 모든 요소를 명시적으로 개시하지 않음. 따라서 102 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015142940-A1은 시스템 성능 지표 수집 및 집계 방법을 개시하지만, 청구항의 구체적 구성(예: object entity 표현, aggregation entity 집계, special metric의 시간 연관 저장 등)은 직접적으로 개시하지 않음. 그러나 통상의 기술자가 공지된 기술들을 결합하여 청구항의 일부 구성에 도달할 동기가 있다고 판단됨. strictness=0.46에 따라, 근거의 강도는 moderate로 평가되며, 일부 청구항은 거절하되, 신규성/진보성이 인정되는 청구항은 허여 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 '940 reference'는 시스템 모니터링과 데이터 수집을 다루지만, 청구항 1의 구체적 구성요소(객체 엔티티, 집계 엔티티, 인구 메트릭 등)를 명시적으로 개시하지 않음. PHOSITA의 일반 지식을 결합한 동기는 논리적이지만, 청구항의 구체적 구현이 선행기술에 명시되지 않아 진보성 판단에 해석의 여지가 있음. strictness=0.50에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 3-10은 객체 엔티티, 집계 엔티티, 인구 메트릭 등 시스템 모니터링의 구체적 구현을 다루지만, 선행기술은 이러한 구체적 구현을 명시하지 않음. PHOSITA의 일반 지식을 결합한 동기는 있으나, 청구항의 구체적 구성요소가 선행기술에 명시되지 않아 진보성 판단에 해석의 여지가 있음. strictness=0.50에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "이상치 탐지 및 경보 기능은 시스템 모니터링 분야에서 공지된 기술이지만, 선행기술은 이를 구체적으로 개시하지 않음. PHOSITA의 일반 지식을 결합한 동기는 있으나, 청구항의 구체적 구현이 선행기술에 명시되지 않아 진보성 판단에 해석의 여지가 있음. strictness=0.50에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 12-17은 청구항 1-10의 방법론적 구현을 다루지만, 선행기술은 이러한 구체적 방법을 명시하지 않음. PHOSITA의 일반 지식을 결합한 동기는 있으나, 청구항의 구체적 구성요소가 선행기술에 명시되지 않아 진보성 판단에 해석의 여지가 있음. strictness=0.50에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "이상치 탐지 및 경보 기능은 시스템 모니터링 분야에서 공지된 기술이지만, 선행기술은 이를 구체적으로 개시하지 않음. PHOSITA의 일반 지식을 결합한 동기는 있으나, 청구항의 구체적 구현이 선행기술에 명시되지 않아 진보성 판단에 해석의 여지가 있음. strictness=0.50에 따라 증거의 강도가 충분하지 않다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 19-20은 컴퓨터 명령어를 통한 구체적 구현을 다루지만, 선행기술은 이를 명시하지 않음. PHOSITA의 일반 지식을 결합한 동기는 있으나, 청구항의 구체적 구성요소가 선행기술에 명시되지 않아 진보성 판단에 해석의 여지가 있음. strictness=0.50에 따라 증거의 강도가 충분하지 않다고 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 1,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1 (REF1)이 청구항 1의 'state-information-storage subsystem' 및 'control component'에 해당하는 기능을 명시적으로 개시하고 있음. REF1의 'information concentrator'가 데이터 수집, 저장, 분석 기능을 수행하며, 이는 청구항 1의 구성요소와 직접적으로 대응됨. 따라서 102 근거는 명확하고 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 1,
+          "strength": "moderate",
+          "reasoning": "REF1이 유사한 시스템을 개시하고 있으나, 청구항 1의 구체적인 'population metric' 모니터링 및 저장 기능으로의 확장 여부는 통상의 기술자(PHOSITA)의 공지 기술과 결합 동기에 따라 판단 가능함. 결합 동기는 논리적이지만, 청구항 1의 구성요소가 REF1에서 명시적으로 개시되지 않아 진보성 판단에 일부 해석의 여지가 있음. strictness=0.52에 따라 moderate 강도로 평가함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 1,
+          "strength": "moderate",
+          "reasoning": "Claim 1의 범위가 광범위하여 US-2015142940-A1의 선행기술과 유사성이 있으나, 명시적인 구성요소나 기능적 제한이 부족하여 novelty 판단에 해석의 여지가 있음. strictness=0.42에 따라, 증거의 강도가 충분하지 않다고 판단되므로 거절 근거로서는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            7,
+            11,
+            12,
+            13,
+            14,
+            18,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "각 청구항의 103 거절 근거는 US-2015142940-A1과 일반적 지식의 결합에 기반함. 그러나 결합 동기(motivation to combine)가 명확하지 않거나, 암시적 공개에 의존하는 경우가 많아 근거의 강도가 moderate 수준임. strictness=0.42에 따라, 일부 청구항은 보정 가능성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            5,
+            6,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "이 청구항들은 선행기술에 명시적으로 공개되지 않은 구체적인 기능이나 구조를 포함하고 있어, 103 근거가 약함. 특히 'object entity', 'aggregation entity', 'special metric', 'metric table' 등의 용어와 기능은 선행기술에서 직접적으로 유추되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 obviousness rejection is based on the combination of US-2015142940-A1 with common knowledge in system monitoring and data management. While the '940 reference discloses core elements of the claims (e.g., collecting and analyzing virtualization-related data), the specific combinations of 'object entities,' 'aggregation entities,' 'special metrics,' and 'metric tables' are not explicitly disclosed. However, the motivation to combine these elements is plausible given the PHOSITA's knowledge of standard practices in system monitoring. The confidence scores for obviousness (ranging from 0.65 to 0.75) suggest moderate strength, but the lack of explicit disclosure in the prior art introduces some interpretive flexibility. Given the strictness threshold of 0.52, this leans toward rejection but with room for amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            7,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1이 청구항 3, 7, 14의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.9로 높음. 신규성 부족은 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            8,
+            12,
+            13,
+            15,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015142940-A1과 공지기술의 조합으로 진보성 판단. 차이점은 해당 분야의 통상의 기술자가 쉽게 적용할 수 있는 설계 선택으로 보이나, confidence가 0.7-0.75로 중간 수준. strictness=0.60에 따라 근거가 충분하다고 판단하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            6,
+            9,
+            10,
+            11,
+            16,
+            17,
+            18,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 명시적 교시가 없고, 통상의 기술자가 쉽게 도출할 수 없는 구체적 조합이나 메커니즘을 포함. confidence가 0.8-0.95로 높아 진보성 인정. 거절 근거 부족으로 허여."
+        }
+      ]
+    }
+  ]
+}

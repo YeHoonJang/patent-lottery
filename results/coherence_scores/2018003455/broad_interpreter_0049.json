@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 analysis employs element-by-element anticipation against US-2014324428-A1, and the §103 analysis explicitly invokes Graham factors (scope/content, differences, PHOSITA level, secondary considerations) along with motivation-to-combine reasoning, correctly applying the recognized legal frameworks for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout every claim analysis, conclusions are tied to specific claim language (e.g., 'weighting words,' 'selecting a lexicon') and specific prior art disclosures (e.g., US-2014324428-A1 ¶¶[0024]–[0030], claims 8–14, FIG. 8), providing adequate evidence linkage at each stage."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a notable inconsistency: the §102 novelty stage finds claims 1 and 11 not novel (is_novel=false) with high confidence, yet the §103 obviousness stage finds claims 1 and 11 non-obvious (is_obvious=false), effectively reversing the anticipated/novel determination without clearly explaining how a claim anticipated under §102 can survive §103, creating a logical contradiction across stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.547) is reflected in the balanced approach: most claims are rejected on strong §102/§103 grounds, but the examiner does acknowledge arguable non-obviousness for claims 1, 3, 11, 13, and 20 before ultimately rejecting them, consistent with neither a highly strict nor a highly lenient disposition."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated §102 and §103 findings across all stages, with the final decision summary explicitly referencing the strength of the §102 rejection ('strong') and the moderate §103 grounds, and no claim found patentable at any prior stage is reversed to rejection without explanation."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018003455",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16100,
+      "output_tokens": 481,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

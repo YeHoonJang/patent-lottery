@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences from prior art, PHOSITA level, and secondary considerations) throughout all obviousness evaluations, and the office action correctly invokes 35 U.S.C. § 103 as the rejection basis with motivation-to-combine analysis."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "All rejections and allowances reference specific claim elements (e.g., 'unstructured text description,' NLP keyword extraction, GUI format conversion) against explicit disclosures in US-2016140466-A1 (e.g., scorecard monitoring, category risk), with claim-by-claim comparisons throughout."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage is consistent with §102 novelty findings — claims found novel (e.g., claim 1 with no anticipating refs) are generally found non-obvious with additional rationale, while claims 3, 5, 10, 12, 17, 19 found novel at §102 but obvious at §103 are supported by explicit additional reasoning (GUI output as routine, activity count as common knowledge), with no unexplained contradictions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.79 and low combination_threshold of 0.335 are reflected in the trace: the examiner rejects claims on relatively thin prior art grounds (GUI display, activity count input) without requiring a second reference, consistent with an easy combiner, and the final decision explicitly notes that even weak innovation should not be protected, aligning with high strictness."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to partially reject (claims 3, 5, 10, 12, 17, 19) and partially allow (remaining claims) follows directly from the accumulated stage analyses, with the weighing section and claim decisions referencing the same strong (0.85, 0.82 confidence) §103 findings from the obviousness stage."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006000",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15508,
+      "output_tokens": 489,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

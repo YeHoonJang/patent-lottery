@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) across all §103 analyses, with no misapplication of §101 or other statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific language from US-2012296725-A1 (e.g., 'machine-readable tag,' 'preferred payment options,' 'portable computing device') and maps it to specific claim elements, satisfying evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage builds coherently on §102 findings—claims found novel at §102 (4, 6, 8) are either found obvious or allowed at §103/office action, and claims found not novel at §102 are rejected as obvious with consistent reasoning throughout."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.875 and combination_threshold=0.344, the examiner aggressively rejects most claims including QR code (claim 4) and NFC (claim 36) variants on thin prior art, and even claims 6 and 8 are not allowed outright but only indicated as allowable subject matter contingent on rewriting as independent claims—consistent with a strict examiner resolving ambiguity toward rejection."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject follows directly from the accumulated stage analyses, with claims 6 and 8 treated as conditionally allowable (amend_suggested) consistent with their novelty findings, and all other claims rejected per the §103 analyses with no unexplained reversals."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018002356",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9812,
+      "output_tokens": 402,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

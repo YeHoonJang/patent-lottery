@@ -1,0 +1,323 @@
+{
+  "case_id": "PILOT-2017000776",
+  "proceeding_number": "2017000776",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.5,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013124263-A1은 거래 데이터를 지리적 지역(예: 우편번호)에 따라 집계하고, 소비자 지출 행동을 분석하며, 지역별 지출 프로필을 생성하는 핵심 요소를 개시하고 있음. 'purchase centroid'의 명시적 기재는 없으나, 개별 거래 위치 기반의 중심점 계산은 공간 데이터 분석에서 통상적인 기술이며, 정확도 향상을 위한 동기는 명확함. 결합 동기와 PHOSITA 수준에서의 예측 가능성에 대한 근거가 충분함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.22,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013124263-A1은 지리적 지역과 상점 카테고리에 따라 거래 데이터를 집계하고 정규화하여 소비 프로파일을 생성하는 것을 개시함. 청구항 1의 '구매 중심점(purchase centroid)' 계산은 이 기술의 자연스러운 연장선으로, 위치 기반 마케팅에서 정확도를 높이기 위한 예측 가능한 설계 선택임. 선행기술이 거주지 기반 분석의 한계를 인식하고 있으며, 실제 소비 활동 중심지를 반영하려는 동기가 명확함. 결합 동기와 예측 가능성 모두 충족되어 강력한 obvious 판단 근거가 됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "우편번호(zip code), 시계 경계(municipal boundaries), 상점 좌표, 가중치 부여, 카테고리 필터링 등 종속청구항의 구성요소들은 대부분 US-2013124263-A1에서 직접 개시되거나 소비자 분석 분야의 통상적 데이터 세분화 기술임. 이러한 요소들은 개별적으로나 조합적으로도 창의성 있는 단계를 제공하지 않음. 특히 우편번호 및 상점 카테고리 집계는 명시적으로 개시되어 있어 obviousness 판단이 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "모바일 기기 위치 정보를 거래 위치 식별에 사용하는 것은 US-2011320345-A1에서 개시됨. 이를 US-2013124263-A1의 시스템에 통합하는 것은 위치 정확도 향상이라는 명확한 동기를 가지며 예측 가능한 결과를 낳음. 그러나 두 기술의 통합이 지리적 소비 프로파일링의 핵심 기능에 필수적이라고 단정하기는 다소 제한적이나, 통상의 기술자에게는 자명한 결합으로 간주될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 9, 14, and 21 recite features explicitly disclosed in US-2013124263-A1: use of zip codes/postal codes for geographic areas and filtering transactions by merchant category. These are conventional techniques in the field of transaction data analysis, directly taught in the prior art for the same purpose (regional spending profiling). The motivation to combine is inherent in the reference itself, satisfying the 103 standard even under a lenient interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술인 US-2013124263-A1과 US-2011320345-A1은 각각 지리적 거래 집계 및 위치 기반 거래 처리를 개시하지만, 소비자별 purchase centroid를 계산하고 이를 미리 정의된 지리적 중심점과 거리 기반으로 연관짓는 구성은 포함하지 않으며, 결합 동기도 명확하지 않음. 결합 동기 기준(combination_threshold=0.72) 대비 낮은 동기 가능성으로 판단됨. 가중치 적용, 데이터 필터링, 개인정보 보호 기반 설계 등 추가 요소들은 진보성에 긍정적 영향을 미침."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 9, 14, and 21 are directly and unambiguously disclosed in US-2013124263-A1. Claim 2 of the reference explicitly recites geographic regions configured in accordance with postal codes, anticipating claims 2 and 14. Claim 6 discloses aggregating transactions by merchant categories, which inherently requires filtering by predetermined category, thus anticipating claims 9 and 21. The disclosures are clear and literal, satisfying the 102 standard."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Defining geographic areas by latitude/longitude or municipal boundaries represents well-known, conventional practices in GIS and spatial analytics. US-2013124263-A1 already discloses use of geographic regions (e.g., census block groups, metropolitan areas), and substituting coordinate-based definitions or administrative boundaries is a predictable variation to improve precision or local relevance. Motivation to combine is strong due to widespread industry use and functional equivalence."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 4, 9, 14, 16, and 21 are directly anticipated by US-2013124263-A1, which explicitly discloses zip/postal code-based regions, municipal boundaries via MSA, and merchant category-based transaction filtering. The anticipation is clear and supported by specific claim language in the prior art, satisfying 35 U.S.C. § 102 with high confidence (0.75–0.95). These rejections are strong and withstand verification."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2013124263-A1 and US-2011320345-A1 provides a basis for improving spatial accuracy in consumer behavior modeling, but the specific method of calculating individual purchase centroids and associating spending behaviors with multiple geographic centroids based on distance is not explicitly disclosed or strongly suggested. While the use of location data and geographic aggregation is known, the integration into a centroid-based, privacy-aware, weighted mapping system involves a non-trivial analytical leap. Given the examiner's moderate strictness (0.47), this level of combination does not clearly cross into obviousness without stronger motivation or teaching in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 3, 5, 15, 17, 6, 18, 9, 21, 11, 23에 대한 103 거절은 선행기술과의 직접적인 동일성은 없으나, 해당 기술분야에서 통상의 지식을 가진 자가 용이하게 결합하거나 변형할 수 있는 수준으로 판단됨. 특히 위도/경도 사용, 모바일 기기 위치 식별, 카테고리 기반 필터링, 소비 행동 지표는 GIS, 위치기반 서비스, 금융 분석 분야에서 관행적 기술로 간주됨. 그러나 본 발명의 핵심인 '구매 중심점 계산' 및 '다중 지리적 중심점과의 거리 기반 연결'은 이러한 개별 요소들의 단순 조합으로는 자명하지 않음. 따라서 개별 구성요소에 대한 103 거절은 타당하나, 전체 시스템의 진보성에 대한 판단은 신중히 이루어져야 함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2, 9, 14, and 21 are explicitly disclosed in US-2013124263-A1, with clear support in claims and specification. The anticipation is direct and unambiguous, satisfying the statutory requirements under 35 U.S.C. 102."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4, 11, 16, and 23 are rejected under 103 based on US-2013124263-A1. The reference discloses administrative geographic units (e.g., census block groups, MSAs), and municipal boundaries are of similar nature and commonly used. Substitution of one known administrative unit for another to achieve predictable results is within the skill of the art. Motivation to combine is supported by common practice in geographic data analysis. Similarly, brand preference and time of spending are well-known consumer behavior metrics, and their inclusion in spending profiles is an obvious enhancement given the availability of transaction-level data. Confidence in obviousness is high, and the reasoning aligns with Graham factors."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "결합 동기 판단은 논리적 추론에 기반하고 있으나, US-2013124263-A1과 US-2011320345-A1의 기술적 목적과 구현 방식이 상이함. 전자는 지역 단위 지출 프로파일 생성, 후자는 위치 기반 결제 수단 선택에 집중. purchase centroid 계산 및 다중 geographic centroids와의 거리 기반 연계는 단순한 통계적 방법 이상의 기술적 발전으로 보이며, 통상의 기술자가 쉽게 결합할 동기가 있다고 보기 어려움. 다만, 위치 정보 활용 및 데이터 집계 기술은 공지된 기술 요소로 간주될 수 있어, 진보성 거절은 전적으로 명확하지 않음. 심사관 성향(strictness=0.52) 상, 증거가 다소 약한 103 거절은 보정 기회를 부여하는 것이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항에 대해 LLM이 사용 불가로 인해 'non-obvious'로 기본 설정되었으며, 결합 동기나 그레이엄 요소에 대한 실질적 분석이 누락됨. 이는 진보성 거절 근거가 실질적으로 존재하지 않음을 의미함. 해당 정보 부족으로 인해 103 거절은 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013124263-A1은 청구항 2, 9, 14, 21의 모든 구성요소를 단일 문헌에서 명시적으로 개시하고 있으며, 각각의 기재가 직접적이고 명확함. 특히 우편코드 기반 지리적 영역 정의 및 상업 분야 기반 거래 집계는 동일한 기술적 특징으로, 신규성 상실 판단에 강한 증거가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013124263-A1의 청구항 2는 '다양한 지역이 우편번호(postal codes)에 따라 구성된다'고 명시하고 있으며, 이는 청구항 2 및 14의 구성요소를 명확하고 직접적으로 개시하고 있다. 선행기술 문헌이 제공되었고, 단일 문헌에서 명시적 개시가 확인되어 신규성 결여 판단의 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단이 'LLM unavailable — default to non-obvious'로 기재되어 있으며, 결합된 선행기술, 결합 동기, 그레이엄 요소 등 실질적인 분석이 누락됨. 결합 동기나 기술적 근거가 제시되지 않아 obvious 판단의 근거가 없음. combination_threshold=0.57 기준보다도 낮은 신뢰도로, 판단 근거 부족."
+        }
+      ]
+    }
+  ]
+}

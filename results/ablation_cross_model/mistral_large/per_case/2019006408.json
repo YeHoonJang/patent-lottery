@@ -1,0 +1,798 @@
+{
+  "case_id": "2019006408",
+  "proceeding_number": "2019006408",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017145561-A1, US-2017232725-A1, US-2016159651-A1, 및 US-2014151288-A1의 결합은 청구항 3-10의 모든 구성요소를 개시하거나 암시합니다. 특히, 'porous metal structure', 'carbon nanotube structure', 'fixed on surface', 'shrunk together', 및 'wrinkled parts'는 명시적 또는 암시적으로 개시되어 있으며, 결합 동기는 통상의 기술자에게 명백합니다. confidence 점수(0.78-0.95)와 combination_threshold=0.34에 따라, 근거 강도는 strong으로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Combination of US-2017145561-A1, US-2017232725-A1, and US-2016159651-A1 provides clear motivation to combine for the claimed invention. The alignment of carbon nanotubes is a predictable variation, and the references collectively disclose all elements of the claim. Confidence is high (0.88)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017232725-A1 discloses the formation of wrinkled parts through shrinking, and the continuous structure is inherent in the process. No inventive step is required. Confidence is high (0.85)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 discloses a porous metal structure with ligaments and pores, which are standard features. No inventive step is required. Confidence is very high (0.9)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1 discloses carbon nanotubes arranged along the same direction, which is a routine design choice. Confidence is high (0.88)."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "While the references collectively disclose most elements, the alignment of carbon nanotubes is only suggested. However, given the broad interpretation of novelty and the strictness level (0.88), this is sufficient for rejection. Confidence is high (0.88)."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017232725-A1 explicitly discloses the formation of a continuous structure through shrinking. Confidence is high (0.82)."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly discloses ligaments and pores in a porous metal structure. Confidence is high (0.85)."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1 explicitly discloses carbon nanotubes arranged along the same direction. Confidence is high (0.85)."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103_obviousness is based on the combination of prior art references, but the reasoning relies heavily on the assumption that the differences (e.g., directional alignment of wrinkled parts, continuous wrinkled structures, specific material choices) are obvious variations or design choices. While the combination of references is logical, the technical contributions (e.g., directional alignment for enhanced properties, continuous wrinkled structures) are not explicitly disclosed or suggested in the prior art. The confidence levels in the novelty and non-obviousness analyses (ranging from 0.7 to 0.85) suggest that the differences are meaningful and not mere obvious variations. Given the examiner's strictness (0.25) and innovation-supportive philosophy, the rejection grounds are not sufficiently strong to maintain a rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017145561-A1이 청구항 5의 모든 구성요소(porous metal structure, ligaments, pores, carbon nanotube structure, wrinkled parts 형성)를 명확히 개시하고 있음. FIGS. 1A 및 1B의 SEM 이미지와 설명은 ligaments와 pores의 존재를 직접적으로 보여주며, compression 과정을 통한 wrinkled parts 형성도 암시됨. 증거가 명확하여 거절 근거로 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2017145561-A1이 청구항 5의 모든 구성요소를 개시하고 있으나, 결합 동기가 명시적으로 제시되지 않았음. 그러나 해당 분야의 통상의 기술자는 compression 과정을 통해 wrinkled parts가 형성된다는 점을 쉽게 예측할 수 있으며, composite structure의 기계적/전기적 특성 향상을 위한 결합 동기가 암시됨. combination_threshold=0.72 기준으로, 결합 동기가 충분히 인정될 수 있으나, 출원인의 기술적 기여를 고려하여 moderate로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 5, and 10 are anticipated by the combined disclosures of US-2017145561-A1, US-2017232725-A1, and US-2016159651-A1. The references explicitly or inherently disclose all elements of these claims, including porous metal structures, carbon nanotube alignment, and wrinkled parts. Confidence scores (0.85-0.92) support a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 5, 6, 7, 8, 9, and 10 are unpatentable over the combined teachings of US-2017145561-A1, US-2017232725-A1, US-2016159651-A1, and US-2014151288-A1. The motivation to combine these references is clear, and the differences (e.g., specific metals in Claim 6 or bonding materials in Claims 7-9) are design choices or well-known alternatives. Confidence scores (0.8-0.92) and the low combination_threshold (0.45) support a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1, US-2017232725-A1, 및 US-2016159651-A1의 결합은 청구항 3의 모든 요소를 공개하며, 결합 동기가 명확함. confidence=0.85로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "'연속 구조'는 US-2017232725-A1의 'hierarchical wrinkle structures'에서 시사되지만, 명시적 공개는 아님. 설계 선택으로 해석 가능하나, confidence=0.75로 중간 수준."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1이 청구항 5의 모든 요소를 명시적으로 공개함. confidence=0.9로 매우 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "접착 물질은 US-2014151288-A1에서 시사되지만, 청구항 7의 구체적 구성과 직접적 연관성은 약함. confidence=0.7로 중간 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "'접착 물질이 접촉면을 감싸는 것'은 US-2014151288-A1의 'lamination'에서 시사되지만, 명시적 공개는 아님. confidence=0.65로 낮음."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014151288-A1이 유기 바인더 또는 금속 재료를 명시적으로 공개하며, 다른 참조들과 결합 시 청구항 9의 모든 요소를 공개함. confidence=0.8로 높음."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1, US-2016159651-A1, 및 US-2017232725-A1의 결합이 청구항 10의 모든 요소를 공개함. confidence=0.85로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            5,
+            6,
+            9,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌들이 청구항의 구성요소를 구체적으로 개시하고 있으며, confidence 수준이 0.8 이상으로 높음. 특히 US-2017145561-A1은 다공성 금속 구조와 탄소 나노튜브의 결합 및 주름진 부분 형성을 명확히 개시하고 있어 신규성 거절 근거가 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술들의 결합 동기가 논리적이지만, 청구항 4의 'continuous structure'와 같이 일부 구성요소는 암시적 개시에 의존하고 있음. confidence 수준이 0.7~0.85로 보통 수준이며, combination_threshold=0.46을 고려할 때 결합 동기가 인정되지만, 설계 선택의 범주에 해당하는 부분이 있어 근거 강도가 다소 약함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            8
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 'bonding material'의 구체적인 구성과 기능을 명확히 개시하지 않으며, confidence 수준이 0.7~0.75로 낮음. 신규성 근거가 부족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            8
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 'bonding material'이 접촉 표면을 감싸는 구체적인 기능을 결합할 명시적 동기가 부족하며, confidence 수준이 0.7~0.75로 낮음. 진보성 근거가 부족함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017145561-A1 및 US-2016159651-A1이 청구항 5와 10의 모든 구성요소를 명시적으로 개시하고 있어 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017145561-A1, US-2017232725-A1, US-2016159651-A1의 결합 동기가 명확하며, 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 설계 선택으로 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2017232725-A1이 주름진 구조를 개시하고 있으나, '연속 구조'라는 구체적 구성요소는 암시적임. 결합 동기는 설계 선택으로 인정되나, 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014151288-A1이 유기 바인더 또는 금속 재료를 결합 재료로 명시적으로 개시하고 있어, 결합 동기가 명확함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 102 근거로 제시되었으나, 진보성 판단에서 103으로 재분류된 바 있으며, 102 근거로는 증거가 부족함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서의 결합 재료에 대한 구체적 예시 및 적용 방법이 부족하여 enablement 요건을 충족하지 못할 수 있으나, 보정을 통해 해결 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2017232725-A1 및 US-2017145561-A1은 청구항 3의 구성요소를 대부분 개시하나, '탄소 나노튜브 구조가 주름진 부분에서 동일한 방향으로 확장되는 것'은 US-2016159651-A1에 의존. 신규성 판단 기준(strictness=0.46)에 따라 유사성은 인정되나, 명확한 동일성은 부족함. 단, 진보성 판단에서 결합 동기가 인정되어 103 거절이 더 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술들의 결합 동기가 명확하며, combination_threshold=0.22에 따라 자명성 인정. US-2017232725-A1 (주름진 구조), US-2017145561-A1 (탄소 나노튜브 고정), US-2016159651-A1 (나노튜브 방향성)의 결합은 통상의 기술자에게 예측 가능함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017232725-A1은 '연속 구조를 형성하는 주름진 부분'을 명시적으로 개시하지 않으나, '계층적 주름 구조'로 해석 가능. strictness=0.46에 따라 유사성은 인정되나, 명확한 동일성은 부족함. 진보성 판단에서 103 거절이 더 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017232725-A1 (주름진 구조)과 US-2017145561-A1 (탄소 나노튜브 고정)의 결합은 통상의 기술자에게 자명함. 연속 구조는 설계 선택의 범주에 해당함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1은 청구항 5의 모든 구성요소(인대, 기공, 탄소 나노튜브 고정, 주름진 부분 형성)를 명시적으로 개시함. 신규성 거절 근거 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 (인대/기공 구조)과 US-2017232725-A1 (주름진 구조)의 결합은 통상의 기술자에게 예측 가능함. combination_threshold=0.22를 충족함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2016159651-A1 (나노튜브 방향성)과 US-2017232725-A1 (주름진 구조)의 결합은 유사성을 보이지만, 명확한 동일성은 부족함. 진보성 판단에서 103 거절이 더 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1 (나노튜브 방향성)과 US-2017232725-A1 (주름진 구조)의 결합은 통상의 기술자에게 자명함. combination_threshold=0.22를 충족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 인대의 재료로 은(Ag), 백금(Pt), 금(Au) 또는 이들의 조합을 명시적으로 개시하지 않음. 결합 동기가 부족하며, confidence=0.8로 비자명성 인정됨. 거절 근거 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "접착 재료의 사용은 선행기술에서 명시적으로 개시되지 않음. confidence=0.75로 비자명성 인정됨. 거절 근거 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "weak",
+          "reasoning": "접착 재료가 접촉 표면을 감싼다는 특징은 선행기술에서 개시되지 않음. confidence=0.75로 비자명성 인정됨. 거절 근거 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "접착 재료가 유기 바인더 또는 금속 재료라는 특징은 선행기술에서 개시되지 않음. confidence=0.7로 비자명성 인정됨. 거절 근거 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 4, 5, and 10 are assessed as lacking novelty based on the combination of US-2017145561-A1, US-2017232725-A1, and US-2016159651-A1. However, the alignment of carbon nanotubes (Claim 3) and the continuity of wrinkled parts (Claim 4) are not explicitly disclosed in the prior art, leaving room for interpretation. The confidence levels (0.8-0.9) suggest moderate strength but not definitive anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 5, and 10 are strongly rejected under 35 U.S.C. § 103. The combination of references provides a clear motivation to combine for predictable improvements (e.g., alignment of carbon nanotubes for mechanical/electrical properties, continuity of wrinkled parts for structural integrity). The confidence levels (0.8-0.9) and explicit motivation to combine support a strong rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 6, 7, 8, and 9 are assessed as novel, with no direct disclosure in the prior art. The confidence levels (0.7-0.75) are moderate, but the lack of explicit anticipation in the references weakens the novelty rejection for these claims."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 6, 7, 8, and 9 are assessed as non-obvious. The specific material selections (e.g., silver, platinum, gold for ligaments) and bonding material configurations are not suggested by the prior art, and the motivation to combine is insufficient (combination_threshold=0.33 exceeded). The confidence levels (0.75-0.8) support non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술들이 청구항의 구성요소를 개별적으로 충족하지만, 일부 구성요소는 명시적이지 않거나 유사 기술의 결합으로 해석됨. strictness=0.52에 따라 근거가 충분하지만 해석의 여지가 존재함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술들의 결합 동기가 명확하고, 통상의 기술자가 쉽게 예측 가능한 설계 선택으로 판단됨. combination_threshold=0.44에 부합하며, 근거가 충분함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 명시적으로 개시되지 않은 구성요소들이며, 신규성을 부정할 근거가 부족함. strictness=0.52에 따라 거절 근거로 부족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 결합 동기가 명확하지 않으며, 통상의 기술자가 예측하기 어려운 새로운 기능이나 재료 조합임. combination_threshold=0.44를 충족하지 못함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017232725-A1과 US-2016159651-A1의 결합은 탄소나노튜브의 대체 가능성과 주름진 구조의 방향성 제어가 설계 선택의 문제로 명확히 설명됨. 결합 동기가 충분하며, confidence=0.85로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017232725-A1은 주름진 구조를 개시하나, '연속적인 구조'의 명시적 교시는 없음. 그러나 주름진 부분의 연속성은 공정의 자연스러운 결과로 해석 가능. strictness=0.42에 따라 moderate 강도로 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1은 다공성 금속 폼 구조의 모든 구성요소를 명시적으로 개시하며, confidence=0.9로 높음. novelty 거절 근거 명확."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "다공성 금속 구조는 공지된 기술로, confidence=0.95로 높음. inventive step 부재."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1과 US-2017145561-A1의 결합은 탄소나노튜브의 방향성 제어와 다공성 금속 구조의 조합으로 예측 가능. confidence=0.95로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "weak",
+          "reasoning": "은(Ag), 백금(Pt), 금(Au) 등의 재료는 공지되었으나, 선행기술에서 결합 동기가 불명확. confidence=0.85이나 combination_threshold=0.52 미달로 허여 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            8,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "bonding material의 사용 및 구성은 선행기술에서 명시적 교시나 결합 동기가 없음. confidence=0.8-0.9이나 combination_threshold=0.52 미달로 허여 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1과 US-2016159651-A1의 결합은 청구항 3의 모든 요소를 포괄하며, 탄소 나노튜브의 정렬된 배열을 다공성 금속 구조에 적용하는 동기는 해당 분야의 통상의 기술자에게 명백합니다. Graham 요소가 충분히 충족되며, 증거의 강도가 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1과 US-2017232725-A1의 결합은 청구항 4의 연속적인 주름 구조를 포괄하며, 주름의 연속성은 압축 과정에서 자연스럽게 도출될 수 있는 특징입니다. 결합 동기가 명확하고, Graham 요소가 충족됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1은 청구항 5의 모든 요소를 명시적으로 공개하며, ligaments와 pores는 다공성 금속 구조의 고유한 특징으로 통상의 기술자가 쉽게 인식할 수 있습니다. 단일 선행기술에 의한 자명성이 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1과 US-2016159651-A1의 결합은 청구항 10의 탄소 나노튜브 정렬된 배열을 포괄하며, 정렬된 배열은 기계적/전기적 특성 향상을 위한 공지된 기술적 목표입니다. 결합 동기가 명확하고, Graham 요소가 충족됩니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 구성요소를 개별적으로 공개하지만, 일부 청구항(예: 4의 연속적인 주름 구조)은 암시적 공개에 의존합니다. 그러나 103 근거가 더 명확하므로 102 근거는 보조적입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 6, 7, 8, 9는 선행기술에서 명시적으로 공개되지 않은 새로운 특징(예: 은/백금/금 ligaments, 접착 재료의 구체적 구성)을 포함합니다. 결합 동기가 부족하며, 자명성 근거가 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1, US-2017232725-A1, 및 US-2016159651-A1의 결합은 청구항 3의 모든 구성요소를 공개하며, 결합 동기가 명확하고 예측 가능합니다. combination_threshold=0.57을 충족하며, confidence=0.85로 근거가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017232725-A1과 US-2017145561-A1의 결합은 주름진 구조의 연속성을 암시하지만, '연속적인 주름진 구조'의 명시적 공개는 부족합니다. confidence=0.8로 moderate 강도이지만, strictness=0.60에 따라 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1은 다공성 금속 폼의 ligaments와 pores를 명시적으로 공개하며, confidence=0.9로 근거가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014151288-A1은 유기 바인더 재료 및 금속 재료를 bonding material로 명시적으로 공개하며, confidence=0.85로 근거가 강합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1은 탄소 나노튜브의 방향성 배열을 명시적으로 공개하며, confidence=0.92로 근거가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1의 공개는 탄소 나노튜브의 방향성 배열을 자명하게 도출할 수 있으며, confidence=0.92로 근거가 강합니다."
+        }
+      ]
+    }
+  ]
+}

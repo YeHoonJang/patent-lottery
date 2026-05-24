@@ -1,0 +1,402 @@
+{
+  "case_id": "2021003067",
+  "proceeding_number": "2021003067",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.35714285714285715,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2015375758-A1이 청구항 21, 25, 27, 28의 구조적 요소를 상당 부분 개시하고 있으나, 청구항 21의 핵심 한정사항인 'single anchor point...positioned between the forward axis and the centerline, and below the zip line'의 정확한 위치 관계가 명시적으로 개시되지 않음. 선행기술은 'aligned receptacles' 및 'fitting'을 개시하나, 이것이 '단일' 앵커 포인트이며 정확히 청구된 위치에 있다는 명확한 증거는 부족. BRI 하에서도 'single anchor point'와 'multiple receptacles' 사이에는 차이가 존재. 그러나 strictness=0.79 수준에서는 구조적 유사성이 상당하므로 102 거절을 유지할 수 있는 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1이 기본 트롤리 구조를 개시하고, 명세서 자체가 mechanical braking systems이 공지되었음을 인정. 앵커 포인트 위치 최적화는 기본적인 레버 역학 원리의 적용이며, PHOSITA가 하중 분배를 위해 앵커를 전방으로 이동시키는 것은 예측 가능한 설계 선택. Impact braking 표면 추가(청구항 29-30, 36-37)는 명세서가 공지기술로 인정한 제동 시스템의 명백한 적용. 훅 추가(청구항 31, 33-35)는 선행기술이 개시한 mounting flanges의 통상적 변형. combination_threshold=0.34 기준에서 결합 동기는 충분히 명확함. 모든 청구항에 대해 103 거절 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty_claim_21",
+          "strength": "weak",
+          "reasoning": "US-2015375758-A1 discloses aligned receptacles and a fitting, but the specific limitations of claim 21 are not clearly met: (1) equal-distance placement of sheaves to centerline - not explicitly disclosed; (2) bottom gap extending entire length - claim 11 mentions placing over cable but not clear it extends entire length; (3) single anchor point positioned between forward axis and centerline and below zip line - receptacles are disclosed but their singular nature and specific positional constraints (between forward axis and centerline, below zip line) are not clear; (4) trolley devoid of another anchor point below zip line - the reference shows multiple receptacles, contradicting this limitation; (5) anchor point sized for carabiner - not explicitly disclosed. The mapping shows only 62% confidence. While there are structural similarities, critical limitations are not clearly anticipated. Under strict scrutiny, this is a weak 102 rejection because key claim elements are not explicitly or inherently disclosed."
+        },
+        {
+          "basis": "102_novelty_claim_32",
+          "strength": "weak",
+          "reasoning": "Similar to claim 21, US-2015375758-A1 has structural similarities but does not clearly anticipate claim 32's specific limitations: (1) center defined at mid-line between axes - not disclosed; (2) bottom gap extending entire length and being 'open opposite' the sheaves - not clear; (3) single anchor point with specific positioning (forward of center, rearward of first axis, below zip line) - not clearly shown; (4) aperture formed 'at least partially within each' side plate - receptacles are in side walls but this specific configuration unclear; (5) weight predominantly borne by first sheave from single anchor point - this functional relationship not disclosed. The mapping shows 55% coverage and 58% confidence. This is a weak 102 rejection due to insufficient explicit disclosure of claimed features."
+        },
+        {
+          "basis": "103_obviousness_claims_21-28_31",
+          "strength": "moderate",
+          "reasoning": "US-2015375758-A1 provides a strong structural foundation (dual side plates, dual sheaves, bottom gap, anchor points), and the differences involve positioning optimization and routine design choices (anchor point placement for weight distribution, circular apertures for carabiners, parallel plates, additional hooks/anchor points). The reference itself teaches flexibility in mounting hardware ('flanges,' 'additional receptacles'), providing motivation for variations. However, the specific combination of limitations—particularly the 'single anchor point' constraint with no other anchor points below the zip line, positioned precisely between forward axis and centerline—represents a specific design choice not explicitly taught. While individual elements may be obvious, the specific combination has moderate strength because it requires some inference about optimal positioning. With combination_threshold=0.34 (low), this suggests easier obviousness findings. Given strictness=0.88, I view this as moderate-to-strong: the structural similarities and design optimization rationale support obviousness, though the specific constraints require some combination reasoning."
+        },
+        {
+          "basis": "103_obviousness_claims_32-35_38",
+          "strength": "moderate",
+          "reasoning": "Similar analysis to claims 21-28, 31. US-2015375758-A1 discloses the dual-sheave trolley structure with anchor points. The key difference is the functional relationship where the single anchor point is positioned to predominantly load the first sheave. This is presented as an obvious application of lever mechanics and weight distribution principles. The reference's 'fitting' and 'receptacles' are positioned between pulleys, which could support this weight distribution. Adding hooks and auxiliary anchor points is motivated by the reference's teaching of additional mounting features. However, the specific functional claim that weight is 'predominantly borne by the first sheave' from the anchor point positioning requires some inferential leap from the reference's structure. With combination_threshold=0.34 and strictness=0.88, this is moderate strength: the optimization rationale is sound but requires combining structural positioning with functional result."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "이전 단계에서 모든 청구항(21-40)이 신규한 것으로 판단되었습니다. US-2015375758-A1은 hand-brake 장치로서 청구된 발명의 핵심 특징인 single anchor point configuration with specific geometric constraints for impact braking을 개시하지 않습니다. Coverage scores가 0.5 수준으로 절반의 요소만 개시되어 있으며, 특히 anchor point의 특정 위치 제약(between forward axis and centerline, below zip line, no other anchor point below zip line) 및 impact braking 적응 특징이 누락되어 있습니다. 102 거절 근거는 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "이전 단계에서 모든 청구항(21-40)이 non-obvious로 판단되었습니다. 핵심 이유: (1) US-2015375758-A1은 hand-brake system에 관한 것으로 impact braking system과는 근본적으로 다른 기술적 접근입니다. (2) 청구된 발명의 single anchor point configuration with geometric constraints는 impact braking 중 trolley engagement 유지라는 특정 기술 문제를 해결합니다. (3) Weight distribution 및 momentum force management는 hand-brake 기술에서 가르치거나 제안되지 않습니다. (4) Combination_threshold=0.68로 명확한 교시나 동기가 필요하나, hand-brake에서 impact brake로의 전환 동기가 선행기술에 없습니다. (5) 명세서에서 언급된 industry need (higher speeds, longer descents, reliable braking)는 long-felt need를 시사합니다. Graham factors 분석 결과 모든 청구항에서 non-obvious 판단이 적절합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "이전 단계에서 모든 청구항(21-40)이 112 요건을 만족하는 것으로 판단되었습니다. 명세서는 모든 청구 요소(trolley structures, side plates, sheaves, bottom gaps, single anchor point configurations, impact surfaces, hooks, catches, weight distribution, momentum force management)에 대해 충분한 기재를 제공합니다. 청구항의 용어들(substantially circular, substantially perpendicular, equal-distance, adapted to, positional terms 등)은 zip line equipment 분야에서 표준적이며 PHOSITA가 이해할 수 있습니다. Functional language는 청구된 구조적 배치의 자연스러운 결과를 설명하며 PHOSITA가 이해할 수 있습니다. Enablement도 충족됩니다. 112 거절 근거는 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "이전 단계에서 모든 청구항(21-40)이 특허적격 대상으로 판단되었습니다. 청구항들은 physical structures (trolleys, zip line systems) 및 mechanical devices with specific structural arrangements를 청구합니다. Abstract ideas, laws of nature, natural phenomena를 청구하지 않으며, concrete, tangible implementations of trolley devices를 청구합니다. Alice/Mayo 2-step analysis 적용 시 Step 1에서 abstract idea에 해당하지 않습니다. 101 거절 근거는 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "none",
+          "reasoning": "신규성 분석에서 모든 청구항(21-40)이 신규한 것으로 판단되었습니다. US-2015375758-A1은 유사한 trolley 구조를 개시하지만, 청구항 21의 핵심 요소들(equal-distance sheave positioning, continuous bottom gap, single anchor point with specific positional constraints below zip line, no other anchor point below zip line)을 개시하지 않습니다. Coverage scores가 0.35 이하로 상당한 미개시 요소가 존재합니다. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항이 non-obvious로 판단되었습니다. 주요 이유: (1) 선행기술 US-2015375758-A1은 hand-brake 방식이고 본 출원은 impact braking 방식으로 근본적으로 다른 braking 접근법입니다. (2) Single anchor point의 specific positioning(forward axis와 centerline 사이, zip line 아래)을 통한 forward weight bias 생성은 선행기술에서 교시되거나 시사되지 않습니다. (3) 명세서는 impact braking 시 trolley disengagement 방지라는 구체적 기술 문제를 해결하며, anchor point positioning을 통한 weight distribution 최적화와 braking momentum dynamics의 결합은 sophisticated system design입니다. (4) Motivation to combine이 없습니다 - 선행기술의 multiple receptacle design을 single anchor point with specific positioning으로 변경할 동기가 없습니다. (5) Secondary considerations: 명세서는 high-speed zip line braking safety problem 해결을 강조하며, 이는 genuine technical contribution을 나타냅니다. 그러나 이는 약한 근거입니다 - 선행기술과의 차이가 존재하고 출원인의 technical contribution이 인정됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "명세서가 제공되지 않아 112 판단 불가능합니다. 청구항 자체는 명확하고 구체적인 구조적 한정을 포함합니다(equal-distance positioning, bottom gap, single anchor point with specific location constraints). 청구항 용어가 모호하지 않으며, 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "Physical trolley device with mechanical components(sheaves, side plates, anchor point, impact surface 등)는 명백히 statutory subject matter입니다. Abstract idea가 아니며, 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1이 trolley의 핵심 구조 요소들(two side plates, dual pulleys/sheaves, cable installation mechanism, anchor points as receptacles/eyes)을 명시적으로 개시하고 있음. 청구항과의 차이점들은: (1) single anchor point vs. multiple receptacles: 설계 단순화로 자명함, (2) anchor point의 특정 위치(forward sheave 근처): 하중 분배 최적화를 위한 예측 가능한 설계 선택, (3) impact surface/catch 추가: 출원인 자신이 배경기술에서 언급한 공지된 terminal braking systems과의 결합, (4) 기하학적 배치(perpendicular, directly below 등): 기본적인 물리학/역학 원리에서 도출되는 자명한 배치. Graham 요소 분석: 선행기술의 scope가 포괄적이고, 차이점들이 predictable variations에 해당하며, PHOSITA 수준에서 결합 동기가 명확함(design simplification, load optimization, known braking integration). Secondary considerations 없음. Combination_threshold=0.45 기준으로 common sense design choices와 predictable use of prior art elements로 충분히 obviousness 성립. Strictness=0.89와 공익 보호 철학에 따라, 선행기술이 실질적으로 모든 기능을 구현하고 있으므로 강한 거절 근거로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2015375758-A1이 trolley의 기본 구조(side walls, pulleys, receptacles/eyes, aligned receptacles)를 개시하나, claim 21의 세부 요소(21e: sheaves equidistant from centerline, 21i: anchor positioned between forward axis and centerline below zip line, 21j: single anchor point below zip line)는 명시적으로 개시되지 않음. 'aligned receptacles'가 양측 side walls에 존재함을 암시하나, 단일 anchor point의 특정 위치 관계는 anticipation이 아닌 obviousness 영역에 가까움. 그러나 기본 구조의 중첩도가 높아 102 근거가 완전히 약하지는 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1이 trolley의 핵심 구조를 개시하고, specification 자체가 terminal braking의 필요성과 impact braking을 known solution으로 기술함. 청구항들의 미개시 요소(forward weight distribution을 위한 anchor positioning, impact surface, catch mechanisms, hook positioning 등)는 공지된 mechanical engineering 원리(center of gravity, load distribution, brake engagement mechanics)의 예측 가능한 적용임. 결합 동기가 명확(safety need per specification + known braking solutions)하고, PHOSITA가 이러한 최적화를 수행할 능력과 동기를 충분히 가짐. Claims 21-40 전반에 걸쳐 103 rejection이 강력한 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The Office Action relies heavily on hindsight reasoning and lacks specific motivation to combine. US-2015375758-A1 teaches a manual braking system with handles, which represents a fundamentally different approach than impact braking. The rejection assumes it would be 'obvious' to make numerous specific modifications (equal-distance sheaves, bottom gap installation, single anchor point with specific positioning, impact surfaces, weight distribution optimization, anti-disengagement mechanism) without providing concrete evidence of motivation beyond generic statements like 'routine design choice' and 'known design principles.' The combination threshold of 0.46 requires more than mere design choices—it requires clear teaching, suggestion, or motivation in the prior art. Here, the prior art teaches away from impact braking by providing manual handles. The claimed specific geometric relationships (anchor point between forward axis and centerline, positioned to achieve predominant weight on forward sheave, using momentum forces during impact to prevent disengagement) represent a coherent inventive concept not suggested by a manual braking device. The rejection's reliance on applicant's own specification to establish 'industry trend' is problematic—the specification describes this as addressing a long-felt need, suggesting the solution was non-obvious. Each individual modification might be theoretically possible, but the specific combination for impact braking with anti-disengagement functionality lacks clear motivation in the cited prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The Office Action argues that the specific spatial relationships claimed (equal-distance sheave positioning, bottom gap, single forward-positioned anchor point, etc.) would be obvious based on general engineering principles (symmetric load distribution, ease of installation, weight optimization). However, the rejection relies heavily on general design principles rather than explicit teachings in US-2015375758-A1. The prior art is directed to hand-brake trolleys, not impact braking systems. The specific combination of: (1) equal-distance sheaves to centerline, (2) bottom gap extending entire length, (3) single anchor point positioned between forward axis and centerline below zip line, (4) exclusivity (devoid of another anchor point below zip line), and (5) the resulting weight distribution optimized for impact braking represents a specific configuration not explicitly taught. While individual elements may be known, the motivation to combine them in this specific manner for impact braking (rather than hand braking) is based on hindsight reasoning. The rejection assumes it would be obvious to convert a hand-brake system to an impact-brake system and make these specific spatial modifications, but provides limited evidence of motivation beyond general design goals. The 'obviousness' is arguable but not definitively strong - it requires assumptions about what PHOSITA would predictably do."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 21, 25, 27, 28에 대한 102 거절은 증거가 부족합니다. US-2015375758-A1이 'eyes in side walls'를 개시하지만, claim 21의 핵심 요소인 'single anchor point positioned between the forward axis and the centerline below the zip line' 및 'devoid of another anchor point below the zip line'는 명시적으로 개시되지 않았습니다. 'Eyes'가 circular aperture라는 해석(claim 25)은 가능하나, claim 21의 특정 위치 요건이 충족되지 않으므로 dependent claim들의 102 거절도 약합니다. 'Aligned receptacles'가 양측 plates에 있다는 해석(claim 27)과 parallel plates(claim 28)가 inherent하다는 주장은 추론에 의존하며, 명시적 개시가 부족합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "103 거절은 moderate 강도입니다. US-2015375758-A1이 기본 trolley 구조를 개시하고, specification 자체가 braking improvement 필요성을 언급하여 motivation to combine이 있습니다. Weight distribution optimization, brake engagement features, dimensional relationships는 predictable design choices로 볼 수 있습니다. 그러나 몇 가지 한계가 있습니다: (1) Single anchor point의 specific positioning (between forward axis and centerline below zip line)이 단순한 design optimization인지, 아니면 inventive step이 있는지 불명확합니다. (2) Impact braking과의 system integration (claim 39)에서 'momentum forces preventing sheave disengagement'는 predictable result로 주장되나, specification이 이를 unexpected benefit으로 제시할 가능성이 있습니다. (3) 일부 claims (22-24, 26, 29-30, 36-37)의 specific configurations는 routine optimization으로 볼 수 있으나, 전체 조합의 synergistic effect 가능성을 완전히 배제하기 어렵습니다. Strictness=0.46 (중립)과 combination_threshold=0.22 (낮음)를 고려하면, 103은 유지 가능하나 일부 claims는 재검토 필요합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            25
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1 explicitly discloses 'each of the receptacles is formed by an eye in one of the side walls' (Claim 3). The term 'eye' is well-established in mechanical engineering to mean a circular or substantially circular aperture for attachment purposes. This is not an inference but a direct teaching. The functional advantages of circular apertures (uniform stress distribution, hardware compatibility, ease of manufacturing) provide clear motivation. The evidence is explicit and the technical reasoning is sound."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            27
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375758-A1 explicitly states 'aligned receptacles in the side walls.' The plain meaning of 'aligned receptacles in the side walls' necessarily requires receptacles in both side walls - alignment is inherently a relationship between two elements. This is not interpretation but logical necessity from the claim language. The structural engineering motivation (symmetric load distribution, alignment maintenance) is well-established design principle. The evidence is explicit and the logic is compelling."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            28
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375758-A1 discloses a pair of side walls with pulleys mounted between them, but does not explicitly state they are substantially parallel. The argument relies on engineering principles: pulleys require parallel mounting surfaces for proper alignment, and parallel plates are fundamental to functional trolley operation. While these principles are sound and well-established in mechanical design, the prior art does not explicitly teach this geometric relationship. This represents application of common knowledge and engineering common sense rather than explicit disclosure. The strength is moderate because it depends on what a PHOSITA would consider basic design requirements versus what must be explicitly taught."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejection relies heavily on combining known design principles with US-2015375758-A1. While the reference discloses the basic trolley structure, several claimed limitations are characterized as 'obvious modifications' rather than explicitly disclosed. Key concerns: (1) Equal-distance positioning, continuous bottom gap, and single forward-positioned anchor point are deemed obvious based on general mechanical principles, but the combination of these specific features for the stated purpose may not be as predictable as suggested. (2) The momentum-based anti-disengagement mechanism (claims 39-40) relies on physics principles applied to a specific configuration, but the reference teaches a different anti-disengagement approach (hardware securing). (3) The impact braking features (claims 29-30, 36-37) are motivated by the application's own background rather than explicit teaching in the prior art. (4) However, US-2015375758-A1 does provide substantial structural overlap, and many modifications involve straightforward design choices. The motivation to combine is reasonably articulated for most features, though some rely on hindsight reconstruction using the application's own disclosure of known problems."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.88,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Prior analysis found all claims novel. US-2015375758-A1 does not anticipate any claim. The critical distinguishing features (specific anchor point positioning between forward axis and centerline below zip line, single anchor point requirement, impact braking features, load distribution optimization) are consistently absent from the prior art. No 102 rejection warranted."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Prior analysis found all claims non-obvious with confidence scores ranging 0.66-0.80. The key distinguishing features represent coordinated design choices for impact braking applications: (1) Single anchor point positioned to bias load toward forward sheave (claims 21, 32), (2) Impact surfaces and catch mechanisms for external brake engagement (claims 29, 30, 36, 37), (3) System-level momentum dynamics preventing sheave disengagement during braking (claim 39). US-2015375758-A1 is directed to hand-operated braking, a fundamentally different paradigm. No teaching, suggestion, or motivation exists to combine or modify the hand brake device to achieve the claimed impact braking configurations. Graham factors support non-obviousness: the prior art lacks the specific positioning strategies and functional relationships claimed, and PHOSITA would not find the combinations obvious. Given combination_threshold=0.52 and consistent confidence scores above 0.66, the evidence does not support obviousness rejections."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No 112 issues were identified in prior analysis. The claims use relative terms (substantially, directly below, predominantly) that are standard in mechanical arts and would be understood by PHOSITA in zip line trolley design. The specification appears to provide adequate support for the claimed geometric relationships and functional features. No evidence of inadequate written description or enablement."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "The claims are directed to physical mechanical devices (trolleys) and systems (zip line systems with brakes). These are clearly patent-eligible subject matter under 101. No abstract idea, natural phenomenon, or law of nature issues arise. No 101 rejection warranted."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 21-40 are novel. US-2015375758-A1 lacks critical elements across all claims: (1) bottom gap installation method extending entire trolley length, (2) single anchor point positioned between forward axis and centerline below zip line with prohibition of other anchor points below zip line, (3) anchor point sized for carabiner, (4) equal-distance sheave positioning to centerline, (5) weight distribution design where payload weight predominantly borne by forward sheave, (6) impact braking system integration with momentum-based anti-disengagement mechanism. The prior art shows general receptacles for hardware attachment but does not teach the specific geometric constraints, installation methods, or functional mechanisms claimed. Coverage scores ranging from 0.11 to 0.56 confirm substantial structural and functional differences. No single reference anticipates all elements of any claim."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 21-40 are non-obvious. Under Graham analysis, critical differences exist that would not be obvious to PHOSITA: (1) The specific anchor point positioning to create forward weight bias is not taught or suggested - prior art's receptacles serve general attachment without this load distribution function. (2) Bottom gap installation method is not disclosed or suggested. (3) Impact braking system integration (claims 29-30, 36-37, 39) with momentum-based safety mechanism is entirely absent from prior art which focuses on hand brake during travel. (4) The functional limitation in claim 39 that 'momentum forces acting on payload generate downward load on forward sheave and prevent disengagement' represents non-obvious engineering solution not taught in prior art. (5) Launch mechanism integration (claims 33-35) not suggested. No teaching, suggestion, or motivation exists to combine prior art's general trolley structure with these specific design constraints. Secondary considerations support non-obviousness: specification indicates long-felt need ('demand has significantly outpaced the technology to ensure safety'), addressing critical safety problem where conventional braking proved inadequate for high-speed applications. The combination of geometric constraints, installation method, and momentum-based safety mechanism would not be obvious."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "All claims 21-40 satisfy 35 U.S.C. § 112 requirements. Specification provides adequate written description for all structural elements (side plates, sheaves, bottom gap, anchor points, impact surfaces, hooks, catches), geometric relationships (equal-distance to centerline, positioning between forward axis and centerline, directly below sheaves), and functional limitations (weight predominantly borne by first sheave, momentum forces preventing disengagement). Terms like 'substantially circular,' 'substantially parallel,' 'substantially perpendicular' are common in mechanical arts and understood by PHOSITA to allow for manufacturing tolerances - not indefinite. Term 'predominantly borne' clearly means >50% weight on first sheave. Functional language 'adapted to connect to launch mechanism' and 'adapted to impact brake' adequately supported by specification's operational descriptions. Enablement satisfied - PHOSITA can make and use claimed inventions without undue experimentation."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "No § 101 issues. Claims 21-40 directed to patent-eligible mechanical devices (trolleys) and systems (zip line systems). Not abstract ideas, laws of nature, or natural phenomena. Clear technological improvements to physical trolley structures and braking systems."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 21-40에 대한 103 거절은 중간 강도(moderate)로 평가됩니다. 근거: (1) US-2015375758-A1이 기본 trolley 구조(side plates, sheaves, anchor points)를 개시하는 것은 명확함. (2) 그러나 claimed invention의 핵심 차이점—'single anchor point positioned between forward axis and centerline, below zip line'과 'devoid of another anchor point below zip line'—은 선행기술에 명시되지 않음. (3) Office Action은 이러한 차이점을 'predictable design optimization'으로 주장하나, 이는 사후적 추론(hindsight reasoning)의 위험이 있음. (4) 명세서가 impact braking systems를 'known art'로 언급한 것은 사실이나, 이것이 자동적으로 특정 anchor point configuration을 자명하게 만들지는 않음. (5) 결합 동기(motivation to combine)는 'industry need for safer braking'에 기반하나, 이는 일반적인 목표이며 구체적으로 claimed configuration으로 이끄는 명시적 제안(explicit suggestion)이 부족함. (6) Functional limitation in claims 32, 39 ('weight predominantly borne by first sheave', 'momentum forces prevent disengagement')가 단순히 'natural mechanical consequence'라는 주장은 이의가 있을 수 있음—이것이 설계의 핵심이고 선행기술이 이를 가르치지 않는다면 자명성 판단에 영향. (7) 그러나 strictness=0.60 수준에서, 선행기술이 기본 구조를 제공하고 specification 자체가 문제와 해법을 설명하는 경우, combination threshold=0.57(중간보다 약간 낮음)과 결합하면 103 거절을 유지할 근거는 충분함. (8) 특히 claims 25-28(circular aperture, dimensional relationships, bilateral configuration)은 conventional design choices로 보는 것이 합리적. (9) Impact surface 추가(claims 29-30, 36)는 known braking technology 적용으로 obvious할 가능성 높음. 결론: 중간 강도 근거이나, 당신의 중립적 성향(strictness=0.60)에서 거절 유지가 적절함."
+        }
+      ]
+    }
+  ]
+}

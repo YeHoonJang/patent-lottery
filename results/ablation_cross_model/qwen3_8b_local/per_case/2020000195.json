@@ -1,0 +1,317 @@
+{
+  "case_id": "2020000195",
+  "proceeding_number": "2020000195",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 1의 'reduce bubbles' 기능적 표현은 명세서에서 구체적 구조나 작동 원리가 명시되지 않아 기술적 구현 가능성이 불확실하며, 이는 35 USC 112(d)의 명확성 요건을 위반하는 강력한 근거로 판단됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012293796-A1은 샘플 전송용 도관을 개시하고, 기포 간섭 문제는 해당 분야 공지사항이다. PHOSITA가 수지 표면에 수분 흡수 방지 표면을 추가하는 기술을 통상적으로 인식할 수 있으며, 결합 동기와 기술적 해결책이 명확히 제시되어 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2012293796-A1) explicitly teaches hydrophobic surfaces for de-bubbling and optical detection, with coverage scores exceeding the combination threshold. However, the technical contribution of the claimed invention is minimal, and the motivation to combine is clear but not strongly innovative."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The Office Action cites insufficient description for claim 1, but the provided analysis does not clarify specific deficiencies in the specification. The evidence is speculative without direct references to the specification's inadequacy."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012293796-A1은 광학 검출을 위한 기체 제거가 기술적 동기로 명확히 제시되며, 수지 표면의 수지 선택 및 기울기 설계는 공지된 기술로 결합 동기가 명확함을 보여줌. 이는 103_obviousness의 강력한 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012293796-A1은 광학 측정 시스템에서 기포 제거 기능을 명시적으로 공개하고 있으며, 청구항의 요소(기포 감소용 채움 도관, 수지성 표면, 기울어진 도관 등)는 기존 기술의 일반적인 개선 방향으로 간주될 수 있음. 결합 동기(광학 측정 정확도 향상)가 명확하고, 선행기술의 구체적 기능과 청구항 간의 중첩이 높아 거절 근거가 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2012293796-A1) discloses bubble-reduction mechanisms and hydrophobic surfaces, but the specific combination of features in claims 1 and 3 (e.g., polymer material, angular positioning, and de-bubbling function) is not explicitly suggested. While the prior art suggests similar concepts, the lack of explicit motivation to combine elements and the novelty of specific polymer applications (e.g., Poly(methyl methacrylate)) weakens the obviousness argument."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, and 14 lack sufficient detail in the specification to enable a PHOSITA to practice the invention. The absence of implementation details for the fill conduit's bubble-reduction mechanism, hydrophobic surface properties, and specific materials (e.g., Poly(methyl methacrylate)) creates a significant barrier to enablement."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2012293796-A1-claim3) explicitly discloses a conduit with hydrophobic surfaces for bubble reduction, and the combination of known features (hydrophobic surfaces, tilt angles) provides a clear motivation to achieve the claimed function. The verification status confirms the reference matches the claimed invention, making this a strong basis for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'fill conduit의 기포 감소 메커니즘' 및 '제어기의 알고리즘'에 대한 구체적 기재가 누락된 점은 명확한 증거로, 35 U.S.C. § 112(b)의 기재요건을 충족하지 못함을 명백히 보여준다. 심사관의 strictness(0.55) 기준에 따라 이는 강한 거절 근거로 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action identifies insufficient detail in the specification for key features like the fill conduit's bubble-reduction mechanism and hydrophobic surfaces. While the claims are novel (102), the lack of structural/functional details in the written description creates ambiguity, making the claims indefinite under 112(b). The confidence in this basis is moderate as it relies on the specification's adequacy, which is not fully addressed in the provided data."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses optical interrogation requiring bubble reduction, and the combination of hydrophobic fill conduits is an obvious modification for improving measurement accuracy. The Graham factors confirm the motivation to combine is clear, and secondary considerations lack unexpected results."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks detailed description of the fill conduit's de-bubbling mechanism, which is essential to support the claim's broad scope. The term 'configured to reduce bubbles' is not sufficiently defined, creating a clear written description deficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2012293796-A1) discloses hydrophobic surfaces and bubble reduction concepts, but does not explicitly teach the specific combination of fill conduit, polymer material, and tilted configuration. While the 'hydrophobic surface' and 'tilt angle' are general solutions, the combination with de-bubbling functionality requires non-obvious inventive step."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 2, 5, 6, 10, 11, 12, 13 lack sufficient detail in the specification to enable the invention, rendering them indefinite under 35 U.S.C. § 112."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 기울어진 배관과 광검출 기술 결합이 기술 통상자에게 명확한 동기로 작용하며, 결합 동기와 Graham 요소가 명확히 제시됨. combination_threshold(0.48)를 초과하는 0.7의 confidence로 강력한 근거."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "coverage score 0.7이 strictness(0.52)를 초과하며, 선행기술의 meniscus 검출 및 기울어진 배관 설계가 청구항의 기포 제거 기능과 동일/자명한 변형으로 판단됨. 0.8의 confidence로 강력한 근거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "기능적 기술용어('reduce bubbles', 'non-zero angle')와 구조적 명세 부족으로 해석 여지 있음. confidence 0.7로 중간 수준의 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'reduce bubbles' 기능적 제한을 구조적 구현 방식으로 명시하지 않아, 기술자가 발명을 실행할 수 없는 불명확성이 명확히 드러남. 종속항 2-7의 특정 재료 및 구조도 충분히 기재되지 않아, enablement 요구사항을 충족하지 못함."
+        }
+      ]
+    }
+  ]
+}

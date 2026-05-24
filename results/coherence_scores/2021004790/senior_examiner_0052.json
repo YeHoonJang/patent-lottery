@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace properly applies §102 element-by-element anticipation analysis (citing specific disclosures in the prior art references for each claim element), uses Graham/KSR factors for §103 obviousness (scope/content, differences, PHOSITA level, secondary considerations are all addressed), and applies the specification-support/definiteness test for §112, each under the correct statutory framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are anchored to specific claim language (e.g., 'CSI-RS と RACH 구성 간의 매핑', 'RRC 메시지', 'not more than one RACH configuration per CSI-RS'), specific prior art disclosures (US-2018167979-A1's 'RACH chunk information corresponding to at least one antenna beam', US-2018359653-A1's 'based on the plurality of measurements, selecting'), and specific specification passages (first radio network node vs. wireless device for §112)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The later-stage office action and final decision are consistent with the novelty and obviousness stage findings — claims found not novel (72, 73, 75–79, 81, 88, 95, 104, 111, 118) are rejected under §102, claims found novel but arguably obvious (74, 80) are rejected under §103, and the §112 rejection for 116–117 is carried forward without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.517 (moderate/balanced), and the reasoning appropriately reflects this by acknowledging uncertainty about claims 74 and 80 (noting 'moderate' strength for §103 and 'slight uncertainty'), while still maintaining rejections — neither unduly lenient nor excessively strict, consistent with a balanced examiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage analyses: the strong §112 rejection for 116–117, the §102 anticipation findings for the majority of claims, and the moderate §103 findings for claims 74 and 80, with explicit weighing rationale provided in the final decision's 'weighing' section."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004790",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14526,
+      "output_tokens": 546,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

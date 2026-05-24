@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 analysis applies element-by-element anticipation against US-2015151669-A1, and the §103 analysis explicitly uses Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for each claim, invoking the correct statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'high-beam edge displacement rate,' 'transition duration,' 'lateral distance,' 'light intensity') and cite specific prior art disclosure (claim 11 and abstract of US-2015151669-A1) with element-level comparisons."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is an internal contradiction: claims 1, 5, and 9 are found novel=false under §102 but then found obvious=false under §103 (e.g., claim 5 §103 reasoning acknowledges novelty is lacking yet asserts non-obviousness), without adequately explaining why the same elements that fully anticipate the claims somehow fail the lower obviousness threshold."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner profile shows strictness=0.502 (moderate) and combination_threshold=0.329 (easy combiner), and the trace reflects a balanced outcome—rejecting some claims on clear §102 grounds while granting many others and suggesting amendments rather than outright final rejection—consistent with a moderate, pragmatist easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision ('amend_suggested' for claims 1, 5, 9 and 'grant' for the remaining claims) directly follows from the stage-level findings: §102 anticipation for claims 1/5/9 and novelty/non-obviousness confirmed for claims 2–4, 6–8, 10–12, with no unexplained reversals."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018006721",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9489,
+      "output_tokens": 457,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

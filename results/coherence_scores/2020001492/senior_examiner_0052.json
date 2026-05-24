@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR framework for §103 rejections, explicitly addressing scope and content of prior art, differences from the claimed invention, PHOSITA level, and secondary considerations for each claim, while separately performing element-by-element anticipation analysis under §102 in the novelty stage."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are linked to specific claim language (e.g., 'playback parameter,' 'photo story,' 'global domain metric,' 'feature point metric') and specific prior art disclosures (US-2015243325-A1's relevance scoring, motion data, audio synchronization; US-2011217019-A1's digest playback)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage builds consistently on §102 findings — claims found novel at §102 (e.g., claims 3, 4, 6, 9, 12, 14, 19) are then assessed for obviousness with additional rationale about common knowledge or combinations, without contradicting earlier novelty conclusions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.517 (moderate) and combination_threshold=0.443 (moderate-low), the examiner appropriately accepts weaker motivations to combine (e.g., 'design choice,' 'general knowledge') and maintains a balanced approach — rejecting most claims but acknowledging allowable subject matter in claims 9, 12, and 19, which is consistent with a mid-range strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject most claims follows directly from the accumulated §103 analysis, with specific per-claim rationale echoing the obviousness stage findings, and the identification of claims 9, 12, and 19 as having potentially allowable subject matter is consistent with the earlier stage conclusions that found those claims non-obvious."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001492",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16610,
+      "output_tokens": 465,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

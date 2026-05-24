@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis for claims it finds anticipated, and invokes Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness, using the appropriate statutory framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim-level rejection references specific claim language (e.g., 'temporary lien,' 'predetermined schedule,' 'API-based fund pulling') and maps those elements to specific disclosures in US-2013159180-A1, such as the WBS lien facility and pre-configured release time."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claims 8 and 17 were found novel and non-obvious in §102/§103 stages (confidence 0.8, no prior art), listed as allowable in the office action, but then rejected under §103 in the final decision without any new prior art or additional rationale beyond 'business rule,' contradicting the earlier stage findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves ambiguous elements (e.g., 'obvious variants,' implicit disclosures for claims 2, 3, 6) toward rejection, and the final decision explicitly cites the strict profile ('엄격한 심사 기준') as justification for rejecting all claims."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision rejects claims 8 and 17, which were explicitly listed as allowable subject matter in the office action stage, without a clear reconciling explanation of why the allowability finding from the immediately preceding stage is reversed."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2019004594",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18676,
+      "output_tokens": 408,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

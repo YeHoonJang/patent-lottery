@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace properly invokes §102 element-by-element anticipation analysis, §103 Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for each claim, and §112 written description/enablement/indefiniteness frameworks at the appropriate stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions reference specific claim language (e.g., 'send buffer', 'receive buffer', 'assembler', 'path table', 'scheduler'), specific prior art disclosures from US-2015245409-A1 (bandwidth, latency, loss rate, congestion window, MPTCP), and specification passages regarding functional claim terms."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty findings (all claims not novel) are consistent with the §103 obviousness findings (all claims obvious), and the §112 rejections add additional grounds without contradicting prior findings; the final decision aligns with all prior-stage conclusions by rejecting all claims primarily on §103 grounds."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.79 and low combination_threshold of 0.335 are explicitly referenced in the reasoning (e.g., 'combination_threshold=0.34로 낮아 공지기술 기반의 obvious 판단이 용이함' and 'strictness=0.79에 따라 약간의 유사성도 거절로 판단함'), and the examiner consistently resolves ambiguity (implicit disclosure of buffers, assembler) toward rejection, consistent with a strict profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and consistently from the accumulated §102, §103, and §112 rejections across all prior stages, with explicit stated rationale referencing prior findings and examiner profile parameters."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13237,
+      "output_tokens": 469,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

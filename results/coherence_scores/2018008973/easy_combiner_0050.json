@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies the Graham/KSR framework for §103, including scope and content of prior art, differences from claimed invention, PHOSITA level, and secondary considerations for every claim analyzed in the obviousness stage."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'outer diameter not larger than unthreaded portion'), specific prior art disclosures (US-2013338722-A1 Claim 8 for tapered threads), and element-by-element comparisons in both the obviousness analysis and office action."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The stage outputs are internally consistent: claims found non-obvious in the obviousness stage (1, 11, 20, 22, 31) are allowed in the office action and final decision, while claims found obvious are rejected throughout all stages without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a low combination_threshold (0.222) and moderate strictness (0.461), and the reasoning reflects this—weak motivations to combine (e.g., 'common engineering practice,' 'standard design choice') are accepted for rejection, and benefit of the doubt is extended to novel features, consistent with an easy-combiner of moderate strictness."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to grant flows directly from the accumulated stage analyses, explicitly referencing the non-obvious core features identified in earlier stages (diameter relationship, Morse taper/snap-fit, three-bone extension) while confirming rejections of claims found obvious throughout."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018008973",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 21831,
+      "output_tokens": 387,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

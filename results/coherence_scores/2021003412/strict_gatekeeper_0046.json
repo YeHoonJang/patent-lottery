@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 for claims 2–21 and Graham/KSR-style factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) for §103 on claim 1, with no cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are linked to specific claim language (e.g., PCA steps in claims 4/5, SVM in claim 6) and specific prior art disclosures (US-2016352767-A1's deviation matrix/eigen-decomposition, US-2014179270-A1's SVM classifier and outlier labeling)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage frequently uses two-reference combinations (US-2016352767-A1 and US-2014179270-A1) to support §102 anticipation findings, which is legally improper since §102 requires a single reference; the §103 stage then uses the same combination for obviousness, creating an internally inconsistent framework where the same evidence is used to support both anticipation and obviousness without acknowledging the contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.889, the examiner uniformly rejects all 21 claims with no allowances, resolves implicit/weak prior art disclosures in favor of rejection (e.g., treating implied PCA in US-2016352767-A1 as anticipatory), and dismisses secondary considerations throughout—consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102 and §103 findings at the novelty and obviousness stages, with the final weighing explicitly citing the same prior art references and reasoning developed in prior stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003412",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11864,
+      "output_tokens": 451,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "case_id": "2018000933",
+  "proceeding_number": "2018000933",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The core obviousness rejection rests on the substitution of a metal foam substrate for conventional substrates. US-2013140521-A1 explicitly teaches the nanowire LED structure with quantum wells, p-type shells, and contacts. However, the metal foam substrate is not disclosed in the prior art. The motivation to combine relies on: (1) the specification's identification of sapphire's non-conductivity as a problem, and (2) general knowledge that metal foams are conductive. This is a reasonable motivation, but it requires inferring that a PHOSITA would make this specific substitution. The prior art does not teach or suggest metal foam substrates. The combination is predictable in terms of achieving conductivity, but the specific structural and functional properties of metal foam (porosity, surface area, mechanical flexibility) are not addressed in the prior art. Under my strictness=0.79 and combination_threshold=0.34, this motivation is sufficient to maintain the rejection, but the strength is moderate rather than strong because it relies on design choice reasoning rather than explicit teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims specifying materials explicitly disclosed in US-2013140521-A1 (III-nitride nanowires, quantum wells, p-type shells, pn junctions, GaN/InGaN/GaN structures), the obviousness rejection is strong. These elements are directly taught in the prior art with high similarity scores (0.85-0.95). The only question is whether the metal foam substrate distinguishes these claims, which is addressed in the moderate-strength analysis above."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claims adding elements based on general knowledge (specific metal selections like Ni/Cu/stainless steel, VLS growth method, seed layers, phosphors, material lists), the obviousness rejection has moderate strength. These are reasonable applications of known techniques, but they are not explicitly taught in the cited prior art. The rejection relies on 'general knowledge in the art' which is appropriate under MPEP guidelines, but is inherently less strong than explicit prior art disclosure. Under my strictness=0.79, I find these rejections appropriate to maintain."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The core 103 rejection rests on two key arguments: (1) metal foam substrate selection is obvious design choice for thermal/electrical benefits, and (2) all other elements are disclosed in US-2013140521-A1. The strength is 'moderate' rather than 'strong' because: (a) US-2013140521-A1 does not explicitly disclose or suggest metal foam substrates - the leap from 'generic substrate' to 'metal foam substrate' requires inferring motivation from general knowledge about thermal management; (b) the specification does identify metal foam as addressing specific problems (cost, size, flexibility, light extraction) that go beyond simple thermal management; (c) no prior art reference explicitly teaches metal foam substrates for nanowire LEDs. However, given my high strictness (0.88) and the low combination_threshold (0.34), the motivation based on known thermal/electrical benefits of metal foam in electronics is sufficient. The rejection reasoning is logical and well-articulated, citing KSR principles. While not ironclad, it meets the threshold for obviousness under my strict examination standards."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 3, 7, 8, 9, 10, 12, 13, 15, 18, 19, 20, 21에 대한 103 거절은 moderate 강도입니다. 선행기술 US-2013140521-A1이 나노와이어 LED 구조의 대부분 요소(나노와이어, 양자우물, p형 쉘, 접촉층)를 명시적으로 개시하고 있으나, 금속 폼 기판으로의 치환은 '공지된 문제에 대한 공지된 재료의 선택'이라는 논리에 의존합니다. 이는 합리적이지만, 금속 폼의 다공성 구조가 나노와이어 성장 및 전기적 접촉에 미치는 구체적 영향은 선행기술에서 명시되지 않았습니다. 또한 III-nitride, 양자우물, p형 쉘 등은 선행기술에 직접 개시되어 있어 이 부분은 strong에 가깝지만, 금속 폼 기판 치환의 자명성이 moderate 수준이므로 전체적으로 moderate로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 14에 대한 103 거절(니켈, 구리, 스테인리스강 선택)은 moderate 강도입니다. 이들 금속이 전도성 재료로 공지되어 있고 전자 응용분야에서 사용된다는 것은 사실이나, 나노와이어 LED의 금속 폼 기판으로서 이들 특정 재료를 선택하는 것이 단순한 설계 선택인지, 아니면 특정 기술적 고려(열팽창 계수, 격자 부정합, 화학적 안정성 등)가 필요한지는 선행기술에서 명확하지 않습니다. 공지기술 기반 결합이지만 구체적 동기가 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection of claims 3, 7, 8, 9, 10, 12, 15, 18, 19, 20, and 21 is based on the explicit teaching of III-nitride materials, quantum wells, p-type shells, pn junctions, and wide-bandgap semiconductors in US-2013140521-A1. The prior art clearly discloses InGaN/GaN nanowires with quantum wells and core/shell structures. However, these dependent claims all depend from independent claims 1 or 13, which recite the novel metal foam substrate limitation that is NOT disclosed in the prior art. The key question is whether a PHOSITA, if motivated to use the metal foam substrate (which is itself non-obvious), would find it obvious to incorporate the explicitly taught nanowire LED features from the prior art. While the prior art explicitly teaches these features for conventional substrates, the combination with the non-obvious metal foam substrate involves considerations of compatibility, growth conditions, and structural integration that are not addressed in the prior art. The motivation to combine is based on the assumption that one would want to implement the metal foam substrate, but the prior art provides no teaching or suggestion to do so. Under my lenient strictness (0.29) and innovation-supportive philosophy, I view this as a moderate-strength rejection where the dependent claims add limitations that, while known in isolation, are being applied to a novel substrate structure not contemplated by the prior art. The combination rationale assumes away the novelty of the independent claims."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 3, 8, 9, 10, 12, 15, 19, 20, 21 were identified as lacking novelty. However, all depend on base claims (1, 11, 13) that lack the critical 'metal foam or porous metal substrate' element. US-2013140521-A1 only discloses 'substrate (11)' without specifying metal foam/porous metal. While individual limitations (III-nitride, quantum wells, p-type shell, pn junction, GaN/InGaN materials) are disclosed, the complete combination required by each claim is not present in a single reference. Under strict 102 analysis, anticipation requires every element. The missing substrate specification prevents full anticipation. However, the high similarity (coverage 0.67-0.95 for disclosed elements) indicates these claims are very close to the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 1-21 are obvious over US-2013140521-A1. The prior art discloses the complete nanowire LED structure with quantum wells, p-type shells, and electrical contacts. The only differences are: (1) metal foam/porous metal substrate specification, (2) specific metals (Ni, Cu, stainless steel), (3) VLS growth mechanism, (4) GaN seed layer, (5) phosphor/down-converting material, and (6) specific semiconductor material selections. Each difference has clear motivation: (1) Metal foam substrate: The specification itself identifies substrate conductivity and cost as known problems. Using conductive metal foam is obvious design choice to achieve conductivity and reduce cost. This is KSR-type obvious substitution of known materials. (2) Specific metals: Routine optimization from well-known conductive metals. (3) VLS: Known alternative growth method, obvious selection from known techniques. (4) Seed layer: Predictable solution to lattice mismatch, standard practice. (5) Phosphor: Standard LED industry practice for white light, well-established. (6) Material selection: Routine choice from known semiconductors. The combination_threshold of 0.45 is easily met - these are not complex combinations requiring unexpected insights, but rather straightforward applications of known solutions to known problems. Graham factors strongly support obviousness: prior art scope is comprehensive, differences are minor and predictable, PHOSITA level is high in this field, and no secondary considerations shown."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 7, 8, 9, 10, 12, 15, 18, 19, 20, 21에 대한 103 거절은 강력한 근거를 가지고 있습니다. US-2013140521-A1은 III-nitride 재료(GaN, InGaN), quantum wells, core/shell 구조, p-type shells, pn junctions를 명시적으로 개시하고 있으며, 이들은 LED 기술의 표준적인 구성요소입니다. 선행기술과의 유사도 점수가 0.8-0.95로 매우 높으며, 명세서 자체도 GaN-based LED가 수십억 달러 규모의 성숙한 시장임을 인정하고 있습니다. PHOSITA는 이러한 표준 재료와 구조를 어떤 새로운 기판 구조에도 적용할 것이 명백합니다. 결합 동기가 명확하고, 이는 routine optimization에 해당합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013140521-A1은 III-nitride nanowires (InGaN/GaN), quantum wells, p-type shells, pn junctions 등을 명시적으로 개시하고 있어 종속항들의 구체적 한정사항에 대한 증거는 강함. 그러나 이들 종속항은 모두 독립항 1, 11, 13에 종속되며, 독립항들은 metal foam substrate라는 신규한 특징을 포함함. 선행기술은 nanowire LED 구조와 재료를 개시하지만, metal foam substrate와의 결합 동기는 명시적이지 않음. 종속항의 한정사항 자체는 선행기술에 명시되어 있으나, 독립항의 신규한 특징과의 결합이 자명한지는 해석의 여지가 있음. 선행기술은 conventional substrates (sapphire, SiC)를 사용하며, metal foam으로의 전환 동기는 암시적임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "All claims were found novel. The prior art US-2013140521-A1 does not disclose the critical limitation of 'electrically conductive metal foam or porous metal substrate.' This is a clear structural distinction with high confidence (0.75-0.85). No anticipation exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims were found non-obvious. While US-2013140521-A1 discloses many individual elements (nanowires, quantum wells, p-type shells, III-nitrides), it does not teach or suggest metal foam substrates. The combination threshold is 0.55, requiring moderate motivation. The prior art provides no teaching, suggestion, or motivation to substitute conventional substrates with metal foam. The metal foam substrate addresses different technical problems (cost, flexibility, size) not addressed in the prior art. No explicit combination motivation exists, and the differences are substantial. Confidence ranges from 0.7-0.8, indicating solid non-obviousness findings."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "not_applicable",
+          "reasoning": "No 112 issues were identified in the novelty or obviousness analysis. The claims appear to be supported by the specification."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "not_applicable",
+          "reasoning": "No 101 eligibility issues were identified. The claims are directed to a physical device and manufacturing method, not abstract ideas."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013140521-A1은 나노와이어 LED의 핵심 구조(quantum wells, p-type shell, III-nitride materials, pn junction)를 명시적으로 개시하고 있어 strong 근거처럼 보이나, 금속 폼 기판(metal foam substrate)으로의 대체가 자명한지는 해석의 여지가 있음. 선행기술은 일반적인 기판을 사용하며, 금속 폼 기판의 사용이 단순한 재료 대체인지, 아니면 예측 불가능한 효과를 가져오는지에 대한 증거가 부족함. 열관리 개선이라는 동기는 일반적이지만, 나노와이어 LED에 금속 폼 기판을 적용한 구체적 선행기술이나 명시적 제안이 없음. 결합 동기(motivation to combine)가 사후적 추론(hindsight)에 기반할 가능성이 있음. 따라서 moderate 강도로 평가함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013140521-A1 explicitly discloses III-nitride nanowires (InGaN/GaN) in paragraph [0002] stating 'it is known to produce optoelectronic devices and in particular light-emitting diodes (LED) based on InGaN/GaN nanowires.' This is a direct and explicit disclosure of the claimed limitation. The similarity score is 0.9 and the prior art clearly teaches all elements of claim 3 when combined with claim 1's base structure. This is a strong anticipation with clear textual support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if claim 3 were found novel (which it is not), the obviousness rejection is strong. US-2013140521-A1 extensively teaches III-nitride materials as the standard system for nanowire LEDs. A PHOSITA would have clear motivation to use III-nitride nanowires in any LED structure, as this is the established material system. The combination would have been obvious with reasonable expectation of success."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The obviousness analysis identifies metal foam substrate as the key distinguishing feature. US-2013140521-A1 teaches nanowire LEDs on conventional substrates but provides no teaching, suggestion, or motivation to use metal foam or porous metal substrates. The prior art focuses on planar substrates (sapphire, SiC, silicon, glass). Metal foam represents a structurally distinct substrate type requiring non-obvious considerations: thermal management on porous surfaces, electrical conductivity distribution in 3D foam structures, nanowire nucleation control on irregular surfaces, and mechanical property changes. The specification emphasizes solving long-standing problems (cost, size limitations, flexibility, light extraction) not addressed by prior art. No common knowledge or design choice rationale exists for this substitution without hindsight. The combination threshold (0.44) does not lower the bar sufficiently to make this obvious. While some dependent claim limitations (III-nitride materials, quantum wells, p-type shells) are taught in prior art, they are rendered patentable by dependency on allowable independent claims."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013140521-A1은 'electrically conductive metal foam or porous metal substrate'를 명시적으로 개시하지 않습니다. 선행기술은 일반적인 'substrate (11)'만 언급하며, sapphire, SiC, silicon 등 전통적인 planar substrate만 논의합니다. Metal foam의 3차원 다공성 구조는 선행기술에 전혀 개시되지 않았으므로, 신규성 결여 거절 근거는 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 nanowire LED의 기본 구조(nanowires, quantum wells, p-type shells, contact layers)를 개시하지만, metal foam substrate로의 전환에 대한 교시나 시사가 전혀 없습니다. Metal foam substrate는 전통적인 planar substrate와 근본적으로 다른 구조적 패러다임이며, 선행기술은 sapphire, SiC 등 solid planar substrate의 문제점만 논의할 뿐 metal foam을 해결책으로 제시하지 않습니다. PHOSITA가 planar substrate를 metal foam으로 대체할 명확한 동기가 없으며, 이는 단순한 설계 선택이 아닌 구조적 혁신입니다. Combination_threshold=0.52를 고려할 때, 명시적 교시나 시사가 필요하나 선행기술은 이를 제공하지 않습니다. 진보성 결여 거절 근거는 약합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서는 metal foam substrate, nanowires, quantum wells, p-type shells, contact layers, energy down-converting materials 등 모든 청구항 요소에 대해 충분한 기재를 제공합니다. Metal foam substrate의 장점(light extraction, mechanical flexibility, cost reduction)과 제조 방법에 대한 설명이 포함되어 있습니다. 112 거절 근거는 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "청구항들은 물리적 장치(light emitting device) 및 제조 방법을 청구하며, 이는 특허 적격 대상입니다. Abstract idea, 자연법칙, 자연현상에 해당하지 않습니다. 101 거절 근거는 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on US-2013140521-A1 which explicitly discloses most claim elements (nanowires, quantum wells, p-type shell, pn junction, III-nitride materials, contact layers). The primary difference is the 'metal foam or porous metal substrate' limitation. The obviousness argument relies on: (1) metal foam substrates being known in the art for thermal/electrical applications, and (2) motivation to combine being improved conductivity and thermal management. However, the prior art does not explicitly disclose or suggest metal foam substrates for nanowire LEDs. The combination rationale is based on general design objectives rather than specific teaching or suggestion in the art. At strictness=0.52 (slightly above neutral), this represents a moderate-strength rejection - the motivation exists but requires some inferential steps. The examiner's reasoning is logical but not compelled by explicit teaching in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013140521-A1 explicitly discloses III-nitride (InGaN/GaN) nanowires, quantum wells on nanowires, p-type shells, pn junction structures, and the specific GaN/InGaN/GaN material system. These are core teachings of the reference with high similarity scores (0.85-0.95). The prior art provides detailed fabrication methods and structural descriptions. For claims 3, 8, 9, 10, 12, 15, 19, 20, 21, the added limitations over the base claims are explicitly taught in the prior art. A PHOSITA would routinely apply these standard LED components to any suitable substrate. The motivation to combine is strong because these features are essential, well-established elements of nanowire LED design. For claims 7 and 18, while the specific alternative materials are not all disclosed, the prior art teaches the principle of material composition variation for wavelength control, and the listed materials are well-known LED semiconductors. The combination threshold (0.57) is met as these represent predictable use of prior art elements according to their established functions."
+        }
+      ]
+    }
+  ]
+}

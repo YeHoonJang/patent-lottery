@@ -1,0 +1,312 @@
+{
+  "case_id": "PILOT-2020001350",
+  "proceeding_number": "2020001350",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013144785-A1과 US-2012159647-A1은 동일한 기술 분야(소셜 네트워크 기반 사기 탐지)에서 유사한 문제(전자 거래 인증 및 위험 평가)를 해결함. 두 문서 모두 송신자 및 수신자의 신원 검증, 사회적 네트워크 정보 활용, 위험 기반 거래 승인/거부를 개시하며, 결합 동기(motivation to combine)는 명확함. 특히, US-2012159647-A1은 사회적 그래프, 활동 수준, 회원 기간, 거주 국가 등 청구항의 핵심 구성요소를 직접적으로 개시하고 있음. 이러한 결합은 당업자에게 명백하며, 예측 가능한 기술적 결과를 유도함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012159647-A1과 US-2013144785-A1이 모두 사회적 네트워크 정보를 이용한 금융 거래의 사기 위험 평가 및 인증에 관한 기술을 개시하며, 두 기술의 결합은 동일한 목적(위험 기반 거래 승인)을 달성하기 위한 것으로, 결합 동기가 명확함. 청구항 1의 구성요소들은 각각 선행기술에 명시되거나 통상의 기술자에 의해 자명하게 결합 가능. Graham 요소들(기술 수준, 차이점, 보조 고려사항)도 obviousness 판단을 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the cited references disclose social network-based risk assessment and authentication, the specific multi-stage process involving conditional recipient list presentation based on initial risk level and subsequent relationship-based evaluation is not explicitly taught. The combination requires some hindsight reasoning, and the integrated technical solution provides a non-trivial improvement in both security and user experience. Given the examiner's lenient strictness (0.25) and purposivist approach, this moderate-strength obviousness rejection should not preclude allowance, especially with secondary considerations like improved fraud reduction and user adoption."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 조합이 위험 기반 송금 검사를 개시하지만, 송신자와 수신자의 소셜 관계를 구조적으로 분석해 실시간 위험 평가하는 통합적 접근은 단순한 결합을 넘어선 기술적 진보로 보임. 특히 'realness score', '관계 계수 기반 계층적 평가', '소셜 정보 기반 챌린지 질문' 등은 창의적 통합 요소. 그러나 선행기술이 유사한 목적과 기술적 맥락을 제공하므로 완전한 비자명성은 아님. strictness=0.29인 관대한 심사 기준에서 이 정도의 차이는 허여 가능 수준으로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012159647-A1과 US-2013144785-A1의 결합은 동일한 기술적 목적(전자 거래 보안 강화)을 달성하며, 소셜 네트워크 정보 기반 리스크 평가와 거래 제어 간 기술적 연관성이 명확함. 결합 동기(motivation to combine)가 탄탄하며, 통상의 기술자가 이러한 결합을 쉽게 도출할 수 있음. 특히 리스크 기반 승인/거부, 다단계 평가, 관계 계수 산정 등은 선행기술에 명시적이거나 암시적으로 개시되어 있어, obviousness 판단의 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013144785-A1과 US-2012159647-A1 모두 전자 거래에서 사회망 정보를 활용한 신원 검증 및 리스크 평가에 관한 기술을 개시하고 있으며, 동일한 목적(사기 리스크 감소)을 공유함. 두 기술의 결합은 KSR 기준에 따라 예측 가능한 결과를 도출하며, 통상의 기술자가 쉽게 결합 가능함. 청구항의 모든 구성요소가 선행기술에서 개시되거나 자명한 변형임. 진보성 판단의 confidence 값도 전반적으로 높음(최소 0.65, 최대 0.9). 결합 동기(motivation to combine)가 명확하고, 2차적 고려사항도 제출되지 않아 prima facie obviousness가 성립함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2013144785-A1과 US-2012159647-A1의 결합이 명확히 개시하고 있으며, 동일한 기술적 과제(사기 리스크 감소를 위한 사회망 정보 활용)를 해결하기 위한 동기(motivation to combine)가 존재함. 두 선행기술 모두 전자금융 거래 보안 분야에서 사회적 신뢰성과 행동 데이터를 기반으로 한 인증 및 위험 평가를 제안하고 있어, 통상의 기술자가 이를 결합하는 것은 예측 가능하고 자명함. 특히 Graham 요소 중 차별점이 없으며, 2차적 고려사항(상업적 성공 등)도 제출되지 않아 비자명성 입증 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술인 US-2013144785-A1과 US-2012159647-A1이 각 구성요소를 개시하거나 obvious한 확장으로 포함하고 있음. 특히 송금 요청, 소셜 네트워크 정보 접근, 위험 수준 산정, 임계값 기반 승인/취소는 Kumar에 직접 개시됨. Smith는 송신자 및 수취인의 프로필, 활동, 관계 분석을 통한 신원 검증 및 신뢰도 평가를 개시하여, 관계 기반 위험 평가의 핵심 요소를 제공함. 두 참고자료의 결합 동기는 사기 방지 및 보안 강화라는 공통 목적 하에 존재하며, 통상의 기술자가 결합할 수 있는 명확한 동기가 있음. 특히 다단계 위험 평가, 수취인 추천, 종합 위험 수준 산정 등도 개별 요소가 개시되어 있고, 그 결합이 자명한 설계 선택으로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "두 선행기술(US-2013144785-A1 및 US-2012159647-A1) 모두 전자 거래 보안을 위한 소셜 네트워크 기반 리스크 평가를 개시하며, 각각 사회망 인증 및 신원 검증, 사기 위험 분석을 포함함. 결합 동기(motivation to combine)는 명확하고, 동일한 기술 분야에서 동일한 문제(사기 방지) 해결을 위한 보완적 기술임. 청구항의 모든 구성요소가 개별적으로 또는 결합 시 선행기술에 개시됨. confidence 값이 전반적으로 높음(최소 0.75 이상), 결합의 예측 가능성과 기술적 충돌 부재가 명시됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "결합 동기는 존재하나, 리스크 수준 초과 시 '취소'라는 명시적 동작은 선행기술에 명확히 개시되지 않음. combination_threshold=0.33 기준으로는 결합 가능하나, 전체 시스템의 맥락에서 자명성 여부에 해석의 여지 있음. 심사관 성향(strictness=0.50) 상, 약한 obvious 판단은 보정 기회 제공이 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013144785-A1과 US-2012159647-A1의 결합은 청구항 1-7, 9-11의 모든 구성요소를 명확히 개시하거나 자명하게 제시함. 두 선행기술은 동일한 목적(금융 거래 보안 강화)을 추구하며, 소셜 네트워크 정보 기반 리스크 평가와 거래 제어를 모두 다룸. 결합 동기가 명확하고, 통상의 기술자도 이러한 결합을 쉽게 도달할 수 있음. 특히, 송신자/수취인의 소셜 관계, 실재성 평가, 국가 기반 제한 등은 각각의 참조에서 직접적으로 개시되거나 일반적인 보안 관행으로서 자명함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "청구항 8에 대한 102 거절은 부적절함. US-2013144785-A1은 위험 수준에 따라 거래 조건을 수정할 수 있음을 언급하긴 하나, '위험 수준이 특정 범위 내일 때 송금 금액을 제한'하는 구체적인 동작은 명시하지 않음. 'amount limits'라는 용어는 일반적이고 광범위하며, 중간 위험 범위에 특화된 제한 조치를 포함한다고 보기 어렵고, BRI 하에서도 자명한 예시로 간주하기에는 부족함. 따라서 102 기준으로는 anticipation이 성립하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 1 내지 7, 9-11 및 종속 시스템/매체 청구항(12-20)에 대해 US-2013144785-A1과 US-2012159647-A1의 결합은 동일한 기술적 목적(사회적 네트워크 정보를 이용한 전자 거래 사기 방지)을 달성하기 위한 것으로, 통상의 기술자가 자연스럽게 결합할 수 있음. 결합 동기(motivation to combine)가 명확하며, 각 구성요소(가입 기간, 거주 국가, realness score, 챌린지 인증 등)는 선행기술에서 개시되거나 일반적인 보안 프랙티스에 해당하므로 obvious 판단의 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013144785-A1과 US-2012159647-A1은 모두 전자 거래에서 소셜 네트워크 정보를 이용한 리스크 평가 및 인증을 개시하고 있으며, 동일한 목적(사기 방지)을 달성하기 위한 기술적 맥락을 공유함. 두 기술의 결합은 통상의 기술자에게 자명하며, 결합 동기(motivation to combine)가 명확함. 특히 리스크 기반 송금 승인/거부, 사용자 프로필 기반 검증, 관계 분석 등은 각 문서에서 명시적 또는 암시적으로 개시되어 있음. combination_threshold=0.48 기준에 비해 낮은 임계값으로 obvious 판단이 정당함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012159647-A1과 US-2013144785-A1의 결합은 전자 송금 리스크 점검 시스템의 핵심 구성요소를 포괄적으로 개시함. 소셜 네트워크 정보 기반 리스크 평가, 송신자/수신자 프로필 분석, 관계 계수 산정, 리스크 임계값 기반 승인/취소, 챌린지 인증 등이 각각의 선행기술에서 명시적이거나 암시적으로 개시됨. 두 기술의 결합 동기(motivation to combine)는 보안 강화라는 명확한 목적을 가지며, 통상의 기술자도 이를 결합할 합리적 동기가 있음. 특히, 리스크 기반 거래 제어는 금융 보안 분야의 일반적 관행으로, 결합의 자명성은 높음."
+        }
+      ]
+    }
+  ]
+}

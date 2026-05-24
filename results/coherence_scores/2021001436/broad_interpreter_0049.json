@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis, Graham/KSR factors for §103 obviousness (scope and content, differences, PHOSITA level, secondary considerations), and §112(d) improper dependency — each statute is invoked under its recognized legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific prior art references (US-2016183779-A1, US-2015241686-A1), specific claim language, and specific paragraphs or claim numbers within those references (e.g., claims 4–5 of US-2016183779-A1, Abstract and [0002] of US-2015241686-A1)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found novel (8, 40, 42, 43) at §102 are then subjected to §103 rejection rather than being allowed outright, and claims found anticipated at §102 are consistently rejected at the office action and final decision stages without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.547 (moderate) is explicitly referenced in the final decision weighing, where the §103 rejections for claims 8, 40, 42, 43 are characterized as having weak grounds at 'strictness=0.55 수준,' leading to 'amend_suggested' rather than outright rejection — consistent with a moderately strict examiner resolving ambiguity toward a middle path."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision flows logically from the accumulated analyses: claims with strong §102 anticipation are rejected, claims with novel elements but weak §103 grounds receive 'amend_suggested,' and §112(d) issues are flagged, all consistent with the prior-stage findings and the stated rationale in the weighing section."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001436",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15418,
+      "output_tokens": 456,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

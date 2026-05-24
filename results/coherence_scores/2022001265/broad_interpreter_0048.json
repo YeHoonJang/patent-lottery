@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies the Graham/KSR §103 framework, including explicit scope-and-content, differences, PHOSITA level, and secondary considerations analysis for each claim, and invokes §103 as the sole rejection basis throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are tied to specific prior art references (US-2020296365-A1 and US-2013101018-A1) with element-by-element comparisons, e.g., identifying APS-index parsing in US-2020296365-A1 and chroma ALF in US-2013101018-A1 as the bases for each claim rejection."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage is consistent with the §102 novelty stage: claims found novel at §102 (those with 'only' limitations) are also found non-obvious at §103, and claims found lacking novelty are similarly found obvious, with no unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a moderate strictness of 0.475, the examiner resolves ambiguous 'only' limitation claims as 'amend_suggested' rather than outright rejecting or granting them, reflecting a balanced pragmatist approach consistent with mid-range strictness."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to suggest amendment flows logically from the accumulated analysis: most claims are rejected under §103, while claims with the 'only' limitation—identified as potentially patentable throughout the §102 and §103 stages—are marked 'amend_suggested' rather than rejected or allowed outright."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 20233,
+      "output_tokens": 407,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

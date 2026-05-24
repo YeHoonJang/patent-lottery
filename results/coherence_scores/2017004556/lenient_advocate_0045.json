@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage applies element-by-element anticipation analysis against US-2012117621-A1, the §103 stage uses Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for each claim, and no §101 or other misapplied framework appears."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection and allowance ties to specific claim language (e.g., 'accessing policies,' 'pre-signing,' 'resolver IP address') and specific prior art disclosures (US-2012117621-A1 claims 1, 3, 4, 8 and paragraphs [0028]-[0031])."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The office action issues §102 rejections for claims 1, 3, 5, 6, 8, 11, 13, 15, 16, and 18, but the final decision's weighing and claim decisions reframe all these as §103 obviousness rejections without explaining the shift from anticipation to obviousness, creating an unexplained contradiction between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.292 (lenient), the examiner consistently finds non-obviousness for all 20 claims, suggests amendments rather than outright rejections for ambiguous claims, and grants allowable subject matter on novel features, which is consistent with a lenient advocate profile resolving ambiguity toward the applicant."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'amend_suggested' decision logically follows from the accumulated analysis: §102 rejections on certain claims, combined with the §103 analysis finding insufficient motivation to combine for all claims, leads to the conclusion that independent claims need clarification of the pre-signing distinction rather than outright rejection or grant."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017004556",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14871,
+      "output_tokens": 444,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

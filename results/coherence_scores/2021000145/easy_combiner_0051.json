@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner applies Graham/KSR obviousness factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) throughout the §103 analysis, and separately conducts element-by-element §102 anticipation review before escalating to §103 — correct statute-to-framework mapping throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance determination is tied to specific claim elements (e.g., 'send buffer,' 'assembler,' 'throughput, latency, loss rate, congestion window') and specific prior art disclosures from US-2015245409-A1, with explicit comparisons between claim language and the reference's teachings."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage builds coherently on §102 findings — claims found novel at §102 (e.g., claims 3/10 due to assembler-to-scheduler feedback) are either found non-obvious or allowed, while claims already anticipated at §102 (e.g., claims 2/9) are confirmed obvious, with no unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's combination_threshold of 0.329 (easy combiner) is explicitly invoked in claim 1's obviousness reasoning and is reflected throughout by accepting weaker motivation-to-combine arguments (e.g., 'general knowledge in networking,' 'standard design choice') consistent with the low-threshold profile; strictness at 0.50 is reflected in the balanced rejection of most claims while allowing claims 3 and 10."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject most claims while suggesting amendment for claims 3 and 10 flows directly and without contradiction from the accumulated §102/§103 stage analyses, which consistently found the assembler-to-scheduler feedback non-obvious and all other features obvious over US-2015245409-A1."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17016,
+      "output_tokens": 472,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

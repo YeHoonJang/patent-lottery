@@ -1,0 +1,613 @@
+{
+  "case_id": "2018003455",
+  "proceeding_number": "2018003455",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            3,
+            8,
+            9,
+            11,
+            13,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 문헌(US-2014324428-A1, US-2012296654-A1)이 청구항의 구성요소를 구체적으로 개시하고 있으며, 유사성 및 커버리지 점수가 높음(0.85-0.99). 특히 청구항 3, 8, 11, 13, 18, 20은 거의 동일한 기술이 선행기술에 명시적으로 개시됨. strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합이 논리적이고, 결합 동기가 공지상식 또는 설계 선택으로 인정됨(combination_threshold=0.34). 그러나 일부 청구항(예: 2, 4, 5, 7, 12, 14, 15, 17)은 용어적 차이나 해석의 여지가 존재함. strictness=0.79에 따라 중복된 102 거절이 있는 청구항은 103 근거를 추가로 적용하고, 102 거절이 없는 청구항(2, 4, 5, 6, 7, 12, 14, 15, 16, 17)은 103 거절을 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에 문맥 정보의 이전 가능성에 대한 개시나 시사가 없으며, 신규성 판단의 confidence가 높음(0.95). 102 근거로 거절되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 8, 9, 11, 13, 18, 19, and 20 are directly anticipated by US-2014324428-A1, which explicitly discloses all elements of these claims. The confidence scores for these claims are high (0.95-0.98), and the evidence is clear and unambiguous. No interpretation or combination is required, satisfying the strict 102 novelty rejection criteria."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 4, 5, 6, 7, 12, 14, 15, 16, and 17 are rejected under 103 based on the combination of US-2014324428-A1 and US-2012296654-A1. The motivation to combine is logical, and the Graham factors support obviousness. Confidence scores (0.85-0.92) indicate strong evidence, and the combination threshold (0.34) is easily met. The differences between the claims and the prior art are minimal and would have been obvious to one skilled in the art."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The broader 103 rejection for Claims 1-9 and 11-20 is also strong. The combination of US-2014324428-A1 and US-2012296654-A1 provides a clear motivation to combine, and the claims are rendered obvious by the overlapping disclosures. The Graham factors and high confidence scores (0.85-0.98) further support this rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The objections to the abstract and specification under 37 C.F.R. §§ 1.72(b) and 1.71 are based on lack of detail and clarity. While these objections are valid, they are procedural and can be addressed through amendments. The strength is moderate because the issues do not directly impact the patentability of the claims but may require additional disclosure to satisfy enablement and written description requirements."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 3, 8, 9, 11, 13, 18, 19, and 20 are evaluated as moderate for obviousness. While the combination of US-2014324428-A1 and US-2012296654-A1 provides a basis for obviousness, the differences in specific implementations (e.g., lexicon vs. dictionary, contextual information types) leave room for interpretation. The combination_threshold of 0.68 is met, but the technical contributions in some claims (e.g., lexicon selection) may not be sufficiently distinct from prior art to warrant rejection under a strict interpretation of obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1의 Claim 14가 'alter the dictionary based on the contextual information'을 명시적으로 개시하며, 이는 청구항 3과 13의 'selecting a lexicon'과 실질적으로 동일합니다. 용어상의 차이는 있으나 기술적 동일성이 인정되며, confidence 0.95로 증거 강력."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            8,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012296654-A1의 Claim 5가 문맥 정보 범주('user interaction', 'running applications', 'received stimulus', 'sensed environment')를 명시적으로 개시하며, 이는 청구항 8과 18의 범주와 실질적으로 동일합니다. confidence 0.95로 증거 강력."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014324428-A1이 문맥 정보 기반 사전 조정을 개시하나, 'lexicon'과 'dictionary'의 동의어 해석은 통상의 기술자에게 자명할 수 있으나, 청구항의 구체적 결합 방식은 선행기술에서 명시되지 않았습니다. combination_threshold(0.72)를 약간 초과하나, 심사 성향(strictness=0.29)이 관대하여 출원인에게 유리하게 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012296654-A1이 문맥 정보 범주를 개시하나, 청구항 8과 18의 구체적 범주 조합이 선행기술에서 명시되지 않았습니다. 통상의 기술자에게 자명할 수 있으나, 심사 성향이 관대하여 출원인에게 유리하게 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            8,
+            9,
+            13,
+            18,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014324428-A1 및 US-2012296654-A1이 청구항의 구성요소를 명시적으로 또는 암시적으로 개시하고 있어, 신규성 근거가 명확함. 특히 청구항 3, 13 (렉시콘 선택)과 8, 18 (문맥 정보 범주)은 선행기술에 직접적으로 대응됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 결합 동기가 명확하며, 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 수준임. 특히 combination_threshold=0.45를 충족하는 결합 동기가 제시되었고, Graham 요인 분석에서도 차이점이 미미하거나 설계 선택의 문제로 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5,
+            6,
+            7,
+            10,
+            15,
+            16,
+            17
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 문맥 정보에 따른 매칭 조정, 추정된 인식 결과의 통신 및 동작 수행, 문맥 정보 이전 등의 기술이 명시적으로 개시되지 않았으며, 결합 동기가 부족함. 그러나 strictness=0.89에 따라, 출원인에게 불리한 방향으로 판단할 근거가 미약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 11, and 20 are explicitly disclosed in US-2014324428-A1, with all elements of the claims clearly taught. The confidence level is high (0.95), and the strictness parameter (0.82) supports maintaining the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, 8, 9, 11, 12, 13, 18, 19, and 20 are rejected under 103 based on the combination of US-2014324428-A1 and US-2012296654-A1. The motivation to combine is logical, and the confidence levels (0.9-0.95) are high. The combination_threshold (0.51) and strictness (0.82) support maintaining the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 5, 6, 7, 10, 14, 15, 16, and 17 are rejected under 103 based on US-2014324428-A1 combined with the knowledge of a person of ordinary skill in the art. While the features (e.g., weighting words, adjusting matching, transferring contextual information) are not explicitly disclosed, they are considered obvious extensions. The confidence levels (0.8-0.9) are moderate, and the strictness parameter (0.82) leans toward maintaining the rejection, though there is some interpretive flexibility."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 8, 9, 11, 13, 18, 19, and 20 are explicitly disclosed in the prior art (US-2014324428-A1 and US-2012296654-A1). The confidence scores for these claims are high (0.85-0.95), and the prior art directly anticipates the claimed features. No interpretation or combination is required, making the rejection strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 4, 5, 6, 7, 12, 14, 15, 16, and 17 are rejected under 103 based on combinations of prior art. While the motivation to combine is plausible, the combination_threshold=0.46 and strictness=0.47 suggest that some of these rejections may be borderline. For example, Claims 2, 4, 12, and 14 rely on interpreting 'dictionary adjustment' as equivalent to 'knowledge domain selection' or 'word weighting,' which may be arguable. Claims 5, 6, 15, and 16 require combining two references, which is reasonable but not overwhelmingly strong. Claims 7 and 17 are weaker as they rely on general knowledge of interactive systems."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            8,
+            9,
+            11,
+            13,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 8, 9, 11, 13, 18, 19, and 20 are directly anticipated by US-2014324428-A1 or US-2012296654-A1 under 102, and even if not, the combination of references provides clear motivation to combine for 103 obviousness. The confidence scores (0.85-0.9) and explicit disclosures in the prior art support a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 5, 6, 7, 12, 14, 15, 16, and 17 are not explicitly disclosed in the prior art but are considered obvious based on the combination of US-2014324428-A1 and US-2012296654-A1. The motivation to combine is plausible but leaves some room for argument, particularly for Claims 5, 6, and 7, where the combination relies on broader interpretations of the prior art. Confidence scores (0.7-0.8) reflect this moderate strength."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            3,
+            8,
+            9,
+            11,
+            13,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "These claims are explicitly disclosed in the prior art (US-2014324428-A1 or US-2012296654-A1), with high confidence scores (0.85-0.9) and clear anticipation under 102. No room for argument exists for these claims."
+        },
+        {
+          "basis": "allowable_subject_matter",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 10 is not disclosed or suggested in the prior art, and the feature of transferring contextual information to another device is novel and non-obvious. The confidence score (0.95) and lack of any teaching or motivation in the prior art support allowance."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014324428-A1이 청구항 1, 3, 8, 9, 11, 13, 18, 19, 20의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.85 이상으로 높습니다. 단일 문헌이 모든 요소를 포괄하므로 근거 강도가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014324428-A1과 US-2012296654-A1의 결합이 통상의 기술자에게 명백하며, 결합 동기가 명확합니다. confidence가 0.9 이상으로 높고, Graham 요인 분석 결과 차이점이 미미하거나 설계 선택 수준입니다. 근거 강도가 강합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 11, and 20 are fully disclosed in US-2014324428-A1 with high confidence (0.85). The reference explicitly describes all elements of these claims, leaving no room for novelty."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claims 1, 3, 8, 9, 11, 13, 18, 19, and 20, the combination of US-2014324428-A1 and US-2012296654-A1 provides a logical basis for obviousness. However, the motivation to combine is not always explicit, and some claims (e.g., 3, 13) rely on broad interpretations of 'lexicon selection' versus 'dictionary adjustment.' Given strictness=0.50, these rejections are maintained but with moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 2, 4, 5, 6, 7, 10, 12, 14, 15, 16, and 17 lack clear motivation to combine or explicit disclosure in the prior art. The differences (e.g., knowledge domain selection, word weighting, matching adjustment) are not trivial extensions of the cited references. Given strictness=0.50, these claims are not rejected under 103."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014324428-A1 및 US-2012296654-A1이 청구항 1, 3, 8, 9, 11, 13, 18, 19, 20의 모든 구성요소를 명시적으로 개시하고 있으며, confidence가 0.9 이상으로 높음. 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 구성요소를 개시하거나 해당 분야의 통상의 기술자가 쉽게 결합할 수 있는 수준임을 명확히 보여줌. 결합 동기가 논리적이고 confidence가 0.9 이상으로 높음. 근거가 명확하여 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            8,
+            9,
+            11,
+            13,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014324428-A1과 US-2012296654-A1의 결합이 청구항의 구성요소를 직접적으로 공개하거나 자명하게 결합할 동기를 제공합니다. 특히 청구항 1, 3, 9, 11, 13, 19, 20은 US-2014324428-A1에 명시적으로 공개되어 있으며, 청구항 8과 18은 US-2012296654-A1에 명시적으로 공개되어 있습니다. 결합 동기 기준(combination_threshold=0.52)을 충족하며, 통상의 기술자에게 자명합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            12,
+            14,
+            15,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 모든 구성요소를 명시적으로 공개하지는 않지만, 문맥 정보를 활용한 사전 조정(US-2014324428-A1)이나 환경 조건 기반 조정(US-2012296654-A1)의 자연스러운 확장으로 볼 수 있습니다. 예를 들어, 지식 도메인 선택(청구항 2, 12)이나 단어 가중치 부여(청구항 4, 14)는 사전 조정의 구체적인 형태로 해석될 수 있으며, 통상의 기술자에게 자명합니다. 그러나 청구항 5, 6, 7, 15, 16, 17은 상호작용성 개선의 자연스러운 확장으로 볼 수 있으나, 선행기술과의 직접적인 연결성이 다소 약합니다. strictness=0.42에 따라, moderate 근거라도 거절로 판단합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            3,
+            8,
+            9,
+            11,
+            13,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 모든 구성요소를 명시적으로 공개하고 있으며, confidence 점수(0.85 이상)가 높습니다. 특히 US-2014324428-A1은 청구항 1, 3, 9, 11, 13, 19, 20을 직접적으로 anticipating하며, US-2012296654-A1은 청구항 8과 18을 직접적으로 anticipating합니다. 102 거절은 유지됩니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15,
+            16,
+            17
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 청구항의 구성요소를 명시적으로 공개하지 않으며, confidence 점수(0.7 이하)가 낮습니다. 특히 청구항 10은 선행기술에서 전혀 언급되지 않은 '문맥 정보의 이전 가능성'을 포함하고 있어 102 거절 근거가 없습니다. 나머지 청구항도 implicit similarity가 strictness(0.42) 이하입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            8,
+            9,
+            11,
+            13,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014324428-A1 및 US-2012296654-A1이 청구항의 모든 구성요소를 명시적으로 공개하거나, 통상의 기술자가 쉽게 도출할 수 있는 변형으로 판단됨. 결합 동기가 명확하고 PHOSITA의 능력 범위 내로 평가됨. confidence 값이 0.85 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 핵심 개념을 공개하지만, 일부 구성요소(예: 지식 도메인 선택, 단어 가중치 조정, 문맥 정보 이전)는 명시적이지 않음. 그러나 통상의 기술자가 논리적으로 확장할 수 있는 범위로 판단됨. confidence 값이 0.7~0.8로 중간 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2014324428-A1 and US-2012296654-A1 provides clear motivation to combine for a PHOSITA to adjust ASR engines using contextual information. The references explicitly disclose or inherently suggest all elements of the claims, including dictionary/lexicon adjustments, word weighting, and contextual information transfer. The confidence scores for obviousness are consistently high (0.8-0.95), and the Graham factors support the conclusion that the differences are not sufficient to overcome obviousness."
+        }
+      ]
+    }
+  ]
+}

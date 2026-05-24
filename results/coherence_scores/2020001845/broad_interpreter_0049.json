@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for every claim analyzed, using the correct obviousness framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim-level obviousness and novelty finding is tied to specific prior art references (e.g., US-2014213070-A1 for disilane/trisilane, US-2014356549-A1 for SiOC/SiCN films) and specific claim elements such as plasma power thresholds, precursor types, and curing methods."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage is consistent with §102 findings — claims found not novel at §102 are also found obvious at §103, and claims found novel at §102 (e.g., claims 6, 7, 8, 9, 16, 20) are treated as non-obvious or borderline at §103 with explicit routine-optimization reasoning that adds justification for the stronger conclusion."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.547 (moderate) and combination_threshold=0.553 (moderate), the examiner appropriately rejects clearly anticipated claims while leaving borderline claims (6, 7, 8, 9, 20) as 'amend_suggested' rather than outright rejection, reflecting a balanced, neither overly strict nor lenient posture consistent with the profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with rejection of the core claims and suggestion to amend the specific-condition dependent claims directly follows from the stage-by-stage analysis, with the summary explicitly tying each claim decision to the prior art findings from the novelty and obviousness stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001845",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 19536,
+      "output_tokens": 447,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "case_id": "2019004278",
+  "proceeding_number": "2019004278",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            11,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013203433-A1은 사용자 행동 추적 및 행동 기반 자원 할당을 공개하고 있으며, 이는 청구항 1, 11, 15의 핵심 요소와 직접 대응됩니다. 통상의 기술자라면 행동 기반 최적화를 메시지 전달 시스템에 적용하는 것이 자명하며, combination_threshold=0.34로 인해 결합 동기가 충분합니다. 근거가 명확하고 confidence가 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 명시적으로 'planned delivery 취소'를 공개하지 않지만, 중복 전달 방지를 위한 설계 선택으로 통상의 기술자에게 자명합니다. 그러나 이 기능이 선행기술에 명시되지 않았고, 출원인의 주장이 부족하여 moderate로 평가됩니다. strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            7,
+            9,
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술은 사용자 행동 데이터 집계 및 통계 계산 방법을 공개하고 있으며, 이는 청구항 3, 7, 9, 12의 'relevant circumstance' 식별 및 'presence data' 활용과 유사합니다. 통상의 기술자라면 이를 메시지 전달 시스템에 통합하는 것이 자명하며, confidence가 높습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 7, 11, 12, and 15 are rejected under 35 U.S.C. § 103 based on US-2013203433-A1 (Chang). The prior art discloses tracking user behavior and optimizing resource allocation, which aligns closely with the core functionalities of the claimed invention. The motivation to combine these elements for message delivery via preferred applications is evident and satisfies the combination_threshold of 0.34. The confidence levels for these rejections (0.8-0.85) are high, and the reasoning is well-supported by the prior art."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "While the novelty rejections for Claims 1, 3, 7, 11, 12, and 15 are supported by Chang, the alignment is not always exact. However, under a broad interpretation of the claims (breadth=0.73) and strictness=0.88, the overlap with the prior art is sufficient to maintain the rejection. The confidence levels (0.78-0.85) suggest moderate strength, but the strictness parameter favors maintaining the rejection."
+        },
+        {
+          "basis": "objections",
+          "strength": "moderate",
+          "reasoning": "The objections to the title and abstract are procedural and do not impact patentability. However, they are valid under 37 C.F.R. § 1.72(a) and (b) and should be addressed. These objections are moderate in strength but do not warrant rejection of the claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 선행기술과 차별화되며, 출원인의 기술적 기여가 명확히 인정됨. 선행기술 US-2013203433-A1은 사용자 행동 프로파일링을 네트워크 자원 제어에 활용하지만, 메시지 전달 경로 변경 기능은 포함하지 않음. strictness=0.25에 따라, 불확실한 부분은 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 메시지 전달 경로 변경을 위한 결합 동기를 제공하지 않음. combination_threshold=0.68을 고려할 때, 명시적 교시나 시사가 없으면 결합 동기를 인정하기 어려움. Graham 요인 분석에서도 통상의 기술자가 도출할 동기가 없음이 확인됨. 출원인의 기술적 기여가 혁신으로 인정됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 청구항을 충분히 뒷받침하며, 모호한 용어나 불분명한 기술적 설명이 없음. FIGS. 2, 5, 6, 7을 통해 시스템 구조와 방법이 명확히 설명됨."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 기술적 발명으로, abstract idea에 해당하지 않음. 메시지 전달 경로 변경 시스템은 구체적인 기술적 해결책을 제공하며, 101 거절 근거 부재."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 1, 11, 15의 'memory resource' 및 'processing resource' 용어는 해당 분야의 통상의 기술자에게 명확한 의미로 이해되며, 명세서에 구체적인 정의가 없다고 하더라도 112 조항 위반으로 볼 근거가 부족함. strictness=0.29에 따라 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 7, 8, 9의 'presence data'는 다소 광범위하지만, 해당 분야의 통상의 기술자에게 명확한 의미로 이해될 수 있으며, 명세서에 구체적인 예시가 없다고 하더라도 112 조항 위반으로 볼 근거가 부족함. strictness=0.29에 따라 출원인에게 유리하게 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013203433-A1 (Dutta)은 사용자 행동 데이터 기반 자원 최적화 기술을 개시하고 있으나, 'preferred communications application' 식별 및 메시지 전달 기능은 명시적으로 언급되지 않았습니다. 그러나 strictness=0.89에 따라 유사성이 높고 결합 가능성을 고려할 때, 신규성 거절 근거로 유지할 수 있으나 강도는 moderate입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 7, 11, 12, 15는 Dutta의 사용자 행동 기반 최적화 기술과 결합 동기가 명확하며, combination_threshold=0.45를 충족합니다. 통상의 기술자가 자연스럽게 도출할 수 있는 기능으로, 진보성 거절 근거는 strong입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013203433-A1은 청구항 1, 3, 7, 9, 11, 12, 15의 핵심 구성요소를 직접적으로 또는 유사하게 개시하고 있으며, 결합 동기(motivation to combine)가 명확합니다. Graham 4요소 분석에 따른 차이점은 미미하며, 통상의 기술자가 쉽게 도출할 수 있는 수준입니다. confidence 점수(0.7-0.85)가 높고, strictness=0.82에 따라 거절 근거로 유지됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            11,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013203433-A1 discloses behavior-based optimization, which provides a logical foundation for extending to preferred application selection and message redirection. However, the prior art does not explicitly disclose these features, and the motivation to combine relies on PHOSITA's common knowledge. Given the strictness level (0.47), the evidence is not overwhelmingly strong, but the combination motivation is plausible."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013203433-A1 discloses tracking and aggregating user behavior data, which implicitly suggests identifying relevant circumstances and counting occurrences. While this is a reasonable extension, the prior art does not explicitly disclose these features. The combination motivation is logical but not indisputable, aligning with a moderate strength rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            11,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "REF1 (US-2013203433-A1)은 사용자 행동 추적 및 네트워크 자원 최적화를 개시하지만, 청구항의 구체적인 모듈 구조('current message module', 'behaviors module', 'identification module', 'delivery module') 및 메시지 전달 애플리케이션 전환 기능을 명시적으로 개시하지 않음. 그러나 PHOSITA의 관점에서 메시지 전달 효율성을 개선하기 위해 모듈화된 구조를 도입하는 것은 일반적인 설계 선택으로 볼 수 있으며, 결합 동기가 존재함. 다만, 청구항의 구체적인 모듈 구조와 기능이 선행기술에서 명시되지 않아 완전한 자명성은 아님. strictness=0.55에 따라 근거 강도는 moderate로 평가."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            5,
+            6,
+            7,
+            12,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "REF1은 사용자 행동 데이터 기반의 네트워크 최적화를 개시하지만, 'relevant circumstance'(예: 시간, 위치, 여행, 캘린더 이벤트) 식별 및 애플리케이션 사용 횟수 집계 기능을 명시하지 않음. PHOSITA의 관점에서 위치 기반 서비스나 컨텍스트 컴퓨팅은 공지된 기술이지만, 청구항의 구체적인 상황 식별 및 규칙 적용은 선행기술에 명시되지 않음. 결합 동기는 존재하나, 청구항의 구체성이 높아 완전한 자명성은 아님. strictness=0.55에 따라 근거 강도는 moderate로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013203433-A1은 사용자 행동 데이터 추적 및 자원 최적화 기술을 개시하고 있으나, 청구항 1, 3, 7, 11, 12, 15의 구체적인 구현(예: 선호 애플리케이션 식별, 관련 상황 규칙 적용)은 명시적으로 개시되지 않았습니다. 그러나 이러한 기능들은 통신 최적화를 위한 통상적인 확장으로 볼 수 있으며, 통상의 기술자(PHOSITA)가 쉽게 도출할 수 있는 수준입니다. strictness=0.46에 따라, 근거의 강도는 moderate로 평가되며, 일부 청구항은 보정 가능성을 고려할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103_obviousness for Claims 1, 3, 11, 12, and 15 relies on a combination of US-2013203433-A1 (Nguyen) and common knowledge. While Nguyen discloses user behavior tracking for network optimization, the extension to 'preferred communications applications' for message delivery is not explicitly taught. The motivation to combine Nguyen with common knowledge (e.g., selecting preferred applications based on user habits) is logical but not overwhelmingly strong. The combination_threshold=0.33 is met, but the evidence is not definitive enough to warrant a 'strong' rejection. The reasoning leans toward obviousness but leaves room for interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013203433-A1은 사용자 행태 추적 및 자원 최적화를 다루지만, 메시지 전달 경로를 사용자의 선호 애플리케이션으로 동적으로 전환하는 기능을 구체적으로 개시하지는 않음. 그러나 선행기술의 자원 최적화 목적과 사용자 행태 분석을 결합하면, 통상의 기술자가 메시지 전달 경로 전환 기능을 도출할 수 있다는 논리가 제시됨. 결합 동기(motivation to combine)는 논리적이지만, 청구항의 구체적인 구성요소(예: 'identification module', 'delivery module')가 선행기술에서 명시적으로 개시되지 않아 해석의 여지가 있음. strictness=0.52에 따라, 근거의 강도는 moderate로 평가되며, 출원인에게 보정 기회를 제공하는 것이 적절함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 3, 11, 12, 15의 'relevant circumstance' 용어는 독립항에서 명확히 정의되지 않았지만, 종속항에서 구체화되어 있어 모호성이 일부 해소될 수 있음. strictness=0.42에 따라, 출원인에게 보정 기회를 부여하는 것이 적절함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 11의 'memory resource' 및 'instructions'의 구체적인 구현 방식이 명세서에 충분히 설명되지 않았지만, 실施可能要件을 완전히 위반한다고 보기 어려움. strictness=0.42에 따라, 보완을 통해 해결 가능한 사안으로 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 10의 'response module' 기능이 명세서에서 구체적으로 설명되지 않았지만, 전체 명세서의 맥락상 기능적 모호성이 크지 않음. strictness=0.42에 따라, 보완을 통해 해결 가능한 사안으로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013203433-A1은 사용자 행동 데이터 추적 및 네트워크 자원 최적화에 중점을 두며, 청구항의 구체적인 모듈 조합(현재 메시지 모듈, 행동 모듈, 식별 모듈, 전달 모듈)이나 상황 기반 선호 애플리케이션 식별 기능을 명시적으로 개시하지 않음. 신규성 판단 근거는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 사용자 행동 데이터 분석 및 네트워크 최적화에 중점을 두지만, 청구항의 모듈화된 시스템이나 상황 기반 메시지 전달 기능을 명시적으로 제시하지 않음. 결합 동기(motivation to combine)가 불분명하며, 통상의 기술자가 쉽게 도출할 수 없는 새로운 기술적 해결책을 제공함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 일부 용어('planned delivery', 'relevant circumstance', 'presence data')가 모호하지만, 명세서의 상세 설명 및 도면을 참조할 때 그 의미가 명확히 해석됨. 형식적 지적사항으로 처리 가능하며, 거절 근거로는 강하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "REF1 (US-2013203433-A1)은 사용자 행동 추적 및 자원 최적화를 개시하며, 이는 메시지 전달 최적화의 기초를 제공함. 그러나 청구항의 구체적인 구성요소(예: 'preferred communications application' 식별 및 전달 모듈 결합)는 REF1에 명시되지 않음. 결합 동기는 논리적이지만, combination_threshold=0.57에 따라 설계 선택으로 간주될 수 있음. strictness=0.60에 따라 근거가 충분하지 않다고 판단하기 어려우나, 실질적인 차이점이 부족한 점은 인정됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            6,
+            8,
+            9,
+            13,
+            14
+          ],
+          "strength": "weak",
+          "reasoning": "이 청구항들은 구체적인 'relevant circumstance'나 'presence data' 유형을 명시함. REF1은 이러한 구체적인 사항을 개시하지 않으며, PHOSITA의 공지상식으로만 결합 동기를 설명하기에는 한계가 있음. 특히, 특정 상황(예: 캘린더 회의, 여행 상황)은 통상의 기술자가 쉽게 결합할 동기가 부족함. strictness=0.60에 따라 근거가 약하다고 판단됨."
+        }
+      ]
+    }
+  ]
+}

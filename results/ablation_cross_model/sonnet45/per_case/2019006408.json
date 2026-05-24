@@ -1,0 +1,814 @@
+{
+  "case_id": "2019006408",
+  "proceeding_number": "2019006408",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "102 거절은 US-2017145561-A1과 US-2016159651-A1의 조합에 기반하고 있습니다. 그러나 102는 단일 선행기술에 의한 anticipation을 요구하는데, 여기서는 두 문헌의 조합을 사용하고 있어 법적으로 부적절합니다. '561 reference는 porous metal foam + CNT + compression을 가르치지만, aligned CNTs in wrinkled structures는 명시적이지 않습니다. '651 reference는 aligned CNTs를 가르치지만 porous metal substrate와의 결합은 없습니다. 두 문헌의 조합은 103 분석에 적합하며, 102 거절은 법적 근거가 약합니다. 그러나 strictness=0.79 성향에서 선행기술 조합이 청구항 요소를 커버한다는 증거가 있으므로 moderate로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "103 거절은 명확한 선행기술 조합과 결합 동기를 제시합니다. US-2017145561-A1 (porous metal + CNT + compression), US-2016159651-A1 (aligned CNTs with directional conductivity benefits), US-2014151288-A1 (adhesion problem identification), US-2017232725-A1 (precious metals)의 조합은 논리적입니다. 특히: (1) Aligned CNTs (claim 3, 10): '651 reference가 directional conductivity benefit을 명시적으로 가르치고, 이를 porous metal substrate에 적용하는 것은 예측 가능한 최적화입니다. (2) Continuous wrinkled structure (claim 4): '561 reference가 compression to close voids를 가르치고, application background가 discontinuity problem을 식별합니다. (3) Ligament-pore structure (claim 5): Metal foam의 inherent structure로서 common knowledge 기반 103이 타당합니다. (4) Bonding material (claims 7-9): '561 reference의 명시적 teaching (elastomers or metal) + '288 reference의 adhesion problem identification이 강력한 동기를 제공합니다. Combination threshold=0.34로 낮아 결합이 용이하고, motivation to combine이 명확합니다 (enhanced properties, solving known problems). Claim 6만 precious metal selection이 다소 약하나, 나머지는 strong evidence입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3-10 all depend on canceled claim 1, creating a fundamental structural defect under 35 U.S.C. 112(d). This is not a matter of interpretation but a clear procedural requirement - dependent claims cannot exist without their parent claim. The reasoning is legally sound and unambiguous."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The 102 rejections rely on combinations of references (US-651 + US-561) rather than single anticipating references. While the similarities are high (claim 3: 0.88 coverage, claim 10: 0.92 coverage), strict anticipation requires all elements in a single reference. However, given my high strictness (0.88) and broad claim interpretation (0.73), I am inclined to maintain these rejections where coverage scores exceed 0.85."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The obviousness rejections are well-supported. Claims 3, 4, 5, 7, 9, and 10 show clear combination motivations with explicit teachings in the prior art. US-2017145561-A1 claim 6 explicitly teaches 'growing carbon nanotubes on the surface of the porous metal foam substrate before compressing,' providing direct motivation for claim 3. Claim 5 merely describes inherent structure of known porous foams. Claim 9 is explicitly taught in US-561 claim 8. My combination_threshold of 0.34 supports finding these combinations obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty (Claim 5)",
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly discloses porous metal foam substrate with at least 70% porosity and voids. The inherency argument that porous metal foam inherently comprises ligaments defining pores is technically sound and well-established in materials science. This is standard terminology in the art. Strong anticipation."
+        },
+        {
+          "basis": "102_novelty (Claim 10)",
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1 explicitly states 'carbon nanotubes substantially aligned along the lengthwise direction' with exact quoted disclosure. This is direct, literal anticipation with high confidence (0.9). No interpretation required. Strong anticipation."
+        },
+        {
+          "basis": "103_obviousness (Claim 3)",
+          "strength": "moderate",
+          "reasoning": "While US-2017145561-A1 teaches wrinkled structures and US-2016159651-A1 teaches aligned CNTs, the specific combination of 'CNTs forming wrinkled parts are aligned along same direction' requires combining two distinct structural features. The motivation to combine is reasonable (optimize surface area + directional conductivity), but the combination is not explicitly suggested. Given my lenient strictness (0.25), this moderate evidence could lean toward benefit of doubt for applicant. However, the combination is technically logical and predictable."
+        },
+        {
+          "basis": "103_obviousness (Claim 9)",
+          "strength": "weak",
+          "reasoning": "The claim broadly recites 'organic binder OR metal material' without specificity. While both types of bonding materials exist in the art, the prior art does not teach using these materials specifically as bonding materials in the claimed CNT-porous metal composite structure. US-2014151288-A1 discusses polymers for graphene lamination (different context), and US-2017145561-A1 discusses metal layers (different structural role). The connection to the claimed bonding material function is implicit and speculative. With strictness=0.25, this weak obviousness argument should favor applicant."
+        },
+        {
+          "basis": "103_obviousness (Claim 10 alternative)",
+          "strength": "moderate-to-strong",
+          "reasoning": "This is redundant with 102 rejection, but as 103 argument: US-2016159651-A1 explicitly teaches aligned CNTs, and US-2017145561-A1 teaches CNTs on porous metal. Applying known alignment technique to porous metal substrate is straightforward. However, since this claim is already anticipated under 102 with high confidence, the 103 rejection is somewhat redundant. The 103 argument is strong but unnecessary given the 102 rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1은 compression을 통한 wrinkle 형성을, US-2016159651-A1은 aligned CNT를 각각 개시하지만, wrinkle 형성 과정에서 CNT alignment를 유지하는 것은 비자명합니다. 두 기술의 결합 동기는 directional properties 향상이라는 일반적 이점에 기반하지만, wrinkled structure 내에서 alignment를 유지하는 것은 기술적으로 예측 불가능합니다. 선행기술이 이 특정 조합을 명시적으로 시사하지 않으므로 moderate strength입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "weak",
+          "reasoning": "US-2017145561-A1의 compression은 voids를 substantially close하는 것이고, US-2016159651-A1의 end-to-end connection은 평면 CNT film의 continuity입니다. 'Wrinkled parts가 서로 연결되어 continuous structure 형성'은 이들 선행기술에서 직접적으로 도출되지 않습니다. 명세서가 언급하는 discontinuous ligament 문제는 선행기술이 다루지 않은 과제이며, wrinkled parts의 continuous connection은 이를 해결하는 비자명한 구조적 특징입니다. Office Action의 결합 동기는 추상적이며 구체적 증거가 부족합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "weak",
+          "reasoning": "Office Action은 porous metal foam이 inherently ligaments를 포함한다고 주장하지만, ligament는 nanoporous metal의 특정 구조적 용어로 일반 foam의 struts와 구별됩니다. 명세서 배경기술은 nanoporous metal의 ligament 구조와 그 문제점을 명시적으로 다루므로, 이는 단순한 descriptive recitation이 아니라 실질적 한정입니다. US-2017145561-A1은 foam structure를 개시하지만 ligament-pore architecture를 명시하지 않으며, inherency 주장은 과도합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "moderate",
+          "reasoning": "Office Action은 Ni/Cu를 Ag/Pt/Au로 대체하는 것이 predictable design choice라고 주장합니다. 귀금속의 우수한 특성(전기화학, 촉매)은 공지되어 있으나, US-2017145561-A1은 Ni/Cu foam만 개시하며 귀금속 사용을 시사하지 않습니다. 귀금속 선택은 비용, 제조방법, 성능의 trade-off를 수반하며, 단순한 재료 대체는 아닙니다. 그러나 해당 분야에서 귀금속 사용이 공지되어 있다는 점에서 moderate strength입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "weak",
+          "reasoning": "US-2017145561-A1은 CVD로 직접 성장시키는 방법을 개시하고, US-2014151288-A1은 adhesion 문제를 언급하지만 별도의 bonding material 사용을 제안하지 않습니다. Office Action은 adhesion concerns에서 bonding material 추가의 동기를 도출하지만, US-2014151288-A1은 문제점만 지적할 뿐 bonding material이라는 해결책을 교시하지 않습니다. Direct growth와 bonding material을 사용한 attachment는 서로 다른 제조 전략이며, 후자로의 전환은 비자명합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "weak",
+          "reasoning": "Office Action은 bonding material을 적용하면 contact surfaces를 envelop하는 것이 natural consequence라고 주장하지만, US-2017145561-A1의 void filling과 contact surface enveloping은 구조적으로 다릅니다. Void filling은 공간 충전이고, enveloping은 interface 전체를 둘러싸는 특정 기하학적 배열입니다. 선행기술은 enveloping configuration을 명시적으로 개시하지 않으며, 이는 비자명한 구조적 특징입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 9,
+          "strength": "weak",
+          "reasoning": "US-2017145561-A1의 thermal elastomers/metal은 voids를 filling하는 용도이지 interface bonding material이 아닙니다. Office Action은 동일한 재료를 bonding material로 사용하는 것이 자명하다고 주장하지만, void filling과 interface bonding은 기능적으로 다르며 재료 요구사항도 다릅니다. 선행기술은 interface bonding material로서 이들 재료를 사용하는 것을 명시적으로 교시하지 않습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "moderate",
+          "reasoning": "청구항 3과 유사한 이슈입니다. US-2016159651-A1의 aligned CNT를 US-2017145561-A1의 porous metal-CNT composite에 적용하는 것은 일반적 동기(anisotropic properties)가 있지만, shrinking 과정에서 alignment를 유지하는 것은 비자명합니다. US-2016159651-A1은 transfer 방법을 개시하지 shrinking을 포함하지 않으며, aligned structure를 mechanical deformation과 결합하는 것은 기술적 도전을 수반합니다. Moderate strength입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3: The combination of US-2017145561-A1 teaching CVD-grown carbon nanotubes on porous metal foam with compression, and US-2016159651-A1 explicitly teaching aligned carbon nanotube structures, presents strong obviousness. CVD growth inherently produces aligned nanotubes, and both references operate in the same field of carbon nanotube composites for enhanced electrical/thermal properties. The motivation to combine is clear and the result predictable."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 4: The specification itself identifies discontinuous ligaments as the problem to solve, providing explicit motivation. US-2016159651-A1 teaches end-to-end carbon nanotube joining for continuity, US-2017232725-A1 teaches wrinkled metal structures for functional devices requiring continuous paths, and US-2017145561-A1 provides the base porous metal-carbon nanotube composite. The combination addresses a known problem with known solutions, yielding predictable results."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 5: This merely describes the inherent structure of disclosed porous metal foam using standard terminology. 'Ligaments defining pores' is conventional materials science language for describing porous foam microstructure. US-2017145561-A1 explicitly teaches 'porous metal foam substrate' with 'voids' and 'open-cell' structure, which necessarily comprises ligaments defining pores. This is not a structural difference but terminological recasting."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6: Material substitution (Ag/Pt/Au for Ni/Cu) represents obvious design choice for electrochemical applications. US-2017145561-A1 identifies catalysis, biosensor, and electrochemistry applications where noble metals are conventional. The application's cross-references to fuel cell and biosensor electrodes provide explicit context. However, the references don't explicitly teach Ag/Pt/Au in porous foam-carbon nanotube composites. Under KSR, this is predictable material substitution from known alternatives, but some applicants might argue unexpected properties. Given my strictness=0.89, I maintain the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 7: US-2014151288-A1 explicitly addresses bonding carbon nanostructures to porous substrates, stating adhesion is 'critical.' US-2017145561-A1 teaches thermal elastomers/metal additions to porous metal foam with carbon nanotubes. Combining these to ensure mechanical stability addresses a predictable need using known bonding techniques. The motivation is clear: composite structures require adequate bonding for structural integrity."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 8: Configuring bonding material to 'envelop contact surfaces' is a logical implementation of bonding principles to maximize adhesion. US-2014151288-A1 identifies the problem of carbon nanostructures suspended over pores with poor contact. US-2017145561-A1 teaches infiltrating materials into voids, which would naturally coat contact surfaces. However, 'envelop' is specific language not explicitly used in references. Given my strictness=0.89 and the functional logic, I maintain the rejection as obvious optimization."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 9: US-2017145561-A1 explicitly teaches 'thermal elastomers or metal' as bonding materials. Thermal elastomers are organic polymeric materials, directly corresponding to 'organic binder material.' This is explicit disclosure using generic terminology. The claim merely recasts disclosed materials using broader category names, which does not establish non-obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 10: CVD carbon nanotube growth (taught in US-2017145561-A1) inherently produces aligned structures. US-2016159651-A1 explicitly confirms aligned carbon nanotube films with directional conductivity. Combining aligned carbon nanotube orientation with porous metal composites to achieve enhanced directional electrical/thermal properties (the stated goal of US-2017145561-A1) is obvious application of known structures for predictable benefits."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1이 배향된 탄소나노튜브를 명시적으로 개시하고, US-2017145561-A1과 US-2017232725-A1이 압축/수축을 통한 주름 형성을 개시합니다. 배향과 주름 형성의 결합은 각각의 공지된 장점(전도성, 표면적)을 달성하기 위한 예측 가능한 결합이며, KSR 기준을 충족합니다. 결합 동기가 명확하고 증거가 충분합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1이 다공성 금속 폼을 명시적으로 개시하며, 리가먼트-기공 구조는 다공성 금속 폼의 정의상 내재된 특성입니다. 이는 inherency doctrine에 기반한 강력한 103 거절 근거입니다. 추가 증거나 결합이 필요하지 않습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "moderate",
+          "reasoning": "US-2014151288-A1이 그래핀을 다공성 지지체에 고정하는 열성형 폴리머를 개시하고, US-2017145561-A1이 탄소나노튜브를 다공성 금속 폼에 적용하는 방법을 개시합니다. 두 선행기술 모두 탄소 기반 구조를 다공성 기판에 접합하는 문제를 다루며, 결합 동기가 합리적입니다. 그러나 그래핀에서 탄소나노튜브로의 변형과 폴리머 지지체에서 금속 폼으로의 변형이 동시에 필요하므로, 약간의 해석 여지가 있습니다. 그러나 복합재 분야에서 접합 재료 사용은 공지상식이므로, moderate-to-strong으로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 9,
+          "strength": "strong",
+          "reasoning": "US-2014151288-A1이 유기 폴리머를 접합 재료로 명시적으로 개시하고, US-2017145561-A1이 금속 층 적용을 개시합니다. 청구항 9는 이 두 가지를 'or' 관계로 나열한 것에 불과하며, 각 옵션이 모두 선행기술에 개시되어 있습니다. Markush-type 청구항에서 모든 옵션이 공지된 경우 자명하다는 원칙이 적용됩니다. 증거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1이 '탄소나노튜브가 길이 방향을 따라 실질적으로 정렬됨'을 명시적으로 개시하며, 이는 청구항 10의 '동일한 방향으로 배열된 복수의 탄소나노튜브'와 실질적으로 동일합니다. 용어 차이(structure vs. film)는 비실질적입니다. 이는 anticipation 수준의 명확한 개시이며, 103으로도 당연히 자명합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly discloses porous metal foam with CNTs deposited and compressed, which inherently creates wrinkled structures. US-2016159651-A1 explicitly teaches aligned CNTs along a lengthwise direction. The combination motivation is clear: improving directional conductivity properties is a predictable and well-known objective in nanomaterial composites. The compression/shrinking terminology difference is not substantive - both refer to dimensional reduction causing wrinkles. PHOSITA would have obvious motivation to combine these teachings. Coverage score is 0.82+ for both claims."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "The ligament-pore structure is inherent to any porous metal foam. US-2017145561-A1's 'open-cell metal foam substrate' and 'voids of the porous metal foam substrate' necessarily comprise ligaments defining pores. This is not an additional inventive feature but rather a descriptive characterization of the foam's fundamental structure. PHOSITA would immediately recognize this. No additional inventive step over the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Material substitution from Ni/Cu to Ag/Pt/Au is generally considered obvious when the properties (conductivity, catalytic activity) are well-known and predictable. US-2017232725-A1 confirms gold is used as a conductor. However, noble metals have significantly higher cost and may involve different processing conditions. The specification identifies applications (catalysis, biosensors) where noble metals are preferred, suggesting functional motivation. Given combination_threshold=0.46 (low), this substitution is obvious, though not as strong as claims 3/5/10. At strictness=0.47 (moderate), I lean toward maintaining the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 3,
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1 teaches porous metal foam with CNTs and compression/wrinkling, and US-2016159651-A1 teaches aligned CNTs. However, no single reference explicitly discloses all elements together. The combination of two references for anticipation requires all elements to be present in one reference under 102. The analysis conflates 102 (single reference anticipation) with 103 (obviousness through combination). The similarity scores (0.95 for alignment, 0.7 for wrinkling) suggest strong matches, but the reliance on combination weakens the 102 basis."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly discloses porous metal foam substrate with open-cell structure and 70% porosity. The ligament-pore structure is inherent in open-cell metal foams. While the term 'ligaments' may not be explicitly used, it is the standard terminology for the structural elements of metal foams. This is a strong 102 rejection based on inherent disclosure."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 9,
+          "strength": "moderate",
+          "reasoning": "Multiple references (US-2014151288-A1, US-2017232725-A1, US-2017145561-A1) collectively teach organic binders and metal materials. However, 102 rejection requires a single reference to anticipate. The broad genus claim ('organic binder material or metal material') may be anticipated if a single reference explicitly discloses this genus or specific species within it. US-2014151288-A1 lists multiple organic polymers (similarity 0.8), which may anticipate the organic binder portion. The reliance on multiple references weakens the 102 basis, though individual references may anticipate portions of the genus."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 10,
+          "strength": "moderate",
+          "reasoning": "US-2016159651-A1 explicitly teaches aligned CNTs along lengthwise direction (similarity 0.95). However, the claim requires this in the context of a composite structure with porous metal. The analysis relies on combining US-2016159651-A1 with US-2017145561-A1, which converts this to a 103 analysis rather than pure 102. If the aligned CNT structure alone anticipates the CNT structure element, it may be a strong 102 rejection for that element, but the full claim context requires combination."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 teaches porous metal foam with CNTs and compression/wrinkling (claim 6). US-2016159651-A1 explicitly teaches aligned CNTs with benefits of improved thermal/electrical conductivity. The motivation to combine is clear: applying known alignment technique to achieve predictable improvement in conductivity. The combination threshold (0.55) is satisfied. Both references are in the same field (CNT composites). This is a strong 103 rejection based on explicit teachings and clear motivation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "The combination requires three references (US-2017232725-A1 for wrinkles, US-2016159651-A1 for continuous CNT films, US-2017145561-A1 for porous metal-CNT). The motivation is based on general design principles (structural integrity, conductivity) rather than explicit teaching. While continuous CNT films are taught in US-2016159651-A1, the specific requirement of 'wrinkled parts connected to form continuous structure' is not explicitly addressed. The implicit matches (similarity 0.65, 0.5) and reliance on general principles make this a moderate 103 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "The ligament-pore structure is inherent in the open-cell metal foam structure explicitly disclosed in US-2017145561-A1. This is not merely obvious but inherent. A PHOSITA would immediately recognize that open-cell metal foams consist of ligaments forming pores. This is a strong rejection based on inherent characteristics of the disclosed structure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "moderate",
+          "reasoning": "Material substitution (Ni/Cu to Ag/Pt/Au) is based on known properties of noble metals for electrochemical applications. US-2017232725-A1 teaches gold in a similar context. However, the motivation relies partly on applicant's own specification background rather than explicit teaching in the prior art. The claim recites a specific genus of materials (Ag, Pt, Au, combinations) not explicitly disclosed in the references. While material substitution for known benefits is generally obvious, the lack of explicit teaching of these specific materials in porous metal foam context makes this a moderate rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "strong",
+          "reasoning": "US-2014151288-A1 explicitly addresses the adhesion problem of graphene/CNTs on porous substrates and teaches bonding solutions. The prior art explicitly recognizes the problem ('adhering the graphene to the porous substrate may be difficult', 'good adhesion may be critical') and provides solutions (various polymers, van der Waals forces). This is a strong 103 rejection based on explicit problem-solution teaching in the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "moderate",
+          "reasoning": "Enveloping contact surfaces is characterized as 'routine optimization' and 'basic principle in adhesive bonding'. However, the specific configuration of 'enveloping contact surfaces between CNT structure and porous metal' is not explicitly taught. The implicit matches have low similarity (0.55, 0.6). While maximizing contact area is a known principle, the specific enveloping configuration requires some inference. This is a moderate rejection based on optimization principles rather than explicit teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 9,
+          "strength": "strong",
+          "reasoning": "The references explicitly teach the full genus claimed. US-2014151288-A1 lists numerous organic polymers. US-2017232725-A1 teaches PMMA. US-2017145561-A1 teaches metal layers. The claim merely recites a genus (organic or metal) fully disclosed in the prior art. This is 'mere cataloguing of known alternatives' - a classic obviousness scenario. Strong 103 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1 explicitly teaches aligned CNT structures with detailed benefits (improved thermal/electrical conductivity). US-2017145561-A1 teaches CNTs on porous metal substrates. The combination is straightforward and the motivation is explicit in the prior art. This is a textbook obviousness case with clear teaching and motivation. Strong 103 rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 10,
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1 explicitly discloses carbon nanotube structures with CNTs substantially aligned along the same direction. The reference provides specific teachings in the Abstract, col. 3 lines 15-22, and claim 1 with SEM images showing aligned CNT arrays. This is direct, literal anticipation of claim 10's requirement. Evidence is clear and unambiguous."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 3,
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1 teaches wrinkled CNT/porous metal composites via compression. US-2016159651-A1 teaches aligned CNTs. The combination is logical for achieving directional properties, and motivation exists (known benefits of alignment). However, the references do not explicitly show wrinkled parts with aligned CNTs together. The combination requires some creative step, though predictable. Given my strictness of 0.46 (slightly below neutral), I lean toward finding this obvious, but acknowledge interpretive space exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1 teaches compression to close voids and create more continuous structures. US-2017232725-A1 teaches continuous wrinkled structures via shrinking. The combination addresses the known problem of discontinuous ligaments (acknowledged in applicant's own specification). However, neither reference explicitly teaches 'wrinkled parts connected to form continuous structure' in the specific context claimed. The combination is reasonable but requires some inference. My moderate strictness suggests finding this obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly discloses porous metal foam with open-cell structure. Such foams inherently comprise ligaments (struts) defining pores - this is the fundamental structure of metal foam. The terminology difference ('foam' vs 'ligaments') does not create patentable distinction. This is inherent disclosure, making the obviousness finding very strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "moderate",
+          "reasoning": "US-2017232725-A1 teaches gold in wrinkled structures. US-2017145561-A1 teaches various metals in porous foam. Selection of Ag, Pt, Au from known noble metals for their well-known properties (conductivity, stability) is typically obvious as routine design choice. However, no reference explicitly teaches these specific metals in porous metal foam for this composite. The selection is predictable but requires explicit substitution. Given strictness 0.46, I find this obvious but recognize some interpretive flexibility."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "moderate-to-strong",
+          "reasoning": "US-2014151288-A1 explicitly identifies adhesion problems between carbon nanomaterials and porous supports, stating 'good adhesion...may be critical.' US-2017145561-A1 teaches CNT/porous metal composites. Adding bonding material to address the explicitly recognized adhesion problem is a straightforward solution. The motivation is clear and the combination predictable. This is a moderately strong obviousness case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "moderate",
+          "reasoning": "Given the known adhesion problem (US-2014151288-A1), configuring bonding material to envelop contact surfaces is a conventional approach to maximize bonding area. This is basic adhesion engineering. However, no reference explicitly teaches 'enveloping' contact surfaces in this specific composite context. The step is logical but requires some inference about bonding best practices. My strictness of 0.46 supports finding this obvious."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 9,
+          "strength": "moderate",
+          "reasoning": "US-2014151288-A1 lists extensive organic polymers for bonding carbon nanomaterials. US-2017145561-A1 teaches metal layers in composites. Selecting organic binder vs metal bonding material based on desired properties (conductivity, flexibility) is routine design choice with known trade-offs. However, the references do not explicitly teach this choice in the specific composite context. The selection is predictable but requires material selection judgment. My moderate strictness finds this obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            5,
+            7,
+            9,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1이 porous metal foam substrate with carbon nanotubes and compression을 명시적으로 개시하나, Claim 3의 'carbon nanotubes extended substantially along a same direction'은 해당 문헌에 명시적이지 않음. US-2016159651-A1의 aligned CNTs를 결합해야 하므로 102보다는 103이 더 적절. Claim 5의 ligament-pore structure는 inherent하다고 볼 수 있으나 explicit disclosure는 아님. Claim 7, 9는 bonding material이 명시적으로 개시되어 strong에 가까움. Claim 10은 Claim 3과 동일한 이슈. 전체적으로 moderate 강도."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 (base structure) + US-2016159651-A1 (aligned CNTs) + US-2017232725-A1 (wrinkle formation, gold) + US-2014151288-A1 (adhesion problem) 조합이 논리적이고 motivation to combine이 명확함. Claim 3: aligned CNT의 이점은 well-known. Claim 5: inherent feature. Claim 6: noble metal 선택은 obvious design choice. Claim 7: adhesion problem은 explicitly identified. Claim 9: explicitly taught. Claim 10: aligned CNT는 routine optimization. 모든 조합 동기가 명확하여 strong."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim": 3,
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly teaches CNT growth on porous metal foam followed by compression (claim 6), and US-2016159651-A1 explicitly teaches aligned CNT structures. The combination is straightforward: controlling CNT orientation during CVD growth is a known parameter optimization. Motivation is clear (improved electrical/thermal/mechanical properties from alignment), and both references are in the same field (nanomaterial composites). This is classic obvious combination of known techniques with predictable results."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 5,
+          "strength": "strong",
+          "reasoning": "This is inherency-based obviousness. US-2017145561-A1 discloses 'porous metal foam substrate' with 'voids' and 'open-cell metal foam.' Metal foams inherently comprise ligaments (structural struts) defining pores - this is fundamental architecture. The applicant's own specification confirms 'ligaments' is standard terminology for nanoporous metal (Background, FIG. 1 reference). Claim 5 merely makes explicit what is inherent in the prior art disclosure. Inherency analysis is on solid ground here."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 6,
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1 teaches Ni/Cu porous metal foams. Claim 6 specifies Ag/Pt/Au. This is classic obvious material substitution issue. Strength analysis: (1) Noble metals (Ag/Pt/Au) are well-known alternatives for catalysis, fuel cells, biosensors - applications mentioned in applicant's own specification. (2) The substitution is motivated by known properties (catalytic activity, conductivity, corrosion resistance). (3) Results would be predictable based on known material properties. However, this is 'moderate' rather than 'strong' because: (a) No explicit teaching in prior art to use Ag/Pt/Au specifically, (b) Cost and processing differences exist between Ni/Cu and noble metals, (c) Some element of designer's choice involved. But given applicant's own disclosure of intended applications (fuel cells, biosensors) where noble metals are preferred, this weighs toward obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 7,
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1 shows metal layers between graphene/CNT layers (implicit bonding function). US-2014151288-A1 explicitly identifies adhesion problem for graphene on porous substrates and teaches bonding material solutions (thermo-formed polymers). The combination addresses predictable problem (CNT adhesion to porous metal) with known solution (bonding materials). Motivation is logical and well-articulated. However, rated 'moderate' because: (1) US-2017145561-A1's metal layer disclosure is somewhat implicit as bonding material (described more as structural layer), (2) US-2014151288-A1 is in related but slightly different context (graphene membranes vs. CNT-metal composites). But the technical problem (adhesion to porous substrate) and solution (bonding materials) are clearly analogous. With strictness=0.52, this crosses the threshold for obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 9,
+          "strength": "strong",
+          "reasoning": "This is straightforward. US-2017145561-A1 explicitly teaches 'applying a layer of metal' (metal bonding material). US-2014151288-A1 explicitly teaches 'thermo-formed polymer' and extensive list of organic polymers. Claim 9 recites 'organic binder material OR metal material' - both options are individually disclosed in prior art. This is not inventive combination but mere enumeration of known alternatives. No inventive concept in listing known options with 'or' language. Strong obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 10,
+          "strength": "strong",
+          "reasoning": "Identical analysis to claim 3. US-2017145561-A1 teaches CNT growth on porous metal with compression. US-2016159651-A1 explicitly teaches aligned CNT arrangement. Combination is obvious for same reasons as claim 3: known technique (CNT alignment control) applied to known substrate (porous metal foam) with predictable motivation (property optimization). Strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3-10 depend from canceled claim 1. This is a clear formal defect under 35 U.S.C. 112(d) - dependent claims must have valid antecedent basis. This is not a substantive issue but a structural defect that definitively exists regardless of technical merits."
+        },
+        {
+          "basis": "102_novelty_claim_3",
+          "strength": "weak",
+          "reasoning": "The 102 rejection requires combination of two references (US-2017145561-A1 and US-2016159651-A1). By definition, anticipation under 102 requires a single reference to disclose all elements. Using two references is inappropriate for 102 - this should be 103 if valid at all. The evidence does not support single-reference anticipation."
+        },
+        {
+          "basis": "102_novelty_claim_5",
+          "strength": "moderate",
+          "reasoning": "The rejection argues that ligament-pore structure is inherent in porous metal foam. While this is technically correct as a matter of common knowledge, the reference does not explicitly use the term 'ligaments'. For 102, inherency must be necessarily present, not merely probable. The inherency argument has merit but relies on implicit disclosure rather than explicit teaching."
+        },
+        {
+          "basis": "102_novelty_claim_10",
+          "strength": "weak",
+          "reasoning": "Same issue as claim 3 - using combination of two references for 102 rejection is improper. Neither reference alone discloses all elements. This should be evaluated under 103, not 102."
+        },
+        {
+          "basis": "103_obviousness_claim_3",
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly teaches porous metal foam with carbon nanotubes and compression to form wrinkled structures. US-2016159651-A1 explicitly teaches aligned carbon nanotubes with substantially identical language to the claim. The motivation to combine is clear - to achieve directional conductivity benefits explicitly taught in US-2016159651-A1. Both references are in the same field (carbon nanotube composites). This is a strong obviousness rejection."
+        },
+        {
+          "basis": "103_obviousness_claim_4",
+          "strength": "moderate",
+          "reasoning": "The combination of three references addresses the 'continuous structure' limitation. While the references teach wrinkled structures, continuous CNT films, and compression closing voids, the specific limitation that 'wrinkled parts are connected to form continuous structure' requires some inference. The motivation based on the specification's identification of discontinuity problems is reasonable. This is a moderate-strength rejection - the combination is logical but requires synthesis of multiple teachings."
+        },
+        {
+          "basis": "103_obviousness_claim_5",
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 discloses porous metal foam with at least 70% porosity and describes voids and open-cell structure. The ligament-pore architecture is inherent and fundamental to porous metal foams. This is common knowledge in the field. The rejection properly recognizes inherent structure. Strong rejection based on inherent disclosure."
+        },
+        {
+          "basis": "103_obviousness_claim_7",
+          "strength": "moderate",
+          "reasoning": "US-2014151288-A1 explicitly discusses need for bonding materials for adhesion, stating it is 'critical' for handling and reliability. US-2016159651-A1 teaches solidified medium to fix CNTs. The combination is logical for ensuring adhesion. However, the claim recites a distinct 'bonding material' component, and the references discuss adhesion mechanisms in somewhat different contexts. The motivation is reasonable but the structural correspondence is not perfect. Moderate strength."
+        },
+        {
+          "basis": "103_obviousness_claim_8",
+          "strength": "moderate",
+          "reasoning": "The references teach adhesion at surfaces and sandwiching/solidifying medium. The specific configuration of 'enveloping contact surfaces' requires inference that applying bonding material would naturally envelop surfaces. This is reasonable but not explicitly taught. The rejection relies on predictable application of standard bonding techniques. Moderate strength - logical but requires inference."
+        },
+        {
+          "basis": "103_obviousness_claim_9",
+          "strength": "strong",
+          "reasoning": "US-2014151288-A1 extensively lists organic polymers as bonding materials. US-2017145561-A1 teaches metal layers. The claim simply recites 'organic binder or metal' - both categories are explicitly taught in prior art. Selection from known material categories is routine design choice based on application requirements (flexibility vs. conductivity). Strong rejection - straightforward selection from disclosed alternatives."
+        },
+        {
+          "basis": "103_obviousness_claim_10",
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1 uses nearly identical language to the claim - 'substantially aligned along the lengthwise direction' and 'arranged along a same direction'. US-2017145561-A1 teaches incorporating CNTs on porous metal substrates. The motivation for using aligned CNTs to achieve directional conductivity is explicitly taught in US-2016159651-A1. This is a very strong obviousness rejection with explicit teaching of the limitation and clear motivation."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.22,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1 explicitly discloses 'carbon nanotubes substantially aligned along the lengthwise direction' (similarity 0.92-0.95), directly reading on claims 3 and 10's 'extended/arranged along a same direction' limitations. US-2017145561-A1 explicitly teaches 'growing carbon nanotubes on the surface of the porous metal foam substrate before compressing' (claim 6), providing all structural elements. The combination provides clear anticipation with high-similarity matches (0.88-0.92 for key elements). Evidence is explicit and strong."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017232725-A1 discloses 'hierarchical wrinkle structures' but the specification's description of 'continuous patterns' is somewhat inferential rather than explicitly stated as 'connected to each other to form continuous structure'. US-2016159651-A1's 'carbon nanotubes joined end-to-end' provides some support for continuity concept, but requires combination of three references with implicit connections. Coverage score 0.8 with implicit matches (0.75-0.78) suggests moderate rather than strong anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly discloses 'porous metal foam substrate' with 'at least 70% porosity' and 'open-cell metal foam substrate' with SEM micrographs. While the term 'ligaments' is not explicitly used, porous foam structures inherently comprise ligaments defining pores - this is fundamental structural description. Coverage score 0.8 with explicit match 0.82. Single reference provides clear anticipation."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly discloses '3D printing thermal elastomers or metal' (claim 8), directly teaching both organic materials (thermal elastomers) and metal materials. This is an explicit match (similarity 0.75) for claim 9's 'organic binder material or metal material' limitation. Single reference provides clear anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly teaches growing CNTs on porous metal foam and compressing (claim 6). US-2016159651-A1 teaches aligned CNTs provide superior thermal/electrical conductivity. Motivation to combine is explicit and predictable - improving conductivity through CNT alignment is well-established. Combination threshold=0.48 easily met with explicit teaching and known benefits. Graham factors strongly support obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017232725-A1 teaches hierarchical wrinkle structures for enhanced performance, but the specific limitation 'connected to each other to form continuous structure' requires inferring that hierarchical wrinkles are inherently continuous. US-2016159651-A1's continuous CNT film provides some support, but requires three-way combination. Motivation exists (improved conductivity and mechanical strength) but connection is less direct than claims 3/10. Graham factors support obviousness but with moderate confidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 discloses porous metal foam, and 'ligaments defining pores' is standard terminology for such structures. This is obvious use of conventional descriptive language for an already-disclosed structure. PHOSITA would immediately recognize ligament-pore structure from SEM images and porosity data. This is essentially using standard technical terminology rather than adding new structural features."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1 discloses Ni/Cu foam; US-2017232725-A1 discloses Au conductor; specification indicates catalysis/biosensor applications where Ag/Pt/Au are known superior materials. Substituting noble metals for specific applications is obvious to try with predictable results. However, no explicit teaching of porous Ag/Pt/Au foam substrates in the references. Motivation exists based on common knowledge, but evidence is indirect. At combination_threshold=0.48, this meets the bar for obviousness, but with moderate confidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014151288-A1 explicitly identifies adhesion problem ('Good adhesion...may be critical'). US-2017145561-A1 teaches thermal elastomers/metal as interfacial materials. Motivation to combine is clear - solving known adhesion problem with known bonding materials. However, the specific element of 'bonding material configured to fix' as a separate structural component requires some interpretive step beyond what's explicitly disclosed. Graham factors support obviousness but connection is inferential rather than explicit."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1 shows metal layer 'on top of' graphene, creating interfacial structure. US-2014151288-A1 emphasizes contact surface adhesion importance. The specific limitation 'configured to envelop contact surfaces' requires inferring that interfacial positioning implies enveloping. Motivation exists (maximizing bonding area) but the explicit 'enveloping' configuration is not directly taught. This is a design choice with predictable results, but requires inferential step."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 explicitly teaches '3D printing thermal elastomers or metal' - directly disclosing selection between organic and metal materials. This is not even a combination but recognition of explicit teaching in a single reference. PHOSITA would immediately recognize thermal elastomers as organic binders. Obvious selection from expressly disclosed alternatives."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017145561-A1 단일 문헌이 'porous metal foam substrate' with 'open-cell' structure를 명시적으로 개시하며, SEM 이미지로 ligament structure를 보여줌. 'ligaments defining pores'는 porous metal foam의 본질적(inherent) 특징으로, 명확한 anticipation 성립. Confidence 0.82로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2016159651-A1이 aligned carbon nanotubes (similarity 0.92)와 continuous structure (similarity 0.72)를 명시적으로 개시. US-2017145561-A1이 porous metal substrate with CNTs를 개시. 결합 동기가 명확함: (1) Liu는 alignment의 conductivity 이점을 명시, (2) Ramasubramanian은 compression으로 composite 형성 명시. Combination_threshold=0.57 대비 similarity scores가 높고 motivation이 explicit. Confidence 0.75-0.82."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "단일 문헌(US-2017145561-A1) anticipation이므로 103도 자동 성립. Ligament-pore structure는 porous metal foam의 conventional feature. Confidence 0.85로 매우 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017145561-A1의 deposition과 US-2014151288-A1의 adhesion discussion 결합. Hoenig가 'Good adhesion critical'이라고 명시하여 동기 있음. 그러나 'bonding material'을 별도 구성요소로 명시한 것은 아니고, van der Waals forces나 deposition process를 bonding으로 해석. Similarity 0.65-0.7으로 moderate. Confidence 0.72."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 Ni, Cu만 개시. Noble metals (Ag, Pt, Au)는 cost와 processing에서 substantial difference. 단순 material substitution은 'try all alternatives' 수준으로, explicit teaching/suggestion 없음. Confidence 0.68로 낮음. 거절 근거 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 layering이나 point contact만 개시. 'Envelop contact surfaces'는 specific geometric configuration으로 명시적 teaching 없음. Similarity 0.58-0.62로 낮고, structural limitation. Confidence 0.7. 거절 근거 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 metals와 polymers를 언급하나 'bonding material'로서 명시 안함. Van der Waals forces는 'material'이 아님. Material selection for bonding function은 unpredictable factors 포함 가능. Confidence 0.67로 낮음. 거절 근거 부족."
+        }
+      ]
+    }
+  ]
+}

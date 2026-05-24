@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences from claims, PHOSITA level, secondary considerations, and motivation to combine) across all claim-level obviousness evaluations, and claim 12 is correctly treated under a novelty/non-obviousness framework distinct from §101 eligibility reasoning."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific prior art references (e.g., US-2018279394-A1, US-2018279110-A1, US-2019261132-A1) and maps their disclosures to specific claim elements (discovery filter, PC5_tech parameter, ProSe application code/ID, validity period/TTL), with allowance of claim 12 grounded in the absence of PC7 interface disclosure in any cited reference."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage finds most claims lack novelty, and the §103 stage consistently builds on this by finding the same elements obvious either alone or in combination, without reversing or contradicting prior-stage findings; claim 12's novelty finding at §102 is carried forward as non-obvious at §103."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.547 (moderate) and combination_threshold at 0.553 (moderate), the examiner rejects the majority of claims on fairly well-supported combinations while allowing claim 12 where prior art is genuinely absent, reflecting a balanced approach consistent with mid-range strictness and combination threshold dimensions."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 2–11 and 13–16 and allow claim 12 directly follows from the accumulated §102/§103 stage analyses, with the overall rejection disposition explained by the dominance of rejected claims over the single allowable claim, and the suggestion to rewrite claim 12 as an independent claim providing a clear path forward."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13131,
+      "output_tokens": 474,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

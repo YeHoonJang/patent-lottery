@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies the Graham v. John Deere framework, explicitly addressing scope and content of prior art, differences from the claimed invention, PHOSITA level, secondary considerations, and motivation to combine — all appropriate for an obviousness analysis."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are tied to specific claim language (e.g., 'send buffer,' 'receive buffer,' 'path table,' 'assembler feedback') and specific disclosures in US-2015245409-A1 (e.g., throughput, latency, loss rate, congestion window parameters; LTE/WiFi interfaces; scheduler/assembler architecture)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 stage finds claim 1 temporarily novel due to missing 'send buffer'/'receive buffer' disclosures, and the §103 stage then explicitly addresses this gap by reasoning that buffering is a well-known conventional technique — a consistent and rationale-supported transition rather than a contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.603 (moderate-to-strict) and combination_threshold=0.566 (moderate), the examiner resolves ambiguity (e.g., implicit buffer disclosure, implicit protocol support) toward rejection with reasoned justification, consistent with a moderately strict pragmatist profile that does not require explicit prior art disclosure for every element."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly and consistently from the accumulated §102 and §103 stage analyses, which uniformly found all 17 claims obvious over US-2015245409-A1, with the final decision restating and synthesizing those findings without contradiction."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13708,
+      "output_tokens": 419,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

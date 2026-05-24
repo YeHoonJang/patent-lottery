@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR framework (scope and content of prior art, differences from claims, PHOSITA level, secondary considerations) for all §103 rejections across the novelty, obviousness, office action, and final decision stages, with no misapplication of a different statute's framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout every claim analysis, the examiner cites specific prior art references (US-2013227111-A1 and US-2013272121-A1) and maps specific disclosed elements (e.g., 'scheduling queue occupancy,' 'number of read/write operations') to specific claim language (e.g., buffer depth, pending operations), satisfying evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found non-novel at §102 (e.g., claim 1) are also found obvious at §103 with consistent rationale; claims found novel at §102 (e.g., claims 4, 5, 6, 12, 13, 15, 19, 20) are addressed in §103 with additional combination/motivation reasoning rather than simply reasserting novelty rejections, and the final decision upholds all rejections without contradicting prior stage findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's high strictness (0.889) is explicitly reflected in the final decision reasoning, where the examiner states that even claims with weak prior-art support (e.g., claims 12, 13, 15) are rejected as 'obvious design choices' under the stated 'public protection' philosophy, consistent with a strict gatekeeper resolving ambiguity toward rejection."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims follows directly from the accumulated §102 and §103 stage analyses, with the final decision explicitly weighing 'strong,' 'moderate,' and 'weak' §103 grounds for different claim groups and stating that even weak grounds support rejection given the examiner's strictness profile."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 19474,
+      "output_tokens": 491,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

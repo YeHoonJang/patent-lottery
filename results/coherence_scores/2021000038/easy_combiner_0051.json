@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham factors (scope and content, differences, PHOSITA level, secondary considerations) and KSR-style motivation-to-combine analysis, while §112 rejections properly invoke the written description/enablement framework with claim-specific language cited."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Both novelty and obviousness analyses cite specific prior art references (US-2012220818-A1 and US-2013303835-A1) with element-by-element comparisons to specific claim language (e.g., 'alternating manner,' 'beginning of a cochlea,' 'substantially identical'), and §112 rejections quote exact claim language."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 stage finds all claims novel, the §103 stage consistently finds no obviousness based on the same reasoning, and the office action/final decision carry forward these conclusions without contradiction, adding §112 rejections only on separate indefiniteness grounds."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.502 and combination_threshold=0.329, the examiner is a moderate easy-combiner, yet still finds non-obviousness due to lack of motivation to combine—this is consistent because even an easy combiner requires some articulable motivation, and the final decision leans toward amendment-suggested rather than outright rejection, reflecting the moderate strictness."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' flows logically from the accumulated stage analyses: all claims passed §102 and §103, with only targeted §112 issues on claims 4, 10, 15, 18, and 21, making amendment rather than rejection the appropriate outcome."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000038",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17780,
+      "output_tokens": 420,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

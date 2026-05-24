@@ -1,0 +1,683 @@
+{
+  "case_id": "2017000821",
+  "proceeding_number": "2017000821",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses plurality of superconducting coils wound around circumferentially adjacent teeth (claim 11, 12), which under BRI directly anticipates 'stator windings forming adjacent pairs' (claim 2). Claim 3's 'gaps between adjacent winding pairs' is explicitly disclosed as 'slots between adjacent teeth' in the prior art claim 12. The element-by-element mapping shows high similarity scores (0.85, 0.82) and explicit matches. This is not a matter of interpretation—the prior art claims literally disclose the claimed structure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 is questioned, 103 applies with equal strength. The formation of adjacent winding pairs when multiple coils are wound circumferentially is inherent stator geometry—this is fundamental knowledge in motor design, not inventive. The gaps/slots between adjacent windings are necessary structural features. No combination is needed; the claimed features are obvious consequences of the prior art structure. PHOSITA would immediately recognize these relationships."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 1 is missing, which prevents full evaluation of dependency scope. However, this is a procedural objection rather than a substantive rejection. The claims can likely be amended or claim 1 can be provided. This does not overcome the 102/103 rejections but creates a separate compliance issue."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty_claim_2",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses a stator core with plurality of superconducting coils wound around adjacent teeth. The structure inherently forms adjacent stator winding pairs when multiple coils are wound around adjacent teeth in circumferential direction. This is not merely similar but identical in structure. The claimed limitation is a natural consequence of the disclosed arrangement."
+        },
+        {
+          "basis": "102_novelty_claim_3",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses 'slots, each of which is provided between two of the teeth that are adjacent in a circumferential direction.' These slots are structurally and functionally identical to the claimed 'gaps disposed between adjacent stator winding pairs.' The only difference is terminology (slots vs gaps), which are synonymous in electric motor art."
+        },
+        {
+          "basis": "103_obviousness_claim_2",
+          "strength": "strong",
+          "reasoning": "Even if not anticipated, the claimed structure is an obvious consequence of basic stator geometry. Arranging multiple windings around adjacent teeth inherently creates adjacent pairs. This requires no inventive insight beyond ordinary skill in electric motor design. The reference provides explicit teaching of all structural elements."
+        },
+        {
+          "basis": "103_obviousness_claim_3",
+          "strength": "strong",
+          "reasoning": "The claimed gaps are explicitly shown as slots in the prior art. A PHOSITA would recognize these terms as equivalent. No modification is required - this is direct disclosure using synonymous terminology. The combination threshold of 0.34 is easily met as no actual combination is needed."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 2-3에 대한 103 거절은 주로 용어(terminology) 차이에 기반합니다. US-2012165198-A1이 'coils wound on adjacent teeth'를 개시하고, 청구항이 'stator winding pairs'를 기재한다는 점에서, 이것이 단순한 명명법 차이인지 구조적 차이인지 해석의 여지가 있습니다. 'winding pairs'는 단순히 인접한 두 개의 권선을 묘사하는 것이 아니라, 특정한 기능적 관계(예: 함께 작동하는 한 쌍)를 암시할 수 있습니다. 명세서가 제공되지 않아 'winding pairs'의 정확한 의미를 확인할 수 없으므로, 이를 단순 용어 차이로 보는 것은 성급합니다. 또한 선행기술이 개시한 것이 청구항의 구조를 '필연적으로(inherently)' 포함한다는 주장은 명확한 증거 없이 추론에 의존하고 있습니다. Claim 3의 경우도 마찬가지로, slots between teeth가 gaps between winding pairs와 동일하다는 것은 해석의 문제입니다. 결합 동기(motivation to combine)가 '단순히 용어를 인식하는 것'이라는 것은 103의 법적 기준을 충족하기에 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2-3에 대한 103 거절은 선행기술 US-2012165198-A1이 circumferentially adjacent teeth에 감긴 복수의 코일과 teeth 사이의 슬롯을 명시적으로 개시한다는 점에서 근거가 있습니다. 그러나 '권선 쌍(winding pairs)' 개념은 선행기술에 명시적으로 개시되지 않았으며, 인접한 권선들이 자연스럽게 쌍을 형성한다는 주장은 해석의 여지가 있습니다. 선행기술의 슬롯은 teeth 사이의 구조적 공간이며, 청구항의 '권선 쌍 사이의 갭'과 직접적으로 동일하지 않을 수 있습니다. 결합 동기는 전기 모터의 기본 원리에 기반하여 제시되었으나, 이는 사후적 해석(hindsight)의 위험이 있습니다. Claim 2의 '권선 쌍 형성'이 단순한 기하학적 결과인지, 아니면 특정 기술적 의미를 가진 구성인지는 명세서의 설명에 따라 달라질 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 청구항 2의 'plurality of stator windings forming adjacent stator winding pairs'와 청구항 3의 'plurality of gaps between adjacent stator winding pairs'를 명시적으로 개시합니다. 선행기술의 'superconducting coils wound around adjacent teeth with slots between them'은 청구항의 구조와 실질적으로 동일합니다. Similarity scores (0.85, 0.75, 0.82)가 높고 explicit match가 확인되었으며, 단일 문헌에서 모든 구성요소를 개시하여 102 anticipation 기준을 충족합니다. Strictness 0.89 기준으로 강한 거절 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "102 거절의 대안으로서, 103 거절도 강력합니다. Graham 분석이 완전하며, 결합 동기가 명확합니다(전기 모터 분야의 통상적 설계 관행). 'Adjacent pairs' characterization과 'gaps/slots' terminology는 선행기술의 예측 가능한 변형입니다. KSR 판례에 따라 공지된 요소의 예측 가능한 조합은 자명하며, combination_threshold 0.45 기준을 충족합니다. 두 청구항 모두 strong obviousness rejection을 정당화합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1이 청구항 2, 3의 추가 구성요소(adjacent winding pairs, gaps between adjacent windings)를 명시적으로 개시함. 'plurality of superconducting coils wound at radial end portion' 및 'slots between circumferentially adjacent teeth'는 청구항 2의 adjacent winding pairs와 청구항 3의 gaps를 직접 anticipate함. 종속항의 추가 한정사항만을 대상으로 한 102 거절은 적법하며, 선행기술 개시가 명확함."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            6,
+            12
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 6, 12의 핵심 구성요소인 adhering material과 filling substance가 선행기술에 전혀 개시되지 않음. 선행기술은 냉각용 refrigerant tubes를 개시하며, 이는 공간 충전(filling) 목적과 상반됨. Stator 구조와 windings 배치의 유사성만으로는 완전한 anticipation 성립 불가. Coverage score 0.5는 부분적 개시만을 의미하며, 102 거절 기준에 미달함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 2, 3의 추가 한정사항(adjacent winding pairs, gaps)은 선행기술에 명시적으로 개시되어 있어 103 판단이 불필요함. 102로 충분히 거절 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            12
+          ],
+          "strength": "weak",
+          "reasoning": "Adhering material과 filling substance의 조합은 선행기술의 냉각 시스템과 완전히 다른 기술적 목적(안전 규제 준수, impregnation compound 단점 극복)을 가짐. 결합 동기가 없으며, 오히려 상반된 접근법임. Combination_threshold=0.51 기준으로도 명시적 교시나 동기 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses all elements of claims 2 and 3. For claim 2, the reference teaches superconducting coils wound around teeth in a stator core, with teeth adjacent in circumferential direction, which inherently forms adjacent stator winding pairs. For claim 3, the reference explicitly states 'slots, each of which is provided between two of the teeth that are adjacent in a circumferential direction' (claim 12 of reference). These slots between adjacent teeth with windings constitute gaps between adjacent stator winding pairs. The anticipation is clear and well-supported by specific claim language from the reference. This is a strong 102 rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 2 and 3 are anticipated under 102, therefore they are necessarily obvious under 103. No separate obviousness analysis needed beyond the anticipation finding."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "not_applicable",
+          "reasoning": "These claims were found novel. No 102 rejection applies."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "weak",
+          "reasoning": "The prior art US-2012165198-A1 addresses thermal management using cooling tubes in gaps, while the claimed invention fills gaps with adhering material and filling substance for safety purposes in flammable zones. These are fundamentally different technical objectives. The prior art provides no teaching, suggestion, or motivation to fill gaps (which it uses for cooling) with insulating materials. The specific limitations (volumetric free space ≤1 cubic inch, electrically insulated felt, fibrous aramid, adhering material installation sequence) are entirely absent from the prior art. No combination of references was provided that would bridge these gaps. The obviousness analysis shows no motivation to combine or modify the prior art to arrive at the claimed invention."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 2, 3에 대한 102 거절 근거는 강력합니다. US-2012165198-A1이 청구항의 모든 구성요소를 명시적으로 개시하고 있으며, coverage_score가 각각 0.8, 0.82로 매우 높습니다. 'slots between adjacent teeth'와 'gaps between adjacent windings'는 실질적으로 동일한 구조이며, 통상의 기술자라면 이를 즉시 인식할 수 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "102가 성립하는 경우 103도 당연히 성립합니다. 단일 선행기술이 모든 구성요소를 개시하고 있어, 자명성 판단은 명확합니다. 청구항 2, 3은 선행기술의 구조를 단순히 다른 용어로 재기술한 것에 불과합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "weak",
+          "reasoning": "이들 청구항에 대한 103 거절 근거는 약합니다. 핵심 구성요소인 'adhering material'과 'filling substance'의 조합, 그리고 '1 cubic inch 이하'의 구체적 수치 한정은 선행기술에 개시되지 않았습니다. 선행기술의 'heat conductive material'은 냉각 목적이며, 청구항의 adhering/filling 시스템과는 기능과 목적이 다릅니다. 결합 동기가 불명확하며, 통상의 기술자가 선행기술로부터 이러한 이중 재료 시스템에 도달할 명백한 경로가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "weak",
+          "reasoning": "독립항 6에 대한 103 거절 근거는 약합니다. 구조적 요소(stator, windings, gaps)는 선행기술에 있으나, 핵심 발명인 adhering material과 filling substance의 조합은 선행기술에 없습니다. 이는 명세서에서 언급된 비용 절감과 효과적 충진 문제를 해결하기 위한 창작적 해결책으로 보입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses plurality of superconducting coils wound around teeth with slots between adjacent teeth in circumferential direction. The term 'stator windings' is generic and encompasses 'superconducting coils.' Claims 2 and 3 recite conventional stator structure with no distinguishing features from the prior art disclosure. Element-by-element comparison shows direct correspondence between claim language and prior art teaching. This is clear anticipation with high confidence (0.82-0.85)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 rejection were overcome on terminology grounds, claims 2-3 would still be obvious as they merely describe conventional stator architecture with windings around teeth and gaps between adjacent windings - standard motor construction requiring no inventive step."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            8,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "The one cubic inch limitation is a specific numerical value. While the application background identifies the need to limit free space for safety, selecting this particular threshold involves some engineering judgment. However, it represents optimization of a known parameter (free space volume) to meet a known objective (safety compliance). The value is predictable and within ordinary design choices, but the specific number adds some particularity beyond obvious range selection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            9,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Felt is a known electrical insulating material, but the claim requires 'adhering material comprising felt material that is electrically insulated.' While felt insulators are conventional, the specific application as an 'adhering material' in the claimed two-component system (to which filling substance adheres) adds functional specificity. The obviousness depends on whether using felt as a substrate for adhesion (not just insulation) would be predictable to PHOSITA. Given felt's known properties and common use in motors, this is likely obvious, but there is interpretive room."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            7,
+            12
+          ],
+          "strength": "moderate-to-weak",
+          "reasoning": "The two-component system (adhering material + filling substance that adheres to it, substantially filling gaps) addresses problems identified in the background. However, the specific combination requires: (1) adhering material installed in gaps, (2) filling substance that adheres to it, (3) combination substantially filling gaps. While the motivation exists (solving fracture/filling problems), the prior art does not explicitly teach this two-component approach. The obviousness relies heavily on the application's own problem statement and hindsight reconstruction. There is creative assembly involved in selecting and combining these two materials in this manner. This is borderline - could be non-obvious if the two-component interaction provides unexpected benefits."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Aramid materials (Nomex, Kevlar) are well-known premium electrical insulators in motors. However, similar to felt analysis, the claim specifies 'adhering material comprising fibrous aramid material' - not just insulation but material serving as adhesion substrate. While aramid's use in motors is conventional, its specific application in this two-component filling system adds particularity. Given aramid's known mechanical strength and insulation properties, selection for dual function (insulation + adherence substrate) is likely predictable, but involves some design choice."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 11,
+          "strength": "weak-to-moderate",
+          "reasoning": "Claim 11 requires 'space between an outer diameter of the stator core and the motor housing' with adhering material disposed therein. While the general concept of filling internal motor spaces is known, this specific geometric location (radial gap between stator OD and housing ID) is not explicitly taught in US-2012165198-A1. The extension from filling gaps between windings to filling the outer radial space involves additional structural consideration. However, comprehensive space filling throughout motor assembly is a logical extension of the stated objective."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim": 13,
+          "strength": "moderate",
+          "reasoning": "The timing limitation (installing adhering material before stator installed in housing) is presented as obvious assembly sequencing. While it is logical to install materials while components are accessible, the claim adds process specificity that defines manufacturing sequence. This is likely obvious manufacturing practice, but adds procedural structure beyond the mere product configuration."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses all elements of claims 2-3. Claim 2: 'plurality of superconducting coils wound at radial end portion of stator core' directly corresponds to 'plurality of stator windings', and 'coils wound around adjacent teeth' inherently forms 'adjacent stator winding pairs'. Claim 3: 'slots between adjacent teeth' is structurally identical to 'gaps between adjacent winding pairs'. This is clear single-reference anticipation with express or inherent disclosure of all limitations."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            8,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Free space limitation of 'one cubic inch or less' is claimed as optimization to meet known safety requirements. Applicant's specification acknowledges this is a known requirement in the art. However, US-2012165198-A1 does not disclose any specific volume measurement or teach toward this particular limitation. The obviousness rests on: (1) known general requirement to minimize free space, and (2) the specific numeric limit being 'routine optimization'. While the motivation exists, the specific threshold may not be entirely predictable without evidence that one cubic inch is a standard or obvious choice in the art. Given strictness=0.50, this is a moderate-strength rejection that could go either way depending on additional evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            9,
+            15
+          ],
+          "strength": "moderate-to-strong",
+          "reasoning": "Felt material as electrically insulated adhering material: Felt is indeed a well-known insulating material in electrical applications. The motivation to use it for space filling and insulation in the stator structure of US-2012165198-A1 is logical. However, US-2012165198-A1 uses a different approach (cooling tubes with refrigerant) rather than felt-based filling. The question is whether a PHOSITA would obviously substitute felt for the cooling approach. Given that felt is common knowledge for insulation and the application's own background suggests filling materials are known, this rejection has moderate-to-strong support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10,
+            16
+          ],
+          "strength": "moderate-to-strong",
+          "reasoning": "Aramid fiber materials (Nomex, Kevlar) are well-established in the electric motor field for insulation and mechanical strength. Similar rationale as felt material applies. The use of aramid as adhering material would be an obvious material selection for a PHOSITA seeking high-performance insulation, even though US-2012165198-A1 does not teach it."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            7,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 6-7 and 11 involve combining adhering material and filling substance to substantially fill gaps. The applicant's specification acknowledges that impregnation compounds are known but have limitations (expensive, dense, prone to fracture). The obviousness argument is that a PHOSITA would combine a structural support material (adhering material) with filling substance to address these known problems. This is logical, but it requires an inferential step: that combining two materials (one for structure, one for filling) would be obvious rather than inventive. US-2012165198-A1 discloses the basic structure but does not teach this two-material combination approach. The motivation comes from the applicant's own acknowledgment of prior art problems, which supports obviousness, but the specific combination is not explicitly taught. With strictness=0.50, this is a moderate-strength rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "Method claims 12-13: If the product (claims 6-7) is obvious, the method of making it is generally obvious unless unexpected steps are involved. Claim 13 adds a timing limitation (installing adhering material before stator core installation in housing), which is characterized as 'obvious process sequence choice for manufacturing convenience'. This is reasonable, but without explicit prior art teaching this sequence, it requires inference. Given moderate product obviousness and routine process characterization, the method claims have moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            14,
+            15,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 14-16 are method claims with additional limitations (free space threshold, felt, aramid). These inherit the moderate strength of their corresponding product claims and process claims. The same rationale applies: logical combinations of known elements with known purposes, but requiring inferential steps not explicitly taught in US-2012165198-A1."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses all structural elements of claims 2 and 3. The reference teaches a stator core with superconducting coils wound around teeth, with slots between adjacent teeth in circumferential direction. When coils are wound around adjacent teeth separated by slots, this inherently creates adjacent winding pairs and gaps between them. This is not merely similarity but direct disclosure of the claimed structure. The anticipation is clear and well-supported by the reference's explicit teachings."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Even if the explicit label 'adjacent stator winding pairs' is viewed as requiring separate analysis, the obviousness is clear. US-2012165198-A1 discloses the exact structure, and recognizing that coils around adjacent teeth form adjacent pairs is not inventive but merely descriptive. A PHOSITA would immediately understand this relationship as it is fundamental to stator design. The motivation is inherent in the disclosed structure, and there is no teaching away or unexpected results."
+        },
+        {
+          "basis": "allowable_subject_matter",
+          "claims": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "The prior art US-2012165198-A1 focuses on cooling systems with heat conductive materials and cooling tubes in gaps, which is functionally opposite to filling gaps with adhering material and filling substance for safety purposes. The specific limitations (free space ≤1 cubic inch, felt/aramid adhering materials, two-component filling system, method steps and timing) are not taught, suggested, or motivated by the cooling-focused prior art. These address a different technical problem (flammable leakage zone safety) not contemplated in the reference."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012165198-A1이 circumferentially adjacent teeth에 감긴 코일들을 개시하는 것은 사실이나, 'adjacent winding pairs'가 단순히 인접한 코일을 의미하는지, 아니면 특정한 쌍(pair) 구조를 의미하는지 해석의 여지가 있습니다. 선행기술은 개별 코일들이 인접한 teeth에 감겨있다고 개시하지만, 이것이 자동으로 'winding pairs'를 형성한다고 보기에는 청구항 용어의 의도가 불분명합니다. 다만 전기 모터 분야에서 인접한 코일 구조는 통상적이므로 자명성 주장이 완전히 근거 없다고 보기는 어렵습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1이 'slots between circumferentially adjacent teeth'를 명시적으로 개시하고, 이것이 청구항 3의 'gaps between adjacent winding pairs'와 구조적·기능적으로 동일하다는 점이 명확합니다. 용어의 차이(slots vs. gaps)는 실질적 차이가 아니며, 전기 모터 분야의 통상의 기술자에게 이러한 용어들이 상호교환 가능하다는 것은 잘 알려진 사실입니다. 따라서 이는 강한 자명성 근거입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 explicitly discloses stator core with superconducting coils wound around teeth with slots between adjacent teeth. The reasoning that coils on adjacent teeth inherently form adjacent winding pairs (claim 2) is logically sound based on basic motor geometry. The equivalence between 'slots' and 'gaps' (claim 3) is well-established terminology in electric motor art. The prior art coverage is high (0.8) and the structural relationships are inherent in conventional stator construction. The motivation is based on recognition of inherent features rather than requiring inventive combination. This constitutes strong evidence for obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012165198-A1이 인접한 티스 주위의 코일 구조를 개시하나, '인접한 권선 쌍을 형성한다'는 명시적 기재는 없음. 구조적으로 인접한 권선이 쌍을 형성하는 것은 암시적이나, 102 anticipation은 명시적 개시를 요구함. 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 인접한 티스 주위 코일 구조에서 '인접한 권선 쌍' 개념은 구조적 필연성이며, 통상의 기술자에게 자명함. 결합 동기가 명확하고, 모터 설계의 기본 원리에 해당함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1이 인접한 티스 사이의 슬롯을 명시적으로 개시하며, 이는 청구항의 '인접한 권선 쌍 사이의 갭'에 직접 대응됨. 단일 문헌이 모든 요소를 명확히 개시함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "슬롯이 권선 사이의 갭이라는 것은 모터 구조의 기본 원리로, 통상의 기술자에게 자명함. 결합 동기가 명확함."
+        }
+      ]
+    }
+  ]
+}

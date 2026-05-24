@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation under §102 for specific claims and applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) for §103 throughout the obviousness analysis."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., QCI=1, emergency landing/hover, standardized API), specific prior art disclosures (US-2016140851-A1 Claim 4, flight risk map, external control mechanism), and element-by-element comparisons across all 20 claims."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Later §103 analysis builds on the §102 findings without contradiction — claims found anticipated at §102 are also rejected under §103 as a belt-and-suspenders approach, and claims found novel at §102 (e.g., claims 4–6, 8) are subsequently rejected under §103 with additional reasoning about known QoS, standard API practices, and emergency maneuvers, maintaining logical consistency throughout."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness of 0.889, the examiner consistently resolves ambiguity toward rejection across all 20 claims, finds no allowable claims, treats even novel features (QCI=1, standardized API) as obvious design choices, and applies a combination threshold of 0.448 by accepting moderate motivation-to-combine reasoning — all consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated §102 and §103 stage analyses, with the final decision's claim-by-claim reasoning explicitly tracking the earlier stage conclusions and citing the same prior art references and rationale without unexplained reversal."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018008516",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13069,
+      "output_tokens": 437,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

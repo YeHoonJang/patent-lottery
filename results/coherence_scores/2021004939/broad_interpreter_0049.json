@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 with single-reference citations, applies Graham/KSR factors for §103 obviousness across all claims, and invokes §112(a) written description/enablement for the accounting/authorization claims — each statute is addressed with its proper legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout consistently reference specific claim language (e.g., 'Invoke SCEF Selection indicator,' 'NAS PDU,' 'at least one UE'), specific prior art disclosures (US-2018324652-A1 claim 6, claim 3), and specification passages regarding accounting/authorization gaps."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage found claims 15, 16, and 17 'not novel' with confidence 0.7/0.65/0.7 and explicitly noted partial disclosure gaps ('부분적 누락으로 보아 보류'), yet the office action and final decision apply full §102 anticipation rejections to these claims without additional rationale bridging the earlier uncertainty, creating an unexplained escalation from partial to complete anticipation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.547) and moderate combination threshold (0.553) are reflected appropriately: most claims are rejected on strong prior art, claims with clearly missing elements (7, 14, 19, 24) are granted novelty and non-obviousness and rejected only on §112, and the final decision score of 0.4 reflects balanced rather than extreme strictness."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated stage analyses — §102 rejections for claims found not novel, §112 rejections for claims found novel but lacking specification support, and the overall 'reject' decision is consistent with no claims surviving both novelty and written description scrutiny."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004939",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17398,
+      "output_tokens": 472,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

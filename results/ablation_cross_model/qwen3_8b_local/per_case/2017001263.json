@@ -1,0 +1,365 @@
+{
+  "case_id": "2017001263",
+  "proceeding_number": "2017001263",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1은 청구항 1의 모든 구성요소를 명확히 포함하며, '사회적 그래프 분석'과 '엔티티 대체 로직'의 결합은 기술 통상자에게 명확한 동기로 작용한다. Graham 요인에 따르면, 분야 내 공지기술과 동일한 목적(자원 최적화)을 가진 기술의 결합은 당연한 결합으로 판단된다. 결합 동기와 증거의 강도가 높아 strong으로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all elements of claims 1-9 with explicit mappings and high coverage scores (0.75-0.93). The combination of social graph analysis (Claim 5) and candidate ranking (Claim 6) is obvious to a PHOSITA for HR optimization, meeting the strictness threshold (0.88)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 5, and 6 lack sufficient detail in 'measurement profile', 'roles and activities', and 'lookup table' respectively. While the specification may provide some support, the deficiencies require amendment under strict interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 구체적 기술 내용(claim5, claim6)과 결합 동기(사회적 그래프 분석 + 후보자 등급화)가 명확하며, Graham 요인에서의 차이점이 미약함. 이에 따라 결합 동기가 명확하여 103 거절 근거가 강력함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술의 추상부가 인력 자원 후보자 식별을 명시적으로 개시하며, 해당 내용이 청구항 3과 정확히 일치함. 이에 따라 102 예측 근거가 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1의 claim5와 claim6은 청구항 1의 사회적 그래프 연결, 엔티티 대체, 메타데이터 기반 프로파일링 요소를 명확히 포함하며, 결합 동기(motivation to combine)가 명확히 제시됨. coverage score 0.72 기준을 초과하는 0.78의 상관관계로, 기술적 통찰력이 있는 자에게 당연한 결합이 명백함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all elements of claim 1 (social graph connections, psychometric profiles, ranked replacement candidates) with clear references to abstract, claim 9, and claim 6. Confidence score of 0.85 indicates strong evidence of anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 구체적 기술 내용과 청구항 요소가 일치하며 결합 동기가 명확히 제시됨. combination_threshold(0.51)를 초과하며, PHOSITA의 당연한 동기가 명확히 설명됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서의 기재 부족이 구체적으로 제시되어 112 기재요건 위반으로 판단됨. '인적 자원' 용어의 모호성은 기술자에게 명확한 이해를 방해함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술의 결합이 명확한 동기와 PHOSITA의 지식에 기반하며, Graham 요소 모두 충족됨. 결합 동기와 차이점이 명확하여 강한 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술은 사회적 그래프 기반 채용 후보자 식별 기술을 제공하며, 청구항의 추가 요소(심리 프로필, 구조화/비구조화 데이터, 역할/활동 매핑)는 기술적 통상의 자격자가 당연히 결합할 수 있는 동기로 판단되나, 이는 기술적 통상의 자격자가 '명확한 동기'를 인식할 수 있는지 여부에 대한 해석의 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1 explicitly discloses all elements of claims 1 and 3 with high coverage scores (0.8-0.9), meeting the strictness threshold for clear anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Critical terms like 'optimized entity' and 'lookup table' lack definition in the specification, creating unambiguous ambiguity under BRI standards."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art's disclosure aligns with claim 1's scope, but the combination motivation is speculative and lacks explicit technical guidance."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 is obvious under 35 U.S.C. § 103 due to clear combination of prior art elements (social graph connections, ranking criteria, lookup tables) with a logical motivation to enhance candidate matching. Confidence score (0.85) exceeds strictness threshold (0.50)."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3,5,6,7,9 are anticipated by prior art with coverage scores >0.50 and explicit references. Confidence scores (0.78-0.9) indicate strong anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 2,4,8 lack explicit definitions for terms like 'measurement profile' and 'mapping' in the specification. Confidence (0.75-0.85) suggests moderate weakness in written description support."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is explicitly anticipated by prior art (US-2013275320-A1:claim1/claim5) with direct overlap in human resource replacement disclosure."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 2 and 6 lack sufficient definition for 'measurement profile' and lookup table structure, as confirmed by verification notes."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Combination of graph analysis and ranking mechanisms is plausible but requires interpretation of functional equivalence."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly discloses overlapping elements (social graph, professional profiles, ranking criteria) that combine to the claimed method. While the combination is straightforward, the confidence (0.7) and combination_threshold (0.52) suggest moderate strength under strictness=0.42."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'lookup table' lacks definition in the specification, creating ambiguity. This is a clear deficiency under 35 U.S.C. § 112(b) with no mitigating factors noted."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses social graph analysis (claim5) and structured metadata profiling (claim4) with clear motivation to combine for candidate selection. Confidence score 0.85 exceeds threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all elements of claim 1 with clear motivation to combine, exceeding strictness threshold"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguous term 'measurement profile' lacks specification support, but technical context provides some clarity"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis properly applies Graham factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) and KSR-consistent motivation-to-combine analysis across all claims, with no conflation with §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim's novelty and obviousness analysis cites specific claim language (e.g., 'send and receive connectors, path table, scheduler, send buffer, receive buffer, and assembler') and references specific disclosures or gaps in US-2015245409-A1."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis consistently builds on the §102 findings—where novelty is found based on the prior art's lack of application-level scheduling/reassembly, the obviousness stage further elaborates on absence of motivation to combine rather than reversing or contradicting those findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.248 (lenient) and combination_threshold at 0.676 (high barrier to combining), the examiner consistently resolves ambiguity in favor of the applicant, grants all claims, and explicitly states in the final decision that 'marginal uncertainties are resolved in favor of the applicant'—fully consistent with the lenient_advocate profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The grant decision follows directly and coherently from all prior-stage findings: both §102 novelty and §103 non-obviousness analyses concluded favorably for all 17 claims, and the office action and final decision consistently reflect those accumulated conclusions with stated rationale."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 10819,
+      "output_tokens": 397,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

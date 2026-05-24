@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for §103, and separately invokes 35 U.S.C. §112(a) written description for means-plus-function claims 17 and 35, each under the appropriate statutory framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout consistently reference specific claim language (e.g., 'only' limitation, APS indices), specific prior art disclosures (REF2 Claim 7's slice-level signaling, REF1 Claim 1's chroma ALF), and specification passages (video decoder 30, video encoder 20), providing evidence-linked reasoning at each stage."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claims 8, 16, and 18 were found novel at §102 yet the §103 stage immediately rejects them as obvious on the same elements (display, non-transitory media) using only a general 'inherent in video decoding' rationale without additional prior art evidence or explanation of why novelty was overcome, creating an inconsistency between stages without adequate bridging rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.875 and low combination threshold of 0.344 are consistently reflected in the trace: all 20 analyzed claims are rejected, ambiguity (e.g., 'only' limitations, display steps) is uniformly resolved toward rejection, and weak motivation-to-combine arguments are accepted throughout, matching the veteran_strict high-strictness and easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §103 obviousness findings and the §112(a) written description rejection for claims 17 and 35, with a stated rationale summarizing the key issues and no reversal of any prior-stage conclusion."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15737,
+      "output_tokens": 470,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "case_id": "2019001963",
+  "proceeding_number": "2019001963",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 1.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1 and 5 are directly anticipated by US-2013285347-A1, which explicitly discloses the 'plurality of mounting positions' and 'plurality of apertures' as claimed. The evidence is clear and unambiguous, leaving no room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the combination of elements in Claims 1, 2, 3, 6, 7, 8, 9, 12, 13, 14, and 15 is supported by US-2013285347-A1 and common design choices, the motivation to combine is logical but not explicitly disclosed. However, given the low combination_threshold (0.34) and the examiner's strictness (0.79), the rejection is maintained."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12 contains a clear typographical error ('the first mounting bracket is releasably secured to the first mounting bracket'), which renders the claim indefinite. This is a straightforward issue that must be corrected."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1은 청구항의 핵심 구성요소를 명시적으로 개시하거나 해당 분야에서 공지된 기술로 간주됩니다. 결합 동기(combination_threshold=0.34)가 명확하며, 통상의 기술자가 쉽게 도출할 수 있는 변형으로 판단됩니다. strictness=0.88에 따라 근거가 충분하여 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술과의 유사성이 높으나, 일부 구성요소는 명시적 개시가 아닌 공지된 기술로 간주됩니다. strictness=0.88에 따라 102 거절로도 활용 가능하나, 103 거절이 더 적합한 근거로 판단됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 12의 문언 오류('the first mounting bracket is releasably secured to the first mounting bracket')는 명백한 indefiniteness를 초래하며, 명세서의 뒷받침에도 불구하고 청구항 자체의 모호성이 심각합니다. 근거가 충분하여 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 12의 오류는 명백한 오타로 인해 발생한 indefiniteness임. 명세서에는 올바른 구성요소 간의 관계가 명확히 기재되어 있어, 청구항의 수정만으로 해결 가능함. strictness=0.25에 따라, 근거가 약하고 출원인의 기술적 기여가 인정되므로 보정을 제안하는 것이 적절함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항 5의 'plurality of apertures' 요소를 구체적으로 개시하고 있어 anticipation 판단 근거가 명확함. strictness=0.29에 따라 근거가 충분하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1이 'plurality of engagement apertures'를 개시하고 있으나, 청구항 5의 전체 구성과 결합 동기가 명확하지 않음. 그러나 combination_threshold=0.72 이하로 판단되어 진보성 부정 근거로 활용 가능. strictness=0.29에 따라 근거가 다소 약하지만 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 5, 6, 12, and 14 are explicitly disclosed in US-2013285347-A1. The prior art directly anticipates the key features of these claims, including the plurality of mounting positions (apertures), mechanical fasteners, and support/mounting bracket configurations. The confidence scores (0.85-0.95) and clear disclosure in the prior art support a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15 are rendered obvious by US-2013285347-A1 combined with the knowledge of a person having ordinary skill in the art (PHOSITA). The differences between the claims and the prior art are design choices or functional integrations that would have been obvious to a PHOSITA. The combination threshold (0.45) is met, and the motivation to combine is clear. Confidence scores (0.75-0.9) support a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 4 is the only claim not rendered obvious by the prior art. The stabilizer assembly with remote operation and its specific functionality are not disclosed or suggested in US-2013285347-A1 or any other provided prior art. The combination of these features provides a novel and non-obvious improvement. Confidence score (0.85) supports allowability."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항 1과 5의 모든 구성요소를 명시적으로 개시하고 있으며, 기능적 유사성도 명확함. 신규성 부정 근거가 충분함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1과 공지기술의 결합으로 진보성이 부정될 수 있으나, 청구항 2, 3, 15의 'tilt lock-out/stop arrangement'과 같은 구체적 구성은 설계 선택의 범위를 벗어날 가능성 있음. 그러나 strictness=0.82에 따라, 결합 동기가 논리적이며 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            10,
+            11,
+            13
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 명시적 개시가 없으며, 결합 동기도 불분명함. 특히 청구항 4의 'stabilizer assembly'와 원격 제어 메커니즘, 청구항 10, 11, 13의 'structural cross member' 구성은 공지된 기술이 아님. 허여 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1과의 차이점('mounting bracket', 'vehicle frame rail', 'support bracket'의 구체적 구성)은 설계 선택으로 볼 수 있으나, 결합 동기가 명확하지 않음. 통상의 기술자가 쉽게 도출할 수 있는 수준인지에 대한 해석의 여지가 있음. strictness=0.47에 따라 보정 가능성 고려."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "'tilt lock-out arrangement' 또는 'tilt stop arrangement'이 'spaced from the mounting position'에 장착된다는 특징은 선행기술의 'slide stop'과 유사하지만, 구체적 구성의 차이는 설계 선택으로 볼 수 있음. 결합 동기가 명확하지 않으나, 통상의 기술자가 예측 가능한 변형으로 볼 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "'tilt stop arrangement'이 동일한 'mounting position'에 장착된다는 특징은 선행기술의 'slide stop'과 유사하며, 통상의 기술자가 예측 가능한 변형으로 볼 수 있음. 그러나 구체적 구성의 차이는 설계 선택으로 해석될 수 있음."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 'plurality of engagement apertures'를 명시적으로 개시하여 청구항 5의 'plurality of mounting positions includes a plurality of apertures'와 실질적으로 동일함. 신규성 흠결은 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            12,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "'mechanical fasteners'의 사용은 fifth wheel hitch assembly 분야에서 공지된 기술이지만, 구체적인 구성(예: 'bolts')은 설계 선택으로 볼 수 있음. 통상의 기술자가 쉽게 도출할 수 있는 수준인지에 대한 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "듀얼 구조('dual mounting brackets', 'dual support brackets')는 안정성 및 조정 가능성을 높이기 위한 설계 선택으로 볼 수 있으나, 통상의 기술자가 쉽게 도출할 수 있는 수준인지에 대한 해석의 여지가 있음. 결합 동기가 명확하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 'plurality of apertures'를 명시적으로 개시하여 청구항 5의 신규성을 부정함. 증거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1과 공지기술 기반의 결합 동기가 논리적이지만, 일부 청구항(예: 10, 11)은 결합의 명백성이 다소 약함. 그러나 통상의 기술자(PHOSITA)가 쉽게 생각할 수 있는 수준으로 판단되며, strictness=0.55에 따라 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 12의 문구가 모호하거나 중복되어 definiteness 이슈가 있으나, 명세서의 맥락상 의미가 명확하므로 보정 권고."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항 5의 모든 구성요소를 명시적으로 개시하고 있음. 신규성 부정 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "tilt lock-out/stop arrangement의 사용은 해당 분야에서 공지된 기술이지만, 청구항의 구체적 배치 및 조합이 선행기술과 완전히 동일하지는 않음. 그러나 결합 동기(combination_threshold=0.22)가 낮아 통상의 기술자에게 명백하다고 판단됨. strictness=0.46에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "mechanical fasteners의 사용은 선행기술에서 개시된 내용과 유사하며, 해당 분야에서 표준적인 설계 선택임. 그러나 청구항의 구체적 관계는 선행기술과 다소 차이가 있음. strictness=0.46에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "dual configuration에서의 mechanical fasteners 사용(12), bolts 사용(14), tilt control mechanism의 dual support brackets 배치(15)는 해당 분야에서 예측 가능한 설계 선택임. 그러나 청구항의 구체적 조합은 선행기술에서 명시적 동기가 부족함. strictness=0.46에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 5,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 청구항 5의 'plurality of mounting positions includes a plurality of apertures'를 명시적으로 개시하고 있으며, 이는 신규성을 부정할 충분한 증거임. confidence=0.8로 높게 평가됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1이 'plurality of apertures'를 개시하고 있으나, 청구항 5의 나머지 구성요소와의 결합 동기가 명확하지 않음. 그러나 'plurality of apertures' 자체는 통상의 기술자가 쉽게 도출할 수 있는 구성으로 판단됨. confidence=0.8로 높지만, 결합 동기 기준(combination_threshold=0.33)을 약간 초과함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 'plurality of engagement apertures spaced longitudinally along the side member'를 명시적으로 개시하며, 이는 청구항 5의 'plurality of mounting positions includes a plurality of apertures'와 실질적으로 동일합니다. 증거가 명확하여 거절 근거가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1이 'plurality of engagement apertures'를 개시하며, 이는 fifth wheel hitch assembly 분야에서 공지된 기술입니다. 통상의 기술자 수준에서 이러한 구성은 예측 가능하며, 결합 동기가 명확합니다. 증거가 충분하여 거절 근거가 강합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "명세서가 'stabilizer assembly' 및 'controller'의 원격 조작 기능을 충분히 설명하지 않아 enablement 문제가 제기될 수 있으나, 출원인의 보정을 통해 해결 가능한 수준입니다. 증거가 불충분하지는 않지만, 보정이 필요합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013285347-A1의 apertured 구조가 청구항 5의 'plurality of mounting positions includes a plurality of apertures'와 실질적으로 동일함. 증거가 명확하여 거절 근거 강도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 apertured 구조를 fifth wheel hitch assembly의 mounting positions에 적용하는 것은 통상의 기술자에게 자명할 수 있으나, 결합 동기의 명확성이 다소 부족함. strictness=0.42에 따라 moderate 강도로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1이 청구항 5의 모든 구성요소('plurality of mounting positions includes a plurality of apertures')를 명시적으로 개시하고 있어, 신규성 부정 근거가 명확합니다. confidence=0.95로 근거가 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            12,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1과 해당 분야의 공지기술을 결합하면 청구항들의 구성요소가 자명하게 도출됩니다. 그러나 일부 청구항(예: 2, 3, 15)의 tilt 관련 기능은 설계 선택의 범위를 약간 벗어날 수 있어, strictness=0.52에 따라 moderate로 평가합니다. confidence=0.7~0.8로 근거는 있으나 해석의 여지가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            10,
+            11,
+            13
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 4, 10, 11, 13은 stabilizer assembly, dual bracket 시스템, cross member 등의 구체적인 기술적 개선을 포함하며, 선행기술에서 결합 동기를 찾기 어렵습니다. confidence=0.8~0.85로 근거가 부족하여 weak로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 1 and 5 are anticipated by US-2013285347-A1 with high confidence (0.75 and 0.98, respectively). The prior art explicitly discloses the core elements of these claims, including the mounting bracket, vehicle frame rail, and plurality of apertures as mounting positions. The strictness level (0.60) supports rejection based on clear anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "While the combination of prior art and common knowledge supports obviousness for these claims, some differences (e.g., tilt lock-out/stop arrangements, specific securing methods) are design choices or predictable variations. The confidence levels (0.75-0.95) are high, but the strictness level (0.60) suggests a balanced approach. Claims 2, 3, 6, 7, 8, 9, 14, and 15 are borderline but lean toward rejection due to the combination threshold (0.57) being met. Claim 1 is already rejected under 102, and Claim 5 is explicitly disclosed in the prior art, making 103 redundant."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            10,
+            11,
+            12,
+            13
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 4, 10, 11, 12, and 13 recite novel features (e.g., stabilizer assembly with remote control, dual mounting brackets, structural cross member) not disclosed or suggested by the prior art. The confidence levels (0.85-0.95) support non-obviousness, and the strictness level (0.60) favors granting these claims."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "case_id": "PILOT-2019001963",
+  "proceeding_number": "2019001963",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1은 슬라이딩 히치 어셈블리의 핵심 구조를 포괄적으로 개시하며, 청구항 2, 3, 8-13, 15의 구성요소는 선행기술의 기능적 확장 또는 설계 선택의 범위 내에 있음. 특히 탈착 가능 고정, 복수 패스너, 대칭 구조, 보강재 추가 등은 통상의 기술자에게 자명한 최적화로 간주됨. 결합 동기(motivation to combine)가 명확하고, 2차적 고려사항도 없어 진보성 거절 근거는 강함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 1, 5, 6, 7, 14는 US-2013285347-A1에 명시적으로 개시된 구성요소와 동일하거나 기능적으로 대응함. 'carriage bracket', 'engagement apertures', 'mechanical fasteners', 'longitudinal rail' 등은 도면 및 명세서에 직접 기재되어 있으며, BRI 해석 하에서도 실질적 차이 없음. 신규성 결여 판단은 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Structural cross member addition is a well-known engineering practice for rigidity enhancement in vehicle frames. Motivation to combine is clear from common design principles, even if not explicitly disclosed in prior art. Duplication of parts (e.g., tilt stops on dual brackets) is a recognized obvious modification in symmetric mechanical systems. The use of mechanical fasteners, including bolts, is conventional and directly supported by prior art. Confidence in obviousness is high given the general knowledge in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although US-2013285347-A1 discloses a sliding rail system with engagement apertures and slide stops, the claimed invention introduces a direct-mount, non-slidable configuration where the support bracket connects the mounting bracket directly to the vertical portion of the vehicle frame rail. The prior art is designed for lateral movement and shock absorption, whereas the claimed system emphasizes rigid, selectively positionable mounting for improved stability and compatibility. The functional objectives differ significantly, and there is no clear motivation to modify the prior art to achieve the claimed structure without hindsight. Given the low combination_threshold (0.68) and the examiner's lenient stance (strictness=0.25), this potential obviousness rejection is considered weak."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12 contains a clear typographical error ('secured to the first mounting bracket') that results in a logical impossibility and lacks written description support. The specification and claim 13 confirm that the mechanical fastener secures the cross member to the mounting bracket, not self-attachment. This error renders the claim indefinite and unsupported under § 112(a)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 15 contains a grammatical error with duplicated terms ('first and second first and second support brackets'), which creates indefiniteness. Although the intent is clear from the context of claim 11 and the specification, the written description does not support this phrasing, failing the clarity and support requirements of § 112(a)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.21,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1은 청구항 1, 2, 3, 5, 6, 7, 8, 9, 11, 14, 15의 모든 구성요소를 명시하거나 명백한 변형으로 개시하며, 동일한 목적(히치 어셈블리의 슬라이딩 및 고정)을 달성하기 위한 공지된 기술적 수단을 사용함. 양측 대칭 구조, 볼트 사용, 다수의 체결 구멍, 슬라이드 스톱 위치 등은 통상의 기술자가 용이하게 도달할 수 있는 설계 선택으로, 결합 동기와 예측 가능성 모두 확보됨. 진보성 거절 근거는 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 12는 명백한 오타('to the first mounting bracket')를 포함하나, 'to the first support bracket'으로 해석 시 선행기술의 결합 구조와 기능적으로 동등함. 그러나 명세서에서 해당 결합 구조에 대한 명확한 뒷받침이 부족할 수 있으며, 오타 해석은 해석의 여지를 남김. strictness=0.89에 따라 약간의 불확실성은 거절 유지로 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 12의 'mounting bracket이 itself에 결합'한다는 표현은 물리적 모순이며, 명세서에 그러한 구조가 개시되지 않음. 청구항 15의 'first and second first and second support brackets'는 문법적 오류로 의미를 파악할 수 없으며, 명확한 서술 지원 부족. 서면 설명 및 실행 가능성 결여로 112(a) 거절은 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1이 청구항 1 및 5의 모든 구성요소를 명시적으로 개시하고 있으며, BRI 하에서도 실질적인 차이 없음. 선행기술의 구조와 기능이 동일하므로 신규성 결여는 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 3, 6, 7, 8, 10, 11, 14는 모두 선행기술의 구성요소를 통상적 기술자가 합리적으로 확장하거나 변형할 수 있는 범위 내에 있음. 복수의 패스너, 크로스 멤버 추가, 부품 배치 변경 등은 공지된 설계 원칙으로, 결합 동기와 기술적 자명성이 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 4, 12, 13, 15의 용어(예: 'remotely', 'tilt lock-out arrangement')는 명세서에서 구조적 정의 없이 사용되어 모호함. 그러나 일부는 보정 가능하며, 완전한 서지부족이라기보다는 명확성 부족에 가까움. strictness=0.82에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 5 and 14 are clearly anticipated by US-2013285347-A1. The reference explicitly discloses a plurality of engagement apertures (para [0020]) and use of bolts as mechanical fasteners (Claim 5, para [0018]). These are direct disclosures with no ambiguity, satisfying the anticipation standard under 102."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12 contains a self-reference error ('secured to the first mounting bracket by a first mechanical fastener'), which is unsupported by the specification or drawings. Claim 15 contains a clear typographical error ('first and second first and second support brackets'). Both fail to meet the written description requirement under 112(a) due to lack of support and clarity."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1이 fifth wheel hitch의 핵심 구조를 명확히 개시하고 있으며, 마운팅 브래킷, 슬라이드 스톱, 복수의 천공, 기계적 패스너 사용 등을 포함하므로, 청구항 1, 2, 3, 5, 6, 7, 8, 12, 14, 15에 대한 진보성 거절은 강한 근거를 가짐. BRI 해석 하에서 slide stop과 support bracket의 기능적 동등성은 설계 변형 범위 내로 간주됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "지지 브래킷의 두 번째 부분이 마운팅 브래킷에 직접 고정되거나, 크로스 멤버가 탈착 가능하게 연결된다는 구성은 선행기술에 명시되지 않았으나, 차량 견인 장치 분야에서 구조적 강성 향상을 위한 일반적 공지기술로 간주될 수 있음. 그러나 이러한 결합은 명확한 동기보다는 추론에 기반하므로 중간 수준의 강도."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "원격 제어 안정화 어셈블리는 US-2013285347-A1에 전혀 개시되지 않으며, 전자-기계 융합 기술은 기계식 히치 설계보다 높은 기술 수준을 요구함. 자동화 기술의 적용이 '예측 가능'하다는 주장은 overgeneralization에 해당하며, 충분한 결합 동기 없이 obvious 판단하는 것은 엄격한 기준에서 약한 근거임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3's co-location of tilt stop and mounting bracket at the same mounting position is a routine engineering choice for simplification and hardware reduction. US-2013285347-A1 discloses mechanical fasteners and modular attachment via apertures, providing clear basis. Motivation to combine is strong under common sense and low combination_threshold (0.22). Claims 12–14 regarding mechanical fasteners and bolts are standard practices, well-supported by the reference. These are predictable applications with high confidence (0.8–0.9), constituting strong obviousness rejections."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12's 'mounting bracket secured to itself' is physically impossible and lacks any support in the specification, which describes the cross member—not the bracket—being secured to the mounting brackets. Claim 15's 'first and second first and second support brackets' is a clear typographical error with no basis in the disclosure. Both fail to meet written description and enablement requirements under 35 U.S.C. 112(a). The errors are not mere drafting issues but render the claims unsupported, constituting strong 112 rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1은 청구항 1, 2, 3, 5, 6, 7, 8, 9, 11, 14, 15의 모든 구성요소를 명확히 개시하고 있으며, 각 구성요소 간 대응 관계가 명확함. 특히 'carriage bracket', 'longitudinal rail', 'engagement apertures', 'mechanical fastener' 등의 핵심 구성요소가 기능 및 구조적으로 동일하거나 실질적으로 동등하므로, 신규성 결여 판단은 강력함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 12는 'the first mounting bracket is releasably secured to the first mounting bracket'라는 논리적 모순을 포함하며, 명세서 어디에도 이를 뒷받침하는 기재가 없음. 이는 명확한 서면 설명 위반 및 불명확성으로, 근거가 강함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 15의 'first and second first and second support brackets'는 문법적 오류로 보이며 불명확하나, 전체 맥락상 'first and second support brackets'로 해석될 가능성이 있음. 그러나 명확한 수정 없이는 범위를 특정할 수 없으므로, 중간 수준의 강도로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1이 청구항 1의 모든 구성요소를 명확히 개시하고 있으며, 종방향 레일, 캐리지 브래킷, 엔게이지먼트 어셈블리, 복수의 천공, 및 분리 가능 고정 방식이 기능 및 구조적으로 동일하므로 신규성 결여가 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 3, 4, 12, 15는 명세서에 충분한 뒷받침이 없으며, 특히 동일한 마운팅 위치에 두 부품이 동시에 고정되는 구조(청구항 3), 원격 제어를 위한 구체적 구조 부재(청구항 4), 자기 자신에 고정되는 표현 오류(청구항 12), 중복된 표현으로 인한 불명확성(청구항 15)은 모두 명백한 112(a) 위반이므로 강한 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1이 fifth wheel hitch 어셈블리의 핵심 구조를 포괄적으로 개시하고 있으며, 청구항 1, 2, 3, 5, 6, 7, 8, 9, 11, 14, 15의 구성요소들이 명시되거나 통상의 기술자에게 자명한 설계 선택으로 도출 가능함. 결합 동기와 Graham 요소들이 일관되게 충족되며, confidence 점수가 전반적으로 높음(0.68~0.85). 특히 복수 부품 배치, 볼트 사용, 탈부착 고정 등은 공지 기술로서 obviousness 판단에 강한 근거 제공."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 12의 'first mounting bracket is secured to the first mounting bracket'은 명백한 자기참조 오류로, 물리적으로 불가능하며 명세서 어디에서도 지지되지 않음. 서면 설명 및 실현 가능성 요건을 충족하지 못하므로 112(a) 위반이 명확함. 청구항 15의 'first and second first and second support brackets' 또한 동일한 유형의 오류로, scope가 불명확하여 112(b) 위반도 병행함. 명세서 존재 여부와 관계없이 청구항 자체의 해석 불가능성이 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1이 제1항의 모든 구성요소를 실질적으로 개시하며, 결합 없이 단일 참조로 obviousness 판단 가능. 차이점 없고, 통상의 기술자 수준에서 용이하게 도달 가능하므로 근거 강함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 12의 'first mounting bracket secured to itself'는 명세서 어디에서도 뒷받침되지 않으며, 명백한 서면설명 위반. 명세서는 '크로스 멤버가 브래킷에 고정'됨을 개시하므로, 해당 기재는 지지 불가."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "주된 거절 근거는 US-2013285347-A1과의 obviousness이며, 대부분의 구성요소가 종래기술에 개시되거나 일반적인 기술적 변형으로 간주됨. 그러나 'support bracket'의 기능적 대응 여부, 별도의 간접 연결 구조, 쌍 브라켓 및 크로스 멤버 통합, 원격 제어 안정화 장치 등은 명확한 대치보다는 설계 선택 또는 확장으로 해석됨. strictness=0.60 기준으로, 일부 근거는 강하나 전반적으로 해석의 여지가 존재함."
+        }
+      ]
+    }
+  ]
+}

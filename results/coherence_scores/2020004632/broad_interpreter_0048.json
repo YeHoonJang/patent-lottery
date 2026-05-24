@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation analysis for §102 (matching each claim element against specific prior art disclosures) and applies Graham/KSR factors explicitly (scope and content, differences, PHOSITA level, secondary considerations) for §103, using the correct statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection references specific claim language (e.g., 'A° = 180°/N,' 'single layer configuration,' 'double layer') and ties conclusions to specific prior art disclosures (e.g., US-2012248924-A1's π/6 angular displacement, US-2015311758-A1's dominant working harmonic), satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained: claims found novel at §102 (claims 5, 10, 12, 18) are then subjected to §103 obviousness analysis with additional rationale (e.g., double-layer as known alternative, 48-slot/4-pole as routine optimization), and claims found not novel at §102 are rejected under §102 without contradiction in the final decision."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner profile shows strictness=0.475 (moderate/slightly lenient) and combination_threshold=0.459 (moderate), and the trace reflects this by acknowledging non-obviousness arguments for double-layer windings and 48-slot/4-pole configurations while still rejecting on strong §102 grounds, consistent with a pragmatist examiner who does not reflexively grant or harshly reject on ambiguous evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows directly from the accumulated stage analyses: strong §102 rejections for most claims based on US-2012248924-A1, and moderate §103 rejections for the remaining claims (2, 5, 10, 12, 15, 18) that survived §102, with the decision_score of 0.38 and summary explicitly referencing prior stage findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004632",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16034,
+      "output_tokens": 503,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "case_id": "2021004068",
+  "proceeding_number": "2021004068",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2015269244-A1은 retention analysis에 관한 것으로, 청구항의 핵심 구성요소인 'actionable recommendations generation', 'feasibility-based selection', 'multi-user task distribution'을 개시하지 않습니다. Coverage scores는 0.0~0.30 범위로 매우 낮으며, anticipating references가 없습니다. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 retention analysis만 다루며, employment diversity planning으로의 확장은 목적과 적용이 다릅니다. 단일 참조문헌으로는 'diversity goals', 'cost/time optimization', 'stakeholder-specific task distribution', 'cross-company benchmarking', 'interactive plan modification' 등의 구성요소를 도출할 명시적 교시나 동기가 부족합니다. Combination_threshold=0.34이나, retention analysis와 diversity planning은 관련되나 다른 HR 목표이며, 선행기술이 청구항의 통합 시스템을 시사하지 않습니다. Graham 분석 결과 PHOSITA가 선행기술로부터 청구항의 구성을 자명하게 도출하기 어렵습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 employment diversity goals, workforce composition alteration, data-driven planning을 기술하고 있으며, 기능적 청구항 용어들('automatically evaluate', 'generate recommendations', 'feasibility of implementing')이 명세서의 맥락에서 뒷받침됩니다. 용어들('employment diversity plan', 'hiring rate', 'promotion rate', 'attrition rate', 'stakeholders', 'milestones')은 명세서에 개시되었거나 해당 분야에서 잘 알려진 용어입니다. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 data processing을 포함하나, employment diversity plans의 자동 생성 및 구현이라는 구체적 기술적 해결책에 관한 것입니다. 단순 abstract idea가 아닌 HR data processing 및 planning systems 분야의 구체적 기술적 구현입니다. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015269244-A1은 retention analysis system을 개시하나, 청구항의 핵심인 '추천 집합 생성→실행가능성 기준 선택→복수 사용자 식별 및 할당→배포' 워크플로우를 명시적으로 개시하지 않음. Office Action은 이러한 gap을 '자명한 설계 선택' 및 'routine extensions'로 메우려 하나, 실제로는: (1) 선행기술은 predictor 식별까지만 개시하며, 이를 actionable recommendations로 변환하는 구체적 시스템이 없음. (2) '실행가능성 기준 선택'은 단순 우선순위화가 아니라 feasibility analysis(비용, 시간, 리소스, 목표 달성 가능성)를 포함하는 복잡한 최적화 문제. (3) '복수 사용자 식별 및 개별 할당'은 단순 task assignment가 아니라 각 사용자의 역할/권한/책임에 기반한 지능형 분배. (4) diversity planning은 retention과 다른 문제 영역: retention은 단일 지표(이탈률) 최소화이나, diversity는 다차원 composition balance 문제로 hiring/promotion/attrition의 복합 조정 필요. Office Action의 결합 동기는 '통상의 기술자에게 자명'을 반복하나, 구체적 teaching이나 motivation의 증거 부족. 그러나 combination_threshold=0.34로 낮고, 선행기술이 일부 요소(데이터 분석, projection, clustering)를 개시하며, 청구항의 추가 단계들이 '완전히 새로운 발명'이라기보다 '공지 기술의 조합'으로 해석 가능한 여지 있음. strictness=0.88(높음)을 고려하면, 이러한 moderate 수준의 근거도 거절을 유지하기에 충분."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 6 rejection combines US-2015269244-A1 (retention analysis system) with common knowledge of calendar/scheduling features. The motivation to combine is based on 'common sense' that implementing recommendations requires scheduling. However, this represents hindsight reasoning - the prior art focuses on analytical retention prediction, not implementation management. While calendar features are well-known, the specific integration of milestone identification and automatic stakeholder calendar population with diversity recommendation systems is not explicitly taught. Under my lenient strictness=0.25 standard, this 'common sense' motivation lacks the explicit teaching required by combination_threshold=0.68. The examiner relies on post-hoc recognition that 'any business plan needs scheduling' rather than explicit suggestion in the prior art. This is a moderate-strength rejection that could be overcome by emphasizing the distinct purpose of the claimed invention (diversity planning implementation) versus retention analysis."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 10 rejection argues that providing information via UI is obvious because 'all software needs to display outputs.' This is an extremely weak rejection based purely on the truism that computer systems have interfaces. The examiner provides no specific teaching or motivation regarding UI presentation of diversity plans specifically. Under my lenient strictness=0.25 standard and purposivist interpretation focusing on technical contribution, this rejection fails to identify any real technical issue. The claim's UI presentation is not the innovative aspect - it's merely a conventional implementation detail. However, rejecting a claim solely because it recites a conventional output mechanism, without any deficiency in the substantive invention, represents form-over-substance examination. This rejection should be withdrawn as it does not advance patent quality and penalizes explicit claim drafting of routine elements. The applicant has made a genuine technical contribution in diversity planning methodology; requiring them to omit UI presentation (an inherent system component) from claims serves no policy purpose."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2015269244-A1은 retention analysis에 집중하며, 본 발명의 핵심 차별화 요소인 (1) diversity goal-driven recommendation generation, (2) feasibility-based selection among multiple plans, (3) multi-stakeholder task distribution, (4) interactive plan modification을 전혀 개시하지 않음. Coverage scores가 대부분 0.0-0.4 범위로, 선행기술이 청구항의 핵심 구성요소를 anticipate하지 못함. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 retention predictor identification을 위한 clustering analysis를 제공하나, 이를 diversity planning framework로 전환할 명시적 교시나 시사가 없음. 두 시스템의 목적이 근본적으로 다름: (1) retention risk analysis vs. (2) diversity goal achievement and implementation distribution. Combination threshold 0.72 요구 수준에서, 선행기술은 diversity planning의 핵심 요소들(goal setting, multiple plan generation, feasibility-based selection, stakeholder task distribution)로의 확장 동기를 제공하지 않음. 기술 분야 공지상식만으로는 이러한 결합이 자명하지 않음. ML/AI 사용, employee grouping, time projection 등 개별 기술은 공지되었으나, 이들을 diversity planning context에 통합하는 것은 본 발명의 기여임."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않아 완전한 112 판단은 불가하나, 청구항 언어가 명확하고 구체적임. 'Feasibility', 'recommendation', 'diversity plan', 'stakeholder' 등 용어가 해당 기술 분야에서 이해 가능하며, 청구항 간 종속 관계가 논리적임. 현재 정보만으로는 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 'data processor', 'automatically evaluating data', 'generating recommendations', 'identifying users', 'providing information'을 청구하며, 이는 구체적 기술적 솔루션을 제공하는 시스템임. Abstract idea에 해당할 여지가 있으나(diversity planning은 business method일 수 있음), 청구항이 특정 데이터 처리 단계, ML/AI 기법, UI 기반 정보 제공 등 기술적 수단을 명시하므로, Alice step 2의 'significantly more' 요건을 충족할 가능성이 높음. 현 단계에서 101 거절은 premature함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015269244-A1은 retention analysis framework를 제공하며, 청구항의 diversity planning과 유사한 분석 구조(데이터 수신, 통계 분석, predictor 식별)를 개시함. 그러나 핵심 차이점들이 존재: (1) retention vs. diversity는 관련되나 동일하지 않은 목표, (2) 선행기술은 predictor 식별에 그치며 actionable recommendation 생성 및 feasibility 기반 선택을 명시적으로 개시하지 않음, (3) 복수 사용자 식별 및 portion 배분 구성은 선행기술에 없음. Office Action은 이러한 차이를 'routine design choices'로 처리하나, 이는 해석의 여지가 있음. 결합 동기는 존재하나(workforce management의 공통 목적, 비용/시간 고려 언급), 명시적 교시는 부족. combination_threshold=0.45로 공지상식 기반 결합을 인정할 수 있으나, 선행기술이 분석 결과를 권고사항으로 전환하고 실행 계획을 생성하는 구체적 방법을 개시하지 않은 점은 약점. strictness=0.89 기준으로는 이러한 moderate 강도의 근거도 거절 유지 방향이나, 일부 청구항(특히 종속항)은 추가 구성요소로 인해 더 약한 거절 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.22,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2015269244-A1 teaches HR analytics for retention analysis using clustering and Kaplan-Meier curves. The obviousness arguments rely on: (1) applying retention analytics to diversity planning (analogous use in related field), (2) combining with known project management practices (feasibility selection, task distribution, calendaring, stakeholder management), and (3) using standard business criteria (cost, time, likelihood). The prior art provides a strong foundation for data-driven HR planning. However, the combination requires multiple steps of reasoning and integration of concepts from different domains (analytics + project management + diversity planning). The motivation to combine is articulated but relies heavily on 'common sense' and 'routine practice' assertions. Given the breadth of the combinations (analytics + PM + diversity + UI + benchmarking + interactive modification), there is arguable distance between the prior art's retention focus and the claims' comprehensive diversity planning system. Under moderate strength, a lenient examiner might find lack of clear motivation, but given my strictness=0.82, I view the combinations as predictable extensions of known techniques in related fields."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The Office Action relies heavily on common general knowledge and routine adaptation arguments without demonstrating sufficient explicit teaching or suggestion in US-2015269244-A1. While the prior art teaches retention analysis using statistical methods, the claimed invention addresses a fundamentally different problem: employment diversity planning with actionable recommendations, feasibility-based selection, multi-user task distribution, and interactive plan refinement. The rejection characterizes numerous substantive features as 'obvious adaptations' or 'routine design choices' without providing adequate factual basis. Key deficiencies: (1) No teaching of generating actionable recommendations from analytical data; (2) No suggestion of feasibility/cost/time-based selection criteria for diversity plans; (3) No disclosure of stakeholder identification and task distribution; (4) No teaching of diversity goals (gender, race, age, ethnicity); (5) No suggestion of interactive plan modification workflows; (6) No teaching of milestone-calendar integration; (7) No disclosure of cross-company benchmarking. The rejection essentially argues that because both inventions relate to 'workforce analytics,' extending retention prediction to diversity planning with these numerous additional features is obvious. This reasoning is insufficient under Graham analysis. The motivation to combine relies on hindsight reconstruction rather than explicit teaching or suggestion in the prior art. At combination_threshold=0.46, the gap between retention prediction and the claimed diversity planning system is substantial and not bridged by common general knowledge alone."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2015269244-A1은 retention analysis에 관한 것으로, diversity planning과는 기술 분야가 유사하지만 목적과 구체적 구현이 다릅니다. 선행기술은 clustering 및 Kaplan-Meier curves를 사용한 retention 예측을 개시하나, claim 1의 핵심 요소인 (1) feasibility 기준에 따른 선택, (2) 다수 사용자 식별, (3) 각 사용자에게 권장사항 배포는 명시적으로 개시되지 않습니다. Office Action은 이들이 'conventional workflow management'라고 주장하지만, retention analysis system에 이러한 multi-user distribution 기능을 결합할 명확한 동기가 선행기술에서 제시되지 않습니다. Combination_threshold=0.55는 common sense 결합을 허용하지만, 여기서는 기술 분야 차이(retention vs. diversity)와 구체적 구현 차이(predictors vs. actionable multi-user plans)가 존재합니다. 증거는 존재하나 해석의 여지가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 4: US-2015269244-A1의 clustering analysis가 pattern matching/heuristic technique에 해당한다는 주장은 기술적으로 타당함. 그러나 claim 4는 claim 3에 종속되며, claim 3 자체가 employment diversity plans와 time-based scoring을 요구함. 선행기술은 retention prediction만 다루고 diversity planning은 다루지 않음. Claim 4의 projection generation 자체는 선행기술과 유사하나, diversity planning context는 다름. 결합 동기는 '동일 분야 예측 가능한 변형'이라고 하나, retention → diversity로의 전환은 문제 영역 자체가 다름. Moderate strength.\n\nClaim 5: 선행기술의 'functions in organization' grouping을 location/status/business unit grouping으로 확장하는 것이 obvious하다는 주장. 기술적으로는 단순 data segmentation의 변형이나, claim 5 역시 claim 1에 종속되며 claim 1의 non-obvious features(feasibility-based recommendation selection, multi-user task distribution)를 포함함. Claim 5 독립적으로는 obvious할 수 있으나, claim 1의 맥락에서는 전체 발명의 일부. Moderate strength, but dependent claim context weakens rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015269244-A1 teaches retention analysis with recommendations, but the claimed features of feasibility-based selection, multi-user task distribution, and user-specific information provision are characterized as 'conventional' and 'well-known' without citation to specific prior art teaching these combinations in the context of HR recommendation systems. While the reasoning invokes common sense and ordinary skill, the gap between retention prediction and actionable task distribution with feasibility assessment is not trivial. The motivation to combine is logical but somewhat generalized."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015269244-A1 explicitly teaches multiple machine learning techniques (k-means, expectation maximization, density clustering) for workforce analysis. Claim 4 merely recites using ML/pattern matching/AI/heuristic techniques for projections, which is directly taught by the reference. This is a strong obviousness case despite claim 3 being allowable."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "The reference teaches analyzing retention data by organizational functions. Adding UI-based filtering by location/status/business unit is characterized as fundamental database operation, but the specific UI interaction and filtering mechanism is not explicitly taught. The motivation is logical (routine enhancement) but relies on common knowledge of database systems rather than explicit prior art disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "Milestone tracking and calendar integration are characterized as 'well-known project management features' but no specific prior art reference is cited for these features. The rejection relies on common knowledge and general industry practices. While the motivation is reasonable, the combination requires recognizing that recommendation implementation needs project management features, which is not explicitly suggested by the retention-focused prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "Providing results via UI is indeed a conventional and routine implementation choice in computer systems. This is a clear case of obvious implementation detail that adds no inventive concept."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "Stakeholder identification and task distribution are characterized as 'conventional workflow management practices' but no specific prior art is cited. The reasoning relies on common knowledge of workflow systems. While the motivation is logical, the specific application to employment plan implementation is not explicitly taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "Including implementation strategies in business plans is characterized as 'conventional practice' but no specific prior art demonstrates this in the context of employment planning systems. The reasoning is based on general business planning knowledge rather than specific technical disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Benchmarking is characterized as 'well-known business practice' but no specific prior art shows this in employment planning context. The reasoning relies on general business methodology rather than technical disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "Interactive modification and regeneration of results is indeed standard in decision support systems. This is a clear case of obvious interactive system design."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "strong",
+          "reasoning": "Claim 4's limitation of using machine learning/pattern matching/AI/heuristic techniques is explicitly disclosed in US-2015269244-A1 (k-means clustering, expectation maximization, density clustering). Prior art demonstrates these are conventional analytical methods in employee data analysis. Although claim 4 depends on claim 3 (which is non-obvious), the added limitation itself represents routine application of known techniques. The obviousness analysis correctly identifies this as obvious application of conventional methods to analogous problem."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "The obviousness analyses for these claims consistently identify significant gaps between prior art (employee retention analysis) and claimed invention (employment diversity planning with collaborative implementation). Key missing elements include: (1) diversity goals vs retention goals, (2) multi-user task distribution with portion-specific assignment, (3) feasibility-based recommendation selection, (4) stakeholder identification and calendar integration, (5) diversity plan generation and selection optimization, (6) external benchmarking. Prior art US-2015269244-A1 provides no teaching, suggestion, or motivation to combine retention analysis with these diversity planning features. The technical contexts differ substantially (retention prediction vs diversity goal achievement). With combination_threshold=0.44, the lack of explicit motivation to combine these disparate concepts supports non-obviousness findings."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 10 adds only 'via a user interface' to claim 8. While the Office Action argues this is a routine implementation detail, the reasoning relies solely on 'common general knowledge' without citing any specific prior art reference teaching user interface presentation in the diversity planning context. The argument that 'any software system generating analytical information would necessarily employ a user interface' is overly broad. The specific claim combination (diversity planning + feasibility analysis + user interface) may have unexpected synergistic effects in facilitating interactive diversity management. The motivation to combine is asserted but not demonstrated with evidence. Given the absence of specific prior art and the potentially non-obvious integration of UI into the diversity planning workflow, this rejection lacks strong evidentiary foundation."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "101"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "The abstract idea identification is well-founded. The claims recite organizing human activity (employment planning, diversity management), mental processes (evaluating data, selecting among alternatives), and mathematical concepts (calculating scores, costs, projections). The Alice Step 2 analysis properly identifies that the additional elements are generic computer components performing conventional functions. The claims do not recite an improvement to computer technology or provide a technological solution. The 101 rejection is supported by relevant case law (Alice, Electric Power Group, SmartGene, Ultramercial) and properly applies the two-step framework. This is a strong basis for rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The written description rejection regarding 'automatically evaluate' has merit. The specification provides limited technical detail about how automatic evaluation is performed. However, the term 'automatically' in the context of computer-implemented inventions is commonly understood to mean without manual intervention. While more specificity would be beneficial, the specification does describe receiving data, evaluating it, and generating recommendations. The rejection is reasonably strong but not conclusive - it depends on whether a PHOSITA would understand what 'automatically evaluate' encompasses based on the specification as a whole. Given my moderate strictness (0.52), this is a moderately strong basis."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "strength": "moderate",
+          "reasoning": "The indefiniteness rejection regarding 'automatically evaluate' is less persuasive than the written description issue. Under Nautilus, the question is whether the claims provide reasonable certainty about their scope. While 'automatically evaluate' lacks precise algorithmic specification, it is not so unclear as to render the scope indeterminate. A PHOSITA would understand it means computer-based evaluation without manual steps. The rejection has some merit but is not overwhelmingly strong. With my moderate strictness, this is a borderline issue."
+        },
+        {
+          "basis": "112_written_description_scores_costs",
+          "strength": "weak",
+          "reasoning": "The written description rejection for claims 2, 3, 16, 17 regarding calculation of scores, costs, time projections, and likelihoods is weak. While the specification may not provide detailed formulas, the claims recite functional language about determining these metrics. The specification need not describe every implementation detail if a PHOSITA would understand how to make and use the invention. Calculating costs, time projections, and likelihoods in workforce planning contexts would be within the skill of a PHOSITA using standard techniques. This rejection overstates the written description requirement. Given my moderate strictness and pragmatist approach, this basis is weak."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015269244-A1 teaches automated recommendation generation with decision criteria for retention analysis. The combination with task distribution (elements 1g-1h) relies on 'common sense workflow management' and 'implicit motivation.' While task distribution is indeed common in organizational contexts, the prior art does not explicitly teach or suggest distributing implementation tasks among multiple users in the context of automated recommendation systems. The reasoning depends on implicit motivation rather than explicit teaching. However, the technical disclosure of automated analysis and recommendation selection is strong. Under strictness=0.60, this moderate-strength combination is borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015269244-A1 explicitly discusses costs ('costs of recruiting and training', 'expensive', 'limited resources') in the HR planning context. Applying cost-based optimization to diversity plans versus retention plans is a straightforward substitution within the same domain. The prior art provides explicit motivation through resource constraints. This is a strong obviousness case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015269244-A1 explicitly analyzes retention 'as a function of time' and generates Kaplan-Meier curves (time-based projections). Time optimization (selecting fastest option) is universally applied across all planning domains. The prior art teaches temporal analysis; applying it to select the fastest plan is obvious optimization. Strong case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015269244-A1 explicitly discloses k-means clustering, expectation maximization, density clustering, and modified algorithms with error metrics. These are machine learning and heuristic techniques by standard definitions. The claim merely uses generic terminology encompassing already-disclosed techniques. This is claim language interpretation, not a new combination. Very strong case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "Prior art analyzes subgroups by organizational function and accepts user input (k-value). Filtering by different organizational attributes (location/status/unit vs. function) is routine database query functionality. The motivation for segmented analysis is clear. Strong case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "weak",
+          "reasoning": "The rejection relies on 'common knowledge' of project management software for calendar integration. While milestone tracking is indeed common in project management tools, the prior art US-2015269244-A1 does not disclose calendar functionality or suggest it. The combination requires bringing in external common knowledge without explicit teaching in the prior art. The motivation ('fundamental to implementing any plan') is general, not specific to the disclosed system. Under strictness=0.60, this weak common-knowledge-based rejection is questionable without stronger evidence."
+        }
+      ]
+    }
+  ]
+}

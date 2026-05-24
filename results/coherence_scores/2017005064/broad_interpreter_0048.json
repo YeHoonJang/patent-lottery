@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace applies element-by-element anticipation analysis under §102 and properly invokes Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for §103 obviousness, correctly using the appropriate legal frameworks for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every novelty and obviousness conclusion is anchored to specific claim language (e.g., the formula n_PUCCH,i^(1) = i·N_q^eCCE + n_eCCE,i + N_UE-PUCCH(q), the three parameters: lowest eCCE, device-specific offset, subframe index i) and specific prior art disclosures (US-2013242770-A1) with explicit comparisons of what is and is not disclosed."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 findings are fully consistent with the §102 findings — both stages conclude the prior art (US-2013242770-A1) lacks any disclosure of the formula-based PUCCH resource allocation, and the obviousness stage builds on that finding by additionally noting no motivation to combine, without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.475 (moderate-lenient) and combination_threshold=0.459, the examiner grants all claims based on strong, consistently high confidence scores (0.82–0.90) and clear prior art gaps, which is consistent with a moderately lenient examiner not requiring extraordinary evidence to allow but still providing substantive reasoning."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The grant decision follows directly from the accumulated stage analyses: §102 found all claims novel, §103 found none obvious, §112 was satisfied per the office action, and the final decision grants all claims with an examiner's amendment for the minor terminology issue in network node claims."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017005064",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9448,
+      "output_tokens": 454,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

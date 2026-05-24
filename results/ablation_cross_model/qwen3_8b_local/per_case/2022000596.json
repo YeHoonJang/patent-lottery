@@ -1,0 +1,343 @@
+{
+  "case_id": "2022000596",
+  "proceeding_number": "2022000596",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF7's Tg range (-110°C to +20°C) and REF2's structural parameters (low density/void volume) are explicitly cited, with clear motivation to combine for abrasion resistance. Graham factors confirm PHOSITA would recognize the relationship between Tg, structural parameters, and performance. Confidence levels (0.62–0.85) and combination_threshold (0.34) support strong obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks stress application parameters for 'elongation by applied stress' method, creating ambiguity under 35 USC 112(b). While not explicitly disclosed, the omission of critical details reduces enablement, but the issue hinges on interpretation of 'sufficient detail' under BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 평가 방법(예: X-ray CT 파라미터)이 종속 청구항에 완전히 정의되지 않았으며, PHOSITA가 발명을 재현하기 위해 추가적인 가이드가 필요함. 이는 112(b) enablement의 핵심 요건을 충족하지 못함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1은 저밀도 영역 및 공극 부분의 구체적 파라미터(≥35% 및 ≤7.5%)를 제시하지 않아 결합 동기 부족. 그러나 청구항의 구조적 파라미터는 선행기술과 차이가 있음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "REF1의 Tg 범위(-110°C~+20°C)는 청구항의 -20°C 이하와 중첩되나, 구체적 밀도 영역 정의 및 측정 파라미터는 누락됨. 유사성은 0.5~0.7로 strictness 기준 미달."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2016237259-A1) explicitly discloses overlapping Tg ranges and filler network concepts, but some claims (e.g., 23) have lower coverage scores (0.2–0.45). Combination motivation is clear for most claims, but weaker for edge cases like phosphor decay time. Strictness=0.25 favors leniency, but combination_threshold=0.68 limits obviousness acceptance for claims with marginal coverage."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2016237259-A1) explicitly covers Tg ranges and structural parameters. Graham factors show clear motivation to combine elements for abrasion resistance, with high confidence (0.8-0.9). Coverage scores (0.5-0.8) exceed strictness threshold, and combination threshold (0.72) is met for most claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "X-ray parameters (phosphor decay time, luminance) lack sufficient detail in the specification. Coverage scores (0.5-0.6) fall below strictness threshold, but prior art (JP 2009-085732 A) provides general X-ray tomography context. Ambiguity in enablement remains."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서는 X-ray 평가 방법, 인광체 감쇠 시간, 발광 스펙트럼 정의 등 청구항에 요구되는 구체적 기술적 요소를 충분히 제공하지 않아, 기술자가 발명을 실행할 수 없는 상태로 판단됨. 이는 112(b)의 명확성 및 구체성 요건을 충족하지 못함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses Tg ≤ -20°C and stress-induced density analysis, which directly supports claims 9-10, 20-21. The combination of Tg adjustment with X-ray CT for abrasion resistance is a routine application of known techniques, meeting the high confidence threshold (0.78-0.92)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Independent claims 9, 10, 11, 20, 21 lack sufficient definition for 'low density region,' 'void portion,' and 'conjugated diene compound.' The specification's detailed X-ray CT methods (claims 21-23) are not incorporated into broader claims, creating enablement gaps confirmed by verification (PASS)."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에 저밀도 영역/공극 부분 평가 방법(X-ray CT 매개변수) 및 청구항 20의 '공유 이성자 화합물' 범위 제한, 청구항 22/23의 기술적 매개변수(광자 붕괴 시간, 발광도) 정의가 명시되지 않아 실현 가능성 우려가 명확히 확인됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 9, 10의 구조적 특성 결합 동기 부족으로 103 적용 가능성 낮음"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "청구항 9, 10의 특정 파라미터(저밀도 영역, 공극 부분, Tg)는 선행기술과 충분히 차이 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses overlapping Tg ranges (-110°C to +20°C) and implicit density-related teachings (filler networks, polymer chains) that directly support claimed parameters as obvious variants under BRI. Multiple claims (9-24) show confidence scores ≥0.65, with explicit teachings on conjugated diene compounds, X-ray CT evaluation, and tire tread applications. Graham factors confirm PHOSITA would combine these elements for abrasion resistance optimization."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim20 is explicitly anticipated by US-2016237259-A1-claim3, which directly discloses butadiene-styrene copolymers as conjugated diene compounds. This is a clear case of anticipation with explicit disclosure matching the claim."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The Office Action explicitly states that independent claims lack enablement as detailed parameters (e.g., X-ray CT conditions) are only disclosed in dependent claims. This is a clear deficiency under 35 U.S.C. § 112(a), as the specification does not provide sufficient detail to practice the invention as claimed."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016237259-A1과 JP-2009-085732-A의 결합 동기 및 Graham 요소가 명확히 제시되어, 기술자에게 당연한 조정이 가능한 것으로 판단됨. 신뢰도 0.7 이상의 높은 수준에서 거절 근거가 확보됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks detailed measurement methodologies (e.g., X-ray CT parameters, phosphor decay time) required for the claims, directly violating 35 USC 112(a). The prior art (US-2016237259-A1) does not disclose these specific evaluation methods, and the claims' technical parameters are not sufficiently enabled."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 9, 10, 21, 22, 23은 X-ray 평가 방법에 대한 구체적 측정 프로토콜(인광체 감쇠 시간, 루미노스티 등)을 명세서에 명시하지 않았으며, 배경기술에서도 평가 방법을 명확히 정의하지 않았습니다. PHOSITA가 방법을 재현할 수 없도록 모호성이 존재하며, 이는 112(a) 기재요건 위반에 해당합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 9, 10, 21은 '저밀도 영역 부피' 및 '공극 부분'의 측정 방법과 필수 파라미터(인광체 감쇠 시간, X선 발광 단위 등)가 명세서에 명시되지 않아 PHOSITA가 과도한 실험을 요구함. 명세서의 부족한 기재요건은 명확성 부족으로 강한 근거."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2016237259-A1은 Tg 범위와 필러 네트워크를 개시하지만, 특정 부피 지표와 정밀 Tg 임계값의 결합은 공지되지 않음. 결합 동기 부족으로 진보성 거절이 유지되나, 기술적 효과(예기치 못한 마모 저항성 개선)가 추가적 근거로 작용함."
+        }
+      ]
+    }
+  ]
+}

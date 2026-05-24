@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies the Graham/KSR framework for §103, articulating scope and content of prior art, differences from the claimed invention, PHOSITA level, secondary considerations, and motivation to combine across all claims."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions are grounded in specific claim elements and specific prior art disclosures — e.g., REF3's (x−μ) and covariance matrix Σ for PCA steps, REF2's SVM classification and outlier labeling for the state classifier, and REF1 for non-transitory medium claims."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For several claims (e.g., claims 5, 12, 19), the §102 novelty stage acknowledges the specific cumulative variance threshold is 'not clearly disclosed' yet still finds anticipation, then the §103 stage independently finds obviousness — the §102 finding of anticipation on these claims contradicts the acknowledgment of missing explicit disclosure without clearly distinguishing anticipation from obviousness, creating an internal inconsistency across stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner (strictness 0.875, combination_threshold 0.344) consistently resolves ambiguity toward rejection, finding anticipation even on implicitly disclosed elements and readily combining references with minimal motivation articulation, consistent with a very strict, easy-combiner profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims 1–21 under §103 flows directly from the accumulated obviousness findings across all stages, with the final decision explicitly referencing the high confidence scores, prior art teachings, and absence of secondary considerations established in earlier stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003412",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11779,
+      "output_tokens": 409,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

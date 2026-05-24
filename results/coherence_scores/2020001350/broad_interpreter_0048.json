@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis consistently applies the Graham v. John Deere framework (scope and content of prior art, differences from prior art, PHOSITA level, secondary considerations) and cites 35 U.S.C. § 103 throughout, with no misapplication of §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection references specific prior art documents (US-2013144785-A1 and US-2012159647-A1) with element-by-element comparisons tying particular claim limitations (e.g., membership duration, realness score, relationship coefficient) to specific disclosures in those references."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds claims not novel primarily based on combining two references (e.g., claims 1, 2, 11, 20), which is a §103 obviousness analysis rather than §102 anticipation, yet the novelty stage labels these as lacking novelty—this internal inconsistency (treating combination-based findings as anticipation) is not reconciled before the §103 stage."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness of 0.475 (moderate, slightly below midpoint) and a broad_interpreter archetype with combination_threshold of 0.459, and the trace consistently leans toward rejection with moderate-to-high confidence (0.65–0.90) while accepting weaker motivation-to-combine arguments, which is consistent with a moderately strict broad interpreter."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and consistently from the §103 obviousness findings at both the novelty and obviousness stages, with the same two prior art references and the same motivation-to-combine rationale carried through to the office action and final decision without unexplained reversal."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001350",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16489,
+      "output_tokens": 450,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

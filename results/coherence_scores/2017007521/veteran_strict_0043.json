@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 with coverage scores and specific claim element comparisons, Graham/KSR factors for §103 including scope, differences, PHOSITA level, and secondary considerations, and written description/enablement analysis for §112(a) — all under the appropriate statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the trace, conclusions are grounded in specific claim language (e.g., '배열된 복수의 평가 함수로의 스트리밍', 'sequential streaming... in parallel'), specific prior art disclosures from US-2011210915-A1 (e.g., claim 8's centroid pixel determination, Summary section's probability map language), and coverage scores linking claim elements to prior art."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained — claims found not novel at §102 (7, 11, 15, 20) are also found obvious at §103 as alternatives, and claims found novel at §102 are generally found non-obvious at §103 with consistent reasoning; the §112 rejections for claims 4 and 19 are introduced at the office action stage and carried through to the final decision without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.875 and low combination_threshold of 0.344 are explicitly referenced in the final decision weighing (e.g., 'combination_threshold=0.34 supports this obviousness finding' for claim 4, and 'Given strictness=0.88, even moderate weaknesses in claim clarity or support justify rejection' for §112 issues), consistently resolving ambiguity toward rejection as expected for a strict examiner."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject follows directly from the accumulated stage analyses — claims found anticipated or obvious in the novelty/obviousness stages are rejected, claims found problematic under §112 at the office action stage are rejected, and claims consistently found novel and non-obvious (1, 2, 3, 5, 6, 8-10, 12-14, 16-18) are granted, with the overall application receiving a reject decision due to the unresolved rejections on claims 4, 7, 11, 15, 19, 20."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017007521",
+    "examiner": "veteran_strict_0043",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 19570,
+      "output_tokens": 565,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

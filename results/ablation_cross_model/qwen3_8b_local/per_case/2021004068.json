@@ -1,0 +1,372 @@
+{
+  "case_id": "2021004068",
+  "proceeding_number": "2021004068",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015269244-A1's abstract explicitly mentions 'feasibility criteria' and 'projected quantity of time', directly aligning with claims 1 and 3. The combination threshold (0.34) is easily met, and the prior art's disclosure satisfies the Graham factors' scope/content and differences. The PHOSITA would not find non-obviousness, making this a strong 103 basis."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 1-20 lack sufficient detail for enablement. Terms like 'cost metrics', 'common attributes', and 'milestones' are unsupported in the specification, which only describes specific implementations in dependent claims. This creates indefinite claims under §112(b), a fundamental defect requiring amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses clustering analysis for retention predictors (US-2015269244-A1) and provides clear motivation to adapt these techniques to diversity goals via metric substitution. The Graham factors confirm that this adaptation is obvious to a PHOSITA, with high confidence (0.8-0.85)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Kaplan-Meier curves and time-based projections in prior art directly align with claim 3's projected time metrics. Combining time metrics with plan selection is a direct application of existing time-based analysis, supported by high confidence (0.7)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Retention prediction techniques in prior art (US-2015269244-A1) are explicitly applicable to diversity goals via metric substitution. The PHOSITA would recognize this as a straightforward application, with high confidence (0.8)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Broad terms like 'feasibility criteria' and 'employment diversity goals' lack sufficient enablement and description, but the prior art's explicit disclosure of similar concepts (e.g., retention predictors) may provide some support."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015269244-A1) explicitly discloses overlapping features (predictive analysis, clustering, actionable insights) and provides clear motivation to combine elements for employment diversity goals. Graham factors confirm the obviousness with no unexpected results."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2015269244-A1) discloses clustering analysis but lacks explicit disclosure of employment diversity plans, cost/projection-based selection criteria, and stakeholder-specific task distribution. While the combination of 'projected quantity of time' and 'decision criteria' might seem obvious, the prior art does not provide motivation to combine these elements with diversity management goals. The Graham factors indicate a PHOSITA would lack clear motivation without explicit guidance."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The term 'respective portion' in claim 1 is vague but not definitively ambiguous. The specification may provide sufficient context to clarify its meaning, though further details are needed."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술과의 결합 동기 및 공지기술 기반의 명확한 설명으로, 결합이 자명함을 강력히 시사"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항의 구체성 부족이 있지만, 명세서 분석이 부족해 추가 검토 필요"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 REF1은 클러스터링 분석 기술을 개시했으나, 고용 다양성 목표, 타당성 기반 선택, 분산 실행 특징과의 결합 동기 부재로 결합 가능성은 제한적. 동기 부여 요소가 명확하지 않아 103 적용 근거는 중간 수준."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 1의 'feasibility' 및 'decision criteria' 용어에 대한 명세서 내 구체적 정의 부재로 모호성 시사. 그러나 청구항 자체만으로는 명확한 부정적 증거 부족."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 클러스터링 분석 및 예측 모델링 기술을 이미 개시하고 있으며, 결합 동기(motivation to combine)가 명확하고 Graham 요인(특히 PHOSITA 수준 및 기술 분야의 유사성)에 부합함. 결합의 자명성과 기술적 차이의 최소성으로 인해 강한 근거로 판단됨."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1이 청구항 1의 모든 구성 요소(데이터 수신, 추천 생성, 실행 가능성 기준 기반 선택 등)를 명확히 개시하고 있으며, 유사성 점수(0.85-0.8)와 구체적 매핑이 증거로 작용함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "기술 용어('실행 가능성 기준', '추천 부분')의 모호성과 구현 방법 설명 부족은 명세서의 충분한 지원 부족을 시사하나, 이는 형식적 지적사항으로 분류될 수 있는 중립적 문제임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses clustering analysis and centroid separation thresholds, which directly align with the claimed 'feasibility criteria' and 'user-specific implementation instructions'. The motivation to combine is clearly articulated, and the Graham factors confirm functional equivalence between retention analysis and diversity goals. Confidence level (0.75) exceeds the combination threshold (0.55)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'feasibility' lacks explicit definition in the specification, and the method for dividing recommendations is unspecified. This creates ambiguity under 35 USC 112(b) and raises enablement concerns. The specification does not provide sufficient detail to enable a PHOSITA to practice the invention without undue experimentation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015269244-A1의 기술 요소가 결합 가능하며, 결합 동기 및 기술 통합이 명확히 제시됨. 결합 동기(motivation to combine)가 명확하고, 기술적 통합이 명시되어 103_obviousness 근거가 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses overlapping technical features (clustering analysis, time-based parameters, calendar entries) with clear motivation to combine for diversity goals. Coverage scores (0.75/0.7) and Graham factors confirm obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1's clustering analysis and Kaplan-Meier curves provide a logical foundation for time-to-achieve-goal projections, but the adaptation to generate recommendations requires interpretive leap beyond explicit disclosure."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Multiple claims lack sufficient detail for key terms like 'feasibility criteria' and 'machine learning technique,' which are critical for enabling the invention as claimed."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses clustering analysis and predictor identification, which can be combined with obvious motivation to address diversity goals. Graham factors confirm PHOSITA would recognize this combination as routine in the field."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Critical terms like 'scores' and 'common' lack definition in the specification, creating a gap between claim language and disclosure that prevents a PHOSITA from practicing the invention without undue experimentation."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1,3,4,5,8,9,15,16) show strong overlap with prior art elements and clear motivation to combine, exceeding combination_threshold of 0.48. Graham factors indicate minor variations over prior art with no secondary considerations supporting non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly teaches clustering analysis for retention predictors, which can be adapted to employment diversity goals. The motivation to combine is logically supported by the prior art's use of similar techniques, meeting the combination threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Terms like 'feasibility criteria,' 'set of costs,' and 'likelihood of achieving goal' are not adequately defined in the specification, making it impossible for a PHOSITA to implement the invention without further guidance."
+        }
+      ]
+    }
+  ]
+}

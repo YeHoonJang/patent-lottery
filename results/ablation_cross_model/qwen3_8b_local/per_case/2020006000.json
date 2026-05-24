@@ -1,0 +1,368 @@
+{
+  "case_id": "2020006000",
+  "proceeding_number": "2020006000",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 청구항 1의 핵심 요소인 리스크 소스 분류, 내재 리스크 탐지, 점수카드 모니터링을 명확히 예측하며, 지리적 지역 요소는 '서비스 제공자 기원의 리스크 소스'로 명시적으로 포함됨. 결합 동기(motivation to combine)는 PHOSITA가 리스크 평가 정확도 향상을 위해 요소를 통합할 것이라는 명확한 기술적 동기를 제공함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2016140466-A1) explicitly discloses all elements of claim 1, including risk rating determination, unstructured data analysis, regional data source selection, and scorecard-based rating adjustment. The combination is routine for PHOSITA in risk management systems, meeting the strictness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail on NLP implementation and subset determination, raising enablement concerns. However, the Office Action's verification status indicates alignment with prior art, suggesting partial sufficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses overlapping elements (risk source identification, scorecard monitoring) with clear combination motivation (text analysis + regional data integration). Coverage score (0.75) exceeds threshold (0.68)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 3 lacks concrete implementation details for risk rating conversion to display formats, as specified in the specification. Verification note confirms disclosure deficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail on NLP implementation and data source criteria, but the invention's technical contribution shows potential for amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1이 청구항의 모든 구성요소를 구체적으로 포함하며, 결합 동기와 Graham 요소가 명확히 제시됨. coverage score 0.68 이상으로 결합이 자명함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 'unstructured text description', 'subset determination' 등 명확한 기술적 정의 부재. 명세서 지원 부족으로 해석의 여지 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses risk categorization, unstructured text analysis, subset data selection, and scorecard monitoring functions that directly align with the claimed method. The combination of these features is supported by explicit mappings and similarity scores (0.7-0.85), meeting the strictness threshold of 0.82."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 4, 6, 7, 13 lack sufficient detail in the specification for NLP keyword extraction, fallback adjustment logic, and format conversion. While the specification provides some basis, the ambiguity and lack of explicit examples weaken the written description support."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all elements of claim 1 with high confidence (0.8), meeting strict novelty criteria."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art suggests predictable combination of elements with clear motivation (0.7 confidence), satisfying obviousness threshold."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguities in 'operational activities' and 'different format' exist, but specification provides some foundational context."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses combinable elements (risk categorization, text analysis, regional data integration) and provides clear motivation for integration. Coverage score exceeds threshold, and functional equivalence is evident."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 4, 6, 7 are anticipated by prior art, but claim 2's allowance suggests partial sufficiency in written description. Confidence scores vary between 0.55 and 0.8."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claim 3 lacks enablement details for GUI formatting, but other claims' enablement is not explicitly challenged. Confidence in 112(b) rejection is moderate."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 구성요소를 직접적으로 포함하며 결합 동기가 명확하지만, 특정 기술적 차이(예: 지리적 지역 적용)가 존재함. 동기 부여의 강도와 기술적 차이의 유무에 따라 중립적 판단 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "REF1 explicitly discloses natural language processing and geographic data adjustment, but the combination with text analysis for risk adjustment requires interpretation. The motivation to combine is plausible but not definitively established."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claims 1 and 3 lack clear definitions for 'subset determination' and 'data source origin,' but the deficiencies are technical rather than purely ambiguous."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2016140466-A1은 청구항의 핵심 요소를 명시적/암시적으로 포함하고 있으며, 결합 동기(텍스트 분석과 데이터 소스 통합)가 명확하지만, 청구항의 'NLP 알고리즘' 및 '다양한 형식'과 같은 특정 용어의 정의 부족으로 인해 동일한 기능의 변형 여부가 해석의 여지가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 'operational activities', 'NLP algorithms', 'different format' 등 핵심 용어가 명확히 정의되지 않아, 기술자가 발명을 실행할 수 있는 충분한 기초가 부족함을 보여주지만, 명세서의 내용이 완전히 누락된 것은 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses foundational elements (risk categorization, text analysis, scorecard monitoring) and the combination is supported by field common knowledge. Confidence scores (0.75-0.8) and Graham factors indicate clear motivation to combine."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims lack specific algorithms/parameters, but specification may provide some support. Verification note confirms enablement issues, though not definitively proven without full disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술과의 중복성 및 결합 동기 설명이 명확하며, PHOSITA의 논리적 개선으로 판단 가능. confidence 0.75로 강력한 증거"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서 부족은 명확하지만, 'operational activities' 등 특정 용어의 구체적 정의 부재로 해석 여지 있음. confidence 0.68로 중등도 증거"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses combinable elements (claim3 and claim6) with clear motivation to create intermediary risk ratings. Confidence score 0.75 exceeds combination_threshold 0.57, and functional equivalence is well-supported."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "case_id": "ABL-2020000566",
+  "proceeding_number": "2020000566",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.07142857142857142,
+  "reject_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 공개 내용과의 기능적 대응성이 명확하며, 각 청구항의 구성요소가 선행기술의 응용 또는 컴퓨터 모니터링 분야에서 통상의 지식을 가진 자에게 자명한 확장임. 결합 동기(motivation to combine)가 명확하고, 그레이엄 요소들(범위 및 내용, 차이점, 통상의 기술수준, 부차적 고려사항)이 모두 자명성 판단을 지지함. 특히 객체 지향 모델링, 시간순 데이터 저장, 집계 엔티티, 특수 메트릭, 메트릭 테이블 등은 모두 공지된 설계 패턴이나 관행임."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1은 청구항의 주요 구성요소들(시간 순서 기반 메트릭 저장, 오브젝트 엔티티 표현, 집계 엔티티, 특수 메트릭, 메트릭 테이블 참조, 이상 탐지 및 알람)을 명시적으로 개시하거나 기능적으로 동등한 방식으로 구현하고 있음. 결합 동기는 명확하며, 모든 청구항에 대해 선행기술의 목적(가상화 환경에서의 시스템 성능 모니터링 및 자원 관리)과 동일한 맥락에서 조합 가능. PHOSITA가 예측 가능한 결과를 얻기 위해 결합할 수 있는 명백한 동기가 존재함. Graham 요소 분석에서도 차이점은 용어 및 구조 강조에 국한되며, 기술적 효과나 작용 방식에서의 실질적 차이 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'normal population-metric-value distribution' lacks explicit definition in the specification, raising written description concerns. However, a PHOSITA might interpret 'normal' based on common statistical practices (e.g., baseline distributions derived from historical data). While the specification could be clearer, the concept of statistical normality is generally understood in the field, weakening the 112(a) rejection under a lenient standard."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The indefiniteness under 112(b) stems from the relative term 'normal,' which lacks a defined threshold. Yet, in system monitoring contexts, 'normal distribution' commonly refers to statistical baselines (mean ± deviation, percentiles). Given the technical context and common usage, the term may be sufficiently definite to a PHOSITA, especially under a purposivist interpretation that emphasizes the invention's function over strict lexical precision."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious=false로 평가되었으며, 결합 동기(motivation to combine) 부재가 명시됨. combination_threshold=0.72 기준보다 높은 신뢰도(최소 0.76)로 비자명성 입증됨. US-2015142940-A1과의 차이점이 기술적 구조 및 시스템 아키텍처 측면에서 의미 있고, 이는 단순한 데이터 수집이나 집계를 넘어서는 혁신으로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 명확히 가상화 관련 정보 수집, 집계, 메트릭 연관, 시간 순서 데이터 저장, 이상치 탐지 및 의사결정 트리거 기능을 개시함. 청구항 2, 3, 4, 5, 7, 8, 9, 11, 12, 13, 14, 15, 16, 18, 19는 모두 선행기술에 개시되거나 일반 기술자에게 자명한 변형임. 결합 동기 명확하며, 차이점은 형식적 모델링에 불과함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 10, 17, 20의 '객체 엔티티 내 메트릭 테이블 참조' 구조는 US-2015142940-A1에 직접 개시되지 않음. 그러나 심사관은 플러그인 기반 데이터 수집 및 집계 기능이 동일한 기능적 결과를 달성한다고 해석 가능. 명확한 구조적 차이 존재하나, BRI 하에서 기능적 등가성 주장 가능하나, 완전한 예측성은 결여."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 6, 10, 11, 17, 18, 20에 대해 명세서가 메트릭 테이블의 구조, 정상 분포의 정의, 데이터 전송 메커니즘 등을 충분히 기재하지 않아, 통상의 기술자가 발명을 실시할 수 없다고 판단됨. 특히 'metric table'의 내부 구조나 'normal distribution'의 산정 방식 등 핵심 구성요소에 대한 기술적 세부사항 부재는 명세서 기재 요건 미충족의 명확한 증거임. USPTO 심사기준(MPEP § 2163)에 비추어도 강한 거절 근거로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1은 시간 기반 메트릭 수집, 객체 및 집계 엔티티 구조, 특수 메트릭을 통한 추가/삭제 이벤트 추적, 메트릭 테이블 참조, 이상치 탐지 및 경보 기능 등을 포함하며, 청구항 2-20의 모든 구성요소를 개시하거나 통상의 기술자에게 자명하게 동일한 기능을 수행할 수 있도록 동기를 제공함. Graham 요소 분석에 따라 선행기술의 범위, 차이점, 통상의 기술수준, 보조적 고려사항 모두 obviousness를 지지함. confidence 값 대부분 0.7 이상으로 일관되며, 결합 동기(motivation to combine)가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1은 가상화 환경에서의 정보 수집, 집계, 시간 기반 데이터 저장, 이상 탐지 및 알람 생성 기능을 명확히 개시하고 있으며, 청구항 2, 3, 4, 7, 8, 11, 12, 13, 14, 15, 18, 19의 구성요소들이 해당 선행기술에 암시적이거나 명시적으로 포함됨. 결합 동기는 분산 시스템 모니터링에서 공지된 설계 선택으로서 충분히 명확하며, 통상의 기술자가 자연스럽게 도달할 수 있는 수준임. confidence 수치도 0.7 이상으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 discloses substantially all elements of claim 1, including object and aggregation entities, population metrics, time-ordered data collection, and outlier detection. The reference's information concentrator performs centralized aggregation and analysis of virtualization data, which aligns with the claimed subsystem. The motivation to combine is inherent in the prior art's goal of improving virtualization management, making the combination predictable to a PHOSITA. Confidence is high (0.85), and the Graham factors support obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 7 is directed to generating object entities representing distributed application components in virtualized environments. The prior art US-2015142940-A1 explicitly discloses virtualization as the foundation of cloud computing, abstraction of physical resources into software components (e.g., VMs, containers), and collection of virtualization-related information from these components. Representing such components as object entities in a monitoring system is a well-known and routine practice in software engineering and system administration. The motivation to combine is clear: object modeling enables scalable data organization and management in distributed systems. The feature lacks inventive step as it represents a straightforward application of conventional techniques to a known environment, with no evidence of unexpected results or technical synergy."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 7에 대해 US-2015142940-A1은 가상화를 통한 물리적 인프라의 소프트웨어 구성 요소로의 추상화를 명시적으로 개시하고 있으며, 이는 분산 애플리케이션 구성 요소가 가상 머신, 컨테이너 등에서 실행됨을 암시한다. 제어 구성 요소가 오브젝트 엔티티를 생성하여 구성 요소를 표현한다는 것은 객체 지향 설계에서 일반적인 관행이며, 가상화 환경에서의 자원 모니터링 맥락에서 통상의 기술자가 자명하게 도출할 수 있는 기술적 적용이다. 결합 동기가 명확하고, 선행기술과의 기술적 격차가 없어 obvious 판단이 타당하다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1은 가상화 환경에서 시스템 성능 지표를 수집·분석하는 정보 집중기(information concentrator)를 명시적으로 개시하며, 시간 순서대로의 메트릭 데이터 저장, 구성 요소를 객체 엔티티로 표현, 다수의 구성 요소로부터 데이터 집계, 아웃라이어 탐지 기반 자원 재분배 결정 등의 기능을 포함한다. 이러한 기능들은 청구항 2, 3, 4, 7, 8, 11, 12, 13, 14, 15, 18, 19의 구성 요소와 기능적으로 동등하거나 본질적으로 암시되며, 결합 동기(motivation to combine)도 명확하다. 선행기술의 목적 자체가 분산된 가상화 정보를 집계하여 의사결정을 지원하는 것이므로, 통상의 기술자가 해당 기술을 용이하게 결합할 수 있다고 판단된다. 진보성 거절 근거는 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of object modeling, time-ordered storage, aggregation, lifecycle tracking, and outlier detection is well-supported by US-2015142940-A1 and common general knowledge in system monitoring. The motivation to combine is clear and rooted in standard architectural practices. Confidence scores range from 0.8 to 0.89, indicating strong obviousness rationale. Even under moderate BRI and strictness=0.60, these rejections are robust."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The indefiniteness in claims 10, 11, and 18 stems from ambiguous phrasing ('one of a reference to a metric table and a metric table') and lack of statistical definition for 'outlier' or 'normal distribution'. While the specification does not clarify these terms, the ambiguity is not so severe as to render claims completely insoluble. Under strictness=0.60, this constitutes a moderate 112 rejection—sufficient to require correction but potentially remediable via amendment."
+        }
+      ]
+    }
+  ]
+}

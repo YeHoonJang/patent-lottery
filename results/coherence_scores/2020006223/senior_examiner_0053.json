@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the Graham/KSR §103 framework throughout, including explicit scope-and-content, differences, PHOSITA level, and secondary considerations analysis for each claim, which is the correct legal test for obviousness."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are tied to specific prior art references (US-2013227111-A1 and US-2013272121-A1) with identified features (e.g., scheduling queue occupancy, read/write operation counts, service modification) mapped to specific claim elements."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage found claims 12 and 19 novel (with no anticipating references), but the office action and final decision reject all 22 claims including 12 and 19 under §103 — while the §103 stage also initially found claims 12 and 19 non-obvious — yet the final decision overrides this without sufficient additional rationale beyond calling batch control a 'routine implementation detail' and equating 'overperformance' with 'underloaded,' creating an inconsistency between the obviousness stage findings and the final rejection of those claims."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.422 (slightly lenient) is reflected in the nuanced weighing — acknowledging weak grounds for claims 12 and 19, noting that 'applicant may benefit' from lenient profile, but ultimately rejecting based on accumulation of moderate-to-strong rejections across most claims, which is consistent with a moderately lenient but experienced senior examiner."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows logically from the accumulated §103 analyses, with the summary explicitly noting strong/moderate rejection grounds for most claims and acknowledging weak grounds for claims 12 and 19 while explaining why overall rejection is maintained given the preponderance of strong rejections."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18956,
+      "output_tokens": 470,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

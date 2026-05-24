@@ -1,0 +1,433 @@
+{
+  "case_id": "2016004003",
+  "proceeding_number": "2016004003",
+  "gt_issues": [
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1은 dual-device 환경에서 attention monitoring을 개시하고 있으나, 청구항의 핵심 차별점인 (1) primary content 자체로부터 attention estimation features를 추출하는 것, (2) 이를 interaction measurement와 결합하여 attention measurement를 계산하는 구체적 방법, (3) 이에 기반해 secondary content delivery를 제어하는 것에 대한 명시적 개시는 부족함. Office Action은 '공지 기술'(content feature extraction, weighted fusion)에 의존하여 결합 동기를 설명하나, 선행기술 자체는 user interaction monitoring에 초점을 두고 있으며 content-derived features 추출을 명시적으로 교시하지 않음. 결합 동기는 논리적으로 설명 가능하나(KSR common sense), 이는 hindsight reasoning의 위험이 있음. 선행기술이 제시하는 'attention information'은 주로 device usage patterns이지 content analysis 결과가 아님. Coverage scores(0.6-0.7)는 substantial overlap을 시사하지만 critical elements의 explicit disclosure는 결여. Combination threshold=0.34는 낮은 기준이나, 실제 선행기술의 teaching과 청구 발명의 specific technical approach 간 gap이 존재함. 따라서 strength는 moderate로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1이 청구항 1, 5, 9, 10, 11, 15, 19, 20, 21의 대부분의 요소를 개시하나, 핵심 요소인 'extract at least one attention estimation feature from primary content'의 명시적 개시는 약함. 선행기술은 'monitoring user activities while viewing content'를 개시하는데, 이것이 BRI 하에서 content feature extraction을 읽어낼 수 있는지가 쟁점. Coverage score 0.88은 높으나, 이 특정 요소의 개시는 implicit/inferential함. Strictness=0.88 성향 하에서는 이러한 추론적 개시도 anticipation 근거로 충분하다고 판단하나, 객관적으로는 moderate 강도."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1-4, 6-8, 11-14, 16-18에 대한 103 거절은 강력함. US-2013160036-A1이 dual-device attention monitoring framework를 명확히 개시하고, content feature extraction은 이 framework를 구현하는 obvious design choice임. KSR common sense 논리가 명확: attention을 측정하려면 content characteristics를 분석하는 것이 자명함. Claims 2-4는 standard categorization/personalization techniques로 obvious. Claims 6-8은 predictable optimization/formalization으로 obvious. Combination threshold=0.34 하에서 이러한 결합은 명백히 허용됨. 결합 동기가 선행기술 자체에 내재되어 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.68,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 11, 21에 대한 103 거절의 핵심 쟁점은 'extracting attention estimation features from the primary content'입니다. US-2013160036-A1은 dual-device attention monitoring framework를 명확히 개시하고 있으나, primary content 자체로부터 feature를 추출하는 것은 implicit coverage(similarity_score: 0.65)에 불과합니다. Office Action은 이를 'known technique in content analysis'를 적용한 obvious modification이라고 주장하지만, 선행기술은 user interaction monitoring에 집중하며 content-based feature extraction을 명시적으로 교시하지 않습니다. Combination_threshold=0.68은 명시적 교시를 요구하는데, 현재 근거는 일반적 공지기술 적용에 의존하고 있어 moderate 강도로 평가됩니다. Strictness=0.25(관대)를 고려할 때, 이러한 moderate 근거는 출원인에게 유리하게 해석될 여지가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 5, 15에 대한 103 거절은 'interaction ability/device operation'이 선행기술의 'interactions with the user interface'에 implicit하다는 주장에 기반합니다. 그러나 이는 청구항의 명시적 한정사항을 선행기술의 일반적 개시로 읽어내는 것으로, 실질적 차이가 없다는 주장보다는 청구항 해석의 문제입니다. Coverage_score 0.7-0.75는 완전한 anticipation을 나타내지 않으며, 청구항이 추가하는 구체성(measurement가 무엇을 나타내는지)은 기술적 의미를 가질 수 있습니다. Strictness=0.25와 breadth=0.37(moderate BRI)를 고려할 때, 이러한 weak 근거는 출원인에게 benefit of the doubt를 주어야 합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1은 dual-screen 환경에서 primary/companion device의 attention 정보를 결합하여 user-interaction parameter를 설정하고 UI를 구성하는 방법을 명확히 개시합니다. 그러나 청구항과의 핵심 차이점은: (1) primary content로부터 attention estimation feature(visual, audio, textual)를 추출하는 구체적 방법, (2) 이를 기반으로 secondary content의 delivery(presentation, pacing)를 제어하는 메커니즘입니다. 선행기술은 'content features'와 'UI configuration'을 언급하지만, 청구항이 요구하는 구체적 feature extraction 및 delivery control의 정확한 구현을 명시적으로 개시하지 않습니다. Office Action은 이러한 차이를 'obvious extension'으로 판단했으나, 이는 공지상식(common knowledge)에 의존한 추론이며, 선행기술 자체로부터의 명시적 교시(explicit teaching)는 부족합니다. Coverage score 0.72는 높지만, 핵심 구성요소의 불완전한 개시로 인해 anticipation은 성립하지 않고, obviousness 판단도 결합 동기의 강도에 따라 달라질 수 있습니다. Combination_threshold=0.72는 상대적으로 높은 기준이므로, 공지상식만으로 결합을 인정하기에는 증거가 약할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1 explicitly discloses all elements of claims 1, 5, 11, 15, 21. The prior art teaches: (1) communication environment with first and second media-consumption devices, (2) delivering primary content to first device, (3) delivering related secondary content to companion device in parallel, (4) receiving first information associated with attention paid to first device (equivalent to extracting attention estimation features), (5) receiving second information associated with attention paid to second device including interactions with user interface (equivalent to monitoring companion device for interaction measurement), (6) setting user-interaction parameter based on combined first and second attention information (equivalent to calculating attention measurement), (7) configuring user interface based on parameter (equivalent to controlling secondary content delivery). The differences are purely terminological ('attention estimation features' vs 'first attention information', 'interaction measurement' vs 'second attention information', 'attention measurement' vs 'user-interaction parameter'). Coverage scores range from 0.8 to 0.85, indicating comprehensive anticipation. Confidence levels are 0.82-0.92. This is clear anticipation under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims 1, 5, 11, 15, 21: Already anticipated under 102, so 103 is also strong. For claims 3, 4, 6, 7, 8, 9, 10, 13, 14, 16, 17, 18, 19, 20: The prior art teaches the core concept (bilateral attention monitoring and adaptive control). The claimed variations (weight computation, fusion mechanism, temporal aspect, content pacing adjustment, primary device control) are obvious implementations. Weight-based personalization is fundamental technique when prior art teaches using profile/preferences/history. Weighted fusion is standard implementation when combining multiple information sources. Temporal aspect is inherent in any monitoring system. Content pacing adjustment is natural implementation of 'optimizing interaction based on attention'. Extending control to primary device is obvious when system already monitors both devices bilaterally. Graham analysis shows: (1) prior art comprehensively addresses dual-device attention management, (2) differences are implementation details or obvious extensions, (3) PHOSITA would routinely use these techniques, (4) no secondary considerations. KSR principle applies: predictable use of known techniques. Combination threshold 0.45 is met for all claims. Confidence levels 0.77-0.91 indicate strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1 provides a very solid foundation for the obviousness rejection. The prior art explicitly discloses the core architecture: dual-device attention monitoring (primary and companion devices), receiving attention information from both devices, combining this information to set parameters, and adapting system behavior accordingly. The claimed differences (extracting content-based features and controlling content delivery) are predictable extensions using well-known techniques. The combination rationale is sound: (1) content feature extraction (visual/audio/textual) is standard in multimedia analysis; (2) controlling delivery based on attention is natural progression from UI adaptation; (3) weighting methodologies are fundamental in personalization systems; (4) temporal tracking is inherent in monitoring; (5) fusion techniques are standard in multi-source data integration. The motivation to combine is clear in each case, and the results are predictable. Under KSR standards, combining prior art elements according to known methods to yield predictable results supports obviousness. With my strictness level of 0.82 and the strong prior art foundation, this rejection should be maintained."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            11,
+            21
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1은 이중 기기 환경, 주목도 모니터링, UI 구성 등 핵심 요소를 개시하나, '주 콘텐츠로부터 주목도 추정 특징 추출(extract attention estimation features from primary content)'과 '특징 및 상호작용 측정에 기반한 주목도 측정 계산'은 명시적이지 않고 암시적(implicit) 개시에 의존. 선행기술은 사용자 활동 모니터링과 주목도 프로파일을 다루지만, 콘텐츠 자체의 특징 추출은 명확하지 않음. BRI 하에서도 'extract from primary content'와 '모니터링 사용자 활동'은 구별됨. Coverage 분석에서도 element 1f, 1h가 implicit match로 표시됨."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            5,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 companion device로부터 측정값 수신, 사용자의 기기 상호작용 능력(센서 입력) 및 기기 조작(UI 상호작용)을 명시적으로 개시. 청구항 5/15의 모든 요소가 선행기술에 직접 개시됨. Confidence 0.75로 강한 anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "멀티미디어 콘텐츠가 본질적으로 시각/청각/텍스트 요소로 구성되며, 이들이 시청자 주목도에 영향을 미친다는 것은 해당 분야의 공지된 사실. 선행기술이 주목도 모니터링 프레임워크를 제공하고, 이러한 표준 콘텐츠 모달리티를 특징으로 지정하는 것은 자명함. Confidence 0.78."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            4,
+            13,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1이 사용자 프로파일, 선호도, 상호작용 이력을 명시적으로 개시하며, 이를 기반으로 가중치를 계산하는 것은 개인화 시스템의 표준 기법. 선행기술이 이미 이러한 개인 속성을 주목도 판단에 사용하므로, 콘텐츠 특징 가중치 계산에 적용하는 것은 예측 가능한 확장. Confidence 0.75-0.8."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            7,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 다중 소스 정보 결합을 개시하나, 명시적인 가중치 계산/조정/융합 메커니즘은 개시하지 않음. 그러나 combination_threshold=0.46으로 낮아, 적응형 시스템에서 피드백 기반 가중치 조정과 가중 융합은 공지 기법으로 간주 가능. 동기는 정확도 향상이라는 일반적 목적. Confidence 0.73-0.74로 moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "실시간 모니터링 시스템에서 시간 의존적 측정은 당연한 구현. 선행기술이 이미 시간에 따라 변하는 주목도 상태를 다루므로, 명시적 시간 함수화는 자명. Confidence 0.76."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 UI 구성 최적화를 개시하나, 콘텐츠 전달의 프레젠테이션/페이싱 조정은 개념적으로 다름. 그러나 BRI 하에서 'UI 최적화'를 넓게 해석하면 콘텐츠 전달 조정 포함 가능. Combination_threshold=0.46으로 낮아 적응형 페이싱은 공지 기법으로 간주 가능하나, 선행기술과의 차이는 존재. Confidence 0.68로 낮은 편."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 companion device 적응을 개시하나, primary content 전달 제어는 명시하지 않음. 대칭적 적용 논리는 타당하나, 선행기술에서 직접 제안되지 않은 확장. Combination_threshold=0.46으로 낮아 common sense로 동기 부여 가능하나, 증거는 간접적. Confidence 0.7."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1은 청구항 1, 3-7, 9-11, 13-17, 19-21의 모든 핵심 구성요소를 명시적으로 개시합니다. 선행기술은 듀얼 장치 환경(제1 미디어 소비 장치와 제2 미디어 소비 장치)에서 (1) 제1 및 제2 장치에 대한 주의력 정보 수신, (2) 주의력 정보 기반 user-interaction parameter 설정, (3) parameter 기반 사용자 인터페이스 구성을 명시적으로 교시합니다. 청구항과의 차이는 주로 용어적 차이(attention measurement vs. user-interaction parameter, control delivery vs. configure UI)로, 기능적으로 동일합니다. 선행기술의 청구항 1과 3은 사용자 프로파일, 선호도, 상호작용 기록을 명시적으로 언급하여 청구항 3-4의 가중치 계산 개념을 뒷받침합니다. 복수 정보 소스 기반 파라미터 설정(청구항 6-7)과 UI 최적화를 통한 콘텐츠 전달 제어(청구항 9-10)는 선행기술이 명시적으로 교시하는 개념입니다. Graham 분석 결과, 선행기술이 발명의 핵심 개념을 모두 개시하고, 차이점은 통상의 설계 선택 또는 용어적 변형에 불과하며, PHOSITA에게 자명한 구현 방법입니다. Combination threshold 0.55 이하에서, 단일 선행기술이 핵심을 모두 개시하면 obvious 판단이 타당합니다. 증거가 명확하고 강력합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1 provides comprehensive disclosure of claims 1, 5, 9, 10, 11, 15, 19, 20, and 21. Coverage scores range from 0.70 to 0.85, indicating substantial overlap. The reference explicitly teaches: dual-device system with communication interface, delivering primary content to first device and secondary content to companion device (related to primary content), monitoring user activities to determine attention paid to both devices, setting user-interaction parameter based on first and second attention information, and configuring user interface based on this parameter to optimize interactions. Element 1f ('extract attention estimation feature') has slightly lower support (0.7 implicit) but the reference's monitoring of user activities to determine attention necessarily involves extracting features from content being viewed. The anticipation is well-supported by specific claim elements and detailed disclosure in US '036. This represents strong 102 rejection ground."
+        },
+        {
+          "basis": "103_obviousness_claims_2_12",
+          "strength": "strong",
+          "reasoning": "Claims 2 and 12 specify attention estimation features as visual, audio, or textual features. While US-2013160036-A1 does not explicitly enumerate these feature types, this specification represents obvious identification of standard multimedia content components. Any person of ordinary skill in multimedia processing would recognize that audio/video content comprises visual (scene, motion, color), audio (volume, speech, music), and textual (captions, overlays) elements. This is fundamental knowledge in the field, not inventive concept. The motivation is straightforward: multimedia content inherently consists of these standard components. With combination_threshold=0.22, this easily meets obviousness standard. Strong 103 ground."
+        },
+        {
+          "basis": "103_obviousness_claims_3_4_13_14",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 13, and 14 add weight computation based on personal profile/preferences (claims 3, 13) or viewing history (claims 4, 14). US-2013160036-A1 explicitly discloses using user profile, preferences, and interaction history in attention determination (coverage 0.85 for profile/preference retrieval, 0.85 for history retrieval). While specific weight computation methodology is not detailed (0.7 implicit coverage), computing weights based on user characteristics was conventional personalization technique. The motivation is clear: different users respond differently to content features, making weighted calculation based on individual preferences/history an obvious optimization for improving attention estimation accuracy. This represents predictable use of known personalization methods. With combination_threshold=0.22 and well-established motivation, strong 103 ground."
+        },
+        {
+          "basis": "103_obviousness_claims_6_7_16_17",
+          "strength": "moderate",
+          "reasoning": "Claims 6, 7, 16, and 17 require specific weight calculation and adjustment methodologies (claim 6/16: adjusting weights based on interaction measurement; claim 7/17: fusion of weighted components with separate weighting). US-2013160036-A1 teaches combining attention information from both devices to set parameter but does not explicitly detail these specific mathematical implementations (coverage 0.65-0.75 implicit). However, weighted fusion and dynamic weight adjustment were well-known techniques in multi-modal systems and adaptive signal processing. The motivation is reasonable: attention-sharing model suggests companion interaction reduces primary attention, warranting weight adjustment; multi-source data combination naturally leads to weighted fusion. The gap between generic 'combining' and specific 'weighted fusion with adjustment' represents some interpretative distance, though the techniques were conventional. With combination_threshold=0.22 (low barrier), this meets obviousness standard, but evidence is less direct than claims 2-4. Moderate 103 ground—maintainable but closer to threshold."
+        },
+        {
+          "basis": "103_obviousness_claims_8_18",
+          "strength": "moderate",
+          "reasoning": "Claims 8 and 18 require attention measurement 'as a function of time.' US-2013160036-A1 describes continuous monitoring during viewing sessions but does not explicitly state temporal dependency (coverage 0.6 implicit). However, continuous monitoring inherently involves temporal dimension—tracking attention over time is fundamental to any monitoring system. Time-series analysis was well-established in dynamic adaptive systems. The motivation is obvious: attention changes during viewing sessions, requiring temporal tracking to enable real-time adaptation. The gap is primarily semantic (implicit temporal aspect vs. explicit 'function of time' recitation). With combination_threshold=0.22, this meets obviousness standard, though evidence is somewhat implicit. Moderate 103 ground—supportable but based partly on inherency argument."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1 discloses most elements of claims 1, 5, 11, 15, and 21 with high coverage (0.78-0.8). However, the critical element 'extract at least one attention estimation feature from the primary content' is not explicitly disclosed. The reference teaches monitoring user activities and receiving attention information, but does not specifically describe extracting features FROM the content itself (visual/audio/textual features of the content). The Office Action argues this is a 'functional equivalent,' but under 102, anticipation requires each element be expressly or inherently disclosed. The reference monitors user behavior, not content characteristics. This is a material distinction that affects anticipation. While the systems are similar in purpose, the specific mechanism differs."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The obviousness rejections for claims 2-4, 6-10, 12-14, 16-20 are well-supported. US-2013160036-A1 provides a solid foundation teaching multi-device attention monitoring. The additional limitations represent predictable implementations: (1) Visual/audio/textual features are the standard modalities for multimedia analysis - this is common knowledge; (2) Weighted calculations based on profiles, preferences, and history are routine personalization techniques; (3) Weighted fusion and adjustment are established methods in adaptive systems; (4) Temporal aspects are inherent in any monitoring system; (5) Presentation/pacing adjustments are common adaptive delivery techniques; (6) Extending control to primary content is a straightforward generalization. The Graham factors are properly analyzed. The combination threshold of 0.33 supports these findings. The differences from the prior art are minor and represent routine design choices within the skill of the art."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1 discloses substantially similar system, but key differences exist: (1) Reference focuses on configuring companion device UI based on attention, while claims 1/11/21 recite controlling delivery of secondary content to companion device - these are related but not identical concepts. (2) Claim 1 explicitly requires 'extract attention estimation features from the primary content' which is not clearly disclosed in reference abstract. (3) Reference's 'setting user-interaction parameter' may not be identical to 'calculate attention measurement' as claimed. Coverage scores of 0.78-0.80 indicate substantial but not complete overlap. Under moderate strictness (0.52), anticipation requires all elements, and some elements appear similar rather than identical."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013160036-A1 provides strong foundation for obviousness. For claims 1/5/9/11/15/19/21: Even if not anticipated, differences are minimal and obvious (conventional hardware components, implicit disclosures). For claims 2/12 (content feature extraction): Common sense dictates analyzing content characteristics for attention estimation - this is predictable design choice with combination_threshold=0.44. For claims 3-4/13-14 (weighting based on user profiles/history): Reference discloses user profiles and history; weighting is routine personalization technique. For claims 6-7/16-17 (weight calculation and fusion): Standard implementation of reference's parameter setting using well-known weighted feature methods. For claims 8/18 (temporal function): Obvious extension as attention inherently varies over time. For claims 10/20 (controlling primary content): Symmetric application of reference's attention-based control principle. All claims represent predictable variations, routine implementations, or obvious design choices."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1은 dual-device content delivery와 attention monitoring을 개시하지만, 청구항 1의 핵심 요소인 'extract at least one attention estimation feature from the primary content'는 명시적으로 개시되지 않음. 선행기술은 device interaction monitoring에 집중하며, primary content 자체로부터 feature를 추출하는 것은 개시하지 않음. 또한 memory device, processor communication 등은 generic computer components로서 102 거절의 근거로 약함. Coverage score 0.72는 유사성은 높으나 동일성(identity)에는 미치지 못함을 시사. 102는 모든 요소의 명시적 개시를 요구하므로, missing elements를 'inherent' 또는 'necessarily present'로 해석하는 것은 과도하게 넓은 해석임."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "103 거절은 강력한 근거를 가짐. US-2013160036-A1은 multi-device attention monitoring framework를 확립하고, 차이점들(content feature extraction, personalized weighting, dynamic adjustment, temporal tracking, bidirectional control)은 모두 해당 분야의 공지 기술 또는 자명한 설계 선택임. Multimedia content analysis에서 visual/audio/textual feature extraction은 well-known이며, adaptive systems에서 user profile 기반 weighting은 standard practice임. 결합 동기가 명확하고(improving attention estimation accuracy, personalization, real-time adaptation), PHOSITA 관점에서 이들 기술의 결합은 predictable함. Graham factors 분석이 체계적으로 수행되었고, secondary considerations에 대한 증거 없음. Combination_threshold=0.52를 고려할 때, 제시된 결합은 threshold를 충분히 초과함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013160036-A1의 anticipation 주장은 일부 요소에서 암묵적(implicit) 개시에 의존하고 있습니다. 특히 claim 1의 'extracting attention estimation features from primary content'는 reference에서 'receiving first information associated with attention'으로 대응되는데, 이는 feature extraction의 명시적 개시라기보다는 일반적인 attention information 수신에 가깝습니다. Coverage score 0.78은 상당한 유사성을 보이지만, 일부 요소의 암묵적 개시는 anticipation 요건(모든 요소가 단일 reference에 명시적으로 개시)을 완전히 충족하지 못할 수 있습니다. 그러나 reference가 companion device monitoring, combined attention measurement, interface configuration을 명시적으로 개시하므로 moderate strength로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "103 거절은 매우 강력합니다. US-2013160036-A1은 핵심 개념(dual-device attention monitoring, combined measurement, adaptive content delivery)을 명시적으로 개시하며, dependent claims의 추가 제한사항들(feature types, weighting mechanisms, temporal tracking, primary content control)은 모두 해당 기술분야의 공지된 기법 또는 reference의 명시적 teachings의 predictable refinement입니다. Claim 2(visual/audio/textual features)는 multimedia content의 구성요소에 대한 common knowledge, Claims 3-4(profile/history-based weighting)는 reference의 명시적 teaching, Claims 6-7(weighting and fusion)은 standard data fusion technique, Claim 8(temporal tracking)은 dynamic monitoring의 inherent aspect, Claim 10(primary content control)은 symmetric application of disclosed principle입니다. Graham factors analysis가 철저하고, motivation to combine이 각 claim마다 명확히 제시되어 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejection is based on US-2013160036-A1 combined with common knowledge. The reference clearly teaches dual-device attention monitoring, setting parameters based on attention information, and configuring UI accordingly. The main gap is element 1f/11c - extracting attention estimation features FROM primary content itself. The Office Action argues this is obvious because: (1) content analysis for engagement is well-known, (2) the reference creates need for accurate attention measurement, and (3) using content features to improve accuracy is predictable. However, this involves bridging from monitoring user behavior toward devices (what the reference teaches) to analyzing content characteristics (not explicitly in reference). The motivation relies on general knowledge about content analysis rather than explicit teaching. With combination_threshold=0.57, this crosses the threshold for obviousness, but the combination requires some inferential steps. The strength is moderate rather than strong because the reference does not explicitly suggest content feature extraction - the motivation comes from external knowledge and hindsight reasoning about improving accuracy. Under strictness=0.60 (neutral-to-moderate), this moderate-strength obviousness argument supports rejection, but it is not overwhelming."
+        }
+      ]
+    }
+  ]
+}

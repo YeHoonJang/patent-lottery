@@ -1,0 +1,378 @@
+{
+  "case_id": "2020002880",
+  "proceeding_number": "2020002880",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013226453-A1) explicitly discloses overlapping functionalities (task-based data handling, location/time criteria, user provisioning, data maintenance) that can be combined with clear motivation for multimedia task management. Graham factors confirm PHOSITA would recognize obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Prior art anticipates all claims via overlapping elements (e.g., location-based notifications, task criteria, data provisioning). Coverage scores (0.6-0.8) fall below strictness threshold, but some claims (e.g., 2, 5) show partial novelty."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Undefined terms like 'criteria' and 'maintaining' lack sufficient implementation details. Ambiguous scope of 'all multimedia data' and 'only some' violates enablement requirements."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013226453-A1의 구체적 기술(위치/시간 분석, 제3자 접근, 메타데이터 검증)이 청구항의 기능을 단순 결합으로 설명하며, 결합 동기(데이터 관리 효율성)가 명확히 제시됨. 신뢰도 0.85 이상의 높은 증거."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 5, 7의 'maintaining', 'availability time', 'payment distribution mechanism' 등의 용어가 명세서에서 명확히 정의되지 않음. 다만, 기술적 맥락에서 추론 가능한 부분도 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013226453-A1) explicitly discloses combinable elements (location-based task management, contextual analysis, data sharing) that a PHOSITA would recognize as an obvious extension. High confidence (0.8-0.85) and clear Graham factors support strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly anticipates multiple claim elements with high confidence (0.6-0.8). Combination of features is deemed obvious to PHOSITA with clear motivation, meeting strictness threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013226453-A1) explicitly discloses contextual analysis (claim 10) and location-based task maintenance (claim 13), which directly align with the claimed invention's task criteria and multimedia data handling. The combination is motivated by enhancing location-based services with multimedia data, a logical extension for a PHOSITA. Confidence score of 0.7 with clear motivation to combine."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The terms 'maintaining' and 'task information availability' lack specific disclosure in the specification, creating ambiguity. While the objection is valid, the claim's broader scope may still meet BRI standards under moderate breadth interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses combinable elements (task-based data handling, server processing, metadata analysis) with clear motivation to adapt systems to multimedia data management. Graham factors are fully satisfied with high confidence (0.85)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims include undefined terms ('all multimedia data', 'data exchange protocols') lacking specification support. While enablement concerns are present, some terms may be interpreted as functional equivalents under BRI. Confidence is moderate (0.8)."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art elements (claims 11, 1, 13, 7 of US-2013226453-A1) are explicitly combined with a clear motivation to address task-based multimedia data management. Graham factors confirm the obviousness to a PHOSITA, and the combination threshold (0.46) is comfortably exceeded."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art anticipates claim 1 with a coverage score of 0.68 (exceeding strictness threshold). All claimed elements are explicitly disclosed in the cited references, leaving no room for novelty."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'maintaining' lacks clear definition in the specification, raising concerns about enablement and written description. However, this is framed as an objection rather than a rejection, and the specification may still provide sufficient support."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1 explicitly discloses overlapping elements (task-based data handling, real-time location sharing, data routing) that directly match claim 1's scope. Coverage score of 0.78 and explicit claim matches confirm anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art elements (task-based criteria, multimedia data management) are combinable with clear motivation for PHOSITA to improve data systems. Graham factors show minor differences within same technical field."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Term 'criteria' lacks sufficient definition in specification, creating ambiguity about scope. Specification does not enable practice across all interpretations of 'criteria'."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013226453-A1) explicitly discloses all claimed elements (task-based location/time criteria, user-specific data maintenance, multimedia transmission) and provides clear motivation to combine features. The Graham factors confirm the combination is obvious to a PHOSITA in the field."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, and 5 lack sufficient detail on task maintenance and data availability mechanisms. While the specification is absent, the claims' ambiguity in these areas raises concerns about enablement and written description."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly anticipated by prior art references with high confidence (0.8), showing clear overlap in disclosed elements."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 5) are explicitly anticipated by US-2013226453-A1 with high confidence (0.75-0.8). The prior art's explicit teachings on location-based task management, multimedia data handling, and server-side operations directly overlap with the claims, and the combination motivation is clearly established through Graham factors."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1's terms 'maintaining' and 'criteria scope' lack sufficient definition in the specification. While the issue is technical, the evidence is not as strong as 103 rejections, requiring clarification under 112."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2013226453-A1) explicitly teaches location/time-based task management with contextual analysis and notifications, which directly overlaps with the claimed method. While the combination of features is clear, the added 'multimedia-specific criteria' and 'payment processing' are functional equivalents to the prior art's systems, reducing the novelty. The motivation to combine is strong, but the distinction between 'functional equivalents' and 'novelty' remains ambiguous."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The terms 'maintaining' and 'availability' lack clear technical boundaries in the specification, rendering the claim indeterminate. This indefiniteness is a fundamental flaw under 35 U.S.C. § 112(b), as the claim's scope cannot be ascertained with reasonable certainty."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses overlapping elements (task-based data sharing, criteria-based data reception, third-party data availability) with clear motivation to combine. Graham factors confirm minimal inventive step and no secondary considerations supporting novelty."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2013226453-A1) provides explicit overlapping features (task criteria, data maintenance, communication modes) and a clear motivation to combine them (enhanced data accessibility). The combination threshold (0.57) is met, and the Graham factors confirm the obviousness with moderate confidence (0.75)."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art directly anticipates all claimed elements (claims 1, 7, 12) with high confidence (0.85), meeting the strictness threshold (0.60)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1 lacks sufficient detail for 'maintaining' and 'criteria' in the specification, but the issue is not fully resolved in the provided analysis."
+        }
+      ]
+    }
+  ]
+}

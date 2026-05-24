@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage applies element-by-element anticipation analysis against US-2012299509-A1, and the §103 stage nominally invokes Graham factors (though left empty due to LLM unavailability), with the office action and final decision correctly framing novelty and obviousness under their respective statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "The novelty reasoning consistently cites specific claim language (e.g., 'executable software instructions,' 'second communication protocol,' 'power-on period') and references specific disclosures in US-2012299509-A1 (ZigBee address assignment) to explain why anticipation fails."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "All claims are found novel at §102 stage, and the §103 stage defaults to non-obvious due to LLM unavailability; the office action and final decision consistently grant all claims without contradicting any prior-stage finding."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a moderate strictness (0.502) and easy-combiner profile (combination_threshold=0.329); the §103 stage defaults to non-obvious with zero confidence due to unavailability rather than an affirmative lenient judgment, and the final decision notes the 'weak' §103 basis while granting, which is consistent with a moderate/pragmatist examiner not aggressively rejecting on thin grounds."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision follows directly from the accumulated stage analyses: all claims passed §102 novelty with substantive reasoning, and §103 produced no rejection (defaulted to non-obvious), so the grant is a logical conclusion from all prior stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001433",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 6580,
+      "output_tokens": 415,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

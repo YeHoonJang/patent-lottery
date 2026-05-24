@@ -1,0 +1,353 @@
+{
+  "case_id": "2020004953",
+  "proceeding_number": "2020004953",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1이 청구항의 모든 구성요소를 명시적으로 포함하고 있으며, 결합 동기와 기술적 유사성이 명확히 제시됨. combination_threshold(0.34)를 초과하며, PHOSITA가 기술적 문제를 해결하기 위해 자명하게 결합할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1의 구체적 기술 내용과 청구항 1의 요소가 명확히 매칭되며, 결합 동기(효율성 향상)가 명확하고 Graham 요인 모두 충족됨. confidence 0.85로 강력한 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all elements of the claims (structured data input, appointment scheduling, notifications, etc.) and the combination is motivated by standardizing service scheduling processes. Confidence scores are high (0.7–0.85), and the Graham factors confirm obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'structured graphical elements' and 'structured information' lack sufficient definition in the specification, but the issue is not entirely clear-cut. The strictness threshold (0.25) allows for leniency, suggesting possible amendments to clarify."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1은 청구항의 핵심 기능(구조화된 데이터 입력, 전송, 수정)을 명확히 포함하며, 결합 동기(motivation to combine)가 명확하게 제시됨. Graham 요인에 따르면 기술적 차이가 미미하고 PHOSITA의 기술적 적응이 당연한 수준으로 판단됨."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 모든 요소를 '동일하게' 포함하고 있으며, 구체적 기술적 구성요소(그래픽 인터페이스, 이메일/문자 전송, 매개변수 수정)가 일치함. 신규성 부재가 명확히 입증됨."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "추상 아이디어(abstract idea)로 분류될 수 있으나, 청구항이 구체적 기술적 구현(예: 그래픽 인터페이스, 데이터 전송 메커니즘)을 포함하고 있어 기술적 진보성이 인정됨. 다만, 법적 요건 충족 여부는 추가 분석 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all elements of claim 1 (structured graphical interfaces, appointment scheduling with date/time/location, email/text notifications, structured updates, GUI-based inputs, meeting types) and provides clear motivation to combine them for automating service scheduling workflows. The combination is obvious as REF1 explicitly addresses unstructured communication as a problem to be solved, meeting Graham factors with high confidence (0.85)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all elements of claims 8-14, including automated parsing/matching, structured data exchange, graphical interfaces, and meeting type selection. The claimed improvements (structured workflows, confirmation mechanisms) are routine optimizations within REF1's technical framework. Graham factors confirm the obviousness of combining REF1's features for streamlined scheduling, with clear motivation to reduce errors and improve efficiency."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 모든 구성요소를 명확히 포함하고 있으며, 결합 동기와 기술 분야의 유사성으로 인해 명확한 공지기술 기반의 결합이 가능하다. Graham 요인에 따르면 차이점은 맥락적 차이로 사소하며, 결합 동기 설명이 명확하다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술이 청구항의 모든 요소를 명시적으로 포함하고 있으며, 커버리지 점수와 명확한 매핑이 확인됨. BRI 기준으로도 선행기술이 청구항을 예측적으로 포함함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2의 'structured graphical elements'에 대한 명세서 지원 부족은 명확하지만, 이는 청구항 1의 거절 근거가 아님. 다만, 청구항 2에 대한 이의는 거절 근거로 볼 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses all elements of claim 1 (structured interfaces, scheduling, notifications) and provides clear motivation for combining features. Confidence score of 0.8 indicates strong evidence of obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "REF1's 'selected appointment and background information' directly matches claim 3's structured data (date/time/location) with 0.8 coverage score. Explicit disclosure meets 102 anticipation standard."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2014180715-A1) explicitly discloses overlapping functionalities, but the combination requires interpretation of 'minor differences' as obvious variants. Confidence levels (0.6-0.8) indicate sufficient evidence but leave room for alternative interpretations under strictness=0.46."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The Office Action cites US-2014180715-A1 and conventional data structuring techniques as a basis for obviousness, but the user's analysis highlights that the specific integration of automated parsing, matching, and real-time updates is not suggested by the prior art. While the combination is argued to be logical, the lack of clear motivation to combine these elements weakens the basis."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses core elements (structured input, scheduling, notifications) and Graham factors confirm minimal differences. PHOSITA would find combination obvious for improved service coordination."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly covers claim 3's structured information and graphical interface with 0.7 similarity score. Verification confirms direct overlap."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguity in 'structured information' and 'graphical interface' lacks sufficient definition, but not definitively unsupported."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1이 청구항의 모든 구성요소를 명확히 개시하며, 결합 동기(motivation to combine)가 명확하고 Graham 요인에 따라 기술적 당연성(obviousness)이 확보됨. 고신뢰도의 증거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 is rejected under 103_obviousness with high confidence (0.85) and clear Graham factors. The prior art (US-2014180715-A1) explicitly discloses overlapping features (structured data input, scheduling, notifications, feedback), and the motivation to combine is well-supported. The combination threshold (0.48) is comfortably exceeded."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2-14 are rejected under 102_novelty with confidence scores ≥0.65. The prior art (US-2014180715-A1) explicitly anticipates each claim's elements, with coverage scores ≥0.6. The novelty analysis is consistent across all claims, and the strictness threshold (0.52) is exceeded."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses overlapping functionalities (structured inputs, automated messaging) that directly anticipate the claimed method. The combination is obvious under strictness=0.6 with clear motivation to apply existing virtual consultation systems to service scheduling."
+        }
+      ]
+    }
+  ]
+}

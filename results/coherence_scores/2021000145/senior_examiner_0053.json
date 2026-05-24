@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness and performs element-by-element anticipation analysis for §102, correctly invoking the recognized legal frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions are anchored to specific claim language (e.g., 'send buffer,' 'receive buffer,' 'assembler,' 'congestion window,' 'feedback from assembler to scheduler') and specific prior art disclosures in US-2015245409-A1 (e.g., MPTCP reference, bandwidth/latency/loss monitoring), satisfying evidence-linked reasoning."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained: claims 3 and 10 found novel at §102 and non-obvious at §103 are carried through as allowable in the office action and final decision, while claims found anticipated or obvious at earlier stages are rejected consistently throughout."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's strictness of 0.422 (slightly lenient) and combination_threshold of 0.521 (moderate) are reflected in the reasoning — marginal cases like UDP (claim 7) and congestion window (claim 2) are rejected with moderate confidence but with stated rationale, while the feedback loop claims (3, 10) are allowed, consistent with a pragmatist examiner who resolves close cases against rejection when evidence is thin."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1–2, 4–9, and 11–17 and allow claims 3 and 10 directly follows from the accumulated §102 and §103 stage analyses, with the summary explicitly citing the reasoning from prior stages and the examiner's profile-appropriate weighing."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11342,
+      "output_tokens": 446,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

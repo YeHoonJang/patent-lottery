@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies the §103 Graham/KSR framework throughout, explicitly identifying scope and content of prior art, differences, PHOSITA level, secondary considerations, and motivation to combine for each claim."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions reference specific claim language (e.g., 'maximum drive distance,' 'IRR,' 'shortest route'), specific prior art passages (e.g., US-2013268886-A1 Claim 6 for start/end time and location), and cite the references by number at every rejection."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage found claims 4, 8, and 10 novel, and the §103 obviousness stage and office action consistently treat these same claims as requiring additional rationale for obviousness (e.g., design choice, logical extension), with the final decision designating them 'amend_suggested' — no unexplained contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.422 (moderate/slightly lenient), the examiner appropriately resolves ambiguous elements (IRR, shortest path, max drive distance) toward amendment suggestions rather than outright rejection, and the final decision score of 0.4 with 'amend_suggested' reflects the neutral-to-lenient profile rather than a blanket rejection."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision follows directly from the stage-level analyses: claims found obvious across all stages are rejected, while claims 4, 8, and 10 — consistently flagged as lacking explicit prior art disclosure in both novelty and obviousness stages — receive 'amend_suggested' with specific examiner notes explaining how to overcome the rejections."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005661",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17685,
+      "output_tokens": 427,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

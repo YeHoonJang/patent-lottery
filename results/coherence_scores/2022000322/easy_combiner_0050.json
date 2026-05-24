@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation for §102, Graham/KSR factors explicitly for §103, and written description/enablement analysis for §112, each invoked for the appropriate claims."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection cites specific prior art references (e.g., US-2018279394-A1 for claim 3 §102, combination of US-2019261132-A1 and US-2018279110-A1 for §103 claims) and maps specific claim elements to specific disclosures in those references."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claim 15 is found not novel under §102 in the novelty stage but is then rejected under §103 in the office action and final decision without stated justification for the statute change, creating an unexplained inconsistency between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's low combination_threshold (0.222) is reflected throughout — weak motivations to combine (e.g., 'routine adaptation,' 'logical extension') are accepted readily across multiple claims, and the moderate strictness (0.461) is consistent with allowing two claims while rejecting most others."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to suggest amendment flows directly from the accumulated stage analyses: claims 2 and 14 were found novel and non-obvious across both prior stages, while the majority of claims received consistent rejections at §102, §103, or §112 stages that are carried through to the final decision."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12538,
+      "output_tokens": 384,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

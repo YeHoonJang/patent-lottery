@@ -1,0 +1,315 @@
+{
+  "case_id": "PILOT-2020006433",
+  "proceeding_number": "2020006433",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2016164299-A1, US-2012228933-A1, and US-2015229268-A1 provides clear teaching of measuring energy flows, applying priority rules for allocation, and system-wide monitoring. The motivation to combine is strong, rooted in improving user comprehension of complex DER systems. Although the specific visualization is not explicitly disclosed, generating a display to represent computed flows from one source to multiple sinks or vice versa is a logical extension of the prior art's monitoring and control functions. Given the broad interpretation of 'control module' and 'visualization,' the claimed invention lacks an inventive step."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1과 US-2013297084-A1의 결합은 에너지 흐름 측정 및 우선순위 기반 제어를 명확히 개시하며, 디스플레이 이미지 생성은 에너지 관리 시스템에서 공통적이고 루틴한 사용자 인터페이스 기능으로 간주될 수 있다. 결합 동기(motivation to combine)는 환경적/경제적 최적화라는 명확한 목적에 기반하여 타당하며, PHOSITA 수준에서 자명한 설계 선택으로 판단된다. 선행기술 간 기술적 격차가 작고, 시각화 추가가 기술적 진보 없이 사용성 향상이라는 일반적 목적으로 달성 가능하므로, 진보성 거절 근거는 강력하다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Although prior art references disclose individual components such as energy measurement (US-2016164299-A1), source tracking (US-2012228933-A1), and condition-based control (US-2013297084-A1), the combination for the specific purpose of visualizing energy flows using priority allocation rules lacks clear motivation to combine. The integration into a user-centric visualization system is not an obvious design choice, especially given the different objectives of the cited references (control vs. transparency). The confidence in obviousness is below the combination threshold (0.68), and the secondary considerations support non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.68,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 개별 구성요소를 개시하고 있으나, 전체 시스템의 목적과 기술적 기여인 '에너지 우선순위 기반 시각화'라는 통합적 사상은 충분히 반영하지 못함. 결합 동기는 존재하나, 본 발명의 핵심인 rule-based flow computation과 시각화의 통합은 명확히 제시되지 않음. strictness=0.29인 관대한 심사 기준에서 이러한 모호성은 출원인에게 유리하게 작용함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "첫 번째 103 거절 그룹(청구항 2,3,8,9,10,15,16,17)은 US-2016164299-A1과 US-2012228933-A1의 결합으로 설명되며, 각각 에너지 흐름 측정 및 저장 장치 입출력 모니터링을 개시하므로 기술적 결합이 가능하다고 판단됨. 그러나 '측정된 에너지 흐름 값들'의 통합은 기능적 조합에 불과할 수 있어, 진보성 판단의 경계에 있음. strictness=0.89인 점을 고려하면, 통합의 자명성에 대한 증거가 충분히 강하지 않더라도 거절 유지 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "두 번째 103 거절 그룹(청구항 4,5,11,12,18)은 US-2013297084-A1의 탄소 배출 기반 알고리즘이 '에너지 싱크별 우선순위 규칙'을 명시적으로 개시하지 않으며, 최적화 논리가 곧 우선순위 할당으로 이어진다는 주장은 추론에 기반함. 결합 동기(motivation to combine)가 약함. 그러나 심사관 성향이 엄격하므로, 공지된 최적화 기술을 확장한 것으로 간주하여 거절 유지할 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "세 번째 103 거절 그룹(청구항 6,7,13,14,19,20)은 US-2015229268-A1이 상태 정보 전달만 개시하고 시각화를 직접적으로 개시하지 않음. 정보 전달과 시각화는 기술적 과제가 다름. 시각화의 자명성은 사용자 인터페이스 설계의 일반적 요구에 근거하지만, 구체적 표현 방식(다중 소스/싱크 흐름)은 비자명할 수 있음. 증거 부족하나, strictness=0.89이므로 예측 가능한 확장으로 간주하여 거절 유지 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2016164299-A1, US-2013297084-A1, and US-2012228933-A1 fully discloses the claimed elements: energy flow measurement, priority-based allocation rules, and visualization. The references are in the same field, address overlapping problems, and provide clear motivation to combine for improved system transparency and environmental optimization. The claimed invention represents a predictable integration of known techniques with no evidence of unexpected results or secondary considerations indicating non-obviousness. Confidence in obviousness is high (0.85), and the technical overlap is substantial."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "거의 모든 청구항에 대해 명확한 선행기술 조합과 결합 동기가 제시되었으며, 특히 US-2016164299-A1이 핵심 기능을 광범위하게 공개하고 있음. 측정, 흐름 계산, 우선순위 규칙, 제어 장치 등은 모두 공지된 기술로 조합이 자명함. confidence 값들도 0.85 이상으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012228933-A1은 에너지 흐름 관리 및 소스 추적 기능을 공개하고 있으나, '우선순위 기반 할당 규칙' 및 '시각화 이미지 생성'을 명시적으로 기재하지 않는다. 그러나 BRI 원칙과 combination_threshold=0.55에 따라, 관리 기능이 계산 및 표시를 포함하는 것으로 해석할 수 있으며, 이는 진보성 거절의 근거로 타당하다. 다만, 명세서에 시각화 및 우선순위 규칙의 구체적 구현이 강조되어 있다면 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016164299-A1과 US-2012228933-A1은 DER 생산, 저장, 그리드 상호작용, 우선순위 제어 등 청구항 2-5, 8-12, 15-18의 핵심 기능을 명시하거나 암시하고 있으며, US-2015229268-A1은 상태 정보 표시를 통해 디스플레이 생성의 동기를 제공함. 결합 동기가 명확하고, 기술적 맥락에서 자연스러운 통합으로 판단됨. confidence 점수가 0.8 이상으로 일관되며, PHOSITA 수준에서 자명한 조합으로 간주됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "거절된 청구항들(2,3,4,5,9,10,11,12,16,17,18)에 대해 선행기술 문헌(US-2016164299-A1, US-2012228933-A1, US-2013297084-A1)이 측정, 흐름 계산, 우선순위 규칙 등을 명시하거나 암시적으로 개시하고 있으며, 결합 동기가 명확함. 특히 US-2016164299-A1은 DER 시스템에서의 측정 및 자체 소비 극대화를 위한 제어 전략을 직접적으로 공개하고 있고, 다른 문헌들이 역송전 및 환경 기반 방전 전략을 제공함으로써 전체적인 결합이 타당함. PHOSITA가 이러한 기술을 결합하는 데 동기를 가질 수 있으며, 그 기술적 효과도 예측 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "거절된 청구항(2,3,8,9,10,15,16,17)에 대해 선행기술 조합(Kim, Bertolotti, Kawasaki)이 각 구성요소를 명확히 개시하고 있으며, 동일한 기술적 과제(에너지 흐름 모니터링 및 관리)를 해결함. 결합 동기(motivation to combine)가 명확하고, 통상의 기술자 수준에서 이러한 통합이 자명하다고 판단됨. Graham 요소 분석도 이를 뒷받침함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술인 US-2016164299-A1과 US-2012228933-A1은 분산 에너지 자원(DER) 시스템에서 에너지 흐름 측정, 저장 장치 관리, 그리드 상호작용, 우선순위 기반 운영 모드(자가소비 최적화) 등을 명시적으로 개시하고 있으며, 각 청구항의 구성요소인 측정, 계산, 우선순위 규칙 적용, 시각화 기능이 이들 문헌의 조합으로 명백하게 도달 가능한 수준이다. 특히 두 참고문헌은 동일 기술분야에 속하며 공통의 목적(에너지 효율성 향상 및 사용자 제어 강화)을 추구하므로, 통상의 기술자가 이를 결합할 동기가 명확하다. 진보성 판단의 그레이엄 요소들(범위 및 내용, 차이점, 기술수준, 부차적 고려사항) 모두 obviousness를 지지함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "거의 모든 거절된 청구항에 대해 명확한 선행기술 조합과 결합 동기가 제시되었으며, 특히 US-2016164299-A1이 핵심 구성요소를 광범위하게 공개하고 있음. 진보성 판단의 confidence 값이 0.85 이상으로 높고, 그라함 요소 전반에 걸쳐 결합의 예측 가능성과 통상적인 기술자의 수준 내에서의 실현 가능성이 타당하게 설명됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2012228933-A1, US-2016164299-A1, and US-2013297084-A1 provides clear and comprehensive disclosure of all claimed elements: measurement of energy flows from DERs, grid, and storage; computation of energy distribution based on priority rules (e.g., self-consumption maximization, carbon-aware control); and system-level management of source-to-sink energy tracking. The motivation to combine is strong, rooted in the shared goal of optimizing distributed energy resource (DER) systems through enhanced control and user transparency. Visualization of computed energy flows is a logical and predictable extension of the prior art's monitoring and control functions, particularly given industry trends toward user-facing energy dashboards. The confidence in obviousness is high (0.85), and the references collectively teach or suggest each limitation of the independent claim. Given the technical overlap and functional continuity, the combination is not speculative but aligned with PHOSITA knowledge in energy management systems."
+        }
+      ]
+    }
+  ]
+}

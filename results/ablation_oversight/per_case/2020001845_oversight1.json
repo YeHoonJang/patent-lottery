@@ -1,0 +1,331 @@
+{
+  "case_id": "ABL-2020001845",
+  "proceeding_number": "2020001845",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.21428571428571427,
+  "reject_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1은 유사한 목적(고비율 갭필)을 위해 동일한 핵심 기술(플로어블 실리콘막 형성 및 경화)을 개시하고 있으며, PECVD, 전구체 선택, 플라즈마 가스 등 변경 사항은 당업자에게 명백한 설계 선택 또는 공지된 변형으로 간주된다. 결합 동기(motivation to combine)가 명확하며, Graham 요소 중 기술적 수준과 차이점이 낮은 창의적 진보를 요구하지 않는다. combination_threshold=0.34에 비해 동기 수준이 높아 자명성 판단이 강하다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'about'이라는 용어가 전력, 온도, 수소 함량 등 핵심 공정 변수에 반복적으로 사용되었으나, 명세서에 허용 오차(tolerance)가 명시되어 있지 않아 범위의 명확성이 부족하다. 그러나 'about'은 반도체 공정에서 일반적으로 사용되는 표현이며, 통상의 기술자가 어느 정도 해석 가능하다고 볼 수도 있다. 다만 strictness=0.79인 본 심사관은 공익 보호 관점에서 모호성에 엄격하게 대응하므로, 이는 여전히 유효한 거절 근거로 간주된다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2014213070-A1이 핵심적인 흐름성 실리콘 박막 형성 및 갭필 기술을 개시하고 있으며, 추가된 특징들(PECVD, 전구체, 가스, 온도, 전력, 경화 방법, 종횡비, 도핑 등)은 동일한 기술분야에서 공지된 기술 또는 최적화 가능한 공정 변수로 명백함. US-2015303056-A1 및 US-2018358220-A1이 보완적으로 관련 기술을 개시하여 결합 동기 존재. 진보성 결여 판단에 강한 증거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 5, 6, 8, 13, and 15 are rejected under 103 based on well-established prior art teachings. US-2014213070-A1 explicitly discloses low-temperature deposition (<100°C), use of common plasma gases (H₂, Ar, He, N₂), and low-power plasma conditions (<300 W) to preserve precursor integrity and enable flowability. These are routine process parameters in the art. Similarly, US-2015303056-A1 discloses the use of NH₃, O₂, H₂O as co-reactants for doping SiC-based films, making claim 13 obvious. US-201838220-A1 supports the use of W, Ta, Ni precursors in plasma processing, rendering claim 15 obvious. The motivation to combine is clear and grounded in common knowledge."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "PECVD와 remote plasma의 차이는 기술적으로 의미 있으며, 선행기술이 remote plasma를 사용하여 손상을 피하려 한다는 점에서 direct plasma 사용은 teaching away에 해당할 수 있음. 그러나 PECVD가 공통적으로 알려진 기술이라는 점에서 결합 동기는 존재하지만, 명확한 동기나 예상 결과는 없음. 심사관의 관대한 성향을 고려하여 이 근거는 강제 거절로 보긴 어렵다고 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claim 20의 UV cure는 반도체 공정에서 일반적으로 알려졌지만, PECVD로 형성된 유동성 비정질 실리콘 박막에 적용한 사례는 없으며, 저온에서의 UV 경화 조건은 특별한 기술적 기여가 있음. 공지기술로의 단순 치환으로 보기 어려우며, motivation이 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 12–15에 대해 선행기술이 유사한 재료를 개시하지만, gapfill 응용에서의 특정 조합과 맥락이 다름. 특히 금속 실리사이드를 유동성 박막으로 사용하는 것은 비직관적이며, 동기가 명확하지 않음. 그러나 재료 자체의 공지성으로 인해 obviousness 주장은 부분적으로 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1이 흐름성 실리콘 박막 형성 및 갭 충진을 명시적으로 개시하고 있으며, PECVD 및 관련 공정 조건들은 반도체 공정에서 통상적 기술로 간주됨. 다수의 청구항은 선행기술의 명시적 또는 암시적 개시에 해당하며, 결합 동기가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "직접 플라즈마 및 저전력 조건(300W 미만)은 선행기술이 원격 플라즈마를 사용함에 따라 반대 방향의 기술적 배치를 제시하나, 직접 PECVD와 저전력 운영은 통상의 기술자에게 공지된 최적화 수단으로 간주될 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "UV 경화는 US-2014213070-A1에 개시되지 않았으나, 반도체 유전막 공정에서 UV 경화는 공지된 기술이며, 저열처리 공정을 위한 대안으로서 자명한 적용으로 간주될 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 20의 조합은 선행기술에 직접적으로 개시되지 않았으나, 각 구성요소(저온, 저전력, UV 경화)는 개별적으로 공지되어 있으며, 통합은 일상적인 공정 최적화 범위 내로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술이 개시한 기술적 범위 내에서의 명백한 변형 또는 최적화로 판단되며, 특히 US-2014213070-A1이 핵심 공정을 포괄적으로 개시함. 범위 중첩, 공정 조건 조정, 공지된 전구체 및 가스 사용 등은 통상의 기술자에게 자명함. 결합 동기 또한 반도체 공정 최적화라는 명확한 목적에서 도출 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "출원된 청구항 1, 3, 5, 6, 9-15에 대해 US-2014213070-A1 등이 개시하고 있으나, 일부는 직접적인 동일성보다는 결합 또는 확장에 기반함. 특히 '070은 유전체 필름에 초점, 반면 출원은 비정질 실리콘을 위한 공정으로 응용 및 재료가 다름. PECVD 사용, 저온/저전력 조건 등은 선행기술이 명시적으로 개시하지 않아 자명성 판단에 해석의 여지 존재. 그러나 공정 변수 최적화는 통상적 기술자에게 예측 가능하다고 볼 수 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'flowable film', 'substantially no seam', 'polysilicon precursor', 'direct plasma', 'separate plasma' 등의 용어가 명세서에서 정량적 또는 작동적 정의 없이 사용됨. 모호성은 있으나, 반도체 분야 통상 기술자는 맥락상 해석 가능할 수 있음. 그러나 'metal silicide in flowable state'와 같이 비일상적 개념은 명확한 메커니즘 기술 부족으로 서지 설명 부족 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 7의 'direct plasma'는 US-2014213070-A1에서 명시적으로 개시되지 않았으나, 반도체 공정에서 direct plasma는 remote plasma의 통상적인 대안으로 잘 알려져 있음. 선행기술이 remote plasma를 채택하고 있더라도, direct plasma로의 치환은 공정 조건 최적화를 위한 통상적인 기술자의 판단 범위 내에 있으며, 이는 결합 동기(motivation to combine)가 있음을 의미함. 특히 고비율 종횡비 특징에서 step coverage 향상을 위한 ion-assisted deposition은 공지된 목적임. 따라서 obviousness 판단의 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 6, 8, 10, 17에 대한 obviousness 판단은 선행기술의 범위 내 정량적 최적화로 충분히 뒷받침됨. 특히 온도 및 종횡비는 US-2014213070-A1이 직접 개시하거나 자연스럽게 암시하며, 저전력은 공지된 최적화 기술로 간주될 수 있음. 결합 동기 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "대부분의 청구항에 대해 선행기술의 조합과 통상적 최적화를 근거로 obviousness 거절을 시도하고 있으나, 특히 claim 7, 8, 9, 10, 11, 16, 20의 경우 선행기술과의 기술적 방향성 충돌(예: remote vs. direct plasma), 정량적 조건의 특이성(저온, 저전력, 수소 함량), 새로운 경화 방식(UV, 전자빔) 등이 존재하여, 단순한 설계 선택 또는 최적화로 보기 어려운 요소들이 포함됨. 이러한 점에서 거절 근거는 전반적으로 moderate 수준으로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 12–20에 대해 제시된 진보성 거절은 공지된 재료 및 공정 조건의 조합에 기반하며, 선행기술 간 결합 동기가 명확함. US-2014356549-A1, US-2015303056-A1, US-2018358220-A1은 각각 SiN, SiC, 금속 실리사이드 및 공반응가스 사용을 개시하고 있어, 통상의 기술자가 동일한 목적(무결점 갭필)을 위해 이러한 기술을 결합하는 것은 자명함. 결합 동기와 예측 가능성 측면에서 강한 근거."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 1–11에 대한 신규성 거절은 단일 문헌 US-2014213070-A1에 의해 완전히 개시되었다고 판단되며, 모든 구성요소(플로어블 필름 형성, PECVD, 전구체, 플라즈마 조건, 경화 방법 등)가 명시적으로 기재됨. abstract와 구체적 실시예 모두에서 확인 가능하여, 신규성 결여 판단은 강한 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6, 7, 8에 대한 103 거절은 합리적인 결합 동기를 제시하고 있으나, 아모퍼스 실리콘 흐름성 필름이라는 특수한 재료 맥락에서 direct plasma, 저전력, 저온 공정의 비자명성이 충분히 고려되지 않았음. 특히 direct plasma와 remote plasma는 반응 메커니즘에서 근본적 차이가 있으며, 고차 실란의 열적 안정성과 저온 처리 요구사항은 단순한 공정 최적화로 보기 어려움. 그러나 심사관은 이러한 요소들을 공지기술의 일반적 변형 범주 내로 해석하고 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2014213070-A1이 핵심적인 기술적 특징을 명확히 개시하고 있으며, 추가적인 구성요소들(예: 고차 실란, 직접 플라즈마, 금속 실리사이드 포함)은 US-2015303056-A1 및 US-2018358220-A1에 의해 보완됨. 결합 동기(motivation to combine)가 기술적 맥락에서 명확하며, 선행기술 조합이 일반 숙련자의 기술 수준 내에서 예측 가능함. 신규성 판단에서도 대부분의 청구항이 단일 선행기술에 의해 예견됨. 진보성 판단의 신뢰도(confidence)도 0.82~0.98로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014213070-A1은 청구항 1, 2, 3, 4, 5, 17, 18, 19의 모든 구성요소를 단일 선행기술로 명백하게 개시하고 있으며, 특히 유동성 실리콘 기반 유전막 형성, 고차 실란 전구체 사용, 플라즈마 가스 조합, 고종횡비 갭필 등이 구체적으로 기재되어 있음. '070은 원격 플라즈마를 사용하나, PECVD의 광의 해석(BRI) 하에서 플라즈마를 이용한 화학 기상 증착 공정으로 포함될 수 있음. 따라서 102 거절은 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 8, 10, 16에 대한 obviousness 거절은 일반 지식과 최적화 실험에 기반하나, 일부 요소는 직접적인 동기 부족. 특히 전력 <300W 및 온도 <100°C는 반도체 공정에서 흔하나, 유동성 실리콘막에 특수하게 적용된 맥락은 명확하지 않음. UV 경화 온도 범위(10–550°C)는 US-2018358220-A1의 200–500°C 범위와 중첩되나, UV와 열처리의 결합은 명확한 동기 없음. 따라서 전반적으로는 자명성 판단이 가능하나, 해석의 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 12–15는 선행기술 간 결합에 기반하나, US-2015303056-A1의 산소/질소 도핑 SiC, US-2018347035-A1의 탄화수소 공반응가스, US-2018358220-A1의 금속 실리사이드 사용이 각각 기재되어 있어, 막 조성 조절 목적 하에서의 결합 동기는 존재함. 그러나 유동성 필름에의 적용은 직접적이지 않으나, 해당 분야의 일반 기술자가 합리적으로 예측 가능하다고 판단됨."
+        }
+      ]
+    }
+  ]
+}

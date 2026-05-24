@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 analysis across all claims, with no improper mixing of §101 or other statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection references specific prior art (US-2012117621-A1, US-2012303808-A1) with element-by-element comparisons, such as citing 'zone signing key,' 'key signing key,' enterprise policy filtering, and DNSSEC signing disclosures against specific claim limitations."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage builds consistently on the §102 novelty findings — claims found novel at §102 (e.g., claims 4, 8, 10) are still rejected at §103 with additional rationale (e.g., routine design choice, standard DNS metadata, security consistency), rather than simply asserting strong anticipation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.603 (moderate), the examiner rejects all claims but acknowledges 'moderate' strength for borderline claims (4, 8, 10) with noted interpretive uncertainty, which is appropriately calibrated — not overly lenient nor excessively strict."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims follows directly from the accumulated §103 analyses, with the summary explicitly tying the decision to the strong/moderate obviousness findings across all claim groups and noting the strictness threshold applied."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017004556",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15566,
+      "output_tokens": 382,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

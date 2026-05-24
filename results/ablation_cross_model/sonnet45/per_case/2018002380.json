@@ -1,0 +1,379 @@
+{
+  "case_id": "2018002380",
+  "proceeding_number": "2018002380",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.2857142857142857,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013339693-A1은 2레벨 BTB 시스템과 조건부 억제(suppression) 메커니즘을 명확히 개시하고 있으나, 청구항의 핵심 차이점은 억제 트리거가 '순차적 후속 블록의 이전 브랜치 행동 이력 데이터'인 반면 선행기술은 'BTB 미스와 캐시 미스의 상관관계'를 사용한다는 점입니다. 선행기술이 효율성 향상을 위한 억제를 가르치고 있고, 분야에서 다양한 이력 기반 메트릭이 공지되어 있다는 점에서 결합 동기는 존재합니다. 그러나 순차 블록 이력이라는 특정 접근법이 미스 상관관계와 동등하게 자명한지는 해석의 여지가 있습니다. 선행기술의 tracker 메커니즘은 존재하지만, 청구항이 요구하는 '후속 블록들의 브랜치 행동 이력'을 명시적으로 기록하거나 사용하는 것으로 보기는 어렵습니다. Coverage score 0.62는 중간 수준이며, 일부 요소는 implicit coverage에 머물러 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 15, 16에 대한 102 거절은 US-2013339693-A1의 'search trackers'가 'history data representing previous branch behaviour of following blocks'를 개시한다고 주장하나, 선행기술은 'miss correlation tracking'을 teach하며 'sequential following blocks의 branch behavior tracking'을 명시적으로 개시하지 않음. Element 1b, 1c의 similarity scores (0.45, 0.5)는 implicit mapping에 불과함. Coverage score 0.35는 significant elements가 fully disclosed되지 않았음을 시사. 그러나 functional equivalence 관점에서 'performing no searching based on tracking data'는 suppression mechanism과 유사하므로 moderate strength로 평가."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항(1-16)에 대한 103 거절은 강력한 근거를 가짐. US-2013339693-A1은 two-level BTB with suppression mechanism을 명확히 개시하며, 'tracking data를 이용한 second-level BTB search 억제'는 claimed invention의 'history data를 이용한 branch prediction suppression'과 동일한 목적(energy saving)과 유사한 구조를 가짐. Graham 분석이 체계적으로 수행되었고, motivation to combine이 prior art 자체에서 도출됨. Combination threshold (0.34 < 0.4)를 고려할 때, 'miss tracking'에서 'sequential block branch tracking'으로의 변형은 predictable variation에 해당. Claims 2-14의 추가 limitations은 routine optimization 또는 design choices로 평가 가능. PHOSITA level이 합리적으로 설정되었고, secondary considerations 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 분석 결과 모든 청구항(1-16)이 is_novel=true로 평가되었습니다. 선행기술 US-2013339693-A1은 BTB miss와 instruction cache miss의 상관관계를 추적하여 bulk transfer를 필터링하는 시스템을 개시하나, 본 출원의 핵심 구성요소인 'following block의 이전 branch 행동 이력을 사용한 prediction suppression'을 명시적으로 개시하지 않습니다. Coverage scores가 모두 0.2-0.55 범위로 낮고, 핵심 구성요소들이 is_covered=false로 평가되어 anticipation이 성립하지 않습니다. 102 거절 근거는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석 결과 모든 청구항(1-16)이 is_obvious=false로 평가되었습니다. Graham 4요소 분석에서 선행기술과의 핵심 차이점은 (1) miss 상관관계 추적 vs. following block의 branch behaviour history 추적, (2) bulk transfer 필터링 vs. prediction suppression입니다. combination_threshold=0.68로 명시적 교시나 시사가 필요한 수준인데, 단일 선행기술만 제공되었고 해당 선행기술은 following block의 branch behaviour history 사용이라는 핵심 개념을 교시하지 않습니다. 통상의 기술자가 miss 상관관계 추적에서 sequential following blocks의 branch-free 패턴 추적으로 전환하는 것은 자명하지 않으며, 본 발명은 에너지 절감이라는 명확한 기술적 효과를 제공합니다. 103 거절 근거는 weak입니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action 분석에서 112 거절이 발견되지 않았습니다. 청구항의 용어들('prediction suppression circuitry', 'history data', 'following block')은 branch prediction 기술 분야에서 이해 가능하며, 명세서가 제공되지 않았으나 청구항 자체가 sufficiently definite합니다. 112 거절 근거는 없습니다(weak)."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "Office Action 분석에서 101 거절이 발견되지 않았습니다. 본 발명은 branch prediction hardware circuitry의 구체적 개선으로, abstract idea가 아닌 technological improvement에 해당합니다. Alice/Mayo 테스트 하에서도 특정 기술 문제(에너지 절감)에 대한 구체적 해결책을 제시하므로 patent-eligible합니다. 101 거절 근거는 없습니다(weak)."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013339693-A1은 분기 예측 회로와 BTB 구조를 개시하지만, '순차적으로 따라오는 블록들의 이전 분기 행동을 나타내는 히스토리 데이터'를 사용하여 예측을 억제하는 핵심 구성요소를 개시하지 않음. 선행기술은 miss correlation 기반이며, 청구된 발명의 sequential block history 메커니즘과는 근본적으로 다름. 모든 청구항에 대해 anticipating reference가 없으므로 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "US-2013339693-A1과 청구된 발명 간의 차이점이 명확함: (1) 데이터 타입이 다름 (miss correlation vs. sequential block branch history), (2) 메커니즘이 다름 (miss-based filtering vs. history-based suppression), (3) 목적이 다름 (bulk transfer efficiency vs. energy saving). combination_threshold=0.72로 명시적 교시가 필요한데, 선행기술은 sequential block history를 추적하거나 이를 사용한 억제를 교시/시사하지 않음. Graham 분석 결과 모든 청구항이 non-obvious로 판단됨. 결합 동기가 부족하여 103 거절 근거 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 모든 청구된 구성요소에 대해 적절한 written description 지원을 제공함. 분기 예측 회로, 억제 회로, 히스토리 데이터, BTB 구조 등이 명세서에 개시됨. 일부 구현 세부사항(예: count 구조, history generating circuitry)이 명시적이지 않으나, PHOSITA가 이해할 수 있는 수준임. 112(a) 거절 근거 없음."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "strength": "weak",
+          "reasoning": "청구항 용어들이 명세서에 의해 뒷받침되며 PHOSITA가 이해 가능함. Claim 16의 minor typographical inconsistency는 비실질적 clerical matter로 거절 근거가 아님. 112(b) 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구된 발명은 특정 하드웨어 구성(branch prediction circuits, BTB, history data storage)을 포함한 장치 청구항 및 방법 청구항임. Abstract idea가 아니며, 구체적인 기술적 개선(에너지 절감)을 제공함. Alice/Mayo 분석 필요 없음. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013339693-A1은 계층적 BTB 구조, branch history table, 그리고 에너지 절감을 위한 second-level BTB 검색 억제 메커니즘을 명확히 개시합니다. 그러나 'following sequential blocks의 과거 분기 행동을 나타내는 history data를 사용하여 예측을 억제'하는 핵심 개념은 선행기술에 명시적으로 개시되어 있지 않습니다. 선행기술은 BTB miss와 instruction cache miss의 상관관계 기반 억제를 교시하나, following blocks의 분기 존재 여부에 대한 history tracking은 다른 접근입니다. 결합의 동기는 존재하나(에너지 절감), 선행기술의 branch history table을 following blocks에 적용하는 것이 '자명한 확장'인지는 해석의 여지가 있습니다. Combination_threshold=0.45는 명시적 교시 없이도 결합을 인정하는 수준이지만, following blocks에 대한 proactive prediction suppression은 선행기술의 reactive miss-based suppression과는 다른 예측적 접근입니다. 신규성 분석에서 청구항 1의 핵심 요소들(1b, 1c)이 선행기술에 adequately covered되지 않았다는 점(similarity 0.45, 0.35)을 고려하면, 103 판단이 moderate 강도를 가집니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013339693-A1은 two-level BTB 구조, correlation-based suppression, pattern history tracking을 명확히 개시함. 그러나 '순차적으로 뒤따르는 following blocks의 branch behavior history를 사용하여 해당 following blocks에 대한 prediction을 억제'하는 구체적 구성은 명시적으로 개시되지 않음. 선행기술은 BTB miss와 instruction cache miss의 correlation을 사용하여 second-level BTB 검색을 억제하는 것이지, following sequential blocks의 branch-free history를 예측하여 억제하는 것은 아님. 결합 동기(에너지 절감)는 명확하나, following blocks에 대한 history-based prediction suppression으로의 확장이 'predictable variation'인지는 해석의 여지가 있음. 선행기술은 correlation tracking(두 이벤트의 상관관계)을 다루지만, 본 청구항은 sequential blocks의 future behavior prediction을 다룸. 이는 기술적 관점의 차이가 있으나, 에너지 절감이라는 동일한 목적 하에서 통상의 기술자가 시도할 수 있는 변형으로 볼 여지도 있음. Moderate 수준의 근거로 평가."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 분석에서 모든 청구항이 is_novel=true (claim 1은 false이나 confidence 0.65로 낮음). US-2013339693-A1이 element 1a는 잘 커버하나 핵심 요소인 1b, 1c (following blocks의 history data를 이용한 suppression)는 similarity 0.35-0.4로 매우 낮음. 단일 선행기술에 의한 완전한 anticipation 증거가 부족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "진보성 분석에서 대부분 청구항이 is_obvious=false이나 claim 7은 is_obvious=true. 그러나 핵심 쟁점은: US-2013339693-A1이 miss-correlation 기반 suppression을 개시하나, 청구된 'following sequential blocks의 branch presence history 기반 suppression'과는 근본적으로 다른 접근법. 선행기술은 reactive (miss에 반응), 청구발명은 predictive (sequential pattern 기반). Combination motivation이 명확하지 않음. Confidence 0.7-0.8로 moderate 수준. 다만 combination_threshold=0.46으로 낮은 편이어서 일부 청구항에서 obviousness 가능성 존재."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action에서 명세서가 모든 청구항 요소를 adequately support한다고 명시. History data 42, 44, BTB entries 40, suppression mechanism 등 모두 명세서에 개시됨. Written description 또는 enablement 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "Office Action에서 hardware apparatus로서 practical application이며 abstract idea가 아니라고 판단. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2016110202-A1이 청구항 1-16의 모든 구성요소를 명시적으로 개시하고 있습니다. 선행기술 문헌에서 branch prediction circuitry 10, micro branch target buffer 28, full branch target buffer 30, global history buffer 32, history data 42, 44 등 구체적인 구성요소가 청구항의 각 요소와 1:1 대응되며, similarity_score가 모두 1.0입니다. 단일 선행기술이 모든 청구항 요소를 anticipate하는 전형적인 102 거절 사례입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "102 anticipation이 성립하므로 103은 대안적 거절 근거입니다. 그러나 독립적으로 평가해도, US-2016110202-A1이 실질적으로 모든 요소를 개시하고 있으며, US-2013339693-A1이 multi-level BTB 구조가 공지기술임을 확인해줍니다. Graham factors 분석이 완전하고, 결합 동기(improved prediction efficiency, reduced power consumption)가 명확합니다. 선행기술이 제공되었고 그 내용이 청구항과 직접 대응되므로 strong evidence입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 1, 15, 16에 대한 102 거절은 증거가 약함. US-2013339693-A1이 'search trackers recording correlated miss indicators'를 개시하지만, 이는 청구항의 'history data representing previous branch behaviour of a following block of program instructions sequentially following said given block'과 다름. 선행기술은 BTB miss와 instruction cache miss의 상관관계를 추적하는 것이고, 청구항은 분기 이후 순차적으로 따라오는 블록들이 분기를 포함하는지 여부를 추적하는 것임. 신규성 분석에서도 coverage score가 0.35로 낮고, confidence가 0.65로 중간 수준임. 선행기술의 기능적 결과가 유사하다는 주장은 있으나, 구성요소의 명시적 개시는 부족함. Strictness 0.46 기준으로 이 정도의 약한 증거로는 102 거절을 유지하기 어려움."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "All claims에 대한 103 거절은 moderate 강도. US-2013339693-A1이 two-level BTB architecture와 selective suppression을 명확히 개시하고, 결합 동기(power optimization)가 논리적으로 설명됨. 그러나 핵심 차이점인 'tracking following-block branch behavior'로의 modification이 obvious한지는 해석의 여지가 있음. 선행기술은 miss correlation을 추적하고, 청구항은 following blocks의 branch presence를 추적함. 이 둘은 서로 다른 기술적 접근방식임. Combination_threshold=0.22로 낮게 설정되어 있어 결합이 용이하다고 판단할 수 있으나, modification의 동기가 'it would be obvious to track different types of historical branch behavior'라는 일반적 진술에 그침. 구체적인 teaching이나 suggestion은 부족함. Strictness 0.46 기준으로 moderate 증거는 신중한 판단 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013339693-A1은 two-level BTB 구조, search trackers를 통한 정보 기록, 그리고 conditional suppression('performing no searching')을 개시함. 청구항 1의 핵심 차이점은 'history data representing previous branch behaviour of following blocks'를 명시적으로 사용하여 prediction을 억제하는 점임. 선행기술의 search tracker가 BTB miss/I-cache miss correlation을 추적하는 것과 청구항의 following blocks의 branch behaviour history 추적은 유사하나 동일하지 않음. 결합 동기(에너지 절약)는 명확하나, search tracker의 miss correlation tracking을 following blocks의 branch behaviour history로 확장하는 것이 PHOSITA에게 명백히 자명한지는 해석의 여지가 있음. 선행기술은 BTB와 I-cache 간의 correlation을 추적하지만, 청구항은 sequential following blocks의 branch 존재 여부를 추적함. 이 차이가 단순 설계 변형인지 창의적 단계인지는 moderate한 강도의 증거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013339693-A1 explicitly discloses multi-level BTB architecture with suppression mechanisms based on miss correlation tracking. The reference teaches energy-saving suppression and uses search trackers to record historical patterns. However, the claimed invention specifically requires 'history data representing previous branch behaviour of following blocks' - the reference tracks miss correlation (BTB miss vs. I-cache miss correlation) rather than explicitly tracking whether following sequential blocks contain branches. The rejection argues this is an obvious extension, which is reasonable given: (1) the reference explicitly motivates suppression for energy saving, (2) the reference uses history tracking (search trackers), (3) branch history is well-known in the art (pattern history tables). However, the specific innovation of tracking following blocks' branch behavior (not just miss patterns) and using this to suppress prediction represents a non-trivial conceptual shift from correlation-based suppression to sequential-block-behavior-based suppression. Under strictness=0.52, this moderate-strength combination requires careful evaluation. The combination rationale is logical but relies on hindsight reconstruction - the reference does not suggest looking at following blocks' branch presence/absence. KSR principles support obviousness when prior art elements are combined according to known methods to yield predictable results, but the specific teaching of using following blocks' branch behavior history is not explicitly present. Given threshold 0.44 for combination and policy neutrality, this is a borderline case."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013339693-A1은 2-레벨 BTB 구조와 history table을 개시하지만, 청구항 1의 핵심 구성요소인 'history data representing previous branch behaviour of a following block'을 사용하여 후속 블록에 대한 예측을 억제하는 구성은 개시하지 않습니다. coverage_score 0.4는 일부 요소만 암시적으로 매핑됨을 나타내며, 선행기술은 BTB miss와 instruction cache miss의 상관관계를 추적하는 다른 접근법을 취합니다. 102 거절 근거는 매우 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 bulk transfer filtering을 위한 miss correlation tracking을 개시하나, 청구항의 '후속 블록의 브랜치 행동 이력 기반 예측 억제'와는 기술적 접근이 다릅니다. combination_threshold=0.52를 고려할 때, 명시적 결합 동기가 필요한데, 선행기술은 다른 문제(bulk transfer 효율)를 다른 방식(miss tracking)으로 해결합니다. '후속 블록 이력 기반 억제'는 선행기술에서 교시되지 않으며, PHOSITA가 이러한 결합에 이를 예측 가능한 경로가 없습니다. 103 근거는 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013339693-A1이 청구항 1의 핵심 요소인 'history data representing previous branch behaviour of following blocks'를 명시적으로 개시하지 않음. 선행기술은 BTB miss와 I-cache miss의 상관관계를 사용하며, 이는 following blocks의 branch behavior history와는 다른 개념임. Anticipation 분석에서 element 1b, 1c의 similarity가 0.45-0.5로 낮고, coverage_score가 0.45로 불완전함. 102 거절은 모든 요소의 명시적 개시를 요구하는데, 핵심 차이점이 존재하므로 anticipation은 성립하기 어려움."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013339693-A1은 (1) 2단계 BTB 구조, (2) 전력 절감을 위한 조건부 억제 메커니즘('performing no searching'), (3) branch history table/pattern history table을 명시적으로 개시함. 청구항과의 차이점은 억제 조건이 'following blocks의 branch history'인 점인데, 선행기술이 이미 branch history 메커니즘과 에너지 절감 동기를 교시하고 있어, 통상의 기술자가 이를 결합하여 following blocks에 branch가 없을 때 예측을 억제하는 것은 자명한 최적화임. Graham 요소: (1) 선행기술이 핵심 구성요소 모두 개시, (2) 차이점은 억제 조건의 구체화, (3) PHOSITA는 분기 예측 전문가(tech_specialization=0.89), (4) 2차적 고려사항 없음. Combination_threshold=0.48은 명시적 교시 없이도 결합 인정 가능함을 의미하며, 선행기술이 이미 억제 메커니즘과 branch history를 모두 교시하므로 결합 동기는 명확함. 모든 종속항(2-16)도 설계 선택 또는 명시적 개시로 자명함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2013339693-A1의 search tracker 메커니즘과 청구항 1의 history data 기반 suppression은 유사하지만 동일하지 않습니다. 선행기술은 BTB miss와 I-cache miss의 상관관계를 추적하는 반면, 청구항은 후속 블록의 브랜치 행동 자체를 히스토리로 사용합니다. 'correlation-based suppression'과 'branch behavior history-based suppression'은 개념적으로 다른 접근입니다. 선행기술이 모든 구성요소를 명시적으로 개시했다고 보기에는 해석의 여지가 있으며, 특히 'following block의 브랜치 행동을 나타내는 히스토리'라는 특정 데이터 타입이 명확히 개시되지 않았습니다. strictness=0.60에서 이는 moderate 수준의 근거입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013339693-A1은 에너지 절감을 위한 조건부 prediction suppression의 핵심 개념을 명확히 개시하고 있으며, branch history table과 pattern history table 등 히스토리 기반 제어 메커니즘도 명시하고 있습니다. 선행기술의 상관관계 기반 억제를 후속 블록의 브랜치 행동 패턴 기반 억제로 확장하는 것은 동일한 에너지 절감 목적을 위한 논리적 설계 선택입니다. combination_threshold=0.57로 낮게 설정되어 있어 명시적 교시 없이도 공지상식과 설계 선택으로 결합 동기를 인정할 수 있습니다. 브랜치 예측 분야에서 히스토리 기반 적응적 제어는 널리 알려진 기법이며, 이를 prediction suppression에 적용하는 것은 통상의 기술자에게 자명합니다. 모든 청구항에 대해 논리적이고 일관된 obviousness 근거가 제시되었습니다."
+        }
+      ]
+    }
+  ]
+}

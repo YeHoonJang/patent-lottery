@@ -1,0 +1,365 @@
+{
+  "case_id": "2019005829",
+  "proceeding_number": "2019005829",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항은 US-2014180802-A1의 구체적 기술과 결합 동기(103)를 명확히 제시하며, coverage score 0.7 이상의 높은 일치도를 보여주고 있음. PHOSITA의 결합 동기가 명확히 제시됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly anticipated by US-2014180802-A1 with high coverage scores (0.65-0.92) and explicit matches to core elements like metadata translation, multi-engine querying, real-time response, and POS integration. The prior art directly teaches all claimed features, making novelty unestablishable."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks sufficient detail to enable the invention, with vague terms like 'transaction details', 'geographic location details', and 'translation process' not adequately defined. No concrete examples or implementation specifics are provided to support the claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2014180802-A1) explicitly discloses overlapping functionality (transaction-based offer targeting, metadata generation, multi-engine integration), and the combination is obvious to a PHOSITA seeking improved personalization. High confidence (0.8) supports strong rejection basis."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguity in 'metadata' definition and lack of enablement for real-time communication are noted, but the specification's breadth (moderate BRI) allows for reasonable interpretation. Weakness in enablement is moderate, not definitive."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 1 is clearly obvious by combining US-2014180802-A1 and US-2013179495-A1, with explicit disclosure of all elements and a clear motivation to integrate metadata processing. The combination threshold (0.72) is comfortably exceeded."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is explicitly anticipated by US-2014180802-A1, with direct overlap in real-time receipt distribution and transaction data handling."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'metadata' lacks explicit definition in the specification, but the context of the claims provides sufficient technical context for a purposivist interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art US-2014180802-A1 explicitly discloses transaction receipt-based offer distribution, metadata querying, and real-time POS integration. The combination of these elements is obvious to a PHOSITA for enhancing receipt-based marketing, with minimal implementation differences and no evidence of unexpected results."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 5, 9, 10, 11, 15, 17, 20, 21, 22, 24, 25 lack sufficient detail in key terms like 'real time' or 'multiple metadata entries'. While the specification is not provided, the absence of explicit enablement in the cited prior art creates ambiguity under 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art US-2014180802-A1 provides clear motivation to combine multiple offer engines and transaction data processing, but the combination threshold (0.51) is narrowly met with low confidence (0.6)."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly anticipates claims 1, 3, 14, 15, 16, 17, 18, 19, 20, 21, 24, 25 with high confidence (0.7-0.8), directly overlapping key elements like transaction receipts, POS integration, and metadata processing."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claim 2 lacks technical definitions for 'user equipment' and 'real-time' protocols, but this is an objection rather than a rejection with clear evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2014180802-A1) explicitly discloses real-time offer distribution, multi-engine querying, and metadata-driven targeting, which directly overlap with the claimed invention. The combination of these features is obvious to a PHOSITA, as the prior art provides clear motivation for enhancing offer relevance through distributed systems. The high confidence scores (0.85-0.84) and explicit technical overlap confirm strong anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 청구항의 핵심 요소(메타데이터 변환, 다중 엔진 쿼리, 오퍼 통합, 위치 기반 타겟팅 등)를 명시적으로 포함하고 있으며, 결합 동기와 기술적 유사성이 뚜렷해 거절 근거가 강력함"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art explicitly discloses all elements of the claims, and the combination motivation is clearly derived from the reference's receipt-based distribution and targeted offer logic. However, the overlap is extensive, leaving some room for interpretation on whether the combination is 'obvious' under Graham factors."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The Office Action cites insufficient written description for claim 1, supported by the high confidence (0.8) in the prior art's explicit disclosure of similar functionality. This creates a strong basis for rejection under 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180802-A1은 청구항의 핵심 요소(메타데이터 처리, 다중 엔진 쿼리, 제안 통합)를 명시적으로 개시하며, 결합 동기(다양한 리워드 기반 제안 관련성 향상)가 명확히 제시됨. 기술자에게 결합이 자명함을 시사."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 '실시간 통신' 및 '제안 응답' 구현 방법이 명시되지 않아 범위 모호성 발생. 다만, 기술적 구현이 '직관적'이라면 유연한 해석 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art combination is supported by explicit teachings and clear motivation, but lacks evidence of unexpected results. Confidence is moderate (0.7) with combination_threshold=0.44."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180802-A1은 청구항 1 및 3의 모든 요건을 명확히 포함하고 있으며, 해당 기술의 구체적 구현이 명시되어 있음. 이는 102(a)의 예측 가능성 기준을 충족함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180802-A1은 실시간 오퍼 배포 및 POS 기반 시스템을 명시적으로 개시하고 있으며, 결합 동기(거래 데이터 기반 오퍼 개인화)가 명확히 제시됨. 이는 103_obviousness 기준에 충분히 부합."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술이 청구항의 핵심 기능(예: 메타데이터 처리, 오퍼 통합)을 유사하게 포함하고 있으나, 특정 구현 방식(예: API 기반 시스템)은 추론에 의한 보완이 필요함. 이는 증거의 해석 여지가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항에서 'metadata'와 같은 용어의 구체적 정의가 명세서에 부족한 점이 있으나, 전체 청구항의 기능적 범위는 선행기술과 유사하여 보완 가능함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2014180802-A1) explicitly discloses all claim elements, and the combination of metadata translation, multi-engine querying, and integration is a logical extension within the skill of a PHOSITA. Graham factors confirm the obviousness with clear motivation and secondary considerations."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) across all §103 obviousness analyses, invoking the correct legal framework throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'receiving at least a first set of images'), specific prior art disclosures (e.g., US-2015243325-A1's 'determining a relevance score for video frames based on video metadata'), and element-by-element comparisons."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds all 20 claims non-novel using combinations of two references (e.g., claim 1 cites both US-2015243325-A1 and US-2011217019-A1), which is legally improper for anticipation under §102 (anticipation requires a single reference), yet no transition rationale is provided before proceeding to §103; this creates an internal contradiction where multi-reference 'anticipation' findings are silently converted to obviousness rejections."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has moderate strictness (0.523) and a combination_threshold of 0.48, and the reasoning reflects this by finding combination motivation sufficient but not trivially so, explicitly referencing the threshold and providing shared-purpose rationale for each combination, consistent with a mid-range profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of all claims under §103 flows directly from the stage-level analyses, which consistently found all claims obvious over the cited references, with the final decision restating and summarizing the same prior art findings without reversal."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001492",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15433,
+      "output_tokens": 421,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

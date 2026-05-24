@@ -1,0 +1,646 @@
+{
+  "case_id": "2020004953",
+  "proceeding_number": "2020004953",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1이 'rendering a display of one or more selectable options to modify the selected specialty' 등 구조화된 그래픽 요소를 명시적으로 개시하므로, 청구항 2의 graphical interface with structured graphical elements를 anticipate합니다. 선행기술의 개시 내용이 청구항 요소와 직접 대응되며, coverage_score 0.7, confidence 0.82로 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 appointment를 개시하며, appointment는 당연히 date/time을 포함합니다. location 추가는 in-person meeting의 필수 요소로 자명합니다. 결합 동기가 명확하고(완전한 스케줄링 정보 제공), 통상의 기술자에게 predictable한 결합입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 notification 전송 및 email 사용을 개시합니다. 2014년 당시 email/SMS를 알림 수단으로 사용하는 것은 표준 관행이었으므로, 이를 결합하는 것은 공지기술의 자명한 적용입니다. 결합 동기(신뢰할 수 있는 알림 채널 확보)가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 선택 사항을 수정하는 구조화된 메커니즘('modify the selected specialty')을 개시합니다. 이를 미팅 활동 업데이트에 적용하는 것은 스케줄링 시스템의 기본 요구사항(유연성 제공)을 충족하기 위한 자명한 확장입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 appointment 선택 GUI와 수정 메커니즘을 모두 개시합니다. 날짜/시간/위치를 GUI를 통해 수정하는 것은 이들 요소의 predictable combination이며, 스케줄링 시스템의 표준 기능입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 videoconferencing을 개시하지만, phone call과 in-person meeting을 명시적으로 개시하지는 않습니다. 그러나 이들은 전문가-고객 상담의 공지된 대안 형태이며, 서비스 유연성 제공이라는 명확한 동기가 있습니다. strictness=0.79 수준에서는 이러한 공지 대안의 적용을 obvious로 볼 수 있습니다."
+        },
+        {
+          "basis": "non-obviousness",
+          "claim_numbers": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 8은 복잡한 양방향 자동화 워크플로우를 포함하며, 특히 (1) 서비스 카테고리 기반 미팅 유형 자동 선택, (2) 서비스 전문가에게 견적/미팅 유형 선택을 자동으로 촉구하는 프로세스, (3) 양측에 대한 자동 확인 시스템이 선행기술에서 개시되지 않았습니다. 선행기술은 고객 주도 시스템인 반면, 청구항 8은 전문가 측 능동적 자동화를 포함하는 근본적으로 다른 아키텍처입니다. 종속항들도 청구항 8의 비자명성을 승계합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014180715-A1 discloses graphical interfaces, appointment scheduling, and notification systems. However, the prior art teaches a client-initiated search model where clients search for and select professionals, not a service professional-initiated model. The claimed invention (claim 1 context) involves service professionals receiving customer requests and responding. For dependent claims 2-7, the 102 rejections rely on finding these limitations in a different transactional context. While individual elements are present in US '715, the overall system architecture differs. The 102 rejections show moderate strength because they rely on extracting elements from a different workflow context."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "Even if 102 rejections are questionable due to contextual differences, the 103 rejections are well-supported. The individual limitations (graphical interfaces, date/time/location parameters, email/SMS notifications, appointment modification) were all well-known in the art. The motivation to combine these elements is clear: improving user experience, enabling appointment coordination, and providing notification flexibility. These represent predictable uses of prior art elements. The Graham factors support obviousness: scope and content of prior art is well-established, differences are minor implementation details, and PHOSITA would routinely implement these features. Given my strictness level of 0.88 and the clear presence of all claimed elements in the prior art (even if in different context), the 103 rejections should be maintained."
+        },
+        {
+          "basis": "allowability_claim_8",
+          "claim_numbers": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 8 presents a fundamentally different system architecture - a quote-based model where service professionals submit structured proposals in response to customer requests, with integrated meeting scheduling. US-2014180715-A1 teaches the opposite: clients search for and select professionals. The prior art does not teach or suggest: (1) professionals selecting and submitting quotes, (2) automatic selection of meeting types based on service category, (3) bidirectional quote negotiation with structured meeting information, (4) confirmation messages to professionals about quote transmission. The combination of these elements creates a non-obvious quote-based marketplace model. The allowability determination is well-reasoned and should be maintained."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 모든 청구항(2-14)이 is_novel=true로 평가되었습니다. 선행기술 US-2014180715-A1은 청구항의 핵심 구성요소들을 명시적으로 개시하지 않으며, 많은 요소들이 is_covered=false로 평가되었습니다. 102 거절 근거는 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항(2-14)이 is_obvious=false로 평가되었습니다. 선행기술은 단일 참조문헌(US-2014180715-A1)이며, 청구항과의 주요 차이점들(서비스 제공자 측 인터페이스, 물리적 위치 정보, 고객 알림, 양방향 협상 메커니즘, 대면 미팅, 자동 매칭 및 견적 시스템 등)에 대한 명확한 결합 동기가 부족합니다. 선행기술은 가상 상담 중심의 고객 주도 시스템이며, 청구항의 복잡한 양방향 협상 및 자동화 시스템으로 변환하는 교시나 동기가 제시되지 않았습니다. 모든 청구항의 confidence는 0.6-0.85 범위로, 진보성이 인정될 가능성이 높습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "112 관련 이슈는 분석에서 발견되지 않았습니다. 청구항의 용어들('structured information', 'graphical interface', 'meeting activity' 등)은 기술 분야에서 통상적으로 이해 가능하며, 명세서 뒷받침 부족에 대한 증거가 제시되지 않았습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "101 관련 이슈는 분석에서 발견되지 않았습니다. 청구항은 서비스 스케줄링을 위한 구체적인 기술적 구현(그래픽 인터페이스, 자동 매칭, 메시지 전송 등)을 포함하고 있어 abstract idea에 해당하지 않습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 모든 청구항(2-14)이 novel로 판단되었으며, 선행기술 US-2014180715-A1이 청구항의 핵심 구성요소들을 명시적으로 개시하지 않음. 특히 서비스 전문가 측면의 구조화된 입력 인터페이스, quote 기반 시스템, 양방향 협상 프로세스 등이 선행기술에 부재함. Coverage scores가 대부분 0.7 이하로 상당한 차이 존재. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항(2-14)이 not obvious로 판단되었음. 핵심 차이점: (1) 선행기술은 customer-driven search system인 반면 청구항은 professional-driven quote system, (2) 정보 흐름 방향의 근본적 차이(고객→시스템 vs 전문가→시스템), (3) 비즈니스 모델의 근본적 차이(검색/선택 vs quote/협상). Combination threshold 0.72를 충족할 명시적 결합 동기가 선행기술에 제시되지 않음. 출원 명세서가 명시한 기술적 문제(비구조화된 정보 교환, 기존 goods 중심 마켓플레이스의 services 거래 부적합성)를 선행기술이 해결하지 못함. Graham factors 분석에서 통상의 기술자가 선행기술로부터 청구항의 발명에 도달할 명확한 경로 부재. 103 거절 근거 없음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "모든 청구항(2-14)이 112 요건을 만족함. 명세서가 structured information(date, time, location), graphical interfaces, notification mechanisms(email, text), bidirectional communication을 충분히 기재함. 'structured graphical elements', 'meeting activity types', 'updated information' 등의 용어가 명세서에 명시적으로 기재되거나 해당 기술분야 통상의 기술자가 이해 가능함. Enablement 요건도 충족하여 통상의 기술자가 과도한 실험 없이 발명을 실시 가능. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "모든 청구항(2-14)이 101 요건을 만족함. 청구항이 abstract idea per se가 아닌 specific technological improvements in online service marketplace systems를 대상으로 함. Specific structural and functional elements(automatic parsing, matching operations, structured graphical interfaces, bidirectional notifications)가 practical application으로 통합됨. 명세서에 명시된 기술적 문제(unstructured information exchange)에 대한 technological solution 제공. Alice/Mayo 2-step test를 통과함. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "102 rejection on claims 3-7, 10-14 is weak. The anticipation analysis relies heavily on implicit disclosures and broad interpretations. For example: (1) Claim 3: while appointments inherently include date/time, the reference does not explicitly disclose 'structured information' as claimed; (2) Claim 4: email/text notification is inferred from background discussion, not explicitly taught; (3) Claim 5: modifying 'specialty' is different from modifying 'appointment details'; (4) Claim 6: new date/time/location input via GUI is assumed, not shown; (5) Claim 7: phone/in-person meetings are not disclosed, only videoconferencing. Under BRI with moderate breadth (0.42), these implicit teachings are insufficient for 102. The reference shows similar functionality but not identical elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "103 rejection on claims 2-7, 9-14 has moderate strength. The obviousness analysis for dependent claims (2-7, 9-14) relies on: (1) symmetric GUI design being obvious (claims 2, 9) - this is reasonable but not compelling; (2) date/time/location being inherent in appointments (claims 3, 10) - strong argument; (3) email/SMS being routine channels (claims 4, 11) - strong; (4) modification functionality extension (claims 5, 6, 12, 13) - reasonable; (5) phone/in-person as alternatives to video (claims 7, 14) - reasonable. Overall, the motivation to combine exists but some leaps are required. With combination_threshold=0.45 (low threshold favoring obviousness) and strictness=0.89, these moderate-strength combinations should result in rejection."
+        },
+        {
+          "basis": "103_obviousness_claim8",
+          "strength": "weak",
+          "reasoning": "103 rejection on claim 8 is weak. The analysis acknowledges that claim 8's competitive marketplace model (broadcasting to multiple providers, receiving quotes, automatic matching) is 'fundamentally different' from the reference's one-way selection system. The obviousness conclusion relies on 'common knowledge in online marketplace systems' and examples like Angie's List/HomeAdvisor, but these are not cited as prior art references. The motivation to combine is based on general knowledge rather than explicit teaching or suggestion in the cited reference. Key missing elements (8d, 8e, 8f, 8i, 8k) represent a significant architectural difference. With strictness=0.89, I would normally reject on weak grounds, but the lack of concrete prior art evidence for the marketplace model makes this rejection questionable. However, given my public interest protection philosophy, I lean toward maintaining rejection even on weak grounds."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1이 명시적으로 'rendering a display of one or more selectable options'를 개시하며, 이는 structured graphical elements for receiving structured inputs와 직접적으로 대응됨. Coverage score 0.7, similarity scores 0.75/0.7으로 명확한 anticipation 증거 존재. 선행기술이 제공되었고 element-by-element mapping이 explicit matches를 보임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "GUI with structured elements는 2014년 기준 web-based systems에서 보편적 설계 패턴. 선행기술이 structured GUI-based input을 core functionality로 개시. 신규성이 부정되지 않더라도 자명한 설계 선택."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "Date/time/location은 appointment의 inherent attributes이나, 선행기술이 'available appointments'만 언급하고 세 요소 모두를 명시적으로 개시하지는 않음. Coverage 0.65, implicit match. KSR 원칙 적용 시 predictable use of prior art elements로 볼 수 있으나, 명시적 개시 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4
+          ],
+          "strength": "moderate",
+          "reasoning": "Email/SMS는 2014년 ubiquitous notification channels이나, 선행기술은 email을 background에만 언급. Coverage 0.62, implicit match. To customer로의 방향성과 email/text 조합이 명시적으로 개시되지 않음. 그러나 common knowledge로 보완 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 modification capability를 개시하나, notification response 맥락에서의 structured update prompting은 implicit (coverage 0.63, similarity 0.6). Workflow 확장은 predictable하나 명시적 teaching 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "GUI-based appointment modification은 standard practice이나, date/time/location 세 요소 모두를 updateable fields로 명시한 개시 부족 (coverage 0.68, element 6a는 0.6 implicit). Predictable application이나 명시적 근거 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "Phone call/in-person meeting은 videoconferencing보다 더 전통적이고 단순한 modality. 선행기술이 videoconferencing을 개시하므로, 더 conventional한 방식으로의 substitution/addition은 obvious design variation. Motivation 명확 (not all users have video capability, preference for traditional modes)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 2와 동일한 GUI limitation. 102로도 거절되었고, 103 근거도 strong. Conventional GUI implementation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty (claims 2, 3, 9, 10)",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1이 그래픽 인터페이스를 통한 구조화된 입력과 약속 정보(날짜/시간/위치)를 명시적으로 개시하고 있습니다. 단일 선행기술이 청구항의 모든 요소를 anticipate하며, 증거가 명확합니다."
+        },
+        {
+          "basis": "102_novelty (claims 7, 14) - changed to 103",
+          "strength": "moderate",
+          "reasoning": "선행기술이 'videoconferencing with audio and video transmissions'와 'virtual consultations'를 개시하지만, 명시적으로 'phone call'과 'in-person meeting'이라는 용어를 사용하지 않습니다. Office Action에서 103으로 변경한 것이 적절합니다. 오디오/비디오 통신에서 전화 통화와 대면 미팅을 도출하는 것은 합리적이지만 해석의 여지가 있어 moderate 강도입니다."
+        },
+        {
+          "basis": "103_obviousness (claims 4, 11 - email/text message)",
+          "strength": "strong",
+          "reasoning": "선행기술이 알림 전송을 개시하고, 이메일/SMS는 2018년 기준 공지된 표준 통신 수단입니다. 결합 동기가 명확하며(효과적 알림 전달), combination_threshold=0.46 하에서 공지상식 적용이 정당화됩니다."
+        },
+        {
+          "basis": "103_obviousness (claims 5, 12 - update prompting)",
+          "strength": "moderate",
+          "reasoning": "선행기술이 specialty 수정 옵션을 개시하지만, meeting activity 업데이트 프롬프트로의 확장은 해석이 필요합니다. 약속 스케줄링에서 양방향 조정이 공지상식이라는 주장은 합리적이나, 선행기술이 specialty 수정만 명시적으로 개시하여 moderate 강도입니다."
+        },
+        {
+          "basis": "103_obviousness (claims 6, 13 - new date/time/location)",
+          "strength": "moderate",
+          "reasoning": "선행기술이 초기 약속 정보(날짜/시간/위치)를 개시하지만, 업데이트 정보로서 '새로운' 날짜/시간/위치는 명시적이지 않습니다. 동일 파라미터 사용이 자명하다는 주장은 논리적이나, 초기 설정과 수정을 구별하는 관점도 가능하여 moderate 강도입니다."
+        },
+        {
+          "basis": "Claim 8 allowability",
+          "strength": "strong",
+          "reasoning": "청구항 8의 핵심 요소들(서비스 요청 파싱, 자동 매칭, quote 시스템, 카테고리 기반 meeting type 선택, quote와 meeting info 통합 전송, 역방향 프로세스)이 선행기술에 개시되지 않았습니다. 선행기술은 고객 주도 프로세스인 반면 청구항 8은 서비스 요청 기반 전문가 매칭 시스템으로 근본적 차이가 있습니다. 비자명성 판단이 타당합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            2,
+            3,
+            5,
+            9,
+            10,
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014180715-A1 explicitly discloses the claimed limitations with high element coverage scores (0.72-0.78) and explicit match types. Claim 2: rendering displays with selectable options is explicitly taught in claims 1 and 6 of the prior art. Claim 3: 'available appointments' inherently includes date/time, with 0.78 coverage. Claim 5: modification interfaces are explicitly taught in claim 2 of the prior art with 0.73 coverage. The prior art teaches the same concepts with sufficient detail to anticipate these limitations."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "For claims 2, 3, 5, 9, 10, 12: Already anticipated, obviousness is cumulative but supports rejection. For claim 4, 11 (email/SMS): The application's own background acknowledges these as conventional communication methods, and online platforms universally used email/SMS by the priority date - this is common general knowledge with strong evidence. For claims 6, 13 (appointment modification): US-2014180715-A1 teaches modification interfaces (claim 2) and appointment displays; combining these to allow appointment parameter modification is a predictable combination motivated by the well-known need for scheduling flexibility. For claims 7, 14 (phone/in-person): These are more basic meeting types than the videoconferencing taught in the prior art; offering conventional alternatives is obvious to accommodate different service needs. All combinations are supported by clear motivation and would have been routine to a PHOSITA."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2014180715-A1이 명시적으로 'available appointments' 및 'background information' 전송을 개시하고 있으며, 약속 일정 시스템에서 날짜, 시간, 장소는 기본적인 구성요소입니다. 이러한 파라미터를 포함하는 것은 해당 분야의 공지상식에 해당하며, 결합 동기가 명확합니다. 거절 근거가 충분히 강합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 'notification transmission' 및 'email' 사용을 명시적으로 개시하고 있습니다. 양방향 통신 시스템에서 고객에게도 알림을 보내는 것은 통상의 설계 선택이며, 이메일/텍스트 메시지는 표준 통신 수단입니다. 결합 동기가 명확하고 예측 가능한 결과입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 'modify the selected specialty' 및 'transmitting a modified selected specialty'를 명시적으로 개시합니다. 수정 기능을 specialty에서 meeting activity로 확장하는 것은 동일한 인터랙티브 기능의 예측 가능한 적용입니다. 결합 동기가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 3/10과 5/12의 조합으로, 선행기술의 수정 인터페이스와 표준 약속 파라미터(날짜, 시간, 장소)를 결합한 것입니다. GUI를 통한 일정 수정은 일정 관리 시스템의 기본 기능이며, 결합이 자명합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 videoconferencing을 개시하고 있으며, 이를 phone call이나 in-person meeting으로 확장하는 것은 커뮤니케이션 수단의 변형입니다. 그러나 videoconferencing에서 phone/in-person으로의 전환이 자명한지는 다소 해석의 여지가 있습니다. 화상회의는 기술적으로 더 복잡한 시스템이며, 단순한 전화나 대면 미팅은 기술적으로 다른 요구사항을 가집니다. 하지만 combination_threshold=0.22로 낮고, 커뮤니케이션 수단의 선택은 서비스 특성에 따른 통상의 설계 선택으로 볼 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2-7, 9-14 are rejected as obvious over US-2014180715-A1. The rejection identifies specific teachings in the prior art (GUI-based structured input, appointment scheduling, notifications, bidirectional communication) and provides motivation to combine based on: (1) routine role reversal in two-sided marketplaces, (2) conventional scheduling parameters (date/time/location), (3) ubiquitous notification channels (email/SMS), (4) standard interactive features (modification capabilities), and (5) known meeting modalities (phone/in-person vs. virtual). However, the strength is 'moderate' rather than 'strong' because: (a) the prior art shows a fundamentally different architecture (client-pull model where customers search and select professionals) versus the claimed invention's aspects (though independent claim 8 is allowed), (b) some combinations rely heavily on 'common sense' and 'routine implementation' without explicit prior art teaching the specific combinations, (c) the role reversal argument (service professional input vs. client input) assumes that marketplace symmetry is obvious without strong evidence that PHOSITAs would make this specific design choice, and (d) the rejection acknowledges that claim 8's integrated workflow is non-obvious, which suggests that the dependent claims may inherit some non-obviousness despite adding conventional elements. Given combination_threshold=0.33 (low threshold favoring obviousness), the examiner has appropriately applied the threshold, but the moderate strength reflects that these are not slam-dunk obvious rejections—they involve judgment calls about what constitutes routine variation versus inventive design choices."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2014180715-A1은 온라인 전문가-고객 매칭 및 appointment 스케줄링 시스템을 개시하며, 청구항 2-7, 9-14의 대부분 요소(그래픽 인터페이스, 구조화된 입력, 날짜/시간 정보, 이메일 알림, 수정 옵션, 화상 상담)를 명시적 또는 암시적으로 커버합니다. 그러나 청구항 1 및 8의 핵심 요소인 '서비스 전문가가 quote를 선택'하고 '미팅 활동 타입을 선택'하는 특정 프로세스는 선행기술에서 명확히 개시되지 않았습니다. 거절 논리는 공지된 서비스 마켓플레이스 관행(quote 제출)과 선행기술의 appointment 시스템을 결합하는 것에 의존하지만, 결합 동기는 일반적인 '사용자 경험 개선' 및 '투명한 가격 책정'에 근거하며 구체적인 기술적 교시가 부족합니다. 또한 청구항 1의 전체 workflow(고객 요청 → 전문가 quote 선택 → 미팅 활동 타입 선택 → 구조화된 정보 입력 → 알림 전송 → 고객 응답)가 단일 선행기술 또는 자명한 결합으로 완전히 커버되는지는 해석의 여지가 있습니다. 종속항들은 독립항의 불완전한 개시를 상속받으므로 moderate 강도로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4 and 11에 대한 103 거절은 moderate 강도임. 선행기술 US-2014180715-A1이 professional에게 notification을 전송하는 것을 개시하고, 이를 customer에게 전송하는 것으로 변경하는 것이 자명하다는 주장임. 거절 근거는 논리적이나, 다음 사항들이 moderate로 평가되는 이유임: (1) 선행기술은 professional-to-customer notification을 명시적으로 교시하지 않음 - 단지 customer-to-professional flow만 개시, (2) notification의 수신자 변경이 '단순한 설계 선택'인지는 해석의 여지가 있음 - 이는 시스템의 정보 흐름 방향을 변경하는 것이며 단순 변형 이상일 수 있음, (3) 결합 동기가 '공지상식'에 기반하나, 선행기술 자체는 이를 명시적으로 시사하지 않음. 그러나 (4) online marketplace에서 customer에게 notification을 전송하는 것은 실제로 통상적 관행이며, (5) email/text message는 널리 사용되는 통신 수단임. Strictness=0.42 (중립에 가까운 출원인 친화적)를 고려하면, moderate 근거는 출원인에게 benefit of doubt를 주는 방향으로 판단할 여지가 있으나, 103의 특성상 '자명성'은 명시적 교시 없이도 인정될 수 있으므로 거절을 유지할 수도 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 2-7 show strong obviousness. US-2014180715-A1 provides explicit teachings for GUI structures (claim 2: 0.75/0.7 similarity), appointment scheduling with temporal information (claim 3: 0.8 similarity), notification systems (claim 4), modification interfaces (claim 5: 0.65 similarity), GUI-based input (claim 6: 0.75 similarity), and communication modalities (claim 7: 0.65 similarity). The motivation to combine is well-established: (1) structured GUI for data consistency is common design practice, (2) date/time/location are inherent to scheduling, (3) email/SMS are ubiquitous notification channels, (4) bidirectional modification is standard in collaborative scheduling, (5) GUI components for date/time/location are routine, (6) phone/in-person are simpler alternatives to video. Each combination represents obvious design choices rather than inventive integration. With combination_threshold=0.48, these routine combinations clearly meet the obviousness standard."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            3,
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2014180715-A1이 'appointment' 정보로서 날짜/시간을 개시하지만, 'location'에 대한 명시적 개시는 약함. Abstract만 제공되었고, 'appointment'가 위치를 '필연적으로(inherently)' 포함한다는 주장은 추론에 기반함. 그러나 대면 미팅의 경우 위치는 일반적 요소이므로 moderate 강도."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 고객 측 구조화된 GUI를 개시하고, 전문가 측으로 대칭 적용하는 것은 논리적이나, 명시적 교시 없음. 대칭적 설계는 합리적 추론이지만 발명적 기여가 전혀 없다고 단정하기 어려움. Combination threshold 0.57은 경계선."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            11
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 전문가에게 알림 전송 및 이메일 언급을 개시하나, 고객에게 이메일/텍스트로 알림 전송하는 구체적 구성은 명시되지 않음. 양방향 알림은 예측 가능하나, 구체적 구현의 자명성은 moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 수정 기능(modify specialty)을 개시하나, 이는 specialty 변경이지 미팅 시간/위치 업데이트가 아님. 알림 응답으로 구조화된 업데이트 정보를 입력하는 것은 논리적 확장이나, 명시적 교시 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 약속 정보 및 수정 기능을 개시하나, '새로운(new)' 날짜/시간/위치를 고객이 제안하는 구체적 협상 워크플로우는 명시되지 않음. 예측 가능한 확장이나 증거는 moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            14
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 화상회의를 개시하지만, 전화 통화나 대면 미팅은 근본적으로 다른 통신 방식. 이들이 '자명한 대안'이라는 주장은 일반적 공지상식에 기반하나, 선행기술 자체에서 이를 암시하는 증거는 부족. 단순한 설계 선택으로 보기 어려울 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8
+          ],
+          "strength": "weak",
+          "reasoning": "복잡한 워크플로우로서 견적 선택, 서비스 카테고리 기반 미팅 유형 자동 선택, 양방향 확인, 고용 전 미팅의 결합. 선행기술이 일부 요소를 개시하나, 전체 시스템의 특정 조합은 명시적 교시 없음. 개별 요소들이 '공지'라는 주장은 증거 없이 일반화된 추론. Confidence 0.65로 불확실성 인정. 복잡한 결합의 자명성은 약함."
+        }
+      ]
+    }
+  ]
+}

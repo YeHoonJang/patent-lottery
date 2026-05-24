@@ -1,0 +1,655 @@
+{
+  "case_id": "2020001686",
+  "proceeding_number": "2020001686",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2018113244-A1은 광학 웨이브가이드와 광추출 요소(광산란 입자 포함)를 개시하며, 청구항의 마킹 재료(백색/비백색 잉크 또는 토너)는 해당 분야에서 통상의 기술적 선택으로 간주됩니다. 결합 동기는 설계 선택이나 공지상식으로 명확하며, combination_threshold=0.34에 부합합니다. 차이점은 미미하여 통상의 기술자가 쉽게 결합할 수 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            6,
+            7,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "명세서에서 '세 번째 마킹 재료'의 위치, 기능, 또는 배치에 대한 명확한 설명이 부족합니다. 그러나 청구항의 문언 자체는 모호하지 않으며, strictness=0.79에 따라 근거가 충분하지 않다고 단정하기 어렵습니다. 보정 가능성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            9,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2018113244-A1이 청구항 3, 9, 17의 모든 구성요소를 명시적으로 또는 기능적으로 개시하고 있으며, 'white marking material'의 사용은 광산란 입자의 설계 선택으로 해석될 수 있음. strictness=0.88에 따라 근거가 명확하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2018113244-A1이 광학 웨이브가이드, 광추출 요소, 광산란 입자를 개시하고 있으며, 청구항의 차이점(재료의 색상, 잉크/토너 사용)은 통상의 기술자에게 자명한 설계 선택임. combination_threshold=0.34에 따라 결합 동기가 명확하며, strictness=0.88에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "dependency_issue",
+          "strength": "moderate",
+          "reasoning": "Claims 3-8, 11-16, 19-20 depend from canceled or allowable claims, creating formal dependency issues. While this is a procedural objection rather than a substantive rejection, it requires correction. The strength is moderate because it does not affect the patentability of the claims but must be resolved for allowance."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'non-smooth' in Claims 9 and 17 is subjective but contextually supported by the specification. While it may raise indefiniteness concerns under 35 U.S.C. § 112, the specification provides sufficient guidance for one of ordinary skill in the art to understand and practice the invention. Given the examiner's strictness (0.29), this is not a strong basis for rejection but warrants a suggestion for amendment to avoid potential challenges."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 9, and 17 are assessed as lacking novelty over US-2018113244-A1. While the prior art discloses core elements (optical waveguide, light scattering properties, and light extraction features), the specific 'white marking material' or 'non-smooth surface' details are not explicitly disclosed. However, given strictness=0.89, the functional equivalence and high confidence (0.8-0.85) in the analysis justify a moderate strength for this rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3-9, 11-17, and 19-20 are rejected under 103 based on US-2018113244-A1 combined with routine design choices. The prior art discloses the core elements, and the use of white/non-white marking materials (ink/toner) is considered a well-known design choice for a PHOSITA. The combination threshold of 0.45 and high confidence (0.78-0.88) strongly support this rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1은 광학 웨이브가이드와 빛 산란 특성을 가진 재료를 개시하고 있으나, 청구항의 구체적인 구성(예: 두 번째 마킹 재료의 위치나 재질)은 명시적으로 개시되지 않았습니다. 그러나 유사한 기능의 재료가 언급되어 있어 신규성 판단에 해석의 여지가 있습니다. strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술은 광학 웨이브가이드와 빛 산란 특성을 가진 재료를 개시하고 있으며, 두 번째 마킹 재료(백색 또는 유색)의 사용은 해당 분야에서 공지된 기술입니다. 결합 동기(motivation to combine)가 명확하고, 통상의 기술자가 쉽게 생각할 수 있는 수준입니다. 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "용어 'non-smooth'는 명세서에 명확한 정의나 객관적 기준이 제공되지 않아 청구항의 범위가 불명확합니다. 이는 35 U.S.C. § 112의 요건을 충족하지 못하며, 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 9, and 17의 신규성 거절은 선행기술 US-2018113244-A1과의 유사성에 기반하고 있으나, 'white marking material'이나 'light scattering particles'의 구체적인 구성이 선행기술에 명시적으로 개시되지 않았습니다. 그러나 BRI 기준(breadth=0.79)에 따라 청구항 해석이 넓게 이루어져 유사성이 인정될 수 있으며, confidence 값(0.65-0.75)이 중간 수준입니다. strictness=0.47에 따라 증거의 강도가 충분하지 않아 거절 유지보다는 보정 유도를 고려합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 9, and 17의 진보성 거절은 선행기술의 결합 동기에 기반하고 있으나, combination_threshold=0.46으로 인해 결합 동기가 쉽게 인정되는 경향이 있습니다. 그러나 'white marking material'이나 'light scattering particles'의 구체적인 재료 선택이 통상의 기술자에게 자명하다고 보기에는 다소 무리가 있으며, confidence 값(0.65-0.75)이 중간 수준입니다. 실용주의 성향(pragmatist)과 strictness=0.47에 따라 증거의 강도가 충분하지 않아 거절 유지보다는 보정 유도를 고려합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 16의 모호성은 명백한 오류('non-white colored marking material is toner')로 인해 발생하였으며, 이는 청구항의 명확성을 해치는 직접적인 근거가 됩니다. confidence 값(0.85)이 높고, 112 조항 위반은 엄격히 적용되어야 하므로 거절 유지합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1은 청구항 3과 9의 핵심 구성요소를 기능적으로 유사하게 개시하나, 'white marking material'과 같은 구체적 특성을 명시적으로 언급하지는 않습니다. 그러나 광범위한 해석(BRI=0.86)과 strictness=0.55에 따라, 기능적 유사성을 근거로 신규성 거부가 타당하다고 판단됩니다. 다만, 구체적 재료 특성이 명시되지 않아 완전한 'strong' 근거로는 부족합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 광학 웨이브가이드와 빛 산란 재료를 개시하며, 'white marking material', 'ink', 'toner' 등의 구체적 재료 선택은 해당 분야에서 공지된 설계 선택으로 간주됩니다. 결합 동기(combination_threshold=0.55)는 충족되나, 재료 선택의 구체성이 진보성을 부정하기에 충분한지 여부는 해석의 여지가 있습니다. 실용주의적 판단에 따라 moderate 강도로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "이들 청구항은 'non-white colored marking material', 복수 개의 광학 웨이브가이드, 또는 구체적 재료('ink', 'toner')의 위치/기능적 특성을 포함하며, 선행기술은 이를 명시적으로 개시하지 않습니다. 결합 동기가 불분명하거나 2차적 고려사항(상업적 성공 등)을 뒷받침할 증거가 있을 수 있어, 진보성 거부는 weak으로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses an optical waveguide with light scattering properties, but the addition of a second white marking material (ink/toner) is not explicitly disclosed. However, the use of white marking materials for visibility enhancement is conventional. The combination threshold (0.22) and strictness (0.46) suggest this is a borderline case, but the lack of secondary considerations weakens the rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "Non-white colored marking materials are conventional in display technologies, but the specific combination with light scattering elements in US-2018113244-A1 is not explicitly disclosed. The motivation to combine is logical but not overwhelmingly strong, making this a moderate rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Layered marking materials for optical effects are common, but the specific layered structures in these claims are not explicitly disclosed in US-2018113244-A1. The combination is plausible but not definitively obvious, warranting a moderate rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "The use of multiple waveguides with layered materials is a common optimization, but the specific configurations in these claims are not clearly anticipated or rendered obvious by US-2018113244-A1. The confidence scores (0.6-0.8) suggest this is a weaker rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1은 광학 웨이브가이드와 산란 요소를 개시하고 있으나, 'white marking material'이나 'light scattering particles embedded in a second marking material'의 구체적인 구성은 명시적으로 언급되지 않았습니다. 그러나 해당 분야의 통상의 기술자가 산란 효율을 높이기 위해 백색 재료나 산란 입자를 포함하는 재료를 사용할 동기는 인정됩니다. strictness=0.50에 따라 근거의 강도는 moderate로 평가되며, 거절로 유지하되 보정 가능성을 열어둡니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 3,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1은 광학 웨이브가이드와 광추출 요소, 광산란 입자를 개시하지만, 두 번째 마킹 재료가 '백색'이라는 구체적 한정은 명시하지 않습니다. 그러나 광산란 입자의 사용은 해당 분야에서 공지된 기술로 볼 수 있어 신규성 판단에 부정적 영향을 미치며, strictness=0.52에 따라 근거 강도는 moderate입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 4,
+          "strength": "moderate",
+          "reasoning": "선행기술은 광산란 입자를 개시하고 있으며, 백색 잉크는 광산란 특성을 강화하기 위한 공지된 재료로 볼 수 있습니다. 해당 분야의 통상의 기술자는 이를 사용할 동기를 가지지만, 구체적 한정이 명시되지 않아 combination_threshold=0.44를 고려할 때 근거 강도는 moderate입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 5,
+          "strength": "moderate",
+          "reasoning": "선행기술은 광산란 입자를 개시하고 있으며, 백색 토너는 광산란 특성을 강화하기 위한 공지된 재료로 볼 수 있습니다. 해당 분야의 통상의 기술자는 이를 사용할 동기를 가지지만, 구체적 한정이 명시되지 않아 combination_threshold=0.44를 고려할 때 근거 강도는 moderate입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 9,
+          "strength": "moderate",
+          "reasoning": "선행기술은 광학 웨이브가이드, 광추출 요소, 비평활 표면, 광산란 입자를 개시하고 있으며, 두 번째 마킹 재료가 첫 번째 마킹 재료 위에 형성된다는 구체적 구조는 공지된 설계 선택으로 볼 수 있습니다. 그러나 명시적 개시가 없어 combination_threshold=0.44를 고려할 때 근거 강도는 moderate입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 11,
+          "strength": "moderate",
+          "reasoning": "선행기술은 광산란 입자를 개시하고 있으며, 백색 마킹 재료는 광산란 특성을 강화하기 위한 공지된 재료로 볼 수 있습니다. 해당 분야의 통상의 기술자는 이를 사용할 동기를 가지지만, 구체적 한정이 명시되지 않아 combination_threshold=0.44를 고려할 때 근거 강도는 moderate입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 12,
+          "strength": "moderate",
+          "reasoning": "선행기술은 광산란 입자를 개시하고 있으며, 백색 잉크는 광산란 특성을 강화하기 위한 공지된 재료로 볼 수 있습니다. 해당 분야의 통상의 기술자는 이를 사용할 동기를 가지지만, 구체적 한정이 명시되지 않아 combination_threshold=0.44를 고려할 때 근거 강도는 moderate입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 13,
+          "strength": "moderate",
+          "reasoning": "선행기술은 광산란 입자를 개시하고 있으며, 백색 토너는 광산란 특성을 강화하기 위한 공지된 재료로 볼 수 있습니다. 해당 분야의 통상의 기술자는 이를 사용할 동기를 가지지만, 구체적 한정이 명시되지 않아 combination_threshold=0.44를 고려할 때 근거 강도는 moderate입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 6,
+          "strength": "weak",
+          "reasoning": "선행기술은 비백색 유색 마킹 재료의 구체적 조합을 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 7,
+          "strength": "weak",
+          "reasoning": "선행기술은 비백색 유색 잉크의 구체적 조합을 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 8,
+          "strength": "weak",
+          "reasoning": "선행기술은 비백색 유색 토너의 구체적 조합을 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 14,
+          "strength": "weak",
+          "reasoning": "선행기술은 비백색 유색 마킹 재료의 구체적 조합을 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 15,
+          "strength": "weak",
+          "reasoning": "선행기술은 비백색 유색 잉크의 구체적 조합을 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 16,
+          "strength": "weak",
+          "reasoning": "선행기술은 비백색 유색 토너의 구체적 조합을 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 17,
+          "strength": "weak",
+          "reasoning": "선행기술은 복수 개의 광학 웨이브가이드 및 구체적 마킹 재료 구조를 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 19,
+          "strength": "weak",
+          "reasoning": "선행기술은 복수 개의 광학 웨이브가이드 및 백색 마킹 재료의 구체적 조합을 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 20,
+          "strength": "weak",
+          "reasoning": "선행기술은 복수 개의 광학 웨이브가이드 및 백색 잉크의 구체적 조합을 개시하지 않으며, 새로운 광학 효과를 창출할 가능성이 있습니다. combination_threshold=0.44를 충족하지 못해 근거 강도는 weak입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            11,
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1은 광도파관과 빛 산란 특성을 가진 요소를 개시하며, 흰색 마킹 재료(잉크/토너)의 사용은 빛 산란 효율 개선을 위한 공지된 설계 선택임. 그러나 결합 동기가 명시적 교시 없이 공지상식에 근거한 점, 그리고 출원인의 주장이나 2차적 고려사항이 없는 점에서 근거의 강도는 moderate임. strictness=0.42에 따라 출원인에게 유리하게 해석 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            17,
+            19,
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 개별 요소(광도파관, 빛 산란 특성)를 개시하지만, 다수의 광도파관, 구체적인 층 구조, 비흰색 재료의 조합 등은 명시적 교시 없이 통상의 기술자에게 쉽게 도출되지 않음. 차이점이 명확하여 비자명성 인정 가능하나, 선행기술의 범위 내에서 설계 선택으로 볼 여지가 있어 moderate 강도임. strictness=0.42에 따라 출원인에게 유리하게 해석 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2018113244-A1 discloses core elements of Claims 3 and 9 (e.g., optical waveguide with light scattering properties and light extraction elements). However, the prior art does not explicitly disclose all limitations (e.g., second white marking material in Claim 3 or second marking material in Claim 9). Given strictness=0.52, the anticipation argument is plausible but not overwhelmingly strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            9,
+            11,
+            12,
+            13
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of US-2018113244-A1 with general knowledge provides a clear motivation to combine for Claims 3, 4, 5, 9, 11, 12, and 13. The use of white marking materials (ink/toner) and light scattering particles is a well-known optimization in the field. The motivation to combine is logical and supported by the prior art and general knowledge, making the obviousness rejection strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "While the prior art discloses light extraction elements, it does not teach or suggest the use of non-white colored marking materials (Claims 6, 7, 8, 14, 15, 16) or the specific arrangement of a plurality of optical waveguides (Claims 17, 19, 20). The motivation to combine is lacking, and the differences are significant enough to overcome obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'non-smooth' lacks definiteness without further clarification in the specification. However, this is a correctable issue and does not warrant rejection if addressed in an amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            4,
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2018113244-A1은 광학 웨이브가이드와 광산란/굴절 요소를 개시하지만, 'white marking material'의 구체적 사용(ink/toner)은 명시되지 않았습니다. 그러나 흰색 재료의 사용은 해당 분야에서 공지된 기술로 간주되며, 광산란 효율성을 높이기 위한 설계 선택으로 동기가 인정됩니다. strictness=0.60에 따라, 근거는 충분하지만 해석의 여지가 있어 moderate로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            11,
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 다층 구조와 광산란 입자를 개시하지만, 'white marking material'의 구체적 층상 구조는 명시되지 않았습니다. 그러나 다층 구조의 사용은 공지된 기술로 간주되며, 흰색 재료의 사용은 설계 선택으로 동기가 인정됩니다. strictness=0.60에 따라, 근거는 충분하지만 해석의 여지가 있어 moderate로 평가됩니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            4,
+            5,
+            9,
+            11,
+            12,
+            13
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 'white marking material'의 구체적 사용을 명시하지 않았으며, 기능적 유사성만으로 신규성을 부정하기에는 증거가 부족합니다. strictness=0.60에 따라, weak로 평가되며 거절 근거로 유지하기 어렵습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7,
+            8,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술은 'non-white colored marking material'의 조합이나 'plurality of optical waveguides'의 구체적 구성을 명시하지 않았습니다. 동기나 시사가 부족하여 진보성 근거로 활용하기 어렵습니다. strictness=0.60에 따라, weak로 평가되며 거절 근거로 유지하기 어렵습니다."
+        }
+      ]
+    }
+  ]
+}

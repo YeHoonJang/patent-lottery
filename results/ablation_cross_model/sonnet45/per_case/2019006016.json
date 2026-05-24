@@ -1,0 +1,399 @@
+{
+  "case_id": "2019006016",
+  "proceeding_number": "2019006016",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.7142857142857143,
+  "amend_rate": 0.0,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection combines US-2014150923-A1 (automated needle positioning device) with common general knowledge of optical sensing. The specification admits optical phase detection systems are known (citing DE 10 2007 003 040 B4). However, critical weaknesses exist: (1) US-2014150923-A1 teaches HPLC injection sealing with force-controlled insertion onto a shoulder—fundamentally different from liquid level detection during aspiration; (2) The combination requires multiple non-trivial steps: positioning optical sensor between cannula and sampling container (not taught), simultaneous aspiration during descent (not taught), detecting optical changes to trigger interruption (not taught), and backward calculation accounting for cannula volume and flow rate (acknowledged as routine math, but the overall coordination is not explicitly taught); (3) The rejection relies heavily on 'common general knowledge' and 'would have been obvious' conclusory statements without citing specific prior art teaching the claimed optical sensor positioning or aspiration-based detection method; (4) The specification's citation of DE 10 2007 003 040 B4 shows optical phase detection exists, but does not establish that combining it with automated dosing in the specific claimed configuration was obvious—optical detection and automated dosing existed separately, but their integration in this manner may be inventive; (5) The Graham analysis acknowledges differences but characterizes them as 'straightforward' and 'routine' without strong evidentiary support beyond examiner assertion. While the individual components (optical sensors, automated drives, pumps) are known, the specific combination—optical sensor positioned in the aspiration pathway between cannula and sampling container, triggering based on optical changes during simultaneous aspiration and movement, then calculating backward using flow/volume/speed relationships—represents a non-trivial integration. The rejection's strength is moderate because it identifies relevant prior art and known technologies, but lacks specific teaching of the claimed combination or compelling evidence that a PHOSITA would have been motivated to combine these elements in precisely this manner."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies heavily on combining US-2014150923-A1 with DE 10 2007 003 040 B4 (cited only in applicant's specification background, not provided as prior art reference). While US-2014150923-A1 discloses motorized needle insertion, it does not disclose: (1) continuous aspiration during movement, (2) optical sensor measuring aspirated fluid between cannula and container, (3) calculation of penetration position based on volumetric flow and timing lag. The examiner's motivation to combine is based primarily on applicant's own background discussion acknowledging optical detection exists, but this is weak evidence - specifications routinely cite prior art without admitting those specific combinations are obvious. The detailed calculations (time lag = volume/flow, distance = speed×time) are presented as 'routine engineering' but the specific integration of all these elements (continuous aspiration + in-line optical sensing + lag-time compensation calculation) during linear insertion is not clearly shown in the cited references. The rejection assumes DE '040 teaches the optical sensing arrangement, but this reference was not provided for examination - only mentioned in applicant's background. Without the actual DE '040 disclosure, the combination rationale is speculative. However, given strictness=0.88 and policy to prevent weak patents, if there is reasonable basis to believe the combination would have been obvious to PHOSITA, the rejection should be maintained."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "none",
+          "reasoning": "No 102 rejection grounds were identified in the novelty analysis. All claims 10-29 were found to be novel over US-2014150923-A1. The prior art does not disclose the critical features of continuous aspiration during movement, optical sensing of aspirated fluid between cannula and sampling container, or calculation of phase boundary position based on detection lag compensation using volumetric flow and cannula volume parameters."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "none",
+          "reasoning": "No 103 rejection grounds were identified in the obviousness analysis. All claims 10-29 were found to be non-obvious. The prior art US-2014150923-A1 addresses a fundamentally different technical problem (HPLC injection sealing) using incompatible solutions (mechanical sealing and force control vs. optical detection of aspirated fluid). There is no teaching, suggestion, or motivation to combine the prior art with the claimed invention's approach. The prior art actually teaches away from continuous aspiration by focusing on preventing liquid contact with outer cannula surfaces. The claimed invention's synergistic combination of aspiration, optical sensing, and lag-compensation calculation represents non-obvious inventive insights, particularly the calculation methodology in step (e) that back-computes phase boundary crossing position by accounting for fluid transit delay through the cannula volume."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "No 112 rejection grounds were identified. The specification provides adequate written description and enablement for all claimed elements including the dosing device components, operational methodology, optical parameters, and the calculation approach. The dependent claims represent logical extensions that would be understood by those skilled in the art."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "No 101 rejection grounds were identified. The claims are directed to patent-eligible subject matter - a practical application of optical sensing and fluid dynamics principles to solve the concrete problem of accurate liquid level detection in automated dosing systems. They recite specific technological improvements in laboratory automation equipment and methods, not abstract ideas."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2014150923-A1은 mechanical injection system으로 본 발명의 핵심인 optical sensor를 통한 fluid parameter measurement, optical parameter change detection, 그리고 retroactive calculation of phase boundary position을 전혀 개시하지 않습니다. 선행기술과의 차이가 명확하여 102 거절 근거가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "본 발명은 (1) aspiration 중 optical sensing, (2) optical parameter change detection으로 position 저장, (3) speed/volume/flow rate 기반 phase boundary position의 retroactive calculation이라는 세 가지 핵심 요소의 결합입니다. US-2014150923-A1은 mechanical force-based injection만 개시하며, optical detection이나 calculation-based positioning을 시사하지 않습니다. 다른 선행기술도 제공되지 않았고, 이러한 결합의 동기가 없습니다. 본 발명은 capacitive method의 한계(비전도성 액체 불가)를 해결하는 새로운 접근법으로, 통상의 기술자에게 비자명합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 dosing device, cannula, optical sensor, control unit, calculation method 등 모든 청구항 요소에 대한 충분한 written description을 제공합니다. 용어는 해당 분야에서 명확하게 이해되며, 청구항과 명세서 간 불일치가 없습니다. 112 거절 근거가 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항 10-29는 physical apparatus(dosing device, cannula, optical sensor, pump)를 사용한 구체적 technological process 및 그 구현 장치를 청구합니다. Abstract idea가 아니며, automated dosing system의 구체적 기술적 개선(정확한 phase boundary detection)을 제공합니다. 101 거절 근거가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The Office Action asserts obviousness based on US-2014150923-A1, but critical technical differences exist. The prior art discloses injection (pressurizing fluid into a vessel), while the claimed invention performs aspiration (drawing fluid out). The Office Action argues this is a reversible operation, but this oversimplifies the technical challenge. The key inventive concept—calculating actual cannula tip position by compensating for detection lag using the formula: actual_position = detected_position - (volume_offset / flow_rate) × speed—addresses a problem that does not exist in the prior art's injection system. In injection, the needle tip position is directly controlled; there is no upstream sensor creating a detection lag. The motivation to combine is weak: the prior art reference to optical systems (DE 10 2007 003 040 B4) involves fiber-optic integrated IN the needle for direct detection, not an upstream sensor requiring lag compensation. The lag compensation calculation is presented as 'straightforward engineering,' but this overlooks that: (1) the prior art provides no motivation to place a sensor upstream rather than at the tip; (2) the specific mathematical relationship accounting for three simultaneous parameters (cannula internal volume, movement speed, volumetric flow) during dynamic aspiration is not taught or suggested. While individual elements (optical sensors, pumps, position control) are known, their specific integration to solve the lag compensation problem represents a non-obvious combination. However, the Office Action does establish that optical detection and automated liquid handling are known in the field, creating some basis for obviousness even if the specific combination is inventive. Under my strict examination philosophy (strictness=0.89), I find this rejection moderately supported but not conclusively proven."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on hindsight reconstruction and general assertions about 'common knowledge' without specific prior art evidence. US-2014150923-A1 discloses a mechanical sealing system for chromatography injection - fundamentally different from a dosing device with optical liquid level detection. The rejection assumes it would be 'obvious' to add: (1) constant aspiration with predetermined volumetric flow, (2) optical sensor in fluid path measuring aspirated fluid parameters, (3) real-time detection algorithm, (4) back-calculation of phase boundary penetration based on flow dynamics. However, the prior art provides no teaching, suggestion, or motivation to monitor aspirated fluid optically or to implement the specific volumetric flow-based position calculation algorithm. The rejection states 'optical sensors for detecting liquid properties are conventional' but does not cite any reference showing optical monitoring of aspirated fluid in a moving cannula for phase boundary detection. The assertion that 'the calculation involves straightforward engineering mathematics' oversimplifies a non-obvious insight: recognizing that optical detection occurs after a delay (fluid travel time through cannula) and that this delay can be compensated by back-calculating position using volumetric flow parameters. The motivation analysis is weak - it identifies a general problem (liquid level detection) but does not explain why a PHOSITA would specifically choose the claimed solution (optical sensing of aspirated fluid with flow-based back-calculation) over numerous other known approaches (capacitive sensors, weight sensors, external optical imaging). The rejection conflates 'routine optimization' with inventive step. While individual components (pumps, optical sensors, linear drives) are known, their specific integration to achieve the claimed method represents a non-obvious system design."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2014150923-A1은 mechanical injection system만 개시하며, 청구항의 핵심 구성요소인 optical sensor, optical parameter measurement, computational position determination을 전혀 개시하지 않음. Coverage score 0.3은 구조적 유사성(needle, drive)만을 반영하며, 방법의 핵심 단계는 전혀 anticipate되지 않음. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술과 청구항 간의 기술 분야가 상이함(mechanical injection vs. optical fluid analysis). 선행기술은 optical sensing에 대한 어떠한 teaching, suggestion, motivation도 제공하지 않으며, PHOSITA가 mechanical system에 optical detection과 computational algorithm을 결합할 동기가 명확하지 않음. Graham 분석 결과 모든 청구항에서 결합 동기 부재 확인. Combination threshold 0.46 기준으로 판단 시, 선행기술 간 결합 동기가 이 기준을 초과하지 못함. 103 거절 근거 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 dosing device 구성요소, 방법 단계, optical measurement 기술, vessel positioning, multi-phase detection, dynamic tracking, cleaning workflow, device 구조를 충분히 기술함. 청구항 용어는 명세서에 정의되어 있거나 당업계에서 이해 가능. PHOSITA가 과도한 실험 없이 발명을 실시 가능. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "방법 청구항은 mechanical movement, fluid aspiration, optical measurement, computational control의 구체적 물리적 프로세스 단계를 포함. 장치 청구항은 물리적 구성요소의 구조적 결합을 청구. Abstract idea가 아닌 automated laboratory equipment 분야의 기술적 응용. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "No prior art reference anticipates any claim. US-2014150923-A1 discloses only basic injection needle insertion mechanism with sealing, lacking critical elements: pump device for constant volumetric flow aspiration, optical sensor between cannula and sampling container, control unit with position calculation based on flow dynamics, and all additional features in dependent claims. Coverage scores range from 0.0 to 0.15, indicating minimal overlap. All claims assessed as novel with confidence 0.85-0.9."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims assessed as non-obvious with confidence 0.75-0.85. US-2014150923-A1 addresses different technical problem (biocompatible sealing for chromatography) than claimed invention (automated phase boundary detection through optical sensing and flow-based position calculation). No teaching or suggestion exists for: (1) combining injection needle with optical sensor measuring aspirated fluid parameters, (2) calculating penetration positions based on timing, flow rate and cannula volume, (3) dynamic tracking of moving phase boundaries, (4) multi-phase boundary detection, (5) vessel-specific parameter customization. Graham factors analysis shows significant differences requiring non-obvious integration of motion control, optical sensing, fluid dynamics calculations, and control algorithms. No motivation to combine disparate technologies exists without hindsight."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No 112 issues identified in analysis. Claims appear properly supported by specification based on detailed technical descriptions of method steps and apparatus components. Claim dependency structure issue noted in objections is formal matter under 37 CFR 1.75, not substantive 112 rejection."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No 101 issues identified. Claims directed to method for operating dosing device and apparatus structure, not abstract idea. Physical process involving mechanical movement, fluid aspiration, optical sensing, and automated control represents patent-eligible technological improvement in laboratory automation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 10-29 are assessed as novel with high confidence (0.85-0.92). US-2014150923-A1 teaches an injection needle arrangement for injecting fluid into an analysis appliance with mechanical sealing mechanisms, which is fundamentally different from the claimed aspiration-based dosing with optical phase boundary detection. The prior art does not disclose: (1) aspirating fluid through cannula with predetermined volumetric flow, (2) optical sensor measuring parameters of aspirated fluid, (3) detecting optical parameter changes to determine phase boundary positions, (4) calculating positions based on flow dynamics and cannula volume. These are essential elements of all independent claims (10, 17) and their dependencies. No anticipation exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 10-29 are assessed as non-obvious with high confidence (0.84-0.91). Under Graham analysis: (1) US-2014150923-A1 teaches mechanical injection with force control for sealing, not aspiration with optical detection. (2) Differences include integration of optical sensing during aspiration, mathematical calculation of phase boundary positions based on flow parameters and cannula volume, vessel parameter input for volume calculation, multi-phase boundary detection, and dynamic tracking to maintain constant immersion depth. (3) While PHOSITA would understand mechanical manipulation and basic sensing, the specific integration of optical phase boundary detection with aspiration flow dynamics represents non-obvious combination requiring inventive insight. (4) No teaching, suggestion, or motivation exists to combine optical sensing with aspiration flow calculations or to apply this to phase boundary detection. The prior art operates in different field (injection vs. aspiration) with different mechanism (mechanical sealing vs. optical sensing). Even with combination_threshold=0.22, no common sense basis exists for combining these disparate technologies."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No 112 issues are identified in the analysis. The Office Action states 'The specification provides adequate written description and enablement for all claimed features.' All claims have high confidence of allowability. No evidence of indefiniteness, lack of written description, or enablement issues exists in the record."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No 101 issues are identified. Claims are directed to methods and apparatus for operating a dosing device with optical sensing and mechanical positioning—practical industrial applications. No abstract idea or natural phenomenon issues are present. All claims appear eligible under Alice/Mayo framework."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "No anticipation found. US-2014150923-A1 lacks critical elements: optical sensor for measuring aspirated fluid parameters, pump device for constant volumetric flow aspiration, detection of optical parameter changes to identify phase boundaries, and calculation of penetration position based on volumetric flow and cannula volume. Prior art focuses on mechanical sealing with force-based needle positioning, fundamentally different from claimed optical detection approach. All claims 10-29 novel with high confidence (0.75-0.8)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "No obviousness found. Graham factors analysis shows: (1) Prior art US-2014150923-A1 teaches mechanical injection with sealing arrangements, not optical fluid monitoring. (2) Claimed invention differs fundamentally by integrating optical sensors in flow path to measure aspirated fluid parameters during movement, detecting phase boundaries through optical changes, and calculating actual penetration positions using volumetric flow dynamics to compensate for time lag. (3) No teaching, suggestion, or motivation in prior art to combine mechanical insertion with optical aspiration monitoring and flow-based position calculation. (4) The specific positioning of optical sensor between cannula and sampling container for in-line detection represents inventive structural design. Combination threshold not met - no rational motivation to combine disparate technologies (mechanical sealing vs. optical fluid analysis). All claims 10-29 non-obvious with confidence 0.75-0.8."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "No written description issues identified. Specification provides adequate support for all claimed features: method steps of optical detection and position calculation, first volume (cannula volume), calculation methodology compensating for time lag, optical parameters (refractive index, turbidity, transmission), vessel parameter input systems, volume calculations, multi-phase boundary detection, dynamic tracking, and apparatus structure. PHOSITA would understand implementation without undue experimentation. All claims adequately supported."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "No eligibility issues. Claims directed to patent-eligible subject matter: method claims (10-16, 19-26) recite specific technological process for operating dosing device using optical detection and mechanical control; apparatus claims (17-18, 27-29) recite specific machine with particular structural components. Not abstract ideas, laws of nature, or natural phenomena. Practical application to solve technical problem of accurate liquid level detection in automated laboratory systems."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Prior novelty analysis found all claims 10-29 novel. US-2014150923-A1 does not disclose the core features of optical sensing of aspirated fluid between cannula and sampling container, continuous aspiration during linear movement, or the calculation methodology using volumetric flow and cannula volume to back-calculate phase boundary penetration position. No 102 rejection basis exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Prior obviousness analysis found all claims 10-29 non-obvious with confidence scores ranging from 0.78 to 0.83. US-2014150923-A1 is directed to a fundamentally different problem (sealing for HPLC injection) and does not teach or suggest: (1) optical sensing of aspirated fluid properties, (2) positioning sensor between cannula and sampling container, (3) using optical parameter changes to detect phase boundaries during aspiration, or (4) the specific calculation algorithm that compensates for detection delay using fluid dynamics (volumetric flow, cannula volume). No motivation to combine exists. The claimed invention represents a non-obvious solution to liquid level detection without requiring conductive liquids. Graham factors support non-obviousness: prior art scope is limited to mechanical sealing, differences are substantial and relate to core inventive concept, PHOSITA would not find the combination obvious, and secondary considerations show solution to known problem in unexpected way."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "No 112 issues identified in prior analysis. Claims appear properly supported by specification which describes the optical sensing methodology, calculation algorithms, and various embodiments. No indefiniteness or enablement concerns raised."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No 101 issues identified. Claims are directed to specific technical apparatus and method for liquid level detection using optical sensing and fluid dynamics calculations, not to abstract ideas. Claims recite concrete physical structures (dosing device, cannula, optical sensor, pump) and specific technical steps (aspiration, optical measurement, position calculation based on physical parameters)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 10-29 are novel. US-2014150923-A1 does not disclose the core inventive elements: (1) continuous aspiration through the cannula during movement with predetermined volumetric flow, (2) optical sensor positioned between cannula and sampling container measuring optical parameters of aspirated fluid, (3) detection of optical parameter changes to identify phase boundary penetration, (4) retroactive calculation of penetration position based on movement speed, cannula volume, and volumetric flow. Coverage scores range from 0.02 to 0.25, indicating substantial missing elements. The prior art addresses a different technical problem (sealing for injection) in a different functional context."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 10-29 are non-obvious. Under Graham analysis: (1) US-2014150923-A1 operates in a different context (injection vs. aspiration-based detection); (2) The claimed combination of continuous aspiration during movement, in-line optical sensing of aspirated fluid, and volumetric position calculation is not taught or suggested; (3) No motivation to combine exists - the prior art does not address phase boundary detection or suggest monitoring optical properties of aspirated fluid; (4) The invention solves a different problem (detecting phase boundaries in non-conductive liquids) than the prior art (sealing injection needles). The combination threshold of 0.52 requires clear motivation, which is absent. Dependent claims add further non-obvious refinements including user-configurable vessel parameters, specific optical measurements, dynamic tracking algorithms, and multi-step workflows."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 10-29 are clearly novel. US-2014150923-A1 completely lacks the core inventive features: (1) optical sensor between cannula and sampling container, (2) continuous aspiration during insertion with predetermined volumetric flow, (3) optical parameter measurement of aspirated fluid to detect phase boundaries, (4) algorithmic position calculation based on flow rate and cannula volume. The prior art addresses a different technical problem (sealing for HPLC injection) in a different context. Coverage scores of 0.1-0.15 indicate minimal overlap. No anticipation exists for any claim."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 10-29 are non-obvious. Under Graham analysis: (1) The prior art US-2014150923-A1 is in a different field (HPLC injection sealing vs. dosing with optical sensing), (2) Critical differences include the entire optical sensing system, aspiration-during-insertion methodology, and volumetric flow-based position calculation algorithm - none of which are taught or suggested by the prior art, (3) No motivation to combine exists because the prior art solves a different problem (sealing integrity) and provides no teaching toward optical fluid property monitoring during aspiration, (4) The invention provides unexpected advantages: non-contact liquid level detection without capacitive sensing limitations, compensation for fluid transit time through cannula volume calculations, and applicability to non-conductive liquids. The combination of elements represents a synergistic solution not obvious to PHOSITA. Dependent claims add further non-obvious features (vessel parameter management, multi-phase detection, dynamic tracking control, modular sensor housing) that are not suggested by prior art. All confidence scores range from 0.76-0.82, indicating strong non-obviousness determinations."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "No 112 issues identified. All claims are supported by the specification. The optical sensing method, position calculation algorithm, vessel parameter input, multi-phase detection, tracking control, and apparatus configurations are adequately described in the summary and detailed description sections. Enablement is satisfied - PHOSITA in automated liquid handling could practice the invention without undue experimentation."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "No 101 issues identified. Claims are directed to technological improvements in automated liquid handling devices - clearly patent-eligible subject matter. The optical sensing method and apparatus represent practical applications with concrete technological benefits, not abstract ideas."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on 'general knowledge in the art' and 'obvious to try' reasoning without concrete prior art references demonstrating the specific combination of features. While US-2014150923-A1 is cited, it is fundamentally a mechanical injection system with sealing mechanisms, not an optical detection system for phase boundaries during aspiration. The rejection makes several logical leaps: (1) The specification's citation of DE 10 2007 003 040 B4 for optical phase detection does not establish that combining this with the mechanical system of US-2014150923-A1 would be obvious - these solve different problems (the German patent addresses fiber-optic detection in general, not integration with aspiration-based dosing); (2) The 'motivation to overcome capacitive sensing limitations' is cited, but US-2014150923-A1 does not use capacitive sensing and does not suggest this problem; (3) The critical innovation - calculating actual phase boundary penetration position by compensating for time lag using cannula volume and flow rate - represents a non-obvious solution requiring recognition of a subtle problem (sensor detects after tip entry) and sophisticated computational approach; (4) The combination requires integrating multiple disparate technologies (optical sensing, flow control, computational position correction, vessel geometry) not suggested by a mechanical injection reference; (5) Many dependent claims add further innovations (dynamic surface tracking, multi-phase detection, modular sensor housing) that are characterized as 'obvious extensions' without adequate support. The rejection conflates 'known components exist' with 'obvious to combine them in this specific way for this specific purpose.' Under KSR, obviousness requires more than mere predictability of success - there must be clear motivation and reasonable expectation that the combination would work. Here, the examiner has not demonstrated why a PHOSITA working with the mechanical injection system of US-2014150923-A1 would be motivated to add optical sensing of aspirated fluid, implement flow-based position correction calculations, or develop dynamic surface tracking algorithms. The reasoning amounts to impermissible hindsight reconstruction using the applicant's own disclosure."
+        }
+      ]
+    }
+  ]
+}

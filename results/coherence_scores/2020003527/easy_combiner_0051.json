@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 and uses the Graham v. John Deere four-factor framework (scope/content, differences, PHOSITA level, secondary considerations) for §103 claims, invoking the correct legal tests for each statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection is linked to specific claims in US-2012141633-A1 (e.g., Claim 4 for fillings, Claim 5 for thickness/weight, Claim 8 for temperature), with specific claim language and prior art disclosures cited throughout the analysis."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found anticipated at §102 are not re-analyzed as merely obvious at §103 without explanation, and the §103 rejections are consistently built on elements found novel at §102 (e.g., stabilizers in claims 3–4, protein concentrate in claims 16–17), with no internal contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's easy_combiner profile (combination_threshold=0.329) is reflected in accepting general-knowledge motivations to combine (e.g., 'common sense and routine optimization' for stabilizers) without requiring specific secondary references, consistent with a low combination threshold, while the moderate strictness (0.502) supports rejecting all claims without leaning toward allowance on ambiguous evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage-level analyses — §102 rejections for claims with explicit prior art disclosure and §103 rejections for claims with novel but routine modifications — with no reversal of prior conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020003527",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12775,
+      "output_tokens": 414,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently applies the correct statutory frameworks: Graham/KSR factors are explicitly laid out for §103 obviousness rejections across all claims, element-by-element analysis is used where anticipation is assessed under §102, and §112 is briefly noted for a terminology objection — no cross-statute confusion is present."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'geographic search parameter,' 'customer filter parameter,' IRR data), specific prior art passages (e.g., 'traveling time between locations' in US-2013268886-A1, 'lead generation subsystem' claim 34 of US-2011258081-A1), and named references supporting each rejection."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For claims 10 and 14, the novelty stage found them novel and non-obvious, but the office action section initially labels them under '102_novelty' rejection basis (even while self-contradictorily withdrawing the rejection within the same paragraph), creating an internal inconsistency between stages that is not cleanly resolved."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's easy_combiner profile (combination_threshold=0.329) is well-reflected: weak or indirect disclosures in prior art are regularly accepted as sufficient motivation to combine (e.g., claim 4 distance/time analogy, claim 11 threshold 'implied' by lead qualification), consistent with a low combination threshold examiner."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject most claims under §103 and suggest amendments for claims 10 and 14 follows directly and consistently from the stage-level analyses, which identified those two claims as non-obvious throughout the novelty and obviousness stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005661",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15010,
+      "output_tokens": 435,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

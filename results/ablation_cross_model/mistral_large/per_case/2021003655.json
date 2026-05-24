@@ -1,0 +1,708 @@
+{
+  "case_id": "2021003655",
+  "proceeding_number": "2021003655",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.6428571428571429,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1 discloses foundational elements of laser additive manufacturing systems, including precise control of scanning motions, synchronization, and actuator-controlled mirrors. The claims recite routine calibration techniques (e.g., delay settings, spatial relationships) that a PHOSITA would apply to the disclosed system without inventive skill. The combination_threshold (0.34) and strictness (0.79) support rejecting these claims as obvious. Confidence levels (0.7-0.85) further reinforce the strength of this rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            16,
+            19,
+            22
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1 explicitly discloses synchronization between scan motion and irradiation source control (Claim 7), optical image storage (Claim 16), automation (Claim 19), and an integrated system for laser additive manufacturing (Claim 22). These elements directly anticipate the claims, leaving no room for novelty. Confidence levels (0.7-0.9) confirm the strength of this rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015375456-A1) explicitly or implicitly discloses all elements of these claims. The combination threshold (0.34) is low, and the BRI (0.73) supports broad interpretation of the prior art. The motivation to combine is clear for a PHOSITA, and no secondary considerations overcome the obviousness determination. Confidence scores (0.75-0.88) further support strong rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            19,
+            22
+          ],
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015375456-A1) explicitly discloses synchronization (Claim 7), automation (Claim 19), and system components (Claim 22). These are direct anticipations with high confidence (0.9-0.92). No ambiguity exists under a textualist interpretation."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            18,
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "The specification lacks definitions for terms like 'skywriting process,' 'jump delay,' and 'run-in motion.' While this creates ambiguity, the claims may be salvageable with amendments. However, strictness (0.88) leans toward rejection unless corrected."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1의 텍스트가 제공되지 않아 명세서의 지원이 확인되지 않으나, 이는 형식적 문제로 볼 수 있으며, 출원인의 보정을 통해 쉽게 해결될 수 있는 사안임. strictness=0.25에 따라 출원인에게 유리하게 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1의 청구항 3이 청구항 7의 '스캔 모션과 조사 소스의 제어 간의 동기화'를 명시적으로 공개하고 있어 신규성 근거가 명확함. 증거가 충분하여 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 동기화 제어를 공개하고 있으나, 이를 레이저 적층 제조의 보정 프로세스에 적용하는 구체적인 동기는 명확하지 않음. 그러나 해당 분야의 공지 기술에 기반한 결합 동기가 존재하며, 통상의 기술자가 쉽게 도출할 수 있다고 판단됨. 근거는 있으나 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1이 청구항의 모든 구성요소를 명시적으로 개시하거나 예측 가능한 변형으로 포함하고 있음. 특히, 지연 설정 교정, 동기화, 자동화된 파라미터 조정 등 핵심 요소들이 직접적으로 언급되어 있으며, confidence 수준이 0.75~0.9로 높음. 선행기술과의 중첩이 명확하여 102 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1의 기술적 맥락에서 해당 분야의 통상의 기술자(PHOSITA)가 예측 가능하게 결합할 수 있는 요소들이 포함됨. 결합 동기(motivation to combine)가 명확하며, Graham 요인 분석에서도 진보성 부족이 확인됨. confidence 수준이 0.8~0.9로 높으며, 103 거절 근거가 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1이 청구항 7의 모든 구성요소를 직접 개시하고 있으며, confidence가 0.92로 높음. 신규성 거절 근거는 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술과의 차이는 있으나, 해당 분야의 통상의 기술자가 공지된 기술을 결합하여 도달할 수 있는 수준임. 결합 동기(motivation to combine)가 존재하며, confidence는 0.7~0.82로 보통 이상. 그러나 strictness=0.82에 따라, moderate 근거도 거절로 유지하는 것이 공익에 부합함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            16,
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 7 and 16 are directly anticipated by REF1's disclosures of synchronization and optical detection, respectively, with high confidence (0.85 and 0.8). Claim 22's system components are disclosed in REF1, but the additional steps (comparing coordinates and adjusting parameters) are not explicitly anticipated. However, the structural overlap is significant, warranting moderate strength for novelty rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 7 and 16 are rejected under 103 with strong evidence. REF1 discloses synchronization and optical detection, and storing optical data electronically or synchronizing scan motion with irradiation control are routine practices in the art. The combination motivation is clear, and the differences are minimal, meeting the combination_threshold (0.46)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "While REF1 discloses the core system components of Claim 22, the additional steps (comparing coordinates and adjusting parameters) are not explicitly disclosed. However, these steps could be considered routine optimizations for a person of ordinary skill in the art, warranting a moderate strength for obviousness rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objections to the title and abstract are formalities and do not impact patentability. The claims are adequately supported by the specification, and no substantive 112 issues are identified."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            6,
+            10,
+            14,
+            15,
+            17,
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015375456-A1과의 결합 동기가 명확하지는 않지만, 해당 분야의 공지기술로 간주될 수 있는 요소들이 포함되어 있습니다. 그러나 청구항별로 구체적인 교정 방법이나 구성이 선행기술에서 명시적으로 개시되지 않았으므로, 통상의 기술자가 쉽게 도출할 수 있는지에 대한 해석의 여지가 있습니다. strictness=0.55를 고려할 때, 근거의 강도가 moderate인 경우 출원인에게 유리하게 판단할 수 있으나, 일부 청구항(2, 3, 6, 10, 14, 15, 19)은 공지기술로 간주될 가능성이 높습니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015375456-A1에서 명시적으로 개시된 내용으로, 청구항 7의 '동기화'와 청구항 16의 '광학 이미지 저장'은 선행기술에 의해 직접적으로 예상됩니다. 근거의 강도가 강하므로 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "시스템 구성 자체는 선행기술에서 개시되지만, '좌표 비교 및 매개변수 조정' 기능은 구체적으로 다루어지지 않았습니다. 그러나 시스템의 자동화 및 제어 기능은 공지기술로 간주될 수 있어 결합 동기가 인정될 가능성이 있습니다. strictness=0.55를 고려할 때, 근거의 강도가 moderate이므로 보정 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1의 Claim 3이 청구항 7의 동기화 구성을 구체적으로 개시하고 있으며, 이는 명백한 선행기술로 작용함. 증거의 강도가 높고, confidence(0.9)도 높아 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 동기화 구성을 명시적으로 개시하고 있으며, PHOSITA가 타이밍 파라미터(예: 지연 설정)를 조정하는 것은 동기화 시스템의 본질적 기능으로 간주됨. 결합 동기(motivation to combine)가 명확하고, confidence(0.9)가 높아 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 레이저 장치, 모니터링 장치, 컴퓨터를 개시하고 있으나, 소프트웨어를 통한 지연 설정 조정 및 좌표 비교 통합은 명시되지 않음. PHOSITA가 이러한 통합을 자명하게 여길 수 있으나, 소프트웨어의 구체적 기능이 선행기술에 부재하여 moderate 강도로 평가. strictness(0.46)를 고려하여 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            22
+          ],
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015375456-A1) explicitly discloses synchronization between scan motion and irradiation source control (Claim 7) and system components (Claim 22). Evidence is clear and direct, leaving no room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            19,
+            20,
+            21
+          ],
+          "strength": "moderate",
+          "reasoning": "Combination motivations are logical and supported by prior art disclosures of scan motion control, delay settings, and standard techniques in laser additive manufacturing. However, some claims (e.g., 17) involve iterative processes or automation that may have minor interpretive flexibility. Given strictness=0.50, these rejections are maintained but with room for applicant argument or amendment."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "weak",
+          "reasoning": "While iterative calibration processes are a logical extension of prior art, the specific step of 'repeating step (a) after adjustments to form a completed object' is not explicitly disclosed. The motivation to combine is less clear, and the claim may benefit from the doubt under strictness=0.50."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375456-A1은 스캐닝 장치 동기화를 공개하지만, 'skywriting process'의 구체적 적용은 명시되지 않았음. 그러나 skywriting이 공지된 기술이라는 점과 combination_threshold (0.44)가 충족된다는 점에서 근거는 있으나, 청구항의 구체적 구성이 선행기술과 완전히 일치하지는 않음. strictness=0.52에 따라 근거는 있으나 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375456-A1은 미러와 액추에이터를 포함한 스캐닝 장치를 공개하지만, 점프/마크/폴리곤 지연 설정의 구체적 교정은 명시되지 않았음. 그러나 이러한 지연 설정은 표준 파라미터로 간주될 수 있으며, combination_threshold가 충족됨. 근거는 있으나 청구항의 구체적 구성이 선행기술과 완전히 일치하지는 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375456-A1은 점프 모션의 기초를 공개하지만, 구체적 교정 방법은 명시되지 않았음. 점프 모션은 표준 파라미터로 간주될 수 있으나, 청구항의 구체적 구성이 선행기술과 완전히 일치하지는 않음. combination_threshold가 충족됨."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 스캐닝 장치와 조사 소스의 동기화를 명시적으로 공개함. 청구항 7의 구성요소와 직접적으로 일치하여 novelty 거절 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "해치 마크, 스캔, 라인은 표준 테스트 패턴으로 간주되지만, 구체적 교정 방법으로의 적용은 명시되지 않았음. combination_threshold가 충족되나, 청구항의 구체적 구성이 선행기술과 완전히 일치하지는 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375456-A1은 동기화 제어를 공개하지만, 레이저 온/오프 지연의 구체적 교정 방법은 명시되지 않았음. 그러나 이러한 지연 설정은 표준 파라미터로 간주될 수 있으며, combination_threshold가 충족됨."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 광학 검출기를 명시적으로 공개하며, 이는 이미지 저장 기능을 암시함. 청구항 16의 구성요소와 직접적으로 일치하여 novelty 거절 근거가 명확함."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            19,
+            20,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 프로세서 기반의 자동화 및 소프트웨어 제어를 명시적으로 공개함. 청구항 19, 20, 21의 구성요소와 직접적으로 일치하여 novelty 거절 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375456-A1은 레이저 적층 제조 장치와 소프트웨어 제어를 공개하지만, 구체적 좌표 비교 및 파라미터 조정 방법은 명시되지 않았음. 그러나 이러한 기능은 표준 프로세스로 간주될 수 있으며, combination_threshold가 충족됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            6,
+            10,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2015375456-A1) discloses foundational elements of laser additive manufacturing systems, including synchronization, laser control, and iterative processes. However, the claims specify routine parameters (e.g., skywriting, jump delay, laser on/off delay) that are not explicitly disclosed in the prior art. While a PHOSITA might recognize the need to calibrate these parameters, the combination motivation is not overwhelmingly strong. Given strictness=0.42, the rejection is maintained but with moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 7 involves synchronization between scan motion and irradiation source control. While the prior art discloses synchronization, the broader calibration method (test patterns, comparison, adjustment) is not fully obvious. The combination motivation is speculative, and the rejection is weak. Given strictness=0.42, this claim may benefit from amendment or further argument."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 7 and 19 are directly anticipated by the prior art (US-2015375456-A1), which discloses synchronization (claim 7) and processor-controlled systems (claim 19). The evidence is clear, and the rejection is strong."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            22
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 22's system structure is disclosed in the prior art, but the novel aspects (comparing coordinates, adjusting parameters) are not. The 102 rejection is weak and should be withdrawn or reclassified as 103."
+        },
+        {
+          "basis": null,
+          "claim_numbers": [
+            1,
+            4,
+            5,
+            8,
+            9,
+            11,
+            12,
+            13,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "These claims recite novel and non-obvious features (e.g., run-in/run-out motion duration, distance calibration, galvanometer drive voltage measurement) not disclosed or suggested by the prior art. The allowability is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 7은 US-2015375456-A1에서 동기화된 스캐닝 제어를 명시적으로 공개하고 있어, 신규성 결여 근거가 명확함. 그러나 진보성 판단에서 이미 103으로 거절되었으므로, 102 근거는 중복으로 간주됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 3, 6, 10, 14, 15, 16, 19, 20, 21, 22는 US-2015375456-A1의 공지된 기술과 결합 동기가 있으나, 일부 청구항(예: 2, 3, 6, 10)은 알려진 기술의 적용으로 볼 여지가 있음. 그러나 결합 동기(confidence ≥ 0.7)와 Graham factors 분석이 합리적이므로 근거는 유효함. strictness=0.52에 따라, moderate 근거라도 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 7은 US-2015375456-A1에서 동기화된 제어를 명시적으로 공개하여 102에 해당하지만, 103으로도 거절 가능함. 그러나 102 근거가 더 명확하므로 103 거절은 상대적으로 약함. strictness=0.52에 따라, weak 근거는 허여/보정으로 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7,
+            16,
+            19,
+            20,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015375456-A1) explicitly discloses all elements of these claims, leaving no room for novelty. Confidence levels (0.9-0.95) are high, and the disclosures are direct matches."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            18,
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "While the prior art does not explicitly disclose these claims, the combination of known elements (e.g., synchronization, melt pool monitoring) with routine optimizations (e.g., delay settings, run-in/run-out motions) meets the combination threshold (0.57). However, the motivation to combine relies on PHOSITA knowledge, which introduces some interpretive flexibility. Confidence levels (0.75-0.85) are moderate."
+        }
+      ]
+    }
+  ]
+}

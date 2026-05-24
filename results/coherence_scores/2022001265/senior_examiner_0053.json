@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently invokes Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) across all obviousness evaluations, and the office action correctly frames rejections under 35 U.S.C. § 103 with motivation-to-combine analysis rather than importing §101 or other statute frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are tied to specific prior art references (US-2020296365-A1 for luma APS/slice-level signaling, US-2013101018-A1 for chroma ALF), with reasoning grounded in identified claim limitations such as 'multiple APS indices for luma,' 'single index for chroma,' and 'only' filter set restrictions."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds claim 1 lacks novelty (is_novel=false, confidence=0.85) based on two-reference combination, yet §103 properly uses a single-reference anticipation approach only to flip to a non-obvious finding for claim 1—the §102 stage incorrectly combined two references to defeat novelty (which is a §103 methodology), creating an internal inconsistency where the same two-reference combination yields 'not novel' at §102 but 'not obvious' at §103 without sufficient reconciliation of this contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.422 (moderate-lenient), the examiner appropriately resolves ambiguous claims (1, 19) with 'amend_suggested' rather than outright rejection, and maintains rejections on clearly obvious dependent claims, reflecting the lenient-to-neutral profile without granting on weak grounds or rejecting without clear evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with decision_score=0.4 follows logically from the accumulated analyses: strong §103 rejections on most dependent claims, moderate obviousness on claims 1 and 19 due to insufficient combination motivation, and the examiner's notes consistently pointing toward amendment as the path to allowance."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 22443,
+      "output_tokens": 525,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

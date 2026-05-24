@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations, motivation to combine) for every claim, and the office action explicitly invokes 35 U.S.C. §103 with no cross-contamination from other statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific prior art references (US-2014121932-A1, US-2014278090-A1, US-2012281091-A1) and maps particular disclosures to specific claim elements, e.g., lateral acceleration control mapped to lateral geo-fence setting in claim 4."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Several claims (e.g., claims 4, 11, 12, 13, 14) were found lacking novelty based on 'implicit' disclosure or 'obvious variations' in the §102 stage—reasoning that conflates novelty and obviousness—yet the §103 stage then repeats essentially the same reasoning without articulating additional rationale for why the §102 finding was insufficient, creating an internal inconsistency in the legal standard applied."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a combination_threshold of 0.222 (very easy combiner) and consistently accepts weak motivations to combine (e.g., 'common design principle,' 'general optimization') across all 19 claims without demanding strong explicit teachings, which is consistent with a low combination threshold archetype."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection of claims 2–20 directly follows from the unanimous §102 and §103 findings across all stages, with the final decision summarizing the same prior art references and reasoning developed throughout, showing no reversal or unexplained deviation."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019000091",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17722,
+      "output_tokens": 440,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

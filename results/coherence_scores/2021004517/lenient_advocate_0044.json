@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) and the office action explicitly invokes 35 U.S.C. §103 with combination references and motivation-to-combine reasoning, as required by KSR/Graham."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim analysis references specific prior art documents (US-2014138818-A1, US-2014199909-A1, US-2013321034-A1) and ties conclusions to specific claim limitations such as '≤0.5 wt% water uptake,' '1mm thickness,' and 'edge termination region.'"
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found non-novel at §102 (e.g., claims 1, 5, 6, 10, 12) are consistently carried forward as obvious at §103 using the same references, and the final decision maintains those same rejections without contradiction; allowed claims at §102 (novel) are uniformly treated as non-obvious at §103."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.248 (lenient) and combination_threshold=0.676 (high bar for combining), the examiner grants 16 of 25 claims outright and only issues §103 rejections on 9 claims while suggesting amendments rather than flat rejections, consistent with a lenient advocate profile that resolves ambiguity in the applicant's favor."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision (amend_suggested for claims 1,5,6,10,12-16; grant for claims 2-4,7-9,11,17-25) directly follows the accumulated §102/§103 stage findings, with the weighing section explicitly citing the examiner's low strictness score as the rationale for favoring amendment over outright rejection."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004517",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18428,
+      "output_tokens": 465,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

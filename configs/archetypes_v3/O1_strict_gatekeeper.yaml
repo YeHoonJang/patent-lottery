@@ -1,0 +1,24 @@
+archetype_name: strict_gatekeeper
+archetype_type: orthogonal
+orthogonal_dimension: strictness
+description: >
+  Orthogonal archetype isolating strictness. High rejection tendency when evidence
+  is ambiguous, all other dimensions at neutral baseline. Tests the pure effect of
+  examination strictness on patent outcomes. [Lemley & Sampat 2012, Frakes 2019]
+base_profile:
+  strictness: 0.85
+  claim_breadth: 0.50
+  combination_threshold: 0.50
+  seniority: 0.50
+  tech_specialization: 0.50
+  policy_stance: 0.50
+  legal_style: pragmatist
+  tech_domains:
+    - general
+noise_config:
+  strictness: 0.05
+  claim_breadth: 0.05
+  combination_threshold: 0.05
+  seniority: 0.05
+  tech_specialization: 0.05
+  policy_stance: 0.02

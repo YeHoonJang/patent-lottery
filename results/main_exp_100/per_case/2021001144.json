@@ -1,0 +1,306 @@
+{
+  "case_id": "PILOT-2021001144",
+  "proceeding_number": "2021001144",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.5714285714285714,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1은 PoE 기반 분산 센서 네트워크에서 전원 및 데이터 전달을 개시하고 있으며, 청구항 2, 4, 5, 6, 7의 핵심 구성요소인 전류 측정 및 고장 진단 기능은 전기 공학 및 안전 중요 네트워크에서 통상적 기술로 간주됨. 총합 전류 측정, 예상 전류와의 비교, 스위칭 시 전류 변화 감지 등의 진단 로직은 공지된 기술 원리에 해당하며, 선행기술과의 결합 동기(motivation to combine)가 명확함. PHOSITA가 이러한 진단 기능을 기존 PoE 아키텍처에 통합하는 것은 예측 가능한 설계 선택으로, 비자명한 기여 없음. 심사관의 strictness=0.79 수준에서 이러한 수준의 결합은 충분히 obvious로 판단될 강도를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1 명확히 공지된 구조적 기반 제공(공유 전력/데이터 경로). 총합 전류 측정 및 고장 진단 로직(전류 변화 없음, 기대값 비교)은 산업 제어 및 안전 시스템에서 통상적 기술. 결합 동기 명확하며, 예상 가능한 결과 산출. combination_threshold=0.34 기준 충족. confidence 점수 0.81~0.85로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The combination references (e.g., US-2014265550-A1) do not teach or suggest the specific diagnostic functions involving summation current measurement via digital data output, nor the fault-triggered disconnection of the entire interface expansion module. The motivation to combine is absent, and the technical differences represent meaningful improvements in fault detection and safety. Given the low combination threshold (0.68) and the lack of teaching, suggestion, or incentive in the prior art, the obviousness challenge is weak under moderate BRI and purposivist interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2014265550-A1은 고장 시 모듈 분리를 명시적으로 개시하지 않지만, 중복 전원 및 데이터 경로를 통한 고장 허용 설계를 제시하므로, 고장 시 모듈을 분리하는 것이 동일한 기술적 목적(신뢰성 향상) 하에 자명하다고 볼 수 있음. 그러나 '전원 공급 입력을 디지털 데이터 출력에 연결'하는 구성과의 결합, 그리고 그 연결선을 통해 고장 시 모듈을 분리한다는 점은 선행기술에서 명확히 암시되지 않아 해석의 여지 있음. combination_threshold=0.72 기준으로는 동기 부족 가능성 있음. 심사관 성향(strictness=0.29)에 따라 출원인에게 유리한 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014265550-A1은 전원 및 데이터를 단일 케이블을 통해 다이어리 체인 방식으로 전달하는 네트워크 시스템을 개시하며, 이는 청구항 2 및 4의 기술적 환경과 유사하다. 총합 전류 측정은 전기 시스템에서 고장 진단 및 연결 확인을 위한 공지된 기술이다. 선행기술에 이러한 진단 기능을 추가하는 것은 안전성과 신뢰성 향상이라는 명확한 동기에 의해 뒷받침되며, PHOSITA에게 예측 가능하고 자명한 개선이다. 결합 동기와 기술적 배경이 명확하므로 근거 강도는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2014265550-A1 discloses a daisy-chained network with power and data delivery over the same cable, forming a foundation for modular expansion. The claimed features—measuring summation current via digital data output, fault detection based on current change during switching, and comparison with expected values—are not explicitly disclosed but represent predictable applications of well-known electrical diagnostic techniques. Given the high relevance of the prior art and the routine nature of current monitoring in safety-critical systems, the combination is strongly supported by common knowledge. Motivation to combine is clear for enhancing reliability, and no secondary considerations rebut obviousness. At strictness=0.82, even moderate evidence would favor rejection; here, the evidence is stronger."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2014265550-A1은 다이시 체인 구조에서 전원 및 데이터 전달을 개시하며, 고장 시 다운스트림 장치를 분리하는 것이 시스템 무결성을 유지하기 위한 일반적인 기술로 암시하고 있음. 그러나 명시적으로 '인터페이스 확장 모듈 전체'를 연결 해제하는 구성은 기재되어 있지 않음. 청구항의 해석을 넓게(breadth=0.79) 적용하고 결합 동기 기준이 낮음(combination_threshold=0.46)을 고려하면, 당업자가 이를 결합할 가능성은 있으나, 그 동기가 명확하지 않아 강한 거절 근거로 보기에는 한계 있음. strictness=0.47인 중립적 성향 하에서, 이는 moderate 수준의 거절 근거로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 7 is identical in scope to claim 6, which constitutes a substantial duplicate. MPEP § 608.01(m) requires that claims not be redundant. The lack of any distinguishing feature in claim 7 creates indefiniteness under 112(b) and fails the written description requirement under 112(a), as it does not correspond to a distinct embodiment. This is a well-established procedural ground and strongly supported."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4–7 depend on claim 3, which was found anticipated under 102. While US-2014265550-A1 discloses power and data delivery over Ethernet cabling, it does not explicitly teach or suggest measuring summation current for diagnostic purposes. However, the Office Action asserts that current measurement is a well-known technique in industrial and automotive networks, and comparing expected vs. measured values or detecting lack of change upon switching constitutes routine practice. This reasoning aligns with a low combination threshold (0.22), allowing obviousness based on common engineering knowledge. Yet, the integration of summation current measurement specifically via the digital data output for load diagnosis in an interface expansion module is not clearly taught, and the diagnostic logic (e.g., detecting fault by no current change upon switching) involves a degree of inventive insight. Given the examiner's moderate strictness (0.46) and balanced policy stance, this constitutes a moderate-strength obviousness rejection—plausible but not conclusive without stronger evidence of motivation to combine."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2014265550-A1 teaches a daisy-chained sensor network with power and data delivery over cables, and fault tolerance through redundancy. While it does not explicitly disclose disconnection of the entire interface expansion module upon fault, the motivation to combine is based on predictable fail-safe design in safety-critical systems. Given the moderate strictness (0.52) and combination threshold (0.44), this represents a reasonable extension of known practices. However, the absence of explicit disclosure of active disconnection introduces some ambiguity, making the obviousness conclusion moderate rather than strong."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 7 recites the same fault detection condition as claim 6 without providing additional support or distinction in the specification. The lack of written description support for a meaningful difference between the two claims constitutes a strong 112(a) issue. Similarly, claim 5's use of 'switching' is not clearly defined in the specification, leading to indefiniteness under 112(b). These are clear deficiencies in claim clarity and specification support."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The duplication between claims 6 and 7 raises a strong written description concern. The specification does not describe two distinct implementations or alternative embodiments that would justify separate claim scope. This lack of descriptive support for claim 7 as distinct from claim 6 is a well-established basis for 112(a) rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'switching' in claim 5 is ambiguous, but the context of interface expansion devices may imply electrical activation. However, without explicit definition in the specification, the ambiguity remains. Given the moderate strictness level (0.42), this would normally lean toward requiring clarification, but not necessarily fatal indefiniteness. Still, as written, the term lacks precise boundaries."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 3 is anticipated by US-2014265550-A1 under BRI, as the reference discloses power and data delivery over a single cable (PoE-like configuration), which inherently involves connecting a supply voltage input to a digital data output. The disconnection during fault is considered an obvious safety extension in redundant systems. However, the explicit integration of fault disconnection via data output is not fully detailed, leaving some interpretive room. Given the moderate similarity score (0.75) and the applicant's emphasis on functional integration, the anticipation is reasonable but not ironclad."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 6 and 7 both depend on claim 4 and recite identical fault detection based on mismatch between measured and expected summation current. The specification does not distinguish the two claims, creating a clear redundancy issue under 112(d). This overlap renders claim 7 indefinite because it fails to further limit the base claim or differentiate from another dependent claim. The issue is structural and supported by the claim set itself, making this a strong 112(b) rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2 and 4 are rejected under 103 based on combining US-2014265550-A1's power-over-data architecture with known current measurement techniques. While the reference discloses power delivery via data lines, it does not teach or suggest summation current measurement for load diagnosis. However, current monitoring for fault detection is a well-known practice in electrical systems, especially in safety-critical domains. Given combination_threshold=0.57 and the pragmatic interpretation of motivation to combine, the rejection is reasonable but not overwhelming. The addition of diagnostic functionality to an existing power-delivery path represents a moderate leap that could be seen as routine optimization. At strictness=0.60, this constitutes a moderate-strength obviousness rejection, subject to applicant response or amendment."
+        }
+      ]
+    }
+  ]
+}

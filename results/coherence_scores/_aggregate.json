@@ -1,0 +1,32 @@
+{
+  "n_traces": 1400,
+  "mean_score": 4.781,
+  "pct_4_or_5_of_5": 97.3,
+  "pct_5_of_5": 81.0,
+  "per_item_pass_rate": {
+    "item1": 99.6,
+    "item2": 100.0,
+    "item3": 83.1,
+    "item4": 98.1,
+    "item5": 97.7
+  },
+  "score_distribution": {
+    "2": 3,
+    "3": 35,
+    "4": 228,
+    "5": 1134
+  },
+  "classification": {
+    "legally_coherent": 1362,
+    "partially_coherent": 38
+  },
+  "judge_model": "claude-sonnet-4-6",
+  "trace_source": "outputs/exp1_full_100/traces (Qwen3-235B-A22B)",
+  "token_usage": {
+    "total_input": 19411273,
+    "total_output": 601023,
+    "cache_reads": 2133313,
+    "cache_creates": 32487,
+    "approx_cost_usd": 61.61
+  }
+}

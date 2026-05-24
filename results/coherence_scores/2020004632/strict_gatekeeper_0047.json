@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) across all §103 obviousness analyses, and correctly uses an element-by-element approach for §102 novelty findings, with no cross-contamination of statutory frameworks."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection references specific prior art documents (e.g., US-2012248924-A1 for π/6 phase displacement and 6th harmonic cancellation, US-2015311758-A1 for double-layer winding and fundamental-in-phase condition, US-2012306422-A1 for automotive application) and ties them to specific claim elements."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings—where claims were found not novel under §102 they are confirmed obvious under §103 on the same grounds, and claim 12 (found novel at §102) is also found non-obvious at §103 without contradiction, maintaining full stage consistency."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner resolves every ambiguity (e.g., 'concentrated winding ≈ single-layer,' mathematical generalization of A=180°/N, implicit in-phase fundamental) toward rejection, consistently reflecting a strict-gatekeeper profile that does not give applicants the benefit of the doubt."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1–11 and 13–19 while allowing claim 12 follows directly and coherently from the accumulated stage-level analyses, with the summary explicitly referencing the examiner's strictness parameter and the stage-by-stage reasoning."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004632",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15076,
+      "output_tokens": 436,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

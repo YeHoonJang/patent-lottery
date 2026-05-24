@@ -1,0 +1,355 @@
+{
+  "case_id": "2021001436",
+  "proceeding_number": "2021001436",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2016183779-A1) explicitly discloses region-based overlay, and US-2015241686-A1 provides image stitching techniques. The combination is motivated by the need for improved microscopy analysis, meeting the combination threshold with clear technical rationale."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'region' lacks specific definition, and 'aligning/overlaying' processes are not sufficiently detailed in the specification. While the prior art mentions region-based overlay, the enablement gap remains under strict interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Clear combination of US-2016183779-A1 (overlay positioning) and US-2015241686-A1 (image stitching) with explicit motivation for PHOSITA to combine them for surgical visualization improvement."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art references provide overlapping technical features but lack explicit guidance on regional alignment integration. Combination motivation is plausible but not definitively supported by the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims use functional language without sufficient structural details, creating ambiguity in implementation steps. Specification deficiencies prevent enablement."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "명확한 선행기술(US-2016183779-A1)이 청구항의 모든 요소를 구체적으로 개시하며 커버리지 점수 0.8 이상으로 신규성 부정이 타당함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합 동기(영역 기반 오버레이 기술 통합)가 명확하지만 커버리지 점수 0.7은 조합 임계값(0.72)을 약간 미달함"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly anticipates all four claims with direct overlap in image capture, overlay generation, and region-based alignment. Confidence scores exceed 0.8, meeting strictness threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art references (US-2016183779-A1 and US-2015241686-A1) directly disclose overlapping/aligning image techniques. The combination threshold (0.51) is met with clear motivation to combine for improved visualization. Confidence (0.7) and coverage scores (0.8) confirm strong anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Ref1 and Ref2 provide explicit teachings for magnified region overlays and alignment techniques. The motivation to combine is clearly tied to improving surgical visualization accuracy, a known challenge in the field. The combination is straightforward and lacks secondary considerations suggesting non-obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 1 is explicitly anticipated by US-2016183779-A1 with a coverage score of 0.75 and explicit match types, indicating clear overlap in disclosed elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2016183779-A1 and US-2015241686-A1 provides a clear motivation to align high/low magnification views for medical imaging, with a confidence score of 0.85."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016183779-A1 explicitly anticipates claim 1's core elements (overlaying high-magnification images onto low-magnification views) and provides clear motivation to combine with alignment techniques from US-2015241686-A1. The Graham factors confirm the obviousness of combining these technologies for multi-scale image visualization."
+        },
+        {
+          "basis": "112(b)",
+          "strength": "moderate",
+          "reasoning": "The enablement objection relates to insufficient detail in the specification to support the claimed invention, but the analysis does not provide specific evidence of inadequacy beyond general assertions."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2016183779-A1) discloses movement-based overlay of magnified surgical areas, which is functionally equivalent to the claimed region-based overlay. While the technical difference (tool movement vs. region positioning) exists, the motivation to combine is clear (improving visualization), and PHOSITA would recognize the modification. Confidence is moderate (0.7)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 1's term 'positioned according to the region of the first level image' lacks explicit support in the specification. The prior art's abstract and claims (e.g., Claim 5) describe movement-based positioning, but no explicit teaching of region-based alignment. This creates a clear written description issue."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2016183779-A1은 청구항 3의 요소를 명시적으로 포함하고 있으며, 결합 동기(motivation to combine)가 명확히 제시됨. 기술적 동기와 결합 가능성에 대한 구체적 근거가 제공되어 강한 거절 근거로 판단됨."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 1은 선행기술이 명시적으로 모든 구성요소를 포함하고 있어 신규성 부재가 명확함. 신뢰도 0.8로 강한 증거가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 12, 14, 39의 'region', 'corresponding region' 등 용어의 모호성은 명세서에서 명확히 정의되지 않아 중립적 판단 필요. 하지만 청구항 자체의 불분명성은 중간 수준의 강도로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art documents (US-2016183779-A1 and US-2015241686-A1) explicitly disclose overlapping features (overlaying magnified images, image stitching, automated processes). The combination is supported by Graham factors, with no significant differences between claims and prior art. Confidence in anticipation (0.7) and explicit coverage (0.85/0.82) indicate strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Ref1 explicitly discloses the core overlay functionality, and Ref2 provides complementary compositing techniques. The combination is logically motivated to improve alignment accuracy, meeting the strictness threshold of 0.52 with high confidence (0.78)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Clear combination of US-2016183779-A1 (region-based overlay) and US-2015241686-A1 (image stitching) with explicit motivation to address workflow inefficiencies. Graham factors fully supported."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks concrete details on 'region-based overlay' implementation and 'illumination differences' despite prior art overlap. Confidence score (0.61) suggests moderate evidence."
+        }
+      ]
+    }
+  ]
+}

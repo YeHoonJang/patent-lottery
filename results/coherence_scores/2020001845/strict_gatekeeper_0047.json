@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis, Graham/KSR factors for §103 obviousness, and claim-specification support for §112 written description, each invoked at the appropriate stage with the correct legal framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language (e.g., 'flowable film,' 'about 300W,' 'about 25:1'), specific prior art disclosures (US-2014213070-A1's Si_xH_y precursors, plasma gases, cure steps), and specification passages (lack of 'about' definition, undefined 'polysilicon precursor')."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 analysis builds consistently on the §102 findings—claims found anticipated under §102 are also rejected under §103 as an alternative ground, and claims found novel under §102 (e.g., claims 6, 7, 8, 9, 10, 16, 17, 18, 20) are either found non-obvious or treated with amendment suggestions, without unexplained reversal."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner resolves most ambiguities toward rejection, applies §112 broadly to 'about' terms, rejects claim 14 under §103 despite acknowledging some speculation ('다소 추측적'), and only suggests allowance for claim 7 where there is a clear technical distinction—consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the accumulated stage analyses: strong §102 findings for claims 1–5, 11–13, 19; moderate §103 for 14–15; strong §112 for claims using 'about' without definition; and only claim 7 identified as allowable, consistent with all prior-stage conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001845",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17451,
+      "output_tokens": 475,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "case_id": "ABL-2018001417",
+  "proceeding_number": "2018001417",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "101",
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "reject_rate": 0.8571428571428571,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015235212-A1은 청구항 2~8의 모든 구성요소를 명시적으로 또는 암시적으로 개시하고 있으며, 특히 gift card(청구항 5) 및 enterprise API 통합(청구항 7)에 대해 구체적인 문헌 기재가 존재함. BRI 원칙 하에서 선행기술과의 중첩이 명확하므로 신규성 결격 근거는 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2015235212-A1과 공지된 보안 기술(예: TLS, 파일 시스템 암호화)의 결합이 자명하며, 결합 동기(motivation to combine)가 명확함. 특히 모바일 결제 환경에서 데이터 보호는 일반적 과제이며, PHOSITA가 해당 기술을 결합하는 것은 설계 선택 수준에 해당함. Graham 요소 전반에서 자명성 근거가 견고함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술과의 명확한 대비 및 결합 동기 존재. US-2015235212-A1은 모바일 결제 데이터 보안 전반을 포괄적으로 개시하고 있으며, 파일 시스템 암호화, 전송 계층 암호화, 외부 참조 시 데이터 보호 등은 모두 해당 기술분야에서 자명한 적용. 기술적 차별점 없음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 4 및 6에 대해 명세서 뒷받침 부족이 명확함. 'referenced outside'의 정의 불명확성은 청구항 범위의 불확정성을 초래하며, 바코드 자체의 암호화는 기술적 모순(스캐너 비호환성)을 유발. 명세서가 이를 해결하는 메커니즘을 기재하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "각 청구항에 대한 진보성 판단은 선행기술의 일반적 개시 내용과 기술적 관행을 기반으로 하며, 대부분의 결합 동기는 PHOSITA의 일반 지식과 보안 목적에 부합하는 방향으로 설명됨. 그러나 일부 주장(예: 청구항 5의 기프트 카드 포함)은 기능적 유사성에 기반한 명백한 치환으로서의 obviousness는 moderate 수준의 강도를 가지며, 청구항 2, 3, 4, 6-8은 보안 아키텍처의 일반적 확장이지만 구체적 통합 방식에 대한 차별점이 충분히 고려되지 않았을 가능성 있음. US-2015235212-A1의 개시 범위가 광범위하여 명확한 anticipation은 아니나, obviousness 판단은 전반적으로 타당하나 엄밀성(strictness=0.25)을 고려하면 일부 약한 요소 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거절 근거는 존재하지만, 일부 주장은 선행기술의 일반적 개시를 바탕으로 한 추론에 기반함. 특히 파일 시스템 암호화, 전송 계층 암호화, 바코드 암호화 등은 보안의 일반 원칙으로 간주될 수 있으나, 본 출원이 지향하는 '애플리케이션 통합 시 보안 노출 방지'라는 기술적 목적에 대한 직접적 반례는 아님. 결합 동기의 강도는 보통 수준(combination_threshold=0.72 대비 낮음)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술과의 명확한 대비가 이루어졌으며, US-2015235212-A1은 모바일 결제 시스템에서의 보안 데이터 저장, 전송, 토큰 처리를 포괄적으로 개시하고 있음. 청구항 2~8의 구성요소는 해당 선행기술에서 암시하거나 개시된 기술의 직접적 변형 또는 결합으로서, 통상의 기술자에게 자명함. 결합 동기(motivation to combine)도 보안 강화라는 공지된 목적 하에 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 거절된 청구항(2-7)에 대해 US-2015235212-A1 및 US-2015302374-A1의 기재와 공지기술을 결합하여 obviousness 판단이 일관되게 이루어졌으며, 각각의 결합 동기가 명확하고 PHOSITA 관점에서 자명한 기술적 결합으로 평가됨. 특히 암호화 관련 기술(파일 저장, 통신 계층, 외부 참조 시 데이터 보호)은 선행기술의 보안 강조와 직접적으로 연결됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2015235212-A1이 핵심 기술 요소를 개시하고 있으며, 결합 동기가 명확하고 통상의 기술 수준에서 자명한 수준의 차이만 존재함. 특히 저장 및 전송 시 암호화, 기프트 카드 통합, API 구성 등은 모바일 결제 시스템에서 통상적으로 적용되는 기술임."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2의 파일 저장소 암호화는 US-2015235212-A1의 안전한 데이터 저장 기재와 직접 연결되며, 모바일 환경에서 데이터 보호를 위한 암호화는 공지된 기술. 근거 명확하고 PHOSITA 수준에서 자명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3의 전송 계층 암호화는 두 선행기술의 결합으로 충분히 예측 가능. US-2015302374-A1의 메시지 전송과 US-2015235212-A1의 보안 라우팅이 결합되어 TLS 등 표준 방식을 사용할 동기를 제공함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 4의 외부 참조 시 데이터 암호화는 US-2015235212-A1이 보안 컨테이너 외부로 데이터 이동 시 보호 필요성을 명시적으로 강조하고 있어 자명한 확장임."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6의 바코드 암호화는 바코드가 지불 데이터 인코딩 수단으로 통상적이라는 점에서 타당하나, '바코드 데이터 자체'의 암호화를 명시적으로 기재하지는 않아 해석의 여지 있음. 그러나 전체 맥락에서 자명하다고 판단 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7의 기업용 API는 US-2015235212-A1의 기업 환경 적용 기재를 근거로 하되, 'API'의 존재를 명시하지는 않음. 그러나 시스템 통합 요구사항 상 자명하다고 보는 것이 일반적."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 8의 디바이스 API는 모바일 장치의 하드웨어 접근(예: NFC, 보안 요소)을 위해 필수적이며, US-2015235212-A1의 구성요소 기재로부터 직접 유추 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 2's encryption of file storage is strongly supported by US-2015235212-A1's disclosure of secure storage of payment tokens with unpredictable authorization data, implying data-at-rest protection. File system encryption in mobile OS is a well-known security practice, and the motivation to combine is clear for securing financial data. Confidence is high (0.8), aligning with strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 3's network transport layer encryption is strongly obvious. US-2015235212-A1 discloses secure routing of payment tokens, and TLS/SSL use in financial data transmission is standard. PHOSITA would recognize this as necessary for secure communication. Motivation is clear, and confidence is 0.75, supporting strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 4's encryption of pass data outside the container is a logical extension of the prior art's use of unpredictable authorization data. While tokenization is used, explicit encryption is not disclosed. However, encrypting sensitive data upon external access is a common security measure. Confidence is 0.7, placing it in moderate range due to slight leap from tokenization to encryption."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6's encryption of gift card barcode is based on analogy to payment token protection. While barcodes are referenceable data, the prior art does not explicitly address them. The extension is reasonable but relies on functional equivalence, making the motivation moderately strong (confidence 0.75), but not unequivocal."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 8's use of device APIs is inherent in mobile systems. US-2015235212-A1's system requires interaction with processors, memory, and communication systems, which are accessed via APIs. This is fundamental to mobile app development. Confidence is 0.8, supporting strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015235212-A1은 모바일 지불 토큰의 보안 저장, 전송, 외부 참조 시 데이터 보호, 기프트 카드 및 바코드 처리, 엔터프라이즈 및 디바이스 API 통합 등을 포괄적으로 개시하고 있으며, 청구항 2-8의 모든 구성요소가 명시되거나 통상의 기술자에 의해 자명하게 도출될 수 있음. 결합 동기가 명확하고, 문헌의 목적과 기술적 방향이 일치함. confidence 점수가 전반적으로 높음(0.75~0.9)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2015235212-A1 및 US-2015302374-A1이 관련 선행기술을 제공하며, 각 차이점이 사소하고 통상의 기술자에게 자명한 확장 또는 공지된 변형으로 간주될 수 있음. 특히 데이터 암호화, API 사용, 기프트 카드 적용 등은 모바일 결제 보안 분야에서 통상적인 기술로, 결합 동기가 명확하고 예측 가능한 결과를 도출함. 신규성 판단에서도 동일한 선행기술에 의해 음부(implication) 또는 명시적 개시로 인해 novelty 결여가 확인됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015235212-A1은 안전한 결제 토큰의 저장 및 전송을 위한 암호화를 명확히 개시하고 있으며, 청구항 2~4, 6~8의 특징들은 이 기술의 직접적이고 명백한 확장 또는 통상적인 보안 관행으로 간주될 수 있음. 결합 동기에 대한 근거가 명확하고, 각 특징이 보안 강화라는 동일한 목적을 달성함. 특히 청구항 8은 장치 식별자 및 위치 정보 사용을 명시하여 device API 접근의 동기를 강화함. 청구항 5의 경우 US-2015302374-A1이 전자화폐를 개시하고 있어, 기프트카드 포함은 통상의 기술자에게 명백함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2015235212-A1과 US-2015302374-A1이 주요 구성요소를 개시하고 있으며, 결합 동기가 명확하고 통상의 기술 수준에서 예측 가능한 기술적 발전으로 판단됨. 특히 보안 암호화, 전송 계층 보호, 기프트 카드 통합, 장치 API 사용 등은 모바일 결제 시스템에서 통상적인 설계 선택으로 간주됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015235212-A1 provides clear disclosure of secure storage and transmission of payment data, and the claimed features (e.g., file system encryption, transport-layer encryption, encryption outside container) represent predictable applications of standard security practices. The motivation to combine is well-supported by the reference's emphasis on protecting sensitive data in mobile environments. Confidence scores range from 0.68 to 0.85, with most above threshold."
+        }
+      ]
+    }
+  ]
+}

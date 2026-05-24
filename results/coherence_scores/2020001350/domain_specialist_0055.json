@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The examiner consistently invokes the Graham/KSR framework for §103 (scope and content, differences, PHOSITA level, secondary considerations) and uses element-by-element anticipation analysis for §102, applying the correct legal tests throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout every claim analysis, the examiner cites specific prior art references (US-2012159647-A1, US-2013144785-A1), maps specific claim elements (realness score, relationship coefficient, activity level, challenge questions) to specific disclosures in those references, and explains why each element is disclosed or suggested."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Claims 1, 11, and 19 were found NOT obvious at the §103 stage with confidence 0.7–0.85, yet the office action and final decision reject all three under §103 without adequately explaining the reversal — the final decision for claim 11 states it is 'obviously an extension' and claim 1 is rejected despite the §103 stage concluding the combination does not render it obvious, creating a direct contradiction without sufficient additional rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.603 and combination_threshold 0.566 (moderate), and the reasoning reflects this balance — rejecting most claims with moderate-confidence prior art support while allowing claims 8 and 18 where no prior art teaching was found, consistent with a moderately strict examiner who does not grant on ambiguous evidence but does allow genuinely novel features."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision follows logically from the accumulated stage analyses: claims found obvious or anticipated in §102/§103 stages are rejected, and claims 8 and 18 (consistently found novel and non-obvious throughout both stages) are indicated as allowable, with the final decision's reasoning echoing the prior-stage findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020001350",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17712,
+      "output_tokens": 465,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

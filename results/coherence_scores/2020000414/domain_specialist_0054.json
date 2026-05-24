@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes §102 anticipation with element-by-element comparison against US-2013196654-A1 and applies Graham/KSR factors (scope, differences, PHOSITA level, secondary considerations) for all §103 rejections, with no statute-switching errors."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection cites specific paragraphs or claims of US-2013196654-A1 (e.g., [0034]-[0037], claim 2, claim 7) and identifies specific claim elements (data/clock mode setting, multiplexing, scrambling) that map to or differ from the prior art disclosure."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty findings for claims 1, 2, 6, 15, 17, 18, 21, 22, 23, 29 are carried forward consistently into the office action and final decision with the same basis, and claims found novel at §102 (e.g., claims 3–5, 7–14) are addressed under §103 without contradicting the novelty findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.52 (moderate), the examiner neither rubber-stamps all claims as allowable nor rejects everything outright; the trace offers 'amend_suggested' for claim 7, provides amendment guidance, and acknowledges limited combination motivation for some claims, consistent with a balanced mid-strictness profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with most claims rejected directly follows from the stage-level analyses: claims found anticipated at §102 are rejected under 102, claims found obvious at §103 are rejected under 103, and claim 7 (found novel and not clearly obvious) is flagged for amendment rather than outright rejection."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000414",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 20344,
+      "output_tokens": 453,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

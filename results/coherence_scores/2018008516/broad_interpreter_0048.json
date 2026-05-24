@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace consistently invokes the Graham/KSR framework for §103, explicitly addressing scope and content of prior art, differences from claimed invention, PHOSITA level, and secondary considerations across all claim analyses, with no misapplication of §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are tied to specific claim language (e.g., 'priority higher than voice traffic,' 'QCI=1,' 'standardized API') and specific prior art disclosures (US-2016140851-A1's flight risk map, blocking function; US-2016274578-A1's authentication system), with element-by-element comparisons."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage consistently builds on the §102 novelty findings — claims found novel (4, 8, 12, 16, 18, 20) receive separate obviousness treatment invoking common knowledge, while claims found non-novel are carried forward as obvious under the same prior art, with no unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.475) and broad interpretation profile are reflected in the reasoning: most claims are rejected as obvious while QCI=1 and standardized API claims are treated with nuance as 'amend_suggested' rather than outright rejection, consistent with a pragmatist examiner who does not strongly resolve ambiguity in either direction."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with mixed reject/amend outcomes flows logically from the stage-level analyses, where most claims were found obvious but QCI=1 and API claims were flagged as having non-obvious potential, directly mirroring the weighing section's 'moderate' strength assessment."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018008516",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15422,
+      "output_tokens": 441,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

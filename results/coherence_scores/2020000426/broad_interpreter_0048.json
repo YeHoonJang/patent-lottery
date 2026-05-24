@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies Graham/KSR factors for §103 claims (scope and content, differences, PHOSITA level, secondary considerations) and element-by-element anticipation analysis for §102 claims (7 and 15), using the appropriate statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "All rejections cite specific prior art references (US-2012250378-A1 and US-2015311795-A1) with specific disclosures mapped to claim elements, such as 'burst-off period as permanently off switching element' for claims 7/15 and 'adaptive threshold adjustment based on pulse count' for claims 2/10."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds claims 4, 12, and 18 novel (no anticipating refs, confidence 0.85), but the obviousness stage immediately rejects them under §103 without providing additional rationale or explaining why the §102 novelty finding doesn't inform the strength of the §103 case, and the office action rejects all 19 claims with no allowable claims, which is internally inconsistent with the novelty findings without adequate bridging explanation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.475 (moderate/lenient), the examiner rejects all claims but consistently acknowledges uncertainty (using 'moderate' strength for numerical limitations and conditional logic claims), which is appropriate for a mid-range strictness examiner rather than applying blanket strong rejections across the board."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly and consistently from the accumulated §102 and §103 stage analyses, with the weighing section explicitly referencing the strength levels and bases established in the novelty and obviousness stages."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000426",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14872,
+      "output_tokens": 434,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

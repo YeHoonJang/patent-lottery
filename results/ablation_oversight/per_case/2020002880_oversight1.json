@@ -1,0 +1,303 @@
+{
+  "case_id": "ABL-2020002880",
+  "proceeding_number": "2020002880",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.21428571428571427,
+  "reject_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1은 메시지 컨텍스트를 기반으로 위치 및 시간 정보를 분석하고 이에 따라 액션을 트리거하는 시스템을 개시하고 있으며, 청구항 2, 3, 4, 5, 8, 9, 10, 12, 13, 14, 15의 기능은 모두 이러한 맥락에서 예측 가능한 확장으로 간주될 수 있음. 특히 위치 기반 필터링, 미래 데이터 요청, 메타데이터 추출, 다중 사용자 역할 구조 등은 모두 선행기술의 핵심 원리에 부합하며, 결합 동기(motivation to combine)가 명확함. combination_threshold=0.34 기준에 비추어도 쉽게 obvious 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The '453 application discloses message parsing, context analysis, location/time extraction, future commitment notifications, and location-based sharing. The claimed features—task-based multimedia requests, filtering by criteria, client-server architecture—are either explicitly disclosed or represent straightforward extensions of the prior art. Motivation to combine is clear: enhancing a messaging platform with structured data provisioning is a logical progression within the field of mobile communication systems. PHOSITA would readily adapt the system to handle multimedia tasks without inventive step. Confidence in obviousness is high across multiple claims, with no unexpected technical result."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 4의 거절 근거는 US-2013226453-A1의 미래 약속에 대한 알림 기능과의 유사성에 기반하며, 기능적 연장선으로서의 동기(motivation to combine)가 존재한다고 판단됨. 그러나 '미래 멀티미디어 데이터 요청'이 단순 알림의 변형인지 여부는 해석의 여지가 있음. 선행기술이 명시적으로 데이터 수집을 유도하지는 않으며, 결합 동기는 목적주의 해석 하에서 간접적임. combination_threshold=0.68 기준으로는 통과되나, strictness=0.25인 관대한 심사관 관점에서 약간의 불확실성이 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거의 모든 거절은 US-2013226453-A1을 기반으로 한 103 obviousness에 근거하며, 핵심은 '명백한 확장' 또는 '설계 선택'이라는 논리임. 그러나 출원의 핵심 기여인 작업 기반 멀티미디어 요청, 가격 모델, 결제 분배, 특정 멀티미디어 유형 명시 등은 선행기술에 없으며, 이러한 요소들이 전체 시스템의 기술적 진보를 구성함. 특히 claims 6, 7, 11은 상업적 모델과 기술적 구현의 통합에서 진보성이 인정됨. combination_threshold=0.72로 비교적 낮은 기준임에도 불구하고, 일부 결합 동기(예: 가격 정보와 위치 기반 메시징)는 명확하지 않음. 따라서 거절 근거는 존재하나, 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1은 메시지 컨텍스트 기반 위치 및 시간 분석을 통한 이벤트 트리거링을 개시하며, 이는 데이터 검색, 필터링, 검증 기능으로 확장 가능하다. 청구항 2, 3, 4, 5, 8, 10, 12는 모두 선행기술의 직접적이고 예측 가능한 응용이며, PHOSITA 수준에서 창의적 사고 없이 실현 가능하다. 특히 'at least one of' 구조의 청구항 5, 위치 기반 이벤트의 청구항 10, 메타데이터 캡처의 청구항 12는 명확한 기술적 대응 관계 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1은 맥락 기반 데이터 처리, 위치/시간 정보 파싱, 메시지 기반 요청, 서버 중심 아키텍처 등을 명시적으로 개시하고 있으며, 청구항 2, 4, 5, 8, 9, 10, 12, 13, 14, 15의 기능들은 이와 동일하거나 자연스러운 확장으로 간주될 수 있음. 결합 동기와 PHOSITA 수준에서의 자명성이 충분히 입증됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013226453-A1 provides foundational disclosure for contextual message analysis involving location and time, which supports obviousness for most claims. However, the reference does not explicitly disclose financial mechanisms or specific multimedia types. For claims 2, 3, 8, 9, 10, 12, 13, 14, and 15, the combination is supported by routine adaptation of known techniques in a PHOSITA's toolkit, but the motivation to combine is not strong for all elements, particularly regarding task-based multimedia retrieval. The confidence in obviousness ranges from 0.65 to 0.85, indicating moderate strength overall. Claims 4 and 5 are anticipated under BRI but borderline, contributing to moderate rather than strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 3, and 11 are rejected under 103 based on US-2013226453-A1. The reference discloses context-based message analysis, location/time filtering, and client-server data exchange. Requesting all or some multimedia data is a predictable variation of known data retrieval systems. Specifying still images and video streams, while not explicit, involves well-known media types in multimedia systems. The motivation to combine is supported by the reference's goal of context-aware information sharing, and PHOSITA would reasonably extend these techniques to task-based multimedia. Confidence in obviousness is high (0.75–0.85), and verification notes confirm logical motivation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 5 is clearly anticipated by US-2013226453-A1, which explicitly discloses location as a criterion. The 'at least one of' language makes this anticipation valid under BRI and moderate strictness. Confidence is high (0.85), and the mapping is direct."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, and 12 contain indefinite terms ('only some', 'future multimedia data', 'metadata elements') that are not defined in the specification. This creates ambiguity in claim scope, satisfying 112(b) indefiniteness standards. MPEP § 2173.05(b) and (a) support these rejections with clear precedent."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 8, 10, 12, 13, 14, and 15 are deemed obvious over US-2013226453-A1. While the reference primarily deals with message context analysis, extending its functionality to task-based multimedia collection is a predictable use of known techniques. The combination threshold (0.22) is low, and motivation to combine is based on common sense in the art. However, some claims (e.g., 12, 13) rely on implicit disclosures, making the strength moderate rather than strong."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1은 메시지 컨텍스트를 기반으로 위치 및 시간 정보를 파싱하여 이벤트를 생성하고 관리하는 시스템을 개시하며, 출원 발명의 핵심 구성 요소인 작업 기반 멀티미디어 데이터 요청, 필터링 기준, 다중 사용자 역할 분담, 클라이언트-서버 아키텍처 등이 선행기술의 직접적 확장 또는 예측 가능한 변형으로 간주됨. 진보성 판단의 confidence가 0.75 이상이며, 결합 동기와 Graham 요소 분석이 일관되게 제시됨. 특히 시스템 구조(claims 13–15), 메타데이터 기반 필터링(claim 8), 부분적 데이터 요청(claim 3) 등은 통상의 기술자가 설계할 수 있는 수준으로, 기술적 진보나 예상 외 효과가 명시되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 4, 5, 8, 10, 12, 13, 14, and 15 are anticipated by US-2013226453-A1 with clear disclosure of core elements such as future event reminders, location/time criteria, metadata validation, geographical filtering, client-server metadata capture, and server-mediated data handling. The reference discloses functional equivalents for all claimed features, supporting strong anticipation under §102."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'future multimedia data' in claim 4 lacks explicit definition in the specification, creating ambiguity about whether it refers to data capture, transmission, or request timing. While not entirely unclear, the absence of clarifying examples or definitions introduces indefiniteness that a PHOSITA might struggle to resolve, warranting a moderate §112 rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 5, 10, and 12 are anticipated under BRI based on US-2013226453-A1's disclosure of location-based context parsing, conditional prompting, and client-server metadata transmission. While the reference does not explicitly disclose multimedia data (e.g., images/video), the architecture and functionality are sufficiently analogous. Given the moderate strictness (0.42), these rejections are maintainable but not strong; a reasonable argument for differentiation exists, particularly in claim 12 where 'multimedia data' implies richer content than mere location metadata."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 3's phrase 'only some of the multimedia data' lacks clear support in the specification regarding selection criteria or mechanism. While the term is broad, the absence of explicit description in [¶0020], [¶0034] raises definiteness concerns under 112(b). However, given common usage in data filtering systems, a PHOSITA might infer reasonable meaning. This is a moderate 112 rejection—valid under strict interpretation but potentially amendable."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1 provides clear disclosure of message-based context analysis for location and time commitments, notification generation, and data sharing. The extension to task-based multimedia data requests, metadata validation, and client-server implementation is supported by explicit teachings and represents predictable innovation in the field. Motivation to combine is well-reasoned based on enhancing data accessibility and user-centric delivery, with high confidence across multiple claims."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1 명확히 메시지 컨텍스트 분석을 통한 위치 및 시간 기반 작업 공유 시스템을 개시하며, 청구항 2, 3, 5, 8, 9, 10, 12, 13, 14, 15의 구성요소 대부분을 기능적으로 포함하거나 명시. 선행기술의 범위 내에서 멀티미디어 데이터 요청, 필터링, 메타데이터 검증, 서버 기반 데이터 관리로의 확장은 통상적 기술자에게 명백하며, 결합 동기 존재. 특히 클라이언트-서버 아키텍처 및 조건부 데이터 처리는 모바일 통신 시스템에서 통상적. confidence 점수 0.8 이상의 진보성 판단 다수, 엄격도 0.60 기준으로 충분히 강한 거절 근거."
+        }
+      ]
+    }
+  ]
+}

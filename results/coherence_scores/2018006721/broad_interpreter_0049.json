@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis for novelty rejections and uses Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 obviousness rejections throughout all stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'displacement of the high-beam edge at a rate depending on the scenario'), specific prior art disclosures from US-2015151669-A1 (e.g., 'configuration position of an illumination unit,' 'vehicle contour'), and element-by-element comparisons throughout the novelty, obviousness, and office action stages."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a notable inconsistency: claims 1, 5, and 9 are found not novel under §102 in the novelty stage, but then found non-obvious (is_obvious: false) under §103 in the obviousness stage — while the office action and final decision still reject them under §102 — without clearly explaining why the same elements that anticipate the claims under §102 do not also render them obvious under §103, creating a logical tension in the intermediate obviousness findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With moderate strictness (0.547) and high claim breadth (0.864), the examiner broadly interprets the prior art disclosures to cover claimed elements and leans toward rejection for most claims, consistent with a broad-interpreter profile, while still finding non-obviousness for claims with the 'movement speed' feature — reflecting a pragmatist balance rather than extreme leniency or strictness."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated stage analyses: §102 rejections for claims 1,3,5,7,9,11 (strong novelty overlap identified in novelty stage and office action) and §103 rejections for claims 2,4,6,8,10,12 (obviousness findings in the obviousness stage), with explicit summary rationale provided."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018006721",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9624,
+      "output_tokens": 505,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

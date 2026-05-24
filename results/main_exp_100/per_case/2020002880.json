@@ -1,0 +1,308 @@
+{
+  "case_id": "PILOT-2020002880",
+  "proceeding_number": "2020002880",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.5,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1 clearly discloses context-aware messaging with location and time analysis, prompting, and data sharing. The claimed features—third-party requests, selective retrieval, future data anticipation, criteria-based filtering, geographic provisioning, metadata capture, and system embodiments—are predictable extensions of the prior art. Motivation to combine is strong given the low combination threshold (0.34) and PHOSITA's knowledge of client-server architectures and data filtering. Even under strict scrutiny, these are routine optimizations in networked systems."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1은 메시지 기반 컨텍스트 분석, 위치/시간 기반 필터링, 미래 약속 알림 생성 등을 명시적으로 공개하고 있으며, 청구항 2, 3, 4, 5, 8, 9, 10, 12의 기능적 확장은 모두 선행기술의 직접적이고 논리적인 연장선상에 있음. 결합 동기(motivation to combine)는 common sense, design choice, 시스템 완전성 향상 등으로 충분히 뒷받침되며, PHOSITA가 자명하게 도달할 수 있는 수준. strictness=0.88인 엄격한 심사관 기준에서도 충분히 강력한 103 거절 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "거절된 청구항들(4,5,9,10,13,14,15)은 선행기술과 유사한 시스템 아키텍처나 기능 확장을 기반으로 하며, 결합 동기는 합리적이지만 반드시 명백하지는 않음. 특히 'multimedia task'라는 새로운 목적을 위해 기존 메시지 기반 시스템을 재구성한 점은 기술적 기여로 볼 여지 있음. strictness=0.25인 관대한 심사 기준에서 이러한 중간 수준의 obviousness 판단은 출원인에게 유리하게 해석될 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 부정 판단이 내려졌으며, 결합 동기의 강도가 combination_threshold=0.72에 미치지 못함 (예: estimated ~0.6 이하). 선행기술인 US-2013226453-A1은 위치 기반 메시징에 국한되어 있어, 작업 기반 멀티미디어 요청, 복합 기준 필터링, 가격 기반 거래 모델, 조건부 데이터 유지, 다자간 결제 시스템 등의 통합적 기능과의 결합 동기가 부족함. 해당 판단은 weak 수준으로, 근거가 추측 기반에 가까우며 명확한 반례 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "대부분의 청구항(4,5,8-15)에 대해 US-2013226453-A1과의 명백한 결합 가능성이 있으며, 모바일 및 서버 기반 시스템의 일반적 기술 발전 방향과 일치함. 특히 클라이언트-서버 아키텍처, 위치/시간 기반 필터링, 멀티미디어 유형 명시는 통상의 기술자에게 자명한 확장으로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 4,5,6,7,9,12에 대해 명세서에서 '향후 멀티미디어 데이터', '가격 정보', '지불 분배', '앱 상호작용', '메타데이터 요소' 등의 핵심 용어가 구체적으로 정의되거나 구현 세부사항이 누락되어 있어 서면 설명 및 실시가능성 요건을 충족하지 못함. 명확성 부족은 심각한 결함으로 간주됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1은 위치 및 시간 기반 메시지 분석, 조건부 이벤트 트리거, 클라이언트-서버 아키텍처, 메타데이터 처리를 명시적으로 개시하고 있으며, 청구항 5, 8, 10, 12, 13, 14, 15의 구성요소는 이와 유사하거나 명백한 변형임. 결합 동기(motivation to combine)가 명확하고, 통상의 기술자도 이를 예견 가능하다고 판단함. 특히 청구항 12~15는 하드웨어 및 소프트웨어 구현 측면에서 공지된 기술의 직접적 적용이므로 강한 obvious 판단 근거가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 4, 5, 8, 10, and 12 are supported by clear teachings in US-2013226453-A1. The reference explicitly discloses parsing messages for time and location, generating reminders for future events, and enabling location-based sharing, which directly supports the claimed concepts of requesting future data, using time/location criteria, validating location, and approving submissions. The motivation to combine is strong and consistent with the prior art’s purpose of context-aware automation and data sharing. These rejections are well-supported and withstand scrutiny under BRI."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Most rejections under 103 rely on broad interpretation (breadth=0.86) and routine adaptation logic. While US-2013226453-A1 discloses location/time-based message parsing and notifications, extending it to task-based multimedia data handling involves functional expansion. The combination motivation is plausible but not compelling for all claims, especially those involving structured workflows or third-party access. At strictness=0.55, moderate confidence in obviousness warrants partial rejection with allowance for distinguishing features."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013226453-A1은 위치 및 시간 기반 데이터 요청, 필터링, 알림 생성, 메시지 기반 작업 분석을 개시하고 있으며, 청구항 2, 3, 5, 8, 9, 10, 12, 14, 15의 구성요소 대부분이 선행기술의 기술적 사상 내에서 자연스럽게 도출 가능함. 특히 클라이언트-서버 아키텍처, 메타데이터 활용, 지리 기반 조건, 소프트웨어 구현 형태는 공지 기술로 간주되며, 결합 동기가 명확하고 결과가 예측 가능함. confidence 값이 0.75 이상으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Office Action에서는 US-2013226453-A1과의 결합을 통해 청구항 2-15의 비자명성을 부정하고 있으나, 신규성 판단에 따르면 핵심 구성요소(작업 기반 다자간 데이터 요청/제공, 가격 정보, 결제 흐름, 조건부 승인 로직 등)가 단일 선행기술에 명시적으로 개시되지 않았으며, 결합 동기의 명확성도 낮음. combination_threshold=0.33으로 결합이 쉬워지는 환경임에도 불구하고, 시스템 아키텍처 차이와 목적의 본질적 차이(1:1 공유 vs. 시장형 플랫폼)가 존재하여 obviousness 판단의 강도가 약화됨. 그러나 Office Action의 근거는 공지기술과의 결합 가능성, 일반적 시스템 설계 관행 등을 제시하여 일정한 설득력을 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.48,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection under 103 relies on predictable extensions of US-2013226453-A1, such as third-party data requests, pricing models, and specific media types. While the prior art supports context-aware messaging and data sharing, the introduction of financial transaction mechanisms (claims 6–7) and explicit multimedia types (claim 11) represents a functional expansion beyond social sharing. These elements are not inherently disclosed, and their integration into a task-based system involves more than routine skill, particularly regarding multi-party payment distribution and media-specific handling. However, given the general trend toward monetized data platforms, a PHOSITA might combine such features with motivation from business needs. The confidence in obviousness is moderate due to plausible but not compelling motivation to combine."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2013226453-A1 discloses message parsing for time and location commitments, extending it to task-based multimedia retrieval involves some design choices. The motivation to combine is reasonable but not compelling for all claims, especially those involving specific multimedia types or financial mechanisms. Given the examiner's moderate strictness (0.42), some obviousness rejections are borderline, particularly where the prior art does not explicitly address multimedia content or pricing."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejections rely on extending a context-aware messaging system (US-2013226453-A1) to support task-based multimedia data handling. While the prior art discloses location, time, and message-based context analysis, it does not explicitly teach multimedia types (e.g., images, video), third-user requests, or pricing mechanisms. The extension to multimedia data and task workflows is plausible under BRI and moderate strictness, but the leap involves functional expansion beyond the reference's core purpose. Motivation to combine is logically supported for claims involving data filtering, geolocation validation, and system architecture (e.g., claims 8–10, 12–15), making those moderately strong. However, for claims involving third-party requests (2, 3) and media specificity (11), the rationale leans more on routine optimization than explicit guidance, resulting in moderate strength overall."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013226453-A1은 메시지 및 위치 기반 공유 기능을 개시하고 있으나, 작업 기반 멀티미디어 데이터 요청 및 처리 시스템으로의 확장은 일부 구성요소에서 자명할 수 있으나, '모든' 또는 '일부' 데이터 요청, 향후 데이터 수집, 조건부 데이터 유지 등은 동일하거나 자명한 변형인지에 대해 해석의 여지가 있음. 특히 청구항 5, 6, 7에서의 'identified second users', 'ownership', 가격 기반 기준 및 결제 분배는 비즈니스 모델 요소로서 기술적 비자명성 여부에 논의의 여지가 있음. combination_threshold=0.57 기준을 고려하더라도, 이러한 상업적 요소의 통합이 통상의 기술자에게 자명하다고 단정하기는 다소 무리가 있음."
+        }
+      ]
+    }
+  ]
+}

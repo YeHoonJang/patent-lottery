@@ -1,0 +1,226 @@
+{
+  "case_id": "PILOT-2019006016",
+  "proceeding_number": "2019006016",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.7857142857142857,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술인 US-2014150923-A1과 공지된 광학 센싱 기술, 유체 역학적 지연 보정, 사용자 인터페이스, 다중 상경계 탐지, 동적 속도 제어, 유지보수 가능한 모듈 설계 등이 결합 가능한 것으로 판단되며, 결합 동기(motivation to combine)가 명확함. 특히 광학 센서를 카뉴라와 샘플링 용기 사이에 배치하여 유체의 광학적 매개변수를 측정하고, 이를 기반으로 제2 위치를 계산하는 것은 유체 경로 지연을 보정하기 위한 루틴 엔지니어링으로 간주됨. PHOSITA 수준, 차이점, 보조적 고려사항 모두 obviousness를 지지함. confidence 값도 0.81~0.9 수준으로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제출된 진보성 판단에 따르면, 선행기술 US-2014150923-A1은 기계적 연결 및 밀봉에 초점을 두고 있으며, 광학 센서 기반의 실시간 상 경계 탐지, 다중 경계 감지, 동적 속도 제어, 사용자 기반 파라미터 입력 등 본 출원의 핵심 구성요소를 개시하거나 암시하지 않는다. 결합 동기(motivation to combine)도 명확히 제시되지 않으며, 통상의 기술자가 이러한 기술을 결합하여 본 발명에 도달했다고 보기 어렵다. combination_threshold=0.68 기준보다 높은 진보성 확신(confidence 평균 0.88 이상)이 존재하므로, 103 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2014150923-A1과 DE-102007003040-B4는 각각 도징 유닛의 정밀 이동/펌프 제어 및 광학적 계면 감지를 명시적으로 개시하고 있으며, 두 기술의 결합은 자동 액체 핸들링 분야에서 공지된 목적(정확한 액체 감지 및 오염 방지)을 달성하기 위한 예측 가능한 조합이다. 광센서를 카누라와 샘플링 컨테이너 사이에 배치하고, 광학 변화 감지 후 속도, 체적, 유량을 기반으로 침투 위치를 계산하는 것은 유체역학 및 운동학의 기본 원리에 기반한 공학적 정제로, 통상의 기술자에게 자명하다. 결합 동기(motivation to combine)가 명확하며, 그 예측 가능성도 높음. 심사관의 엄격한 성향(strictness=0.82)을 고려하더라도 이는 강한 거절 근거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 16 recites 'second predetermined distance' without antecedent basis in the claim or any base claim. The term is not defined in the claim set, and while the specification may describe related concepts, the lack of clear linkage or definition in the claims renders the scope of this limitation indefinite under 35 U.S.C. 112(b). This is a clear and well-established basis for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.91,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious = false로 평가되었으며, 결합 동기(motivation to combine)가 없다고 명시됨. US-2014150923-A1은 실링 구조에 관한 것으로, 광학 센싱, 액체 수위 감지, 또는 운동 기반 위치 계산과 관련이 없음. 해당 기술적 과제(흡입 중 상 경계 침투점 정밀 결정)를 해결하기 위한 동기가 선행기술에 존재하지 않음. 결합 동기 기준(combination_threshold=0.52)보다 높은 엄격도(strictness=0.42)를 고려하더라도, 증거가 부족하여 obvious 판단은 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 'is_obvious = false'로 평가되었으며, 결합 동기(motivation to combine) 부재를 명시함. US-2014150923-A1은 기계적 삽입 및 밀봉에 초점이 있고, 광학 센싱, 유량 제어, 침지 깊이 계산 등은 전혀 개시하지 않음. 선행기술과의 차이가 크고, 기술적 통합에 대한 동기가 명확히 부족하므로 103 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 결합 동기 부족, 선행기술과의 명확한 기술적 격차가 인정되었으며, US-2014150923-A1은 광학 센서, 실시간 피드백, 다중 상경계 탐지, 동적 속도 제어 등을 포함하지 않음. 통상의 기술자가 이러한 기능을 결합할 동기가 부족하다고 판단됨. combination_threshold=0.57 기준보다 높은 진보성 평가됨."
+        }
+      ]
+    }
+  ]
+}

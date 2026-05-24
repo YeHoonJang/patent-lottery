@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 with a single reference, and uses Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103, with no cross-contamination between statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection is tied to specific claim elements (e.g., 'data/clock mode,' 'scrambling mode,' 'SDR/DDR') and the specific disclosure of US-2013196654-A1 (coexistence messages, data interface, multiplexing), with explicit comparison of claimed features against prior art passages."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage does not contradict the §102 stage: claims found novel at §102 (e.g., claims 8–14 on scrambling/clock modes) are then rejected under §103 with additional KSR-style reasoning about known EMI techniques, while claims anticipated at §102 remain on that basis throughout the office action and final decision."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.793 and combination_threshold=0.335, the examiner resolves ambiguous elements (e.g., implied 'acceptable performance level' in claim 3, demultiplexing as inverse of multiplexing) toward rejection and accepts relatively weak motivation to combine (general knowledge of EMI techniques) for §103, consistent with a strict examiner with a low combination threshold."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims (decision_score=0.32) follows directly from the accumulated stage analyses: claims 1–7, 15, 17–18, 21, 23–25, 29–30 rejected under §102 per novelty stage findings, and claims 8–14, 16, 19–22, 26–28 rejected under §103 per obviousness stage findings, with no reversal of direction."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000414",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 19731,
+      "output_tokens": 480,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

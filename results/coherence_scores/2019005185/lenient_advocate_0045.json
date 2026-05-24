@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation analysis under §102 with specific prior art citations, and applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for each §103 analysis throughout the novelty and obviousness stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace are consistently tied to specific claim language (e.g., '20%~30% poloxamer 407,' '64°F~85°F temperature range'), specific prior art claim numbers (e.g., US-2013116210-A1 claims 21, 23, 26, 27), and specific specification passages, satisfying the evidence-linked reasoning requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on §102 novelty findings — claims found not novel at §102 are also rejected as obvious, while claims found novel at §102 (e.g., claims 3, 8, 9, 10, 12, 15, 19, 22) are also found non-obvious, with no contradictions between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's lenient profile (strictness=0.29) and high combination_threshold (0.722) are clearly reflected: ambiguous cases resolve in favor of patentability (e.g., specific concentration ranges, poloxamer L-64 combinations), multiple claims receive 'amend_suggested' rather than outright rejection, and the final decision explicitly acknowledges the 'lenient tendency' (strictness=0.29) as a basis for leaving allowance possibilities open."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' with selective rejections and grants follows directly from the accumulated stage analyses, with rejected claims matching those found obvious and allowed/amended claims matching those found novel and non-obvious across all prior stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005185",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15744,
+      "output_tokens": 468,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

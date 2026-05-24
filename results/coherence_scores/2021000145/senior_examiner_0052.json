@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for every claim, and no wrong statute is invoked anywhere in the trace."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim's obviousness and novelty conclusions are tied to specific disclosures in US-2015245409-A1 (e.g., citing specific paragraphs, claim language such as 'distribute communications via a plurality of the connections,' and explicit MPTCP references), and claim language elements are mapped individually."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage consistently builds on the §102 findings — claims found novel at §102 (3, 7, 10, 14) are also found non-obvious at §103, while claims lacking novelty are found obvious, with no unexplained reversals between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.517 (moderate), the examiner takes a balanced approach — rejecting most claims on §103 grounds but granting claims 3, 7, 10, 14 where the prior art genuinely lacks disclosure, and explicitly invoking the low combination_threshold (0.44) to justify combining elements, which is consistent with the moderate-strictness pragmatist profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject most claims and allow claims 3, 7, 10, 14 follows directly from the accumulated §102/§103 analyses, with the summary and per-claim decisions echoing the stage-level reasoning without any unexplained reversals."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14741,
+      "output_tokens": 400,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

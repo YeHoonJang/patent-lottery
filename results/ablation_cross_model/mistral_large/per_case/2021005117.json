@@ -1,0 +1,569 @@
+{
+  "case_id": "2021005117",
+  "proceeding_number": "2021005117",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.9285714285714286,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2017305402-A1은 청구항 1의 핵심 구성요소(병렬 저항, 스위치, 마이크로컨트롤러 제어)를 명시적으로 개시하지만, 'current monitoring circuitry'는 명시적으로 개시되지 않았습니다. 그러나 심사 철학(strictness=0.79)에 따라 불확실한 요소도 고려하여 거절 근거로 삼을 수 있습니다. 공익 보호형 심사 원칙에 따라, 불확실한 경우 거절하는 것이 타당하나, 명시적 개시가 없으므로 moderate 강도로 평가합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1은 청구항 1, 3, 7, 8, 14, 17, 18의 핵심 구성요소를 명시적으로 개시하거나, 해당 분야의 공지기술(예: 전류 모니터링 회로, 트랜지스터 사용)로 보완 가능합니다. 결합 동기(combination_threshold=0.34)가 명확하며, 통상의 기술자가 쉽게 도달할 수 있는 설계 선택입니다. 따라서 strong 강도로 거절 유지합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            3,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1과의 차이점은 미미하며, 'current monitoring circuitry' (Claim 1)나 'measuring current' (Claim 14)와 같은 요소는 해당 분야에서 공지된 기술로 간주됩니다. 결합 동기(combination_threshold=0.34)가 낮아 쉽게 obvious 판단이 가능하며, 통상의 기술자가 쉽게 채택할 수 있는 설계 선택으로 보입니다. 근거의 confidence가 높고(0.87~0.95), 선행기술과의 중첩이 명확하여 거절 유지에 충분합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            3,
+            7,
+            8,
+            14,
+            17,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2017305402-A1은 청구항의 핵심 구성요소를 명시적으로 개시하고 있으나, 'current monitoring circuitry'와 같은 일부 요소는 명시적으로 언급되지 않았습니다. 그러나 엄격한 심사 기준(strictness=0.88) 하에서 이러한 부재는 신규성 판단에 결정적이지 않으며, 선행기술과의 유사성이 높습니다. 근거의 confidence는 높지만(0.91~0.98), 103_obviousness가 더 강력한 거절 근거로 작용합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            19,
+            20
+          ],
+          "strength": "weak",
+          "reasoning": "이 청구항들은 선행기술에서 발견되지 않는 새로운 구성요소를 포함하고 있으며, 결합 동기가 명확하지 않습니다. 근거의 confidence가 높고(0.85~0.92), 해당 분야에서 공지된 기술로 볼 만한 근거가 부족하여 진보성 판단에 적합하지 않습니다. 따라서 거절 근거로 활용되지 않습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항 3, 7, 8, 17, 18의 모든 구성요소를 명시적으로 개시하고 있음. 특히 트랜지스터를 스위치로 사용하는 구성(청구항 3, 17)과 토우 차량 제동 컨트롤러로부터 입력 신호를 수신하는 구성(청구항 7, 8, 18)은 선행기술과 동일함. 증거가 명확하여 거절 근거 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항 3, 7, 8, 17, 18의 모든 구성요소를 개시하고 있으며, 해당 분야에서 트랜지스터를 스위치로 사용하는 것은 공지된 기술임. 결합 동기(motivation to combine)가 명확하여 자명성 판단 근거 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 (REF1)은 청구항 3, 7, 8, 17, 18의 모든 구성요소를 명시적으로 공개하고 있어, novelty 거절 근거가 명확하고 강합니다. 선행기술과의 일치는 직접적이며, 해석의 여지가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "REF1은 청구항 3, 7, 8, 17, 18의 구성요소를 공지하고 있으며, 해당 분야의 통상의 기술자가 쉽게 도출할 수 있는 수준입니다. 결합 동기도 명확하여, obviousness 거절 근거가 강합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 3, 7, 8, 14, 16, 17, and 18 show substantial overlap with US-2017305402-A1, with differences (e.g., current monitoring circuitry, relays as switches) being well-known in the art. The combination threshold (0.45) and strictness (0.89) support a strong rejection for obviousness. Claims 4, 5, 6, 9, 10, 11, 12, 13, 15, 19, and 20 introduce elements (e.g., temperature sensors, user interfaces) that are standard in the field and would be obvious to a PHOSITA. The evidence and reasoning provided are robust and align with the examiner's strictness level."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2017305402-A1은 청구항 1과 14의 대부분의 구성요소를 개시하고 있으나, 'current monitoring circuitry' 또는 'measuring a current of an input signal' 요소는 명시적으로 개시되지 않았습니다. 그러나 브레이크 통합 회로가 전류 측정을 암시할 수 있으며, 통상의 기술자가 전류 모니터링 기능을 추가하는 것은 공지된 기술의 결합으로 볼 수 있습니다. combination_threshold=0.51에 따라 결합 동기가 인정되지만, 명시적 개시가 없으므로 근거 강도는 moderate입니다. strictness=0.82에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1은 트랜지스터를 스위치로 사용하는 것을 명시적으로 개시하고 있습니다. 트랜지스터는 공지된 스위치 수단이며, 통상의 기술자가 이를 채택하는 것은 자명합니다. 근거 강도는 strong입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            8,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1은 입력 신호가 토우 차량 브레이크 컨트롤러에서 생성되며, 이를 수신하는 기능을 명시적으로 개시하고 있습니다. 이는 공지된 기술이며, 통상의 기술자가 이를 채택하는 것은 자명합니다. 근거 강도는 strong입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2017305402-A1 with common knowledge (current monitoring circuitry) is plausible but not explicitly disclosed. The motivation to combine is logical but relies on PHOSITA's routine design choice, which is debatable. Given strictness=0.47, this leans toward rejection but with room for argument."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            8,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 directly and fully discloses the limitations of these claims. No ambiguity exists, and the evidence is clear. Rejection is warranted."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 1: US-2017305402-A1 discloses most elements but current monitoring circuitry is not explicitly disclosed. The strictness level (0.55) and broad claim interpretation (0.86) suggest a moderate strength for novelty rejection. Claims 3, 7, 8, 17, and 18: These claims are explicitly disclosed in US-2017305402-A1, making the novelty rejection strong for these claims."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 1 and 14: While current monitoring circuitry is not explicitly disclosed in US-2017305402-A1, it is a well-known and routine addition for dynamic feedback control in such systems. The motivation to combine is logical, but the strictness level (0.55) suggests a moderate strength for obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항 1, 7, 8, 14, 17, 18의 핵심 구성요소를 명시적으로 개시하거나 기능적으로 포함하고 있음. 특히, 'current monitoring circuitry'의 경우 명시적 개시는 없지만 제어 루프의 필수 요소로 해석될 수 있어 신규성 판단에서 불리함. 근거의 confidence가 0.85 이상으로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 8, 14의 경우, 'current monitoring circuitry'나 tow-vehicle 입력 신호 수신과 같은 구성요소가 해당 분야에서 공지된 기술로 간주될 수 있으나, 선행기술에서 명시적 결합 동기가 제시되지 않았음. 다만, 통상의 기술자(PHOSITA)가 쉽게 구현할 수 있는 설계 선택으로 해석될 가능성 있음. confidence가 0.8-0.85로 보통 수준이지만, 결합 동기 기준(combination_threshold=0.22)이 낮아 진보성 거절로 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2017305402-A1이 청구항 1, 3, 7, 8, 14, 17, 18의 모든 구성요소를 명시적 또는 암시적으로 개시하고 있으며, 증거의 강도가 높음 (confidence 0.8~0.95). 특히 청구항 3, 7, 8, 17, 18은 명시적 개시가 있어 거절 근거가 명확함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2017305402-A1이 기본 구성을 개시하고 있으나, 'current monitoring circuitry'와 같은 차이점은 해당 기술 분야에서 공지된 기술로 간주됨. 결합 동기는 논리적이지만, 명시적 교시가 부족하여 해석의 여지가 있음 (confidence 0.8~0.9). strictness=0.50에 따라 moderate 근거는 거절로 유지하되, 보정 가능성을 열어둠."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "제공된 정보에서 112 근거는 확인되지 않음. 청구항의 용어는 명확하고 명세서의 뒷받침이 불분명하다는 증거가 없으므로 weak로 평가."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항이 abstract idea에 해당한다는 근거가 없으며, 기술적 구성을 포함하고 있어 101 거절 근거는 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 7, 8, 14, 17, and 18 are directly anticipated by US-2017305402-A1. The prior art explicitly or implicitly discloses all elements of these claims, leaving no room for interpretation. The confidence scores for these rejections are high (0.85-0.95), indicating clear anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 3, 7, 8, 14, 17, and 18 are rejected under 103 based on US-2017305402-A1. While the prior art discloses most elements, the combination of these elements (e.g., adding current monitoring circuitry) relies on the assumption that such additions are well-known in the art. The combination_threshold=0.44 suggests a relatively low bar for obviousness, but the lack of explicit motivation to combine in the prior art introduces some interpretive flexibility. Given strictness=0.52, this leans toward rejection but with room for argument."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "Current monitoring circuitry is a well-known technique, but its implicit disclosure in US-2017305402-A1 is debatable. The combination threshold (0.52) is met, but the strictness level (0.42) suggests a benefit of the doubt to the applicant. However, the motivation to combine is plausible for a PHOSITA."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "Relays as an alternative to transistors are a routine design choice, but the substitution lacks explicit motivation in the cited art. The combination threshold is met, but the strictness level (0.42) may favor the applicant."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Transistors as switches are explicitly disclosed in US-2017305402-A1, leaving no room for patentable distinction. Rejection is warranted."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Receiving a brake control signal from a tow-vehicle brake controller is explicitly disclosed in US-2017305402-A1. No patentable distinction exists, and rejection is warranted."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Current-based control is a routine optimization, but its application in this specific context lacks explicit motivation. The combination threshold is met, but the strictness level (0.42) may favor the applicant."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Relays as an alternative to transistors are a routine design choice, but the substitution lacks explicit motivation in the cited art. The combination threshold is met, but the strictness level (0.42) may favor the applicant."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2017305402-A1 explicitly discloses all elements of these claims (transistors as switches, apparatus adapted to receive brake control signals, and corresponding methods). The prior art directly anticipates these claims with high confidence (0.9-0.95). No interpretation or combination is required, making the 102 rejection strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2017305402-A1) discloses all elements except current monitoring circuitry. While current monitoring is a conventional technique, the motivation to combine it with the disclosed apparatus for dynamic control is logical but not explicitly disclosed. The combination threshold (0.48) is met, but the strictness level (0.52) suggests a moderate rejection, leaning toward requiring further evidence or argument from the applicant."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Similar to Claim 1, the prior art discloses controlling switches based on commands from a data processor, and the addition of current measurement for dynamic control is a predictable use of conventional techniques. The motivation to combine is logical but not explicitly disclosed, making this a moderate rejection under the given strictness level."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 1 and 14 introduce current monitoring circuitry, which is not explicitly disclosed in US-2017305402-A1. However, current monitoring is a well-known technique in the field, and the motivation to combine it with the prior art's resistor-switching mechanism is logical. Given the combination_threshold (0.57) and the examiner's strictness (0.60), this rejection is borderline but leans toward moderate due to the predictable nature of the combination."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            3,
+            7,
+            8,
+            17,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 3, 7, 8, 17, and 18 are explicitly disclosed in US-2017305402-A1. The prior art provides clear and unambiguous disclosure of transistors as switches, input signals from tow-vehicle brake controllers, and apparatus adapted to receive such signals. No interpretation or combination is required, making this a strong rejection."
+        }
+      ]
+    }
+  ]
+}

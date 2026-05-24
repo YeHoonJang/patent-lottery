@@ -1,0 +1,382 @@
+{
+  "case_id": "2015003894",
+  "proceeding_number": "2015003894",
+  "gt_issues": [
+    "102",
+    "112"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.5714285714285714,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.23,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템으로 server-client 통신, 개인화된 데이터 수신/저장/전송 구조를 개시하나, 웹사이트 테마 개인화와는 응용 분야가 상이함. 공지기술 기반 결합 논리는 존재하나(쿠키, 웹 개인화, 피싱 방지), 로그인 전 테마 표시라는 구체적 구현은 선행기술에 명시되지 않음. 결합 동기는 배경기술의 피싱 문제로 설명 가능하나, US '297이 의료 분야라는 점에서 테마 개인화로의 전환이 자명한지는 해석 여지 있음. 다만 쿠키 기반 웹 개인화 자체는 2013년 당시 공지상식이고, combination_threshold=0.34로 낮아 결합 인정 가능. moderate로 평가하되, strictness=0.79(높음)를 고려하여 거절 유지 경향."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012216297-A1은 클라이언트-서버 데이터 개인화 시스템을 명확히 개시하며, 쿠키 기반 웹 개인화는 2013년 출원일 기준 공지기술이다. 선행기술의 '사용자별 데이터 수신/저장/전송' 구조를 '웹사이트 테마'에 적용하는 것은 단순한 응용 분야 변경이며, 로그인 전 개인화 표시는 쿠키를 이용한 pre-authentication customization으로 웹 개발 분야에서 널리 사용되던 기법이다. Graham 요소 분석 결과 차이점은 예측 가능한 변형이고, 결합 동기는 명세서가 제시한 사용자 경험 향상 및 피싱 방지로 명확하다. Combination_threshold=0.34로 낮은 기준을 적용하면 이는 strong obviousness에 해당한다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템으로, 웹사이트 테마 개인화와는 기술 분야가 완전히 다릅니다. 청구항의 핵심 구성요소인 'personalized website theme', 'distinct from standard theme', 'prior to request for identifying data'는 선행기술에 전혀 개시되지 않았습니다. 결합 동기(motivation to combine)가 명확하지 않으며, combination_threshold=0.68 기준으로 볼 때 명시적 교시나 시사가 부족합니다. 두 기술의 목적(피싱 방지/사용자 참여 vs. 의료 데이터 보안)이 근본적으로 다르며, PHOSITA가 의료 시스템으로부터 웹사이트 UI 개인화를 도출할 이유가 없습니다. 진보성 분석에서 모든 청구항이 is_obvious=false로 판단되었으며, confidence 0.75-0.95로 높습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템으로 청구항의 개인화 웹사이트 테마와는 기술 분야가 완전히 다름. Coverage score 0.2는 매우 낮으며, 단순한 서버-클라이언트 통신의 일반적 유사성만 존재. 청구항의 핵심 요소인 개인화 테마, 로그인 전 표시, 피싱 방지 목적 등은 전혀 개시되지 않음. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Graham 4요소 분석 결과 선행기술과 청구항 간 차이가 명확하고 결합 동기가 부재함. 의료 데이터 접근 제어에서 웹사이트 테마 개인화로의 전환은 기술 분야, 목적, 해결 과제가 모두 상이하여 통상의 기술자가 결합할 이유가 없음. combination_threshold=0.72 기준으로 명시적 교시나 시사가 필요하나 이를 충족하지 못함. 피싱 방지라는 2차적 고려사항도 비자명성을 뒷받침. 103 거절 근거 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 개인화 테마의 개념, 표준 테마와의 구별, 로그인 전 표시, 피싱 방지 목적을 명확히 설명함. '데이터 세트', '표시(indicium)', 쿠키 등 기술 용어는 표준적이며 구체적 실시예가 제공됨. 통상의 기술자가 과도한 실험 없이 발명을 실시 가능. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 웹 보안 및 사용자 인터페이스 시스템의 기술적 개선을 구체적 기술 수단(서버-클라이언트 아키텍처, 데이터 전송, 테마 렌더링)으로 구현함. 추상적 아이디어가 아닌 표준화된 웹사이트의 피싱 취약성이라는 기술적 문제에 대한 구체적 기술 해결책. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012216297-A1 teaches comprehensive server-client architecture for personalized data delivery with individual identifiers, storage, and controlled access. The claimed invention applies this architecture to website theme personalization. The obviousness analysis demonstrates: (1) Clear motivation to combine from specification's explicit phishing problem statement ('fake websites look the same'), (2) Common general knowledge of cookies and website personalization was well-established by 2013, (3) Predictable substitution of medical data with theme data represents obvious application of known technique to analogous problem, (4) All implementation details (cookies, client/server storage, foreground/background imagery, code formats) were standard web development practice. The Graham factors strongly support obviousness: prior art scope is comprehensive, differences are application domain and routine choices, PHOSITA level is appropriate, no secondary considerations evident. The combination threshold (0.45) is easily exceeded - this represents straightforward adaptation of disclosed personalization system to different content type with predictable results."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템으로서 서버-클라이언트 구조, 사용자별 데이터 저장 및 접근 제어를 개시합니다. 그러나 'personalized website theme'이라는 구체적 개념은 개시되어 있지 않습니다. 거절 근거는 '공지상식(common general knowledge)'에 크게 의존하고 있습니다: (1) 2013년 시점에 쿠키를 이용한 웹사이트 개인화가 공지되어 있었다는 점, (2) 피싱 방지를 위해 로그인 전 개인화된 요소를 표시하는 것이 알려져 있었다는 점. 이러한 공지상식 주장은 일정 부분 타당하나, 구체적인 선행기술 문헌이 제시되지 않았습니다. 결합 동기는 '피싱 방지'와 '사용자 경험 개선'이라는 공지된 과제 해결이며, 이는 설득력이 있습니다. 그러나 선행기술이 의료 데이터 분야이고 청구항이 웹사이트 테마 분야인 점에서 기술 분야의 차이가 존재합니다. Coverage_score가 0.2로 매우 낮다는 점도 고려해야 합니다. 종합하면, 103 거절은 합리적인 근거를 가지고 있으나, 공지상식에 대한 의존도가 높고 구체적 문헌 증거가 부족하여 'moderate' 강도로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템으로, 웹사이트 개인화 테마와는 기술 분야가 완전히 상이합니다. 청구항의 핵심 구성요소인 'personalized website theme', 'indicium indicating the personalized website theme', 'displays the website according to the personalized website theme at least prior to a request for identifying data'가 선행기술에 전혀 개시되지 않았습니다. 102 거절 근거가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 의료 데이터 관리에 한정되어 있고, 웹사이트 테마 개인화 및 피싱 방지라는 본 출원의 핵심 개념에 대한 교시나 시사가 전혀 없습니다. 결합 동기(motivation to combine)가 부재하며, 두 기술의 목적과 구현 방식이 근본적으로 다릅니다. 본 발명은 피싱 공격 방지라는 장기간 해결되지 않았던 기술적 문제를 해결하는 것으로, 103 거절 근거가 없습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 모든 청구항 한정사항에 대한 충분한 기재를 제공합니다. 청구항 31의 형식적 불일치(preamble에서 'method'라고 기재했으나 claim 27은 system)는 objection 사항일 뿐, 거절 수준의 문제가 아닙니다. 청구항의 의미는 문맥상 명확하며, 112 거절 근거가 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 구체적인 기술적 구현(컴퓨터 시스템, 서버, 전송 모듈, 데이터 처리)을 기재하고 있으며, 피싱 공격 방지라는 실용적 적용을 달성합니다. 추상적 아이디어가 아닌 구체적인 기술적 솔루션에 관한 것으로, 101 거절 근거가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 모든 청구항이 is_novel=true로 평가되었으며, 선행기술 US-2012216297-A1은 의료 데이터 관리 시스템으로 기술 분야가 상이하고 핵심 구성요소인 'personalized website theme', 'prior to login display', 'indicium' 등이 개시되지 않았음. Coverage scores가 0.2-0.4 범위로 낮아 anticipation 근거 없음. Confidence도 0.82-0.92로 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항이 is_obvious=false로 평가됨. Graham 4요소 분석 결과 선행기술과 청구항 간 기술 분야(의료 데이터 관리 vs 웹사이트 UI 개인화), 해결 과제(데이터 관리 vs 피싱 방지/사용자 경험), 핵심 구성(데이터 저장/전송 vs 테마 개인화/시각적 표시)에서 본질적 차이 존재. Combination_threshold=0.55 기준으로 명시적 결합 동기가 필요하나, 의료 시스템을 웹 테마 시스템으로 전환할 교시나 시사 전혀 없음. 명세서에 명시된 피싱 방지 목적은 선행기술에 제시되지 않은 창의적 해결책임."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Office Action에서 claim 31의 preamble에 clerical error만 objection으로 제시됨('method'를 'system'으로 수정). 이는 112 거절이 아닌 형식적 objection이며 특허성에 영향 없음. 다른 청구항에 대한 112 이슈는 발견되지 않음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "101 거절 근거가 제시되지 않음. 청구항들은 컴퓨터 시스템, 서버, 클라이언트 구조를 포함한 구체적 기술 구현을 청구하며, abstract idea로 판단할 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012216297-A1은 의료 데이터 관리 시스템으로, 청구항이 요구하는 personalized website theme 수신, theme indicium 전송, 로그인 전 개인화된 웹사이트 표시 구성요소를 전혀 개시하지 않습니다. 선행기술과 청구항 간 기술 분야가 명확히 상이하며, 매핑 결과도 핵심 구성요소(element 1c, 1f 등)의 coverage_score가 0.0으로 나타났습니다. 신규성 결여 근거가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 의료 데이터 관리 분야로 웹사이트 테마 개인화와 기술 분야가 상이합니다. 로그인 전 개인화된 테마 표시를 통한 피싱 방지는 선행기술에서 제시되지 않은 비자명한 해결책입니다. 통상의 기술자가 의료 데이터 시스템으로부터 웹사이트 테마 개인화 시스템을 도출할 동기가 없으며, 결합의 동기가 명확하지 않습니다. 자명성 근거가 매우 약합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claim 13과 31의 형식적 objection(antecedent basis, categorical mismatch)이 있으나, 이는 명세서의 written description 문제가 아닌 청구항 형식 문제입니다. 실질적인 112 위반 근거는 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 컴퓨터 기능 개선 및 피싱 방지라는 구체적 기술적 문제 해결에 관한 것으로, abstract idea에 해당하지 않습니다. 101 거절 근거가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012216297-A1은 의료 데이터 관리 시스템으로, personalized website theme이라는 핵심 개념을 전혀 개시하지 않습니다. Coverage scores가 0.2-0.4로 anticipation 기준(통상 0.8-0.9 이상)에 크게 미달하며, 핵심 요소들(personalized theme distinct from standard theme, display prior to login request)이 매핑되지 않았습니다. 기술 분야(의료 vs 웹)가 상이하고, 해결 과제(의료 데이터 관리 vs phishing 방지)가 다릅니다. 신규성 인정 근거가 강력합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 클라이언트-서버 통신, 데이터 저장/전송의 일반 구조를 개시하지만, personalized website theme을 로그인 전 표시하여 phishing을 방지한다는 핵심 개념으로의 결합 동기가 명확하지 않습니다. Graham 요소 분석에서 기술 분야 차이, 해결 과제 차이, secondary considerations(long-felt need for phishing prevention)가 비자명성을 지지합니다. 그러나 웹 기술 분야에서 사용자 개인화와 cookie 사용은 공지된 개념이므로, 일부 구성요소(특히 cookie, client/server storage)는 routine implementation으로 볼 여지가 있습니다. Combination_threshold=0.33을 고려하면, 전체적으로는 비자명하나 일부 종속항(cookie, storage location 관련)은 경계선상에 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 personalized website theme, phishing prevention, pre-login display 개념을 충분히 설명하고 있으며, 구체적 구현(cookie, imagery, client/server storage)도 언급되거나 통상의 기술자가 이해 가능한 수준입니다. 'Set of data', 'indicium' 등의 용어는 broad하나 명세서 맥락에서 이해 가능합니다. 112 거절 근거는 약합니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들이 computer-implemented processes이나, abstract idea에 해당하지 않거나 Alice/Mayo step 2에서 significantly more를 제공합니다. Phishing 방지라는 구체적 기술 문제 해결, 특정 시스템/방법 구성(pre-login theme display, cookie mechanism)이 inventive concept을 제공합니다. 101 거절 근거는 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art US-2012216297-A1 operates in a completely different technical field (medical data management vs. website personalization). Coverage analysis shows only 0.25 coverage for independent claims with critical elements missing: personalized website theme reception, theme indicium transmission, and pre-authentication theme display. No anticipation exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While US-2012216297-A1 discloses server-client architecture and data storage, it provides no teaching, suggestion, or motivation to combine these with website theme personalization. The technical fields are too distant (medical device management vs. website UI), the problems addressed are fundamentally different (medical data access control vs. phishing prevention through visual personalization), and there is no explicit or implicit suggestion in the prior art to apply its methods to website appearance customization. Even with combination_threshold=0.44 allowing broad combinations, the gap between medical data systems and website personalization is too large. The specification identifies a specific problem (phishing attacks exploiting standardized websites) that the prior art does not address or suggest solving through visual customization."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification adequately describes personalized website themes, implementation mechanisms (cookies, data sets, code), timing of display (prior to login), visual elements (foreground/background imagery), and client/server-side storage. All claim terms are sufficiently supported and would be understood by PHOSITA. Only objections are formal dependency errors in claims 13 and 31, which do not affect substantive patentability."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "Claims are directed to a specific technical solution (personalized theme display before authentication) that improves computer functionality and security. They include specific technical elements integrating the improvement into a practical application. Under Alice/Mayo, the claims satisfy eligibility requirements."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claims 6, 10, 13, 16, 17, 18, 24, 25, 26, 29, 30, 31 relies on combining US-2012216297-A1 (medical data management) with common general knowledge in web development (cookies, client/server storage). While the base claims are acknowledged as non-obvious, the dependent claims are rejected for adding only conventional implementation details. The strength is moderate because: (1) The cited reference is in a different technical field (medical informatics vs. web security), reducing direct applicability; (2) The rejection relies heavily on 'common general knowledge' without specific documentary evidence for cookies/storage in the anti-phishing personalization context; (3) However, cookies and client/server storage are indeed well-established in web development, making this a predictable implementation choice per KSR principles; (4) The dependent claims do add only implementation details without inventive contribution beyond the base claims. The rejection has merit but depends on accepting that routine engineering choices (cookies, storage location) are obvious even when applied to a non-obvious base system."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The prior art US-2012216297-A1 operates in a fundamentally different technical domain (medical data management vs. website personalization). The novelty analysis correctly identifies that none of the claim elements are disclosed in the prior art. The coverage scores are very low (0.15-0.25), indicating only generic client-server architecture similarities. No anticipation exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The obviousness analysis correctly identifies the lack of motivation to combine. The prior art addresses medical data security, while the claims address website personalization for anti-phishing. These are distinct technical problems in different fields. A PHOSITA would not be motivated to apply medical data management concepts to website theme personalization. The Graham factors analysis shows substantial differences. While client-server architecture and data storage are known concepts, their specific application to pre-login theme personalization for anti-phishing purposes represents non-obvious insight not suggested by the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The Office Action correctly finds no § 112 rejection. The specification adequately describes the invention's purpose, operation, and implementation. Terms like 'personalized website theme,' 'indicium,' and 'set of code' are used consistently and would be understood by PHOSITA. The only objection is a formal dependency error in claim 31, which is a correctable formality, not a substantive § 112 issue."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "The claims recite specific technological implementations (servers, transmission modules, cookies, theme display mechanisms) that address the technical problem of phishing attacks. The claims are not directed to abstract ideas but to concrete technical systems and methods. No Alice/Mayo issues are present."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 31 explicitly recites 'The method of claim 27' while claim 27 is clearly directed to 'A system comprising...'. This is a concrete, verifiable category mismatch that creates indefiniteness under 35 U.S.C. § 112(b). The specification confirms claim 27 is a system claim, making this a definite structural error, not speculative ambiguity. This violates Nautilus standard as one skilled in the art cannot determine the claim scope with reasonable certainty when a method claim improperly depends from a system claim. This is a formal defect with strong evidence from the claim language itself."
+        }
+      ]
+    }
+  ]
+}

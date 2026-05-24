@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 claims and invokes 35 U.S.C. §112(b) indefiniteness for the written description rejections, with no statute-mixing observed."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection references specific claim language (e.g., 'machine-readable pay code,' 'QR barcode,' 'shipping details'), specific prior art disclosures from US-2012296725-A1 (merchant identifier tags, preferred payment options, product scan data), and specific specification passages for §112 issues (QR-NFC contradiction, cross-category dependency, grammatical error)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims 4, 6, and 8 were found novel at §102 but then rejected under §103 with additional rationale explaining why they are still obvious (e.g., QR codes as known 2D barcode substitution, product attributes as standard e-commerce UI, shipping as routine e-commerce extension), avoiding contradiction with the §102 novelty findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves ambiguous cases toward rejection—notably pushing claim 8 (where the obviousness analysis acknowledged 'slight interpretation room') to rejection, and claim 6 with explicit note 'strictness=0.82에 따라 거절 유지,' consistent with a strict-gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims flows directly from the accumulated stage analyses: strong §103 rejection for most claims based on US-2012296725-A1, moderate §103 for claims 6 and 8 with stated rationale for override, and clear §112(b) findings for claims 13, 22, 37, 42, and 44, with no unexplained reversal of prior conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018002356",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12897,
+      "output_tokens": 484,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

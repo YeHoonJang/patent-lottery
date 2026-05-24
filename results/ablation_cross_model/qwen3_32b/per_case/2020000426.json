@@ -1,0 +1,369 @@
+{
+  "case_id": "2020000426",
+  "proceeding_number": "2020000426",
+  "gt_issues": [
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2015311795-A1 and US-2012250378-A1 provides a reasonable basis for the obviousness rejection, but the specific application to LLC converters with primary-side burst mode control introduces some distinction from the prior art. The motivation to combine is present, but the application to a specific converter type may require further consideration."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1은 청구항 1, 3, 5, 6, 7, 9, 11, 13, 14, 15, 16, 17의 구성요소와 직접적으로 일치하며, 신규성 부정의 강한 근거가 됩니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015311795-A1은 청구항 2, 10의 구성요소와 일치하며, 신규성 부정의 강한 근거가 됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2015311795-A1과 US-2012250378-A1의 결합은 청구항 4, 12, 18의 진보성 부정을 위한 설계 선택을 제시하지만, 특정 백분율 설정은 통상의 기술자에게 자명한 변형으로 간주될 수 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 8, 19의 구체적인 구성 요소에 대한 명세서 설명이 부족하여 112 조항 위배의 강한 근거가 됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2012250378-A1 and US-2015311795-A1 provides a logical basis for the obviousness rejection. While the references individually teach relevant elements, the combination requires some interpretation to apply these teachings to an LLC converter. Given the strictness level of 0.25, which favors the applicant when evidence is moderate, the rejection is not as strong as it could be."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections are based on prior art references US-2012250378-A1 and US-2015311795-A1, which disclose similar control mechanisms for switching converters in burst mode. While the prior art teaches the general concept of adjusting off-time based on current thresholds, the specific implementations in the claims (e.g., primary side control, target current-based thresholds) are not explicitly taught. The motivation to combine the references is reasonable, but the specific differences in the claimed methods and configurations suggest that the rejection is moderate in strength."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1,3,5,6,7,8,9,11,13,14,15,16,17,19 are rejected based on a clear combination of US-2012250378-A1 and US-2015311795-A1 with explicit motivation to simplify design and improve efficiency. Confidence (0.7-0.85) and Graham factors support strong obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2,10 rely on US-2015311795-A1 alone, with confidence (0.75) and a reasonable inference that pulse-count-based thresholds are an obvious variant of target-current-based thresholds. Motivation is present but less explicit than combined references."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 4,12,18 are rejected for specific threshold values (50%/75%) not disclosed in prior art. While the general concept of adjusting thresholds is taught, selecting these values requires additional guidance not provided. Confidence (0.6) and lack of direct prior art support weaken the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The cited references US-2015311795-A1 and US-2012250378-A1 explicitly disclose the claimed features of adjusting thresholds based on target current parameters and controlling off-time in switching converters. The confidence level for these rejections is high, indicating strong evidence of anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the combination of US-2015311795-A1 and US-2012250378-A1 suggests the claimed invention, the specific application to an LLC converter with primary-side monitoring is not explicitly taught. The motivation to combine is present, but the novelty in the application context may affect the strength of the obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012250378-A1이 청구항의 주요 요소를 개시하고 있으며, 전류 모니터링이 포함되어 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 결합이 통상의 기술자에게 자명하지만, 결합 동기가 명확히 제시됨"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서의 모호성이 존재하지만, 일부 청구항은 구체적인 구현 정보를 포함하고 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 9, 16 have high confidence (0.75) in the combination of prior art references and clear motivation to combine, making the obviousness rejections strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3, 5, 6, 10, 11, 13, 14, 17, 19 have moderate confidence (0.7) in the combination of prior art references and logical motivation to combine, but some details require closer scrutiny."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 7, 8, 15 have lower confidence (0.6) in the combination of prior art references. While the prior art teaches similar concepts, the direct applicability to the specific claim limitations is less certain."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 4, 12, 18 are not anticipated by the prior art (is_novel: true), but the Office Action incorrectly lists them under 102. Their novelty is supported, and the prior art does not explicitly disclose the specific numerical thresholds (50% and 75% of target current)."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2012250378-A1 and US-2015311795-A1 provides a clear motivation to adjust off-time based on primary side current thresholds in LLC converters. The confidence (0.75) and Graham factors indicate routine design choices, making the rejection strong."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015311795-A1 clearly anticipates the core elements of the claims including primary-side current monitoring and threshold-based off-time adjustment. The reference explicitly teaches all the claimed features for most claims, making these rejections strong."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections for claims 4, 12, and 18 rely on the combination of US-2015311795-A1 and US-2012250378-A1. While the references teach related concepts, the specific threshold percentages (50% and 75% of target current) are not explicitly disclosed. The motivation to combine is reasonable (optimizing efficiency), but the application of specific numerical values requires some level of design choice. Given my strictness level of 0.50, I would consider these rejections as moderate in strength."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015311795-A1이 청구항 1, 3, 6, 9, 13, 16의 모든 요소를 명확히 개시하고 있으며, verification_status가 PASS로 확인됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2015311795-A1과 US-2012250378-A1의 결합이 동기(motivation)와 기술적 연관성이 명확히 제시되어 있으나, 청구항 2, 5, 10, 12, 17, 18, 4, 7, 8, 11, 14, 15, 19의 구체적 특징이 선행기술과의 차이가 다소 미묘하여 해석의 여지가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of '250378 and '311795 provides a reasonable basis for the obviousness rejections, but the specific implementation details in the claims may require further consideration. The motivation to combine is present, but the strength of the rejection varies across claims."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 obviousness rejections are based on combinations of prior art references. The motivation to combine and the predictable results are reasonably clear, but there is some interpretation involved in determining the obviousness. Given the strictness of 0.60, these moderate rejections are considered sufficient for rejection."
+        }
+      ]
+    }
+  ]
+}

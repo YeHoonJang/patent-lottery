@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently invokes Graham factors (scope/content of prior art, differences, PHOSITA level, secondary considerations) and applies KSR-style obviousness reasoning, correctly using the §103 framework rather than any misapplied statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific claim language elements (e.g., 'automatically scheduling closing actions,' 'generating dynamic workflow,' 'escrow agent,' 'geographic location') and maps them to specific disclosed modules in US-2014143129-A1."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage found all 20 claims not novel (anticipation), but the §103 stage then re-analyzes the same claims under obviousness without acknowledging the tension between finding full anticipation at §102 and then conducting a separate obviousness analysis—the final rejection proceeds solely on §103 without explanation for why §102 anticipation was not used as the rejection basis."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has combination_threshold of 0.329 (easy combiner) and consistently accepts weak motivations to combine (e.g., 'design choice,' 'general knowledge,' 'obvious extension'), which aligns with the low combination threshold profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims under §103 follows directly and consistently from the obviousness analyses conducted at each prior stage, with the final weighing summarizing the same reasoning applied throughout."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017011221",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14801,
+      "output_tokens": 372,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

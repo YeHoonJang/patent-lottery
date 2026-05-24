@@ -1,0 +1,338 @@
+{
+  "case_id": "PILOT-2021003655",
+  "proceeding_number": "2021003655",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.5714285714285714,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1 teaches synchronized control of scanning and irradiation, which directly relates to timing and coordination in laser additive manufacturing. The claimed parameters—such as run-in, run-out, jump delay, and laser on/off delay—are standard in galvanometer-based laser systems and relate to well-known sources of error in scan accuracy. PHOSITA would be motivated to optimize these parameters to improve feature fidelity and thermal control, especially given the reference’s focus on precise melt pool management. The motivation to combine is internal to the reference, and no secondary considerations (e.g., unexpected results) are presented. Thus, the obviousness rejection is strong."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 7, 16, 19, and 22 are clearly anticipated by US-2015375456-A1. The reference explicitly discloses synchronized control (claim 7), electronic storage of optical images (claim 16), automated process execution (claim 19), and the full system configuration with adjustment capability (claim 22). These are not speculative interpretations but direct disclosures under BRI, supported by high-confidence reasoning (0.85–0.9)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2–6, 8–13, and 17 are obvious over US-2015375456-A1. Although not explicitly named, skywriting, jump/run-in/run-out motions, delay settings, hatch-contour spacing, and post-adjustment repetition are inherent or routine in laser scanning systems. The prior art teaches synchronized control and melt pool monitoring, providing a clear motivation to calibrate all scan phases for geometric and thermal consistency. PHOSITA would recognize these as standard optimization techniques, not inventive leaps."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 18 fails to meet written description requirement. The specification does not explain how galvanometer drive voltage correlates to the 'first characteristic' (e.g., scan position or timing). Without a disclosed relationship or algorithm, the claim exceeds the scope of what the inventor has demonstrated possession of. This is a substantive 112(a) deficiency, not mere ambiguity."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection relies on the argument that timing and motion parameter optimizations (e.g., run-in/run-out duration, laser on/off delay) are routine improvements. While the prior art provides a foundation for synchronized control and melt pool monitoring, it does not explicitly teach or suggest calibrating these specific parameters in the claimed context. The motivation to combine is plausible but not strongly supported by explicit teachings, making the obviousness assertion moderately strong but open to purposivist interpretation emphasizing technical contribution."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 문헌 US-2015375456-A1이 청구항 6, 7, 10, 14-17, 19-22의 모든 구성요소를 단일 문헌에서 명시적으로 개시하고 있으며, verification_status가 'PASS'로 확인됨. 신규성 결격 사유로서 근거가 명확하고 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 레이저 스캐닝, 동기화 제어, 패턴 형성, 자동화 시스템을 명시적으로 개시하고 있으며, 청구항 2, 3, 6, 7, 10, 16, 19, 20, 21, 22의 구성요소들이 이와 실질적으로 동일하거나 통상의 기술자에게 자명한 설계 선택으로 간주됨. 결합 동기(motivation to combine)는 정밀도 향상이라는 공통 기술 목적에서 명확하며, reasonable expectation of success 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art US-2015375456-A1 explicitly discloses a processor-controlled, synchronized scanning system for laser additive manufacturing, including control of scan motions (run-in, run-out, jump), timing delays, and optical monitoring. The claimed calibration methods represent routine optimizations of known parameters to achieve well-known goals such as improved dimensional accuracy and reduced thermal defects. The motivation to combine is clear and supported by the reference's own objectives. Confidence in obviousness is high across most claims, especially for automation, software control, and delay adjustments."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "The Office Action's 102 rejections of claims 11, 12, 13, and 18 are based on inherent disclosure and broad interpretation of spatial control and voltage measurement. However, the reference does not explicitly disclose measuring the distance between contour and hatch lines, their orthogonal spacing, or endpoint-to-contour misalignment as calibration parameters. Similarly, galvanometer drive voltage is not mentioned as a measured or compared signal—the reference relies on optical feedback. These rejections rely on speculative 'inherency' arguments without direct evidence, making them weak under strict scrutiny."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술(US-2015375456-A1)이 스캔 동기화, 열 관리, 프로세서 제어 등을 개시하고 있으나, 'skywriting', 'run-in/out duration', 'jump/mark delay' 등의 구체적 파라미터 조정은 명시적으로 기재되지 않음. 다만, 이는 레이저 가공 분야에서 통상의 기술자(PHOSITA)가 관행적으로 수행할 수 있는 조정으로 간주될 수 있음. 결합 동기(motivation to combine)는 존재하나, 일부 청구항(예: 11,12,13,18)은 기하학적 측정 및 전기적 신호 측정이라는 새로운 접근을 포함하여 자명성 판단에 한계 있음. strictness=0.47로 중립적 성향인 점을 고려하면, 일부 자명성 거절은 유지되나, 전반적으로는 보정 가능성 열려 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 7, 17, 20, 21 등에서 'step (a)', '(b)', '(c)'가 명세서에 정의되지 않아 명확한 서술 지지 부족. 이는 명세서 자체의 결함으로, 증거 부족이 아닌 구조적 문제. verification_status도 PASS로 확인됨. 해당 청구항들은 명확히 112(a) 위반으로 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art US-2015375456-A1 teaches synchronized control of scanning and irradiation in laser additive manufacturing, which provides a foundation for timing calibration. However, the specific application to skywriting, run-in/run-out, and jump motions, while plausible, involves a level of specificity not explicitly disclosed. The motivation to combine is reasonable but not compelling, especially for claims involving novel calibration parameters (e.g., orthogonal distance, endpoint gaps). Given the moderate confidence in obviousness (0.7–0.8) for most claims and the lack of explicit teaching for certain features, the obviousness rejections are not uniformly strong. The examiner’s strictness level of 0.55 supports giving applicant benefit of the doubt where evidence is inferential rather than direct."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 레이저 스캐닝, 동기화 제어, 실시간 모니터링, 자동 조정 등을 명시적으로 개시하고 있으며, 청구항 2-22의 대부분 구성요소가 직접적으로 또는 맥락상 자명하게 포함됨. 결합 동기(motivation to combine)는 공정 안정성 및 정밀도 향상이라는 일반적인 공학적 목표에서 도출되며, 당업자 수준에서 자연스러운 확장으로 판단됨. confidence 값 대부분 0.8 이상으로, 증거 강도가 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1은 레이저 스캐닝 동작, 동기화 제어, 지연 조정, 자동화, 소프트웨어 제어 등 청구항 2, 3, 4, 5, 6, 7, 10, 14, 15, 16, 18, 19, 20, 21, 22에 포함된 대부분의 기술적 구성요소를 명시하거나 암시적으로 개시하고 있으며, 결합 동기가 명확하고 통상의 기술자가 쉽게 도달할 수 있는 수준으로 판단되어 강한 obviousness 근거가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.48,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Most of the 103 rejections rely on the combination of US-2015375456-A1 with common general knowledge in laser scanning systems (e.g., skywriting, run-in/run-out motions, delay settings). While the reference discloses synchronized control, timing adjustments, and monitoring of scan transitions, it does not explicitly teach the specific parameters claimed (e.g., skywriting, duration-based calibration, voltage measurement). The motivation to combine is reasonable but not compelling, as the reference focuses on melt pool monitoring rather than scanner motion calibration per se. At strictness level 0.52, these rejections are not strong enough to sustain without more direct evidence or secondary considerations."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2015375456-A1 discloses synchronized scanning and irradiation control, the specific calibration of delay settings for skywriting, run-in, run-out, and jump motions involves incremental optimizations that, while known in laser scanning, are not explicitly combined in the prior art for delay calibration in additive manufacturing. The motivation to combine is reasonable but not compelling, particularly for claims involving specific geometric parameters (e.g., orthogonal distance) or software-driven automatic adjustment. Given the moderate confidence in obviousness (average ~0.75) and lack of secondary considerations, the 103 rejections are not overwhelmingly strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 7 is directly anticipated by US-2015375456-A1, which explicitly discloses a processor controlling the second scanning device synchronously with the first, satisfying all elements of the claim. The disclosure in Claim 3 of the reference is clear and complete, meeting the 102 anticipation standard with no ambiguity."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claim 19's automation is anticipated based on the inherent functionality of a processor performing synchronous control. While the reference does not use the word 'automated,' the implementation of processor-based control implies automation. This is a reasonable interpretation but involves a degree of inference, making it less strong than a literal disclosure."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claim 22 is alleged to be anticipated, but the reference does not explicitly disclose comparing start/stop coordinates or adjusting test patterns to match a control build. The core components are present, but the specific integration for calibration through coordinate comparison and iterative adjustment is not taught. This constitutes a broad and arguably overreaching interpretation, lacking explicit support in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The 103 rejections are based on a single prior art reference, US-2015375456-A1, which discloses core aspects of laser scanning control, timing synchronization, and feedback-based adjustment in additive manufacturing. The claimed elements—such as skywriting motion, delay calibration during run-in/run-out/jump motions, geometric spacing, and galvanometer voltage measurement—are framed as obvious optimizations of known techniques. The motivation to combine is well-supported by the reference's emphasis on precise spatiotemporal control, and the PHOSITA would recognize these parameters as standard in laser scanning systems. Secondary considerations are absent. Given the high confidence scores (0.7–0.8) and technical plausibility, the obviousness rejections are strong."
+        }
+      ]
+    }
+  ]
+}

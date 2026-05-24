@@ -1,0 +1,404 @@
+{
+  "case_id": "2021002551",
+  "proceeding_number": "2021002551",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1이 청구항의 모든 요소를 개시하고 있으며, 신규성이 부정된 청구항이 10-19 모두에 해당함"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013101804-A1이 청구항의 모든 요소를 개시하고 있어 진보성 판단에서도 거절 근거가 명확함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'finger-guiding haptics' 및 'sliding friction coefficient measurement method' 등의 용어에 대한 구체적 설명이 부족하지만, 이는 청구항의 핵심 기술적 특성과 직접적으로 관련되지 않음"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1이 청구항 10, 11, 12, 13, 14, 15, 16, 17, 18, 19의 핵심 요소를 명시적으로 개시하며, US-2012268412-A1이 마찰 계수 차이에 대한 개념을 암시적으로 개시함. 신규성 부정 근거가 명확함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 10, 14, 17의 모호한 용어 문제는 명세서 부족으로 인한 것으로, 선행기술이 제공되지 않아 명확한 증거 부족"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1은 청구항 10~19의 특성을 충족하는 해결책을 이미 제시하고 있으며, 추가적인 발명적 단계가 필요하지 않습니다. 선행기술이 청구항의 핵심 특성을 공개하고 있으며, 결합 동기가 명확하지 않아 103 거절이 적절합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 10, 14, 17은 'finger-guiding haptics', 'running elevation', 'running depression'과 같은 용어를 사용하는데, 이 용어들이 명세서에서 충분히 정의되지 않았습니다. 명세서에서 해당 용어의 구체적인 정의와 작동 원리에 대한 설명이 부족하여 112 기재요건을 충족하지 못합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013101804-A1이 청구항 10, 14, 17의 모든 요소를 명확히 개시하고 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 'sliding friction coefficients'를 암시적으로 제시하고, PHOSITA가 직관적으로 설계 선택 가능"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항의 'finger-guiding haptics' 및 'running elevation and running depression' 용어가 명세서에서 명확히 정의되지 않아 모호함"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103_obviousness rejections are based on US-2013101804-A1 and US-2018171088-A1, both of which disclose skin layers with tactile characteristics. While these references do show microstructured surfaces, the specific combination of different friction coefficients and parallel running elevations/depressions is not explicitly taught. The motivation to combine is present, but the degree of obviousness depends on how similar the claimed invention is to the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112_written_description rejections focus on terms like 'finger-guiding haptics' and 'running elevation and depression which are parallel'. These terms are indeed somewhat vague and lack specific definitions in the specification. However, the specification should be able to provide sufficient guidance to enable a person of ordinary skill in the art to practice the invention."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2013101804-A1 is provided and the reasoning connects specific features of the prior art to the claimed invention. However, the confidence level of 0.7 indicates that the anticipation is not absolute and there is some room for interpretation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The reasoning provides a logical motivation to combine the prior art references for achieving the claimed haptic properties using known UV-curing materials and methods. The confidence levels for these claims range from 0.5 to 0.7, indicating that the obviousness rejections are reasonable but not definitive."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The reasoning provides specific details about the lack of written description support in the specification for the claimed features. However, the rejection is based on the interpretation of what constitutes sufficient detail, which can be subjective."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1 explicitly discloses the core features of the invention including microstructured regions with varying friction characteristics and parallel running elevations and depressions. The implicit disclosure of UV-curing materials and application methods, combined with general knowledge in the coating industry, is sufficient to anticipate the dependent claims under the broad interpretation standard. The verification status is PASS, indicating the prior art reference is sufficient to support the 102 rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1 is explicitly cited as anticipating all claims, with confidence scores above 0.85 for claim 10 and sufficient similarity for other claims. The prior art directly teaches the core features of microstructured surfaces with different friction coefficients and parallel running elevations or depressions."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2013101804-A1 is cited for obviousness, the confidence scores for many claims (e.g., 0.4-0.5) indicate that the obviousness is not as strong as the anticipation. The use of UV-curing materials and specific application methods is considered an obvious variant, but the motivation to combine is not strongly established for all claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks clear definitions for key terms like 'finger-guiding haptics', 'running elevation', and 'running depression'. While this is a valid issue, the extent to which the claims exceed the specification is not fully established."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The cited reference US-2013101804-A1 is provided and appears to disclose the claimed features of a coated substrate with microstructured regions having different tactile characteristics and friction coefficients. The confidence level is high at 0.8, indicating strong support for the novelty rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Both cited references are provided and the reasoning for the obviousness rejection appears valid. The combination of the two references provides a clear motivation to create a substrate with multiple microstructured regions having different friction coefficients as claimed. The confidence level is high at 0.8, indicating strong support for the obviousness rejection."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The reasoning for the 112 written description rejection appears valid. The specification does not adequately describe the specific operational mechanism of the 'finger-guiding haptics' or the relationship between 'running elevation/depression' and 'sliding friction coefficient', and the method of applying microstructures and the implementation of 'carrier or cladding' are not sufficiently described. This is a strong basis for the written description rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 10, 14, and 17 are clearly anticipated by US-2013101804-A1, which explicitly discloses all claimed features."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 10, 14, and 17 are also considered obvious because they are fully anticipated by the prior art. For other claims (11, 12, 13, 15, 18, 19), the substitution of known materials or applications is deemed an obvious design choice."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The terms 'finger-guiding haptics' and 'running elevation and running depression which are parallel' lack explicit definitions in the specification, but they are not entirely ambiguous and could be clarified with amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail on 'finger-guiding haptics' and the friction coefficient-microstructure relationship. While the issue is valid, the strictness parameter (0.52) suggests maintaining the rejection unless the applicant provides clarifications."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1 explicitly discloses the structural elements (elevations/recesses) and tactile characteristics. The implied friction differences are sufficient for anticipation under 102, given the strictness threshold."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The combination of US-2013101804-A1 and US-2012268412-A1 provides a clear motivation to apply UV-curing materials with microstructures. The confidence (0.6-0.65) is moderate, but the strictness parameter supports maintaining the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 10, 18, and 19 are clearly anticipated by US-2013101804-A1 with high confidence (0.86-0.85), meeting the strictness threshold of 0.60 for maintaining a strong rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 14 and 17 are partially anticipated by US-2013101804-A1 with moderate confidence (0.77-0.78). Strictness=0.60 supports maintaining these rejections but with some room for reconsideration."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 10, 14, and 17 lack sufficient written description support (confidence 0.68-0.65). Strictness=0.60 suggests these rejections are valid but could be weakened if the specification is clarified."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claim 14's method of applying microstructures and Claim 17's 'control element' have low confidence (0.65) in written description issues. Strictness=0.60 leans toward allowing with amendment rather than outright rejection."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "case_id": "ABL-2017000821",
+  "proceeding_number": "2017000821",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "reject_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 모터 내부 갭 충전, 열전도성 재료 사용, 권선 구조 등을 개시하며, 본 출원의 핵심 목적(내부 공간 최소화, 절연, 기계적 안정성)과 일치. 전기 모터 제조 분야에서 펠트, 아라미드 등의 절연 재료 사용, 정량적 자유 공간 제한(≤1 in³)은 공지된 설계 목표 및 최적화 범위 내. 공정 순서(하우징 이전 설치 등)는 제조 접근성 측면에서 자명. 결합 동기 명확하며, 2차적 고려사항 없음. confidence 점수 0.65~0.75 수준으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2 and 3 are anticipated under 102 by US-2012165198-A1, which explicitly discloses stator windings on adjacent teeth forming winding pairs and slots (gaps) between them. The structural equivalence is clear and directly disclosed, resulting in high-confidence anticipation. Since anticipation under 102 implies obviousness under 103, the obviousness rejection is also strong. The reference inherently teaches the claimed features without need for combination, and a PHOSITA would readily recognize the configuration. Confidence in both novelty and obviousness rejections is high (0.85–0.95), satisfying strictness threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2 and 3 are clearly anticipated by US-2012165198-A1, which discloses stator windings arranged circumferentially with slots between adjacent teeth, inherently forming winding pairs and gaps between them. The disclosure in the reference, particularly in Claim 12 and the background section, directly corresponds to the structural limitations of claims 2 and 3. Confidence in anticipation is high (0.8–0.9), and the features are explicitly or inherently present."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 명확히 인접한 테이트에 권선된 코일과 그 사이의 슬롯을 개시하고 있으며, 이는 청구항 2 및 3의 '인접한 스테이터 권선 쌍'과 '갭'을 직접적으로 예시함. 선행기술과의 구조적 및 기능적 동일성이 명확하므로 신규성 거절 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2 and 3 are clearly anticipated by US-2012165198-A1, which explicitly discloses stator windings on teeth with slots between adjacent teeth, inherently forming adjacent winding pairs and gaps. The structural equivalence is direct and unambiguous, satisfying §102 with high confidence (0.85–0.88)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 6, 7, 11, and 12 contain indefinite terms—'substantially fill', 'at least one portion', and 'in the stator cavity'—without any definition or support in the specification. These terms lack metes and bounds, and the specification does not clarify coverage or degree, warranting strong §112(b) rejection under strict interpretation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 10 and 16 recite 'fibrous aramid material' without any enabling disclosure—no examples, processing methods, or functional data. The specification fails to demonstrate possession or enablement, making the scope overly broad and indefinite. This constitutes a strong §112(a) rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 11's structural space between stator and housing is known, but the use of an adhering material therein is not taught. While the space is conventional, the functional addition lacks motivation in the prior art. However, given common motor design practices, the combination is moderately obvious (confidence 0.75), but not strong enough to override strictness threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1이 스테이터 코어, 와이어딩, 갭(슬롯) 구조를 명시적으로 개시하고 있으며, 청구항 2, 3, 6, 7, 11, 12의 구성요소는 모두 선행기술과의 구조적 유사성 또는 공지된 제조 공정(impregnation)에 기반하여 명백히 도출 가능함. 특히 갭 내 충전 및 접착은 모터 내구성 향상을 위한 일반적 기술로서 결합 동기 확보됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "수치적 제한('≤1 cubic inch')은 선행기술에 직접 개시되지 않으나, 내부 공간 최소화는 배경기술에서 명시된 공통 기술 과제이며, 통상의 기술자가 반복 실험을 통해 도달 가능한 최적화 범위에 해당함. 그러나 특정 수치에서의 기술적 효과 입증 부족으로 인해 강도는 보통 수준."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "'전기적으로 절연된 펠트' 및 'fibrous aramid' 재료는 선행기술의 열전도성 재료 사용 방향과 상반되며, 기능적 충돌(냉각 vs. 절연)이 존재함. 공지재료라는 주장은 있으나, 해당 분야에서의 전기적 절연과 기계적 접착을 동시에 수행하는 펠트/아라마이드의 사용은 명확한 동기 없이 obvious로 보기 어려움. 특히 method claim 13의 공정 순서('housing 전 설치')는 접근성과 공정 안정성에 영향을 미치는 비자명한 변경으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2012165198-A1 discloses structural features such as slots and cavity regions, the specific limitations in claims 4–10 and 12–16—particularly the quantitative free space limit (≤1 cubic inch), use of electrically insulated felt, fibrous aramid material, and multi-step filling process involving adhering material—go beyond explicit disclosure. The Office Action asserts obviousness based on routine optimization and common knowledge, but the combination of these specific materials and precise dimensional control is not directly suggested by the prior art. Secondary considerations, such as solving long-standing problems like cracking and poor impregnation, support non-obviousness. However, given the general engineering motivation to reduce voids and use durable insulating materials, the obviousness rejection has moderate strength under a broad interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 명확히 슬롯을 기재하며, 이는 인접한 스테이터 권선 쌍 사이의 갭과 동일한 구조임. PHOSITA가 이러한 슬롯을 '갭'으로 인식하는 것은 자명하며, 결합 동기 없이도 obvious 판단이 타당함. confidence 0.9로 강한 근거 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 clearly discloses the structural arrangement of stator windings on circumferentially adjacent teeth with slots (gaps) between them, which corresponds directly to the claimed features in claims 2 and 3. The configuration is conventional in stator design, and a PHOSITA would have recognized this arrangement as standard practice. The confidence in obviousness is high (0.9), and the reference inherently teaches the claimed limitations. Thus, the 103 rejection is well-supported."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1 discloses a structurally similar stator configuration with gaps, heat conductive materials, and filling substances. The motivation to adapt this for insulation purposes is reasonable within the field of electric motor design, especially given the common practice of filling voids for performance improvement. The structural equivalence supports a strong obviousness position for claims 2, 3, 6, 7, 11, 12, and 13."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection relies on combining US-2012165198-A1 with common knowledge about material substitution and process optimization. While minimizing void volume and using known insulating materials like felt or aramid are within the skill of the art, the specific numerical limit of ≤1 cubic inch and the precise sequence of installing adhering material before stator core installation are not clearly suggested in the prior art. The motivation to combine is plausible but not strongly evident, particularly for claims involving specific materials and process conditions that yield improved safety or performance. Given the absence of explicit disclosure or strong teaching, the obviousness rejection is moderate in strength."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 스테이터 코어, 복수의 초전도 코일(스테이터 권선), 그리고 인접한 치아 사이의 슬롯(즉, 인접 스테이터 권선 쌍 사이의 갭)을 명확히 개시하고 있으며, 청구항 2 및 3의 모든 구성요소가 단일 선행기술에 의해 실질적으로 동일하게 개시됨. 도면 및 명세서 기재(예: Claim 12)가 이를 뒷받침하므로, 신규성 결여 판단은 강한 근거를 가짐."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 2 and 3 are clearly anticipated by US-2012165198-A1, which explicitly discloses stator windings on teeth with slots between adjacent teeth, directly corresponding to the claimed structure. The disclosure is explicit and unambiguous, satisfying the §102 standard."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The term 'stator cavity free space' in claims 4, 8, and 14 lacks clear definition regarding measurement conditions or methodology. The specification does not provide a standard for determining compliance with the ≤1 in³ limitation, raising genuine enablement and indefiniteness issues under §112(a) and (b)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The phrase 'substantially fill the gap' in claims 6 and 12 is subjective and lacks quantitative or functional benchmarks in the specification. This results in uncertain claim scope, failing to meet the definiteness requirement of §112(b)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 11's use of 'stator cavity' to include the annular space between stator core and housing appears inconsistent with the original usage for winding gaps. While the specification may imply structural filling in multiple areas, it does not explicitly redefine 'stator cavity' to encompass both, leading to ambiguity under §112(b) and written description concerns under §112(a)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012165198-A1은 인접한 스테이터 코일 쌍과 슬롯(간격)을 개시하며, 이는 청구항 2, 3, 6, 7, 12, 13의 구조적 기초를 제공한다. 충진 및 접착 기술은 모터 제조 분야에서 공지된 관행이며, 진보성 판단에 충분한 동기를 제공한다. 결합 동기와 공지기술의 적용이 명확하므로 근거가 강함."
+        }
+      ]
+    }
+  ]
+}

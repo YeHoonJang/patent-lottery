@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation analysis for §102 and Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) for §103, applying each statute's recognized framework throughout the novelty and obviousness stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout the trace reference specific claim language (e.g., 'data/clock mode setting,' 'scrambling polynomial assignment'), specific prior art disclosures (US-2013196654-A1's multiplexing of coexistence messages, claim 2 disclosure), and specification passages, consistently grounding the analysis in concrete evidence."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The obviousness stage builds coherently on novelty findings — claims found novel at §102 (e.g., claims 8, 9, 10, 13) are found non-obvious at §103, while claims found anticipated (e.g., claims 3, 5, 7) are given alternative §103 rejections with additional rationale about feedback control design and demultiplexing as natural extensions, avoiding unexplained contradictions."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.603 and combination_threshold=0.566 (moderate), the examiner rejects many claims but allows allowable subject matter for genuinely novel features (scrambling, clock modes), and the §103 rejections are based on moderate-strength motivation to combine without demanding strong explicit teaching — consistent with a pragmatist examiner near the middle of the strictness spectrum."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' directly follows from the accumulated stage analyses: claims rejected at §102/§103 are formally rejected in the final decision, while claims identified as novel and non-obvious (8-14, 16, 19, 20, 26-28) receive 'amend_suggested' status consistent with the office action's allowable subject matter determination."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000414",
+    "examiner": "domain_specialist_0055",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 21931,
+      "output_tokens": 484,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

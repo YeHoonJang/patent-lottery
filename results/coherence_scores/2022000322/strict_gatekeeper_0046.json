@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies Graham/KSR factors for §103 claims (with explicit scope/content, differences, PHOSITA level, and secondary considerations) and invokes §112(a) written description/enablement framework for claim 12, using the appropriate legal tests throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection is linked to specific prior art references (e.g., US-2019261132-A1, US-2018279110-A1, US-2018279394-A1) with element-by-element comparisons, and the §112 rejection cites the absence of 'PC7 interface' in both the specification and 3GPP standards."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The novelty stage found most claims non-novel and claim 12 novel, and the obviousness/office action stages consistently reject claims 2–11, 13–16 under §103 while shifting claim 12 to §112 rejection due to its novelty but specification absence — a coherent and explicitly reasoned transition."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.889, the examiner resolves every ambiguity toward rejection (e.g., implicit disclosures treated as anticipating, default parameter omission deemed obvious), declines to allow any claims, and does not extend leniency on ambiguous evidence, consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims flows directly from the accumulated stage findings: §103 rejections for claims 2–11, 13–16 based on obviousness analysis, and §112 rejection for claim 12 based on the novelty stage's finding that no prior art disclosed PC7 combined with the specification's silence on it."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 11945,
+      "output_tokens": 434,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

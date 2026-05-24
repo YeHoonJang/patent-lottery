@@ -1,0 +1,356 @@
+{
+  "case_id": "PILOT-2019006220",
+  "proceeding_number": "2019006220",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6 is clearly anticipated by US-2015136692-A1, which explicitly discloses a hollow fiber membrane configuration (Claim 5). The structural form and dimensional parameters are directly disclosed, leaving no ambiguity. This constitutes a strong anticipation under 35 U.S.C. 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 3 and 4 are based on structural similarity between sulfonated poly(arylene ether) and sulfonated poly(arylene ether sulfone). While the prior art discloses a highly similar polymer with overlapping sulfonation levels and shared hydrophobic-hydrophilic architecture, the absence of the sulfone group in the claimed polymer introduces a non-trivial chemical distinction. However, given the functional equivalence and common use in durable membranes, a PHOSITA would have been motivated to explore such analogs. Under broadest reasonable interpretation and strictness level 0.79, this supports a finding of obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 7, and 8 suffer from lack of written description and enablement. The chemical formulas (I–II, V–XI) are not depicted or structurally defined in the specification, and the term 'M represents a metal element' is overly broad without limiting examples or synthesis guidance. Similarly, 'separation membrane element' and 'module' lack structural detail (e.g., sealing method, flow path, configuration). These deficiencies prevent a skilled artisan from making and using the full scope without undue experimentation, satisfying the high bar for 112(a) rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Porosity as a result-effective variable is well-established in membrane engineering. The prior art's focus on high water permeability provides clear motivation to optimize porosity within the 60–85% range. No evidence of unexpected results is presented. Under strictness=0.88, this constitutes a strong obviousness rationale."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015136692-A1, claim 5, explicitly discloses a hollow fiber membrane. The disclosure is clear, unambiguous, and directly matches claim 6. Under BRI and strictness=0.88, this is a strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Assembly of hollow fiber membranes into elements and modules is standard industry practice. The claimed configurations do not introduce novel structural or functional features. Motivation to combine is inherent in routine system scaling. Confidence is high (0.85–0.88), supporting a strong obviousness position."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 6의 hollow fiber 형태는 US-2015136692-A1에 명시적으로 기재되어 있으나, 해당 선행기술은 역삼투(RO)에 특화된 막이며, 본 출원은 전삼투(FO) 적용이라는 다른 기술적 과제를 갖는다. hollow fiber 구조 자체는 일반적으로 알려져 있으나, FO 성능을 위한 최적화 맥락에서의 적용은 자명하지 않다. 그러나 선행기술이 동일한 재료(SPAE)와 동일한 형상을 제시하므로 결합 동기는 어느 정도 존재한다. strictness=0.25인 관대한 심사 기준에서 이 정도의 동기는 obvious 판단을 유지하기에 약하다고 볼 수 있으나, Office Action의 판단은 합리적이다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015136692-A1 명확히 hollow fiber 막 구조를 기재하고 있으며, 청구항 6의 형식적 제한은 이에 의해 완전히 예견됨. 선행기술과의 일치도 높고, confidence 0.95로 강한 신규성 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015136692-A1은 고화학적 내구성과 높은 수분 투과성을 갖는 설포네이트화된 poly(arylene ether sulfone) 중공사막을 개시하며, 청구항 2의 다공성 범위(60-85%)는 물 투과성을 극대화하기 위한 결과 효과 변수로서 당업자가 정형 실험을 통해 도달할 수 있다. 청구항 3 및 4의 구체적 반복 구조는 중합체 화학 분야에서 일반적인 설계 선택이며, 설폰화 수준의 중첩(0.5–2.3 meq/g ≈ 10–50%)은 명확한 동기를 제공한다. 청구항 5의 전방삼투 적용은 구조적 특성의 직접적인 연장이며, 청구항 7 및 8의 요소 및 모듈 구성은 막 시스템 통합의 일반 관행이다. 결합 동기가 명확하고 보조적 고려사항의 반증이 없어 강한 obviousness 근거로 판단된다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Porosity range (60–85%) is a result-effective variable; prior art teaches same polymer class and performance goals. Optimization through routine experimentation is well-established in membrane art. Motivation to combine is clear and supported by technical rationale."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "SPAE polymer structure in claims 3 and 4 overlaps significantly with US-2015136692-A1’s sulfonated poly(arylene ether sulfone), including sulfonation level (0.5–2.3 meq/g ≈ 10–50%) and functional segments. Structural similarity and shared application in chemically resistant membranes make the claimed variants obvious to a PHOSITA."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6 recites hollow fiber membrane, which is explicitly disclosed in Claim 5 of US-2015136692-A1 with dimensional details. Anticipation is direct and unambiguous; no distinguishing features are present in the claim."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Integration of membrane into element/module (claims 7, 8) is routine in the art, but the prior art is directed to RO, not FO. While module assembly is conventional, the specific use of a forward osmosis-optimized membrane introduces some uncertainty. However, absent evidence of unexpected results, the combination is still considered obvious under broad interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6 is clearly anticipated by US-2015136692-A1, which explicitly discloses a hollow fiber membrane configuration in Claim 5 and at ¶0019, ¶0056. The disclosure is direct and unambiguous, satisfying the anticipation standard under 35 U.S.C. § 102. Confidence in this rejection is high (0.95), and the feature is explicitly recited in the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112(a) rejection for claims 3 and 4 is based on undefined chemical formulas (e.g., (VII), (X), (XI)) and lack of analytical method for sulfonation ratio. While the specification references these formulas, their absence creates ambiguity. However, a PHOSITA in polymer chemistry might infer plausible structures from context, and titration/NMR are standard techniques. Given strictness=0.47 (slightly lenient), this issue may be remediable by amendment or argument rather than fatal. Thus, the 112 rejection is not overwhelmingly strong."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 7 and 8 are rejected based on the combination of US-2015136692-A1 and common general knowledge regarding membrane element and module configurations. While it is well-known in the art to incorporate hollow fiber membranes into elements and modules, the claimed inventions are directed to forward osmosis applications, which differ significantly from the reverse osmosis focus of the prior art. The Office Action assumes that routine engineering practices justify obviousness, but the adaptation of a chemically durable RO membrane into an FO-specific element/module involves non-trivial design considerations such as internal concentration polarization and draw solution compatibility. Given the lack of explicit motivation in the prior art to make this adaptation, and considering the applicant's emphasis on performance benefits in FO, the obviousness rejection is not strongly supported. However, under a broadest reasonable interpretation and in light of common knowledge in membrane engineering, the rejection has moderate strength, particularly because modular assembly is standard practice."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "porosity 최적화, polymer 구조 선택, membrane element 및 module 구성 모두 선행기술과 공지기술 기반에서 통상의 기술자가 명백하게 도달할 수 있는 설계 선택임. 결합 동기와 Graham 요소가 일관되게 적용되었으며, secondary 고려사항 부재로 obviousness가 강화됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejections rely on routine optimization of porosity, structural modifications of known polymers, and adaptation to forward osmosis. While US-2015136692-A1 discloses a similar material (sulfonated poly(arylene ether sulfone)), the specific porosity range (60–85%) and detailed structural formulas (I)–(IV) are not disclosed. The motivation to combine is based on PHOSITA's knowledge of result-effective variables and polymer design, but the structural specificity in claims 3 and 4 introduces uncertainty. Given the lack of explicit teaching of these precise configurations and the absence of secondary considerations, the obviousness case is reasonable but not strong. At strictness=0.50, moderate confidence in obviousness does not justify a firm rejection without more direct evidence or stronger motivation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6 is directly anticipated by US-2015136692-A1, which explicitly discloses a hollow fiber membrane with dimensional specifications. The disclosure is enabling and unambiguous, satisfying the requirements for anticipation under 35 U.S.C. § 102. This is a clear case of lack of novelty with high confidence (0.95)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejections for claims 2, 3, 4, 5, 7, and 8 rely on routine optimization, structural selection within known polymer classes, and intended use or assembly into elements/modules. While the prior art provides motivation to use sulfonated poly(arylene ether sulfone) for chemical durability, and porosity is a known result-effective variable, the specific porosity range (60–85%) and detailed copolymer structures (formulas III/IV, I/II) are not disclosed. The extension to forward osmosis and modular integration, while plausible, involves some degree of extrapolation. Confidence levels range from 0.68 to 0.75, indicating moderate strength. Given the lack of secondary considerations, the rejections are reasonable but not overwhelming."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection of claims 7 and 8 under 103 is based on the combination of US-2015136692-A1 and common knowledge in membrane engineering regarding the use of hollow fiber configurations in elements and modules. While it is well-known to configure membranes into elements/modules for practical application, the claimed element and module incorporate a membrane specifically optimized for forward osmosis (FO), which differs from the reverse osmosis (RO) focus of the prior art. The structural features—such as controlled layer thickness ratio, high porosity, and reduced concentration polarization—are tailored for FO and not addressed in US-2015136692-A1. Although the motivation to combine appears logical, the adaptation of a chemically resistant RO membrane into an FO-specific element involves non-trivial design considerations. Given the different operational environments and performance criteria, the obviousness conclusion relies partly on extrapolation. With strictness=0.42 (leaning toward applicant when evidence is not strong), this constitutes a moderate-strength rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 7 and 8 are directed to membrane element and module configurations, which are not explicitly disclosed in US-2015136692-A1. However, the reference discloses a hollow fiber membrane suitable for water treatment, and integration into elements and modules is common in the art. While there is motivation to combine functional membranes with standard module assembly techniques, the claimed invention is tailored for forward osmosis, which involves different structural requirements than the reverse osmosis focus of the prior art. The expectation of success is reasonable but not certain due to application-specific design challenges. Given the moderate confidence in obviousness and the examiner's neutral-to-slightly-lenient strictness (0.52), this ground is not strong enough to sustain a rejection without additional evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Porosity is a well-known result-effective variable in membrane technology, and the prior art (US-2015136692-A1) teaches the use of sulfonated poly(arylene ether sulfone) for high water permeability and durability. Optimizing porosity within the claimed range (60-85%) through routine experimentation would have been obvious to a PHOSITA without showing unexpected results. Confidence is high (0.75), and the motivation to combine is clear based on performance optimization goals."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 3, 4, 7, and 8 lack adequate written description and enablement. The chemical formulas (I)-(XI) are referenced but not depicted in the specification or drawings, preventing a skilled artisan from understanding the full scope of the claimed polymer structure. Additionally, 'M represents a metal element' is overly broad without limitation or support. For claims 7 and 8, the term 'incorporated therein' lacks structural definition, leading to indefiniteness and undue experimentation. These are clear 112(a) and (b) issues with strong basis."
+        }
+      ]
+    }
+  ]
+}

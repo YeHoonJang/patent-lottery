@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace properly applies element-by-element anticipation analysis for §102 claims and Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103 claims, with no cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every claim rejection is tied to specific prior art references (US-2012250378-A1, US-2015311795-A1) with explicit mapping of disclosed features to claim elements, and the office action quotes specific passages about burst mode control, threshold comparison, and off-time adjustment."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "For claims 1, 5, 6, 9, 13, and 14, the §102 novelty stage found the claims not novel, but the §103 obviousness stage found those same claims NOT obvious — this internal contradiction (not novel yet not obvious) is never reconciled or explained, representing a logical inconsistency between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner (strictness=0.517, combination_threshold=0.443) consistently applies moderate thresholds — rejecting clear anticipations under §102, accepting some §103 combinations while finding motivation to combine insufficient for others — reflecting the neutral/pragmatist profile without over-rejecting or over-allowing."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims 1–19 (with amendment suggested) follows logically from the accumulated §102 anticipation findings for most claims and §103 obviousness findings for the numerical and structural claims, with the 'amend_suggested' disposition consistent with the moderate-strength §103 weighing noted in the final decision."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000426",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13326,
+      "output_tokens": 411,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

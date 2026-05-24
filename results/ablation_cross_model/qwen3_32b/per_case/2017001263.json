@@ -1,0 +1,341 @@
+{
+  "case_id": "2017001263",
+  "proceeding_number": "2017001263",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2013275320-A1이 청구항 2,3,4,5,7,8,9의 구성요소를 명확히 개시하고 있으며, 신규성이 명백히 결여됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술이 대부분의 청구항을 개시하고 있으므로 진보성 판단은 상대적으로 약한 근거로, 그러나 common sense approach로 결합 동기가 명확함"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The US-2013275320-A1 explicitly teaches identifying candidates based on employer information and social graph connections, which directly anticipates the claimed features in multiple claims. The similarity scores (0.7-0.9) indicate strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The US-2013275320-A1 teaches the core concepts of the claimed invention, and the differences are obvious variants or natural extensions of the prior art. The combination threshold (0.34) supports the obviousness determination."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The terms 'measurement profile,' 'mapping,' 'structured/unstructured data,' 'ranking criteria,' and 'psychometric profile' are not clearly defined in the specification, but the lack of clear definitions alone may not be sufficient to reject if the implementation is otherwise clear to a person of ordinary skill in the art."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 2-9의 본질적 요소를 모두 포함하고 있으며, 용어 차이만 존재함. 이는 통상의 기술자가 쉽게 도출할 수 있는 변형임"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 2,4,5,7,8의 본질적 요소를 모두 포함하고 있으며, 신규성 부재가 명확함"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2,4,5,7,8의 일부 용어가 명세서에 명확히 기재되지 않았으나, 이는 보정을 통해 해결 가능한 문제임"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 1-9의 모든 요소를 명확히 개시하고 있으며, 각 청구항에 대한 confidence 수치가 상당히 높음 (0.75~0.85). 선행기술이 청구된 방법의 핵심 요소들을 직접 개시하고 있으므로, 신규성 판단 근거가 강함"
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 1의 핵심 개념인 사회적 링크 기반 최적화 엔티티 식별과 실질적으로 동일하며, 통상의 기술자가 합리적으로 결합할 수 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'optimized entity'와 'graph representing social links'에 대한 구체적인 정의 및 구현 방식이 명확히 기재되지 않아 35 U.S.C. §112의 충분한 설명 요구사항을 충족하지 못함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 2, 3, 4, 5, 6, 7, 8, 9의 구성요소들을 명백하게 개시하거나 암시적으로 포함하고 있으며, 개시 범위 내에 포함된 것으로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 2, 4, 7, 8, 9의 특정 용어(예: measurement profile, mapping, structured/unstructured data 등)가 명세서에서 구체적으로 설명되지 않았으며, 이는 출원인이 해당 발명을 충분히 보유하지 않았음을 암시하지만, 명백한 결함은 아님."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013275320-A1이 청구항 2, 3, 4, 5, 8의 구성요소를 명시적 또는 암시적으로 개시하여 신규성이 부정됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013275320-A1과의 차이가 미미하며 해당 분야 기술자가 쉽게 결합할 수 있지만, 청구항 6, 7, 9는 결합 동기가 명확하지 않아 진보성 거절 근거가 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2013275320-A1 clearly teaches the core elements of the claimed method, including receiving a request, identifying an optimized candidate using social graph connections and metadata, and providing the candidate information. The differences between the prior art and the claim are minor and within the scope of routine design choices. The motivation to combine is also clearly present in the prior art, and the combination threshold is met."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification does not provide sufficient detail regarding the criteria for 'optimization' or the specific implementation of 'graph' and 'social links'. While this raises a valid concern under 35 U.S.C. §112(a), it is not an absolute bar to patentability if the applicant can provide clarification or amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the combination of US-2013275320-A1 and the concept of 'optimized entity' as a natural result of social graph-based candidate identification. While the prior art reference does disclose the core elements, the characterization of the 'optimized entity' as a natural result appears to be an interpretation rather than a direct teaching in the reference. The confidence level of 0.75 suggests a moderate strength of evidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejection points to insufficient description of 'optimized entity' and 'graph representing social links.' While this is a valid concern, the strength depends on whether the specification actually provides any meaningful explanation of these terms. The confidence level of 0.75 indicates moderate strength, but with room for applicant clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art US-2013275320-A1 explicitly discloses all limitations for claims 2, 3, 4, 5, 7, and 8, including measurement profiles, human resource entities, entity mapping via social graphs, roles/activities, structured/unstructured data, and candidate ranking. The similarity scores (0.72-0.87) indicate substantial overlap, and verification confirms the prior art fully anticipates these claims."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The Office Action correctly identifies that terms like 'measurement profile' and 'psychometric profile' are not clearly defined in the specification. While the lack of detail is a valid issue, the applicant could potentially address this by providing clearer definitions and implementation examples, making the rejection moderate in strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2013275320-A1 explicitly discloses or implicitly renders obvious the claimed features (e.g., candidate ranking, social graph analysis). The combination rationale is well-supported by PHOSITA knowledge, and the similarity scores (0.5–0.8) indicate substantial overlap with the prior art. Given the strictness parameter (0.52) and the confidence in the 103 rejections (e.g., 0.8 for claims 3 and 8), the obviousness grounds are strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    }
+  ]
+}

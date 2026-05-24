@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis properly invokes Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) throughout the obviousness stage, and the office action and final decision are consistently grounded in §103 obviousness reasoning rather than any misapplied statute."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout all stages reference specific claim language (e.g., 'intention-behavior gap,' 'quantified profile,' 'genetic algorithm fitness function'), specific prior art disclosures from US-2013216989-A1, and element-by-element comparisons for each of the 38 claims."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage finds all 38 claims novel with moderate-to-high confidence (0.76–0.90), yet the office action reverses course and rejects all 38 claims under §103 without adequately explaining why the same prior art gaps identified in §102 are overcome by combining 'general knowledge in the art'—the §103 analysis does not supply the additional rationale needed to bridge the strong novelty findings."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves ambiguity toward rejection in the final decision, explicitly citing the strictness parameter (strictness=0.82) as the basis for maintaining rejections even where the office action's combination rationale is acknowledged to be 'abstract' or only 'moderate' in strength, which is consistent with the strict_gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the office action's §103 rejection, with the weighing section explicitly acknowledging that the rejection strength is only 'moderate' but justifying maintenance of rejection based on the examiner's stated strictness policy and public interest rationale, providing a coherent (if debatable) chain of reasoning."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018000935",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 24114,
+      "output_tokens": 466,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

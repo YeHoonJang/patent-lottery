@@ -1,0 +1,478 @@
+{
+  "case_id": "2017000821",
+  "proceeding_number": "2017000821",
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.2857142857142857,
+  "amend_rate": 0.7142857142857143,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            2,
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012165198-A1이 청구항 2와 3의 모든 구성요소를 명시적으로 개시하고 있어 신규성 거절 근거가 명확함. coverage_score=0.7~0.8로 높으며, confidence=0.85~0.9로 신뢰도가 높음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 'adhering material'과 'filling substance'의 조합을 명시적으로 개시하지는 않았지만, 슬롯 내 공간 채우기라는 공통된 기술적 문제를 해결하기 위한 결합 동기가 존재함. combination_threshold=0.34에 따라 결합 동기가 인정되지만, 청구항 1의 구성요소가 선행기술과 완전히 동일하지 않아 해석의 여지가 있음. strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 'adhering material'과 'filling substance'의 조합을 명시적으로 개시하지는 않았지만, 유사한 기능을 수행하는 열전도 재료를 개시하고 있어 결합 동기가 인정됨. confidence=0.7~0.75로 중간 수준이지만, strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 'installing an adhering material' 및 'dispensing a filling substance'를 명시적으로 개시하지는 않았지만, 슬롯 내 공간 채우기라는 기술적 문제를 해결하기 위한 결합 동기가 존재함. confidence=0.7로 중간 수준이지만, strictness=0.79에 따라 거절 유지."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            6,
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술이 청구항 1, 6, 7의 모든 구성요소를 명시적으로 개시하지는 않았지만, 유사성을 근거로 신규성 거절을 시도함. confidence=0.7~0.75로 낮으며, strictness=0.79에 따라 신규성 거절은 유지하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            1,
+            2,
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012165198-A1과의 유사성은 있으나, 'filling substance' 및 'substantially fill the stator cavity'와 같은 구체적인 구성요소가 명시적으로 개시되지 않았음. 그러나 strictness=0.88에 따라 유사성을 근거로 거절 유지."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012165198-A1은 stator core, 코일, 간격, 열전도 재료 등을 개시하며, 공극 충전의 필요성은 공지된 문제임. combination_threshold=0.34에 따라 결합 동기가 명확하여 진보성 거절 근거가 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술에서 명시적으로 개시되지 않은 구체적인 수치 제한, 재질, 방법 등이 포함되어 있으며, 결합 동기가 명확하지 않음. 진보성 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 1이 종속항으로 기재되었으나 독립항으로 기재되어야 할 가능성은 있으나, 명세서에 의해 충분히 뒷받침되며 통상의 기술자가 이해할 수 있을 정도로 명확합니다. 형식적 지적사항에 해당하며, 거절 근거로 보기에는 약합니다."
+        },
+        {
+          "basis": "formal_objection",
+          "strength": "weak",
+          "reasoning": "청구항 6과 12의 중복 기재는 형식적 지적사항으로, 기술적 기여를 저해하지 않으며 거절 근거로 보기에는 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 6, and 12 incorporate limitations by reference to other claims, which is not compliant with 37 CFR 1.75. However, this is a formal objection rather than a substantive rejection, and the claims are otherwise allowable. The issue can be resolved by amending the claims to include all necessary limitations explicitly."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012165198-A1은 슬롯 구조를 통한 인접한 stator winding pairs를 개시하며, 이는 전동기 설계에서 통상적인 기술적 선택입니다. 결합 동기가 명확하고 combination_threshold=0.45에 부합하여 103 거절 근거가 강합니다. strictness=0.89에 따라 거절 유지."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 11의 'space between a stator core outer diameter and a motor housing'에 대한 명세서의 뒷받침이 명확하지 않음. 명세서는 접착 재료와 충전 물질이 스테이터 권선 사이의 갭(gaps)을 채우는 것에 중점을 두고 있으며, 스테이터 코어 외경과 모터 하우징 사이의 공간에 대한 구체적인 언급이 없음. 이는 35 U.S.C. § 112의 written description 요건을 충족하지 못하며, 해당 분야의 통상의 기술자가 청구항의 범위를 명확히 이해하기 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012165198-A1은 갭 내 재료 배치를 개시하지만, 'adhering material'과 'filling substance'의 구체적인 조합은 명시하지 않았습니다. 그러나 갭 채우기 문제는 전기 모터 설계에서 공통적으로 다루어지며, 통상의 기술자가 두 재료를 결합할 동기는 인정됩니다. 다만, 청구항 1의 조합이 예상치 못한 결과를 도출하는지 여부는 불분명하여 moderate 강도로 평가됩니다. strictness=0.47 기준에서 증거의 강도가 충분하지 않아 거절 유지에는 다소 무리가 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 갭 내 재료 배치를 개시하지만, 'plurality of gaps disposed between each of the plurality of adjacent stator winding pairs'의 구체적인 배열은 명시하지 않았습니다. 갭 배열은 설계 선택의 범위에 속하지만, 통상의 기술자가 선행기술로부터 쉽게 도출할 수 있는지는 해석의 여지가 있습니다. moderate 강도로 평가되며, strictness=0.47 기준에서 거절 유지보다는 보정이 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 갭 내 재료 배치를 개시하지만, 'adhering material'과 'filling substance'의 조합은 명시하지 않았습니다. 갭 채우기 문제는 공지된 기술이지만, 두 재료의 조합이 통상의 기술자에게 자명하다고 단정하기에는 증거가 부족합니다. moderate 강도로 평가되며, strictness=0.47 기준에서 거절 유지보다는 보정이 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 다수의 갭 내 재료 배치를 개시하지만, 'adhering material'과 'filling substance'의 조합은 명시하지 않았습니다. 다수의 갭 채우기는 공지된 기술이지만, 두 재료의 조합이 통상의 기술자에게 자명하다고 단정하기에는 증거가 부족합니다. moderate 강도로 평가되며, strictness=0.47 기준에서 거절 유지보다는 보정이 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 갭 내 재료 배치를 개시하지만, 'adhering material'과 'filling substance'의 조합 및 구체적인 설치 방법을 명시하지 않았습니다. 갭 채우기 방법은 공지된 기술이지만, 두 재료의 조합이 통상의 기술자에게 자명하다고 단정하기에는 증거가 부족합니다. moderate 강도로 평가되며, strictness=0.47 기준에서 거절 유지보다는 보정이 적절합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 2,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012165198-A1은 인접한 코일 간의 슬롯 구조를 개시하지만, 'plurality of adjacent stator winding pairs'라는 구체적인 용어는 명시하지 않음. 청구항의 BRI 해석(breadth=0.86)에 따라 용어의 유사성이 인정되지만, 선행기술이 청구항의 구성요소를 명시적으로 개시하지는 않음. strictness=0.55에 따라 근거의 강도는 moderate로 평가되며, 출원인에게 보정 기회를 부여하는 것이 적절함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 2,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012165198-A1은 스테이터 코어와 다수의 코일을 개시하며, 인접한 코일 간의 슬롯 구조를 암시함. 통상의 기술자는 슬롯 구조로부터 'adjacent stator winding pairs'를 쉽게 도출할 수 있으며, 결합 동기(combination_threshold=0.55)가 명확함. 청구항 2의 구성은 선행기술에 의해 자명하게 제시되며, 2차적 고려사항도 진보성을 뒷받침하지 않음. 근거의 강도는 strong으로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            6,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the combination of known elements (adhering material and filling substance) with prior art US-2012165198-A1, which discloses filling stator cavities with impregnation compounds. While the combination is plausible, the motivation to combine is not explicitly supported by the prior art, and the claimed limitations address acknowledged drawbacks of traditional impregnation compounds (e.g., cost, density, fracture during cure cycles). The confidence in the obviousness rejection is not overwhelming given the lack of direct evidence for the combination and the secondary considerations noted in the specification."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            2,
+            7
+          ],
+          "strength": "weak",
+          "reasoning": "The rejection for lack of written description is based on the specific arrangement of 'adjacent stator winding pairs' and their relationship to the adhering material and filling substance. However, the specification provides a general description of the invention's structure and method, and the claims may be reasonably interpreted to fall within the scope of the disclosed invention. The rejection appears to be overly strict given the context of the disclosure."
+        },
+        {
+          "basis": "title_and_abstract",
+          "strength": "moderate",
+          "reasoning": "The objections to the title and abstract are valid under USPTO guidelines (37 C.F.R. § 1.72(b)), as they lack specificity and fail to concisely state the technical disclosure. These are procedural objections and do not impact the patentability of the claims but require amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.7,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 선행기술 US-2012165198-A1에 대해 신규성을 인정받았으며, confidence 수준도 높음 (0.8~0.9). 선행기술과의 차이점이 명확하고, 선행기술에서 개시되지 않은 구성요소(adhering material 및 filling substance 조합 등)가 존재함. 따라서 102 근거는 거절로 유지할 수 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 진보성 판단에서 비자명(非自明)하다고 평가되었으며, confidence 수준도 높음 (0.75~0.85). 선행기술에서 결합 동기가 부족하고, 통상의 기술자가 쉽게 도출할 수 없는 구체적인 구성(예: adhering material의 재질, 갭 채우기 방법 등)이 포함됨. combination_threshold=0.33이지만, 결합 동기가 명시적이지 않아 103 근거는 거절로 유지할 수 없음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에 'adhering material'과 'filling substance'에 대한 구체적인 예시나 상세한 설명이 부족하여, enablement 및 written description 요건을 완전히 충족하는지 여부에 대한 의문이 있음. 그러나 청구항의 용어가 해당 분야에서 통상적으로 이해되는 범위 내에 있으므로, 보정 또는 추가 설명을 통해 해결 가능한 수준임."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 선행기술 US-2012165198-A1에 대해 신규성을 갖추었으며, confidence 수준이 0.88 이상으로 높음. 선행기술에서 adhering material과 filling substance의 조합을 개시하지 않아 신규성 거절 근거가 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항이 진보성을 갖추었으며, confidence 수준이 0.85 이상으로 높음. 선행기술에서 adhering material과 filling substance의 조합에 대한 동기나 시사가 없으며, 결합 동기 기준(combination_threshold=0.44)을 충족하지 않음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 청구항의 용어를 뒷받침하며, 모호성이나 불분명한 기술이 없음. 112 거절 근거가 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항이 abstract idea에 해당하지 않으며, 구체적인 기술적 해결책을 제공함. 101 거절 근거가 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The term 'substantially fill' is commonly understood in the art but lacks a precise definition or quantitative range in the specification. While this may not rise to the level of indefiniteness under 35 U.S.C. § 112(b), it could lead to ambiguity in claim interpretation. Given the strictness level (0.42), this is not strong enough to reject but warrants an objection for clarification."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 4 and 8 specify a stator cavity free space of '≤1 cubic inch,' but the method of measurement or calculation is not clarified in the specification. This could affect reproducibility and enablement under 35 U.S.C. § 112(a). However, the specification provides sufficient support for the limitation itself, so this is not a strong rejection basis but an objection for clarification."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Claims 1, 6, and 12 are written in dependent form, which may lead to ambiguity in interpretation. While this is not a strong rejection basis, it is advisable to rewrite these claims in independent form to clearly define their scope. Given the strictness level, this is a minor objection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012165198-A1이 제공되었으나, 모든 청구항이 신규성을 충족하는 것으로 평가됨. 선행기술과의 차이점이 명확하고, 선행기술이 본 출원의 핵심 요소('adhering material'과 'filling substance'의 조합, 갭 구조, 자유 공간의 정량적 제한 등)를 개시하지 않음. 따라서 102 근거는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항이 비자명(obviousness)하다고 평가되지 않음. 선행기술은 본 출원의 핵심 차이점을 개시하지 않으며, 결합 동기나 통상의 기술자가 쉽게 도출할 수 있는 구성도 아님. 특히, 'adhering material'과 'filling substance'의 조합, 전기 절연 특성을 가진 펠트/아라미드 재질의 사용, 자유 공간의 정량적 제한 등은 선행기술에 없음. 따라서 103 근거는 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 제공되지 않았지만, 청구항의 용어는 명확하고 기술 분야에서 통상적으로 이해되는 범위 내에 있음. 모호하거나 뒷받침이 불분명한 용어는 없으며, 명세서의 부재에도 불구하고 청구항 자체로 기술적 내용을 이해할 수 있음. 따라서 112 근거는 약함."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 전기 모터의 구체적인 구조와 방법을 다루며, 추상적 아이디어나 자연 현상에 해당하지 않음. 실용적인 기술적 해결책을 제공하므로 101 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 2의 'plurality of adjacent stator winding pairs'는 선행기술 US-2012165198-A1의 슬롯 구조에서 암시되지만, 명시적으로 개시되지 않았음. 슬롯 구조와 인접 코일 쌍의 관계는 통상의 기술자가 예측 가능한 수준이지만, 명시적 청구로 확장하는 데에는 해석의 여지가 있음. strictness=0.60 기준에 따라, 증거의 강도가 충분하지 않다고 판단되지는 않지만, 출원인에게 보정 기회를 제공하는 것이 균형적임."
+        }
+      ]
+    }
+  ]
+}

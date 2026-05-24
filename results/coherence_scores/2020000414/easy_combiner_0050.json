@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 anticipation (element-by-element disclosure analysis) and separately invokes §103 Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for each claim, with no statutory framework confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language (e.g., 'data/clock mode,' 'scrambling polynomial,' 'SDR/DDR mode') and specific disclosures from US-2013196654-A1 (e.g., 'multiplexing coexistence messages with data,' 'commands to first/second radio')."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "A notable contradiction exists: claims 1, 2, and 23 are found not novel under §102 but simultaneously found non-obvious under §103 (with confidence 0.75) without a reconciling explanation — the final decision itself flags this inconsistency but does not resolve it, constituting an unresolved stage contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.461 and combination_threshold=0.222 (easy combiner), the examiner readily finds obviousness on weak motivations (e.g., 'standard practice,' 'basic EMC principle') while still granting on genuinely novel features like clock scrambling, consistent with a moderately lenient, easy-combining profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'amend_suggested' decision follows logically from the accumulated stage findings: independent claims rejected under §102/§103, dependent claims with scrambling and wired/time-domain features allowed, and the recommendation to incorporate allowable features into independent form is directly supported by the office action and novelty/obviousness analyses."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000414",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17374,
+      "output_tokens": 436,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

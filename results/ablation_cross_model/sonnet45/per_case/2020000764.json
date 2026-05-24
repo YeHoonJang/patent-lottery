@@ -1,0 +1,465 @@
+{
+  "case_id": "2020000764",
+  "proceeding_number": "2020000764",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 2, 9: US-2012302167-A1은 대부분의 구성요소를 개시하고 있으며, '사용자 선택 없이 자동 실행'과 '사용자 입력에 반응하는 활성화'의 차이는 백그라운드 서비스 구현의 예측 가능한 변형입니다. 2015년 당시 모바일 OS 개발에서 백그라운드 자동 초기화는 표준 관행이었으며, 결합 동기(사용자 편의성 향상, 시작 지연 제거)가 명확합니다. combination_threshold=0.34를 충족하며, 이는 common sense engineering에 해당합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 3, 13: 터치 패턴 인식은 본질적으로 움직임 감지를 요구하며, 움직이지 않는 터치를 필터링하는 것은 오탐지 감소를 위한 기본적인 입력 검증 기술입니다. 이는 터치 인터페이스 설계의 표준 관행으로, 예측 가능한 설계 선택입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 4, 11, 12, 17: US-2012302167-A1은 혼합 모드 저장(텍스트+이미지)을 개시하지만, '인식 실패 시 그림으로 저장'을 명시적으로 교시하지는 않습니다. 그러나 이는 데이터 손실 방지를 위한 논리적 확장이며, 노트 필기 애플리케이션에서 흔한 오류 처리 전략입니다. 유사성 점수(0.5)와 coverage_score(0.4)는 중간 수준이지만, strictness=0.79 하에서 이는 명백한 변형으로 판단됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 5, 18: 부분 인식 시나리오(일부는 문자로, 일부는 그림으로 저장)는 선행기술의 혼합 모드 저장 능력을 확장한 것입니다. 이는 표준 조건부 처리 로직의 예측 가능한 조합이지만, 명시적 개시는 부족합니다. strictness=0.79는 이러한 논리적 확장을 자명한 것으로 판단하도록 유도합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 6, 14, 19: US-2012302167-A1은 잠금 화면에서의 필기 입력을 교시하며, 이를 홈 화면으로 확장하는 것은 동일한 오버레이 기술을 다른 화면 상태에 적용하는 예측 가능한 변형입니다. 모든 화면 상태에서 편의성을 최대화하려는 동기가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 7, 15: US-2012302167-A1은 사용자 대화형 디스플레이를 교시하며, '사용자 명령 없이 자동 표시'로의 수정은 UX 최적화 원칙에 부합합니다. 2015년 당시 자동 미리보기는 일반적이었으나, 선행기술과의 명시적 차이는 존재합니다. strictness=0.79는 이를 예측 가능한 개선으로 판단합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 8, 10, 20: 부팅 시 백그라운드 서비스 초기화는 2015년 Android/iOS 플랫폼 문서에 명시된 표준 관행입니다. 즉시 가용성 확보를 위한 동기가 명확하며, 이는 일반 기술자의 통상적 구현 선택입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 16: 2단계 검증 프로세스(필기 감지 → 문자 인식)는 처리 효율성을 위한 예측 가능한 최적화입니다. 선행기술이 필기 입력 수신을 교시하므로 필기 감지 능력을 내포하지만, 명시적 2단계 프로세스는 개시되지 않았습니다. 그러나 단계별 검증 파이프라인은 표준 소프트웨어 아키텍처 패턴입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012302167-A1은 트리거 기반 활성화(hot key, gesture 등)를 명시적으로 교시하고 있으며, 청구항의 'automatically without requiring user selection'과 기능적으로 유사하나 완전히 동일하지는 않음. 부트타임 초기화가 2014-2015년 당시 공지 기술이라는 주장은 타당하나, 이를 handwriting recognition engine에 적용하는 명시적 동기가 선행기술에 직접 제시되지 않음. 그러나 latency 감소 및 user experience 개선이라는 동기는 합리적이며, combination_threshold=0.34(낮음)를 고려하면 routine optimization으로 볼 수 있음. Strictness=0.88 기준으로 moderate 근거도 거절 유지가 타당함"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 1, 2, 9, 16에 대한 102 거절은 'activate in response to input data'와 'execute automatically without user selection'의 차이를 기능적 등가로 해석한 것인데, 이는 과도한 해석임. 선행기술은 사용자의 트리거 입력(hot key press, gesture 등)을 명시적으로 요구하므로 'without requiring user selection'과는 구별됨. 102는 모든 구성요소가 단일 선행기술에 명시적으로 개시되어야 하는데, automatic execution without user trigger는 US-2012302167-A1에 명시되지 않음. 102 거절은 철회하고 103으로만 유지하는 것이 적절함"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 1 and 2 were rejected under 102, but the anticipation analysis shows critical missing element: 'execute automatically without requiring user selection'. US-2012302167-A1 explicitly requires user trigger (hardware key, gesture, voice command per claim 2). The coverage analysis shows element 1d has similarity 0.65 but is marked 'not covered'. This is not true anticipation - there is a material difference. The 102 rejection relies on ignoring the 'automatically without user selection' limitation, which is improper under BRI. Even with lenient strictness=0.25, a 102 rejection requires all elements to be disclosed. Here, automatic execution is explicitly absent."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claims 1, 2, 6, 8, 9, 10, 14, 16, 19, 20 has merit but is not overwhelming. The modification from user-triggered to automatic execution is characterized as 'routine design choice' and 'predictable variation'. However, the analysis acknowledges this involves changing the fundamental activation paradigm. While the motivation (user convenience, avoiding distraction during phone calls) is logical, the reference explicitly teaches AWAY from automatic execution by requiring user triggers. The combination_threshold=0.68 suggests moderate bar for obviousness, and the confidence scores are 0.75 (not extremely high). Given strictness=0.25 (lenient), there is reasonable doubt whether this modification is truly 'routine' or represents a design philosophy shift that may not be obvious. The application's background identifies a real problem not solved by the reference."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 분석에서 청구항 1, 9, 16에 대해 일부 102 후보가 제시되었으나, 모두 is_novel=false로 표시되면서도 anticipating_refs=[]로 비어있습니다. 실제로 선행기술 US-2012302167-A1은 '사용자 선택 없이 자동 실행', '문자 판단 후 조건부 저장' 등 핵심 구성요소를 명시적으로 개시하지 않습니다. 선행기술은 사용자 입력(키, 제스처 등)에 응답하여 활성화되므로, 청구항의 '자동 실행'과 구별됩니다. 102 근거는 매우 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항이 is_obvious=false로 판단되었으며, confidence 0.7~0.85로 높습니다. 핵심 차별점인 '사용자 트리거 제거 → 백그라운드 자동 실행'은 선행기술의 교시 방향과 반대이며, 배터리/메모리 관리 문제 해결이라는 비자명한 기술적 과제가 있습니다. Combination_threshold=0.72는 명시적 교시를 요구하나, 선행기술은 이를 제공하지 않습니다. 문자/드로잉 구분 저장, 홈 스크린 구현 등 추가 구성도 선행기술에 없으며, 결합 동기가 불명확합니다. 103 근거는 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            2,
+            9,
+            16
+          ],
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012302167-A1이 'activate handwriting input function in response to input data (hot key, gesture, voice, touch pattern)'를 개시하는데, 이는 사용자 트리거를 요구합니다. 청구항의 'automatically without requiring user selection'과는 명확한 차이가 있습니다. 102 거절은 동일 개시(identical disclosure)를 요구하므로, 'trigger-based activation'과 'automatic execution without user selection'은 구별됩니다. BRI 하에서도 'automatically without requiring user selection'을 'in response to user input'과 동일하게 해석하는 것은 과도한 확장입니다. 102 거절의 증거는 불충분합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 1-2: 선행기술이 trigger-based activation을 개시하고, 동일한 문제(전화 중 메모 편의성)를 다루며, 'use under any circumstances'를 명시합니다. trigger 제거→background service 전환은 2012-2015년 모바일 OS 기술자에게 공지된 기법입니다. 결합 동기는 명확(convenience 향상)하고, 예측 가능한 결과입니다. 그러나 선행기술이 명시적으로 'background service' 또는 'boot-time initialization'을 개시하지 않으며, trigger 제거가 단순한 design choice인지 inventive step인지는 해석의 여지가 있습니다. 출원인은 'automatic execution without user selection'이 기술적 차별점이라 주장할 수 있습니다. Strictness=0.89를 고려하면 거절 유지하지만, moderate 수준입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 9: 'running handwriting recognition engine in the background'과 선행기술의 'activate function in response to input' 간 차이는 claim 1과 동일합니다. 선행기술이 'use under any circumstances' 및 'during phone calls'를 개시하므로 결합 동기는 강하나, 명시적 background service 개시는 없습니다. Coverage_score=0.65로 moderate 수준입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 16: apparatus claim으로 claim 1과 동일한 issue입니다. 구조적 요소(processor, memory, display)는 모두 개시되었으나, 'execute handwriting recognition engine automatically'의 기능적 차별점은 claim 1과 같습니다. Moderate 수준입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            2,
+            9,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012302167-A1이 청구항의 대부분 구성요소를 개시하나, 핵심 쟁점은 'automatically without requiring user selection' 및 'running in the background'의 해석입니다. 선행기술은 하드웨어 hot key, 제스처, 음성 명령 등 '트리거 기반 활성화'를 가르치며, 이는 여전히 사용자 action을 요구합니다. Office Action은 BRI 하에서 'omnipresent trigger'가 'automatic execution'과 기능적으로 동등하다고 주장하나, 이는 해석의 확장입니다. 트리거 누르기(hot key press)와 백그라운드 자동 실행은 구조적·기능적으로 차이가 있습니다. 그러나 선행기술이 '애플리케이션 실행 없이 필기 입력'이라는 동일한 문제를 해결하고 있어, 102 거절 근거가 완전히 약하지는 않습니다. Moderate 수준의 근거로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            2,
+            9,
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012302167-A1은 '간단한 트리거를 통한 빠른 필기 입력'을 명시적으로 가르치며, 그 목적은 '전화 통화 중 방해 없이 메모 작성'입니다. 트리거 기반 활성화에서 백그라운드 자동 실행으로의 변경은 동일한 설계 경로 상의 예측 가능한 최적화입니다. 결합 동기가 선행기술 자체에 명시되어 있고(distraction-free quick memo-taking), 백그라운드 서비스 실행은 2015년 당시 모바일 분야에서 공지 기술이었습니다. 이는 단순히 '트리거도 없애서 사용자 단계를 더 줄이자'는 자명한 설계 선택입니다. Graham factors 모두 obviousness를 지지합니다: (1) 선행기술이 동일 문제 해결, (2) 차이점은 트리거 유무뿐, (3) PHOSITA는 백그라운드 실행 구현 가능, (4) 2차적 고려사항 없음. Combination threshold=0.51 기준으로 이는 명백히 자명한 결합입니다."
+        },
+        {
+          "basis": "allowable_claims",
+          "claims": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "이들 종속항은 선행기술에 개시되지 않은 신규한 한정사항을 추가합니다: (3,13) 움직임 감지 기반 입력 검증, (4,5,11,12,17,18) 인식 실패 시 드로잉 저장, (6,14,19) 홈 스크린 오버레이, (7,15) 자동 파일 표시, (8,10,20) 부팅 시 엔진 시작. 이들은 선행기술에서 가르치거나 제안되지 않았으며, coverage scores(0.3-0.6)가 낮아 유의미한 차이가 있습니다. 결합 동기도 없습니다. 이들 청구항은 허여 가능합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012302167-A1은 핸드라이팅 인식 기능의 대부분 요소를 개시하지만, 핵심 차이점인 '사용자 선택 없이 자동 실행(automatic execution without requiring user selection)'은 명시적으로 개시되지 않았습니다. 선행기술은 하드웨어 키, 제스처, 음성 명령 등 사용자 입력을 요구합니다. 이를 자동 백그라운드 실행으로 수정하는 것이 '명백한 설계 선택(obvious design choice)'이라는 주장은 합리적이나, 이는 해석의 여지가 있습니다. 사용자 입력 요구를 완전히 제거하는 것은 단순한 최적화가 아니라 시스템 아키텍처의 근본적 변경일 수 있습니다. 결합 동기(사용자 편의성 향상)는 설득력 있으나, 이것만으로는 자명성을 확립하기에 중간 정도의 강도입니다. 종속항들(2, 4, 5, 6, 7, 8 등)의 추가 특징 중 일부는 명시적으로 개시되었으나(파일 생성), 다른 특징들(드로잉 저장, 홈 스크린, 부팅 시 시작)은 논리적 확장으로만 제시되어 증거 강도가 중간 수준입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims 1-2의 102 거절 근거는 약합니다. US-2012302167-A1이 'automatically without requiring user selection'을 개시한다고 보기 어렵습니다. 선행기술은 명시적으로 'input data generated by the input unit' (hardware hot key, gesture, voice command, soft key, touch pattern)를 통한 활성화를 요구합니다. Office Action은 이를 'minimal user action'이라고 해석하여 자동 실행과 동일시하나, 이는 청구항 용어의 일반적 의미(BRI)를 넘어서는 과도한 해석입니다. 'automatically without requiring user selection'은 사용자의 명시적 트리거 없이 작동함을 의미하며, hot key나 gesture 입력은 명백히 user selection에 해당합니다. 선행기술 요소 1d의 similarity score 0.65, implicit match, is_covered=false는 이 차이를 반영합니다."
+        },
+        {
+          "basis": "103_obviousness (claims 1, 2, 9, 16)",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 9, 16의 103 거절은 moderate 강도입니다. US-2012302167-A1이 trigger-based activation을 개시하고, 이를 fully automatic background operation으로 전환하는 것이 자명하다는 주장입니다. 결합 동기는 application background에서 명시되어 있고(reducing distraction), 이는 논리적입니다. 그러나 trigger-based에서 fully automatic으로의 전환은 단순한 최적화 이상의 설계 선택을 포함합니다. Trigger 방식은 사용자가 handwriting mode를 의도적으로 활성화할 때만 작동하여 오인식을 방지하고 배터리를 절약하는 반면, background 방식은 항상 작동하여 모든 터치를 모니터링해야 합니다. 이는 기술적 트레이드오프를 수반하는 비자명한 선택일 수 있습니다. Combination_threshold=0.55에서 이는 경계선상의 사안입니다. Strictness=0.55(중립)에서는 근거의 강도가 moderate이므로 신중한 판단이 필요합니다."
+        },
+        {
+          "basis": "103_obviousness (claims 6, 14, 19)",
+          "strength": "moderate",
+          "reasoning": "Claims 6, 14, 19의 103 거절(home screen 적용)은 moderate 강도입니다. US-2012302167-A1이 'any display screen'에서 handwriting input을 개시하므로, 이를 home screen에 적용하는 것은 예측 가능한 변형처럼 보입니다. 그러나 선행기술은 home screen context를 명시하지 않았으며(similarity 0.6, implicit, not covered), home screen은 application launcher로서의 특수한 기능적 맥락을 가집니다. Home screen에서 handwriting을 받는 것은 application icon 선택과의 충돌 문제, UI 설계상의 고려사항 등을 수반할 수 있습니다. 이것이 단순한 적용인지, 아니면 비자명한 설계 선택인지는 논란의 여지가 있습니다. Combination_threshold=0.55에서 경계선상의 사안입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2012302167-A1이 claims 1, 2, 16의 대부분 요소를 개시하나, 핵심 한계사항인 'execute handwriting recognition engine automatically without requiring user selection'에 대한 anticipation 주장은 약함. 선행기술은 hot key, gesture, voice command, touch pattern 등 사용자 입력에 반응하여 기능을 활성화하는 것을 개시하며, 이는 본 청구항의 '사용자 선택 없이 자동 실행'과 구별됨. 제스처나 터치 패턴이 '사용자 선택'에 해당하지 않는다는 해석은 무리가 있음. 잠금화면/전원 오프 상태 활성화도 여전히 사용자 트리거를 요구함. Anticipation 요건인 '단일 선행기술의 명시적 개시'를 충족하지 못함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012302167-A1이 대부분 요소를 개시하며, 백그라운드 실행 또는 부팅 시 시작으로 수정하는 것은 모바일 분야의 공지 설계 선택임. 출원인 명세서가 개선 동기(전화 통화 중 방해 최소화)를 제공함. 그러나 선행기술이 명시적으로 boot-time initialization이나 background service를 개시하지 않으며, 이러한 수정이 '자명'한지는 해석의 여지가 있음. 종속항들(unmoving touch 판단, drawing 저장, home screen 확장, 자동 표시 등)은 예측 가능한 설계 선택이나, 조합의 구체적 동기가 강하지는 않음. Combination_threshold=0.22로 낮아 결합 동기를 쉽게 인정하는 기준이나, moderate 수준의 증거임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012302167-A1은 핸드라이팅 입력 시스템의 핵심 구성요소(프로세서, 터치스크린, 인식 엔진, 파일 저장)를 모두 개시하고 있습니다. 그러나 청구항의 핵심 차별점인 '사용자 선택 없이 자동 실행(automatic execution without requiring user selection)'은 선행기술에서 명시적으로 개시되지 않았습니다. 선행기술은 핫키, 제스처, 음성 명령 등의 트리거 입력을 통해 기능을 활성화하는 반면, 청구항은 어떠한 사용자 개입 없이 백그라운드에서 자동 실행을 요구합니다. 이 차이를 극복하기 위한 결합 동기는 '사용편의성 향상'과 '백그라운드 서비스는 공지기술'이라는 논리에 기반하고 있습니다. 이는 합리적이나, 다음 두 가지 측면에서 moderate 강도로 평가됩니다: (1) 선행기술은 의도적으로 트리거 입력 방식을 채택했을 수 있으며(오작동 방지, 배터리 절약 등), 이를 완전 자동화로 전환하는 것이 당연한 개선인지는 해석의 여지가 있습니다. (2) '백그라운드 서비스'라는 공지기술과 Park의 시스템을 결합하는 구체적 동기가 일반론에 의존하고 있으며, 기술 분야 특유의 고려사항(예: 터치스크린에서 의도하지 않은 입력 방지의 중요성)을 충분히 다루지 않았습니다."
+        },
+        {
+          "basis": "103_obviousness_unmoving_touch",
+          "strength": "moderate",
+          "reasoning": "청구항 3, 13의 '움직이지 않는 터치 입력을 필터링'하는 기능은 선행기술에서 '특정 터치 패턴'으로만 간접적으로 언급되었습니다. 정적 터치를 필터링하는 것이 공지된 기술임은 맞지만, Park 시스템에 이를 추가하는 구체적 동기가 명확하지 않습니다. Park는 이미 의도적 입력(핫키, 제스처 등)을 통해 활성화되므로, 오작동 방지 필터링의 필요성이 상대적으로 낮을 수 있습니다. 반면 청구항의 '자동 실행' 맥락에서는 이러한 필터링이 필수적일 수 있습니다. 따라서 결합 동기는 합리적이나, 선행기술의 문맥과 청구항의 문맥 차이를 고려하면 moderate 강도입니다."
+        },
+        {
+          "basis": "103_obviousness_drawing_storage",
+          "strength": "moderate",
+          "reasoning": "청구항 4, 5, 11, 12, 17, 18의 '인식되지 않은 입력을 드로잉으로 저장'하는 기능은 선행기술에서 개시되지 않았습니다. Office Action은 이를 '명백한 폴백 메커니즘(obvious fallback mechanism)'으로 설명하지만, 다음을 고려해야 합니다: (1) Park 시스템의 목적이 핸드라이팅 인식 및 텍스트 변환에 있다면, 인식 실패 시 드로잉으로 저장하는 것이 당연한 선택인지는 불분명합니다(단순히 재입력 요청할 수도 있음). (2) 텍스트와 드로잉을 혼합 저장하는 파일 포맷 설계는 추가적 엔지니어링을 요구합니다. 그러나 사용자 입력 보존이라는 관점에서 동기는 합리적이므로 moderate 강도로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness_home_screen",
+          "strength": "weak",
+          "reasoning": "청구항 6, 14, 19의 '홈 스크린에서 입력 수신'은 선행기술에서 '시스템 전역 가용성'으로 추론되었으나, 이는 약한 근거입니다. Park의 Claim 4가 '전원 꺼진 상태에서 켜기' 및 Claim 5의 '잠금화면 상태'를 언급한 것이 홈 스크린 구현을 시사한다는 논리는 비약입니다. 홈 스크린은 앱 아이콘이 배치된 특정 UI 맥락이며, 여기서 핸드라이팅 입력을 받는 것은 아이콘 선택과의 충돌 가능성 등 추가 고려사항이 있습니다. 단순히 '자주 보는 화면이므로 당연하다'는 동기는 설득력이 약합니다."
+        },
+        {
+          "basis": "103_obviousness_auto_display",
+          "strength": "moderate",
+          "reasoning": "청구항 7, 15의 '사용자 명령 없이 자동으로 파일 일부를 표시'하는 기능은 선행기술에서 개시되지 않았습니다. Office Action은 이를 '카메라 앱의 사진 자동 표시'와 유추하여 당연한 UI 관행으로 설명합니다. 이는 합리적이나, 핸드라이팅 인식 결과를 즉시 표시하는 것이 모든 사용 맥락에서 바람직한지는 의문입니다(예: 빠른 메모 입력 후 다른 작업으로 전환 시 방해될 수 있음). 피드백 제공이라는 동기는 타당하나, 구현 방식의 자명성은 moderate 수준입니다."
+        },
+        {
+          "basis": "103_obviousness_boot_time",
+          "strength": "strong",
+          "reasoning": "청구항 8, 10, 20의 '부팅 시 핸드라이팅 인식 엔진 시작'은 Claims 1, 9, 16의 '자동 실행' 개념의 자연스러운 구현 방법입니다. 만약 자동 실행이 자명하다면, 부팅 시 초기화는 표준적 구현 기법이므로 강한 근거입니다. 그러나 이는 Claims 1, 9, 16의 103 판단에 종속적입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The core issue is whether eliminating user activation to achieve automatic background handwriting recognition is obvious. US-2012302167-A1 explicitly teaches user activation via hot key, gesture, voice, or touch pattern - this is a deliberate design choice in the prior art. The gap between 'user-activated handwriting mode' and 'always-on background recognition without any user selection' involves non-trivial design decisions: (1) system resource management (battery, memory, CPU for continuous background service), (2) user intent detection (distinguishing intentional handwriting from incidental touch), (3) UI/UX paradigm shift (from explicit mode activation to implicit always-ready state). While the motivation (convenience) is clear, the technical implementation is not merely routine. The combination_threshold=0.44 suggests lower bar for obviousness, and common sense can establish motivation. However, the prior art's explicit teaching of user activation as a feature (not a limitation to overcome) suggests the inventors of US-2012302167-A1 deliberately chose activation-based design. The leap to eliminate this entirely is arguably more than predictable optimization. Given strictness=0.52 (moderate, near neutral), this is borderline. The evidence supports obviousness based on design goals and known techniques (background services), but the gap is not trivial."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies on a critical modification: converting Kim's user-activated system to automatic background execution. However, the evidence for motivation to combine is weak. Kim explicitly requires user initiation (hot key, gesture, voice command, soft key, or touch pattern per Kim claim 2) to activate handwriting input. The Office Action's motivation ('eliminate distracting step during phone calls') comes from the applicant's own specification, not from the prior art itself. This is circular reasoning using hindsight. The prior art in 2015 favored resource-conserving on-demand activation over continuous background processes. Kim teaches away from automatic background execution by explicitly requiring user commands. The alleged 'predictable use of prior art elements' ignores the fundamental architectural difference: Kim's activation paradigm versus claimed always-on paradigm. Converting activation-based to background execution would require resolving: (1) resource consumption (battery/memory), (2) false positive handling (accidental touches), (3) conflict with other touch interactions. No teaching in Kim suggests these solutions. The combination_threshold of 0.52 requires moderate motivation, but only hindsight-based motivation exists. The Graham factors analysis shows substantial differences in approach that are not bridged by prior art teachings."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on the motivation to eliminate user activation steps and run the handwriting recognition engine automatically in background. US-2012302167-A1 explicitly teaches activation 'in response to input data' (hot keys, gestures, etc.), which differs from the claimed automatic execution without user selection. The prior art's stated goal of 'quick handwriting input based on simple operation' provides some motivation to minimize user interaction. However, the leap from trigger-based activation to fully automatic background operation represents a meaningful design change, not merely an obvious optimization. The prior art's architecture fundamentally requires user input to activate the function, and removing this requirement involves non-trivial system design decisions (e.g., resource management, battery impact, persistent background processes). While boot-time initialization and background services are known techniques, applying them here requires hindsight bias. The combination_threshold=0.48 is near the boundary, suggesting this is a close case. Given my strictness=0.52 (slightly above neutral), I find the motivation to combine is present but not overwhelming. The evidence supports obviousness for some claims but the strength is moderate, not strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012302167-A1은 핵심 기술 요소(터치스크린 필기 입력, 인식, 파일 생성)를 개시하고 있으나, 청구항의 핵심 차이점인 '사용자 선택 없이 자동 실행'에 대한 명시적 교시는 없음. 거절 논리는 이를 '자명한 설계 선택'으로 보고 있으나, 이는 결과론적 추론의 위험이 있음. 선행기술은 명시적으로 사용자 입력(핫키, 제스처 등)에 의한 활성화를 요구하는데, 이를 제거하는 것이 단순한 변형인지는 논란의 여지가 있음. 다만, 백그라운드 프로세스 실행 자체는 공지기술이고, 사용자 편의성 향상은 명확한 동기이므로, moderate 강도로 평가함. Strictness 0.60 기준에서 이는 경계선 사례임."
+        }
+      ]
+    }
+  ]
+}

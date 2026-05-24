@@ -1,0 +1,270 @@
+{
+  "case_id": "PILOT-2020006000",
+  "proceeding_number": "2020006000",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.5714285714285714,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "GUI 표시를 위한 형식 변환은 리스크 분석 시스템에서 일반적이고 관례적인 기능으로, US-2016140466-A1의 scorecard monitoring 목적과 직접적으로 연결됨. 결합 동기(motivation to combine)가 명확하며, 통상의 기술자 수준에서 자명한 설계 선택으로 간주됨. confidence 0.85로 높은 신뢰도."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "특정 기간 내 운영 활동 수를 비정형 텍스트에 포함하는 것은 리스크 모델링에서 활동 빈도와 위험 간의 관계를 반영하는 공지상식. US-2016140466-A1도 운영 특성 정보 수취를 개시하므로, 해당 요소의 추가는 예측 가능하고 자명한 향상. confidence 0.82로 강한 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016140466-A1이 리스크 소스 식별, 정보 수신, 카테고리 및 고유 리스크 평가, 점수카드 모니터링 구성 등 청구항 1의 모든 구성요소를 명시적으로 개시하고 있으며, 지리적 지역 기반 적용은 통상적 기술자가 용이하게 도달할 수 있는 설계 선택으로 판단됨. 결합 동기 없이 단일 문헌에 기반한 명확한 대응 관계 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 2의 중간 리스크 평가 개념은 선행기술의 카테고리 리스크 및 고유 리스크 평가라는 두 단계 평가 구조와 직접 대응하며, 다단계 리스크 분석은 리스크 관리 분야에서 통상적인 접근 방식임. 기술적 차별성 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "GUI 표시 형식 변환은 공지된 사용자 인터페이스 관행이며, US-2016140466-A1이 통신 인터페이스를 개시함으로써 결합 동기 존재. 명확한 기술적 맥락과 보편적 적용성으로 인해 강한 근거로 판단."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "운영 활동 수량 및 기간 정보의 포함은 리스크 분석에서 일반적인 입력 요소이며, 선행기술이 운영 활동과 리스크 간 관계를 다루므로 이러한 정량적 확장은 자명함. 결합 동기 명확."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 종속청구항 및 컴퓨터 구현 형태에 대한 103 거절 근거는 선행기술 US-2016140466-A1과 공지된 기술(예: NLP, GUI 포맷팅, 다단계 리스크 스코어링, 결측 데이터 처리)의 결합에 기반함. 결합 동기(motivation to combine)가 명확하며, PHOSITA 수준에서 이러한 기술의 통합이 예측 가능하고 빈번함. 특히 combination_threshold=0.51로 낮게 설정되어 있어, 기술적 결합의 명백함이 쉽게 인정됨. 각 추가 구성요소(예: 중간 리스크 등급, NLP 기반 키워드 추출)는 개별적으로도 기술적으로 자명하며, 전체 청구항의 조합 역시 발명적 진보를 넘는다고 보기 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "GUI 표시를 위한 포맷 변환은 US-2016140466-A1에 명시되진 않았으나, 동일 기술분야에서 일반적으로 알려진 관행으로 간주될 수 있음. 선행기술이 모니터링 및 알림 기능을 포함하고 있어 정보 제공의 필요성을 암시하므로, 이를 GUI로 표시하기 위한 형식 변환은 자명한 확장으로 볼 수 있음. 그러나 이는 기술적 발전보다는 사용성 향상을 위한 사후 처리 단계에 가까움. 심사관의 strictness=0.55 수준에서 이 정도의 증거는 거절을 정당화할 만큼 강력하지만, 완전히 명백하다고 단정하기에는 약간의 해석의 여지 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious=false로 평가되었으며, 결합 동기(motivation to combine)가 부족하고, 선행기술과의 차이점이 기술적 진보로 인정됨. 특히 NLP 기반 키워드 추출, 비정형 텍스트 기반 부분집합 결정, 조건부 평가 조정 로직 등은 통상의 기술자가 쉽게 도달할 수 없다고 판단됨. combination_threshold=0.33인 점을 고려하더라도, 해당 기술적 통합에 대한 명확한 동기가 없어 obvious 판단의 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술인 US-2016140466-A1은 리스크 소스의 범주 및 고유 리스크를 결정하고 스코어카드 모니터링을 구성하는 기술을 개시하고 있으나, 청구항들이 포함하는 비구조화된 텍스트 설명의 수신, NLP 기반 키워드 추출 및 쿼리 생성, 특정 기간 내 운영 활동 수의 포함, 데이터 부재 시 폴백 조정 로직 등은 명시하거나 암시하지 않는다. 특히, 자연어 처리를 활용하여 운영 활동 텍스트를 분석하고 이를 기반으로 데이터베이스 쿼리를 생성하여 지역 데이터를 선별하는 일련의 흐름은 선행기술과의 명확한 차별점을 가지며, 통상의 기술자가 동일한 해결책에 자발적으로 도달할 동기가 충분히 존재하지 않는다. 결합 동기에 대한 근거는 hindsight에 의존하게 되며, Graham 요소들(차이점, 통상의 기술자 수준, 보조적 고려사항)을 종합적으로 고려할 때 진보성 거절 근거의 강도는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항에 대해 'LLM unavailable — default to non-obvious'로 기재되어 있으며, 결합된 선행기술이나 결합 동기에 대한 구체적 근거가 제시되지 않음. 이는 진보성 거절 근거가 실질적으로 존재하지 않음을 의미함. combination_threshold=0.48인 엄격 기준을 고려하더라도, 결합 동기나 공지기술의 존재 자체가 확인되지 않아 근거 강도는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2016140466-A1이 청구항 2, 9, 16의 핵심 구성요소인 중간 위험 평가 및 이를 기본 위험 등급에 적용하는 절차를 명시적으로 개시하며, 위험 관리 시스템에서 다중 위험 지표 통합은 통상의 기술임. motivation to combine이 명확하고, 선행기술의 기재 범위 내에서 자명한 확장으로 판단됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "운영 활동의 수량 및 기간 정보 포함은 선행기술의 '정보 수신' 범위에 일반적으로 포함될 수 있으나, 구체적 언급은 없음. 그러나 위험 평가 분야에서 이러한 정량적/시간적 데이터 사용은 공지된 관행으로 간주될 수 있어, combination_threshold=0.57 기준에서 obvious 판단은 유지 가능함."
+        }
+      ]
+    }
+  ]
+}

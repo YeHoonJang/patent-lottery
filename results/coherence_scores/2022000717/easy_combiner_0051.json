@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes §102 element-by-element anticipation analysis, Graham/KSR factors (scope, differences, PHOSITA level, secondary considerations) for §103, and claim-specification support for §112, each applied under the appropriate statutory framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions reference specific claim language (e.g., 'zones,' 'third orientation,' 'same signal characteristics'), specific prior art disclosures from US-2018329537-A1 (electrode directions, bridge wirings, drive-sense circuitry), and specification passages supporting §112 rejections."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The office action lists claim 2 as 'allowable' in the allowable_claims field and the objections section states 'Claim 2 is considered allowable,' yet the final decision rejects claim 2 under §103 without fully reconciling this contradiction—the earlier allowance finding is reversed in the final decision without adequate stated justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has combination_threshold of 0.329 (easy combiner) and consistently accepts weak motivations to combine (e.g., 'design simplification,' 'manufacturing efficiency,' 'predictable engineering choice'), finding obviousness across all 20 claims from a single reference, which is consistent with an easy-combiner profile at moderate strictness (0.502)."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows logically from the accumulated stage analyses: strong §102 rejections for claims 1, 3, 6, 11, 16; moderate §103 rejections for the remaining claims; and §112 issues for several claims, all consistently summarized in the final decision with stated rationale."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000717",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15207,
+      "output_tokens": 437,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

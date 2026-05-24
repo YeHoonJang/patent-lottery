@@ -1,0 +1,609 @@
+{
+  "case_id": "2021002551",
+  "proceeding_number": "2021002551",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.7857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012268412-A1과 US-2013101804-A1의 결합은 청구항 10의 모든 구성요소를 포괄하며, 결합 동기는 통상의 기술자에게 자명합니다. Graham 4요소 분석 결과 차이점이 미미하고, 2차적 고려사항도 제시되지 않았습니다. confidence=0.85로 근거가 명확합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "WO-2000030869-A1은 청구항 15의 모든 구성요소를 명시적으로 개시하고 있습니다. '아직 경화되지 않은 코팅 층에 프리매트릭스를 눌러 패턴을 형성하는 방법'은 UV 경화 페인트에 음형 매트릭스를 사용하여 엠보싱 공정을 적용하는 것과 동일합니다. confidence=0.95로 근거가 명확합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "WO-2000030869-A1은 엠보싱 공정을 개시하지만, UV 경화 페인트의 구체적 사용은 개시되지 않았습니다. 그러나 UV 경화 재료는 통상의 기술자가 쉽게 선택할 수 있는 재료로, 결합 동기가 인정됩니다. strictness=0.79에 따라 거절을 유지합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "strong",
+          "reasoning": "The combination of US-2012268412-A1 and US-2013101804-A1 clearly discloses all elements of Claim 10, including microstructured regions with differing sliding friction coefficients and parallel elevations/depressions. The motivation to combine is well-supported by the need for improved tactile guidance in control surfaces, a known objective in the field. The confidence score (0.88) and low combination threshold (0.34) further strengthen this rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "용어의 일관성 및 명확성에 대한 지적은 형식적 문제로, 명세서의 뒷받침이 충분하며 청구항의 모호성이 거절 사유로 작용할 정도는 아니다. 혁신 지원형 심사 철학에 따라, 출원인의 기술적 기여를 인정하고 보정 제안으로 처리하는 것이 적절하다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "All claims were found novel with high confidence (0.8-0.95). No anticipatory prior art was identified, and coverage scores were below the strictness threshold (0.29). The differences represent technical contributions."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "While some references disclose partial elements (e.g., microstructured surfaces or adjustable friction coefficients), no combination of prior art meets the combination threshold (0.72) or provides clear motivation to combine for the claimed purpose. Confidence in non-obviousness is high (0.8-0.9)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The specification adequately supports the claims, with minor formalities (e.g., term consistency) noted but not rising to the level of a rejection. No enablement issues were identified."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "No abstract idea or patent-ineligible subject matter was identified. The claims are directed to a practical application of microstructured coatings."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2013101804-A1 and US-2012268412-A1 discloses most elements, but the 'differing sliding friction coefficients' in microstructured regions may require interpretation. Given strictness=0.89, this is sufficient for rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of US-2013101804-A1 and US-2012268412-A1 is logical and supported by the need for improved manual operability. The motivation to combine is clear, and the result is predictable."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            12,
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "While UV-curing materials are known, their specific application to the claimed microstructured haptic surfaces is not explicitly disclosed. However, the use of such materials is routine in the field, and the combination is predictable. Given strictness=0.89, this is sufficient for rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1 and WO-2000/30869-A1 explicitly disclose the method of applying microstructures to UV-curing coating materials. The claim is fully anticipated."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "The method is a well-known technique, and its application to haptic surfaces is a predictable extension. The combination motivation is logical and supported by the references."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "WO-2000/30869-A1 explicitly discloses the embossing process with a negative matrix for UV-curing paint. The claim is fully anticipated."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "The embossing process is explicitly disclosed in WO-2000/30869-A1, and its application to finger-guiding haptics is obvious."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "US-2013101804-A1 explicitly discloses the use of a tactile surface as a carrier or cladding for control elements. The claim is fully anticipated."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "The use of a coated substrate for control elements is explicitly disclosed in US-2013101804-A1, and its application is obvious."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 10, 17, 18, and 19 are anticipated by the combination of US-2012268412-A1 and US-2013101804-A1. The prior art explicitly discloses the core elements of these claims, including microstructured surfaces with varying friction coefficients and their use in automotive applications. The confidence levels (0.8-0.9) support a strong rejection under 102."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 10, 17, 18, and 19 are also rejected under 103 as obvious over the prior art. The combination of US-2012268412-A1 and US-2013101804-A1 provides a clear motivation to combine for a person of ordinary skill in the art (PHOSITA). The differences are minor design choices or natural extensions of the disclosed technology. The combination_threshold=0.51 and confidence levels (0.82-0.95) further support this rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 11, 12, 13, 14, 15, and 16 involve UV-curing materials or specific methods of applying microstructures, which are not disclosed or suggested in the prior art. The lack of motivation to combine and the absence of relevant prior art references make the 103 rejection weak for these claims. These claims are allowable."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012268412-A1과 US-2013101804-A1의 결합이 청구항 10과 17의 구성요소를 개시하고 있으나, '동일성'보다는 '유사성'에 가깝습니다. 특히 청구항 10의 'running elevation and depression'와 선행기술의 'elevations and recesses'는 기능적으로 유사하지만 구조적 동일성은 명확하지 않습니다. 그러나 BRI 해석에 따라 넓게 해석할 경우, 102 근거로 거절할 수 있으나, strictness=0.47에 따라 증거의 강도가 충분하지 않다고 판단됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            15,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 10, 15, 17은 선행기술의 결합을 통해 통상의 기술자가 쉽게 도출할 수 있는 수준으로 판단됩니다. 특히 청구항 10의 경우, US-2012268412-A1과 US-2013101804-A1의 결합 동기가 명확하며, 103 거절 근거로 충분합니다. 청구항 15의 'embossing processes with a negative matrix'는 US-2013101804-A1에서 유사하게 개시되어 있으며, UV 경화 페인트의 사용은 공지기술의 대체로 간주됩니다. 청구항 17은 청구항 10의 사용 방법을 다루며, 선행기술의 결합을 통해 쉽게 도출됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19
+          ],
+          "strength": "weak",
+          "reasoning": "청구항 11, 12, 13, 14, 16, 18, 19은 UV 경화 코팅 재료, 잉크젯 인쇄, 차량 내 구체적인 적용 등 새로운 기술적 특징을 포함하고 있습니다. 선행기술에서 이러한 특징을 결합할 동기가 명시적으로 제시되지 않았으며, 통상의 기술자가 쉽게 도출할 수 있는 수준을 넘어섭니다. 특히 UV 경화 재료의 사용은 새로운 기술적 효과를 제공하며, 진보성을 뒷받침합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2012268412-A1은 청구항 10의 'sliding friction coefficient which are respectively different from each other' 요소를 명시적으로 개시하고 있으나, 나머지 구성요소('at least one of a running elevation and a running depression which are parallel')는 개시하지 않았습니다. 단일 선행기술이 모든 구성요소를 개시하지 않으므로, 102 근거로는 약한 편입니다. 그러나 strictness=0.55에 따라, 일부 핵심 요소의 개시는 신규성 판단에 부정적 영향을 미칠 수 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012268412-A1과 US-2013101804-A1의 결합은 청구항 10의 모든 구성요소를 충족하며, 결합 동기는 해당 분야의 통상의 기술자(PHOSITA)에게 자명합니다. 두 선행기술은 모두 촉각 피드백을 개선하기 위한 표면 구조를 다루고 있어, 설계 선택 또는 공지상식 수준의 결합 동기가 인정됩니다. combination_threshold=0.55에 따라, 이 결합은 103 거절로 유지됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10,
+            14,
+            15,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술의 결합이 청구항의 모든 구성요소를 명시적으로 개시하지는 않지만, 유사한 기술적 특징을 다루고 있어 신규성 판단에 해석의 여지가 있습니다. 특히 UV 경화 재료의 사용 여부는 선행기술에서 명확히 다루지 않아 strictness=0.46에 따라 거절 근거로서는 다소 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            14,
+            15,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술의 결합 동기가 명확하며, 통상의 기술자가 쉽게 도출할 수 있는 설계 선택으로 평가됩니다. Graham 4요소 분석과 combination_threshold=0.22에 따라 진보성 거절 근거는 강력합니다. 특히 청구항 10과 17은 선행기술의 결합을 통해 자명하게 도출됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012268412-A1은 '서로 다른 마찰 계수 또는 질감'을 시뮬레이션하는 기술을 개시하고 있으나, 청구항 10과 17의 '미세 구조화된 영역' 및 '슬라이딩 마찰 계수'를 명시적으로 동일하게 공개하지는 않았습니다. 그러나 핵심 요소와의 유사성이 높아 신규성 판단에 있어 해석의 여지가 존재합니다. strictness=0.50에 따라, 근거가 명확하지 않으므로 보정 또는 추가 설명을 요구할 수 있습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012268412-A1과 US-2013101804-A1의 결합은 '미세 구조화된 표면'과 '마찰 계수 조절'을 결합하는 동기를 제공합니다. 그러나 청구항 10과 17의 '손가락 유도 햅틱스' 및 '제어 요소의 캐리어 또는 클래딩'으로의 구체적인 응용은 선행기술에서 명시적으로 개시되지 않았습니다. combination_threshold=0.33에 따라 결합 동기가 인정되지만, 실질적인 차이점이 존재하므로 근거의 강도는 moderate입니다. strictness=0.50에 따라, 보정 또는 추가 설명을 요구할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 10,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012268412-A1과 US-2013101804-A1이 청구항 10의 구성요소를 개별적으로 개시하고 있으나, 모든 구성요소가 단일 문헌에 명시적으로 결합되어 있지는 않습니다. 그러나 유사한 기술들이 존재하며, strictness=0.52에 따라 신규성 거절 근거로 작용할 수 있으나 강도는 중간 수준입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012268412-A1과 US-2013101804-A1의 결합 동기가 명확하며, 해당 분야의 통상의 기술자가 자연스럽게 고려할 수 있는 설계 선택입니다. combination_threshold=0.44에 따라 진보성 거절 근거가 강력합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_number": 17,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013101804-A1과 US-2012268412-A1이 청구항 17의 사용 목적과 유사한 기술을 개시하고 있으나, 모든 구성요소가 단일 문헌에 명시적으로 결합되어 있지는 않습니다. strictness=0.52에 따라 신규성 거절 근거로 작용할 수 있으나 강도는 중간 수준입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 17,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013101804-A1과 US-2012268412-A1의 결합 동기가 명확하며, 해당 분야의 통상의 기술자가 finger-guiding haptics를 제어 요소에 적용하는 것이 자연스러운 설계 선택임을 인식할 수 있습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 강력합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 11,
+          "strength": "weak",
+          "reasoning": "UV-curing coating material의 사용은 선행기술에서 발견되지 않으며, 해당 분야의 통상의 기술자가 자명하게 도출하기 어렵습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 12,
+          "strength": "weak",
+          "reasoning": "UV-curing paint의 사용은 선행기술에서 발견되지 않으며, 해당 분야의 통상의 기술자가 자명하게 도출하기 어렵습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 13,
+          "strength": "weak",
+          "reasoning": "UV-curing inkjet ink의 사용은 선행기술에서 발견되지 않으며, 해당 분야의 통상의 기술자가 자명하게 도출하기 어렵습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 14,
+          "strength": "weak",
+          "reasoning": "UV-curing coating material에 미세구조를 적용하는 구체적인 방법은 선행기술에서 발견되지 않으며, 해당 분야의 통상의 기술자가 자명하게 도출하기 어렵습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 15,
+          "strength": "weak",
+          "reasoning": "UV-curing paint에 embossing process with a negative matrix를 적용하는 구체적인 방법은 선행기술에서 발견되지 않으며, 해당 분야의 통상의 기술자가 자명하게 도출하기 어렵습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 16,
+          "strength": "weak",
+          "reasoning": "UV-curing inkjet ink에 inkjet printing을 적용하는 구체적인 방법은 선행기술에서 발견되지 않으며, 해당 분야의 통상의 기술자가 자명하게 도출하기 어렵습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 18,
+          "strength": "weak",
+          "reasoning": "finger-guiding haptics를 dashboard, switch console, 또는 operating panel in a vehicle에 구체적으로 적용하는 것은 선행기술에서 발견되지 않으며, 해당 분야의 통상의 기술자가 자명하게 도출하기 어렵습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 약합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 19,
+          "strength": "weak",
+          "reasoning": "finger-guiding haptics를 automobile에 구체적으로 적용하는 것은 선행기술에서 발견되지 않으며, 해당 분야의 통상의 기술자가 자명하게 도출하기 어렵습니다. combination_threshold=0.44에 따라 진보성 거절 근거가 약합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            15,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 10, 15, and 17 are supported by clear and logical combinations of US-2012268412-A1 and US-2013101804-A1. The motivation to combine is well-articulated, and the differences are minimal or predictable. The confidence scores for obviousness (0.8, 0.9, and 0.75) reflect strong evidence."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10,
+            15,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "While the references disclose elements of Claims 10, 15, and 17, the novelty rejection is slightly weaker than the obviousness rejection due to the need to combine multiple references. However, the combination is straightforward, and the novelty rejection is still justified."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19
+          ],
+          "strength": "weak",
+          "reasoning": "Claims 11, 12, 13, 14, 16, 18, and 19 are not supported by sufficient evidence of obviousness. The references do not disclose or suggest the use of UV-curing materials (Claims 11-13), specific methods of microstructure application (Claims 14, 16), or specific applications (Claims 18, 19). The confidence scores for non-obviousness (0.85-0.9) reflect weak grounds for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_number": 10,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013101804-A1과 US-2012268412-A1의 결합이 청구항 10의 구성요소를 개시하고 있으나, 'sliding friction coefficient which are respectively different from each other'의 구체적인 조합이 명시적으로 개시되었는지에 대한 해석의 여지가 있습니다. strictness=0.52에 따라 증거의 강도가 borderline로 판단됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_number": 10,
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013101804-A1과 US-2012268412-A1의 결합 동기가 명확하며, 통상의 기술자가 해당 분야의 공지된 필요성에 따라 결합할 동기를 가집니다. combination_threshold=0.48에 따라 자명성 판단이 타당하며, 증거의 강도가 충분합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 10 and 17 are supported by a clear combination of US-2012268412-A1 and US-2013101804-A1, with a well-articulated motivation to combine for a PHOSITA. The differences are minimal and predictable, satisfying the 103 obviousness standard with high confidence (0.8)."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 15 is directly anticipated by WO-2000030869-A1, which discloses the embossing method with a negative matrix. The application of this method to UV-curing paints is a natural extension for a PHOSITA, with high confidence (0.9)."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            10,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "While the combination of US-2012268412-A1 and US-2013101804-A1 discloses elements of claims 10 and 17, the exact configuration (e.g., parallel elevations/depressions with differing friction coefficients) may require some interpretation. However, the overlap is substantial enough to warrant a 102 rejection under a strict interpretation."
+        },
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "WO-2000030869-A1 explicitly discloses the embossing method claimed in claim 15, leaving no room for novelty. Confidence is high (0.9)."
+        }
+      ]
+    }
+  ]
+}

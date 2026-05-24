@@ -1,0 +1,398 @@
+{
+  "case_id": "2022001826",
+  "proceeding_number": "2022001826",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses dynamic redaction of private data and redacted session delivery, which directly maps to claim 1's masking/grouping functionality. The redaction process inherently involves organizing content into masked/unmasked regions, making the combination obvious under broad interpretation. High confidence (0.85) and clear motivation to combine (privacy-enhancing UI organization) confirm strong basis."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "'Alternate content' lacks definition in the specification, while only 'targeted advertisements' are mentioned. This creates ambiguity about implementation scope. While not as strong as 103, the lack of definition in the specification meets 112(b) requirements under strict interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art explicitly discloses redaction, and grouping is an obvious design choice for UI organization. However, the combination motivation relies on general design principles rather than specific technical guidance."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Terms like 'mask' and 'group' lack specific technical definitions or implementation details, making it impossible for a PHOSITA to practice the invention without undue experimentation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 5-20) are explicitly or implicitly covered by US-2013167249-A1 with high confidence (0.55-0.8). The prior art's redaction, grouping, contextual analysis, and layer manipulation directly overlap with the claims, making combinations obvious under Graham factors."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguous terminology and lack of specific implementation details are noted, but some claims (e.g., 2, 9) have sufficient specificity. The issue is general rather than claim-specific."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013167249-A1은 청구항의 핵심 기능(마스킹, 그룹화, 컨텍스트 분석)을 명확히 개시하고 있으며, 결합 동기(사용자 경험 개선, 수익 모델 통합 등)가 당업자에게 명확히 인지 가능한 기술적 문제 해결 방향을 제시함. coverage score가 0.4 이상인 대부분의 청구항은 combination_threshold(0.72)를 넘지 않지만, strictness=0.29로 인해 중립적 판단이 가능."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에서 'mask', 'grouping', 'contextual analysis' 등의 핵심 용어에 대한 구체적 정의와 구현 방식이 명세서에 부족함을 인정하지만, 이는 기술적 기여가 인정될 경우 보정 가능할 정도의 중립적 문제."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013167249-A1은 'session redaction' 및 'privacy management' 기술을 명확히 개시하며, 청구항들에 기재된 'layer manipulation', 'alternate content', 'targeted advertisements' 등은 선행기술의 기능적 확장 또는 변형으로, PHOSITA가 당연한 개선으로 인식할 수 있는 범위에 해당합니다. 결합 동기('privacy compliance' 및 'user experience' 개선)가 명확히 제시되어 103_obviousness가 강력하게 적용됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항에 'masking', 'layer manipulation', 'targeted advertisements' 등 핵심 기능에 대한 구체적 구현 방안이 명세서에 명시되지 않아, 기술적 구현 가능성을 판단하기 어렵습니다. 이는 112(b)의 'undue experimentation' 기준을 명백히 위반합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013167249-A1의 레이어 조작 및 데이터 마스킹 기술이 청구항 2의 기능적 특징과 직접적으로 결합 가능하며, 기술자에게 명확한 동기 제공. 결합 동기와 기술적 유사성 증거가 명확하여 강한 근거"
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "청구항 1 및 3의 선행기술과의 유사성은 명확하지만, 특정 기능(예: 광고 삽입, 가상 좌표)의 부재로 중간 강도의 근거"
+        },
+        {
+          "basis": "112_definiteness",
+          "strength": "weak",
+          "reasoning": "청구항 용어의 모호성 및 기술적 세부사항 부족으로 인한 약한 근거"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 REF1은 청구항의 핵심 기능(Private Data Redaction, Dynamic Display Modification, Grouping)을 명확히 개시하며, 결합 동기(Privacy Enhancement, Commercialization)가 명확하여 103_obviousness 기준 충족. 모든 청구항에 대해 높은 신뢰도(0.5~0.8)로 동일/유사 기능을 예측"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 'masking' 및 'grouping'에 대한 구체적 기술적 구현 예시 부재로 기재요건 미충족. 다만 선행기술 REF1의 redaction 기술과 연계해 추론 가능하나, 청구항의 구현 가능성에 대한 명확한 지시 부재로 중립적 판단 필요"
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses redaction techniques overlapping with claims 1, 8, 9, 10, 12-15, 18-19. Grouping of regions and contextual analysis are considered obvious variants with clear motivation to combine."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks specific definitions for key terms like 'private content', 'grouping', and 'virtual coordinates'. Enablement is insufficient for features like advertisement targeting and screenshot saving."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses content replacement in redacted areas, providing clear motivation for applying targeted advertisements in masked regions. The combination threshold is met, and the PHOSITA would recognize monetization opportunities."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "REF1 anticipates claims 1-3, 5-20 with coverage scores exceeding 0.5. The disclosed functionalities (dynamic redaction, grouping, contextual analysis) directly overlap with the claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Terms like 'masking', 'grouping', and 'targeted advertisement' lack sufficient definition in the specification, failing to enable practice by a PHOSITA."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses redacting private data (US-2013167249-A1:Claim1), and grouping masked regions is implicitly part of display modification. The combination is obvious to a PHOSITA for improving UI organization, with clear motivation and Graham factors supporting this conclusion."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Multiple claims are directly anticipated by prior art with coverage scores >0.5. Claims 1, 3, 5, 8, 9 show clear overlap with prior art's redaction/session retrieval functionality."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks technical details on 'grouping,' 'masking,' and 'layer manipulation.' While not definitively lacking, this creates ambiguity under BRI interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses content grouping and masking private data, which directly overlaps with claim 1's features. The combination motivation (HIPAA compliance and UI organization) is clear, and the coverage score (0.78) exceeds the strictness threshold (0.52)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks detailed descriptions of 'masking', 'grouping', and 'virtual coordinates', but the Office Action's verification note indicates partial alignment with REF1. Without full disclosure, enablement remains uncertain."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art explicitly discloses redacting private data and delivering redacted sessions, which overlaps with the claimed method. While grouping masked content is not explicitly mentioned, it is framed as a logical extension. The motivation to combine is plausible but not definitively established, leading to moderate confidence."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objection cites lack of technical detail for 'masking' and 'grouping,' but the specification may provide sufficient context. The weakness stems from ambiguity in the claim language rather than definitive enablement issues."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013167249-A1은 청구항의 '마스킹' 및 '그룹화' 기능과 직접적으로 유사하며, 결합 동기(UI/UX 개선)가 명확히 제시됨. Graham 요소 모두 충족됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 '마스킹', '그룹화' 등의 용어에 구체적 구현 방식이 누락되어 기술자에게 구현 가능성이 낮으나, 단순한 불명확성 수준으로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (REF1) explicitly discloses core elements (dynamic redaction, masking, grouping) with coverage scores (0.6–0.8) exceeding strictness threshold. Graham factors (scope, motivation, PHOSITA knowledge) are fully satisfied, making combination obvious."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Spec lacks definitions for critical terms ('mask', 'grouping methodology', 'targeted ads') and implementation details. PHOSITA cannot replicate claims without undue experimentation, violating enablement requirements."
+        }
+      ]
+    }
+  ]
+}

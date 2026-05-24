@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102, Graham/KSR factors under §103, and written description/definiteness under §112, each invoked for the appropriate claims without cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are anchored to specific claim elements (e.g., 'machine-readable tag,' 'funding source selection') and specific prior art disclosures in US-2012296725-A1, with claim-by-claim mapping provided."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found non-novel at §102 (claims 1, 3, 5, 9, 10) are consistently rejected under §102 in the office action and final decision, while claims found novel at §102 (claims 4, 6, 8) are carried forward to §103 or allowed, with no unexplained reversals."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a combination_threshold of 0.329 (easy combiner), the examiner readily accepts single-reference combinations and weak motivations (e.g., 'design choice,' 'generally known'), consistent with the low combination threshold; strictness of ~0.5 is reflected in allowing claims 6 and 8 where prior art genuinely lacks the features."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The rejection decision follows logically from the accumulated stage analyses: independent claims are rejected on §102/§103 grounds established in the novelty and obviousness stages, §112 issues are carried forward, and allowable dependent claims (6, 8) are flagged for amendment rather than granted outright because their parent claims are rejected."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018002356",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13252,
+      "output_tokens": 416,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

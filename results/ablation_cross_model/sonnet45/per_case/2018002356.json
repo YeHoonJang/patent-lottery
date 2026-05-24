@@ -1,0 +1,586 @@
+{
+  "case_id": "2018002356",
+  "proceeding_number": "2018002356",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 청구항 1의 핵심 구성요소를 모두 개시: (1) 머신-리더블 태그(merchant identifier tag)를 읽는 휴대 컴퓨팅 디바이스, (2) 네트워크를 통해 중앙 컨트롤러로부터 거래 상세정보(상품 스캔 데이터, 결제 옵션) 요청/수신, (3) 사용자가 선택한 결제 옵션(신용카드, 직불카드, 당좌예금, 저축예금 계좌 등) 전송, (4) 결제 처리. 선행기술의 'merchant identifier tag'와 본 출원의 'pay code with transaction details'는 BRI 하에서 동일한 기능(거래 식별자 인코딩)을 수행. 청구항 2(모바일폰 + 카메라), 7(자금출처 선택), 9(디스플레이 위치)도 선행기술에 명시적으로 개시됨. 102 거절 근거 강함."
+        },
+        {
+          "basis": "102_novelty_claims_10_27",
+          "strength": "moderate",
+          "reasoning": "청구항 10, 27은 '초기 거래 상세정보를 먼저 디스플레이한 후 네트워크 연결하여 추가 상세정보 요청'하는 시퀀스를 추가. 선행기술은 머천트 식별자 수신 → 네트워크 연결 → 데이터베이스 조회 → 디스플레이를 개시하나, '로컬 디스플레이 먼저 + 네트워크 조회 나중'이라는 명시적 시퀀스는 불명확. Office Action은 'inherently involves displaying available information from scanned tag and then retrieving supplementary data'라고 주장하나, 이는 해석의 여지가 있음. 그러나 선행기술의 전체 흐름이 이 시퀀스를 암시하므로 102 anticipation 또는 103 obvious로 볼 수 있음. strictness=0.79 → 거절 유지."
+        },
+        {
+          "basis": "103_obviousness_barcode",
+          "strength": "strong",
+          "reasoning": "청구항 3, 4, 5(바코드, QR 코드 특정)는 선행기술의 'machine-readable tag'을 바코드/QR 코드로 구체화. 출원인 자신의 Background가 바코드 리딩(Red Laser 앱, NTT Data 바코드 라벨)이 공지기술임을 인정. 2013년 당시 바코드/QR 코드는 모바일 결제 및 상거래에서 표준 기술. PHOSITA가 선행기술의 머신-리더블 태그를 바코드/QR 코드로 구현하는 것은 자명한 설계 선택. 103 거절 근거 매우 강함."
+        },
+        {
+          "basis": "103_obviousness_product_attributes",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 14, 23, 32, 38, 48(수량, 품질, 색상, 사이즈 선택)은 전자상거래의 기본 기능. 선행기술이 'product scan data'를 언급하나 제품 속성 선택은 명시하지 않음. 그러나 PHOSITA는 제품 구매 트랜잭션에서 이러한 속성 선택이 필수임을 인식. 이는 선행기술의 모바일 결제 시스템에 공지된 전자상거래 원칙을 적용하는 것으로, 예측 가능한 결과. strictness=0.79 → 거절 유지."
+        },
+        {
+          "basis": "103_obviousness_shipping",
+          "strength": "moderate",
+          "reasoning": "청구항 8, 16, 25, 34, 40, 50(배송 상세정보)도 전자상거래의 보편적 요구사항. 선행기술은 배송을 언급하지 않으나, 물리적 상품 배송 시 배송 정보 수집은 당연한 거래 요소. 이는 공지기술의 predictable use. strictness=0.79 → 거절 유지."
+        },
+        {
+          "basis": "103_obviousness_NFC",
+          "strength": "moderate",
+          "reasoning": "청구항 13, 36, 37, 45(NFC 추가)는 2013년 당시 공지된 모바일 결제 기술(Google Wallet 2011, ISIS 2012). 출원인의 Background가 RFID/NFC를 인정. 바코드 스캔과 NFC를 결합한 듀얼모드 결제 디바이스는 업계에서 알려진 접근법. 그러나 선행기술 자체는 NFC를 개시하지 않으므로, 이는 명백한 결합(combination). Motivation to combine: 거래 유연성, 속도 향상, 오프라인 거래 지원. combination_threshold=0.34 → 결합 동기 충분. strictness=0.79 → 거절 유지."
+        },
+        {
+          "basis": "112_indefiniteness_claim13",
+          "strength": "strong",
+          "reasoning": "청구항 13은 'QR bar code'(광학 코드)이면서 동시에 'received by near field communication device'(NFC 무선 통신)라고 기재. 이는 기술적으로 양립 불가능 — QR 코드는 카메라로 읽고, NFC는 RF 통신. 청구항이 (a) QR + NFC 듀얼모드 디바이스인지, (b) QR 이미지를 NFC로 전송하는 중간 단계인지, (c) 기타 구성인지 불명확. 35 USC 112(b) indefiniteness 거절 타당."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 provides comprehensive disclosure of the core system: mobile payment using camera-enabled phones to read bar codes, network communication for transaction details, user-selectable payment options, and payment processing. Coverage scores range from 0.78-0.95 for directly disclosed elements. The reference explicitly teaches all fundamental components claimed."
+        },
+        {
+          "basis": "103_obviousness_QR_specification",
+          "strength": "strong",
+          "reasoning": "QR codes were well-known bar code variants by 2013 priority date, acknowledged in applicant's own specification (Red Laser reference). Selecting QR code format for higher data capacity is routine design choice with clear motivation. Coverage score 0.6 reflects lack of explicit QR disclosure, but obviousness analysis is solid given known technology and clear rationale."
+        },
+        {
+          "basis": "103_obviousness_product_attributes",
+          "strength": "moderate",
+          "reasoning": "Product attribute selection (quantity, quality, color, size) was standard e-commerce functionality by 2013. Reference teaches transaction option selection framework. However, the reference focuses on payment options and does not explicitly discuss product attributes. The combination requires importing functionality from e-commerce domain into mobile payment context. Coverage score only 0.45 indicates substantial gap. Motivation exists (complete shopping functionality) but requires combining reference with general e-commerce knowledge."
+        },
+        {
+          "basis": "103_obviousness_shipping_details",
+          "strength": "moderate",
+          "reasoning": "Shipping details selection was routine in e-commerce/m-commerce by 2013. Reference teaches transaction options but does not mention shipping. Coverage score 0.3 shows significant gap. The reference appears focused on point-of-sale transactions rather than remote delivery scenarios. Combining with e-commerce shipping practices requires extending the reference's use case from POS to remote purchase, which is predictable but not explicitly suggested by the reference."
+        },
+        {
+          "basis": "103_obviousness_display_sequencing",
+          "strength": "moderate",
+          "reasoning": "Claims 10, 27 add specific sequencing: display local data before network connection, then request additional details. Reference teaches both local decoding and network retrieval but does not specify this sequence. The rationale (minimize latency, immediate feedback) is sound UX practice, but the reference does not explicitly suggest this particular workflow. Coverage score 0.81 indicates most elements present, but the sequencing represents a design choice not explicitly taught."
+        },
+        {
+          "basis": "103_obviousness_dual_channel_NFC_network",
+          "strength": "moderate",
+          "reasoning": "Claim 36 specifies NFC for initial transaction info, network for details. Reference discloses both RFID/NFC and network communication but does not explicitly describe this dual-channel approach. The motivation (leverage NFC proximity authentication with network data capacity) is reasonable, but coverage score 0.78 shows the specific combination is not directly taught. Requires recognizing complementary uses of two disclosed technologies."
+        },
+        {
+          "basis": "112_written_description_claim_13",
+          "strength": "strong",
+          "reasoning": "Claim 13 creates internal contradiction: QR bar code (optical, camera-read) AND received by NFC (wireless electromagnetic). These are mutually exclusive reception mechanisms. Specification describes them as alternatives, not simultaneous characteristics of single pay code. This represents genuine 112(a) defect - unclear what structure is claimed and specification provides no support for simultaneous optical/NFC reception of same code."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2012296725-A1은 유사한 모바일 결제 시스템을 개시하지만, 청구항의 구체적 워크플로우와 조합은 선행기술에서 명시적이지 않습니다. QR 코드, 제품 속성 선택, 배송 정보는 공지 기술이나 본 출원의 특정 조합은 추가 기술적 기여를 나타낼 수 있습니다. 결합 동기는 논리적이나 자명성 판단은 해석 여지가 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012296725-A1이 청구항 1-3, 5, 7, 9-12, 15, 17-20, 22, 24, 26-29, 31, 33, 35, 39, 41-44, 46, 49의 핵심 구성요소를 개시하고 있으나, 용어상 차이(pay code provider vs. central mobile payment controller)가 단순한 동등물인지, 아니면 구조적/기능적 차이가 있는지에 대한 해석의 여지가 있습니다. 또한 QR 코드 관련 청구항(4, 21, 30, 47)의 경우, 선행기술이 일반 바코드만 개시하고 QR 코드를 명시하지 않았으므로, '설계 선택'으로 볼 것인지 '기술적 기여'로 볼 것인지에 대한 판단이 필요합니다. 본 출원의 명세서 배경 기술에서 QR 코드 사용이 언급되지만, 선행기술 자체는 이를 명시적으로 교시하지 않았습니다. Combination_threshold=0.72 기준으로 볼 때, QR 코드 대체는 명시적 교시 없이도 자명할 수 있으나, 출원인의 기술적 기여를 고려하면 moderate로 평가됩니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15,
+            17,
+            18,
+            19,
+            20,
+            22,
+            24,
+            26,
+            27,
+            28,
+            29,
+            31,
+            33,
+            35,
+            42,
+            43,
+            44,
+            46,
+            49
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 explicitly discloses all core elements: machine-readable tags (barcodes) for merchant identification, mobile device with camera reading barcodes, transaction detail retrieval from central controller, payment option selection including funding sources, and payment processing. The claimed 'pay code' is merely a terminology substitution for 'merchant identifier' with identical function. Single reference anticipation provides strong basis. No unexpected results or non-obvious improvements shown."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            21,
+            30,
+            47
+          ],
+          "strength": "strong",
+          "reasoning": "QR codes were well-known species of 2D barcodes by 2011-2013. Applicant's specification acknowledges barcode reading was conventional (Red Laser application). Selection of QR codes for higher data capacity and mobile scanning optimization was obvious design choice within known genus. Prior art teaches barcodes generally; QR selection predictable."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012296725-A1 mentions RFID but not NFC explicitly. However, NFC was publicly known evolution of RFID by priority date, and applicant acknowledges GSMA NFC framework. Combining QR (obvious per above) with NFC provides redundant data channels—a known design goal. Motivation to combine exists but requires knowledge outside single reference. Given strictness=0.89, this moderate evidence supports rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            36,
+            37,
+            45
+          ],
+          "strength": "moderate",
+          "reasoning": "Prior art teaches RFID components; NFC is known successor for mobile payments. Substitution of NFC for RFID or addition of NFC alongside barcode reading was predictable for wireless data transfer. Industry standardization (GSMA) provides motivation. Evidence is moderate—requires common knowledge beyond single reference—but sufficient under strictness=0.89 to maintain rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 explicitly discloses all functional elements of the claimed mobile payment system: camera-enabled phones reading bar codes (expressly stated in Background section and claims), requesting transaction details from central controller over network, displaying payment options including credit/debit/checking/savings accounts (claim 5 of reference), receiving user selections, and processing payments. The specification's own Background section admits that 'camera enabled mobile phones that can be programmed to act as bar code readers' were known. The primary difference—encoding transaction details directly in the code versus using codes as identifiers—represents predictable optimization using known encoding techniques. The motivation to encode data directly in bar codes to reduce network dependency is logical and supported by ordinary design considerations. This is strong evidence of obviousness under Graham analysis."
+        },
+        {
+          "basis": "103_obviousness_QR",
+          "strength": "moderate",
+          "reasoning": "QR codes were publicly known by 2012-2013 as high-capacity 2D bar codes (ISO/IEC 18004 standard). The reference teaches bar codes generally. Selecting QR codes for encoding substantial transaction data is based on well-known data capacity advantages. However, the reference does not explicitly disclose QR codes, relying instead on common knowledge. While this is acceptable under 103, it requires the examiner to take official notice of QR code availability and capabilities. The motivation is logical but not as strong as when the specific technology is disclosed in the reference itself."
+        },
+        {
+          "basis": "103_obviousness_product_attributes",
+          "strength": "moderate",
+          "reasoning": "Product attributes (quantity, quality, color, size) are ubiquitous in e-commerce systems. The reference operates in a transaction context that would involve product purchases. However, the reference does not explicitly disclose these specific product selection parameters—it focuses on payment method selection. The rejection relies on common knowledge of e-commerce practices and the assumption that one of ordinary skill would predictably add standard product options. This is reasonable but represents an additional inferential step beyond what is expressly taught in the reference."
+        },
+        {
+          "basis": "103_obviousness_shipping",
+          "strength": "moderate",
+          "reasoning": "Shipping details are fundamental to e-commerce transactions for physical goods. The reference teaches a mobile payment system but does not explicitly address shipping. The rejection assumes that implementing a payment system for product purchases would obviously include shipping details. This is a logical inference based on standard e-commerce requirements, but it relies on common knowledge rather than explicit disclosure in the reference. The strength is moderate because while shipping is essential for physical goods commerce, the reference's focus is on payment processing rather than complete e-commerce functionality."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2012296725-A1 discloses a highly similar mobile payment system with machine-readable tags, transaction detail retrieval, payment option selection, and payment processing. However, the prior art uses 'merchant identifier' while claims recite 'pay code' encoding 'transaction details'. The prior art's merchant identifier triggers retrieval of transaction data from a central controller, whereas the claim language suggests transaction details are encoded in the code itself. This is a potential distinction in how transaction information is conveyed (encoded in code vs. retrieved via identifier). The similarity scores (0.75-0.85) indicate substantial overlap but not complete identity of all elements. Given strictness=0.47 (moderate, slightly lenient), this moderate-strength 102 rejection warrants careful scrutiny but may not meet the strict anticipation standard requiring disclosure of every element."
+        },
+        {
+          "basis": "103_obviousness (general)",
+          "strength": "strong",
+          "reasoning": "The obviousness rejection is well-supported. US-2012296725-A1 discloses the core mobile payment system architecture. The application's own Background explicitly describes camera-enabled phones reading bar codes as known prior art (Red Laser® on iPhone®), providing clear motivation to implement the prior art system with barcode reading. The combination of known elements (mobile payment system + barcode reading) to achieve predictable results (mobile barcode payment) meets the KSR standard for obviousness. The Graham factors are properly analyzed: scope of prior art is comprehensive, differences are implementation details, PHOSITA level is appropriate, and no secondary considerations overcome prima facie obviousness."
+        },
+        {
+          "basis": "103_obviousness (QR codes)",
+          "strength": "moderate",
+          "reasoning": "While bar codes generally are disclosed in the Background as known prior art, QR codes specifically have technical characteristics (2D matrix, error correction, higher data capacity) that distinguish them from generic bar codes. The prior art and Background do not explicitly teach QR codes. The obviousness argument relies on QR codes being 'well-known' and an 'obvious design choice', but lacks explicit evidence of their use in mobile payment contexts at the priority date. Given strictness=0.47, this moderate-strength obviousness rejection may be sustained if QR codes were indeed common knowledge in 2013, but could be overcome with evidence of non-obviousness."
+        },
+        {
+          "basis": "103_obviousness (product attributes)",
+          "strength": "weak",
+          "reasoning": "The Office Action acknowledges that product attribute selection (quantity, quality, color, size) is NOT taught in the prior art, which focuses on payment options rather than product customization. The rejection would require combining the prior art payment system with separate e-commerce product selection systems, but no explicit motivation for this combination is provided beyond general knowledge of e-commerce. This represents a weak obviousness position that likely should not be maintained given strictness=0.47."
+        },
+        {
+          "basis": "103_obviousness (shipping details)",
+          "strength": "weak",
+          "reasoning": "Similarly, the Office Action acknowledges shipping details are NOT taught in the prior art, which focuses on payment processing. Combining shipping functionality would require integration with separate e-commerce fulfillment systems without explicit motivation in the prior art. This is a weak obviousness position that should likely not be maintained."
+        },
+        {
+          "basis": "103_obviousness (NFC combination)",
+          "strength": "moderate",
+          "reasoning": "Claims 13, 36, 37, 45 add NFC reception alongside barcode reading. The Background mentions NFC as an alternative technology, not as complementary to barcode reading. Combining two different wireless communication methods (optical + NFC) for redundant/complementary data transfer lacks explicit motivation in the prior art. While both technologies were known, using them together is not obviously suggested. Given strictness=0.47, this moderate-strength rejection could go either way depending on whether dual-mode capability is viewed as obvious design choice or non-obvious enhancement."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 explicitly discloses substantially all elements of claims 1, 2, 3, 5, 7, 9, 10, 11, 12, 15, 17, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33, 35, 42, 43, 44, 45, 46, 49. The reference expressly teaches: camera-enabled mobile phones reading bar codes, merchant identifiers in machine-readable tags, requesting/receiving transaction details from central controller over network, displaying payment options based on operator preferences, funding source selection (credit card, debit, checking, savings, stored value accounts), RFID/NFC components for wireless interface, and machine-readable tags on physical objects/display devices. Coverage scores range from 0.67-0.92, indicating substantial to complete overlap. The terminology differences (pay code vs merchant identifier, pay code provider vs central mobile payment controller) do not create patentable distinctions - these are functional equivalents."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claims not fully anticipated (4, 6, 8, 13, 14, 16, 21, 23, 25, 30, 32, 34, 36, 37, 38, 40, 47, 48, 50): QR codes were well-known bar code types by 2011-2013 with documented advantages for mobile applications (higher capacity, error correction) - this is strong evidence of obviousness. Product selection options (quantity, quality, color, size) and shipping details were standard e-commerce features - motivation to combine exists but requires some inference about what PHOSITA would consider routine. Combination of NFC and optical reading leverages two technologies both disclosed in the reference with clear complementary benefits. However, the reference does not explicitly show these specific implementations together, requiring combination analysis. Given combination_threshold=0.55 (moderate), these combinations are appropriate for obviousness but not as definitive as direct anticipation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 청구항 1, 2, 7, 9, 10, 11, 15, 17, 18, 19, 24, 26, 27, 28, 33, 35, 39, 41, 42, 43, 44, 49의 모든 구성요소를 명확히 개시하고 있음. 단일 문헌이 각 구성요소를 구체적으로 기재하고 있으며(portable computing device, machine-readable tag, merchant identifier, transaction details, payment options including multiple account types, display on physical objects/display devices), 이는 anticipation의 기준을 충족함. 신규성 판단의 confidence 점수가 대부분 0.7-0.95로 높아 강한 거절 근거임."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "103 거절은 두 가지 유형으로 구분됨: (1) Strong evidence: Bar code/QR code 선택(claims 3-5, 12, 20-22, 29-31, 46-47)은 출원인 자신의 배경기술 설명에서 공지기술로 인정되어 있고, funding source selection(claims 7, 15, 24, 33, 39, 49)은 선행기술에 명시적으로 개시되어 anticipation 수준임. (2) Moderate evidence: Product selection options(claims 6, 14, 23, 32, 38, 48)와 shipping details(claims 8, 16, 25, 34, 40, 50)는 e-commerce의 기본 기능이나, 선행기술이 이를 직접 개시하지 않아 결합의 동기 설명에 의존함. NFC 결합(claims 13, 36, 37, 45)은 출원인 배경설명에서 공지기술로 언급되었으나, 실제 결합의 필요성은 다소 추측적임. Progressive disclosure(claims 10, 27)는 mobile UX pattern이나 구체적 증거 부족. 전반적으로 일부 청구항은 strong evidence로 obvious하나, 일부는 moderate 수준으로 strictness=0.46 기준에서 신중한 판단 필요."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 청구항 1의 핵심 구성요소(바코드 읽기, 거래 정보 요청/수신, 결제 옵션 선택, 결제 전송)를 명확히 개시하고 있음. 선행기술이 구체적으로 제공되었고, 기능적으로 동일한 시스템을 교시함. 용어 차이('pay code provider' vs 'central mobile payment controller')는 실질적 차이가 아님. 청구항 2, 3, 5, 7, 9-12, 15, 17-20, 24, 26-29, 31, 33, 35, 42-46, 49에 대한 103 거절은 강한 근거를 가짐."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "QR 코드 특정 청구항(4, 13, 21, 30, 47): 선행기술이 '바코드'를 개시하지만 'QR 코드'를 명시하지 않음. 2013년 당시 QR 코드가 공지기술이었다는 주장은 합리적이나, 단순 설계 선택(design choice)으로 보기에는 해석의 여지가 있음. 그러나 출원인의 명세서 자체가 Red Laser 앱을 언급하며 QR 코드 사용을 시사하므로, 공지기술 조합으로 103 인정 가능."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "제품 속성 청구항(6, 14, 23, 32, 38, 48): 수량, 품질, 색상, 크기 선택이 2013년 전자상거래에서 표준 기능이었다는 주장은 타당하나, 선행기술이 결제 옵션에 집중하고 제품 속성을 명시하지 않음. '공지기술과의 결합'으로 103을 적용하려면 결합 동기가 명확해야 함. 모바일 쇼핑 시스템 구현 시 제품 선택 옵션 포함이 자명하다는 논리는 수긍되나, 선행기술이 결제 시스템에 특화되어 있어 제품 속성 추가가 자명한지는 해석 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "배송 정보 청구항(8, 16, 25, 34, 40, 50): 배송 상세정보가 전자상거래 필수 기능이라는 주장은 타당하나, 선행기술이 배송을 다루지 않음. 물리적 제품 구매 시스템이면 배송 정보 필요하다는 논리는 합리적이나, 선행기술이 명확히 물리적 제품 배송 시나리오를 교시하는지 불분명. 그러나 '제품 구매(product purchase)' 언급이 있어 배송 포함이 자명하다고 볼 여지 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "NFC 조합 청구항(36, 37, 39-41, 45): 선행기술이 RFID를 개시하고, NFC가 RFID의 진화 형태라는 주장은 타당함. 2013년 당시 Google Wallet 등 NFC 결제 기술이 공지되었으므로, RFID→NFC 변형은 자명할 수 있음. 바코드/QR와 NFC 결합이 '상호 보완 기술의 예측 가능한 조합'이라는 논리도 합리적. 그러나 청구항 36은 '바코드로 거래 식별(transaction identification) 읽고 + NFC로 거래 정보(transaction information) 수신'하는 이중 채널 구조인데, 선행기술이 이 구조를 명확히 교시하는지는 해석 여지 있음."
+        },
+        {
+          "basis": "112_improper_dependency",
+          "strength": "strong",
+          "reasoning": "청구항 22가 방법 청구항인 claim 16에 의존하면서 'The system of claim 16'으로 기재된 것은 명백한 형식 오류. 35 U.S.C. 112(d) 위반으로 거절 타당."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 explicitly discloses all material claim elements for claims 1-3, 5, 7, 9-12, 15, 17-20, 22, 24, 26-29, 31, 33, 35-37, 39, 41-46, 49. The reference teaches: machine-readable tags/bar codes with transaction data (Claim 10, product scan data in Claim 2); requesting/receiving transaction details from central controller via network (Claim 11); payment option selection and display (Claims 4, 5, 8); processing payment requests (Claim 6); mobile telephone with camera and processor reading optical codes; and NFC/RFID components. The anticipation is based on explicit disclosures in specific claim elements and detailed specification passages of the prior art. Confidence levels in novelty analysis range from 0.72-0.9, indicating strong evidence."
+        },
+        {
+          "basis": "103_obviousness_QR_codes",
+          "strength": "strong",
+          "reasoning": "For claims 4, 21, 30, 47: QR code specification is obvious design choice. The '725 reference discloses bar codes generally. QR codes were publicly known 2D bar code variants by 2013 (acknowledged in applicant's specification). Selecting QR format for higher data capacity represents predictable use of known technology. No unexpected results shown. Motivation to combine is clear: increased encoding capacity. This meets KSR standard for obvious to try with reasonable expectation of success."
+        },
+        {
+          "basis": "103_obviousness_product_attributes",
+          "strength": "moderate",
+          "reasoning": "For claims 6, 14, 23, 32, 38, 48: Including quantity/quality/color/size options is characterized as 'routine e-commerce parameters.' While these are indeed standard shopping cart features, the '725 reference does not explicitly teach them. The obviousness relies on common general knowledge in e-commerce field rather than explicit prior art teaching. Motivation to combine (complete mobile shopping experience) is logical but somewhat generalized. Given combination_threshold=0.44 (below 0.5, favoring easier obviousness finding), this reaches the threshold. However, applicant could argue these specific attributes add non-obvious granularity to mobile payment context."
+        },
+        {
+          "basis": "103_obviousness_shipping_details",
+          "strength": "moderate",
+          "reasoning": "For claims 8, 16, 25, 34, 40, 50: Shipping details are standard e-commerce requirements, but the '725 reference focuses on point-of-sale and loyalty card scenarios, not remote delivery transactions. The obviousness argument relies on 'necessity for remote transactions' as motivation. While logical, this assumes facts not in evidence (that the '725 system contemplated remote delivery). Applicant could argue the '725 reference teaches in-person transactions where shipping is irrelevant. However, given combination_threshold=0.44 and strictness=0.52 (near neutral), the argument that PHOSITA would include shipping for e-commerce completeness is reasonable."
+        },
+        {
+          "basis": "103_obviousness_QR_NFC_combination",
+          "strength": "moderate",
+          "reasoning": "For claim 13: The '725 reference discloses both bar codes and NFC/RFID separately. Combining QR (known bar code variant) with NFC reception is characterized as 'predictable combination of complementary technologies.' The reference does teach both technologies in the same system, which supports combinability. Motivation (transaction flexibility, multiple input methods) is reasonable. However, applicant could argue that specific workflow of using QR for identification while NFC for data receipt represents non-obvious architecture. Confidence of 0.65 in obviousness analysis indicates some uncertainty. Given combination_threshold=0.44, this combination meets the threshold, but it's closer to the line than the other obviousness rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 핵심 청구항 요소들(bar code reading via mobile device camera, network communication for transaction details, payment option selection, payment processing)을 명확하게 개시함. 특히 Claim 1의 기본 구조는 선행기술과 실질적으로 동일하며, 용어상 차이(pay code provider vs. central mobile payment controller)는 기능적으로 같은 요소를 지칭함. Claims 2, 3, 5, 7, 9는 선행기술에서 명시적으로 교시되어 있어 강한 거절 근거를 제공함."
+        },
+        {
+          "basis": "103_obviousness_QR_code",
+          "strength": "moderate",
+          "reasoning": "QR code 선택(Claims 4, 21, 30, 47)에 대한 거절은 선행기술이 일반적인 bar code를 개시하고 출원인 명세서가 QR code의 공지성을 인정한다는 점에 기반함. 그러나 선행기술이 QR code를 명시적으로 개시하지 않고, 단순한 design choice로 치부하는 것은 해석의 여지가 있음. Moderate 수준의 근거로 평가."
+        },
+        {
+          "basis": "103_obviousness_product_attributes",
+          "strength": "moderate",
+          "reasoning": "Product attribute selection(quantity, quality, color, size - Claims 6, 14, 23, 32, 38, 48)에 대한 거절은 e-commerce의 공지 기술과의 결합에 기반함. 결합 동기(complete transaction processing)는 논리적이나, 선행기술 US-2012296725-A1이 주로 payment options에 집중하고 product attributes를 명시하지 않음. 결합이 obvious한지는 해석의 여지가 있어 moderate 수준."
+        },
+        {
+          "basis": "103_obviousness_shipping",
+          "strength": "moderate",
+          "reasoning": "Shipping details(Claims 8, 16, 25, 34, 40, 50)에 대한 거절은 e-commerce의 표준 요소라는 점에 기반함. 결합 동기는 명확하나(physical goods delivery), 선행기술이 shipping을 전혀 언급하지 않음. E-commerce 일반 지식과의 결합이 필요하며, moderate 수준의 근거."
+        },
+        {
+          "basis": "103_obviousness_NFC",
+          "strength": "moderate",
+          "reasoning": "NFC addition(Claims 13, 36, 37, 45)에 대한 거절은 출원인 명세서가 NFC/RFID의 공지성을 인정한다는 점과 multi-modal input의 이점에 기반함. 결합 동기(merchant compatibility, flexibility)는 논리적이나, bar code와 NFC의 구체적 결합이 선행기술에 제시되지 않음. Moderate 수준의 근거."
+        },
+        {
+          "basis": "103_obviousness_device_claims",
+          "strength": "strong",
+          "reasoning": "Device claims(18-20, 22, 24, 26-29, 31, 33, 35, 42-44, 46, 49)은 대응 method claims과 동일한 기능을 구조적으로 recite함. 선행기술이 system/device architecture를 명확히 개시하므로, method claims이 obvious하면 device claims도 obvious함. Strong 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1 explicitly discloses all key elements for claims 1, 2, 7, 9, 10, 11, 15, 17, 18, 19, 24, 26, 27, 28, 33, 35, 42, 43, 44, 49 with high similarity scores (0.65-0.95). The reference teaches: portable computing device (PCD) reading machine-readable tags encoding merchant identifiers, requesting/receiving transaction details from central mobile payment controller, displaying on PCD, receiving user payment selections, transmitting to service provider, and processing payment. Funding source selection is explicitly taught with 0.95 similarity. Display mediums and cellular telephone implementation are directly disclosed. This is single-reference anticipation with clear element-by-element correspondence."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "For claims specifying bar codes/QR codes (claims 3-5, 12, 20-22, 29-31, 46-47): The reference uses 'machine-readable tag' without explicitly stating 'bar code.' While bar codes are common species of machine-readable tags, and QR codes were known by 2013, the leap from generic 'tag' to specific 'bar code/QR code' involves some interpretation. However, this is a predictable species selection. For product options (quantity/quality/color/size - claims 6, 14, 23, 32, 38, 48): These are standard e-commerce parameters but not explicitly disclosed in reference. The obviousness argument relies on general e-commerce knowledge rather than specific teaching. For shipping details (claims 8, 16, 25, 34, 40, 50): Similarly, this is routine e-commerce practice but not in the reference. For NFC claims (13, 36, 37, 45): The applicant's own background discusses NFC as known technology (GSMA framework), which undermines non-obviousness, but the reference itself does not teach NFC. Combining optical codes with NFC requires motivation beyond what the single reference provides, though applicant's admissions strengthen the obviousness case."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 22 has clear dependency error (system claim depending from method claim 16) creating category mismatch. Claim 44 has grammatical error ('the an'). These are formal defects that require correction, though the 112(b) rejection for claim 22 is properly grounded in indefiniteness due to improper dependency."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2012296725-A1은 청구항 1, 2, 3, 5, 7, 9의 모든 요소를 명시적으로 개시한다. Background 섹션은 'camera enabled mobile phones that can be programmed to act as bar code readers'를 명시하고, 'bar code labels on invoices'를 개시하며, Claims 2-6은 거래 상세 정보 수신, 결제 옵션 선택(자금 출처 포함), 결제 처리를 명시적으로 개시한다. Claim 10의 'machine-readable tag being attached to a physical object or being projected in an image on a display device'는 청구항 9의 표시 위치를 커버한다. 'pay code provider'와 'central mobile payment controller'는 기능적으로 동일하다. 102 거절 근거는 명확하고 강력하다."
+        },
+        {
+          "basis": "102_novelty_claims_10_18_27_42",
+          "strength": "strong",
+          "reasoning": "청구항 10, 18, 27, 42는 청구항 1과 실질적으로 동일하거나 방법을 장치로 표현한 것이다. 청구항 10은 '네트워크 연결' 및 '추가 정보 요청'을 명시하지만, 이는 선행기술에 암묵적으로 포함되어 있다(Background: 'wireless communications', Claims 2-3: 네트워크 데이터 전송). 장치 청구항(18, 27, 42)은 동일한 기능을 'configured to' 형식으로 표현한 것으로, 선행기술이 동일한 기능 요소를 개시한다. 102 거절 근거는 강력하다."
+        },
+        {
+          "basis": "103_obviousness_QR_codes",
+          "strength": "moderate",
+          "reasoning": "청구항 4, 21, 30, 47은 QR 바코드를 특정한다. 선행기술은 일반적인 '바코드'만 개시하지만, 2013년 당시 QR 코드는 모바일 결제 분야에서 널리 공지된 기술이었다(일본 NTT DoCoMo 2000년대 초, 미국 2010년경 광범위 채택). 일반 바코드를 QR 코드로 대체하는 것은 데이터 용량 증가를 위한 설계 선택(design choice)으로 볼 수 있다. 그러나 선행기술이 QR 코드를 명시하지 않았고, 출원인이 특정 유형의 2D 바코드를 선택한 것에 일부 기술적 판단이 개입되었을 수 있다. Combination_threshold=0.57 < 0.6이므로 공지상식 기반 결합을 인정할 수 있으나, 증거가 '공지상식'에 의존한다는 점에서 moderate로 평가한다. Strictness=0.60(중립적)에서는 거절 유지가 적절하다."
+        },
+        {
+          "basis": "103_obviousness_product_options",
+          "strength": "moderate",
+          "reasoning": "청구항 6, 14, 23, 32, 38, 48은 수량, 품질, 색상, 크기 옵션을 특정한다. 선행기술은 '거래 옵션' 및 'product-based offers'를 개시하지만 이러한 특정 파라미터를 명시하지 않는다. 그러나 2013년 당시 이들은 전자상거래의 가장 기본적인 제품 선택 옵션이었다(Amazon, eBay 등 모든 주요 플랫폼에서 표준 제공). 이를 모바일 결제 시스템에 통합하는 것은 공지된 요소의 예측 가능한 조합이다. 그러나 선행기술이 이러한 특정 옵션을 명시하지 않았고, 증거가 '공지상식'에 의존한다. Moderate 강도이나, strictness=0.60에서는 거절 유지가 적절하다."
+        },
+        {
+          "basis": "103_obviousness_shipping_details",
+          "strength": "moderate",
+          "reasoning": "청구항 8, 16, 25, 34, 40, 50은 배송 상세 정보를 특정한다. 선행기술은 배송 정보를 개시하지 않는다. 그러나 배송 정보(주소, 방법, 속도)는 1990년대부터 전자상거래의 필수 요소였다. 모바일 결제 시스템에 배송 옵션을 추가하는 것은 완전한 거래 처리를 위한 자명한 단계이다. 그러나 선행기술이 배송 정보를 다루지 않았고, 증거가 '공지상식'에 의존한다. Moderate 강도이나, strictness=0.60에서는 거절 유지가 적절하다."
+        },
+        {
+          "basis": "103_obviousness_NFC",
+          "strength": "moderate",
+          "reasoning": "청구항 13, 36, 37, 45는 NFC 기능을 추가한다. 선행기술은 NFC를 개시하지 않는다. 그러나 2013년 당시 NFC는 모바일 결제 분야에서 널리 알려진 기술이었다(Google Wallet 2011, ISIS Mobile Wallet 2012). 바코드와 NFC를 결합하는 것은 각 기술의 장점을 활용하기 위한 자명한 설계이다. 그러나 선행기술이 NFC를 언급하지 않았고, 두 기술의 결합이 '자명'한지는 해석의 여지가 있다. Moderate 강도이나, strictness=0.60에서는 거절 유지가 적절하다."
+        },
+        {
+          "basis": "112_indefiniteness_claim_22",
+          "strength": "strong",
+          "reasoning": "청구항 22는 'The system of claim 16'에 종속한다고 명시하지만, 청구항 16은 방법 청구항이다. 이는 명백한 종속 관계 오류이다. 청구항 22는 청구항 19에 종속하려고 했을 가능성이 높다. 이러한 broken dependency chain은 청구항 범위를 불명확하게 만든다. 112(b) 거절 근거는 명확하고 강력하다."
+        }
+      ]
+    }
+  ]
+}

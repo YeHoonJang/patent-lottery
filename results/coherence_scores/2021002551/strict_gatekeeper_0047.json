@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation analysis, Graham/KSR factors for §103 obviousness including scope/content, differences, PHOSITA level, and secondary considerations, and §112 enablement/indefiniteness frameworks under the appropriate statutory provisions throughout all stages."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'running elevation,' 'UV-curing coating material'), specific prior art disclosures (US-2013101804-A1 skin layer 420 with elevations E and recesses R, US-2012268412-A1 haptic interface), and specification passages (¶0011, ¶0017) throughout the analysis."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage for claims 18 and 19 finds them anticipated under §102 (non-novel) based on implicit or 'obvious variant' reasoning, yet the office action and final decision treat them under §103 obviousness — while not strictly contradictory, the §102 novelty stage improperly uses obviousness-style reasoning ('obvious variant,' 'ambiently disclosed') then escalates to a formal §103 rejection, creating an inconsistency in the legal basis applied at successive stages without clear reconciliation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves ambiguities toward rejection — rejecting claims 10, 14, and 17 under both §102 and §112, raising §112 issues even on potentially novel claims (11, 16), and declining to allow any claim in current form — behavior squarely consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from accumulated stage findings: §102 rejections for claims 10, 14, 17 established in novelty analysis; §103 rejections for 18 and 19 built on obviousness analysis; §112 issues identified across multiple claims; and allowable subject matter (12, 13, 15) conditioned on rewriting, all consistent with prior-stage conclusions."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021002551",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13585,
+      "output_tokens": 522,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

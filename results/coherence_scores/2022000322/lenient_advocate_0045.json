@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) across all claim analyses, and the §102 stage uses element-by-element comparison against specific prior art references, demonstrating statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection ties conclusions to specific prior art references (e.g., US-2018279110-A1, US-2019261132-A1, US-2018279394-A1) and specific claim elements (PC5_tech parameter, ProSe application ID, discovery filter, TTL, application mask), satisfying the evidence-linked reasoning requirement."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 novelty stage finds multiple claims lacking novelty using combinations of references (e.g., claims 4, 8, 9, 10 cite 2-3 references), which is legally improper for §102 anticipation (a single reference must anticipate), yet the §103 stage proceeds consistently with those same combinations without acknowledging or correcting the §102 misapplication, creating an internal inconsistency in legal framework between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The lenient examiner profile (strictness=0.29, combination_threshold=0.72) is reflected in the final decision issuing only 'amend_suggested' rather than outright rejection and explicitly noting in the weighing that 'strictness=0.29인 관대한 심사관 관점에서 근거는 다소 약함,' consistent with a lenient examiner who acknowledges ambiguity and leans toward grant opportunities."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' follows logically from the accumulated §103 rejections across all claims, while the examiner's notes consistently explain that amendments could overcome the obviousness rejections by highlighting technical effects, making the decision non-arbitrary and traceable to prior-stage findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12441,
+      "output_tokens": 489,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

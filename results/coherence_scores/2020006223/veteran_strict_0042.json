@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation under §102 for claims 1,2,21,22 and uses the Graham/KSR framework with scope-and-content, differences, PHOSITA level, and secondary considerations for all §103 rejections, with no statute-mixing observed."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each claim rejection cites specific prior art references (US-2013272121-A1, US-2013227111-A1) with reference to particular disclosures (e.g., scheduling queue occupancy, pending read/write operations, service suspension) and maps them to specific claim language."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Several claims (e.g., claims 4, 6, 12) were characterized as not explicitly disclosed in the novelty stage (confidence 0.40–0.55) yet were placed under §102 novelty rejection in the office action rather than §103, creating an inconsistency between the novelty finding that elements were only 'rendered obvious' and the §102 rejection basis applied."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The strict examiner profile (strictness=0.793, combination_threshold=0.335) is reflected throughout: even claims with lower-confidence obviousness findings (0.40–0.55) are rejected, ambiguous cases resolve toward rejection, and weak motivations to combine are accepted consistent with the low combination threshold."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102 and §103 rejections developed across the novelty and obviousness stages, with no reversal of prior-stage conclusions and consistent rationale referencing the same prior art throughout."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "veteran_strict_0042",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14440,
+      "output_tokens": 418,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "case_id": "2020000195",
+  "proceeding_number": "2020000195",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.42857142857142855,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012293796-A1은 색도 분석기의 주요 구성요소를 모두 포함하며, 거품 감소를 위한 콘두이트의 구현 방식은 통상의 기술자가 쉽게 해결할 수 있는 사항입니다. 결합 동기는 색도 분석에서 거품 제거의 중요성과 기존 기술에서의 유사한 접근법입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The US-2012293796-A1 reference provides a comprehensive teaching of the core components of the colorimetric analyzer, including the reaction chamber, measurement cell, controller, and fluid transport mechanisms. The concept of bubble reduction in fluidic systems is well-established in the art, and the reference's teachings, combined with the knowledge of a person of ordinary skill in the art, would lead to the claimed invention without requiring undue experimentation. The Graham factors strongly support the conclusion of obviousness for all claims."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012293796-A1은 기포 제거 구조를 포함하지 않으며, 기포 제거 기능을 결합할 동기가 명확하지 않다. 따라서 자명성 근거는 약하다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art reference US-2012293796-A1 does not disclose or suggest the specific combination of a colorimetric analyzer with a reaction chamber, a measurement cell with an illumination source and detector, a controller, and a fill conduit configured to reduce bubbles as claimed. The unique integration of these elements to achieve de-bubbling functionality in a colorimetric analysis system is not found in the prior art. The motivation to combine is not clearly established, and the secondary considerations support the non-obviousness of the invention."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "103 거절 근거는 공지 기술 기반의 결합 동기를 제시하고 있으나, 특정 청구항 요소(예: PMMA 재질, 경사각 등)에 대한 선행기술의 직접적 지지가 부족합니다. strictness=0.82 기준으로 중간 정도의 강도로 판단됩니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "102 거절은 단일 선행기술이 모든 청구항 요소를 개시하지 않아, 신규성 판단이 약한 편입니다. verification_status=REJECT로 인해 이 근거는 거절 근거로 부적절합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the claim terms lacking specific definitions or parameters in the specification. While the Office Action points out that terms like 'hydrophobic inner surface' and 'tilted fill conduit' are not described with sufficient specificity, it acknowledges that the reasoning lacks specific references to the specification. This suggests that the rejection may be based on a general assertion rather than concrete evidence, making the strength of the rejection moderate."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art suggests the need for bubble reduction in optical measurements, but the explicit bubble-reducing fill conduit is not directly taught. The motivation to combine is based on general knowledge in the field rather than specific teachings in the prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the argument that bubble reduction in optical measurement systems is a well-known problem and that adding a bubble-reducing fill conduit is a routine engineering choice. While it is true that bubble interference is a known issue, the prior art does not explicitly suggest or teach the specific bubble-reducing fill conduit as claimed. The modification requires a non-trivial adaptation to address this problem, and the motivation to combine is not clearly established in the prior art. Therefore, the strength of the rejection is moderate, and the decision will depend on the strictness parameter."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.8,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The claim includes a fill conduit operably interposed between the reaction chamber and the measurement cell, configured to reduce bubbles, which is not disclosed or suggested by the cited prior art reference US-2012293796-A1. The prior art reference discloses a sample processing device with a detection chamber and optical interrogation, but does not mention any conduit or structure specifically configured to reduce bubbles between a reaction chamber and a measurement cell. This missing element prevents the prior art from anticipating the claimed invention."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The claimed invention includes a fill conduit operably interposed between the reaction chamber and the measurement cell, configured to reduce bubbles. While the prior art reference US-2012293796-A1 discloses a sample processing device with optical interrogation capabilities, it does not explicitly teach or suggest the use of a fill conduit with bubble-reducing functionality. The Graham factors indicate that the prior art does not provide a clear teaching or suggestion for this specific feature, and there is no evident motivation to modify the prior art to include such a conduit. Therefore, the invention is not obvious over the cited reference."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012293796-A1은 기포 제거 구조를 포함하지 않으나, 기포가 광학 측정 정확도에 영향을 미친다는 점은 공지되어 있으며, 관련 분야의 통상 기술자가 이를 해결하기 위한 fill conduit의 적용 동기를 가질 수 있음. 그러나 fill conduit의 구체적인 구성이나 기능은 선행기술에 명시되어 있지 않아 결합 동기의 명확성에 다소 의문이 남음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2012293796-A1 does not explicitly disclose a fill conduit configured to reduce bubbles as claimed in claim 1. The absence of this specific feature in the prior art suggests that the claim is novel, and the confidence level is high (0.8)."
+        }
+      ]
+    }
+  ]
+}

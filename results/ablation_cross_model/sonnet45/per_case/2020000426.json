@@ -1,0 +1,421 @@
+{
+  "case_id": "2020000426",
+  "proceeding_number": "2020000426",
+  "gt_issues": [
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1과 US-2015311795-A1의 결합은 명확한 근거를 가집니다. US-378은 버스트 모드에서 이중 임계값 기반 스위칭 주파수 조정을 명시적으로 개시하며(claims 8-9), 오프 타임의 정의도 명확히 제공합니다(Background para. [0003]). US-795는 1차측 전류 센서와 임계값 비교 제어를 개시합니다. 두 선행기술은 동일한 기술 분야(경부하 효율 개선)이며, 결합 동기가 명확합니다. LLC 컨버터는 공지 기술이고, 1차측 제어는 출원인 명세서에서도 인정한 통상의 설계 선택입니다. 청구항 1, 2, 5, 6, 7, 8, 9, 10, 13, 14, 15, 16, 19는 모두 이 결합으로부터 자명하게 도출됩니다. 특히 claim 7의 오프 타임 정의는 US-378에 동일하게 개시되어 있으며, claims 5-6의 반복 조정은 US-378 claim 5에서 명시적으로 개시됩니다. Claims 8, 19의 구성요소(피크 검출기, 전류 센서, 카운터, 타이머, 제어 로직)는 US-795의 전류 센서 및 비교기와 US-378의 타이밍 기능을 결합한 표준 회로 구성입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1 (Haas) explicitly teaches dual-threshold burst mode control with adjustable off-time periods ('reducing effective switching frequency until burst frequency is below first threshold' and 'until below second threshold lower than first threshold' in Claim 8). Haas also explicitly defines off-time as 'switching element is permanently in an off-state during burst-off period' and teaches iterative adjustment over 'plurality of subsequent burst cycles.' US-2015311795-A1 (Mallikarjunaswamy) teaches primary-side current sensing using current sensor 114 and threshold-based switching control. Both references address the same technical problem (improving switching converter efficiency at light load via burst mode). LLC converters are a well-known type of switching converter. The combination of Haas's dual-threshold burst control framework with Mallikarjunaswamy's primary-side current monitoring is straightforward: both address efficiency optimization, and primary-side monitoring is an obvious design choice to avoid secondary-side complexity acknowledged in applicant's Background. The motivation to combine is clear and well-supported. Claims 5, 6 add iterative adjustment explicitly taught by Haas ('plurality of subsequent burst cycles,' 'until burst frequency is below threshold'). Claim 7 merely restates Haas's explicit definition of off-time. Claims 9, 13, 14, 15 are method equivalents with identical substantive limitations. Claim 16 combines obvious elements (dual-threshold control + iterative adjustment) with 'target current' parameter setting, which while not explicitly named in prior art, represents an obvious design parameter for implementing current-based threshold control. The evidence for 103 rejection is strong and well-documented in the provided prior art."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 7과 15에 대한 103 거절 근거는 US-2012250378-A1이 burst-off period를 명시적으로 개시하고 있다는 점에서 일정한 근거가 있습니다. 그러나 이는 단순한 용어 정의적 한정(definitional limitation)으로서, 선행기술과의 차이가 실질적 기술적 기여라기보다는 표현의 문제에 가깝습니다. US-2012250378-A1이 LLC 컨버터를 명시하지 않지만, 버스트 모드의 기본 개념은 다양한 컨버터에 적용 가능한 공지 기술입니다. 결합 동기(efficiency improvement through burst mode)가 논리적으로 제시되어 있으나, 청구항 7과 15는 독립항 1과 9의 종속항으로서 독립항의 비자명한 한정(1차측 전류 모니터링, 듀얼 임계값 기반 오프타임 조정)을 포함합니다. 따라서 이 정의적 한정만을 이유로 거절하는 것은 다소 형식적입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 7 and 15의 103 거절은 US-2012250378-A1이 burst-off period 동안 switching이 발생하지 않는다는 것을 명시적으로 개시한다는 점에서 일정한 근거가 있습니다. 그러나 이는 'off-time'의 일반적 정의를 재확인하는 것에 불과하며, 청구항 7은 독립항 1을, 청구항 15는 독립항 9를 인용하므로 LLC converter의 primary side current monitoring과 bi-directional off-time adjustment라는 진보성 있는 특징들을 포함합니다. 단순히 off-time의 정의만으로 전체 청구항을 거절하는 것은 청구항의 기술적 기여를 과소평가하는 것입니다. 또한 US-2012250378-A1은 LLC converter를 명시하지 않으며, 전압 기반 제어를 주로 사용합니다. 출원인의 명세서가 burst mode가 공지되었다고 인정한 것은 사실이나, 이는 primary side current-based bi-directional off-time control의 진보성을 부정하는 근거가 되지 않습니다. 따라서 이 거절 근거는 moderate 강도로 평가되며, 출원인의 기술적 기여를 고려할 때 거절을 유지하기에는 불충분합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "102 거절은 단일 선행기술이 청구항의 모든 요소를 명시적으로 개시해야 합니다. 그러나 Office Action은 US-2012250378-A1과 US-2015311795-A1의 '조합(in combination with)'으로 102를 적용했는데, 이는 102의 법적 요건을 충족하지 않습니다. 102는 단일 선행기술 기반이어야 하며, 복수 선행기술의 조합은 103 영역입니다. 또한 '378 참조문헌은 주파수 임계값을 개시하고, '795 참조문헌은 전류 임계값을 개시하지만, 청구항 1의 핵심인 '1차측에서 전류 모니터링 + 이중 전류 임계값 기반 오프 타임 조정'의 모든 요소를 단일 문헌에서 명시적으로 찾기 어렵습니다. Office Action은 '1차측 모니터링은 설계상 선택사항'이라 주장하나, 이는 anticipation이 아닌 obviousness 논리입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "103 거절은 명확한 근거가 있습니다. (1) US-2012250378-A1과 US-2015311795-A1은 동일한 기술 분야(버스트 모드 스위칭 컨버터)에서 동일한 문제(경부하 효율)를 해결합니다. (2) 결합 동기가 명확합니다: 두 문헌 모두 버스트 모드 제어를 개시하며, 출원인의 명세서도 2차측 모니터링의 문제점을 지적하여 1차측 모니터링으로의 변경 동기를 제공합니다. (3) '378 문헌의 이중 임계값 제어 로직과 '795 문헌의 전류 모니터링을 결합하는 것은 통상의 기술자에게 예측 가능합니다. (4) 종속항들의 추가 특징들(목표 전류 기반 임계값, 히스테리시스 로직, 50%/75% 비율, 반복적 조정, 구성요소 조합)은 모두 공지 기술이거나 일상적 설계 선택입니다. KSR v. Teleflex 기준에 따라 예측 가능한 범위 내의 변형입니다. (5) 이차적 고려사항(상업적 성공, 예상치 못한 결과 등)이 제시되지 않았습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 7과 15의 103 거절 근거는 moderate 강도입니다. US-2012250378-A1이 burst-off period를 명시적으로 개시하고 있으며, off-time의 정의 자체는 burst mode 동작에서 공지상식에 해당합니다. 그러나 선행기술은 LLC converter가 아닌 일반 switching converter이며, LLC converter로의 적용이 자명한지에 대해서는 해석의 여지가 있습니다. Office Action은 'LLC converters are a well-known type of switching converter'라는 논리로 자명성을 주장하지만, 출원인은 LLC converter의 특수성(resonant operation 등)을 근거로 반박할 수 있습니다. 그럼에도 불구하고, off-time의 정의 자체는 매우 기본적인 개념이며, switching converter 분야에서 공지된 기술을 LLC converter에 적용하는 것은 통상의 기술자에게 예측 가능한 결과를 초래합니다. Combination_threshold=0.51로 명시적 교시가 필요한 수준이지만, off-time 정의는 공지상식 수준으로 명시적 교시 없이도 자명성이 인정될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection for claims 1, 2, 5, 6, 7, 8, 9, 10, 13, 14, 15, 16, 19 is based on a combination of US-2012250378-A1 and US-2015311795-A1. The combination logic is technically sound: US '378 provides burst mode control framework with threshold-based switching frequency adjustment, and US '795 provides primary-side current sensing. However, several issues weaken the rejection: (1) Neither reference explicitly discloses LLC converter application - the references describe flyback and buck-boost converters, and while the Office Action argues control principles are transferable, this is a design choice requiring some degree of engineering judgment. (2) The functional equivalence arguments (e.g., 'switching frequency reduction = off-time increase') are reasonable but involve interpretive steps. (3) For claims 8 and 19, the Office Action relies on functional equivalence (counting pulses = up/down counter, fixed period = timer) rather than explicit disclosure of these components. (4) The motivation to combine relies partly on the applicant's own specification acknowledging secondary-side complexity, which is a valid but not overwhelming motivation. Given my strictness=0.47 (slightly lenient), I view this as moderate strength - the rejection has technical merit but involves interpretive leaps and design choice arguments that could be challenged."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.88,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 분석에서 모든 청구항(1-19)이 신규한 것으로 판단되었습니다. US-2012250378-A1과 US-2015311795-A1 모두 청구항의 핵심 구성요소인 'LLC 컨버터의 1차측 전류 모니터링에 기반한 이중 임계값 오프 타임 조정'을 명시적으로 개시하지 않습니다. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항(1-19)이 비자명한 것으로 판단되었습니다. 선행기술 결합 동기가 명시적으로 제시되지 않았으며, US-2012250378-A1(버스트 주파수 제어)과 US-2015311795-A1(전류 펄스 수 제어)은 서로 다른 제어 파라미터를 다룹니다. 1차측 전류 모니터링으로 2차측 복잡성을 제거하는 예상치 못한 효과가 있습니다. combination_threshold=0.55 기준으로 명시적 교시 없이 결합을 도출하는 것은 자명하지 않습니다. 103 거절 근거 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서 검토 결과, 청구항의 모든 구성요소에 대한 적절한 뒷받침과 실시 가능성이 제공된 것으로 판단됩니다. Office Action에서도 'The specification provides adequate written description and enablement for all claimed subject matter'라고 명시되어 있습니다. 112 거절 근거 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 LLC 컨버터라는 구체적 하드웨어 회로와 버스트 모드 컨트롤러의 물리적 구성요소(피크 검출기, 전류 센싱 장치, 업/다운 카운터, 타이머, 제어 로직)를 청구합니다. 이는 추상적 아이디어가 아닌 구체적 기술 응용(technological application)에 해당합니다. 101 거절 근거 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1 explicitly discloses 'burst-off period' where switching element is 'permanently in an off-state,' which directly corresponds to the claimed 'off-time' defined as 'a time period when switching does not occur.' This is a clear, explicit anticipation by a single reference with identical functional and structural characteristics. The evidence is unambiguous and the claim language is broad enough to encompass the prior art disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            1,
+            9,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of US-2012250378-A1 (burst mode) and US-2015311795-A1 (current monitoring with thresholds) has a reasonable motivation (improving light-load efficiency while avoiding secondary-side complexity). However, neither reference explicitly discloses LLC converter primary-side monitoring with dual-threshold off-time adjustment. The leap from general switching converters to LLC-specific implementation, and from frequency adjustment to off-time adjustment, requires some inferential steps. The obviousness argument relies partly on 'common knowledge' regarding hysteresis control, which strengthens it, but the specific combination is not explicitly taught. Given strictness=0.46 (moderate), this represents a moderate-strength rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            10
+          ],
+          "strength": "weak",
+          "reasoning": "The claim that thresholds are 'based on a target current' is rejected as obvious over US-2015311795-A1 plus common knowledge. However, US-2015311795-A1 does not explicitly disclose the concept of 'target current' as a reference point for setting thresholds. The reasoning relies heavily on general control theory principles without specific prior art support. While the concept may be conventional, the evidence from the cited reference is insufficient to demonstrate that this specific limitation would have been obvious. Given strictness=0.46, this weak evidence suggests the rejection should not be maintained."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            3,
+            11,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "The conditional logic that off-time adjustment occurs 'only after determining that the electrical current is below the second threshold' is rejected as obvious. While conditional control logic is common in control systems, the specific condition claimed represents a particular design choice among multiple possible implementations. US-2015311795-A1 teaches conditional operations but not this specific conditional structure. The motivation for this particular condition (stability, avoiding frequent switching) is reasonable but not explicitly taught by the references. This represents moderate-strength evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            12,
+            18
+          ],
+          "strength": "weak",
+          "reasoning": "The rejection of specific numerical values (50% and 75%) relies on KSR optimization principles. However, the Office Action acknowledges that 'applicant has not provided evidence of unexpected results' but also provides no evidence that these specific values would have been the predictable result of routine optimization. Without evidence showing that these values fall within a known, narrow range of acceptable values, or that they represent conventional choices, the rejection amounts to hindsight reasoning. The references do not disclose or suggest these particular percentages. Given strictness=0.46, this represents weak evidence for rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            6,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "The iterative, cycle-by-cycle adjustment is rejected as obvious over the combination of burst cycles (Ref A) and parameter adjustment (Ref B). While iterative control is a fundamental principle, the specific implementation—incrementally adjusting off-time over successive cycles until threshold conditions are met—represents a particular control strategy. The references teach the general concepts but not this specific iterative implementation in the context of burst mode off-time control. The predictability argument is reasonable but requires combining teachings from two references with some design choice. This represents moderate-strength evidence."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            19
+          ],
+          "strength": "weak-to-moderate",
+          "reasoning": "The structural claims listing specific components (peak detector, up/down counter, timer, etc.) are rejected as obvious combinations of known circuit elements. While these are indeed standard components, the claim recites a specific combination of five distinct elements working together for a specific purpose. US-2015311795-A1 discloses some components (current sensor, control logic) but not others (peak detector, up/down counter, timer). The rejection relies on 'common knowledge' for the missing components without specific prior art disclosure. The evidence is somewhat weak for the complete combination, though individual components are admittedly conventional. Given the need to combine multiple elements, this represents weak-to-moderate evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 7, 15에 대한 103 거절은 US-2012250378-A1이 burst-off period를 switching이 발생하지 않는 시간으로 명시적으로 개시한다는 점에 근거합니다. 이는 청구항의 off-time 정의와 실질적으로 동일합니다. 그러나 이것은 단순한 용어 정의로서, 독립항 1의 발명적 기여(primary side 모니터링, dual threshold 제어)와는 분리된 종속항입니다. 일반 switching converter와 LLC converter의 차이가 자명한지는 해석의 여지가 있으나, 효율 개선이라는 명확한 동기가 있고 LLC converter는 공지된 converter 유형이므로 103 적용이 합리적입니다. 다만 이 거절은 용어 정의에 국한되며 전체 발명의 핵심 기여를 부정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            6,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015311795-A1과 US-2012250378-A1의 결합으로 threshold에 도달할 때까지 반복적으로 조정하는 개념은 제어 시스템의 일반적 설계 원리입니다. 그러나 선행기술이 LLC converter가 아니며(buck-boost, switching converter), primary side 모니터링 맥락에서의 결합 동기가 명확하지 않습니다. 결합의 예측가능성은 있으나, LLC converter의 특정 구현과의 차이가 존재합니다. Combination_threshold=0.44로 낮지만, converter 타입의 차이와 primary side 모니터링이라는 맥락 차이를 고려하면 moderate 수준입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012250378-A1이 off-time의 정의를 명시적으로 개시합니다('switching element is permanently in an off-state during a burst-off period'). 이는 단순한 용어 정의로, LLC converter에 적용하는 것은 공지 원리의 직접적 적용입니다. 선행기술이 명확하고 증거가 충분합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection combines US-2012250378-A1 (burst mode with threshold-based frequency adjustment) and US-2015311795-A1 (current monitoring with threshold control). The combination is plausible because both references address burst mode efficiency in switching converters. However, several claim limitations require extrapolation: (1) LLC converter specificity is assumed as 'known type of switching converter' without explicit teaching in either reference; (2) primary-side current monitoring is justified as 'predictable design choice' but neither reference explicitly teaches this in LLC context; (3) dual-threshold off-time control (increase below first, decrease above second) requires combining threshold concepts from both references with interpretation that this is 'standard hysteresis control'; (4) specific percentages (50%/75%) are deemed 'routine optimization' without evidence these values are conventional; (5) structural components (peak detector, up/down counter, timer) in claim 8 are characterized as 'conventional components' but their specific combination for LLC burst mode is not explicitly taught. The motivation to combine (improve light-load efficiency via primary-side monitoring) is reasonable but relies on problem-solution approach from applicant's background rather than explicit suggestion in prior art. Graham factors analysis is present but somewhat conclusory. The rejection has evidentiary support but requires multiple inferential steps and characterizations of 'obvious design choices' that could be challenged. This falls into moderate strength—there is a reasoned basis, but also room for rebuttal regarding non-obviousness of the specific combination in LLC converter context."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 7 및 15는 오프타임의 정의를 제공하는 제한사항입니다. US-2012250378-A1이 버스트-오프 기간 동안 스위칭 엘리먼트가 영구적으로 오프 상태에 있다고 명시적으로 개시하고 있으며, 이는 '스위칭이 발생하지 않는 시간 기간'이라는 청구항의 정의와 실질적으로 동일합니다. 버스트 모드 기술 분야에서 오프타임의 정의는 통상의 기술자에게 명백한 기본 개념이며, 선행기술의 버스트-오프 기간 개시로부터 청구항의 오프타임 정의를 도출하는 것은 자명합니다. 이는 공지 기술의 명백한 특성을 재진술한 것에 불과하므로, 103 거절 근거가 강력합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 7과 15에 대해 US-2012250378-A1이 off-time 정의를 명시적으로 개시한다는 증거가 명확함. 'switching element is permanently in an off-state during a burst-off period'는 청구항의 'off-time is a time during which switching does not occur'와 실질적으로 동일함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "청구항 7과 15는 burst mode의 기본 개념으로 통상의 기술자에게 자명함. US-2012250378-A1의 명시적 개시와 공지기술 수준을 고려할 때 거절 근거가 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 9, 16의 경우 US-2012250378-A1과 US-2015311795-A1의 결합 가능성이 있으나, primary side current monitoring으로의 전환 동기와 two-threshold 기반 off-time 조정 방식의 결합 교시가 명시적이지 않음. 결합 동기의 강도가 중간 수준임."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 2, 3, 4, 5, 6, 8, 10-14, 17-19의 경우 선행기술에서 구체적 특징(target current 기반 threshold, 조건부 로직, 구체적 비율, 반복 메커니즘, 구성요소 조합)에 대한 명시적 교시나 시사가 부족함. 자명성 판단을 뒷받침할 증거가 약함."
+        }
+      ]
+    }
+  ]
+}

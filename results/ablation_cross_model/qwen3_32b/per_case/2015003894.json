@@ -1,0 +1,304 @@
+{
+  "case_id": "2015003894",
+  "proceeding_number": "2015003894",
+  "gt_issues": [
+    "102",
+    "112"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.2857142857142857,
+  "amend_rate": 0.35714285714285715,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012216297-A1이 청구항의 구성요소를 개시하고 있으나, 의료 데이터 관리 시스템과 개인화 웹사이트 테마 간의 직접적인 유사성은 해석의 여지가 있음"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012216297-A1이 청구항의 대부분을 개시하고 있으며, 개인화된 데이터 관리 및 디스플레이를 위한 동기는 일반적임"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'personalized website theme' 및 관련 용어가 명세서에서 명확히 정의되지 않아, 청구항의 범위를 이해하는 데 어려움이 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The prior art reference US-2012216297-A1 is not found to fully anticipate the claims, but the similarity scores (0.5 and 0.4) suggest some overlap. However, the claimed invention introduces a personalized website theme with specific timing and indicium features not disclosed in the prior art. Thus, the novelty is considered moderate."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The prior art is focused on medical data management and does not suggest or motivate the inclusion of website personalization features. The differences in scope and the lack of a clear motivation to combine references make the obviousness argument weak."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The Office Action clearly identifies multiple terms in the claims that are not adequately defined or supported in the specification, including 'indicium', 'set of data', 'locate', 'plurality of themes', 'set of code', 'foreground imagery', 'background imagery', and 'replace imagery'. The specification lacks sufficient detail for a person of ordinary skill in the art to understand how to implement the invention without undue experimentation, which is a strong basis for a written description rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies on combining US-2012216297-A1 (medical data management) with general knowledge of web personalization. While the prior art lacks explicit disclosure of personalized themes, the use of cookies/code for customization is common knowledge. However, the motivation to combine is weak due to the prior art's unrelated technical field (medical data vs. website themes). Confidence scores (0.74–0.75) suggest moderate certainty but not conclusive obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The 112 rejection lacks specificity (e.g., no page/paragraph references in the specification) and focuses on vague terms like 'indicius' and 'imagery replacement.' Verification failed due to insufficient evidence, making this rejection weak and likely invalid without further analysis."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.53,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the US-2012216297-A1 reference, which discloses a system for managing medical data. The reasoning claims it is an obvious variant of the personalized website theme system, but there are some differences in application domains (medical data management vs. website personalization). The motivation to combine is reasonably explained, but the confidence scores for many claims are relatively low (e.g., 0.3 for claims 8, 13, 16, 24, 29, 30)."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The provided analysis for obviousness is weak as there is no clear motivation to combine references and the differences between the claims and the prior art are significant. Given the strictness level of 0.55, the weak basis for obviousness does not meet the threshold for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "The rejection under 102 is based on the reference US-2012216297-A1, which is a medical data management system. While the reference does disclose receiving and sending data for display, the connection to personalized website themes is made through interpretive analogies rather than explicit disclosure. The confidence levels for many claims are below 0.7, indicating some uncertainty in the anticipation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112 rejections are based on the lack of clear definitions for key terms like 'personalized website theme' and 'indicium.' While this is a valid concern for clarity, the strength depends on whether the specification provides enough context for a person of ordinary skill in the art to understand the invention."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art US-2012216297-A1 clearly discloses the core functionality of receiving user-specific data and transmitting it for display, which is analogous to the claimed personalized website theme. The difference in application domain (medical vs. web) is considered a design choice by a PHOSITA, and the confidence level of 0.85 supports a strong rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The specification lacks clear definitions for 'personalized website theme' and 'server composing data,' making it impossible to determine the invention's scope. This directly impacts claims 1,4,9,11,14,22,27,31."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "While the 'computing device' in claim 21 is generic, the objection is minor and does not invalidate the claim. However, it requires clarification to meet written description standards."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The written description issues are present in several claims, particularly regarding the 'set of data,' 'plurality of themes,' and storage location limitations. While the specification implies some customization, it lacks explicit and detailed technical descriptions for these elements. Given the strictness of 0.42, these issues are not strong enough to outright reject the claims but require amendment for clarity and enablement."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 9, 11, 14, 22, and 27 are considered obvious variants of the prior art [US-2012216297-A1]. However, the confidence level of 0.75 is moderate, not overwhelming. Given the strictness of 0.42, these claims are not clearly anticipated and may be amended to overcome the rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    }
+  ]
+}

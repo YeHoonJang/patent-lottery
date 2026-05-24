@@ -1,0 +1,338 @@
+{
+  "case_id": "PILOT-2020000566",
+  "proceeding_number": "2020000566",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection under 103 is supported by a comprehensive analysis showing that all claimed features, while not individually anticipated, are combinations of well-known practices in system monitoring and virtualized environments. US-2015142940-A1 provides a strong foundational reference disclosing core functionalities such as data collection, aggregation via an information concentrator, dynamic resource allocation, and routing to decision nodes. The reasoning consistently applies KSR-type motivation to combine, grounded in common sense, standard data modeling, time-series storage, and anomaly detection—all within the level of ordinary skill in the art. The absence of secondary considerations (e.g., commercial success, unexpected results) further strengthens the obviousness conclusion. Given the broad BRI and low combination threshold (0.34), the rejection is robust."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2015142940-A1이 분산 시스템 모니터링, 가상화 환경에서의 성능 지표 수집, 정보 집중기(information concentrator)를 통한 데이터 집계, 의사결정 노드로의 데이터 전달 등을 개시하고 있으며, 청구항에서 주장하는 구성요소들(시간 순서 데이터 시퀀스, 오브젝트 엔티티 모델링, 집계 엔티티, 특수 메트릭, 메트릭 테이블 참조, 아웃라이어 탐지 등)은 각각 공지된 기술적 관행의 범위 내에 있음. 결합 동기(motivation to combine)는 시스템 확장성, 운영 가시성, 자동화된 자원 관리라는 일반적 요구로부터 도출 가능하며, combination_threshold=0.34로 낮은 기준에서도 충족됨. 각 청구항의 차이점은 용어적 또는 구조적 정교화에 불과하며, 통합적 기능이나 예측 불가능한 결과를 생성하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While US-2015142940-A1 discloses monitoring virtualized components and using structured data for management, it does not explicitly teach 'object entities' as a modeled construct in a state-information-storage subsystem. The use of object-oriented representation is a common software practice, but the prior art does not clearly suggest or motivate this specific implementation in the context of population metric monitoring. Under a lenient obviousness standard (combination_threshold=0.68) and moderate BRI, the leap from generic component monitoring to object entity modeling is not sufficiently motivated to constitute strong obviousness. However, the functional equivalence and predictability of using object models in such systems provide a moderate basis for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 13에 대한 거절은 선행기술에 시간 순서 시퀀스 저장이 명시적으로 개시되지 않았으나, 시스템 모니터링 분야에서의 공지기술을 근거로 obvious 판단. 그러나 'population metric' 기반 객체 모델링이라는 전체 시스템의 기술적 기여를 고려하면, 이는 단순한 데이터 저장 방식을 넘는 구조적 혁신일 수 있음. strictness=0.29인 관대한 심사관 입장에서 이 정도의 결합은 자명하다고 단정하기 어려움."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 14는 가상화 환경에서의 분산 애플리케이션 실행을 오브젝트 엔티티로 표현한 점에 대해 obvious로 판단. 그러나 출원은 분산 애플리케이션 구성요소를 자동 인식하고 객체 생성하는 제어 로직을 포함하며, 이는 단순한 모델링을 넘는 기술적 진보. 선행기술이 일반적 가상화를 개시하나, 객체 생성 자동화는 명시되지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 16은 추가/삭제 이벤트를 시간과 연관지어 특수 메트릭에 기록하는 점에서 선행기술의 자원 재분배와 유사하나, '특수 메트릭'이라는 구조적 객체로 이벤트를 모델링한 점은 새로운 기술적 접근. 공지기술로 보기 어려우며, 통상의 기술자가 자명하게 도달했다고 보기는 어렵다는 점에서 거절 근거가 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 명확히 시스템 성능 지표 수집, 집계 및 가상화 환경 분석을 개시함. 청구항 2, 3, 4, 7, 8, 12, 13, 14, 15, 19의 구성요소는 선행기술에 암시적이거나 명시적으로 존재하며, 객체 실체화, 시간 순서 데이터 저장, 집계 구조는 분산 시스템 모니터링 분야에서 일반적인 기술. 결합 동기 명확함: 자원 관리 효율성 향상. confidence 수치 모두 0.8 이상으로 강한 타당성 있음. strictness=0.89인 심사관 기준에 따라, 약간의 유사성만 있어도 거절 유지함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1은 분산 시스템에서 가상화 정보를 수집, 집계, 분석하여 자원 관리를 수행하는 구조를 명시하고 있으며, 청구항들이 제시하는 '오브젝트 엔티티', '어그리게이션 엔티티', '시간 기반 메트릭 저장', '타입 기반 집계', '라이프사이클 이벤트 추적', '아웃라이어 탐지' 등의 구성은 모두 해당 선행기술에서 암시되거나 명시된 기능을 객체 지향적 구조로 재조합한 것에 불과하다. 결합 동기(motivation to combine)가 명확하며, 통상의 기술자(PHOSITA)가 시스템 모니터링 아키텍처를 구조화하기 위해 자연스럽게 도달할 수 있는 설계 선택으로, 예측 가능한 결과를 생성함. 모든 청구항에 대해 103 거절 근거가 강력함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'metric table'과 'normal population-metric-value distribution'은 청구항에서 핵심 구성 요소로 사용되나, 명세서에서 그 구조, 형식, 산출 방식, 알고리즘, 기준치 등에 대해 전혀 설명하지 않음. 이는 서면 설명 요건(35 U.S.C. §112(a))을 위반하며, 출원 당시 발명자가 해당 개념을 소유하고 있었다고 보기 어렵고, 실시 가능성을 담보할 수 없음. 특히 'metric table'이 참조인지 실체인지, '정상 분포'의 통계적 기준이 무엇인지 불명확하여 과도한 실험이 요구되므로, 112 거절 근거도 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.21,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art reference US-2015142940-A1 discloses a comprehensive system for collecting, aggregating, and analyzing virtualization-related metrics in a networked environment, including time-series data storage, component abstraction as managed entities, aggregation logic, lifecycle event tracking, and anomaly detection. The claimed features align with standard practices in system monitoring and cloud management. The motivation to combine is strong, as the reference inherently teaches the use of structured data models and statistical analysis for operational decisions. PHOSITA would find the claimed method and system to be a routine implementation of known techniques, with no evidence of secondary considerations to overcome obviousness. Given the high confidence scores (0.75–0.88) across claims and the explicit disclosure of core functionalities, the 103 rejection is well-supported."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 명확하게 가상화 환경에서 시스템 구성 요소의 메트릭 데이터를 수집, 집계, 분석하는 시스템을 공개하며, 청구항의 핵심 구성 요소들(시간 순서 데이터 저장, 객체 엔티티 표현, 집계 엔티티, 특수 메트릭, 메트릭 테이블 참조, 이상치 감지)을 개별적으로 또는 조합으로 기술함. 결합 동기(motivation to combine)는 중앙 집중식 모니터링 및 자동화된 자원 관리라는 명확한 기술 목표에서 도출되며, 해당 분야의 통상적인 기술 수준자(PHOSITA)가 자연스럽게 실시할 수 있음. 진보성 판단의 confidence 값 대부분 0.75 이상으로 일관되게 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1은 분산 시스템에서 가상화 관련 정보를 수집, 집계, 분석하고 동적 자원 재분배를 수행하는 구조를 명시적으로 개시하고 있으며, 청구항 2-20의 모든 구성요소(객체 엔티티, 집계 엔티티, 시간 순서 메트릭, 특수 메트릭, 메트릭 테이블 참조, 이상치 탐지 등)가 해당 선행기술에 직접 또는 암시적으로 포함됨. 결합 동기(motivation to combine)는 가상화 환경에서의 효율적인 모니터링 및 자원 관리를 위한 통상적 설계 필요성으로 충분히 설명 가능하며, PHOSITA 수준에서도 명백함. confidence 점수 대부분 0.7 이상으로, 높은 재현율 기반 판단임."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 명확히 정보 집중기(information concentrator)를 통해 가상화 관련 정보를 수집, 집계, 분석하는 시스템을 개시하며, 이는 청구항의 객체 개체, 집계 엔티티, 시간 순서 데이터 저장, 변경 이벤트 추적, 아웃라이어 감지 등 주요 구성요소와 기능적으로 대응함. 결합 동기(motivation to combine)는 가상화 환경에서의 효율적인 리소스 관리 및 모니터링이라는 명확한 기술적 목적을 통해 입증되며, 모든 개별 요소가 동일한 기술 분야에서 공지된 관행으로 조합 시 예측 가능한 결과를 초래함. confidence 점수가 전반적으로 0.7 이상이며, 특히 claim 7, 14, 19 등은 0.95에 달해 강한 증거로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 명확히 가상화 관련 정보 수집, 집계, 분석 및 의사결정 유도 기능을 개시함. 청구항 2, 3, 4, 5, 7, 8, 9, 11, 12의 구성요소는 선행기술과 기능적으로 대응되며, 차이는 객체지향 모델링 또는 시계열 데이터 처리와 같은 일반적 구현 방식에 한정됨. 결합 동기 없이 단일 문헌로 obviousness 판단 가능하므로 근거 강함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 15 및 20의 'aggregation object'는 명세서 어디에도 등장하지 않으며, 'aggregation entity'와의 동일성에 대한 설명 없음. 청구항 10 및 20의 'metric table' 자체를 객체에 포함한다는 기재도 명세서(¶0052)에서 뒷받침되지 않음. 서면 설명 요구사항 위반은 명확하며, 해석의 여지 없이 strong."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious=false로 평가되었으며, 결합 동기 부족, 선행기술과의 차이점, 통상의 기술자 수준, 보조적 고려사항 등을 종합적으로 고려하여 진보성이 인정됨. confidence 값도 0.7 이상으로, 유사 기술이 암시되나 명확한 개시나 결합 동기가 부족하다고 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1 discloses a system for collecting, analyzing, and acting on virtualization-related data, including time-stamped performance metrics, component-level monitoring, aggregation, change tracking, and anomaly detection. The claimed features are either explicitly disclosed or represent routine practices in distributed system monitoring. The motivation to combine is inherent in the reference itself, and the Graham factors support obviousness. Confidence scores range from 0.75 to 0.88, indicating strong evidence across claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 'metric table' is mentioned in ¶0052 but lacks structural or operational detail. While this raises written description concerns, the term appears in a technical context common in data modeling, and a PHOSITA might infer basic functionality from related disclosures. However, under strictness=0.52, this does not rise to a strong rejection but warrants a moderate objection requiring clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2015142940-A1은 청구항 2-20의 모든 구성요소를 개시하고 있으며, 특히 시간 기반 메트릭 수집, 객체 및 집계 엔티티 표현, 자원 추가/삭제 이벤트 추적, 이상치 감지 및 자동화된 의사결정 기능을 포함하고 있음. 선행기술의 정보 집중기(information concentrator)는 청구된 발명의 핵심 기능을 그대로 수행하므로, 신규성 결여는 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'metric table'의 구조와 기능, 그리고 'normal population-metric-value distribution'의 산출 방법에 대한 명세서 기재가 전무하며, 이는 112조 서면설명 및 실현가능성 요건을 명백히 위반함. 청구항의 구현을 위해 필수적인 알고리즘적 세부사항이 누락되어 있어, 당업자가 무리한 실험 없이 발명을 실시할 수 없다고 판단됨."
+        }
+      ]
+    }
+  ]
+}

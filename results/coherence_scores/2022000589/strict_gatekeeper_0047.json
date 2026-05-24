@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation analysis under §102, Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for §103, and claim-specification support/enablement for §112, with no statute-mixing."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout consistently reference specific prior art (REF3, REF1 by document number), specific claim elements (e.g., electron emitter, superconducting magnets, azimuthal electrode arrangement), and specific specification passages/claim terms (e.g., 'neutrals,' 'receptacle,' 'energy conversion devices')."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The novelty stage found claims 24, 28 novel (noting they require a combination of REF3+REF1), yet the office action lists them under §102 anticipation by REF3 alone without adequate explanation of how a single reference now anticipates what the novelty stage only found suggestive through combination—this is a meaningful contradiction between stages without stated justification."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818, the examiner consistently resolves ambiguity toward rejection, including rejecting claims the office action itself listed as 'allowable' (claims 4, 7, 8, etc.) under §103 in the final decision, and explicitly citing the high strictness score (0.82) as grounds to maintain even moderate §112 issues as rejections."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final rejection decision flows directly from the strong §103 findings accumulated across the obviousness stage and office action, with the §112 moderate issues also retained consistent with the strict examiner profile, and no reversal of prior-stage directions occurs."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2022000589",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 21788,
+      "output_tokens": 433,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

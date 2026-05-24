@@ -1,0 +1,215 @@
+{
+  "case_id": "ABL-2021004954",
+  "proceeding_number": "2021004954",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed-in-Part",
+  "grant_rate": 0.7142857142857143,
+  "amend_rate": 0.07142857142857142,
+  "reject_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 진보성 거절이 적절하게 설정되었으며, 선행기술과 공지된 기술의 결합에 기반한 동기가 명확함. US-2013284480-A1은 기계적 배치를 중심으로 하지만, 모터 제어 도구의 기본 구조를 제공하며, 전류, 속도, 배터리 전압 등의 피드백 제어는 당업자에게 공지된 기술임. 각 청구항의 구성요소는 개별적으로도 자명한 변형 또는 통상적 설계 선택에 해당하며, 전체 시스템의 결합 역시 KSR 기준에 따라 예측 가능한 결과를 초래함. 신규성 판단에서의 차이점은 존재하지만, 그 차이가 발명의 비자명성까지 보장하지는 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 1.0,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 'is_obvious': false로 평가되었으며, 동기 부족, 기술적 차이, 2차적 고려사항 등을 고려하여 비자명성 유지. 특히 선행기술 US-2013284480-A1은 기계적 배치에 집중하고 제어 로직을 다루지 않음. 다만 claim 31의 경우 배터리 전압 알림 기능은 일반 관행에 근접하여 약한 obviousness 근거가 있을 수 있으나, 맥락 통합 측면에서 충분히 구분됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2013284480-A1과 공지된 제어 기법의 결합이 논리적 동기를 가지며, 각 구성요소(전류/속도 감지, 표준편차 분석, 조회 테이블, 전압 보정, 기울기 기반 정지 등)는 임베디드 모터 제어 분야에서 통상적인 기술로 간주됨. 통상의 기술자(PHOSITA)가 충격 모드에서의 부하 변동을 고려하여 피드백 기반 제어를 적용하는 것은 설계상 명백한 선택이며, 결합 동기의 강도가 높음. 2차적 고려사항의 부재도 obviousness 판단을 강화함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서가 중간에 잘려있어, 청구항 26의 표준편차 사용 방법, 청구항 27-44의 제어 로직 구현 등 핵심 기능에 대한 충분한 서술이 누락됨. 알고리즘, 데이터 구조, 처리 절차 등이 기재되지 않아, 본 발명을 수행할 수 있는 기술자가 명세서만으로 실시하기 어렵다는 점에서 서면 설명 요건 미충족이 명확함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 44의 제어 장치에 대한 구조적 기재 부족은 서면 설명 문제로 볼 수 있으나, 기능적 언어 사용은 통상적인 해석 범위 내일 수 있음. 그러나 전체 명세서의 불완전성과 결합하면, 장치 구현에 대한 소유권 주장은 부족함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "표준편차, 계산 방법, 특성 곡선 등은 기술적으로 알려진 개념이지만, 본 출원에서의 특정한 제어 응용에 대한 통합적 기재가 부족하여, 청구항 범위 전반에 대한 서면 설명이 미흡하다고 볼 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013284480-A1은 기계적 배치에 집중하며 제어 로직을 개시하지 않음. 다른 선행기술도 제시되지 않아, 103 거절 근거는 없음. 공지기술 결합 가능성도 제시된 정보 내에서 낮음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "제공된 선행기술은 청구항의 모든 구성요소를 개시하지 않으며, 신규성 결여 주장은 없음. 전체적으로 신규성은 인정됨."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 is_obvious = false로 평가되었으며, confidence 수치는 0.84~0.97 범위로 높음. 가장 낮은 confidence는 claim 31의 0.84이나, 이는 낮은 배터리 전압 시 알림 출력이라는 일반적인 기능에 대한 것으로, 전체적 맥락에서 통합적 기능으로서 비자명성을 인정함. 선행기술 US-2013284480-A1은 기계적 배치에 초점이 있으며 제어 로직 부족. 결합 동기 없음이 반복적으로 명시됨."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": []
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The §112(a) rejections are based on lack of detail in the specification regarding statistical calculations, weighting methods, undefined terms (e.g., 'seated position', 'actuation speed'), and unspecified algorithms. While some terms may be interpretable by a PHOSITA, the absence of clear implementation details (e.g., how standard deviation is computed, how thresholds are set) creates enablement and definiteness concerns. However, many of these could be addressed with reasonable interpretation or common knowledge in control systems, making the rejections moderate rather than strong."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": []
+    }
+  ]
+}

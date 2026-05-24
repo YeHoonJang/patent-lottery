@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness stage explicitly applies Graham factors (scope/content, differences, PHOSITA level, secondary considerations) and the §102 stage performs element-by-element anticipation comparison, invoking the correct statutory frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'user-interaction parameter,' 'configuring a user interface'), specific prior art disclosures (US-2013160036-A1 Claim 1, Claim 3), and functional comparisons between claim elements and prior art teachings."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a significant inconsistency: claims 1–9 and 11–21 (except 10, 20) are found not novel under §102, yet the obviousness stage finds the same claims not obvious (is_obvious: false), and the final decision rejects on §103 grounds — the §102 findings are effectively abandoned without stated justification for the pivot, and claims found anticipated at §102 are re-analyzed as non-obvious at §103."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.248 (lenient), and the reasoning consistently leans toward grant or amendment-suggested rather than outright rejection, resolving ambiguous overlaps in the applicant's favor and characterizing prior art differences as 'non-obvious,' consistent with a lenient/advocate profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to suggest amendments (rather than outright rejection or grant) follows logically from the accumulated analysis — §102 rejections for most claims but recognition of technical distinctions, combined with the lenient examiner's inclination to facilitate allowance through amendment rather than final rejection."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2016004003",
+    "examiner": "lenient_advocate_0044",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16884,
+      "output_tokens": 422,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

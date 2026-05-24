@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §103 Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for obviousness and uses element-by-element anticipation reasoning for §102 novelty, with no cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance is tied to specific claim language and named prior art references (US-2015351681-A1 and US-2013226408-A1) with explicit disclosure comparisons (e.g., 'well-driving score,' 'driver drowsiness,' 'body state information')."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage consistently builds on the §102 novelty findings—claims found novel at §102 (4, 9, 10, 14, 15) are also found non-obvious at §103, and claims found anticipated are also found obvious, with no unexplained reversals between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a combination_threshold of 0.329 (easy combiner), the examiner readily accepts weak motivations to combine (e.g., 'design choice,' 'common knowledge,' 'natural extension') consistent with the low threshold, and the moderate strictness (0.502) is reflected in partially allowing claims 4, 9, 10, 14, 15 while rejecting the core claims."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject claims 1, 2, 3, 5–8, 11–13 and allow claims 4, 9, 10, 14, 15 directly follows from the accumulated stage-level §103 analyses with explicit per-claim rationale, and no claim decision contradicts the prior-stage findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004143",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12400,
+      "output_tokens": 443,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

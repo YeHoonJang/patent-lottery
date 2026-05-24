@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 element-by-element anticipation for dependent claims and uses the Graham/KSR framework (scope and content, differences, PHOSITA level, secondary considerations, motivation to combine) for the §103 rejection of claim 1."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection references specific claim language (e.g., 'computing standard deviation,' 'mean-centering,' 'SVM-based classifier') and ties conclusions to specific prior art citations (US-2016352767-A1, US-2014179270-A1, US-2018225391-A1)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "Several claims (e.g., 7, 8) are found to lack novelty at the §102 stage using a combination of two references, but §102 anticipation requires a single reference to disclose all elements—this internal inconsistency is not resolved, and the final decision itself flags the 'Anticipation vs. Obviousness classification inconsistency' as a key issue without correcting or reconciling it."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's combination_threshold of 0.329 (easy combiner) is reflected in accepting thin motivation-to-combine reasoning such as 'common sense and routine optimization,' consistent with a low combination threshold profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final reject decision follows logically from the accumulated §102 and §103 rejections across all stages, with no claims found allowable at any prior stage and the final decision maintaining all rejections with stated rationale."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021003412",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 8797,
+      "output_tokens": 392,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis under §102 with specific reference to US-2011210915-A1 for claims 11, 15, and 20, applies Graham/KSR factors (scope, differences, PHOSITA level, secondary considerations) for §103 analysis across all claims, and invokes §112(b) definiteness framework for claims 4, 9, 12, and 19—each statute is applied with its recognized legal test."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the trace, conclusions are consistently tied to specific claim language (e.g., 'sequential streaming... in parallel' in claim 4, 'independent of locations' in claim 19) and specific prior art disclosures (US-2011210915-A1's pixel-wise probability assignments, depth map processing), satisfying the evidence-linkage requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness analysis is fully consistent with the §102 novelty findings—claims found novel at §102 are found non-obvious at §103 with additional reasoning about motivation to combine, while claims 11, 15, and 20 found non-novel at §102 are found obvious at §103, and the office action and final decision maintain these same rejections without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has mid-range strictness (0.517) and a moderate combination threshold (0.443), and the trace reflects this balance—most claims are allowed or suggested for amendment rather than broadly rejected, rejections are limited to clearly anticipated claims and genuinely ambiguous language, consistent with a neither strict nor lenient pragmatist profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision of 'amend_suggested' flows directly from the accumulated stage findings: strong §102 rejections on claims 11/15/20, §112 rejections on claims 4/9/19, and high novelty/non-obviousness confidence on the remaining claims, with the examiner explicitly tying the decision to the need to resolve these specific rejections while preserving allowable subject matter."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017007521",
+    "examiner": "senior_examiner_0052",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 16953,
+      "output_tokens": 514,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

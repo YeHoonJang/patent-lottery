@@ -1,0 +1,496 @@
+{
+  "case_id": "2019001963",
+  "proceeding_number": "2019001963",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.42857142857142855,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013285347-A1은 sliding carriage system을 개시하나, claimed invention의 direct-mount support bracket architecture는 구조적으로 상이함. 선행기술은 longitudinal rail with vertical side member를 개시하나, claimed invention의 vehicle frame rail with horizontal and vertical portions와 support bracket connecting frame rail vertical portion to mounting bracket vertical surface는 명시적으로 개시되지 않음. 거절 논리는 'sliding system을 fixed-mount로 변경하는 것은 ordinary design choice'라는 일반론에 의존하나, 구체적인 support bracket architecture의 개시는 부족함. 결합 동기는 common sense와 design optimization에 기반하여 설정되었으나, 선행기술이 명시적으로 claimed structure를 가르치지 않음. Combination_threshold=0.34로 낮은 기준이 적용되었으나, structural difference가 존재하므로 moderate strength로 평가."
+        },
+        {
+          "basis": "112_indefiniteness",
+          "strength": "strong",
+          "reasoning": "Claim 4: 'first and second positions'에 대한 antecedent basis가 claim 1에 없음. Claim 1은 hitch plate의 position이나 pivoting을 언급하지 않으므로, claim 4의 'between the first and second positions'는 명확한 선행 정의 없이 도입됨. 이는 명백한 indefiniteness 문제. Claims 12-14: 'first mounting bracket is releasably secured to the first mounting bracket'는 논리적으로 불가능한 self-fastening 구조를 기재. 명백한 drafting error이며 strong indefiniteness."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013285347-A1 provides substantial foundation for obviousness: (1) Explicitly discloses plurality of engagement apertures spaced longitudinally for adjustable mounting (corresponding to claims 1, 5, 11); (2) Teaches releasable engagement assembly with mechanical fasteners (claims 6, 12-14); (3) Discloses slide stop mechanism at mounting positions (claims 2, 3, 15); (4) The specification itself articulates the motivation to combine—reducing 'complicated componentry, which may add unnecessary cost and weight'—this explicit statement provides clear motivation for modifying the prior art's longitudinal rail system to direct vehicle frame rail mounting via support bracket. The modification from sliding carriage on separate rail to direct frame mounting via support bracket represents predictable simplification to achieve stated objectives. KSR permits such obvious variations when motivation is clear and results are predictable. (5) Dual mounting bracket system with cross member (claims 10, 11-15) is obvious symmetrical duplication—fifth wheel hitches inherently mount bilaterally to dual frame rails; cross member for structural rigidity is standard practice. (6) The combination threshold=0.34 indicates low bar for finding combination motivation, and here the specification expressly provides it. The prior art teaches all functional elements (adjustable positions, releasable engagement, stop mechanisms), and the structural modification (direct frame mounting) is motivated by explicitly stated design goals. This constitutes strong obviousness evidence under current examination standards."
+        },
+        {
+          "basis": "103_obviousness_claim4",
+          "strength": "moderate",
+          "reasoning": "Claim 4's remote-controlled stabilizer presents moderate strength rejection: (1) US-2013285347-A1 does not explicitly teach remote actuation of stabilizer; (2) However, parent application U.S. Pat. No. 9,126,464 ('AUTOMATIC LOCKOUTS') establishes that automated control was known direction in this art; (3) Remote actuation for vehicle equipment is well-known common knowledge; (4) Combining prior art's stabilizer function with known remote control technology is logical for user convenience. Under 관대 검증 standards for 103, combinations with common knowledge are permissible when motivation is rational. The predictable benefit (operational convenience) provides motivation. However, lack of specific prior art reference explicitly teaching remote-controlled fifth wheel stabilizer creates some uncertainty. Given strictness=0.88, this moderate-strength rejection should be maintained—applicant has opportunity to argue unexpected difficulties or advantages, but absent such showing, the combination appears predictable. The rejection is properly framed as 'provisional' pending applicant's response, which is appropriate examination practice for moderate-strength 103 issues."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "weak",
+          "reasoning": "Office Action은 청구항 5를 102로 거절했으나, 이는 과도한 확대 해석입니다. US-2013285347-A1의 apertures는 sliding rail system의 engagement apertures이며, 청구항 1의 direct-mount support bracket structure와는 구조적 맥락이 완전히 다릅니다. BRI 하에서도, apertures의 '용도'와 '구조적 맥락'이 다르면 anticipation은 성립하지 않습니다. 청구항 5는 청구항 1의 novel structure에 apertures를 specify한 것이므로, 전체 조합이 anticipate되어야 하는데 선행기술은 이를 개시하지 않습니다. Coverage score 0.75는 apertures 자체의 유사성이지 전체 조합의 anticipation이 아닙니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "103 거절은 일부 근거가 있으나, combination의 동기가 약합니다. US-2013285347-A1의 apertures를 청구항 1의 direct-mount support bracket에 적용하는 것은 '예측 가능한 사용(predictable use)'일 수 있으나, 청구항 1 자체가 novel하고 선행기술과 반대 설계 철학(sliding vs. fixed)을 가집니다. KSR 기준에서 '예측 가능'은 동일한 방식으로 작동하는 것을 의미하는데, sliding system의 apertures를 fixed direct-mount system에 적용하는 것은 설계 맥락이 다릅니다. Combination_threshold=0.68을 고려하면, 명시적 교시나 시사가 필요하나, 선행기술은 이를 제공하지 않습니다. Apertures가 '일반적 관행'이라는 것만으로는 부족하며, 청구항 1의 novel structure에 적용할 specific motivation이 필요합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            12,
+            13,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 12의 'the first mounting bracket is releasably secured to the first mounting bracket by a first mechanical fastener'는 명백한 antecedent basis 오류입니다. Bracket이 자기 자신에게 secured될 수 없으므로 이는 indefiniteness를 구성합니다. 청구항 13이 clarification을 시도하지만, 청구항 12의 명시적 언어와 충돌하여 internal inconsistency를 만듭니다. 청구항 14는 이를 상속합니다. 이는 명확한 112(b) 거절 근거입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 4의 'first and second positions' 및 'rear portion'은 선행 청구항(claim 1)이나 claim 4 자체에서 명확히 정의되지 않았습니다. Antecedent basis 결여는 명백한 112(d) indefiniteness 이슈입니다. 명세서에 이러한 용어가 있더라도, 청구항 자체만으로는 범위를 명확히 파악할 수 없어 강한 거절 근거입니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 12의 'the first mounting bracket is releasably secured to the first mounting bracket'은 명백한 자기참조 오류로, 논리적으로 불가능한 구조를 기재하고 있습니다. 이는 drafting error일 가능성이 높으나, 현재 청구항 문언상으로는 객관적으로 indefinite합니다. 강한 112(d) 거절 근거입니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 15의 'the first and second first and second support brackets'은 명백한 중복 표현으로, 청구항 범위의 객관적 모호성을 야기합니다. Typographical error일 가능성이 높으나, 현재 문언상으로는 indefinite합니다. 강한 112(d) 거절 근거입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 5-11, 13-14에 대한 103 거절은 US-2013285347-A1의 sliding rail system을 fixed support bracket with discrete mounting positions로 변경하는 것이 자명하다는 논리에 기반합니다. 선행기술은 sliding carriage-rail system을 명확히 개시하나, 청구항의 support bracket structure (first portion secured to frame rail vertical portion, second portion secured to mounting bracket vertical surface)는 명시적으로 개시되지 않습니다. 거절 논리는 'simplification, cost/weight reduction'을 결합 동기로 제시하나, 이는 출원 명세서의 background에서 언급된 일반적 목표를 원용한 것으로, 선행기술 자체에서 이러한 변경의 명시적 제안이나 암시는 없습니다. Coverage scores (claim 1: 0.35, claim 7: 0.2, claim 10: 0.1, claim 11: 0.25)가 낮아 구조적 차이가 상당합니다. 그러나 combination_threshold=0.45 기준과 strictness=0.89를 고려할 때, '공지된 mounting technique의 predictable variation'이라는 주장이 일부 설득력을 가지며, cross member 사용(claim 10-11)은 vehicle mounting에서 conventional하다는 점도 인정됩니다. 따라서 moderate strength로 평가합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12는 'the first mounting bracket is releasably secured to the first mounting bracket'이라는 nonsensical language를 포함하여 component가 자기 자신에게 secured되는 물리적으로 불가능한 구조를 recite합니다. 이는 명백한 indefiniteness issue (112(b))로, claim language 자체가 objectively contradictory하여 PHOSITA가 claimed structure를 이해할 수 없습니다. Strong rejection basis입니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 4에 대한 112(a) written description 거절은 'first and second positions'와 'rear portion'에 대한 antecedent basis 부족을 지적합니다. 그러나 이는 antecedent basis 문제로 주로 112(b) definiteness issue에 가깝고, 명세서에 stabilizer assembly와 pivoting positions에 대한 설명이 있을 가능성이 높습니다. Claim 4는 dependent claim으로서 parent claim 1의 context에서 해석될 수 있으며, 'first and second positions'는 pivoting motion의 범위를 의미하는 것으로 합리적으로 해석 가능합니다. Written description requirement는 possession을 요구하나, 단순 antecedent basis 부족만으로는 possession 결여를 입증하기 어렵습니다. Moderate strength로 평가합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.18,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 1에 대한 103 거절은 합리적인 결합 동기(구조 단순화, 무게/비용 절감)를 제시하고 있으나, sliding mechanism에서 direct-mount configuration으로의 전환이 단순한 설계 선택인지 아니면 비자명한 architectural change인지에 대해 해석의 여지가 있습니다. 선행기술 US-2013285347-A1은 sliding assembly를 개시하며, 이를 fixed direct-mount system으로 변경하는 것은 기능적으로 상당한 차이를 가집니다. 그러나 출원의 Background가 'complicated componentry, cost, weight'를 문제로 명시하고 있고, 이는 기술 분야의 공지된 과제이므로 sliding mechanism 제거가 predictable한 해결책으로 볼 여지가 있습니다. Support bracket을 통한 dual-connection architecture (vehicle frame rail + mounting bracket)는 선행기술에서 명시적으로 교시되지 않았으나, 구조 단순화의 맥락에서 자명할 수 있습니다. Strictness=0.82를 고려하면, 결합 동기가 존재하고 출원 자체가 해결하려는 문제가 공지된 것이므로 거절을 유지하는 것이 타당합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "moderate",
+          "reasoning": "청구항 2에 대한 103 거절은 선행기술의 slide stop을 tilt stop arrangement으로 적용하는 것에 기반합니다. Slide stop과 tilt stop은 모두 movement limiting devices이지만 제한하는 움직임의 종류가 다릅니다 (sliding vs. tilting). 선행기술이 slide stop의 spaced positioning을 교시하므로, 이를 tilt stop에 적용하는 것이 자명한지는 해석의 여지가 있습니다. 그러나 양자 모두 safety features로서 동일한 기술적 목적(unwanted movement 방지)을 가지며, fifth wheel hitch 분야에서 다양한 movement limiting mechanisms의 사용은 공지되어 있습니다. Strictness=0.82를 고려하면, 기능적 유사성과 공지된 기술적 목적이 결합 동기를 제공하므로 거절을 유지하는 것이 타당합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            5
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 5에 대한 103 거절은 매우 강력합니다. 선행기술 US-2013285347-A1이 'a substantially vertical side member including a plurality of engagement apertures spaced longitudinally along the side member'를 명시적으로 개시하고 있으며, 이는 청구항 5의 'plurality of mounting positions includes a plurality of apertures'와 직접적으로 대응됩니다. Apertures를 mounting positions로 사용하는 것은 mechanical fastening의 가장 기본적인 방법이며, 선행기술이 이를 명시적으로 교시하고 있습니다. 거절을 확실히 유지해야 합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 6에 대한 103 거절은 강력합니다. 선행기술이 mechanical fasteners를 사용한 releasable securing을 명시적으로 개시하고 있으며, 단일 fastener에서 복수의 fasteners로의 변형은 load-bearing applications에서 기본적인 engineering practice입니다. 하중 분산, 안전성, 구조적 무결성을 위해 multiple fasteners를 사용하는 것은 통상의 기술자에게 자명한 설계 선택입니다. 거절을 확실히 유지해야 합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 4의 112(b) indefiniteness 거절은 매우 강력합니다. 'First and second positions'와 'rear portion'에 대한 antecedent basis가 청구항 체인에 전혀 없으며, 'restricting pivotable movement of the hitch plate with between the first and second positions'의 문법적 오류('with between')는 명확합니다. 이는 명세서 참조 없이 청구항 자체만으로 판단할 때 indefinite합니다. 거절을 확실히 유지해야 합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 12의 112(b) indefiniteness 거절은 매우 강력합니다. 'The first mounting bracket is releasably secured to the first mounting bracket'와 'the second mounting bracket is releasably secured to the second mounting bracket'는 논리적으로 불가능한 자기-참조 구문입니다. 구성요소가 자기 자신에게 고정될 수 없으며, 이는 명백한 drafting error입니다. 거절을 확실히 유지해야 합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejection relies heavily on combining US-2013285347-A1 with 'common general knowledge.' While the reference teaches sliding hitch mechanisms with apertures and engagement assemblies, the specific support bracket configuration (connecting frame rail vertical portion to mounting bracket vertical surface) is not explicitly disclosed. The rejection argues this is 'conventional mounting practice,' but no secondary reference is cited to establish this as common knowledge. The motivation to combine is based on general design principles rather than explicit teaching. Given combination_threshold=0.46, this level of generalized motivation meets the threshold, but the evidence strength is moderate rather than strong. The rejection would be stronger with a secondary reference demonstrating the support bracket configuration."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "claim": 12,
+          "strength": "strong",
+          "reasoning": "Claim 12 contains an undeniable internal contradiction stating 'the first mounting bracket is releasably secured to the first mounting bracket' and 'the second mounting bracket is releasably secured to the second mounting bracket.' This is structurally impossible and creates clear indefiniteness under 35 U.S.C. 112(b). A component cannot be secured to itself. This is not a matter of interpretation but a fundamental drafting error that prevents understanding the claim scope with reasonable certainty."
+        },
+        {
+          "basis": "112_written_description",
+          "claim": 4,
+          "strength": "moderate",
+          "reasoning": "Claim 4 references 'first and second positions' for hitch plate pivoting without proper antecedent basis in claim 1. While this creates ambiguity, the specification likely describes hitch plate positions, and a PHOSITA could potentially infer the intended meaning from context. However, proper claim drafting requires explicit antecedent basis. Given my moderate strictness (0.55), this represents a legitimate indefiniteness concern that should be addressed, though not as severe as claim 12's self-contradictory language."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 12 contains clear logical impossibility: 'first mounting bracket is releasably secured to the first mounting bracket' and 'second mounting bracket is releasably secured to the second mounting bracket.' This is not ambiguous interpretation but definite internal contradiction. Component cannot secure to itself. This creates indefiniteness under 35 U.S.C. 112(b) regardless of specification content. Claims 13-14 inherit this defect through dependency. Strong basis for rejection."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "All claims 1-15 found novel. US-2013285347-A1 discloses sliding carriage assembly but lacks critical elements: support bracket connecting vehicle frame rail to mounting bracket (claim 1 element 1c), selective mounting positions (element 1e), bilateral configuration with cross member (claim 11), tilt control arrangements (claims 2-3, 15), stabilizer assembly with remote control (claim 4). Coverage scores range 0.15-0.4, indicating substantial gaps. No strong 102 basis exists."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims 1-15 found non-obvious. Primary reference US-2013285347-A1 teaches sliding adjustment mechanism structurally and functionally different from claimed fixed support bracket configuration with selective mounting positions. Key differences: (1) Reference has slidable carriage on rail; claims require support bracket with fixed mounting positions. (2) Reference lacks bilateral support bracket system with cross member. (3) No motivation exists to convert sliding mechanism into fixed bracket system, as this eliminates reference's core functionality. Combination threshold 0.22 requires clear motivation; here motivation is absent or contradictory. Graham factors support non-obviousness: scope differences are substantial, PHOSITA would lack motivation to combine conflicting design approaches. Secondary considerations include different functional objectives (sliding adjustment vs. direct-mount stability). With strictness 0.46 (moderate) and weak obviousness evidence, benefit of doubt favors applicant."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2013285347-A1이 'plurality of engagement apertures spaced longitudinally along the side member'를 명시적으로 개시하였고, mounting positions를 apertures로 구현하는 것이 기계 설계의 공지상식이라는 점은 타당함. 그러나 선행기술의 apertures는 longitudinal rail의 side member에 있고 본 청구항은 support bracket에 있어 구조적 맥락이 상이함. Apertures 사용이 통상적 설계 선택이라는 점은 인정되나, claim 1의 전체 구성(direct-mount support bracket 시스템)이 선행기술과 근본적으로 다르다는 점을 고려하면, 단순히 apertures 구현만으로 자명성을 인정하기에는 증거가 완전히 강하지 않음. Strictness=0.50(중립)에서 moderate 강도의 거절은 유지 가능하나, 출원인의 반박 여지 존재."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 'a mechanical fastener extends through the mounting aperture and the side member, thereby securing'을 개시하여 mechanical fasteners 사용을 명시함. 브래킷 간 체결에 mechanical fasteners를 사용하는 것이 기계 설계의 기본 공지상식이라는 점은 타당함. 그러나 선행기술은 slide stop을 longitudinal rail에 고정하는 맥락이며, mounting bracket과 support bracket 간의 releasable securing은 직접 개시되지 않음. Mechanical fasteners 사용 자체는 통상적이나, claim 1의 비자명한 전체 구성(direct-mount 시스템)에 이를 적용하는 것이 자명한지는 논란의 여지 있음. Strictness=0.50에서 moderate 강도의 거절은 유지 가능하나, 출원인의 반박 가능성 존재."
+        },
+        {
+          "basis": "112_written_description",
+          "claims": [
+            4
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 4가 'first and second positions' 용어를 antecedent basis 없이 사용했다는 112(b) indefiniteness 거절. 그러나 명세서를 검토하면 이러한 용어가 정의되어 있을 가능성이 높으며, 통상의 기술자라면 hitch plate의 작동 위치(예: raised/lowered, engaged/disengaged 등)를 문맥상 이해할 수 있음. Antecedent basis 부족은 형식적 문제이나, 청구항의 의미가 통상의 기술자에게 불분명한 정도인지는 의문. 명세서가 제공되지 않아 definiteness를 완전히 판단하기 어려우며, 이는 objection(형식적 지적) 수준이지 rejection으로 보기에는 증거 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "claims": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 12가 'the first mounting bracket is releasably secured to the first mounting bracket'와 'the second mounting bracket is releasably secured to the second mounting bracket'로 기재하여 mounting bracket이 자기 자신에게 secured되는 물리적으로 불가능한 구조를 기재함. 이는 명백한 내부 모순으로 명세서 없이도 판단 가능한 indefiniteness. 통상의 기술자가 청구항의 범위를 명확히 이해할 수 없으며, 이는 명백한 drafting error로 보임. 112(b) 거절은 타당하며, 출원인의 보정 필요."
+        },
+        {
+          "basis": "112_written_description",
+          "claims": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 13은 claim 12에 의존하며, claim 12의 indefiniteness로 인해 fasteners의 관계가 불분명해짐. 그러나 claim 13 자체의 문언('the first mechanical fastener releasably secures the cross member to the first mounting bracket')은 명확하며, claim 12의 오류만 수정되면 해결될 문제. Claim 13 자체를 indefinite로 거절하기보다는 claim 12의 거절에 종속된 문제로 보는 것이 타당. Strictness=0.50에서 claim 12 보정 시 자동 해결 가능하므로 moderate 강도."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "No anticipating references were identified for any claim. All claims 1-15 were determined to be novel with confidence levels ranging from 0.65 to 0.85. US-2013285347-A1 was analyzed but found to have significant structural gaps (coverage scores 0.1-0.4) and does not disclose key elements including: (1) support bracket with dual vertical connections to vehicle frame rail and mounting bracket, (2) selective mounting positions where mounting bracket is secured to less than total positions, (3) structural cross member, (4) tilt control arrangements, (5) stabilizer assembly with remote control. The prior art teaches a sliding carriage system which is structurally and functionally distinct from the claimed direct-mount support bracket system."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "All claims 1-15 were determined to be non-obvious with confidence levels ranging from 0.65 to 0.85. The obviousness analysis found no motivation to combine or modify the prior art's sliding rail system to arrive at the claimed direct-mount support bracket configuration. Key differences include: (1) US-2013285347-A1 teaches away from the claimed invention by focusing on sliding carriage functionality rather than direct-mount selective positioning, (2) the combination threshold of 0.44 is not met as the structural differences go beyond routine optimization or design choice, (3) no teaching or suggestion exists to add tilt control, structural cross member, or stabilizer assembly features, (4) the prior art's slide stops serve different purposes (limiting sliding motion) than the claimed tilt lock-out/stop arrangements (controlling tilting motion). The Graham factors analysis confirms substantial differences in scope and content, with the claimed invention addressing different problems (reducing complexity and weight while maintaining structural integrity) than the prior art addresses."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Only a minor objection was noted for claim 12 regarding an apparent drafting error where the claim states 'the first mounting bracket is releasably secured to the first mounting bracket' (appearing to secure itself). However, this was objected under 37 CFR 1.75(a) as a drafting issue, not rejected under 35 U.S.C. § 112(b) for indefiniteness, because dependent claim 13 provides clarifying context that the cross member is secured to the mounting brackets. The objection was noted for applicant's consideration but does not affect allowability. No other 112 issues were identified for any claims."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "not_applicable",
+          "reasoning": "No subject matter eligibility issues under 35 U.S.C. § 101 were identified. The claims are directed to a mechanical fifth wheel hitch assembly with structural components (support brackets, mounting brackets, cross member, tilt arrangements, stabilizer assembly), which are clearly patent-eligible mechanical inventions, not abstract ideas, laws of nature, or natural phenomena."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 1-15 demonstrate clear novelty over US-2013285347-A1. The prior art discloses a sliding rail system with carriage bracket, while the claimed invention recites a fundamentally different fixed support bracket structure with dual-attachment (to vehicle frame rail vertical portion and mounting bracket vertical surface) and discrete mounting positions. Coverage scores range from 0.1 to 0.35, indicating substantial structural gaps. No anticipating references were identified for any claim."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 1-15 are non-obvious. The combination threshold (0.52) requires clear motivation to combine, which is absent. The prior art teaches continuous sliding adjustment, while claims recite fixed discrete positioning - a contradictory design philosophy. Key differences: (1) support bracket dual-attachment structure not suggested, (2) converting sliding to fixed positioning lacks motivation and contradicts prior art's core teaching, (3) dual mounting bracket + cross member configuration (claims 10-15) represents structural paradigm shift from single central rail, (4) tilt lock-out/stop mechanisms (claims 2-3, 15) functionally different from slide stop, (5) stabilizer assembly with remote control (claim 4) entirely absent from prior art. Graham factors analysis shows no teaching, suggestion, or motivation to modify prior art as claimed."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Minor drafting issues identified in claims 4, 12, and 15 (antecedent basis concerns and typographical errors), but these are formal objections only. The specification provides adequate written description support for all claimed elements. Terms like 'substantially vertical surface,' 'mounting positions,' 'support bracket,' and 'structural cross member' are either explicitly described or understandable to PHOSITA. The specification summary directly supports independent claims 1 and 11. These issues do not rise to level of 112 rejections - they are correctable through minor amendments without affecting claim scope or allowability."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "US-2013285347-A1 teaches a sliding fifth wheel hitch assembly with structural similarities (carriage bracket, longitudinal rail, engagement apertures). However, the claimed invention involves a fundamentally different architectural approach: fixed support bracket with dual portions (secured to both frame rail and mounting bracket) vs. sliding carriage system. The Office Action relies heavily on 'obvious to modify' reasoning and 'routine engineering practice' arguments, but the motivation to combine is not clearly established in the prior art. The prior art addresses sliding adjustment functionality, while the claimed invention addresses direct-mount fixed installation - these serve different purposes. The Office Action's assertion that converting sliding to fixed would be 'obvious' lacks explicit teaching or suggestion in the prior art. Given combination_threshold=0.48, this represents a borderline case where the structural and functional differences are substantial enough to question obviousness, but the examiner has made a plausible (though aggressive) argument based on common engineering knowledge."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            4
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 4의 'first and second positions' 및 'rear portion'이 antecedent basis 부족으로 indefinite하다는 주장은 과도함. Claim 1이 'hitch plate pivotally coupled to the mounting bracket'을 명시하므로, 통상의 기술자는 hitch plate의 pivoting positions가 존재함을 이해 가능. 'Rear portion'도 hitch plate의 후방 부분을 지칭하는 것으로 합리적으로 해석 가능. 명세서가 제공되었고 이러한 용어들이 일반적으로 이해 가능한 맥락에서 사용되었으므로, indefiniteness 기준인 'reasonable certainty' 테스트를 통과하지 못할 가능성 낮음. Nautilus v. Biosig 판례 기준으로 볼 때, 이는 minor antecedent basis issue로 amendment로 해결 가능한 수준."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            12
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 12의 'the first mounting bracket is releasably secured to the first mounting bracket'는 명백한 drafting error로 structural nonsense를 생성. 각 bracket이 자기 자신에게 secured된다는 것은 물리적으로 불가능하며, 실제로 무엇이 무엇에 secured되는지 불명확. Claim 13이 cross member와의 connection을 명시하나, claim 12 standalone으로는 scope 파악 불가. 이는 genuine indefiniteness이며 거절 유지 타당."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 15의 'first and second first and second support brackets'는 명백한 typographical duplication으로 actual ambiguity 생성. 2개의 support brackets인지 4개인지 불명확하며, 이는 claim scope의 metes and bounds에 직접적 영향. 이는 mere formality가 아닌 genuine uncertainty로 indefiniteness 거절 유지 타당."
+        }
+      ]
+    }
+  ]
+}

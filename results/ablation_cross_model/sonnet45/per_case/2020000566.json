@@ -1,0 +1,357 @@
+{
+  "case_id": "2020000566",
+  "proceeding_number": "2020000566",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.5,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 11 and 18의 112(a) written description 거절은 강한 근거를 가짐. 'normal population-metric-value distribution'과 'evaluate the candidate aggregated-entity outliers'는 purely functional language이며, 명세서는 이러한 기능을 달성하는 구체적 방법(statistical methods, algorithms, parameters)을 개시하지 않음. Ariad 및 Eli Lilly 판례에 따라, 발명자가 해당 기술을 possession했다는 증거가 명세서에 부족함. Claim 18의 improper dependency (method claim depending from system claim) 역시 명확한 112(b) 및 (d) 위반임."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항(2-20)에 대해 선행기술 US-2015142940-A1이 novelty를 파괴하지 못함. Coverage scores가 0.2-0.55 범위로 낮으며, 핵심 구성요소(time-ordered sequences, entity-based architecture, special metrics, metric table references)의 명시적 개시가 부족함. 선행기술은 일반적 virtualization information 수집에 그치며, 청구항의 구체적 구조와는 차이가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항(2-20)에 대해 obviousness 근거가 약함. 선행기술은 기본적 virtualization information 수집/분석만 개시하며, 청구항의 entity-based architecture, population metrics, aggregation structures로의 확장 동기가 명시적이지 않음. Graham factors 분석 결과, PHOSITA가 선행기술로부터 청구항의 복잡한 구조를 자명하게 도출할 수 없음. Combination_threshold=0.34로 낮으나, 단일 선행기술만으로는 결합 동기 불충분. Time-ordered sequences, special metrics for events, bidirectional references 등은 선행기술에서 암시되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "초기 103 거절이 제시되었으나, Office Action에서 이미 WITHDRAWN됨. 선행기술 US-2015142940-A1은 일반적인 virtualization information 수집·분석을 개시하나, 청구항의 구체적 3층 구조 (object entities - aggregation entities - population metrics)와 그 데이터 흐름, 그리고 특정 outlier detection 방법론을 교시하거나 시사하지 않음. Combination_threshold=0.34이나, 선행기술에서 청구항의 특정 architectural framework로의 결합 동기가 명확하지 않음. Coverage scores가 0.15-0.4로 낮고, 대부분 implicit matches만 존재. Office Action 자체가 'significant differences'를 인정하고 'motivation to combine... is not clearly established'라고 판단하여 거절을 철회함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 18의 의존관계 오류는 명백함. Claim 18은 'The method of claim 11'로 시작하나, claim 11은 system claim으로 보이며 (claim 1에 의존, 'state-information-storage subsystem' 언급), claim 18은 method claim series (claims 12-17) 내에 위치함. 이는 structural dependency error로서 112(b) indefiniteness의 정당한 근거임. 명세서가 제공되었고 청구항 구조의 모순이 확인됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2015142940-A1은 일반적인 virtualization information 수집을 개시하지만, 청구항의 구체적인 데이터 구조(object entities, aggregation entities, population metrics, time-ordered data points, special metrics, metric table references)를 개시하지 않습니다. 102 거절 근거가 없습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 단일 참조이며, 청구항의 복잡한 시스템을 도출하는 명시적 동기가 없습니다. 청구항은 event-driven architecture, time-ordered data structures, bidirectional references, special metrics for temporal tracking, outlier detection의 통합을 제시하며, 이는 선행기술의 일반적 데이터 수집과는 구조적으로 다릅니다. 통상의 기술자가 선행기술로부터 이러한 복합적 시스템을 도출하는 것은 비자명합니다. 103 거절 근거가 약합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 object entities, aggregation entities, population metrics, special metrics, metric tables, distributed application components, outlier detection을 충분히 설명하고 있습니다. 112 거절 근거가 없습니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 컴퓨터 시스템의 구체적 기술적 개선(효율적 metric 수집, 시계열 분석, 동적 추적, anomaly detection)을 제공하며, abstract idea가 아닙니다. 101 거절 근거가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "US-2015142940-A1은 일반적인 virtualization information 수집 및 분석을 개시하나, 청구항들이 요구하는 구체적인 데이터 구조(object entity, aggregation entity, metric table, time-ordered sequence, special metric 등)를 명시적으로 개시하지 않음. Coverage scores가 대부분 0.1~0.4로 매우 낮아 anticipation 근거로 부족함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술과 청구항 간 상당한 구조적 차이 존재. 특히 (1) object/aggregation entity 아키텍처, (2) population metric 개념, (3) special metric with time-associated events, (4) metric table 역참조 구조는 선행기술에서 교시/시사되지 않음. Combination_threshold=0.72로 높아 명시적 결합 동기 필요하나 부재. Graham factors 분석 결과 PHOSITA가 이러한 복합 구조를 자명하게 도출하기 어려움."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서가 graph-like representations, aggregation nodes, population metrics, distributed application components 등을 설명하고 있어 청구항 용어에 대한 뒷받침 제공. 청구항 용어들이 해당 기술 분야에서 이해 가능한 수준."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항들이 구체적인 기술적 구현(state-information-storage subsystem, processor, memory, data structures, event-driven processing)을 recite하며 distributed computing systems 모니터링이라는 실용적 응용에 통합됨. Abstract idea가 아닌 technological improvement 제공."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection relies heavily on combining US-2015142940-A1 with common knowledge and conventional techniques. While the reference discloses general virtualization information collection and analysis, the specific architectural elements claimed (object entities, aggregation entities, population metrics, time-ordered sequences, special metrics, metric table references, distribution-based outlier detection) are not explicitly disclosed. The rejection argues these are 'conventional implementations' and 'well-known techniques,' but provides limited concrete evidence of their combination being obvious in the specific context. The motivation to combine is articulated, but relies on general principles rather than specific teachings. The reference's coverage scores (0.35-0.62 for most claims) indicate substantial differences. However, the rejection does establish a reasonable prima facie case by identifying the reference as a base and explaining how known techniques could be combined. Given my strictness level (0.89) and the moderate strength of the combination reasoning, I am inclined to maintain the rejection, as the applicant has not provided evidence of unexpected results or secondary considerations to overcome the prima facie case."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.75,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Office Action은 모든 청구항(2-20)을 103으로 거절하고 있으나, 거절 근거의 강도는 weak입니다. US-2015142940-A1은 virtualization 환경에서의 정보 수집/분석이라는 일반적 프레임워크만 제공하며, 청구항이 요구하는 핵심 구성요소들(object entities, aggregation entities, population metrics, special metrics with addition/deletion events, metric tables with bidirectional references, time-ordered sequences, outlier detection mechanisms)을 전혀 개시하지 않습니다. Office Action의 논리는 '이러한 요소들이 well-known techniques이므로 결합이 자명하다'는 것이나, 이는 hindsight bias에 기반한 추론입니다. 선행기술은 단순히 virtualization data를 수집하고 분석한다는 고수준 개념만 제시하며, 청구항의 특정 아키텍처(계층적 object/aggregation entity 구조, population metric 개념, event-driven data-point 생성, bidirectional reference system, statistical outlier detection with alarm triggering)로의 구체적 구현 경로를 제시하지 않습니다. 'well-known technique'이라는 주장에 대한 구체적 증거(추가 선행기술, 교과서, 업계 표준 문서 등)가 없으며, 단순히 '분야에서 잘 알려진 것'이라는 일반론만 제시합니다. 또한 결합 동기(motivation to combine)도 사후적 분석에 불과합니다. 선행기술이 '이러한 특정 구조를 채택해야 한다'는 교시(teaching), 제안(suggestion), 동기(motivation)를 제공하지 않습니다. 신규성 분석에서 모든 청구항이 novel로 판단되었고(confidence 0.7-0.9), 진보성 분석에서도 모든 청구항이 non-obvious로 판단되었습니다(confidence 0.7-0.9). Office Action의 거절은 선행기술의 일반적 개념과 'common knowledge' 주장에만 의존하며, 청구항의 구체적 구조를 개시하거나 제안하는 증거가 결여되어 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 7 and 14: US-2015142940-A1 explicitly mentions virtualization and software components, providing some foundation for the rejection. However, the prior art does not explicitly disclose 'object entities representing distributed application components' in VM/container/execution environments. The motivation to combine relies on general knowledge that component tracking is needed in virtualization, which is somewhat circular reasoning. The gap between 'collecting virtualization information' and 'generating object entities for distributed application components' requires inferential steps. Given my strictness=0.47 (slightly lenient), this moderate-strength evidence leans toward rejection but with recognition that the combination is not as obvious as initially stated."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 18: The improper dependency is clear and verifiable. Claim 18 depends from claim 11 (a system claim) while reciting method steps, violating 35 U.S.C. 112(d). This creates indefiniteness under 112(b) because the claim's statutory class is ambiguous. This is a strong rejection basis with clear legal support."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 2-20 show no anticipation by US-2015142940-A1. The prior art lacks explicit disclosure of critical features including: metric entities with time-ordered data points, object entity representation of components, aggregation entities with population metrics, special metrics tracking addition/deletion events, metric table references, distributed application component representation in execution environments, and outlier detection mechanisms. Coverage scores range from 0.2-0.55, all well below anticipation threshold. Confidence levels are appropriately high (0.68-0.85)."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "All claims 2-20 are non-obvious over US-2015142940-A1. While the prior art discusses virtualization information analysis, it provides no explicit teaching or suggestion for the claimed specific technical architecture. Key differences include: (1) time-ordered data point storage structure, (2) object/aggregation entity architecture with population metrics, (3) bidirectional referencing through metric tables, (4) special metrics for membership tracking, (5) distributed application component representation in execution environments, (6) statistical outlier detection based on population metric distributions. The prior art's general virtualization concepts do not render the claimed specific architecture obvious. With combination_threshold=0.55, explicit teaching or strong suggestion would be required, which is absent. No motivation to combine exists as only one reference is provided."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The Office Action explicitly states that 'the specification adequately supports all claimed limitations under 35 U.S.C. § 112' and that 'terms used in the claims, including object entity, aggregation entity, population metric, time-ordered sequence, special metric, and outlier detection, are either explicitly described in the specification or are well-understood concepts in the field.' No 112 issues were raised in the analysis, and all claims are found allowable. This indicates strong written description support."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "strong",
+          "reasoning": "The Office Action explicitly addresses patent eligibility, stating that while the claims involve data processing and software concepts, they are 'directed to specific technical improvements in computer system monitoring and administration' and 'recite concrete technical elements that provide specific technical solutions to technical problems in distributed computing systems.' The claims are not directed to abstract ideas but to specific technical implementations in distributed computing environments. All claims are found patent-eligible."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "신규성 분석과 진보성 분석 모두에서 청구항 2-20의 모든 청구항이 선행기술 US-2015142940-A1과 유의미한 차이를 보임. 선행기술은 일반적인 가상화 정보 수집 시스템을 개시하나, 본 출원의 핵심 특징들(object entity/aggregation entity 모델링, population metrics, special metrics for membership tracking, metric table references, hierarchical outlier detection)은 전혀 개시하지 않음. Coverage scores는 대부분 0.1~0.45 범위로 낮으며, 결합 동기(motivation to combine)가 명확하지 않음. combination_threshold=0.22 기준으로, 선행기술만으로는 본 발명의 구체적 아키텍처를 도출할 동기가 불충분함. 103 거절 근거는 약함(weak)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "청구항 18의 의존성 오류(claim 11은 시스템 청구항인데 claim 18은 방법 청구항으로 의존)는 형식적 하자이며, 보정으로 쉽게 해결 가능. 실질적인 112 거절 근거는 없음. Office Action에서도 명세서가 충분한 기재와 실시가능성을 제공한다고 명시."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2015142940-A1은 가상화 정보 수집의 일반적 개념만 개시하며, 청구항들의 특정 구조적 특징들(object/aggregation entity 구조, population metrics, time-ordered data points, special metrics, metric table references, 통계적 이상치 탐지)을 교시하거나 시사하지 않음. 개별 요소들(데이터 수집, 가상화, 모니터링)은 공지이나, 청구항의 특정 통합 구조로의 결합 동기가 선행기술에서 발견되지 않음. 선행기술과 청구항 간 coverage_score가 0.1~0.35로 매우 낮고, 대부분 implicit 매칭만 존재하며, 핵심 구성요소들이 선행기술에 매핑되지 않음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항(2-20)에 대해 선행기술 US-2015142940-A1이 청구항의 핵심 구성요소들을 명시적으로 개시하지 않음. 선행기술은 일반적 가상화 정보 수집 방법만 개시하며, 청구항의 특정 데이터 구조(time-ordered sequence, object/aggregation entity, special metric, metric table reference)를 개시하지 않음. 신규성 판단에서 모든 청구항이 novel로 판단되었으며, confidence 0.7~0.85로 높음."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.78,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The Office Action applies obviousness to all claims 2-20, but the reasoning relies heavily on general knowledge and conventional techniques without demonstrating specific teachings or motivations in the cited prior art. Key weaknesses: (1) US-2015142940-A1 does not disclose or suggest the specific architecture of object entities, aggregation entities, and population metrics - the OA acknowledges this but argues it would be 'obvious' without sufficient support; (2) The claimed combination of features (time-ordered metric sequences, distributed-application aggregations, membership tracking, bidirectional references) represents a specific integrated architecture, not mere application of known techniques; (3) The OA's motivation to combine is generic ('efficient state management,' 'temporal analysis') without showing why PHOSITA would arrive at this specific architecture; (4) The novelty analysis found all claims novel with confidence 0.65-0.88, and the obviousness analysis found all claims non-obvious with confidence 0.68-0.88, indicating the differences are substantial; (5) The prior art is focused on telecommunications network virtualization orchestration, while the claims address a different technical problem (distributed application monitoring with population metrics); (6) The OA does not adequately address secondary considerations - the claimed architecture provides unexpected benefits in managing dynamic distributed systems that are not suggested by data collection systems like US-2015142940-A1; (7) Combining object-oriented representation + aggregation entities + population metrics + time-series storage + membership tracking + statistical outlier detection into this specific architecture represents a non-obvious integrated solution, not predictable combination of known elements."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "The 103 rejection relies heavily on 'would have been obvious' conclusions without sufficient factual foundation. The prior art US-2015142940-A1 teaches general virtualization data collection and analysis, but the claimed invention introduces several specific structural innovations: (1) time-ordered sequence data structure with time-associated numeric values (claims 2, 13), (2) object entity and aggregation entity architecture (claims 3, 4), (3) population metric concept linking aggregations to metric storage (claims 4, 8, 15), (4) special metrics tracking membership changes via addition/deletion events (claims 5, 9, 16), (5) bidirectional metric table references (claims 6, 10, 17), and (6) outlier detection with alarm triggering based on population-metric distributions (claims 11, 18). The Office Action characterizes these as 'predictable design choices' and 'conventional techniques,' but this conclusion is not adequately supported. The prior art teaches collecting virtualization data but does not suggest the specific entity-relationship architecture, population metric abstraction, or dynamic membership tracking mechanisms claimed. The combination_threshold=0.52 requires clear motivation to combine, but the Office Action provides only general statements about 'efficient metric collection' without explaining why a PHOSITA would specifically adopt this particular architectural approach. The novelty analysis shows coverage scores ranging from 0.1 to 0.5, with most claim elements having only implicit mappings at similarity scores of 0.35-0.55, indicating substantial differences from the prior art. While individual techniques (time-series storage, object modeling, aggregation) may be known in isolation, the claimed combination addresses a specific problem—monitoring population-level metrics with dynamic membership tracking—that is not suggested by the prior art's general teaching of virtualization monitoring. The rejection appears to engage in impermissible hindsight reconstruction."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 18 explicitly recites 'The method of claim 11' while claim 11 explicitly recites 'The state-information-storage subsystem of claim 1'. This is a clear structural defect where a method claim improperly depends from a system claim. This creates categorical indefiniteness under 35 U.S.C. 112(b) and (d). The defect is evident from the face of the claims themselves without requiring interpretation or speculation. This is a fundamental claim drafting error that must be corrected."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015142940-A1이 가상화 인프라 모니터링을 개시하고 있으며, 분산 애플리케이션 컴포넌트를 VM/container에서 실행하는 것은 가상화 분야의 공지기술입니다. 그러나 청구항 7, 14는 단순히 '분산 애플리케이션'을 명시한 것 이상의 구조를 포함하지 않습니다. 결합 동기는 '가상화 환경에서 분산 애플리케이션을 모니터링하는 것은 자연스러운 확장'이라는 일반론에 기반하고 있으나, 선행기술이 명시적으로 분산 애플리케이션 컴포넌트 표현을 제시하지 않았습니다. Motivation to combine이 field of use의 일반적 기대에 의존하고 있어 KSR 기준의 엄격한 적용 시 약할 수 있으나, combination_threshold=0.57 수준에서는 설계 선택으로 인정 가능합니다. 객체 엔티티 표현은 OOP의 일반 원칙이므로 이 부분은 자명할 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis explicitly applies Graham factors (scope and content of prior art, differences from claimed invention, PHOSITA level, secondary considerations) and evaluates motivation to combine, which is the recognized legal framework for obviousness under KSR/Graham."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Reasoning consistently references specific claim language (e.g., 'inference store,' 'user consent data,' 'module'), the specific prior art reference US-2018288616-A1, and identifies particular disclosures in that reference versus missing elements in the claims."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 novelty stage found all claims novel with no anticipating references, and the §103 stage consistently found no obviousness, with the office action and final decision all aligning in granting all claims without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness=0.547 (moderate) and combination_threshold=0.553 (moderate), and the trace appropriately resolves ambiguous overlaps (e.g., real-time consent prompts in claim 7 that are 'similar' to prior art) in favor of patentability while acknowledging similarities, consistent with a moderate-strictness examiner rather than a strongly rejecting or strongly granting one."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision flows directly from accumulated stage analyses: §102 found no anticipation, §103 found no obviousness with weak motivation to combine, the office action allowed all claims, and the final decision grants all claims with explicit reference to these prior-stage findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021001767",
+    "examiner": "broad_interpreter_0049",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14083,
+      "output_tokens": 392,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

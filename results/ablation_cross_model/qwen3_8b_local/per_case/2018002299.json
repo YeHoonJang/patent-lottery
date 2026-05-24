@@ -1,0 +1,351 @@
+{
+  "case_id": "2018002299",
+  "proceeding_number": "2018002299",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012214887-A1은 청구항의 핵심 구성요소(석회석, 전분, 라이그노소르파네트 분산제 등)를 명확히 포함하고 있으며, 결합 동기(공기 함량 제어, 경량 구조 성능 개선 등)와 기술적 동일성(0.34 이상의 커버리지 점수)이 명확히 제시됨. 이는 기술 분야에서 공지된 기술적 동기와 결합 가능성에 따라 예측 가능성이 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항에 'MSF', 'pre-gelatinized starch', 'hydroxyalkylated corn starch' 등 핵심 용어가 명확히 정의되지 않아 기술적 구현 가능성이 의심됨. 다만, 일부 용어는 명세서에서 간접적으로 언급됨."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20) are explicitly or implicitly disclosed in US-2012214887-A1 with clear motivation to combine. The prior art's explicit disclosure of core components (calcined gypsum, starch, dispersant) and functional equivalents (pre-gelatinized starch, lignosulfonate dispersant) meet strictness threshold (0.8+)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 8's 'fibrous material' lacks specific definitions, creating ambiguity. While not explicitly disclosed in prior art, the term's generality may not meet written description requirements under strict interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (1, 3, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20) are explicitly or implicitly covered by US-2012214887-A1, with clear motivation to combine and routine optimization. The prior art's disclosure of starch, dispersants, foam, and surfactants directly supports obviousness."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguities in 'pre-gelatinized starch' equivalence, 'fibrous material' scope, and 'sufficient' dispersant levels are noted, but the specification provides some foundational disclosure. Enablement issues are partially supported by the prior art's general teachings."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art explicitly discloses foam and surfactant usage, with clear motivation to adjust foam content for density reduction. High confidence (0.85-0.8) and direct teaching of optimization parameters justify strong obviousness."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012214887-A1은 청구항의 핵심 구성 요소(미리 젤라틴화된 전분, 린고소르산산화제, 거품 밀도 등)를 기능적 동등물로 명시적으로 포함하고 있으며, PHOSITA가 당연한 변형으로 인식할 수 있는 기술적 동기와 결합 가능성 제공. Graham 요인에 따른 예상치 못한 결과 또는 상업적 성공 부재로 진보성 부재 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항에 기재된 '미리 젤라틴화된 전분', '린고소르산산화제', '충분한 거품량' 등은 명세서에서 명확히 정의되거나 뒷받침되지 않아, 35 U.S.C. § 112(b)의 불명확성 기준을 충족하지 못함. 명세서의 지원 부족이 명확히 제시됨."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012214887-A1은 pre-gelatinized starch, lignosulfonate dispersant, foam-based density control 등 청구항의 구성요소를 명시적으로 개시하고 있으며, 이들의 결합은 해당 분야의 일반적인 기술적 지식에 기반한 명백한 조합으로 판단됨. 고도의 confidence(0.8~0.9)와 구체적 근거로 인해 강력한 거절 근거로 분류."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 1, 8, 15의 기술적 범위가 명세서에 충분히 뒷받침되지 않았다는 지적. 다만, 선행기술과의 중첩이 있거나 일반 지식에 기반한 요소들로, 명세서 부족이 아닌 청구항 자체의 모호성에 기반한 중립적 판단."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art (US-2012214887-A1) discloses some components but lacks specific elements like lignosulfonate dispersant and sodium trimetaphosphate. While the combination threshold is low (0.46), the absence of explicit disclosure and specific ranges introduces ambiguity, making the obviousness argument weaker."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objections regarding 'sufficient amount of foam' and 'sufficient heating' are vague and lack specific technical definitions, which aligns with the broad BRI but may require clarification."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 6, 13, 20 show clear overlap with prior art or lack motivation to combine, with confidence scores ≥0.6. The prior art's disclosure of core components (calcined gypsum, starch, foaming agents) and standard practices (water ratios, surfactants) directly support obviousness for most claims."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claims 1-21 lack definite structural limitations for fibrous materials and starch types, creating ambiguity under 35 U.S.C. 112(b). This is a recurring issue across all claims, but the severity is moderate as the deficiencies are consistent rather than speculative."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "REF1 explicitly discloses overlapping components (calcined gypsum, pre-gelatinized starch, lignosulfonate dispersants) and methods (foam integration, slurry formulation) that render the claimed invention obvious through combination. The water-to-calcined gypsum ratio and foam density requirements are implicitly supported by REF1's teachings, with coverage scores exceeding 0.5 and combination threshold met."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 1 contains conflicting terms ('pre-gelatinized starch' vs. 'pre-gelled starch') and lacks quantitative guidance for 'sufficient amount of foam', creating ambiguity in scope and support."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 선행기술(US-2012214887-A1)의 기술이 명확히 반영되었으며, 결합 동기와 기능적 유사성, 공지기술 기반의 변형이 명시되어 있음. 각 청구항의 103_obviousness 근거는 높은 신뢰도(0.6~0.9)로 강력한 증거로 판단됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art suggests functional equivalents (e.g., dispersants as alternatives to thickening agents) and conventional practices (e.g., starch content adjustments). While specific elements like ammonium ether sulfate surfactant or lignosulfonate dispersant are not disclosed, the combination is plausible under BRI and Graham factors. Confidence scores (0.6-0.8) indicate moderate strength."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2012214887-A1) explicitly discloses overlapping components (starch, dispersants, foam) and functional equivalents (lignosulfonate as dispersant variant). Graham factors confirm PHOSITA would combine these elements for known benefits (lightweight, cohesiveness), with clear motivation and no unexpected results. Confidence scores (0.5–0.7) exceed combination_threshold (0.52)."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art (US-2012214887-A1) lacks explicit disclosure of pre-gelatinized starch and lignosulfonate dispersant. While the combination appears similar to known concepts, the specific weight ranges and functional roles of these components are not suggested in the prior art, weakening the obviousness argument."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2012214887-A1은 청구항의 핵심 구성요소(계산된 석가ypsum, 전분, 라이그노설포네이트 분산제)를 명시적으로 개시하며, 기능적 중복성과 결합 동기(동일한 기능적 역할의 성분 결합)가 명확하게 제시됨. 결합 동기 기준(0.57)을 초과하는 강력한 근거로 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 특정 성분(예: 전분 종류, 섬유 재료) 및 공정 매개변수(foam량, 수분 비율)에 대한 충분한 설명이 부족함. 그러나 청구항의 범위 내에서 보완 가능한 단서가 존재하므로 중립적 판단."
+        }
+      ]
+    }
+  ]
+}

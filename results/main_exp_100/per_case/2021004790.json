@@ -1,0 +1,396 @@
+{
+  "case_id": "PILOT-2021004790",
+  "proceeding_number": "2021004790",
+  "gt_issues": [
+    "102",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018167979-A1과 US-2018359653-A1은 빔 기반 RACH 구성, 측정 기반 자원 선택, 동기화 신호 수신 등 핵심 기술을 개시하며, 통상의 기술자가 이를 결합하여 본 발명에 도달하는 것은 자명함. 결합 동기(motivation to combine)가 명확하고, Graham 요소들이 obviousness를 지지함. 특히, 빔 ID 기반 RACH 구성과 CSI-RS 기반 매핑은 기술적 동등성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "D1과 D2의 결합은 5G 빔 기반 무선 접속 절차의 핵심 기술인 빔-자원 매핑과 측정 기반 자원 선택을 포함하며, 통상의 기술자가 명백하게 결합할 수 있는 기술적 맥락에 있음. 결합 동기(motivation to combine)가 명확하고, 선행기술이 동일한 문제를 해결하려는 목적을 공유함. confidence 0.8 이상의 판단이 다수이며, 기술적 차별성이 부족함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 94, 116, 117은 명세서 제121항과 명백히 모순되며, 무선 장치가 매핑을 '획득'하거나 '전송'한다는 기재는 원래의 공개에 존재하지 않음. 서면 설명 및 실시 가능성 요건을 충족하지 못하므로, 명백한 서류적 하자임."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "While the combination of Kim and Park provides a reasonable basis for mapping reference signals to RACH configurations and using measurements for selection, the specific use of CSI-RS as the beam reference and the structure of the mapping is not explicitly disclosed. The motivation to combine is plausible but not compellingly strong, especially given that Kim focuses on beam IDs rather than CSI-RS, and Park does not specify CSI-RS for RACH mapping. The difference lies in implementation specificity, which a PHOSITA might not find self-evident without hindsight. Given the examiner's lenient tendency (strictness=0.25), this moderate-strength obviousness rejection should be weighed in favor of the applicant where novel constraints exist."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.65,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 75, 98, 84, and 107 are clearly anticipated by US-2018359653-A1, which explicitly discloses reception and transmission of PSS/SSS as part of an SS block. The disclosure is direct and unambiguous, satisfying 102 standards."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 76, 85, 91, 99, 108, and 114 rely on US-2018167979-A1's disclosure of RACH chunk information. While the reference implies time-frequency resources, it does not explicitly recite them. Under BRI, the connection is reasonable but not definitive. Given the low strictness (0.29), this supports a finding of non-obviousness unless stronger evidence emerges."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 78 and 101 involve selecting a CSI-RS based on measurements. US-2018359653-A1 teaches measurement-based resource selection but does not explicitly select the CSI-RS itself. This is a close call; however, the functional equivalence suggests obviousness, though not with high confidence. Moderately strong, but open to applicant argument."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 116 requires the wireless device to transmit an indication (e.g., CSI-RS to RACH mapping) in an RRC message. However, the specification consistently describes the first radio network node (donor eNB) as transmitting this mapping to the wireless device. The claim contradicts the written description and lacks enablement. This is a clear 112(a) failure, not merely a drafting error."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018167979-A1과 US-2018359653-A1 모두 5G/NR 환경에서 빔 기반 RACH 절차 및 측정 기반 자원 선택을 개시하고 있으며, CSI-RS와 RACH 구성 간의 매핑은 해당 분야의 통상적 기술 수준에서 자명한 변형이다. 결합 동기(motivation to combine)가 명확하며, 5G 시스템에서 CSI-RS가 빔 측정에 표준적으로 사용된다는 점에서 기술적 맥락이 강력하다. 따라서 103 거절 근거는 강력하다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "제74항의 '하나의 CSI-RS에 하나의 RACH 구성만 매핑'은 선행기술이 복수의 RACH 자원을 하나의 빔에 매핑할 수 있음을 시사하므로, 이를 제한하는 것은 설계 선택의 문제이다. 그러나 시스템 복잡도 감소라는 기술적 이점이 암시되며, 자명한 최적화로 보기 어려울 수 있다. 다만, 엄격한 심사 기준(strictness=0.89) 하에서는 이러한 제한이 특허적 진보성을 부여한다고 보기 어렵다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "제80항의 RRC 메시지를 통한 매핑 지시 수신은 선행기술에서 명시적으로 개시되지 않았으나, RRC가 LTE/NR에서 구성 정보 전달을 위한 표준 신호임은 공지되어 있다. 따라서 RRC 사용은 통상의 기술자가 자명하게 선택할 수 있는 방식으로 간주될 수 있으나, 명시적 기재 부재로 인해 약간의 해석의 여지가 있다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018167979-A1과 US-2018359653-A1의 결합은 빔 기반 RACH 구성, 측정 기반 자원 선택, CSI-RS와 RACH 구성 간 매핑의 핵심 요소를 충분히 개시하며, 동기(motivation to combine)가 명확함. 5G mmWave 시스템에서의 접근 신뢰성 향상은 당업자에게 명백한 기술적 동기임. 선행기술 간 기술적 연속성과 예측 가능성 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서(¶0121, ¶0144-0145)는 명확히 '제1 무선 네트워크 노드'가 매핑 정보를 획득하고 전송한다고 기재. 청구항 116 및 117에서 '무선 장치'가 이를 수행한다고 주장하는 것은 명세서와 직접 모순되며, 서면 설명 요건 위반에 해당함. 증거 명확하고 해석의 여지 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018167979-A1과 US-2018359653-A1은 모두 빔 기반 무선 액세스 및 측정 기반 자원 선택에 관한 기술을 개시하며, 5G NR 초기 액세스 절차와 밀접한 관련이 있음. 두 문서는 동일한 기술적 과제(빔 정렬 및 효율적인 RACH 절차)를 해결하며, 결합 동기(motivation to combine)가 명확함. 특히 CSI-RS와 RACH 구성 간 매핑은 빔 관리에서 자연스러운 연장으로, 당업자에게 자명함. 청구항 72 및 관련 종속항들에 대한 obviousness 판단은 선행기술의 명확한 조합에 기반함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 74의 '한 개 이하의 RACH 구성만이 CSI-RS에 매핑됨'이라는 제한은 선행기술에서 명시적으로 개시되지 않았으며, US-2018167979-A1은 다수의 RACH 구성이 가능하도록 함. 이 제한은 시스템 복잡성 감소 또는 간섭 방지 목적의 설계 선택일 수 있으나, 반대 방향의 설계 선택을 유도할 동기는 없음. 그러나 통상의 기술자가 성능과 복잡성 사이의 트레이드오프를 고려하여 도달할 수 있는 수준으로 판단됨. strictness=0.47인 중립적 성향 하에서, 이는 여전히 obvious로 판단 가능하나, 강도는 다소 낮음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 116 및 117은 무선 장치(wireless device)가 매핑 정보를 획득하고 RRC 메시지로 송신한다고 기재하나, 명세서(예: ¶0121, ¶0113)는 이러한 기능이 제1 무선 네트워크 노드에 의해 수행됨을 명확히 함. 무선 장치에 대한 서면 설명 및 실현 가능성이 부족하므로, 112(a) 위반이 명확함. 명세서 인용을 통한 구체적 근거 존재."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018167979-A1과 US-2018359653-A1의 결합은 빔 기반 RACH 구성 및 측정 기반 자원 선택이라는 공지된 기술을 포함하며, CSI-RS 사용은 5G/NR 시스템에서 표준적인 참조 신호로, 통상의 기술자가 이를 용이하게 결합할 수 있음. 결합 동기(motivation to combine)는 빔 일관성 유지 및 액세스 지연 감소라는 명확한 기술적 목적에 기반함. confidence 수치(0.7–0.9)도 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 116 및 117에서 'said wireless device'는 명세서 상의 주체와 불일치하며, 송신 및 획득 동작의 수행 주체가 모호함. 명세서에 무선 장치가 해당 동작을 수행한다는 기재가 없어 서면 설명 및 명확성 요건 모두 위반. 주체 혼동은 청구항 해석에 중대한 영향을 미치며, 보정 없이는 허용 불가."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.38,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018359653-A1과 US-2018167979-A1의 결합은 빔 기반 랜덤 액세스 및 참조 신호 측정을 통한 자원 선택이라는 공통 기술적 과제를 해결하며, 5G 시스템에서의 결합 동기가 명확함. combination_threshold=0.22로 낮아 공지상식 기반 결합도 허용됨. 다수 청구항에 대해 기능적 대응성과 논리적 결합이 타당하게 설명됨."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 80의 RRC 메시지 수단은 선행기술에 명시되지 않으나, LTE/5G 시스템에서 RRC가 구성 정보 전달의 표준 수단이라는 점에서 자명하다고 판단됨. strictness=0.46 수준에서 이러한 공지성 기반 판단은 수용 가능하나, 명세서에 특별한 기술적 효과가 강조되지 않아 강도는 보통 수준."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 116 및 117에서 'wireless device'가 'first radio network node'의 기능을 수행한다고 기재한 것은 명세서와 명백히 모순됨. 명세서는 해당 동작을 명확히 네트워크 노드에 귀속시키고 있으며, 청구항과의 불일치는 서면 설명 요건 위반에 해당함. 증거가 명확하고 수정 없이 허용하기 어려움."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "모든 청구항에 대해 US-2018167979-A1과 US-2018359653-A1의 결합이 명확히 제시되었으며, 각 구성요소가 선행기술에서 개시되거나 통상의 기술자에게 명백한 변형임이 입증됨. 특히 빔 기반 RACH 절차와 측정 기반 자원 선택은 5G/NR 시스템에서 공지된 기술이며, 결합 동기가 명확함. 신규성 판단에서도 모든 독립청구항이 선행기술에 의해 예견되거나 명백하다고 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 74의 'CSI-RS 당 하나를 초과하는 RACH 구성이 매핑되지 않는다'는 제한은 선행기술에 명시적이지 않으며, 시스템 설계 선택의 일환으로 볼 수 있음. 선행기술이 다대다 매핑 가능성을 열어두고 있어 일대일 제한이 자명하다고 단정하기는 어렵고, 이는 통상의 기술자가 반드시 도출할 수 있는 수준인지에 대해 해석의 여지 존재. strictness=0.52인 균형형 심사관 입장에서 이 정도의 설계 최적화가 obvious로 보기엔 약간의 불확실성 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 80의 RRC 메시지를 통한 지시 수신은 LTE/NR에서 공지된 신호 전달 방식이나, 선행기술이 RACH 구성 정보 전달에 RRC를 사용한다고 명시하지 않음. RRC 사용이 일반적이라 하더라도 특정 정보 전달에 대한 직접적 동기 부족. 공지기술 기반 obviousness 판단은 가능하나, 명확한 결합 동기 부족으로 인해 강한 obvious 판단에는 다소 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 116 및 117에서 'wireless device'가 지시를 송신하거나 매핑을 획득한다고 명시하지만, 명세서 전반에 걸쳐 이 기능은 '제1 무선 네트워크 노드'가 수행함. 이는 명세서가 청구항을 뒷받침하지 못하며, 청구항 해석 시 통상의 기술자가 발명의 소유를 인정하기 어렵다는 점에서 112(a) 위반이 명확함. 해석의 여지 없이 강한 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2018167979-A1과 US-2018359653-A1의 결합은 청구항 72, 73, 75-79, 81-86, 88, 89, 91, 92의 모든 구성요소를 포괄하며, 빔 기반 RACH 절차에서 측정 기반 자원 선택을 통합하는 동기가 명확함. 선행기술 간의 기술적 맥락이 유사하고, 5G/NR 시스템에서의 공통 과제(접속 신뢰성 향상)를 해결하려는 목적도 일치함. 결합 동기와 구성요소 대비가 탄탄하여 증거 강도가 높음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 116 및 117에서 'wireless device'가 수행한다고 기재된 기능은 명세서에 따라 'first radio network node'가 수행해야 하는 것으로, 명세서 뒷받침 부족(112(a))과 청구항의 불명확성(112(d))이 명확함. 명세서와의 불일치는 명백하며, 해석의 여지 없이 112 위반으로 판단 가능."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 80의 RRC 메시지 수신은 선행기술에 명시적으로 개시되지 않았으나, RRC가 LTE/NR에서 구성 정보 전달을 위한 표준 수단이라는 점에서 통상적인 기술자가 쉽게 도달할 수 있는 선택으로 판단됨. 그러나 명시적 개시 부재로 인해 완전한 strong은 아니며, moderate 수준의 강도를 가짐."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 116 및 117은 '무선 장치'가 동작을 수행한다고 기재하지만, 명세서(¶0121)는 이를 '제1 무선 네트워크 노드'로 명확히 하고 있어 서술적 지지 부족이 명확함. subject matter inconsistency가 명백하여 strong한 112(a) 거절 근거."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2018167979-A1 and US-2018359653-A1 provides clear and technically coherent teachings that, when combined, render the claimed beam-specific RACH procedures obvious. The motivation to combine—improving beam selection reliability in mmWave systems—is well-supported by the references and aligns with known 5G design principles. The PHOSITA would readily understand the mapping of CSI-RS measurements to RACH configuration selection as a logical extension of beam management. Confidence in obviousness is high (0.85–0.95), and the technical consistency across both references strengthens the rejection."
+        }
+      ]
+    }
+  ]
+}

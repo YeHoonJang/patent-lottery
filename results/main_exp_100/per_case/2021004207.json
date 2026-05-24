@@ -1,0 +1,268 @@
+{
+  "case_id": "2021004207",
+  "proceeding_number": "2021004207",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Chemical Formula 1 및 Formula 2에 대한 구조적 정의, 합성 방법, 작용 메커니즘, 실시예, 분석 데이터 등이 명세서에 전혀 제공되지 않아, 본 발명을 소유하고 있었다는 것을 합리적으로 전달하지 못함. 나노물질과의 상호작용 및 'compound에 의해 embedding'이라는 기능적 한계에 대한 기술적 설명도 부재하여, 112(a)의 서술적 지지 및 실험가능성 요건을 명백히 위반함. 제공된 명세서를 기반으로 판단 가능하며, 증거가 명확하고 강력함."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.12,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 9's inclusion of 'polyvinyl alcohol' as a solvent is technically incorrect; PVA is a polymer, not a solvent. This misclassification creates indefiniteness under 112(b), and the specification does not redefine 'solvent' to include polymers. The error is clear and unambiguous, satisfying a strong 112 rejection. Similarly, claim 13's contradiction between 'one selected from' and 'combinations thereof' creates logical indefiniteness that cannot be resolved without speculation. These are not minor drafting issues but fundamental clarity failures."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 결합 동기 부족, 기술적 효과의 예상 외성, 목적 및 적용 분야의 상이성을 근거로 obviousness가 부정됨. 제시된 선행기술 조합도 명확한 동기를 제공하지 않으며, 화학 구조의 특이성과 공정 조건의 구체성이 prior art에 미제시됨. combination_threshold=0.68 기준 대비 동기 존재 가능성 낮음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "제공된 선행기술들은 본 발명의 핵심인 화학식 1의 특정 화합물 사용, 단분자 나노박막 형성, 및 그와 결합된 나노물질의 안정화 기능을 개시하지 않으며, 결합 동기에 대한 명확한 기술적 시사점이나 동기가 부족함. combination_threshold=0.72 기준으로도 동기 부족으로 판단됨. 통상의 기술자가 이러한 조합에 도달하기 위해 필요한 동기는 추측에 불과하므로, 진보성 거절 근거는 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The combination of US-2018272601-A1 and US-2014171296-A1 provides a clear and logical motivation to combine: improving dispersion stability and interfacial properties during annealing using known nitrogen-containing organic compounds. The structural generality of Chemical Formula 1 falls within routine experimentation for a PHOSITA in surface modification. The confidence in obviousness is high (0.82), and the cited references are from the same field of nanomaterial thin-film processing. Given the strictness level of 0.89, this constitutes a strong obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 1, 2, 4는 화학식 1 및 2의 구조적 정의가 명세서에 도시되지 않았으며, R1/R2에 '산소'라는 비정형 치환기를 포함하여 화학적으로 모호함. 명세서는 대표적인 화합물 예시나 구조적 상관관계를 제공하지 않아 소유권을 입증할 수 없음. 기능적 한계('embedding')도 메커니즘이 기재되지 않아 전 범위에 대한 서술적 지지를 결여함. 제공된 명세서를 기반으로 판단 가능하며, 근거가 명확하고 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 3, 5, and 6 are clearly anticipated by single prior art references: US-2014260700-A1 discloses nanoparticle-containing dispersions applied to substrates (claims 3 and 5), and US-2014171296-A1 explicitly teaches Ag-containing nanomaterials (claim 6). These disclosures meet the legal standard for anticipation under 102(a)(1) with enabling disclosures and exact matching of elements under broadest reasonable interpretation."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The 112(a) rejections are based on legitimate concerns: 'monomolecular nano-thin film' lacks clear definition, Chemical Formula 1 and 2 are inadequately depicted, and terms like 'dispersion solution', 'annealing', and 'embedded' lack operational parameters. While some ambiguity is common in early-stage claims, the lack of structural drawings and undefined scope of variables (X, Y, R1, R2) raises valid written description and enablement issues. However, these may be remediable with clarification and drawings, so the strength is not as high as a clear 102."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 진보성 판단에서 결합 동기 부족, 기술 분야 상이, 핵심 화합물 구조(화학식 1, 2)의 비개시가 명시됨. US-2018272601-A1, US-2014260700-A1, US-2014171296-A1은 각각 3D 프린팅, MALDI-MS, 촉매에 국한되어 있어 본 발명의 단분자 나노박막 형성 기술과 목적 및 메커니즘에서 차이 큼. 통상의 기술자가 이를 결합해 본 발명에 도달할 동기 부족. confidence 값도 0.65~0.8로 거절 근거로서의 강도 낮음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 5, 6, 8, 10–13 are rejected based on combination of prior art and common knowledge. While the individual elements (nanomaterial shapes, metals, temperature range, substrates, coating methods) are known, the specific integration with a monomolecular film-forming compound (Formula 1) is not fully addressed in the prior art. The motivation to combine is plausible but not compelling, especially given the specialized context of forming a monomolecular nano-thin film. At strictness=0.46, moderate doubt favors applicant for non-obviousness unless strong motivation is shown, which is lacking."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 4 uses the term 'embedded' without clear support in the specification regarding mechanism or structural integration. The absence of details on how the compound facilitates embedding—such as chemical bonding, depth, or physical entrapment—constitutes a clear failure to meet the written description requirement under §112(a). This is a well-established legal standard, and the deficiency is evident even under moderate BRI. The rejection is strongly justified."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Chemical Formula 1 및 2의 구조가 명세서에 도시되거나 구체적으로 설명되지 않아, 본 발명을 소유하고 있었다는 것을 합리적으로 전달하지 못함. 'monomolecular nano-thin film', 'nanomaterial', 'embedded' 등의 용어도 명확한 정의 없이 사용되어 서술 요건 및 명확성 기준을 충족하지 못함. 이는 명세서 전체의 뒷받침 부족을 나타내며, 증거가 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 8, 9, 11, 12, and 13 are directed to parameters and components that are well within routine optimization and conventional choices in thin-film and nanomaterial processing. The cited prior art (US-2018272601-A1, US-2014260700-A1, US-2014171296-A1) provides sufficient teaching to motivate a PHOSITA to use the annealing temperature range, common solvents, standard metal/plastic substrates, and conventional coating methods. The combination references are from related fields (printed electronics, nanoparticle deposition), and the motivation to combine is supported by common technical goals (film uniformity, conductivity, processability). Given the high confidence (0.78–0.8) in obviousness and alignment with routine practices, these rejections are strong."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "pred": [],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "청구항 4의 'embedded' 용어는 명세서에서 명확히 정의되지 않아 서술적 지지가 부족할 수 있음. 그러나 본 기술 분야의 통상적인 기술자는 이 용어를 물리적 또는 화학적 매립을 포함하는 일반적인 의미로 이해할 수 있음. strictness=0.42인 심사관은 증거가 완전하지 않으면 출원인에게 유리하게 판단할 가능성이 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에 Chemical Formula 1과 2의 구조가 도시되거나 기재되어 있지 않아, 본 발명의 화합물을 특정할 수 없으며, 청구항에 기재된 'oxygen'이라는 치환이 화학적으로 모호하고 불명확함. 또한 'nanomaterial' 및 'embedded'의 기술적 경계가 명세서에 정의되지 않아, 당업자가 본 발명을 재현하기 위해 과도한 실험을 요하게 되므로, 112(a) 위반이 명확함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Chemical Formula 1의 구조가 명세서에 명확히 정의되지 않아 청구항 범위가 과도하게 광범위하고 모호함. 명세서는 4-dimethylaminopyridine이라는 단일 예시만 제공하며, X와 Y가 산소, 황 등인 경우나 R1/R2의 다양한 치환체에 대한 실험 데이터나 합성 방법을 제시하지 않음. 이는 서술 요건(written description) 및 실시 가능성(enablement)을 충족하지 못하는 명확한 증거임. Chemical Formula 2에 대해서도 구조 도면이나 작동 예시 부재로 인해 동일한 문제가 존재함. 'monomolecular nano-thin film', 'embedded', 'nanomaterial' 등의 용어도 명확히 정의되지 않아 모호성 문제 있음."
+        }
+      ]
+    }
+  ]
+}

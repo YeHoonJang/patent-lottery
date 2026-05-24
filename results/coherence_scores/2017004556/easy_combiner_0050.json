@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) for every claim, and §102 uses element-by-element anticipation analysis, with no cross-statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection and allowance decision cites specific prior art references (US-2012117621-A1, US-2012303808-A1) and maps specific claim elements (e.g., 'generating signed answers using key data,' 'resolver IP address') to disclosed features or their absence."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Claims found not novel at §102 stage (e.g., claims 1, 5, 11) are also found obvious at §103 with additional rationale about combination, while claims found novel (e.g., 7, 8, 9, 10) are consistently found non-obvious and allowed throughout all stages without contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner (combination_threshold=0.222, strictness=0.461) explicitly notes the low combination threshold when justifying §103 rejections ('combination_threshold=0.22로 낮아 결합이 용이') and accepts weaker motivation to combine, consistent with the easy_combiner archetype; the moderate strictness leads to partial rejection rather than wholesale rejection or grant."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject (with partial allowance of claims 7–10, 17–20) directly follows the stage-level analyses, where rejected claims were found obvious and allowed claims were consistently found novel and non-obvious throughout the §102 and §103 stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017004556",
+    "examiner": "easy_combiner_0050",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 13310,
+      "output_tokens": 421,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

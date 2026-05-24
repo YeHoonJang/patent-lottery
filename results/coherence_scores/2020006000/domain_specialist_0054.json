@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The novelty stage correctly applies element-by-element anticipation analysis against US-2016140466-A1, and the obviousness stage (though defaulted) references the absence of Graham/KSR factors; the office action and final decision invoke the correct §102/§103 statutory frameworks without misapplying §101 or other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "The novelty analysis consistently references specific claim language (e.g., 'unstructured text description of operational activities,' 'NLP-based keyword extraction,' 'intermediary risk rating') and ties each finding to what US-2016140466-A1 does or does not disclose."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness stage defaults to non-obvious due to LLM unavailability (zero confidence), which is consistent with the §102 finding of novelty—no contradiction arises between stages, and the final decision rationale acknowledges the default nature of the obviousness finding."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has a mid-range strictness (0.523) and grants on claims where novelty is found and no obviousness rejection is substantiated, which is consistent with a moderately lenient stance resolving ambiguity (the defaulted §103) in the applicant's favor rather than forcing a rejection."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The grant decision follows directly and coherently from the accumulated stage analyses: all claims were found novel with moderate-to-high confidence at §102, the §103 analysis produced no substantiated rejection ground, and the office action allowed all claims, making the grant outcome a logical consequence of prior-stage findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020006000",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 6812,
+      "output_tokens": 411,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

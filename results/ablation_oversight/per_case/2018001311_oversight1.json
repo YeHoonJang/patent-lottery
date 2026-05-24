@@ -1,0 +1,299 @@
+{
+  "case_id": "ABL-2018001311",
+  "proceeding_number": "2018001311",
+  "oversight_level": 1.0,
+  "gt_issues": [
+    "102",
+    "112",
+    "103",
+    "Others"
+  ],
+  "gt_outcome": "Affirmed-in-Part with New Ground of Rejection",
+  "grant_rate": 0.35714285714285715,
+  "amend_rate": 0.07142857142857142,
+  "reject_rate": 0.5714285714285714,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.793,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2013195665-A1은 인접 터빈 블레이드 사이에 댐퍼를 배치하여 진동을 감쇠하는 구조를 명시적으로 개시하고 있으며, 댐퍼의 위치 조정이 마찰 특성과 감쇠 성능에 영향을 미친다는 점을 시사한다. '오프셋 위치', '중심선 대비 오프셋', '질량 중심의 오프셋', '불균등한 부하 분배', '60%/40% 비율' 등의 특징은 모두 진동 모드 최적화를 위한 설계 변수 조정의 범위 내에 있으며, 당업자가 일반적인 실험 및 분석을 통해 도달할 수 있는 결과이다. 결합 동기(motivation to combine)는 진동 공학 분야의 공지된 설계 목표에서 자연스럽게 도출되며, Graham 요소들(기술 수준, 차이점, 보조적 고려사항)도 자명성 판단을 지지한다. confidence 수치(0.67~0.74)는 일관되게 높은 수준이며, 전체적으로 강한 자명성 근거로 평가된다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "oversight_awareness": 1.0,
+      "strictness": 0.875,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2013195665-A1은 댐퍼를 블레이드 플랫폼 아래에 위치시켜 진동 저감을 제공하며, 댐퍼 위치 조정을 통한 성능 최적화는 공지된 설계 목표이다. 오프셋 배치, 비대칭 하중 분배(60/40), 중심질량 오프셋 등은 모두 비대칭 배치의 물리적 결과이거나 통상의 기술자(PHOSITA)가 정량적 최적화를 통해 도달할 수 있는 범위 내에 있다. 결합 동기(motivation to combine)는 진동 저감이라는 명확한 목적에서 도출되며, 특별한 창의성 없이 시도 가능한 설계 변형이다. 신청인 측에서 예상 외 효과, 상업적 성공, 장기간 미해결 과제 등의 2차적 고려사항을 제시하지 않아, 자명성(prima facie obviousness)이 성립한다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.248,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6 is explicitly disclosed in US-2013195665-A1, which describes a rotor disk with slots receiving blade roots. The disclosure is clear and direct, leaving no room for interpretation. Confidence in anticipation is high (0.98), making this a strong 102 rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "oversight_awareness": 1.0,
+      "strictness": 0.292,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.72,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 20에 대한 진보성 거절은 공지된 기어드 팬 아키텍처와 터빈 댐퍼 기술의 결합에 근거하고 있으며, 동기(motivation to combine)는 합리적이지만 명시적인 선행기술 인용 없이 일반 지식에 의존하고 있음. 기술적 효과나 새로운 작용 관계가 명확히 부각되지 않아 강한 거절 근거로 보기에는 한계 있음. 그러나 공지기술 결합 관점에서 일정한 타당성 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.889,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 6은 US-2013195665-A1에서 단일 문헌에 의해 모든 구성요소가 명시적으로 개시되어 있으며, abstract 및 명세서 [0018], 청구항 9에 명확히 기재되어 있음. 신규성 결여 판단은 명확하고 강한 근거 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 20의 팬 섹션 및 기어드 아키텍처는 US-2013195665-A1에 직접 개시되지 않으나, 항공기 엔진 분야에서 널리 알려진 기술. 통상의 기술자에게는 효율성 향상을 위한 명백한 설계 선택으로 간주될 수 있으나, 원래의 댐퍼 발명과의 기능적 관련성은 약함. 결합 동기는 존재하나, 발명의 핵심 기여와는 거리가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "'60%/40% load split', 'unequal load split', 'closer to one platform' 등의 용어는 명세서에서 정의되지 않으며, 측정 기준, 작동 조건, 방향성 기준이 모두 불명확. 'approximately'라는 모호한 용어 사용으로 인해 청구항 범위가 불확정하며, 서면 설명 요건을 충족하지 못함. 명세서 내 구체적 데이터나 실험 결과도 제시되지 않음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Center of mass의 offset과 관련된 구조적 구현 예나 설계 방법이 명세서에 부족함. 단순한 성능 결과 기재는 서면 소유권을 입증하기에 부족하며, PHOSITA가 재현하기 어렵다는 점에서 서면 설명 미비."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "oversight_awareness": 1.0,
+      "strictness": 0.818,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6에서 추가된 로터 디스크 및 블레이드 루트의 슬롯 결합 구조는 US-2013195665-A1의 청구항 9 및 명세서에서 명시적으로 개시되어 있으며, 가스터빈 엔진 분야에서 일반적으로 알려진 공통 기술이다. 이 구성은 독립항 1의 핵심인 오프셋 댐퍼와의 상호작용에서 새로운 기술적 효과를 발생시키지 않으며, 통상의 기술자가 명백하게 사용할 수 있는 설계 선택으로 판단된다. 결합 동기 존재 여부와 관계없이, 해당 구성 자체가 공지된 기술이므로 진보성 부족(§103)의 근거는 강함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.475,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6의 로터 디스크 및 블레이드 루트 슬롯 결합 구조는 US-2013195665-A1에 명시적으로 개시되어 있으며(claim 9), 이는 가스터빈 엔진에서 공통적으로 알려진 기술이다. 결합 동기(motivation to combine)는 기술적 표준성과 조립성, 신뢰성 향상이라는 명확한 목적에서 도출되며, 통상의 기술자에게 자명하다. confidence 0.9로 높은 신뢰도를 가지며, 제도적 감시 프레임 하에서도 충분히 유지 가능한 근거이다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 20의 팬 섹션 및 기어드 아키텍처는 공지된 기술이나, US-2013195665-A1 자체는 터빈 섹션에 초점을 맞추고 있으며, 팬과 기어드 구조는 직접 개시하지 않는다. 다만, 항공기 엔진 분야에서 기어드 터보팬은 널리 알려진 구조이며, 통상의 기술자가 효율성 향상을 위해 이러한 구성을 결합할 동기가 있다고 판단할 수 있다. 그러나 이는 선행기술 외부의 공지기술을 기반으로 하며, 조합의 동기가 간접적이다. confidence 0.85이나, 명세서상의 새로운 효과 기재가 없다는 점에서 moderate 수준이다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "oversight_awareness": 1.0,
+      "strictness": 0.547,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 20 combines a known damper improvement with a conventional geared turbofan architecture. The geared fan is well-documented in the art for improving fuel efficiency, and integrating known damping techniques into such engines would be within the skill level of a PHOSITA. The motivation to combine is clear and supported by engineering common sense, with no evidence of unexpected results. This constitutes a strong obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.461,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.92,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 선행기술 US-2013195665-A1이 댐퍼를 중심에 배치하거나 대칭적으로 작동시키는 것으로 개시하고 있으며, 오프셋 배치, 질량 중심의 이탈, 60%/40% 하중 분배 등의 특징을 명시하거나 암시하지 않는다. 결합 동기(motivation to combine)가 존재하지 않으며, PHOSITA가 이러한 비대칭 설계에 도달하기 위해 자명한 경로를 따르기 어렵다고 판단됨. 진보성 판단의 confidence는 0.69~0.78 수준으로, 전반적으로 중간 이하의 강도를 가지며, 심사관의 strictness=0.46을 고려하면 약한 거절 근거는 인정되지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.502,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6의 로터 디스크 및 블레이드 루트의 슬롯 결합 구조는 US-2013195665-A1에 명시적으로 개시되어 있으며, 이는 가스터빈 엔진에서 블레이드를 고정하는 표준 기술로서 통상의 기술자가 자명하게 채용할 수 있는 구성임. 거절 근거는 명확하고 강력함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 20의 팬 섹션 및 기어드 아키텍처는 US-2013195665-A1에 직접 개시되어 있지는 않으나, 항공 엔진 분야에서 널리 알려진 공지기술임. 통상의 기술자가 터빈으로 팬을 기어드 아키텍처로 구동하는 구성은 자명하다고 판단할 수 있으나, 본 출원의 핵심인 댐퍼 오프셋과의 결합 동기 자체는 명확하지 않음. 그러나 공지기술의 통합 측면에서 자명성 판단은 타당함."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.517,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6의 구성요소인 로터 디스크 및 블레이드 루트가 슬롯에 맞는 구조는 US-2013195665-A1의 청구항 9 및 명세서에 명시적으로 개시되어 있으며, 이는 가스터빈 엔진 설계 분야에서 통상의 기술자가 인지하는 공통 기술이다. 결합 동기(motivation to combine)는 선행기술의 직접적 기재와 기술적 관례에 근거하므로 강한 증거로 평가된다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "oversight_awareness": 1.0,
+      "strictness": 0.422,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.91,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2013195665-A1은 댐퍼를 중심에 위치시키는 일반적인 배치를 개시하고 있으나, 오프셋 위치, 질량 중심 조정, 불균등 하중 분배 등의 기술적 특징은 명시하거나 암시하지 않음. 결합 동기(motivation to combine)의 근거가 부족하며, 통상의 기술자가 이러한 특정한 오프셋 구조에 도달하기 위해 선행기술을 기반으로 쉽게 유도하기 어려움. Graham 요소 분석에서도 차이점이 명확하고, 보조적 고려사항(성능 향상, 산업적 필요성)이 발명의 비자명성을 뒷받침함. combination_threshold=0.52 기준보다 높은 난이도를 요구하므로, obviousness 판단은 약함."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.523,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.91,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "청구항 6에 대해 US-2013195665-A1이 로터 디스크 및 블레이드 루트의 슬롯 결합 구조를 개시하고 있으며, 이는 공지상식에 해당하므로 obvious 판단이 가능하나, 독립항 1의 오프셋 댐퍼 구성은 선행기술에 명시되거나 암시되지 않음. 종속항 6의 추가 구성요소는 자명하나, 전체 발명의 통합적 구조에서 이는 독립항의 비자명성에 의해 흡수됨. combination motivation이 약하며, 시사되지 않은 기술적 효과(60/40 하중 분할 등)가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "oversight_awareness": 1.0,
+      "strictness": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claim 6 recites a rotor disk with blade root and slot engagement, which is explicitly disclosed in US-2013195665-A1 (Claim 9) and represents conventional turbine blade attachment structure. The combination of known elements for their known function, without unexpected results, establishes a strong obviousness rejection under §103. The motivation to combine is inherent in the reference, and the configuration is standard in the art, satisfying the combination_threshold of 0.57. Confidence in this rejection is high (0.9), and the verification note confirms the presence of supporting disclosure."
+        }
+      ]
+    }
+  ]
+}

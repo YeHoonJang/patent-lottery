@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis consistently applies Graham/KSR factors (scope and content of prior art, differences, PHOSITA level, secondary considerations) across all claim evaluations, and §102 uses element-by-element anticipation analysis referencing specific prior art disclosures."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions throughout reference specific claim language (e.g., 'IRR data,' 'maximum drive distance,' 'total prospect value'), specific prior art passages (e.g., US-2013268886-A1 '시작 시간, 종료 시간,' US-2011258081-A1 'lead generation subsystem'), and specification-level comparisons."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage largely aligns with the §102 novelty findings — claims found not novel at §102 are also found obvious at §103, and claims found novel (e.g., 2, 4, 8, 9, 10, 13, 14) are consistently found non-obvious, with no unexplained reversals between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's lenient profile (strictness=0.292) and high combination_threshold (0.722) are explicitly reflected in the reasoning — the examiner repeatedly notes that combination_threshold=0.72 is not met for several claims (e.g., Claims 1, 4, 8) and leans toward non-obviousness and grant on ambiguous elements, consistent with a lenient advocate archetype."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision ('amend_suggested' for Claims 1 and 16, reject for Claims 3/5/6/7/11/12/15, grant for Claims 2/4/8/9/10/13/14) directly follows from the accumulated §103 stage findings, with stated rationale connecting the decision to prior stage analysis, including the suggestion to incorporate allowed claim features into independent claims."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2019005661",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 15323,
+      "output_tokens": 486,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

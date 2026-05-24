@@ -1,0 +1,582 @@
+{
+  "case_id": "2018003455",
+  "proceeding_number": "2018003455",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.0,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 (Haulick)이 청구항 1, 2, 3, 4, 8, 9의 모든 구성요소를 명시적으로 개시하고 있음. Haulick의 claim 8은 'contextual information about user speech'를 수신하고 'speech recognition analysis uses the contextual information'을 수행하며, claim 14는 'alter the dictionary based on contextual information'을 명시. 청구항과의 유사도가 0.8-0.9로 매우 높음. 단일 선행기술이 모든 요소를 개시하는 전형적인 102 anticipation 사례. 청구항 11-14, 18-19는 장치 클레임이나 동일한 기능적 한계를 포함하므로 동일한 102 분석 적용. 청구항 20은 프로그램 제품 형식이나 기능적 요소는 동일하며, 저장매체 기재는 MPEP 2106.05(a)에 따라 특허성에 기여하지 않음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "102에서 anticipation이 성립하지만, 103 분석도 독립적으로 강력함. Haulick은 문맥 기반 ASR 조정의 핵심 개념을 개시하며, 청구항과의 차이는 추상화 수준에 불과함. Graham 요소 분석: (1) 선행기술이 context-based ASR adjustment를 포함, (2) 차이점은 'contextual information'의 일반화 수준에 불과하고 기능적 신규성 없음, (3) PHOSITA는 이용 가능한 문맥 정보로 ASR 정확도를 개선하는 것을 통상의 설계 선택으로 인식, (4) 이차적 고려사항 없음. Combination_threshold=0.34(낮음)를 충분히 초과. 청구항 2-4의 knowledge domain/lexicon 선택, word weighting은 Haulick의 'dictionary alteration' 교시의 통상적 구현 기법. 청구항 8의 네 가지 범주는 Haulick과 Skinder가 개시한 구체적 문맥 유형들의 넓은 분류에 불과. 결합 동기는 명확: 두 문헌 모두 환경/사용자 문맥 정보로 음성 엔진 조정하여 성능 개선을 교시."
+        },
+        {
+          "basis": "claims_5_6_7_10_15_16_17_allowability",
+          "strength": "moderate",
+          "reasoning": "청구항 5, 6, 7, 10, 15, 16, 17에 대한 allowability 판단은 moderate 강도. 청구항 5는 'adjusting matching between recognized speech and predetermined action based on contextual information'을 추가하는데, 이는 단어 인식 조정이 아닌 명령 매핑 조정임. 선행기술은 인식 엔진 조정만 교시하고 행동 매핑 조정은 교시하지 않음. 그러나 PHOSITA가 문맥 기반 명령 해석을 자명하게 확장할 수 있는지는 해석 여지가 있음. 청구항 6, 7은 사용자 확인 메커니즘을 추가하는데, 확인 자체는 공지기술이나 문맥 조정된 추정 결과 표시와의 결합이 자명한지는 불확실. 청구항 10의 transferability는 데이터 동기화가 공지되어 있으나 ASR 문맥 프로필의 장치 간 이동이 자명한지는 증거 부족. Confidence 점수가 0.65-0.72로 상대적으로 낮아 불확실성 반영."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.05,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1의 Claim 8, 14는 contextual information을 사용하여 speech recognition analysis를 수행하고 dictionary를 alter한다고 명시적으로 개시. Claim 2는 microphone과 speech recognition module이 single device에 위치함을 명시. 이는 본 출원 Claim 1의 모든 요소를 명시적으로 개시하여 anticipation 요건 충족. Claims 3, 8, 9도 마찬가지로 선행기술에서 명시적 개시 확인. Claims 11, 13, 18, 19, 20은 method/apparatus/program product 형식 차이일 뿐 실질적 기능 요소는 동일하여 102 거절 근거 강함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2, 4의 경우: US-2014324428-A1이 dictionary alteration을 개시하고, knowledge domain selection이나 word weighting은 speech recognition 분야의 공지 기술. combination_threshold=0.34로 낮아 common sense/design choice만으로도 결합 동기 충분. Claims 5, 6, 7: context-aware recognition에서 command matching으로의 확장, user confirmation dialog 추가는 모두 predictable use of prior art elements. Claim 10: cross-device transfer는 cloud sync의 일반적 응용. KSR 기준 하에서 모든 결합이 obvious로 판단 가능. Claims 12, 14, 15, 16, 17은 apparatus 형식일 뿐 동일한 obviousness 논리 적용."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.62,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "US-2014324428-A1은 맥락 정보를 사용한 음성 인식 조정의 핵심 요소를 개시하지만, 일부 청구항(특히 claim 2의 'knowledge domain' 선택)은 명시적 개시보다는 BRI 해석에 의존합니다. 'dictionary alteration'이 'knowledge domain selection'을 포함한다는 해석은 합리적이나, 용어의 직접적 일치는 아닙니다. 단일 문헌 anticipation으로서는 moderate 강도입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "두 선행기술의 결합 동기는 논리적입니다(모두 모바일 환경에서 맥락 기반 음성 시스템 최적화). 그러나 US-2012296654-A1은 TTS 시스템에 관한 것이고, 이를 ASR로 전환하는 것은 유사 기술 간 전환이지만 자명성 판단에서 일부 추론이 필요합니다. POSITA가 이 결합을 명백히(obvious) 수행할 것인가는 해석의 여지가 있습니다. 특히 claim 2-3의 경우 dictionary alteration에서 domain/lexicon selection으로의 세분화가 단순한 구현 선택인지, 아니면 기술적 기여인지 경계선상에 있습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 8, 9, 11, 13, 18, 19, 20에 대한 102 거절은 강력한 근거를 가집니다. US-2014324428-A1이 각 청구항의 모든 구성요소를 명시적으로 개시하고 있으며, similarity scores가 0.88-0.95로 매우 높습니다. 단일 선행기술이 모든 요소를 명시적으로 개시하므로 anticipation이 명확히 성립합니다. 특히 Claim 1의 경우 선행기술의 Claim 8과 Claims 9-14가 contextual information 획득, ASR 엔진 조정, 음성 입력 수신, 인식된 음성 제공의 모든 단계를 구체적으로 개시합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 12, 14에 대한 103 거절(US-2014324428-A1 단독 기반)은 중간 강도의 근거를 가집니다. 선행기술이 'alter the dictionary'를 명시하나, 'knowledge domain 선택'과 'word weighting'은 암시적 개시(implicit match, 0.75-0.8)입니다. 그러나 dictionary 조정이 domain 선택과 가중치 부여를 포함한다는 것은 음성인식 분야의 통상적 이해이므로, 자명한 설계 선택으로 볼 수 있습니다. strictness=0.29를 고려할 때, 이는 출원인에게 유리하게 해석될 여지가 있으나, 기술적 상식에 기반한 obviousness는 성립 가능합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 5, 6, 7, 10, 15, 16, 17에 대한 103 거절(US-2014324428-A1 + US-2012296654-A1)은 중간 강도의 근거를 가집니다. 두 선행기술의 결합은 논리적이나(contextual speech recognition + speech-to-action mapping + bi-directional communication), 일부 요소가 implicit match(0.65-0.78)입니다. 그러나 결합 동기가 명확하고(인식 정확도 향상 및 사용자 확인을 통한 오류 방지), 음성인식 분야에서 사용자 확인 단계와 네트워크 정보 공유는 공지 기술입니다. strictness=0.29를 고려하면 일부 청구항은 보정 가능성이 있으나, 전반적으로 obviousness가 성립 가능합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.08,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 explicitly discloses all elements of claims 1, 3, 8, 9, 11, 13, 18, 19, 20 with high similarity scores (0.75-0.92). The reference teaches: (a) receiving contextual information (location via GPS, speed, ambient noise via microphone) - claims 9-13 of '428; (b) adjusting speech recognition using context by altering dictionary - claim 14 of '428; (c) microphone recording speech - claim 1 of '428; (d) performing speech recognition analysis using context - claim 8 of '428. For claim 3, 'lexicon' and 'dictionary' are synonymous terms in ASR field. For claim 8, the references collectively disclose all four context categories. For claim 9, context derived from device is explicitly taught (microphone, GPS, sensors). The anticipation is clear and well-supported by specific claim citations."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The obviousness analysis provides comprehensive Graham framework with clear motivation to combine. For claims 2, 4, 5, 6, 7, 10, 12, 14, 15, 16, 17: (1) Knowledge domain selection (claims 2, 12) is predictable implementation of dictionary alteration taught in '428 - organizing vocabularies by topic is known ASR technique with clear motivation (improve accuracy by constraining search space). (2) Word weighting (claims 4, 14) is fundamental ASR technique for implementing context-based adjustment - routine engineering with clear motivation. (3) Action-matching adjustment (claims 5, 15) is natural extension of context-based recognition - if context improves word recognition, it logically improves command recognition. (4) User feedback/confirmation (claims 6, 7, 16, 17) is standard practice in speech interfaces circa 2015 for error prevention - follows from basic HCI principles. (5) Context transferability (claim 10) applies known cloud sync techniques to '428's client-server architecture - routine practice. The motivation in each case is well-articulated and follows from common sense, ordinary skill, and predictable use of known techniques per KSR. The combination_threshold=0.45 is easily satisfied."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            2,
+            3,
+            11,
+            12,
+            13,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1이 모든 청구항 요소를 명시적으로 개시하며, 유사도 점수가 0.85-0.9로 매우 높음. Abstract 수준이 아닌 구체적 개시 내용 확인됨. Anticipation 판단이 타당함."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            8,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012296654-A1이 네 가지 카테고리의 contextual information을 모두 명시적으로 나열함. 유사도 0.85로 anticipation 판단 확실함."
+        },
+        {
+          "basis": "102_novelty",
+          "claims": [
+            9,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1이 device 자체의 센서(GPS, 마이크)로부터 contextual information 도출을 명시적으로 개시. 유사도 0.8로 anticipation 확실함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Word weighting이 명시적으로 개시되지 않았으나, statistical ASR에서 공지 기술임. 유사도 0.65 및 0.5로 직접 개시는 약하나, 결합 동기는 명확함. 공지 기술 기반 obviousness 판단은 합리적이나 다소 추론 필요."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Action-matching adjustment가 명시적으로 개시되지 않았으나, context-based recognition 개선을 command matching에 적용하는 것은 논리적 확장. 유사도 0.8 및 0.7로 각 요소는 개시되나 결합은 추론 필요. Predictable optimization 주장은 합리적이나 명시적 교시 부족."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "User confirmation workflow가 well-known UI principle이라는 주장은 타당하나, 선행기술에서 명시적 교시 부족. 유사도 0.75 및 0.7로 각 요소 개시되나 confirmation step 자체는 추론. Common sense 기반 obviousness 판단은 일부 추론 필요."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            7,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "Claims 6/16의 논리 확장으로, user input 수신이 confirmation workflow의 자연스러운 완성이라는 주장은 타당. 그러나 유사도 0.65-0.7로 명시적 교시 약함. Two-step confirmation이 standard practice라는 주장은 합리적이나 선행기술 개시 불충분."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "Cloud synchronization이 2015년 기준 well-known이라는 주장은 타당하나, contextual information transfer 자체는 선행기술에서 명시적 개시 부족. 유사도 0.6으로 약함. Multi-device context sharing이 obvious extension이라는 판단은 일부 추론 필요하나 합리적."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            11,
+            13,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 explicitly discloses all elements of claims 1, 3, 11, 13, and 20 with high similarity scores (0.85-0.95). The reference teaches obtaining contextual information, adjusting ASR engine using contextual information (altering dictionary based on context), receiving user speech input via microphone, and providing recognized speech. For claim 3/13, 'lexicon' and 'dictionary' are interchangeable terms in the field. For claim 11/20, these are merely apparatus/program product formats of the same disclosed functionality. This is explicit anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014324428-A1 discloses altering the dictionary based on contextual information. While 'knowledge domain selection' is not explicitly stated, it is a known implementation method for contextual dictionary adjustment. However, the claim specifies a particular implementation that adds some specificity beyond the general dictionary alteration disclosed. Given strictness=0.47 (slightly lenient), this moderate-strength obviousness should be maintained but is closer to the borderline."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014324428-A1 discloses altering the dictionary based on context but does not explicitly mention word weighting. Word weighting is a standard technique but represents a specific implementation choice. The reference teaches the general concept (contextual adjustment) but not this particular mechanism. Given strictness=0.47, this moderate-strength obviousness is reasonable but relies on inferring a specific implementation from a general disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014324428-A1 focuses on recognition, not action execution. The obviousness relies on combining Yu's contextual recognition with the application's own background statement about command matching. While command execution is known in the field, applying contextual information to action matching adds a functional layer not explicitly taught. The combination motivation is logical but requires inference. Given strictness=0.47, this is a borderline case."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            6,
+            7,
+            16,
+            17
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2014324428-A1 does not disclose user confirmation mechanisms. The obviousness relies on combining Yu with well-known UI practices (confirmation dialogs). While confirmation before action execution is indeed common practice, it represents an additional functional component not suggested by Yu. The motivation (error prevention) is reasonable but the combination adds non-trivial functionality. Given strictness=0.47, this moderate-strength obviousness should be maintained but represents a more significant addition."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            8,
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 and US-2012296654-A1 explicitly disclose the specific types of contextual information falling within the claimed categories: user location (received stimulus/sensed environment), speed of movement (sensed environment), ambient noise (sensed environment), type of command (user interaction), type of message (running application), temperature, time of day. The claim merely groups these explicitly disclosed factors into four categories. This is strong obviousness based on explicit disclosure of the underlying specifics."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            9,
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 explicitly teaches obtaining contextual information from device sensors (GPS, microphone) with components on a single device. This is explicit disclosure that contextual information is derived from the information handling device itself. This is essentially a 102 issue labeled as 103 - the strength is very high."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 provides explicit and detailed disclosures for claims 1, 3, 8, 9, 11, 13, 18, 19, and 20. The reference explicitly teaches: (1) obtaining contextual information from sensors (claims 8-13 of '428 teaching location, speed, ambient noise); (2) adjusting ASR engine using contextual information (claim 8 and 14 of '428); (3) receiving user speech at microphone (claims 1-2 of '428); (4) providing recognized speech based on contextual adjustment (claim 8 of '428). For claim 3, the reference explicitly states 'alter the dictionary based on the contextual information' where dictionary=lexicon. The element-by-element mapping is clear and explicit, not based on inference. Confidence levels (0.85-0.9) support strong anticipation."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection shows two tiers of strength: (1) Strong for claims already anticipated under 102 (claims 1, 3, 8, 9, 11, 13, 18, 19, 20) - these are obvious a fortiori. (2) Moderate for claims 2, 4-7, 10, 12, 14-17 which require additional reasoning. For claim 2 (knowledge domain), the rejection argues this is merely semantic variation of dictionary/lexicon selection - this is reasonable but requires interpretation that 'knowledge domain' = 'specialized dictionary.' For claim 4 (word weighting), the rejection relies on general knowledge that word weighting is fundamental in ASR probability models, supported by '654 showing incremental adjustment - this is plausible but makes assumptions about PHOSITA knowledge. For claims 5-7 (action commitment and confirmation), the rejection relies on common sense UI design and general industry practice rather than explicit prior art disclosure - these arguments are logical but less concrete. For claim 10 (transferability), the rejection relies on well-known cloud sync practices (iCloud, Google) rather than prior art teaching - this is reasonable given modern device ecosystems but is somewhat assumed. The combination_threshold=0.55 suggests moderate standards, and these arguments meet that threshold, but they involve more interpretation than the strong 102 rejections."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 explicitly discloses all elements of claims 1, 3, 9, 11, 13, 19, 20 with high similarity scores (0.8-0.9). The reference teaches: (1) receiving contextual information about user speech; (2) performing speech recognition analysis using contextual information and altering dictionary based on context; (3) microphone recording user speech; (4) providing recognized speech using contextual adjustment. This is clear anticipation by a single reference."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 5, 8, 12, 14, 15, 18 rely on implicit disclosure or reasonable interpretation. For example: (1) Claim 2/12 'knowledge domain selection' is inferred from 'dictionary alteration' - requires interpretation that domain selection = dictionary selection; (2) Claim 4/14 'word weighting' is assumed implementation of dictionary alteration - not explicitly stated; (3) Claim 5/15 'action matching' is inferred from 'performing tasks' - the reference doesn't explicitly describe matching mechanism; (4) Claim 8/18 categories of contextual information are broader groupings of specific examples - reasonable but interpretive. These are plausible but not explicit disclosures."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "For claims where 102 applies with strong evidence, 103 is redundant but equally strong. For claims 2, 4, 5, 12, 14, 15 where 102 is moderate (implicit disclosure), the 103 analysis provides strong alternative grounds: (1) Knowledge domain selection (claims 2, 12) is obvious implementation of context-based dictionary adjustment - routine design choice; (2) Word weighting (claims 4, 14) is fundamental technique in speech recognition - common knowledge; (3) Action matching (claims 5, 15) is inherent in task execution - obvious implementation; (4) These are well-established techniques that PHOSITA would apply without inventive effort."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 8, 18 (contextual information categories) are obvious over combination of US-2014324428-A1 and US-2012296654-A1. Both references teach using various contextual/environmental information for speech systems in the same field addressing the same problem. The combination motivation is clear: both references aim to improve speech performance using context. Combining their disclosed information types into categorical groupings requires only ordinary skill. The references are analogous art with explicit combination rationale."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1이 입력으로 제공되었으며, claims 1, 3, 8, 9, 11, 13, 18, 19, 20의 모든 구성요소를 명시적으로 개시함. 특히 claim 1의 경우 contextual information을 이용한 ASR 조정이 90-95% similarity로 anticipate됨. Claim 3의 lexicon selection은 dictionary alteration teaching으로 85% similarity로 개시됨. Claims 8, 9는 contextual information categories와 device-derived information이 명시적으로 개시됨. 단일 문헌에 의한 anticipation이 명확하여 strong evidence임."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 12, 14에 대해: US-2014324428-A1이 dictionary alteration을 가르치나, claim 2의 'knowledge domain selection'과 claim 4의 'word weighting'은 implicit coverage(70% similarity)에 불과함. 그러나 결합 동기는 합리적임 - knowledge domain organization은 common sense design choice이고, word weighting은 well-known ASR technique임. Combination_threshold=0.33이므로 common sense combination으로 충분함. Evidence는 moderate하나 결합 동기가 명확하여 obviousness 유지 가능. 나의 strictness=0.50(중립)에서는 moderate evidence with clear motivation은 거절 유지에 충분함."
+        },
+        {
+          "basis": "103_obviousness_claims_1_3_8_9_alternative",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 8, 9, 11, 13, 18, 19, 20에 대한 alternative obviousness rejection: 이미 102로 anticipate되었으나, 만약 102가 성립하지 않는다 해도 103은 명백함. Single reference에 90-95% similarity로 모든 요소가 개시되어 있고, differences가 minimal 또는 non-existent함. PHOSITA에게 straightforward and predictable combination임. Strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.28,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1-4, 8-9, 11-14, 18-20: US-2014324428-A1 provides explicit disclosure of core elements including contextual information usage, ASR adjustment via dictionary alteration, and device sensors. The terminology differences ('automated speech recognition engine' vs 'speech recognition analysis') are insubstantial. Word weighting (claim 4) is a reasonable inference from dictionary alteration combined with US-2012296654-A1's parameter modification teaching. Coverage scores 0.65-0.9 indicate strong anticipation. Combination motivation is clear and logical."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 5-7, 15-17: Action execution and confirmation workflows are not explicitly disclosed in references. However, the reasoning relies on (1) implicit action execution in 'searching and navigating' applications, (2) known confirmation interface design principles, and (3) applicant's own specification describing action mapping. The combination motivation is plausible but requires inference. Given combination_threshold=0.44 (below 0.5), these combinations would be considered obvious under moderate scrutiny, but there is room for applicant argument that confirmation workflows add non-obvious user interaction elements."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 10 (transferability): US-2014324428-A1 shows device-server transfer, but extending to device-device transfer requires invoking 'known cloud synchronization techniques' not explicitly cited. The reasoning is persuasive given 2015 technological context, but applicant could argue that applying general cloud sync to context-specific ASR data involves non-obvious implementation choices. The inference from device-server to device-device transfer is reasonable but not explicitly taught."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1, 3, 9, 11, 13, 19, 20: US-2014324428-A1 explicitly discloses all elements with high similarity (0.85-0.95). Single reference anticipation with minimal differences - only terminological variations. Strong evidence supports obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2, 4, 8, 12, 14, 18: While prior art teaches related concepts (dictionary adjustment, contextual information types), the specific claimed features ('knowledge domain', 'weighting', specific categories) require inference about functional equivalence or combination. Evidence is present but requires some interpretation of PHOSITA understanding."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "Claims 5, 6, 7, 15, 16, 17: Prior art teaches speech recognition but the action matching/commitment and user confirmation loop features rely heavily on 'conventional techniques' argument without explicit prior art disclosure. The rejection reasoning depends on applicant's own background admission and general knowledge assertions rather than specific prior art teaching. This represents a weaker evidentiary basis."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1-4, 8-9, 11-14, 18-19, 20: US-2014324428-A1 (Kim) provides explicit disclosure of core method elements with high similarity scores (0.85-0.95). Kim discloses receiving contextual information, adjusting ASR engine using context, recording user speech via microphone, and providing recognized speech. Claims 2-4 involve reasonable extensions: claim 2 (knowledge domain selection) and claim 4 (word weighting) are logical implementations of Kim's dictionary alteration teaching; claim 3 (lexicon selection) is directly taught. Claim 8's contextual information types are collectively taught by Kim and Braho with clear motivation to combine (both improve speech-based systems using context). Claim 9 is directly taught by Kim's sensor-derived context. Apparatus claims 11-14, 18-19 recite conventional hardware performing obvious methods. Program product claim 20 is routine implementation. All obviousness analyses have proper rationale, specific prior art support, and clear combination motivation where needed. Evidence strength is strong across all rejected claims."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            1,
+            3,
+            8,
+            9,
+            11,
+            13,
+            18,
+            19,
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2014324428-A1 explicitly discloses all claim elements with high coverage scores (0.85-0.95). The reference's claims and detailed description provide clear, element-by-element anticipation. For claim 1, all four method steps are explicitly taught. For claim 3, lexicon/dictionary/vocabulary are synonymous terms explicitly disclosed. For claims 8-9, contextual information categories and device-derived context are explicitly disclosed. Apparatus claims 11, 13, 18, 19 and program product claim 20 mirror the method claims with explicit structural/code disclosures in the reference."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            2,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Knowledge domain organization is presented as a predictable variation of disclosed dictionary alteration. While knowledge domains are standard in the field, the reference does not explicitly teach this specific taxonomy. The leap from 'dictionary alteration' to 'knowledge domain selection' involves some interpretive step. However, given combination_threshold of 0.57 and the stated objective of improving recognition accuracy, the motivation is reasonably clear. At strictness=0.60, this moderate-strength obviousness should be maintained as rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            4,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "Word weighting as implementation of dictionary alteration is characterized as 'predictable' and 'standard probabilistic technique.' While word weighting is indeed known in ASR, the reference teaches dictionary alteration without specifying the mechanism. The step from general alteration to specific weighting involves some gap-filling based on PHOSITA knowledge. At strictness=0.60, this represents a borderline case—the reasoning is plausible but requires inferential steps not explicitly taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            5,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Combination of US-2014324428-A1 (context-based recognition) with US-2012296654-A1 (action mapping) is motivated by 'same field' and 'predictable improvement.' Both references address speech systems, providing reasonable motivation. However, US-2012296654-A1's actual teaching of action mapping is not detailed in the analysis—only general references to 'speech-based command systems' are cited. The strength depends on whether US-2012296654-A1 actually teaches the specific action-matching adjustment claimed. Given available evidence and combination_threshold=0.57, this is maintainable but moderate strength."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            10
+          ],
+          "strength": "weak",
+          "reasoning": "Transferability of contextual information between devices is characterized as 'obvious' based on general knowledge that 'data synchronization was commonplace.' However, no specific prior art reference teaches transferring ASR contextual information (user preferences, learned patterns) between devices. This relies heavily on 'common sense' and general technology trends rather than specific teachings. The motivation is plausible (user convenience, multi-device experience) but speculative. At strictness=0.60, this weak obviousness ground should be questioned—it approaches improper use of common sense without specific evidence."
+        },
+        {
+          "basis": "no_rejection",
+          "claims": [
+            6,
+            7,
+            16,
+            17
+          ],
+          "strength": "strong_for_allowance",
+          "reasoning": "Interactive confirmation mechanism (showing estimated recognition results and proceeding only upon user confirmation) is not taught or suggested in prior art. Neither reference addresses this user interface feature. The Office Action correctly identifies lack of teaching/suggestion. These claims present genuine novelty over the prior art of record."
+        }
+      ]
+    }
+  ]
+}

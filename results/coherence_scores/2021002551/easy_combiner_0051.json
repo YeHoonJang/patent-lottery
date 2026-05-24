@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage correctly applies an element-by-element anticipation framework citing specific prior art references, and the final decision and office action properly invoke §103 obviousness with reference to Graham-style considerations (scope of prior art, differences, level of skill), avoiding conflation with other statutes."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout the novelty, office action, and final decision stages, conclusions are anchored to specific claim language (e.g., UV-curing coating material, parallel elevations/depressions) and specific prior art disclosures (US-2013101804-A1 embossing process, US-2012268412-A1 vehicle haptic interfaces)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §102 stage found claims 10, 14, 17, 18, and 19 lacking novelty, but the final decision shifts the rejection basis for all five to §103 obviousness without clearly articulating why the §102 findings were abandoned or what additional elements necessitate the shift to obviousness, creating an unexplained inconsistency between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With a combination_threshold of 0.329 (easy combiner), the examiner readily combines references and accepts weak motivation to combine UV-curing materials with embossing processes, and with strictness of 0.502 (moderate), the final decision appropriately lands on 'amend_suggested' rather than outright rejection, consistent with the profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to suggest amendment follows logically from the accumulated stage analyses: rejected claims were found anticipated or obvious, while allowable claims containing UV-curing material limitations were identified as patentably distinct, and the recommendation to incorporate allowable subject matter into independent form is a rational conclusion from these findings."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021002551",
+    "examiner": "easy_combiner_0051",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 7771,
+      "output_tokens": 442,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis for §102 and invokes Graham factors (scope/content, differences, PHOSITA level, secondary considerations) for §103 obviousness, using the proper legal frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'data/clock mode setting,' 'scrambling polynomial,' 'SDR/DDR'), specific prior art disclosures in US-2013196654-A1 (e.g., its Claim 2 on multiplexing, coexistence message exchange over USB/PCIe), and specification-level distinctions across all analyzed claims."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 stage does not contradict the §102 findings; rather, claims found lacking explicit §102 disclosure (e.g., claims 3, 4, 7, 17) are then subjected to §103 analysis with additional rationale about routine design choices, maintaining logical consistency across stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness at 0.475 (moderately lenient), the examiner allows 13 claims outright and characterizes §103 rejections as 'moderate strength' with explicit acknowledgment that applicant arguments could overcome them, correctly reflecting a neutral-to-lenient examiner rather than a harsh one."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'amend_suggested' decision with mixed rejections and allowable claims flows directly from the accumulated stage analyses: §102 rejections for anticipated claims, moderate §103 rejections for obvious extensions, and allowance recommendations for scrambling/clock mode claims found novel and non-obvious throughout prior stages."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020000414",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 17452,
+      "output_tokens": 422,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

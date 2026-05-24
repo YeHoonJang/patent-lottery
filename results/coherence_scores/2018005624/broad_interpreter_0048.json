@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies element-by-element anticipation analysis for §102 claims (1, 10, 13, 22), Graham/KSR factors explicitly for §103 claims (2, 14), and maintains distinct statutory bases throughout — no cross-statute confusion observed."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Each rejection is tied to specific claim language (e.g., 'offer push module,' 'filter attributes from merchant') and specific passages from US-2012278172-A1 (e.g., claim 5 for merchant filtering, summary for consumer demographics), satisfying evidence-linkage requirements."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "§102 novelty findings for claims 1, 10, 13, 22 are consistently carried forward as §102 rejections in the office action and final decision; claims found novel at §102 are then assessed under §103, and those found non-obvious are allowed — no internal contradictions appear."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.475 (moderate/lenient) and combination_threshold 0.459 (moderate), which is reflected in granting the majority of claims (23 of 29) while rejecting only those with clear prior art support, consistent with a pragmatist broad-interpreter leaning toward allowance on ambiguous evidence."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final 'reject' decision (decision_score 0.35, indicating partial allowance/rejection rather than full grant) directly follows from the accumulated stage analysis: claims 1, 2, 10, 13, 14, 22 rejected per §102/§103 findings, remaining claims allowed, with the overall application rejected pending amendment of independent claims."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2018005624",
+    "examiner": "broad_interpreter_0048",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 18015,
+      "output_tokens": 431,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

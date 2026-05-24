@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The obviousness analysis explicitly invokes Graham factors (scope and content, differences, PHOSITA level, secondary considerations) for each claim, and the §102 analysis performs element-by-element anticipation checks against the cited reference US-2013284480-A1."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout both novelty and obviousness stages, conclusions are tied to specific claim elements (e.g., 'detecting current or rotation speed during impact operating mode,' 'standard deviation,' 'battery voltage weighting') and consistently reference the specific prior art disclosure of US-2013284480-A1."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §103 obviousness findings consistently follow from the §102 novelty findings—claims found novel over US-2013284480-A1 are likewise found non-obvious for the same stated reasons (prior art directed to mechanical layout, lacking any feedback control during impact mode), with no contradictions introduced between stages."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.292 (lenient) and combination_threshold 0.722 (high bar for combining references), which is reflected in the reasoning: no combinations are proposed, all claims are allowed, and ambiguous or borderline features (e.g., battery notification, lookup tables) are resolved in favor of patentability without requiring strong rejections."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final grant decision follows directly and consistently from the prior-stage analyses, where every claim was found novel and non-obvious, and the office action issued a Notice of Allowance for all claims 23–44 with a supporting statement of reasons that tracks the stage-level findings."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021004954",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 12111,
+      "output_tokens": 408,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "case_id": "2020000566",
+  "proceeding_number": "2020000566",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.07142857142857142,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 1, 2, 3의 '집계', '특수 메트릭', '메트릭 테이블', '실행 환경' 등 핵심 기술 용어가 명세서에서 명확히 정의되지 않아 기재요건 위반. 이는 112(a)의 '구체적 설명' 요건을 충족하지 못함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "청구항 1의 결합 동기 부족으로 103 적용 가능성 있음. 그러나 선행기술과의 중첩이 명확하지 않아 동기 설명이 부족함."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술과의 유사성은 존재하지만, 청구항 요소의 전체적 충족이 부족해 명확한 102 근거 부재"
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2015142940-A1의 데이터 집계 및 동적 리소스 모니터링 기술은 결합 동기(자원 최적화)와 구체적 기술 내용(orchestration plugin, network operation tracking)을 명시하여 강력한 103 근거로 판단됨."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "청구항 3의 'plugin module' 및 'virtual machine' 기술은 선행기술의 배경기술과 유사하지만, 명확한 동일성 또는 예측 가능성 증거가 부족하여 중간 강도로 평가됨."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "102"
+      ],
+      "decision": "grant",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is explicitly anticipated by US-2015142940-A1-claim1 with high confidence (0.9), meeting the strictness threshold for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "선행기술(US-2015142940-A1)은 메트릭 집계 및 이상 감시 기능을 명확히 포함하고 있으며, 이는 가상화 환경에서 자원 관리의 논리적 확장으로 간주될 수 있다. 결합 동기(motivation to combine)가 명확하고, PHOSITA가 기술적 문제를 해결하기 위해 당연히 적용할 수 있는 기술적 해결책으로 판단됨."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 핵심 용어('metric entity', 'aggregates' 등)가 명확히 정의되지 않아 기술적 범위 파악이 어려운 점은 명백하지만, 청구항 자체의 구조적 문제보다는 명세서 보완을 통한 보정 가능성이 높아 강도가 중간 수준."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015142940-A1) provides explicit disclosures of system performance indicators, cloud management information, and virtualization operations. The combination of these elements with clear motivation (e.g., tracking dynamic changes, optimizing resource allocation) meets the threshold for obviousness under Graham factors."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims are explicitly or implicitly anticipated by the prior art. The similarity scores (0.55-0.7) and coverage scores (0.45-0.65) demonstrate overlapping technical features, rendering the claims non-novel."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Ambiguous terms like 'metric entity' and 'object entity' lack sufficient definition in the specification. While the prior art provides some context, the claims' indefinite nature weakens their support under 35 U.S.C. § 112(b)."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Prior art combines virtualization metrics and time-series data, but specific structural combinations (metric entities, aggregation triggers, outlier detection) are not explicitly suggested. Graham factors indicate PHOSITA would not find these combinations obvious without guidance."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claim 3's 'object entity' lacks explicit definition in the specification, failing to adequately support its scope under 35 U.S.C. § 112."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The prior art (US-2015142940-A1) explicitly/implicitly discloses all claimed elements with high confidence (0.7-0.8). Graham factors confirm combination motivation and PHOSITA understanding, meeting strictness threshold (0.47)."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Terms like 'population metric' and 'aggregation entity' lack definite structural limitations, but could be clarified through amendment under BRI broad interpretation."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses all elements of claim 1 and provides clear motivation to combine them via PHOSITA knowledge of virtualization orchestration. Graham factors confirm minor differences and existing technical practices support obviousness."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly mentions virtual servers and containers matching claim 3's elements. Coverage score of 0.7 and explicit disclosure meet anticipation criteria."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015142940-A1) explicitly discloses overlapping functionalities (data aggregation, metric tracking, event logging) and provides clear motivation to combine elements (monitoring distributed environments). Graham factors confirm minor differences with no secondary considerations."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claim 3 is directly anticipated by US-2015142940-A1-claim1 with high similarity (0.72) and coverage (0.68) scores exceeding the threshold. The prior art explicitly describes equivalent functionality."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "The Office Action explicitly identifies insufficient written description as the primary issue, citing undefined terms like 'metric entity' and 'object entity' in the claims. These terms lack explicit definitions in the specification, creating ambiguity about their scope and implementation. This directly violates 35 U.S.C. § 112(b), with no evidence of clarification or support in the disclosure."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art explicitly discloses combinable elements (metric data collection, aggregation, dynamic resource management) with clear motivation (improve resource management/anomaly detection). Graham factors confirm PHOSITA would combine these for the claimed functionality."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Specification lacks detail to support 'object entity' limitation despite prior art mentioning similar components. While prior art provides context, specific data structures are not adequately described."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2-20 are explicitly anticipated by US-2015142940-A1 with high confidence (0.75-0.85). The prior art directly discloses overlapping elements (metric storage, object entities, aggregation, lifecycle events) and combination is logically motivated by the art's focus on dynamic resource management and orchestration plugins."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Multiple claims (2,4,6,8,10,12,13,15,17,19) show strong confidence (0.55-0.75) in obviousness due to direct overlaps with prior art (US-2015142940-A1) and clear motivation to combine. Graham factors indicate logical extensions within PHOSITA skill."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 2,4,6,8,10,12,13,15,17,19 have coverage scores above strictness threshold (0.5-0.7), but some (e.g., claim 6) lack explicit metric table references, creating ambiguity in novelty assessment."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "Objections for enablement are noted but lack specific technical details in the provided data, making confidence in this basis low."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Prior art (US-2015142940-A1) explicitly discloses overlapping elements (metric tables, system performance indicators, virtual server tracking) that directly align with the claims. The combination is obvious to a PHOSITA for resource management, and the Graham factors confirm the technical similarity and lack of secondary considerations."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The specification lacks sufficient detail for terms like 'metric entity' and 'object entity,' creating ambiguity. While the Office Action identifies this as a deficiency, the evidence is based on the absence of definitions rather than explicit disclosure, leaving room for interpretation."
+        }
+      ]
+    }
+  ]
+}

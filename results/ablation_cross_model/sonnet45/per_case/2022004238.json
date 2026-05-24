@@ -1,0 +1,511 @@
+{
+  "case_id": "2022004238",
+  "proceeding_number": "2022004238",
+  "gt_issues": [
+    "101",
+    "112",
+    "103"
+  ],
+  "gt_outcome": "Affirmed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.14285714285714285,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims 38-39 anticipation based on US-2012212074-A1 has moderate strength. The prior art teaches resonance-based wireless power transmission, frequency changing, and 'grasping transmitted power' through communication. However, the explicit evaluation device that compares transmitted energy with desired value and determines energy from modulation property of reverse coupling signal represents functional elements that are inferred rather than explicitly disclosed. The anticipation relies on broad interpretation of 'grasping transmitted power' to encompass comparison and feedback logic, which is reasonable under BRI but not unambiguously disclosed. With strictness=0.79, this moderate-strength anticipation should be maintained as it shows substantial overlap with prior art core teachings."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "103 rejection for claims 38-44, 52-57 has strong foundation. US-2012212074-A1 explicitly identifies need to 'grasp transmitted power' and provides frequency/resistance adjustment capabilities. Implementing feedback control (compare measured vs. desired power, adjust frequency accordingly) represents straightforward engineering practice. With combination_threshold=0.34 (low), the motivation from prior art's stated objective plus well-known control principles provides solid obviousness basis. The differences are implementation details (explicit comparator, modulation-based feedback, closed-loop control) that would be obvious design choices to PHOSITA. Claims 40-44 add specific control strategies (frequency approximation/detuning based on power level, resistance variation) that are predictable applications of disclosed capabilities. Claims 52-57 specify system/device implementations using standard techniques (variable resistor, modulation/demodulation, analyzer) which are obvious ways to implement the disclosed monitoring and control functions."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 52, 53, 54 contain clear formal defect - dependency on non-existent claim 37. This is unambiguous 112(d) violation requiring correction. While this is objection rather than rejection, it must be addressed. Strength is strong because the error is objective and verifiable."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 38-43, 52-55: US-2012212074-A1 teaches frequency changer responsive to communication data and discusses power monitoring needs. However, the specific combination of evaluation device comparing to desired value, determining energy from modulation property of reverse coupling signal, and feedback control represents functional equivalence argument rather than explicit teaching. Reference teaches changing frequency based on communication data, but the claimed evaluation device structure and modulation-based determination involve interpretative leap. Motivation to combine exists from reference's explicit discussion of power monitoring needs, and resonance principles support claims 41-42. With strictness=0.88 and combination_threshold=0.34, moderate evidence combined with field knowledge suffices for rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.85,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 52, 53, and 54 explicitly depend from claim 37, which does not exist in the application. This is a clear antecedent basis error that can be verified directly from the claim set itself. The specification confirms the claim set begins at claim 38. This creates definite indefiniteness under 35 U.S.C. § 112(b) and (d) because the scope of these dependent claims cannot be determined without the missing parent claim. This is not a vague allegation but a concrete structural defect with strong documentary evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "112"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.82,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "Claims 52, 53, and 54 each depend from non-existent claim 37. This is an objective structural defect directly verifiable from the claim language itself, not a matter of interpretation. Under 35 U.S.C. 112(d), a dependent claim must reference a claim previously set forth. The absence of claim 37 creates a definite antecedent basis defect that renders these claims indefinite under 112(b) and improper under 112(d). This is a clear-cut violation with no ambiguity - the referenced claim simply does not exist. Strength: STRONG - this is a factual defect that must be corrected."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            38,
+            39
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1 discloses magnetic resonance wireless power transmission with frequency adjustment and wireless communication for power monitoring. However, the critical limitation of 'evaluation device that determines energy transmitted based on modulation property of a reverse coupling signal' is not explicitly disclosed. The reference teaches wireless communication to 'grasp transmitted power' and 'transmit charge level by non-contact communication,' but does not explicitly teach analyzing modulation properties of reverse coupling signals to determine transmitted energy. The novelty analysis itself noted similarity scores of only 0.45-0.55 for the modulation-based energy determination element, and acknowledged this aspect is 'only implicitly suggested.' Under strict 102 standards, implicit suggestion is insufficient for anticipation - all elements must be expressly disclosed in a single reference. However, given my strictness=0.89 and philosophy that 'borderline patents should be rejected to protect the innovation ecosystem,' I find the cumulative disclosure sufficient to support anticipation under BRI."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            40,
+            41,
+            42
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 40-42 relate to using resonance frequency changes to compensate for coupling variations and directional frequency adjustments based on energy comparison. US-2012212074-A1 teaches both frequency changing capability and coupling state modification. The motivation to combine these is strong: (1) the application's own background acknowledges coupling changes due to position/alignment as a known problem, (2) matching resonance frequencies for optimal power transfer is fundamental resonant circuit theory taught to electrical engineering students, (3) the directional control logic (closer frequency = more power, farther = less power) directly follows from basic physics. This represents predictable use of prior art elements according to established principles. The obviousness analysis provides clear Graham factors and strong technical rationale."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            43,
+            44
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 explicitly teaches changing load resistance of the resonance coil. Using resistance variation to adjust resonance frequency is straightforward application of RLC circuit theory - the relationship between resistance, quality factor, and resonant behavior is well-established. Varying excitation current to change effective resistance combines two known techniques (current control + resistance variation) for predictable results. This represents obvious implementation choice within the skill of ordinary practitioners."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            52
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 52 merely specifies implementation details: using a controlled resistive element with control connection to achieve the variable resistance taught in US-2012212074-A1. Electronically controlled variable resistors (digital potentiometers, transistor-based implementations) are standard components. This represents routine engineering implementation without inventive contribution."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            53,
+            54,
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 53-55 relate to base station receiving reverse coupling signals with modulation properties and system integration. US-2012212074-A1 teaches wireless communication for power monitoring and explicitly discloses medical implant applications. Using modulation of coupled signals for data transmission is standard practice in wireless systems. The obviousness analysis correctly identifies that combining the reference's communication teaching with known modulation techniques is predictable. Claim 54 adds only the medical implant limitation expressly taught in the reference. Claim 55 describes system integration already taught."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            56,
+            57
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 56-57 relate to evaluation device with analyzer determining energy from modulation properties, including demodulator implementation. US-2012212074-A1 teaches determining transmitted power via wireless communication. Analyzing modulation characteristics to extract transmitted information is fundamental signal processing - this is what demodulation does by definition. Using a demodulator to analyze modulated signals represents textbook implementation that any communications engineer would employ. This is routine application of known techniques."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            38,
+            39
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1은 청구항 38의 핵심 구성요소들을 명시적으로 개시합니다: (1) 자기 공명 무선 전력 전송 시스템의 공진 코일 및 교류 전원, (2) 통신 데이터 기반 주파수 변경기, (3) 전송 전력 파악을 위한 무선 통신. 'modulation property of reverse coupling signal' 부분은 무선 통신이 본질적으로 변조를 포함한다는 점에서 암묵적으로 개시됩니다. 청구항 39는 의료 임플란트를 명시적으로 개시하는 'implantable micro stimulator'로 충족됩니다. Coverage가 높고(0.65-0.78) 단일 문헌에서 모든 요소가 개시되어 anticipation이 성립합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            43
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술 Claim 6이 '공진 코일의 부하 저항 변경'을 명시적으로 개시하며, 저항 변경이 공진 주파수(Q factor, 공진 특성)에 영향을 미친다는 것은 공진 회로 이론의 기본 원리입니다. PHOSITA는 Q = ωL/R 관계를 알고 있으며, 저항 변경을 통한 공진 주파수 조정은 예측 가능한 설계 선택입니다. 결합 동기가 명확하고 자명성이 높습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            52
+          ],
+          "strength": "strong",
+          "reasoning": "선행기술이 부하 저항 변경 및 '통신 데이터 기반' 제어를 개시합니다. 제어 신호를 통해 저항을 조정하는 것(가변 저항기, 트랜지스터 등)은 전자 회로 설계의 표준 기법이며 공지상식입니다. Claim 37 종속성 오류가 있으나, 청구항 52 고유 요소(저항 소자 + 제어 연결)는 선행기술 및 공지상식의 자명한 결합입니다. Combination_threshold=0.51 기준으로 결합 동기가 충분합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "All claims 38-57 are supported by strong novelty analysis. The prior art US-2012212074-A1 does not disclose the key limitations: (1) determining transmitted energy based on modulation properties of a reverse coupling signal, (2) evaluation device comparing transmitted energy with desired setpoint for feedback control, (3) specific circuit implementations and control strategies. The reference treats power monitoring and communication as separate functions, while the claims integrate these into a unified feedback control system."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The obviousness analysis demonstrates that US-2012212074-A1 does not provide motivation to combine its disclosed features (frequency adjustment for communication, general power monitoring) into the claimed integrated energy feedback control system using reverse coupling signal modulation. The reference's separate treatment of communication and power measurement does not suggest the claimed unified approach. Dependent claims add substantial non-obvious implementation details (sub-cycle modulation, specific circuit topologies, complementary drive schemes, control laws) not taught or suggested by the prior art."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objections regarding antecedent basis (claim 38 using 'the electrical oscillating circuit' without proper introduction) and incorrect dependency references (claims 52, 54, 55) are formal defects that do not rise to the level of rejection under 112. These are minor clarity issues that can be corrected through amendment. The specification provides adequate written description support for the claimed subject matter as evidenced by the allowability determination."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "not_applicable",
+          "reasoning": "The claims are directed to specific technical implementations of control circuits and evaluation devices for wireless energy transmission systems. These are clearly patent-eligible practical applications, not abstract ideas. No eligibility issues identified."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 38-44, 53-57: The prior art US-2012212074-A1 explicitly teaches wireless power transmission with resonant circuits, frequency adjustment based on communication data, and monitoring transmitted power through wireless communication. However, the combination requires inferring that: (1) monitoring transmitted power through communication necessarily implies an evaluation device that compares with desired value, (2) modulation property determination is the implementation method, and (3) feedback control to adjust frequency is the obvious next step. While these are reasonable inferences based on known engineering principles, they represent a multi-step combination of teachings rather than explicit disclosure. The prior art teaches these concepts separately but not in the exact claimed configuration. At strictness=0.55 (moderate), this represents a moderate-strength obviousness case where the combination has clear motivation but requires some technical insight beyond mere aggregation."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            38,
+            39,
+            40,
+            52
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1 teaches magnetic resonance power transmission with frequency adjustment based on communication data and monitoring transmitted power. However, the reference does not explicitly disclose 'evaluation device comparing transmitted energy with desired value' or 'determining energy based on modulation property of reverse coupling signal.' The Office Action relies on broad interpretation that 'monitoring power and adjusting frequency based on feedback inherently involves determining transmitted energy based on signal properties.' This is reasonable BRI but involves some inferential steps. For claim 40, the connection between coupling adjustment and frequency adjustment to 'work against coupling changes' requires combining teachings. For claim 52, the variable load resistance is taught but in context of coupling control, not explicitly as resistive element of claim scope. Anticipation requires all elements in single reference without gaps. Coverage scores (0.62-0.66) reflect moderate but not complete disclosure."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            38,
+            39,
+            40,
+            52
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 provides clear motivation to combine known elements. The reference explicitly states need to 'grasp transmitted power' and 'determine electric power rate,' providing direct motivation for feedback control with energy comparison. Combining frequency control, power monitoring, bidirectional communication, and variable resistance to create closed-loop control represents predictable application of fundamental control theory. The reference teaches all building blocks: (1) resonant power transmission, (2) frequency adjustment mechanism, (3) power monitoring capability, (4) bidirectional communication, (5) variable resistance control. A PHOSITA in electrical engineering would recognize implementing feedback control by comparing actual vs. desired values as routine optimization. The specific implementation of extracting energy information from modulation property represents obvious design choice among known communication techniques (AM, FM, PM). Motivation to combine is clearly established by reference's stated objectives. Under combination_threshold=0.22, this represents straightforward combination with common sense motivation."
+        },
+        {
+          "basis": "112_written_description",
+          "claims": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "Claims 52, 53, 54, 55 contain clear formal defects with non-existent claim dependencies (claim 37 does not exist) and antecedent basis problems (claim 55 references 'recipient of claim 38' but claim 38 recites control circuit apparatus, not recipient). These are unambiguous 112(b) indefiniteness issues that prevent determining claim scope with reasonable certainty. This is strong basis for rejection requiring correction."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claims": [
+            38,
+            39
+          ],
+          "strength": "weak",
+          "reasoning": "US-2012212074-A1이 무선 전력 전송 및 통신을 개시하지만, 청구항 38의 핵심 요소인 '역결합 신호의 변조 특성에 기초하여 전송된 에너지를 결정'하는 평가 장치는 명시적으로 개시되지 않음. Office Action이 '기능적으로 유사하다'고 주장하나, 102 거절은 모든 구성요소의 명시적 개시를 요구함. 'inherent' 주장은 근거가 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            38,
+            39
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1이 주파수 조정 메커니즘, 전력 모니터링을 위한 무선 통신, 통신 데이터 기반 주파수 변경을 명시적으로 개시. 이들을 폐루프 피드백 제어로 결합하는 것은 제어 시스템 분야의 예측 가능한 응용. 결합 동기(효율 최적화 및 의료 기기 안전)가 명확하고, PHOSITA에게 자명한 엔지니어링 실무."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            40,
+            41,
+            42
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1이 결합 변동 문제와 주파수 조정 메커니즘을 모두 개시. 결합 약화 시 공진 주파수에 근접하여 전력 전달 개선하는 것은 공진 결합의 기본 원리. 조건부 제어 알고리즘(전력 낮으면 공진 주파수 근접, 높으면 이격)은 기본 물리학과 피드백 제어 논리의 직접적 응용."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            43,
+            52
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1 Claim 6이 공진 코일의 부하 저항 변경을 명시적으로 개시. RLC 회로에서 저항이 공진 특성(Q factor, 감쇠, 유효 공진 주파수)에 영향을 미친다는 것은 RF 엔지니어링의 공지 사실. 그러나 선행기술은 '결합 상태 변경' 목적으로 저항 변경을 개시하며, '공진 주파수 변경' 목적으로의 응용은 암묵적. PHOSITA에게는 자명할 수 있으나 약간의 해석 도약 필요."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            53,
+            54,
+            55
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1이 송신기, 수신기, 전력 모니터링을 위한 무선 통신을 포함한 완전한 시스템 개시. 결합된 공진 시스템에서 변조된 역결합 신호를 사용하여 전력 정보를 전달하는 것은 무선 전력 시스템의 공지된 통신 기법의 예측 가능한 응용. 기존 공진 결합 경로를 양방향 통신에 활용하는 동기 명확."
+        },
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            56,
+            57
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1이 전송된 전력을 파악하기 위한 무선 통신을 개시. 변조 특성을 결정하고 전력 정보를 추출하는 분석기/복조기 사용은 표준 통신 수신기 설계. 복조기는 변조된 신호에서 정보를 추출하는 통상적 구성요소로, PHOSITA에게 자명한 구현."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "grant",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The obviousness rejection relies on combining US-2012212074-A1's teachings of wireless power transmission, frequency changing, and communication for power monitoring with general feedback control principles. However, the key weaknesses are: (1) The reference changes frequency based on 'communication data' for communication purposes, not for closed-loop energy regulation based on measured-vs-desired comparison. (2) The specific integration of modulation property analysis of reverse coupling signal with comparative evaluation driving resonance frequency adjustment for energy control is not explicitly taught. (3) The motivation to combine relies heavily on general feedback control knowledge rather than explicit teaching in the reference. While the reference provides foundation elements, the specific claimed control scheme represents a non-trivial integration not directly suggested. The rejection's rationale stretches the reference's teachings by conflating 'grasping transmitted power' (monitoring) with 'comparison-based feedback control adjusting frequency for energy regulation' (active control loop). Given combination_threshold=0.44 (requiring clearer motivation), this rejection has moderate strength—there is overlap in concepts but the specific integration lacks explicit teaching or suggestion."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            39,
+            54
+          ],
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 explicitly discloses 'implantable micro stimulator' as a recipient in a wireless power transmission system. This is direct, unambiguous disclosure of a medical implant recipient. The prior art reference was provided as input and contains clear anticipatory disclosure. This is a straightforward 102 rejection with strong evidentiary support."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            38,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            55,
+            56,
+            57
+          ],
+          "strength": "weak",
+          "reasoning": "The obviousness analysis identifies potential 103 issues but lacks sufficient evidence for actual rejection. US-2012212074-A1 teaches frequency changes for communication purposes, not for energy regulation feedback control. The claimed invention's closed-loop energy control system using reverse coupling signal modulation for energy measurement and resonance frequency adjustment represents a fundamentally different technical approach. No clear teaching, suggestion, or motivation exists in the prior art to combine elements for this specific energy regulation purpose. The differences between communication-based frequency modulation (prior art) and energy-feedback-based frequency control (claimed invention) are substantial. Without additional prior art references or stronger evidence of obviousness, these claims should not be rejected under 103."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2012212074-A1 provides substantial foundation for obviousness rejection. The reference explicitly discloses: (1) magnetic resonance wireless power transmission system with resonance coils, (2) frequency changing capability based on communication data, (3) coupling state changing including load resistance variation, (4) wireless communication between transmitter and receiver to grasp transmitted power, and (5) medical implant application (implantable micro stimulator). The missing elements—evaluation device comparing transmitted energy with desired value and determining energy via modulation property—represent predictable combinations of known techniques. Feedback control with setpoint comparison is fundamental in power systems, and modulation-based data encoding is basic in wireless communications. The motivation to combine is compelling: medical implant safety requires precise power control, directly addressed by closed-loop feedback. Given combination_threshold=0.48 (below 0.5), common engineering practice and design choices suffice for motivation. The reference's explicit mention of 'grasping transmitted power' via wireless communication provides clear path to implementing comparison and modulation-based measurement. For dependent claims 41-57, the obviousness is even stronger: resonance frequency matching/detuning for power control follows directly from resonant circuit physics; bridge topologies (claims 46-51) are textbook implementations; resistance variation methods (claims 44-45, 52) are standard; and demodulation (claims 56-57) is fundamental signal processing. No unexpected results or secondary considerations are presented."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.42,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claims": [
+            38,
+            39,
+            53,
+            54,
+            55
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2012212074-A1 discloses wireless power transmission with frequency changing and communication for power monitoring, but the specific closed-loop feedback control (comparing transmitted energy to desired value and adjusting frequency based on comparison) is not explicitly taught. The obviousness determination relies on combining these elements under general feedback control principles. While the motivation exists (prior art teaches need to grasp power for control), the specific implementation of the comparison-based frequency adjustment represents a design choice that requires some inventive step. Given my strictness of 0.60 (moderate), I recognize this falls into the moderate category - there is reasonable basis for obviousness but also room for argument that the specific control algorithm is non-obvious."
+        }
+      ]
+    }
+  ]
+}

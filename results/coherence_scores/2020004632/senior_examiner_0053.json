@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly invokes element-by-element anticipation under §102 for most claims and Graham/KSR-style obviousness analysis (design choice, predictable results, no unexpected results) under §103 for claims 5, 10, 12, and 18, applying statute-appropriate frameworks throughout."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions are consistently tied to specific prior art (US-2012248924-A1), specific claim limitations (π/6 angle, Δ-Y connection, concentrated winding, N=6 harmonic), and specific claim numbers at every stage."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "The §103 obviousness stage defaults all claims to 'non-obvious' with zero confidence ('LLM unavailable — default to non-obvious'), yet the office action and final decision then issue §103 rejections for claims 5, 10, 12, and 18 without any stated rationale bridging this contradiction — the obviousness stage finding is directly contradicted by later stages without explanation."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.422 (moderate-to-lenient), the examiner appropriately resolves ambiguous elements (implied automotive use, Δ-Y alignment of fundamentals) in favor of rejection where evidence is fairly strong, while rating the §103 grounds only 'moderate' strength — consistent with a pragmatist examiner of middle strictness."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §102 novelty findings (strong) and §103 obviousness findings (moderate) articulated in the office action and final weighing, with no unexplained reversal of direction."
+  },
+  "total": 4,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2020004632",
+    "examiner": "senior_examiner_0053",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 9408,
+      "output_tokens": 422,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

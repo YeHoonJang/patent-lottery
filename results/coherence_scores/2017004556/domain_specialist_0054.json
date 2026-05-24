@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The trace correctly applies §102 anticipation using element-by-element correspondence to prior art and §103 using Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) throughout both the obviousness stage and office action."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Conclusions consistently reference specific claim language (e.g., 'installing default policies,' 'generating signed answers'), specific prior art references (US-2012117621-A1, US-2012303808-A1), and specific disclosed features (ZSK/KSK use, load balancing mode, enterprise blacklists)."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "Stage consistency is maintained: claims found non-novel at §102 are rejected on §102 grounds in the office action, claims found novel at §102 are then assessed under §103 (e.g., claims 7, 8, 16 found novel but then rejected as obvious), and claims found non-obvious under §103 (9, 10, 19, 20) are indicated as allowable in both the office action and final decision."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner's moderate strictness (0.523) and moderate combination threshold (0.48) are reflected in a balanced approach—rejecting most claims on strong prior art but acknowledging patentable subject matter in claims 9, 10, 19, 20, and treating borderline combinations (claims 2, 12) with moderate rather than strong rejection language."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject most claims while suggesting amendment for claims 9, 10, 19, and 20 directly follows from the accumulated §102/§103 stage findings, with the allowable claims corresponding precisely to those identified as non-obvious in the obviousness stage."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2017004556",
+    "examiner": "domain_specialist_0054",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14046,
+      "output_tokens": 446,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

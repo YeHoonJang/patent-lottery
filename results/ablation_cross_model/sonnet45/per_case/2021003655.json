@@ -1,0 +1,637 @@
+{
+  "case_id": "2021003655",
+  "proceeding_number": "2021003655",
+  "gt_issues": [
+    "101",
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.14285714285714285,
+  "amend_rate": 0.21428571428571427,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015375456-A1은 두 스캐닝 장치 간의 동기화(synchronous control)를 개시하나, 이는 모니터링 목적입니다. 청구항 7은 스캔 모션과 조사 소스 제어 간의 동기화를 청구합니다. 둘 다 타이밍 조정 문제이지만, 모니터링과 제조는 기술적 목적이 다릅니다. 그러나 combination_threshold=0.34로 낮아, 동기화 개념의 확장 적용은 통상의 기술자에게 자명할 수 있습니다. Strictness=0.79로 엄격한 입장에서, 선행기술과의 유사성이 있고 결합 동기가 논리적으로 제시되었으므로 거절을 유지합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 프로세서 기반 제어를 개시하며, 이는 자동화된 제어를 의미합니다. 청구항 19는 프로세스가 자동화됨을 청구합니다. 모니터링의 자동화와 캘리브레이션의 자동화는 다른 목적이나, 자동화 자체는 제조 분야에서 일반적인 설계 선택입니다. Combination_threshold=0.34로 낮아, 공지 기술로도 자명성을 인정할 수 있습니다. Strictness=0.79로, 자동화가 예측 가능한 결과를 가져오므로 거절을 유지합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            20
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 프로세서 기반 제어를 개시하며, 이는 소프트웨어 구현을 포함합니다. 청구항 20은 비교(comparing)를 수행하는 소프트웨어 프로그램을 청구합니다. 소프트웨어로 비교 작업을 구현하는 것은 컴퓨터 제어 분야에서 일반적인 설계 선택입니다. Combination_threshold=0.34로 낮아, 이는 공지 기술의 예측 가능한 적용으로 볼 수 있습니다. Strictness=0.79로, 소프트웨어 구현이 자명하므로 거절을 유지합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            21
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술은 프로세서 기반 자동 제어를 개시합니다. 청구항 21은 파라미터 조정을 자동으로 수행하는 프로그램을 청구합니다. 측정-비교-조정의 폐쇄 루프 제어(closed-loop control)는 제조 공정 제어 분야에서 잘 알려진 원리입니다. Combination_threshold=0.34로 낮아, 피드백 제어 원리의 적용은 자명합니다. Strictness=0.79로, 자동 조정이 예측 가능한 결과를 가져오므로 거절을 유지합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "Claim 7의 102 거절은 US-2015375456-A1의 'synchronous control of second scanning device with first scanning device'를 근거로 하고 있으나, 선행기술은 두 스캐닝 장치 간의 동기화를 개시할 뿐, 청구항이 요구하는 'scan motion과 irradiation source control 간의 동기화'와는 차이가 있음. BRI 하에서도 'irradiation source control'을 스캐닝 장치의 동작으로 해석하는 것은 다소 확장적 해석임. 그러나 선행기술의 첫 번째 스캐닝 장치가 레이저 빔을 지향한다는 점에서 조사원 제어와 연결될 여지가 있어 moderate로 평가"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2
+          ],
+          "strength": "strong",
+          "reasoning": "Skywriting은 레이저 적층 제조 분야의 공지 기술이며, US-2015375456-A1의 동기화 제어 기술과 결합하는 것은 예측 가능한 설계 선택임. 결합 동기(스캔 정확도 향상, 지연 오류 감소)가 명확하고, PHOSITA가 용이하게 도달할 수 있는 조합임"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            3
+          ],
+          "strength": "strong",
+          "reasoning": "Jump delay, mark delay, polygonal delay는 레이저 스캐닝 시스템의 기본적인 타이밍 파라미터임. 선행기술의 동기화 제어는 필연적으로 이러한 지연 관리를 포함하며, 이들을 캘리브레이션하는 것은 통상의 최적화 작업임"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            4,
+            5,
+            6
+          ],
+          "strength": "strong",
+          "reasoning": "Run-in, run-out, jump motion은 모든 스캐닝 프로세스에 내재된 단계임. 선행기술의 스캐닝 동기화 기술을 이러한 잘 알려진 모션 단계에 적용하는 것은 예측 가능한 응용이며, PHOSITA에게 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8,
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "Duration은 모든 모션의 기본 파라미터이나, 선행기술이 duration 조정을 명시적으로 개시하지는 않음. 그러나 모션 제어 시스템에서 duration은 필수적 파라미터이며, 이를 캘리브레이션하는 것은 통상의 최적화로 볼 수 있음. 증거가 명시적이지 않아 moderate이나, 결합의 자명성은 충분함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "Hatch, scan, line은 적층 제조의 기본적인 패턴 요소임. 선행기술의 스캐닝 제어를 이러한 공지된 패턴 타입에 적용하는 것은 통상의 응용이며 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            12
+          ],
+          "strength": "moderate",
+          "reasoning": "Contour와 hatch 전략은 적층 제조의 기본 개념이나, 선행기술은 이를 명시적으로 개시하지 않음. 그러나 이러한 스캔 전략은 분야에서 널리 알려져 있으며, 선행기술의 모니터링/제어 기능을 이 간격 최적화에 적용하는 것은 예측 가능한 설계 선택임. 공지기술과의 결합으로 103 성립 가능하나, 선행기술 자체가 명시적이지 않아 moderate"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            13
+          ],
+          "strength": "moderate",
+          "reasoning": "Hatch 끝점과 contour 간 거리 측정은 품질 관리 메트릭으로 논리적이나, 선행기술이 이러한 특정 측정을 개시하지 않음. 선행기술의 광학 모니터링을 공간 관계 측정에 적용하는 것은 예측 가능하나, 특정 메트릭 선택에 대한 명시적 교시가 없어 moderate"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14,
+            15
+          ],
+          "strength": "strong",
+          "reasoning": "Laser on/off delay는 레이저 스캐닝 시스템의 기본적인 타이밍 파라미터임. 선행기술의 동기화 제어는 필연적으로 레이저 활성화/비활성화 타이밍을 포함하며, 이를 조정하는 것은 통상의 캘리브레이션임"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "광학 데이터를 전자 저장장치에 저장하는 것은 현대 계측 시스템의 보편적 관행임. 선행기술의 광학 검출과 전자 저장의 결합은 예측 가능한 구현 선택이며 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            17
+          ],
+          "strength": "strong",
+          "reasoning": "캘리브레이션 후 최적화된 설정으로 실제 부품을 제작하는 것은 모든 제조 프로세스의 기본적인 워크플로우임. 이는 캘리브레이션의 목적 자체이며 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            18
+          ],
+          "strength": "strong",
+          "reasoning": "Galvanometer drive voltage 측정은 레이저 스캐닝 시스템에서 스캐너 위치를 결정하는 잘 알려진 기법임. 선행기술의 미러 액추에이터 시스템에 이 공지 측정 기법을 적용하는 것은 통상의 계측 선택임"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "strong",
+          "reasoning": "프로세스 자동화는 현대 제조의 보편적 관행임. 선행기술이 이미 프로세서 제어를 개시하고 있으므로, 이를 자동화된 캘리브레이션으로 확장하는 것은 명백한 진행이며 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "비교 알고리즘을 소프트웨어로 구현하는 것은 현대 컴퓨터 제어 시스템의 표준 접근법임. 이는 통상의 프로그래밍 작업이며 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "비교에 기반한 자동 파라미터 조정은 기본적인 피드백 제어 원리임. Claim 20의 비교 기능에 자동 조정을 추가하는 것은 표준 closed-loop 제어를 구현하는 것이며 자명함"
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술이 개별 구성요소들(레이저 장치, 모니터링 장치, 컴퓨터, 소프트웨어)을 모두 개시하고 있으나, 지연 설정 캘리브레이션을 위한 특정 통합은 명시적이지 않음. 그러나 이러한 구성요소들을 결합하여 closed-loop 캘리브레이션 시스템을 만드는 것은 공지된 피드백 제어 원리를 적용하는 통상의 시스템 통합으로 볼 수 있음. 각 구성요소가 공지된 기능을 수행하며, 통합은 예측 가능한 결과를 위한 표준 엔지니어링임. 그러나 시스템 레벨 청구항이므로 moderate로 평가"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "신규성 판단에서 모든 청구항(2-22)이 novel로 판단되었으며, 선행기술 US-2015375456-A1이 청구항의 구성요소를 완전히 개시하지 않음. anticipating_refs가 모두 빈 배열이고 confidence가 0.7-0.9로 높음. 102 거절 근거 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 판단에서 모든 청구항(2-22)이 non-obvious로 판단됨. 선행기술은 실시간 용융풀 모니터링에 관한 것이고, 청구된 발명은 지연 설정 교정에 관한 것으로 기술적 문제와 접근방식이 상이함. Graham factors 분석 결과 선행기술과의 차이가 명확하고, combination motivation이 부족함. combination_refs가 모두 빈 배열이고 confidence가 0.7-0.9로 높음. 103 거절 근거 없음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "not_applicable",
+          "reasoning": "112 관련 이슈가 신규성 및 진보성 판단에서 제기되지 않음. 청구항 용어가 명확하고 명세서 뒷받침 문제 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "not_applicable",
+          "reasoning": "101 관련 이슈가 제기되지 않음. 청구항은 레이저 적층 제조 공정의 물리적 교정 방법 및 시스템으로, abstract idea 문제 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "none",
+          "reasoning": "신규성 분석에서 모든 청구항(2-22)이 선행기술 US-2015375456-A1에 의해 anticipate되지 않는다고 판단되었습니다. 선행기술은 melt pool 모니터링 시스템에 관한 것이며, 본 출원의 calibration 방법 및 시스템과는 목적과 기능이 본질적으로 다릅니다. 청구항의 특정 파라미터들(skywriting, jump/mark/polygonal delays, run-in/run-out motions, laser on/off delays, hatch pattern parameters 등)은 선행기술에 명시적으로 개시되지 않았습니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "진보성 분석에서 모든 청구항이 non-obvious하다고 판단되었습니다. 선행기술과 본 출원 간의 핵심 차이는 모니터링(monitoring) vs. 캘리브레이션(calibration)이라는 기술적 목적의 차이입니다. Graham 분석 결과: (1) 선행기술은 dual-scanning monitoring system을 개시, (2) 본 출원은 scanner delay parameter calibration을 다루며, 이는 다른 기술적 문제를 해결, (3) PHOSITA가 모니터링 시스템으로부터 calibration 방법을 자명하게 도출하기 어려움, (4) 결합 동기가 명시적으로 교시되지 않음. 제공된 분석에서 combination_threshold=0.72 기준을 적용했을 때, 선행기술 단독으로는 청구항의 특정 calibration parameters와 methods를 자명하게 만들지 않습니다. 다만, 일부 청구항(특히 7, 16, 19, 22)에서 선행기술과의 유사성(similarity 0.4-0.7)이 부분적으로 인정되었으나, 이는 표면적 유사성이며 본질적 기능 차이(모니터링용 동기화 vs. calibration용 timing 조정)를 고려하면 자명성을 뒷받침하기에 충분하지 않습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "none",
+          "reasoning": "명세서 분석 결과, 모든 청구항이 명세서에 의해 적절히 뒷받침됩니다. 제목과 초록이 'calibrating delay settings'를 명시하고, 배경과 서론이 calibration의 필요성을 논의하며, 청구항의 특정 용어들(skywriting, run-in/out, jump motion, delays, hatch patterns 등)이 명세서에 명시되거나 당업계의 주지 용어입니다. Enablement도 충족됩니다."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "none",
+          "reasoning": "청구항들은 레이저 적층 제조 장비를 calibrating하는 공정 및 시스템에 관한 것으로, 제조 공정과 기계에 대한 기술적 개선입니다. Abstract idea가 아니며, 특허 적격성 문제가 없습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.15,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 2-22 are all rejected under 103 based on US-2015375456-A1. The prior art discloses a laser additive manufacturing system with scanning devices, processor control, synchronous operation, and optical monitoring. The claimed calibration parameters (skywriting, delay settings, run-in/run-out motions, jump motion, synchronization, duration, pattern types, contour-hatch spacing, laser on/off delays, optical image storage, galvanometer voltage measurement, automation, software implementation) are either explicitly taught or represent obvious applications of known principles in laser scanning calibration. The combination motivation is clear: improving scan accuracy and reducing defects through systematic calibration. With my strictness level of 0.89 and combination threshold of 0.45, these rejections are well-supported. The prior art provides the structural components and functional principles, and the claimed variations represent predictable optimizations within ordinary skill in laser additive manufacturing."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.25,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 2-21의 103 거절 근거는 US-2015375456-A1이 구조적 구성요소(laser device, scanning device, processor, optical monitoring)를 개시하고, skywriting, run-in/run-out motion, jump/mark/polygonal delay, laser on/off delay 등이 해당 기술분야의 공지기술이라는 점에 기반합니다. 그러나 선행기술은 melt pool monitoring 시스템이지 calibration 시스템이 아닙니다. 결합의 동기는 '정확도 향상'이라는 일반적 목표에 의존하나, 선행기술이 명시적으로 calibration을 시사하지 않습니다. 공지기술 적용의 자명성은 인정되나, 구체적 calibration methodology와의 결합 동기는 중간 정도 강도입니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 12의 103 거절은 orthogonal distance measurement가 표준 geometric definition이라는 점에 기반합니다. 이는 타당하나, 112(b) indefiniteness 거절이 동시에 제기되어 있어 claim scope 자체가 불명확합니다. 103 판단 전에 112(b) 문제 해결이 선행되어야 하나, strictness=0.82 성향상 불명확한 청구항도 거절 유지합니다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claim 22의 102 거절은 US-2015375456-A1이 구조적 구성요소(laser device, monitoring device, computer, software)를 개시하고, synchronous control이 'compares coordinates'와 'adjusts parameters'를 inherently 수행한다는 해석에 의존합니다. 그러나 선행기술의 synchronous control은 real-time melt pool tracking을 위한 것이지, control build 대비 test build의 coordinate comparison을 통한 delay setting calibration을 위한 것이 아닙니다. Inherency 주장은 기능적 결과의 필연성이 아닌 가능성에 기반하여 약합니다. System claim의 functional limitation을 inherency로 anticipation하는 것은 증거가 부족합니다."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "Claim 12의 112(b) indefiniteness 거절은 'distance between contour orthogonal to hatch line'의 문법적 모호성을 지적합니다. 이는 타당한 지적이나, 명세서 검토 없이 판단하기 어렵습니다. 'Orthogonal distance between contour and hatch line'으로 해석 가능하며, 해당 기술분야에서 통상적 의미가 있을 수 있습니다. Moderate 강도로 평가하되, strictness=0.82 성향상 모호성이 있으면 거절 유지 경향입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.52,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claim 7에 대한 103 거절은 US-2015375456-A1의 processor-controlled synchronization 개시에 기초함. 선행기술은 명시적으로 synchronous control을 개시하나, 이는 monitoring 목적임. 청구항은 calibration 목적의 synchronization parameter 조정을 청구함. 선행기술이 synchronization mechanism을 개시하였으나, 이를 calibration에 적용하는 것이 자명한지는 해석의 여지가 있음. 동기(motivation to combine)는 일반적인 정확도 향상 목적으로 제시되었으나, monitoring system을 calibration system으로 전환하는 구체적 교시가 부족함. Coverage score 0.75는 유사성을 보이나, 기능적 목적(monitoring vs. calibration)의 차이가 존재함. Combination threshold 0.46을 고려할 때, 일반적 동기만으로 자명성을 인정할 수 있으나, calibration methodology의 구체적 적용은 비자명할 수 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.45,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "Prior art US-2015375456-A1 teaches synchronous control of scanning devices with a processor. While synchronizing laser irradiation with scan motion is a fundamental principle in laser additive manufacturing, the prior art's synchronous control is between two scanning devices, not explicitly between scan motion and laser source control. However, the principle of synchronization in laser systems is well-established. Given strictness 0.55 (neutral), this moderate evidence supports rejection, but there is interpretive room regarding whether the prior art's synchronous scanning control inherently teaches synchronizing laser control with scan motion."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14,
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "Prior art teaches processor-controlled synchronous scanning. Adjusting laser on/off delays is a known parameter in laser scanning systems. However, the prior art does not explicitly disclose calibrating these specific delay parameters. The motivation to combine relies on general knowledge that timing delays must be adjusted in laser systems. At strictness 0.55, this moderate evidence supports rejection, though the specific teaching of calibrating laser on/off delays is implicit rather than explicit."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "moderate",
+          "reasoning": "Prior art discloses optical detector for monitoring electromagnetic radiation from melt pool. Storing detected optical images electronically is standard practice in monitoring systems. However, the prior art does not explicitly teach storing images for calibration purposes. The motivation relies on common knowledge of data storage practices. At strictness 0.55, this moderate evidence supports rejection, but the specific application to calibration is implicit."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "Prior art teaches processor-controlled system. Automating calibration processes using processors is common practice. However, the prior art does not explicitly disclose automated calibration methodology. The motivation relies on general automation principles. At strictness 0.55, this moderate evidence supports rejection, though the specific application to calibration automation is based on predictable design choice rather than explicit teaching."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            20,
+            21
+          ],
+          "strength": "moderate",
+          "reasoning": "Prior art discloses processor-controlled system. Implementing comparison and adjustment functions in software is standard practice in processor-based systems. However, the prior art does not explicitly disclose software for calibration comparison and adjustment. The motivation relies on general software implementation principles. At strictness 0.55, this moderate evidence supports rejection, but the specific calibration methodology is implicit."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            22
+          ],
+          "strength": "moderate",
+          "reasoning": "Prior art discloses all major hardware components (laser device, scanning device, optical monitoring, processor) and synchronous control. However, the specific calibration methodology of comparing start/stop coordinates and adjusting parameters to match a control build is not explicitly taught. The motivation to combine monitoring with parameter adjustment for calibration relies on general feedback control principles. At strictness 0.55, this moderate evidence supports rejection, but the specific calibration workflow represents a methodological refinement that is predictable but not explicitly disclosed."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "All claims 2-22 are rejected under 103 based on combining US-2015375456-A1 with common knowledge in laser additive manufacturing. The reference discloses core components (laser device, scanning device, optical detector, processor) and synchronous control. However, most specific features (skywriting, delay parameters, run-in/out motion, contour-hatch spacing, voltage measurement, automation) rely on 'well-known' or 'common knowledge' assertions without explicit documentary evidence. The combination threshold is low (0.22), which lowers the bar for obviousness, but many rejections depend on implicit knowledge rather than explicit disclosures. For claims requiring specific calibration parameters (2-3, 8-9, 11-15, 18), the motivation to combine is logical but represents design choices that may not be entirely predictable. For system claims (19-22), the integration of multiple functions is more straightforward. Overall strength: moderate because the rejections are reasonable but rely heavily on common knowledge assumptions."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375456-A1은 두 스캐닝 장치 간 동기화를 개시하지만, 청구항 7의 '스캔 모션과 조사 소스 제어 간 동기화'와는 직접적으로 다릅니다. Office Action은 공지상식(레이저 AM에서 스캔-레이저 동기화의 필요성)에 기반하여 결합 동기를 설명하고 있으나, 선행기술이 모니터링 시스템인 점을 고려하면 calibration 맥락으로의 확장은 일정한 창의성을 요구합니다. Strictness=0.50에서는 moderate 근거로 평가하며, 공지상식 기반 결합이 합리적이므로 거절 유지가 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1이 레이저 빔의 스캐닝을 개시하고, hatch pattern/scan line은 레이저 AM 분야의 공지된 표준 패턴입니다. Office Action은 이를 routine design choice로 설명하고 있으며, 이는 합리적입니다. 통상의 기술자가 스캐닝을 구현할 때 공지된 패턴을 선택하는 것은 자명합니다. Strong 근거로 평가하며 거절 유지가 타당합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            16
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1이 optical detector를 개시하고, 광학 검출 데이터를 전자 저장 장치에 이미지로 저장하는 것은 해당 분야의 공지상식입니다. Office Action의 결합 동기(data analysis, record-keeping, process verification)는 합리적이며, 이는 predictable use of prior art elements에 해당합니다. Strong 근거로 평가하며 거절 유지가 타당합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375456-A1이 프로세서 기반 동기화 제어를 개시하므로 자동화를 시사하지만, 선행기술은 모니터링 시스템이지 calibration 시스템이 아닙니다. 프로세서 기반 시스템의 자동화는 공지상식이나, calibration 프로세스 전체의 자동화로의 확장은 일정한 창의성을 요구합니다. Office Action의 동기(reduce operator variation, improve repeatability)는 합리적이나, moderate 근거로 평가합니다. Strictness=0.50에서는 공지상식 기반 결합이 합리적이므로 거절 유지가 적절합니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            20
+          ],
+          "strength": "strong",
+          "reasoning": "US-2015375456-A1이 프로세서를 개시하고, 프로세서 기반 시스템에서 비교 기능을 소프트웨어로 구현하는 것은 해당 분야의 공지상식입니다. Office Action의 결합 동기(flexible, programmable control)는 합리적이며, 이는 known technique의 적용에 해당합니다. Strong 근거로 평가하며 거절 유지가 타당합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "US-2015375456-A1은 두 스캐닝 장치 간 동기화를 개시하지만, 이는 멜트 풀 모니터링 목적입니다. 본원의 claim 7은 스캔 모션과 조사 소스 제어 간 동기화 파라미터를 다룹니다. 동기화 개념은 유사하나, 모니터링 목적의 동기화를 캘리브레이션 파라미터 조정으로 확장하는 것은 추가적 통찰을 요구할 수 있습니다. 그러나 레이저-스캔 동기화는 해당 분야에서 공지된 설계 선택이므로 moderate 강도로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "레이저 온 지연 조정은 레이저 제조 분야에서 공지된 파라미터 최적화입니다. 선행기술의 동기화 제어 개념과 결합할 동기는 존재하나, 선행기술이 명시적으로 레이저 온 지연 조정을 교시하지는 않습니다. 일반적 공정 최적화로 볼 수 있으나 구체적 캘리브레이션 맥락에서는 추가 고려가 필요하여 moderate 강도로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "레이저 오프 지연 조정은 레이저 온 지연과 유사한 공정 파라미터입니다. 선행기술의 동기화 제어와 결합 가능하나, 명시적 교시는 부족합니다. Claim 14와 동일한 논리가 적용되어 moderate 강도로 평가됩니다."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            19
+          ],
+          "strength": "moderate",
+          "reasoning": "프로세스 자동화는 제조 분야의 일반적 목표입니다. 선행기술은 자동 제어를 개시하나, 전체 캘리브레이션 프로세스의 자동화로 확장하는 것은 일부 추가 통찰을 요구할 수 있습니다. 자동화는 예상 가능한 개선이나 구체적 구현 방법론에 대한 명시적 교시는 부족하여 moderate 강도로 평가됩니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22
+          ],
+          "strength": "strong",
+          "reasoning": "Claim 1이 제공되지 않아 종속항들의 written description 지원을 평가할 수 없습니다. 이는 절차적 결함으로 strong 강도의 거절 근거입니다. 특히 claim 2의 'skywriting process'는 명세서에서 정의되지 않았습니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_number": 22,
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015375456-A1은 레이저 적층 제조 시스템, 광학 모니터링 장치, 프로세서를 개시하고 있어 청구항 22의 기본 구성요소(레이저 장치, 모니터링 장치, 컴퓨터)는 커버됩니다. 그러나 청구항 22의 핵심 기능인 '제어 빌드 중 레이저 스캐닝 시작/정지 좌표 비교'와 '테스트 패턴의 핵심 프로세스 파라미터를 제어 빌드와 일치시키는 조정'은 선행기술에 명시되지 않았습니다. Office Action은 '모니터링 데이터를 프로세스 제어에 활용하는 것이 공지 관행'이라는 일반적 동기를 제시하나, 이는 다소 추상적입니다. 선행기술의 모니터링 시스템(멜트 풀 추적)을 스캐너 지연 설정 보정 시스템으로 확장하는 것이 '예측 가능한 결합'인지는 해석의 여지가 있습니다. 시스템 구성요소의 유사성은 높으나(0.7-0.85), 기능적 목적(모니터링 vs. 보정)의 차이가 있습니다. combination_threshold=0.52를 고려할 때, 이 거절은 경계선상에 있습니다."
+        },
+        {
+          "basis": "112_written_description",
+          "claim_numbers": [
+            20,
+            21
+          ],
+          "strength": "strong",
+          "reasoning": "청구항 20, 21은 claim 1을 참조하나 claim 1이 제공되지 않아, 청구항의 범위를 확정할 수 없습니다. 또한 제공된 명세서가 불완전하여 소프트웨어 프로그램의 구체적 알고리즘, 데이터 구조, 구현 세부사항이 개시되지 않았습니다. Office Action이 지적한 대로, 비교 수행 및 자동 파라미터 조정에 대한 구조적/알고리즘적 개시가 부족하여 통상의 기술자가 과도한 실험 없이 발명을 실시하기 어렵습니다. 이는 명확한 112(a) 위반입니다."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2015375456-A1은 레이저 적층 제조 시스템의 동기화된 스캐닝 및 모니터링을 개시하지만, 본 출원의 핵심인 '캘리브레이션 방법'—즉, 테스트 패턴을 형성하고, 그 특성을 측정하여 control build와 비교하고, 파라미터를 조정하는 일련의 프로세스—를 명시적으로 개시하지 않음. 선행기술은 melt pool 모니터링과 스캔 제어를 다루지만, 이를 '캘리브레이션 목적'으로 사용하는 것은 개시되지 않음. 대부분의 거절은 '공지 기술'(skywriting, delay parameters, run-in/out motion 등)을 선행기술에 결합하는 것에 기반하나, 이러한 결합의 동기가 본 출원의 캘리브레이션 방법을 자명하게 만드는지는 불분명함. 특히 claims 2-21은 claim 1에 종속되는데, claim 1의 전체 방법(테스트 패턴 형성 → 특성 측정 → 비교 → 파라미터 조정)이 선행기술에 개시되지 않았다면, 종속항들도 자명하다고 보기 어려움. Claim 22는 시스템 청구항으로, 선행기술이 구성요소들을 개시하나 'control build의 좌표를 비교하고 test pattern의 파라미터를 조정하는 기능'은 명시적으로 개시되지 않음. 103 거절의 강도는 moderate로 평가됨—공지 기술의 결합이지만, 본 출원의 캘리브레이션 방법 전체를 자명하게 만드는지는 해석의 여지가 있음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on combining US-2015375456-A1 (a melt pool monitoring system) with well-known calibration practices in laser additive manufacturing. The prior art provides strong foundation with high similarity scores for system components (laser device 0.9, optical monitoring 0.8, processor 0.8), but the adaptation from monitoring to calibration represents a functional shift. Many dependent claims (2-17, 19-22) rely on the argument that specific parameters (skywriting, run-in/run-out motion, various delays, pattern types, distances) would be 'obvious' to calibrate. However, the reasoning often conflates 'known in the field' with 'obvious to combine for this specific calibration purpose.' For claims 2-6 (skywriting, delays, run-in/run-out/jump motions), the evidence is moderate - these are known concepts but the prior art does not explicitly suggest calibrating them through the claimed method. For claims 7, 14-15 (synchronization, laser on/off delays), the evidence is stronger due to explicit synchronous control teaching in the prior art. For claims 8-13, 16-17, 19-22 (durations, distances, patterns, automation, software, system), the reasoning relies heavily on 'routine practice' and 'obvious design choice' without strong teaching or suggestion from the prior art. The combination_threshold of 0.57 suggests a moderate bar for obviousness. Given my strictness of 0.60 (slightly above neutral), I find the 103 rejection to have moderate strength overall - some claims show stronger obviousness (7, 14-15, 19-21) while others show weaker grounds (2-6, 8-13, 16-17, 22). The rejection conflates different strength levels across claims."
+        }
+      ]
+    }
+  ]
+}

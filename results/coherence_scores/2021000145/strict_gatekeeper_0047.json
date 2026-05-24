@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §103 analysis properly applies Graham/KSR factors (scope and content, differences, PHOSITA level, secondary considerations) for every claim, and the §112 rejections correctly invoke the written description/enablement standard under 35 U.S.C. 112(a), with no statute confusion."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Every rejection is anchored to specific claim language (e.g., 'single buffer,' 'characters,' 'TCP/UDP') and mapped to specific disclosures in US-2015245409-A1 (e.g., LTE/WiFi interfaces, bandwidth/latency/loss monitoring, dynamic policy application), satisfying the evidence-linked requirement."
+  },
+  "item3": {
+    "score": 1,
+    "justification": "The §102 stage found all claims anticipated by US-2015245409-A1, and the §103 stage consistently builds on that same prior art finding without contradiction, while the office action adds §112 rejections for claims 2, 9, 15, and 17 based on specification-level issues not addressed at §102/103, which is a coherent escalation rather than a contradiction."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "With strictness=0.818 and combination_threshold=0.513, the examiner consistently resolves ambiguities (e.g., implicit UDP support, inherent buffers/assembler) toward rejection and applies a moderate-to-demanding motivation-to-combine standard, consistent with a strict gatekeeper profile."
+  },
+  "item5": {
+    "score": 1,
+    "justification": "The final decision to reject all claims follows directly from the accumulated §103 findings (all claims obvious over US-2015245409-A1) and the §112 findings (claims 2, 9, 15, 17 lack written description support), with no reversal of prior-stage conclusions."
+  },
+  "total": 5,
+  "classification": "legally_coherent",
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 14613,
+      "output_tokens": 453,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

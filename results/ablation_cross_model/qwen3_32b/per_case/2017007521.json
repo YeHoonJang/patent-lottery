@@ -1,0 +1,324 @@
+{
+  "case_id": "2017007521",
+  "proceeding_number": "2017007521",
+  "gt_issues": [
+    "101",
+    "102"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.07142857142857142,
+  "amend_rate": 0.2857142857142857,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": []
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "102",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.0,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1은 청구항 1-20의 모든 구성요소를 개시하며, 선행기술 문헌이 제공되어 있어 명확한 증거가 있음"
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "명세서에서 'acceptability', 'priority ordering', 'maximum distance' 등 핵심 용어들이 명확히 정의되어 있지 않아 구현을 위한 과도한 실험이 필요함"
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.85,
+      "weighing": []
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The prior art reference (US-2011210915-A1) focuses on human body pose estimation and does not disclose the specific streaming computational engine or evaluation functions in the claimed invention. While the Graham factors indicate no clear motivation to combine the prior art with the claimed features, the confidence level (0.7) suggests the rejection is not conclusive. The absence of explicit teaching in the prior art weakens the obviousness argument."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.4,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011210915-A1에 기반한 청구항 4, 6, 9, 10, 13의 진보성 부정 근거는 결합 동기가 명확히 제시되어 있으나, 청구항의 구체적인 차이점이 선행기술과의 자명한 변형에 해당하는지에 대한 명확성은 다소 약한 편이다. 그러나 strictness=0.89에 따라, 자명한 변형이라면 거절 유지."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "strong",
+          "reasoning": "청구항 1, 2, 3, 5, 7, 8, 11, 12, 14, 15, 17, 18, 19, 20은 명세서에서 명확히 정의되지 않은 핵심 용어를 포함하여, 통상 기술자가 발명을 실시하는 데 어려움이 있다. 이는 명확한 112 문제로, 거절 근거가 강하다."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "청구항 1~20은 모두 선행기술 US-2011210915-A1에 의해 개시된 기술과 유사한 구성요소를 포함하며, 청구항의 구체적인 구성이 선행기술에 의해 개시되었는지에 대한 근거가 명확히 제시되어 있다."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102"
+      ],
+      "decision": "reject",
+      "decision_score": 0.2,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "선행기술 US-2011210915-A1이 청구항 1의 모든 요소를 개시함. 선행기술은 시스템, 프로세서, 인구 데이터 수집 구성요소, 인구 데이터 스트리밍 구성요소, 평가 함수, 평가 함수의 수용성 결정, 데이터 통합을 포함하는 것을 명확히 개시함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.53,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "Claims with confidence 0.7 and above (claims 1, 11, 14, 15, 17, 20) have strong anticipation by US-2011210915-A1, which explicitly discloses all elements. These rejections are well-supported by the prior art."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "moderate",
+          "reasoning": "Claims with confidence 0.5-0.7 (claims 2-10, 12-20) show anticipation by US-2011210915-A1 but with some interpretive elements. Given the strictness of 0.47, these moderate rejections are not sufficient to maintain the final rejection, and benefit of the doubt is given to the applicant."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "Claims with confidence 0.5 (claims 5, 6, 10, 18) have weak anticipation due to reliance on inferred elements rather than explicit disclosure. These rejections are not maintained due to the low confidence and strictness threshold."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술과의 차이점이 존재하지만, 통상의 기술자가 결합 동기를 가지며 기술적 개선 효과가 논리적으로 설명됨. 그러나 청구항의 구체적인 구현 방식에 대한 명확한 증거가 부족함"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.35,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1이 모든 청구항의 요소를 개시하고 있으며, 신규성이 명백하게 결여됨"
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "기존 시스템에 최적화 기법 적용은 관련 기술에서 일반적이며, 진보성 판단에 충분한 동기가 있음"
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "US-2011210915-A1이 대부분의 청구항 요소를 포함하고 있으며, 차이점이 통상의 기술자가 결합할 수 있는 단순한 설계 선택으로 간주됩니다. 결합 동기 또한 명확하게 제시되어 있어, 진보성 거절이 명확합니다."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejection is based on the US-2011210915-A1 reference, which is cited and presumably available for review. The reasoning provides a logical motivation to combine and explains why the claimed invention would have been obvious to a person of ordinary skill in the art. However, the similarity score of 0.7 suggests that the reference is not fully aligned with the claims, and the application to a different context may not be as straightforward as the reasoning implies. Thus, the basis is moderate."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "error",
+      "decision_score": 0,
+      "weighing": []
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.58,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The reference teaches a system for determining body position using segments and centroid calculations, which is similar to the claimed invention. While the reference does not explicitly mention a priority ordering of evaluation functions, the reasoning interprets the processing steps as implying such a priority. The motivation to combine is based on known techniques for improving data clustering efficiency, which is plausible but not definitively established. The confidence level (0.75) supports a moderate strength of the obviousness rejection."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "102",
+        "103",
+        "112"
+      ],
+      "decision": "reject",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2011210915-A1이 제공되며, 결합 동기와 Graham 요소가 제시되어 있으나, 청구항의 구체적 개선이 명확한 자명성 여부는 해석의 여지가 있음."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "명세서에서 핵심 용어가 명확히 정의되지 않았고, 구현을 위한 충분한 설명이 부족하여 모호성이 있음. 그러나 명세서가 제공되어 있어 보완 가능성이 있음."
+        },
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술이 모든 청구항 요소를 명백하게 개시하지 않았으며, 일부 청구항은 선행기술에 암시적으로만 포함되어 있어 해석의 여지가 큼."
+        }
+      ]
+    }
+  ]
+}

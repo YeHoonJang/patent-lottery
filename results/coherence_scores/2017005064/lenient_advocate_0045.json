@@ -1,0 +1,35 @@
+{
+  "item1": {
+    "score": 1,
+    "justification": "The §102 stage applies element-by-element anticipation analysis citing specific paragraphs and figures of US-2013242770-A1, and the §103 stage explicitly applies Graham factors (scope/content, differences, PHOSITA level, secondary considerations) consistent with KSR/Graham framework."
+  },
+  "item2": {
+    "score": 1,
+    "justification": "Throughout all stages, conclusions are tied to specific claim language (e.g., the exact formula n_PUCCH,i^(1) = i·N_q^eCCE + n_eCCE,i + N_UE-PUCCH(q)), specific paragraphs ([0045]–[0052], [0050], FIG. 5–8) and particular claim elements (lowest eCCE index, device-specific offset, index i)."
+  },
+  "item3": {
+    "score": 0,
+    "justification": "There is a direct contradiction between stages: the §102 analysis finds all claims anticipated with high confidence (0.93–0.96) by the same prior art that explicitly discloses the exact formula, yet the §103 stage then finds the same claims non-obvious because the 'exact formula' is allegedly not disclosed — this reversal is not reconciled with additional rationale."
+  },
+  "item4": {
+    "score": 1,
+    "justification": "The examiner has strictness 0.292 (lenient), and the final decision resolves doubt in favor of the applicant by recommending amendments and suggesting allowability, consistent with a lenient advocate profile that leans toward grant on ambiguous evidence."
+  },
+  "item5": {
+    "score": 0,
+    "justification": "The final decision ('amend_suggested' with allowability potential) contradicts the §102 stage's unambiguous finding that every claim is anticipated with 0.93–0.96 confidence, and effectively dismisses the §102 rejection based on §103 non-obviousness arguments without explaining why the §102 anticipation finding no longer holds."
+  },
+  "total": 3,
+  "classification": "partially_coherent",
+  "_meta": {
+    "case_id": "2017005064",
+    "examiner": "lenient_advocate_0045",
+    "model": "claude-sonnet-4-6",
+    "usage": {
+      "input_tokens": 8567,
+      "output_tokens": 467,
+      "cache_read_input_tokens": 1547,
+      "cache_creation_input_tokens": 0
+    }
+  }
+}

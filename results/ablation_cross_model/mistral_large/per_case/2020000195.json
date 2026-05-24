@@ -1,0 +1,473 @@
+{
+  "case_id": "2020000195",
+  "proceeding_number": "2020000195",
+  "gt_issues": [
+    "103"
+  ],
+  "gt_outcome": "Reversed",
+  "grant_rate": 0.21428571428571427,
+  "amend_rate": 0.5714285714285714,
+  "examiner_results": [
+    {
+      "examiner": "veteran_strict_0042",
+      "archetype": "veteran_strict",
+      "strictness": 0.793,
+      "combination_threshold": 0.335,
+      "seniority": 0.844,
+      "tech_specialization": 0.625,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The obviousness rejections for claims 1-8 and 10-14 are supported by a combination of US-2012293796-A1 and common knowledge in the art. The motivation to combine these features (e.g., bubble-reducing conduits, hydrophobic surfaces, angled conduits, PMMA, peristaltic pumps) is logical and aligns with routine design choices for a PHOSITA in fluidic systems. The confidence scores (0.74-0.79) and the low combination threshold (0.34) further justify the rejection. Given the strictness level (0.79), these rejections are maintained."
+        }
+      ]
+    },
+    {
+      "examiner": "veteran_strict_0043",
+      "archetype": "veteran_strict",
+      "strictness": 0.875,
+      "combination_threshold": 0.344,
+      "seniority": 0.808,
+      "tech_specialization": 0.622,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection under 103_obviousness for claims 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, and 14 is supported by a clear motivation to combine known techniques (e.g., fill conduits, hydrophobic surfaces, polymeric materials, angled conduits, peristaltic pumps) with the prior art (US-2012293796-A1). The differences are predictable solutions to well-known problems in fluidic systems, and the combination_threshold (0.34) is met. The confidence scores for these rejections are high (0.8-0.85), indicating strong evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0044",
+      "archetype": "lenient_advocate",
+      "strictness": 0.248,
+      "combination_threshold": 0.676,
+      "seniority": 0.402,
+      "tech_specialization": 0.612,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.95,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "선행기술 US-2012293796-A1은 출원인의 핵심 구성요소인 'fill conduit configured to reduce bubbles'를 명시적으로 개시하지 않으며, 출원인의 기술적 기여가 명확히 인정됨. 신규성 근거는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "weak",
+          "reasoning": "선행기술은 출원인의 핵심 구성요소(예: 소수성 표면, 기울어진 도관, PMMA 재질)를 개별적으로나 결합하여 개시하지 않음. 결합 동기 또한 불분명하며, 출원인의 기술적 기여가 진보적 단계로 인정됨. combination_threshold=0.68을 고려할 때, 진보성 근거는 약함."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "명세서는 청구항의 모든 용어를 뒷받침하며, 모호한 용어나 불충분한 설명이 없음. 112 근거는 약함."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항은 자연법칙의 실용적 응용으로, 구체적인 기술적 개선(기포 제거를 통한 측정 정확성 향상)을 제공함. 추상적 아이디어에 해당하지 않음."
+        }
+      ]
+    },
+    {
+      "examiner": "lenient_advocate_0045",
+      "archetype": "lenient_advocate",
+      "strictness": 0.292,
+      "combination_threshold": 0.722,
+      "seniority": 0.407,
+      "tech_specialization": 0.603,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "The objection to the dependency structure of claims 1-15 is procedural and does not challenge the substantive patentability of the claims. The ambiguity can be resolved through minor amendments, and the specification provides adequate support for the claimed features."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "moderate",
+          "reasoning": "The objection to the functional language in Claim 1 ('configured to reduce bubbles') is valid under 35 U.S.C. 112(b), but the specification provides sufficient structural support (e.g., hydrophobic inner surface). Given the strictness level (0.29), this is not a strong basis for rejection and can be addressed through amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0046",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.889,
+      "combination_threshold": 0.448,
+      "seniority": 0.508,
+      "tech_specialization": 0.56,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "strength": "strong",
+          "reasoning": "The combination of US-2012293796-A1 and general knowledge provides clear motivation to combine for addressing bubble interference in optical measurements. The features (e.g., hydrophobic surfaces, angled conduits, PMMA) are well-known in the art, and their application to the prior art system is straightforward. The confidence scores (0.75-0.85) support a strong rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "strength": "strong",
+          "reasoning": "The method claims recite de-bubbling techniques that are routine and well-documented in the art. The motivation to combine these steps with the prior art method is evident from the known problem of bubble interference. Confidence scores (0.75-0.85) indicate strong support for obviousness."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "moderate",
+          "reasoning": "While the limitation to a 'silica analyzer' is not explicitly disclosed in the prior art, the application of the claimed system to a known field (silica analysis) may not sufficiently overcome obviousness. However, the lack of explicit disclosure in the prior art and the absence of clear motivation to combine weaken the rejection. Given strictness=0.89, this is borderline but leans toward rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "The combination of de-bubbling and optical measurement steps is not explicitly disclosed in the prior art, and the synergy between these steps is not clearly obvious. However, the individual steps are well-known, and the motivation to combine them is plausible. Given strictness=0.89, this is borderline but leans toward allowance."
+        }
+      ]
+    },
+    {
+      "examiner": "strict_gatekeeper_0047",
+      "archetype": "strict_gatekeeper",
+      "strictness": 0.818,
+      "combination_threshold": 0.513,
+      "seniority": 0.45,
+      "tech_specialization": 0.496,
+      "pred": [
+        "102",
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.1,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "Claims 1-8 and 10-15 rely on combinations of well-known techniques in fluidic and optical measurement systems (e.g., hydrophobic surfaces, angled conduits, peristaltic pumps, and de-bubbling methods). The prior art (US-2012293796-A1) discloses foundational elements, and the additional features are predictable solutions to common problems. The confidence scores (0.83-0.9) and combination threshold (0.51) strongly support the obviousness rejection. No unexpected results or synergistic effects are demonstrated."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0048",
+      "archetype": "broad_interpreter",
+      "strictness": 0.475,
+      "combination_threshold": 0.459,
+      "seniority": 0.53,
+      "tech_specialization": 0.488,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1
+          ],
+          "strength": "moderate",
+          "reasoning": "선행기술 US-2012293796-A1은 기포 제거의 필요성을 간접적으로 시사하지만, 구체적인 'fill conduit configured to reduce bubbles'를 명시하지 않음. 기포 제거는 공지기술이지만, 필 컨듀잇의 구체적 도입은 통상의 기술자가 쉽게 도출할 수 있는 수준인지에 대한 해석의 여지가 있음. 결합 동기 기준(combination_threshold=0.46)을 충족하지만, 출원인의 기여가 실질적임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "strength": "moderate",
+          "reasoning": "소수성 표면, 고분자 소재, PMMA, 기울어진 필 컨듀잇 등은 기포 제거를 위한 공지기술이지만, 선행기술은 이를 명시하지 않음. 통상의 기술자가 이러한 구체적 설계 선택을 쉽게 결합할 수 있는지는 불분명함. 출원인의 기여가 실질적이지만, 결합 동기 기준이 낮아(0.46) 103 거절 근거로 작용할 수 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "펄리스틱 펌프의 사용은 공지기술이지만, 선행기술은 이를 명시하지 않음. 펌프의 구체적 배치(반응 챔버와 필 컨듀잇 사이)는 통상의 기술자가 쉽게 도출할 수 있는 수준인지에 대한 해석의 여지가 있음."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9
+          ],
+          "strength": "weak",
+          "reasoning": "실리카 분석기로의 한정은 특정 응용 분야로의 적용에 불과하며, 선행기술은 이를 명시하지 않음. 통상의 기술자가 컬러리미터 분석기를 실리카 분석기로 구체화할 동기는 명확하지 않음. 거절 근거로서는 약함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10
+          ],
+          "strength": "moderate",
+          "reasoning": "기포 제거 단계는 공지기술이지만, 선행기술은 이를 명시하지 않음. 통상의 기술자가 기포 제거 단계를 방법에 도입할 동기는 있으나, 출원인의 기여가 실질적임."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "소수성 표면, 기울어진 필 컨듀잇, 고분자 소재 등은 기포 제거를 위한 공지기술이지만, 선행기술은 이를 명시하지 않음. 통상의 기술자가 이러한 구체적 설계 선택을 쉽게 결합할 수 있는지는 불분명함."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "광원을 통한 조명은 선행기술에 명시되어 있지만, 기포 제거 단계와의 조합은 새로운 기술적 특징을 형성함. 통상의 기술자가 이를 쉽게 결합할 수 있는지는 불분명함."
+        }
+      ]
+    },
+    {
+      "examiner": "broad_interpreter_0049",
+      "archetype": "broad_interpreter",
+      "strictness": 0.547,
+      "combination_threshold": 0.553,
+      "seniority": 0.484,
+      "tech_specialization": 0.499,
+      "pred": [
+        "103"
+      ],
+      "decision": "reject",
+      "decision_score": 0.3,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the combination of US-2012293796-A1 and common knowledge in the field. While the fill conduit and its configurations (e.g., hydrophobic surface, polymeric materials, angled conduit) are not explicitly disclosed in the prior art, their use for bubble reduction is a well-known design choice. The motivation to combine is logical, but the lack of explicit prior art disclosure for these specific configurations introduces some interpretive flexibility. Given the examiner's strictness (0.55), this leans toward rejection but with room for argument."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "The de-bubbling step and its specific implementations (e.g., hydrophobic surface contact, tilted conduit) are not explicitly disclosed in the prior art but are well-known techniques in fluid systems. The motivation to combine is reasonable, but the rejection hinges on whether these steps are routine optimizations. Given the examiner's strictness (0.55), this is a borderline case but leans toward rejection."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            9,
+            15
+          ],
+          "strength": "weak",
+          "reasoning": "Claim 9's limitation to a 'silica analyzer' is application-specific and lacks a novel technical feature. Claim 15's combination of illumination direction with de-bubbling does not demonstrate a new technical effect. The rejection is provisional and based on the absence of evidence rather than clear obviousness. Given the examiner's strictness (0.55), this is weak and could be overcome with additional evidence or argument."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0050",
+      "archetype": "easy_combiner",
+      "strictness": 0.461,
+      "combination_threshold": 0.222,
+      "seniority": 0.369,
+      "tech_specialization": 0.522,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "The 103 rejections for claims 1-8 and 10-14 rely on the combination of US-2012293796-A1 with general knowledge of bubble reduction techniques. While the motivation to combine is logical, the combination_threshold=0.22 lowers the bar for obviousness. However, the lack of explicit prior art disclosing the specific implementations (e.g., hydrophobic surfaces, angled conduits, PMMA) introduces some interpretive flexibility. The confidence scores (0.75-0.82) suggest moderate strength, but not overwhelming evidence."
+        }
+      ]
+    },
+    {
+      "examiner": "easy_combiner_0051",
+      "archetype": "easy_combiner",
+      "strictness": 0.502,
+      "combination_threshold": 0.329,
+      "seniority": 0.507,
+      "tech_specialization": 0.563,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, and 14 are based on a combination of US-2012293796-A1 and general knowledge. While the use of hydrophobic surfaces, polymers like PMMA, angled conduits, and peristaltic pumps for bubble reduction is well-known, the specific integration of these features into the claimed colorimetric analyzer may not be explicitly disclosed or suggested in the prior art. The motivation to combine is plausible but not overwhelmingly strong, leaving room for interpretation under the given strictness (0.50)."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0052",
+      "archetype": "senior_examiner",
+      "strictness": 0.517,
+      "combination_threshold": 0.443,
+      "seniority": 0.898,
+      "tech_specialization": 0.482,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.55,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "Claims 1-8 and 10-14 are based on a combination of US-2012293796-A1 and general knowledge. While the motivation to combine is plausible (bubble reduction in optical measurements), the specific configurations (e.g., hydrophobic surfaces, tilted conduits, PMMA) are design choices that may not rise to the level of a clear 'suggestion to combine' under a stricter standard. However, given the combination_threshold=0.44 and the examiner's pragmatic approach, the rejection is justified but not overwhelmingly strong. The confidence scores (0.74-0.80) suggest moderate strength."
+        }
+      ]
+    },
+    {
+      "examiner": "senior_examiner_0053",
+      "archetype": "senior_examiner",
+      "strictness": 0.422,
+      "combination_threshold": 0.521,
+      "seniority": 0.906,
+      "tech_specialization": 0.477,
+      "pred": [],
+      "decision": "grant",
+      "decision_score": 0.9,
+      "weighing": [
+        {
+          "basis": "102_novelty",
+          "strength": "weak",
+          "reasoning": "모든 청구항에 대해 선행기술과의 대비 결과 신규성이 인정되었으며, confidence 수준도 높음 (0.85~0.92). 신규성 근거로 거절할 만한 증거가 없음."
+        },
+        {
+          "basis": "103_obviousness",
+          "strength": "moderate",
+          "reasoning": "진보성 판단에서 모든 청구항이 non-obvious로 평가되었으나, 일부 청구항(예: Claim 1, 10, 15)은 결합 동기가 존재한다는 언급이 있음. 그러나 combination_threshold(0.52)를 초과하지 않으며, confidence 수준도 0.74~0.82로 보통 수준. strictness(0.42)를 고려할 때, 출원인에게 유리하게 판단."
+        },
+        {
+          "basis": "112_written_description",
+          "strength": "weak",
+          "reasoning": "제공된 정보에 따르면 명세서가 청구항을 충분히 뒷받침하며, 모호하거나 불분명한 용어는 없음. 112 근거로 거절할 만한 증거가 없음."
+        },
+        {
+          "basis": "101_eligibility",
+          "strength": "weak",
+          "reasoning": "청구항이 abstract idea에 해당한다는 근거가 없으며, 기술적 특징(기포 제거, 소수성 표면, 재료 선택 등)이 명확히 포함되어 있음. 101 근거로 거절할 만한 증거가 없음."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0054",
+      "archetype": "domain_specialist",
+      "strictness": 0.523,
+      "combination_threshold": 0.48,
+      "seniority": 0.547,
+      "tech_specialization": 0.893,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.6,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection is based on a combination of US-2012293796-A1 and general knowledge in fluid handling and material science. While the motivation to combine is logical, the specific configurations (e.g., hydrophobic surfaces, tilted conduits) are not explicitly disclosed in the prior art. The confidence scores (0.75-0.85) suggest moderate strength, but the strictness threshold (0.52) leans toward granting the benefit of the doubt for some claims, particularly where the combination is not directly suggested by the prior art."
+        },
+        {
+          "basis": "103_obviousness",
+          "claim_numbers": [
+            15
+          ],
+          "strength": "moderate",
+          "reasoning": "The rejection is based on the combination of US-2012293796-A1 and general knowledge. While the step of directing illumination is disclosed, the combination with de-bubbling and conveying steps is not explicitly taught. The confidence score (0.7) is lower than other claims, and the strictness threshold (0.52) suggests this claim may warrant further consideration or amendment."
+        }
+      ]
+    },
+    {
+      "examiner": "domain_specialist_0055",
+      "archetype": "domain_specialist",
+      "strictness": 0.603,
+      "combination_threshold": 0.566,
+      "seniority": 0.545,
+      "tech_specialization": 0.858,
+      "pred": [
+        "103"
+      ],
+      "decision": "amend_suggested",
+      "decision_score": 0.5,
+      "weighing": [
+        {
+          "basis": "103_obviousness",
+          "strength": "strong",
+          "reasoning": "The rejection of claims 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, and 14 under 35 U.S.C. 103 is supported by clear evidence from US-2012293796-A1 combined with common knowledge in the field. The missing elements (e.g., fill conduit, hydrophobic surfaces, polymeric materials, angled conduits, peristaltic pumps) are well-documented techniques in fluid handling and optical analysis systems. The motivation to combine these features is logical and aligns with the combination_threshold (0.57), making the rejection strong."
+        }
+      ]
+    }
+  ]
+}
