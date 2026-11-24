@@ -1,10 +1,10 @@
 # Patent Lottery — Code and Data Release
 
-Companion repository for the paper *"Simulating the Patent Lottery: From Single-Sample Examination to Structured Judgment Space."*
+Companion repository for the paper *"The Patent Lottery: Generating a Structured Judgment Space from Single-Sample Examination"* (EACL 2027 Findings).
 
 This repository contains the pipeline code, configuration files, the 100-case evaluation cohort, the 50-case ablation subset, all per-case experiment results, and the LLM-as-judge coherence scores reported in the paper.
 
-The patent full-text corpus (applicant and prior-art specifications for 14,714 PTAB cases) is released separately due to size; see *Data* below.
+The patent full-text corpus (applicant and prior-art specifications for 15,531 PTAB decisions) is released separately due to size at https://huggingface.co/datasets/Yehoon/ptab_patents; see *Data* below.
 
 ---
 
@@ -29,7 +29,8 @@ The patent full-text corpus (applicant and prior-art specifications for 14,714 P
 │   │   ├── qwen3_32b/per_case/
 │   │   ├── qwen3_8b_local/per_case/
 │   │   └── mistral_large/per_case/
-│   ├── ablation_oversight/per_case/        Control + treatment (oversight) decisions
+│   ├── ablation_oversight/per_case/        Treatment (oversight) decisions; control = main_exp_100 on the 50 shared cases
+│   ├── baselines_pilot10/                  10-case pilot baselines (Appendix H): vanilla/, persona/, gpt_persona/ (single case)
 │   └── coherence_scores/                   LLM-as-judge per-trace scoring (1,400 traces)
 └── requirements.txt
 ```
@@ -55,7 +56,7 @@ For the locally-served Qwen3-8B run, point `LLM_BASE_URL` to a HuggingFace `text
 * **`data/eval_100_enriched_input_v3.json`** — 100 PTAB cases stratified from the 7,698-case source pool (45 Affirmed / 35 Reversed / 15 Affirmed-in-Part / 5 Other with new grounds of rejection). Each case includes claims, full description, and prior-art texts.
 * **`data/ablation_50_cases.json`** — Stratified random sample (`seed=42`) of 50 cases from the 100-case cohort, used by both the cross-model and oversight ablations.
 
-The companion patent corpus covering 14,714 PTAB cases (applicant + prior-art full-text specifications) is released separately. URL is given in the paper.
+The companion patent corpus (applicant + prior-art full-text specifications; 15,531 decisions with the applicant specification, 7,698 with both) is released separately at https://huggingface.co/datasets/Yehoon/ptab_patents (CC BY 4.0).
 
 ---
 
@@ -115,7 +116,10 @@ Scores every trace under `outputs/exp1_full_100/traces/` with Claude Sonnet 4.6 
 
 | Script | Purpose |
 |---|---|
-| `analyze_ablation_oversight.py` | Per-archetype Δ favorable rate + paired permutation test |
+| `oversight_signflip_test.py` | Paired sign-flip permutation test on per-case archetype favorable fractions (Appendix I, Table 11) |
+| `analyze_ablation_oversight.py` | Per-archetype Δ favorable rate with McNemar's test on grant decisions (diagnostic; not the test reported in the paper) |
+| `compute_s101_recall.py` | §101 recall figures reported in Limitations |
+| `compute_additive_baseline.py` | Additive-baseline predictions for the composite archetypes (Appendix B) |
 | `compute_robustness_r.py` | Per-archetype Pearson `r` across the five cross-model runs |
 | `q4_permutation_test.py` | Profile-attributable disagreement permutation test |
 
@@ -158,4 +162,4 @@ Coherence-score files have one JSON per `(case, examiner)` pair under `coherence
 
 Code is released under the MIT License (see `LICENSE`).
 
-The companion patent corpus consists of public USPTO records and is released under CC-BY 4.0 in the linked repository.
+The companion patent corpus consists of public USPTO records and is released under CC BY 4.0 at https://huggingface.co/datasets/Yehoon/ptab_patents.
