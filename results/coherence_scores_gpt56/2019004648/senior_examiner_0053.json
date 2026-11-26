@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The trace uses Graham/KSR-style factors for §103 and element comparisons for §102, but improperly treats a combination of two references as anticipation for claim 8, violating the single-reference §102 framework.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning consistently identifies claim limitations and links them to specific alleged disclosures in US-2014126158-A1 or US-2015123751-A1, even where those mappings are debatable.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The stages materially conflict because claims such as 1 and 5 are found anticipated yet nonobvious, while claims 3, 9, and 13 are initially found nonobvious but later rejected under §103 without explaining the reversal.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The final weighing expressly reflects the examiner's moderately lenient strictness of 0.422 by giving the applicant the benefit of doubt on ambiguous §103 grounds while maintaining stronger novelty rejections.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final decision preserves the supported §102 rejections and explains why amendment rather than an unqualified rejection is appropriate for claims 3, 9, and 13 due to hindsight concerns.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2019004648",
+    "examiner": "senior_examiner_0053",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 10968,
+      "completion_tokens": 494,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

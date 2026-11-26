@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The trace invokes element-by-element anticipation and Graham/KSR-style obviousness factors, but repeatedly imports §103 concepts such as known substitutions, routine optimization, and functional equivalence into §102 conclusions for claims 5, 13, 15, 17, and 20.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The conclusions consistently identify particular claim limitations and link them to named references and disclosures, including higher silanes, plasma gases, curing methods, temperature, power, and metal silicides.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "Claim 20 is labeled non-novel despite an express admission that not all limitations appear in one reference, while the office action later treats those missing limitations under §103 without explaining the changed statutory conclusion.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The rejection-oriented treatment of ambiguous disclosures and optimization ranges expressly reflects the examiner's very high strictness score of 0.889 and strict-gatekeeper profile.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final rejection follows the office action's division of claims between §102 and §103 and provides claim-specific rationales rather than reversing the accumulated conclusions.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2020001845",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 13681,
+      "completion_tokens": 501,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

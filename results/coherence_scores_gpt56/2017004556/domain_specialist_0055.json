@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The §103 analysis invokes Graham/KSR-style factors, but the §102 stage improperly treats obvious variants, general practices, multiple-reference combinations, and even partially disclosed limitations as anticipation.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning consistently identifies claim limitations and links them to specific disclosures in US-2012117621-A1, US-2012303808-A1, or identified DNSSEC practices.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The office action rejects claims 4, 8, 10, 14, 18, and 20 after the obviousness stage found them nonobvious, and claims 5 and 15 are internally labeled nonobvious despite reasoning that expressly calls them obvious, without clearly explaining these reversals.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The final weighing expressly applies the examiner's moderate strictness and technical DNSSEC expertise, treating moderate predictable-design rationales as sufficient while acknowledging interpretive uncertainty.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final rejection follows the office action's claim-by-claim §103 grounds and states rationales based on predictable combinations, routine configuration, standard metadata, and security-consistency principles.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2017004556",
+    "examiner": "domain_specialist_0055",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 12038,
+      "completion_tokens": 721,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

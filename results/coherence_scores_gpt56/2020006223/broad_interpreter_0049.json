@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The trace uses Graham/KSR-style factors for §103, but its §102 stage repeatedly relies on implication, obvious variants, and even two-reference reasoning for claim 11 rather than requiring every element in a single reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning consistently identifies particular claim features and links them to US-2013227111-A1, US-2013272121-A1, or asserted differences such as provisioning specific resource types and separately controlling request classes.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The office action and final decision reject claims 4, 6, 12–14, and 18–20 as obvious even though the dedicated §103 stage found those claims nonobvious, without identifying new evidence sufficient to explain the reversal; the office action also simultaneously lists them as allowable and rejects all claims.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The examiner's high claim-breadth parameter is reflected in broad equivalence findings such as treating queue occupancy as storage-buffer depth and general performance adjustment as provisioning or deprovisioning, while moderate strictness supports resolving several close questions toward rejection.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "Although inconsistent with portions of the earlier §103 stage, the final rejection follows the operative office-action position and expressly explains that the disputed limitations are natural extensions or routine optimizations that did not establish sufficient nonobviousness.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "broad_interpreter_0049",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 15008,
+      "completion_tokens": 681,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

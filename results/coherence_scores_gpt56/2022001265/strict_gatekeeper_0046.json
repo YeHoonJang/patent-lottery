@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The §103 analysis applies Graham/KSR-style factors, but the §102 stage improperly treats combinations of multiple references as anticipation for claims such as 1, 7, 9, 15, 17, 18, and 19 rather than requiring every element in a single reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning repeatedly links claim features—such as separate luma/chroma APS indices, header signaling, update flags, displays, processors, and memory—to identified disclosures in US-2020296365-A1 and US-2013101018-A1 or to specified general knowledge.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "Although the move from novelty to obviousness for claims 8 and 16 is generally explained by common knowledge, the office action states that claims 1–36 are rejected while its listed grounds omit claims 26 and 34 and the preceding analyses address only claims 1–19.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The rejection-focused treatment of implied disclosures and routine design choices, including acknowledgment that weaker overlap is resolved toward rejection, is consistent with the examiner's high strictness of 0.889.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final assertion that all claims are rejected is not fully supported because claim-level final decisions cover only claims 1–19 and no articulated rejection ground is provided for claims 26 and 34 despite the stated rejection of claims 1–36.",
+    "score": 0
+  },
+  "total": 2,
+  "_meta": {
+    "case_id": "2022001265",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 11976,
+      "completion_tokens": 847,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

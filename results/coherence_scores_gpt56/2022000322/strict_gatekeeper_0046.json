@@ -1,0 +1,34 @@
+{
+  "classification": "legally_coherent",
+  "item1": {
+    "justification": "The §103 and §112 analyses use appropriate Graham/KSR-style and specification-support frameworks, but the §102 novelty stage improperly relies on combinations of references and obvious design choices rather than requiring every limitation in a single anticipatory reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning consistently links conclusions to specific claimed features such as PC5_tech, application-code filtering, TTL, and PC7, as well as identified disclosures in three cited patent publications and the specification's asserted omissions.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The later rejection of claims 2–11 and 13–16 under §103 aligns with the earlier obviousness findings, while claim 12's novelty and nonobviousness findings are coherently followed by a distinct §112 rejection based on absent specification support.",
+    "score": 1
+  },
+  "item4": {
+    "justification": "The examiner's high strictness is reflected in resolving routine-design and support ambiguities toward rejection, while still recognizing claim 12 as novel and nonobvious before rejecting it on a separate, stated §112 ground.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final rejection directly follows the accumulated §103 findings for claims 2–11 and 13–16 and the §112 finding for claim 12, with claim-specific rationales and no unexplained reversal.",
+    "score": 1
+  },
+  "total": 4,
+  "_meta": {
+    "case_id": "2022000322",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 10821,
+      "completion_tokens": 402,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

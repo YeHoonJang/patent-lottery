@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The §103 analysis uses Graham/KSR-style factors, but the §102 stage improperly treats combinations of references and obvious or well-known features as anticipation rather than requiring every element in a single reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning consistently identifies specific claim limitations, cited references, and disclosed features such as queue occupancy, load metrics, provisioning, and message piggybacking.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "Claims 12 and 19 are found nonobvious and listed as allowable at earlier stages, yet the office action and final decision reject them, while the office action itself simultaneously lists them as allowable and states that no claims are allowable.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The moderately lenient, pragmatic, senior profile is reasonably reflected by structured Graham analyses, recognition of weak evidence for claims 12 and 19, and an expressly weighed decision rather than automatic rejection based on extreme strictness.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "Although weak for claims 12 and 19, the final decision provides claim-specific reasons for treating batch control as routine rate-control implementation and overperformance as analogous to low load, so the rejection is not wholly unexplained or arbitrary.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2020006223",
+    "examiner": "senior_examiner_0053",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 14694,
+      "completion_tokens": 596,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

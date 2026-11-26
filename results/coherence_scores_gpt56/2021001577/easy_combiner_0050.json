@@ -1,0 +1,34 @@
+{
+  "classification": "legally_coherent",
+  "item1": {
+    "justification": "The trace applies element-by-element disclosure analysis under §102, explicit Graham factors and motivation-to-combine analysis under §103, and specification-support considerations under §112.",
+    "score": 1
+  },
+  "item2": {
+    "justification": "The conclusions repeatedly tie specific limitations—such as the EFT indication, exclusion flag, BIN routing, payment token, and O-PSP/B-PSP architecture—to disclosures missing from US-2013191278-A1.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The notice of allowance and grant consistently follow the earlier findings that all claims are novel and nonobvious over US-2013191278-A1.",
+    "score": 1
+  },
+  "item4": {
+    "justification": "Despite a very low combination threshold of 0.222, the examiner repeatedly rejects even acknowledged motivations and commonplace combinations involving ACH, transaction records, POS terminals, switches, and response routing as insufficient, which does not reflect an easy-combiner profile.",
+    "score": 0
+  },
+  "item5": {
+    "justification": "The final grant is expressly based on the accumulated novelty, Graham-factor, and lack-of-motivation findings and does not reverse any earlier stage conclusion.",
+    "score": 1
+  },
+  "total": 4,
+  "_meta": {
+    "case_id": "2021001577",
+    "examiner": "easy_combiner_0050",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 11103,
+      "completion_tokens": 390,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

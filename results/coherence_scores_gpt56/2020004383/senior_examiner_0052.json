@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The trace misapplies §102 by treating combinations of references and conventional or obvious implementation choices such as hypercalls as anticipation, rather than requiring every claim element in a single reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The analyses identify specific claim limitations, cited references, EPT/GVA/GPA disclosures, and allegedly unsupported specification terms such as “executable-by-user mode” and “application code protector.”",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The novelty stage finds claims 1, 9, and 20 anticipated, while the obviousness stage finds those same claims nonobvious over the cited art, and the office action nevertheless maintains §102 combinations without reconciling those findings.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The mixed and pragmatic treatment of the evidence, culminating in rejection based on the stronger §112 ground while acknowledging weaknesses in obviousness, reasonably reflects the examiner’s moderate strictness and high seniority.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final rejection is expressly grounded in the accumulated §112 concerns over undefined execution modes, functional elements, kernel-space ambiguity, and guest-hypervisor permission coordination, so it does not arbitrarily reverse the overall prosecution direction.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2020004383",
+    "examiner": "senior_examiner_0052",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 11861,
+      "completion_tokens": 502,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

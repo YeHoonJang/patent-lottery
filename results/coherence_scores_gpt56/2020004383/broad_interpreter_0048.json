@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The §103 analysis applies Graham/KSR-style factors, but the §102 stage improperly relies on combinations of references and 'obvious variations' rather than requiring every limitation in a single anticipating reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning repeatedly links claim limitations such as EPT mappings, hypercalls, and executable permission modes to identified disclosures in US-2016364341-A1 and US-2012254995-A1.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The office action asserts that US-2016364341-A1 alone anticipates all claims even though the earlier novelty analysis relied solely on US-2012254995-A1 or a two-reference combination for several claims, without explaining that change.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The broad claim interpretation and willingness to treat implied security functions as satisfying limitations reflect the examiner's high claim-breadth setting, while the moderate strictness and combination threshold are consistent with rejection based on assertedly strong evidence.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final rejection follows the preceding §103 findings and expressly relies on the identified references, motivation to combine, routine implementation rationale, and absence of unexpected results.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2020004383",
+    "examiner": "broad_interpreter_0048",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 13314,
+      "completion_tokens": 447,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

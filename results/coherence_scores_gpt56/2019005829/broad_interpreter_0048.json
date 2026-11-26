@@ -1,0 +1,34 @@
+{
+  "classification": "legally_coherent",
+  "item1": {
+    "justification": "The §103 analysis expressly applies the Graham factors, but the §102 stage repeatedly treats similarity, natural inference, or analogous metadata as anticipation rather than requiring direct and unambiguous disclosure of every limitation by one reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning consistently identifies claim limitations—such as SKU codes, APIs, purchase history, real-time delivery, and packet-based networking—and links them to specified disclosures in US-2014180802-A1 or US-2013179495-A1.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "Although the office action reverses the earlier nonobviousness findings for claims 4, 12, and 23, it states additional rationales based on conventional identifiers and ubiquitous packet networking, while consistently preserving the API distinction for claims 7 and 18.",
+    "score": 1
+  },
+  "item4": {
+    "justification": "The broad-interpretation profile is reflected in repeated use of BRI, functional equivalence, and conventional implementations, while the examiner’s moderate strictness is consistent with rejecting most claims but preserving the specifically recited API features.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The amend-suggested decision follows the office action and accumulated §103 analysis by rejecting the claims deemed obvious and recommending incorporation of the API limitations from claims 7 and 18.",
+    "score": 1
+  },
+  "total": 4,
+  "_meta": {
+    "case_id": "2019005829",
+    "examiner": "broad_interpreter_0048",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 16650,
+      "completion_tokens": 816,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

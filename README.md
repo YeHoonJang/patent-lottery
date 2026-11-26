@@ -31,7 +31,8 @@ The patent full-text corpus (applicant and prior-art specifications for 15,531 P
 │   │   └── mistral_large/per_case/
 │   ├── ablation_oversight/per_case/        Treatment (oversight) decisions; control = main_exp_100 on the 50 shared cases
 │   ├── baselines_pilot10/                  10-case pilot baselines (Appendix H): vanilla/, persona/, gpt_persona/ (single case)
-│   └── coherence_scores/                   LLM-as-judge per-trace scoring (1,400 traces)
+│   ├── coherence_scores/                   LLM-as-judge per-trace scoring, Claude Sonnet 4.6 (1,400 traces)
+│   └── coherence_scores_gpt56/             LLM-as-judge per-trace scoring, GPT-5.6 Sol (same 1,400 traces)
 └── requirements.txt
 ```
 
@@ -112,6 +113,18 @@ python scripts/score_coherence_llm.py
 
 Scores every trace under `outputs/exp1_full_100/traces/` with Claude Sonnet 4.6 on the 5-item legal coherence checklist.
 
+```bash
+python scripts/score_coherence_gpt.py --n 1400
+```
+
+Scores the same traces with GPT-5.6 Sol using the same checklist and prompt (output under `outputs/coherence_scores_gpt56/`).
+
+```bash
+python scripts/aggregate_coherence_scores.py
+```
+
+Recomputes `_aggregate.json` from the per-trace files (`--dir results/coherence_scores_gpt56` for the second judge). Each trace's total is the sum of its five item scores (the judge's own `total` field is one point low in 8 of 1,400 traces).
+
 ### Analysis scripts
 
 | Script | Purpose |
@@ -120,6 +133,8 @@ Scores every trace under `outputs/exp1_full_100/traces/` with Claude Sonnet 4.6 
 | `analyze_ablation_oversight.py` | Per-archetype Δ favorable rate with McNemar's test on grant decisions (diagnostic; not the test reported in the paper) |
 | `compute_s101_recall.py` | §101 recall figures reported in Limitations |
 | `compute_additive_baseline.py` | Additive-baseline predictions for the composite archetypes (Appendix B) |
+| `aggregate_coherence_scores.py` | Summary statistics of the coherence scores (Section 5.3, Appendix D) |
+| `compare_coherence_judges.py` | Agreement between the two coherence judges (Section 5.3, Appendix D) |
 | `compute_robustness_r.py` | Per-archetype Pearson `r` across the five cross-model runs |
 | `q4_permutation_test.py` | Profile-attributable disagreement permutation test |
 
@@ -154,7 +169,7 @@ Each `per_case/<proceeding_number>.json` has the shape:
 }
 ```
 
-Coherence-score files have one JSON per `(case, examiner)` pair under `coherence_scores/<case>/<examiner>.json` with five-item binary scores, a justification string per item, and a total ∈ {0,…,5}.
+Coherence-score files have one JSON per `(case, examiner)` pair under `coherence_scores/<case>/<examiner>.json` (Claude Sonnet 4.6) and `coherence_scores_gpt56/<case>/<examiner>.json` (GPT-5.6 Sol) with five-item binary scores, a justification string per item, and the judge-reported total ∈ {0,…,5}. Aggregate statistics use the sum of the five item scores (`_aggregate.json`).
 
 ---
 

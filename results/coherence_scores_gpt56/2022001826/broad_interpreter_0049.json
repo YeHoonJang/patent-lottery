@@ -1,0 +1,34 @@
+{
+  "classification": "legally_coherent",
+  "item1": {
+    "justification": "The trace uses element comparison for §102 and Graham/KSR-style factors for §103, but fails this item because its purported §112 written-description grounds actually apply an indefiniteness analysis and incorrectly invoke §112(d), while claim 19 is deemed anticipated despite admitted missing elements.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The conclusions consistently identify specific limitations—such as dynamic redaction, layer manipulation, virtual coordinates, advertisements, and screenshot storage—and compare them with US-2013167249-A1 or identified specification terminology.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The office action and final decision generally preserve the novelty, obviousness, and allowability findings from the earlier stages, and any softening of the §103 conclusions is expressly justified by concerns about motivation to combine.",
+    "score": 1
+  },
+  "item4": {
+    "justification": "The broad claim interpretation is reflected in expansive readings of dynamic redaction and contextual identification, while the examiner's moderate strictness and combination threshold are reflected in a balanced mix of rejections, grants, and amendment recommendations.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final decision follows the accumulated analysis by maintaining the stronger §102 rejections, granting claims previously found nonobvious, and recommending amendment where §103 motivation or §112 clarity remained uncertain.",
+    "score": 1
+  },
+  "total": 4,
+  "_meta": {
+    "case_id": "2022001826",
+    "examiner": "broad_interpreter_0049",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 13768,
+      "completion_tokens": 718,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

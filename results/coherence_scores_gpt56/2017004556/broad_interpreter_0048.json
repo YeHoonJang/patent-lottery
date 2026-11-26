@@ -1,0 +1,34 @@
+{
+  "classification": "legally_coherent",
+  "item1": {
+    "justification": "The §103 analysis applies Graham/KSR-style factors, but the §102 stage improperly combines disclosures from US-2012117621-A1 and US-2012303808-A1 for claims such as 1 and 11 rather than requiring every element in a single anticipating reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning repeatedly links claimed features—such as policy access, DNSSEC signing, storage, resolver-IP processing, and policy updates—to identified disclosures in the two cited references.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The office action and final rejection consistently maintain the earlier conclusion of unpatentability and provide a combination rationale under §103 without reversing any material stage finding.",
+    "score": 1
+  },
+  "item4": {
+    "justification": "The broad claim interpretations and willingness to treat routine DNS practices as teaching or suggesting limitations accord with the examiner’s high claim-breadth setting, while the articulated common-purpose rationale fits the moderate combination threshold.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final rejection follows directly from the claim-specific obviousness findings, stated motivation to combine, predictable-results rationale, and absence of persuasive secondary considerations.",
+    "score": 1
+  },
+  "total": 4,
+  "_meta": {
+    "case_id": "2017004556",
+    "examiner": "broad_interpreter_0048",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 10281,
+      "completion_tokens": 424,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The §102 novelty analysis improperly relies on combinations of references and “obvious” modifications rather than requiring every claim element in a single anticipating reference, despite the later §103 analysis correctly using Graham/KSR considerations.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning consistently identifies particular claim features and links them to disclosures in US-2015351681-A1, US-2013226408-A1, or specified known technologies such as V2V communication and sensor fusion.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The trace is internally inconsistent because claims 7 and 12 are marked “is_obvious: false” while their reasoning says they are identical to or obvious over the prior art, and both are later rejected under §103 without explaining the discrepancy.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The examiner’s high strictness is reflected in maintaining moderately supported rejections of claims 9–10 while allowing only claims 14–15, for which the trace finds clearer nonobvious distinctions.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final claim outcomes substantially follow the office action and accumulated substantive reasoning, with claims 1–13 rejected and claims 14–15 identified for amendment into allowable independent form.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2021004143",
+    "examiner": "strict_gatekeeper_0047",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 10669,
+      "completion_tokens": 651,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

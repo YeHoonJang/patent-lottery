@@ -1,0 +1,34 @@
+{
+  "classification": "legally_coherent",
+  "item1": {
+    "justification": "The trace applies the single-reference, all-elements anticipation framework under §102 and expressly analyzes the Graham factors, claim differences, PHOSITA, and motivation to combine under §103.",
+    "score": 1
+  },
+  "item2": {
+    "justification": "The reasoning links limitations such as buffers, assemblers, path metrics, feedback, intermediate nodes, TCP, and UDP to specific teachings or omissions in US-2015245409-A1 and identified networking knowledge.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The novelty stage is internally inconsistent because claims 1 and 15 are marked “is_novel: false” even though their reasoning states that missing buffers and assemblers prevent complete anticipation, and claim 17 is similarly marked non-novel despite acknowledging incomplete disclosure.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The examiner’s low combination threshold of 0.222 is repeatedly reflected in accepting common networking components and design incentives as sufficient for §103 combinations, while the moderate strictness permits allowance of the more uncertain UDP claims.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final amend-suggested disposition follows the §103 and office-action analyses by rejecting claims supported by the multipath reference plus common knowledge, identifying claims 7 and 14 as allowable, and recommending incorporation of their UDP limitation.",
+    "score": 1
+  },
+  "total": 4,
+  "_meta": {
+    "case_id": "2021000145",
+    "examiner": "easy_combiner_0050",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 12087,
+      "completion_tokens": 747,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

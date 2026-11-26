@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The trace applies single-reference, element-focused anticipation under §102, expressly uses Graham/KSR-style factors under §103, and compares claim language with specification support under §112.",
+    "score": 1
+  },
+  "item2": {
+    "justification": "The analyses identify specific limitations, cited references US-2016140851-A1 and US-2016274578-A1, and specification paragraphs such as ¶¶0022, 0025, and 0034.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The later stages inconsistently extend defects in dependent claims 4 and 12 to rejection or amendment of their parent claims 1, 3, 9, and 11, even though the stated §112 grounds attach only to the dependent claims.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "Despite the examiner's low 0.329 combination threshold, the §103 analysis repeatedly declines combinations even where it acknowledges logical motivations, known QoS, geofencing, emergency procedures, APIs, and predictable safety benefits.",
+    "score": 0
+  },
+  "item5": {
+    "justification": "The overall rejection follows the Office Action's identified §112 defects concerning QCI=1, standardized APIs, and C2-based location tracking, and the final decision expressly weighs those grounds.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2018008516",
+    "examiner": "easy_combiner_0051",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 12624,
+      "completion_tokens": 727,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

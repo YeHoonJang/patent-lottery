@@ -1,0 +1,34 @@
+{
+  "classification": "legally_coherent",
+  "item1": {
+    "justification": "The §103 analysis properly applies Graham/KSR concepts, but the §102 stage repeatedly relies on combinations, similarity, obvious variants, and inherency-like assumptions rather than requiring every limitation in a single reference.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning consistently identifies particular claim limitations—such as SKU codes, API calls, metadata, and offer-engine querying—and links them to named prior-art references or general knowledge.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "Although the office action reverses the initial nonobviousness findings for claims 4, 7, 16, and 18, it expressly justifies the reversals through standard retail identifiers and conventional API implementation.",
+    "score": 1
+  },
+  "item4": {
+    "justification": "The low combination threshold is reflected in the ultimate acceptance of predictable combinations and routine design choices despite references from different application contexts.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final rejection follows the office action's claim-by-claim §103 rejections and expressly weighs the SKU and API limitations as moderately strong but ultimately obvious.",
+    "score": 1
+  },
+  "total": 4,
+  "_meta": {
+    "case_id": "2019005829",
+    "examiner": "easy_combiner_0050",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 16244,
+      "completion_tokens": 594,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

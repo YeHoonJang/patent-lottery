@@ -1,0 +1,34 @@
+{
+  "classification": "partially_coherent",
+  "item1": {
+    "justification": "The §103 analysis applies Graham/KSR-style factors, but the §102 analysis improperly treats implied features, routine variants, and obvious extensions as anticipation rather than requiring every limitation in one reference expressly or inherently.",
+    "score": 0
+  },
+  "item2": {
+    "justification": "The reasoning repeatedly links claim limitations such as dynamic workflows, timed prompts, escrow agents, and geographic scheduling to identified modules in US-2014143129-A1.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The trace inconsistently finds all limitations anticipated under §102 while later admitting under §103 that features such as timed follow-up, signed documents, escrow agents, geographic processing, and government recordation are not explicitly disclosed.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The rejection-oriented treatment of ambiguous disclosures and the express statement that weak evidence is resolved toward maintaining rejection align with the examiner's high strictness score of 0.889.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final rejection on §103 grounds follows the earlier obviousness findings for every claim and reiterates the cited reference, claimed extensions, motivation, and absence of secondary considerations.",
+    "score": 1
+  },
+  "total": 3,
+  "_meta": {
+    "case_id": "2017011221",
+    "examiner": "strict_gatekeeper_0046",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 11685,
+      "completion_tokens": 387,
+      "cached_prompt_tokens": 0
+    }
+  }
+}

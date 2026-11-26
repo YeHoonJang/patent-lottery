@@ -1,0 +1,34 @@
+{
+  "classification": "legally_coherent",
+  "item1": {
+    "justification": "The trace applies element-specific anticipation under §102 and expressly analyzes the Graham factors, PHOSITA knowledge, and motivation under §103, although its treatment of the dependent claims is imperfect.",
+    "score": 1
+  },
+  "item2": {
+    "justification": "The conclusions identify specific claim limitations—such as unstructured-text filtering, intermediary ratings, NLP query construction, and GUI formatting—and compare them with disclosures in US-2016140466-A1.",
+    "score": 1
+  },
+  "item3": {
+    "justification": "The trace finds the core subject matter of claim 1 non-obvious yet rejects claims 3, 10, and 17 based only on an added GUI-formatting limitation, without explaining how claims containing the otherwise non-obvious base limitations become obvious as a whole.",
+    "score": 0
+  },
+  "item4": {
+    "justification": "The examiner's high claim-breadth setting is reflected in broadly reading monitoring and notifications as supporting routine GUI presentation, while the moderate strictness and combination threshold are consistent with allowing claims having clearer technical distinctions.",
+    "score": 1
+  },
+  "item5": {
+    "justification": "The final amend-suggested outcome and claim-level decisions track the office action's §103 rejection of claims 3, 10, and 17 and allowance direction for the remaining claims, with an express assessment of the rejection as moderate.",
+    "score": 1
+  },
+  "total": 4,
+  "_meta": {
+    "case_id": "2020006000",
+    "examiner": "broad_interpreter_0049",
+    "model": "gpt-5.6-sol",
+    "usage": {
+      "prompt_tokens": 10335,
+      "completion_tokens": 710,
+      "cached_prompt_tokens": 0
+    }
+  }
+}
